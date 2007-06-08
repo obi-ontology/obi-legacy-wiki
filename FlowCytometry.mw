@@ -1,0 +1,49 @@
+
+Describe [[FlowCytometry]] here.
+
+Flow Cytometry
+Ryan Brinkman (rbrinkman@bccrc.ca)
+
+Data_filtering	transformation of data that derives a subset from a larger data set
+
+Gating	The deterministic filtering of a dataset  based solely on unaggregated intrinsic characteristics of members of the dataset.
+
+Normalization	transformation of data by scaling measured values in order to create a common basis for comparison
+
+Parameter_combination	 transformation of data to create of a new parameter; the value is computed as a result of a function applied on the existing parameter values.
+
+Linear''parameter''combination	A parameter combination using a first degree polynomial to linearly combine parameters. The first degree polynomial is defined as f(parameter''1, parameter''2, ..., parameter''n, a1, a2, ..., a''n, b) = a''1'''parameter''1+a''2'''parameter''2+�+a''n*parameter''n + b, where a_1 � a''n are real constants, b is a real constant, parameter''1 � parameter_n are source parameters.
+
+Parameter_scaling	transformation of data involving the creation of a new parameter solely based on a single source parameter.
+
+Log''transformation	Parameter scaling using a logarithmical function. The logarithmical function is defined for positive parameter values as f(parameter, logbase, r, d) = log''logbase_(parameter) * r/d, where parameter is the source parameter, logbase is the base of the logarithm (e.g., 10, e), r and d are positive real constants. The function is defined as 0 for non positive parameter values.
+
+Logicle_transformation	Parameter scaling using a logicle function (a subset of all biexponential transformations). The logicle function is defined as logicle(parameter, T, w, m) <code> root(S(y, T, w, m) - parameter), where root() is a standard root finding algorithm (e.g., Newton's method) that finds y such that S(y, T, w, m) </code> parameter. The S function is defined as follows: if(y &#8805; w): S(y, T, w, m) = Te^(-(m-w)) * (e^(y-w) � p^2*e^(-(y-w)/p) + p^2 � 1), otherwise: S(y, T, w, m) = - S(w � y, T, w, m), where the operands T, and m are positive real constants, w is a non-negative real constant, e is the base of natural logarithm and parameter is the source parameter. The logicle function is defined in Parks D.R., Roederer M., Moore W.A. (2006). A new �Logicle� display method avoids deceptive effects of logarithmic scaling for low signals and compensated data. Cytometry A 69, 541-551.
+
+Hyperlog_transformation	"Parameter scaling using a hyperlog function. The hyperlog (HL) function is defined as follows: HL(parameter, b, d, r) = root(EH(y, b, d, r) � parameter), where root() is a standard root finding algorithm (e.g., Newton's method) that finds y such that EH(y, b, d, r) <code> parameter. The EH function is defined as follows: if(y &#8805; 0):  EH(y, b, d, r) </code> 10^(y ''' d / r) + b ''' (d / r) ''' y - 1; otherwise:  EH(y, b, d, r) = - 10^(-y ''' d / r) + b ''' (d / r) ''' y + 1, where r, d, and b are positive real constants and parameter is the source parameter. The hyperlog function is defined in Bagwell C.B. (2006). Hyperlog - a flexible log-like transform for negative, zero, and positive valued data. Cytometry A 64, 34-42."
+
+Biexponential_transformation	Parameter scaling using a bi-exponential function. The bi-exponential (BiEx) function is defined as [[BiEx]](parameter, a, b, c, d, f) <code> root(B(y, a, b, c, d, f) - parameter), where root() is a standard root finding algorithm (e.g., Newton's method) that finds y such that B(y, a, b, c, d, f) </code> parameter. The B function is defined as B(y, a, b, c, d, f) = a ''' e^(b ''' y) � c * e^(�d * y) + f, where e is the base of natural logarithm, a, b, c, d are positive real constants, f is a real constant and parameter is the source parameter.
+
+Split''scale''transformation	Parameter scaling using a split scale function. The split scale function consists of a logarithmic transformation function applied to high values and a linear transformation function applied to low values, with a fixed transition point chosen so that the slope (first derivative) of the resulting split scale transformation function is continuous. The split scale transformation is defined as if(parameter &#8804; t): split(parameter, a, b, c, r, d) <code> a ''' parameter + b, otherwise: split(parameter, a, b, c, r, d) </code> log10 (c ''' parameter) * r/d, where parameter is the source parameter and a, b, c, r, d are real constants that shall be chosen to make the transition smooth, i.e., as described in Transformation-ML.
+
+Linear_transformation	Parameter scaling using a linear function. The linear function is defined as linear(parameter, a, b) = a * parameter + b, where a, b are real constants and parameter is the source parameter.
+
+Quadratic_transformation	Parameter scaling using a quadratic function. The quadratic function is defined as quadratic(parameter, a, b, c) = a'''parameter^2 + b'''parameter + c, where a, b, c are real constants and parameter is the source parameter.
+
+Fluorescence_compensation	Transformation of fluorescence data to estimate the fluorescence signal due to only one fluorochrome when several fluorochromes have overlapping emission spectra
+
+Digital''fluorescence''compensation	a linear''parameter''combination transformation in which estimates of the signal due to each of a set of fluorochromes are derived from a set of fluorescence measurements. The linear''parameter''combination coefficients are elements of the inverse of the matrix of spectral overlaps of each dye on each measurement channel. Spectral overlaps are evaluated by measuring samples containing each fluorochrome individually.
+
+Analog''fluorescence''compensation	Electronic hardware compensation provided in flow cytometer instruments and applied to the analog fluorescence signal before digitization by subtracting of a fraction of a primary signal from a spill detector signal with a network of dual differential amplifiers.
+
+Box-Cox transformation	Transformation of data according to the methods of Box and Cox as described in the article Box, G. E. P. and Cox, D. R. (1964) An analysis of transformations. Journal of Royal Statistical Society, Series B, vol. 26, pp. 211-�246.
+
+Data_aggregation	Transformation of data through the combination of two or more data sets together
+
+Data_compression	Transformation of data by generating a smaller number of data objects to represent the original data set
+
+Parameter Transformation	Transformation of data involving the change, production, or reduction of data parameters and corresponding data values
+
+Parameter Reduction	Reducing the number of parameters used in describing the data
+
+Parameter Selection	Transformation of data in which a subset of parameters is selected from the original set of parameters
