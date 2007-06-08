@@ -1,0 +1,37 @@
+
+Dear attendees please find here:
+
+* The [[ http://www.ebi.ac.uk/~sansone/FuGO/REPORT-2nd-FuGO-Workshop-July06-EBI.doc|MEETINGREPORT |]]
+  * This is the final version and the official document will be released on the sourceforge.
+
+* The Latest OBI File has been checked into [[ http://svn.sourceforge.net/viewvc/fugo/trunk/ontology/|SVN |]]
+  * This is a draft version from the workshop. Further items will be cleaned-up in the file before posting on the sourceforge site. A link will be added here from this page to the revised ontology file.
+
+* The [[ http://tinyurl.com/sxqjn|FINAL AGENDA |]]
+* The [[ http://www.ebi.ac.uk/~sansone/ppt/TravelInfo-Meals.txt|travel directions and information on meals |]] on the EBI Campus
+* The list of attendees below:
+Bjoern Peters; Boussard Tina; Brandizi Marco; Bug William; Dawn Field; Fan Liju; Fostel Jennifer; Gibson Frank; Gray Tanya; Parkinson Helen; Rocca-Serra Philippe; Sansone Susanna-Assunta; Scheuerman Richard; Schober Daniel; Senger Martin; Smith Barry; Soldatova Larissa; Stevens Robert; Stoeckhert Chris; Taylor Chris; Whetzel Trish; White Joe; Williams Allyson
+
+
+==== -> Please, add here below any topic/issue you would like to bring up and discuss at the upcoming workshop. E.g.:
+====
+
+* Incorporate term needs of communities into the [[FuGO]] OWL file
+
+* Info currently disperse in emails
+Shall we centralize the info on wiki?
+Make a list of resources, e.g. for time, units (URLs, status and usage). Summarize the technical solutions , for example, on how to import external resources, problems with lang attribute etc.
+
+* Address OE Metadata capture
+Identify which metadata (e.g. synonyms, preferred names, versions, provenance)should be captured and the mechanism to capture these.
+Suggestion: Evaluate Dublin Core, Protege (Meta-)Annotation properties and self-created Annotation properties. Look at the NCI Thesaurus that has mechanisms for doing so. But we should be careful not to use any semantics which forces us into OWL-Full.
+
+* Multiple or single parenthood
+Why is the multiple inheritance a problem? Pros and cons.
+
+* How to use relations to connect the terms in the taxonomy
+How can we profit from the inheritance of object properties assigned to top level classes?
+Again we should be careful not to go in OWL-Full.
+
+==== -> Please, add here below any question/feature request to the Protege Team:
+====
