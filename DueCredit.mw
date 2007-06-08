@@ -1,0 +1,29 @@
+
+=== Summary of Discussion of Due Credit
+===
+* based on minutes from Feb Coordinators Call
+
+==== Coordinators Action Item: Approve policy for crediting work on OBI.
+====
+* give credit on a per term basis
+* the term will contain a tag/annotation property that points to a document outside the ontology that contains information on how the term was curated
+  * the document can exist in a database containing abstracts
+  * the content of the document can contain the 'history' or timeline as to who and when the term was curated
+  * there is no formal structure/format for these abstracts
+* annotation property proposed to be called 'editor_reference'
+* OBI is different to GO in that there is not a need in OBI for term provenance, i.e. listings of editor(s) of the term to exist in the ontology file itself. The reason being that the charge of OBI is different than GO since GO is driven by annotating from the literature while OBI is bringing terms in from communities, either individual(s) or from referencing another resource. The source of the term is captured elsewhere for OBI.
+
+==== Developers Action Item: Implement management of the ontology and maintaining information for due credit for those that submit terms
+====
+* requirements are that the person and the community that are submitting on behalf of be captured when the term is submitted
+* options for implementation:
+  * adapt Pronto for use with OBI
+  * explore the use of systems with the ~BioPortal
+  * only collect terms through the community coordinators
+
+==== Additional issues to be addressed
+====
+* there needs to be some way to get these 'abstracts' out in the public eye
+  * Chris Mungall mentioned that for GO these would be made visible through Amigo
+* there also seems to be a need to track a person to contact WRT to future curation of the term, e.g. propose a new synonym or some other kind of alternative term. Should this be part of the editor_reference abstract or a different mechanism used?
+* those that contribute to the modelling also need to be represented. This does not fit in the editor_reference abstract. Where should it go?
