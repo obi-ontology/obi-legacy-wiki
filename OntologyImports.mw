@@ -1,0 +1,75 @@
+
+== Ontology Imports in Protege/OWL
+==
+
+=== General Information on owl:imports
+===
+  * To be able to reference to another ontology, e.g. BFO top level classes or properties, the full BFO.owl ontology has to be imported into the active one (i.e. the OBI ontology). To import an ontology to be referenced, proceed as follows (see also http://protege.cim3.net/cgi-bin/wiki.pl?OWL''Imports''Repositories ):
+    # Open your ontology in Protege 3.2 beta, go to the metadata tab and click the Import Icon within the ontology Browser frame.
+    # Select from where you want to import you ontology from. Here you specify the URI pointing to the owl file to be imported, e.g. weather you want to import from the web (a URL), from a local file or from a repository file.
+    # In the namespaces field of the Metadata Tab add the URI/namespace of the ontology to be imported and choose a short recognizable prefix for it.
+    # Save the ontology and re-load it. You should see the imported ontology in the ontology browser hierarchy of the Metadata Tab and the top-level nodes of the imported/referenced ontology in the Classes Tab. In any case you can only import the whole ontology, not just certain modules (this is currently being worked on). You are now able to use these referred classes and all the other RUs from the imported ontology such as inherited properties and cardinality restrictions.
+You can also easily 'drag and drop' OBI classes into BFO classes.
+
+  * Here an example from the NMR.owl ontology, where we made OBI classes superclasses of our community/domain-specific ones, e.g. the NMR:autosampler became a subclass OBI:Instrument (rdf:about="#OBI_47"). In owl such a reference looks like this:
+  <pre>
+  <owl:Class rdf:ID="NMR_400002">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >autosampler</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+  </owl:Class>
+  </pre>
+
+  * The reference to the superclass is kept, even if the path to the imported ontology has changed and the ontology is not accessible. The reference is done through the rdf:resource value (which consists of the reference ontologies namespaceURI+#+rdf:ID).
+
+  * This section was taken from the Naming conventions document on http://msi-ontology.sourceforge.net/recommendations/.
+
+=== Community-specific Issues with owl:imports with BFO and OBI
+===
+
+  * The MSI community would like to submit an owl ontology to OBO. Our NMR.owl file imports OBI.owl from a URI (<owl:imports rdf:resource="XXX">, where XXX is a URI representing a URL). Now the question arises, how such owl imports will be handeled under OBO. The owl ontologies we want to import (BFO as the upper level ontology and OBI for the middle layer) will adhere to the OBO principles, but are themselves not yet placed under OBO.
+  * Questions:
+    # When we submit the NMR ontology, are we allowed to import OBI or BFO and OBI? '''Answer:''' OBI will import BFO and therefore NMR can import BFO via OBI.
+    # Will the imported ontologies be imported from a URI that is a URL, i.e. from the web, or from a protege repository file ( see http://protege.cim3.net/cgi-bin/wiki.pl?OWL''Imports''Repositories ) proliferated with the importing ontology (the latter might be a solution for the time being when the imported ontologies are not yet stable). '''Answer:''' We use webimport.
+    # Protege-OWL supports the notion of global and project repositories. Global repositories are by default available to every new project and are typically useful for managing commonly used ontologies, such as upper ontologies, that will be imported into most projects. Project repositories are associated with a specific Protege-OWL project, and must be created/specified for that project. Would the BFO.owl belong as a Global repository which would be used by all OBO ontologies? '''Answer:''' In the long term future I would guess so, but BFO ontologies need not necessarily be imported from some repository.
+
+  * Clear distinct namespaces of BFO and OBI top level classes.
+    * Another problem: OBI version 0.3 (re)models the BFO top level classes under its own OBI-namespace. For the sake of clear modularization, OBI should import the BFO.owl file instead and redundant classes from OBI be removed. In the protege/owl world one would expect OBI to import the top level ontology BFO.owl and the NMR.owl would - by importing OBI - automatically also import the needed BFO classes. Information on BFO, including an OWL representation can be found at:[http://www.ifomis.uni-saarland.de/bfo/]
+
+
+=== Import of BFO into OBI Plan of Action
+===
+
+* As summarized from the TCon on this topic. This work will proceed in two phases:
+  # Factor out the classes from [[FuGO]]/OBI that are duplicates of those in BFO (same class name/semantic meaning AND same level in the hierarchy). Any additional properties or differences in definitions included on the BFO classes or OBI classes will be presented to the group to review so that useful information to maintain is not lost.  Some initial work on this was done by Trish and will be continued and implemented by Daniel. The new file will be committed to SVN and an email notice will be sent around when done.
+
+  # Generate a list of other class overlaps where the classes do not appear at the same level in the hierarchy and identify any issues with moving those [[FuGO]]/OBI classes under the appropriate BFO class. Daniel will generate this list. Agreement by the [[FuGO]] developers will be needed before this file can be committed to the SVN trunk and used for further development.
+
+* See [[ BFOImportStatus|BFO Import Status |]] for an update on the review of BFO and import into OBI
+
+
+== Conventions for import locations
+==
+
+There is no formal convention for determining the location of an ontology given its URI, but it is generally recommended that ontologies are made available on the web at a location that corresponds to their URI., e.g. the OBI ontology should be able to be found under http://obi.sourceforge.net/ontology/
+Note that even if an ontology URI appears to be a URL, it is not necessarily resolvable. In other words, it may or may not be the case that if an ontology URI is typed into a web browser, a document containing the ontology will be displayed.
+In order to deal with this. i.e. allow Protege to load an ontology when its URL is not resolvable, Protege-OWL uses a mechanism based on the notion of "ontology repositories" to determine where an ontology should be loaded from. Given an ontology URI, a repository can be checked to see whether or not it contains the ontology that is identified by the URI. If the repository does contain the required ontology, then it acts as a gateway for loading and possibly saving the ontology. Protege-OWL maintains a list of such repositories and searches them when attempting to import an ontology.
+
+
+=== Importing from repositories (extracted from the Protege wiki)
+===
+
+To manage repositories look at the "Ontology repositories..." item on the OWL menu. Here for each ontology, its URI is shown, with a description of the location of the ontology. One repository can provide access to several ontologies and for each of these several alternative locations.
+Protege-OWL supports the notion of global and project repositories. Global repositories are by default available to every new project and are typically useful for managing commonly used ontologies, such as upper ontologies, that will be imported into most projects (so here would the BFO.owl belong which should be used by all OBO ontologies ?). Project repositories are associated with a specific Protege-OWL project, and must be created/specified for that project.
+Protege-OWL supports the creation of four different types of repositories:
+* HTTP repositories  (URI refers to a URL)
+* Local folder repositories (URI refers to an absolute location for a repository folder that is searched for the owl files)
+* Relative folder repositories (URI refers to a relative location for a repository folder that is searched for the owl files)
+* Local file repositories (URI refers to the absolute position of a special .repository file)
+It is possible to specify multiple ontology repositories. When there are multiple repositories, the ordering of ontology repositories, where an ontology is searched and imported from, is as follows:
+* Search any project repositories from top to bottom. If the ontology is found, load the ontology from the repository that the ontology is contained in.
+* Search any global repositories from top to bottom. If the ontology is found, load the ontology from the repository that the ontology is contained in.
+* Attempt to resolve the ontology URI and import the ontology from the location pointed to by the resolved URI.
+* If loading the ontology from the resolved URI fails, a dialog is popped up asking the user to specify a repository where the imported ontology may be loaded from. (Note that a dialog is not shown automatically when using the Protege-OWL API).
+
+Protege-OWL stores repository information in plain text files, with one line per repository. The global repository is saved in a file called global.repository which resides in the Protege-OWL plugin folder. Project repositories are saved in a file that has the same location and name as the project OWL file but with an extension of .repository.
