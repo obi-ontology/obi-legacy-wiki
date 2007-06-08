@@ -1,0 +1,49 @@
+
+<?plugin [[CreateToc]]
+pagename<code>[[pagename]] headers</code>==,===,==== noheader<code>0 align</code>left with''toclink<code>1 jshide</code>0 liststyle<code>dl indentstr</code>&nbsp;&nbsp; with''counter=1 ?>
+=========
+
+----
+
+=== Branch Editors
+===
+  * Allyson, Trish, Bill, Daniel, Ryan, Liju
+=== Community Submitted Term Lists
+===
+   * BIRN
+   * Flow Cytometry:
+     * Upload:Instrumentation-FlowCytometry-2007-04-03.txt
+     * Upload:Instrumentation-FlowCytometry-2007-04-03.xls
+   * MSI-NMR available in owl, will be integrated into instrument.owl file when ready.
+   * sepCV - will be integrated into instrument.owl file when ready.
+   * MSI-Chromatography CV - will be integrated into instrument.owl file when ready (via [[SepCV]]).
+   ''' PSI-MS (Mass spec) - initial list at ''' Upload:PSI''MS-InstrumentTermsForOBI''29Mar2007.xls
+   ''' Transcriptomics - '''DONE* Upload:InstrumentTerms-MO-29Mar2007_updated.xls
+   * MIACA - [[|http://www.smp-cell.org/Files/terms.doc an Excel list of terms||http://www.smp-cell.org/Files/MIACA_Ontologies032007.xls]], [[and a Word list of terms]]
+
+   * physical arrays are utilized by most communities in some way. It might make sense to separate the features of such arrays into terms, in order to have just a few descriptors that would cover any (?) kind of arrays e.g. from Petri dish to oligo or protein chip. [[|http://www.smp-cell.org/Files/Arrays.xls List of possible terms]]
+
+=== Master Term Lists
+===
+* [[|http://spreadsheets.google.com/feeds/list/o09625430083521070159.5666294627741813298/od6/public/basic A Google spreadsheet with the submitted terms for the instrument branch|| http://spreadsheets.google.com/pub?key=pT8ShyqlllIUySkFP8biiTg]] [[RSS Feed]]
+
+
+   * Combination of terms submitted by April, 2007 Term Submission Milestone
+     * Combined terms, second review for terms relevant to this branch Upload:combined''instrumentation''terms_01May07.xls
+     * Combined terms, first review for terms relevant to this branch Upload:combined''instrumentation''terms_17Apr07.xls
+     * Combined terms (collated but not reviewed) Upload:combined''instrumentation''terms.xls
+
+=== Master Property Lists
+===
+   * Here is an initial [[ [[InstrumentRelations]]|instrument relations list |]].
+   * Put your list here. A merged master list will be created.
+
+=== Conference Call Schedule
+===
+   * See [[ [[InstrumentTermCalls]]|Instrument Branch Conference Calls |]] for conference call schedule, agenda and a link to minutes for the call
+
+=== Issues to Discuss
+===
+   * To start some discussion, here are some [[ [[InstrumentIssues]]|Instrument related issues |]] to think about, e.g. what are synonyms to important instrument branch classes
+
+   * Here is a survey of what instrument terms can be found in other large ontology efforts ([[ [[OtherTerms]]|UMLS, NCIT|]])
