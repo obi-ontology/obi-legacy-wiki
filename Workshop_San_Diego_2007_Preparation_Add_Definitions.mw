@@ -1,0 +1,28 @@
+
+All OBI terms were divided into the following sections based on how much work a term needs. The sections were:
+* 57: Terms completely missing definitions (may have notes on them)
+* 28: Terms with "tempdef"'s, which seem to be partially defined.
+* 31: Terms with "def"s and attributions, but which either are almost complete or are complete but the comments themselves are simply not structured properly yet.
+
+These were divided between Trish, Chris and Ally. Each person created a file based on the term list they were provided by Ally, and wrote their file in the following format:
+
+* Column 1: OBI_XXX
+* tab
+* Column 2: term''name''with_underscores
+* tab
+* Column 3: definition, where the term name has no underscores. definition_source: the definition source, which is either OBI or an external source represented by URL, date accessed (if known)
+* tab
+* Column 4: any remaining notes that we didn't want to delete from the comment, but which are NOT part of the definition
+
+EXAMPLE:
+
+OBI''155    disease    A disease is a dependent continuant which is an impairment of health or a condition of abnormal functioning. definition''source: http://wordnet.princeton.edu/perl/webwn?s=disease, Jan 3, 2007    rem0: BS did not view disease as a process, and indeed it is now a child of dependent continuant.
+
+Trish has updated the OBI.owl file. All rdfs:comment fields are now empty, and should remain that way: use our specific field names (definition, editor_note etc) for anything you add. Note, however, that when one opens the file in Protege each term will display an empty rdfs:comment field (Protege automatically displays this field in the GUI), but really there is none in the file. Liju added a comment that imported BFO classes have their definitions in the rdfs:comment fields.  She and Trish would like to see more communities (such as BFO) putting their definitions in our new "definition" field.  If others agree, we could ask BFO folks to go along with us. Finally, they suggest that this may be an issue that should be discussed at the workshop?
+
+Please note that if you disagree with any of the definitions of the terms, then please update the Term Tracker on the sourceforge site.
+
+Thanks to Chris, Liju, and most especially Trish for getting this task done====
+====
+
+:) Allyson
