@@ -1,0 +1,102 @@
+Content-Transfer-Encoding: binary
+
+==== [[FuGO]]/BFO Import Status I:
+====
+* The [[FuGO]].owl file from the svn trunk (checkout of Friday 15th Sept. 2006) was converted to reflect the namechange to "OBI". A first draft of the OBI.owl importing BFO was posted by Daniel S. in the [[FuGO]] svn. He created 3 folders containing the successive versions of the ontology in a folder called "OBI" under our [[FuGO]] svn trunk and committed these changes, so all should be able to check them out now.
+
+* The newly added "OBI" directory contains three folders for the three successive versions of the former [[FuGO]] ontology:
+  # The first reflects the name-change from "FuGO" to "OBI" (step 1),
+  # The second is the unchanged obi ontology  from step 1 importing bfo.owl (step 2),
+  # The third folder contains the new refactored obi ontology importing bfo and using bfo classes as parents (step 3).
+
+  * Each directory contains a step.txt file which describes what was done to the owl file in detail.
+
+  ''' DS also put an OBI.owl file in the trunk/ontology folder, which is basically the same file as the file OBI''060918.owl in the OBI/step3''OBI''refactored''under''BFO folder, but the redundant obi toplevel classes 'continuant' and 'occurrent' have been moved into the 'deleted''classes' bin and the file was renamed to "OBI.owl". '''NOTE:this file is not stable as the [[FuGO]]/OBI classes that are equivalent to those in BFO are still under discussion as of Oct. 2, 2006*
+
+* Here follows the description how the binning of obi top level classes into bfo classes and the refactoring was done (taken from step3.txt):
+  * Subclasses of exact homolog classes were 'drag and dropped' from the OBI top level classes into the homologous BFO classes. None of the original (now empty) [[FuGO]]/OBI top level classes were deleted, so their definitions are still accessible. So they now still reside at the top level, but can be deleted later.
+
+  * Redundant classes with same name and meaning but different namespaces (List 1, Phase 1):
+    # continuant        obsolete, subclasses transferred
+    # dependent_continuant    obsolete, subclasses transferred
+    # function        obsolete
+    # independent_continuant    obsolete, subclasses transferred
+    # occurrent        obsolete, subclasses transferred
+    # process            obsolete, subclasses transferred
+    # role            obsolete, subclasses transferred
+    # site            obsolete
+    # spatial_region        obsolete
+
+  * Redundant classes with same name and eventually diverging meaning:
+    * The following classes are present twice (under both namespaces) and we have to decide weather they really mean the same (and the OBI class can be made obsolete) or if they mean different things and should be kept and renamed:
+      # OBI:cardinal''part''of''qualitative''value:quality    bfo:dependent_continuant:quality
+
+  * A redundant bfo-namespace class "fiat''object''part" was found. One has the rdf:ID "snap:~FiatObjectPart" and the following definition:"An independent continuant that is part of an object but is not demarcated by any physical discontinuities" and the other has the rdf:ID "snap:~SubstancePortion" and the definition:"An aggregate of objects that is continuous and strongly homogeneous").Both are siblings under bfo:independent_continuant. I assume one will be deleted or renamed? ... (Issue now cleared by Holger and Barry).
+
+  * Redundant classes with different names, but supposedly equal meaning (possible synonyms) in both namespaces ("?" means we have to find an agreement here; List 2, Phase 2):
+    # OBI:state                  -->bfo:quality            ?
+    # OBI:characteristic             -->bfo:quality            ?
+    # OBI:realizable''continuant          -->bfo:realizable''entity    obsolete, subclasses transferred
+    # OBI:dependant''continuant:time''interval     -->bfo:occurrent:temporal:region:?
+    # OBI:dependant''continuant:time''point    -->bfo:occurrent:temporal:region:?
+    # OBI:collection''of''physical''entities    -->bfo:object''aggregate        ?
+    # OBI:physical_entity            -->bfo:object            ?
+    # OBI:boundary                -->bfo:object_boundary      ?
+
+  * For the sake of proper modularization the following OBI top level classes may not belong into OBI and are perhaps better suited to exist in BFO (or PATO)? (List 3):
+
+    # OBI:time_interval (duplicate with List 2)
+    # OBI:time_point (duplicate with List 2)
+    # OBI:state (duplicate with List 2)
+    # OBI:characteristic (duplicate with List 2)
+    # OBI:value
+    # OBI:cardinal''part''of_value
+    # OBI:physical_entity (duplicate with List 2)
+    # OBI:immaterial_entity
+    # OBI:material_entity
+    # OBI:boundary (duplicate with List 2)
+    # OBI:material_entity
+    # OBI:collection''of''physical_entities (dup with List 2)
+
+  * NOTE (BBug - 2006-10-03): I believe the physical''entity and material''entity fall belong under snap:object, while immaterial_entity falls under snap:site.  All fall under snap:IndependentContinuant in BFO.owl.  At least, that's where I put them in the BIRNLex factored neuroanatomy ontology.  This was based on my examination of FMA, the Ontology of Biomedical Reality (collaboration between FMA folks and IFOMIS folks), as well as a review of the current BFO.
+
+
+==== [[FuGO]]/BFO Import Status II:
+====
+The OBI.owl file in the /trunk/ontology folder is the latest draft version. It was derived from the
+one in the step_3 folder and was refined by Daniel Schober to map redundant classes in obi
+to bfo classes and remove the redundant ones.
+
+Here what was done to the file:
+The file was renamed so it does not include the date in the filename.
+The redundant obi:toplevel classes 'occurrent' and 'continuant' were put
+under the administrative '''deleted''classes'-container, retaining their
+structure.
+When a class is mapped, the obi class is put under the administrative
+'''deleted''classes'-container and the 'clsdel' meta annotation is added.
+When a class gets a new parent, I updated the defs accordingly to be
+still arestotelian.
+
+#obi:state is_a bfo:quality
+#obi:characteristic is_a bfo:quality
+#obi:time''point    maps    bfo:temporal''instant
+#obi:time''intervall    maps    bfo:temporal''interval
+#obi:boundary    maps    bfo:object''boundary (and bfo:process''boundary)
+#obi:spatial_region    maps    bfo:site
+#obi:collection''of''physical''entities    maps    bfo:object''aggregate
+#obi:population    is''a    bfo:object''aggregate
+#obi:sample''population    is''a    bfo:object_aggregate
+
+#obi:cardinal''part''of''qualitative''value
+    obi:quality --> deleted, since redundant as bfo:quality? Or should
+we re-name?
+
+Questions and Remarks:
+Is obi:time_interval a bfo:continuant since according to the bfo def an
+continuant can not have temporal parts ?
+obi:data''set    is''a    bfo:object_aggregate subclass ?
+
+obi:physical_entity    --> stay were they are (decision to map to
+bfo:object should be discussed)
+obi:immaterial_entity    --> stay were they are (decision to map to ? or
+the be deleted should be discussed)
