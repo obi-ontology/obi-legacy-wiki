@@ -1,0 +1,65 @@
+
+==== [[SanDiego2007WorkshopPrepActionItems]] otherwise known as OBI in 90
+====
+ * Below is the list of items that have been approved by the OBI developers as items to address prior to the [[SanDiego2007Workshop]]
+ * As your time and interest permit, please sign-up for one or more items. Please do not add or change the actual action items in this list without approval of the OBI Working Group via email confirmation on the obi-devel mailing list.
+* The list now reflects the order in which items will be addressed with respect to those that require additions to the OBI.owl file as decided at the Developers TCon on Dec. 13, 2006.  It was decided to edit the file in a serial rather than parallel fashion in order to avoid any potential conflicts. Trish and Ally will investigate further the use of SVN and edits to an owl file as to what types of changes cause conflicts with parallel edits that need to be resolved by hand.
+
+==== Action Item List
+====
+* Items that require edits to the OBI.owl file
+  # Agree what property name will be used to hold the definition of the terms and add that property into the OBI.owl file. '''DONE'''
+
+  # Add definitions to terms that do not currently have a text definition in the ontology file. '''DONE'''
+    * Allyson Lister - lead, Chris S, Trish, Liju
+    * Deadline to enter definitions is Jan.5, 2007
+    * Summary of work done for this task: [[SanDiego2007PrepAddDefinitions]]
+
+  # Set all sibling class terms disjoint in the ontology file. Check on how disjoints are specified in BFO to ensure that does not conflict with development needs of OBI.
+     ''' Liju '''In progress*
+
+  # Agree on a minimal set of annotation metadata tags (those that refer to the MSI equivalent of RU_metadata for example) and add those to the ontology file replacing the existing "search tags" used in the rdfs:comment field of the latest version of the OBI.owl file. '''In progress'''
+    * Step 1
+       * All need to approve the minimal set of terms [https://www.cbil.upenn.edu/obiwiki/index.php/RuMetadataRefinedRefined]
+       * Daniel will edit the ontology file
+
+    * Step 2
+      * Also, have a short discussion on the additional metadata tags (MSI equivalent of RA_metadata for example) that currently exist in the last version of the OBI.owl file (e.g. rdfs:comment value: "discussion version", DS: The "discussion version" value for the status of the RA is basically a term originating from the OBO library curators. Within OBO, ontologies that are in a rather early stage are called discussion versions). Example questions for discussion - do we agree that the tags added should exist in the file and do we agree on the information in the tags. Once resolved, modify the ontology file as needed.
+      ''' Trish - generate list of additional metadata tags and their values that were added into the the OBI.owl file. Note, these seem to have been added in by the developers following the second OBI workshop and placeholders were used in the absence of any agreed upon tags. The reason for checking on the values of these properties is that this information may not correctly reflect the information that was intended to be captured, e.g. OBI is listed as a draft ontology on the OBO site as decided at the OBI Coordinators call versus a discussion version.  '''In progress*
+        * Additional metadata tags with incorrect information:
+            <pre>
+            <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            Advisors for this project come from the IFOMIS group, Saarbruecken and from the
+            Co-ODE group in Manchester
+            </dc:contributor> --> Not all advisors represented.
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            discussion version
+            </rdfs:comment> --> Should be Draft version as discussed
+             at Coordinators call for posting on OBO site
+            </pre>
+
+          ''' The name of the ontology is not correct in the dc:description tag '''DONE*
+          * The name of the ontology is not correct in the dc:title tag
+
+      * All - approve possible updates to the values of these metadata tags
+      * If time permits, discuss the inclusion of these metadata tags
+
+  # Collect data transformation terms from all groups and add to the ontology file. '''DONE'''
+    * Philippe, Tina, Ryan
+
+  # Incorporate past term lists, e.g. [[InstrumentTerms]], that have been proposed. '''Instrument terms collected''' from groups that had previously submitted these terms for discussion - Flow cytometry, Transcriptomics, NMR
+    * Trish - MO and PSI
+    * Luisa - PSI
+    * Ryan - Flow Cytometry
+    * Tina - assay terms (this term list has not undergone an initial review by the OBI Developers)
+
+* Items which do not require edits to the OBI.owl file prior to the workshop
+  # Move all terms from the [[FuGO]] term tracker to the OBI term tracker and resolve term proposals by discussing the term proposals amongst developers and adding agreed upon terms to the ontology file.
+    ''' Trish change [[FuGO]] Term tracker to send mail to the obi-devel list '''DONE*
+
+  # Review community Use Cases for the ontology to identify areas of further development.
+    * Bjoern - lead, Tina, Jennifer? Trish
+
+  # Continue reviewing the independent_continuant branch of OBI as was the plan before the BFO import and Metadata discussions came into existence.
+    * Bjoern - lead
+    * All
