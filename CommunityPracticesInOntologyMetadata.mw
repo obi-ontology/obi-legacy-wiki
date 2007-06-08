@@ -1,0 +1,191 @@
+
+==== Community Practices In Ontology Metadata Use
+====
+
+----
+
+=== BIRN
+===
+
+== Requirements
+==
+The following requirements have been identified by the members of the BIRN Ontology Task Force in the course of the curation we've been doing on the BIRNLex ontology framework.  Though what follows brings no implied warranty from NCBO or the OBO Foundry, in the course of this work, we've been advised extensively by several members of NCBO including Barry Smith and Daniel Rubin.  We are working toward submitting BIRNLex to the OBO Foundry, have been guided by the OBO Foundry ''best practices'', and have invested considerably investigating practices also in use by long standing biomedical knowledge representation efforts such as the NIH NLM Unified Medical Language System (UMLS) and the Gene Ontology.
+
+Since the overall goal according to the OBO Foundry ''best practices'' is to maximally re-use of relevant community ontologies to promote semantic integration of data sets/observations described with any and all of the OBO Foundry ontologies, it appears to the BIRN OTF these annotation properties really ought to be included in the foundational levels of the shared ontologies - preferably at the foundational level (e.g., the Basic Formal Ontology (BFO) and OBO Relation Ontology (RO)), so as to guarantee software systems designed to algorithmically support conformance with the OBO Foundry principles can be extended to all participating ontologies.  As mentioned by Liju Fan, we really would be unwise to ''invent'' our own languages for such properties.
+
+The other aspect of providing the shared, foundational properties in an artifact we all share (e.g., BFO) is by importing that foundation, we also import those properties AND can sub-class from them as required.  For instance, should BIRN need to add additional requirements for class definitions over-and-above the OBO Foundry requirements of lack of circularity and Aristotelean format, the BIRN OTF could sub-class the ''bfo:definition'' and add a definition that includes to needed additions.  As a sub-class of ''bfo:definition'', software designed to process such a property would still work on this property.  If ''bfo:definition'' is sub-classed from ''skos:definition'', software capable of processing that property would work on all these classes.  Of course, since these are sub-sumptive graphs, sub-classing would only be allowed if '''ALL''' properties of ''skos:definition'' are true of the other two definitions as well.
+
+{|
+|-
+|^  '''Property''' ||^ '''Example Values''' ||^ '''Definition'''
+|-
+|< creation date ||^ 2006-09-20  ||< This field contains the date on which this class was first added to the BIRNLex OWL file.
+|-
+|< modifed date ||^ 2006-09-20  ||< This field contains the date on which this class was last altered in the BIRNLex OWL file.
+|-
+|< contributor ||^ ''Joan Smith'', ''Jim Doe'', ''BIRN OTF'', etc. ||< This field is specifies what party was responsible for adding this class to the BIRNLex OWL file.
+|-
+|< external source ||^ ''NeuroNames'', ''SNOMED'', ''BrainMap CV'', ''MeSH'', etc.  ||< This field is specifies whether the substance of this class originated from an external community knowledge source.  With the onus to re-use existing sources, we must derive from these relevant entities when appropriate and be able to track their origin.  Whenever bonifide OWL Classes are available from an external source (one that conforms to the OBO Foundry principles, which we require so as to keep the ontology functional from the OWL perspective), we import the OWL source file.
+|-
+|< external source ID ||^ ''NN:483, ''UMLS:C0007765_, etc.  ||< This field is to maintain the link back to an external source (see above).
+|-
+|< external definition ||^  (see ''Current Practice'' example below)    ||< This is a class definition derived from an external, community knowledge resource.
+|-
+|< OBO Foundry definition ||^ (see ''Current Practice'' example below) ||< This is a class definition meeting the non-circular and Aristotelean requirements given by the OBO Foundry principles
+|-
+|< BIRN definition ||^  (see ''Current Practice'' example below) ||< This is a class definition created by the BIRN OTF members which may not as yet fully meet the non-circular and Aristotelean requirements given by the OBO Foundry principles.
+|-
+|< definition source ||^ ''Wikipedia'', ''Psych Info Thesaurus'', ''SNOMED'', ''BIRN OTF'', ''MeSH'', etc.  ||< This is an accounting field that enables us to track from where a given BIRNLex class definition derived.
+|-
+|< preferred label ||^ ex1, ex2, ex3  ||< This field is intended for use to describe...
+|-
+|< synonym ||^ ex1, ex2, ex3  ||< This field is intended for use to describe...
+|-
+|< acronym ||^ ex1, ex2, ex3  ||< This field is intended for use to describe...
+|-
+|< abbreviation ||^ ex1, ex2, ex3  ||< This field is intended for use to describe...
+|-
+|< misspelling ||^ ex1, ex2, ex3  ||< This field is intended for use to describe...
+|-
+|< scope note ||^ ex1, ex2, ex3  ||< This field specifies important information regarding the BIRN OTF's intended scope for application of this entity during annotation.
+|-
+|< history note ||^ ex1, ex2, ex3  ||< This field specifies important information regarding the chronology of changes that have been made to this class.
+|-
+|< propertyN ||^ ex1, ex2, ex3  ||< This field is intended for use to describe...
+?>
+(BB ~[[2006-09-20~]]: more to come this evening.  These are just to provide examples for all to peruse)
+
+== Background
+==
+The following represent the result of seeking to map the needs described above using annotation, editorial, and general metadata properties available in various standards
+
+{|
+|-
+|^  '''Source''' ||^  '''Property''' ||^ '''Example Values''' ||^ '''Definition'''
+|-
+|< Source1 ||^ property1 ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
+|-
+|< Source2 ||^ property2 ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
+|-
+|< Source3 ||^ property3 ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
+|-
+|< Source4 ||^ property4 ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
+?>
+
+== Current Practice
+==
+The following represent the current Annotation Properties in use within the BIRNLex OWL file<sup>�</sup>.
+
+{|
+|-
+|^  '''Source''' ||^ ontology import URI ||^ ontology URL ||^ source minimal OWL dialect ||^ '''Source class''' ||^  '''Property''' ||^ '''Example Values''' ||^ '''Definition'''
+|-
+|< [[ http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl|Dublin Core Metadata Standard || http://dublincore.org/documents/dces/]] ||^ http://purl.org/dc/elements/1.1/ ||^ [http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl |] ||^ OWL-DL ||^ ''''dc:date'''' ||^ ''''birn:creationDate''''<sup>�</sup> ||^ ''2005-03-20'' ||^ This field contains the date on which this class was first added to the BIRNLex OWL file.
+|-
+|< [[ http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl|Dublin Core Metadata Standard || http://dublincore.org/documents/dces/]] ||^ http://purl.org/dc/elements/1.1/ ||^ [http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl |] ||^ OWL-DL ||^ ''''dc:source'''' ||^ ''''birn:definitionSource'''' ||^ ''Wikipedia'', ''Psych Info Thesaurus'', ''SNOMED'', ''BIRN OTF'', ''MeSH'', etc.  ||^ This is an accounting field that enables us to track from where a given BIRNLex class definition derived.
+|-
+|< [[ http://www.w3.org/2004/02/skos/core-dl.owl|Simple Knowledge Organization System (SKOS) || http://www.w3.org/2004/02/skos/]] ||^ [http://www.w3.org/2004/02/skos/core || http://www.w3.org/2004/02/skos/core]]  ||^ [[SKOS OWL-DL version |] ||^ OWL-DL ||^ ''''skos:definition'''' ||^ ''''birn:oboDefinition'''' ||< definition for '''Tissue''section''': ''A biomaterial entity consisting of a thin, roughly planar portion of an organ produced through the use of a microtome or other cutting device, typically intended for histological processing and/or microscopic examination._  ||^ This is a class definition meeting the non-circular and Aristotelean requirements given by the OBO Foundry principles.
+|-
+|< [[ http://www.w3.org/2004/02/skos/core-dl.owl|Simple Knowledge Organization System (SKOS) || http://www.w3.org/2004/02/skos/]] ||^ [http://www.w3.org/2004/02/skos/core || http://www.w3.org/2004/02/skos/core]]  ||^ [[SKOS OWL-DL version |] ||^ OWL-DL ||^ ''''skos:definition'''' ||^ ''''birn:birnDefinition'''' ||< definition for the mesoscopic brain region '''Nucleus''accumbens''': ''A region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen.  (caudoputamen in rodent) and continuous with these structures.  There is no distinct boundary between the nucleus accumbens and the caudate/putamen, but in rodents, it can be identified by its lack of traversing fiber bundles in comparison to the dorsal striatum.  Its principle neuron is the medium spiny neuron.  Together with the caudate and putamen, the nucleus accumbens forms the striatum._  ||^ This is a class definition created by the BIRN OTF members which may not as yet fully meet the non-circular and Aristotelean requirements given by the OBO Foundry principles.
+|-
+|< [[ http://www.w3.org/2004/02/skos/core-dl.owl|Simple Knowledge Organization System (SKOS) || http://www.w3.org/2004/02/skos/]] ||^ [http://www.w3.org/2004/02/skos/core || http://www.w3.org/2004/02/skos/core]]  ||^ [[SKOS OWL-DL version |] ||^ OWL-DL ||^ ''''skos:definition'''' ||^ ''''birn:externalDefinition'''' ||< definition for the Emotion '''Anger''' as derived from [[MeSH]]: ''A strong emotional feeling of displeasure aroused by being interfered with, injured or threatened.''  ||^ This is a class definition derived from an external, community knowledge resource.
+|-
+|< [[ http://www.w3.org/2004/02/skos/core-dl.owl|Simple Knowledge Organization System (SKOS) || http://www.w3.org/2004/02/skos/]] ||^ [http://www.w3.org/2004/02/skos/core || http://www.w3.org/2004/02/skos/core]]  ||^ [[SKOS OWL-DL version |] ||^ OWL-DL ||^ ''''skos:editorialNote'''' ||^ ''''birn:curationStatus'''' ||^ ''raw import'', ''obo definition incomplete'', ''graph position temporary'', ''uncurated'', ''curation satisfactory''  ||^ This provides specific info on the level of curation a given class has received and is specifically design to promote automated reporting on the status of classes in BIRNLex.
+|-
+|< [[SourceN]] ||^ ontologyUriN ||^ ontologyUrlN ||^ minOwlDialectN ||^ ''''srcNS:superclassN'''' ||^ ''''birn:propertyN'''' ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
+?>
+(BB ~[[2006-09-20~]]: more to come this evening.  These are just to provide examples for all to peruse)
+
+<sup>�</sup> Though the overwhelming majority of [[ http://www.w3.org/TR/2004/REC-owl-ref-20040210/#Annotations|Dublin Core Metadata Terms || http://dublincore.org/documents/dcmi-terms/]] are much more targeted to librarian curation requirements, these also include several date properties derived from ''''dc:date'''' of obvious use to us - e.g., ''modified'', ''created'', ''dateAccepted'', etc.; however, these are not available in the dc-dl.owl file used by Protege, probably because [[subclassing Annotation Properties is not allowed in OWL-DL |]].  There are also other DC Terms that would be useful - e.g., ''conforms to'' (a child of the DC Element ''relation'').  With this in mind - until we can work out a better solution - when I refer to a '''Source class''' above, I mean this is the class the specific Annotation Property ''would'' derive from were it possible to subclass Annotation Properties in OWL-DL.  In the interim, this subclassing is simply indicated by flattening out the superclass - subclass relation in the specific [[AnnotationProperty]] name - e.g., ''''birn:skosDefinition''oboDefinition''_
+
+<sup>�</sup> Of course, with the proliferation of such class properties, there are signficant issues that arise regarding their use:
+  * Is there a way to create classes so they automatically possess the ''required'' properties.
+  * Can ''default'' values be set for standard properties where defaults are appropriate - e.g., ''birn:creationDate'' should be automatically added to a new class with today's date.
+  * Some properties should include an enumerated list of expected values, which can be expanded as necessary - e.g., ''''birn:definitionSource'''', ''''birn:curationStatus'''', etc.
+  * Is there a means to easily associated one Annotation Property with another - e.g., associating the ''''birn:definitionSource'''' ''MeSH'' with the ''''birn:externalDefinition'''' shown above.
+  *  Can some of these properties be assigned as collections or as a bit map of enumeration values - e.g., for ''''birn:curationStatus'''', there are classes where we'd want to specify both ''obo definition incomplete'' & ''graph position temporary''.
+Though these would all be standard features in an RDBMS front-end user entry system, to the best of my current knowledge (2006-09-19), only number ''2'' (''default'' property values) and ''3'' (enumerated lists) are directly supported in Protege-OWL.  Without these conveniences, the curation process is unecessarily slower and error-prone.
+
+----
+
+=== NCIT
+===
+
+{|
+|-
+|^  '''Source''' ||^  '''Property''' ||^ '''Example Values''' ||^ '''Definition'''
+|-
+|< NCI ||^ Preferred''Name ||^   ||^ Denotes the preferred term used by a community; suggest preferred''term for OBI.
+|-
+|< NCI ||^ Synonym ||^   ||^ Name-value pair holding alternative terms, acronyms, abbreviations; suggest alternate_term for OBI.
+|-
+|< NCI ||^ FULL_SYN ||^   ||^ Same as the Synonym, but fully qualified containing provenance information, term type, & source code if available; OWL does not support it directly, OBI can 1) avoid using qualified properties for terms until OWL supports this, or 2) create a microsyntax for fields.
+|-
+|< NCI ||^ DEFINITION ||^   ||^ The textual definition of a class/concept, contains provenance in microsyntax like the FULL''SYN property (as well as review dates and the name of the editor in charge); suggest "definition" property name for OBI, formatting alternatives for OBI same as for NCI FULL''SYN, alternatively, if a single definition is allowed, create a different property to hold provenance info for the definition.
+|-
+|< NCI ||^ ALT''DEFINITION ||^   ||^ A definition provided by an external authority for concepts/classes of special interest; suggest alt''definition for OBI if required by OBI-dependent communities.
+|-
+|< NCI ||^ Concept''Status ||^   ||^ The standing of a concept in relation to currently accepted classifications and concepts. In NCI Thesaurus concept status subtype indicates concepts with unusual and problematic characteristics that should be evaluated by people and/or programs before those concept are used, e.g. retired concept.  Suggest concept''status for OBI.
+|-
+|< NCI ||^ [[EditorNote]] ||^   ||^ Internal information used for any purpose related to maintenance of the ontology by editors, it is not published; suggest editor_note for OBI.
+|-
+|< NCI ||^ Design''Note ||^   ||^ Additional notes provided by editors on the utilization or meaning of the concept, intended for end users; suggest scope''note for OBI.
+|-
+|< rdf-rdfs ||^ rdfs:label ||^   ||^ Label intended for display purposes, in the NCIT the value is copied from the Preferred_Name; suggest OBI continue populating this property.
+|-
+|< NCI ||^  ||^ various identifiers, CAS''Registry, NSC''Code... ||^ Used as references to external authorities; OBI can create these as required or reuse GO's dbxref instead; formatting of dbxref in OWL not straightforward, like NCI FULL_SYN.
+?>
+
+----
+=== General Recommendations for Annotations to Include in OBI - Agreement is needed before this is Approved by the OBI Working Group
+===
+==== Metatdata to Include About a Term
+====
+
+Minimum Information
+* Preferred Term Name (rdfs:label, SKOS:prefLabel)
+* Synonym(s) - See examples posted at ...
+* Unique Identifier (rdf:ID or dc:identifier)
+* Definition (rdfs:comment, SKOS:definition, dc:coverage)
+* Example of how to use the term (SKOS:example)
+* Source of Definition (dc:source, dc:contributor)
+  * current marked as defprov in OBI
+
+Additional Information
+* Term curation status - location in graph and format of definition (refer to above for how the BIRN project is using this; skos:editorialNote -> birn:curationStatus)
+* scopeNote (from SKOS, clarifies the meaning of the a concept)
+* changeNote (SKOS) - A note about a modification to a concept.
+* editorialNote (SKOS) - A note for an editor, translator or maintainer of the vocabulary.
+* historyNote (SKOS) - A note about the past state/use/meaning of a concept.
+* Reference to source of term/definition? (dc:relation, dc:bibliographicCitation)
+* hiddenLabel (SKOS)?  -  A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations.
+* set xml:lang attribute=en -> Check if this is needed using the new version of Protege
+
+==== Metadata to Include About the Ontology
+====
+* Title of Ontology (dc:title)
+* Subject (dc:subject)
+* Release Date (dc:date, dc:created, dc:issued)
+* Description of Ontology (dc:description)
+* Authors of the Ontology (dc:creator or dc:contributor)
+* Entity responsible for making the resource available? (dc:publisher)
+* Version of the ontology (owl:versionInfo, dc:hasVersion, dc:isVersionOf)
+* protege:defaultLanguage, value=en. This is needed to hide the numneric identifiers used in the rdf:ID field with the string label.
+
+=== The current needs (Spring, 2007) for metadata information is listed on the [[MinimalMetadata]] page along with it's implementation in the OBI.owl file
+===
+
+==== Note: The above is a minimal set of descriptors. Find a full recommendation and detailed information such as examples and cardinalities for the annotation tags in the Metadata Annotation document, Chapter 7.2.5.1 Metadata for representational units (RUs):
+====
+http://msi-ontology.sourceforge.net/recommendations/Meta''Annot''v2.doc
+==== This document was compiled in a way to also fulfill the general domain iondependent needs of the NCIT and BIRN requirements (mentioned above).
+====
+An implementation of the full metadata set as owl annotation properties (ready to use by owl:imports statements) is available from:
+
+https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RU_metadata.owl
+
+For more details look at the [[ [[OntologyMetadataAnnotation]]|Ontology Metadata Annotation |]] pages or the specification document.
+
+
+====This is a first draft and discussion version. Please have a look and send comments to the obi devel list
+====
