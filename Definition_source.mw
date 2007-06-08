@@ -1,0 +1,308 @@
+
+Temp version at http://esw.w3.org/topic/OBI''Definition''Source.
+
+
+Here is a BNF style grammar for definition source. The intention is that
+definition_source be simple enough to be entered by the curator as a string,
+but
+unambiguous enough that it can be translated into OWL instances corresponding
+to the thing cited, such as a book, article, web page, etc.
+
+An example of how this could be used is discussed in an email message on the
+obi-devel mailing list (http://tinyurl.com/ypowld) the email is also
+included below, at "More Documentation".
+
+<pre>
+<source-description> ::= <content-part>[[<comment>]]
+<comment> ::= "#" <text>
+<content-part> ::= <book> || <article> || <web-page> || <mesh-term> ||
+<ontology-term> || <person> || <other>
+<book> ::= <book-with-isbn> || <book-without-isbn>
+<tag-sep> ::= ":"
+<book-with-isbn> ::= "ISBN" <tag-sep> <isbn-number> [[<page-number>]]
+<book-without-isbn> ::=  "BOOK" <tag-sep> <url-date> [[<page-number>]]
+<url-date> ::= "<" <url> ">" "@" <date>
+<date> ::= <year> [["/" <month-number> ["/" <day-of-month>]]]
+<article> ::= <article-with-pmid> || <article-without-pmid-with-doi> ||
+<article-without-pmid-or-doi>
+<article-with-pmid> ::= "PMID" <tag-sep> <pubmed-id> [[<page-number>]]
+<article-without-pmid-with-doi> ::= "DOI" <tag-sep> <doi> [[<page-number>]]
+<article-without-pmid-or-doi> ::= "ARTICLE" <tag-sep> <url-date>
+[[<page-number>]]
+<page-number> ::= "pp" <number>[["-" <number>]]
+<web-page> ::= "WEB" <tag-sep> <url-date>
+<mesh-term> ::= "MESH" <tag-sep> <mesh-identifier>
+<person> ::= "PERSON" <tag-sep> <person-id> "@" <date>
+<person-id> ::= "<" <url> ">" || <text>
+<group> ::= "GROUP" <tag-sep> "<" <url> ">" "@" <date>
+<ontology-term> ::=  <ontology-term-with-uri> || <ontology-term-without-uri>
+<ontology-term-with-uri> := "TERM" <tag-sep> "<" <url> ">"
+<ontology-term-without-uri> := "TERM" <tag-sep> <uri-of-ontology>
+<ontology-term>
+<uri-of-ontology> ::= "<" <url> ">"
+<ontology-term> ::= <text>
+<other> ::= <text>
+</verbatim>
+--
+
+<pre>
+
+<pubmed-id> is an identifier in pubmed:
+http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?DB=pubmed
+
+<mesh-identifier> is the "Mesh Unique Id" as found when you search for a mesh
+term at http://www.nlm.nih.gov/mesh/MBrowser.html
+e.g. for "Long Term Potentiation" it is D017774
+
+<url> is a valid url. http urls are preferred.
+
+<number> is what you would expect: matches d+
+
+<month-number> starts at 1 for January, through 12 for December, leading 0
+(zero) on single digit months optional
+
+<day-number> is day of the month, leading 0 optional
+
+<year> is a four digit year
+
+<isbn-number> is an ISBN number for a book, as described at
+http://www.isbn.org/standards/home/isbn/us/isbnqa.asp
+
+Re <date> I left month and day optional in case it is not known precisely
+
+The tags (stuff before <tag-sep>) are case insensitive
+
+<text> is text but the string "|||" shouldn't be used (in case we need that as a
+separator for alternative terms)
+
+----------------------------------------------
+
+Some examples
+
+PMID:15892874pp3-4
+
+Web:<http://www.google.com/search?hl<code>en&client</code>safari&rls<code>en&q</code>define%3Adetaile
+d&btnG=Search>@2007/03/06
+
+ISBN:1402199031
+
+mesh:D017774#Long Term Potentiation
+
+Person:<http://www.w3.org/People/Berners-Lee/card.rdf>@2007/1/25#Tim Berners
+Lee
+
+PERSON:Franklin Delaware Roosevelt@1933/03/04#The only thing to fear...
+
+TERM:<http://purl.org/obo/owl/SO#SO_0000001>#sequence
+
+term:<http://umlsinfo.nlm.nih.gov/>C0206249#Long term potentiation
+
+BOOK:<http://home.olemiss.edu/~djr/pages/writer/books/html/3dialogs/index.html>
+@2001
+
+doi:10.1063/1.1144814pp2
+
+</verbatim>
+
+===More documentation
+===
+
+Here is the email that I sent regarding an earlier version of the proposal. It
+demonstrates how OWL instances
+can be generated and maintained given the string definitions, and how one would
+query them.
+
+<pre>
+From:     alanruttenberg@gmail.com
+Subject:        metadata example
+Date:   February 28, 2007 3:21:33 AM EST
+To:       obi-devel@lists.sourceforge.net
+</pre>
+
+I signed up to give an example of my proposal, an alternative to "complex
+properties". Attached are 4 files which are described below.
+
+The original is a small ontology modeling what we would have in OBI. The only
+term it has from OBI  is "Digital Document", which is the root
+of definition source objects.
+
+?
+There are also classes: tag, and taggedTerm as discussed in my proposal. As
+pointed out in earlier discussion, it's not clear where they should be placed.
+Finally, "My Example" is the class that will be annotated with
+a definition source and with some alternative terms. The namespace for the
+metadata definitions is ~http://obi.org/metadata#
+
+Following (inline image) are the properties used (there are some extraneous
+annotation properties also listed)
+?
+The script that does the work is at
+http://svn.mumble.net:8080/svn/lsw/trunk/obi/tags-example.lisp
+
+To summarize:
+
+The initial ontology is metadata-initial.owl.
+
+The user supposedly fills in the definition''source''string for myexample as
+"~ISBN:0743222091"
+The script creates an instance of obim:book and fills in the identifiedByISBN
+property with the ISBN number.
+The resultant ontology is metadata-after-book.owl
+
+note: I've used strings for the DOI, pubmed, and ISBN, but it would be better
+to fill these with official URLs for those resources
+
+
+The user supposedly edits the definition source and changes it to
+"DOI:10.1002/ijc.20376"
+The script removes the obim:book and creates an obim:article with an
+identifiedByDOI property set to the doi.
+The resultant ontology is metadata-after-article.owl
+
+For the alternative''term example, the property alternative''term_string is
+filled with
+<pre> "[French:mon
+exemple||Web:<http://ets.freetranslation.com/>][Norwegian:min
+eksempel||Web:<http://ets.freetranslation.com/>]"
+</verbatim>
+
+
+*The script creates tag instances Tag''French and Tag''Norwegian.
+*It then creates an instance of webPage for the source.
+*Finally it creates two instances of taggedTerm and makes them the value of the
+alternative_term property of myexample.
+*Each taggedTerm has three properties, "isTerm", "isTagged", and "fromSource",
+which are appropriately filled with the instances above.
+*The name of this ontology is metadata-tagged.owl
+
+I haven't bothered to implement the update process for this field yet but that
+is demonstrated for the definition source.
+
+The top level function is called "demo" It prints the following:
+
+
+<pre>
+Initial file is consistent, OWL-LITE
+before metadata created
+Query: What's the definition''source''string?
+PREFIX obim: <http://obi.org/metadata#>
+SELECT ?string
+WHERE {
+obim:myexample obim:definition''source''string ?string . }
+Results:
+ISBN:0743222091
+
+Query: Show the definition_source
+PREFIX obim: <http://obi.org/metadata#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?meta ?prop ?value
+WHERE {
+?meta rdf:type obim:publication .
+obim:myexample obim:definition_source ?meta .
+?meta ?prop ?value . }
+Results:
+
+after metadata generated
+Query: What's the definition''source''string?
+PREFIX obim: <http://obi.org/metadata#>
+SELECT ?string
+WHERE {
+obim:myexample obim:definition''source''string ?string . }
+Results:
+ISBN:0743222091
+
+Query: Show the definition_source
+PREFIX obim: <http://obi.org/metadata#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?meta ?prop ?value
+WHERE {
+?meta rdf:type obim:publication .
+obim:myexample obim:definition_source ?meta .
+?meta ?prop ?value . }
+Results:
+====obim:myexample''definition''source       !obim:identifiedByISBN  0743222091
+====
+====obim:myexample''definition''source       !rdf:type       !owl:Thing
+====
+====obim:myexample''definition''source       !rdf:type       !obim:book
+====
+====obim:myexample''definition''source       !rdf:type       !obim:publication
+====
+====obim:myexample''definition''source       !rdf:type       !obi:OBI1002
+====
+====obim:myexample''definition''source       !obim:metadataFor       !obim:myexample
+====
+====obim:myexample''definition''source       !obim:metadataOnProperty
+====
+====obim:definition_source
+====
+
+
+Query: Find old metadata, so we can delete it
+PREFIX obim: <http://obi.org/metadata#>
+SELECT ?meta
+WHERE {
+obim:myexample obim:definition_source ?meta . }
+Results:
+====obim:myexample''definition''source
+====
+
+after definition''source''string changed
+Query: What's the definition''source''string?
+PREFIX obim: <http://obi.org/metadata#>
+SELECT ?string
+WHERE {
+obim:myexample obim:definition''source''string ?string . }
+Results:
+DOI:10.1002/ijc.20376
+
+Query: Show the definition_source
+PREFIX obim: <http://obi.org/metadata#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?meta ?prop ?value
+WHERE {
+?meta rdf:type obim:publication .
+obim:myexample obim:definition_source ?meta .
+?meta ?prop ?value . }
+Results:
+====obim:myexample''definition''source       !obim:identifiedByDOI
+====
+10.1002/ijc.20376
+====obim:myexample''definition''source       !rdf:type       !owl:Thing
+====
+====obim:myexample''definition''source       !rdf:type       !obim:publication
+====
+====obim:myexample''definition''source       !rdf:type       !obi:OBI1002
+====
+====obim:myexample''definition''source       !rdf:type       !obim:article
+====
+====obim:myexample''definition''source       !obim:metadataFor       !obim:myexample
+====
+====obim:myexample''definition''source       !obim:metadataOnProperty
+====
+====obim:definition_source
+====
+
+Final file is consistent, OWL-LITE
+Query: List alternative terms and tags
+PREFIX obim: <http://obi.org/metadata#>
+SELECT ?thing ?term ?tag
+WHERE {
+?thing obim:alternative_term ?tt .
+?tt obim:isTagged ?tag .
+?tt obim:isTerm ?term . }
+Results:
+====obim:myexample mon exemple     !obim:Tag_French
+====
+====obim:myexample min eksempel    !obim:Tag_Norwegian
+====
+</verbatim>
+
+The whole thing could be managed with sparql alone save one thing: The removal
+of instances. So I've used the jena api for modifying the ontology, though
+there are other options, of course (though I ran into problems trying to do the
+stale instance removal with the native pellet API and the old OWLAPI, though
+presumably this works properly with the released RSN version of OWLAPI)
+
+Demo runs in LSW, which is available at
+http://svn.mumble.net:8080/svn/lsw/trunk
