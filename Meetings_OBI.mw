@@ -1,0 +1,55 @@
+
+==[[ OBIMeetings|OBI Meetings|]]
+==
+
+This page contains information on OBI relevant meetings.
+
+[[HomePage|<<Back to Homepage |]]
+----
+''''Contents''''
+<?plugin [[CreateToc]]
+pagename<code>[[pagename]] headers</code>=== noheader<code>1 align</code>left with''toclink<code>0 jshide</code>0 liststyle<code>ol indentstr</code>&nbsp;&nbsp; with''counter=0 ?>
+===
+----
+
+=== Upcoming meetings
+===
+
+    * [[ [[Bethesda2007Workshop]]|OBI Workshop |]], Bethesda July 9-13
+
+----
+
+=== Upcoming meetings - submit abstract
+===
+   * [[ http://www.iscb.org/ismbeccb2007/program/sigs/|Bio-Ontology SIG, ISMB 2007 |]], Friday July 20 2007, Vienna, Austria
+
+----
+
+=== Meetings - attended
+===
+    * [[ http://www.bioontology.org/wiki/index.php/Workshop''on''Clinical''Trial''Ontology|Clinical Trial Ontology Workshop |]], Bethesda, MD, May 16-17, 2007
+    * Symposium on HTP microscopy 28-29 April 2007. Attendee Helen Parkinson
+    * [[ [[SanDiego2007Workshop]]|OBI Workshop, San Diego 2007 |]]
+    * PSI Workshop, Sept 25-27, 2006
+      * Attendees: Susanna Sansone, Chris Taylor, Trish Whetzel (Monday, Sept. 25)
+    * GSC, September 11-13
+      * Attendees: Dawn Field, Tanya Gray, Chris Taylor, Trish Whetzel, Allyson Lister
+    * MGED9, September 6-10
+      * Attendees: Chris Stoeckert, Helen Parkinson, Trish Whetzel, Susanna Sansone, Philippe Rocca-Serra
+    * Joint ~BioOntologies ~BioLink SIG at ISMB, August 4-5, 2006
+      * Attendees: Robert Stevens, Helen Parkinson <br>
+    *[[ 2ndFuGOWorkshop| 2nd [[FuGO]] Workshop|]], July 24-28, 2006
+    * DILS Meeting, July 20-22, 2006
+      * Attendees: Susanna Sansone, [[FuGO]] poster [[ http://www.ebi.ac.uk/~sansone/ppt/|here |]]
+    * PSI Workshop, April 21-23, 2006
+      * Attendees: Chris Taylor, Susanna Sansone, Dawn Field, Trish Whetzel, Philippe Rocca-Serra, Daniel Schober
+    * GCP Workshop, March 28-31, 2006
+      * Attendees: Susanna Sansone
+
+----
+
+===Related Links
+===
+
+* [[ [[ObiBranchDevelopment]]|OBI Branch Development |]]
+* [[Milestones|OBI Milestones |]]
