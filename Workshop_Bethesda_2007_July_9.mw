@@ -1,0 +1,456 @@
+
+<?plugin [[CreateToc]]
+pagename<code>[[pagename]] headers</code>==,===,==== noheader<code>0 align</code>left with''toclink<code>0 jshide</code>0 liststyle<code>dl indentstr</code>&nbsp;&nbsp; with''counter=1 ?>
+=========
+
+----
+
+=== Location: Natcher Conference Center
+===
+* The Workshop will be held at the Natcher Conference center.
+<pre>
+      Room D 	   Monday, July 9
+      Room F1/F2   Tuesday, July 10 - Friday July 13
+</verbatim>
+
+* General Information
+  * The William H. Natcher Conference Center (45 Center Drive Bethesda, Maryland 20892) is part of the National Institutes of Health and is located on the NIH campus in Bethesda, MD. The Natcher Building is across the street and north from Building 38A and the National Library of Medicine. It is a 5-minute walk from the Medical Center Metro stop on the Red Line. The Medical Center Metro stop is the next station north from the Bethesda Metro stop located close to the Bethesda Court Hotel.
+
+* Security
+  * The NIH has recently instituted new security measures. All visitors entering the NIH campus must show government-issued photo ID and be prepared to have their personal belongings inspected. Please visit the NIH Visitors and Security page [http://www.nih.gov/about/visitorsecurity.htm] for more information.
+
+* Parking
+  * Visitor parking is very limited but if you must drive, short-term metered parking may be available near the Natcher Conference Center in Lot B. Please visit http://parking.nih.gov/visitor''access''map.htm to see the location of visitor parking areas.
+
+=== Bethesda Court Hotel
+===
+* We have negotiated a special rate of $149.00/night with the Bethesda Court Hotel in downtown Bethesda. The rate includes continental breakfast and wireless internet, see: [http://www.bethesdacourtwashdc.com]
+
+* We will need to do a rooming list with the hotel, and to ensure availability of rooms the hotel needs an accurate number of participants by COB Friday May 11th. Please enter your name, e-mail, and check in/out dates here if you want to be included in the group reservation.
+
+  ==== Interest in Bethesda Court Hotel
+====
+<?plugin [[RichTable]]
+*border<code>1, cellpadding</code>5, bgcolor<code>#f0f8f8, width</code>75%, align=center
+-
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+~BioMaterial Entity
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+Email
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+Check-in Date
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+Check-out Date
+-
+|-
+| Trish Whetzel
+|-
+| [[Upload:trish_w-email.png]]
+|-
+| July 9
+|-
+| July 13
+-
+|-
+|  Chris Stoeckert
+|-
+| stoeckrt''at''pcbi.upenn.edu
+|-
+| July 9
+|-
+| July 13
+-
+|-
+| Susanna Sansone
+|-
+| sansone''at''ebi.ac.uk
+|-
+| July 7
+|-
+| July 13
+-
+|-
+| Philippe Rocca-Serra
+|-
+| rocca''at''ebi.ac.uk
+|-
+| July 7
+|-
+| July 13
+-
+|-
+| Richard Scheuermann
+|-
+| richard.scheuermann''at''utsouthwestern.edu
+|-
+| July 9
+|-
+| July 13
+-
+|-
+| Barry Smith
+|-
+| phismith''at''buffalo.edu
+|-
+| July 9
+|-
+| July 11
+-
+|-
+| Jennifer Fostel
+|-
+| fostel''at''niehs.nih.gov
+|-
+| July 9
+|-
+| July 13
+-
+|-
+| Bjoern Peters
+|-
+| bpeters''at''liai.org
+|-
+| July 11
+|-
+| July 13
+-
+|-
+| James Malone
+|-
+| malone''at''ebi.ac.uk
+|-
+| July 7
+|-
+| July 13
+-
+|-
+| Helen Parkinson
+|-
+| parkinson''at''ebi.ac.uk
+|-
+| July 7
+|-
+| July 13
+-
+|-
+| Tina Boussard
+|-
+| boussard''at''stanford.edu
+|-
+| July 8
+|-
+| July 11
+-
+|-
+| Bill Bug
+|-
+| William.Bug''at''drexelmed.edu
+|-
+|
+|-
+|
+-
+|-
+| Jeffrey Grethe
+|-
+| jgrethe''at''ncmir.ucsd.edu
+|-
+| July 8
+|-
+|
+-
+|-
+| Sherri de Coronado
+|-
+| decorons''at''mail.nih.gov
+|-
+| July 8
+|-
+| July 11
+-
+?>
+
+=== List of Participants
+===
+<?plugin [[RichTable]]
+*border<code>1, cellpadding</code>5, bgcolor<code>#f0f8f8, width</code>75%, align=center
+-
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+~Name
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+Organization
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+Phone
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+email
+|-
+|* bgcolor<code>#f0f0ff, align</code>center
+Set up wireless account
+-
+|-
+| Trish Whetzel
+|-
+| University of Pennsylvania
+|-
+|
+|-
+| [[Upload:trish_w-email.png]]
+|-
+| Yes
+-
+|-
+| Chris Stockert
+|-
+| University of Pennsylvania
+|-
+| 215-573-4409
+|-
+| stoeckrt''at''pcbi.upenn.edu
+|-
+| Yes
+-
+|-
+| Susanna Sansone
+|-
+| European Bioinformatics Institute
+|-
+|
+|-
+| sansone''at''ebi.ac.uk
+|-
+| Yes
+-
+|-
+| Philippe Rocca-Serra
+|-
+| European Bioinformatics Institute
+|-
+|
+|-
+| rocca''at''ebi.ac.uk
+|-
+| Yes
+-
+|-
+| Richard Scheuermann
+|-
+| UT Southwestern
+|-
+|
+|-
+| richard.scheuermann''at''utsouthwestern.edu
+|-
+| Yes
+-
+|-
+| Barry Smith
+|-
+| University of Buffalo
+|-
+|
+|-
+| phismith''at''buffalo.edu
+|-
+| Yes
+-
+|-
+| Jennifer Fostel
+|-
+| NIEHS/NIH
+|-
+|
+|-
+| fostel''at''mail.nih.gov
+|-
+| Yes?
+-
+|-
+| Bjoern Peters
+|-
+| La Jolla Institute for Allergy and Immunology
+|-
+|
+|-
+| bpeters''at''liai.org
+|-
+| Yes
+-
+|-
+| James Malone
+|-
+| European Bioinformatics Institute
+|-
+|
+|-
+| malone''at''ebi.ac.uk
+|-
+| Yes
+-
+|-
+| Helen Parkinson
+|-
+| European Bioinformatics Institute
+|-
+|+44 1223 494672
+|-
+| parkinson''at''ebi.ac.uk
+|-
+| Yes
+-
+|-
+| Tina Boussard
+|-
+| Stanford University
+|-
+|
+|-
+| boussard''at''stanford.edu
+|-
+| Yes
+-
+|-
+| Bill Bug
+|-
+| Drexel University
+|-
+|
+|-
+| William.Bug''at''drexelmed.edu
+|-
+| Yes
+-
+|-
+| Jeffrey Grethe
+|-
+| UCSD
+|-
+|
+|-
+| jgrethe''at''ncmir.ucsd.edu
+|-
+| Yes
+-
+|-
+| Sherri de Coronado
+|-
+| NCI
+|-
+|
+|-
+| decorons''at''mail.nih.gov
+|-
+| No
+-
+|-
+| Frank Hartel
+|-
+| NCI
+|-
+| 301-435 3869
+|-
+| hartel''at''mail.nih.gov
+|-
+| No
+-
+|-
+| Gilberto Fragoso
+|-
+| NCI
+|-
+| 301-451 6344
+|-
+| fragosog''at''mail.nih.gov
+|-
+| No
+-
+|-
+| Mervi Heiskanen
+|-
+| NCI
+|-
+| 301-451 6369
+|-
+| heiskame''at''mail.nih.gov
+|-
+| No
+-
+|-
+| Allyson Lister
+|-
+| CISBAN, Newcastle University
+|-
+| (country code 44) 191 222 7367
+|-
+| a.l.lister''at''ncl.ac.uk
+|-
+| Yes
+-
+|-
+| Randi Vita
+|-
+| La Jolla Institute for Allergy & Immunology
+|-
+| 858-273-3662
+|-
+| rvita''at''liai.org
+|-
+| Yes
+-
+|-
+| Liju Fan
+|-
+| Ontology Workshop, LLC
+|-
+| 410-880-8988
+|-
+| liju.fan''at''gmail.com
+|-
+| Yes
+-
+|-
+| Suzi Lewis
+|-
+| UC Berkeley
+|-
+| 510-486-7508
+|-
+| suzi''at''berkeleybop.org
+|-
+| Yes
+-
+
+?>
+
+
+=== Draft Agenda
+===
+        Monday
+
+        AM - Meeting with NIH Program Directors (est 10 AM EDT)
+
+        PM
+	- Summary of action items, & milestones from San Diego
+	- Update of status from development branches
+	- Discussion of agenda for the rest of the meeting, priorities, agreement on desired outcomes, working in subgroups vs entire group?
+	- Discussion of cross-development issues - relations, others
+        - Maintenance of terminologies by participating communities or within the OBI ontology proper
+        - Optional Presentations?
+        ---------
+
+        Tuesday - Thursday
+	- vocabulary development, content & hierarchy structure in specific branches
+        - Optional Presentations in the PM?
+
+        ----------
+
+        Friday
+	- Discussion of items arising during workshop,
+	- plan of action for the next development/workshop cycle & resetting milestones
