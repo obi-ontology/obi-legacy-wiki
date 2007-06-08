@@ -1,0 +1,89 @@
+Content-Transfer-Encoding: binary
+
+== An initial list of properties for 'instruments' with proposed Domains and Ranges.
+==
+
+This is an initial starting point for discussion and it is assumed that proper definitions for such relations can only be done from within the owl file/hierarchy.
+
+runs OS/software
+       * Domain: any sufficient automated and computerized subclass of OBI:instrument and OBI:platform
+       * Range: a realizable_entity subclass (equivalent to the deleted OBI:software)
+
+realizes process step
+       * Domain: OBI:instrument
+       * Range:  some BFO:processual entity subclass, such as BFO:Process, BFO:fiat process part, OBI:protocol_application or OBI:assay ?
+
+or alternatively (dept. on granularity):
+executes
+       * Domain: OBI:instrument
+       * Range:  BFO:process, OBI:assay
+
+has_function
+       * Domain: OBI:instrument
+       * Range:  OBI:instrument_function
+
+measures
+       * Domain: OBI:instrument, OBI:part''of''instrument  OR we have a class OBI:instrument_application here...
+       * Range:  OBI:data_object
+
+parameter_setting
+       * Domain: OBI:instrument
+       * Range:  OBI:parameter''value''application
+
+    default_setting
+       * Domain: OBI:instrument
+       * Range:  OBI:parameter''value''application
+
+data_input
+       * Domain: OBI:instrument
+       * Range:  OBI:data''object, OBI:data''set
+
+data_output
+       * Domain: OBI:instrument
+       * Range:  OBI:data''object, OBI:data''set
+
+has_vendor
+       * Domain: OBI:instrument
+       * Range: vendor (not yet present in OBI)
+
+has_model
+       * Domain: OBI:instrument
+       * Range:  model (not yet present in OBI)
+
+throughput_style (high throughput vs small scale)
+       * Domain: OBI:instrument
+       * Range:  data''throughput''scale (not yet present in OBI)
+
+part''of''system/platform/pipeline
+       * Domain: OBI:instrument
+       * Range:  OBI:platform
+
+placement/environment (external influences)
+       * Domain: OBI:instrument
+       * Range: BFO:three''dimensional''region, BFO:site
+
+user
+       * Range: OBI:investigator or OBI:subject_role (are realizables/roles right now, so seem a bit strange), maybe better some Continuant 'person' class ?
+
+last_user
+       * Domain: OBI:instrument
+       * Range: OBI:investigator  or OBI:subject_role (are realizables/roles right now, so seem a bit strange), maybe better some Continuant 'person' class ?
+
+last-checked
+       * Domain: OBI:instrument
+       * Range:  BFO:temporal instant
+
+known_defects/problems/shortcomings
+       * Domain: OBI:instrument
+       * Range: (-), might be of datatype property (String)
+
+processing_time/timescale
+       * Domain: OBI:instrument
+       * Range: BFO:temporal_interval
+
+consumes
+       * Domain: OBI:instrument
+       * Range:  OBI:labware/consumables
+
+
+There could be more abstract relations, i.e. to an 'Instrumentation Effect' class (as in EXPO) that describes what implications regarding the design princlipe lie in a decision to use a specific instrument type...
