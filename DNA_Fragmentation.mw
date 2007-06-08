@@ -1,0 +1,17 @@
+
+DNA Fragmentation
+
+from: http://www.icms.qmul.ac.uk/flowcytometry/uses/apoptosis/dnafragmentation/index.html
+
+There are certain characteristics of apoptotic cells that can be identified and used to detect apoptotic cells in an otherwise healthy population of cells. Technically the easiest characteristic to detect is loss of DNA from permeabilised cells due to DNA fragmentation. When cells are permeabilised, for example by 70% ethanol, the fragmented 182bp DNA multimers leak out of the cell. The result is a population of cells with a reduced DNA content. If the cells are then stained with a DNA intecalating dye like propidium iodide, then a DNA profile representing cells in G1, S-phase and [[G2M]] will be observed with apoptotic cells being represented by a sub G0/G1 population seen to the left of the G0/G1 peak.
+
+[[SubG1]] Protocol
+ # Harvest cells washing in PBS
+  * Washing, Harvesting & Centrifugation (http://www.pathology.washington.edu/research/labs/zhang/labprotocols/Harvesting%20Cells.pdf): has''input<code>cells in food medium in petri dish, has''input</code>PBS, has_output=harvested cells in a test tube. (There is an issue with multiple ways of harvesting cells and how granular to make this PA.)
+ # Fix pelleted cells in ice-cold 70% ethanol by adding with a pasteur pipette on a vortex. Leave cells at 4oC from 30 mins to a week
+ # Pellet cells at approximately 2,000 rpm for 5 mins. Wash twice in Phosphate Citrate PBS buffer (0.1M Citric Acid pH 7.8)
+ # Add 50 ml RNAse (100 mg/ml Sigma) and incubate at RT or 37oC for 15 mins
+ # Add 200 ml of PI (50 mg/ml Sigma P4170)
+ # Analyse by flow cytometry collecting 25,000 events per sample
+
+http://www.research.umbc.edu/~jwolf/method5.htm (a bit more on harvesting)
