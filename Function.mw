@@ -1,0 +1,82 @@
+
+=== ~Function branch WG
+===
+==== 1. Editors
+====
+* Bill
+* Alan
+* Suzi & GO (advisor)
+
+==== 2. Function Branch TCons:
+====
+* [[FunctionNeeds/TConsAgendas|conference call agendas |]]
+* [[FunctionNeeds/TConsMinutes|conference call minutes |]]
+
+==== 3. Link to [[FunctionTermNeeds/lists|OBI Function terms' list |]]
+====
+(''Find here a list of excel files, as the works progress'')
+
+==== 4. Original list of terms - as provided by each community
+====
+(''Dear editors, add here the link to the file with your list of terms here'')
+* Flow Cytometry
+'''''' Tab delimited file with terms from flow cytometry: Upload:Function-FlowCytometry-2007-03-30.txt
+
+
+----
+<br>
+
+=== General Guidance
+===
+
+Communities are compiling lists of their ~Function term requirements (preferably following the naming conventions<sup>[[NamingConventions|2|]]</sup>) as a tab-delimited file  (term name and definition) - all needed terms if time permits. Examples below provide general guidance on how Function term defintions should be specified.  As this branch is built out, a term's parent class should also be specified. Currently only a parent obi:function class, a placeholder for GO:Molecular''function, and OBI:Instrument''function exist.  As the examples below make clear, we will also likely have foundational function classes for:
+*Assay_function
+*Assessment''function (likely a specialization of Assay''function)
+*Indicator_function (e.g., fluorophores, radiolabels, optically dense indicators such as HRP & DAB/Ni)
+*Reagent_function
+*Algorithm_function
+*Instrument''part''function (not really a type of Instrument_function)
+*Analytical''instrument''function (according to Instrument Branch discussions, devices such as dialysis tubing that do not produce data will be considered a type of Instrument.  The collection of Instruments that directly produce the observations collected for analysis [[colloquially referred to as "data"]] will be sub-types of Analytical_instrument)
+
+As the BFO:function definition makes clear, functions are end-directed activities manifested by specific continuants.  Functions typically provide a description of how a variety of continuants inter-relate in a particular context. With this in mind, it is expected definitions submitted for particular functions will include a reference to the continuant exhibiting it, as well as other continuants and occurents involved in the function. Necessary additional continuants and occurents, if not internal to OBI, should be derived from existing ontologies when possible, preferably one amongst the [[|http://obofoundry.org/ OBO Foundry]] constellation of ontologies.
+
+The Function branch editors will be responsible for communicating to other branch editors a continuant residing in the branch they curate is linked to a specific function.
+
+Finally, the Functions to be covered by OBI will be those specifically related to investigational details such as executing a protocol, performing an assay, or using an instrument.
+
+
+----
+<br>
+
+===BFO:function
+===
+
+* Definition:
+'''''' A realizable entity the manifestation of which is an essentialy end-directed activity of a continuant entity in virtue of that continuant entity being a specific kind of entity in the kind or kinds of contexts that it is made for.
+
+* Examples:
+'''''' the function of a birth canal to enable transport;
+'''''' the function of the heart in the body to pump blood;
+'''''' the function of reproduction in the transmission of genetic material;
+'''''' the digestive function of the stomach to nutriate the body;
+'''''' the function of a hammer to drive in nails;
+'''''' the function of a computer program to compute mathematical equations;
+'''''' the function of an automobile to provide transportation;
+'''''' the function of a judge in a court of law
+
+* OBI Examples (putative related continuants in bold-italic; putative related occurrents in italic):
+'''''' the function of a '''''high pressure liquid chromatagraphic (HPLC) system''''' to ''separate'' '''''molecules''''' based on their solubility properties;
+''''''''' continuant in which function inheres: '''''high pressure liquid chromatagraphic (HPLC) system*''
+''''''''' process: '''''molecules*'' being ''separated'' based on their solubility properties - input <code></code> mixture; output <code></code> distinct fractions of mixture based on relative hydrophobicity
+''''''* role (mode of participation in the process):
+'''''''''''' AR: (role as sub-relation) - the separation process '''has''separator''' '''''high pressure liquid chromatagraphic (HPLC) system''''' - '''has''separator''' '''is''a''' subproperty of '''has''participant'''
+'''''''''''' BB: - '''''high pressure liquid chromatagraphic (HPLC) system''''' has the role '''separator''' in the hydrophobicity-based separation process - '''separator''' is a type of role that '''inheres''in''' the '''''high pressure liquid chromatagraphic (HPLC) system'''_
+''''''* PATO: solubility (more specifically hydrophobicity)
+'''''' the function of '''''Nomarksi optics''''' to enhance the constrast of '''''specimens''''' ''viewed'' in a '''''light microscope''''' based on their ability to ''refract'' visible wavelengths of '''''light'''''.
+'''''' the function of the '''''neuropsychological exam Ray's Auditory Verbal Learning and Memory Test (RAVLT)''''' to ''assess'' the relative impairment of '''''cognitive ability'''''.
+'''''' the function of the '''''Tail Flick Analgesia test''''' to ''measure'' '''''pain''''' sensitivity in '''''mice''''' and '''''rats''''' as they respond to the ''application'' of '''''heat''''' to a small area of their '''''tails'''''.
+'''''' the function of an '''''antibody'''''-coated '''''Enzyme-linked Immunosorbant Assay (ELISA)''''' '''''multi-well plate''''' to identify the presence of a specific '''''molecule''''' based on its matching '''''epitopes''''' ''binding'' to the immobilized '''''antibodies''''' coating the '''''plate wells''''';
+'''''' the function of '''''Cy5''''' coupled-'''''ligands''''' to enable ''separation'' of '''''cells''''' in a '''''Fluorescence-Activated Cell Sorter (FACS)''''' by virtue of '''''cells''''' possessing specific '''''receptors''''' with an specific affinity to ''bind'' the coupled '''''ligand''''' thereby causing only those '''''cells''''' to ''fluoresce'' when ''illuminated'' with '''''laser''''' '''''light''''' frequency that specifically ''excites'' '''''Cy5''''', ''triggering'' '''''relays''''' and ''redirecting'' the '''''solution flow''''' to a separate '''''effluent container''''';
+'''''' the function of '''''semi-permeable dialysis tubing''''' to ''separate'' '''''solutes''''' based on size by virtue of restricted ''diffusion'' and ''osmosis''.
+'''''' the function of an ''image processing'' ''segmentation'' '''''algorithm''''' to automatically identify '''''objects''''' in '''''digital images''''' based on the '''''pixel''''' intensity values they contain.
+'''''' the function of the '''''electromagnetic lenses''''' in an '''''electron microscope''''' to ''direct'' the incident '''''electron beam''''' trajectory so as to systematically ''raster'' across a '''''specimen''''' when constructing the overall '''''image'''''.
