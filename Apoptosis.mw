@@ -1,0 +1,15 @@
+
+Apoptosis
+
+from http://www.icms.qmul.ac.uk/flowcytometry/uses/apoptosis/
+
+Annexin-V - Cell membrane changes
+In normal cells, phosphatidylserine (PS) residues are found in the inner membrane of the cytoplasmic membrane. During apoptosis, the PS residues are translocated in the membrane and are externalised. In general, though not always, this is an early event in apoptosis and is thought to be a signal to neighbouring cells that a cell is ready to be phagocytosed. Annexin-V is a specific PS-binding protein that can be used to detect apoptotic cells. Annexin-V is available conjugated to a number of different fluorochromes.
+
+Annexin V Staining Protocol
+ # Pellet cells, including any cells in supernatants from adherent cell cultures.
+ # Resuspended in 400 ml of Becton Dickinson (BD) Annexin V Binding Buffer (Cat. No.556454).
+ # Add 2 ml Annexin V-FITC (BD, Cat.No. 556420) or 2 ml Annexin V-AlexaFluor-647(Invitrogen Cat. No. A23204.
+ # Incubate at RT for 15 mins
+ # Add viability dye PI (5 mg/ml) or DAPI (200 ng/ml)
+ # Collect 10-20,000 events.
