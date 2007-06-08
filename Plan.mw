@@ -1,0 +1,119 @@
+
+==[[ [[PlanBranch]]|Plan Branch|]]
+==
+
+The Plan Branch is an [[ObiBranches|OBI Branch |]] concerned with identifying entities to describe intent and steps in a instructions or rules that define how an entity should be realized.
+By intent, we mean a possible association from OBI-Plan to OBI-Objective.
+
+[[HomePage|<<Back to Homepage |]]
+----
+''''Contents''''
+<?plugin [[CreateToc]]
+pagename<code>[[pagename]] headers</code>===,==== noheader<code>1 align</code>left with''toclink<code>0 jshide</code>0 liststyle<code>ol indentstr</code>&nbsp;&nbsp; with''counter=0 ?>
+=======
+----
+=== Scope
+===
+The scope of the Plan branch is to identify essential entities to describe the intent and organizing steps of realizable entities such as an investigation (study/experiment), protocol or algorithm
+
+----
+===Plan conference calls
+===
+Conference calls for Plan are made every Monday.  For details of conference calls see [[GoogleCal|Conference Calls ||PlanTermNeeds/calls]].  A calander with details of all conference calls for all branches is also maintained [[here. |]]
+
+[[PlanTermNeeds/calls|Plan Conference Call Page>> |]]
+
+----
+===Current OBI types
+===
+''-Plan'': a Plan is a set of instructions or rules that specifying how an entity should be realized
+
+''--protocol'': Protocol is a plan outlining a set of instructions which can be realized as a protocol application. Example: The SOP describing the execution of a clinical trial. Affymetrix Mass 5 analysis. The dose and route of administration of myosin into a mouse.
+
+''--investigation''design'': Investigation''design is a plan for an investigation. definition_source: OBI.
+
+''--algorithm'': no def currently provided
+
+''--data''format''specification'': A data format specification is a plan which organizes information. Example: The ISO document specifying what encompasses an XML document; The instructions in a XSD file
+
+
+----
+=== Use cases and term submission
+===
+A STUB file has been created, to be used as template for term submission which can be accessed here:
+Upload:OBI-PLAN-STUB-FILE.xls
+
+Note that the header of the file has been prepared using the list of required Metadata tags as defined by the metadata working group.  Also included is the optional tag 'TEMPORARY GRAPH POSITION' for people wishing to propose a location for an entity under the OBI tree.
+
+The Stub files currently contains terms initially submitted to the Data Transformation branch (all those terms related to algorithm)
+
+
+----
+===Updated term collection
+===
+A list of the most up to date terms can be found in the [[PlanTermNeeds/calls|conference calls |]] section.  Some further resources are listed below.
+
+Excel workbook with Protocol related terms (and more) provided by Kevin Clancy:
+Upload:clancy-exp-protocol.xls
+
+Tab delimited file with terms from flow cytometry:
+Upload:Plan-FlowCytometry-2007-03-30.txt
+
+a Compilation file created on 05-03-2007 is available here:<br>
+Upload:OBI-PLAN-Terms-candidates-v1-060307.xls
+
+Following the first OBI-Plan Branch telecon, The terms were collected from:
+-MGED Ontology (ExperimentalProtocolType and [[ExperimentDesignType]])
+-PSI-MI/PSI-SEP CV submitted by Luisa Montechi:<br>
+Upload:PSIassays-OBI-template.xls
+-Direct submission from MSI community and work presented during OBI meeting.
+
+Additional Documents provided by MO via Trish Whetzel have not yet been reviewed but can be accessed here:<br>
+
+Upload:FuGO.factors.txn.05.06.doc
+Upload:FuGO.factors.terms.for.next.time.05.06.doc
+
+
+----
+=== Use cases for experimental design
+===
+[[ http://www.ebi.ac.uk/~sansone/FuGO/Experimental Design Use Cases for OBI.doc|Experimental design workflow document |]]
+by Kevin Clancy
+
+Reorg of terms to plan Upload:GenericallyDepCont_to-Plan-FlowCytometry-reorg.txt
+
+----
+===Current outstanding issues
+===
+(to be discussed during OBI-Plan-Branch 2nd Telecon '''Tuesday March 6th, 4 pm GMT via Skype (max 10 participants)''' are :
+
+-Alignement on defining 'Protocol' and 'Process' between PSI-SEP and OBI
+-Untangling What relates to 'Variable/Factor', 'Objective' and 'Investigation_design' for many of MO terms
+-Getting more terms for 'algorithm' and  'data''format''specification' (data''format''specification is not obvious)
+
+----
+===Mailing list
+===
+For latest news and updates on the Plan Branch sign up at the mailing list at obi-plan-branch@lists.sourceforge.net [[ https://lists.sourceforge.net/lists/listinfo/obi-plan-branch|found here |]]
+
+
+----
+===Editors
+===
+Editors for the Plan Branch are as follows:
+    * Philippe Rocca-Serra
+    * Jennifer Fostel
+    * Trish Whetzel
+    * Helen Parkinson
+    * Susanna Sansone
+    * Liju Fan
+    * Jeffrey Grethe
+
+
+----
+
+===Related Links
+===
+
+    * [[ [[ObiBranchDevelopment]]|OBI Branches |]]
+    * [[ [[ObiBranchDevelopment]]#Latest''Branch''Terms|Latest Terms for all Branches|]]
