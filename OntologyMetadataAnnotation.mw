@@ -1,0 +1,92 @@
+
+==Metadata annotation for representational units and artifacts - the pragmatic approach -
+==
+
+===NOTE: The minimal list of required implementation-independent metadata annotation properties for OBI can be found on https://www.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata ====
+=======
+<br>
+
+===Format independent specification document
+===
+A metadata recommendation is being developed by the Ontology Working Group of the Metabolomics Standards Society. This general recommendation and its documentation can be downloaded from http://msi-ontology.sourceforge.net/recommendations/
+
+The latest version is called '''Meta''Annot''v2.doc'''.
+
+This (format independent) recommendation together with cardinalities and additional data (like a mapping table to corresponding NCIT and birnlex properties) can be found in the Chapter 7.2.5 called "Proposed format independent metadata recommendation".
+
+===Implementation in owl
+===
+An initial implementation of these msi recommendations as simple non-hierarchical owl annotation properties has been created and is currently used by the msi ontologies. This implementation does not provide the ability to annotate on annotations.
+The metadata annotation elements (owl annotation properties) are provided in two separate owl files:
+
+''' '''RA_metadata.owl'''   to annotate '''Representational Artifacts (RA, such as whole ontologies)*
+
+and
+
+''' '''RU_metadata.owl'''   to annotate '''Representational Units (RU, such as classes and properties)*
+
+
+'''RA_metadata.owl''' formalizes recommendations for annotation properties to '''describe the ontology as a whole'''. Metadata properties as required for ontology submission to the OBO and ~BioPortal repositories have been integrated already.
+
+'''RU_metadata.owl''' formalizes recommendations for annotation properties to '''describe the constitual parts''' (representational units or 'KR idioms') of the ontology. They should be sufficiently rich to aid the main domain independent ontology engineering and administration processes. These metadata elements provide tractable search tags to query for administrative and editorial metadata on classes and properties.
+
+===Implementation principles
+===
+These implementations were build in a manner to be modular (import RU and RA metadata separately) and simple to use. This is a lightweight set of metadata descriptors for people that feel the need for a more ontology-centric coverage, compared to the dublin core or skos. The Annotation property names were choosen to be maximally intuitive to a majority of developers and yet as short as possible. No use of property hierarchies was made so far, but can be added easily. Besides the dublin core, some of the more domain independent NCIT and birnlex metadata elements were also evaluated to build this RU metadata recommendation.
+
+RU''metadata.owl also provides some residual categories ( administrative helper-classes e.g. ''deleted, ''inclusion''list and ''temp''orphan) which can help administering classes, e.g. the ''deleted class can substitute the current '''deleted_classes' in OBI. Such 'administrative only' classes should be separated from the domain ontology and are hence better placed in an imported metadata ontology. The underscore prefix indicates that these classes are residual categories and not 'proper' ontological classes.
+
+=== Usage of these ontologies
+===
+Import these two ontologies into the ontology you want to annotate: Use the owl:imports statements to load them over the web from these URLs:
+
+https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RA_metadata.owl
+
+https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RU_metadata.owl
+
+=== Example annotation of a class "instrument''configuration" with RU''metadata elements
+===
+To show how a practical usage of the annotation properties looks like in an owl file, the owl code for the class "instrument_configuration" from the NMR.owl ontology is shown here:
+
+
+<owl:Class rdf:ID="NMR_400062">
+    <rumeta:'''synonym''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >machine configuration
+instrument setting</rumeta:synonym>
+    <rdfs:subClassOf rdf:resource="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    <rumeta:'''editor''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Daniel Schober</rumeta:editor>
+    <rumeta:'''action_item''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Move to OBI.</rumeta:action_item>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An instrument configuration is the process of setting the possible parameters of an instrument in order to archive a certain intended goal.</rdfs:comment>
+    <rumeta:'''pref''cls''name''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >instrument configuration</rumeta:pref''cls''name>
+    <rumeta:'''alt_def''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An instrument configuration is the process of setting the possible parameters of an instrument in order to archive a certain intended goal.</rumeta:alt_def>
+    <rumeta:'''modif_date''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >061108</rumeta:modif_date>
+    <rumeta:'''unresolved_issue''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >It is not clear if this domain independent class should be moved to OBI.</rumeta:unresolved_issue>
+    <rumeta:'''rights''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Free</rumeta:rights>
+    <rumeta:'''temp_def''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An instrument configuration is the description for the setting of an instrument or a machine in order to archive a certain intended goal or task.</rumeta:temp_def>
+    <rumeta:'''cls_prov''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ArMet OM</rumeta:cls_prov>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >instrument_configuration</rdfs:label>
+    <rumeta:'''curation_status''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >unstable</rumeta:curation_status>
+    <rumeta:'''scope_note''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This class should capture differrent instrument settings on the machine used in response to diverse analytical approaches.</rumeta:scope_note>
+  </owl:Class>
+
+
+
+
+
+This is work in progress. Comments and additional requirements on this issue can be sent to schober [[at]] ebi.ac.uk directly or to the obi developers list.
+
+
+(NOTE: An additional page has been created for OBI Community members to submit their [[ [[CommunityPracticesInOntologyMetadata]]|current practices in ontology metadata |]] use and any supporting info)
