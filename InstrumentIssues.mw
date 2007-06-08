@@ -1,0 +1,64 @@
+
+== Some Instrument related ontological issues
+==
+
+
+* Where is the border Instrument - Cardinal''part''of_Instrument ?
+  * TW - I believe that this was discussed via email and the use of 'cardinal''part''of_instrument' would not be continued. Not sure if that will be changed before the files are split.
+
+* Where is the border Instrument - Instrument''collection/System/Plattform and where is the border to object''aggregate ?
+  * TW - Let's get some terms and see what is needed before trying to decide this apriori
+
+* The NMR CV currently lists more Brandnames than Instrument types. Do we want to be able to query for exact brandnames or is a (broader) type enough? This question can be re-formulated as: What is the granularity level here and are these Brandnames to be modeled as classes or instances? (We still desperately need a use case for the ontology).
+  * TW - As for the needs for the NMR/Metabolomics Society that is something that you will need to check with them as to whether they will want to query by brand name.
+  * TW - As for the PSI-MS needs, having the model and vendor included in OBI is preferable based on their need to specify these items in their data reporting format.
+  * TW - As for the Transcriptomics needs, the MGED Ontology contains terms such as Affymetrix_DAT, which is a compound term and presumably will need to be split into 'Affymetrix' as the vendor/company and 'DAT' which is a type of file format. I am not aware of a need to query by company/brandname/vendor... per se for this community, however splitting out this information is what I understand is the proper way to do this for OBI.
+  * DS: Yes, sure in an ideal world everything would be refactored into the most granular RU allowed for the RA-semantics... But we start implementing with a taxonomy first. I think that was agreed upon at the last WS and I guess it makes sense to infer the relations from their implicit occurrence within compound term names.
+  * For tracability reasons I would however like to assign key properties to Top Level classes or at least 'Branch-top level classes' that get inherited. These would allow us to see at all levels below a Branch-top level class these key-properties and use them to check for the right classification.
+
+  * TW - As for the modelling, there was a discussion at the Feb. 2006 Workshop where this question was discussed. The resolution at the time was that it is ok to model these as classes. In our case when we have a term 'Bruker', we are not referring to the instance of the company Bruker but that Bruker is a type of company. This was discussed with Barry.
+
+
+* We could use a Naming Convention that renders Brandnames a little more descriptive, e.g. [[CompanyName]]''InstrumentType''BrandName, Bruker''NMR''Spectrometer_MicroBay. Also, since the naming conventions state that Brandnames can break the Acronym-resolution recommendation, there are many Acronyms within instrument Brandnames that hinder fast term recognition.
+  * TW - I would suggest that OBI include the company/brand/vendor name as it is proposed and only add an acronym if that is included with the original term proposal.
+
+  * DS: What is the distinction between company and vendor in the company/brand/vendor name you propose for OBI? Are we interrested in who actually delivered an instrument(vendor) ? I guess the Company(the manufacturer)/BrandName would be enough, since the [[InstrumentType]] is implied by its parent. However for readability I think it schould include the [[InstrumentType]] in the name (see also next point).
+
+
+* I don't think there should be classes indicating the brand only (Such as Bruker''NMR''instrument. This will later be a property of an Instrument hopefully. Also we would avoid conflicts that force us into multiple parenthood, e.g. a Burker''Cryoprobe is''a Bruker''NMR''probe AND a cryo_probe....
+  * TW - Can you expand - the example 'Bruker''NMR''instrument' does not only indicate a brand as it also contains the type of instrument. I believe that information regarding company/brand etc. be captured as a value for a property and that this value is a class within OBI.
+  * DS: Yes, will later be a property of an Instrument hopefully, as stated above, but at this point we could allow for capturing defined classes as they come.... Later refactor....
+
+* Frank Gibson and Ally have an idea for a modification within the Instrument branch that comes from comparing the sepCV instrument terms to what was in OBI.
+
+  * Basically, we think that there are devices other than instruments that communities will want to capture. Take the example of a gel tank: it produces no data, but is important to include. It could be a direct child of object, but it makes more sense to do the following
+    * preferred_term: Device
+    * definition: Device is an object which provides an advantage in accomplishing a physical and/or analytical step in a protocol.
+    * definition_source: OBI.
+    * example: crowbar, centrifuge, fridge, gel tank, water bath, spectrometer, shaker (a device which allows an object to be agitated, such as a washing protocol in immunoblotting) (the definition started as the one here: http://en.wikipedia.org/wiki/Tool, but it has been changed significantly)
+    * DS: The above definition for 'device' is too constraining in that it assumes any step a device providea an advantage for must be part of a protocol. I wouold substitute 'protocol' with 'process'.
+
+   * Then both Instrument and other non-data producing machines could be disjoint children of Device. The only disagreement Frank and I had over this is over whether there should be some child of Device that would encompass all non-data-producing Devices, or whether terms such as gel tank should just be added as direct children of Device.
+
+   * What do others think of this idea?
+
+     * DS: I think instrument, device, tool, machine and  equipment should be synonyms. Maybe 'machine' is a little differrent in that it usually refers to a device that produces objects. Or what is the distinction in the definitions that justifies to model these entities separately? It might be the 'intention' (a very context-dependent factor) that lets enities change between such catecories (e.g. a Car can be used as a bridge, a hair dryer becomes a murder weapon). I guess 'tool' is somewhat similar to instrument or device but less complex (a knife or pliers are tools rather than devices). But since English is not my mother tongue I'll leave this to you ;-)
+
+     * TW - based on the current OBI definition for Instrument (An instrument is an object that is used to collect data. definition_source:OBI), either the definition will need to be changed or additional terms will need to be added to OBI to capture the other types of objects that will need to be annotated using OBI.  I would suggest that we go through the term lists and indicate which of these fit the above definition of OBI and work out existing classes from what does not fit. At this time (12Mar2007), there are only 2 term lists that contain terms and definitions. As has been a past issue, reviewing terms without definitions makes progress on these terms difficult.
+
+     * DS: Yes, OBI:Instrument needs another definition or must be re-named to 'analytical_instrument' (possibly placed under a 'scientific-instrument'), to distinguish it from e.g. a drill at the dentist, which is an instrument that is not used for collecting data....
+
+ DS:  I would propose the following:
+
+ * preferred_term: instrument
+ * synonym: device, tool, machine, utensil, equipment, hardware, apparatus  (WHERE: apparatus and machine indicate a somewhat higher compexity, whereas toos implies a more primitive or less complex nature of the object).
+ * definition(device-derived): An instrument is an object which provides an advantage in accomplishing a physical and/or analytical step in a process.
+ * definition_source: OBI.
+
+then a subclass:
+
+ * preferred''term: analytical''instrument
+ * definition(OBI-derived): An analytical instrument is an instrument that is used to collect data and thereby provides an advantage in accomplishing a physical and/or analytical step in an analytical process.
+ * definition_source: OBI.
+
+For orientation I have scanned UMLS Methathesaurus and Semantic Network for instrument related terms. Here are the results Upload:UMLS_Instrument.txt
