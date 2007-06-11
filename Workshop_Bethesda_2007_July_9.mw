@@ -19,150 +19,39 @@
 
 * We will need to do a rooming list with the hotel, and to ensure availability of rooms the hotel needs an accurate number of participants by COB Friday May 11th. Please enter your name, e-mail, and check in/out dates here if you want to be included in the group reservation.
 
-==== Interest in Bethesda Court Hotel====
-<?plugin [[RichTable]]
-*border<code>1, cellpadding</code>5, bgcolor<code>#f0f8f8, width</code>75%, align=center
--
+====Interest in Bethesda Court Hotel====
+{| border="1" cellpadding="2" style="background:white; color:black"
+!width="50"|BioMaterial Entity
+!width="225"|Email
+!width="225"|Check-in Date
+!width="225"|Check-out Date
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-~BioMaterial Entity
+| Chris Stoeckert || stoeckrt''at''pcbi.upenn.edu || July 9 || July 13 
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-Email
+| Susanna Sansone || sansone''at''ebi.ac.uk || July 7 || July 13
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-Check-in Date
+| Philippe Rocca-Serra || rocca''at''ebi.ac.uk || July 7 || July 13
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-Check-out Date
--
+| Richard Scheuermann || richard.scheuermann''at''utsouthwestern.edu || July 9 || July 13
 |-
-| Trish Whetzel
+| Barry Smith || phismith''at''buffalo.edu || July 9 || July 11
 |-
-| [[Upload:trish_w-email.png]]
+| Jennifer Fostel || fostel''at''niehs.nih.gov || July 9 || July 13
 |-
-| July 9
+| Bjoern Peters || bpeters''at''liai.org || July 11 || July 13
 |-
-| July 13
--
+| James Malone || malone''at''ebi.ac.uk || July 7 || July 13
 |-
-|  Chris Stoeckert
+| Helen Parkinson || parkinson''at''ebi.ac.uk || July 7 || July 13 
 |-
-| stoeckrt''at''pcbi.upenn.edu
+| Tina Boussard || boussard''at''stanford.edu || July 8 || July 11
 |-
-| July 9
+| Bill Bug || William.Bug''at''drexelmed.edu || ||
 |-
-| July 13
--
+| Jeffrey Grethe || jgrethe''at''ncmir.ucsd.edu || July 8 || 
 |-
-| Susanna Sansone
-|-
-| sansone''at''ebi.ac.uk
-|-
-| July 7
-|-
-| July 13
--
-|-
-| Philippe Rocca-Serra
-|-
-| rocca''at''ebi.ac.uk
-|-
-| July 7
-|-
-| July 13
--
-|-
-| Richard Scheuermann
-|-
-| richard.scheuermann''at''utsouthwestern.edu
-|-
-| July 9
-|-
-| July 13
--
-|-
-| Barry Smith
-|-
-| phismith''at''buffalo.edu
-|-
-| July 9
-|-
-| July 11
--
-|-
-| Jennifer Fostel
-|-
-| fostel''at''niehs.nih.gov
-|-
-| July 9
-|-
-| July 13
--
-|-
-| Bjoern Peters
-|-
-| bpeters''at''liai.org
-|-
-| July 11
-|-
-| July 13
--
-|-
-| James Malone
-|-
-| malone''at''ebi.ac.uk
-|-
-| July 7
-|-
-| July 13
--
-|-
-| Helen Parkinson
-|-
-| parkinson''at''ebi.ac.uk
-|-
-| July 7
-|-
-| July 13
--
-|-
-| Tina Boussard
-|-
-| boussard''at''stanford.edu
-|-
-| July 8
-|-
-| July 11
--
-|-
-| Bill Bug
-|-
-| William.Bug''at''drexelmed.edu
-|-
-|
-|-
-|
--
-|-
-| Jeffrey Grethe
-|-
-| jgrethe''at''ncmir.ucsd.edu
-|-
-| July 8
-|-
-|
--
-|-
-| Sherri de Coronado
-|-
-| decorons''at''mail.nih.gov
-|-
-| July 8
-|-
-| July 11
--
-?>
+| Sherri de Coronado || decorons''at''mail.nih.gov || July 8 || July 11
+|}
 
 === List of Participants===
 <?plugin [[RichTable]]
