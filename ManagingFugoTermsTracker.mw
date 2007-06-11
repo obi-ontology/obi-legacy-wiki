@@ -1,34 +1,32 @@
+==FuGO Term Tracker==
 
-====FuGO Term Tracker
-====
+===General Information===
+* All requests/proposals for modifications to the Functional Genomics Investigation Ontology need to be submitted to the [[FuGO]] Terms tracker in order to be reviewed for inclusion into the ontology. Each item will by assigned a curator and those items marked as approved will be added to the next version of [[FuGO]].
+* The tracker is hosted on Sourceforge and is located at: http://sourceforge.net/tracker/?group_id<code>148958&atid</code>822632
+* A login for Sourceforge is NOT needed in order to enter a request/propose a term to the [[FuGO]] Terms tracker
 
-* General Information
-  * All requests/proposals for modifications to the Functional Genomics Investigation Ontology need to be submitted to the [[FuGO]] Terms tracker in order to be reviewed for inclusion into the ontology. Each item will by assigned a curator and those items marked as approved will be added to the next version of [[FuGO]].
-  * The tracker is hosted on Sourceforge and is located at: http://sourceforge.net/tracker/?group_id<code>148958&atid</code>822632
-  * A login for Sourceforge is NOT needed in order to enter a request/propose a term to the [[FuGO]] Terms tracker
-
-* Information for Submittors
-  * When entering a request for a new term, please state the TERM NAME, the DEFINITION of the term and the LOCATION in the hierarchy for the term.
-    * In deciding on a TERM NAME, the [[FuGO]] project is currently following a set of Naming Conventions which require that the term name be in the singluar form, molecule versus molecules, that an underscore is used to separate words in the term name, e.g. "study_object" versus "study object" and that the term name be in lower case. For further information on these Naming Conventions please refer to the source document hosted at: http://msi-ontology.sourceforge.net/
-    * In deciding on a DEFINITION, the [[FuGO]] project is following policies for best practices. The implications of this on the form of the definition are that the definition should be aristotelean OR simply put in a form such that if A is_a B, the definition for term A is: a B which ...  Therefore, the definition should reference back to the parent term.
-    * Finally, don't worry if this sounds too difficult. All terms will be assigned a Term Curator and your curator will help you get the term name and definition into the format the [[FuGO]] project is following, while taking into account the type of thing that you are requesting to be represented in [[FuGO]].
+===Information for Submittors===
+* When entering a request for a new term, please state the TERM NAME, the DEFINITION of the term and the LOCATION in the hierarchy for the term.
+* In deciding on a TERM NAME, the [[FuGO]] project is currently following a set of Naming Conventions which require that the term name be in the singluar form, molecule versus molecules, that an underscore is used to separate words in the term name, e.g. "study_object" versus "study object" and that the term name be in lower case. For further information on these Naming Conventions please refer to the source document hosted at: http://msi-ontology.sourceforge.net/
+* In deciding on a DEFINITION, the [[FuGO]] project is following policies for best practices. The implications of this on the form of the definition are that the definition should be aristotelean OR simply put in a form such that if A is_a B, the definition for term A is: a B which ...  Therefore, the definition should reference back to the parent term.
+* Finally, don't worry if this sounds too difficult. All terms will be assigned a Term Curator and your curator will help you get the term name and definition into the format the [[FuGO]] project is following, while taking into account the type of thing that you are requesting to be represented in [[FuGO]].
 
 
-* Information for Term Curators
-  * Responsibilities for curation of terms are that you participate in discussions on the term until it is approved or rejected by the [[FuGO]] Developers.
-  * Additional responsibiities may include that once the term is approved, you also add the term to the [[FuGO]] owl file.  If you are not interested in adding the term to the [[FuGO]].owl file in the trunk, re-assign the term to someone to add the term. Curators that are adding terms to the [[FuGO]].owl trunk file include daniel_schober, rrbrinkman (?), and whetzel. Any others?
-    * For responsibility to add terms to the [[FuGO]].owl file, the term curator must
-      # Be comfortable working with Protege/OWL and using Sourceforge SVN
-      # Follow policy for managing the [[FuGO]].owl trunk file
-        * Currently, modification of the [[FuGO]].owl file should be preceded with email notification to the [[FuGO]] Developers  list to request permission for "ownership" of the file (allow 1 day for all to respond due to different time zones). After adding the terms you are responsible for curating, commit the file and email the [[FuGO]] Developers List to let the [[FuGO]] Developers list know that an updated version is available and that ownership of the file is again available to be requested.
-  * When the tracker item has been approved:
+===Information for Term Curators===
+* Responsibilities for curation of terms are that you participate in discussions on the term until it is approved or rejected by the [[FuGO]] Developers.
+* Additional responsibiities may include that once the term is approved, you also add the term to the [[FuGO]] owl file.  If you are not interested in adding the term to the [[FuGO]].owl file in the trunk, re-assign the term to someone to add the term. Curators that are adding terms to the [[FuGO]].owl trunk file include daniel_schober, rrbrinkman (?), and whetzel. Any others?
+* For responsibility to add terms to the [[FuGO]].owl file, the term curator must
+    # Be comfortable working with Protege/OWL and using Sourceforge SVN
+    # Follow policy for managing the [[FuGO]].owl trunk file
+* Currently, modification of the [[FuGO]].owl file should be preceded with email notification to the [[FuGO]] Developers  list to request permission for "ownership" of the file (allow 1 day for all to respond due to different time zones). After adding the terms you are responsible for curating, commit the file and email the [[FuGO]] Developers List to let the [[FuGO]] Developers list know that an updated version is available and that ownership of the file is again available to be requested.
+* When the tracker item has been approved:
     # Change the "Priority" to 9-Highest
     # Change the "Resolution" to Accepted
     # Leave the "Status" set to Open
     # Include a "Comment" with the item to indicate that it has been approved.
     # IF you are NOT adding terms to the [[FuGO]].owl trunk file, re-assign the tracker item to one of the
     # Submit the changes
-  * If you are adding terms to the [[FuGO]].owl trunk file, Request permission to take "ownership" of the [[FuGO]].owl trunk file
+* If you are adding terms to the [[FuGO]].owl trunk file, Request permission to take "ownership" of the [[FuGO]].owl trunk file
     # Do a update of your local repository
     # Set [[FuGO]] identifier to use in the setting for the autoID plugin, see LASTAC file for last available accession.
     # Update the [[FuGO]] file.
