@@ -16,20 +16,20 @@
 * Responsibilities for curation of terms are that you participate in discussions on the term until it is approved or rejected by the [[FuGO]] Developers.
 * Additional responsibiities may include that once the term is approved, you also add the term to the [[FuGO]] owl file.  If you are not interested in adding the term to the [[FuGO]].owl file in the trunk, re-assign the term to someone to add the term. Curators that are adding terms to the [[FuGO]].owl trunk file include daniel_schober, rrbrinkman (?), and whetzel. Any others?
 * For responsibility to add terms to the [[FuGO]].owl file, the term curator must
-    # Be comfortable working with Protege/OWL and using Sourceforge SVN
-    # Follow policy for managing the [[FuGO]].owl trunk file
+# Be comfortable working with Protege/OWL and using Sourceforge SVN
+# Follow policy for managing the [[FuGO]].owl trunk file
 * Currently, modification of the [[FuGO]].owl file should be preceded with email notification to the [[FuGO]] Developers  list to request permission for "ownership" of the file (allow 1 day for all to respond due to different time zones). After adding the terms you are responsible for curating, commit the file and email the [[FuGO]] Developers List to let the [[FuGO]] Developers list know that an updated version is available and that ownership of the file is again available to be requested.
 * When the tracker item has been approved:
-    # Change the "Priority" to 9-Highest
-    # Change the "Resolution" to Accepted
-    # Leave the "Status" set to Open
-    # Include a "Comment" with the item to indicate that it has been approved.
-    # IF you are NOT adding terms to the [[FuGO]].owl trunk file, re-assign the tracker item to one of the
-    # Submit the changes
+# Change the "Priority" to 9-Highest
+# Change the "Resolution" to Accepted
+# Leave the "Status" set to Open
+# Include a "Comment" with the item to indicate that it has been approved.
+# IF you are NOT adding terms to the [[FuGO]].owl trunk file, re-assign the tracker item to one of the
+# Submit the changes
 * If you are adding terms to the [[FuGO]].owl trunk file, Request permission to take "ownership" of the [[FuGO]].owl trunk file
-    # Do a update of your local repository
-    # Set [[FuGO]] identifier to use in the setting for the autoID plugin, see LASTAC file for last available accession.
-    # Update the [[FuGO]] file.
-    # Close the tracker item.
-    # Commit the file to the repository.
-    # Email the [[FuGO]] Developers list that a new version is available.
+# Do a update of your local repository
+# Set [[FuGO]] identifier to use in the setting for the autoID plugin, see LASTAC file for last available accession.
+# Update the [[FuGO]] file.
+# Close the tracker item.
+# Commit the file to the repository.
+# Email the [[FuGO]] Developers list that a new version is available.
