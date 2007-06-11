@@ -5,16 +5,12 @@ The development of an Ontology for Biomedical Investigations (OBI) has been divi
 An introduction to OBI can be found [[|http://obi.sourceforge.net/ here at the [[SourceForge]] website ]] <br>
 See the [[ObiBranches|branch outline |]] for details on the branch development plan including roles and responsibilities.
 
-[[HomePage|<<Back to Homepage |]]
-----
-''''Contents''''
+[[HomePage|<<Back to Homepage]]
 
-<?plugin [[CreateToc]]
-pagename<code>[[pagename]] headers</code>===,==== noheader<code>1 align</code>left with''toclink<code>0 jshide</code>0 liststyle<code>dl indentstr</code>&nbsp;&nbsp; with''counter=0 ?>
-=======
 ----
 
 ===The OBI Branches
+
 ===
 There are 10 development branches within OBI that correspond to areas of interest to biomedical investigation.  These development branches are constituents of the planned OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The 10 branches are as follows: <br>
 
