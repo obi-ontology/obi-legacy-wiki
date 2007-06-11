@@ -1,35 +1,25 @@
-
-<?plugin [[CreateToc]]
-pagename<code>[[pagename]] headers</code>==,===,==== noheader<code>0 align</code>left with''toclink<code>0 jshide</code>0 liststyle<code>dl indentstr</code>&nbsp;&nbsp; with''counter=1 ?>
-=========
-
-----
-
-=== Location: Natcher Conference Center
-===
+== Location: Natcher Conference Center==
 * The Workshop will be held at the Natcher Conference center.
 <pre>
       Room D 	   Monday, July 9
       Room F1/F2   Tuesday, July 10 - Friday July 13
 </verbatim>
 
-* General Information
-  * The William H. Natcher Conference Center (45 Center Drive Bethesda, Maryland 20892) is part of the National Institutes of Health and is located on the NIH campus in Bethesda, MD. The Natcher Building is across the street and north from Building 38A and the National Library of Medicine. It is a 5-minute walk from the Medical Center Metro stop on the Red Line. The Medical Center Metro stop is the next station north from the Bethesda Metro stop located close to the Bethesda Court Hotel.
+===General Information===
+* The William H. Natcher Conference Center (45 Center Drive Bethesda, Maryland 20892) is part of the National Institutes of Health and is located on the NIH campus in Bethesda, MD. The Natcher Building is across the street and north from Building 38A and the National Library of Medicine. It is a 5-minute walk from the Medical Center Metro stop on the Red Line. The Medical Center Metro stop is the next station north from the Bethesda Metro stop located close to the Bethesda Court Hotel.
 
-* Security
-  * The NIH has recently instituted new security measures. All visitors entering the NIH campus must show government-issued photo ID and be prepared to have their personal belongings inspected. Please visit the NIH Visitors and Security page [http://www.nih.gov/about/visitorsecurity.htm] for more information.
+===Security===
+* The NIH has recently instituted new security measures. All visitors entering the NIH campus must show government-issued photo ID and be prepared to have their personal belongings inspected. Please visit the NIH Visitors and Security page [http://www.nih.gov/about/visitorsecurity.htm] for more information.
 
-* Parking
-  * Visitor parking is very limited but if you must drive, short-term metered parking may be available near the Natcher Conference Center in Lot B. Please visit http://parking.nih.gov/visitor''access''map.htm to see the location of visitor parking areas.
+===Parking===
+* Visitor parking is very limited but if you must drive, short-term metered parking may be available near the Natcher Conference Center in Lot B. Please visit http://parking.nih.gov/visitor''access''map.htm to see the location of visitor parking areas.
 
-=== Bethesda Court Hotel
-===
-* We have negotiated a special rate of $149.00/night with the Bethesda Court Hotel in downtown Bethesda. The rate includes continental breakfast and wireless internet, see: [http://www.bethesdacourtwashdc.com]
+===Bethesda Court Hotel===
+* We have negotiated a special rate of $149.00/night with the Bethesda Court Hotel in downtown Bethesda. The rate includes continental breakfast and wireless internet, see: http://www.bethesdacourtwashdc.com
 
 * We will need to do a rooming list with the hotel, and to ensure availability of rooms the hotel needs an accurate number of participants by COB Friday May 11th. Please enter your name, e-mail, and check in/out dates here if you want to be included in the group reservation.
 
-  ==== Interest in Bethesda Court Hotel
-====
+==== Interest in Bethesda Court Hotel====
 <?plugin [[RichTable]]
 *border<code>1, cellpadding</code>5, bgcolor<code>#f0f8f8, width</code>75%, align=center
 -
@@ -174,8 +164,7 @@ Check-out Date
 -
 ?>
 
-=== List of Participants
-===
+=== List of Participants===
 <?plugin [[RichTable]]
 *border<code>1, cellpadding</code>5, bgcolor<code>#f0f8f8, width</code>75%, align=center
 -
@@ -430,8 +419,7 @@ Set up wireless account
 ?>
 
 
-=== Draft Agenda
-===
+=== Draft Agenda===
         Monday
 
         AM - Meeting with NIH Program Directors (est 10 AM EDT)
