@@ -1,6 +1,6 @@
 ==OBI Branch Development==
 
-The development of an Ontology for Biomedical Investigations (OBI) has been divided into branches or modules which are composed of selected none-overlapping areas of interest for the collection of terms and related metadata and modelling of those terms in OBI.  Each ObiBranch has an assigned group of editors that oversee the development of a given branch.
+The development of an Ontology for Biomedical Investigations (OBI) has been divided into branches which were segregated into carefully selected none-overlapping areas of interest which would be modelled.  Each Branch has an assigned group of editors that oversee the development of a given branch.
 
 An introduction to OBI can be found [[|http://obi.sourceforge.net/ here at the [[SourceForge]] website ]] <br>
 See the [[ObiBranches|branch outline |]] for details on the branch development plan including roles and responsibilities.
@@ -10,7 +10,7 @@ See the [[ObiBranches|branch outline |]] for details on the branch development p
 ----
 
 ==The OBI Branches==
-The development branches within OBI that correspond to areas of interest to biomedical investigation.  These development branches are constituents of the planned OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The 10 branches are as follows: <br>
+There are 10 development branches within OBI that correspond to areas of interest to biomedical investigation.  These development branches are constituents of the planned OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The 10 branches are as follows: <br>
 
     * [[BiomaterialTermNeeds]]
     * [[DataTransformation]]
