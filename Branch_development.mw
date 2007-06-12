@@ -14,7 +14,7 @@ There are 10 development branches within OBI that correspond to areas of interes
 
     * [[BiomaterialTermNeeds |Biomaterial]]
     * [[DataTransformation |Data Transformation]]
-    * [[DigitalEntityTerms |Digitial Entity Terms]]
+    * [[DigitalEntityTerms |Digitial Entity and Non-realizable Information Entity]]
     * [[FunctionTerms |Function]]
     * [[InstrumentTerms |Instrument]]
     * [[PlanBranch |Plan (investigation design - protocol)]]
