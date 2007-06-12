@@ -1,6 +1,4 @@
-
-
-=== ~BioMaterials branch WG
+=== BioMaterials branch WG
 ===
 ==== 1. Editors
 ====
@@ -45,13 +43,12 @@ Copied by HP from call notes 27 Feb link to prexisting lists for PSI*
 - Proteomics/PSI sample terms are posted under [[ http://obo.sourceforge.net/cgi-bin/table.cgi|OBO |]] see MI, MOD, IPR, SEP<br>
 
 * Polymorphism Community
- -[[|https://www.cbil.upenn.edu/fugowiki/uploads/terms_Mar07.xls terms]]<br>
+ -[[https://www.cbil.upenn.edu/fugowiki/uploads/terms_Mar07.xls terms]]<br>
 
 * Cellular Assay Community (MIACA)
-[[|http://www.smp-cell.org/Files/MIACA_Biomaterials.xls terms as Excel list]]<br>
-[[|http://www.smp-cell.org/Files/MIACA_Biomaterials.doc and as word file]], terms not related to biomaterials in grey. We are not totally sure where Materials start to be not <Bio> any more.<br><br>
-
-[[|http://www.smp-cell.org/Files/Media''Perturbators.xls Examples of Media and supplements, and of perturbator''types]] This is in response to the conference call on Mar 23<br>
+[[http://www.smp-cell.org/Files/MIACA_Biomaterials.xls terms as Excel list]]<br>
+[[http://www.smp-cell.org/Files/MIACA_Biomaterials.doc and as word file]], terms not related to biomaterials in grey. We are not totally sure where Materials start to be not <Bio> any more.<br><br>
+[[http://www.smp-cell.org/Files/Media''Perturbators.xls Examples of Media and supplements, and of perturbator''types]] This is in response to the conference call on Mar 23<br>
 
 * Tab delimited file with terms from flow cytometry:
 Upload:Biomaterial-FlowCytometry-2007-03-30.txt
@@ -65,4 +62,4 @@ Upload:clancy-exp-protocol.xls
 
 Communities are compiling lists of their ~BioMaterial term requirements (preferably following the naming conventions<sup>[[|http://mged.sourceforge.net/ontologies/MGEDontology.php 2||NamingConventions]]</sup>) as a tab-delimited file  (term name and definition) - all needed terms if time permits. As for granularity, examples will be provided of the terms as they would be used in annotations.  The term's parent class should also be specified according to an existing ontology, preferably one amongst the [[OBO Foundry||http://obofoundry.org/]] constellation of ontologies. For example, for transcriptomics an example using terms as they exist in the [[MGED Ontology (MO)]] would be ~MaterialType as the parent class and the annotation terms of genomic''DNA, cell, cell''lysate etc.
 
-Lists of required relationships are also being compiled. For example, partipants are compiling relations required to create a formal specification of an action/treatment/protocol performed on a given ~BioMaterial. Where possible, candidate relations should be taken from - or at least derived from - the [[|http://obo.sourceforge.net/cgi-bin/detail.cgi?relationship OBO Relations (RO)]] ontology.
+Lists of required relationships are also being compiled. For example, partipants are compiling relations required to create a formal specification of an action/treatment/protocol performed on a given ~BioMaterial. Where possible, candidate relations should be taken from - or at least derived from - the [[http://obo.sourceforge.net/cgi-bin/detail.cgi?relationship OBO Relations (RO)]] ontology.
