@@ -63,33 +63,39 @@ Links to the latest list of terms for each branch can be found in the table belo
 
 The following table contains links to minutes from the various branch calls.  A [[GoogleCal|Conference Calls Agenda]] is also available online.
 
+Links to the latest list of terms for each branch can be found in the table below.  Note: as this is currently active work these links are likely to change over time.
 
-
-{|
-caption<code> =
+{| border="1"
+|+ Latest Branch Terms
+! Branch !! Term List File 
 |-
-|'''Branch''' || '''Links to Branch Call Minutes'''
+| Biomaterial
+| [[ BiomaterialTermNeeds/calls |link]]
 |-
-|<Biomaterial || [[ [[BiomaterialTermNeeds]]/calls|link |]]
+| Data Transformation
+| [[DataTransformCalls|link]]
 |-
-|<Data Transformation || [[ [[DataTransformCalls]]|link |]]
+| Digital Entity and Non-realizable Information Entity
+| link needed
 |-
-|<Digital Entity and Non-realizable Information Entity  || link needed
+| Function
+| [[FunctionNeeds/TConsMinutes|link]]
 |-
-|<Function || [[FunctionNeeds/TConsMinutes|link |]]
+| Instrument
+| [[InstrumentTermCalls|link]]
 |-
-|<Instrument || [[InstrumentTermCalls|link |]]
+| Plan
+| [[PlanTermNeeds/calls|link]]
 |-
-|<Plan || [[PlanTermNeeds/calls|link |]]
+| Protocol Application
+| [[Minutes|link]]
 |-
-|<Protocol Application || [[Minutes|link|]]  <-- page name needs changing
+| Qualities
+| link needed
 |-
-|<Qualities || link needed
-|-
-|<Role  || link needed
-?>
-
-----
+| Role
+| link needed 
+|}
 
 ==OBI Branch Mailing Lists==
 
