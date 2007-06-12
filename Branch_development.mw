@@ -105,34 +105,41 @@ Links to the latest list of terms for each branch can be found in the table belo
 
 The following table contains details on the mailing lists which are available for OBI.
 
+{| border="1"
+|+ Latest Branch Terms
+! Branch !! Term List File 
+|-
+| Biomaterial
+| No Mailing List
+|-
+| Data Transformation
+| https://lists.sourceforge.net/lists/listinfo/obi-datatrfm-branch 
+|-
+| Digital Entity and Non-realizable Information Entity
+| https://lists.sourceforge.net/lists/listinfo/obi-denrie-branch 
+|-
+| Function
+| https://lists.sourceforge.net/lists/listinfo/obi-function-branch 
+|-
+| Instrument
+| https://lists.sourceforge.net/lists/listinfo/obi-instrument-branch 
+|-
+| Plan
+| https://lists.sourceforge.net/lists/listinfo/obi-plan-branch 
+|-
+| Protocol Application
+| https://lists.sourceforge.net/lists/listinfo/obi-protocol-application-branch 
+|-
+| Qualities
+| No Mailing List
+|-
+| Role
+| https://lists.sourceforge.net/lists/listinfo/obi-role-branch 
+|}
 
-{|
-caption<code> "" cellpadding</code>1 cellspacing<code>1 border</code>1 summary=
-|-
-|'''Branch''' || '''URL'''
-|-
-|<Biomaterial || link
-|-
-|<Data Transformation || https://lists.sourceforge.net/lists/listinfo/obi-datatrfm-branch
-|-
-|<Digital Entity and Non-realizable Information Entity  || https://lists.sourceforge.net/lists/listinfo/obi-denrie-branch
-|-
-|<Function || https://lists.sourceforge.net/lists/listinfo/obi-function-branch
-|-
-|<Instrument || https://lists.sourceforge.net/lists/listinfo/obi-instrument-branch
-|-
-|<Plan || https://lists.sourceforge.net/lists/listinfo/obi-plan-branch
-|-
-|<Protocol Application || https://lists.sourceforge.net/lists/listinfo/obi-protocol-application-branch
-|-
-|<Qualities || link
-|-
-|<Role  || https://lists.sourceforge.net/lists/listinfo/obi-role-branch
-?>
+<br>
 
 A complete list of all OBI mailing lists can be found at http://sourceforge.net/mail/?group_id=177891
-
-----
 
 ==Related Links==
 
