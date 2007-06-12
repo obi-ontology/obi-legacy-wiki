@@ -54,261 +54,56 @@
 |}
 
 === List of Participants===
-<?plugin [[RichTable]]
-*border<code>1, cellpadding</code>5, bgcolor<code>#f0f8f8, width</code>75%, align=center
--
+{| border="1" cellpadding="2" style="background:white; color:black"
+!width="50"|Name
+!width="225"|Organization
+!width="225"|Phone
+!width="225"|Email
+!width="225"|Set-up wireless account
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-~Name
+| Chris Stockert || University of Pennsylvania || 215-573-4409 || stoeckrt''at''pcbi.upenn.edu || Yes
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-Organization
+| Susanna Sansone || European Bioinformatics Institute || || sansone''at''ebi.ac.uk || Yes
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-Phone
+| Philippe Rocca-Serra || European Bioinformatics Institute || || rocca''at''ebi.ac.uk || Yes
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-email
+| Richard Scheuermann || UT Southwestern || || richard.scheuermann''at''utsouthwestern.edu || Yes
 |-
-|* bgcolor<code>#f0f0ff, align</code>center
-Set up wireless account
--
+| Barry Smith || University of Buffalo || || phismith''at''buffalo.edu || Yes
 |-
-| Trish Whetzel
+| Jennifer Fostel || NIEHS/NIH || || fostel''at''mail.nih.gov || Yes?
 |-
-| University of Pennsylvania
+| Bjoern Peters || La Jolla Institute for Allergy and Immunology || || bpeters''at''liai.org || Yes
 |-
-|
+| James Malone || European Bioinformatics Institute || || malone''at''ebi.ac.uk || Yes
 |-
-| [[Upload:trish_w-email.png]]
+| Helen Parkinson || European Bioinformatics Institute ||+44 1223 494672 || parkinson''at''ebi.ac.uk || Yes
 |-
-| Yes
--
+| Tina Boussard || Stanford University || || boussard''at''stanford.edu || Yes
 |-
-| Chris Stockert
+| Bill Bug || Drexel University || || William.Bug''at''drexelmed.edu || Yes
 |-
-| University of Pennsylvania
+| Jeffrey Grethe || UCSD || || jgrethe''at''ncmir.ucsd.edu || Yes
 |-
-| 215-573-4409
+| Sherri de Coronado || NCI || || decorons''at''mail.nih.gov || No
 |-
-| stoeckrt''at''pcbi.upenn.edu
+| Frank Hartel || NCI || 301-435 3869 || hartel''at''mail.nih.gov || No
 |-
-| Yes
--
+| Gilberto Fragoso || NCI || 301-451 6344 || fragosog''at''mail.nih.gov || No
 |-
-| Susanna Sansone
+| Mervi Heiskanen || NCI || 301-451 6369 || heiskame''at''mail.nih.gov || No
 |-
-| European Bioinformatics Institute
+| Allyson Lister || CISBAN, Newcastle University || (country code 44) 191 222 7367 || a.l.lister''at''ncl.ac.uk || Yes
 |-
-|
+| Randi Vita || La Jolla Institute for Allergy & Immunology || 858-273-3662 || rvita''at''liai.org || Yes
 |-
-| sansone''at''ebi.ac.uk
+| Liju Fan || Ontology Workshop, LLC || 410-880-8988 || liju.fan''at''gmail.com || Yes
 |-
-| Yes
--
-|-
-| Philippe Rocca-Serra
-|-
-| European Bioinformatics Institute
-|-
-|
-|-
-| rocca''at''ebi.ac.uk
-|-
-| Yes
--
-|-
-| Richard Scheuermann
-|-
-| UT Southwestern
-|-
-|
-|-
-| richard.scheuermann''at''utsouthwestern.edu
-|-
-| Yes
--
-|-
-| Barry Smith
-|-
-| University of Buffalo
-|-
-|
-|-
-| phismith''at''buffalo.edu
-|-
-| Yes
--
-|-
-| Jennifer Fostel
-|-
-| NIEHS/NIH
-|-
-|
-|-
-| fostel''at''mail.nih.gov
-|-
-| Yes?
--
-|-
-| Bjoern Peters
-|-
-| La Jolla Institute for Allergy and Immunology
-|-
-|
-|-
-| bpeters''at''liai.org
-|-
-| Yes
--
-|-
-| James Malone
-|-
-| European Bioinformatics Institute
-|-
-|
-|-
-| malone''at''ebi.ac.uk
-|-
-| Yes
--
-|-
-| Helen Parkinson
-|-
-| European Bioinformatics Institute
-|-
-|+44 1223 494672
-|-
-| parkinson''at''ebi.ac.uk
-|-
-| Yes
--
-|-
-| Tina Boussard
-|-
-| Stanford University
-|-
-|
-|-
-| boussard''at''stanford.edu
-|-
-| Yes
--
-|-
-| Bill Bug
-|-
-| Drexel University
-|-
-|
-|-
-| William.Bug''at''drexelmed.edu
-|-
-| Yes
--
-|-
-| Jeffrey Grethe
-|-
-| UCSD
-|-
-|
-|-
-| jgrethe''at''ncmir.ucsd.edu
-|-
-| Yes
--
-|-
-| Sherri de Coronado
-|-
-| NCI
-|-
-|
-|-
-| decorons''at''mail.nih.gov
-|-
-| No
--
-|-
-| Frank Hartel
-|-
-| NCI
-|-
-| 301-435 3869
-|-
-| hartel''at''mail.nih.gov
-|-
-| No
--
-|-
-| Gilberto Fragoso
-|-
-| NCI
-|-
-| 301-451 6344
-|-
-| fragosog''at''mail.nih.gov
-|-
-| No
--
-|-
-| Mervi Heiskanen
-|-
-| NCI
-|-
-| 301-451 6369
-|-
-| heiskame''at''mail.nih.gov
-|-
-| No
--
-|-
-| Allyson Lister
-|-
-| CISBAN, Newcastle University
-|-
-| (country code 44) 191 222 7367
-|-
-| a.l.lister''at''ncl.ac.uk
-|-
-| Yes
--
-|-
-| Randi Vita
-|-
-| La Jolla Institute for Allergy & Immunology
-|-
-| 858-273-3662
-|-
-| rvita''at''liai.org
-|-
-| Yes
--
-|-
-| Liju Fan
-|-
-| Ontology Workshop, LLC
-|-
-| 410-880-8988
-|-
-| liju.fan''at''gmail.com
-|-
-| Yes
--
-|-
-| Suzi Lewis
-|-
-| UC Berkeley
-|-
-| 510-486-7508
-|-
-| suzi''at''berkeleybop.org
-|-
-| Yes
--
-
-?>
+| Suzi Lewis || UC Berkeley || 510-486-7508 || suzi''at''berkeleybop.org || Yes
+|}
 
 
-=== Draft Agenda===
+===Draft Agenda===
 <pre>
         Monday
 
