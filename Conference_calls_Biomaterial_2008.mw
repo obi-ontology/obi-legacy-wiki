@@ -1,4 +1,7 @@
  Link to [[BiomaterialTermNeedsLists|full list of files used for or produced after each call]]
+== June 13==
+Action items on biomaterial_purity and allele with PATO. George is happy to have input. I suggested material_purity over biomaterial purity and he's considering it. Allele - PATO uses an external vocab. I've asked what this is, they'll discuss adding to PATO and get back to us.
+
 
 === June 8, 2007===
 
@@ -46,6 +49,7 @@ File produced after this call: [[ https://www.cbil.upenn.edu/obiwiki/index.php/B
 (Susanna, Helen, Tina, Alan, Bjorn, Philippe, James)
 
 SUMMARY:<br>
+
  * Focus was to sort terms for their relevance to other OBI branches, and external ontologies
  * Actions assigned to editors to submit/discuss specific terms:
    * AA:HP/JM to check SO/Chebi for terms
