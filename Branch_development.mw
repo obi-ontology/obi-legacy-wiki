@@ -7,8 +7,8 @@ See the [[ObiBranches|branch outline]] for details on the branch development pla
 
 [[HomePage|<<Back to Homepage]]
 
-==The OBI Branches==
-There are 10 development branches within OBI that correspond to areas of interest to biomedical investigation.  These development branches are constituents of the planned OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The 10 branches are as follows: <br>
+==List of OBI Branches==
+The branches within OBI correspond to areas of interest to biomedical investigation.  These development branches are constituents of the OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The branches are as follows: <br>
 
 * [[BiomaterialTermNeeds |Biomaterial]]
 * [[DataTransformation |Data Transformation]]
@@ -23,7 +23,7 @@ There are 10 development branches within OBI that correspond to areas of interes
 
 Each branch is also assigned a group of editors which are responsible for the design and development of the terms, structure and hierarchy.  Mailing lists, weekly conference calls and regular face-to-face meetings are used to progress the development of each branch in a collaborative and cooperative manner.  An introduction to OBI can be found [http://obi.sourceforge.net/ here at the SourceForge website ]
 
-==Latest Branch Terms==
+==Latest Branch Term Files==
 
 Links to the latest list of terms for each branch can be found in the table below.  Note: as this is currently active work these links are likely to change over time.
 
@@ -61,7 +61,7 @@ Links to the latest list of terms for each branch can be found in the table belo
 
 <br>
 
-==Branch Conference Call Minutes==
+==OBI Branch Conference Call Minutes==
 
 The following table contains links to minutes from the various branch calls.  A [[GoogleCal|Conference Calls Agenda]] is also available online.
 
