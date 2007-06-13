@@ -1,0 +1,44 @@
+==== [[ BiomaterialTermNeedsCalls|notes and summaries of each call ]]====
+
+==== Excel files in reverse chronological order====
+(''please name the files as 'biobranch' then add 'ante' and the date of the call<code> original file discussed at the call; OR 'post' and the date of the call</code> file(s) produced following the call; PLUS your initials. E.g. biobranch''ante''9March07''SAS''PRS.xls. Here also add a brief desciption of what you have 
+done/changed'')
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''post''01June07_SAS.xls|Main Post 1 June 2007 call file |]] 1) We have divided up the biomaterial file and assigned rows by source or choice to people. People will get what they submitted where possible 2) Here are the individual files:
+{|
+caption<code> \"\" cellpadding</code>1 cellspacing<code>1 border</code>1 summary=
+|-
+||<[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''G1''post_01June07.xls|Post 1 June 2007 - GROUP 1 AR BP|]] ||
+|-
+||<[[|http://www.ebi.ac.uk/~parkinso/biobranch''G2''post''01June07''HP.xls  Post 1 June 2007 - GROUP 2 TB HP PRS|| http://www.ebi.ac.uk/~sansone/FuGO/biobranch''G2''post''01June07.xls]]||[[HP''defined]]
+|-
+||<[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''G3''post_01June07.xls|Post 1 June 2007 - GROUP 3 JF|]] ||
+|-
+||<[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''G4''post_01June07.xls|Post 1 June 2007 - GROUP 4 SAS|]] ||
+[[http://www.ebi.ac.uk/~sansone/FuGO/biobranch''G4''post''01June07_SAS.xls SAS''defined]]
+|}
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/Dispatcher-From-Biomaterial''PRS_SAS.xls|Post 25th May 2007 call || http://www.ebi.ac.uk/~sansone/FuGO/biobranch''post''25May07''PRS.xls]]: 1) file containing only the terms relevant for the biomaterial branch (edited by Philippe) 2) and a [[Dispatcher file|Dispatcher file]] inlcuding terms to b
+e submitted to other OBI branches or external resources(edited by Philippe, Susanna)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''post''11May07_HP-SAS.xls|Post 11th May 2007 call |]]: 1) terms for other branches or ontology (nearly) sorted, second sheet cleaned up (edited by Helen and Susanna)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''post''13April07_SAS.xls|Post 13th Apr 2007 call |]]: 1) terms by Ryan (flow cytometry) and Tina sorted, sheet cleaned up (edited by Susanna)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''ante''13April07_SAS.xls|Ante 13th Apr 2007 call |]]: 1) terms by Ryan (flow cytometry) added; 2) sheet cleaned up (edited by Susanna)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''post''23March07_SAS.xls|Post 23th Mar 2007 call |]]: 1)terms by Stefan (MIACA) sorted under ~BioMaterial and others (edited by Susanna)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''ante''23March07_SAS.xls|Ante 23th Mar 2007 call |]]: 1)added terms submitted by Tina (Polim) and those Stefan (MIACA)'s terms listed as ~BioMaterial (excluding those under 'project description' and 'instrument')(edited by Susanna)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''post''16March07_SAS.xls|Post 16th Mar 2007 call |]]: 1)added another column with comments made during the call; 2) some terms have been moved to the worksheet contaning terms for others branches or to be submitted to other ontologies  (edited by Susanna)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''ante''16March07_LM.xls|Ante 16th Mar 2007 call |]]: 1) discussed PSI ion terms with Trish, Puneet, Helen, Susanna and Daniel and decided to point to PSI for these (then PSI will cross ref with PATO or [[ChEBI]])(edited by Luisa)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''post''9March07''PRS''SAS.xls|Post 9th Mar 2007 call |]]: 1)added a column with comments made during the call;  2) some related terms have been grouped for further discussions (duplicated terms are still there, to keep track of the needs expressed by more than one commun
+ity); 3) in black bold face, those areas requiring additional discussion; 3) ref: 'Purity', this really sounds like a quality with an associated measurement (90% pure or contaminated with 10 % neutrphiles), keeping this here seems to be inconsistent with other properties being moved to PATO such as 'Mass' for instance
+; 2) all entries to be moved to others branches or submitted to other ontologies have been moved in a different worksheet (edited by Philippe)
+
+[[ http://www.ebi.ac.uk/~sansone/FuGO/biobranch''ante''9March07''SAS''PRS.xls|Ante 9th Mar 2007 call |]]: Worksheets added, terms sorted by relevance to this branch  (edited by Philippe, Susanna)
+
+[[ http://www.ebi.ac.uk/~parkinso/biomaterialterms-after-call.xls|Post 2nd Mar 2007 call |]]: initial list if terms collated, grey lines are not in biomaterial scope according to last call (edited by Helen)
