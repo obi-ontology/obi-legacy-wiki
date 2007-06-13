@@ -4,13 +4,13 @@
 ===Community Submitted Term Lists===
 * BIRN
 * Flow Cytometry:
-* Upload:Instrumentation-FlowCytometry-2007-04-03.txt
-* Upload:Instrumentation-FlowCytometry-2007-04-03.xls
+** Upload:Instrumentation-FlowCytometry-2007-04-03.txt
+** Upload:Instrumentation-FlowCytometry-2007-04-03.xls
 * MSI-NMR available in owl, will be integrated into instrument.owl file when ready.
 * sepCV - will be integrated into instrument.owl file when ready.
-* MSI-Chromatography CV - will be integrated into instrument.owl file when ready (via [[SepCV]]).
+* MSI-Chromatography CV - will be integrated into instrument.owl file when ready (via SepCV).
 * PSI-MS (Mass spec) - initial list at ''' Upload:PSI''MS-InstrumentTermsForOBI''29Mar2007.xls
-* Transcriptomics - '''DONE* Upload:InstrumentTerms-MO-29Mar2007_updated.xls
+* Transcriptomics - *DONE* Upload:InstrumentTerms-MO-29Mar2007_updated.xls
 * MIACA - [[|http://www.smp-cell.org/Files/terms.doc an Excel list of terms||http://www.smp-cell.org/Files/MIACA_Ontologies032007.xls]], [[and a Word list of terms]]
 ** physical arrays are utilized by most communities in some way. It might make sense to separate the features of such arrays into terms, in order to have just a few descriptors that would cover any (?) kind of arrays e.g. from Petri dish to oligo or protein chip. [[http://www.smp-cell.org/Files/Arrays.xls List of possible terms]]
 
