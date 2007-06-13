@@ -10,7 +10,7 @@
 == Original list of terms - as provided by each community ==
 (''Dear editors, add here the link to the file with your list of terms here'')
 * MO
-[[ http://www.ebi.ac.uk/~parkinso/biomaterialterms''mo''plus''bacterial''obi_format.xls|MO Transcriptomic Terms plus immuno plus Tox terms]]
+[ http://www.ebi.ac.uk/~parkinso/biomaterialterms_mo_plus_bacterial_obi_format.xls|MO Transcriptomic Terms plus immuno plus Tox terms]
 - merged the other lists and reformatted for the conf call
 contains current MO ~BioMaterial '''and now terms for sequences on arrays''' terms with definitions and mappings to PATO.
 Thanks to PATO (Chris M., Michael A, and George G) for the comments on the MO-PATO mappings. Terms have been added from BUG@S Bacterial array database (thanks to Adam Witney) and ~ArrayExpress. Excel file Extra columns are present in the xls file are: PATO id, PATO term, comment.
