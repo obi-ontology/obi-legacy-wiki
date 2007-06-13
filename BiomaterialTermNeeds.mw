@@ -1,13 +1,13 @@
 == BioMaterials Branch ==
 
 
-=== Link to [[BiomaterialTermNeedsCalls |conference calls ]] ===
+== Link to [[BiomaterialTermNeedsCalls |conference calls ]] ==
 (''Find here the summary of each call'')
 
-=== 3. Link to [[BiomaterialTermNeedsLists |OBI BioMaterial terms list]] ===
+== Link to [[BiomaterialTermNeedsLists |OBI BioMaterial terms list]] ==
 (''Find here a list of excel files, as the work progresses'')
 
-=== 4. Original list of terms - as provided by each community ===
+== Original list of terms - as provided by each community ==
 (''Dear editors, add here the link to the file with your list of terms here'')
 * MO
 [[ http://www.ebi.ac.uk/~parkinso/biomaterialterms''mo''plus''bacterial''obi_format.xls|MO Transcriptomic Terms plus immuno plus Tox terms]]
@@ -51,7 +51,7 @@ Communities are compiling lists of their ~BioMaterial term requirements (prefera
 
 Lists of required relationships are also being compiled. For example, partipants are compiling relations required to create a formal specification of an action/treatment/protocol performed on a given ~BioMaterial. Where possible, candidate relations should be taken from - or at least derived from - the [[http://obo.sourceforge.net/cgi-bin/detail.cgi?relationship OBO Relations (RO)]] ontology.
 
-===Editors===
+==Editors==
 * Alan
 * Bjoern
 * Jennifer
@@ -60,3 +60,5 @@ Lists of required relationships are also being compiled. For example, partipants
 * Susanna
 * Tina
 * Philippe
+
+==Related Links==
