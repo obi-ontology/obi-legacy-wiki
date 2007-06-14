@@ -25,7 +25,7 @@ OBI branch dealing with terms related to biomaterials
 contains current MO ~BioMaterial '''and now terms for sequences on arrays''' terms with definitions and mappings to PATO.
 Thanks to PATO (Chris M., Michael A, and George G) for the comments on the MO-PATO mappings. Terms have been added from BUG@S Bacterial array database (thanks to Adam Witney) and ~ArrayExpress. Excel file Extra columns are present in the xls file are: PATO id, PATO term, comment.
 
-* Immune Epitope
+===Immune Epitope===
 [[ http://www.ebi.ac.uk/~sansone/FuGO/Submissionterms-Biomaterial.txt| Immuno BioMaterial terms]]
 
 * Env
