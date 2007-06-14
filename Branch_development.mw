@@ -12,16 +12,16 @@ See the [[ObiBranches|branch outline]] for details on the branch development pla
 ==List of OBI Branches==
 The branches within OBI correspond to areas of interest to biomedical investigation.  These development branches are constituents of the OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The branches are as follows: <br>
 
-* [[BiomaterialTermNeeds |Biomaterial]]
-* [[DataTransformation |Data Transformation]]
-* [[DigitalEntityTerms |Digitial Entity and Non-realizable Information Entity]]
-* [[FunctionTerms |Function]]
-* [[InstrumentTerms |Instrument]]
-* [[PlanBranch |Plan (investigation design - protocol)]]
-* [[ProtocolApplicationBranch |Protocol Application]]
-* [[QualitiesBranch |Qualities]]
-* [[RoleTerms |Role]]
-* [[ListOfRelationships |Relations]]
+* [[BiomaterialTermNeeds |Biomaterial]] (lead editor: Susanna Sansone)
+* [[DataTransformation |Data Transformation]] (Tina Boussard)
+* [[DigitalEntityTerms |Digitial Entity and Non-realizable Information Entity]] (Jennifer Fostel)
+* [[FunctionTerms |Function]] (Bill Bug)
+* [[InstrumentTerms |Instrument]] (TBC)
+* [[PlanBranch |Plan (investigation design - protocol)]] (Philippe Rocca-Serra)
+* [[ProtocolApplicationBranch |Protocol Application]] (Bjoern Peters)
+* [[QualitiesBranch |Qualities]] (Chris Mungall)
+* [[RoleTerms |Role]] (Liju Fan)
+* [[ListOfRelationships |Relations]] (TBC)
 
 Each branch is also assigned a group of editors which are responsible for the design and development of the terms, structure and hierarchy.  Mailing lists, weekly conference calls and regular face-to-face meetings are used to progress the development of each branch in a collaborative and cooperative manner.  An introduction to OBI can be found [http://obi.sourceforge.net/ here at the SourceForge website ]
 
