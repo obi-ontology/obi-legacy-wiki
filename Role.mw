@@ -1,15 +1,13 @@
-
 Describe [[RoleTerms]] here.
 *Terms for role / reagent / reporter / variable  identified by different communities.
 
 Editors
-  * Alan
-  * Bill
-  * Jennifer
-  * Richard
+* Jennifer (Lead Editor)
+* Alan
+* Bill
+* Richard
 
-====Term List
-====
+==Term List==
 * Tab delimited file with terms from flow cytometry: Upload:Roles-FlowCytometry-2007-03-30.txt
 * Upload:Roles-v1.xls
 * [[OBI''Roles''UTSW]]
