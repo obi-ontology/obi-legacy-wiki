@@ -4,9 +4,15 @@ A link to the full list of files used for or produced after each call can be [[B
 
 ===June 13, 2007===
 
+----
+
+
 Action items on biomaterial_purity and allele with PATO. George is happy to have input. I suggested material_purity over biomaterial purity and he's considering it. Allele - PATO uses an external vocab. I've asked what this is, they'll discuss adding to PATO and get back to us.
 
 === June 8, 2007===
+
+----
+
 
 Starting file [[BiomaterialTermNeedsLists|Ante June 1st 2007 call and Dispatcher file ]]<br>
 
@@ -38,42 +44,52 @@ Next call is 8 June 2007, 16.30 BST
 
 === May 25, 2007===
 
+----
+
+
 Actions from this call:
 - (JM) A single spreadsheet with complete list of all Biomaterial terms which are to be passed to SO (out of scope) [[ http://www.ebi.ac.uk/~malone/OBI/biomaterial''branch/Biomaterial''terms''for''SO.xls|can be found here |]] NOTE: Supersedes earlier version
 
 === May 18, 2007===
+
+----
 
 Actions from previous call:
 *(JM/HP) The Biomaterial terms which are to be passed to SO and Chebi, [[ http://www.ebi.ac.uk/~malone/OBI/biomaterial''branch/BiomatForChebi''terms.xls|the SO terms are here || http://www.ebi.ac.uk/~malone/OBI/biomaterial''branch/BiomatForSO''terms.xls]] and [[Chebi terms are here |Chebi terms are here ]]
 
 
 === May 11, 2007===
+
+----
+
 We started our discussion from this file [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Ante 13th Apr 2007 call:|]]<br>
 File produced after this call: [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Post 11th May 2007 call |]]<br>
 (Susanna, Helen, Tina, Alan, Bjorn, Philippe, James)
 
 SUMMARY:<br>
-
- * Focus was to sort terms for their relevance to other OBI branches, and external ontologies
- * Actions assigned to editors to submit/discuss specific terms:
-   * AA:HP/JM to check SO/Chebi for terms
-   * AA: BP submit terms to Protocol Application branch
-   * AA: SAS submit terms to PATO and Unit Ontology
-   * AA: JF (Jennifer, not present) submit terms to Clinical Ontology
-   * AA: PRS submit terms to Plan branch
-   * AA: NM (Norman, not present) submit terms to Environmental Ontology
-   * AA:Alan to talk to Barry re: qualities of occurent such as approximate''doubling''time - and doubling-time-units - should this be handled at the level of BFO terms 'seeding''density (density of seeding)' and 'approximate''doubling_time' terms
-   * AA: HP to report back on anatomy ontologies, what's available by species
-   * AA: HP and TW to collect instances from MO and ensure these are represented
- * Discussions to make with the larger dev list:
-   * What about dealing with quasi material terms e.g. Lot number, serial number. Should these be dealt with in some generic object attributes as they affect multiple branches
-   * What to do about cases where there are multiple ontologies that have overlapping terms, anatomy ontologies for e.g and sources of nucleic acid terms (SO/Chebi/ etc) some generic policy for design and what to feed bac to the communities
+* Focus was to sort terms for their relevance to other OBI branches, and external ontologies
+* Actions assigned to editors to submit/discuss specific terms:
+ * AA:HP/JM to check SO/Chebi for terms
+ * AA: BP submit terms to Protocol Application branch
+ * AA: SAS submit terms to PATO and Unit Ontology
+ * AA: JF (Jennifer, not present) submit terms to Clinical Ontology
+ * AA: PRS submit terms to Plan branch
+ * AA: NM (Norman, not present) submit terms to Environmental Ontology
+ * AA:Alan to talk to Barry re: qualities of occurent such as approximate''doubling''time - and doubling-time-units - should this be handled at the level of BFO terms 'seeding''density (density of seeding)' and 'approximate''doubling_time' terms
+ * AA: HP to report back on anatomy ontologies, what's available by species
+ * AA: HP and TW to collect instances from MO and ensure these are represented
+* Discussions to make with the larger dev list:
+ * What about dealing with quasi material terms e.g. Lot number, serial number. Should these be dealt with in some generic object attributes as they affect multiple branches
+ * What to do about cases where there are multiple ontologies that have overlapping terms, anatomy ontologies for e.g and sources of nucleic acid terms (SO/Chebi/ etc) some generic policy for design and what to feed bac to the communities
 
 Next call is 18 May 2007, 16.30 BST
 See here [http://www.timeanddate.com/worldclock/meetingdetails.html?year<code>2007&month</code>5&day<code>18&hour</code>15&min<code>30&sec</code>0&p1<code>136&p2</code>263&p3<code>137&iv</code>1800]
 
 
 === Apr 13, 2007===
+
+----
+
 We started our discussion from this file [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Ante 13th Apr 2007 call:|]]<br>
 
 File produced after this call: [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Post 13th Apr 2007 call |]]<br>
@@ -92,6 +108,9 @@ Next call is 20 April 2007, 16.30 BST
 See here [http://www.timeanddate.com/worldclock/meetingdetails.html?year<code>2007&month</code>4&day<code>20&hour</code>15&min<code>30&sec</code>0&p1<code>136&p2</code>263&p3<code>137&iv</code>1800]
 
 === Mar 16, 2007===
+
+----
+
 We started our discussion from this file [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Ante 16th Mar 2007 call:|]]<br>
 
 File produced after this call: [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Post 16th Mar 2007 call |]]<br>
@@ -115,6 +134,9 @@ Susanna will host again.<br>
 See here [[ http://www.timeanddate.com/worldclock/meetingtime.html?day<code>23&month</code>3&year<code>2007&p1</code>136&p2<code>263&p3</code>137&p4=-1|world clock |]]
 
 === Mar 09, 2007===
+
+----
+
 We started our discussion from this file [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Ante 9th Mar 2007 call |]]<br>
 
 File produced after this call: [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Post 9th Mar 2007 call |]]
@@ -139,6 +161,9 @@ See here [[ http://www.timeanddate.com/worldclock/meetingdetails.html?year<code>
 
 
 === Mar 02, 2007===
+
+----
+
 File produced after this call: [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Post 2nd Mar 2007 call |]]<br>
 
 [[ [[BiomaterialTermNeeds]]/calls/2''Mar''07|MINUTES|]] <br>
@@ -168,7 +193,10 @@ Next call we could <br>
 Next call: 9 March 2007, 16,00 GMT. Alan will host again.<br>
 
 === Feb 23th, 2007===
-[[ [[BiomaterialTermNeeds]]/calls/23''feb''07|MINUTES|]] <br>
+
+----
+
+[[BiomaterialTermNeeds]]/calls/23''feb''07|MINUTES|]] <br>
 SUMMARY:<br>
 - No mailing list for this branch (at least for the moment)
 - Collect biomaterial terms in tab delimited format and post the file on the (previous) [[BioMaterial]] WIKI page<br>
@@ -178,3 +206,5 @@ SUMMARY:<br>
 - Proteomics/PSI sample terms are posted under [[ http://obo.sourceforge.net/cgi-bin/table.cgi|OBI |]] see MI, MOD, IPR, SEP<br>
 - March 1st deadline for editors (first set of terms), April 1 deadline for the others (to add on)<br>
 - Next call Friday 2nd March same time 11EST, 16.00 GMT UK (Norman will call us by skype), to see what we have and how to precede to build this branch (aristotelian definitions, add metadata tags, naming convention, binning etc) <br>
+
+==Related Links==
