@@ -8,20 +8,20 @@
 done/changed'')
 <br>
 
-== 01 June, 2007 ==
+== June, 2007 Calls ==
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_01June07_SAS.xls Main Post 1 June 2007 call file ] 
 
 1) We have divided up the biomaterial file and assigned rows by source or choice to people. People will get what they submitted where possible 
 
-2) Here are the individual files:
+2) Here are the original individual files and those with new definitions:
 
 {| border="1"
 |+ Latest Branch Terms
 ! File To Be Defined !! Defined Terms File 
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June07.xls Post 1 June 2007 - GROUP 1 AR BP]
-| 
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June08_AR_BP.xls AR and BP defined]
 |-
 | [http://www.ebi.ac.uk/~parkinso/biobranch_G2_post_01June07_HP.xls  Post 1 June 2007 - GROUP 2 TB HP PRS]
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G2_post_01June07.xls HP defined]
@@ -71,8 +71,8 @@ done/changed'')
 == 16 March, 2007 ==
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_16March07_SAS.xls Post 16th Mar 2007 call]: <br>
-
 1) added another column with comments made during the call; <br>
+
 2) some terms have been moved to the worksheet contaning terms for others branches or to be submitted to other ontologies  (edited by Susanna)
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_16March07_LM.xls Ante 16th Mar 2007 call]: <br>
@@ -84,8 +84,8 @@ done/changed'')
 1)added a column with comments made during the call; <br> 
 2) some related terms have been grouped for further discussions (duplicated terms are still there, to keep track of the needs expressed by more than one community); <br>
 3) in black bold face, those areas requiring additional discussion; <br>
-
 3) ref: 'Purity', this really sounds like a quality with an associated measurement (90% pure or contaminated with 10 % neutrphiles), keeping this here seems to be inconsistent with other properties being moved to PATO such as 'Mass' for instance <br>
+
 2) all entries to be moved to others branches or submitted to other ontologies have been moved in a different worksheet (edited by Philippe) <br>
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_9March07_SAS_PRS.xls Ante 9th Mar 2007 call]: <br>
