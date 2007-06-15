@@ -58,8 +58,7 @@ Actions from this call:
 ----
 
 Actions from previous call:
-*(JM/HP) The Biomaterial terms which are to be passed to SO and Chebi, [[ http://www.ebi.ac.uk/~malone/OBI/biomaterial''branch/BiomatForChebi''terms.xls|the SO terms are here || http://www.ebi.ac.uk/~malone/OBI/biomaterial''branch/BiomatForSO''terms.xls]] and [[Chebi terms are here |Chebi terms are here ]]
-
+*(JM/HP) The Biomaterial terms which are to be passed to SO and Chebi,  [http://www.ebi.ac.uk/~malone/OBI/biomaterial_branch/BiomatForSO_terms.xls the SO terms are here] and [http://www.ebi.ac.uk/~malone/OBI/biomaterial_branch/BiomatForChebi_terms.xls Chebi terms are here]
 
 === May 11, 2007===
 
@@ -67,10 +66,10 @@ Actions from previous call:
 
 We started our discussion from this file [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Ante 13th Apr 2007 call:|]]<br>
 File produced after this call: [[ https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds/lists|Post 11th May 2007 call |]]<br>
+
 (Susanna, Helen, Tina, Alan, Bjorn, Philippe, James)
 
 SUMMARY:<br>
-
 * Focus was to sort terms for their relevance to other OBI branches, and external ontologies
 * Actions assigned to editors to submit/discuss specific terms:
 * AA:HP/JM to check SO/Chebi for terms
