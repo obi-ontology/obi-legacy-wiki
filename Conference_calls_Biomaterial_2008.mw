@@ -78,7 +78,7 @@ SUMMARY:<br>
 * AA: SAS submit terms to PATO and Unit Ontology
 * AA: JF (Jennifer, not present) submit terms to Clinical Ontology
 * AA: PRS submit terms to Plan branch
-- AA: NM (Norman, not present) submit terms to Environmental Ontology
+  - AA: NM (Norman, not present) submit terms to Environmental Ontology
 * AA:Alan to talk to Barry re: qualities of occurent such as approximate''doubling''time - and doubling-time-units - should this be handled at the level of BFO terms 'seeding''density (density of seeding)' and 'approximate''doubling_time' terms
  * AA: HP to report back on anatomy ontologies, what's available by species
  * AA: HP and TW to collect instances from MO and ensure these are represented
