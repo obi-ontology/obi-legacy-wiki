@@ -78,13 +78,13 @@ SUMMARY:<br>
 * AA: SAS submit terms to PATO and Unit Ontology
 * AA: JF (Jennifer, not present) submit terms to Clinical Ontology
 * AA: PRS submit terms to Plan branch
-  - AA: NM (Norman, not present) submit terms to Environmental Ontology
+* AA: NM (Norman, not present) submit terms to Environmental Ontology
 * AA:Alan to talk to Barry re: qualities of occurent such as approximate''doubling''time - and doubling-time-units - should this be handled at the level of BFO terms 'seeding''density (density of seeding)' and 'approximate''doubling_time' terms
- * AA: HP to report back on anatomy ontologies, what's available by species
- * AA: HP and TW to collect instances from MO and ensure these are represented
+* AA: HP to report back on anatomy ontologies, what's available by species
+* AA: HP and TW to collect instances from MO and ensure these are represented
 * Discussions to make with the larger dev list:
- * What about dealing with quasi material terms e.g. Lot number, serial number. Should these be dealt with in some generic object attributes as they affect multiple branches
- * What to do about cases where there are multiple ontologies that have overlapping terms, anatomy ontologies for e.g and sources of nucleic acid terms (SO/Chebi/ etc) some generic policy for design and what to feed bac to the communities
+* What about dealing with quasi material terms e.g. Lot number, serial number. Should these be dealt with in some generic object attributes as they affect multiple branches
+* What to do about cases where there are multiple ontologies that have overlapping terms, anatomy ontologies for e.g and sources of nucleic acid terms (SO/Chebi/ etc) some generic policy for design and what to feed bac to the communities
 
 Next call is 18 May 2007, 16.30 BST
 See here [http://www.timeanddate.com/worldclock/meetingdetails.html?year<code>2007&month</code>5&day<code>18&hour</code>15&min<code>30&sec</code>0&p1<code>136&p2</code>263&p3<code>137&iv</code>1800]
