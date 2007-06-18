@@ -105,37 +105,46 @@
 |}
 
 ===Draft Agenda===
-<pre>
-        Monday
 
-        AM - Meeting with NIH Program Directors (est 10 AM EDT)
+'''Monday'''
 
-        PM
-	- Summary of action items, & milestones from San Diego
-	- Update of status from development branches
-	- Discussion of agenda for the rest of the meeting, priorities, agreement on desired outcomes
-        - Maintenance of terminologies by participating communities or within the OBI ontology proper
-        ---------
+AM
+*Meeting with NIH Program Directors (est 10 AM EDT)
 
-        Tuesday - Thursday
-	- Vocabulary development; time allocated for other items (below)
+PM
+* Summary of action items, & milestones from San Diego
+* Update of status from development branches
+* Discussion of agenda for the rest of the meeting, priorities, agreement on desired outcomes
+* Maintenance of terminologies by participating communities or within the OBI ontology proper
 
-        Tuesday AM
-	- Update of status from development branches (15-30 min ea)
+----
 
-        Tuesday PM
-        - Update on the ontology for clinical investigations, from the May workshop
+'''Tuesday - Thursday'''
 
-        Wednesday PM
-        - Discussion on developing an application example
+* Vocabulary development; time allocated for other items (below)
 
-        Thursday PM
-        - Develop agenda for the data transformation workshop in Hinxton
+----
 
-        ----------
+!!!Tuesday AM!!!
 
-        Friday
-        - Discussion/appointment of editor-in-chief
-	- Discussion of items arising during workshop,
-	- plan of action for the next development/workshop cycle & resetting milestones
-</pre>
+* Update of status from development branches (15-30 min ea)
+
+!!!Tuesday PM!!!
+* Update on the ontology for clinical investigations, from the May workshop
+
+----
+
+!!!Wednesday PM!!!
+* Discussion on developing an application example
+
+----
+
+!!!Thursday PM!!!
+* Develop agenda for the data transformation workshop in Hinxton
+
+----
+
+!!!Friday!!!
+* Discussion/appointment of editor-in-chief
+* Discussion of items arising during workshop,
+* Plan of action for the next development/workshop cycle & resetting milestones
