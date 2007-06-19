@@ -1,14 +1,11 @@
+==== Community Practices In Ontology Metadata Use====
 
-==== Community Practices In Ontology Metadata Use
-====
+===Old wiki site for this page===
+*[[CommunityPracticesInOntologyMetadata|https://wiki.cbil.upenn.edu/obiwiki.old/index.php/CommunityPracticesInOntologyMetadata]]
 
-----
+===BIRN===
 
-=== BIRN
-===
-
-== Requirements
-==
+==Requirements==
 The following requirements have been identified by the members of the BIRN Ontology Task Force in the course of the curation we've been doing on the BIRNLex ontology framework.  Though what follows brings no implied warranty from NCBO or the OBO Foundry, in the course of this work, we've been advised extensively by several members of NCBO including Barry Smith and Daniel Rubin.  We are working toward submitting BIRNLex to the OBO Foundry, have been guided by the OBO Foundry ''best practices'', and have invested considerably investigating practices also in use by long standing biomedical knowledge representation efforts such as the NIH NLM Unified Medical Language System (UMLS) and the Gene Ontology.
 
 Since the overall goal according to the OBO Foundry ''best practices'' is to maximally re-use of relevant community ontologies to promote semantic integration of data sets/observations described with any and all of the OBO Foundry ontologies, it appears to the BIRN OTF these annotation properties really ought to be included in the foundational levels of the shared ontologies - preferably at the foundational level (e.g., the Basic Formal Ontology (BFO) and OBO Relation Ontology (RO)), so as to guarantee software systems designed to algorithmically support conformance with the OBO Foundry principles can be extended to all participating ontologies.  As mentioned by Liju Fan, we really would be unwise to ''invent'' our own languages for such properties.
@@ -55,8 +52,7 @@ The other aspect of providing the shared, foundational properties in an artifact
 ?>
 (BB ~[[2006-09-20~]]: more to come this evening.  These are just to provide examples for all to peruse)
 
-== Background
-==
+==Background==
 The following represent the result of seeking to map the needs described above using annotation, editorial, and general metadata properties available in various standards
 
 {|
@@ -72,8 +68,7 @@ The following represent the result of seeking to map the needs described above u
 |< Source4 ||^ property4 ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
 ?>
 
-== Current Practice
-==
+==Current Practice==
 The following represent the current Annotation Properties in use within the BIRNLex OWL file<sup>�</sup>.
 
 {|
@@ -96,7 +91,7 @@ The following represent the current Annotation Properties in use within the BIRN
 ?>
 (BB ~[[2006-09-20~]]: more to come this evening.  These are just to provide examples for all to peruse)
 
-<sup>�</sup> Though the overwhelming majority of [[ http://www.w3.org/TR/2004/REC-owl-ref-20040210/#Annotations|Dublin Core Metadata Terms || http://dublincore.org/documents/dcmi-terms/]] are much more targeted to librarian curation requirements, these also include several date properties derived from ''''dc:date'''' of obvious use to us - e.g., ''modified'', ''created'', ''dateAccepted'', etc.; however, these are not available in the dc-dl.owl file used by Protege, probably because [[subclassing Annotation Properties is not allowed in OWL-DL |]].  There are also other DC Terms that would be useful - e.g., ''conforms to'' (a child of the DC Element ''relation'').  With this in mind - until we can work out a better solution - when I refer to a '''Source class''' above, I mean this is the class the specific Annotation Property ''would'' derive from were it possible to subclass Annotation Properties in OWL-DL.  In the interim, this subclassing is simply indicated by flattening out the superclass - subclass relation in the specific [[AnnotationProperty]] name - e.g., ''''birn:skosDefinition''oboDefinition''_
+<sup>�</sup> Though the overwhelming majority of [[ http://www.w3.org/TR/2004/REC-owl-ref-20040210/#Annotations|Dublin Core Metadata Terms || http://dublincore.org/documents/dcmi-terms/]] are much more targeted to librarian curation requirements, these also include several date properties derived from ''''dc:date'''' of obvious use to us - e.g., ''modified'', ''created'', ''dateAccepted'', etc.; however, these are not available in the dc-dl.owl file used by Protege, probably because [[subclassing Annotation Properties is not allowed in OWL-DL |subclassing Annotation Properties is not allowed in OWL-DL ]].  There are also other DC Terms that would be useful - e.g., ''conforms to'' (a child of the DC Element ''relation'').  With this in mind - until we can work out a better solution - when I refer to a '''Source class''' above, I mean this is the class the specific Annotation Property ''would'' derive from were it possible to subclass Annotation Properties in OWL-DL.  In the interim, this subclassing is simply indicated by flattening out the superclass - subclass relation in the specific [[AnnotationProperty]] name - e.g., ''''birn:skosDefinition''oboDefinition''_
 
 <sup>�</sup> Of course, with the proliferation of such class properties, there are signficant issues that arise regarding their use:
   * Is there a way to create classes so they automatically possess the ''required'' properties.
@@ -108,8 +103,7 @@ Though these would all be standard features in an RDBMS front-end user entry sys
 
 ----
 
-=== NCIT
-===
+===NCIT===
 
 {|
 |-
@@ -137,10 +131,8 @@ Though these would all be standard features in an RDBMS front-end user entry sys
 ?>
 
 ----
-=== General Recommendations for Annotations to Include in OBI - Agreement is needed before this is Approved by the OBI Working Group
-===
-==== Metatdata to Include About a Term
-====
+===General Recommendations for Annotations to Include in OBI - Agreement is needed before this is Approved by the OBI Working Group===
+====Metatdata to Include About a Term====
 
 Minimum Information
 * Preferred Term Name (rdfs:label, SKOS:prefLabel)
@@ -161,8 +153,7 @@ Additional Information
 * hiddenLabel (SKOS)?  -  A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations.
 * set xml:lang attribute=en -> Check if this is needed using the new version of Protege
 
-==== Metadata to Include About the Ontology
-====
+====Metadata to Include About the Ontology====
 * Title of Ontology (dc:title)
 * Subject (dc:subject)
 * Release Date (dc:date, dc:created, dc:issued)
@@ -172,14 +163,11 @@ Additional Information
 * Version of the ontology (owl:versionInfo, dc:hasVersion, dc:isVersionOf)
 * protege:defaultLanguage, value=en. This is needed to hide the numneric identifiers used in the rdf:ID field with the string label.
 
-=== The current needs (Spring, 2007) for metadata information is listed on the [[MinimalMetadata]] page along with it's implementation in the OBI.owl file
-===
+===The current needs (Spring, 2007) for metadata information is listed on the [[MinimalMetadata]] page along with it's implementation in the OBI.owl file===
 
-==== Note: The above is a minimal set of descriptors. Find a full recommendation and detailed information such as examples and cardinalities for the annotation tags in the Metadata Annotation document, Chapter 7.2.5.1 Metadata for representational units (RUs):
-====
+====Note: The above is a minimal set of descriptors. Find a full recommendation and detailed information such as examples and cardinalities for the annotation tags in the Metadata Annotation document, Chapter 7.2.5.1 Metadata for representational units (RUs):====
 http://msi-ontology.sourceforge.net/recommendations/Meta''Annot''v2.doc
-==== This document was compiled in a way to also fulfill the general domain iondependent needs of the NCIT and BIRN requirements (mentioned above).
-====
+====This document was compiled in a way to also fulfill the general domain iondependent needs of the NCIT and BIRN requirements (mentioned above).====
 An implementation of the full metadata set as owl annotation properties (ready to use by owl:imports statements) is available from:
 
 https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RU_metadata.owl
@@ -187,5 +175,4 @@ https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RU_metadata.owl
 For more details look at the [[ [[OntologyMetadataAnnotation]]|Ontology Metadata Annotation |]] pages or the specification document.
 
 
-====This is a first draft and discussion version. Please have a look and send comments to the obi devel list
-====
+====This is a first draft and discussion version. Please have a look and send comments to the obi devel list====
