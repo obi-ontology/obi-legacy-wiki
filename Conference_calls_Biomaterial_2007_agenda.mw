@@ -15,7 +15,6 @@ done/changed'')
 2) The original individual files are listed here, along with the those with revised definitions, examples and preliminary structure:
 
 {| border="1"
-
 |+ Latest Branch Terms
 ! Terms To Be Defined !! Defined plus Example !! Structured
 |-
@@ -38,6 +37,7 @@ done/changed'')
 |}
 
 {| border="1"
+
 |+ [http://www.ebi.ac.uk/~sansone/FuGO/Dispatcher-From-Biomaterial_June21.xls Latest Despatcher file]
 ! Other OBI branches or External resources (editor) !! Status!!
 |-
@@ -52,17 +52,49 @@ done/changed'')
 | OBI plan branch
 | ?
 | 
-| 
 |-
 | OBI instrument branch
 | ?
-|
-| 
 | 
 |-
 | OBI role branch
 | ?
 |
+|-
+| Unit Ontology
+| ?
+|
+|-
+| PATO Ontology (Susanna)
+| Done, comments in file
+|
+|-
+| Cell Line Ontology
+| ?
+|
+|-
+| Clinical Inv Ontology
+| ?
+|
+|-
+| Environmental Ontology
+| ?
+|
+|-
+| Disease Ontology
+| ?
+|
+|-
+| CARO/FMA Ontology
+| ?
+|
+|-
+| SO Ontology
+| ?
+|
+|-
+| GO Ontology
+| ?
 |}
 
 <br>
@@ -103,8 +135,8 @@ done/changed'')
 == 16 March, 2007 ==
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_16March07_SAS.xls Post 16th Mar 2007 call]: <br>
-
 1) added another column with comments made during the call; <br>
+
 2) some terms have been moved to the worksheet contaning terms for others branches or to be submitted to other ontologies  (edited by Susanna)
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_16March07_LM.xls Ante 16th Mar 2007 call]: <br>
@@ -116,8 +148,8 @@ done/changed'')
 1)added a column with comments made during the call; <br> 
 2) some related terms have been grouped for further discussions (duplicated terms are still there, to keep track of the needs expressed by more than one community); <br>
 3) in black bold face, those areas requiring additional discussion; <br>
-
 3) ref: 'Purity', this really sounds like a quality with an associated measurement (90% pure or contaminated with 10 % neutrphiles), keeping this here seems to be inconsistent with other properties being moved to PATO such as 'Mass' for instance <br>
+
 2) all entries to be moved to others branches or submitted to other ontologies have been moved in a different worksheet (edited by Philippe) <br>
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_9March07_SAS_PRS.xls Ante 9th Mar 2007 call]: <br>
