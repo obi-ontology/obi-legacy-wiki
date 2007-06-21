@@ -1,22 +1,17 @@
-=== Function branch WG
-===
-==== 1. Editors
-====
+=== Function branch WG ===
+==== 1. Editors ====
 * Bill
 * Alan
 * Suzi & GO (advisor)
 
-==== 2. Function Branch TCons:
-====
+==== 2. Function Branch TCons: ====
 * [[FunctionNeeds/TConsAgendas|conference call agendas |]]
 * [[FunctionNeeds/TConsMinutes|conference call minutes |]]
 
-==== 3. Link to [[FunctionTermNeeds/lists|OBI Function terms' list |]]
-====
+==== 3. Link to [[FunctionTermNeeds/lists|OBI Function terms' list |]] ====
 (''Find here a list of excel files, as the works progress'')
 
-==== 4. Original list of terms - as provided by each community
-====
+==== 4. Original list of terms - as provided by each community ====
 (''Dear editors, add here the link to the file with your list of terms here'')
 * Flow Cytometry
 '''''' Tab delimited file with terms from flow cytometry: Upload:Function-FlowCytometry-2007-03-30.txt
@@ -25,8 +20,7 @@
 ----
 <br>
 
-=== General Guidance
-===
+=== General Guidance ===
 
 Communities are compiling lists of their ~Function term requirements (preferably following the naming conventions<sup>[[NamingConventions|2|]]</sup>) as a tab-delimited file  (term name and definition) - all needed terms if time permits. Examples below provide general guidance on how Function term defintions should be specified.  As this branch is built out, a term's parent class should also be specified. Currently only a parent obi:function class, a placeholder for GO:Molecular''function, and OBI:Instrument''function exist.  As the examples below make clear, we will also likely have foundational function classes for:
 *Assay_function
@@ -47,11 +41,10 @@ Finally, the Functions to be covered by OBI will be those specifically related t
 ----
 <br>
 
-===BFO:function
-===
+=== BFO:function ===
 
 * Definition:
-'''''' A realizable entity the manifestation of which is an essentialy end-directed activity of a continuant entity in virtue of that continuant entity being a specific kind of entity in the kind or kinds of contexts that it is made for.
+** A realizable entity the manifestation of which is an essentialy end-directed activity of a continuant entity in virtue of that continuant entity being a specific kind of entity in the kind or kinds of contexts that it is made for.
 
 * Examples:
 ** the function of a birth canal to enable transport;
@@ -64,14 +57,15 @@ Finally, the Functions to be covered by OBI will be those specifically related t
 ** the function of a judge in a court of law
 
 * OBI Examples (putative related continuants in bold-italic; putative related occurrents in italic):
-'''''' the function of a '''''high pressure liquid chromatagraphic (HPLC) system''''' to ''separate'' '''''molecules''''' based on their solubility properties;
-''''''''' continuant in which function inheres: '''''high pressure liquid chromatagraphic (HPLC) system*''
-''''''''' process: '''''molecules*'' being ''separated'' based on their solubility properties - input <code></code> mixture; output <code></code> distinct fractions of mixture based on relative hydrophobicity
-''''''* role (mode of participation in the process):
-'''''''''''' AR: (role as sub-relation) - the separation process '''has''separator''' '''''high pressure liquid chromatagraphic (HPLC) system''''' - '''has''separator''' '''is''a''' subproperty of '''has''participant'''
-'''''''''''' BB: - '''''high pressure liquid chromatagraphic (HPLC) system''''' has the role '''separator''' in the hydrophobicity-based separation process - '''separator''' is a type of role that '''inheres''in''' the '''''high pressure liquid chromatagraphic (HPLC) system'''_
-''''''* PATO: solubility (more specifically hydrophobicity)
-'''''' the function of '''''Nomarksi optics''''' to enhance the constrast of '''''specimens''''' ''viewed'' in a '''''light microscope''''' based on their ability to ''refract'' visible wavelengths of '''''light'''''.
+** the function of a '''''high pressure liquid chromatagraphic (HPLC) system''''' to ''separate'' '''''molecules''''' based on their solubility properties;
+*** continuant in which function inheres: '''''high pressure liquid chromatagraphic (HPLC) system*''
+*** process: '''''molecules*'' being ''separated'' based on their solubility properties - input <code></code> mixture; output <code></code> distinct fractions of mixture based on relative hydrophobicity
+*** role (mode of participation in the process):
+**** comments:
+**** AR: (role as sub-relation) - the separation process '''has''separator''' '''''high pressure liquid chromatagraphic (HPLC) system''''' - '''has''separator''' '''is''a''' subproperty of '''has''participant'''
+**** BB: - '''''high pressure liquid chromatagraphic (HPLC) system''''' has the role '''separator''' in the hydrophobicity-based separation process - '''separator''' is a type of role that '''inheres''in''' the '''''high pressure liquid chromatagraphic (HPLC) system'''_
+*** PATO: solubility (more specifically hydrophobicity)
+** the function of '''''Nomarksi optics''''' to enhance the constrast of '''''specimens''''' ''viewed'' in a '''''light microscope''''' based on their ability to ''refract'' visible wavelengths of '''''light'''''.
 '''''' the function of the '''''neuropsychological exam Ray's Auditory Verbal Learning and Memory Test (RAVLT)''''' to ''assess'' the relative impairment of '''''cognitive ability'''''.
 '''''' the function of the '''''Tail Flick Analgesia test''''' to ''measure'' '''''pain''''' sensitivity in '''''mice''''' and '''''rats''''' as they respond to the ''application'' of '''''heat''''' to a small area of their '''''tails'''''.
 '''''' the function of an '''''antibody'''''-coated '''''Enzyme-linked Immunosorbant Assay (ELISA)''''' '''''multi-well plate''''' to identify the presence of a specific '''''molecule''''' based on its matching '''''epitopes''''' ''binding'' to the immobilized '''''antibodies''''' coating the '''''plate wells''''';
