@@ -27,6 +27,13 @@ Each branch is also assigned a group of editors which are responsible for the de
 
 <br>
 
+==Link to Minimal Metadata Information==
+* List of minimal metadata to add for terms: MinimalMetadata
+
+==List of OBI Identifiers for Each Branch==
+* Range of Identifiers for each ObiBranch to use: https://wiki.cbil.upenn.edu/obiwiki/index.php/ProtegeGoodies#What_are_the_numeric_ranges_for_the_different_ObiBranches_and_how_do_I_use_them.3F
+
+
 ==Latest Branch Term Files==
 
 Links to the latest list of terms for each branch can be found in the table below.  Note: as this is currently active work these links are likely to change over time.
