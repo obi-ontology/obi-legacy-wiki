@@ -1,5 +1,4 @@
-
-=== ~Function branch WG
+=== Function branch WG
 ===
 ==== 1. Editors
 ====
@@ -38,7 +37,7 @@ Communities are compiling lists of their ~Function term requirements (preferably
 *Instrument''part''function (not really a type of Instrument_function)
 *Analytical''instrument''function (according to Instrument Branch discussions, devices such as dialysis tubing that do not produce data will be considered a type of Instrument.  The collection of Instruments that directly produce the observations collected for analysis [[colloquially referred to as "data"]] will be sub-types of Analytical_instrument)
 
-As the BFO:function definition makes clear, functions are end-directed activities manifested by specific continuants.  Functions typically provide a description of how a variety of continuants inter-relate in a particular context. With this in mind, it is expected definitions submitted for particular functions will include a reference to the continuant exhibiting it, as well as other continuants and occurents involved in the function. Necessary additional continuants and occurents, if not internal to OBI, should be derived from existing ontologies when possible, preferably one amongst the [[|http://obofoundry.org/ OBO Foundry]] constellation of ontologies.
+As the BFO:function definition makes clear, functions are end-directed activities manifested by specific continuants.  Functions typically provide a description of how a variety of continuants inter-relate in a particular context. With this in mind, it is expected definitions submitted for particular functions will include a reference to the continuant exhibiting it, as well as other continuants and occurents involved in the function. Necessary additional continuants and occurents, if not internal to OBI, should be derived from existing ontologies when possible, preferably one amongst the [[http://obofoundry.org/ OBO Foundry]] constellation of ontologies.
 
 The Function branch editors will be responsible for communicating to other branch editors a continuant residing in the branch they curate is linked to a specific function.
 
@@ -55,14 +54,14 @@ Finally, the Functions to be covered by OBI will be those specifically related t
 '''''' A realizable entity the manifestation of which is an essentialy end-directed activity of a continuant entity in virtue of that continuant entity being a specific kind of entity in the kind or kinds of contexts that it is made for.
 
 * Examples:
-'''''' the function of a birth canal to enable transport;
-'''''' the function of the heart in the body to pump blood;
-'''''' the function of reproduction in the transmission of genetic material;
-'''''' the digestive function of the stomach to nutriate the body;
-'''''' the function of a hammer to drive in nails;
-'''''' the function of a computer program to compute mathematical equations;
-'''''' the function of an automobile to provide transportation;
-'''''' the function of a judge in a court of law
+** the function of a birth canal to enable transport;
+** the function of the heart in the body to pump blood;
+** the function of reproduction in the transmission of genetic material;
+** the digestive function of the stomach to nutriate the body;
+** the function of a hammer to drive in nails;
+** the function of a computer program to compute mathematical equations;
+** the function of an automobile to provide transportation;
+** the function of a judge in a court of law
 
 * OBI Examples (putative related continuants in bold-italic; putative related occurrents in italic):
 '''''' the function of a '''''high pressure liquid chromatagraphic (HPLC) system''''' to ''separate'' '''''molecules''''' based on their solubility properties;
