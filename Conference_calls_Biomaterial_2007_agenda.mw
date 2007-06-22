@@ -6,6 +6,7 @@
 
 (''please name the files as 'biobranch' then add 'ante' and the date of the call<code> original file discussed at the call; OR 'post' and the date of the call</code> file(s) produced following the call; PLUS your initials. E.g. biobranch''ante''9March07''SAS''PRS.xls. Here also add a brief desciption of what you have 
 done/changed'')
+
 <br>
 
 == June, 2007 Calls ==
@@ -16,7 +17,7 @@ done/changed'')
 
 {| border="1"
 |+ Latest Branch Terms
-! Terms To Be Defined !! Defined plus Example !! Structured
+! Terms To Be Defined !! Definitions, examples, hierarchy !!
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June07.xls Post 1 June 2007 - GROUP 1 AR BP]
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June08_AR_BP.xls AR and BP defined]
@@ -37,7 +38,6 @@ done/changed'')
 |}
 
 {| border="1"
-
 |+ [http://www.ebi.ac.uk/~sansone/FuGO/Dispatcher-From-Biomaterial_June21.xls Latest Dispatcher file]
 ! Other OBI branches or External resources (editor) !! Status!!
 |-
@@ -127,6 +127,7 @@ done/changed'')
 == 23 March, 2007 ==
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_23March07_SAS.xls Post 23th Mar 2007 call]: <br>
+
 1)terms by Stefan (MIACA) sorted under ~BioMaterial and others (edited by Susanna)
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_23March07_SAS.xls Ante 23th Mar 2007 call]: <br>
@@ -136,7 +137,6 @@ done/changed'')
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_16March07_SAS.xls Post 16th Mar 2007 call]: <br>
 1) added another column with comments made during the call; <br>
-
 2) some terms have been moved to the worksheet contaning terms for others branches or to be submitted to other ontologies  (edited by Susanna)
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_16March07_LM.xls Ante 16th Mar 2007 call]: <br>
@@ -146,10 +146,10 @@ done/changed'')
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_9March07_PRS_SAS.xls Post 9th Mar 2007 call] <br>
 1)added a column with comments made during the call; <br> 
+
 2) some related terms have been grouped for further discussions (duplicated terms are still there, to keep track of the needs expressed by more than one community); <br>
 3) in black bold face, those areas requiring additional discussion; <br>
 3) ref: 'Purity', this really sounds like a quality with an associated measurement (90% pure or contaminated with 10 % neutrphiles), keeping this here seems to be inconsistent with other properties being moved to PATO such as 'Mass' for instance <br>
-
 2) all entries to be moved to others branches or submitted to other ontologies have been moved in a different worksheet (edited by Philippe) <br>
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_9March07_SAS_PRS.xls Ante 9th Mar 2007 call]: <br>
@@ -158,4 +158,5 @@ Worksheets added, terms sorted by relevance to this branch (edited by Philippe, 
 == 2 March, 2007 ==
 
 [http://www.ebi.ac.uk/~parkinso/biomaterialterms-after-call.xls Post 2nd Mar 2007 call]: <br>
+
 initial list if terms collated, grey lines are not in biomaterial scope according to last call (edited by Helen)
