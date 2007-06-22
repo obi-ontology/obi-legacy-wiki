@@ -6,7 +6,6 @@
 
 (''please name the files as 'biobranch' then add 'ante' and the date of the call<code> original file discussed at the call; OR 'post' and the date of the call</code> file(s) produced following the call; PLUS your initials. E.g. biobranch''ante''9March07''SAS''PRS.xls. Here also add a brief desciption of what you have 
 done/changed'')
-
 <br>
 
 == June, 2007 Calls ==
@@ -33,7 +32,7 @@ done/changed'')
 | 
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07.xls Post 1 June 2007 - GROUP 4 SAS]
-| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07_SAS.xls SAS defined]
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07_SAS.xls SAS defined/structure]
 |
 |}
 
@@ -127,10 +126,10 @@ done/changed'')
 == 23 March, 2007 ==
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_23March07_SAS.xls Post 23th Mar 2007 call]: <br>
-
 1)terms by Stefan (MIACA) sorted under ~BioMaterial and others (edited by Susanna)
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_23March07_SAS.xls Ante 23th Mar 2007 call]: <br>
+
 1)added terms submitted by Tina (Polim) and those Stefan (MIACA)'s terms listed as ~BioMaterial (excluding those under 'project description' and 'instrument')(edited by Susanna)
 
 == 16 March, 2007 ==
@@ -146,8 +145,8 @@ done/changed'')
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_9March07_PRS_SAS.xls Post 9th Mar 2007 call] <br>
 1)added a column with comments made during the call; <br> 
-
 2) some related terms have been grouped for further discussions (duplicated terms are still there, to keep track of the needs expressed by more than one community); <br>
+
 3) in black bold face, those areas requiring additional discussion; <br>
 3) ref: 'Purity', this really sounds like a quality with an associated measurement (90% pure or contaminated with 10 % neutrphiles), keeping this here seems to be inconsistent with other properties being moved to PATO such as 'Mass' for instance <br>
 2) all entries to be moved to others branches or submitted to other ontologies have been moved in a different worksheet (edited by Philippe) <br>
@@ -158,5 +157,4 @@ Worksheets added, terms sorted by relevance to this branch (edited by Philippe, 
 == 2 March, 2007 ==
 
 [http://www.ebi.ac.uk/~parkinso/biomaterialterms-after-call.xls Post 2nd Mar 2007 call]: <br>
-
 initial list if terms collated, grey lines are not in biomaterial scope according to last call (edited by Helen)
