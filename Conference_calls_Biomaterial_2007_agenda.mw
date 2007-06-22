@@ -15,6 +15,7 @@ done/changed'')
 2) The original individual files are listed here, along with the those with revised definitions, examples and preliminary hierarchy:
 
 {| border="1"
+
 |+ '''Latest Branch Terms'''
 ! Terms to be befined !! Working versions !! Final list of terms, definitions, examples!!
 |-
@@ -35,7 +36,7 @@ done/changed'')
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07_SAS.xls SAS defined/hierarchy ]
 |
 |}
-
+<br>
 3) The dispatcher files is available as a Google Spreadsheet; here below we keep track of responsabilities and the status 
 
 {| border="1"
