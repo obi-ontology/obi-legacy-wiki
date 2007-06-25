@@ -1,0 +1,80 @@
+== Plan Conference Calls==
+Details of the conference calls including minutes and outcomes such as up to date term lists can be found here.
+
+[[PlanBranch|<<Back to Plan Branch]]
+----
+
+===May 21, 2007===
+
+'''Pre-Call Terms List'''
+[https://www.ebi.ac.uk/~rocca/temp/OBI-PLAN-Terms-candidates-ante-21052007.xls can be found here]
+
+'''Post-Call Terms List'''
+
+
+----
+
+===May 14, 2007===
+
+Outcomes:
+
+1. We discussed OBI and CTO interrelation and asked for a comment on this at the dev call when CTO get through their workshop.<br>
+2. We reviewed some of Kevin's terms which are more granular than those we have looked at so far. These fall between protocol and protocol application and we decided to refer back to the dev call for a boundary clarification
+AA: Kevin's defs need to be added back in. Suggestion to use on of these as an example<br>
+3. HP will take the MO terms from the current sheet, redefine and feed back   (not by 21st as will be away)<br>
+4. We decided that we need to review the current terms, agree and define/deal with hierarchy asap to meet June 1 deadline and that splitting the work might help.<br>
+
+----
+
+===April 23, 2007===
+
+'''Pre-Call Terms List'''
+Upload:OBI-PLAN-Terms-candidates-ante-23042007.xls
+
+'''Post-Call Terms List'''
+Upload:OBI-PLAN-Terms-candidates-post-23042007.xls
+
+
+Note about the file:
+-inclusion of Study terms from the SNP community (Tina)
+-inclusion of Study terms related to Clinical trials (Philippe)
+-inclusion of Study terms related to Processes attached to Study (Philippe)
+-inclusion of Study terms related to Study population qualifiers (Philippe)
+-inclusion of Experiment_design terms (Kevin)
+
+Additional information from Ryan Brinkman: a list of mathematical function
+https://www.cbil.upenn.edu/obiwiki/uploads/GenericallyDepCont_to-Plan-FlowCytometry-reorg.txt
+
+[[ PlanTermNeedsCalls/23_Apr_07|Minutes from the 23 April Call]]
+
+----
+
+===Mar 20, 2007===
+
+'''Pre-Call Terms List'''  
+Upload:OBI-PLAN-Terms-candidates-ante-200307.xls
+
+'''Post-Call Terms List'''
+Upload:OBI-PLAN-Terms-candidates-post-200307.xls
+
+
+Present: Susanna, Philippe, Trish, Helen
+
+SUMMARY
+- Update from Philippe regarding the undergoing discussion in the Protocol-Application Branch
+- As the previous call, the focus was (only) to sort terms for their relevance to this branch, and we completed the first available list of terms
+- We worked on MO terms, Protocol terms from MO and PSI terms
+- Philippe to add terms related to the notion of study and design
+
+Next call ('''NOTE''' that Susanna, Helen and Philippe cannot attend====-> need to identify how can attend and hold the call), items
+
+- Review remaining terms Tina
+
+
+[[PlanTermNeedsCalls/20_Mar_07| Minutes from the 20 March Call]]
+
+----
+
+==Related Links==
+
+*[https://www.cbil.upenn.edu/obiwiki/index.php/GoogleCal OBI Conference Calls Agenda]
