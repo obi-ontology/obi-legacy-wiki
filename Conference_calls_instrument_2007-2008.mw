@@ -1,5 +1,16 @@
 ====Summary of the Instrument Branch Conference Calls====
 
+* 26June2007
+** Agenda:
+*** Try out the branch loading instructions as posted on https://svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/instructions-svn-local.txt 
+****(try to open the InstrumentAndPart.owl file (loading imports from local svn-folder) via the OBI.pprj file)
+*** Discuss the current instrument upper level, identify glitches
+*** Add intermediate classes
+*** Identify instrument-branch presenter for OBI WS.
+*** Discuss the term artefact
+*** Add intermediate classes
+**[[InstrumentMinutes26June2007|Minutes]]
+
 * 19June2007
 ** Agenda:
 *** Review latest OWL File for hierarchy
