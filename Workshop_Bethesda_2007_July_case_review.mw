@@ -7,12 +7,12 @@ This page provides a general outline of the Use Cases we'd like to review at the
 
 === Use Case Definitions ===
 
-?
+
 
 === General Use Case Hierarchy ===
 * Use of OBI within other ontologies
-** [[http://www.obofoundry.org/cgi-bin/detail.cgi?id=nmr|NMR Instruments]] (for metabolomics investigation)
-** [[http://purl.org/nbirn/birnlex/support|BIRNLex]] - from BIRN
+** [[http://www.obofoundry.org/cgi-bin/detail.cgi?id=nmr |NMR Instruments]] (for metabolomics investigation)
+** [[http://purl.org/nbirn/birnlex/support |BIRNLex]] - from BIRN
 * Representation of biomedical investigation instances - experiment provenance - referencing OBI elements
 ** Representation of biomedical investigation instances using current formats (XML Schemas, flat file formats, etc.) designed by specific communities for export/exchange of provenance data
 *** gene expression studies
