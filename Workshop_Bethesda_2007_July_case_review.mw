@@ -19,7 +19,7 @@ This page provides a general outline of the Use Cases we'd like to review at the
 **** [[http://fuge.sourceforge.net FuGE]]
 **** [[http://www.mged.org/Workgroups/MAGE/mage.html MicroArray and Gene Expression (MAGE)]]
 ***** [[http://www.mged.org/Workgroups/MAGE/mage-ml.html v1.1]]
-***** [[http://www.mged.org/Workgroups/MAGE/magev2.html v2.0 (layered on top of FuGE)]]
+***** [[http://www.mged.org/Workgroups/MAGE/magev2.html v2.0]] (layered on top of FuGE)
 *** bioimaging studies
 **** [[http://www.nbirn.net/downloads/xcede/index.shtm XML-based Clinical Experiment Data Exchange Schema (XCEDE)]] (from BIRN)
 **** [[http://medical.nema.org Digital Imaging and Communications in Medicine (DICOM)]]
