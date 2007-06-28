@@ -15,26 +15,25 @@ done/changed'')
 2) The original individual files are listed here, along with the those with revised definitions, examples and preliminary hierarchy:
 
 {| border="1"
-
 |+ '''Latest Branch Terms'''
-! Terms to be befined !! Working versions !! Final list of terms, definitions, examples!!
+! Terms to be befined !! Working versions !! Final list of terms, definitions, examples/children!!
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June07.xls Post 1 June 2007 - GROUP 1 AR BP]
-| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June08_AR_BP.xls AR and BP defined]
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June08_AR_BP.xls AR and BP working version]
 |
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G2_post_01June07.xls Post 1 June 2007 - GROUP 2 TB HP PRS]
-| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G2_post_01June07_HP_TB_PRS.xls  HP, TB and PRS defined]
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G2_post_01June07_HP_TB_PRS.xls  HP, TB and PRS working version]
 |
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G3_post_01June07.xls Post 1 June 2007 - GROUP 3 JF]
-| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G3_post_01June07_JF.xls  JF defined]
-| 
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G3_post_01June07_JF.xls  JF working version]
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G3_post_01June07_JF.xls  JF final]
 | 
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07.xls Post 1 June 2007 - GROUP 4 SAS]
-| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07_SAS.xls SAS defined]
-|
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07_SAS.xls SAS working version]
+| [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_final_terms_SAS.xls SAS final]
 |}
 <br>
 3) The dispatcher files is available as a [http://docs.google.com/ Google Spreadsheet dispatcher-from-biomaterial]; here below we keep track of responsabilities and the status 
