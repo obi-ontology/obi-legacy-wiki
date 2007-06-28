@@ -1,17 +1,12 @@
-
 === Naming Conventions Document
 ===
-A '''Naming conventions for use in controlled vocabulary and ontology engineering''' is being developed by the Metabolomics Standards Society - Ontology Working Group. It is intended to cover the needs of the following groups:
+A guidance document entitled '''Towards naming conventions for use in controlled vocabulary and ontology engineering''' has been developed by the Metabolomics Standards Society - Ontology Working Group, in collaboration with the OBO-Foundry. Initially it intended to cover the needs of the following groups:
 * Metabolomics Standards Initioative (MSI)
 * Proteomics Standards Initiative (PSI)
 * Ontology of Biomedical Investigations (OBI)
+Ultimately we hope that in its final form these naming conventions will be widely endorsed by larger umbrella organizations and recognized authorities, becoming part of OBO Foundry best practice design principles. Currently a questionaire is prepared to evaluate what conventions were used by OBO Foundry ontologies so far.
 
-
-These recommendations and best practices can be downloaded from http://msi-ontology.sourceforge.net/recommendations/  under the name  <<NCstrawmanv1.doc>>
-
-A revised (re-written and shorter) version of the draft, currently on the website, has been accepted for presentation at the upcoming Bio-Ontology SIG at ISMB. This means that this paper will be published in the conference proceedings and on the SIG website. Hence, it will be possible to reference to it (and this will replace the current version). A link will be provided here soon.
-
-Ultimately we hope that in its final form these naming conventions will be widely endorsed by larger umbrella organizations and recognized authorities such as OBO, becoming part of best practice design principles akin to those endorsed by the OBO Foundry.
+These recommendations and best practices have been published in the conference proceedings and on the website of the Bio-Ontology SIG at ISMB 2007 http://bio-ontologies.org.uk/download/Bio-Ontologies2007.pdf and can be downloaded from http://msi-ontology.sourceforge.net/namingconventions/  under the name  <<Naming_Conventions_for_Ontologies_BioOntSIG07.doc>>
 
   * Comments on this document can be sent to schober [[at]] ebi.ac.uk directly or to the OBI developers mailing lists.
 
