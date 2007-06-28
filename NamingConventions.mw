@@ -15,8 +15,9 @@ Initial recommendations and best practices have been published in the conference
 
   * Comments on this document can be sent to schober [[at]] ebi.ac.uk directly or to the OBI developers mailing lists.
 
-==== Current Policy of using a formal numeric identifier for the value of the rdf:ID field
-====
+
+'''Current Policy of using a formal numeric identifier for the value of the rdf:ID field'''
+
 (naming differences, eg. spaces vs. underscores, can be dealt with by terms having the same rdf:ID)
 
   * There has been discussion as to the user-friendly nature of a numeric term identifer in the rdf:ID field of the OWL file. Here we list the known advantages and disadvantages of this development policy.
