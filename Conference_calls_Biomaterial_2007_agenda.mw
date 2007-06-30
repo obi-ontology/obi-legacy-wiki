@@ -36,6 +36,8 @@ done/changed'')
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07_SAS.xls SAS working version]
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_final_terms_SAS.xls SAS final]
 |}
+<br/>
+Term list which will be moved into OWL file: https://wiki.cbil.upenn.edu/obiwiki/images/e/e5/Biobranch_Combined.xls 
 <br>
 3) The dispatcher files is available as a [http://docs.google.com/ Google Spreadsheet dispatcher-from-biomaterial]; here below we keep track of responsabilities and the status 
 
@@ -124,7 +126,6 @@ done/changed'')
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_13April07_SAS.xls Ante 13th Apr 2007 call]: 
 
 1) terms by Ryan (flow cytometry) added; <br>
-
 2) sheet cleaned up (edited by Susanna)
 
 == 23 March, 2007 ==
@@ -142,12 +143,12 @@ done/changed'')
 2) some terms have been moved to the worksheet contaning terms for others branches or to be submitted to other ontologies  (edited by Susanna)
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_16March07_LM.xls Ante 16th Mar 2007 call]: <br>
+
 1) discussed PSI ion terms with Trish, Puneet, Helen, Susanna and Daniel and decided to point to PSI for these (then PSI will cross ref with PATO or ChEBI) (edited by Luisa)
 
 == 9 March, 2007 ==
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_post_9March07_PRS_SAS.xls Post 9th Mar 2007 call] <br>
-
 1)added a column with comments made during the call; <br> 
 2) some related terms have been grouped for further discussions (duplicated terms are still there, to keep track of the needs expressed by more than one community); <br>
 3) in black bold face, those areas requiring additional discussion; <br>
@@ -155,7 +156,6 @@ done/changed'')
 2) all entries to be moved to others branches or submitted to other ontologies have been moved in a different worksheet (edited by Philippe) <br>
 
 [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_ante_9March07_SAS_PRS.xls Ante 9th Mar 2007 call]: <br>
-
 Worksheets added, terms sorted by relevance to this branch (edited by Philippe, Susanna)
 
 == 2 March, 2007 ==
