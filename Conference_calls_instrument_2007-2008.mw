@@ -2,10 +2,11 @@
 
 * 3July2007
 ** Agenda:
-*** Everyone should svn checkout (and learn to work with) the updated branched OBI.owl (see https://svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/instructions-svn-local.txt  )
-*** Discuss the questionable classes (marked wit a "?" prefix) and corresponding editor_notes
+*** Everyone should svn checkout (and learn to work with) the updated branched OBI.owl (see https://svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/instructions-svn-local.txt  ).
+*** Discuss the questionable classes (marked wit a "?" prefix) and corresponding editor_notes.
 *** Identify instrument-branch presenter for OBI WS.
-*** Discuss the term artefact, instrument and device definitions
+*** Discuss the term artefact, instrument and device definitions.
+*** Discuss the flow_cytometer functions and possible ways to categorize flow_cytometers accordingly.
 **[[InstrumentMinutes3July2007|Minutes]]
 
 * 26June2007
