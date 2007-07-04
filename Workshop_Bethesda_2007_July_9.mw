@@ -166,7 +166,7 @@ PM
 #Change of annotation properties from type DatatypeAnnotationProperty to AnnotationProperty
 #:-this item is prompted by the change to the OWL files by Alan that subsequently broke the batch term loading code, tsk, tsk
 #Change of annotation property curation_status from no longer being an enumerated list
-#:-this item is prompted by a change made to the OWL files by Alan that appears to be contrary to the last discussion on the implementation of this as described on the MinimalMetadata wiki
+#:-this item is prompted by a change made to the OWL files by Alan that appears to be contrary to the last discussion on the implementation of this as described on the MinimalMetadata wiki, tsk, tsk
 #Including property rdfs:label as well as preferred_term property
 #:-this is prompted by the unresolved discussion on this item and the fact that the batch term loading code is adding this as coded by Trish, tsk, tsk
 
