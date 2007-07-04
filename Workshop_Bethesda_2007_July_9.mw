@@ -161,7 +161,7 @@ PM
 ----
 
 
-==Unresolved Issues==
+==Possible Issues To Discuss==
 *Issues with Metadata Property Implementation Changes - due to changes for New SVN Branch set-up or Batch Term loading code
 #Change of annotation properties from type DatatypeAnnotationProperty to AnnotationProperty
 #:-this item is prompted by the change to the OWL files by Alan that subsequently broke the batch term loading code, tsk, tsk
