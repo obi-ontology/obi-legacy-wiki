@@ -1,8 +1,14 @@
 ===Branch Editors===
 * Ryan, Liju, Frank, Allyson, Trish, Daniel Schober (branch leader)
 
-===Instrument Conference Call Notes===
+===Instrument Conference Calls and Notes===
+Conference call schedule, agenda and minutes for the calls can be found under:
 https://wiki.cbil.upenn.edu/obiwiki/index.php/InstrumentTermCalls
+
+===Latest used class ID (lastac for AutoID Plugin)===
+* The latest ID seed can be found in the default.properties file that, after adding classes to the instruments owl file, needs to be updated:
+
+https://svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/lastac_autoID/default.properties.InstrumentAndPart
 
 ===Latest Branch report===
 http://www.ebi.ac.uk/~malone/OBI/instrument_branch/Instrument_Branch_Report_070606.doc
@@ -35,8 +41,6 @@ https://wiki.cbil.upenn.edu/obiwiki/index.php/Special:Upload
 * Here is an initial [[ [[InstrumentRelations]]|instrument relations list |]].
 * Put your list here. A merged master list will be created.
 
-===Conference Call Schedule===
-* See [[ [[InstrumentTermCalls]]|Instrument Branch Conference Calls |]] for conference call schedule, agenda and a link to minutes for the call
 
 ===Issues to Discuss===
 * To start some discussion, here are some [[ [[InstrumentIssues]]|Instrument related issues |]] to think about, e.g. what are synonyms to important instrument branch classes
