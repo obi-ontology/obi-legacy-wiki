@@ -161,7 +161,7 @@ PM
 ----
 
 
-==List of Issues to Discuss==
+==Unresolved Issues==
 # Issues with Metadata Property Implementation
 ## Change of annotation properties from type DatatypeAnnotationProperty to AnnotationProperty
 ### this item is prompted by the change that Alan made to the OWL files that subsequently broke the batch term loading code, tsk, tsk
