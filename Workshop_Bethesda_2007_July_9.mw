@@ -177,6 +177,7 @@ PM
 *Modeling Issues
 #How to use the reasoner to generate multiple inheritance that is acceptable?
 #Resolve how Company, Manufacturer names used as RU's will be represented
+- Note: there are many ontologies which have tried to represent, companies and organisations. An example is [http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=SEP sepCV] , loosely based on SUMO
 
 *Community Usage of OBI
 
@@ -184,3 +185,6 @@ PM
 #example
 I have issue with the use of example being mandatory, it is my understanding that that a decsion of a "filler" should be added if they could not come up with an example". This makes no sense to me. It is either mandatory and required, or optional and not required. It is not good practice to bypass it with a null value.
 However the major issue is that very few, if any currently existing ontologies have examples. None of the PSI CVs do. You will not get anyone to systematically provide examples for 5000-odd terms in the PSI CVs. By making "example" mandatory you will exclude these resources and narrow your user base.
+
+*Branch development
+# A spell-checker should be used on the branch files, prior to SVN check-in
