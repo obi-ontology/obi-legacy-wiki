@@ -165,6 +165,8 @@ PM
 
 *General Housekeeping
 # It would be useful if the major decsions and discussion points were recorded, with their justification, and published so those unable to attend the meeting can keep up to date.
+# Discussion of Trish's proposed SOP document, including the importance of running reasoners from an early stage 
+# High-level discussion of how the various OBI owl file(s) will look once mature (Matt can provide a document on the wiki that I can go through at the meeting).
 
 *Issues with Metadata Property Implementation Changes - due to changes for New SVN Branch set-up or Batch Term loading code
 #Change of annotation properties from type DatatypeAnnotationProperty to AnnotationProperty
@@ -190,3 +192,4 @@ PM
 #A spell-checker should be used on the branch files, prior to SVN check-in
 #The definition_source values need to be checked to see if they are in the format requested on [[MinimalMetadata]]
 -to me the word definition is confusing. An RU definition in the OWL world is the natural language definition the labels and the relations. My preference would be to use an annotation property called "description_source" to account for the Natural language description for a RU
+#The curation_status flag, and using it in relations. I would like ask the relations branch to make use of the curation status flags on their relations, so we other branch users know when relations are stable or not.
