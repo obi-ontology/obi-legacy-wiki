@@ -184,7 +184,7 @@ PM
 *Metadata
 #example
 #:I have issue with the use of example being mandatory, it is my understanding that that a decsion of a "filler" should be added if they could not come up with an example". This makes no sense to me. It is either mandatory and required, or optional and not required. It is not good practice to bypass it with a null value.
-However the major issue is that very few, if any currently existing ontologies have examples. None of the PSI CVs do. You will not get anyone to systematically provide examples for 5000-odd terms in the PSI CVs. By making "example" mandatory you will exclude these resources and narrow your user base.
+#:However the major issue is that very few, if any currently existing ontologies have examples. None of the PSI CVs do. You will not get anyone to systematically provide examples for 5000-odd terms in the PSI CVs. By making "example" mandatory you will exclude these resources and narrow your user base.
 
 *Branch development/Ontology QA
 #A spell-checker should be used on the branch files, prior to SVN check-in
