@@ -189,7 +189,7 @@ PM
 #:However the major issue is that very few, if any currently existing ontologies have examples. None of the PSI CVs do. You will not get anyone to systematically provide examples for 5000-odd terms in the PSI CVs. By making "example" mandatory you will exclude these resources and narrow your user base.
 
 *Branch development/Ontology QA
+#The curation_status flag, and using it in relations. I would like ask the relations branch to make use of the curation status flags on their relations, so we other branch users know when relations are stable or not.
 #A spell-checker should be used on the branch files, prior to SVN check-in
 #The definition_source values need to be checked to see if they are in the format requested on [[MinimalMetadata]]
 -to me the word definition is confusing. An RU definition in the OWL world is the natural language definition the labels and the relations. My preference would be to use an annotation property called "description_source" to account for the Natural language description for a RU
-#The curation_status flag, and using it in relations. I would like ask the relations branch to make use of the curation status flags on their relations, so we other branch users know when relations are stable or not.
