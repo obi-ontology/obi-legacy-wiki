@@ -189,3 +189,4 @@ PM
 *Branch development/Ontology QA
 #A spell-checker should be used on the branch files, prior to SVN check-in
 #The definition_source values need to be checked to see if they are in the format requested on [[MinimalMetadata]]
+-to me the word definition is confusing. An RU definition in the OWL world is the natural language definition the labels and the relations. My preference would be to use an annotation property called "description_source" to account for the Natural language description for a RU
