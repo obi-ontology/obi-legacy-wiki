@@ -162,6 +162,10 @@ PM
 
 
 ==Possible Issues To Discuss==
+
+*General Housekeeping
+# It would be useful if the major decsions and discussion points were recorded, with their justification, and published so those unable to attend the meeting can keep up to date.
+
 *Issues with Metadata Property Implementation Changes - due to changes for New SVN Branch set-up or Batch Term loading code
 #Change of annotation properties from type DatatypeAnnotationProperty to AnnotationProperty
 #:-this item is prompted by the change to the OWL files by Alan that subsequently broke the batch term loading code, tsk, tsk
@@ -175,3 +179,8 @@ PM
 #Resolve how Company, Manufacturer names used as RU's will be represented
 
 *Community Usage of OBI
+
+*Metadata
+#example
+I have issue with the use of example being mandatory, it is my understanding that that a decsion of a "filler" should be added if they could not come up with an example". This makes no sense to me. It is either mandatory and required, or optional and not required. It is not good practice to bypass it with a null value.
+However the major issue is that very few, if any currently existing ontologies have examples. None of the PSI CVs do. You will not get anyone to systematically provide examples for 5000-odd terms in the PSI CVs. By making "example" mandatory you will exclude these resources and narrow your user base.
