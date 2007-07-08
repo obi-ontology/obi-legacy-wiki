@@ -116,22 +116,23 @@
 '''Monday'''
 
 AM
+* ''Natcher Conference Room D''
 * Meeting with NIH Program Directors
-** 10:00 AM - 10:10 AM - Welcome
-*** ''Chris Stoeckert''
-*** Point of meeting
-*** Topics to be covered Monday AM
+* 10:00 AM - 10:10 AM - Welcome
+** ''Chris Stoeckert''
+** Point of meeting
+** Topics to be covered Monday AM
 ** 10:10 AM - 10:40 AM - Overview of the Ontology of Biomedical Investigation (OBI)
-*** ''Bill Bug''
-*** What is OBI, who is involved, how is it being developed, etc.
-** 10:40 AM - 11:00 AM - Discussion
-*** Are there other communities efforts that should be involved in OBI?
-** 11:00 - 11:40 AM - How does OBI relate to other standards efforts?
-*** ''Chris Stoeckert''
-**** [http://www.mged.org/ The Microarray Gene Expression Data (MGED) Society]
-**** [http://fuge.sourceforge.net/ Functional Genomics Expression (FuGE) Schema]
-*** ''Susanna-Assunta Sansone''
-**** [http://mibbi.sourceforge.net/ Minimal Information for Biological and Biomedical Investigations (MIBBI)] 
+** ''Bill Bug''
+** What is OBI, who is involved, how is it being developed, etc.
+* 10:40 AM - 11:00 AM - Discussion
+** Are there other communities efforts that should be involved in OBI?
+* 11:00 - 11:40 AM - How does OBI relate to other standards efforts?
+** ''Chris Stoeckert''
+*** [http://www.mged.org/ The Microarray Gene Expression Data (MGED) Society]
+*** [http://fuge.sourceforge.net/ Functional Genomics Expression (FuGE) Schema]
+** ''Susanna-Assunta Sansone''
+*** [http://mibbi.sourceforge.net/ Minimal Information for Biological and Biomedical Investigations (MIBBI)] 
 
 
 PM
