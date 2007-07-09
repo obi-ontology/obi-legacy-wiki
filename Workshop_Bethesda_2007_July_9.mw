@@ -1,8 +1,8 @@
 == Location: Natcher Conference Center==
 * The Workshop will be held at the Natcher Conference center.
 <pre>
-      Room D 	   Monday, July 9
-      Room F1/F2   Tuesday, July 10 - Friday July 13
+      Delegate Room D 	   Monday, July 9
+      Conference Room F1/F2   Tuesday, July 10 - Friday July 13
 </pre>
 
 ===General Information===
@@ -10,113 +10,18 @@
 * [http://www.wmata.com/metrorail/systemmap.cfm Metrorail system map]
 * [http://www.downtownbethesda.com/index.php Bethesda Guide]
 
-
 ===Security===
 * The NIH has recently instituted new security measures. All visitors entering the NIH campus must show government-issued photo ID and be prepared to have their personal belongings inspected. Please visit the [http://www.nih.gov/about/visitorsecurity.htm NIH Visitors and Security page] for more information.
 
 ===Parking===
 * Visitor parking is very limited but if you must drive, short-term metered parking may be available near the Natcher Conference Center in Lot B. Please visit the [http://parking.nih.gov/visitor_access_map.htm NIH Campus Parking Visitor Map] to see the location of visitor parking areas.
 
-===Bethesda Court Hotel===
-* We have negotiated a special rate of $149.00/night with the [http://www.bethesdacourtwashdc.com Bethesda Court Hotel] in downtown Bethesda. The rate includes continental breakfast and wireless internet, as described on their [http://www.bethesdacourtwashdc.com/amenities_&_services.cfm ''Accommodations'' web page].
-
-* We will need to do a rooming list with the hotel, and to ensure availability of rooms the hotel needs an accurate number of participants by COB Friday May 11th. Please enter your name, e-mail, and check in/out dates here if you want to be included in the group reservation.
-
-====Interest in Bethesda Court Hotel====
-{| border="1" cellpadding="2" style="background:white; color:black"
-!width="50"|BioMaterial Entity
-!width="225"|Email
-!width="225"|Check-in Date
-!width="225"|Check-out Date
-|-
-| Chris Stoeckert || stoeckrt''at''pcbi.upenn.edu || July 9 || July 13 
-|-
-| Susanna Sansone || sansone''at''ebi.ac.uk || July 7 || July 13
-|-
-| Philippe Rocca-Serra || rocca''at''ebi.ac.uk || July 7 || July 13
-|-
-| Richard Scheuermann || richard.scheuermann''at''utsouthwestern.edu || July 9 || July 13
-|-
-| Barry Smith || phismith''at''buffalo.edu || July 9 || July 11
-|-
-| Jennifer Fostel || fostel''at''niehs.nih.gov || July 9 || July 13
-|-
-| Bjoern Peters || bpeters''at''liai.org || July 11 || July 13
-|-
-| James Malone || malone''at''ebi.ac.uk || July 7 || July 13
-|-
-| Helen Parkinson || parkinson''at''ebi.ac.uk || July 7 || July 13 
-|-
-| Tina Boussard || boussard''at''stanford.edu || July 8 || July 11
-|-
-| Bill Bug || William.Bug''at''drexelmed.edu || July 8 || July 10
-|-
-| Jeffrey Grethe || jgrethe''at''ncmir.ucsd.edu || July 8 || 
-|-
-| Sherri de Coronado || decorons''at''mail.nih.gov || July 8 || July 11
-|}
-<br>
-
-== List of Participants==
-{| border="1" cellpadding="2" style="background:white; color:black"
-!width="50"|Name
-!width="225"|Organization
-!width="225"|Phone
-!width="225"|Email
-!width="225"|Set-up wireless account
-|-
-| Chris Stoeckert || University of Pennsylvania || 215-573-4409 || stoeckrt''at''pcbi.upenn.edu || Yes
-|-
-| Susanna Sansone || European Bioinformatics Institute || || sansone''at''ebi.ac.uk || Yes
-|-
-| Philippe Rocca-Serra || European Bioinformatics Institute || || rocca''at''ebi.ac.uk || Yes
-|-
-| Richard Scheuermann || UT Southwestern || || richard.scheuermann''at''utsouthwestern.edu || Yes
-|-
-| Barry Smith || University of Buffalo || || phismith''at''buffalo.edu || Yes
-|-
-| Jennifer Fostel || NIEHS/NIH || || fostel''at''mail.nih.gov || Yes?
-|-
-| Bjoern Peters || La Jolla Institute for Allergy and Immunology || || bpeters''at''liai.org || Yes
-|-
-| James Malone || European Bioinformatics Institute || +44 1223 494676 || malone''at''ebi.ac.uk || Yes
-|-
-| Helen Parkinson || European Bioinformatics Institute ||+44 1223 494672 || parkinson''at''ebi.ac.uk || Yes
-|-
-| Tina Boussard || Stanford University || || boussard''at''stanford.edu || Yes
-|-
-| Bill Bug || Drexel University || 215 991 8430 || William.Bug''at''drexelmed.edu || Yes
-|-
-| Jeffrey Grethe || UCSD || || jgrethe''at''ncmir.ucsd.edu || Yes
-|-
-| Sherri de Coronado || NCI || || decorons''at''mail.nih.gov || No
-|-
-| Frank Hartel || NCI || 301-435 3869 || hartel''at''mail.nih.gov || No
-|-
-| Gilberto Fragoso || NCI || 301-451 6344 || fragosog''at''mail.nih.gov || No
-|-
-| Mervi Heiskanen || NCI || 301-451 6369 || heiskame''at''mail.nih.gov || No
-|-
-| Allyson Lister || CISBAN, Newcastle University || (country code 44) 191 222 7367 || a.l.lister''at''ncl.ac.uk || Yes
-|-
-| Randi Vita || La Jolla Institute for Allergy & Immunology || 858-273-3662 || rvita''at''liai.org || Yes
-|-
-| Liju Fan || Ontology Workshop, LLC || 443-745-7412 || liju.fan''at''gmail.com || Yes
-|-
-| Suzi Lewis || UC Berkeley || 510-486-7508 || suzi''at''berkeleybop.org || Yes
-|-
-| Alan Ruttenberg || Science Commons || || alanruttenberg ''at'' gmail.com || Yes
-|-
-| Kevin Clancy|| Invitrogen Corp || 240-417-8604 || kevin.clancy ''at'' invitrogen.com || Yes
-|}
-
-<br>
 ==Draft Agenda==
 
 '''Monday'''
 
 AM
-* ''Natcher Conference Room D''
+* Location: ''Natcher Delegate Room D''
 * Meeting with NIH Program Directors
 * 10:00 AM - 10:10 AM - Welcome
 ** ''Chris Stoeckert''
@@ -145,6 +50,7 @@ PM
 ----
 
 '''Tuesday - Thursday'''
+Location: ''Natcher Conference Room F1/F2''
 
 * Vocabulary development; time allocated for other items (below)
 
@@ -214,3 +120,98 @@ PM
 #A spell-checker should be used on the branch files, prior to SVN check-in
 #The definition_source values need to be checked to see if they are in the format requested on [[MinimalMetadata]]
 -to me the word definition is confusing. An RU definition in the OWL world is the natural language definition the labels and the relations. My preference would be to use an annotation property called "description_source" to account for the Natural language description for a RU
+
+== List of Participants==
+{| border="1" cellpadding="2" style="background:white; color:black"
+!width="50"|Name
+!width="225"|Organization
+!width="225"|Phone
+!width="225"|Email
+!width="225"|Set-up wireless account
+|-
+| Chris Stoeckert || University of Pennsylvania || 215-573-4409 || stoeckrt''at''pcbi.upenn.edu || Yes
+|-
+| Susanna Sansone || European Bioinformatics Institute || || sansone''at''ebi.ac.uk || Yes
+|-
+| Philippe Rocca-Serra || European Bioinformatics Institute || || rocca''at''ebi.ac.uk || Yes
+|-
+| Richard Scheuermann || UT Southwestern || || richard.scheuermann''at''utsouthwestern.edu || Yes
+|-
+| Barry Smith || University of Buffalo || || phismith''at''buffalo.edu || Yes
+|-
+| Jennifer Fostel || NIEHS/NIH || || fostel''at''mail.nih.gov || Yes?
+|-
+| Bjoern Peters || La Jolla Institute for Allergy and Immunology || || bpeters''at''liai.org || Yes
+|-
+| James Malone || European Bioinformatics Institute || +44 1223 494676 || malone''at''ebi.ac.uk || Yes
+|-
+| Helen Parkinson || European Bioinformatics Institute ||+44 1223 494672 || parkinson''at''ebi.ac.uk || Yes
+|-
+| Tina Boussard || Stanford University || || boussard''at''stanford.edu || Yes
+|-
+| Bill Bug || Drexel University || 215 991 8430 || William.Bug''at''drexelmed.edu || Yes
+|-
+| Jeffrey Grethe || UCSD || || jgrethe''at''ncmir.ucsd.edu || Yes
+|-
+| Sherri de Coronado || NCI || || decorons''at''mail.nih.gov || No
+|-
+| Frank Hartel || NCI || 301-435 3869 || hartel''at''mail.nih.gov || No
+|-
+| Gilberto Fragoso || NCI || 301-451 6344 || fragosog''at''mail.nih.gov || No
+|-
+| Mervi Heiskanen || NCI || 301-451 6369 || heiskame''at''mail.nih.gov || No
+|-
+| Allyson Lister || CISBAN, Newcastle University || (country code 44) 191 222 7367 || a.l.lister''at''ncl.ac.uk || Yes
+|-
+| Randi Vita || La Jolla Institute for Allergy & Immunology || 858-273-3662 || rvita''at''liai.org || Yes
+|-
+| Liju Fan || Ontology Workshop, LLC || 443-745-7412 || liju.fan''at''gmail.com || Yes
+|-
+| Suzi Lewis || UC Berkeley || 510-486-7508 || suzi''at''berkeleybop.org || Yes
+|-
+| Alan Ruttenberg || Science Commons || || alanruttenberg ''at'' gmail.com || Yes
+|-
+| Kevin Clancy|| Invitrogen Corp || 240-417-8604 || kevin.clancy ''at'' invitrogen.com || Yes
+|}
+
+<br>
+
+===Bethesda Court Hotel===
+* We have negotiated a special rate of $149.00/night with the [http://www.bethesdacourtwashdc.com Bethesda Court Hotel] in downtown Bethesda. The rate includes continental breakfast and wireless internet, as described on their [http://www.bethesdacourtwashdc.com/amenities_&_services.cfm ''Accommodations'' web page].
+
+* We will need to do a rooming list with the hotel, and to ensure availability of rooms the hotel needs an accurate number of participants by COB Friday May 11th. Please enter your name, e-mail, and check in/out dates here if you want to be included in the group reservation.
+
+====Interest in Bethesda Court Hotel====
+{| border="1" cellpadding="2" style="background:white; color:black"
+!width="50"|BioMaterial Entity
+!width="225"|Email
+!width="225"|Check-in Date
+!width="225"|Check-out Date
+|-
+| Chris Stoeckert || stoeckrt''at''pcbi.upenn.edu || July 9 || July 13 
+|-
+| Susanna Sansone || sansone''at''ebi.ac.uk || July 7 || July 13
+|-
+| Philippe Rocca-Serra || rocca''at''ebi.ac.uk || July 7 || July 13
+|-
+| Richard Scheuermann || richard.scheuermann''at''utsouthwestern.edu || July 9 || July 13
+|-
+| Barry Smith || phismith''at''buffalo.edu || July 9 || July 11
+|-
+| Jennifer Fostel || fostel''at''niehs.nih.gov || July 9 || July 13
+|-
+| Bjoern Peters || bpeters''at''liai.org || July 11 || July 13
+|-
+| James Malone || malone''at''ebi.ac.uk || July 7 || July 13
+|-
+| Helen Parkinson || parkinson''at''ebi.ac.uk || July 7 || July 13 
+|-
+| Tina Boussard || boussard''at''stanford.edu || July 8 || July 11
+|-
+| Bill Bug || William.Bug''at''drexelmed.edu || July 8 || July 10
+|-
+| Jeffrey Grethe || jgrethe''at''ncmir.ucsd.edu || July 8 || 
+|-
+| Sherri de Coronado || decorons''at''mail.nih.gov || July 8 || July 11
+|}
+<br>
