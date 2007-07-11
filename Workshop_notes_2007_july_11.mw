@@ -121,24 +121,26 @@ BP:we can do the portion of stuff, it's straightforward if do along single count
 <b>AR generates a file based on Bjoerns ideas to be inserted here where problem cases are tested. </b>
 
 <b><pre>
-CountableObjects
+countable_objects
+ cell
  test tube
  organism
  peptide
  instrument
  heart
-PortionOfMaterial
- Isotropic
+ congenic_mouse
+portion_of_material
+ isotropic
   growth_medium
   buffer
   cell culture
- Anisotropic
+ anisotropic
    portion_of_heart_tissue
    portion_of_cell_culture
 </pre>
 </b>
 
-Problems:instrument, crystal, liquid, gas, heart portion of material, 
+Problems:instrument, crystal, liquid, gas, heart portion of material, chinese no mass nouns. 
 
 
 
