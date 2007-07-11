@@ -46,6 +46,81 @@ RS:organism is a portion of biomaterial
 CS:why 'portion of'
 BS:bad to use mass terms, hence use of portion. e.g. bad to have tissue and tooth, blood, bone, convert mass nouns to count nouns by using portion_of
 AR:does everyone get the distinction between mass and count nouns.
+BS:instruments and portions of material, are there any other objects we need, ecpsystem is on the site side. Need a term to deal with lab stuff, labware should be portion of labware
+KC:consumable?
+FG:we considered that
+BS:why can't we consider a testtube as instrument
+GF:things that do measurements vs things that are used
+BS:equipment? FG that could cover anything
+AR:if equipment and portion of biomaterial do you need anything else. E .g. Liquid chemical soln is now 'portion of material'. 
+BP:there are liquid solutions that are biomaterials, don't like this solution, Top leve would be portion of material in general, where would atom go
+BS:portion of material. OBI should avoid it's own physics, atomics, tax of organisms. Should concentrate what happens in experiments
+BP:in lab, have mass spec that uses atoms, we need this
+BP:then why is equipment is not portion of material
+BS:we define as such, equipment serves a purpose, material doesn't
+BP:liquid buffer - made for expt purposes
+AR:answer is have class of liquid non bio solution, liquid chemical soln is too broad.
+BS:single inheritance for quals says that dark red is a child of red not dark
+LF:the spectrum is continous, we decide not to go there
+RS:we want to have both instrument and biomaterial or everything else. Why do we want to describe instrument - if we determine in a way that it generates data
+C:define in terms of function
+AR:everything has a function ac to current definition
+BS:needs fixing
+BP:could have utilizes instrument, to produce outputs from inputs - doesn't apply to heart or to portion of material. Doesn't apply to heart. BP and BS agree
+CS:not clear what's driving the discussion, other than trying to come up with a way to split
+CS:current way treat objects is mess, converstion -> clarity. Frank has a point we need something other than biomaterial. Shouldnt put a special case for gels, as we would get an explosion. Gels annotate to portion of material, cow parts to portion of biomaterial
+CS:we put gels and cows under portion of material and instrument under equipment
+FG;equipment is a role, it is a device
+BS:don't like equipment? could substitute device 
+RS:distinction between natural and artefact - congenic mouse line  - is hard to make difference
+Liquid chemical solution -> portion of biomaterial
+DNA chemical solution->p o material
+BS:def of device is that we make it for a purpose
+BP:if liquid chemical soln is a buffer - is is for a purpose
+CS:are we getting hung up on labels? Device equipment - we want instruments and labware type stuff, challenge is names
+RS:need a sibling of instrument - labware/consumable under device
+BS:what are the examples?
+RS:pipette, test tube, - child of device. Consumable not a good synonym, as includes material.
+BP:test tube and buffer are better e.g.
+AR:problem with growth medium - it's a mixture - some biomaterial plus some non biomater. Ob agg also a problem
+AR:if we have liquid chem soln as a class, and child is DNA and salt in soln, DNA might be biomaterial
+BS:leather strap has a function, is a device not a biomaterial
+AL:of you chop up leather straps, then is a biomaterial. Can sintrument be a role
+BS:no, 2 kinds of things used as instruments, e.g. using Alan as a door stop
+BP:if we create one branch fr physical chem properties of matter, then soln has cells in serum will cause probs
+BS:!BJOERN BEING TOO PHILOSOPHICAL NOW! - OBI is for annotating data (pots and kettles)
+AR:all devices are man made. If use a non man made thing as an instrument this is playing a ole, not an is-a instrument
+AR:could you split all man made devices?
+BP:define what you have, can be bio or non bio. 
+AR:buffer is manmade
+BP:can define also how made it e.g. cell culture is biomaterial/material?
+BS:we need a third axis, biological_unit - include cell, organism
+BP:cell culture? BS: Is an object agregate
+BS:all in OBI will be unit instrument, parts of the unit screws in instrument, agregates -
+ platform. Material and biomaterial are non units, they are a continuum
+RS:simpler e.g. a cell can be a portion of organ, or an ob aggregate in cell culture
+BS:cells and cell cultures worth persuing the idea that these are portions of biomaterial. Organism is a portion of material.
+CS:have we made an improvement
+AR:want to work through the real world problems 
+BS:mixtures, we choose when we define portion of biomaterial. Some general dissent on this.
+RS:how define biomaterial?
+AR:something which was alive, or derived from such, or synthetically made to mimic life. 
+BP:two views in room. make h'archy for both
+GF:if we wanted to bring frank in, we have made agreement that we need to make a change, maybe Frank might like to hang up
+BP:we will promise to have some class of device.
+<b>FG:if you work out a biomaterial, rest will fall into place. If you need that word at all.</b>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
