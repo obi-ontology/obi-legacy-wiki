@@ -374,7 +374,7 @@ RS:material_treatment - e.g. with an interleukin, with another cell, would be pa
  %chromium_release_assay 
  %material_portioning
  %material_combination 
-  %cell_chromium_labeling (has_input_cell, has_input_label, has_output labelled_cell, )
+  %cell_chromium_labeling (has_input_cell, has_input_chromium_51, has_output_cell has quality some radioactive_cell)
 %roles
  %effector_role
  %chromium_release_assay_target_role
@@ -401,11 +401,11 @@ ChEBI_objects
  %filtration_device (generates no data)
 %OBI_quality (sibling of PATO quality)
  %radioactive (move to dependent.OWL)
- %!labelled (if we add this is saying same thing 2ways, is redundant. Role confer this!
+ %!labelled (if we add this is saying same thing 2ways, is redundant. Role confers this!
 
 
 </pre>
-
+<b>could have made cell labelling with has input some thing, has role label instead</b> 
 <b>AA:Alan to add Quality branch to dependent branch</b>
 
 ===8. Revisiting other agenda items suggested Monday pm.===
