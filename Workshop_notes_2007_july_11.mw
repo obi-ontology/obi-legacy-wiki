@@ -374,7 +374,7 @@ HP:request that do the most common cases first.
 
 <pre>
 %assay
-   %chromium_release_assay (has_part some cell_chromium_labelling, has_part some_cell co-coulture, has_part radioactive_detection)
+   %chromium_release_assay (assay and has_part some cell_chromium_labeling, has_part some_cell co-co-culture, has_part separation_based_on_size some has_part some radioactivity_detection)
  %material_separation (has input min only 1, has output min 2)
    %separation_based_on_quality 
      %separation_based_on_size (input some material, output_some material) 
