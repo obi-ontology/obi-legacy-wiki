@@ -183,9 +183,10 @@ Chinese has no mass nouns.
 </pre>
 </b>
 
-Conclusions: has been recorded and we will revisit, we need a use case for testing this. How will we deal with device? Suggestion to resort all OWL file based on these two things off line. And decide how to measure.
-<b>BP:We could deal with man made as a highlevel class and infer class membership at high level</b>
-BS:thinks that manmade object will not work based on experience based on man made object, doesn't want to mess up what we have on what's a bad idea. Agreement for that. Also doesn't want physical/chemical at top, as don't know an e.g, of non physical/chemical objects and therefore is redundant.
+Conclusions: 
+* We will revisit, we need a use case for testing this. How will we deal with device? Suggestion to resort all OWL file based on these two things off line. And decide how to measure.
+* BP:We could deal with man made as a high level class and infer class membership at high level</b>
+* Thinks that man-made object will not work based on experience based on man made object, doesn't want to mess up what we have on what's a bad idea. Agreement for that. Also doesn't want physical/chemical at top, as don't know an e.g, of non physical/chemical objects and therefore is redundant.
 
 
 
