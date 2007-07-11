@@ -378,7 +378,10 @@ HP:request that do the most common cases first
  %material_portioning
  %material_combination 
  %administering_material_to_cell 
-  %cell_chromium_labeling (has_input_cell, utilizes_some_reagent_chromium_51, has_output_cell has quality some radioactive_cell) *defined class, necessary and sufficient
+  %cell_chromium_labeling (has_input_cell, utilizes_some_reagent_chromium_51, 
+ %combination_of_samples
+   %cell_co-culture (has input min 2 and has input only cell culture has_output cell_culture, utilizes_instrument some incubator *also needs duration )
+has_output_cell has quality some radioactive_cell) *defined class, necessary and sufficient
 %roles
  %effector_role
  %chromium_release_assay_target_role
@@ -397,6 +400,7 @@ ChEBI_objects
 %instrument
  %gamma_counter
  %centrifuge
+ %incubator
 %labware
  %microtitre_plate
  %incubator
