@@ -7,6 +7,8 @@ Frank Gibson joins by phone
 
 <b>Problem: Consensus to avoid creating classes unless there was a need for them. Having less subclassing is helpful for annotation use case. Artefact object is not helping and there is overlap with biomaterial in the current definition. </b>
 
+====Lengthy discussion:====
+
 BS:Need a place for instruments
 AR:under object
 BS:where cardinal part of?
