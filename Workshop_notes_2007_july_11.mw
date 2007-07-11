@@ -374,10 +374,11 @@ HP:request that do the most common cases first.
 
 <pre>
 %assay
-   %chromium_release_assay (has_input some_independent_continuant, has_output some data_object is_proxy_for some quality of radioactive *defining property)
+   %chromium_release_assay (has_part some cell_chromium_labelling, has_part some_cell co-coulture, has_part radioactive_detection)
  %material_separation (has input min only 1, has output min 2)
    %separation_based_on_quality 
      %separation_based_on_size (input some material, output_some material) 
+ %radioactivity_detection (has_input some_independent_continuant, has_output some data_object is_proxy_for some quality of radioactive *defining property)
  %material_portioning
  %material_combination 
  %administering_material_to_cell 
@@ -420,6 +421,7 @@ ChEBI_objects
 <b>AA:Alan to add Quality branch to dependent branch</b>
 <b>AA:add duration to all process</b>
 <b>GF to explain to AR about assn of qualities in a class definition e.g. two out put materials have new properties</b>
+<b>BP:need a way to order e.g. has_successor
 ===8. Revisiting other agenda items suggested Monday pm.===
 
 ===9. Flagging items that are unclassified consistently===
