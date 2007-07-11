@@ -212,17 +212,13 @@ GF:I heard post coordination yesterday, this has a different meaning
 PFS:I want to do classification
 DS:There are ontology design patterns e.g. normalization. The example provided was a kind of design pattern. 
 
-
-
-
 ===3. Use of inter branch relations esp. between protocol/protocol application, clarification of scope===
 
 ===4. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.===
 
+===5. OBI only qualities - experimental only e.g. for qualities of instrument===
 
-===5. OBI only qualities - experimental only?===
-
-===6. Dealing with common object properties lot, etc that apply to instrument/material===
+===6. Dealing with common object properties lot no, etc that apply to instrument/material===
 
 ===7. Exploring granularity with worked examples e.g. ProtocolApplication===
 
@@ -230,7 +226,11 @@ DS:There are ontology design patterns e.g. normalization. The example provided w
 
 ===9. Flagging items that are unclassified consistently===
 
-===10. Once terms are submitted to external resources, e.g. PATO, CO, and included in these ontology, how do we ‘import’ subsets of external ontologies into OBI?===
+===10. Once terms are submitted to external resources, e.g. PATO, CO,how do we ‘import’ subsets of external ontologies into OBI
+
+===11. SOP for ontology development, PDF Trish sent===
+
+
 
 
 Notes by Helen Parkinson and Allyson Lister
