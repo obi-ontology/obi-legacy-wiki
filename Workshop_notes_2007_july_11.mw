@@ -366,15 +366,19 @@ Tried to make a series of components that are generic, partly suceeded.
 
 Chromium release assay (CRA) measures killing of the cell
 Mixing two types of cells is common and can be part of many things. Desired outcome would be that want to see the choices and make some decisions.
-RS:material_treatment - e.g. with an interleukin, with another cell, would be part of the CRA. We mock up parts of protocol application, excerpted below, all parents are not shown, some non local terms have been added for convenience.
+RS:material_treatment - e.g. with an interleukin, with another cell, would be part of the CRA. We mock up parts of protocol application, excerpted below from OWL file, all parents are not shown, some non local terms have been added for convenience.
 *insert image*
+GF:defining cell chromium labelling, wondering if should be defining the parent class, would we be using for annotation on admin a substance for a template on the child cell chromium labelling
+BP:good question, we have not decided. Could have higher level classes and people define their own
+HP:request that do the most common cases first
 
 <pre>
 %assay
  %chromium_release_assay 
  %material_portioning
  %material_combination 
-  %cell_chromium_labeling (has_input_cell, has_input_chromium_51, has_output_cell has quality some radioactive_cell)
+ %administering_material_to_cell 
+  %cell_chromium_labeling (has_input_cell, utilizes_some_reagent_chromium_51, has_output_cell has quality some radioactive_cell) *defined class, necessary and sufficient
 %roles
  %effector_role
  %chromium_release_assay_target_role
@@ -389,7 +393,7 @@ RS:material_treatment - e.g. with an interleukin, with another cell, would be pa
    %medium
 ChEBI_objects
    %triton_x100 (should be in ChEBI)
-   %chromium_51 (should be in ChEBI) (has_quality radioactive)
+   %chromium_51 (should be in ChEBI) (has_quality radioactive, has_reagent role (should be confered by utilizes, to be checked in OWL file)
 %instrument
  %gamma_counter
  %centrifuge
