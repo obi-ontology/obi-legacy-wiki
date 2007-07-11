@@ -374,7 +374,10 @@ HP:request that do the most common cases first
 
 <pre>
 %assay
- %chromium_release_assay 
+   %chromium_release_assay ()
+ %material_separation (has input min only 1, has output min 2 *can't say in OWL these outputs have new properties)
+   %separation_based_on_quality 
+     %separation_based_on_size (input some material, output_some material) 
  %material_portioning
  %material_combination 
  %administering_material_to_cell 
@@ -413,8 +416,9 @@ ChEBI_objects
 
 
 </pre>
-<b>could have made cell labelling with has input some thing, has role label instead</b> 
+<b>note could have made cell labelling with has input some thing, has role label instead</b> 
 <b>AA:Alan to add Quality branch to dependent branch</b>
+<b>AA:add duration to all process</b>
 
 ===8. Revisiting other agenda items suggested Monday pm.===
 
