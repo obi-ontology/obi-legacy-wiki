@@ -272,8 +272,7 @@ GF/AL:could just have an instantiation of protocol with input and output not pro
 
 AR:need in OWL need to be able to specify in a single place, and have it be propagated. 
 
-CS:would not be useful except at level of the ProtocolApplication only for my applications
- for annotation. 
+CS:would not be useful except at level of the ProtocolApplication only for my applications for annotation. 
 
 <b>Some agreement that there is a need for these 3 levels of protocol, and that input and output are at the PA level</b>
 
