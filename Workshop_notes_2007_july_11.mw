@@ -203,7 +203,10 @@ Example: placebo, case control, randomized_trial. If drug plays role of placebo,
  %portion_of_aspirin (has_role_drug)
  %portion_of_chalk (has_role placebo)
 
-%study (utilizes some portion of chemical, has role some placebo and utilizes some portion of chemical and has role some drug)
+%study (utilizes some portion of chemical, has role some placebo) 
+       (utilizes some portion of chemical and has role some drug)
+
+case_control now classified under study.
 
 %role
  %drug_role
@@ -220,6 +223,9 @@ Example: placebo, case control, randomized_trial. If drug plays role of placebo,
  %longitudinal_study
  
 </pre>
+
+
+
 ==3. Use of inter branch relations esp. between protocol/protocol application, clarification of scope==
 
 ==4. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.==
