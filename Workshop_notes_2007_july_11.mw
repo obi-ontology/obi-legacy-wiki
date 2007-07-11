@@ -400,12 +400,13 @@ ChEBI_objects
  %paper_filter 
  %filtration_device (generates no data)
 %OBI_quality (sibling of PATO quality)
- %radioactive
- %!labelled (if we add this is saying same thing mult. ways and is redundant. Role confers this!
+ %radioactive (move to dependent.OWL)
+ %!labelled (if we add this is saying same thing 2ways, is redundant. Role confer this!
 
 
 </pre>
 
+<b>AA:Alan to add Quality branch to dependent branch</b>
 
 ===8. Revisiting other agenda items suggested Monday pm.===
 
