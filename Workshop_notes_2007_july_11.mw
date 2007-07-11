@@ -1,1 +1,18 @@
-Day 3 Wednesday 11 July
+==Wednesday July 11, 2007==
+Possible agenda items:
+
+1. Inferring hierarchies worked example e.g. Instrument?
+
+2. Use of inter branch relations esp. between protocol/protocol application, clarification of scope
+
+3. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.
+
+4. OBI only qualities  - experimental only?
+
+5. Dealing with common object properties lot, etc that apply to instrument/material
+
+6. Exploring granularity with worked examples e.g. ProtocolApplication
+
+7. Revisiting other agenda items suggested Monday pm.
+
+8. artifact_object discussion - defer till Frank is available?
