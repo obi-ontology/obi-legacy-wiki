@@ -14,7 +14,7 @@ BS:where cardinal part of?
 AR:under object
 CS:we eliminated device
 BS:I want to avoid biomaterial having siblings at a lower level
-AR:I want to get rid of biomaterial and push the kids up
+  AR:I want to get rid of biomaterial and push the kids up
 RS:I don't know why instrument and biomaterial entity are at different levels
 CS:lets bring Frank up to speed. We went through instrument and id classes that were not useful. Having less subclassing is helpful for annotation use case. Artefact object is not helping and there is overlap with biomaterial in the current definition. Unless we found a driving need for a class that is organising children below, this affected artefact, device and perhaps biomaterial entity. 
 AR:Also reasoning, want there to be inferences for assertion for subclasses and if editing a paper less is more, if remove something and it's just as good, then you didn't need it
@@ -190,7 +190,7 @@ Conclusions:
 * BS thinks that man-made object will not work based on experience based on man made object, doesn't want to mess up what we have on what's a bad idea. Agreement for that. Also doesn't want physical/chemical at top, as don't know an e.g, of non physical/chemical objects and therefore is redundant.
 
 
-==Inferring hierarchies worked example from plan branch==
+==2. Inferring hierarchies worked example from plan branch==
 
 ===Discussion===
 
@@ -352,8 +352,52 @@ BF:OCI usage, we will be part like any other community, acronym is to facilitate
 
 ===7. Exploring granularity with worked examples e.g. ProtocolApplication===
 
-<b>Problem:  example from Tuesday's discussion: assay, release of chromium</b>
-[[Wiki page for this problem https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay]]:
+Chromium release assay [[https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay]]
+There could be an overarching protocolapplication, and there are clear sub protocols. There are some shared component. Same in biomaterial, you can always make things smaller dimishing returns. If leave intact then hard to classify these high level things. Do want to make them granular to do classification. Separation of material, pooling, combining, sep. materials, incubating etc. Material separation works well, pooling harder as often get a transformation. Not resolved in y'days discussion, progressed to:
+
+%material_combination
+ % admin_substance_to_cell_culture
+ % admin_substance_in_vivo
+ % material_pooling
+ % sample_treatment_with_reagent
+ % combination_of_sampling
+
+Tried to make a series of components that are generic, partly suceeded.
+
+Chromium release assay (CRA) measures killing of the cell
+Mixing two types of cells is common and can be part of many things. Desired outcome would be that want to see the choices and make some decisions.
+RS:material_treatment - e.g. with an interleukin, with another cell, would be part of the CRA. We mock up parts of protocol application, excerpted below, all parents are not shown, some non local terms have been added for convenience.
+*insert image*
+
+<pre>
+%assay
+  %chromium_release_assay 
+  %ELISA
+%roles
+ %effector_role
+ %chromium_release_assay_target_role
+ %label_role
+ %target_role
+ %input_role
+ %output_role
+%biomaterial
+ %cell
+   %cytotoxic_T_cell (should be in the CTO)
+   %EBV_transformed_cell (should be in the CTO)
+   %medium
+ChEBI_objects
+   %triton_x100 (should be in Chebi)
+%instrument
+ %gamma_counter
+ %centrifuge
+%labware
+ %microtitre_plate
+ %incubator
+ %polystyrene_tubes   
+ %paper_filter 
+
+</pre>
+
 
 ===8. Revisiting other agenda items suggested Monday pm.===
 
@@ -363,7 +407,7 @@ BF:OCI usage, we will be part like any other community, acronym is to facilitate
 
 ===11. SOP for ontology development, PDF Trish sent===
 
-===12. Suggestion to do some work on experiment design, goal, etc beginning to end example, Kevin and Alan===
+===12. suggestion to do some work on experiment design, goal, etc beginning to end example suggested by Kevin and Alan===
 
 
 
