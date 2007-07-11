@@ -197,38 +197,29 @@ Conclusions:
 
 GF: if we want an inferred hierarchy need classes that will serve as bins for these inferred classes.
 AR:these are the defined classes, all named, given a def, and inserted correctly.
-Example: placebo, case control, randomized_trial. If drug plays role of placebo, infer placebo study. Classes added in test owl file to infer placebo_study, and case_control
-<pre>
-%portion_of_chemical
- %portion_of_aspirin (has_role_drug)
- %portion_of_chalk (has_role placebo)
+Example: placebo, case control, randomized_trial. If drug plays role of placebo, infer placebo study. Classes added in test owl file to infer placebo_study, and case_control. 
+PRS:Make it clear that this is not consistent with examples.
+CS:Is a new approach for classifying and doing definitions might help.
+Add OWL file from Alan demonstrating inference for studies. Inheritance is only inferred. 
+PRS:from classification we have now I want rules to enter axioms, and how far to decompose. Is there a method to identify rules. Otherwise too empirical
+JF:empirical, but is a good thing, this will save us time.
+LF:have a lot of qualifiers, some will be common to PATO
+PRS:I asked if they were qualifiers, as they don't belong to PATO stay in OBI
+GF:mixing 2 things, this combinatorial thing of terms is mixing in something else pre vs post coordination. You need to build an application in concert with an ontology, classification will not work in this case from compound terms. 
+GF:Alan showed can build a h'archy, not build from atomic components
+BP:GF is saying that we have to know what we want, we need to know what we need to create expressions.
+GF:I heard post coordination yesterday, this has a different meaning
+PFS:I want to do classification
+DS:There are ontology design patterns e.g. normalization. The example provided was a kind of design pattern. 
 
-%study (utilizes some portion of chemical, has role some placebo) 
-       (utilizes some portion of chemical and has role some drug)
-
-case_control now classified under study.
-
-%role
- %drug_role
- %placebo_role
- %subject_role
- %control_role
-
-%Person
-%Population_of_person
-
-%defined_class_container
- %placebo_study
- %case_control_study
- %longitudinal_study
- 
-</pre>
 
 
 
 ==3. Use of inter branch relations esp. between protocol/protocol application, clarification of scope==
 
 ==4. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.==
+
+
 
 ==5. OBI only qualities  - experimental only?==
 
