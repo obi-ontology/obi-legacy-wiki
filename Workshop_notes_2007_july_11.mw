@@ -133,10 +133,23 @@ Device (all man made)
      test tube
   Instrument (all play role of Instrument ?)
      Measuring instrument
-</pre>
-Problems:
-  chemical solution (of dna versus salt), heart (has function), mixtures (some biomaterial plus material) growth medium, congenic mouse line, fluorescent antibody (device or material(Ã "easy")), object, Instrument (the role) (the class) ! <---- "The correct" cell culture is an object aggregate (BS), Organization, Buffer, "Machine" (nanotech), peptide, protein .... peptide solution, protein solution 
 
+Problems:
+  chemical solution (of dna versus salt)
+  heart (has function)
+  mixtures (some biomaterial plus material) growth medium
+  congenic mouse line
+  fluorescent antibody (device or material(Ã "easy"))
+  object
+  Instrument (the role) (the class) ! <----
+  "The correct" cell culture is an object aggregate (BS)
+  Organization
+  Buffer
+  "Machine" (nanotech)
+  peptide, protein .... peptide solution, protein solution
+
+If can say: "Give me more of it" => Material
+  But then: what about person? 
 
 <pre>
 countable_objects
