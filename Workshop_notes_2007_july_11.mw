@@ -1,10 +1,11 @@
-==Possible agenda items==
+
 
 ===Artefact_object discussion===
 
 Frank Gibson joins by phone
 
-<b>Problem: Consensus to avoid creating classes unless there was a need for them. Having less subclassing is helpful for annotation use case. Artefact object is not helping and there is overlap with biomaterial in the current definition. We want to build a useful ontology not simply a correct one </b>
+<b>Problem: Consensus to avoid creating classes unless there was a need for them. Having 
+less subclassing is helpful for annotation use case. Artefact object is not helping and there is overlap with biomaterial in the current definition. We want to build a useful ontology not simply a correct one </b>
 
 ====Lengthy discussion:====
 
@@ -422,15 +423,7 @@ ChEBI_objects
 <b>AA:add duration to all process</b>
 <b>GF to explain to AR about assn of qualities in a class definition e.g. two out put materials have new properties</b>
 <b>BP:need a way to order e.g. has_successor
-===8. Revisiting other agenda items suggested Monday pm.===
 
-===9. Flagging items that are unclassified consistently===
-
-===10. Once terms are submitted to external resources, e.g. PATO, CO,how do we ‘import’ subsets of external ontologies into OBI===
-
-===11. SOP for ontology development, PDF Trish sent===
-
-===12. suggestion to do some work on experiment design, goal, etc beginning to end example suggested by Kevin and Alan===
 
 
 
