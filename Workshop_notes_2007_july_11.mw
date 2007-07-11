@@ -303,7 +303,7 @@ E.g. Study design qualifier: randomized
 
 AA:All branch editors to identify qualifiers and submit
 AA:All relations in protocol application e.g. to be submitted to the relation ontology - Liju
-<b>
+
 ===6. Dealing with common object properties <i>lot number</i>, etc that apply to instrument/material===
 
 Stuff is different lot to lot, AR wants as a different type in this case, BP:thinks can be an object property. 
@@ -325,7 +325,9 @@ AL:need something that says 'lot20' as a class, and portion of material would re
 HP:suggest we take it to a vote.
 BP:we can have a purchased object as a class, purchased from, purchased by, then infer a class under foetal calf serum
 BS:purchased by is too granular. From OBI if people want to create children beneath 'lot' type then they can. 
-AR:there is no class called lot. It's like high.
+AR:there is no class called lot. It's like high
+
+
 
 
 
