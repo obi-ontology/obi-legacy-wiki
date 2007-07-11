@@ -1,1 +1,529 @@
-Day 2, Tuesday 10 July
+==Tuesday July 10, 2007==
+
+Status Reports:
+
+=== 1. Liju for relations branch - add ppt===
+
+Collected horizontal relations between OBI branches also top down. Defined these and also used same format as relation-ontology. Mostly inter branch relations with domain and range. Also have some data type annotation properties, no conclusion yet on if this should be retained. Reviewed relationship ontology, concluded that was insufficient for OBI and started therefore defining OBI relations. All are now in the OBI OWL file (also see ppt). 
+
+Discussion
+
+RS:why is biomaterial an input. This should be an input for a biomaterial protocol application, is not an input in itself. 
+
+BS:there is now a tracker on OBOfoundry.org/row, check pending relations from OBO- list of new relations, including the OBO list. Some are output and input relations, could be general input - could be anything, also more specific investigation, assay, biomaterial etc. Hope that OBI doesn't need any specific relations. Hope that OBI can use the same small set, needs to be tested. OWL allows you to add relations easily, and in case of Snomed are > 100 variants where the domain and range are minor variants. Needs to be constrained. Also defs need to be provided. BS states that we should be careful not to add too many relations: the DL version of SnoMed has 108 relations currently. BB says that text definitions for classes and properties are just there to help the humans: restrictions should also be present in OWL, in a manner that matches the text definition as much as possible.
+
+LF:Trying to find upper level relations, if we don't find we will propose to Chris Mungall. We needed to record the original relations requested from OBI as well.
+
+BB:In creating constraints needed to provide logical definition, it gets very specific and that limits use. E.g. has_input - in context of an lc column.
+
+BS:Problems about expressivity of OWL, and requirement for human and computer readable. Stating domain and range is not enough. In the paper we suggest the all sum constraint. Allows reasoning. 
+
+BB:some things in OWL cannot be done in Protege, or are hard to do consistently. Could get close to what BS is asking for. Text def is for humans, agree, but OWL is expecting that this be provided as restrictions etc. 
+
+BS:why do we need 2 input relations data and biomaterial. Could be simpler. Agreement on this. 
+
+BB:Proliferation on long relations is an RDF thing, not an OWL thing. Can avoid this proliferation if we define functions instead.
+
+LF:suggests that relationship names be done more consistently e.g. is_adjacent_to. 
+
+RS:what's the difference between has_input and utilizes? 
+
+AL:suggest that reagents and instruments are unchanged.
+
+BS:all we need is has_participant? 
+
+BB:if we define the reagent role then we can do this. Role, process and function branch need to cooperate.
+
+LF:is_proxy_for now points from continuant-continuant as domain and range. The text definition of the term and the DL are not consistent. Needs addressing. 
+
+BS:doesn't seem an all sum relation. SO the c1 will appear in contexts where doesn't appear as a proxy. 
+
+AR:this is the instance level relationship.
+
+BS:Propose a solution, OWL allows instance level, every row all sum is on class level and presupposes instance level relns. We need these instance level relns. (Alan can only have these in OWL). Is OBI like GO and have class level relns in some version, or will it be a mixture of class and instance relns. AR:class relns are shorthand for axioms on instances. 
+AR and others: we would like to have no class-level relationships. 
+BS:go has established node-edges where edges are reln
+AR:these relationships are shorthand, and they can be used as such
+GF: In OWL, you can define class-level relations, but it's not a good idea (brings us towards OWL Full). BS: There is a simple OBI statement "PA_Chromium_release has_participant radioactive_chromium" doesn't sound like a relation between instances, but instead between "any old" chromium etc. What it should say it "Every instance of chromium_release_assay has, on the instance level, some instance of radioactive_chromium." that means two relations for everything. CS: You're talking syntactic sugar: saying the same things, but want to have "your" way of saying it be the correct one. AR: The disagreement is that he thinks it's syntactic sugar and BS doesn't. BS actually agrees that it's syntactic sugar, but only if we really know what we're doing: i.e. we need to be VERY sure that, if we decide to only do instance-level relations, that is what we should be sure that we're always doing. General agreement. AR: you can think of these as extra axioms. We should audit all relations to make sure that they're all instance-level reactions. E.g. have axiom on chromium_release_assay that it must always have a reagent, and then make the appropriate notes in the relations used to express that. BS: there is no "problem" in OBO in that you can only use class-level relations. HP made a list of action items for this.
+BB:you can see that some definitions are ambiguous. Liju agrees.
+
+
+<b>AA:Relations for OBI to be checked vs. OBI tracker and submitted if new. Examples and definitions are needed, less relationships will be easier to use and maintain. BS suggests use of all sum as well. E.g. utilizes_reagent replaced by utilizes. Need to be clear if we are defining instance level relations only.</b>
+
+===Tina for Data Transformation branch  - add ppt, add link to protege file===
+
+Lots of stats terms, no statistical ontology. We need this. Philippe is concerned that we have function creep. 
+CC:what's the difference between a math function and a transformation?
+JM:issues with the higher classes. These are work in progress. These are not nec good high level classes. 
+PRS:we had case where we had a transformation, want to know how granular we could be. To level of function and parameter, and which log? 
+AR says that some classes should be under linear and non-linear transformation, whereas now they are siblings. There's also the fact that mathematical functions aren't necessarily PAs (parent of Data Transformation). They are functions/methods which might be better elsewhere. E.g. functionX has_role linear transformation. BS: OBI shouldn't be "doing mathematics", as it isn't central to OBI's mission. We should find '''somebody''' who can take care of the central maths that we need. Also, don't use the same noun at the end of a long list of children: shows that should make a parent class of that group. Also, ensure all classes are singular! Also, we need to be very careful about child/parent relationships: a Transformation is NOT a Transformation Method: it is a transformation! LF: Methods aren't PA, they're plans/protocols. Also, she says errors are not PAs, they might be qualities instead. JF says developers have agreed that errors should be measurements.
+Normalization method is a role. Could use it for many other things, will get multiple inheritance. Use in a normalization instead. 
+BS:Don't like the idea that OBI goes into maths, we need to find a group of maths people to do this. Can understand stats methods being in scope. Same as units ontology. Small point, usually a bad sign if using same noun at the end of child terms, use subclasses. Every term in an ontology has to be a singular noun. Feeling that method is being used as a general header, not good. A transformation is not a transformation method.
+LF:Agree with Barry, adjectives shouldn't be class names. I don't know what a method is, - seems like a protocol. Needs to be moved out of this branch. Error is a quality. AR:calc of type 1 error, calc of type 2 error.
+JF:Error is a measurement
+BB:SW ontology [[http://bioontology.org/projects/ontologies/SoftwareOntology/]] is under dev and this overlaps. Want to see this overlap with OBI. DT need to be reconciled with this. 
+
+
+DS:we should have a way to id classes that are not yet correctly placed. We add a new properties to represent 'temporary placement' and things that 'should be out of scope' but no one else is doing. 
+BS:we should also send this to Chris
+CS:addressing Alan's comment that normalization is a role. Most people regard it as a data transformation.
+AR:Issue is not that normalization can't be well define, arc-sin norm vs arc din function. Need to organise this so that we don't have multiple inheritance. Could classify the uses. If arc sine is defined elsewhere, how do we deal with arc sine transformation. 
+BS:need a classification that's compatible with the method
+AR:The classification of applications, would be normalization, plotting, and arc sine norm would be a defined term, then we need to know where normalization and plotting live. 
+HP:These are processes.
+AR:We want to all of these terms here, and if you make as defined classes, they would end up here. I could show how that would work.
+
+<b>AA: address naming issues, be more clear on mathematical function vs. method, rename for being in protocol application, or move to plan. Identify areas of overlap with the SW ontology from Daniel Rubin, which is under development but not yet in use. Correct typo in logical. Look for a mathematical ontology. AR will build an inferred version to investigate avoiding multiple inheritance.</b>
+
+<b>AA: AR will break out all the meta data properties into a separate OWL file so Bill can use these for BIRNLEX instead of his own. Agreed</b>
+
+===Allyson for Instrument branch===
+
+121 terms, mostly flow cytometry, and MO terms, added most complete first. Some PSI terms will go direct to OWL file. Also looked at instrument use cases. File in SVN. General issues, which dimension should instruments - electric, mechanic, analytical, preparative, passive vs active. Hard to decide which to assert. OBI platform under BFO collection should be in the instrument OWL file. Why? We think all instruments are an object aggregate - back  to the granularity case. Depends what granularity we want? Do we want platform as an object aggregate or as object. 
+BB:depends on need, do we need to address the pieces, or not? If we need these then instrument has to be an object aggregate.
+AR:I would say use object, practically object aggregate is hard to use
+AL:platform belongs with object, use relations to talk about interesting parts. We discussed cardinal_part_instrument is a placeholder for part of. By using reln we don't need to use object aggregate. Plan is to remove cardinal_part_of. Under that reasoning platform belongs  instrument branch. 
+RS:is defined as reagents, sw and instrument. Notion of platform is it is a collection that together form the platform. 
+AL:all these things could be done with relations anyway, reagents etc. 
+AR:what's an example of use? check what you mean 'platform instance' cell some parts can be swapped and is still the platform? Def is not clear, grab all instruments, sw and reagents,  for a protocol application does that = a platform?
+AL:good questions
+AR:instruments have these definitions e.g. a sequencer. Is there a good case?
+RS:we need it and is positioned OK and def works
+BS:granularity issues in OBI will cause problems. For platform and instruments are distinct. There are objects, parts and collections in all branches. Need all these levels. Collections sounding odd is aesthetic only. Looks more natural within a branch.
+CS:agree with RS, like definition of platform. Is more than instrument
+AR:two platform types, get a platform from a vendor, or all stuff in x's lab is a platform. 
+CS:all stuff in a lab is not a platform. Is the lab. We could add that as a concept. 
+AR:clarify in notes and definition
+BB:we will use this to describe instances e.g. image devices. We need to describe parts of images of confocal microscope. Lots of parts and these are important. Can't see how will be used to describe instruments. Need to have relns for each type of platforms.
+AR:Class defs for Affy are simple. 
+BB:not simple in optical system.
+AR:is this term intended to mean a turnkey platform, or something that can build up
+RS:we need to define instruments and when group with reagents is a platform. Will have may o f these. 
+GF:is there a collection of instruments that is not a platform? Some platforms are computational
+PRS:platform has an application, this is missing
+CC:True that no artefact can be a biomaterial - as current hierarchy suggests
+AR:this is a problem as biomaterial hasn't resolved this. E.g. plasmids is unresolved.
+BB:I don't understand why we need artefact objects
+HP:didn't we decide on phone call to remove artefact.
+BB:get rid of artefact
+AR:what's a device?  This should be reomved and added as a synonym for instrument
+Discussion on classification of instrument handler as function or as a class and what is the best way to classify
+CS:instrument names reflect functions
+AL:and these are overlapping, how do we proceed? Assertion?
+RS:cells can be described on function vs structure, chose structure as is stable and knowledge of this changes less. 
+
+BS: the granularity issue: the OBI domain encompasses several granularities, and we may deal with multiple granularities in the same annotation project, so there will be problems. We know the appropriate granularity for dealing with instruments. There are some things that are truly object aggregates. There are objects, parts of objects, and object aggregates in everything we do. It sounds odd but should be that way. Most people using obi will not be using the whole thing. AR: there should be a distinction between what you can buy as a single item, as opposed to something that takes up multiple rooms and has to be put up specially. CS: we don't call the latter a platform, but instead a laboratory, and therefore wouldn't be needed. We need two types of platform: one that you're not going to take apart, and another that allows you to adjust the parts. however, some things you build yourself is only because it isn't a mature technology yet - it would become a platform when it's mature. AR: should only be called a platform when it's mature. BB: some platforms are only software. PA: the difference between platform and group of instruments is that a platform is a group that has been put together for a specific purpose. Plate reader is an instrument that is used in the context of many different platforms. Included in the definition is some link to either Plan or PA.
+
+BS: Having many children is fine, just make sure you have no redundancy. Then after they're in, see if there's any way to bundle them. AR has seen people put defined classes into owl:THing but this isn't very good. You could make "bogus" classes under instrument. Not good answers - don't really want ugly pseudo classes. AR: someone will find it useful to have aliquid handler term. RS: The instrument's function may change, but its structure might not, so we definitely shouldn't use their function.
+
+AR and AL summary of artefact_object discussion: The children of artefact_object could just as easily be moved up to be disjoint siblings of biomaterial, rather than having artefact_object be disjoint. Domesticated animals are shaped by human craft, as are transgenic mice. Yet these were also considered to be Biomaterials. FWIW, even the Biomaterials class was put under question - is Biomaterial a role? There was also the question of what inferential power the superclass would have - if you know something is an artefact_object then how can use that piece of information for profit? Further information from BB and others can be found in the email thread http://sourceforge.net/mailarchive/forum.php?thread_name=CB4A902B-6FDD-4BA5-B99A-679212DC0E27%40DrexelMed.edu&forum_name=obi-devel
+
+Conclusion: we decide that platform doesn't move to instrument and stays in current place, but can be included in Instrument OWL file. Done by AR svn version 100/. Some of the other classes are also redundant, i.e. remove device and move up instrument and labware.
+
+
+<b>AA: improve the definition of the platform, address reagent part to deal with computational platform where no typical reagents are used and to include being put together for a purpose. Should not include vendor. Will now be included in OWL file to aid editing - AR will do that. Also need assn with ProtocolApplication what is the platform used for. Remove artefact - we can see no reason why this stays with current definition. Remove device and make as a synonym for instrument</b>
+
+===Jennifer for Role Branch add ppt===
+
+200 terms, reviewing them, file on Google docs (add link). Not yet in OWL. 
+
+===Jennifer for digital entities===
+
+Includes goal and conclusions, measurements. File types, XML file - format standard - wants input on that. 
+
+BS:This is the point where talk to Ivo , he has been working on an ontology of format standards as SW tool standards. 
+BB:agree, should decide what we need and try to talk to then, not clear when things would be ready. 
+AR:under narrative object Tim Clark, and Elizabeth Wu (swan people) have interest here
+
+<b>AA:Look into overlap with Swan project and the SW ontology</b>
+
+
+===Presentation from Jennifer on the Clinical Trial Ontology progress===
+
+Clinical Trial Ontology. Now ontology for clinical investigation OCI. Has clinical/regulatory implications.
+Interacting with other groups, HL7, Infomis, Bridge, Epoch. These are mostly data modellers. Scope, any legal terms in clinical trials defined by FDA etc. There is a min info in the consort statement. Clinical research, administrative terms.
+
+LF:clinical trials def seems only to be done in humans, not true. Also animal drugs in vet. science. 
+JF:correct, FDA also takes pre-clinical data, not animal drugs, is pre human testing, SEND group. Being brought into OBI as well. Similar structure will work. e.g. subject. Focus on translational research and alignment of terms. Collected term lists, e.g CDISC->text file. STDM, file sharing description, similar one for send. Terms been organised, categorised in OBI h'archy and providing defs. Christian Cocos here to help with placement. Had a workshop to determine where CTO should go. Thinks OCI terms should be in OBI. OCI sees OBI as a master ontology. Questions on if OCI is a superset or a subset of OBI. Some other cttes need these terms e.g. Nutrigenomics. 
+
+BB:Colorado group on Clinical Models included? JF will check
+AL:should this be a MIBBI checklist? 
+SS:already there
+AR:http://esw.w3.org/topic/HCLSIG/Drug_Safety_and_Efficacy
+RS:want to be clear that when we had this workshop, was mixed responses. Some people though there was value, some were skeptical. This will be controversial project
+BS:Two gps doing different things, and did not interact easily,
+RS:some people thought there would be no added value. Onus on us is therefore to show added value. If we do that we will win over people. 
+
+The scope of CIO would encompass: the legal terms and minimal information (CONSORT) for clinical trials, clinical research, and administrative terms. Would like to align terms from other efforts with OBI. In OCI, all of the subjects are human. Other groups are doing non-human (e.g pre-clinical or non-clinical efforts). These efforts should be considered - we want them all to use "subject", for example, and mean the same thing. The ontology for clinical trials is in production by the UK cancergrid project. Their aim is to develop a useable ontology by 4Q07 that can be deposited in OBO. JF applauds the effort and hopes that they can all work together. As good as all these efforts all, there is definitely a feeling of "sporting competitiveness" too. 
+
+OCI will focus for now on translational research, e.g. clinical research as opposed to trials. The collected terms are from the CDISC glossary (35-page pdf file), STDM (standard tabulated data model: how you would share your files with the FDA), UTSW, MUSC, and RCT. They've organized them all and removed duplicates, and loosely categorized them within the OBI hierarchy. They're now in the process of refining definitions, and have shared terms with the roles and digital entities branches.
+
+OCI would be part of OBI, but there would be a document which contains all of OCI for the benefit of that community. This matches as a 4th-tier owl file as discussed yesterday, or does it? Would OCI be a subset of OBI, or a superset of OBI? CC will show us their OWL file during the next talk. Plan a workshop next year to bring together all efforts for discussions. They have a google group, OCInv@googlegroups.com. CONSORT is already in MIBBI.
+
+===Presentation from Christian Cocos===
+OBI has been imported into OCI. An OCI namespace will be used.
+AR:potential migration issues in the future.
+BS:OCI should be a view and should live within OCI. But namespace will be part of URL and this needs to be worked out
+AR:is political not technical
+CC:file has Simona Carini's terms, roles
+PRS: we need transparency, as there is a lot of overlap, and I need to know how you are handling things. 
+RS:We need to give you protocol applications etc. How do we best do this
+AL:may depend on how much will be in OBI
+JF:want to move all to OBI, can't imagine it's  aproblem that we don't have OCI in name space. This file, Christian started work on it without knowing about OBI. He looked at the branch structure, role, function etc had questions. All terms in the files need to be aligned with OBI and Christian needs to agree that this is sensible. 
+CC:Issue wit OBI is not stable, no reason for us to import it, until is stable. Won't see many terms here. 
+JF:CTO is different to OBI and hasn't be re-factored. Want one structure though.
+RS:OCI working group could be an OBI community
+BB:that was what I understood
+SS:I do sympathise many issues with clinical ctty, there will be more buy-in with OBI. 
+JF:that's the idea with OCI, we need to think about how to make OCI sep for publication reasons etc while still being part of OBI.
+
+
+
+<b>AA:Summary of email thread is useful to be added to the wiki for all long threads</b>
+
+===Philippe for Plan Branch===
+
+Protocols, Study Design, Algorithm. We left protocol out as we had an overlap with ProtAppl. Decided to focus on study design. Collected terms, have some bias for clinical trials. Problems: all qualifiers concatenated 'study' - they indicate the result of a process, can also be considered as a set of processes. Processes have been identified and submitted to ProtocolApplication. We have terms and there are pointers to a pubmed id for examples. These terms are represented in the literature, if we decompose terms then we need to rebuild them for users. How to do that? Views? Most of terms are suffixed with designs - would prefer to keep these for many terms. 
+RS:some terms are homonyms for difft things and this allows us to keep things straight
+PRS:2 sets of terms, those that design expts e.g. stats and other set from terminologies related to biology. Need to reconcile both camps, stats terms may not have much use for biologists
+CS:Those 2 are natural divisions of types of studies. Are there overlaps? Could have these as 2 branches?
+PRS:Don't know. Need to explore that. There will be some specific relations that show up.
+CS:But that is OK, they will have a common parent, iotype and stattype studies, will be distinguished by relations that you described
+PRS:design of experiment is key element of the ontology to demonstrate the plan of the study. Need to know stat methods chosen for study, controls etc. Then there was a slide in the scope, I am not an expert, hard to model accurately.
+BS:want to see more of the definitions. 
+AR:Could be that there was an alternative term for two different ontology definitions, two senses of the same term. Found a couple of e.g. where a single term is used strictly and loosely. OK to have those
+PRS:these two views are almost orthogonal, when driving data acquisition, what would we ask? 2x2 factorial design, not terms used by biologists. 
+AR:there will be a clear use for the stat terms, and e.g. markup for bioconductor. We need these here. 
+PRS:also submitted terms to other branches e.g factors into roles.
+AR:has_control, type relations are needed
+JF:problematic. If you have something in the study has_role placebo no need for design. No need to say, could infer that.
+AR:maybe there are sub roles of control then?
+JF:positive and negative for e.g. 
+JF:twin study, interventional etc - is a combinatorial explosion
+PRS:should be a way to say in design what were the controls. Need to find a way what you are controlling for. 
+AL:we need to decide across obi, will there be a define class and infer?
+AR:sent to group an analysis of a way of factoring these, manage the inhertance by using relns and letting the classifier handle it
+BS:study and trial are mixed, is there a tree version?
+PRS:Trish and Alan helped with that.
+BS:are they arist. definitions? Goal should be doing this by inference using classifier as Alan suggested. Good thing to make a list, need easy targets to build a classification. Subjects good place to start 'offspring' vs 'parent'. Not a criterion for classification that gets to study, better classification of subject types will help
+What to do, in general, about adding terms quickly? Many of the terms are suffixed with "parent" words, like _design and _study. BS doesn't like this sort of naming, however some of these suffixes are very important. What should be done? Well, just ensure that the suffix clarifies and is not redundant. JF: If you have a design that included something that was part of the trial with the role of "placebo", then you don't need "placebo_design" as a term, as this could be inferred. You don't need to explicitly say it twice. AL: this is the same problem as we face with the Instrument branch and terms like "liquid_handler". BS: In the definitions, sometimes you use the word "trial" and somewhere you use "study", and this needs to be cleaned up. Offspring study and Parent study are the same study with two different subjects. Therefore instead, what there should be is a good classification of the subject time, and then just link a study to a particular subject type. 
+JF:we have that in CEBS
+BS:want to see a classification of study types
+AR sends his classification:
+1) Are "subjects" measured at a series of times? (alternative:  There is a single measurement per subject)
+2) Are "subjects" manipulated as part of the study? (alternative:  subjects are only observed)
+3) Are "subjects" pre-classified as members of a set of groups?  (alternative: groups are discovered, post analysis)
+4) Are "subjects" always individuals? (alternative: they be populations)
+BS:could be adding new terms daily, need to find a principled way to do that.
+
+JF:people classify things differently e.g. in ArrayExpress
+AR:handle that by the browser.
+BS:People worry about the bottomless pit as they find hard to place things. OBI will assist  people in creating checklists as they can check on deposition
+AR:Open world assumption, therefore need extra info.
+AL:Agree, practicalities though. What level do we do to. Where do we start the defined classes and finish?
+BB:MPO is being re-factored with PATO, we would look to do something similar. We need a means to infer these types, and we also need the flexibility.  Minimal lists are important, but also makes sure that communities get elements from here and that they mean the same thing.
+AR:Concerned about selecting the primary axis. Easier to do all defined definitions, and have only inferred is-a.
+AL:if in instrument, add all relns, infer all is-a and select one that we require. Hard to find the right axis.
+AL:suggests we pick a branch, deal with the relations e.g. instrument as an experiment.
+BS:qualities of instrumentation belong in OBI.
+BS: Identify the 7 or 9 or 3 essential features that every study should have, e.g. subjects. Pick one that is central, and then assert a single-inheritance hierarchy on that basis. All other features should be put into their own single-inheritance hierarchy. Then use the reasoner to generate all of the appropriate associations and multiple inheritance on the fly. We may end up with the bottomless pit problem, though. We have to find a way of making it clear it isn't a bottomless pit. It should be clear that there is a principled way for finding places for these terms. JF: different people structure these things with different "primary" classifications. AR: use "faceted" browsers. Classic example is travel destination, where you may want to browse by either sport, or location, or family friendliness. Each of these facets are different relations whose target is these other single hierarchies BS mentioned. AL: Where do we start the defined classes, and where do we end the "standard" classes? AR: Should avoid "hardness" as long as possible. Could have no asserted isA until the last step, and the infer all isA's, and see how it plays out, and *then* choose the primary asserted hierarchy. A lot of this work will be integral to the Function Branch work, which BB will cover shortly.
+
+PA: PATO will deal with biological qualities, but not non-biological ones like randomized or control, or qualities of instrumentation like "switched on". Such terms should go in OBI, at least for now.
+
+<b>AA. Work on subjects to help classify experiments e.g. offspring, study, twin, see Alan's list above etc. Check definitions are aristot.</b>
+
+===Susanna for BioMaterial Branch===
+
+See report sent for BioMaterial branch. Issues:
+Dealing with common terms e.g. lot?
+Dealing with external resources, poss present in multiple
+Some terms were material, not biomaterial, need to change top class to Material?
+Where to put genetic info - allele/obi etc
+
+BB:In BIRNLEX we get NCBI taxonomy, we get the taxon as an annotation property, and use e.g. for mouse, rat. Provided a framework that maps to datasets annotated already. We need to map to that somehow. If was in OBI wouldn't need it in BIRNLEX.
+72/315 terms were actually relevant to the biomaterial branch. There is a dispatcher sheet that is now on google docs. Have started refining definitions, adding examples, and making terms compliant to naming conventions (the latter is still to be done). Most of the information is in an excel spreadsheet. They don't know what to do about "quasi" material terms like lot number and serial number. What to do if a term is present in more than one external resource? How do we point at multiple sources of terms? Where should we put in genetic information like allele, diplotype. They are also thinking that they should probably also extend biomaterial to other types of material.
+
+*Note added from Karen Eilbeck 11 Jul 2007: genotype, diplotype, and allele now in SO latest version.
+
+First division was between experimental and natural biomaterials, but after a little time it was clear this wasn't the right line to draw: for example, where to put transgenic organism? Also, just binned things like allele and haplotype into a single class, even though they don't really know where to put them. Many of the genotype specification are already in PATO. And currently, things like dominant and recessive are not yet in PATO. And, even though we can get PATO into OBI really easily, ontologies like SO are harder to fit in, as their structure doesn't mesh with OBI yet, so we can't just import them directly. AR: if we can get it in promptly, we do it. If we can't, then we put a specialist ontology term directly within OBI. Also, for links out to other ontologies, we don't use an OBI term ID but the ID from the other ontology. Note that this does NOT mean that we import the entirety of the hierarchy above or below that particular external term, just that (for now) we need to represent that particular, single, term.
+
+BS:OBI can't take over the world. Need to have these in PATO or to SO
+
+AR:we'll base logical definitions to these, we need to import them, will be incoherent. Propose as we need such terms, add to OBI, can use them and are OK for local use, and create logical definitions and will then create a use case for OBI and then migrate to some external ontology. OR use external URI, but won't use all of OBI will use part.
+
+BS:Propose keep the PATO and SO people informed
+
+AR:SO talks about patterns not substances. 
+
+CS:observation, experimental vs. natural, I have a sense that a transgenic is an experimental
+
+HP:what about Ecotype or Canton S strain, these were natural and are now lab strains
+
+JF:we had a model organism, and subject type and subject nature. Wild vs. lab.
+AL:These are roles.
+AR:adding history then to object type is bad
+BS:Cooked meat is still the same continuant. Agree cases can deal with role. Not a clear moment in time when transformation occurs. 
+AR:we need a guideline about how we add history to objects
+BB:for mice, people look at pedigrees, and people want to do that. Goal is to have what we need. In keeping with OBO foundry, worry about GeneticInformationContent, we should add these as qualities and tell PATO. 
+BB:there are a lot of terms that could go into OBI 
+SS:what about all the other terms that we have identified as being out of scope of PATO. 
+AR:suggest have these in OBI in the short term.
+BB:should be in the correct place in OBI, e.g. quality. If you get a set of terms e.g. cell  type and half are there and other half not, then can't import to get the half you need. 
+SS: True for any other branch then, will be a lot of work to do. In the latest call we had a consensus to focus on what we needed rather than out of scope terms.
+BS:organism is in other ontologies. 
+CS:we need classes to refer from and this is not a problem even if this is in an another ontology.
+AR:we can take the ids from taxonomy for e.g.
+BB:in BIRNLEX if there is an external anything need to decide based on your ontology where you need to put it, but maintain links to external ontology. Organism is an is-a. 
+SS:possibility to have additional qualities in PATO for experimental terms. OBI can hold these qualities.
+BS:Allele is in the sequence ontology. 
+BB:whole_mount doesn't like this placement in biomaterial, is a technical preparation process that is imaging. 
+AR:if is a defined class can be an is-a that's an output of some protocol application. 
+BS:not just the output of the whole mount process, if you drop it it's no longer a whole mount organism. Is therefore a role after the process, need both forward and backward history
+CS:once is a whole mount is a different kind of entity, agree that whole_mount is more like lysate
+AR:yes
+AR: Population and cohort's current placement is not their final location. Diplotype is a quality of a sequence.
+AR: If you have a defined class for whole_mount, you can say whole_mount organism is exactly those organisms that are the output of PA_XYZ. BS: A whole_mount organism is an organism playing the role of whole_mount. CS: But once it goes through PA XYZ, it is an entirely new entity. This entity can take on other roles, such as garbage, but it is a new entity. BS: It is simple to do what I propose, as you just have to add a phrase about the role to the defined class definition (necessary & sufficient statement). BB: What we're trying to do is figure out where to put in that a biomaterial has been experimentally manipulated. BS: We need to have this role as, for example, you need the role to properly classify patients. You can't just say patients are people who have registered, as that would fit with people who once registered but are no longer true patients (e.g. they went home). RS: whole_mount is irreversible - once you are a whole_mount, you can't go back. For this reason, you should not use roles, as roles are for states that can be easily changed to one thing and then back again and then on to another thing. BS: You can have an organ section that does not play the role of the specimen (e.g. your dinner of part of a liver), therefore specimen is a role. As such, you need to define whole_mount with such role restrictions. CS: whole_mount cannot be a role, but in its definition I'm ok with it indicating that it plays the role / always plays the role of specimen. BB: to reinforce this, you could rename ExperimentalBiomaterial to BiomaterialSpecimen. JF: thinks biomaterial is actually a role, e.g. a fly before it is in an experiment is not a biomaterial. AL: A fly is always a biomaterial, irrespective of whether or not it is in an experiment.
+JF:biomaterial is a role. We need to sep fly before it was in experiment. 
+general disagreement with this statement.
+
+BB:these are all materials
+RS:there are biomaterial entities and they are possibly also playing roles
+BS:a lysate is something you create experimentally not just inside my body. Everying in OBI should be an artefact of the experiment. 
+
+
+<b>AA Issues then: how to classify terms in OBI, how to deal with the terms that are likely in external ontologies and hold in OBI temporarily, how to import external ontologies, whether to import all of external ontologies or some of an external ontologies. Bill and Alan to write up an example for discussion on importing external ontologies. Barry will ask PATO and SO to speak to each other about both having Ploidy </b>
+
+
+
+===Bill for Function Branch [[Image:OBI-FunctionBranchSummary-forOBImtg-july2007-BB-001.ppt‎]]===
+Definition for function branch is problematic, is BFO derived. Need to bring in some more BFO classes and create children in Bill's HPLC molecular separation function example. - e.g. Compound Sample. Some problems here, e.g. Compound Solution and Compound Samples are not distinct. Very complex, needs to refer to biomaterials, instruments, parts of instruments. Tried to keep the classes needed to be simple and not v. granular. 
+
+BS:not clear how separate function and role here. Test of function, possible that it is not functioning, easy to see that a sperm can have a function that doesn't function. As in primary purpose. When we say an algorithm has a function this is not relevant to the BFO form of function. Functions need realizations. The thing that has the function must take place in causal processes. Algorithm doesn't do that
+
+BB:So only the executable.
+BS:not all things have functions, heart has a function, the pumping of the heart doesn't have a function
+
+BB:apart from algorithm, all are functions. 
+BS:assessment(assay) and algorithm are problems. Occurrents don't have functions.
+BB:Purpose would be better
+BS:Purpose is intentionally not in BFO.
+CS:different issue with algorithm, think of as a plan. If algorithm has function, all plans have functions. Plan is a kind of realizable entity. 
+BB:All physical entities can have functions. Need to know what function means for us. 
+RS:some of the things in HPLC diagram are related t o function and some could be in the def
+BB:this is the point, trying to be clear about the relations needed
+RS:I think you could describe the function of separation without describing the function
+GF:not clear on function and role, and inherent. Doesn't help me. All look like functions, and a role is a relation between an obi entity and function. Context is important. 
+BB:started with simplest view, simple text, find that if you want a def that connects objects you need specific relations. 
+AL:for molecular separate function will you point just to instrument, which will have a cardinal part
+BB:yes.
+RS:not that these other parts of instrument are not relevant, is an indirect connection
+BB:not certain that this will be the case. Don't know how from BFO to implement functions in an OWL file
+LF:like the slide - so system parts play roles to complement the system function.
+
+Meant to provide a BFO-based definition of function for investigational artefacts, including instruments, reagents, and assays. They analyzed the BFO definition of the related realizable dependent continuants function, disposition and role, and defined how they are going to work with closely-related branches like role. They have a few examples/use-cases for function on the wiki page. They use as a primary example how to create the function of an HPLC system (high pressure liquid chromatography). He then used a well-written slide to show what minumum relations would be required to get the function correct for HPLC.
+
+<b>AA:In Bill's example function and role are mixed. BFO may need to look at whether function and role are appropriate. Assay and algorithm do not have functions according to Barry. Investigate.</b>
+
+Christian:function is intrinsic, role is context dependent. 
+BB:disagree. Functions are they inherent - heart to pump blood inherent only under some conditions. Slides to be added about functional relations. 
+
+BS: How are you distiguishing functions and roles from this particular example slide? BB: I don't think there is a clear distinction - it's not clear that function and role are distinct. BS: This is a BFO responsibility. BB: Well, the separation process is distinct. BS: whenever you have function, you should describe the process that is the functioning. A crucial feature of function is that you can have a function without realizing it (this statement applies equally to role). One test of a function is to see if it is possible to still be itself when it isn't functioning. When we say an algorithm has a function, we're not using it in the BFO sense. Functions have to involve realizations as a possibility, which means the thing that has the function has to be such that it can engage in causal processes. BB: I don't think that will work. BS: A laptop has a function, a heart has a function. The pumping of your heart is the exercise of the functioning of your heart. You cannot realize the pumping because the pumping is itself a realization. I think there are assays, but assays themselves do not have functions in the BFO sense. (Assessment is also a problem for him). Generally speaking, occurrents do not have functions. (And then BS had to leave the workshop.)
+
+CS: I think of algorithm as a plan. AR: But you can't have a plan that has a function as they are both realizable entities. But still, perhaps algorithm is a plan, but you couldn't give it a function.
+
+BB's slides include various cardinal parts of instrument, which CS describes as not necessary for the "molecular separation function", just required for the HPLC instruments.
+
+BB: Should look at CC's proposal to use Systems Theory to provide a framework for defining function. It would be a relatively superficial application of ST.
+
+CC says that in order to specify functions you don't need context, but for roles you do need context. BB: Functions imply some primacy, so perhaps each thing only has a single function?
+
+CC: drafted by BS last year to write the "RO 2" paper. Some paradigm examples include:
+# kidney UNDERGOES excretion process. There is disagreement on this term, as a kidney does not undergo that process. Blood undergoes filtration, and urine undergoes creation process. In the sense CC has written it is "participates", or has_function.
+# excretion process HAS_PARTICIPANT nephron
+# excretion function IMPLEMENTED_BY kidney/kidney IMPLEMENTS excretion function. 
+# kidney HAS_OUTPUT urine / urine OUTPUT_OF kidney. RS: We've defined processes as having inputs and outputs, and CC has a continuant with inputs and outputs. Urine is the output of a process, in the same way as chocolate bar is the output of the chocolate production process, whereas others would say it is the output of the factory.
+
+BB: we want your help implementing functions and relations in OWL. RS: There is confusion in this example, as many organs don't have outputs. CC: Actually, I think all organs have outputs.
+
+BB: As people in other branches hit functions (especially the Instrument branch) please go to the function wiki page and add the example to that page.
+
+===Alan for Protocol Application Branch===
+
+Using ontology not slides. 
+
+Plan and protocol application not clear. Using input and output of protocolappl as participants, input roles and are named in plan. is-proxy-for - in measuring you have label often for example. 
+RS:tumour grading is not an assay, has an interpretive process not included there. 
+RS:On data transformation were 3 categories - pool, some kind of partition, transformation where net no of molecules doesn't change e.g exposure, or change temp
+CS:disagrees. Doesn't see a reagent as in input per se. Think about a node edge diagram. Reflect material of interest not other reagents. 
+AR:need to consider in branch. Other cases are important e.g. planning of the protocol reagents are important there. Could distinguish roles further. Maybe one is a specimen and one not. 
+Some redefining of terms was done.
+Some fixes identified.
+Discuss Assay, need to add more terms, want to do some modelling via relations. Chromium release that came from Kevin.
+
+The group started out trying to figure out what relations should be used. HP: the clinical_diagnosis definition should not have "determination", but instead "assessment", as you may not always get your diagnosis right. RS: Doesn't think tumor grading is an assay, as there is an interpretive step that's not being captured. AR: The output is not material, but instead is information. RS: In tumor grading, the input and output are both data. Perhaps should be moved to Data transformation.
+
+CS: Could delineate material combinations based on whether or not it is a pooling of samples. RS: You should structure according to pooling, partitioning, and transformation. BB: Perhaps shouldn't use transformation in material_transformation - should use a word that more precisely meets the definition.
+ 
+<b>AA clinical_diagnosis definition is bad clean up, along with other definitions. Syntax needs clean up.</b>
+<b>add new curation_status: 
+# placeholder until can be accepted in the correct ontology (e.g. until your suggestions get submitted into PATO)
+# placeholder just so we won't forget about them (e.g. collected_relations)
+# a third that I can't remember right now</b>
+
+Discussion of Agenda for Weds.
+
+<b>Given agenda items, we decided to focus on the common problems, need to know what these are.</b>
+
+
+
+
+
+
+
+
+==Monday July 9, 2007==
+Photos http://picasaweb.google.com/helen.parkinson/OBI_Workshop_NIH_Jul_2007
+
+Present: Gilberto Fragoso, Chris Stoeckert, Richard Scheuerman, Susanna Sansone, Philippe Rocca-Serra, Bill Bug, Liju Fan, Jennifer Fostel, Allyson Lister, Randi Vita, Tina Boussard, Helen Parkinson, James Malone, Kevin Clancy, Alan Ruttenberg, Christian Cocos, Barry Smith, Daniel Rubin (by phone), Mervi Heiskanen
+
+===Morning Session===
+This was an informational meeting on OBI (semantics), MIBBI (minimum information checklists) and FuGE (syntax) data standards. The following three talks were presented to NIH programme officers.
+
+1.Chris Stoeckert
+[[Image:InfoOnOBI.ppt]]
+
+2. Bill Bug
+[http://purl.org/nbirn/birnlex/other/OBI-corev2-forOBImtg-july2007-BB-001.ppt OBI Overview for July, 2007 f2f meeting - Bill Bug update of OBI Core v2 slides]
+
+3. Susanna Sansone
+
+Draft Agenda [[https://wiki.cbil.upenn.edu/obiwiki/index.php/Bethesda2007Workshop#Draft_Agenda]]
+
+Among these talks were two discussion sessions focusing on OBI goals, funding and future.
+
+===Discussion I: Who's missing from OBI that should be involved?===
+The main questions raised by CS in this discussion section were: Who's missing from OBI that should be involved? Any criteria to decide who to target? What incentives should we be trying to provide to join us?
+
+The audience wondered what OBI means by "genomics" community, as it's a very broad topic. Further, many of the communities described overlap. CS replied with the following examples: the eventual replacement MGED Ontology and BIRNLex with OBI, and the RADLex project for the MRI community, e.g. Daniel Rubin.
+
+It is difficult to get money for funding this work, as grant people won't generally give money for ontology curators. AR mentioned that money should be provided to develop the *skill* of ontology creation and curation. He wants to establish a teaching program.
+
+Someone in the audience later made the statement that they (or a subset of users) might want to only use a minimal set of the ontology. BB mentions the MIA* efforts, and using them in the context of the ontologies. Also, members of the audience suggested that OBI could be used in a number of efforts, including the CaBIG (Cancer Bioinformatics) community, and the NCI Thesaurus. AR also says you could try to invest part of people's times, rather than getting specific funding for the entirety of a FTE (full-time equivalent). Another topic brought up was the Clinical Trials community - what can we show management? Does OBI have any good examples for them? This was brought up again later in the day, when the OBI developers thought of a number of good OBI use-cases (see below).
+
+===Discussion II: How should efforts such as OBI be funded?===
+
+The main questions raised by CS in this discussion section were: How should efforts such as OBI be funded? Encourage communities to make it a budget item? Put it in an OBI-focused resource grant? development, infrastructure, and training are three separate funding areas. Role of the NCBO? Currently serves as advisors, and provides tools and methodologies, not support for building.
+
+'''What is the real point of OBI? How to use it?''' Plenty of examples, like science commons and neuro commons, journals (e.g. tagging articles or sections of articles), alan's work, CISBAN DPI, ArrayExpress to GEO mapping will be a lot easier with the core of OBI developed. Suggestion of AHA, etc. for funding, as long as we can give good examples of the usefulness of OBI to these communities.
+
+'''How will the world be different when OBI is complete?''' Provides method for data exchange and for correct analysis and searching over a large corpus of investigations. People will use MIBBI to discover if there is already a minumum information checklist. If there isn't anything there, they have to make their own MIA*. But how will they know how to do this? Look at MIBBI and get started: this sort of thing needs to be written up. There is a need for guidelines on how to do this sort of work. Publication costs money, but if you treat putting data into FuGE format as a publication of your data in electronic format, it could be a useful way of adding such work into the grant proposals.
+
+AR: Changing incentives requires pushing from either journals or funding agencies to say this must be done. Secondly, a workforce that is able to do this sort of encoding does not yet exist. OBI is the start of this training. OBI promises (with a common language for describing results etc) a situation where integration and searching of genomic-scale datasets will be quicker than before. The interest isn't in the individual investigators, but in the people who fund the investigators, knowing they will get more for their money by using OBI.
+
+'''Do we want to model raw data or "final research data"?''' Makes a big difference to the cost of using something like OBI. Everything should be included in the long term, including LIMS.
+
+Reiteration of importance of use-cases (how to use OBI) from the point of view of the people who would use OBI. Inevitably, the response to "Our institute should use OBI" is, "What is the benefit to us"?
+
+===Afternoon Session===
+
+===Additional Agenda Items for Workshop===
+
+* Started with a discussion of what to do in the coming days, with main requested agenda items. This includes presentations on branches, with a brief discussion on how these should go.
+* Formalizing how the advisors get credit for OBI. Have it "offline" as a little subgroup and present the results.
+* Other discussion topics for this week: SOP and reasoning, svn and branching "clinic" (Alan), how to organize OBI when mature, to make it easier for users to use it.
+* AL: How to layer the ontology for the public. Check Matt Pocock's email on making an end user looking at one file, not all the branch files. AR and GF also want to do that
+* Deprecation policy development and spec. for an implementation
+* Reasoning has been done, but should continue to be done. OWL-DL, consistent apart from an annotation property. Suggestion that AR will demo it this week. 
+* Created the page for coordinators, were also going to have a page for developers. AL volunteered to make a mock up of the page to include all obi-devel list people. BB suggests we can mine the wiki to calculate no's of posts. AL reports some probs also with subversion and static web pages. She will look into that. Different people have editing access to various pages. Suggestion for a half hour clinic using subversion. Some core developers wanted their own case for testing e.g. with Protege. Suggest using the branching system and create your own branch.
+*discuss whether the lab env is under the envontology or should come back into OBI
+* AR issue 1 - out of scope terms, should go somewhere, need an out of scope section, for now in OBI, but later will be moved. Need to go over some of these cases
+*AR issue 2 - some terms rejected from branches for mult. inhertitance. Need a process for generating defined terms that make our users happy and need to look at these cases too.
+* Linking out to other ontologies from OBO. Break out session for this. Suggestion that relations branch organise this from Bill Bug.
+* Additional Discussion Items also were proposed. Unless we want to get a dedicated space we can start on these @ 3pm through the week each day. These are not complex and we shouldn't spend too much time on these.
+* Pros and cons of Protege 4. When is it stable enough for use. And Protege collaborative framework use. Has been evaluated by Daniel Schober at EBI and is working better after recent bug fixes. 
+
+===Review of Milestones from San Diego===
+
+*Milestone: Polishing of meta data - large no of dicussions on that. 
+
+*Milestone: Developing '''policy for assigning credit'''. Not finished, we did come up with a draft. Couple of issues e.g. OBI contributor's advisor wanted some credit, and a way to do that. Need to be formalised them. Defer discussion on this in favour of doing ontology building. 
+AA:schedule to have an off line discussion.
+*Milestone - Submission of c'ty terms. Complete for first found. We acknowledge there is still work to do iterating, but we have something to work with. Just a mechanism, doesn't preclude adding on the fly. Should this process be separated from cty submission of terms? We think yes, helps us deal with batch submissions. 
+
+Then we talked about our policy in terms of '''multiple inheritance'''. AR said one possibility would be to make a defined (necessary & sufficient) class that is not necessarily in the "real" hierarchy. Inference would place it in the right location. Example is Diploid Cell, which could go into multiple locations in the single hierarchy. Further, it may go into an external ontology (diploid could be a quality, which equals PATO). This will be discussed in its own session later in the week.
+
+Another milestone was the review of '''prelim community OBI versions''' for inspiration of branch editors. Discussion on what this means. Dependent on Communities making OWL files for review. Didn't do that so this hasn't yet happened.
+
+May 1st had a couple of milestones. The first is to present the '''proposal for environmental/medical/other history'''. Jen reported. Barry mentions Geo.obo (thought up by Michael Ashburner), which is an obo foundry. There is also EnvO (Environment Ontology), which Dawn Field, for instance, plans to use within the GSC framework. They are both OBO Foundry, and are primarily devoted to children of the BFO class Site. If they are both OBO, then how will we keep them orthogonal? Geo is for annotating *real* geographic locations (already begun, large-scale things like "Poland"), and EnvO (planned with funding, but not started) for terms like habitat and oral cavity (small-scale things like those kinds of entities where organisms live). Geo has a workshop at the end of August. Michael's Geo sort of popped up suddenly. A lot of Jen's terms have been subsumed into the EnvO. Laboratory or clinical artefact may go back to OBI. However, ultimately, those laboratory terms are still environments. We may develop them initially, but then submit them to the EnvO. Further discussion of this has been added to the agenda for this week.
+
+'''Note from Suzanna Lewis: I noticed the mention of geo.obo and envo in the notes. These are not different ontologies, but different types of things. geo.obo is a straw-man ontology that we're discussing as a part of the envo project. Being good OBO Foundry practitioners  we would never have >1 ontology to cover the same domain. We're agreed to knit it all together, it isjust part of the process.'''
+
+Discussion - JF:Norman was working on this and has been working on getting on funding. Will include gut cavity, habitat. Some potential to overlap with OBI. Env. ontology is still under planning.
+BS:Related efforts. Need a systematic way to annotate fly populations. geo.ontology created by Michael Ashburner, geographical location annotation ontology. Both ontologies will be part of OBO. Will be children of the BFO class 'Site'. Will these ever have to merge? 
+geo.obo is designed for case of real geographical information, env ontology is for describing habitat, smaller scale. We think that this sounds like roles. Update from Susanna on funds for env ontology have now been provided. They have a workshop at the end of August 2007. Direction may have changed based on Michael Ashburner's geo.ontology. Suggestion that the biodiversity community should be included. 
+JF:Original Q. env.ontology talking about e.g. rivers. OBI is interested in lab habitats. Last meeting clinical history, etc subsumed into the env. ontology. Should revisit that at this meeting. There is a placeholder for that, might bring it back it domain in the context of laboratory.
+BS:OBI should consider everything that is part of the experimental artefact
+
+The second May 1 milestone is the proposal for process - '''how to link to ontologies''' / terms / free text entries apart from canonical OBI links. The main point here is that we should/must reuse other ontologies where available. Will probably have a breakout session about this. Perhaps it is best a task to give to the Relations Branch.
+
+The June 1 milestone of review of placement of community terms will be covered with the branch updates given tomorrow.
+July 1 was the '''finalizing of terms into branches''', which hasn't quite been reached as we are still working on the branches - it took a while to get subversion sorted. The July 9th milestone of '''re-merging branches''' will no longer be necessary as we'll be keeping the branches for a while. However, if we want to re-merge to provide a single file for download, AR has made a script to do this dyanamically.
+
+Another 9 July milestone was to have the '''deprecation policy''' finalized. Alan had a proposal about where to put deprecated terms - into a separate import file - so that "normally" you wouldn't see them, but could import them if you want to see them. Will talk about the deprecation policy this week too.
+
+This led into a longer discussion of versioning, history, and deprecation. Versioning is a lot more complex than deprecation, but AR argues that you can't have deprecation without history. GO has a versioning policy. Should be documenting ANY change - spelling, add annotation etc. Both what and why the change was made. Barry suggests that each time any change has done, you should create a new ID. AR says that this imposes a larger burden on the user. BB and AL agree that only semantic changes should make ID changes - syntatic changes shouldn't. AR points out what happens if you have a closure axiom over a group of terms, and then you need to add a term, or remove the closure axiom. Is that a semantic change? AR suggested that we not worry about it until we have a stable core. Perhaps a subgroup should set up a proposed policy and send it around. Bill suggests an intermediate milestone of 3 weeks where *everyone* would submit any use-cases / examples they want considered when building the requirements list for this policy. The policy should be ready for the next workshop.
+Trish had a wiki page for OBI, and one for MO. Then come up with a proposal for implementation. When and how deprecated, cases where do not want to see these. Added as an agenda item. Question on whether versioning is also covered here and what history is needed for consumers. Liju suggests edit notes for each version. Unclear what granularity is needed here. BIRN say what former parents were. E.g. say what this term looked like on date x. GO does this already. Best practice - term gets a new number whenever any aspect of a term is changed. If have many child terms would need to also change their ids as well. This is problematic for users - too much burden. GF:most people want to know when def changes, text or placement and we need to decide if we track lexical and logical definitions. SKOS has some info on this. Could defer till we end up with changes that need this. GF:we need to have this in place for V1, and will take a while to get it right. We decide to id a sub group to do this offline by next workshop: Alan, Bill, Gilberto, . Milestone date set for discussion of this. Wiki page needs creating for requirements. Want to invite Daniel so needs to be scheduled in the am if in this meeting. Relating to this am's discussion with the funders, implementing a deprecation policy is time consuming, might need to prove utility rather than developing this complex policy. i.e. not implement prior to production version 1.0. 
+* Milestone, '''finalising prev meta data annotations'''. Seems like clean up of web pages. Do offline
+
+* Milestone. Bill and Bjoern, '''communities using OBI post their OWL files''' for review. NMR has done this and Bill will do for BIRN. Suggestion to do this off the community pages. NMR will disappear once OBI is up.
+
+* Milestone, Present proposal for env ontologies, clinical etc. 
+
+* Milestone - '''how to link to other ontologies'''.
+We started on this, e.g. using OBO reln ontologies. How do merging etc. OWL API has e-connections for e.g. No conclusion reached. Needs more work.
+
+* Milestone, '''finalised placing of terms into branches and merge back branches'''.
+Partly done. No need to merge back at this point, will be done dynamically
+
+===Future Milestones Discussion===
+
+Based on the discussion with the NIH programme officers we have developed some new milestones which we will assign dates to by the end of the workshop
+New milestone, Identify a time and location for next workshop.
+
+New milestone, '''identify a test strategy for OBI in terms of proving utility''' e.g. (Application Use cases?) for text mining,  data acquisition etc. Use in context of OMs. Enthusiam for this, list of projects below.
+
+* Bill suggests brainmap.org - mining neuro studies. Has imaging and behav. assays and anatomy. Want to ask qus can't ask in current state. Could use this as a way to assess OBI. Kevin representing what vendors are doing. Vendors also want to see value prior to commitment.  We propose to use the following to do a preliminary grant proposal. Alan we have  triple store at science commons for e.g. OBI plus data, could use this during this process for multiple data types. 
+
+* HP offers to do this MO and OBI for some ArrayExpress array data and some text mining of AE  descriptions.
+
+* SS will do this for multi-omic data sets
+
+* SS will do text mining for NMR using OBI as a seed terms
+
+* Gully Burns text mining neuranatomical techniques - text mining.
+
+* Data acquisition, problem as when running production
+
+* Biosupplynet - all catalogs scraped by Cold Spring Harbor Lab. Press- may be able to interact with that from ProtocolApplication and Instrument branches and Biomaterial for reagents. Has also worked with the PSI vendor community. Alan suggests we need to be proactive and then scrape a vendor(s) site into OBI and work from there.
+
+===Agenda discussion and some time changes===
+# Tuesday AM. Each branch leader will walk us through the OWL file and highlight issues. Should all be in subversion by tomorrow am. All to do that if not uploaded already 
+# Clinical ontology meeting report from Jennifer will now be at @ 2-3pm Tuesday, to allow Barry to be there
+# Dealing with biomaterials, or other things,  that are outputs of processes. BS and AR want to discuss this on Weds am.
+# Development of implementation examples esp. e.g. with MAGE/MAGETAB. 3pm Tues PM. Lots of ambiguity there and unresolved problems. We will identify examples that we need based on Bill's neuroimaging.
+# Defined terms process to get us into OBO foundy, also needs to be Weds am.
+# Agenda for data transformation workshop stays at 4pm Thursday slot.
+
+Also, we should have 15 minutes that covers what Protege 4's status is, and what it looks like.
+
+===Agenda Item. Using OBI for real based on Matt's email===
+
+Based on email from Matt Pocock sent to obi-dev. His email can be read here: http://sourceforge.net/mailarchive/message.php?msg_name=200707091513.52789.matthew.pocock%40ncl.ac.uk 3 OBI tiers, 1 extra layer which is used to annotate with. Discussion on whether instances/individuals should be in OBI. Seems not, this is what the lab is annotating. When look at OBI core BFO is top tier, top 2-3 levels general terms, is second tier, hide BFO classes from consumers. Third tier get the whole file dynamically. Users using OBI might then want to send terms from their own 4th tier OWL file. Who are the users? Developers for data integration? Or biologists. Bioportal is a way to provide access for ontologists and in future build graphs etc. Problems with adding BIRNLEX, don't want it indexed in this way so is linked via SF instead. BIRNLEX imports OBI, and now OBI is now on the portal. If have parts of ontologies then the bioportal doesn't work for OBI as we have so many imports. Question of whether this is relevant for OBI. Do we want people browsing OBI. We need to identify these cases and decide how impact development. Seems we need both and we need to follow up this with OBO - Daniel Rubin needs to be contacted about this. 
+AA. Bill Bug will provide details for us to contact Daniel/Bioportal to solve this problems.
+AA. Get the plugin and test OBO format ouput, might solve this problem, though this sub optimal solution for some people.
+
+Conclusion on agenda item. 
+# We need a single file for some users, some will want parts. 
+# We need to meet all these needs
+# This is also a selling point confirmed by Programme officers meeting.
+# We need to do this automatically from subversion at commit on each branch.
