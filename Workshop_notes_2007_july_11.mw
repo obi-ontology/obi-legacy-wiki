@@ -1,4 +1,3 @@
-
 ===Artefact_object discussion===
 
 Frank Gibson joins by phone
@@ -14,7 +13,7 @@ BS:where cardinal part of?
 AR:under object
 CS:we eliminated device
 BS:I want to avoid biomaterial having siblings at a lower level
-  AR:I want to get rid of biomaterial and push the kids up
+AR:I want to get rid of biomaterial and push the kids up
 RS:I don't know why instrument and biomaterial entity are at different levels
 CS:lets bring Frank up to speed. We went through instrument and id classes that were not useful. Having less subclassing is helpful for annotation use case. Artefact object is not helping and there is overlap with biomaterial in the current definition. Unless we found a driving need for a class that is organising children below, this affected artefact, device and perhaps biomaterial entity. 
 AR:Also reasoning, want there to be inferences for assertion for subclasses and if editing a paper less is more, if remove something and it's just as good, then you didn't need it
