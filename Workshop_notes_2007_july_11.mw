@@ -1,6 +1,56 @@
 __FORCETOC__
-
 ==Possible agenda items==
+
+===Artefact_object discussion===
+
+Frank Gibson joins by phone
+
+Problem: Consensus to avoid creating classes unless there was a need for them. Having less subclassing is helpful for annotation use case. Artefact object is not helping and there is overlap with biomaterial in the current definition. 
+
+BS:Need a place for instruments
+AR:under object
+BS:where cardinal part of?
+AR:under object
+CS:we eliminated device
+BS:I want to avoid biomaterial having siblings at a lower level
+AR:I want to get rid of biomaterial and push the kids up
+RS:I don't know why instrument and biomaterial entity are at different levels
+CS:lets bring Frank up to speed. We went through instrument and id classes that were not useful. Having less subclassing is helpful for annotation use case. Artefact object is not helping and there is overlap with biomaterial in the current definition. Unless we found a driving need for a class that is organising children below, this affected artefact, device and perhaps biomaterial entity. 
+AR:Also reasoning, want there to be inferences for assertion for subclasses and if editing a paper less is more, if remove something and it's just as good, then you didn't need it
+FG:I wanted to make this disjoint with biomaterial, wasn't a device or an instrument, were thinking about 
+HP:we can have cases of biomaterial that are synthetic
+FG:problem with the definition of biomaterial
+AR:agree
+We check the definition of biomaterial_entity
+BP:We talked about this definition during the call, hard to get a good definition, it's not perfect
+JF:we have a lot of things under biomaterial class, my understanding is that we want to refer to some of the entities but not as a biomaterial entity in all cases
+AR:what's a biomaterial entity, what's the use case for that
+JF:in mage was a sample for microarray
+HP:we can make our own definitions here
+RS:could be replaced with role.
+CS:in several other branches we don't have a clear measurement of separating them, we were going to let these sort themselves out, would be apparent which belong together based on definitions.
+FG:Issue is that dealing with mult branch under object, if 2-3 branches are merging that won't work
+AR:Chris you had an idea of what's natural vs unnatural, move all non natural things under artefact object
+FG:Of biological origin, things that occur in nature. Or could refer as a biological substance.
+CC:non biologic vs biologic and natural vs unnatural cut across
+LF:if we get rid of biomaterial and artefact we need to keep these containers. We can reclassify these
+AR:I thought we said just making a list shorter is not a good reason to add a class
+FG:I suggest two ways - things that are natural/manmade, or what you mean by biology - and everything else isn't
+AR:If I had to vote would choose man made vs. natural
+CS:Thinking about branches - we have a biomaterial and instrument, have these as they have been useful organising principle. May want to continue to work in that way.
+FG:There are more objects than material and instrument
+BS:list them:
+FG:polacrylamide gel
+CS:is material that is not biomaterial
+RS:organism is a portion of biomaterial
+CS:why 'portion of'
+BS:bad to use mass terms, hence use of portion. e.g. bad to have tissue and tooth, blood, bone, convert mass nouns to count nouns by using portion_of
+AR:does everyone get the distinction between mass and count nouns.
+
+
+
+
+
 
 1. Inferring hierarchies worked example e.g. Instrument?
 
@@ -16,6 +66,7 @@ __FORCETOC__
 
 7. Revisiting other agenda items suggested Monday pm.
 
-8. artifact_object discussion - defer till Frank is available?
+
+
 
 9. Flagging items that are unclassified consistently
