@@ -30,7 +30,7 @@ AM
 ** Point of meeting
 ** Topics to be covered Monday AM
 ** ''presentation:''
-*** [Image:InfoOnOBI.ppt Informational meeting on OBI Welcome, MGED/FuGE, and discussion points]
+*** [[Image:InfoOnOBI.ppt]]: Informational meeting on OBI Welcome, MGED/FuGE, and discussion points.
 * 10:10 AM - 10:40 AM - Overview of the Ontology of Biomedical Investigation (OBI)
 ** '''Bill Bug'''
 ** ''presentation:''
@@ -43,7 +43,7 @@ AM
 *** [http://fuge.sourceforge.net/ Functional Genomics Expression (FuGE) Schema]
 ** '''Susanna-Assunta Sansone'''
 *** ''presentation:''
-**** [InfoOnMIBBI.ppt Information describing the MIBBI Project]
+**** [[InfoOnMIBBI.ppt]]: Information describing the MIBBI Project
 *** [http://mibbi.sourceforge.net/ Minimal Information for Biological and Biomedical Investigations (MIBBI)] 
 
 
