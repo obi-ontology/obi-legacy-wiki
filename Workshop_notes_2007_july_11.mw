@@ -354,14 +354,14 @@ BF:OCI usage, we will be part like any other community, acronym is to facilitate
 
 Chromium release assay [[https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay]]
 There could be an overarching protocolapplication, and there are clear sub protocols. There are some shared component. Same in biomaterial, you can always make things smaller dimishing returns. If leave intact then hard to classify these high level things. Do want to make them granular to do classification. Separation of material, pooling, combining, sep. materials, incubating etc. Material separation works well, pooling harder as often get a transformation. Not resolved in y'days discussion, progressed to:
-
+<pre>
 %material_combination
  % admin_substance_to_cell_culture
  % admin_substance_in_vivo
  % material_pooling
  % sample_treatment_with_reagent
  % combination_of_sampling
-
+</pre>
 Tried to make a series of components that are generic, partly suceeded.
 
 Chromium release assay (CRA) measures killing of the cell
@@ -371,8 +371,10 @@ RS:material_treatment - e.g. with an interleukin, with another cell, would be pa
 
 <pre>
 %assay
-  %chromium_release_assay 
-  %ELISA
+ %chromium_release_assay 
+ %material_portioning
+ %material_combination 
+  %cell_chromium_labeling (has_input_cell, has_input_label, has_output labelled_cell, )
 %roles
  %effector_role
  %chromium_release_assay_target_role
@@ -386,7 +388,8 @@ RS:material_treatment - e.g. with an interleukin, with another cell, would be pa
    %EBV_transformed_cell (should be in the CTO)
    %medium
 ChEBI_objects
-   %triton_x100 (should be in Chebi)
+   %triton_x100 (should be in ChEBI)
+   %chromium_51 (should be in ChEBI) (has_quality radioactive)
 %instrument
  %gamma_counter
  %centrifuge
@@ -395,6 +398,11 @@ ChEBI_objects
  %incubator
  %polystyrene_tubes   
  %paper_filter 
+ %filtration_device (generates no data)
+%OBI_quality (sibling of PATO quality)
+ %radioactive
+ %!labelled (if we add this is saying same thing mult. ways and is redundant. Role confers this!
+
 
 </pre>
 
