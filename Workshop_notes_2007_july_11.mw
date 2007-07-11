@@ -303,6 +303,7 @@ E.g. Study design qualifier: randomized
 <b>Consensus: we can have qualities in OBI
 
 AA:All branch editors to identify qualifiers and submit
+
 AA:All relations in protocol application e.g. to be submitted to the relation ontology - Liju</b>
 
 ===6. Dealing with common object properties <i>lot number</i>, etc that apply to instrument/material===
@@ -328,11 +329,18 @@ BP:we can have a purchased object as a class, purchased from, purchased by, then
 BS:purchased by is too granular. From OBI if people want to create children beneath 'lot' type then they can. 
 AR:there is no class called lot. It's like high
 
-<b>Summary of Discussion</b> on whether lots belong in OBI or in OM, suggestion that Alan is biased as he's from semantic web and he's therefore overloading the ontology. If batch is an individual or a class, and what the consequences are for the ontology. There have been many suggestions, add a class for each lot (AR) use annotation properties (LF)  exclude this info and put in a database (GF). Kevin provides some examples of tests that are used to qc lots. From pharma there is variability and need to be able to model that if important for your experiment. 
+<b>Summary of Discussion</b> on whether lots belong in OBI or in OM, suggestion that Alan is biased as he's from semantic web and he's therefore overloading the ontology. If batch is an individual or a class, and what the consequences are for the ontology. There have been many suggestions, add a class for each lot (AR) use annotation properties (LF)  exclude this info and put in a database (GF). Kevin provides some examples of tests that are used to qc lots. From pharma there is variability and need to be able to model that if important for your experiment. Lot is proxy_for some qc that has been done. AR:is_proxy_for wasn't meant for that, was a physical thing, proxy for a physical thing. GF: We want to have a lot no, we need a term for that thing, not nec. a relation.
 
+BS:Proposal, we know we can have defined classes, can be on basis of something arbitrary. We tell users that they can create defined classes of lot membership. Treatment will be same as parent classes, definition is in the hands of the users. 
+CS:How do we tell users of OBI? Where do we put it in OBI?
+BS:Docs will have that. 
+BP:Haven't answered CS question, could build a class, acquired from
+AR:decide if classes or not classes. Can't see much argument that they are not classes
+HP:personal comment, that is not my view on what the consensus is at all
 
 
 <b>Question on if we need all reagents from all manufacturers in OBI - not yet resolved</b>
+
 
 
 
