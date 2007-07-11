@@ -211,6 +211,11 @@ BP:GF is saying that we have to know what we want, we need to know what we need 
 GF:I heard post coordination yesterday, this has a different meaning
 PFS:I want to do classification
 DS:There are ontology design patterns e.g. normalization. The example provided was a kind of design pattern. 
+Refs:  
+* [[http://www.w3.org/TR/owl-guide]]
+* "Untangling Taxonomies and Relationships: personal and Practical Problems in Loosely Coupled Development of Large Ontologies", Alan L. Rector, Chris Wroe, Jeremy Rogers and Angus Roberts. K-CAP 2001
+* "Modularisation of Domain Ontologies Implemented in Description Logics and related formalisms including OWL", Alan L. Rector. K-CAP 2003
+* [[http://www.co-ode.org/resources/tutorials/bio/]]
 
 ===3. Use of inter branch relations esp. between protocol/protocol application, clarification of scope===
 
