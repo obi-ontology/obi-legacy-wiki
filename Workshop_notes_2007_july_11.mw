@@ -201,21 +201,45 @@ Conclusions:
 
 
 
-2. Inferring hierarchies worked example e.g. Instrument for e.g.?
+==2. Inferring hierarchies worked example e.g. Instrument for e.g.?==
 
-3. Use of inter branch relations esp. between protocol/protocol application, clarification of scope
+===Discussion===
 
-4. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.
+GF: if we want an inferred heirarchy need classes that will serve as bins for these inferred classes.
+AR:these are the defined classes, all named, given a def, and inserted correctly.
+Example: placebo, case control, randomised_trial. If drug plays role of placebo, infer placebo study. Classes added in test owl file to infer placebo_study, and case_control
+<pre>
+%portion_of_chemical
+ %portion_of_aspirin (has_role_drug)
+ %portion_of_chalk (has_role placebo)
 
-5. OBI only qualities  - experimental only?
+%study (utilizes some portion of chemical, has role some placebo and utilizes some portion of chemical and has role some drug)
 
-6. Dealing with common object properties lot, etc that apply to instrument/material
+%role
+ %drug_role
+ %placebo_role
+ %subject_role
+ %control_role
 
-7. Exploring granularity with worked examples e.g. ProtocolApplication
+%defined class container
+ %placebo_study
+ %case_control_study
+ %longitudinal_study
+ 
+</pre>
+==3. Use of inter branch relations esp. between protocol/protocol application, clarification of scope==
 
-8. Revisiting other agenda items suggested Monday pm.
+==4. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.==
 
-9. Flagging items that are unclassified consistently
+==5. OBI only qualities  - experimental only?==
+
+==6. Dealing with common object properties lot, etc that apply to instrument/material==
+
+==7. Exploring granularity with worked examples e.g. ProtocolApplication==
+
+==8. Revisiting other agenda items suggested Monday pm.==
+
+==9. Flagging items that are unclassified consistently==
 
 10. Once terms are submitted to external resources, e.g. PATO, CO, and included in these ontology, how do we ‘import’ these (and only these terms, not the all ontology) into OBI?
 
