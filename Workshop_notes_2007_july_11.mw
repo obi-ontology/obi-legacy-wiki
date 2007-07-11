@@ -229,7 +229,7 @@ BS:can't see a problem, output of protocol appl can be either
 AR:can only define inputs in terms of plan not PA
 CS:useful to capture in OWL file and adding restrictions
 BS:OBI needs to choose, be an ontology of normal successfl biomedical investigations, or include the broken ones where it PA stops, etc. Then we can't formulate many axioms. We cna have protocol is realized by PA. Can't have has_output Data in this case as might stop where something fails. May subclass into successful vs. failed, and get many axioms for the  successful. Or have a qualifier that 'usually yields output x). 
-<b>We decide to deal with the cases which are 'completed' and presumably successful
+<b>We decide to deal with the cases which are 'completed' and presumably successful</n>
 CC:Say a broken protocol application is not a protocolapplication. ProtocolAppl is therefor  e defined as completed execuation of the plan. All have some output. 
 
 Two properties added to OWL file 'is_realized_as' 'realized_as'
