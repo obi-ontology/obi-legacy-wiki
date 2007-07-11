@@ -233,15 +233,107 @@ BS:OBI needs to choose, be an ontology of normal successfl biomedical investigat
 CC:Say a broken protocol application is not a protocolapplication. ProtocolAppl is therefor  e defined as completed execuation of the plan. All have some output. 
 
 Two properties added to OWL file 'is_realized_as' 'realized_as'
-<b>Problem in OWL file plan is not a realizable_entity any more, and it needs to be </b.
-<b>BS: dependent continuant should be divided into qualities and realizables</b>
-<b>
+Problem in OWL file plan is not a realizable_entity any more, and it needs to be 
+BS: dependent continuant should be divided into qualities and realizables
+One of action items from last week, was to divide dependent continuants, into two types, was a step forward, but now we have problems. 
+BS:Plans that are published, to realize them, you need to read and then plan is spec. dep continuant instantiated in the brain. Realizables are all under specifically dep. cont. No kids on BFO as likely children (information objects) are outside realm of BFO, no people in BFO.
+
+<b>AA:
+
+BP:There are some other problems that need resolving e.g. digital entity.
+ 
+We need to plan for updating to BFO 1.1, Barry assumed that we had. Added generically dep. cont but are no 'realizable gen. dep. cont'
+
+The following changes have been made by Alan need cross checking vs these notes:
+
+* add plan child of realizable_entity - agreed
+* name realizable_entity to be relalizable specifically_dependent_continuant -agreed
+* rename dependent_continuant, specifically_dependent_continuant -agreed
+* rename old plan to be information_entity, protocol will be a child - needs to be fixed acc name and placement acc. to BS - agreed
+* BS suggests only child of generically_dependent_continuant will be information_entity - not agreed
+* BS: Suggestion for 'concretized_protocol' to be the name of the protocol that someone has an intent to execute. Need to cover a range of cases, protocols are published by nature, and these are distinct from cases that are intended to be executed. Needs a definition.
+
+Roman Ingarden:  'Literary work of art' citation for relation. 
+"             :  'Borderline cases of the Literary work of art citation for plan
+
+
+<i>ProtocolAppl is the realization of an instantiated_protocol - an instantiated protocol is concretization_of protocol where concretization has a specific individual as the bearer, but generic protocol doesn't have a bearer.</i>
+
+Axiom: 'very PA involves a concretized_protocol, every concretized_protocol has a bearer possesor of some role describing the person that concretized it.'
+
+'every concretized_protocol has_input, has_output'
+
+BS:concretization is about context and person related gaps in the protocol.
+
+BP:protocol for DNA purification, input is sample, otutput is DNA. We wanted to specify intended input and output. Generically dependent continuant has a specification for an input and output, doesn't have an input and output.
+
+GF/AL:could just have an instantiation of protocol with input and output not protocol application, one or the other, do we need both?
+
+AR:need in OWL need to be able to specify in a single place, and have it be propagated. 
+
+CS:would not be useful except at level of the ProtocolApplication only for my applications
+ for annotation. 
+
+<b>Some agreement that there is a need for these 3 levels of protocol, not yet a consensus on where input and output should be.</b>
+
+BP:Remembering problem, we were unhappy with intent in PA, now all PA is tied to plan and protocol and we can now then say what the roles are the level of the PA. Intent always comes now with plan/protocol.
+
+AR:may need in more places than just PA
+
+GF:protocol/pa has same types of things, problem with people needing annotation. Something will instantiate, this is the PA that you will instantiate. 
+
+AL:need to find the place where users are more comfortable.
+
+BP:do we still have a problem. We need just to decide where it goes, and help people find it. We don't want to duplicate anything. Process will have the most detail, put it there.
+
+<b>Consensus: Inputs and outputs etc go on PA at the lowest of the 3 levels we have created</b>
+
 
 ===4. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.===
 
 ===5. OBI only qualities - experimental only e.g. for qualities of instrument===
 
-===6. Dealing with common object properties lot no, etc that apply to instrument/material===
+BS:should be some OBI specific qualities if these are needed. We can't come up with good examples for instrument, are related to experimentally created biomaterials. 
+
+E.g. purified is a quality that is not in nature. 
+
+E.g. Study design qualifier: randomized 
+
+<b>Consensus: we can have qualities in OBI
+
+AA:All branch editors to identify qualifiers and submit
+AA:All relations in protocol application e.g. to be submitted to the relation ontology - Liju
+<b>
+===6. Dealing with common object properties <i>lot number</i>, etc that apply to instrument/material===
+
+Stuff is different lot to lot, AR wants as a different type in this case, BP:thinks can be an object property. 
+BP:Lot no doesn't deal with an ontology. Need a way to track instances of types outside OBI
+AR:Stuff is different enough worry is a different substance each time, not simply tracking
+BS:can we decribe the nature of the difference, or do we just think that lot 1 is different from lot2. 
+GF:This is an individual, not a subtype, needs to be captured in a database. 
+LF:could we use a data type annotation property, we agree, but doesn't address Alan's objection
+BS:there is no generalizable thing that you or we can say that can go into the ontology
+RS:batch, and buy aliquots
+BS:Alan is obviously wrong that these should be in the ontology as classes.
+BP:wanted to model as acquisition, by ab from vendor X, get a PA with it that also has a PA that assigns lot no. Process of acquiring is where the distinction is. 
+JF:We put it in protocolapplication, you can give us the lot no if you want to. 
+BS:you put it in the protocol not the PA.
+AR:type of substance doesn't depend on how you got it
+BS:lot no is not a type, disagree with you.
+GF:I get an idea but it's not clear what you want. It seemed for each lot you want a new class in the terminology. I could see creating a set of classes that describe lots, but the lots themselves are individuals. You are describing a class of one. 
+AL:need something that says 'lot20' as a class, and portion of material would reference that. 
+HP:suggest we take it to a vote.
+BP:we can have a purchased object as a class, purchased from, purchased by, then infer a class under foetal calf serum
+BS:purchased by is too granular. From OBI if people want to create children beneath 'lot' type then they can. 
+AR:there is no class called lot. It's like high.
+
+
+
+
+
+
+
+
 
 ===7. Exploring granularity with worked examples e.g. ProtocolApplication===
 
