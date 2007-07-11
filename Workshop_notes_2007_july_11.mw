@@ -191,23 +191,13 @@ Conclusions:
 * BS thinks that man-made object will not work based on experience based on man made object, doesn't want to mess up what we have on what's a bad idea. Agreement for that. Also doesn't want physical/chemical at top, as don't know an e.g, of non physical/chemical objects and therefore is redundant.
 
 
-
-
-
-
-
-
-
-
-
-
-==2. Inferring hierarchies worked example e.g. Instrument for e.g.?==
+==2. Inferring hierarchies worked example from plan branch==
 
 ===Discussion===
 
-GF: if we want an inferred heirarchy need classes that will serve as bins for these inferred classes.
+GF: if we want an inferred hierarchy need classes that will serve as bins for these inferred classes.
 AR:these are the defined classes, all named, given a def, and inserted correctly.
-Example: placebo, case control, randomised_trial. If drug plays role of placebo, infer placebo study. Classes added in test owl file to infer placebo_study, and case_control
+Example: placebo, case control, randomized_trial. If drug plays role of placebo, infer placebo study. Classes added in test owl file to infer placebo_study, and case_control
 <pre>
 %portion_of_chemical
  %portion_of_aspirin (has_role_drug)
@@ -221,7 +211,10 @@ Example: placebo, case control, randomised_trial. If drug plays role of placebo,
  %subject_role
  %control_role
 
-%defined class container
+%Person
+%Population_of_person
+
+%defined_class_container
  %placebo_study
  %case_control_study
  %longitudinal_study
