@@ -252,10 +252,10 @@ The following changes have been made by Alan need cross checking vs these notes:
 * rename old plan to be information_entity, protocol will be a child - needs to be fixed acc name and placement acc. to BS - agreed
 * BS suggests only child of generically_dependent_continuant will be information_entity - not agreed
 * BS: Suggestion for 'concretized_protocol' to be the name of the protocol that someone has an intent to execute. Need to cover a range of cases, protocols are published by nature, and these are distinct from cases that are intended to be executed. Needs a definition.
-
+Citations:
 Roman Ingarden:  'Literary work of art' citation for relation. 
 "             :  'Borderline cases of the Literary work of art citation for plan
-
+</b>
 
 <i>ProtocolAppl is the realization of an instantiated_protocol - an instantiated protocol is concretization_of protocol where concretization has a specific individual as the bearer, but generic protocol doesn't have a bearer.</i>
 
