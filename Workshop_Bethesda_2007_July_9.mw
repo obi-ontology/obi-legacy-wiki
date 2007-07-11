@@ -26,12 +26,14 @@ AM
 * Location: ''Natcher Delegate Room D''
 * Meeting with NIH Program Directors
 * 10:00 AM - 10:10 AM - Welcome
-** ''Chris Stoeckert''
+** '''Chris Stoeckert'''
 ** Point of meeting
 ** Topics to be covered Monday AM
+** ''presentation:'' [[Image:InfoOnOBI.ppt]] Informational meeting on OBI Welcome, MGED/FuGE, and discussion points.
 * 10:10 AM - 10:40 AM - Overview of the Ontology of Biomedical Investigation (OBI)
-** ''Bill Bug''
-** What is OBI, who is involved, how is it being developed, etc.
+** '''Bill Bug'''
+** ''presentations:''
+*** [http://purl.org/nbirn/birnlex/other/OBI-corev2-forOBImtg-july2007-BB-001.ppt What is OBI, who is involved, how is it being developed, etc.]
 * 10:40 AM - 11:00 AM - Discussion
 ** Are there other communities efforts that should be involved in OBI?
 * 11:00 - 11:40 AM - How does OBI relate to other standards efforts?
