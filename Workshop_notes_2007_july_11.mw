@@ -96,7 +96,7 @@ AR:buffer is manmade
 BP:can define also how made it e.g. cell culture is biomaterial/material?
 BS:we need a third axis, biological_unit - include cell, organism
 BP:cell culture? BS: Is an object agregate
-BS:all in OBI will be unit instrument, parts of the unit screws in instrument, agregates -
+BS:all in OBI will be unit instrument, parts of the unit screws in instrument, agregates
  platform. Material and biomaterial are non units, they are a continuum
 RS:simpler e.g. a cell can be a portion of organ, or an ob aggregate in cell culture
 BS:cells and cell cultures worth persuing the idea that these are portions of biomaterial. Organism is a portion of material.
