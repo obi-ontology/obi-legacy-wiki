@@ -370,12 +370,12 @@ RS:material_treatment - e.g. with an interleukin, with another cell, would be pa
 *insert image*
 GF:defining cell chromium labelling, wondering if should be defining the parent class, would we be using for annotation on admin a substance for a template on the child cell chromium labelling
 BP:good question, we have not decided. Could have higher level classes and people define their own
-HP:request that do the most common cases first
+HP:request that do the most common cases first.
 
 <pre>
 %assay
-   %chromium_release_assay ()
- %material_separation (has input min only 1, has output min 2 *can't say in OWL these outputs have new properties)
+   %chromium_release_assay (has_input some_independent_continuant, has_output some data_object is_proxy_for some quality of radioactive *defining property)
+ %material_separation (has input min only 1, has output min 2)
    %separation_based_on_quality 
      %separation_based_on_size (input some material, output_some material) 
  %material_portioning
@@ -419,7 +419,7 @@ ChEBI_objects
 <b>note could have made cell labelling with has input some thing, has role label instead</b> 
 <b>AA:Alan to add Quality branch to dependent branch</b>
 <b>AA:add duration to all process</b>
-
+<b>GF to explain to AR about assn of qualities in a class definition e.g. two out put materials have new properties</b>
 ===8. Revisiting other agenda items suggested Monday pm.===
 
 ===9. Flagging items that are unclassified consistently===
