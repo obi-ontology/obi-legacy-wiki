@@ -70,7 +70,7 @@ AR:everything has a function ac to current definition
 BS:needs fixing
 BP:could have utilizes instrument, to produce outputs from inputs - doesn't apply to heart or to portion of material. Doesn't apply to heart. BP and BS agree
 CS:not clear what's driving the discussion, other than trying to come up with a way to split
-CS:current way treat objects is mess, converstion -> clarity. Frank has a point we need something other than biomaterial. Shouldnt put a special case for gels, as we would get an explosion. Gels annotate to portion of material, cow parts to portion of biomaterial
+CS:current way treat objects is mess. Frank has a point we need something other than biomaterial. Shouldnt put a special case for gels, as we would get an explosion. Gels annotate to portion of material, cow parts to portion of biomaterial
 CS:we put gels and cows under portion of material and instrument under equipment
 FG;equipment is a role, it is a device
 BS:don't like equipment? could substitute device 
@@ -85,13 +85,13 @@ BS:what are the examples?
 RS:pipette, test tube, - child of device. Consumable not a good synonym, as includes material.
 BP:test tube and buffer are better e.g.
 AR:problem with growth medium - it's a mixture - some biomaterial plus some non biomater. Ob agg also a problem
-AR:if we have liquid chem soln as a class, and child is DNA and salt in soln, DNA might be biomaterial
+AR:if we have liquid chem solution as a class, and child is DNA and salt in soln, DNA might be biomaterial
 BS:leather strap has a function, is a device not a biomaterial
 AL:of you chop up leather straps, then is a biomaterial. Can sintrument be a role
 BS:no, 2 kinds of things used as instruments, e.g. using Alan as a door stop
 BP:if we create one branch fr physical chem properties of matter, then soln has cells in serum will cause probs
 BS:!BJOERN BEING TOO PHILOSOPHICAL NOW! - OBI is for annotating data (pots and kettles)
-AR:all devices are man made. If use a non man made thing as an instrument this is playing a ole, not an is-a instrument
+AR:all devices are man made. If use a non man made thing as an instrument this is playing a role, not an is-a instrument
 AR:could you split all man made devices?
 BP:define what you have, can be bio or non bio. 
 AR:buffer is manmade
