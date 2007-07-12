@@ -17,7 +17,7 @@ done/changed'')
 
 {| border="1"
 |+ '''Latest Branch Terms'''
-! Terms to be defined !! Working versions !! Final list of terms, definitions, examples/children!!
+! Terms to be defined !! Working versions !! Final list of terms, definitions, examples/children!! Combined list for Protege!!
 |-
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June07.xls Post 1 June 2007 - GROUP 1 AR BP]
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G1_post_01June08_AR_BP.xls AR and BP working version]
@@ -35,7 +35,11 @@ done/changed'')
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07.xls Post 1 June 2007 - GROUP 4 SAS]
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_post_01June07_SAS.xls SAS working version]
 | [http://www.ebi.ac.uk/~sansone/FuGO/biobranch_G4_final_terms_SAS.xls SAS final]
+|-
+| [http://www.ebi.ac.uk/~sansone/FuGO/?? July 5 2007 - COMBINED]
 |}
+
+
 <br/>
 Term list which will be moved into OWL file: https://wiki.cbil.upenn.edu/obiwiki/images/e/e5/Biobranch_Combined.xls 
 <br>
