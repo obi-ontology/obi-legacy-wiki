@@ -1,11 +1,57 @@
 ==Agenda Items carried over from Wednesday==
 
-===8. Revisiting other agenda items suggested Monday pm.===
+===8. Revisiting other agenda items suggested Monday pm to decide what to do===
+
+* Env ontology discussion. Suzi Lewis has posted a response re: Michael Ashburners GEO project.
+SS reports that Dawn Field is organising a workshop for Env ontology in August. 
+JF:I recall was including lab or experimental env that obi needs. Need to be clear if the lab env will be part of the env. ontology or as part of them working with OBI. Dawn Field is part of OBI
+CS:We need field isolates e.g. for parasites, we will need what they cover.
+
+<b>AA:Susanna to communicate the above and feedback</b>
+
+
+* Liju, are we going to reserve some time to go over terms in each branch
+HP:We will not have time to do that, too many
+CS:If there are questions about terms, suggest raise them, need to trust the branches. Expect people to go through the branches if they want to. We could set aside problem terms
+HP:we need to address flagging unclassified terms consistently before we can do that
+
+* How to link to the external ontologies, Bill identified has a way to do that in BIRNLEX. Would be good to have him show that, today
+
+JM:Not sure if you can import a subset of an OWL ontology, one way round is to create a local subset and import that as a 'view'
+
+<b>AA:Allyson emails Bill to ask for a summary of how OBI should address point 10 below.</b>
 
 ===9. Flagging items that are unclassified consistently===
 
-===10. Once terms are submitted to external resources, e.g. PATO, CO,how do we ‘import’ subsets of external ontologies into OBI===
+We check vs. previous meta data terms we noted some to be added.
 
-===11. SOP for ontology development, PDF Trish sent===
+Placeholder till something can be referred out to belong in some external ontologies
+Placeholder for a set of collected terms.
+
+CS:under curation status there are a list of terms 
+
+JM:'temporary class' ?
+AL:want to make a difference between things that will be referred out to other ontologies.
+we add a new meta data 'awaiting external mapping' These have been added to the wiki by AL.
+CS:if editors want to not classify terms under an existing class, they should them hanging free under their branch root.
+BP:would prefer a to put in a holding class as James suggested
+CS:if we have a consistent temp class that would be fine
+BP:Should it be Protocol_Application_temporary
+LF:there's a string search can find anything you want to.
+
+AA:All branches to add branchname_temporary and use it consistently. This class will not need to have any meta data annotation as this doesn't merit it.
+
+
+===10. Once terms are submitted to external resources, e.g. PATO, CO,how do we ‘import’ or 
+reference subsets of external ontologies into OBI===
+
+Bill will be joining at 11.30
+
+===11. SOP for ontology development, PDF Trish sent=== 
+
+
+
 
 ===12. suggestion to do some work on experiment design, goal, etc beginning to end example suggested by Kevin and Alan===
+
+[[ExperimentWorkedExample]]
