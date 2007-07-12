@@ -270,7 +270,7 @@ AR:Propose all our open mailing lists should be indexed by google. Alan has alre
 BB:in terms of minutes for calls. You can run a internet relay chat system along with a conference call. Would take the burden of keeping minutes.
 CS:call costs are 200-225 USD per week. We told the MGED board, this is OK, we might look for a cheaper call in system, this may not be permanent
 SS:EBI has a number, but there is a local call no, each would pay a local call, MGED would not then pay
-GF:In MO calls we used NCI, these are non standing telecons, each person must be called by an operator. Skype is not allowed in NIH, I kept pushing, seems can get a waiver, there's a catch 22 
+GF:In MO calls we used NCI, these are non standing telecons, each person must be called by an operator. Skype is not allowed in NIH.
 
 <b>Options</b>
 * conference calling is expensive, we may need to find an alternative
@@ -278,14 +278,50 @@ GF:In MO calls we used NCI, these are non standing telecons, each person must be
 * centra supports VOIP, we could test. Small delay only. Linux unsupported.
 * EBI has a system, is not toll free for call in, but Susanna will check if these are local nos for all.
 
-
-
-
-
-
-
-
-
 ===16. Stable set of core OBI or at least terms/def (that can be used asap) ===
+
+SS:I need a set of terms now, to annotate things that need to be done now. Clean, defined. When will we have that
+BP:we already trying to be future proof, is there a stable subset
+HP:Want to keep milestones in sight and we should add these asap age for this
+<b>AR:suggest put a term in, not sure there's a good parent, add them in quickly into unclassified bin the queue is there, not on a sheet<.b>
+SS:want to have them go through the workflow really.
+AR:think all terms there will stay, suggest that we do this more aggresively not worry about the h'archy.
+PRS:is there a risk that we don't do the review we will pollute the h'archy. 
+RS:we need to come up with an aggresive time line for OBI core version.
+AR:terms and the h'archy equal for you?
+CS:this is a pipedream. We need to do it right.
+RS: I want a quality core, that comes before speed
+JM:Bill mentioned that, you'll get one chance to get it right
+BP:we never going to know until we apply it. Disagree with JM. We could have an internal stable version
+BB:I want to be clear, I agree with everyone, those who are using and developing of part of OBI take it on as a liability in the interim as an internal unstable version
+CS:what does that mean for a public release
+PRS:want to go back to Kevin's use case today and see if it works, of it doesn't then we have a lot to do today
+AR:more frequent releases, and qualify stable for each release
+BP:stable but usable, need an agressive timeline that we acknowledge
+JM:we are not in complete disagreement, people will complain if it doesn't work
+
+Some agreement for an alpha public version asap
+
+GF:Susanna is looking for more than that, terms and codes, I can go with that
+HP:I think we are now getting into milestones.
+*BB:proposes 2 layer down from OBI ready. Several people agree that this is useful.
+BB:even top layers are alpha, but we are closer
+
+Milestone 1
+
+Release in which many terms, not nec. correctly placed, ids won't change, placement will
+
+Milestone 2
+
+Release in which we have 2 levels down from branch stubs and we are happy with this
+
+
+
+<b>
+
+
+
+
+
 
 ===17. NSF proposal details from Alan===
