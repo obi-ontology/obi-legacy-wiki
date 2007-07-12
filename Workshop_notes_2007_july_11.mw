@@ -258,10 +258,15 @@ Roman Ingarden:  'Literary work of art' citation for relation.
 
 <i>ProtocolAppl is the realization of an instantiated_protocol - an instantiated protocol is concretization_of protocol where concretization has a specific individual as the bearer, but generic protocol doesn't have a bearer.</i>
 
-Axiom: 'very PA involves a concretized_protocol, every concretized_protocol has a bearer possesor of some role describing the person that concretized it.'
+Axiom: 'every PA involves a concretized_protocol, every concretized_protocol has a bearer possesor of some role describing the person that concretized it.'
 
 'every concretized_protocol has_input, has_output'
 
+BS: There are plans which are published (e.g. pdf). But, to realize such a plan someone needs to read it. Then you get a plan which is a specifically dependent continuant which is instatiated in the brain of the person running it. So, you can't realized a generically dependent plan without you yourself being engaged in a specifically dependent plan. 
+BP: Even though there are bot GD and SD plan types, we shouldn't need to bother *showing* the GD one.
+BS: PA is the realization of an concretization_protocol which is the XXX of Protocol. This allows us to say that this PA is an instatiation of Nature Protocol ABC, but we also want to say that this same PA is an instatiation of a Protocol made by Jack that comes from Nature Protocol ABC. <b>We need this three-tier thing as the GD protocol, by definition, does not have a specific individual as a bearer.</b> Then we can have axioms like "every concretized_protocol hasBearer (some possessor of Role Experimenter)".
+
+BS: Concretization is also to specific locales, etc. It gives it a specific context. Inputs/Outputs have to be specified in all three levels. 
 BS:concretization is about context and person related gaps in the protocol.
 
 BP:protocol for DNA purification, input is sample, otutput is DNA. We wanted to specify intended input and output. Generically dependent continuant has a specification for an input and output, doesn't have an input and output.
@@ -284,7 +289,7 @@ AL:need to find the place where users are more comfortable.
 
 BP:do we still have a problem. We need just to decide where it goes, and help people find it. We don't want to duplicate anything. Process will have the most detail, put it there.
 
-<b>Consensus: Inputs and outputs etc go on PA at the lowest of the 3 levels we have created</b>
+<b>Consensus: Inputs and outputs etc go on PA at the lowest of the 3 levels we have created, and don't make specific Plan or concretized plan until it is needed.</b>
 
 
 ===4. Use of roles, identify cases where move something from a current class to a role, provide a worked example of why for future use.===
@@ -293,11 +298,14 @@ BP:do we still have a problem. We need just to decide where it goes, and help pe
 
 BS:should be some OBI specific qualities if these are needed. We can't come up with good examples for instrument, are related to experimentally created biomaterials. 
 
+BS: OBI should have a small set of terms describing instrumental and other experimental qualities.
+Example qualities: randomized, fixed (cell), purified (cell), mounted (cell).
+
 E.g. purified is a quality that is not in nature. 
 
 E.g. Study design qualifier: randomized 
 
-<b>Consensus: we can have qualities in OBI
+<b>Consensus: we can have qualities in OBI. OBI would keep those qualities that don't exist in nature, as natural qualities will be stored in PATO.
 
 AA:All branch editors to identify qualifiers and submit
 
@@ -324,7 +332,15 @@ AL:need something that says 'lot20' as a class, and portion of material would re
 HP:suggest we take it to a vote.
 BP:we can have a purchased object as a class, purchased from, purchased by, then infer a class under foetal calf serum
 BS:purchased by is too granular. From OBI if people want to create children beneath 'lot' type then they can. 
-AR:there is no class called lot. It's like high
+AR:there is no class called lot. 
+BS: Take leaf node "portion of freisian FCS". Then we say if user of obi wants to create further child classes that divide based on lot number, then they are free to do that. 
+CS: Consensus is that we stop at a place where, if you want to use lot number, that's out of the scope of OBI. But as lot number is something that generally must be supplied, so have we failed our community by not providing a standardized terms?
+BS: We already have this problem with Affy machines 3.3, 3.4.
+CS: I buy Array U133, which also comes with a batch number which I also must provide. However, if we go with BS's idea, I don't have a term to properly describe this.
+BS: then we really *must* include these lots/batches as classes.
+RS: The distinction is arbitrary, as you could equally well make the class/individual distinction at aliquot, as sometimes people don't trust aliquots bought months apart. Where do we draw the line?
+AR: I don't like lot number, as it doesn't tell us much, and we can't figure out how to model it in a useful way. We need to decide if they're classes or not classes. In a class definition, I know what the defining properties are (e.g. lot number), which I don't know if they are instances.
+BS: In semantic web, if several instances share the same property, you can create a sharing class.
 
 <b>Summary of Discussion</b> on whether lots belong in OBI or in OM, suggestion that Alan is biased as he's from semantic web and he's therefore overloading the ontology. If batch is an individual or a class, and what the consequences are for the ontology. There have been many suggestions, add a class for each lot (AR) use annotation properties (LF)  exclude this info and put in a database (GF). Kevin provides some examples of tests that are used to qc lots. From pharma there is variability and need to be able to model that if important for your experiment. Lot is proxy_for some qc that has been done. AR:is_proxy_for wasn't meant for that, was a physical thing, proxy for a physical thing. GF: We want to have a lot no, we need a term for that thing, not nec. a relation.
 
@@ -346,6 +362,7 @@ BS:we get an application case in clinical case
 HP:do these terms have definitions?
 JF:yes, and tried to improve so pertain to OBI, but not completed, question was whether OCI  did that or talked to branches. We will do ourselves and send to branches.
 BF:OCI usage, we will be part like any other community, acronym is to facilitate discussion, but no special status in OBI.
+BS: OCI will be part of OBI in the same way as any other branch, but the acronym has no "ontological legal status" (RS: a virtual acronym).
 
 <b>Question on if we need all reagents from all manufacturers in OBI - not yet resolved</b>
 
@@ -421,8 +438,8 @@ ChEBI_objects
 <b>AA:Alan to add Quality branch to dependent branch</b>
 <b>AA:add duration to all process</b>
 <b>GF to explain to AR about assn of qualities in a class definition e.g. two out put materials have new properties</b>
-<b>BP:need a way to order e.g. has_successor
-<b>Need to figure out a way to say an output from one into next
+<b>BP:need a way to order e.g. has_successor</b>
+<b>Need to figure out a way to say an output from one into next</b>
 
 
 
