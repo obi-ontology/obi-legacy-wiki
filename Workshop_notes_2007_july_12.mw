@@ -40,6 +40,10 @@ BP:Should it be Protocol_Application_temporary
 LF:there's a string search can find anything you want to.
 .
 <b>AA:All branches to add branchname_temporary and use it consistently. This class will not need to have any meta data annotation as this doesn't merit it.</b>
+<b>AA:Ask Trish to send the code for making the figure</b>
+<b>Add a new item to SOP for reasoning</b>
+<b>Identified people able to support reasoning : Daniel, James, Alan, Gilberto, Allyson</b>
+
 
 '''DS: The use of only one 'branchname_temporary' helper class per branch might not be enough''' to cover our branches needs. It will force us to overload this with meanings, e.g. as the list above indicates, people might want to have some more specialised helper classes, e.g. a '_refactor_as_relation' 'awaiting external mapping' , '_submit_to_xy_branch' or whatever. It would be nice to give Editors more freedom here. Also the required helper classes are morst probably branch specific as well.  I would suggest to have these on the branch top level/branch root and indicate their status with the underscore prefix. The uinderscore prefix serves as search string(startswith) and also renders helper classes easy visible in the hierarchy. The _underscore is recognized in the hierarchy more easily as when using just a normal looking names like branchname_temporary ("_temporary" postfix). We need to identify needed helper classes (on a branch and on a general level), and what info do we want to see immediately in the hierarchy (and use for browsing), and what info we want to keep via annotation properties (the ones we want to do more fancy querying on). Then later we can review all of these and probably re-formulate as part of some metadata standard.
 
