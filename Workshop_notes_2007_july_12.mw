@@ -65,7 +65,7 @@ RS:Example is NCBI taxonomy, there will be limitations as i shuge
 AR:We could have a meta data property where we add external definition, if we need a local definition we could add it in OBI definition
 BB:there's a synch and maintenance issues
 AR:that can be scripted.
-BB:only problem we've (Birnlex) had is that it's easy to script hard to do as protee plugins
+BB:only problem we've (Birnlex) had is that it's easy to script hard to do as protege plugins
 AR:We need a policy that when other ontologies are up to BFO stds then they will come in
 AL:if we don't have a plug in we could add to the release steps
 BP:note that we are providing infrastructure to link to other ontologies. We need agreement from others where we bring on other things. We should have agreement that SO lives under information object or we will be revising their worlds.
@@ -224,11 +224,43 @@ AA.List of questions that allow you to place a term in the ontology
 
 ===14. Structure in general, branch organisation===
 
+Lead developer for every branch, pool core of developers discussion prompted this agenda item. We have id a pool of core technical developers. Editor-in-chief became branch facilitator. Idea was to be useful to get branches up and running and to help moderate branch cross communication. I did less of more of former and less of latter. Is the role still useful, my efforts could be best spent as an editor and I have offered to join the digital entity role and I don't want to continue as editor in chief
+BP:I can imagine now we will have a need for a faciliator more. 
+GF:Second.
+RS:I expect at some point we need one, defer till then.
 
+<b>Consensus: we temporarily suspended the role of editor in chief until problems arise.</b>?
 
 
 
 ===15. Use of mailing lists, traffic etc===
+
+Mailing list traffic too high, all important, maybe can filter. One would be voting  - wiki voting. Survey monkey is good for organization issues.
+
+HP:suggest that people summarize in emails using bullet points and put it on the wiki if it's long.
+
+AR:suggest that an email editor puts them on the wiki and people get the good stuff that way. Or filter your email properly
+
+BP:One way to do this is to define sub categories of email trackers - term tracker email list, would be great. 
+
+JM:When people want to talk a lot, set up a forum or google group and go read that, or use a tracker
+
+AR:all this will work for the people in the room, what about the others
+
+HP:the job of email editor sucks, I personally will never do that, BP agreed.
+
+<b>Options:
+
+* More lists with policies, e.g. an announce list, low volume high importance - useful for caBIG
+* Groups, or fora with forum editors, caBIG uses this, forums died off, people preferred list serves.
+* Summary of emails on wiki for long threads
+* New technology, allowing google groups to be you on a mailing list
+* Better use of the term tracker or something like GForge
+* Stick to a thread topic
+</b>
+
+
+
 
 ===16. Stable set of core OBI or at least terms/def (that can be used asap) ===
 
