@@ -89,11 +89,13 @@ AL:could you do that? Also have some other bugs
 BB:we need to do more complex entities for OBO, and do I want all of PATO- we BIRNLEX decided to get it all, and we didn't want to deal with automating getting parts of protege, . PATO doesn't add too much. For a while we had used OWL docs for people to do an html version and once added pato we can't generate OWL docs any more. We will use bioportal despite problems.
 BB:we have used a lot of annotation properties in working wit this file. All NCBI tax is a huge file and a lot of meta data in taxonomy. You don't want it as is, we decided to look at the organisms we needed.
 RS:General question, when we bring a namespace, is there only one place that it sits in OBI. Is that true for all OBO foundries
-BB:<b>IT SHOULD BE, not always true</b>. In tax it breaks when you get to strains for e.g. and that needs to tie into taxonomy from strain for e.g. Protege UI is bad for large h'archies. We're dealing with that as a UI issue as NCBI tax so big. We use annotation properties to mark taxons that we need in Birnlex. 
+BB:<b>IT SHOULD BE, not always true</b>. In tax it breaks when you get to strains for e.g. and that needs to tie into taxonomy e.g. Mus musculus from strain for e.g. Protege UI is bad for large h'archies. We're dealing with that as a UI issue as NCBI tax so big. We use annotation properties to mark taxons that we need in Birnlex. 
 
-<b>Summary Bill has a local use ontology with RFO, OBI, PATO,NCBI taxonomy where all of these are imported into his local file. He chose to do that as it was more complex and technically difficult to take parts than live the problems of having huge in built taxonomies. Protege 4 offers more options and a plug in could be created. All OBO foundry ontologies should be located in one place in OBO. Take home, modularize and lean on the reasoner.</b>
+<b>Summary Bill has a local use ontology with RFO, OBI, PATO,NCBI taxonomy where all of these are imported into his local file. This 2 years work. He chose to do that as it was more complex and technically difficult to take parts than live the problems of having huge in built taxonomies. Bill recommends that if in doubt get all. Protege 4 offers more options and a plug in could be created. All OBO foundry ontologies should be located in one place in OBO. Take home, modularize and lean on the reasoner.</b>
 
+<b>GF:at some point might be good to work out whether we want a set of external resources that we want to import and which we want to reference and make a recommendation for branch development</b>
 
+BB:Susanna's workflow has these issues. Susanna agrees useful for biomaterial branch, she described the manual process. For automation e.g. with NCBI tax, find ids for a subset to get what need is use case. Need to be careful about if you want external h'archy as well.
 
 
 ===11. SOP for ontology development, PDF Trish sent=== 
