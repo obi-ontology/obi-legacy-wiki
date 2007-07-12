@@ -91,7 +91,7 @@ BB:we have used a lot of annotation properties in working wit this file. All NCB
 RS:General question, when we bring a namespace, is there only one place that it sits in OBI. Is that true for all OBO foundries
 BB:<b>IT SHOULD BE, not always true</b>. In tax it breaks when you get to strains for e.g. and that needs to tie into taxonomy from strain for e.g. Protege UI is bad for large h'archies. We're dealing with that as a UI issue as NCBI tax so big. We use annotation properties to mark taxons that we need in Birnlex. 
 
-
+<b>Summary Bill has a local use ontology with RFO, OBI, PATO,NCBI taxonomy where all of these are imported into his local file. He chose to do that as it was more complex and technically difficult to take parts than live the problems of having huge in built taxonomies. Protege 4 offers more options and a plug in could be created. All OBO foundry ontologies should be located in one place in OBO. Take home, modularize and lean on the reasoner.</b>
 
 
 
