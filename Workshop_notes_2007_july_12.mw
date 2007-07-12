@@ -47,6 +47,8 @@ LF:there's a string search can find anything you want to.
 
 '''DS: The use of only one 'branchname_temporary' helper class per branch might not be enough''' to cover our branches needs. It will force us to overload this with meanings, e.g. as the list above indicates, people might want to have some more specialised helper classes, e.g. a '_refactor_as_relation' 'awaiting external mapping' , '_submit_to_xy_branch' or whatever. It would be nice to give Editors more freedom here. Also the required helper classes are morst probably branch specific as well.  I would suggest to have these on the branch top level/branch root and indicate their status with the underscore prefix. The uinderscore prefix serves as search string(startswith) and also renders helper classes easy visible in the hierarchy. The _underscore is recognized in the hierarchy more easily as when using just a normal looking names like branchname_temporary ("_temporary" postfix). We need to identify needed helper classes (on a branch and on a general level), and what info do we want to see immediately in the hierarchy (and use for browsing), and what info we want to keep via annotation properties (the ones we want to do more fancy querying on). Then later we can review all of these and probably re-formulate as part of some metadata standard.
 
+
+
 ===10. Referencing, mapping to, or importing (subsets of) external ontologies from/into OBI===
 
 
@@ -93,6 +95,22 @@ Long Discussion whether to model an instance of a hypothesis, or the components 
 We are treading a line between knowledge base and high level modeling, modeling both here as an exercise is seen to have value as we will identify holes in the ontology and 
 
 We proceed with the modeling in OBI, and also summarized on the spreadsheet attached above.
+
+Discussion on relevance of reification. 
+BP: What we've realized is that there is a strong need for certain communities to be able to make contradictory statements. These statements need to be structured in the same format as standard OBI format, but it should be clear that these are conclusions/hypothesis, which means that they will not agree with each other and they will not be "consensus biological truth." We've discussed many possible technical implementations of that (reification). AR: Every conclusion must, at a minimum, conform to the consensus reality. Alternative is not make a statement. CS: If you just say conclusions have parts, provided enough info for comprehension, no assertions made across them, conclusion subject 'aspirin' etc, subject 'mouse' no statement about the detail of the hypothesis and this is enough info to say something useful. We can do both of these things if needed. I could identify investigations involving aspirins but I couldn't find cases that had drawn a conclusion. CS:we both have the same use cases, papers and studies, and we will get a text statement, biologists won't be able to do this. 
+
+GF:interested the ability to annotate an expt, if you can reason if is annotated corrected - this use case should be subsumed by the one above.
+
+<b>AA. Need to come up with a reference implementation proposal, will take time<\b>
+Current state of the art is we can tag text with hypothesis and conclusions are facts which are consistent with consensus biology as represented by the OBO foundry world. 
+
+CC:both hypotheses and conclusions are roles of sentences, they are defined by inferential role and same sentence could be represented by the diff roles. General Agreement for this.
+
+ 
+
+
+
+
 
 
  
