@@ -178,7 +178,8 @@ AR:in principle, but OBO things are time dependent which complicates things
 GF:thought we wanted to id the set of conditions asserted on a class, so when you define an instance of that class that the classifier will work correctly
 Discussion on whether we want to do this now
 GF:I heard that this will take 3 months, if it will then we are doing something wrong. We can model and define some classes to make hypothesis a defined class in the ontology.
-AA: AR suggests that GF defines hypothesis. GF my background is in a certain type of biology, we should have more coverage, to me this is a good place to deal with hypothesis.
+
+<b>AA: AR suggests that GF defines hypothesis. GF my background is in a certain type of biology, we should have more coverage, to me this is a good place to deal with hypothesis.</b>
 BB:PAPO is back end for writing observations for which to build a hypothesis.
 BP:look at do it briefly for Kevin's example, unless there are other things. 
 We move to point 10. 
@@ -186,9 +187,37 @@ We move to point 10.
 
 ===13. Competency questions, testing and evaluation===
 
-Daniel and James have volunteered for this.  This requires input from everyone however in terms of developing use cases along with competency questions.
+Daniel and James have volunteered for this.  This requires input from everyone in terms of developing use cases along with competency questions. Need also requirements. 
+
+JM:When will we be able to know when OBI is done. What does a stable version mean.?
+GF:If we volunteer use cases and comp. questions if it works for these use cases then when we can answer them, this is a stable release.
+JM:E.g. of competency question, is what do I want it to do, e.h. where will hypothesis go. What type of people will use this, how will they use it. Stuff that came from the programme managers
+GF:Do you have any concrete plans - questionnaires? Or are free form use cases OK?
+JM:We do have some ideas, we have both done it before. DS wanted to know about conforming to certain grammar, please use instances variably. 
+HP:suggest that the more you constrain the process then you will get a better result
+PRS:Kevin has produced something useful, we should all take a lead from what Kevin did, that's really a good example.
+RS:a use case template would be great, we have clinical use cases for OCI. If we had a template we would provide them
+BB. We would make a great contribution to the field if we could do this.
+BP:What kevin sent is important, we need high level use cases
+JM:need a range of use cases at various levels
+AR:one test we could do would be to ask a series of yes/no questions you will know where to put your term in the ontology
+PRS:also text mining was mentioned
+BB:is a high level use case category
+PRS:This a.m. I was expecting to have an idea to use hypothesis, and I was looking at how to put constraints on that, I view that as a use case. Maybe I don't understand what OWL can do or my usage is reconcileable with what we are doing here
+JM:A question can the ontology do this, that is a competency testing. If you can answer yes to all then are finished
+AR:nonsense detection is another type of CT, we should be able to add to reasoner and have it complain, e.g. is some class an experiment and a quality, PI is a mouse. You design test s to check that coverage is enough to do this.
+
+<b>
+AA.Use case templates would be good
+AA.Worked examples use cases needed
+AA.List of questions that allow you to place a term in the ontology
+</b>
+
+
 
 ===14. Structure in general, branch organisation===
+
+
 
 ===15. Use of mailing lists, traffic etc===
 
