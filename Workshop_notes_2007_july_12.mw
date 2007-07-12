@@ -145,7 +145,7 @@ BP: What we've realized is that there is a strong need for certain communities t
 
 GF:interested the ability to annotate an expt, if you can reason if is annotated corrected - this use case should be subsumed by the one above.
 
-<b>AA. Need to come up with a reference implementation proposal, will take time<\b>
+AA. Need to come up with a reference implementation proposal, will take time
 Current state of the art is we can tag text with hypothesis and conclusions are facts which are consistent with consensus biology as represented by the OBO foundry world. 
 
 CC:both hypotheses and conclusions are roles of sentences, they are defined by inferential role and same sentence could be represented by the diff roles. General Agreement for this.
