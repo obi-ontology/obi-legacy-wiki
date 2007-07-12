@@ -106,19 +106,28 @@ Current state of the art is we can tag text with hypothesis and conclusions are 
 
 CC:both hypotheses and conclusions are roles of sentences, they are defined by inferential role and same sentence could be represented by the diff roles. General Agreement for this.
 
+AR:Using role loosely, may not be in OBI, could do this in an implementation.
+CC:think we should have these roles in OBI in roles branch
+BP:we can
+CC:I am playing devils advocate, Barry would have an issue with this.
+CS:should hypotheses by narratuibe objects, should we have a dift type of object that has a  role? We may want to define more specifically
+BP:we said hypothesis and conclusions that are descriptions of reality
+CC:declarative sentences are desc. of reality
+BB:disagrees, 'Homer chases a donut' is not about reality 
+CS:Barry will say that hypotheses etc are roles, BS will not like this
+BP:Barry did sign off on these, we tired him out
+RS:hypothesis are here as we did not know where to put them, now we can move if needed
+CS:This branch is renewed and we will address this
+GF:I asked KC if he had a suggestion of moving on. He suggested nice if once I annotate an experiment I can validate hypothesis and conclusion are the same, so an instance can be  both if the experiment is successful
+AR:in principle, but OBO things are time dependent which complicates things
+GF:thought we wanted to id the set of conditions asserted on a class, so when you define an instance of that class that the classifier will work correctly
+Discussion on whether we want to do this now
+GF:I heard that this will take 3 months, if it will then we are doing something wrong. We can model and define some classes to make hypothesis a defined class in the ontology.
+AA: AR suggests that GF defines hypothesis. GF my background is in a certain type of biology, we should have more coverage, to me this is a good place to deal with hypothesis.
+BB:PAPO is back end for writing observations for which to build a hypothesis.
+BP:look at do it briefly for Kevin's example, unless there are other things. 
+We move to point 10. 
  
-
-
-
-
-
-
- 
-
-
-
-
-
 
 ===13. Competency questions, testing and evaluation===
 
