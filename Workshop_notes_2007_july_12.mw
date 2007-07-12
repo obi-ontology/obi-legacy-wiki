@@ -39,11 +39,11 @@ CS:if we have a consistent temp class that would be fine
 BP:Should it be Protocol_Application_temporary
 LF:there's a string search can find anything you want to.
 
-AA:All branches to add branchname_temporary and use it consistently. This class will not need to have any meta data annotation as this doesn't merit it.
+<b>AA:All branches to add branchname_temporary and use it consistently. This class will not need to have any meta data annotation as this doesn't merit it.</b>
 
 
-10. Once terms are submitted to external resources, e.g. PATO, CO,how do we ‘import’ or 
-reference subsets of external ontologies into OBI
+===10. Once terms are submitted to external resources, e.g. PATO, CO,how do we ‘import’ or 
+reference subsets of external ontologies into OBI===
 
 Bill will be joining at 11.30
 
