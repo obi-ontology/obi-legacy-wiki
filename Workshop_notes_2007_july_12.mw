@@ -38,6 +38,9 @@ BP:would prefer a to put in a holding class as James suggested
 CS:if we have a consistent temp class that would be fine
 BP:Should it be Protocol_Application_temporary
 LF:there's a string search can find anything you want to.
+.
+
+
 
 <b>AA:All branches to add branchname_temporary and use it consistently. This class will not need to have any meta data annotation as this doesn't merit it.</b>
 
@@ -64,19 +67,14 @@ Problem that there's a shortage of OWL literate developers to do reasoning etc. 
 GF:we do classification routinely in our group. I would not mind doing that and I am set up for it. Would be doing an import and passing around. 
 AR:Chris Mungall has set up for OBO Pellet reasoning to produce a daily report we could also do that
 SS:need a pool of people with this expertise, GF, Daniel S, James, Alan, Alison
+GF:relations between terms is pretty far down. This will be an iterative process, some relations will be merged, needs a loop to represent that. Most issues will be on file merging. 
+RS:suggests major and minor release pattern
+
 
 <b>AA:SOP needs changing to deal with the state of the art workflow. Ask Trish to post on wiki and get a mac literate volunteer as SW is mac only</b>
 <b>GF volunteered to do the reasoning. Other people were also identified with these skills: AR, JM, DS, AL that could also assist, these are core developers with technical skills amd experience to do this. Reasoning needs to be done prior to release</b>
-
-
-
-
- 
-
-
-
-
-
+<b>We will publish the asserted and the inferred h'archy and make it clear which these are. May be case that the tools will limit what can be saved, e.g. if invalid may not be able to save</b>
+<b>Need to modify the SOP to reflect what to do if reasoning produces errors ie. send to core developers</b>
 
 ===12. suggestion to do some work on experiment design, goal, etc beginning to end example suggested by Kevin and Alan===
 
