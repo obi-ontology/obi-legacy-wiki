@@ -203,9 +203,16 @@ JM:need a range of use cases at various levels
 AR:one test we could do would be to ask a series of yes/no questions you will know where to put your term in the ontology
 PRS:also text mining was mentioned
 BB:is a high level use case category
-PRS:This a.m. I was expecting to have an idea to use hypothesis, and I was looking at how to put constraints on that, I view that as a use case. Maybe I don't understand what OWL can do or my usage is reconcileable with what we are doing here
+PRS:This a.m. I was expecting to have an idea to use hypothesis, and I was looking at how to put constraints on that, I view that as a use case. Maybe I don't understand what OWL can do or my usage is reconcilable with what we are doing here
 JM:A question can the ontology do this, that is a competency testing. If you can answer yes to all then are finished
 AR:nonsense detection is another type of CT, we should be able to add to reasoner and have it complain, e.g. is some class an experiment and a quality, PI is a mouse. You design test s to check that coverage is enough to do this.
+RS:first official release of OBI needs such validation
+PRS:in the absence of a list of competency questions, we don't know if we are doing it correctly, this worries me
+JM:scope and requirements should be the first thing that should do, but don't worry we can work from here
+CC:Suggestion: as far as I know, what we are doing is another knowledge representation style, we can ask what competency questions should any KR style ask? 
+BP:And then what differentiates the ontology style of OBI within range of KR styles
+JM:Agree with CC, we will need this 'pitch' and this was clear on Monday when the programme officers asked how we would sell it to people. We should be doing this all the time.
+AR:A representative data set of interest and we do the encoding and add to science commons triple store
 
 <b>
 AA.Use case templates would be good
@@ -216,6 +223,8 @@ AA.List of questions that allow you to place a term in the ontology
 
 
 ===14. Structure in general, branch organisation===
+
+
 
 
 
