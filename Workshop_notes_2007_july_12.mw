@@ -97,6 +97,11 @@ BB:<b>IT SHOULD BE, not always true</b>. In tax it breaks when you get to strain
 
 BB:Susanna's workflow has these issues. Susanna agrees useful for biomaterial branch, she described the manual process. For automation e.g. with NCBI tax, find ids for a subset to get what need is use case. Need to be careful about if you want external h'archy as well.
 
+CS:we have a special relationship with PATO, BFO and we need to decide after discussion if we want to import them
+AR:I would look at again after 6 months
+DS by Skype:interested and wants to work on this
+
+<b>Conclusion: we will have terms sent out to relevant ontologies until the point where we need to get all of PATO in and then we need to be aware of PATO's internal structure.</b>
 
 ===11. SOP for ontology development, PDF Trish sent=== 
 
