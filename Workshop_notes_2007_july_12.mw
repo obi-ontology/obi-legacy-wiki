@@ -41,6 +41,7 @@ LF:there's a string search can find anything you want to.
 
 <b>AA:All branches to add branchname_temporary and use it consistently. This class will not need to have any meta data annotation as this doesn't merit it.</b>
 
+===Referencing, mapping to, or importing (subsets of) external ontologies
 
 ===10. Once terms are submitted to external resources, e.g. PATO, CO,how do we ‘import’ or 
 reference subsets of external ontologies into OBI===
