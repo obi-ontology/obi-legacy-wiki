@@ -41,12 +41,39 @@ LF:there's a string search can find anything you want to.
 
 <b>AA:All branches to add branchname_temporary and use it consistently. This class will not need to have any meta data annotation as this doesn't merit it.</b>
 
-===Referencing, mapping to, or importing (subsets of) external ontologies from/into OBI===
+===10. Referencing, mapping to, or importing (subsets of) external ontologies from/into OBI===
+
 
 
 Bill will be joining at 11.30
 
 ===11. SOP for ontology development, PDF Trish sent=== 
+
+RS:we have a need here for OCI to work on all OCI terms and then bounce these to OBI branches. Will also need a model for the env. ontology. So OBI branch editors would validate a term from the community.
+AR:we need to allow users not to figure out parent class
+LF:they should feel bad if they don't give a definition
+AR:some field are more important than others, parent class is not so important
+LF:now relation is a branch and may need a different workflow
+CS:relations are included in the workflow, do we need more?
+AL:needs a few changes as we will not merge files as we expected previously. Had asked to add a bit about reasoning, and Trish did that. 
+AR:Need to specify which reasoner, no unspecified OWL classes etc. Need the OWL-DL version is checked. Liju need to check the asserted h'archy to verify the modelling. 
+AR:need to save and need branches to check their inferred version is correct
+
+Problem that there's a shortage of OWL literate developers to do reasoning etc. How does that effect the workflow.
+
+GF:we do classification routinely in our group. I would not mind doing that and I am set up for it. Would be doing an import and passing around. 
+AR:Chris Mungall has set up for OBO Pellet reasoning to produce a daily report we could also do that
+SS:need a pool of people with this expertise, GF, Daniel S, James, Alan, Alison
+
+<b>AA:SOP needs changing to deal with the state of the art workflow. Ask Trish to post on wiki and get a mac literate volunteer as SW is mac only</b>
+<b>GF volunteered to do the reasoning. Other people were also identified with these skills: AR, JM, DS, AL that could also assist, these are core developers with technical skills amd experience to do this. Reasoning needs to be done prior to release</b>
+
+
+
+
+ 
+
+
 
 
 
@@ -58,3 +85,7 @@ Bill will be joining at 11.30
 ===13. Competency questions/testing
 
 Daniel and James have volunteered for this
+
+===14. Structure in general, branch organisation===
+
+===15. Use of mailing lists, traffic etc===
