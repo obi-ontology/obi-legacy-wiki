@@ -1,3 +1,4 @@
+
 ==Agenda Items carried over from Wednesday==
 
 ===8. Revisiting other agenda items suggested Monday pm to decide what to do===
@@ -143,6 +144,7 @@ RS:suggests major and minor release pattern
 
 * [[OBIAnnotationUseCaseExamples]] As emailed from Kevin Clancy
 * [[http://spreadsheets.google.com/ccc?key=pMHNWhGPKI1KNzA5ogDAkBQ&hl=en_GB] Google Spreadsheet version]
+* [[https://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/reasoner-example-workshop-2007-July.owl] Alan's OWL workup of this example]
 
 Long Discussion whether to model an instance of a hypothesis, or the components and relns between obi classes e.g. object, subject are related to hypothesis. Bill suggests we take a look at [[http://esw.w3.org/topic/HCLS/OntologyTaskForce/OboPhenotypeSyntaxExperiment]] and EXPO was also referenced as having addressed this before. Modeling it has value as we can extrapolate to other cases. Problem about modelling an instantiated hypothesis, as is statements are expected to be true, hypothesis may not be true and this presents a modelling problem. Same is true in cases where record exp. knowledge over time, and are represented as true but may not be. There's a scope question, should instantiated hypotheses be in OBI, is this in scope for us.
 
