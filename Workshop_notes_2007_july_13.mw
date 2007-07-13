@@ -79,7 +79,7 @@ Speedos Banned
 ==21. GF wants to sort out the SVN so he can load all the files==
 Revisit in PM
 
-AR:Protege 3 and 4 are messing up the merged files, next tryinh swoop. Frame deleted issue has also been seen by NCICB's development fork. It added an import to relations.owl which is causing downstream problems.
+AR:Protege 3 and 4 are messing up the merged files, next tryinh swoop. Frame deleted issue has also been seen by NCICB's development fork. Protege added an import to relations.owl which is causing downstream problems.
 
 ==22. Relations agenda item added by GF==
 
