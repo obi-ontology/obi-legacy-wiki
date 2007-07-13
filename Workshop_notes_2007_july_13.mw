@@ -96,3 +96,17 @@ LF: I will keep these as is for mapping purposes
 GF:last concern, if you cannot find a more generic relation, say is instrument_relation_x be specific.
 
 ==23. Walking through OBI Investigation use case (PRS suggestion)==
+
+PA: An intervention investigation has a specific design, e.g. factorial design (e.g. 2-factor design).
+AR: Another way to define is it is a design realizedAs a protocol application that hasInput something-with-a-treatment-role. That way it will automatically get classified as an intervention if you forget to call it that.
+BP: Where do we currently have study design? Under information_entity, and is for the whole investigation. Overall plan on a high level. We can say study_design interventionStudyDesign realizedAs interventionStudyDesign hasPart interventionProtocolApplication.
+AR: InterventionPA should be a defined class, not an asserted class. Otherwise we get multiple inheritance with the class we already have (something like addingSubstanceToOrganism). 
+CC: We cannot use an intervention role as you cannot apply roles to processes.
+AR: If we rephrase as "treatedRole" it is fixed. 
+<pre>
+RealizableEntity
+  InterventionStudyDesign realizedAs some InterventionStudyDesignProcess hasPart some (PA and hasPart (hasInput (owl:Thing and hasRole TreatmentRole)))
+</pre>
+BP: We need InterventionStudyDesignProcess as there could be more things than just PA that are related to it.
+
+CC: More description on why processes cannot have roles.
