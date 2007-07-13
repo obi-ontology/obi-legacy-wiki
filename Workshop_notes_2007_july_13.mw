@@ -106,7 +106,7 @@ CC: We cannot use an intervention role as you cannot apply roles to processes.
 AR: If we rephrase as "treatedRole" it is fixed. 
 <pre>
 RealizableEntity
-  InterventionStudyDesign realizedAs some InterventionStudyDesignProcess hasPart some (PA and hasPart (hasInput (owl:Thing and hasRole TreatmentRole)))
+  InterventionStudyDesign realizedAs some InterventionStudyDesignProcess hasPart some (PA and hasPart (hasInput (owl:Thing and hasRole TreatedRole))) and hasPart some (PA and hasPart (hasInput (owl:Thing and hasRole ControlRole)))
 </pre>
 BP: We need InterventionStudyDesignProcess as there could be more things than just PA that are related to it.
 AR: The parenthetical section beginning with "PA and hasPart..." would be the defined class InterventionProtocolApplication.
