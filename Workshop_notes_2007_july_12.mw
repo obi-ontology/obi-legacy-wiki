@@ -1,4 +1,3 @@
-
 ==Agenda Items carried over from Wednesday==
 
 ===8. Revisiting other agenda items suggested Monday pm to decide what to do===
@@ -7,6 +6,8 @@
 SS reports that Dawn Field is organising a workshop for Env ontology in August. 
 JF:I recall was including lab or experimental env that obi needs. Need to be clear if the lab env will be part of the env. ontology or as part of them working with OBI. Dawn Field is part of OBI
 CS:We need field isolates e.g. for parasites, we will need what they cover.
+CS: Where is the delineation between what OBI should add about the environment and what EnvO should do?
+SS: We should do the experiment and clinical environment, and the "external" environment to EnvO. But, we aren't too bothered, if envO people want to do it.
 
 <b>AA:Susanna to communicate the above and feedback</b>
 
@@ -46,7 +47,7 @@ LF:there's a string search can find anything you want to.
 <b>Identified people able to support reasoning : Daniel, James, Alan, Gilberto, Allyson</b>
 
 
-'''DS: The use of only one 'branchname_temporary' helper class per branch might not be enough''' to cover our branches needs. It will force us to overload this with meanings, e.g. as the list above indicates, people might want to have some more specialised helper classes, e.g. a '_refactor_as_relation' 'awaiting external mapping' , '_submit_to_xy_branch' or whatever. It would be nice to give Editors more freedom here. Also the required helper classes are morst probably branch specific as well.  I would suggest to have these on the branch top level/branch root and indicate their status with the underscore prefix. The uinderscore prefix serves as search string(startswith) and also renders helper classes easy visible in the hierarchy. The _underscore is recognized in the hierarchy more easily as when using just a normal looking names like branchname_temporary ("_temporary" postfix). We need to identify needed helper classes (on a branch and on a general level), and what info do we want to see immediately in the hierarchy (and use for browsing), and what info we want to keep via annotation properties (the ones we want to do more fancy querying on). Then later we can review all of these and probably re-formulate as part of some metadata standard.
+'''DS: The use of only one 'branchname_temporary' helper class per branch might not be enough''' to cover our branches needs. It will force us to overload this with meanings, e.g. as the list above indicates, people might want to have some more specialised helper classes, e.g. a '_refactor_as_relation' 'awaiting external mapping' , '_submit_to_xy_branch' or whatever. It would be nice to give Editors more freedom here. Also the required helper classes are most probably branch specific as well.  I would suggest to have these on the branch top level/branch root and indicate their status with the underscore prefix. The uinderscore prefix serves as search string(startswith) and also renders helper classes easy visible in the hierarchy. The _underscore is recognized in the hierarchy more easily as when using just a normal looking names like branchname_temporary ("_temporary" postfix). We need to identify needed helper classes (on a branch and on a general level), and what info do we want to see immediately in the hierarchy (and use for browsing), and what info we want to keep via annotation properties (the ones we want to do more fancy querying on). Then later we can review all of these and probably re-formulate as part of some metadata standard.
 
 
 
@@ -92,6 +93,16 @@ BB:we have used a lot of annotation properties in working wit this file. All NCB
 RS:General question, when we bring a namespace, is there only one place that it sits in OBI. Is that true for all OBO foundries
 BB:<b>IT SHOULD BE, not always true</b>. In tax it breaks when you get to strains for e.g. and that needs to tie into taxonomy e.g. Mus musculus from strain for e.g. Protege UI is bad for large h'archies. We're dealing with that as a UI issue as NCBI tax so big. We use annotation properties to mark taxons that we need in Birnlex. 
 
+BB: In the taxonomy file, if you want all of NCBI taxonomy it is a huge file with huge classes and a huge amount of metadata. Also, it isn't an ontology so you don't want to bring it into the ontology anyway. He just imported what they need. You can build what you need when you need it. they also had to create their own classes in this hierarchy, e.g. hybrid_strains_of_mus_musculus_and_mus_domesticus. NCBI Taxonomy "transliterated" into OWL using the BIRNLex conventions. Done via a script. owl:imports, OWL ObjectProperties, CO-OWL, E-Connections are also available to perform inter-ontology linking.
+DS: Here is a link:  C-OWL: contextualizing ontologies:  http://www.kw.man.ac.uk/doc/wp25cowl-040324.ppt
+CS: We're co-developing with both PATO and BFO, so we shouldn't try to import all of PATO immediately, but when we publish it must be a serious consideration.
+DS: Regarding import and mapping we definitely all should read this:  http://obofoundry.org/wiki/index.php?title=Mappings&oldid=1372. Import and referencing is a huge issues on itself and we need a task force that have the time to intensively work on this issue.
+
+BB: what you saw is from the "pending" release of BIRNLex.  The current public release was rushed out before it was really ready in order to get it into the BioPortal. As I mentioned, that still hasn't happened.  All of the modules in the next iteration of BIRNLex will be guaranteed to be OWL-DL, consistent (and in some versions, satisfiable). Anyway - here's the URL's the files I showed:
+# OBO Foundry core files http://purl.org/nbirn/birnlex/obo-foundry/obo-foundry-core-full-import.owl  This file imports several other files we've  created - in addition to the public files from BFO, RO, PATO, and Chris M.
+# There is also a work-in-progress version that doesn't import ALL of PATO - but includes additional reference to guarantee the result is passed as OWL-DL species and consistent by Pellet: http://purl.org/nbirn/birnlex/obo-foundry/obo-foundry-core-no-full-pato.owl
+# Here's the files with the organism taxonomy: http://purl.org/nbirn/birnlex/1.2.3/BIRNLex-OrganismalTaxonomy.owl
+
 <b>Summary Bill has a local use ontology with RFO, OBI, PATO,NCBI taxonomy where all of these are imported into his local file. This 2 years work. He chose to do that as it was more complex and technically difficult to take parts than live the problems of having huge in built taxonomies. Bill recommends that if in doubt get all. Protege 4 offers more options and a plug in could be created. All OBO foundry ontologies should be located in one place in OBO. Take home, modularize and lean on the reasoner.</b>
 
 <b>GF:at some point might be good to work out whether we want a set of external resources that we want to import and which we want to reference and make a recommendation for branch development</b>
@@ -116,8 +127,12 @@ RS:we have a need here for OCI to work on all OCI terms and then bounce these to
 AR:we need to allow users not to figure out parent class
 LF:they should feel bad if they don't give a definition
 AR:some field are more important than others, parent class is not so important
-LF:now relation is a branch and may need a different workflow
-CS:relations are included in the workflow, do we need more?
+LF: How would relations fit into the SOP? Do we need to make a relation workflow?
+AL & LF: We can use both as long as we change "term" to "term/relation"
+RS: Minor and Major releases, with the use-case testing only done for major releases.
+GF: Do we want to publish both asserted and inferred ontologies?
+AL & AR: Yes.
+AR: Some editor programs would only save the class hierarchy of the inferred ontology, so we may want to think about that later on.
 AL:needs a few changes as we will not merge files as we expected previously. Had asked to add a bit about reasoning, and Trish did that. 
 AR:Need to specify which reasoner, no unspecified OWL classes etc. Need the OWL-DL version is checked. Liju need to check the asserted h'archy to verify the modelling. 
 AR:need to save and need branches to check their inferred version is correct
@@ -138,6 +153,14 @@ RS:suggests major and minor release pattern
 *We will publish the asserted and the inferred h'archy and make it clear which these are. May be case that the tools will limit what can be saved, e.g. if invalid may not be able to save
 
 *Need to modify the SOP to reflect what to do if reasoning produces errors ie. send to core developers
+** term -> term/relation
+** describe what reasoner checks should be performed
+** loop of each reasoner step to send back to the development stage (prior to release steps), or send back to branch (during release steps) if there are inconsistencies, and then another arrow out to developers if branch can't figure it out
+** remove/parallelize the "merge obibranch owl files" as that isn't the primary finished state any longer
+** Add highlighted area delineating what part is the "release steps"
+** we should include the running of a test suite that can be run with use-cases that stay the same
+** publish ontology means publish both inferred and asserted ontologies.
+
 </b>
 
 ===12. suggestion to do some work on experiment design, goal, etc beginning to end example suggested by Kevin and Alan===
@@ -185,6 +208,13 @@ BB:PAPO is back end for writing observations for which to build a hypothesis.
 BP:look at do it briefly for Kevin's example, unless there are other things. 
 We move to point 10. 
  
+Here's a few of those links Alan & Bill & others had mentioned:
+SWAN - http://www.mind-informatics.org:8081/swan/
+Phenotype Statements using PATO - W3C HCLS example - http://esw.w3.org/topic/HCLS/OntologyTaskForce/OboPhenotypeSyntaxExperiment
+Nigah Shah's (NCBO) HyBrow - http://www.hybrow.org/
+EXPO - http://sourceforge.net/projects/expo/
+and associated Robot Scientist project - http://www.aber.ac.uk/compsci/Research/bio/robotsci/
+
 
 ===13. Competency questions, testing and evaluation===
 
@@ -214,6 +244,20 @@ CC:Suggestion: as far as I know, what we are doing is another knowledge represen
 BP:And then what differentiates the ontology style of OBI within range of KR styles
 JM:Agree with CC, we will need this 'pitch' and this was clear on Monday when the programme officers asked how we would sell it to people. We should be doing this all the time.
 AR:A representative data set of interest and we do the encoding and add to science commons triple store
+LF: from http://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.htmlCompetency questions:
+
+"One of the ways to determine the scope of the ontology is to sketch a list of questions that a knowledge base based on the ontology should be able to answer, competency questions (Gruninger and Fox 1995). These questions will serve as the litmus test later: Does the ontology contain enough information to answer these types of questions? Do the answers require a particular level of detail or representation of a particular area? These competency questions are just a sketch and do not need to be exhaustive. In the wine and food domain, the following are the possible competency questions:
+*Which wine characteristics should I consider when choosing a wine?
+*Is Bordeaux a red or white wine?
+*Does Cabernet Sauvignon go well with seafood?
+*What is the best choice of wine for grilled meat?
+*Which characteristics of a wine affect its appropriateness for a dish?
+*Does a bouquet or body of a specific wine change with vintage year?
+*What were good vintages for Napa Zinfandel?
+
+Judging from this list of questions, the ontology will include the information on various wine characteristics and wine types, vintage years—good and bad ones—classifications of foods that matter for choosing an appropriate wine, recommended combinations of wine and food."
+
+SS:  If nedeed see definition and example of competency questions at: http://www.biomedcentral.com/content/pdf/1471-2105-7-267.pdf page 7 (we did this for the nutrigenomics group while back).
 
 <b>
 AA.Use case templates would be good
@@ -285,7 +329,7 @@ GF:In MO calls we used NCI, these are non standing telecons, each person must be
 SS:I need a set of terms now, to annotate things that need to be done now. Clean, defined. When will we have that
 BP:we already trying to be future proof, is there a stable subset
 HP:Want to keep milestones in sight and we should add these asap age for this
-<b>AR:suggest put a term in, not sure there's a good parent, add them in quickly into unclassified bin the queue is there, not on a sheet
+<b>AR:suggest put a term in, not sure there's a good parent, add them in quickly into unclassified bin the queue is there, not on a sheet</b>
 SS:want to have them go through the workflow really.
 AR:think all terms there will stay, suggest that we do this more aggresively not worry about the h'archy.
 PRS:is there a risk that we don't do the review we will pollute the h'archy. 
@@ -319,11 +363,7 @@ Release in which we have 2 levels down from branch stubs and we are happy with t
 
 
 
-<b>
-
-
-
-
 
 
 ===17. NSF proposal details from Alan===
+AR: Grant proposal: http://www.nsf.gov/pubs/2007/nsf07565/nsf07565.htm
