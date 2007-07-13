@@ -85,6 +85,8 @@ AR:Protege 3 and 4 are messing up the merged files, next tryinh swoop. Frame del
 
 LF brings up last slide. Barry suggested to minimize the relations, and to not define minimal properties. GF: I don't entirely agree with that. There will be similar relns but will have difft domains and ranges. I suggest that if we need to create relns with difft domain and ranges, we make difft relns. This is a design isse
 
+GF: Next step is to continue to review and define relations contributed by branches and add to OBI's Relations.owl. Also, continue to discuss RO II. In the long term, will assist branches in identifying new realtions hidden in class definitions, model classes and classify and make inferences, and promote OBI relations to RO.
+
 RS:why differ domain and ranges, would be a subset of the RO
 GF:in one domain the range is restricted, difft in another, if you are not specific then neither of the domains and ranges are specified and you can commit a syntactic error that will not be picked up as a logical error. 
 AR:A lot of these cases handle by GCI - global concept inclusion - looks like a class expression as a sub class of another subclass expression. Have an example for part of - works for processes and continuants, p and c cannot be part of ech other. In OWL can say anything part of a process and detects errors. Not in BFO yet, will be at some point. Protege 3 doesn't allow entry of these. P4 does.
