@@ -16,7 +16,7 @@ Revisit in PM
 
 AR:Protege 3 and 4 are messing up the merged files, next tryinh swoop. Frame deleted issue has also been seen by NCICB's development fork. It added an import to relations.owl which is causing downstream problems.
 
-==22. ==
+==22. Relations added by GF==
 
 
 ==23. ==
