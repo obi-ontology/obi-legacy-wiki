@@ -79,5 +79,20 @@ AR:Protege 3 and 4 are messing up the merged files, next tryinh swoop. Frame del
 
 ==22. Relations agenda item added by GF==
 
+LF brings up last slide. Barry suggested to minimize the relations, and to not define minimal properties. GF: I don't entirely agree with that. There will be similar relns but will have difft domains and ranges. I suggest that if we need to create relns with difft domain and ranges, we make difft relns. This is a design isse
+
+RS:why differ domain and ranges, would be a subset of the RO
+GF:in one domain the range is restricted, difft in another, if you are not specific then neither of the domains and ranges are specified and you can commit a syntactic error that will not be picked up as a logical error. 
+AR:A lot of these cases handle by GCI - global concept inclusion - looks like a class expression as a sub class of another subclass expression. Have an example for part of - works for processes and continuants, p and c cannot be part of ech other. In OWL can say anything part of a process and detects errors. Not in BFO yet, will be at some point. Protege 3 doesn't allow entry of these. P4 does.
+
+GF:so this is an implicit range
+GF:a localized range, domain and range are not constraints, consistency check is more than that. 
+GF:how declare:
+AR:can't do in Protege, sub class reln where subclasses are class expressions.
+Can show some worked examples. is BFO improved in principle.
+GF:I would defer this discussion to offline then
+GF: I would say keep the relns as you make them, id in relns id if they can be re-used and need branch communication for that. Any new relns you feel are needed that can't be derived from RO we can suggest to RO. If they don't include it we can still define in OBI until is included in the RO.
+LF: I will keep these as is for mapping purposes
+GF:last concern, if you cannot find a more generic relation, say is instrument_relation_x be specific.
 
 ==23. Walking through OBI file (PRS suggestion)==
