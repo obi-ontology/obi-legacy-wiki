@@ -54,6 +54,7 @@ RS: I could participate without any funds. I can justify that as it would save m
 AR:Deadline in Aug 31.
 RS:OBi is a test case for semantic web for other disciplines
 HP:reach out to the model organism communities, Sue Rhee TAIR, Suzi Lewis for Fly, Dawn Field, Env. ontology
+DD:  the BIRN Ontology TF could certainly provide a letter of support
 
 Next steps:
 1. Need letters of support from as many OBI people as possible. 
@@ -108,5 +109,16 @@ RealizableEntity
   InterventionStudyDesign realizedAs some InterventionStudyDesignProcess hasPart some (PA and hasPart (hasInput (owl:Thing and hasRole TreatmentRole)))
 </pre>
 BP: We need InterventionStudyDesignProcess as there could be more things than just PA that are related to it.
+AR: The parenthetical section beginning with "PA and hasPart..." would be the defined class InterventionProtocolApplication.
+CC: More description on why processes cannot have roles. The continuant has the role, and undergoes a process.
 
-CC: More description on why processes cannot have roles.
+PA: How do we cover the stuff that _isn't_ treated? How does the above example relate to the factor variables we will need to define?
+JF: It isn't just TreatmentRole - you can be treated with all sorts of things. We need to clarify what TreatmentRole can encompass, and if that includes "nothing", "placebo", etc.
+BP: We would define an appropriate Treatment Process (we already have a few in the OWL File) such as AdministrationOfLowDoseOfAspirinToMouse. TreatedRole can be used for both treatment and placebos. "Exercise of mouse" is a treatment of a mouse
+JF: Placebo should be assigned to a drug, and is also a TreatedRole.
+AR: Treated in the sense of control vs. treated; we also need treated in terms of a substance administration. The control role is the placebo - you just have a process that only has placebo, it wouldn't be an intervention study.
+GF: Could exercise regiment be a treatment?
+JF: We need a class of study where you can separate observational study from perturbational study. Then this whole thing becomes moot.
+AR: We need those terms yes, but they may not be asserted classes.
+BP: I'm not worried at this stage if they will eventually be defined or not - we're dealing with it at the level of plan. 
+AR: Yes, it's at the process level when we will come into problems. TreatedRole is in the sense of treated vs. control.
