@@ -106,15 +106,15 @@ CC: We cannot use an intervention role as you cannot apply roles to processes.
 AR: If we rephrase as "treatedRole" it is fixed. 
 <pre>
 RealizableEntity
-  InterventionStudyDesign realizedAs some InterventionStudyDesignProcess hasPart some (PA and hasPart (hasInput (owl:Thing and hasRole TreatedRole))) 
-                                                                     and hasPart some (PA and hasPart (hasInput (owl:Thing and hasRole ControlRole)))
+  InterventionStudyDesign realizedAs some (InterventionStudyDesignProcess and hasPart some (PA and hasInput some (continuant and hasRole some TreatedRole)) 
+                                                                          and some hasPart (PA and hasInput some (continuant and hasRole some TreatedRole))
 </pre>
 BP: We need InterventionStudyDesignProcess as there could be more things than just PA that are related to it.
 AR: The parenthetical section beginning with "PA and hasPart..." would be the defined class InterventionProtocolApplication.
 CC: More description on why processes cannot have roles. The continuant has the role, and undergoes a process.
 
 PA: How do we cover the stuff that _isn't_ treated? How does the above example relate to the factor variables we will need to define?
-JF: It isn't just TreatmentRole - you can be treated with all sorts of things. We need to clarify what TreatmentRole can encompass, and if that includes "nothing", "placebo", etc.
+JF: It isn't just TreatedRole - you can be treated with all sorts of things. We need to clarify what TreatedRole can encompass, and if that includes "nothing", "placebo", etc.
 BP: We would define an appropriate Treatment Process (we already have a few in the OWL File) such as AdministrationOfLowDoseOfAspirinToMouse. TreatedRole can be used for both treatment and placebos. "Exercise of mouse" is a treatment of a mouse
 JF: Placebo should be assigned to a drug, and is also a TreatedRole.
 AR: Treated in the sense of control vs. treated; we also need treated in terms of a substance administration. The control role is the placebo - you just have a process that only has placebo, it wouldn't be an intervention study.
@@ -123,3 +123,6 @@ JF: We need a class of study where you can separate observational study from per
 AR: We need those terms yes, but they may not be asserted classes.
 BP: I'm not worried at this stage if they will eventually be defined or not - we're dealing with it at the level of plan. 
 AR: Yes, it's at the process level when we will come into problems. TreatedRole is in the sense of treated vs. control.
+BB: that PATO Phenotype statement example I did SPECIFICALLY addressed the issue of treatement groups.  It didn't use roles - in its current "raw" form, but it provides a detailed example of how PATO and other OBO Foundry ontologies can be used to explicitly define treatment groups using PATO and the Phenotype syntax. Go to http://esw.w3.org/topic/HCLS/OntologyTaskForce/OboPhenotypeSyntaxExperiment and scroll down to Experiment Assertions. age mapped controls in particular
+
+PA: Can we use the current OBI term control_role to explicitly state that some elements are controls,  using the structure outlined by Alan?
