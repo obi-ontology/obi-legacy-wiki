@@ -1,11 +1,75 @@
+==Discussion on Milestones==
+
+CC. Milestone comments, while working on the branches, think and separate terms that might belong to a separate ontology for clinical trials. Don't steal them all. Forward them to us. Establishment of a new branch, or layer. 
+
+BP.There is no difference for terms for clinical trials vs e.g animals.
+JF:we agreed that there would not be two things
+CC:there will be an OCI.owl yes
+AR:Although OCI is part of OBi directed at a certain community, Question for that view how to manage the development process, and 2. how to develop that view. Meta data property records view perhaps
+
+SS:True for all communities, all want their own view. 
+
+CC:Not my desire to give myself extra work
+
+BP:We had talked about this mechanism
+
+AR:No this is different. Not just the name but the content. OCI may not need the  bulk of the instrument branch. Want to know which terms are for a community - could do with a script.
+
+RS:OCI working group will deal with that
+
+AR:two phases, some idea from community what would be in a view, and what from OBI would not be in OCI.  Implementation second. 
+
+SS:can't do that till we have terms
+BP:We had an alternate term tag, use that for communities -> script.
+CC:My quibble is with the development process, as an OCI group and mailing list, we will be gathering terms, some branch might have the same terms
+RS:we went through this already, we will submit terms to branches
+CC:I get that, at some point talk of importing OBI, everyone seemed to agree
+RS:I believe that OCI is a community and not a separate ontology
+BP:A clinical trial role I can imagine
+GF:Point out that at this point he can't see a clear sep in terms of views. In NCICB caBIG we have an intermed layer between ontologies, and each domain generates their own view and data elements and specific terminologies and populate their view. 
+CC:the milestones look fine there are time commitment issues, is anyone getting paid.
+PRS:I would like to know what the competency questions from OCI, I would like to know what these are and we could review the time. 
+BP:I like the idea of looking at the file, not OCI though.
+
+AA:Review branches for 'community views' 
+
+
 ==19. Alan's NSF funding opportunity==
 
-Agenda item carried over from Thursday
+Insert link to proposal. [[http://www.nsf.gov/pubs/2007/nsf07565/nsf07565.htm]]
+
+Science commons were invited to submit. Might be an opportunity to fund OBI.
+Want  university(ies) to be involved as PI
+1. Hire 1 person FT OBI developer @ Science Commons
+2. Series of short grants to members OBI community to work as visiting researchers
+3. Remaining money, meeting support etc
+4. 
+
+BP:More full time OBI person is better.
+RS:May have enough for 2FTE, and 3rd FTE as a rotating person.
+SS:Can you provide workshops and travel
+RS:Expect network projects with PI and co PI. Not at one site.
+HP:Looking at the regulations seems UK salary costs would not be allowable. Need a clarification costs on this. 
+RS: I could participate without any funds. I can justify that as it would save money and effort on my existing grants. Some others might like to get funds. 
+AR:Deadline in Aug 31.
+RS:OBi is a test case for semantic web for other disciplines
+HP:reach out to the model organism communities, Sue Rhee TAIR, Suzi Lewis for Fly, Dawn Field, Env. ontology
+
+Next steps:
+1. Need letters of support from as many OBI people as possible. 
+2. Review a draft of the proposal
+3. Boiler plate that can be re-used 
+4. Send a template for a letter of support
+5. AR to send a title to be included in a letter
+
+
+
 
 ==20. Data transformation workshop==
 
 Agenda item carried over from Thursday
-Tina will call in at 11 am.
+
+
 
 ==21. GF wants to sort out the SVN so he can load all the files==
 Revisit in PM
