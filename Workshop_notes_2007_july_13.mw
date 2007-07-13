@@ -111,11 +111,11 @@ CC: We cannot use an intervention role as you cannot apply roles to processes.
 AR: If we rephrase as "treatedRole" it is fixed. 
 <pre>
 RealizableEntity
-  InterventionStudyDesign realizedAs some (InterventionStudyDesignProcess and hasPart some (PA and hasInput some (continuant and hasRole some TreatedRole)) 
-                                                                          and some hasPart (PA and hasInput some (continuant and hasRole some TreatedRole))
+  InterventionStudyDesign is_realized_as some (InterventionStudyDesignProcess and (has_part some (has_input some (hasRole some treated_role))) 
+                                                                              and (has_part some (has_input some (hasRole some control_role))) 
 </pre>
 BP: We need InterventionStudyDesignProcess as there could be more things than just PA that are related to it.
-AR: The parenthetical section beginning with "PA and hasPart..." would be the defined class InterventionProtocolApplication.
+AR: The parenthetical section beginning with "hasPart..." would be the defined class InterventionProtocolApplication.
 CC: More description on why processes cannot have roles. The continuant has the role, and undergoes a process.
 
 PA: How do we cover the stuff that _isn't_ treated? How does the above example relate to the factor variables we will need to define?
