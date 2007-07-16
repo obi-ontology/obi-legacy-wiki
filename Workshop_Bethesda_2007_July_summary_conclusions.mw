@@ -54,3 +54,25 @@ Gilberto Fragoso, Chris Stoeckert, Richard Scheuerman, Susanna Sansone, Philippe
 * Following the presentations from the branches we decided to identify common problems e.g. with existing hierarchy and focus on these during the rest of the workshop. 
 
 ==Common Problems Discussion Action Items==
+
+ 18. Artefact object discussion. Two different hierarchies were discussed. No resolution during meeting. These OWL files need to be posted and discussed during a dev call
+
+ 19. Inferred classes. We worked through an example and identified that exploring existing design pattern work is needed.  Discuss on dev call.
+
+ 20. Update OBI to BFO1.1
+
+ 21. Branch editors to identify experiment only qualifiers that will be in OBI and submit to qualities branch (all)
+
+ 22. All relations in protocol application e.g. to be submitted to the relation ontology (LF/PA branch)
+
+ 23. Lot and material type - no resolution on this, needs further discussion on dev call
+
+ 24. Add qualities branch to OWL file (AR)
+
+ 25. Issue of handling vendor reagents in OBI unresloved - needs more discussion on dev. call
+
+ 26. Protocol application worked example: find a way to add duration and order to all process 
+
+ 27. Protocol application worked example: GF to explain to AR about assn of qualities in a class definition e.g. two out put materials have new properties 
+
+ 28.
