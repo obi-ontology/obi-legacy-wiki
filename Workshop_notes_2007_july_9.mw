@@ -61,7 +61,7 @@ Reiteration of importance of use-cases (how to use OBI) from the point of view o
 *Milestone: Polishing of meta data - large no of dicussions on that. 
 
 *Milestone: Developing '''policy for assigning credit'''. Not finished, we did come up with a draft. Couple of issues e.g. OBI contributor's advisor wanted some credit, and a way to do that. Need to be formalised them. Defer discussion on this in favour of doing ontology building. 
-AA:schedule to have an off line discussion.
+<b>AA:schedule to have an off line discussion.</b>
 *Milestone - Submission of c'ty terms. Complete for first found. We acknowledge there is still work to do iterating, but we have something to work with. Just a mechanism, doesn't preclude adding on the fly. Should this process be separated from cty submission of terms? We think yes, helps us deal with batch submissions. 
 
 Then we talked about our policy in terms of '''multiple inheritance'''. AR said one possibility would be to make a defined (necessary & sufficient) class that is not necessarily in the "real" hierarchy. Inference would place it in the right location. Example is Diploid Cell, which could go into multiple locations in the single hierarchy. Further, it may go into an external ontology (diploid could be a quality, which equals PATO). This will be discussed in its own session later in the week.
@@ -133,8 +133,8 @@ Also, we should have 15 minutes that covers what Protege 4's status is, and what
 ===Agenda Item. Using OBI for real based on Matt's email===
 
 Based on email from Matt Pocock sent to obi-dev. His email can be read here: http://sourceforge.net/mailarchive/message.php?msg_name=200707091513.52789.matthew.pocock%40ncl.ac.uk 3 OBI tiers, 1 extra layer which is used to annotate with. Discussion on whether instances/individuals should be in OBI. Seems not, this is what the lab is annotating. When look at OBI core BFO is top tier, top 2-3 levels general terms, is second tier, hide BFO classes from consumers. Third tier get the whole file dynamically. Users using OBI might then want to send terms from their own 4th tier OWL file. Who are the users? Developers for data integration? Or biologists. Bioportal is a way to provide access for ontologists and in future build graphs etc. Problems with adding BIRNLEX, don't want it indexed in this way so is linked via SF instead. BIRNLEX imports OBI, and now OBI is now on the portal. If have parts of ontologies then the bioportal doesn't work for OBI as we have so many imports. Question of whether this is relevant for OBI. Do we want people browsing OBI. We need to identify these cases and decide how impact development. Seems we need both and we need to follow up this with OBO - Daniel Rubin needs to be contacted about this. 
-AA. Bill Bug will provide details for us to contact Daniel/Bioportal to solve this problems.
-AA. Get the plugin and test OBO format ouput, might solve this problem, though this sub optimal solution for some people.
+<b>AA. Bill Bug will provide details for us to contact Daniel/Bioportal to solve this problems.</b>
+<b>AA. Get the plugin and test OBO format ouput, might solve this problem, though this sub optimal solution for some people.</b>
 
 Conclusion on agenda item. 
 # We need a single file for some users, some will want parts. 
