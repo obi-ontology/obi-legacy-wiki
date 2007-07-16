@@ -13,3 +13,39 @@ Agenda and Action Items:
 3. Finalizing meta data annotations and clean up web pages - note we added a new meta data terms and these need to be added to relevant pages
 
 4. Follow up browsing OBI use cases with Bioportal - Bill Bug will outline issues with BIRN
+
+==Branch presentations action items==
+
+1. Relations branch: submit new relations to OBO via their tracker (Relns branch)
+
+2. DT branch: address naming issues, be more clear on mathematical function vs. method, rename for being in protocol application, or move to plan (DT Branch)
+
+3. DT branch: identify areas of overlap with the SW ontology from Daniel Rubin, which is under development but not yet in use (DT branch)
+
+4. Alan will break out all the meta data properties into a separate OWL file so Bill can use these for BIRNLEX instead of his own (AR/BB)
+
+5. Instrument branch: improve the definition of the platform, 
+
+6. Instrument branch: address reagent part to deal with computational platform where no typical reagents are used and to include being put together for a purpose. Should not include vendor. Will now be included in OWL file to aid editing - AR will do that. 
+
+7. Instrument branch: ProtocolApplication what is the platform used for (Instrument/PA branches)
+
+8. Instrument branch: Resolve issues with artefact and biomaterial overlap in definitions (all)
+
+9. Instrument branch: Remove device and create as a synonym for instrument (Instrument)
+
+10. Digital Entities: Look into overlap with Swan project and the SW ontology (Dig. E)
+
+11. Plan branch: Work on subjects to help classify experiments e.g. offspring, study, twin, (Plan)
+
+12. Plan Branch: Check definitions are Aristotelean. (Plan)
+
+13.  Write up an example for discussion on importing external ontologies esp. relavant for BioMaterial. AR/BB
+
+14. PATO and SO  both have Ploidy as a concept, needs resolving within OBO foundry (BS)
+
+15. Function branch: In Bill's example function and role are mixed. BFO may need to look at whether function and role are appropriate. (BB/BS
+
+16. Protocol Application branch: clinical_diagnosis definition is bad clean up, along with other definitions. (PA)
+
+17. Protocol Applications branch: Syntax needs clean up (PA)
