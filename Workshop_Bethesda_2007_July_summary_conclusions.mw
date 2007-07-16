@@ -35,21 +35,21 @@ Gilberto Fragoso, Chris Stoeckert, Richard Scheuerman, Susanna Sansone, Philippe
 
  9. Instrument branch: Remove device and create as a synonym for instrument (Instrument)
 
-10. Digital Entities: Look into overlap with Swan project and the SW ontology (Dig. E)
+ 10. Digital Entities: Look into overlap with Swan project and the SW ontology (Dig. E)
 
-11. Plan branch: Work on subjects to help classify experiments e.g. offspring, study, twin, (Plan)
+ 11. Plan branch: Work on subjects to help classify experiments e.g. offspring, study, twin, (Plan)
 
-12. Plan Branch: Check definitions are Aristotelean. (Plan)
+ 12. Plan Branch: Check definitions are Aristotelean. (Plan)
 
-13.  Write up an example for discussion on importing external ontologies esp. relavant for BioMaterial. AR/BB
+ 13.  Write up an example for discussion on importing external ontologies esp. relavant for BioMaterial. AR/BB
 
-14. PATO and SO  both have Ploidy as a concept, needs resolving within OBO foundry (BS)
+ 14. PATO and SO  both have Ploidy as a concept, needs resolving within OBO foundry (BS)
 
-15. Function branch: In Bill's example function and role are mixed. BFO may need to look at whether function and role are appropriate. (BB/BS
+ 15. Function branch: In Bill's example function and role are mixed. BFO may need to look at whether function and role are appropriate. (BB/BS
 
-16. Protocol Application branch: clinical_diagnosis definition is bad clean up, along with other definitions. (PA)
+ 16. Protocol Application branch: clinical_diagnosis definition is bad clean up, along with other definitions. (PA)
 
-17. Protocol Applications branch: Syntax needs clean up (PA)
+ 17. Protocol Applications branch: Syntax needs clean up (PA)
 
 * Following the presentations from the branches we decided to identify common problems e.g. with existing hierarchy and focus on these during the rest of the workshop. 
 
