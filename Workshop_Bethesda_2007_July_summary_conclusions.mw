@@ -1,38 +1,39 @@
 <b>Present:</b>
 
 Gilberto Fragoso, Chris Stoeckert, Richard Scheuerman, Susanna Sansone, Philippe Rocca-Serra, Bill Bug, Liju Fan, Jennifer Fostel, Allyson Lister, Randi Vita, Tina Boussard, Helen Parkinson, James Malone, Kevin Clancy, Alan Ruttenberg, Christian Cocos, Barry Smith, Daniel Rubin (by phone), Mervi Heiskanen
+<b>Action Items:</b>
 
-Agenda and Action Items:
+==Review of San Diego Milestones, outstanding issues==
 
-==Review of Milestones==
+ 1. Complete assigning credit policy
 
-1. Complete assigning credit policy
+ 2. Complete deprecation policy
 
-2. Complete deprecation policy
+ 3. Finalizing meta data annotations and clean up web pages - note we added a new meta data terms and these need to be added to relevant pages
 
-3. Finalizing meta data annotations and clean up web pages - note we added a new meta data terms and these need to be added to relevant pages
-
-4. Follow up browsing OBI use cases with Bioportal - Bill Bug will outline issues with BIRN
+ 4. Follow up browsing OBI use cases with Bioportal - Bill Bug will outline issues with BIRN
 
 ==Branch presentations action items==
 
-1. Relations branch: submit new relations to OBO via their tracker (Relns branch)
+* Each branch provided a summary of progress and problems were discussed
 
-2. DT branch: address naming issues, be more clear on mathematical function vs. method, rename for being in protocol application, or move to plan (DT Branch)
+ 1. Relations branch: submit new relations to OBO via their tracker (Relns branch)
 
-3. DT branch: identify areas of overlap with the SW ontology from Daniel Rubin, which is under development but not yet in use (DT branch)
+ 2. DT branch: address naming issues, be more clear on mathematical function vs. method, rename for being in protocol application, or move to plan (DT Branch)
 
-4. Alan will break out all the meta data properties into a separate OWL file so Bill can use these for BIRNLEX instead of his own (AR/BB)
+ 3. DT branch: identify areas of overlap with the SW ontology from Daniel Rubin, which is under development but not yet in use (DT branch)
 
-5. Instrument branch: improve the definition of the platform, 
+ 4. Alan will break out all the meta data properties into a separate OWL file so Bill can use these for BIRNLEX instead of his own (AR/BB)
 
-6. Instrument branch: address reagent part to deal with computational platform where no typical reagents are used and to include being put together for a purpose. Should not include vendor. Will now be included in OWL file to aid editing - AR will do that. 
+ 5. Instrument branch: improve the definition of the platform, 
 
-7. Instrument branch: ProtocolApplication what is the platform used for (Instrument/PA branches)
+ 6. Instrument branch: address reagent part to deal with computational platform where no typical reagents are used and to include being put together for a purpose. Should not include vendor. Will now be included in OWL file to aid editing - AR will do that. 
 
-8. Instrument branch: Resolve issues with artefact and biomaterial overlap in definitions (all)
+ 7. Instrument branch: ProtocolApplication what is the platform used for (Instrument/PA branches)
 
-9. Instrument branch: Remove device and create as a synonym for instrument (Instrument)
+ 8. Instrument branch: Resolve issues with artefact and biomaterial overlap in definitions (all)
+
+ 9. Instrument branch: Remove device and create as a synonym for instrument (Instrument)
 
 10. Digital Entities: Look into overlap with Swan project and the SW ontology (Dig. E)
 
@@ -49,3 +50,7 @@ Agenda and Action Items:
 16. Protocol Application branch: clinical_diagnosis definition is bad clean up, along with other definitions. (PA)
 
 17. Protocol Applications branch: Syntax needs clean up (PA)
+
+* Following the presentations from the branches we decided to identify common problems e.g. with existing hierarchy and focus on these during the rest of the workshop. 
+
+==Common Problems Discussion Action Items==
