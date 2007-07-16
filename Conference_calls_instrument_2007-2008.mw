@@ -1,4 +1,16 @@
 ====Summary of the Instrument Branch Conference Calls====
+* 17July2007
+** Agenda:
+***Checkout latest OBI-svn with all the latest changes
+*** Review on issues that came up during WS and that affect our branch and look at action items from WS on https://wiki.cbil.upenn.edu/obiwiki/index.php/Bethesda_Meeting_Summary_and_Conclusions , e.g.:
+***5. Instrument branch: improve the definition of the platform, 
+***6. Instrument branch: address reagent part to deal with computational platform where no typical reagents are used and to include being put together for a purpose. Should not include vendor. Will now be included in OWL file to aid editing - AR will do that. 
+***7. Instrument branch: ProtocolApplication what is the platform used for (Instrument/PA branches)
+***8. Instrument branch: Resolve issues with artefact and biomaterial overlap in definitions (all)
+***9. Instrument branch: Remove device and create as a synonym for instrument (Instrument)
+***18. Artefact object discussion. Two different hierarchies were discussed. No resolution during meeting. These OWL files need to be posted and discussed during a dev call
+***29. Helper classes for temporary terms. All branches will use branchname_temp (all)
+**[[InstrumentMinutes17July2007|Minutes]]
 
 * 3July2007
 ** Agenda:
