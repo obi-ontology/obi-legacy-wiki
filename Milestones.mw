@@ -1,8 +1,46 @@
-
-Milestones in fomat Date (Responsible person, i.e. not necessarily the one doing everything, but the one who should watch for completion) Description
+Milestones in fomart Date (Responsible person, i.e. not necessarily the one doing everything, but the one who should watch for completion) Description
 Abbreviations: WS - workshop participants, CC - Community Coordinators
 
-These milestones are copied onto a [[ [[GoogleCal]]|Google Calendar || [[GoogleCal]]]]. Information about adding this calendar to your google calendar or exporting it in ICAL format are available from the [[Google Calendar |]] page. Please update the google calendar when you update this page.
+These milestones are copied onto a [[ [[GoogleCal]]|Google Calendar || [[GoogleCal]]]]. Information about adding this calendar to your google calendar or exporting it in ICAL format are available from the [[Google Calendar |Google Calendar ]] page. Please update the google calendar when you update this page.
+
+
+==Milestones from Bethesda 2007 Meeting==
+
+New milestones agreed from Bethesda workshop in due date order
+
+
+ 1. All terms passed to all correct branch, (NB:includes relations) 15 August, 2007
+
+ 2. Define mechanism for placement of defined classes (AR/GF) 30 August 2007
+
+ 3. Produce a use case template for use in competency testing (DS/JM) 15 August, 2007 
+
+ 4.  Branch item. All branches should have an OBI-OWL file based on terms sent prior * to submission deadline. Roles (JF), Digital Entities (CS), Qualities.owl (AR) 30 August 2007
+
+ 5 Branch. Every branch cleans up OWL files Standard definitions, names, redundancy removed  (NB. CC will audit after due date) 30 August 2007 
+
+ 6. Defined use case(s) for OBI annotation submitted, 15 September 
+
+ 7. Start competency testing 15 September, 2007, completed competency testing by 30 October, 2007 (JM/DS) (revisit deadline) 
+
+ 8. All terms should be in correct branch OWL file with example, definition etc. (All)30 Sept 2007.
+
+ 9. Publish terms in OBI.OWL file release win which terms are identified and defined but not necessarily placed in hierarchy correctly. Includes second round submissions. (All) 30 September, 2007
+
+ 10. Second solicitation of terms start (NB. Doesn't preclude interim term additions to support use cases esp. OCI terms) (All) 30 September, 2007 end 15 November, 2007
+
+ 11. Core work: Develop a stable core 2 levels down from the BFO and resolve in hierarchy with branch agreement (All). 15 November, 
+
+ 12. Complete annotation of use case(s) in parallel from 5. with OBI (All), 30 November, 2007
+
+ 13. Identify next workshop date for Vancouver (RB), ASAP
+
+ 14. Completed release roadmap. Strategy and expectations? Decide on release early release often vs. stable releases? (AR), 30 August, 2007
+
+ 15. Release of sanctioned OBI 0.1 (NB. Doesn't preclude earlier releases.) (All) 15 December, 2007 
+
+ 16. Deadline for processing (NB. can include temporary positions. Not to be part of first formal release. Processing means editor checked, defined, naming conventions followed)of second set of terms (All) 15 January, 2008
+
 
 ==== Completed Milestones !
 ====
