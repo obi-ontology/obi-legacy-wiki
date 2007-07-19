@@ -6,7 +6,7 @@ Initial efforts to organize the root of the Biomaterial branch led to the creati
 #* whether and/or how to use the ontology normalization Design Pattern to define the core hierarchy with alternative hierarchies defined via inference?
 #* if normalization is to be used, how and which ObjectProperties and Qualities can be used to represent all the required logical entailments?
 #* if normalization is to be used, will we want to deploy a version of OBI that where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
-
+<br>
 [[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
 [[HomePage|<<Back to Homepage]]
 
