@@ -9,6 +9,10 @@ __TOC__
 
 ==General Citations==
 * The [http://www.co-ode.org/resources/papers/ CO-ODE publications page]
-* [http://sourceforge.net/mailarchive/forum.php?thread_name=4698B3B7.60501%40cs.man.ac.uk&forum_name=obi-devel Mikel Egaña Aranguren post re: Ontology Design Pattern July 2007 ISMB presentation and citaions]
+* [http://www.gong.manchester.ac.uk/ The GONG Project]
+** [http://www.gong.manchester.ac.uk/ontologydesignpatterns/ The GONG Project Ontology Design Patterns page]
+** [http://www.gong.manchester.ac.uk/publications/ The GONG Project Publications page]
+** [http://sourceforge.net/mailarchive/forum.php?thread_name=4698B3B7.60501%40cs.man.ac.uk&forum_name=obi-devel Mikel Egaña Aranguren post re: Ontology Design Pattern July 2007 ISMB presentation and citaions]
+*** Mikel is a PhD student at Manchester Computer science whose thesis work has focussed on accumulating and codifying the [http://www.gong.manchester.ac.uk/files/odps.xml various Ontology Design Patterns (ODPs)]
 
 ==Branch-specific OBI Developer Discussions==
