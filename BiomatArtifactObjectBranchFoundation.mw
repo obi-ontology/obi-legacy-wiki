@@ -1,0 +1,18 @@
+==Foundational semantic framework for biomaterial and artifact_object branch==
+
+Initial efforts to organize the root of the Biomaterial branch led to the creation of a base class '''artifact_object''' intended as a means of separating ''naturally occuring'' objects and those created ''artificially through human action'' whether they be based on Biomaterials (e.g., cell lines, tissue whole mounts, etc.) or non-biological physical materials (e.g., instruments and instrument parts).  Further review by the larger group of OBI developers that took place during the [bi-annual OBI Developer meeting in July 2007 at the NIH in Bethesda, MD] led to two fundamental questions:
+# Whether or not it is considered arbitrary, it appears quite difficult to consistently define the boundary between ''natural'' and ''artificial'' materials.
+# The question remains as to what the primary classification for material objects should be.  The discussion has focussed on:
+## whether and/or how to use the ontology normalization Design Pattern to define the core hierarchy with alternative hierarchies defined via inference?
+## if normalization is to be used, how and which ObjectProperties and Qualities can be used to represent all the required logical entailments?
+## if normalization is to be used, will we want to deploy a version of OBI that where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
+
+[[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
+[[HomePage|<<Back to Homepage]]
+
+__TOC__
+==Core Material Object Classification==
+
+==Use of PATO==
+
+==Use of OBI & OBO Relations==
