@@ -15,22 +15,22 @@ Further review by the larger group of OBI developers that took place during the 
 __TOC__
 ==Core Material Object Classification==
 ===Current (2007-07-19) High-level OBI subclasses of bfo:Object===
-* biomaterial_entity
+* '''biomaterial_entity'''
 ** definition: A biomaterial entity is an object of biological origin.
 *** definition_source: OBI.
 ** editor_note: Domain of an object property ''has_role_which_can_only_be_played_by_biomaterial_entity'' in obi before split, Range: ''?role_which_can_only_be_played_by_biomaterial_entity'' (LF 040907).
 ** branch: Biomaterial
-** sub-classes: chimera, geneticInformationContent, cell derived from multicellular organism, immortal cell, substance, supernatant, artificially engineered biomaterial, fragment derived from protein, biosource_provider, cultivar, differentiation_state, genetic_modification, molecular_mixture, organism_status, entity_of_organismal_origin, ChEBI_objects, toBeDiscussed, xenograft - and
+** sub-classes: '''chimera''', '''geneticInformationContent''', '''cell derived from multicellular organism''', immortal cell, substance''', '''supernatant''', artificially engineered biomaterial, '''fragment derived from protein''', '''biosource_provider''', '''cultivar''', '''differentiation_state''', '''genetic_modification''', molecular_mixture, organism_status, entity_of_organismal_origin, ChEBI_objects, toBeDiscussed, xenograft - and
 *** '''ExperimentalBiomaterialEntity'''
 **** sub-classes: '''cell cuture''', '''library''', '''synthetic polypeptide''', '''organ_section''', '''Bronchial_Alveolar_Lavage (BAL)''', '''cdna_library''', '''cell_culture_supernatent''', '''display_library''', '''lysate''', '''peptide_construct''', '''transgenic_organism''', '''whole_mount''', '''cell_pellet'''
 *** '''NaturalBiomaterialEntity'''
 **** sub-classes: '''unicellular organism''', '''cell''', '''ecotype''', '''organism''', '''organism_part''', '''population''', '''serotype''', '''strain''', '''biological_macromolecule''', '''organism''', '''in_vivo_biomaterial'''
-* artefact_object
+* '''artefact_object'''
 ** definition: An artefact_object is an object that is produced or shaped by human craft, especially a tool, weapon, or ornament of archaeological or historical interest.
 *** definition_source: http://www.answers.com/artefact
 *** definition_editor: Frank Gibson
 ** examples: Examples include the siblings of device and other objects such as gel matrices; used in gel electrophoresis, filter paper, parafilm and buffer solutions.
-** sub-classes: cardinal_part_of_instrument, device, _collected_relations, physical_document
+** sub-classes: '''cardinal_part_of_instrument''', '''device''', '''_collected_relations''', '''physical_document'''
 
 ==Use of PATO==
 
