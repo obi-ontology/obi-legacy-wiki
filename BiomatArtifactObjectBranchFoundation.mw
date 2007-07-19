@@ -2,8 +2,6 @@
 
 Initial efforts to organize the root of the material branches ('''Biomaterial''' and '''Instrument''') led to the creation of a base class '''artifact_object''' intended as a means of separating biologically-based objects ('''immortal_cell''', '''ChEBI_object''', '''xenograft''', etc.) from non-biological physical materials artificially ''shaped through human craft'' (e.g., '''Instruments''', '''Cardinal_part_of_instrument''', etc.).
 
-''naturally occuring'' objects and those created whether they be based on '''Biomaterials''' (e.g., cell lines, tissue whole mounts, etc.) or   
-
 Further review by the larger group of OBI developers that took place during the [bi-annual OBI Developer meeting in July 2007 at the NIH in Bethesda, MD] led to two fundamental questions:
 # It appears quite difficult to consistently define the boundary between ''biological'' and ''artificial'' materials.  The existence of classes under '''Biomaterial''' such as '''ExperimentalBiomaterialEntity''' and '''NaturalBiomaterialEntity''' seem to highten as opposed to resolve the issue by drawing attention to the arbitrary and potentially inconsistent boundary between ''natural'' and ''artificial'' biologically-derived material.
 # Whether or not the boundary is considered arbitrary, the question remains as to what the primary classification for material objects should be.  The discussion has focussed on:
