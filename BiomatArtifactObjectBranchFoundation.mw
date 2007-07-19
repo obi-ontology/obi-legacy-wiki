@@ -7,20 +7,24 @@ Further review by the larger group of OBI developers that took place during the 
 # Whether or not the boundary is considered arbitrary, the question remains as to what the primary classification for material objects should be.  The discussion has focussed on:
 #* whether and/or how to use the ontology normalization Design Pattern to define the core hierarchy with alternative hierarchies defined via inference?
 #* if normalization is to be used, how and which ObjectProperties and Qualities will be required to support inferring all the needed classification hierarchies?
-#* if normalization is to be used, will we want to deploy a version of OBI that where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
+#* if normalization is to be used, will we want to deploy a version of OBI where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
 <br>
 [[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
 [[HomePage|<<Back to Homepage]]
 
 __TOC__
 ==Core Material Object Classification==
-===Current High-level OBI subclasses of bfo:Object===
+===Current (2007-07-19) High-level OBI subclasses of bfo:Object===
 * biomaterial_entity
 ** definition: A biomaterial entity is an object of biological origin.
 *** definition_source: OBI.
-** editor_note: Domain of an object property "has_role_which_can_only_be_played_by_biomaterial_entity" in obi before split, Range: ?role_which_can_only_be_played_by_biomaterial_entity (LF 040907).
+** editor_note: Domain of an object property ''has_role_which_can_only_be_played_by_biomaterial_entity'' in obi before split, Range: ''?role_which_can_only_be_played_by_biomaterial_entity'' (LF 040907).
 ** branch: Biomaterial
-** sub-classes: chimera, ExperimentalBiomaterialEntity, geneticInformationContent, NaturalBiomaterialEntity, cell derived from multicellular organism, immortal cell, substance, supernatant, artificially engineered biomaterial, fragment derived from protein, biosource_provider, cultivar, differentiation_state, genetic_modification, molecular_mixture, organism_status, entity_of_organismal_origin, ChEBI_objects, toBeDiscussed, xenograft
+** sub-classes: chimera, geneticInformationContent, cell derived from multicellular organism, immortal cell, substance, supernatant, artificially engineered biomaterial, fragment derived from protein, biosource_provider, cultivar, differentiation_state, genetic_modification, molecular_mixture, organism_status, entity_of_organismal_origin, ChEBI_objects, toBeDiscussed, xenograft - and
+*** '''ExperimentalBiomaterialEntity'''
+**** sub-classes: '''cell cuture''', '''library''', '''synthetic polypeptide''', '''organ_section''', '''Bronchial_Alveolar_Lavage (BAL)''', '''cdna_library''', '''cell_culture_supernatent''', '''display_library''', '''lysate''', '''peptide_construct''', '''transgenic_organism''', '''whole_mount''', '''cell_pellet'''
+*** '''NaturalBiomaterialEntity'''
+**** sub-classes: '''unicellular organism''', '''cell''', '''ecotype''', '''organism''', '''organism_part''', '''population''', '''serotype''', '''strain''', '''biological_macromolecule''', '''organism''', '''in_vivo_biomaterial'''
 * artefact_object
 ** definition: An artefact_object is an object that is produced or shaped by human craft, especially a tool, weapon, or ornament of archaeological or historical interest.
 *** definition_source: http://www.answers.com/artefact
