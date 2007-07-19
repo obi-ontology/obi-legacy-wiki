@@ -1,8 +1,12 @@
 ==Foundational semantic framework for material objects (biomaterial and instrument branches)==
 
-Initial efforts to organize the root of the Biomaterial branch led to the creation of a base class '''artifact_object''' intended as a means of separating ''naturally occuring'' objects and those created ''artificially through human action'' whether they be based on Biomaterials (e.g., cell lines, tissue whole mounts, etc.) or non-biological physical materials (e.g., instruments and instrument parts).  Further review by the larger group of OBI developers that took place during the [bi-annual OBI Developer meeting in July 2007 at the NIH in Bethesda, MD] led to two fundamental questions:
-# Whether or not it is considered arbitrary, it appears quite difficult to consistently define the boundary between ''natural'' and ''artificial'' materials.
-# The question remains as to what the primary classification for material objects should be.  The discussion has focussed on:
+Initial efforts to organize the root of the material branches ('''Biomaterial''' and '''Instrument''') led to the creation of a base class '''artifact_object''' intended as a means of separating biologically-based objects ('''immortal_cell''', '''ChEBI_object''', '''xenograft''', etc.) from non-biological physical materials artificially ''shaped through human craft'' (e.g., '''Instruments''', '''Cardinal_part_of_instrument''', etc.).
+
+''naturally occuring'' objects and those created whether they be based on '''Biomaterials''' (e.g., cell lines, tissue whole mounts, etc.) or   
+
+Further review by the larger group of OBI developers that took place during the [bi-annual OBI Developer meeting in July 2007 at the NIH in Bethesda, MD] led to two fundamental questions:
+# It appears quite difficult to consistently define the boundary between ''biological'' and ''artificial'' materials.  The existence of classes under '''Biomaterial''' such as '''ExperimentalBiomaterialEntity''' and '''NaturalBiomaterialEntity''' seem to highten as opposed to resolve the issue by drawing attention to the arbitrary and potentially inconsistent boundary between ''natural'' and ''artificial'' biologically-derived material.
+# Whether or not the boundary is considered arbitrary, the question remains as to what the primary classification for material objects should be.  The discussion has focussed on:
 #* whether and/or how to use the ontology normalization Design Pattern to define the core hierarchy with alternative hierarchies defined via inference?
 #* if normalization is to be used, how and which ObjectProperties and Qualities can be used to represent all the required logical entailments?
 #* if normalization is to be used, will we want to deploy a version of OBI that where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
@@ -12,6 +16,19 @@ Initial efforts to organize the root of the Biomaterial branch led to the creati
 
 __TOC__
 ==Core Material Object Classification==
+===Current High-level OBI subclasses of bfo:Object===
+* biomaterial_entity
+** definition: A biomaterial entity is an object of biological origin.
+*** definition_source: OBI.
+** editor_note: Domain of an object property "has_role_which_can_only_be_played_by_biomaterial_entity" in obi before split, Range: ?role_which_can_only_be_played_by_biomaterial_entity (LF 040907).
+** branch: Biomaterial
+** sub-classes: chimera, ExperimentalBiomaterialEntity, geneticInformationContent, NaturalBiomaterialEntity, cell derived from multicellular organism, immortal cell, substance, supernatant, artificially engineered biomaterial, fragment derived from protein, biosource_provider, cultivar, differentiation_state, genetic_modification, molecular_mixture, organism_status, entity_of_organismal_origin, ChEBI_objects, toBeDiscussed, xenograft
+* artefact_object
+** definition: An artefact_object is an object that is produced or shaped by human craft, especially a tool, weapon, or ornament of archaeological or historical interest.
+*** definition_source: http://www.answers.com/artefact
+*** definition_editor: Frank Gibson
+** examples: Examples include the siblings of device and other objects such as gel matrices; used in gel electrophoresis, filter paper, parafilm and buffer solutions.
+** sub-classes: cardinal_part_of_instrument, device, _collected_relations, physical_document
 
 ==Use of PATO==
 
