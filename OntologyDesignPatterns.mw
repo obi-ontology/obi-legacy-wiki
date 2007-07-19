@@ -1,17 +1,14 @@
-==Ontology Normalization and Single Inheritance==
+==Ontology Design Patterns==
 
-Fundemental to how we use OWL and leverage the tools specifically designed for use both to curate and process OWL ontologies (e.g., DIG reasoners such as Pellet and FaCT++) is the way in which we create ObjectProperties to construct more various class relations, as opposed to asserting multiple hierarchies via the owl:SubclassOf class axiom.  This is a critical issue both in helping to guide the choices we make within a branch as to what defining properties should be used to build the single asserted subsumptive (i.e., 'is_a') hierarchy, as well as how to relate classes across branches using ObjectProperty restrictions.
+Over the last decade, members of [http://intranet.cs.man.ac.uk/bhig/ the Bio-Health Informatics Group at the University of Manchester] - in particular, [http://intranet.cs.man.ac.uk/bhig/people.php#alanrector Dr. Alan Rector], [http://intranet.cs.man.ac.uk/bhig/people.php#robertstevens Dr. Robert Stevens] and their colleagues - through their work on a wide variety on KR/KM/KD efforts as [http://www.openclinical.org/prj_galen.html The Galen Project], the [http://www.gong.manchester.ac.uk/ Gene Ontology Next Generation (GONG) Project] and fundamental contributions to application of OWL to semantically-driven data integration and bioinformatic knowledge representation, have been accumulating a variety of effective Design Patterns for practical ontology development.  This work has more recently found a home in the [http://www.co-ode.org CO-ODE Project].
 
 [[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
 [[HomePage|<<Back to Homepage]]
 
 __TOC__
 
-==General References==
-* [http://sourceforge.net/mailarchive/forum.php?thread_name=F3AB4896-CE9A-44FD-9623-CFF0A30F8F8F%40gmail.com&forum_name=obi-devel Alan Rector's comment to Alan R re: normalization and single inheritance]
-** [http://www.cs.man.ac.uk/~rector/papers/rector-modularisation-kcap-2003-distrib.pdf KCAP 2003 article on Ontology Modularization/Normalization by Alan Rector]
+==General Citations==
+* The [http://www.co-ode.org/resources/papers/ CO-ODE publications page]
 * [http://sourceforge.net/mailarchive/forum.php?thread_name=4698B3B7.60501%40cs.man.ac.uk&forum_name=obi-devel Mikel Egaña Aranguren post re: Ontology Design Pattern July 2007 ISMB presentation and citaions]
-** Mikel is a PhD student at Manchester Computer science whose thesis work has focussed on accumulating and codifying the [http://www.gong.manchester.ac.uk/files/odps.xml various Ontology Design Patterns (ODPs)]
 
-==List Discussion: Ontology Design Pattern for Normalisation (Untangling)==
-* [http://sourceforge.net/mailarchive/forum.php?thread_name=4695120B.7070506%40ebi.ac.uk&forum_name=obi-devel list thread]
+==Branch-specific OBI Developer Discussions==
