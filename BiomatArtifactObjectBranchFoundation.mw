@@ -6,7 +6,7 @@ Further review by the larger group of OBI developers that took place during the 
 # It appears quite difficult to consistently define the boundary between ''biological'' and ''artificial'' materials.  The existence of classes under '''Biomaterial''' such as '''ExperimentalBiomaterialEntity''' and '''NaturalBiomaterialEntity''' seem to highten as opposed to resolve the issue by drawing attention to the arbitrary and potentially inconsistent boundary between ''natural'' and ''artificial'' biologically-derived material.
 # Whether or not the boundary is considered arbitrary, the question remains as to what the primary classification for material objects should be.  The discussion has focussed on:
 #* whether and/or how to use the ontology normalization Design Pattern to define the core hierarchy with alternative hierarchies defined via inference?
-#* if normalization is to be used, how and which ObjectProperties and Qualities can be used to represent all the required logical entailments?
+#* if normalization is to be used, how and which ObjectProperties and Qualities will be required to support inferring all the needed classification hierarchies?
 #* if normalization is to be used, will we want to deploy a version of OBI that where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
 <br>
 [[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
