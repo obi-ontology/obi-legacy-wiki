@@ -32,6 +32,8 @@ __TOC__
 ** examples: Examples include the siblings of device and other objects such as gel matrices; used in gel electrophoresis, filter paper, parafilm and buffer solutions.
 ** sub-classes: '''cardinal_part_of_instrument''', '''device''', '''_collected_relations''', '''physical_document'''
 
-==Use of PATO==
+==Use of OBI Relations and/or OBO Relations==
 
-==Use of OBI & OBO Relations==
+==Contribution from other branches in defining complex classifications of material objects==
+
+===Use of PATO===
