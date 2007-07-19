@@ -1,0 +1,13 @@
+==Ontology Design Patterns==
+
+Over the last decade, members of [http://intranet.cs.man.ac.uk/bhig/ the Bio-Health Informatics Group at the University of Manchester] - in particular, [http://intranet.cs.man.ac.uk/bhig/people.php#alanrector Dr. Alan Rector], [http://intranet.cs.man.ac.uk/bhig/people.php#robertstevens Dr. Robert Stevens] and their colleagues - through their work on a wide variety on KR/KM/KD efforts as the Galen Project and fundamental contributions to application of OWL to semantically-driven data integration and bioinformatic knowledge representation, have been accumulating a variety of effective Design Patterns for practical ontology development.  This work has more recently found a home in the [http://www.co-ode.org CO-ODE Project].
+
+[[HomePage|<<Back to Homepage]]
+
+__TOC__
+
+==General Citations==
+* The [http://www.co-ode.org/resources/papers/ CO-ODE publications page]
+* [http://sourceforge.net/mailarchive/forum.php?thread_name=4698B3B7.60501%40cs.man.ac.uk&forum_name=obi-devel Mikel Egaña Aranguren post re: Ontology Design Pattern July 2007 ISMB presentation and citaions]
+
+==Branch-specific OBI Developer Discussions==
