@@ -20,7 +20,7 @@ __TOC__
 *** definition_source: OBI.
 ** editor_note: Domain of an object property ''has_role_which_can_only_be_played_by_biomaterial_entity'' in obi before split, Range: ''?role_which_can_only_be_played_by_biomaterial_entity'' (LF 040907).
 ** branch: Biomaterial
-** sub-classes: '''chimera''', '''geneticInformationContent''', '''cell derived from multicellular organism''', immortal cell, substance''', '''supernatant''', artificially engineered biomaterial, '''fragment derived from protein''', '''biosource_provider''', '''cultivar''', '''differentiation_state''', '''genetic_modification''', molecular_mixture, organism_status, entity_of_organismal_origin, ChEBI_objects, toBeDiscussed, xenograft - and
+** sub-classes: '''chimera''', '''geneticInformationContent''', '''cell derived from multicellular organism''', '''immortal cell''', '''substance''', '''supernatant''', '''artificially engineered biomaterial''', '''fragment derived from protein''', '''biosource_provider''', '''cultivar''', '''differentiation_state''', '''genetic_modification''', '''molecular_mixture''', '''organism_status''', '''entity_of_organismal_origin''', '''ChEBI_objects''', '''toBeDiscussed''', '''xenograft''' - and
 *** '''ExperimentalBiomaterialEntity'''
 **** sub-classes: '''cell cuture''', '''library''', '''synthetic polypeptide''', '''organ_section''', '''Bronchial_Alveolar_Lavage (BAL)''', '''cdna_library''', '''cell_culture_supernatent''', '''display_library''', '''lysate''', '''peptide_construct''', '''transgenic_organism''', '''whole_mount''', '''cell_pellet'''
 *** '''NaturalBiomaterialEntity'''
