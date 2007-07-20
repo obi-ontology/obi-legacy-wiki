@@ -32,6 +32,14 @@ __TOC__
 ** examples: Examples include the siblings of device and other objects such as gel matrices; used in gel electrophoresis, filter paper, parafilm and buffer solutions.
 ** sub-classes: '''cardinal_part_of_instrument''', '''device''', '''_collected_relations''', '''physical_document'''
 
+* Discussion
+** from OBI Bethesda Meeting - ''July 10''
+*** '''Bill Bug (BB)''': I don't understand why we need artefact objects
+*** '''Helen Parkinson (HP)''': didn't we decide on phone call to remove artefact. 
+*** '''BB''': get rid of artefact
+** ''July 11, 2007 4:37:17 AM EDT''
+*** '''Frank Gibson (FG)''': This class is here to have a separation from biomaterial. It is not just a parent class for instruments. We have spent alot of time producing these classes, we did not just include them on a whim. The class is there to provide a holder for man-made object such as polyacrylamide gels, which are not instruments not labware and not biomaterials but are objects.
+
 ==Use of OBI Relations and/or OBO Relations==
 
 ==Contribution from other branches in defining complex classifications of material objects==
