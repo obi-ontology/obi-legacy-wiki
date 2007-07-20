@@ -41,7 +41,7 @@ __TOC__
 *** '''Frank Gibson (FG)''': This class is here to have a separation from biomaterial. It is not just a parent class for instruments. We have spent alot of time producing these classes, we did not just include them on a whim. The class is there to provide a holder for man-made object such as polyacrylamide gels, which are not instruments not labware and not biomaterials but are objects.
 ** ''July 11, 2007 4:55:49 AM EDT''
 *** '''Alan Ruttenberg (AR)''': The definition didn't seem to work as intended. Domesticated animals are shaped by human craft, as are transgenic mice, yet these were also considered to be Biomaterials.
-*** '''AR''': What inferential power the superclass would have - if you know something is an artefact_object then how can use that piece of information for profit?
+*** '''AR''': What inferential power will the superclass have - if you know something is an artefact_object then how can use that piece of information for profit?
 
 ==Use of OBI Relations and/or OBO Relations==
 
