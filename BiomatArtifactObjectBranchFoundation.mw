@@ -50,6 +50,8 @@ __TOC__
 ** ''July 11, 2007 4:55:49 AM EDT''
 *** '''AR''': The definition didn't seem to work as intended. Domesticated animals are shaped by human craft, as are transgenic mice, yet these were also considered to be Biomaterials.
 *** '''AR''': What inferential power will the superclass have - if you know something is an artefact_object then how can use that piece of information for profit?
+** ''July 11, 2007 5:14:34 AM EDT''
+*** '''FG''': (Yes), the definition of Biomaterial needs more clarification, if we are to define its disjoints. I would definitely agree biomaterial captures context specific information. Where would nucleic acids and amino acids go in the hierarchy?  Are they a '''biomaterial''' or are they what ''''defines'''' a biomaterial?
 
 ==Use of OBI Relations and/or OBO Relations==
 
