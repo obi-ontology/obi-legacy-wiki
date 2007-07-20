@@ -71,6 +71,8 @@ __TOC__
 ** ''July 11, 2007 7:49:09 AM EDT''
 *** '''FG''': To add confusion to the issue, a gel matrix is only an object aggregate if it is composed form other objects. If you buy a pre-made and cast gel matrix from a vendor does it cease to be an object aggregate?
 **** '''BB''': In an experiment where that is the case, they one need not capture the process used to manufacture the gel - however, just to describe it as investigational tool, you may still require capturing some of its composite elements (e.g., 10% TBE gels).  It ''might'' be expedient and appropriate to simply capture this as a global quality of the gel object.  However, if there's a need to capture the way in which the sample or reagents interact with or are affected by the components of the TBE buffer (i.e., Tris, Borate, and EDTA) when interpreting the results of the investigation, then it may be necessary to at least break out the gel matrix from the buffer.  When the gel is manufactured in the lab, sometimes it will be relevant to capture the amount of Ammonium Persulfate and TEMED used to polymerize the matrix based on what biomaterial sample is being separated and how quickly the gel needs to be used.
+**** '''AR''': To describe the constitution of a composite entity, one must describe its composite parts regardless of the process of used to put it together. If it's an object aggregate when you put it together, then it's an object aggregate if someone else puts it together.  
+**** '''AR''': That said, we did discuss that the whole object aggregate versus object distinction is unclear. Barry believes it can be disambiguated, but - at a minimum - he's not unconfused me yet.
 
 ==Use of OBI Relations and/or OBO Relations==
 
