@@ -16,10 +16,11 @@ __TOC__
 
 ==Discussion Participants==
 * '''Bill Bug (BB)'''
-* '''Helen Parkinson (HP)'''
 * '''Frank Gibson (FG)'''
-* '''Alan Ruttenberg (AR)'''
+* '''Allyson Lister (AL)'''
+* '''Helen Parkinson (HP)'''
 * '''Bjoern Peters (BP)'''
+* '''Alan Ruttenberg (AR)'''
 
 ==Core Material Object Classification==
 ===Current (2007-07-19) High-level OBI subclasses of bfo:Object===
@@ -51,7 +52,15 @@ __TOC__
 *** '''AR''': The definition didn't seem to work as intended. Domesticated animals are shaped by human craft, as are transgenic mice, yet these were also considered to be Biomaterials.
 *** '''AR''': What inferential power will the superclass have - if you know something is an artefact_object then how can use that piece of information for profit?
 ** ''July 11, 2007 5:14:34 AM EDT''
-*** '''FG''': (Yes), the definition of Biomaterial needs more clarification, if we are to define its disjoints. I would definitely agree biomaterial captures context specific information. Where would nucleic acids and amino acids go in the hierarchy?  Are they a '''biomaterial''' or are they what ''''defines'''' a biomaterial?
+*** '''FG''': Would a better response not have been, "lets work on the defintion of both biomaterial and artefact_object", rather than, "lets delete it"?
+**** '''AR''': Perhaps - '''IF''' we can justify the value of doing so. There's a lot to be done and one must prioritize. Nthing is permanent, or closed for discussion. If you think this should be kept open and want to try to work on a better definition, then let's.  But do give a little more thought about whether it is worth the effort and perhaps defend that it is a bit.
+*** '''FG''': (Yes), the definition of Biomaterial needs more clarification, if we are to define its disjoints. I would definitely agree biomaterial captures context specific information. Where would nucleic acids and amino acids go in the hierarchy?  Are they a '''biomaterial''' or are they what '''''defines''''' a biomaterial?
+**** '''AR''': Yup
+** ''July 11, 2007 5:29:20 AM EDT''
+*** '''FG''': aretfact_object was developed as a disjoint to biomaterial. If biomaterial is deleted or re-worked, then likewise artefact_object may follow or cease to be an issue.
+** ''July 11, 2007 6:24:11 AM EDT''
+*** '''AL''': The consensus of the group when I presented (in addition to what AR & BB say above), was that the children of artefact_object could just as easily be moved up to be disjoint siblings of biomaterial, rather than having artefact_object be disjoint.  As AR said, there's room for more discussion later on if necessary.
+
 
 ==Use of OBI Relations and/or OBO Relations==
 
