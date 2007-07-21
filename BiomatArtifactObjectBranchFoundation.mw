@@ -210,6 +210,10 @@ __TOC__
 ********** '''PATO:gas_configuration'''
 *** '''BB''': '''PATO:liquid_configuration''' has the ''definition'': "A physical quality inhering in an entity by virtue of its parts having the arrangement which exhibits characteristics of liquids."
 *** '''BB''': We should discuss how we'd use these in OBI with Chris Mungall, Barry, and the BFO folks.
+** ''July 17, 2007 6:32:17 PM EDT''
+*** '''CM''': These were added to PATO as a result of my request on [http://sourceforge.net/tracker/index.php?func=detail&aid=1642208&group_id=76834&atid=595654 this tracker item].
+*** '''CM''': I have no strong attachment to the current hierarchy.  We had some comments from a physical chemist but they're not on the tracker, I'll see if I can find them.
+
 
 ===Use of OBI:Role===
 * Discussion (heavily edited)
