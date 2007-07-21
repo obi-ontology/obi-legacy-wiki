@@ -76,7 +76,7 @@ __TOC__
 ***# '''Biomaterial''' is confusing and appears to be based on the origin and the characteristics of the object as opposed to the ''is_a'' hierarchy.  Considering that fact, the best parent term for everything presently under '''Biomaterial''' ''may'' be '''bfo:object'''. 
 ***# AAs:
 ***## Determine and '''''clearly''''' specify what we mean by biological?
-***## Classify things into an ''is_a'' hierarchy by started with structure-based foundational, '''Biomaterial''' classes - e.g., '''chemical''', '''amino_acid''', '''protein''', '''cell''', '''organism'''
+***## Classify things into an ''is_a'' hierarchy with structure-based foundational, '''Biomaterial''' classes - e.g., '''chemical''', '''amino_acid''', '''protein''', '''cell''', '''organism'''
 ***## Identify and classify collections/aggregates/groups of these such as '''cell-line''', '''population''', '''pellet''', '''lysate''', '''compound_liquid (growth media, buffers etc)'''
 ***# Unresolved questions:
 ***## '''Biomaterial''' is defined as ''an object of biological origin''.
