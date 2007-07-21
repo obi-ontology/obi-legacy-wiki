@@ -93,7 +93,7 @@ __TOC__
 ***## '''cell_derived_from_multicellular_organism''' and  '''NaturalBiomaterialEntity''' are both immediate children of '''Biomaterial'''.  '''Cell''' is an immediate child of '''NaturalBiomaterialEntity'''
 ***##* '''Cell''' ''definition'': "The smallest structural unit of living organisms that is able to grow and reproduce independently."
 ***##* '''cell_derived_from_multicellular_organism''' ''definition'': "A cell derived from a multicellular organism."
-***##* '''''Question''''': What distinction between these two cell types justifies them being separated in the ''is_a'' hierarchy the way the are?
+***##* '''''Question''''': What distinction between these two cell types justifies them being placed in the ''is_a'' hierarchy the way the are?
 ***##* '''''Question''''': How can their corresponding and inherent ''cell-ness'' be asserted in the ontology given this placement in the hierarchy?
 ***## '''biosource_provider''' is an immediate child of '''Biomaterial'''
 ***##* '''''Question''''': Why?
@@ -112,8 +112,30 @@ __TOC__
 ***##* '''''Statement''''': ChEBI entities are chemicals, not '''Biomaterial''' - e.g., '''acrylamide''' (CHEBI:28619), '''Triton X-100''', '''chromium_51'''
 ***## There are two separate '''virus''' classes as immediate children of '''Organism'''
 ***##* '''virus''' I ''definition'': "Organism with a nucleic acid genome that must replicate in a living cell, as they cannot carry out metabolic processes on their own." (definition_editor: Maura Gasparetto)
-***##* '''virus''' II ''definition'': "A virus is an organism that infects cells in biological organisms. Viruses are obligate intracellular parasites; they can reproduce only by invading and taking over other cells as they lack the cellular machinery for self reproduction. definition_source:en.wikipedia.org/wiki/Virus"
+***##* '''virus''' II ''definition'': "A virus is an organism that infects cells in biological organisms. Viruses are obligate intracellular parasites; they can reproduce only by invading and taking over other cells as they lack the cellular machinery for self reproduction." (definition_source: en.wikipedia.org/wiki/Virus)
 ***##* '''''Question''''': Mistake?
+** ''July 17, 2007 3:12:23 PM EDT''
+*** '''BP''': Most of the issues you enumerate above are unfortunate leftovers from previous obi.owl versions. They should not be in the file at all, and we will remove them quickly.
+*** '''BP''': Regarding the separation of artifact vs. biomaterial, I wholeheartedly agree the current state is not good. Your suggestions are in line with discussions we had at the workshop.  These discussions were aborted to allow for more time to think about the issues.  Below is how I would like to do things (=this is not consensus). 
+**** Object (by its physical structure)
+***** Countable Object
+****** Atom
+****** Molecule (=Chebi Object)
+****** MultiMolecule
+***** Portion of Matter (The portion of… comes from Bary)
+****** Portion of Liquid Matter
+****** Portion of Gaseous Matter
+**** Object (by its function)
+***** Instrument
+***** Organism
+***** Reagent
+**** Object (by how it was generated)
+***** Manufactured artifact
+***** Environmental sample
+***** Organism sample
+*** '''BP''': The main point is to create separate hierarchies for objects along different axis.  The three top level classes are not distinct, i.e. a phosphate buffer solution is a portion of liquid matter AND a reagent AND a manufactured artifact.
+*** '''BP''': Of course these are just skeleton trees. I am hoping in the next biomaterial call we can discuss this and alternative solutions.
+
 
 
 ==Separating Objects and ObjectAggregates==
