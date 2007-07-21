@@ -8,6 +8,8 @@ Further review by the larger group of OBI developers that took place during the 
 #* whether and/or how to use the ontology normalization Design Pattern to define the core hierarchy with alternative hierarchies defined via inference?
 #* if normalization is to be used, how and which ObjectProperties and Qualities will be required to support inferring all the needed classification hierarchies?
 #* if normalization is to be used, will we want to deploy a version of OBI where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
+
+Note the issue of normalization and related Ontology Design Patterns are discussed on pages linked off [[OngoingDeveloperDiscussions|the main Developer Discussion page]]
 <br>
 [[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
 [[HomePage|<<Back to Homepage]]
