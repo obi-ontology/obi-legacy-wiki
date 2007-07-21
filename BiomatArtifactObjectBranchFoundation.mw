@@ -193,6 +193,23 @@ __TOC__
 ==Contribution from other branches in defining complex classifications of material objects==
 
 ===Use of PATO:Qualities===
+* Discussion (heavily edited)
+** ''July 17, 2007 6:07:05 PM EDT''
+*** '''BB''': I would agree with Frank's general point above - when we see a multiple hierarchy showing up, we should review how we'd use modularization and other ontology design patterns to infer those categories, as opposed to enshrining them in the asserted subsumptive hierarchy.
+*** '''BB''': As to the issue of the state of matter, I've clipped a screen shot of the way they cover this in PATO.
+**** '''BFO:quality'''
+***** '''PATO:quality'''
+****** '''PATO:quality_of_object'''
+******* '''PATO:monadic_quality_of_object'''
+******** '''PATO:physical_quality'''
+********* '''PATO:quality_of_a_liquid'''
+********** '''PATO:liquid_configuration'''
+********* '''PATO:quality_of_a_solid'''
+********** '''PATO:solid_configuration'''
+********* '''PATO:quality_of_a_gas'''
+********** '''PATO:gas_configuration'''
+*** '''BB''': '''PATO:liquid_configuration''' has the ''definition'': "A physical quality inhering in an entity by virtue of its parts having the arrangement which exhibits characteristics of liquids."
+*** '''BB''': We should discuss how we'd use these in OBI with Chris Mungall, Barry, and the BFO folks.
 
 ===Use of OBI:Role===
 * Discussion (heavily edited)
