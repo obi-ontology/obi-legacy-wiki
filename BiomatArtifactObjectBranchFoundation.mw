@@ -82,12 +82,38 @@ __TOC__
 ***## '''Biomaterial''' is defined as ''an object of biological origin''.
 ***##* '''''Question''''': What is ''biological origin''?
 ***## '''chimera''':
-***##* '''''Statement''''': A '''chimera''' is not a '''Biomaterial''', rather it is a description of the genetic composition of a '''Biomaterial'''. Generally, a chimeric '''organism''' is artificially produced by physically mixing cells from two different organisms
-***##* '''''Question''''': Given that assertion, is it ''synthetic''?
+***##* '''''Statement''''': A '''chimera''' is not a '''Biomaterial''', rather it is a description of the genetic composition of a '''Biomaterial'''. Generally, a chimeric '''organism''' is artificially produced by physically mixing cells from two genetically close yet distinct '''organism'''s
+***##* '''''Question''''': Given that assertion, is a '''chimera''' ''synthetic''?
 ***## '''ExperimentalBiomaterial''':
 ***##* '''''Question''''': No definition - what is this?
 ***## '''GeneticinformatContent''':
 ***##* '''''Statement''''': No definition - Taking the meaning of the class name literally, this is not an '''bfo:object''' - let alone a '''Biomaterial'''
+***## '''NaturalBiomaterialEntity''':
+***##* '''''Question''''': No definition - what is an '''UnnaturalBiomaterialEntity'''?
+***## '''cell_derived_from_multicellular_organism''' and  '''NaturalBiomaterialEntity''' are both immediate children of '''Biomaterial'''.  '''Cell''' is an immediate child of '''NaturalBiomaterialEntity'''
+***##* '''Cell''' ''definition'': "The smallest structural unit of living organisms that is able to grow and reproduce independently."
+***##* '''cell_derived_from_multicellular_organism''' ''definition'': "A cell derived from a multicellular organism."
+***##* '''''Question''''': What distinction between these two cell types justifies them being separated in the ''is_a'' hierarchy the way the are?
+***##* '''''Question''''': How can their corresponding and inherent ''cell-ness'' be asserted in the ontology given this placement in the hierarchy?
+***## '''biosource_provider''' is an immediate child of '''Biomaterial'''
+***##* '''''Question''''': Why?
+***## '''differentiation_state''' and '''organism_status''' are immediate children of '''Biomaterial'''
+***##* '''differentiation_state''' ''definition'': "The differentiation_state is a descriptor of a cell's properties at some defined point in the differentiation process recognisable by some observable characteristic such as morphology."
+***##* '''organism_status''' ''definition'': "Organism_status is the stage premortem or postmortem at which the sample was processed for extraction of biomaterials."
+***##* '''''Statement''''': These are both types of '''Quality''', not types of '''Biomaterial'''
+***## '''molecular_mixture''' is an immediate child of '''Biomaterial'''
+***##* '''molecular_mixture''' ''definition'': "A molecular mixture is an unspecified collection of heterogeneous molecules, e.g. lipids, carbohydrate , nucleic acids and proteins"
+***##* '''''Question''''': Isn't this a '''bfo:object_aggregate'''?
+***## '''entity_of_organism_orgin''' is an immediate child of '''Biomaterial'''
+***##* '''entity_of_organism_orgin''' ''definition'': "An entity of organismal origin is a biomaterial entity which is obtained from an organism. definition_source: OBI."
+***##* '''''Statement''''': This does not make sense to me, and I do not think the children will allow it to be consistent with the reasoner.
+***## '''Chebi_object''' is an immediate child of '''Biomaterial'''
+***##* '''entity_of_organism_orgin''' ''definition'': "objects of chemical or biological interest."
+***##* '''''Statement''''': ChEBI entities are chemicals, not '''Biomaterial''' - e.g., '''acrylamide''' (CHEBI:28619), '''Triton X-100''', '''chromium_51'''
+***## There are two separate '''virus''' classes as immediate children of '''Organism'''
+***##* '''virus''' I ''definition'': "Organism with a nucleic acid genome that must replicate in a living cell, as they cannot carry out metabolic processes on their own." (definition_editor: Maura Gasparetto)
+***##* '''virus''' II ''definition'': "A virus is an organism that infects cells in biological organisms. Viruses are obligate intracellular parasites; they can reproduce only by invading and taking over other cells as they lack the cellular machinery for self reproduction. definition_source:en.wikipedia.org/wiki/Virus"
+***##* '''''Question''''': Mistake?
 
 
 ==Separating Objects and ObjectAggregates==
