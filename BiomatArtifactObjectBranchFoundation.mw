@@ -104,22 +104,22 @@ __TOC__
 *** '''BB''': I'm uncertain as to whether a gel matrix will need to be represented as an object_aggregate.  My initial remark was merely intended to indicate it --might-- need to be represented this way. Having said this, there are certain protocol_applications where one would need to represent the fact a researcher cut a "spot" out of a gel OR a piece of filter paper.  I can remember cutting spots out of filter paper used for paper chromotography, where the spot contained H3-Chloramphenicol containing molecules (from a CAT assay).  The excised spot was then placed in a scintilation vial with scintillant so as to quantify that specific spot's amount of H3 in a scintilation counter.  I'm not certain whether this coincides with all necessary and sufficient conditions behind what Barry was trying to communicate about aggregate objects at the meeting yesterday.
 ** ''Tuesday, July 17, 2007 12:52 PM EDT''
 *** '''FG''': Summary of dangling issues
-# My feeling is '''Biomaterial''' and '''artefact_object''' must exist together. If one goes they both go.
-# '''Biomaterial''' is confusing and appears to be based on the origin and the characteristics of the object as opposed to the ''is_a'' hierarchy.  Considering that fact, the best parent term for everything presently under '''Biomaterial''' ''may'' be '''bfo:object'''. 
-# AAs:
-## Determine and '''''clearly''''' specify what we mean by biological?
-## Classify things into an ''is_a'' hierarchy by started with structure-based foundational, '''Biomaterial''' classes - e.g., '''chemical''', '''amino_acid''', '''protein''', '''cell''', '''organism'''
-## Identify and classify collections/aggregates/groups of these such as '''cell-line''', '''population''', '''pellet''', '''lysate''', '''compound_liquid (growth media, buffers etc)'''
-# Unresolved questions:
-## '''Biomaterial''' is defined as ''an object of biological origin''.
-*** '''''Question''''': What is ''biological origin''?
-## '''chimera''':
-*** '''''Statement''''': A '''chimera''' is not a '''Biomaterial''', rather it is a description of the genetic composition of a '''Biomaterial'''. Generally, a chimeric '''organism''' is artificially produced by physically mixing cells from two different organisms
-*** '''''Question''''': Given that assertion, is it ''synthetic''?
-## '''ExperimentalBiomaterial''':
-*** '''''Question''''': No definition - what is this?
-## '''GeneticinformatContent''':
-*** '''''Statement''''': No definition - Taking the meaning of the class name literally, this is not an '''bfo:object''' - let alone a '''Biomaterial'''
+***# My feeling is '''Biomaterial''' and '''artefact_object''' must exist together. If one goes they both go.
+***# '''Biomaterial''' is confusing and appears to be based on the origin and the characteristics of the object as opposed to the ''is_a'' hierarchy.  Considering that fact, the best parent term for everything presently under '''Biomaterial''' ''may'' be '''bfo:object'''. 
+***# AAs:
+***## Determine and '''''clearly''''' specify what we mean by biological?
+***## Classify things into an ''is_a'' hierarchy by started with structure-based foundational, '''Biomaterial''' classes - e.g., '''chemical''', '''amino_acid''', '''protein''', '''cell''', '''organism'''
+***## Identify and classify collections/aggregates/groups of these such as '''cell-line''', '''population''', '''pellet''', '''lysate''', '''compound_liquid (growth media, buffers etc)'''
+***# Unresolved questions:
+***## '''Biomaterial''' is defined as ''an object of biological origin''.
+***##* '''''Question''''': What is ''biological origin''?
+***## '''chimera''':
+***##* '''''Statement''''': A '''chimera''' is not a '''Biomaterial''', rather it is a description of the genetic composition of a '''Biomaterial'''. Generally, a chimeric '''organism''' is artificially produced by physically mixing cells from two different organisms
+***##* '''''Question''''': Given that assertion, is it ''synthetic''?
+***## '''ExperimentalBiomaterial''':
+***##* '''''Question''''': No definition - what is this?
+***## '''GeneticinformatContent''':
+***##* '''''Statement''''': No definition - Taking the meaning of the class name literally, this is not an '''bfo:object''' - let alone a '''Biomaterial'''
 
 
 ==Use of OBI Relations and/or OBO Relations==
