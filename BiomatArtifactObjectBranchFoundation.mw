@@ -153,6 +153,31 @@ __TOC__
 ** ''July 17, 2007 6:02:46 PM EDT''
 *** '''BP''': The separation between ''portion'' and ''countable'' is supposed to be between ''mass terms'' (objects that can be divided into two smaller portions of the same type) and ''countable terms'' (like atom, molecule), of which a single instance cannot be divided in two without changing it.  
 *** '''BP''': Solid, liquid, gaseous, solution, gel etc. are phases of matter (sorry), i.e. statistical descriptions of the behavior of large collections of particles with emergent properties (like fluidity, pressure). In this sense, atoms, molecules or organisms are not solid matter. I assume you wanted ''solid matter'' to mean something like ''has a defined boundary'', which is pretty much what I meant by ''countable'', so I hope we can easily reach agreement on this.
+** ''July 17, 2007 6:07:05 PM EDT''
+*** '''BB''': I would agree with Frank's general point above - when we see a multiple hierarchy showing up, we should review how we'd use modularization and other ontology design patterns to infer those categories, as opposed to enshrining them in the asserted subsumptive hierarchy.
+**** '''BP''': The ''object by its function'' category was meant to be asserted (by function). The ''object by generating process'' hierarchy was meant to be asserted (by the process the object is an output from). The reason to display them in the hierarchy was that at the workshop concerns were raised that the hierarchy by physical structure does not reflect how our primary users want to have objects displayed.
+** ''July 18, 2007 12:46:54 AM EDT''
+*** '''BB''': Bjoern and Frank are converging on a workable solution to this issue.  I still believe we need to address:
+***# We should be clear about what is to be at the core of the asserted (as opposed to inferred) ontology graph and the variety of artifacts we will distribute to the wider public.  In the latter category, there will be:
+***## ''fully asserted views'' = inferred classes which we save as asserted classes for the purposes of providing the variety of classifications the user community will need.  This ''view' will likely have multiple asserted hierarchies.  This was a point I was trying to make (not very well, I'm afraid) in the OBI Function branch presentation in Bethesda.  Alan was making this point more directly Monday & Teusday - the use of normalization and publishing multiple ''views'' of OBI that are derived via inference.
+***## ''lexical views'' derived by adjusting the ''prefLabel'' for classes based on a the particular needs of a specific community
+***# '''mass entities''' vs. '''countable entities''' - I would like to know how these relate to the BFO classes object and object_aggregate.  I've been through this a few times in reviewing BFO and think I understand ***#* '''bfo:object'''
+***#** ''rdfs:label'': object
+***#** ''synonyms'': substance
+***#** ''definition'': A independent continuant that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial objects is independent of that of other entities and can be maintained through time and through loss and gain of parts and qualities.
+***#** ''examples'': an organism, a heart, a chair, a lung, an apple
+***#* '''bfo:object_aggregate'''
+***#** ''rdfs:label'': object_aggregate
+***#** ''synonyms'': substance aggregate
+***#** ''definition'': An independent continuant that is a mereological sum of separate objects and possesses non-connected boundaries.
+***#** ''examples'': a heap of stones, a group of commuters on the subway, a collection of random bacteria, a flock of geese, the patients in a hospital
+***# the whole vs. the parts
+***#* '''bfo:object''' expressly addresses this issue of distinct entities (i.e., "maximally self-connected and self-contained).
+***#* Though I don't believe this maps to the current expected use of these BFO classes, ages ago, ontologists came up with the notion of an object_aggregate to provide a means of referring to entities that are composed of countable parts - e.g., armies, flocks of birds, etc.. 
+***#* If we want to represent the distinct entities of which a solution such as PBS is composed, then we need to describe a solution as an object aggregate which is composed_of a bulk solvent (for PBS - of type '''chebi:water''') and a collection of solutes (for PBS '''chebi:phosphate ion''', '''chebi:magnesium''', '''chebi:calcium''' - at a minimum), along with other quantified values such as the PO4, Mg, and Ca++ concentration. We could then refer to an instance of the object_aggregate PBS with other specified pato:qualities such as pato:liquid_configuration (one can freeze aliquots of PBS), along with certain quantified values such as pH, temperature, etc.
+***# Phases of matter
+***#* There are many formal mathematical descriptions of phases and phase transitions.  Which one you pick may depend on the requirements in your field and your particular application.  Both thermo and stat mech provide distinct (yet commensurate) formal descriptions.  You might pick one or the other representation, depending on what you require of your description.
+***#* I may be wrong here, but I'm hoping in OBI, we will be able to get away with using pato:qualities (see below). If - as Chris mentioned - some physical chemists are not happy with the way phases of matter are represented in PATO, we should review the ontology use case they feel will not be satisfied by this representation, and see if we can work with Chris to adjust PATO to fit this need.
 
 
 
@@ -195,8 +220,7 @@ __TOC__
 ===Use of PATO:Qualities===
 * Discussion (heavily edited)
 ** ''July 17, 2007 6:07:05 PM EDT''
-*** '''BB''': I would agree with Frank's general point above - when we see a multiple hierarchy showing up, we should review how we'd use modularization and other ontology design patterns to infer those categories, as opposed to enshrining them in the asserted subsumptive hierarchy.
-*** '''BB''': As to the issue of the state of matter, I've clipped a screen shot of the way they cover this in PATO.
+*** '''BB''': Regarding states of matter, I've clipped a screen shot of the way they cover this in PATO.
 **** '''BFO:quality'''
 ***** '''PATO:quality'''
 ****** '''PATO:quality_of_object'''
