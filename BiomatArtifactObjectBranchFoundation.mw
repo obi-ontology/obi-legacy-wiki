@@ -116,13 +116,13 @@ __TOC__
 ***##* '''''Question''''': Mistake?
 ** ''July 17, 2007 3:12:23 PM EDT''
 *** '''BP''': Most of the issues you enumerate above are unfortunate leftovers from previous obi.owl versions. They should not be in the file at all, and we will remove them quickly.
-*** '''BP''': Regarding the separation of artifact vs. biomaterial, I wholeheartedly agree the current state is not good. Your suggestions are in line with discussions we had at the workshop.  These discussions were aborted to allow for more time to think about the issues.  Below is how I would like to do things (=this is not consensus). 
+*** '''BP''': Regarding the separation of artifact vs. biomaterial, I wholeheartedly agree the current state is not good. Your suggestions are in line with discussions we had at the workshop.  These discussions were aborted to allow for more time to think about the issues.  Below is how '''''I''''' would like to do things (=this is not consensus). 
 **** Object (by its physical structure)
 ***** Countable Object
 ****** Atom
 ****** Molecule (=Chebi Object)
 ****** MultiMolecule
-***** Portion of Matter (The portion of… comes from Bary)
+***** Portion of Matter (The portion of… comes from Barry)
 ****** Portion of Liquid Matter
 ****** Portion of Gaseous Matter
 **** Object (by its function)
@@ -135,6 +135,22 @@ __TOC__
 ***** Organism sample
 *** '''BP''': The main point is to create separate hierarchies for objects along different axis.  The three top level classes are not distinct, i.e. a phosphate buffer solution is a portion of liquid matter AND a reagent AND a manufactured artifact.
 *** '''BP''': Of course these are just skeleton trees. I am hoping in the next biomaterial call we can discuss this and alternative solutions.
+** ''July 17, 2007 5:27:12 PM EDT''
+*** '''FG''': When it would be useful to talk about an object based on its function or by how it was generated/collected, object_by_function and object_by_collection should be inferred by the reasoner based on the knowledge assigned to each object; therefore, something like these two ''defined'' classes based on ObjectProperty restrictions. 
+*** '''FG''': As for object by counting or object by portion, I am not convinced this is the correct separation. 
+*** '''FG''': So carrying on in the spirit of suggesting hierarchy; I am going to see if objects can separated based on matter.  Hopefully, nobody starts talking about phases of matter :) 
+**** BFO_object
+***** solid matter
+****** atom
+****** molecule
+****** multimolecule
+****** organism
+****** device
+***** liquid matter
+***** gas matter
+*** '''FG''': For example, a solution used in an investigation would be an object_aggregate defined as follows:
+**** "A solution is a compound liquid which is a homogeneous mixture of two or more substances, which may be solids, liquids, gases, or a combination of these."
+
 
 
 
