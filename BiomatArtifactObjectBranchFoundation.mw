@@ -70,6 +70,24 @@ __TOC__
 *** '''BB''': Out of necessity, HP sought to capture the consensus in the minutes.  The exchange you excerpted does give the impression this change was made very quickly and my resolving comment appears flippant.  Neither was the case.  During the lengthy discussion, several of us came to agreement that - as Alan summarized it - there needs to be a sufficiently clear and consistent boundary for class distinction to be ''useful''.  To state it in the inverse, '''''IF''''' there is an important and useful distinction to be made, then the definitions (and/or axioms/restrictions) must be specified to support algorithmically recognizing that distinction (through asserted or inferred entailments).  The specification of human manipulation/craft as a means to distinguish ALL artefact_objects from Biomaterial_objects is not sufficiently clear, consistent, and scalable.  Though nearly all of us appeared to have an implicit sense this distinction was important, we struggled with how best to make this distinction explicit so as to avoid inconsistent statements when applied to all sub-classes and instances of '''Biomaterial''' and '''artifact_object''' under consideration.
 ** ''July 11, 2007 12:18:51 PM EDT''
 *** '''BB''': Some Bethesda meeting discussions implied (for aesthetics and other reasons related to ontology development ''best practices'') we may also need to include the representational requirements of users outside the purview of what we as a group might ''obviously'' identify as core users of OBI.  This came up in the discussion of the '''Biomaterial''' class '''whole_mount'''.
+** ''Tuesday, July 17, 2007 12:52 PM EDT''
+*** '''FG''': Summary of dangling issues
+***# My feeling is '''Biomaterial''' and '''artefact_object''' must exist together. If one goes they both go.
+***# '''Biomaterial''' is confusing and appears to be based on the origin and the characteristics of the object as opposed to the ''is_a'' hierarchy.  Considering that fact, the best parent term for everything presently under '''Biomaterial''' ''may'' be '''bfo:object'''. 
+***# AAs:
+***## Determine and '''''clearly''''' specify what we mean by biological?
+***## Classify things into an ''is_a'' hierarchy by started with structure-based foundational, '''Biomaterial''' classes - e.g., '''chemical''', '''amino_acid''', '''protein''', '''cell''', '''organism'''
+***## Identify and classify collections/aggregates/groups of these such as '''cell-line''', '''population''', '''pellet''', '''lysate''', '''compound_liquid (growth media, buffers etc)'''
+***# Unresolved questions:
+***## '''Biomaterial''' is defined as ''an object of biological origin''.
+***##* '''''Question''''': What is ''biological origin''?
+***## '''chimera''':
+***##* '''''Statement''''': A '''chimera''' is not a '''Biomaterial''', rather it is a description of the genetic composition of a '''Biomaterial'''. Generally, a chimeric '''organism''' is artificially produced by physically mixing cells from two different organisms
+***##* '''''Question''''': Given that assertion, is it ''synthetic''?
+***## '''ExperimentalBiomaterial''':
+***##* '''''Question''''': No definition - what is this?
+***## '''GeneticinformatContent''':
+***##* '''''Statement''''': No definition - Taking the meaning of the class name literally, this is not an '''bfo:object''' - let alone a '''Biomaterial'''
 
 
 ==Separating Objects and ObjectAggregates==
@@ -102,24 +120,6 @@ __TOC__
 *** '''BB''': Nearly every use of parafilm and filter paper in the course of performing some investigation-related action - will not require describing the constituent parts of those types of objects.  Many applications which include instances of "buffer solution" will require a description of the constituent parts of the buffer.  For those instances of buffer where the constituent parts need not be represented directly, then the aggregate_object (probably derived through inference, but saved to some application version of OBI - will that really work in OWL?) can be instantiated.
 *** '''BB''': One of the reasons we added 'example_of_usage' as a required metadata property was to guarantee we are able to identify either an instance or sub-class exemplifying how - within OBI - the declared class differs from all other classes with which it has been declared as being disjoint.  If the group as a whole cannot describe an example relevant to OBI's mission where the representation must capture this mereological sub-division of the class, then it probably should not be declared in OBI as an object_aggregate.
 *** '''BB''': I'm uncertain as to whether a gel matrix will need to be represented as an object_aggregate.  My initial remark was merely intended to indicate it --might-- need to be represented this way. Having said this, there are certain protocol_applications where one would need to represent the fact a researcher cut a "spot" out of a gel OR a piece of filter paper.  I can remember cutting spots out of filter paper used for paper chromotography, where the spot contained H3-Chloramphenicol containing molecules (from a CAT assay).  The excised spot was then placed in a scintilation vial with scintillant so as to quantify that specific spot's amount of H3 in a scintilation counter.  I'm not certain whether this coincides with all necessary and sufficient conditions behind what Barry was trying to communicate about aggregate objects at the meeting yesterday.
-** ''Tuesday, July 17, 2007 12:52 PM EDT''
-*** '''FG''': Summary of dangling issues
-***# My feeling is '''Biomaterial''' and '''artefact_object''' must exist together. If one goes they both go.
-***# '''Biomaterial''' is confusing and appears to be based on the origin and the characteristics of the object as opposed to the ''is_a'' hierarchy.  Considering that fact, the best parent term for everything presently under '''Biomaterial''' ''may'' be '''bfo:object'''. 
-***# AAs:
-***## Determine and '''''clearly''''' specify what we mean by biological?
-***## Classify things into an ''is_a'' hierarchy by started with structure-based foundational, '''Biomaterial''' classes - e.g., '''chemical''', '''amino_acid''', '''protein''', '''cell''', '''organism'''
-***## Identify and classify collections/aggregates/groups of these such as '''cell-line''', '''population''', '''pellet''', '''lysate''', '''compound_liquid (growth media, buffers etc)'''
-***# Unresolved questions:
-***## '''Biomaterial''' is defined as ''an object of biological origin''.
-***##* '''''Question''''': What is ''biological origin''?
-***## '''chimera''':
-***##* '''''Statement''''': A '''chimera''' is not a '''Biomaterial''', rather it is a description of the genetic composition of a '''Biomaterial'''. Generally, a chimeric '''organism''' is artificially produced by physically mixing cells from two different organisms
-***##* '''''Question''''': Given that assertion, is it ''synthetic''?
-***## '''ExperimentalBiomaterial''':
-***##* '''''Question''''': No definition - what is this?
-***## '''GeneticinformatContent''':
-***##* '''''Statement''''': No definition - Taking the meaning of the class name literally, this is not an '''bfo:object''' - let alone a '''Biomaterial'''
 
 
 ==Use of OBI Relations and/or OBO Relations==
