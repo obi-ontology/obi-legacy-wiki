@@ -188,7 +188,7 @@ __TOC__
 ***#* '''Countable_object'''
 ***#** '''atomic_particle'''
 ***#*** '''''synonym''''': atom
-***#*** '''FG''': from periodic table'''''has_part''''' '''sub-atomic_particle'''
+***#*** '''FG''': '''''has_part''''' '''sub-atomic_particle'''
 ***#** '''element'''
 ***#*** I am guessing you mean an element from the periodic table? The name needs changing, I think. And, if it is a periodic table element, how does it differ from '''atomic_particle'''?
 ***#*** '''FG''': '''''definition''''': an item appearing in the periodic table of the elements
