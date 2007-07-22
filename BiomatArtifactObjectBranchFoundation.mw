@@ -190,11 +190,10 @@ __TOC__
 ***#*** '''''synonym''''': atom
 ***#*** '''FG''': from periodic table'''''has_part''''' '''sub-atomic_particle'''
 ***#** '''element'''
-***#*** I am guessing you mean an element from the periodic table? The name needs changing, I think. And, if it is a periodic table element, how does it differ from atomic_particle?
+***#*** I am guessing you mean an element from the periodic table? The name needs changing, I think. And, if it is a periodic table element, how does it differ from '''atomic_particle'''?
 ***#*** '''FG''': '''''definition''''': an item appearing in the periodic table of the elements
 ***#** '''sub-atomic_particle'''
 ***#*** This does not belong as a child of atomic_particle, as a sub-atomic_particle is NOT an atomic particle (not a valid is_a relationship). I've moved it up one level.
-from periodic table
 ***#*** '''FG''': ''''''integral_part_of''''' : '''atomic_particle'''
 ***#*** '''FG''': '''''examples''''': '''protons''', '''neutrons''', '''electrons'''
 ***#** '''device'''
