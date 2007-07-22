@@ -180,6 +180,42 @@ __TOC__
 ***# Phases of matter
 ***#* There are many formal mathematical descriptions of phases and phase transitions.  Which one you pick may depend on the requirements in your field and your particular application.  Both thermo and stat mech provide distinct (yet commensurate) formal descriptions.  You might pick one or the other representation, depending on what you require of your description.
 ***#* I may be wrong here, but I'm hoping in OBI, we will be able to get away with using pato:qualities (see below). If - as Chris mentioned - some physical chemists are not happy with the way phases of matter are represented in PATO, we should review the ontology use case they feel will not be satisfied by this representation, and see if we can work with Chris to adjust PATO to fit this need.
+** ''July 18, 2007 5:50:22 AM EDT''
+*** '''AL''': 
+***# ''countable'' versus ''portion'' may not seem useful to our users, but it can be clearly defined to help us guide classification of OBI entities. The ''nicer'' hierarchies, as described by Bjoern and Bill, can be inferred.  A pipette - and most of what we have under the current labware and instrument classes - is an example of a countable object, as it is not the same thing when divided into pieces.
+***# I agree we're close to a good hierarchy, but I have some questions. Below is Frank's proposed hierarchy for Object (by its physical structure) with my changes/questions in bold. The main difference is I've explicitly added the countable_object versus portion_of_matter classfication.  Note that all the descentdants of the defined classes Bjoern described will be inferred based on ObjectProperty restrictions.
+***#* '''Countable_object'''
+***#** '''atomic_particle(atom)'''
+***#** '''element'''
+***#*** I am guessing you mean an element from the periodic table? The name needs changing, I think. And, if it is a periodic table element, how does it differ from atomic_particle?
+***#** '''sub-atomic_particle'''
+***#*** This does not belong as a child of atomic_particle, as a sub-atomic_particle is NOT an atomic particle (not a valid is_a relationship). I've moved it up one level.
+***#** '''device'''
+***#** '''chemical_compound(cheEBI)''' 
+***#*** '''''definition''''': two or more different ''chemically bonded'' elements [added by BB - where the chemical bond can be ''ionic'', ''covalent'', ''polar covalent'', ''hydrogen'' (for hydrated ions and certain molecular configurations), ''aromatic'' (to distinguish molecules that have a ring configuration), ''metalic'' (for certain inorganics)].
+***#**** I've removed ''chemical'' from the definition, as I thought you were referring to elements from the periodic table (the class named above). If H2O and CH3 would '''not''' be members of this class, perhaps I've moved this incorrectly. Perhaps this could be called molecule?
+***#*** '''macromolecule'''
+***#**** We'd need a clear definition of this. What makes it a distinct child of '''chemical_compound'''/'''molecule'''? Given the children, it seems we are saying a macromolecule is something made through a biological process. Is there a better way of defining it? We may not need this class at all, although that may become clear with more use-cases. Again, not sure this is_a relationship type of '''chemical_compound''', as no definition was given for either.
+***#**** '''nucleic acid''' 
+***#**** '''protein''' 
+***#**** '''carbohydrate'''
+***#**** '''lipid'''
+***#** '''biological_substance'''
+***#*** '''''definition''''': an '''object''' composed of more than one macromolecule. 
+***#**** If we are assuming the definition of '''macromolecule''' would not include inorganic things like the '''ferrous ion''' or '''Fe+2''' (or is it ++?), then we have to change this definition (e.g. add "and zero or more chemical_compounds"), as there are plenty of inorganic materials inside cells/people. Further, would this class contain '''portions_of_matter'''? If we say '''blood''' is a '''heterogeneous_chemical_substance''', and '''person''' '''''hasPart''''' '''blood''', then our definition should also include the possibility of a '''biological_substance''' containing '''portions_of_matter'''. Finally, I still am unsure of using ''biological'' at all in this physical classification: ''Physically'', how would you define '''macromolecule''' as opposed to '''chemical_compound'''? Or, is it enough to simply say they are different?
+***#*** '''organism'''
+***#*** '''organ'''
+***#*** '''cell'''
+***#*** '''mitochondria'''
+***#* '''Portion_of_matter'''
+***#** '''homogeneous_chemical_substance'''
+***#*** ''''''definition''''': any material with a definite chemical composition composed only of a single type of '''countable_object'''
+***#*** ''''''has_phase''''' = '''solid''' | '''liquid''' | '''gas'''
+***#*** This is a bit of a weird name, as I cannot tell if you are talking about a single chemical element or a grouping of identical chemical elements, or indeed a grouping of disparate elements. Can you explain? I'll use it here as any '''countable_object'''.
+***#** '''heterogeneous_chemical_substance'''
+***#*** ''''''has_phase''''' : '''solid''' | '''liquid''' | '''gas'''
+***#*** ''''''definition''''': any material '''object''' with a definite chemical composition containing at least 2 different types of '''countable_objects'''.
+***#* I do have some reservations about the '''portion_of''' method of classification. Where does '''blood''' come in? I'd guess '''blood''' is a '''portion_of_matter''' (in particular, a '''heterogeneous_chemical_substance'''), and '''centrifuged_blood''' or '''settled_blood''' would be a '''countable_object'''?
 
 
 
