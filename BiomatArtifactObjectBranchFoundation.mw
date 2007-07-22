@@ -1,4 +1,4 @@
-==Foundational semantic framework for material objects (biomaterial and instrument branches)==
+=Foundational semantic framework for material objects (biomaterial and instrument branches)=
 
 Initial efforts to organize the root of the material branches ('''Biomaterial''' and '''Instrument''') led to the creation of a base class '''artifact_object''' intended as a means of separating biologically-based objects ('''immortal_cell''', '''ChEBI_object''', '''xenograft''', etc.) from non-biological physical materials artificially ''shaped through human craft'' (e.g., '''Instruments''', '''Cardinal_part_of_instrument''', etc.).
 
