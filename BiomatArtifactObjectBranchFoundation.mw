@@ -16,7 +16,7 @@ Note the issue of normalization and related Ontology Design Patterns are discuss
 
 __TOC__
 
-==Discussion Participants==
+===Discussion Participants===
 * '''Bill Bug (BB)'''
 * '''Cristian Cocos (CC)'''
 * '''Gilberto Fragoso (GF)'''
@@ -29,7 +29,7 @@ __TOC__
 * '''Philippe Rocca-Serra (PR)'''
 * '''Alan Ruttenberg (AR)'''
 
-===Developer Discussions==
+===Developer Discussions===
 * [[DevDiscussBiomatBranchFoundationCoreMaterialObjClasses|Core Material Object Classification]]
 ** Current (2007-07-19) High-level OBI subclasses of bfo:Object
 ** [[DevDiscussBiomatBranchFoundationProposedHierarchy|Proposed Object Hierarchy]]
@@ -40,6 +40,6 @@ __TOC__
 ** [[DevDiscussBiomatBranchFoundationUseOfObiRole|Use of OBI:Role]]
 ** [[DevDiscussBiomatBranchFoundationUseOfObiFunction|Use of OBI:Function]]
 
-===Discussion Summary==
+===Discussion Summary===
 
-===Discussion Resolution==
+===Discussion Resolution===
