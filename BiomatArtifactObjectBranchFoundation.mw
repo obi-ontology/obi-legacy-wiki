@@ -183,32 +183,48 @@ __TOC__
 ** ''July 18, 2007 5:50:22 AM EDT''
 *** '''AL''': 
 ***# ''countable'' versus ''portion'' may not seem useful to our users, but it can be clearly defined to help us guide classification of OBI entities. The ''nicer'' hierarchies, as described by BP and BB, can be inferred.  A pipette - and most of what we have under the current labware and instrument classes - is an example of a countable object, as it is not the same thing when divided into pieces.
-***#* '''FG''': I dont find this classification helpful, and as BB points out what is the difference in countable object and BFO_object
-***# I agree we're close to a good hierarchy, but I have some questions. Below is Frank's proposed hierarchy for Object (by its physical structure) with my changes/questions in bold. The main difference is I've explicitly added the countable_object versus portion_of_matter classfication.  Note that all the descentdants of the defined classes Bjoern described will be inferred based on ObjectProperty restrictions.
+***#* '''FG''': I dont find this classification helpful, and as BB points out, countable object and BFO_object appear indistinquishable. I suggest removing the countable_object versus portion_of_matter classfication.
+***# I agree we're close to a good hierarchy, but I have some questions. Below is Frank's proposed hierarchy for Object (by its physical structure) with my changes/questions in bold. The main difference is I've explicitly added the countable_object versus portion_of_matter classfication.  
+***#* Note that all the descendants of the defined classes Bjoern described will be inferred based on ObjectProperty restrictions.
+***#** Function and manufacter yes.  Portion and countable, no.  ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
 ***#* '''Countable_object'''
 ***#** '''atomic_particle'''
 ***#*** '''''synonym''''': atom
-***#*** '''FG''': '''''has_part''''' '''sub-atomic_particle'''
+***#*** '''''has_part''''' '''sub-atomic_particle''' ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
 ***#** '''element'''
 ***#*** I am guessing you mean an element from the periodic table? The name needs changing, I think. And, if it is a periodic table element, how does it differ from '''atomic_particle'''?
-***#*** '''FG''': '''''definition''''': an item appearing in the periodic table of the elements
+***#*** '''''definition''''': an item appearing in the periodic table of the elements ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
 ***#** '''sub-atomic_particle'''
 ***#*** This does not belong as a child of atomic_particle, as a sub-atomic_particle is NOT an atomic particle (not a valid is_a relationship). I've moved it up one level.
-***#*** '''FG''': ''''''integral_part_of''''' : '''atomic_particle'''
-***#*** '''FG''': '''''examples''''': '''protons''', '''neutrons''', '''electrons'''
+***#**** Agreed ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#*** ''''''integral_part_of''''' : '''atomic_particle''' ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#*** '''''examples''''': '''protons''', '''neutrons''', '''electrons''' ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
 ***#** '''device'''
-***#** '''chemical_compound(cheEBI)''' 
+***#** '''chemical_compound (cheEBI)''' 
 ***#*** '''''definition''''': two or more different ''chemically bonded'' elements [added by BB - where the chemical bond can be ''ionic'', ''covalent'', ''polar covalent'', ''hydrogen'' (for hydrated ions and certain molecular configurations), ''aromatic'' (to distinguish molecules that have a ring configuration), ''metalic'' (for certain inorganics)].
 ***#**** I've removed ''chemical'' from the definition, as I thought you were referring to elements from the periodic table (the class named above). If H2O and CH3 would '''not''' be members of this class, perhaps I've moved this incorrectly. Perhaps this could be called molecule?
+***#*****  H2O and CH3 would be members of this class ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#**** '''''synonym''''': molecule ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
 ***#*** '''macromolecule'''
-***#**** We'd need a clear definition of this. What makes it a distinct child of '''chemical_compound'''/'''molecule'''? Given the children, it seems we are saying a macromolecule is something made through a biological process. Is there a better way of defining it? We may not need this class at all, although that may become clear with more use-cases. Again, not sure this is_a relationship type of '''chemical_compound''', as no definition was given for either.
+***#**** We'd need a clear definition of this. 
+***#***** Agreed. ''macromolecule'' is a term used by biologists, but definitely not defined at the ontological level.  ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#**** What makes it a distinct child of '''chemical_compound'''/'''molecule'''? Given the children, it seems we are saying a macromolecule is something made through a '''biological_process'''. 
+***#***** No - definately not.  A '''macromolecule''' is_a '''chemical_compound'''. Biological substances are made of ''SOME instances'' of this particular set of '''chemical_compound''' types. All instances of '''macromolecule''' can be '''''synthesized_by''''' or '''''manufactured_by''''' or '''''produced_naturally_by''''' the molecular machinery inside an '''organism'''. They are still a '''macromolecule'''.  A biological substance is composed of ''SOME instances'' of '''macromolecule'''. Forget about origin or how it was produced.  The question is - what is it? ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#**** Is there a better way of defining it? We may not need this class at all, although that may become clear with more use-cases. Again, not sure this is_a relationship type of '''chemical_compound''', as no definition was given for either.
+***#***** We may not need it, as we could say '''biological_substance''' '''has_part''' ''SOME''='''protein''', '''has_part''' ''SOME'' ='''nucleic acid''', etc. - and avoid the use of '''macromolecule'''. However I think it may be useful to talk about ''macromolecules'' which define what ''SOME instance'' of '''biological_substance''' ''is_composed_of'' - for the purpose of this discussion, for now.  ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
 ***#**** '''nucleic acid''' 
 ***#**** '''protein''' 
 ***#**** '''carbohydrate'''
 ***#**** '''lipid'''
 ***#** '''biological_substance'''
 ***#*** '''''definition''''': an '''object''' composed of more than one macromolecule. 
-***#**** If we are assuming the definition of '''macromolecule''' would not include inorganic things like the '''ferrous ion''' or '''Fe+2''' (or is it ++?), then we have to change this definition (e.g. add "and zero or more chemical_compounds"), as there are plenty of inorganic materials inside cells/people. Further, would this class contain '''portions_of_matter'''? If we say '''blood''' is a '''heterogeneous_chemical_substance''', and '''person''' '''''hasPart''''' '''blood''', then our definition should also include the possibility of a '''biological_substance''' containing '''portions_of_matter'''. Finally, I still am unsure of using ''biological'' at all in this physical classification: ''Physically'', how would you define '''macromolecule''' as opposed to '''chemical_compound'''? Or, is it enough to simply say they are different?
+***#**** If we are assuming the definition of '''macromolecule''' would not include inorganic things like the '''ferrous ion''' or '''Fe+2''' (or is it ++?), then we have to change this definition (e.g. add "and zero or more '''chemical_compounds'''"), as there are plenty of inorganic materials inside cells/people. 
+***#***** A '''biological_substance''' ''contains'' lots of other instances of '''chemical_compound''', but what makes it a '''biological_substance''' is that at a very minimum (''necessary'' '''''and''''' ''sufficient'') it is composed of ''SOME instances'' of '''macromolecule''' ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#**** Further, would this class contain '''portions_of_matter'''? If we say '''blood''' is a '''heterogeneous_chemical_substance''', and '''person''' '''''hasPart''''' '''blood''', then our definition should also include the possibility a '''biological_substance''' ''contains'' ''SOME instances'' of '''portion_of_matter'''. 
+***#*****  I dont find talking about portions helpful. An instance would have a measurement, weight/volume, etc. ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#**** Finally, I still am unsure of using ''biological'' at all in this physical classification: ''Physically'', how would you define '''macromolecule''' as opposed to '''chemical_compound'''? Or, is it enough to simply ''say'' they are different?
+***#*****  A '''biological_substance''' is a '''chemical_substance''', the hierarchy may not have shown this ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#*****  I don't see '''chemical_substance''' in the hierarchy.  Is '''chemical_substance''' a super-class of '''chemical_compound (cheEBI)''' and '''biological_substance'''
 ***#*** '''organism'''
 ***#*** '''organ'''
 ***#*** '''cell'''
@@ -221,6 +237,10 @@ __TOC__
 ***#** '''heterogeneous_chemical_substance'''
 ***#*** ''''''has_phase''''' : '''solid''' | '''liquid''' | '''gas'''
 ***#*** ''''''definition''''': any material '''object''' with a definite chemical composition containing at least 2 different types of '''countable_objects'''.
+***#**** I dont know what you have done here, maybe the earlier explainations help to address your issue here  ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
+***#***** '''chemical_substance'''
+***#****** ''''''definition''''': any material with a definite chemical composition 
+***#****** ''''''has_phase''''' = '''solid''' | '''liquid''' | '''gas'''
 ***#* I do have some reservations about the '''portion_of''' classification. Where does '''blood''' come in? I'd guess '''blood''' is a '''portion_of_matter''' (in particular, a '''heterogeneous_chemical_substance'''), and '''centrifuged_blood''' or '''settled_blood''' would be a '''countable_object'''?
 
 
