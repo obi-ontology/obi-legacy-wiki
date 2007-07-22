@@ -224,7 +224,7 @@ __TOC__
 ***#*****  I dont find talking about portions helpful. An instance would have a measurement, weight/volume, etc. ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
 ***#**** Finally, I still am unsure of using ''biological'' at all in this physical classification: ''Physically'', how would you define '''macromolecule''' as opposed to '''chemical_compound'''? Or, is it enough to simply ''say'' they are different?
 ***#*****  A '''biological_substance''' is a '''chemical_substance''', the hierarchy may not have shown this ('''FG''' - ''July 18, 2007 6:43:40 AM EDT'')
-***#*****  I don't see '''chemical_substance''' in the hierarchy.  Is '''chemical_substance''' a super-class of '''chemical_compound (cheEBI)''' and '''biological_substance'''
+***#*****  I don't see '''chemical_substance''' in the hierarchy.  Is '''chemical_substance''' a super-class of '''chemical_compound (cheEBI)''' and '''biological_substance''' ('''BB''')
 ***#*** '''organism'''
 ***#*** '''organ'''
 ***#*** '''cell'''
