@@ -11,7 +11,6 @@ Further review by the larger group of OBI developers that took place during the 
 
 Note the issue of normalization and related Ontology Design Patterns are discussed on pages linked off [[OngoingDeveloperDiscussions|the main Developer Discussion page]]
 <br>
-<br>
 [[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
 [[HomePage|<<Back to Homepage]]
 
@@ -37,9 +36,9 @@ __TOC__
 * [[DevDiscussBiomatBranchFoundationSeparatingObjAndObjAgg|Separating Objects and ObjectAggregates]]
 * [[DevDiscussBiomatBranchFoundationUseOfObiAndOboRelations|Use of OBI Relations and/or OBO Relations]]
 * [[DevDiscussBiomatBranchFoundationInferredClassificationViaOtherObiBranches|Contribution from other branches in defining complex classifications of material objects]]
-** [[DevDiscussBiomatBranchFoundationUseOfPato|Use of PATO:Qualities]]
-** [[DevDiscussBiomatBranchFoundationUseOfObiRole|Use of OBI:Role]]
-** [[DevDiscussBiomatBranchFoundationUseOfObiFunction|Use of OBI:Function]]
+** Use of PATO:Qualities
+** Use of OBI:Role
+** Use of OBI:Function
 
 ==Discussion Summary==
 
