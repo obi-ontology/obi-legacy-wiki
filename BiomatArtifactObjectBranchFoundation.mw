@@ -179,17 +179,24 @@ __TOC__
 ***#* If we want to represent the distinct entities of which a solution such as PBS is composed, then we need to describe a solution as an object aggregate which is composed_of a bulk solvent (for PBS - of type '''chebi:water''') and a collection of solutes (for PBS '''chebi:phosphate ion''', '''chebi:magnesium''', '''chebi:calcium''' - at a minimum), along with other quantified values such as the PO4, Mg, and Ca++ concentration. We could then refer to an instance of the object_aggregate PBS with other specified pato:qualities such as pato:liquid_configuration (one can freeze aliquots of PBS), along with certain quantified values such as pH, temperature, etc.
 ***# Phases of matter
 ***#* There are many formal mathematical descriptions of phases and phase transitions.  Which one you pick may depend on the requirements in your field and your particular application.  Both thermo and stat mech provide distinct (yet commensurate) formal descriptions.  You might pick one or the other representation, depending on what you require of your description.
-***#* I may be wrong here, but I'm hoping in OBI, we will be able to get away with using pato:qualities (see below). If - as Chris mentioned - some physical chemists are not happy with the way phases of matter are represented in PATO, we should review the ontology use case they feel will not be satisfied by this representation, and see if we can work with Chris to adjust PATO to fit this need.
+***#* I may be wrong here, but I'm hoping in OBI, we will be able to get away with using pato:qualities (see below). If - as CM mentioned - some physical chemists are not happy with the way phases of matter are represented in PATO, we should review the ontology use case they feel will not be satisfied by this representation, and see if we can work with Chris to adjust PATO to fit this need.
 ** ''July 18, 2007 5:50:22 AM EDT''
 *** '''AL''': 
-***# ''countable'' versus ''portion'' may not seem useful to our users, but it can be clearly defined to help us guide classification of OBI entities. The ''nicer'' hierarchies, as described by Bjoern and Bill, can be inferred.  A pipette - and most of what we have under the current labware and instrument classes - is an example of a countable object, as it is not the same thing when divided into pieces.
+***# ''countable'' versus ''portion'' may not seem useful to our users, but it can be clearly defined to help us guide classification of OBI entities. The ''nicer'' hierarchies, as described by BP and BB, can be inferred.  A pipette - and most of what we have under the current labware and instrument classes - is an example of a countable object, as it is not the same thing when divided into pieces.
+***#* '''FG''': I dont find this classification helpful, and as BB points out what is the difference in countable object and BFO_object
 ***# I agree we're close to a good hierarchy, but I have some questions. Below is Frank's proposed hierarchy for Object (by its physical structure) with my changes/questions in bold. The main difference is I've explicitly added the countable_object versus portion_of_matter classfication.  Note that all the descentdants of the defined classes Bjoern described will be inferred based on ObjectProperty restrictions.
 ***#* '''Countable_object'''
-***#** '''atomic_particle(atom)'''
+***#** '''atomic_particle'''
+***#*** '''''synonym''''': atom
+***#*** '''FG''': from periodic table'''''has_part''''' '''sub-atomic_particle'''
 ***#** '''element'''
 ***#*** I am guessing you mean an element from the periodic table? The name needs changing, I think. And, if it is a periodic table element, how does it differ from atomic_particle?
+***#*** '''FG''': '''''definition''''': an item appearing in the periodic table of the elements
 ***#** '''sub-atomic_particle'''
 ***#*** This does not belong as a child of atomic_particle, as a sub-atomic_particle is NOT an atomic particle (not a valid is_a relationship). I've moved it up one level.
+from periodic table
+***#*** '''FG''': ''''''integral_part_of''''' : '''atomic_particle'''
+***#*** '''FG''': '''''examples''''': '''protons''', '''neutrons''', '''electrons'''
 ***#** '''device'''
 ***#** '''chemical_compound(cheEBI)''' 
 ***#*** '''''definition''''': two or more different ''chemically bonded'' elements [added by BB - where the chemical bond can be ''ionic'', ''covalent'', ''polar covalent'', ''hydrogen'' (for hydrated ions and certain molecular configurations), ''aromatic'' (to distinguish molecules that have a ring configuration), ''metalic'' (for certain inorganics)].
@@ -215,8 +222,7 @@ __TOC__
 ***#** '''heterogeneous_chemical_substance'''
 ***#*** ''''''has_phase''''' : '''solid''' | '''liquid''' | '''gas'''
 ***#*** ''''''definition''''': any material '''object''' with a definite chemical composition containing at least 2 different types of '''countable_objects'''.
-***#* I do have some reservations about the '''portion_of''' method of classification. Where does '''blood''' come in? I'd guess '''blood''' is a '''portion_of_matter''' (in particular, a '''heterogeneous_chemical_substance'''), and '''centrifuged_blood''' or '''settled_blood''' would be a '''countable_object'''?
-
+***#* I do have some reservations about the '''portion_of''' classification. Where does '''blood''' come in? I'd guess '''blood''' is a '''portion_of_matter''' (in particular, a '''heterogeneous_chemical_substance'''), and '''centrifuged_blood''' or '''settled_blood''' would be a '''countable_object'''?
 
 
 ==Separating Objects and ObjectAggregates==
