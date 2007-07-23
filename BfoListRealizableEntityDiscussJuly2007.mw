@@ -20,7 +20,7 @@ __TOC__
 ==Discussion (heavily edited)==
 ===Problems Distinguishing bfo:disposition, bfo:function, and bfo:role===
 * '''MS''' - ''July 16, 2007 4:13:16 AM EDT''
-** The distinction between realizable entities - disposition, role and function - is unclear and causing problems for me and for others trying to use it.  I now think that distinguishing disposition, role and function as separate, disjoint classes does more harm than good and might turn out to be a significant hindrance to interoperability between ontologies.
+** The distinction between realizable entities - '''disposition''', '''role''' and '''function''' - is unclear and causing problems for me and for others trying to use it.  I now think distinguishing '''disposition''', '''role''' and '''function''' as separate, disjoint classes does more harm than good and might turn out to be a significant hindrance to interoperability between ontologies.
 ** I see '''role''' and '''function''' as subclasses of '''disposition''' -- they are types of '''disposition''' with some extra properties and constraints.
 ** Proposal:
 *** I see '''function''' as a subclass of '''role''' -- i.e. a '''function''' is a '''role''' an entity must play throughout the extent of its existence.
@@ -35,6 +35,6 @@ __TOC__
 *** If so, I see no reason to distinguish the entity ''function of heart to pump blood'' ('''bfo:function''' example) from ''role of artificial heart to pump blood'' ('''bfo:role''' example) when they are realized as similar processes.
 *** I would rather create a more generic type of ''realizable_entity'' (let us call it '''potential_to_pump_blood''' here) and clarify the way it is realized through the relation linking the spectific type of '''bfo:independent_continuant''' to '''potential_to_pump_blood'''. These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 **** Example: 
-***** '''biological_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation "has_function"
-***** '''artificial_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation "has_role"
+***** '''biological_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation ''has_function''
+***** '''artificial_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation ''has_role''
 ***** avoids creating highly redundant, disjoint classes like '''function_to_pump_blood''' and '''role_to_pump_blood''', with the many associated risks of creating incompatible ontologies.
