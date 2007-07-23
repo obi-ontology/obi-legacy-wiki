@@ -51,6 +51,9 @@ __TOC__
 ********# (''has_function'' '''natural_heart''' '''pumping_blood_potential''')
 ********# (''has_role'' '''artificial_heart''' '''pumping_blood_potential''')
 ********* In other words, the realizable '''pumping_blood_potential''' has a '''disposition''' to play the '''role''' of a '''function''' or of a '''role'''  :)
+********#* Well, more precisely (otherwise this was a trick question) something like:
+********#** (''has_potential'' '''natural_heart''' '''pumping_blood_potential''')
+********#* I take this as the null hypothesis. If there is a further distinction to be made, then there should be some unambiguous criterion for making the further distinction.
 ********* ''Answer'' ('''MS''' - ''July 17, 2007 6:55:05 PM EDT''): Yes
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
@@ -76,3 +79,9 @@ __TOC__
 ***# the tendency of something to act in a certain manner under given circumstances
 *** These are accessible, natural language statements, and they contain distinctions - e.g., disposition and function.  Unfortunately, there are different characteristics given which are not necessarily unique to any one of those entities.  Though accesssible, here, too, there is a need to create a more specified list of the similarities (generic '''realizable_entity''' properties) and distinctions (the distinguishing '''differentia''').
 ** I see another problem with BFO's realizables in the biomedical domain. Since the definition of '''bfo:function''' implies membership entails a '''realizable_entity'' must be ''essentially end-directed'' and the entity in which it inheres is ''made for'' that '''bfo:function''', need we subscribe to a specific teleological view - e.g., the ''Intelligent Design'' view of molecular functions, for example?  What are proteins and other molecules ''made for''?  Are cancer cells ''made for'' some purpose?  Why, why not?  On the other hand, is an artificial heart '''''NOT''''' ''made for'' pumping blood?
+
+===Human/Social dependence distinshes bfo:role from bfo:disposition/bfo:function===
+* '''AR''' - ''July 17, 2007 11:06:50 PM EDT''
+** bfolk seem to intend '''function''' be distinct from '''role''' based on whether the '''process''' is dependent on social convention or if the '''process''' wouldn't happen if there weren't people around. So '''doctor''' is a '''role''', because recognition of the potential is dependent on there being some social convention. Similarly '''doorstop''' wouldn't make sense if there weren't doors and there wouldn't be doors if there weren't houses, and there wouldn't be houses if there weren't people. So that must be a '''role'''. By this distinction some things have both '''function''' and '''role'''. For example, a '''drug''' would have a '''therapeutic_role''', but also a '''molecular_function'''.
+** I'm not exactly sure I get this correctly, but maybe one of the bfolk can clarify/correct.
+** The intuitive distinction between '''disposition''' and '''function''' is one between passive and active participation, or accidental versus purposeful participation. But although I tend to naturally use the words in this way, basically I don't believe in the distinction. One might argue there is something behind this intuition - on the other hand when I used to speak french I used to have a similar tendency to attach male/female to nouns, and I don't believe that has any underlying real basis either.
