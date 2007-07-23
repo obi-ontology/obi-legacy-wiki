@@ -46,12 +46,13 @@ __TOC__
 ***** '''artificial_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation ''has_role''
 ***** avoids creating highly redundant, disjoint classes like '''function_to_pump_blood''' and '''role_to_pump_blood''', with the many associated risks of creating incompatible ontologies.
 ****** If you object to distinguishing '''disposition''', '''role''' and '''function''' (as you do above), what sense would it make to conflate them into '''potentials''' and then use the (supposedly equally ambiguous) relations ''has_role'', ''has_function'' etc. ('''WK''' - ''July 16, 2007 7:01:13 AM EDT'')
+******* At least would not necessitate creating three different, quite redundant, disjoint classes - i.e., '''disposition to X''', '''role of doing X''', 'function of doing X'''. ('''MS''' - ''July 17, 2007 9:31:47 AM EDT'')
 ** Proposal: These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
-* '''WK''' - ''July 16, 2007 7:01:13 AM EDT'' ('''MS''' - ''July 16, 2007 8:56:13 AM EDT'')
+* '''WK''' - ''July 16, 2007 7:01:13 AM EDT''
 ** Your suggestion to remove the distinction from BFO may be a bit overhasty;  remember BFO is a top-level ontology, and the distinctions made there should not depend on or comply to what biologists think (or do not). 
-***  To clarify: I see value in distinguishing '''disposition''', '''role''' and '''function'''. I'm proposing different relations between '''independent_continuant''' and '''realizable_entity''' to represent this distinction in the ontology. 
+***  To clarify: That suggestion has to be taken with a grain of salt.  I see value in distinguishing '''disposition''', '''role''' and '''function'''. I'm proposing different relations between '''independent_continuant''' and '''realizable_entity''' to represent this distinction in the ontology.  I believe I understand what is ''intended'' by the current representation of that distinction, but I think the current implementation in the BFO.owl file (sticking each into a separate, disjoint class) is too harsh and will cause problems. ('''MS''' - ''July 17, 2007 9:31:47 AM EDT'')
 ** If there really are three different underlying notions, rejecting the three terms as ambiguous is not going to help us capture the necessary detail in our use of BFO.  
 ** The solution I'd like to see is not to kill the patient, but to cure him. My problem here was the distinction is not made sufficiently clear, the definitions are (somewhat typically) incomprehensible and the examples unconvincing. BFO needs to state much more clearly it's  understanding and intended use of these three distinct classes.
 ** The following common-sense are from onelook.com:
