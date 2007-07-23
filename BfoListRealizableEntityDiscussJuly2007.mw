@@ -46,8 +46,8 @@ __TOC__
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
 * '''WK''' - ''July 16, 2007 7:01:13 AM EDT''
 ** Your suggestion to remove the distinction from BFO may be a bit overhasty;  remember BFO is a top-level ontology, and the distinctions made there should not depend on or comply to what biologists think (or do not). 
-** If there really are three different underlying notions, rejecting the three terms as ambiguous is not going to help us capture the necessary detail in our use of BFO.  The solution I'd like to see is not to kill the patient, but to cure him. BFO needs to state much more clearly what it's  understanding and intended use of these three distinct classes.
-** My problem here was the distinction is not made sufficiently clear, the definitions are (somewhat typically) incomprehensible and the examples unconvincing.
+** If there really are three different underlying notions, rejecting the three terms as ambiguous is not going to help us capture the necessary detail in our use of BFO.  
+** The solution I'd like to see is not to kill the patient, but to cure him. My problem here was the distinction is not made sufficiently clear, the definitions are (somewhat typically) incomprehensible and the examples unconvincing. BFO needs to state much more clearly it's  understanding and intended use of these three distinct classes.
 ** The following common-sense are from onelook.com:
 *** Role ''definition'':
 ***# normal or customary activity of a person in a particular social setting
