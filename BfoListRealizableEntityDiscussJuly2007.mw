@@ -27,17 +27,17 @@ __TOC__
 ** Proposal:
 *** I see '''role''' and '''function''' as subclasses of '''disposition''' -- they are types of '''disposition''' with some extra properties and constraints.
 *** I see '''function''' as a subclass of '''role''' -- i.e. a '''function''' is a '''role''' an entity must play throughout the extent of its existence.
-**** Just shuffling graph nodes won't help unless we provide a means to ''use'' the new classification you propose to meet our application needs.  I do not necessarily object to your solution, but it is vaguely stated.  Can you provide three definitions + examples of the following:
+**** Just shuffling graph nodes won't help unless we provide a means to ''use'' the new classification you propose to meet our application needs.  I do not necessarily object to your solution, but it is vaguely stated.  Can you provide definitions + examples of the following:
 ****# '''disposition''' as subsumed by '''realizable_entity'''
 ****# '''role''' as subsumed by '''disposition'''
 ****# '''function''' as subsumed by '''role'''?
-*** Use Case - convert the [http://pdsp.med.unc.edu/pdsp.php}PDSP Ki database] to BFO / OWL
-*** contains entries about receptor - ligand interactions. A typical entry consists of a receptor molecule, a ligand (binding) molecule and a Ki value (a measure for the affinity of the ligand for the receptor molecule)
-*** Question: Is ligand binding:
-**** disposition-to-bind
-**** function-of-binding
-**** role-of-binding
-*** decided to just use '''bfo:realizable_entity''', as which you pick seems context-dependent and poorly specified.
+** Use Case - convert the [http://pdsp.med.unc.edu/pdsp.php}PDSP Ki database] to BFO / OWL
+**** contains entries about receptor - ligand interactions. A typical entry consists of a receptor molecule, a ligand (binding) molecule and a Ki value (a measure for the affinity of the ligand for the receptor molecule)
+**** Question: Is ligand binding:
+***** disposition-to-bind
+***** function-of-binding
+***** role-of-binding
+**** decided to just use '''bfo:realizable_entity''', as which you pick seems context-dependent and poorly specified.
 ** Question: Is it correct to assume '''bfo:realizable_entity''' is a type designed to make statements about ''hypothetical processes'' without mentioning such ''hypothetical'' entities because they conflict with the realist world view of BFO?
 *** If so, I see no reason to distinguish the entity ''function of heart to pump blood'' ('''bfo:function''' example) from ''role of artificial heart to pump blood'' ('''bfo:role''' example) when they are realized as similar processes.
 *** I would rather create a more generic type of ''realizable_entity'' (let us call it '''potential_to_pump_blood''' here) and clarify the way it is realized through the relation linking the spectific type of '''bfo:independent_continuant''' to '''potential_to_pump_blood'''.
