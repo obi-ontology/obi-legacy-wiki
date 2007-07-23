@@ -1,0 +1,30 @@
+=BFO:Realizable Entity: Distinction between Disposition, Function, and Role=
+
+This discussion thread took place on the BFO mailing list in July 2007.  It is summarized here, since it might provide us with a clearer sense of how to procede with OBI:Function, which must build off one or more of these BFO realizable entity types.
+<br>
+<br>
+[[ ObiFunctionUseCases|<< Back to OBI Function BFO + Use Case page]] <br>
+[[ FunctionTerms|<< Back to OBI Function maing page]] <br>
+[[HomePage|<<Back to Homepage]]
+
+__TOC__
+
+==Discussion Participants==
+* '''Cristian Coscos (CC)'''
+* '''Jennifer Fostel (JF)'''
+* '''Waclaw Kusnierczyk (WK)'''
+* '''Matthias Samwald (MS)'''
+* '''Barry Smith (BS)'''
+* '''Alan Ruttenberg (AR)'''
+
+==Discussion (heavily edited)==
+===Problems Distinguishing bfo:disposition, bfo:function, and bfo:role
+* '''MS''' - ''July 16, 2007 4:13:16 AM EDT''
+** The distinction between realizable entities - disposition, role and function - is unclear and causing problems for me and for others trying to use it.
+** Use Case - convert the [http://pdsp.med.unc.edu/pdsp.php}PDSP Ki database] to BFO / OWL
+*** contains entries about receptor - ligand interactions. A typical entry consists of a receptor molecule, a ligand (binding) molecule and a Ki value (a measure for the affinity of the ligand for the receptor molecule)
+*** Question: Is ligand binding:
+**** disposition-to-bind
+**** function-of-binding
+**** role-of-binding
+*** decided to just use '''bfo:realizable_entity''', as which you pick seems context-dependent and poorly specified.
