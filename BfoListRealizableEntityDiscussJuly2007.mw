@@ -51,9 +51,9 @@ __TOC__
 ********# (''has_function'' '''natural_heart''' '''pumping_blood_potential''')
 ********# (''has_role'' '''artificial_heart''' '''pumping_blood_potential''')
 ********* In other words, the realizable '''pumping_blood_potential''' has a '''disposition''' to play the '''role''' of a '''function''' or of a '''role'''  :)
-********#* Well, more precisely (otherwise this was a trick question) something like:
-********#** (''has_potential'' '''natural_heart''' '''pumping_blood_potential''')
-********#* I take this as the null hypothesis. If there is a further distinction to be made, then there should be some unambiguous criterion for making the further distinction.
+********** Well, more precisely (otherwise this was a trick question) something like:
+*********** (''has_potential'' '''natural_heart''' '''pumping_blood_potential''')
+********** I take this as the null hypothesis. If there is a further distinction to be made, then there should be some unambiguous criterion for making the further distinction.
 ********* ''Answer'' ('''MS''' - ''July 17, 2007 6:55:05 PM EDT''): Yes
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
