@@ -47,6 +47,10 @@ __TOC__
 ***** avoids creating highly redundant, disjoint classes like '''function_to_pump_blood''' and '''role_to_pump_blood''', with the many associated risks of creating incompatible ontologies.
 ****** If you object to distinguishing '''disposition''', '''role''' and '''function''' (as you do above), what sense would it make to conflate them into '''potentials''' and then use the (supposedly equally ambiguous) relations ''has_role'', ''has_function'' etc. ('''WK''' - ''July 16, 2007 7:01:13 AM EDT'')
 ******* At least it would not necessitate creating three different, quite redundant, disjoint classes - i.e., '''disposition to X''', '''role of doing X''', '''function of doing X'''. ('''MS''' - ''July 17, 2007 9:31:47 AM EDT'')
+******** ''Question'' ('''WK''' - ''July 17, 2007 9:58:50 AM EDT''): Do you propose creating subclasses of '''bfo:realizable_entity''' with no further detail, so that, for example, the '''potential''' (?) to pump blood would be represented as a '''realizable_entity''', but not as a '''bfo:function''' or '''bfo:role''', and you could thus say
+********# (''has_function'' '''natural_heart''' '''pumping_blood_potential''')
+********# (''has_role'' '''artificial_heart''' '''pumping_blood_potential''')
+********* In other words, the realizable '''pumping_blood_potential''' has a '''disposition''' to play the '''role''' of a '''function''' or of a '''role'''  :)
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
