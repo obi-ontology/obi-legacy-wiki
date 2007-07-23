@@ -51,7 +51,7 @@ __TOC__
 ********# (''has_function'' '''natural_heart''' '''pumping_blood_potential''')
 ********# (''has_role'' '''artificial_heart''' '''pumping_blood_potential''')
 ********* In other words, the realizable '''pumping_blood_potential''' has a '''disposition''' to play the '''role''' of a '''function''' or of a '''role'''  :)
-********** ''Answer'' ('''MS''' - ''July 17, 2007 6:55:05 PM EDT''): Yes
+********* ''Answer'' ('''MS''' - ''July 17, 2007 6:55:05 PM EDT''): Yes
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
