@@ -24,9 +24,13 @@ __TOC__
 *** At least, you, Alan, and I have raised the problem ('''WK''' - ''July 16, 2007 7:01:13 AM EDT'')
 ** I now think distinguishing '''disposition''', '''role''' and '''function''' as separate, disjoint classes does more harm than good and might turn out to be a significant hindrance to interoperability between ontologies.
 *** If used improperly, e.g., because of unclear definitions and examples, yes.  If used properly, why? ('''WK''' - ''July 16, 2007 7:01:13 AM EDT'')
-** I see '''role''' and '''function''' as subclasses of '''disposition''' -- they are types of '''disposition''' with some extra properties and constraints.
 ** Proposal:
+*** I see '''role''' and '''function''' as subclasses of '''disposition''' -- they are types of '''disposition''' with some extra properties and constraints.
 *** I see '''function''' as a subclass of '''role''' -- i.e. a '''function''' is a '''role''' an entity must play throughout the extent of its existence.
+**** Just shuffling graph nodes won't help unless we provide a means to ''use'' the new classification you propose.  I do not necessarily object to your solution, but it is vaguely stated.  Can you provide three definitions + examples of the following:
+****# '''disposition''' as subsumed by '''realizable_entity'''
+****# '''role''' as subsumed by '''disposition'''
+****# '''function''' as subsumed by '''role'''?
 *** Use Case - convert the [http://pdsp.med.unc.edu/pdsp.php}PDSP Ki database] to BFO / OWL
 *** contains entries about receptor - ligand interactions. A typical entry consists of a receptor molecule, a ligand (binding) molecule and a Ki value (a measure for the affinity of the ligand for the receptor molecule)
 *** Question: Is ligand binding:
@@ -41,6 +45,7 @@ __TOC__
 ***** '''biological_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation ''has_function''
 ***** '''artificial_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation ''has_role''
 ***** avoids creating highly redundant, disjoint classes like '''function_to_pump_blood''' and '''role_to_pump_blood''', with the many associated risks of creating incompatible ontologies.
+****** If you object to distinguishing '''disposition''', '''role''' and '''function''' (as you do above), what sense would it make to conflate them into '''potentials''' and then use the (supposedly equally ambiguous) relations ''has_role'', ''has_function'' etc. ('''WK''' - ''July 16, 2007 7:01:13 AM EDT'')
 ** Proposal: These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
@@ -63,3 +68,4 @@ __TOC__
 ***# an inclination or tendency
 ***# the tendency of something to act in a certain manner under given circumstances
 *** These are accessible, natural language statements, and they contain distinctions - e.g., disposition and function.  Unfortunately, there are different characteristics given which are not necessarily unique to any one of those entities.  Though accesssible, here, too, there is a need to create a more specified list of the similarities (generic '''realizable_entity''' properties) and distinctions (the distinguishing '''differentia''').
+** I see another problem with BFO's realizables in the biomedical domain. Since the definition of '''bfo:function''' implies membership entails a '''realizable_entity'' must be ''essentially end-directed'' and the entity in which it inheres is ''made for'' that '''bfo:function''', need we subscribe to a specific teleological view - e.g., the ''Intelligent Design'' view of molecular functions, for example?  What are proteins and other molecules ''made for''?  Are cancer cells ''made for'' some purpose?  Why, why not?  On the other hand, is an artificial heart '''''NOT''''' ''made for'' pumping blood?
