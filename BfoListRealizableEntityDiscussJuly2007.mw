@@ -46,7 +46,7 @@ __TOC__
 ***** '''artificial_heart''' would link to an instance of '''potential_to_pump_blood''' through the relation ''has_role''
 ***** avoids creating highly redundant, disjoint classes like '''function_to_pump_blood''' and '''role_to_pump_blood''', with the many associated risks of creating incompatible ontologies.
 ****** If you object to distinguishing '''disposition''', '''role''' and '''function''' (as you do above), what sense would it make to conflate them into '''potentials''' and then use the (supposedly equally ambiguous) relations ''has_role'', ''has_function'' etc. ('''WK''' - ''July 16, 2007 7:01:13 AM EDT'')
-******* At least would not necessitate creating three different, quite redundant, disjoint classes - i.e., '''disposition to X''', '''role of doing X''', 'function of doing X'''. ('''MS''' - ''July 17, 2007 9:31:47 AM EDT'')
+******* At least it would not necessitate creating three different, quite redundant, disjoint classes - i.e., '''disposition to X''', '''role of doing X''', 'function of doing X'''. ('''MS''' - ''July 17, 2007 9:31:47 AM EDT'')
 ** Proposal: These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
