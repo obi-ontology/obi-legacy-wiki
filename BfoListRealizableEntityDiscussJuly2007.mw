@@ -27,7 +27,7 @@ __TOC__
 ** Proposal:
 *** I see '''role''' and '''function''' as subclasses of '''disposition''' -- they are types of '''disposition''' with some extra properties and constraints.
 *** I see '''function''' as a subclass of '''role''' -- i.e. a '''function''' is a '''role''' an entity must play throughout the extent of its existence.
-**** Just shuffling graph nodes won't help unless we provide a means to ''use'' the new classification you propose.  I do not necessarily object to your solution, but it is vaguely stated.  Can you provide three definitions + examples of the following:
+**** Just shuffling graph nodes won't help unless we provide a means to ''use'' the new classification you propose to meet our application needs.  I do not necessarily object to your solution, but it is vaguely stated.  Can you provide three definitions + examples of the following:
 ****# '''disposition''' as subsumed by '''realizable_entity'''
 ****# '''role''' as subsumed by '''disposition'''
 ****# '''function''' as subsumed by '''role'''?
