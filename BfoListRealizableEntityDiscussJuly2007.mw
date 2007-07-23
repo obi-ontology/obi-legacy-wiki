@@ -20,7 +20,7 @@ __TOC__
 ==Discussion (heavily edited)==
 ===Problems Distinguishing bfo:disposition, bfo:function, and bfo:role===
 * '''MS''' - ''July 16, 2007 4:13:16 AM EDT''
-** The distinction between realizable entities - disposition, role and function - is unclear and causing problems for me and for others trying to use it.  I now think that distinguishing disposition, role and function as separate, disjoint classes does more harm than good and might turn out to be a significant hindrance to interoperability between ontologies.
+** The distinction between realizable entities - '''disposition''', '''role''' and '''function''' - is unclear and causing problems for me and for others trying to use it.  I now think distinguishing '''disposition''', '''role''' and '''function''' as separate, disjoint classes does more harm than good and might turn out to be a significant hindrance to interoperability between ontologies.
 ** I see '''role''' and '''function''' as subclasses of '''disposition''' -- they are types of '''disposition''' with some extra properties and constraints.
 ** Proposal:
 *** I see '''function''' as a subclass of '''role''' -- i.e. a '''function''' is a '''role''' an entity must play throughout the extent of its existence.
