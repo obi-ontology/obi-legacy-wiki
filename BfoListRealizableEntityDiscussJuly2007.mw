@@ -97,22 +97,22 @@ __TOC__
 **# replace '''disposition''' with ''causally_connected'' (this may not be the correct term to use, but I think it gets at the idea). 
 **# leave '''role''' and '''function''' as is
 ** These are changes I have made since taking a class with [http://www.acsu.buffalo.edu/~new/ Neil Williams] and discussing the [http://www.ifomis.uni-saarland.de/bfo/manual/manual.pdf BFO manual] with Andrew Spear.
-*** '''BB''' - ''July 24, 2007 2:08 PM EDT''
-**** How would these suggestions be implemented in OWL?  My very quick first take would be (someone PLEASE provide a better proposal than this):
-****# dependent_continuant
-****#* ==> disappears (i.e.., is equivalent to ObjectProperty)
-****# realizable_entity			
-****#* ==> disposition_property - a type of ObjectProperty
-****#** ''domain'': independent_continuant
-****#** ''range'': process
-****# quality			
-****#* ==> categorical_property - a type of ObjectProperty
-****#** ''domain'': independent_continuant
-****#** ''range'': ? (seems it should be quality - so maybe you are just suggesting a way to implement quality relations in OWL)
-****# disposition			
-****#* ==> causally_connection- a type of ObjectProperty
-****#** ''domain'': independent_continuant
-****#** ''range'': process
+** '''BB''' - ''July 24, 2007 2:08 PM EDT''
+*** How would these suggestions be implemented in OWL?  My very quick first take would be (someone PLEASE provide a better proposal than this):
+***# dependent_continuant
+***#* ==> disappears (i.e.., is equivalent to ObjectProperty)
+***# realizable_entity			
+***#* ==> disposition_property - a type of ObjectProperty
+***#** ''domain'': independent_continuant
+***#** ''range'': process
+***# quality			
+***#* ==> categorical_property - a type of ObjectProperty
+***#** ''domain'': independent_continuant
+***#** ''range'': ? (seems it should be quality - so maybe you are just suggesting a way to implement quality relations in OWL)
+***# disposition			
+***#* ==> causally_connection- a type of ObjectProperty
+***#** ''domain'': independent_continuant
+***#** ''range'': process
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
 * '''WK''' - ''July 16, 2007 7:01:13 AM EDT''
