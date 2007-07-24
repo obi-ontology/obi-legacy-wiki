@@ -69,8 +69,16 @@ __TOC__
 ********* ''Answer'' ('''MS''' - ''July 17, 2007 6:55:05 PM EDT''): Yes
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 * '''BS''' - ''July 19, 2007 9:08:46 AM EDT''
-** I am assuming to do justice to '''go:molecular_function''' - and to '''oci:subject_of_study''' - type terms we need to distinguish at least between '''function'''s and '''role'''s. '''Function'''s rest on the underlying non-dispositional physico-chemistry of the bearer; in an observational study (e.g.) being a subject is the product of what philosophers call a ''Cambridge change'' - which means it is a product of a change in some other object (compare: becoming a father).
+** I am assuming to do justice to '''go:molecular_function''' - and to '''oci:subject_of_study''' - type terms we need to distinguish at least between '''function'''s and '''role'''s. '''Function'''s rest on the underlying non-dispositional physico-chemistry of the bearer
+*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': Do you mean ''dispositional'' not ''non-dispositional''?  May I read ''physico-chemistry of the bearer'' as ''a quality of the bearer''. If not, how do we know which '''qualities''' are and which not?
+** in an observational study (e.g.) being a subject is the product of what philosophers call a ''Cambridge change'' - which means it is a product of a change in some other object (compare: becoming a father).
+*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': When I looked up ''Cambridge change'', at least a couple of places insisted ''Cambridge change'' was the union of ''true changes'', such as to the physico-chemistry of the bearer, and ''relational changes'', such as becoming a father.  I saw "mere ''Cambridge Change''" used in the sense given here.
 ** Hence we need functions, which are of course a sub-class of dispositions, and roles, which are not.
+*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT''
+**** We would then reason the '''process''' of, e.g. a study subject going to the clinic to get their blood taken as part of the study, this '''process''' being a realization of the '''subject_role''', is not ''caused'' in conjunction with the laws of nature?
+**** I think I see what you are suggesting here, but I think that there is work to be done to say more so people can get it (and we can check if it makes sense).
+**** For instance, there is no distinction in BFO between solely ''relational_changes'' (extrinsic?) and those which lead to ''real change''
+**** The realization of some '''roles''' also leads to ''real change''. If you are a garbage collector, you will likely come home smelly after a day out realizing your ''role''.
 *** '''BB''' - ''July 24, 2007 1:20 PM EDT''
 **** '''Function''' rests on the physico-chemistry of the bearer - e.g.:
 ***** '''pyruvate_dehydrogenase''' is a critical '''molecular_function''' within the Krebs Cycle.
@@ -90,7 +98,7 @@ __TOC__
 *****#* Alan, myself, and others will be working on providing such examples for '''obi:function''' in the coming weeks.
 ***** As to describing the relation between the '''multi-molecular_complex''' physico-chemistry and the '''molecular_function''' as ''happenstance'' - this is of course a convenient shorthand which doesn't reflect our modern understanding of the evolutionary development of such a '''multi-molecular_complex'''.  MOST modern biological scientists (Intelligent Design practitioners excluded) believe the survival value of a particular '''multi-molecular_complex''' physico-chemical make-up had a direct or indirect effect on the survival of that '''multi-molecular_complex''' - or some other entity containing that complex.  This is believed to be a critical determinant of the extent '''multi-molecular_complex''' physico-chemical instances we observe in nature (or can observe in the fossil record - at least those fossils containing some accessible biological material such as DNA).  Of course, if we build the ontology correctly, we'll be able to represent the way in which bearing this '''molecular_function''' influenced the occurrence of a particular physico-chemical make-up.
 * '''KL''' - ''July 19, 2007 11:56:01 AM EDT''
-** I have actually been complaining about this very topic since Fall, 2006.  I believe the resolution is to make the following changes to part 5 of the[http://www.ifomis.uni-saarland.de/bfo/manual/manual.pdf BFO manual]:
+** I have actually been complaining about this very topic since Fall, 2006.  I believe the resolution is to make the following changes to part 5 of the [http://www.ifomis.uni-saarland.de/bfo/manual/manual.pdf BFO manual]:
 **# replace '''dependent_continuent'''  with ''property''
 **# replace '''realizable_entity''' with ''dispositional_property'' (as defined by [http://plato.stanford.edu/entries/dispositions/#1 Molnar and Mumford])
 **# replace '''quality''' with ''categorical_property'' (as defined by [http://plato.stanford.edu/entries/dispositions/#1 Molnar and Mumford])
