@@ -106,7 +106,7 @@ __TOC__
 
 ===BFO Citations for definitions/axioms distinguishing bfo:disposition, bfo:function, & bfo:role===
 * '''BS''' - ''July 18, 2007 3:49:23 AM EDT''
-** ''Summary'': see this earlier BFO list [http://groups.google.com/group/bfo-discuss/browse_thread/thread/7856b889f96164b8 discussion on '''disposition''', ''function''', and '''role''']
+** See this earlier BFO list [http://groups.google.com/group/bfo-discuss/browse_thread/thread/7856b889f96164b8 discussion on '''disposition''', ''function''', and '''role'''] (''Summary'' follows)
 *** '''AR''' - ''March 1, 2007''
 **** Is there a paper with more formal defining axioms for the subtypes of '''realizable_entity''' more so than the cornucopia paper? I'm still trying to clarify the distinctions between '''role''', '''disposition''', '''function''', power, etc. 
 **** '''PG''' - ''March 1, 2007 06:31 AM EDT''
@@ -168,3 +168,6 @@ __TOC__
 ******* ''Question'': Should BFO bow before creatures (like me) who have no idea about philosophy and do not really know the existing work in that field, and yet demand (not like me) BFO include such useful universals as '''disposition'''? ('''WK''' - ''July 19, 2007 4:53:04 AM EDT'')
 **** As Robert remarks, ''beneficial'' and ''socially assigned'' are not particularly precise expressions.
 **** Furthermore, I see there would be multiple inheritance:  there can be '''disposition'''s both beneficial to the bearer, socially assigned, and giving rise to the release of energy and have a statistically determinate likelihood of being realized -- right?  Aren't those categories ('''role''', '''function''', etc.) supposed to be disjoint?  Or in cases '''disposition''' fits into each set, would one have a separate instance of each category -- to keep them disjoint?  e.g., a natural transplanted heart would have the '''function''' to pump blood and, separately, the '''role''' to pump blood, and the''' power''' to pump blood, and a '''propensity''' to pump blood...?
+* '''BS''' - ''July 19, 2007 9:08:46 AM EDT''
+** I am assuming to do justice to '''go:molecular_function'' - and to '''oci:subject_of_study''' - type terms we need to distinguish at least between '''function'''s and '''role'''s. '''Function'''s rest on the underlying non-dispositional physico-chemistry of the bearer; in an observational study (e.g.) being a subject is the product of what philosophers call a ''Cambridge change'' - which means it is a product of a change in some other object (compare: becoming a father).
+** Hence we need functions, which are of course a sub-class of dispositions, and roles, which are not.
