@@ -1,0 +1,48 @@
+=BFO:Realizable Entity: Distinction between Disposition, Function, and Role: Request to improve defintions and examples=
+
+This discussion sub-thread took place on the BFO mailing list in July 2007.  It is summarized here, since it might provide us with a clearer sense of how to proceed with OBI:Function, which must build off one or more of these BFO realizable entity types.  The discussion was heavily edited to hopefully promote clarity - and referencing URLs have been added to help point others to critical background material.
+<br>
+The thread needed to be broken into sub-threads, because it extended beyond the 32kb MediaWiki recommended page limit.
+<br>
+<br>
+[[ BfoListRealizableEntityDiscussJuly2007|<< Back to main page for this discussion]] <br>
+[[ ObiFunctionUseCases|<< Back to OBI Function BFO + Use Case page]] <br>
+[[ FunctionTerms|<< Back to OBI Function maing page]] <br>
+[[HomePage|<<Back to Homepage]]
+
+__TOC__
+
+==Discussion Participants==
+* '''Bill Bug (BB)'''
+* '''Cristian Coscos (CC)'''
+* '''Jennifer Fostel (JF)'''
+* '''Pierre Grenon (PG)'''
+* '''Robert Hoehndorf (RH)'''
+* '''Waclaw Kusnierczyk (WK)'''
+* '''Kristl Laux (KL)'''
+* '''Matthias Samwald (MS)'''
+* '''Barry Smith (BS)'''
+* '''Alan Ruttenberg (AR)'''
+
+==Request to improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role==
+* '''WK''' - ''July 16, 2007 7:01:13 AM EDT''
+** Your suggestion to remove the distinction from BFO may be a bit overhasty;  remember BFO is a top-level ontology, and the distinctions made there should not depend on or comply to what biologists think (or do not). 
+***  To clarify: That suggestion has to be taken with a grain of salt.  I see value in distinguishing '''disposition''', '''role''' and '''function'''. I'm proposing different relations between '''independent_continuant''' and '''realizable_entity''' to represent this distinction in the ontology.  I believe I understand what is ''intended'' by the current representation of that distinction, but I think the current implementation in the BFO.owl file (sticking each into a separate, disjoint class) is too harsh and will cause problems. ('''MS''' - ''July 17, 2007 9:31:47 AM EDT'')
+** If there really are three different underlying notions, rejecting the three terms as ambiguous is not going to help us capture the necessary detail in our use of BFO.  
+** The solution I'd like to see is not to kill the patient, but to cure him. My problem here was the distinction is not made sufficiently clear, the definitions are (somewhat typically) incomprehensible and the examples unconvincing. BFO needs to state much more clearly it's  understanding and intended use of these three distinct classes.
+** The following common-sense are from onelook.com:
+*** Role ''definition'':
+***# normal or customary activity of a person in a particular social setting
+***# what something is used for
+***# the actions and activities assigned to or required or expected of a person or group
+*** Function ''definition'':
+***# the actions and activities assigned to or required or expected of a person or group
+***# what something is used for
+***# a relation such that one thing is dependent on another
+*** Disposition ''definition'':
+***# a natural or acquired habit or characteristic tendency in a person or thing
+***# a person's inherent qualities of character
+***# an inclination or tendency
+***# the tendency of something to act in a certain manner under given circumstances
+*** These are accessible, natural language statements, and they contain distinctions - e.g., disposition and function.  Unfortunately, there are different characteristics given which are not necessarily unique to any one of those entities.  Though accesssible, here, too, there is a need to create a more specified list of the similarities (generic '''realizable_entity''' properties) and distinctions (the distinguishing '''differentia''').
+** I see another problem with BFO's realizables in the biomedical domain. Since the definition of '''bfo:function''' implies membership entails a '''realizable_entity'' must be ''essentially end-directed'' and the entity in which it inheres is ''made for'' that '''bfo:function''', need we subscribe to a specific teleological view - e.g., the ''Intelligent Design'' view of molecular functions, for example?  What are proteins and other molecules ''made for''?  Are cancer cells ''made for'' some purpose?  Why, why not?  On the other hand, is an artificial heart '''''NOT''''' ''made for'' pumping blood?
