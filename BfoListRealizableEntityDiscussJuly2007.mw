@@ -100,17 +100,17 @@ __TOC__
 ** '''BB''' - ''July 24, 2007 2:08 PM EDT''
 *** How would these suggestions be implemented in OWL?  My very quick first take would be (someone PLEASE provide a better proposal than this):
 ***# dependent_continuant
-***#* ==> disappears (i.e.., is equivalent to ObjectProperty)	[this can't be right]
+***#* ==> disappears (i.e.., equivalent to ObjectProperty)	[this can't be right]
 ***# realizable_entity			
-***#* ==> disposition_property - a type of ObjectProperty
+***#* ==> disposition_property = rdfs:subClassOf ObjectProperty
 ***#** ''domain'': independent_continuant
 ***#** ''range'': process
 ***# quality			
-***#* ==> categorical_property - a type of ObjectProperty
+***#* ==> categorical_property = rdfs:subClassOf ObjectProperty
 ***#** ''domain'': independent_continuant
-***#** ''range'': ? (seems it should be quality - so maybe you are just suggesting a way to implement quality relations in OWL)
+***#** ''range'': ? (seems it should be '''quality''' - so maybe you are just suggesting a way to implement '''quality''' relations in OWL)
 ***# disposition			
-***#* ==> causally_connection- a type of ObjectProperty
+***#* ==> causally_connection = rdfs:subClassOf ObjectProperty
 ***#** ''domain'': independent_continuant
 ***#** ''range'': process
 
