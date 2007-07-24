@@ -94,7 +94,8 @@ __TOC__
 **# replace '''dependent_continuent'''  with ''property''
 **# replace '''relizable_entity''' with ''dispositional_property'' (as defined by [http://plato.stanford.edu/entries/dispositions/#1 Molnar and Mumford])
 **# replace '''quality''' with ''categorical_property'' (as defined by [http://plato.stanford.edu/entries/dispositions/#1 Molnar and Mumford])
-**# leave '''role''' and '''function''', but replace '''disposition''' with ''causally_connected'' (this may not be the correct term to use, but I think it gets at the idea). 
+**# replace '''disposition''' with ''causally_connected'' (this may not be the correct term to use, but I think it gets at the idea). 
+**# leave '''role''' and '''function''' as is
 ** These are changes I have made since taking a class with [http://www.acsu.buffalo.edu/~new/ Neil Williams] and discussing the [http://www.ifomis.uni-saarland.de/bfo/manual/manual.pdf BFO manual] with Andrew Spear.
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
