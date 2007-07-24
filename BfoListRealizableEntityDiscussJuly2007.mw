@@ -71,16 +71,23 @@ __TOC__
 * '''BS''' - ''July 19, 2007 9:08:46 AM EDT''
 ** I am assuming to do justice to '''go:molecular_function''' - and to '''oci:subject_of_study''' - type terms we need to distinguish at least between '''function'''s and '''role'''s. '''Function'''s rest on the underlying non-dispositional physico-chemistry of the bearer
 *** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': Do you mean ''dispositional'' not ''non-dispositional''?
-**** '''BB''' - ''July 24, 2007 1:20 PM EDT'': I was confused by this ''apparent'' contradiction as well.
-*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': May I read ''physico-chemistry of the bearer'' as ''a quality of the bearer''. If not, how do we know which '''qualities''' are and which not?
+**** '''CC''' - ''July 20, 2007 5:47:41 AM EDT'': I think BS means ''structural'', i.e. definitely non-dispositional (aka ''categorical''). '''Disposition'''s supervene on structural properties of the continuant. One can regard, I guess, the distinction between '''disposition'''s and the underlying microstructure as pertaining to different granularity levels.
+**** '''BS''' - ''July 23, 2007 9:50:40 AM EDT'': I meant ''non-dispositional''.
+*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': May I read ''physico-chemistry of the bearer'' as ''a quality of the bearer''.
+**** '''BS''' - ''July 23, 2007 9:50:40 AM EDT'': Yes; likely a very complex '''quality'''
+*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': If not, how do we know which '''qualities''' are and which not?
+**** '''BS''' - ''July 23, 2007 9:50:40 AM EDT'': I think PATO should focus on what, in the literature, are called ''categorical qualities'', as opposed to '''disposition'''s; every '''disposition''' exists in virtue of underlying ''categorical qualities''.  That is one important distinction between '''disposition'''s, including '''function'''s, and '''role'''s.
 ** In an observational study (e.g.) being a subject is the product of what philosophers call a [http://plato.stanford.edu/entries/change/#change ''Cambridge change''] - which means it is a product of a change in some other object (compare: becoming a father).
 *** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': When I looked up ''Cambridge change'', at least a couple of places insisted ''Cambridge change'' was the union of ''true changes'', such as to the physico-chemistry of the bearer, and ''relational changes'', such as becoming a father.  I saw "mere ''Cambridge Change''" used in the sense given here.
+**** '''BS''' - ''July 23, 2007 9:50:40 AM EDT'': Fine with me.
 ** Hence we need functions, which are of course a sub-class of dispositions, and roles, which are not.
 *** '''AR''' - ''July 20, 2007 12:40:17 AM EDT''
-**** We would then reason the '''process''' of, e.g. a study subject going to the clinic to get their blood taken as part of the study, this '''process''' being a realization of the '''subject_role''', is not ''caused'' in conjunction with the laws of nature?
+**** Would we then reason the '''process''' of, e.g. a study subject going to the clinic to get their blood taken as part of the study, this '''process''' being a realization of the '''subject_role''', is not ''caused'' in conjunction with the laws of nature?
+***** '''BS''' - ''July 23, 2007 9:50:40 AM EDT'': I don't really understand the question
 **** I think I see what you are suggesting here, but I think that there is work to be done to say more so people can get it (and we can check if it makes sense).
 **** For instance, there is no distinction in BFO between solely ''relational_changes'' (extrinsic?) and those which lead to ''real change''
 **** The realization of some '''roles''' also leads to ''real change''. If you are a garbage collector, you will likely come home smelly after a day out realizing your ''role''.
+***** '''BS''' - ''July 23, 2007 9:50:40 AM EDT'': All the former involve '''role'''s.
 *** '''BB''' - ''July 24, 2007 1:20 PM EDT''
 **** '''Function''' rests on the physico-chemistry of the bearer - e.g.:
 ***** '''pyruvate_dehydrogenase''' is a critical '''molecular_function''' within the Krebs Cycle.
@@ -123,6 +130,8 @@ __TOC__
 ***#* ==> causally_connection = rdfs:subClassOf ObjectProperty
 ***#** ''domain'': independent_continuant
 ***#** ''range'': process
+* '''JF''' - ''July 20, 2007 9:51:57 AM EDT''
+** Matthias' proposal of re-organizing the class axioms relating the children of '''realizable_entity''' makes a lot of sense.  There has been considerable discussion on this topic at OBI as well
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
 * '''WK''' - ''July 16, 2007 7:01:13 AM EDT''
