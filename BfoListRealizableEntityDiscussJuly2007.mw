@@ -73,8 +73,7 @@ __TOC__
 *** '''BB''' - ''July 24, 2007 1:20 PM EDT''
 **** '''Function''' rests on the physico-chemistry of the bearer - e.g.:
 ***** '''pyruvate_dehydrogenase''' is a critical '''molecular_function''' within the Krebs Cycle.
-***** ''definition'': [http://www.rpi.edu/dept/bcbp/molbiochem/MBWeb/mb1/part2/krebs.htm URL]:
-****** "Pyruvate Dehydrogenase  catalyzes oxidative decarboxylation of pyruvate, to form acetyl-CoA"
+***** ''definition'':  "Pyruvate Dehydrogenase  catalyzes oxidative decarboxylation of pyruvate, to form acetyl-CoA" (from [http://www.rpi.edu/dept/bcbp/molbiochem/MBWeb/mb1/part2/krebs.htm this site])
 ***** I specifically used lower-case to distinguish the '''molecular_function''' from the '''multi-molecular_complex''' bearing that '''function'''.
 ***** Here's where some of the confusion comes in, I believe. 
 *****# Conflating '''function''' with the '''independent_continuant''' bearing that '''function''':
