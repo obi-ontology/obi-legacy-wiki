@@ -59,6 +59,7 @@ __TOC__
 *********** I take this as the null hypothesis. If there is a further distinction to be made, then there should be some unambiguous criterion for making the further distinction.
 ********** '''BS''' - ''July 18, 2007 3:49:23 AM EDT''
 *********** In both cases we are talking about a '''function'''; '''role''' involves a (usually socially mediated) element of voluntary ascription (e.g. the '''nurse''' '''role''', the '''student''' '''role'''); actually studying is not a matter of playing a '''role'''; being such as to have the ''potential'' to pump blood is not a matter of a '''role'''.
+************ Ok. Does that mean the BFO OWL file needs to be corrected?. It includes ''the role of an artificial heart in pumping blood'' as an example of a '''role''', and ''the function of the heart in the body to pump blood'' as an example of a '''function'''. ('''MS''' - ''July 18, 2007 3:54:56 PM EDT'')
 ********* ''Answer'' ('''MS''' - ''July 17, 2007 6:55:05 PM EDT''): Yes
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 
@@ -90,6 +91,13 @@ __TOC__
 ** bfolk seem to intend '''function''' be distinct from '''role''' based on whether the '''process''' is dependent on social convention or if the '''process''' wouldn't happen if there weren't people around. So '''doctor''' is a '''role''', because recognition of the potential is dependent on there being some social convention. Similarly '''doorstop''' wouldn't make sense if there weren't doors and there wouldn't be doors if there weren't houses, and there wouldn't be houses if there weren't people. So that must be a '''role'''. By this distinction some things have both '''function''' and '''role'''. For example, a '''drug''' would have a '''therapeutic_role''', but also a '''molecular_function'''.
 ** I'm not exactly sure I get this correctly, but maybe one of the bfolk can clarify/correct.
 ** The intuitive distinction between '''disposition''' and '''function''' is one between passive and active participation, or accidental versus purposeful participation. But although I tend to naturally use the words in this way, basically I don't believe in the distinction. One might argue there is something behind this intuition - on the other hand when I used to speak french I used to have a similar tendency to attach male/female to nouns, and I don't believe that has any underlying real basis either.
+* '''BS''' - ''March 3, 2007 03:31 PM EDT''
+** '''role'''
+*** ''definition'': socially assigned '''function''' (or more likely: constellation of '''function'''s)
+**** '''RH''' - ''March 7, 2007 06:32 AM EDT''
+***** I can put my stein of beer on a rock that is formed like a table. This rock has no socially assigned '''function'''. However, the rock plays the '''role''' of a table.
+***** There are a number of different types of '''role'''s. You appear to be referring to social '''role'''s only. Social '''role'''s are something like '''student''' or '''employee'''. In processes, some entity may play the '''role''' of a '''transporter''', even if no society exists. In 2 < 4, ''2'' may play the '''role''' of the smaller argument. 
+***** See Frank Loebe's [http://www.onto-med.de/en/publications/refereed-papers-in-proceedings/loebe-f-2005-93-a.pdf Abstract vs. Social Roles – A Refined Top-Level Ontological Analysis]
 
 ===BFO Citations for definitions/axioms distinguishing bfo:disposition, bfo:function, & bfo:role===
 * '''BS''' - ''July 18, 2007 3:49:23 AM EDT''
@@ -124,10 +132,6 @@ __TOC__
 *********** ''A'' can cause ''X''. ''A'' is there now because it caused ''X'' in the past.
 ********** I believe you would like to reduce '''function''' to purely realistic terms without human ascription. The best work I know of that tries to do this is Ruth Millikans [http://links.jstor.org/sici?sici=0029-4624(198709)21%3A3%3C430%3ALTAOBC%3E2.0.CO%3B2-Z '''''Language, Thought and other biological categories''''']. 
 ********** See Searle for a number of additional counter-examples.
-********* Re: '''role'''
-********** I can put my stein of beer on a rock that is formed like a table. This rock has no socially assigned '''function'''. However, the rock plays the '''role''' of a table.
-********** There are a number of different types of '''role'''s. You appear to be referring to social '''role'''s only. Social '''role'''s are something like '''student''' or '''employee'''. In processes, some entity may play the '''role''' of a '''transporter''', even if no society exists. In 2 < 4, ''2'' may play the '''role''' of the smaller argument. 
-********** See Frank Loebe's [http://www.onto-med.de/en/publications/refereed-papers-in-proceedings/loebe-f-2005-93-a.pdf Abstract vs. Social Roles – A Refined Top-Level Ontological Analysis]
 **** '''PG''' - ''March 1, 2007 06:31 AM EDT''
 ***** To my knowledge, we have no worked on any of the specificities of each sort of '''realizable_entity''' - I.e. we have not worked on the specificity of each sort of realization ('''process'''es and '''relation'''s). 
 *** '''AR''' - ''March 1, 2007''
@@ -141,6 +145,6 @@ __TOC__
 ******* A '''disposition''' would then involve a correlated '''process''' (3) universal.  The realization of the '''disposition''' would be an instance.
 *** '''WK''' - ''July 18, 2007 4:28:54 AM EDT''
 **** Clearly, Alan expressed his doubts four months ago, and if he asks again, he must have not received an appropriate explanation.
-**** Pierre seems to suggest that '''role''', '''function''', '''power''', '''liability''', '''propensity''' are all types of '''disposition''';  this fits Mathias's view.
+**** Pierre seems to suggest '''role''', '''function''', '''power''', '''liability''', '''propensity''' are all types of '''disposition''';  this fits Matthias's view.
 **** As Robert remarks, ''beneficial'' and ''socially assigned'' are not particularly precise expressions.
 **** Furthermore, I see there would be multiple inheritance:  there can be '''disposition'''s both beneficial to the bearer, socially assigned, and giving rise to the release of energy and have a statistically determinate likelihood of being realized -- right?  Aren't those categories ('''role''', '''function''', etc.) supposed to be disjoint?  Or in cases '''disposition''' fits into each set, would one have a separate instance of each category -- to keep them disjoint?  e.g., a natural transplanted heart would have the '''function''' to pump blood and, separately, the '''role''' to pump blood, and the''' power''' to pump blood, and a '''propensity''' to pump blood...?
