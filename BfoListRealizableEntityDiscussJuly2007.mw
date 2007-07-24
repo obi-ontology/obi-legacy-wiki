@@ -70,7 +70,9 @@ __TOC__
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
 * '''BS''' - ''July 19, 2007 9:08:46 AM EDT''
 ** I am assuming to do justice to '''go:molecular_function''' - and to '''oci:subject_of_study''' - type terms we need to distinguish at least between '''function'''s and '''role'''s. '''Function'''s rest on the underlying non-dispositional physico-chemistry of the bearer
-*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': Do you mean ''dispositional'' not ''non-dispositional''?  May I read ''physico-chemistry of the bearer'' as ''a quality of the bearer''. If not, how do we know which '''qualities''' are and which not?
+*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': Do you mean ''dispositional'' not ''non-dispositional''?
+**** *** '''BB''' - ''July 24, 2007 1:20 PM EDT'': I was confused by this ''apparent'' contradiction as well.
+*** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': May I read ''physico-chemistry of the bearer'' as ''a quality of the bearer''. If not, how do we know which '''qualities''' are and which not?
 ** in an observational study (e.g.) being a subject is the product of what philosophers call a ''Cambridge change'' - which means it is a product of a change in some other object (compare: becoming a father).
 *** '''AR''' - ''July 20, 2007 12:40:17 AM EDT'': When I looked up ''Cambridge change'', at least a couple of places insisted ''Cambridge change'' was the union of ''true changes'', such as to the physico-chemistry of the bearer, and ''relational changes'', such as becoming a father.  I saw "mere ''Cambridge Change''" used in the sense given here.
 ** Hence we need functions, which are of course a sub-class of dispositions, and roles, which are not.
