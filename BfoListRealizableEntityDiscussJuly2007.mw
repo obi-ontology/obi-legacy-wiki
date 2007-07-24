@@ -12,6 +12,8 @@ __TOC__
 ==Discussion Participants==
 * '''Cristian Coscos (CC)'''
 * '''Jennifer Fostel (JF)'''
+* '''Pierre Grenon (PG)'''
+* '''Robert Hoehndorf (RH)'''
 * '''Waclaw Kusnierczyk (WK)'''
 * '''Matthias Samwald (MS)'''
 * '''Barry Smith (BS)'''
@@ -85,3 +87,51 @@ __TOC__
 ** bfolk seem to intend '''function''' be distinct from '''role''' based on whether the '''process''' is dependent on social convention or if the '''process''' wouldn't happen if there weren't people around. So '''doctor''' is a '''role''', because recognition of the potential is dependent on there being some social convention. Similarly '''doorstop''' wouldn't make sense if there weren't doors and there wouldn't be doors if there weren't houses, and there wouldn't be houses if there weren't people. So that must be a '''role'''. By this distinction some things have both '''function''' and '''role'''. For example, a '''drug''' would have a '''therapeutic_role''', but also a '''molecular_function'''.
 ** I'm not exactly sure I get this correctly, but maybe one of the bfolk can clarify/correct.
 ** The intuitive distinction between '''disposition''' and '''function''' is one between passive and active participation, or accidental versus purposeful participation. But although I tend to naturally use the words in this way, basically I don't believe in the distinction. One might argue there is something behind this intuition - on the other hand when I used to speak french I used to have a similar tendency to attach male/female to nouns, and I don't believe that has any underlying real basis either.
+
+===BFO Citations for definitions/axioms distinguishing bfo:disposition, bfo:function, & bfo:role===
+* '''BS''' - ''July 18, 2007 3:49:23 AM EDT''
+** ''Summary'': see this earlier BFO list [http://groups.google.com/group/bfo-discuss/browse_thread/thread/7856b889f96164b8 discussion on '''disposition''', ''function''', and '''role''']
+*** '''AR''' - ''March 1, 2007''
+**** Is there a paper with more formal defining axioms for the subtypes of '''realizable_entity''' more so than the cornucopia paper? I'm still trying to clarify the distinctions between '''role''', '''disposition''', '''function''', power, etc. 
+**** '''PG''' - ''March 1, 2007 06:31 AM EDT''
+***** There is nothing to my knowledge. It is possible however that some elements have been given in work on '''function'''s, maybe papers authored or co-authored by Ingvar Johansson. I will ask him. Maybe Barry will have better suggestions. 
+****** '''BS''' - ''March 3, 2007 03:31 PM EDT''
+******* There is nothing, as yet, except for Ingvar's and Ludger's work on tendencies:
+*******# [http://home.arcor.de/metaphysicus/Texte/tendencies%20WSPI2006%20proc.pdf The Ontology of Tendencies and Medical Information Sciences]
+*******# [http://hem.passagen.se/ijohansson/ontology2.htm INTENTIONALITY AND TENDENCY: HOW TO MAKE ARISTOTLE UP-TO-DATE]
+******* We have been holding back until other matters solidify, but if you have proposals I would be eager to hear them.
+******* First ideas:
+*******# '''function'''
+*******#* ''definition'': '''disposition''' that is beneficial to the bearer
+*******# '''role'''
+*******#* ''definition'': socially assigned '''function''' (or more likely: constellation of '''function'''s)
+*******# '''power'''
+*******#*  ''definition'': '''disposition''' whose realization gives rise to the release of energy
+*******# '''liability'''
+*******#*  ''definition'': '''disposition''' whose realization involves the absorption of energy
+*******# '''tendency'''
+*******#*  ''definition'': ?
+*******# '''propensity'''
+*******#*  ''definition'': '''disposition''' with a statistically determinate likelihood of being realized
+******* BFO probably should not include all of these
+******* Counterexamples welcome.
+******** '''RH''' - ''March 7, 2007 06:32 AM EDT''
+********* I have a '''disposition''' to eat. Eating is ''beneficial'' for me. My '''function''' is to eat. Seems counter-intuitive to me. I believe you would like to reduce '''function''' to purely realistic terms without human ascription. The best work I know of that tries to do this is Ruth Millikans '''''Language, Thought and other biological categories'''''. The problem is that ''beneficial'' depends on values of some observer, something you probably do not want. The basic idea of the realist accounts on saying what ''beneficial'' means is: 
+********** ''A'' can cause ''X''. ''A'' is there now because it caused ''X'' in the past. 
+********** See Searle for a number of additional counter-examples.
+********* I can put my stein of beer on a rock that is formed like a table. This rock has no socially assigned '''function'''. However, the rock plays the '''role''' of a table.
+********** There are a number of different types of '''role'''s. You appear to be referring to social '''role'''s only. Social '''role'''s are something like '''student''' or '''employee'''. In processes, some entity may play the '''role''' of a '''transporter''', even if no society exists. In 2 < 4, ''2'' may play the '''role''' of the smaller argument. 
+*********** See Frank Loebe's [http://www.onto-med.de/en/publications/refereed-papers-in-proceedings/loebe-f-2005-93-a.pdf Abstract vs. Social Roles – A Refined Top-Level Ontological Analysis]
+
+
+**** '''PG''' - ''March 1, 2007 06:31 AM EDT''
+***** To my knowledge, we have no worked on any of the specificities of each sort of '''realizable_entity''' - I.e. we have not worked on the specificity of each sort of realization ('''process'''es and '''relation'''s). 
+*** '''AR''' - ''March 1, 2007''
+**** What make sense to me:
+***** "Realization involves in every case three entities:
+*****# a '''substance'''
+*****# a '''SNAP:dependent_entity'''
+*****# a ''correlated'' '''process''' 
+***** (2) then ''inheres_in'' (1) in virtue of the fact (1) participates in (3)"  (however ''correlated'' is a bit fuzzy)
+****** '''BS''' - ''March 3, 2007 03:31 PM EDT''
+******* A '''disposition''' would then involve a correlated '''process''' (3) universal.  The realization of the '''disposition''' would be an instance.
