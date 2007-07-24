@@ -67,6 +67,9 @@ __TOC__
 ************* We need ''clear'' defining criteria and examples, and for the '''realizable_entity''' children in the current BFO OWL file, these still seem a bit fuzzy to me. If Barry, or some other trained, applied realist philosopher will guide the development of each and every ontology based on BFO, then fine. Otherwise, us mere mortals must have precise definitions and examples if we are to correctly distinguish between roles, functions, and dispositions.
 ********* ''Answer'' ('''MS''' - ''July 17, 2007 6:55:05 PM EDT''): Yes
 ** ''Proposal'': These immediate bfo subclasses of '''bfo:realizable_entity''' should not be used and should ideally be removed from BFO.
+* '''BS''' - ''July 19, 2007 9:08:46 AM EDT''
+** I am assuming to do justice to '''go:molecular_function''' - and to '''oci:subject_of_study''' - type terms we need to distinguish at least between '''function'''s and '''role'''s. '''Function'''s rest on the underlying non-dispositional physico-chemistry of the bearer; in an observational study (e.g.) being a subject is the product of what philosophers call a ''Cambridge change'' - which means it is a product of a change in some other object (compare: becoming a father).
+** Hence we need functions, which are of course a sub-class of dispositions, and roles, which are not.
 
 ===Improve defintions and examples to better distinguish bfo:disposition, bfo:function, and bfo:role===
 * '''WK''' - ''July 16, 2007 7:01:13 AM EDT''
@@ -168,6 +171,3 @@ __TOC__
 ******* ''Question'': Should BFO bow before creatures (like me) who have no idea about philosophy and do not really know the existing work in that field, and yet demand (not like me) BFO include such useful universals as '''disposition'''? ('''WK''' - ''July 19, 2007 4:53:04 AM EDT'')
 **** As Robert remarks, ''beneficial'' and ''socially assigned'' are not particularly precise expressions.
 **** Furthermore, I see there would be multiple inheritance:  there can be '''disposition'''s both beneficial to the bearer, socially assigned, and giving rise to the release of energy and have a statistically determinate likelihood of being realized -- right?  Aren't those categories ('''role''', '''function''', etc.) supposed to be disjoint?  Or in cases '''disposition''' fits into each set, would one have a separate instance of each category -- to keep them disjoint?  e.g., a natural transplanted heart would have the '''function''' to pump blood and, separately, the '''role''' to pump blood, and the''' power''' to pump blood, and a '''propensity''' to pump blood...?
-* '''BS''' - ''July 19, 2007 9:08:46 AM EDT''
-** I am assuming to do justice to '''go:molecular_function''' - and to '''oci:subject_of_study''' - type terms we need to distinguish at least between '''function'''s and '''role'''s. '''Function'''s rest on the underlying non-dispositional physico-chemistry of the bearer; in an observational study (e.g.) being a subject is the product of what philosophers call a ''Cambridge change'' - which means it is a product of a change in some other object (compare: becoming a father).
-** Hence we need functions, which are of course a sub-class of dispositions, and roles, which are not.
