@@ -100,7 +100,7 @@ __TOC__
 ** '''BB''' - ''July 24, 2007 2:08 PM EDT''
 *** How would these suggestions be implemented in OWL?  My very quick first take would be (someone PLEASE provide a better proposal than this):
 ***# dependent_continuant
-***#* ==> disappears (i.e.., is equivalent to ObjectProperty)
+***#* ==> disappears (i.e.., is equivalent to ObjectProperty)	[this can't be right]
 ***# realizable_entity			
 ***#* ==> disposition_property - a type of ObjectProperty
 ***#** ''domain'': independent_continuant
