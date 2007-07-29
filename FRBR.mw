@@ -1,0 +1,22 @@
+This page is to discuss the possibility of using aspects of the [http://www.frbr.org/ FRBR] (Functional Requirements for Bibliographic Records) analysis for OBI/[http://www.frbr.org/ SWAN]'s representation of documents/publications. It grows out discussions with the SWAN team and the observation that aspects of their plan to represent the narrative of scientific papers and citations overlapped with parts of the digital entities plus branch.
+
+The backbone of the FRBR model are the four types Work, Expression, Manifestation, Item. In the sections below the definitions are taken from the [http://www.ifla.org/VII/s13/frbr/frbr.pdf FRBR Final Report]
+
+== work ==
+'''A distinct intellectual or artistic creation.'''
+
+''A work is an abstract entity; there is no single material object one can point to as the work.  We recognize the work through individual realizations or expressions of  the work, but the work itself exists only in the commonality of content between and among the various expressions of the work.  When we speak of Homer’s Iliad as a work, our point of reference is not a particular recitation or text of the work, but the intellectual creation that lies behind all the various expressions of the work.''
+
+== Expression ==
+'''The intellectual or artistic realization of a work in the form of alpha-numeric, musical, or choreographic notation, sound, image, object, movement, etc., or any combination of such forms.'''
+
+''An expression is the specific intellectual or artistic form that a work takes each time it is “realized.” Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular notes, phrasing, etc. resulting from the realization of a musical work.  The boundaries of the entity expression are defined, however, so as to exclude aspects of physical form, such as typeface and page layout, that are not integral to the intellectual or artistic realization of the work as such. ''
+
+''Inasmuch as the form of expression is an inherent characteristic of the expression, any change in form (e.g., from alpha-numeric notation to spoken word) results in a new expression. Similarly, changes in the intellectual conventions or instruments that are employed to express a work (e.g., translation from one language to another) result in the production of a new expression.  Strictly speaking, any change in intellectual or artistic content constitutes a change in expression.  Thus, if a text is revised or modified, the resulting expression is considered to be a new expression, no matter how minor the modification may be. ''
+
+
+
+
+ * [http://www.frbr.org/files/denton-frbr-talk-slides.pdf Presentation]
+ * [http://vocab.org/frbr/core rdf vocabulary]
+ * [http://en.wikipedia.org/wiki/Metonymy Metonymy wiki page] - There are at least two sense of the word "Journal"
