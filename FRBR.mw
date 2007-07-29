@@ -2,7 +2,7 @@ This page is to discuss the possibility of using aspects of the [http://www.frbr
 
 The backbone of the FRBR model are the four types Work, Expression, Manifestation, Item. In the sections below the definitions are taken from the [http://www.ifla.org/VII/s13/frbr/frbr.pdf FRBR Final Report]
 
-== work ==
+== Work ==
 '''A distinct intellectual or artistic creation.'''
 
 ''A work is an abstract entity; there is no single material object one can point to as the work.  We recognize the work through individual realizations or expressions of  the work, but the work itself exists only in the commonality of content between and among the various expressions of the work.  When we speak of Homer’s Iliad as a work, our point of reference is not a particular recitation or text of the work, but the intellectual creation that lies behind all the various expressions of the work.''
@@ -14,9 +14,24 @@ The backbone of the FRBR model are the four types Work, Expression, Manifestatio
 
 ''Inasmuch as the form of expression is an inherent characteristic of the expression, any change in form (e.g., from alpha-numeric notation to spoken word) results in a new expression. Similarly, changes in the intellectual conventions or instruments that are employed to express a work (e.g., translation from one language to another) result in the production of a new expression.  Strictly speaking, any change in intellectual or artistic content constitutes a change in expression.  Thus, if a text is revised or modified, the resulting expression is considered to be a new expression, no matter how minor the modification may be. ''
 
+== Manifestation ==
 
+'''The physical embodiment of an expression of a work.''' 
 
+''The entity defined as manifestation encompasses a wide range of materials, including manuscripts, books, periodicals, maps, posters, sound recordings, films, video recordings, CD-ROMs, multimedia kits, etc.  As an entity, manifestation represents all the physical objects that bear the same characteristics, in respect to both intellectual content and physical form.''
 
- * [http://www.frbr.org/files/denton-frbr-talk-slides.pdf Presentation]
- * [http://vocab.org/frbr/core rdf vocabulary]
+''When a work is realized, the resulting expression of the work may be physically embodied on or in a medium such as paper, audio tape, video tape, canvas, plaster, etc.  That physical embodiment constitutes a manifestation of the work.  In some cases there may be only a single physical exemplar produced of that manifestatio of the work (e.g., an author’s manuscript, a tape recorded for an oral history archive, an original oil painting, etc.).  In other cases there are multiple copies produced in order to facilitate public dissemination or distribution.  In those cases there is normally a more formal production process involved, and a publisher, producer, or distributor takes responsibility for the process.  In other cases there may be only a limited number of copies made of an original exemplar for purposes such as private study (e.g., a dubbing of an original recording of a piece of music), or preservation (e.g., a photocopy produced on permanent paper of an author’s original typescript).  Whether the scope of production is broad (e.g., in the case of publication, etc.) or limited (e.g., in the case of copies made for private study, etc.), the set of copies produced in each case constitutes a manifestation. All copies produced that form part of the same set are considered to be copies of the same manifestation. ''
+
+== Item ==
+'''A single exemplar of a manifestation.'''
+ 
+''The entity defined as item is a concrete entity.  It is in many instances a single physical object (e.g., a copy of a one-volume monograph, a single audio cassette, etc.).  There are instances, however, where the entity defined as item comprises more than one physical object (e.g., a monograph issued as two separately bound volumes, a recording issued on three separate compact discs, etc.). ''
+
+''In terms of intellectual content and physical form, an item exemplifying a manifestation is normally the same as the manifestation itself.  However, variations may occur from one item to another, even when the items exemplify the same manifestation, where those variations are the result of actions external to the 
+intent of the producer of the manifestation (e.g., damage occurring after the item was produced, binding performed by a library, etc.). ''
+
+== Links ==
+
+ * [http://www.frbr.org/files/denton-frbr-talk-slides.pdf FRBR Presentation]
+ * [http://vocab.org/frbr/core FRBR RDF vocabulary]
  * [http://en.wikipedia.org/wiki/Metonymy Metonymy wiki page] - There are at least two sense of the word "Journal"
