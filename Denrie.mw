@@ -47,7 +47,20 @@ The ontology NCBCs are developing for this purpose is indirectly linked to the e
 	http://www.berkeleybop.org/sowg/table.cgi
 	http://www.na-mic.org/Wiki/index.php/PrelimResultsSOWG1
 </pre>
+** Bill Bug also wrote on July 27, 2007 to the OBI-developers list:
+<pre>
+I've also been meaning to bring up the issue of what they've been trying to do on this front in the BioMOBY project (something I assume has come up before in the context of MGED work):
+	listings:
+		objects
+			http://mobycentral.icapture.ubc.ca:8090/sswap/RESOURCES/MOBY-S/Objects/listing.html
+		namespaces
+			http://mobycentral.icapture.ubc.ca:8090/sswap/RESOURCES/MOBY-S/Namespaces/listing.html
 
+	ontology (viewable in SWOOP):
+		http://biomoby.org/RESOURCES/MOBY-S/Objects
+
+I think there are pros & cons to the way they are currently proceeding, but its clear many of their objects are certainly entities we want to cover in this branch of OBI.
+</pre>
 == Mailing list==
 For latest news and updates on the Digital Entity and Non-realizable Information Entity Branch sign up at the mailing list at obi-datatrfm-branch@lists.sourceforge.net [[ https://lists.sourceforge.net/lists/listinfo/obi-denrie-branch|website can be found here |]]
 
