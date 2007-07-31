@@ -1,16 +1,17 @@
 ====Summary of the Instrument Branch Conference Calls====
 *31. July 07:
 *Agenda:
-    * Checkout latest OBI-svn with all the latest changes
-    * Hear about outcome of 'artifact' / 'biomaterial' discussion on obi-dev list
-    * Go over the file and resolve problems with classes marked with "?"
-    * Check if all classes comply with naming conventions
-    * Discuss next steps, e.g.
-          o refining top level,
-          o adding metadata,
-          o how and where to get more terms,
-          o how to encourage people to participate
 
+**Checkout latest OBI-svn with all the latest changes
+**Hear about outcome of 'artifact' / 'biomaterial' discussion on obi-dev list
+**Go over the file and resolve problems with classes marked with "?"
+**Check if all classes comply with naming conventions
+**Discuss next steps, e.g.
+***refining top level,
+***adding metadata,
+***how and where to get more terms,
+***how to encourage people to participate
+**[[InstrumentMinutes31July2007|Minutes]]
 
 
 
