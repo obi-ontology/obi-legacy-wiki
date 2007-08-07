@@ -2,7 +2,8 @@
 *7. August 07:
 *Agenda:
 
-**Checkout latest OBI-svn with all the latest changes
+**Checkout latest OBI-svn with all the latest changes (BFO1.0 to 1.1 update) 
+***(http://www.berkeleybop.org/ontologies/owl/ro_bfo_bridge/1.1 is not resolvable, but seems not to matter so far)
 **Hear about outcome of 'artifact' / 'biomaterial' discussion on obi-dev list
 **Go over the file and resolve problems with classes marked with "?"
 **Check if all classes comply with naming conventions
