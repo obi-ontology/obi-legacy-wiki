@@ -36,6 +36,7 @@ Current action items outstanding:
 ** Chris S. attempt [[Image:digital entity-cs.xls]]
 *Review Software Ontology
 ** Bill Bug wrote on July 10, 2007 to the OBI-developers list:
+
 <pre>
 Here's the currently published version of the NCBC-wide Software/Resource Ontology:
 	http://bioontology.org/projects/ontologies/SoftwareOntology/
@@ -46,7 +47,6 @@ This is an ongoing project to provide a shared semantic framework & lexicon for 
 The ontology NCBCs are developing for this purpose is indirectly linked to the effort across NCBCs to come to an agreement as to what ontologies/terminologies/classification schemes NCBC's collectively agree to use to cover their annotation requirements:
 	http://www.berkeleybop.org/sowg/table.cgi
 	http://www.na-mic.org/Wiki/index.php/PrelimResultsSOWG1
-
 </pre>
 ** Bill Bug also wrote on July 27, 2007 to the OBI-developers list:
 <pre>
@@ -63,7 +63,7 @@ I've also been meaning to bring up the issue of what they've been trying to do o
 I think there are pros & cons to the way they are currently proceeding, but its clear many of their objects are certainly entities we want to cover in this branch of OBI.
 </pre>
 == Mailing list==
-For latest news and updates on the Digital Entity and Non-realizable Information Entity Branch sign up at the mailing list at obi-datatrfm-branch@lists.sourceforge.net [[ https://lists.sourceforge.net/lists/listinfo/obi-denrie-branch|website can be found here |]]
+For the latest news and updates on the Digital Entity and Non-realizable Information Entity Branch sign-up at the mailing list at [https://lists.sourceforge.net/lists/listinfo/obi-denrie-branch  DENRIE Mailing List]
 
 == Editors==
 Editors for the Digital Entity and Non-realizable Information Entity branch are as follows:
