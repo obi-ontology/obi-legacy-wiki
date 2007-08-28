@@ -31,12 +31,12 @@ List of Digital Entity and Non-realizable Information Entity Terms from Communit
 
 == Current outstanding issues==
 Current action items outstanding:
-
+* Discuss presentation by Barry Smith provided by Alan Ruttenberg
+** http://mumble.net/~alanr/Partitions_quantities_BuffaloNov06.ppt
 *Identify terms that need to be submitted to other branches
 ** Chris S. attempt [[Image:digital entity-cs.xls]]
 *Review Software Ontology
 ** Bill Bug wrote on July 10, 2007 to the OBI-developers list:
-
 <pre>
 Here's the currently published version of the NCBC-wide Software/Resource Ontology:
 	http://bioontology.org/projects/ontologies/SoftwareOntology/
@@ -47,6 +47,7 @@ This is an ongoing project to provide a shared semantic framework & lexicon for 
 The ontology NCBCs are developing for this purpose is indirectly linked to the effort across NCBCs to come to an agreement as to what ontologies/terminologies/classification schemes NCBC's collectively agree to use to cover their annotation requirements:
 	http://www.berkeleybop.org/sowg/table.cgi
 	http://www.na-mic.org/Wiki/index.php/PrelimResultsSOWG1
+
 </pre>
 ** Bill Bug also wrote on July 27, 2007 to the OBI-developers list:
 <pre>
