@@ -19,6 +19,9 @@ This OBI branch deals with terms related to biomaterials. Read our [http://www.e
 == Original list of terms - as provided by each community ==
 (''Dear editors, add here the link to the file with your list of terms here'')
 
+===Protocol Application Branch===
+[https://wiki.cbil.upenn.edu/obiwiki/images/2/29/Protocol_App_to_Biomaterialt2.txt Redirected Terms, which were bounced from the protocol application branch].  
+
 ===MO===
 [http://www.ebi.ac.uk/~parkinso/biomaterialterms_mo_plus_bacterial_obi_format.xls MO Transcriptomic Terms plus immuno plus Tox terms]
 * merged the other lists and reformatted for the conf call
