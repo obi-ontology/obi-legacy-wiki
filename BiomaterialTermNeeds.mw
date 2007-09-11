@@ -16,46 +16,46 @@ This OBI branch deals with terms related to biomaterials. Read our [http://www.e
 
 <br>
 
-== Original list of terms - as provided by each community ==
-(''Dear editors, add here the link to the file with your list of terms here'')
+== List of terms submitted to the Biomaterial branch ==
+=== First round (April 07) ===
 
-===Protocol Application Branch===
+====Protocol Application Branch====
 [https://wiki.cbil.upenn.edu/obiwiki/images/2/29/Protocol_App_to_Biomaterialt2.txt Redirected Terms, which were bounced from the protocol application branch].  
 
-===MO===
+====MO====
 [http://www.ebi.ac.uk/~parkinso/biomaterialterms_mo_plus_bacterial_obi_format.xls MO Transcriptomic Terms plus immuno plus Tox terms]
 * merged the other lists and reformatted for the conf call
 contains current MO ~BioMaterial '''and now terms for sequences on arrays''' terms with definitions and mappings to PATO.
 Thanks to PATO (Chris M., Michael A, and George G) for the comments on the MO-PATO mappings. Terms have been added from BUG@S Bacterial array database (thanks to Adam Witney) and ~ArrayExpress. Excel file Extra columns are present in the xls file are: PATO id, PATO term, comment.
 
-===Immune Epitope===
+====Immune Epitope====
 [[ http://www.ebi.ac.uk/~sansone/FuGO/Submissionterms-Biomaterial.txt| Immuno BioMaterial terms]]
 
-===Env===
+====Env====
 [[ http://www.ebi.ac.uk/~sansone/FuGO/environmental biomaterial terms.xls| MIGS/MIMS/ICOMM BioMaterial terms ]]
 
-===Tox===
+====Tox====
 Upload:Additional_terms-trxomics.xls
 
-===Proteomics===
+====Proteomics====
 [[ http://www.ebi.ac.uk/~sansone/FuGO/PSI-biomaterial-branch.xls|PSI BioMaterial terms ]]
 
 Copied by HP from call notes 27 Feb link to prexisting lists for PSI*
 - Proteomics/PSI sample terms are posted under [[ http://obo.sourceforge.net/cgi-bin/table.cgi|OBO ]] see MI, MOD, IPR, SEP<br>
 
-===Polymorphism Community===
+====Polymorphism Community====
 -[https://www.cbil.upenn.edu/fugowiki/uploads/terms_Mar07.xls terms]<br>
 
-===Cellular Assay Community (MIACA)===
+====Cellular Assay Community (MIACA)====
 [http://www.smp-cell.org/Files/MIACA_Biomaterials.xls terms as Excel list]<br>
 [http://www.smp-cell.org/Files/MIACA_Biomaterials.doc and as word file], terms not related to biomaterials in grey. We are not totally sure where Materials start to be not <Bio> any more.<br><br>
 [http://www.smp-cell.org/Files/Media''Perturbators.xls Examples of Media and supplements, and of perturbator''types] This is in response to the conference call on Mar 23<br>
 
-===Flow Cytometry===
+====Flow Cytometry====
 Tab delimited file with terms from flow cytometry
 Upload:Biomaterial-FlowCytometry-2007-03-30.txt
 
-===ExperiementDesign===
+====ExperiementDesign====
 * Tab delimited file with terms provided by Kevin Clancy:
 Upload:clancy-exp-protocol.xls
 
