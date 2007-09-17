@@ -25,6 +25,8 @@ This page is a draft of those policies.
 
 * It is an open question as to under what situations, if any,  we should ''assert''  that some class is a subclass of  a defined class. Intuitively it would seem that universals should not be subclasses of defined classes.
 
+* A defined class should not be asserted to be disjoint from another. If they are disjoint from other classes it should be as a consequence of their definition.
+
 Questions: 
 * Should we have separate files for defined classes?
 * Should we accomodate Protege's UI and create junk classes so that defined classes can be put in a "folder".
