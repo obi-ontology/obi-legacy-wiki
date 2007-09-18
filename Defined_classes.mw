@@ -3,19 +3,23 @@ At the 2007 summer workshop it was decided to allow defined classes in OBI, for 
 # To allow the definitions of terms that were in use by the community but were not "universals" as determined by the group.
 # To facilitate organization of OBI as a single asserted hierarchy while allowing for polyhierarchy where appropriate.
 
-The first case is the stronger. The second needs further justification in the form of plausible use cases and should be reviewed one we have some.
+The first case is the stronger. The second (need for polyhierarchy) needs further justification in the form of plausible use cases and should be reviewed once we have some.
 
 An action item was to come up with a mechanism of handling these defined classes in day to day development of the ontology - where to put them, how to mark them, what are policies related to them?
 
-This page is a draft of those policies.
+This page is a draft for discussion.
 
-* All defined classes are classes have necessary and sufficient conditions - In an OWL file, this means that they are "complete" or are are defined by an equivalentClasses statement. 
+'''Defined class policy'''
 
-* It is uncertain whether the converse is true, that all classes with neccessary and sufficient conditions are are defined classes. Therefore defined classes should be marked as such. Absent a way to create a metaclass in OWL, we will used an annotation property: obi:defined_class asserted on defined classes. The value of this property will be the reason that the class was created as a defined class. Two values are currently proposed: "normalization", to indicate that the classes was defined for reason 2 above, and "requested_term" to indicated reason 1 above. Additional comments regarding the choice to use a defined class should be placed in the editor note. All other metadata for a class is relevent for defined classes.
+'''Definition''': By "defined class", here, we mean a class that is a) Not a universal in the BFO sense and b) defined in the sense described in the first point, below. See [http://sourceforge.net/mailarchive/message.php?msg_name=c1a7d8fd0709170113o767370d6ldc191df29a3694e%40mail.gmail.com discussion by Pierre] for elaboration of this point.
+
+* All defined classes are classes which have necessary and sufficient conditions - In an OWL file, this means that they are "complete" or are defined by an equivalentClasses statement. 
+
+* It is uncertain whether the converse is true, that all classes with neccessary and sufficient conditions are defined classes. Therefore defined classes should be marked as such. Absent a way to create a metaclass in OWL, we will use an annotation property: obi:class_type asserted on defined classes  with values: possible values: "defined_term" "defined_for_normalization", or "universal" to indicate the two choices above, or the usual case. To avoid having people to remember to add class_type:universal in the common case we will have a script add this property to all classes that don't already have a class_type property value. Additional comments regarding the choice to use a defined class should be placed in the editor note. All other metadata for a class is relevent for defined classes.
 
 * The definition of a defined classes does not necessarily follow the usual Aristotelian definition form, but should when appropriate. The definition should indicate that the class is defined. Proposal: wording such as "Individuals in the class foo are defined to be ...". 
 
-* All defined classes have logical definitions.
+* All defined classes have logical definitions. (Pierre notes issue with defined classes that it might be hard to write logical definitions. To be resolved, see email thread)
 
 * Any class that is not a defined class is intended to be a universal.
 
@@ -27,12 +31,16 @@ This page is a draft of those policies.
 
 * A defined class should not be asserted to be disjoint from another. If they are disjoint from other classes it should be as a consequence of their definition.
 
-Questions: 
+'''Questions: '''
 * Should we have separate files for defined classes?
-* Should we accomodate Protege's UI and create junk classes so that defined classes can be put in a "folder".
+  Bjoern: No, Pierre: Yes, Alan: prefer separate, but [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000260.html protege makes us pay too much for extra files], so maybe no.
+* Should we accommodate Protege's UI and create junk classes so that defined classes can be put in a "folder".
+  Barry: No, Bjoern: Yes, Pierre: Dunno Alan: Prefer no, and would instead like [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000228.html tool support] 
 * Are there motivations for defined classes other than the two listed?
-* In order that we are conformant to open world semantics, should we script the addition of an annotation property to indicate a class is a universal? An alternative to the  defined_class property would be to use, instead, a "class_type" property, with values: "defined_term" "defined_for_normalization", "universal" to indicate the three choices.
+
+'''Email discussion thread''': [http://sourceforge.net/mailarchive/forum.php?thread_name=3B2BAA05-DE48-4F65-A850-0BBA8C776BBC%40gmail.com&forum_name=obi-devel 1] [http://sourceforge.net/mailarchive/forum.php?thread_name=024f01c7f94c%2424c24290%241d0c000a%40ad.liai.org&forum_name=obi-devel 2] [http://sourceforge.net/mailarchive/forum.php?thread_name=CCDF427D-3F95-49F2-873A-D6522C6129A5%40gmail.com&forum_name=obi-devel 3] [http://sourceforge.net/mailarchive/forum.php?thread_name=70525BF3-4460-4D52-BA76-04EC8FC3CB86%40gmail.com&forum_name=obi-devel 4]
 
 TBD: Examples.
 
-Author: Alan Ruttenberg
+Author: Alan Ruttenberg. 
+Comments, thanks: Barry Smith, Pierre Grenon, Bjoern Peters
