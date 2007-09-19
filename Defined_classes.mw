@@ -34,8 +34,12 @@ This page is a draft for discussion.
 '''Questions: '''
 * Should we have separate files for defined classes?
   Bjoern: No, Pierre: Yes, Alan: prefer separate, but [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000260.html protege makes us pay too much for extra files], so maybe no.
+
 * Should we accommodate Protege's UI and create junk classes so that defined classes can be put in a "folder".
   Barry: No, Bjoern: Yes, Pierre: Dunno Alan: Prefer no, and would instead like [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000228.html tool support] 
+
+ Resolution: junk classes directly below owl:thing, one per branch. Home file for each of these classes is the branch file.
+
 * Are there motivations for defined classes other than the two listed?
 
 '''Email discussion thread''': [http://sourceforge.net/mailarchive/forum.php?thread_name=3B2BAA05-DE48-4F65-A850-0BBA8C776BBC%40gmail.com&forum_name=obi-devel 1] [http://sourceforge.net/mailarchive/forum.php?thread_name=024f01c7f94c%2424c24290%241d0c000a%40ad.liai.org&forum_name=obi-devel 2] [http://sourceforge.net/mailarchive/forum.php?thread_name=CCDF427D-3F95-49F2-873A-D6522C6129A5%40gmail.com&forum_name=obi-devel 3] [http://sourceforge.net/mailarchive/forum.php?thread_name=70525BF3-4460-4D52-BA76-04EC8FC3CB86%40gmail.com&forum_name=obi-devel 4]
