@@ -1,5 +1,20 @@
 ====Summary of the Instrument Branch Conference Calls====
 
+*25. September 07:
+*Agenda:
+** Discuss handling of our required relations in relations branch (we have to respond to the relations branch with our comments):
+*** instrument "executes" process & assay: already there as "is_instrument_for"
+*** has_manufacturer was changed to alternate term "is_manufactured_by", which is now in obi trunk
+*** has_make is the same as is_manufactured_by organization or person
+** Add new terms submitted from PA branch:
+***'''electrophoresis box:'''a specifically configured apparatus used in protocol applicatyions to seperate charged molecules in an electric field across a porous matrix or medium. Example:CHEF gel box, slab gel box, capillary electrophoresis
+***'''power pack:''' a specifically configured apparatus permitting the defined application of an electrical charge to an electrophoresis apparatus for a protocol application involving electrophoresis. The power pack may permit the defined application of a given amount of current for a defined length of time, Example:	Power pack, CHEF gel box
+***'''fluorometer:	''' an instrument for the detection and measurement of fluoresence, Example: laser/detector in capillary electrophoresis apparatus, NanoDrop ND-3300
+** Discuss and refine cardinal part of instruments hierarchy
+** Discuss next steps and deadlines
+**[[InstrumentMinutes25September2007|Minutes]]
+
+
 *4. September 07:
 *Agenda:
 
