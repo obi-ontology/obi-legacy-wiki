@@ -1,4 +1,3 @@
-
 ==Metadata annotation for representational units and artifacts - the pragmatic approach -
 ==
 
@@ -51,8 +50,7 @@ To show how a practical usage of the annotation properties looks like in an owl 
 
 <owl:Class rdf:ID="NMR_400062">
     <rumeta:'''synonym''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >machine configuration
-instrument setting</rumeta:synonym>
+    >machine configuration, instrument setting</rumeta:synonym>
     <rdfs:subClassOf rdf:resource="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
     <rumeta:'''editor''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Daniel Schober</rumeta:editor>
