@@ -23,7 +23,7 @@ https://wiki.cbil.upenn.edu/obiwiki/index.php/Special:Upload
 ** Upload:Instrumentation-FlowCytometry-2007-04-03.xls
 * MSI-NMR available in owl, will be integrated into instrument.owl file when ready.
 * sepCV - will be integrated into instrument.owl file when ready.
-* MSI-Chromatography CV - will be integrated into instrument.owl file when ready (via SepCV).
+* MSI-Chromatography CV - will be integrated into instrument.owl file when ready.
 * PSI-MS (Mass spec) - initial list at ''' Upload:PSI''MS-InstrumentTermsForOBI''29Mar2007.xls
 * Transcriptomics - *DONE* Upload:InstrumentTerms-MO-29Mar2007_updated.xls
 * MIACA - [[|http://www.smp-cell.org/Files/terms.doc an Excel list of terms||http://www.smp-cell.org/Files/MIACA_Ontologies032007.xls]], [[and a Word list of terms]]
