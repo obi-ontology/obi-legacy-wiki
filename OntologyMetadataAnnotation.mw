@@ -56,7 +56,7 @@ To show how a practical usage of the annotation properties looks like in an owl 
     >Move to OBI.</rumeta:action_item>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >An instrument configuration is the process of setting the possible parameters of an instrument in order to archive a certain intended goal.</rdfs:comment>
-    <rumeta:'''pref''cls''name''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    <rumeta:'''pref_cls_name''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >instrument configuration</rumeta:pref''cls''name>
     <rumeta:'''alt_def''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >An instrument configuration is the process of setting the possible parameters of an instrument in order to archive a certain intended goal.</rumeta:alt_def>
