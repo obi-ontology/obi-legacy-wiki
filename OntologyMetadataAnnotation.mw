@@ -34,7 +34,7 @@ These implementations were build in a manner to be modular (import RU and RA met
 
 RU''metadata.owl also provides some residual categories ( administrative helper-classes e.g. ''deleted, ''inclusion''list and ''temp''orphan) which can help administering classes, e.g. the ''deleted class can substitute the current '''deleted_classes' in OBI. Such 'administrative only' classes should be separated from the domain ontology and are hence better placed in an imported metadata ontology. The underscore prefix indicates that these classes are residual categories and not 'proper' ontological classes.
 
-=== Usage of these ontologies
+=== Usage of these ontologies ===
 
 Import these two ontologies into the ontology you want to annotate: Use the owl:imports statements to load them over the web from these URLs:
 
