@@ -44,7 +44,6 @@ https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RU_metadata.owl
 
 === Example annotation of a class "instrument''configuration" with RU''metadata elements ===
 
-===
 To show how a practical usage of the annotation properties looks like in an owl file, the owl code for the class "instrument_configuration" from the NMR.owl ontology is shown here:
 
 
