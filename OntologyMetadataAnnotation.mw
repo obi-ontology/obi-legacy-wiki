@@ -16,7 +16,7 @@ This (format independent) recommendation together with cardinalities and additio
 ===Implementation in owl
 ===
 An implementation of these msi recommendations as simple non-hierarchical owl annotation properties has been created and is currently used by the msi ontologies. However this implementation does not provide the ability to 'annotate on annotations' in a formal way.
-The metadata annotation elements (owl annotation properties) are provided in two separate owl files:
+The metadata annotation elements (owl annotation properties) are provided in two separate owl files and can be imported  when needed:
 
 ''' '''RA_metadata.owl'''   to annotate '''Representational Artifacts (RA, such as whole ontologies)*
 
@@ -44,6 +44,7 @@ https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RA_metadata.owl
 https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RU_metadata.owl
 
 === Example annotation of a class "instrument''configuration" with RU''metadata elements
+
 ===
 To show how a practical usage of the annotation properties looks like in an owl file, the owl code for the class "instrument_configuration" from the NMR.owl ontology is shown here:
 
