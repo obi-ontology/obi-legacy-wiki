@@ -15,7 +15,7 @@ This (format independent) recommendation together with cardinalities and additio
 
 ===Implementation in owl
 ===
-An initial implementation of these msi recommendations as simple non-hierarchical owl annotation properties has been created and is currently used by the msi ontologies. This implementation does not provide the ability to annotate on annotations.
+An implementation of these msi recommendations as simple non-hierarchical owl annotation properties has been created and is currently used by the msi ontologies. However this implementation does not provide the ability to 'annotate on annotations' in a formal way.
 The metadata annotation elements (owl annotation properties) are provided in two separate owl files:
 
 ''' '''RA_metadata.owl'''   to annotate '''Representational Artifacts (RA, such as whole ontologies)*
