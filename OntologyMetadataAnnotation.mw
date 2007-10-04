@@ -47,8 +47,7 @@ https://svn.sourceforge.net/svnroot/msi-workgroups/ontology/RU_metadata.owl
 To show how a practical usage of the annotation properties looks like in an owl file, the owl code for the class "instrument_configuration" from the NMR.owl ontology is shown here:
 
 
-<owl:Class rdf:ID="NMR_400062">
-    <rumeta:'''synonym''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+<owl:Class rdf:ID="NMR_400062"><rumeta:'''synonym''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >machine configuration, instrument setting</rumeta:synonym>
     <rdfs:subClassOf rdf:resource="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
     <rumeta:'''editor''' rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
