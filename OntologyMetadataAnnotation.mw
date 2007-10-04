@@ -5,15 +5,15 @@
 
 <br>
 
-===Format independent specification document
-===
+===Format independent specification document===
 A metadata recommendation is being developed by the Ontology Working Group of the Metabolomics Standards Society. This general recommendation and its documentation can be downloaded from http://msi-ontology.sourceforge.net/recommendations/
 
 The latest version is called '''Meta''Annot''v2.doc'''.
 
 This (format independent) recommendation together with cardinalities and additional data (like a mapping table to corresponding NCIT and birnlex properties) can be found in the Chapter 7.2.5 called "Proposed format independent metadata recommendation".
 
-===Implementation in owl
+===Implementation in owl===
+
 ===
 An implementation of these msi recommendations as simple non-hierarchical owl annotation properties has been created and is currently used by the msi ontologies. However this implementation does not provide the ability to 'annotate on annotations' in a formal way.
 The metadata annotation elements (owl annotation properties) are provided in two separate owl files and can be imported  when needed:
