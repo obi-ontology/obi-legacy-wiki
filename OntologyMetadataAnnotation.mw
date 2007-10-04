@@ -28,7 +28,7 @@ and
 
 '''RU_metadata.owl''' formalizes recommendations for annotation properties to '''describe the constitual parts''' (representational units or 'KR idioms') of the ontology. They should be sufficiently rich to aid the main domain independent ontology engineering and administration processes. These metadata elements provide tractable search tags to query for administrative and editorial metadata on classes and properties.
 
-===Implementation principles
+===Implementation principles===
 
 ===
 These implementations were build in a manner to be modular (import RU and RA metadata separately) and simple to use. This is a lightweight set of metadata descriptors for people that feel the need for a more ontology-centric coverage, compared to the dublin core or skos. The Annotation property names were choosen to be maximally intuitive to a majority of developers and yet as short as possible. No use of property hierarchies was made so far, but can be added easily. Besides the dublin core, some of the more domain independent NCIT and birnlex metadata elements were also evaluated to build this RU metadata recommendation.
