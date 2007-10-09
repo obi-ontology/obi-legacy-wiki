@@ -1,5 +1,20 @@
 ====Summary of the Instrument Branch Conference Calls====
 
+*9. October 07:
+*Agenda:
+** Enable Melanie to modify and save the changes in the 
+svn Instruments branch.owl file.
+
+*Discuss the latest relations branch developments with respect to 
+instrument relations, i.e. from last Fridays relations 
+call notes: "We discussed the issue of how to relate the operator of an instrument
+to the instrument. We discussed the possibility that it would be
+something like a process in which the operator had an "operator role"
+and the instrument the "operated role". Still it seems this may not
+be enough. Action: Alan to write up "String Quartet" example and send
+to obo-relations list."
+
+**[[InstrumentMinutes9October2007|Minutes]]
 
 *2. October 07:
 *Agenda:
