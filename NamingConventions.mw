@@ -14,25 +14,3 @@ Ultimately we hope that in its final form these naming conventions will be widel
 Initial recommendations and best practices have been published in the conference proceedings http://bio-ontologies.org.uk/download/Bio-Ontologies2007.pdf and on the website of the Bio-Ontology SIG at ISMB 2007. 
 
   * Comments or questions on naming issues should be sent to schober [[at]] ebi.ac.uk directly or to the OBI developers mailing lists.
-
-
-'''Current Policy of using a formal numeric identifier for the value of the rdf:ID field'''
-
-(naming differences, eg. spaces vs. underscores, can be dealt with by terms having the same rdf:ID)
-
-  * There has been discussion as to the user-friendly nature of a numeric term identifer in the rdf:ID field of the OWL file. Here we list the known advantages and disadvantages of this development policy.
-
-    * Advantages
-      # This provides an identifier for the node that is immutable.  The identifier is stable and therefore typos in term name do not affect the identity of the node and this kind of changes can be made without deprecating the node/term.
-
-    * Disadvantages
-      # Need to set-up Protege properly to be able to view the string label (currently captured through rdfs:label) for the classes
-      # Inhomogenous overall appearence when importing other ontologies that do not follow this policy under certain circumstances (However you can select which property you want to use as display or browser key,e.g. a property that contains the prefered name, then the display looks homogeneous again, DS)).
-      # Other applications (e.g. ontology editors, ontology browsers, annotation applications, database representations) might still  not have the ability to use the rdfs:label to label the node (I think all rdf/owl enabled tools will have this ability, but not all might allod to specify a browser key, DS).
-      # When one uses an imported class form another ontology and this was deleted in that ontology you have no way to figure out what the class name of that class actually is, because you only have the ID left in your owl file in the owl:import statement (When th eimported ontology follows the recommendation not to delete classes, but rather label them 'obsolete' this should not be a problem, DS).
-
-
-On item 2 under Disadvantages, not sure I understand.  Is it a) the ontologies can't be imported, or b) the imported ontologies don't "display" right ? (YEs, it's the latter, DS)  On "a", there is no difficulty in importing ontologies if one of them uses a meaningless identifier as the rdf:ID while the second one uses meaningful strings for it.  Concerning "b", if one of the ontologies relies on the rdfs:label for display while the other one depends on the rdf:ID (or rdf:about, DS) instead, people working in Protege can choose to display rdfs:label and any classes lacking this label will be displayed with their rdf:ID (or rdf:about, DS), so I don't see a problem here either. (correct, DS)  If the issue is importing/displaying outside an owl context (e.g. convert [[FuGO]]'s OWL to OBO and display in OBO-Edit), I imagine the person doing the conversion would take [[FuGO]]'s rdfs:label and use it for the term name.  No?
-(I think its just a display problem. No problems with importing so far, DS).
-
-On item 3 under Disadvantages.  The latest beta of Swoop displays either rdf:ID (or rdf:about, DS) or rdfs:label.  The NCIBrowser web app also uses a "display" property if one is stated in a config file (not OWL, but it's the equivalent in the Ontylog world).  Not sure about others...
