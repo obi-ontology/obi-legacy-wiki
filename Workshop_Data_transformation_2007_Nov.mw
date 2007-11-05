@@ -365,6 +365,52 @@ AA:Ask for OBI meeting discussion on roles.
 
 3. Issues about measurements - needs to be represented in the digital entity. Discussion on what should be done re event in BFO. 
 
+Daniel. NCBO have been contributing to content so far. Descriptions only on tools that have been produced. Why were gene and protein there? OBI like process to clear out stuff. View is to describe sw tools same way as gene ontology is used to annotate a gene. Concern on SW ontology. Started around the same time as OBI. 
+
+use case, a researcher want to find a tool that will help me do a kind of analysis. Tool discover use case. Inputs and outputs, pipelines etc. Collaborative protege, and would edit live. 
+
+Daniel, insrument branch has not yet got SW. Edit access to OBI, and edit two ontologies may not be the best way to go. View generation mechanism for ontologies, e.g. FMA for radlex. this is another use case
+
+Richard - we'd like the sw ontology to be focussed on SW, gene, etc are covered by other ontology development groups. SW is a subset of what's being done. We'd like to have the SW ontology. Daniel wants to cross check the ontologies vs. OBI and harmonise.
+
+SW ont is not an obo foundry.
+
+Next step, feedback on list and say which things are in OBI. 
+No upper level ontology now. not using BFO, 
+Would really help us if you did that. 
+Best way is to have a webex.
+Trying to get a community together for the ontology. 
+Are there use cases, competency - no - but he wants examples. 
+Tools to annotate phrases in databases e.g for NLP - no name, bioportal, web service to mine ontology terms. Reln with phenote - you can extract ontology info, index terms or phrases using ontologies, or describe semantics e.g. of a sentence using ontology terms. Not same as what pato or a curator is doing. 
+
+Discussion:
+RoS. Lot of work on ontologies that describe web services, inputs and outputs, tasks, e.g. DNA sequence, etc. Might be why Daniel has these inputs and outputs, which are covered in OBI, DW is also a DigitalEntity? Don't know if the MyGrid ontology has microarray stuff. 
+
+RiS: confusion between SW ontology and need to annotate SW to be able to annotate it. He's trying to do both of those things. Input file and output files and those files have a syntax, and this might be better in the SW ontology. 
+
+RoS:Group of people in EBI who have funding to build a catalog of bioinformatics web services,  in collab with Manchester. There's some potential overlap. These are also SW components. Asked for an OWL file.
+
+RiS:we could id terms that belong to dt branch and add them to our list if we have them. 
+
+EM:list of SW packages, need to keep in mind that the SW are built to do a lot. E.g. genespring does a lot of stuff, need to figure out what the context is. 
+
+RiS:is a perl script sw?
+
+HP:if it's executable it's SW
+
+TB:there's some stuff that's reusable
+
+
+AA:where there's an overlap with data transformation we'll point it out and interact
+
+
+
+
+
+
+
+
+
 
 
 
