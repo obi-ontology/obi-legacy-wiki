@@ -26,11 +26,11 @@ RS: we thought might be a branch or a parallel development, decided at last work
 1b. Relations branch. 
 CC. started with the relations ontology, idea is that traditionally ontologies were tree structures using is-a, when representing clinical reality need other relation types. Next paper RO2 being drafted, want to build something for OBI needs.
 
-EM:For roles which will have has_the_role of yes?
-CC:yes that's in RO one
-JM:we have not coded any roles in the OWL file
-EM:but we need to do this, we just need the roles
-We check and OBI roles are in there. 
+EM:For roles which will have has_the_role of yes?<br>
+CC:yes that's in RO one<br>
+JM:we have not coded any roles in the OWL file<br>
+EM:but we need to do this, we just need the roles<br>
+We check and OBI roles are in there. <br>
 
 1c. Deriving from BFO - history of this was that it was the best fit even though it's not perfect. 
 Current hierarchy
@@ -56,70 +56,147 @@ for discussion this afternoon.
 3. Reviewing the OWL file for data transformation
 
 EM:MathematicalFunction we have agreed to remove.
+
 JM:we need to consider fundamental maths and stats and where we should stop. It's subjective, if it's basic and is well understood e.g. sine, cosine etc then we will use it anyway.
+
 TB:Philippe wanted to add these e.g. for sine etc, and wanted a placeholder. 
+
 RoS:we need these things, and if there is no other name space.
+
 EM:Not just math function, could there be a primitive class such as sine, cosine that we can then point of these. All current definitions have issues. Could just add the names for now. I would'nt put under our branch and shift them out
+
 TB:Ok but how do I organise it, if it's a MathematicalTransformation I expect to see it under data transformation.
+
 EM:Every def involves terms, not defining all terms, sine and cosine don't need to be defined.
+
 RiS:Add terms need to have defs, but they can be from another source.
+
 EM:I would take these current functions as granted
+
 DS:similar problem with the instrument branch, as where cases are a make and a type no-one needs a definition. We want something usable.
+
 RoS:If have a list of trig functions and someone complains and get them to define it
+
 HP:like the idea of having these terms in the branch. 
+
 TB:what other terms might we need?
+
 EM:P-value is a good example, is a stat term. 
+
 RiS:Arithmetic, geometric, etc
+
 EM:put in one place, and group
+
 RS:BasicMathematicalFunctions?
+
 TB:Suggest that we leave the name as is and revisit if there is a case that breaks the name
+
 EM:at least remove the definitions
+
 DS:OBI now tries to model everything in a granular way, not sure it it's realistic. For OBI we need a policy to get people to do the work and define as a sub ontology, and find some mathematicians. Question should OBO organisation deal with this. 
+
 HP:we need to do the do-able while recognising that there is a problem, a math ontology is needed
+
 EM:Math is an ontology
+
 RiS:not formally represented in this way
+
 EM:agree with Daniel, not realistic to do this in this community, if you really want to have pointers reference them instead of defining.
+
 MC:we need to keep this in our branch, people will not browse by hand, search for terms and if not in dt, if in some primitive branch, would be better to point out to it as a primitive term. 
+
 RS:They are all dt through as well as being functions and so they can live here
 RS:the cosine is not the application of a cosine, and this is about application of cosine here .
 EM:Suggest that we can add _transformation to the terms to make it clear that we are not defining sine but a sine transformation
+
 RobS. What's the implication of adding these terms to dt branch. When I query will I get the wrong answer. If not then there's not a problem.
+
 RiS: The intention is that there can be defs brought in, for these things we don't need definitions.
+
 EM:Don't feel so strongly that keep them here
+
 MC:if you add _transformation then you'll need to define it
+
 EM:COuld be application of a function of type sine, where sine is defined elsewhere
+
 TB:disliked sine_transformation
 RiS: by place in hierarchy then the definition is part by context
+
 CC:question, sine is a class, is there an example of an instance, is it an instance, or is it a class. Maybe these are instances and not have class posn. If do that with these may need to do with all math functions
+
 RiS:Not sure there is an instance of sine, but there is an instance of application of sine
 CC:sine sounds like a process
 All:yes, this we're defining the process not the sine
+
 EM:Will we have instances:
+
 DS:we have not got a use case where we need instances
+
 EM: use case e.g. differential_expression_analysis - need algorithm e.g. SAM, don't see these as classes see this as instances of diff_exp_analysis
+
 RiS:SAM is a type not an instance
+
 EM:not a class
+
 RiS:we don't have instances in the ontology, think SAM is a class, when apply SAM with parameters then this is instantiated
+
 DS:If look at the properties view, an instances needs all the properties to be true as well helps think of what an instance vs a class is.
+
 RiS:looking at SAM, see that could also think that SAM is a bootstrap analysis and is a permutation test. Want to re-use the permutation analysis. Want to remove context from hierarchy
+
 EM:SAM is not in the h'archy. Permutation analysis is a methodology
+
 RiS:there are lots of roles for permutations analysis e.g. in differential_expression_analysis
+
 EM:expectation maximisation, used in multi contexts. Need something besides role e.g. method used by
+
 RoS:seems like same kind of thing as protocol and protocol application. 
+
 RiS:need to tackle role 
+
 EM:role will not work for everything
+
 RoS:techniques and application of techniques
+
 RiS:OK but application of a permutation test can't be the context, need to re-use
+
 RM:not opposed to that
+
 RiS:need to decide now whether this is a logical design or is about the application.
+
 EM:Should not be children of differential expression
+
 MM:parametric/non parametric, 
+
 EM:we don't want an ontology for statistics
+
 TB:but we need these terms
+
 EM:we need how we will use them, will we subclass, or have properties, a lot of analysis methods will use different method
+
 MC:utilizes method/technique, e.g. parametric test and children here
+
 RiS:is there a stats branch? 
+
 JM:we have probablistic, measurement terms were removed from this branch
+
+RiS:worked examples of filtering, random and directed sampling, where sample a subset the subset are sim to the parent class, properties are similar like aliquoting. Where do directed sampling is based on the data. 
+
+EM:would not call the random partitioning, would call sampling. We have two edged filtering stuctures, filtering is an overloaded terms, has a meaning in flow cytometry
+
+RiS:I don't agree, gating is a kind of partitioning
+
+EM:I am not a flow cytomter (ist) and that's what they wanted. We 
+
+
+
+
+
+
+
+
+
+
 
 
  
