@@ -24,7 +24,7 @@ EM:The OWL file is not updated with the current roles, there's a google doc, and
 RS: we thought might be a branch or a parallel development, decided at last workshop is a community and getting terms together for clinical investigation and these fit in the branches. Looking to give first pass structure and then feed to branch structure, use with views. Most of RS time is devoted to this part of OBI. Lots of roles, protocols and plans, few data transformation terms. Most not unique to clinical investigations.
 
 1b. Relations branch. 
-CC. started with the relations ontology, idea is that traditionally ontologies were tree stuctures using is-a, when representing clinical reality need other relation types. Next paper RO2 being drafted, want to build something for OBI needs.
+CC. started with the relations ontology, idea is that traditionally ontologies were tree structures using is-a, when representing clinical reality need other relation types. Next paper RO2 being drafted, want to build something for OBI needs.
 
 EM:For roles which will have has_the_role of yes?
 CC:yes that's in RO one
@@ -32,6 +32,24 @@ JM:we have not coded any roles in the OWL file
 EM:but we need to do this, we just need the roles
 We check and OBI roles are in there. 
 
+1c. Deriving from BFO - history of this was that it was the best fit even though it's not perfect. 
+Current hierarchy
+
+Process
+ PlannedProcess
+  ProtocolApplication
+    DataTransformation - output=data, input=data etc
+
+Discussion of whether synth of oligos is data->material, currently not a supported case.
+EM:Recently changed data transformation definition to better relate to the siblings.
+
+ 
+
+
+
+
+
+
 <b>To do:</b>
 ** We need to schedule some time to check relations these with our development.
-** Move agenda item roles to today and review the roles, qualities etc
+** Move agenda item on roles for Tuesday to today and review the roles, qualities before we start editing the branch
