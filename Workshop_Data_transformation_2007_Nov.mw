@@ -318,7 +318,11 @@ AA:normalization moves to Role subclass of Pre-processing. All normalization's c
 
 RoS:is normalization always pre-processing?
 
-TB:we need to generalize normalization prior to submit to role branch
+TB:we need to generalize normalization prior to submit to role branch - we are using the omics branch. 
+
+EM:also gaussian distribution, and also in schema - removing redundancy. Will we use all of them? 
+
+
 
 
 
