@@ -322,6 +322,8 @@ TB:we need to generalize normalization prior to submit to role branch - we are u
 
 EM:also gaussian distribution, and also in schema - removing redundancy. Will we use all of them? 
 
+MM:thinks it's safe to have the term normalization.
+
 we think we can proceed now with using the term normalize.
 
 MC will communicate with the role branch.
@@ -343,6 +345,8 @@ MC:under
 AA:suggest that role branch 'objective of process' is renamed to goal
 
 pre-processing has already been submitted to role already
+
+
 
 
 
