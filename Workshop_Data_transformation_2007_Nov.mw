@@ -186,31 +186,37 @@ EM:would not call the random partitioning, would call sampling. We have two edge
 
 RiS:I don't agree, gating is a kind of partitioning
 
-EM:I am not a flow cytomter (ist) and that's what they wanted. We 
+EM:I am not a flow cytomter (ist) and that's what they wanted. 
+
+EM:I want to have all the math function terms and transformation together
+
+RiS:Also need case where there is a diagnosis based on data
+
+MC:diagnosis is a role right niw
+
+RiS:I don't agree with that placement, result of a diagnostic protocol applicaton. Diagnosis is a quality of the person that it describes. To roles discussion.
+
+Discussion on partitioning vs filtering vs gating.
+--------------------------------------------------
+AA:We agree to remove the existing definitions and point at some citation as well leave the class as is for now as a container for similar terms and that we will not address defining the math functions. 
+
+AA:Elisabetta will look for better citations for these
+
+AA:names will be _transformation (or similar) for clarify
+
+AA:the sine, cosine etc will be under MathematicalTransformation and the parent class will be removed
+
+AA:class name also needs an update as there are other things under other classes that could also be math trans.
+
+MathematicalTransformation update from Elisabetta
+-------------------------------------------------
+EM: Terms are from Joseph and Ryan - flow cyto, Joseph sent a document with the definitions, the problem is what they call a linear_transformation - some discussion on what the terms should be called. Bottom line will go through the doc and will discuss with. Suggest that these are left alone, and non-linear transformation should be removed, from that subtree, probably will not happen this week.
+
+Role, Quality, Function Discussion moved to today
+------------------------------------------
 
 
 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-AA:We agree to remove the definitions and leave the class as is for now as a container for similar terms and that we will not address defining the math functions. S
 
 
 
