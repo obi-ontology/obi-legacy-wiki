@@ -313,8 +313,7 @@ RoS:we have a h'archy of techniques, e.g. loess, either make a class or infer fr
 
 EM:has issues with the name of e.g. mean_log_normalization ->mean_log_subtraction and the role normalization has been 
 
-AA:normalization moves to Role subclass of Pre-processing. All normalization's children will need to be renamed, and defs checked and the moved to children of the parent class data transformation. All the children will get has_role 'normalization'.
-
+AA:normalization moves to Role subclass of pre-processing. All normalization's children will need to be renamed, and defs checked and the moved to children of the parent class data transformation. All the children will get has_role 'normalization' property.
 
 RoS:is normalization always pre-processing?
 
@@ -344,7 +343,38 @@ MC:under
 
 AA:suggest that role branch 'objective of process' is renamed to goal
 
-pre-processing has already been submitted to role already
+Prior to discussion with Daniel we take a look at the SW ontology. Seems to be quite wide ranging and has Gene, and data processing terms. 
+
+
+Elisabetta's clean up document selected items for discussion:
+-------------------------------------------------------------
+
+1. We have changed def of data transformation so it fits the siblings. EM doesn't like the name, suggests data analysis or data processing. 
+
+Discussion and we decide we can live with this now the definition has been improved
+
+2. down stream analysis role, the thing that happens after pre-processing. Issues with definiton and the name. 
+
+RiS:There's an issue of how things are linked together in order. This is an example of this problem. There's a preceeded_by in RO. 
+
+HP:propose remove these 2 roles and add normalization branch. Agreed.
+
+AA:MC will tell roles branch that prev 2 terms are removed and normalization will be added.
+AA:Elisabetta will clean up the file and change this
+AA:Ask for OBI meeting discussion on roles.
+
+3. Issues about measurements - needs to be represented in the digital entity. Discussion on what should be done re event in BFO. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
