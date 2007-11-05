@@ -1,15 +1,17 @@
 Data Transformation Workshop, 5 November, 2007
 -----------------------------------------------
 
+Present:
 RoS Robert Stevens,, U Manchester
 JM James Malone, EBI
-Hp Helen Parkinson, EBI
+HP Helen Parkinson, EBI
 CC Christian Cocos, U. Saarland
 MC Melanie Courtot, BCCRC
 MM Monnie McGee, Dallas
 EM Elisabetta Manducchi, UPenn
 DS Daniel Schober, EBI
 TB Tina Boussard, Stanford
+
 -----------------------------------------------------------------------------------------
 
 
@@ -22,7 +24,7 @@ AA:Elisabetta will look for citations for these terms - EM
 
 AA:names will be sine_transformation (or similar) for clarification that we mean the application of a sine - EM
 
-AA:the sine, cosine etc will be under MathematicalTransformation and their current parent class will be removed
+AA:the sine, cosine etc will be moved under MathematicalTransformation and their current parent class will be removed
 
 AA:MathematicalTransformation class name also needs an update as there are other things under other classes that could also be considered MathematicalTransformation - EM
 
@@ -39,6 +41,8 @@ AA:Following the phone call with Daniel Rubin we will generate a list of SW term
 AA:Following the phone call with DR we will identify areas of overlap with the DT branch, check that we represent these terms in OBI and feedback to Daniel on areas where we are not orthogonal
 
 AA:We will investigate the MyGrid Service ontology as source of SW terms, likely to overlap with the SW ontology as well. HP has asked Katy Wolstencroft to send the OWL file.
+
+AA:Schedule some time to check that relations branch have any relations we need for RO2.
 
 
 Agenda: Goal is to have all of the concepts in place, resolve naming issues, road map to completing the branch also to revisit the general milestones and make sure that Data Transformation is in good shape to deal with that.
