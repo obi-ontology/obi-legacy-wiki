@@ -43,7 +43,17 @@ Process
 Discussion of whether synth of oligos is data->material, currently not a supported case.
 EM:Recently changed data transformation definition to better relate to the siblings.
 
- 
+RS:there are terms where there are plans and protocol application in clinical investigations and is very sloppy. Bigger issue in the clinical arena, as there are ethical/legal issues and plans are more commonly formulated in advance. Protocol is a child of InformationEntity.
+
+CC:this is an example with the colloquial language problems. People confuse things that are out there with info that is about the things out there. Is another examples.
+
+RS:we discussed this at the last workshop and that's where the DENRI branch is working
+
+
+2. Roles file has been circulated to dt people by Melanie who has access to the google docs
+
+
+
 
 
 
