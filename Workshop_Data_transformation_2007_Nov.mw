@@ -214,6 +214,80 @@ EM: Terms are from Joseph and Ryan - flow cyto, Joseph sent a document with the 
 
 Role, Quality, Function Discussion moved to today
 ------------------------------------------
+Discussion on what Role is. 
+
+CC:Barry's position stems from some aristotlean. views, 'essentialism' if I remove yr fingers will you still be you. Philosophy dealt with this debate, conclusion we cannot make a difference between essential and non essential properties. We could work with this distinction, but if split hairs, will get counter examples to all. Not fashionable in current philos. So, modes of predictation - is-a is a mode of prediction and quality-of is different in aristotlean, mainstream philosophy they are not. May not help us in OBI
+
+RiS:we need to make a decision. We are ok with roles, qualities and types are the problems.
+
+CC:Roles are analogous to functions for me. Role is a function in a social setting, e.g. with a thinking agent. Function is there regardless of whether there is a thinking entity.
+
+Both are context dependent, quality is supposed to be intrinisic. Roles and functions are extrinsic. (Christian is a naturalist).
+
+RiS: Types and qualities, where do you draw that line? 
+red car is a car, and ontology explodes.
+
+HP:the ontology is not exploding
+
+RiS:back to differential gene expression, what is that? is it a type, does the permutation test playing a role? and what is the role?
+
+EM:not will have non-overlapping classes in all cases.
+
+TB:if we can avoid is OK.
+
+RiS:differential_expression_analysis may not be a class in the ontology at all, could generate  it
+
+EM:we could have a more general class: differential_analysis rather than expression analysis. 
+
+RoS:use of the word goal. Set of techniques that are using to achieve some goal
+
+RiS:if we separate these things then the ontology is focused and put together as we need them. 
+
+MC:Objective, goal etc exists in the role branch. All can be roles. E.g. classification is a goal.
+
+EM:there will be a complex h'archy then between goals, roles etc and then this could be a problem
+
+RiS:we need to decide the h'archy and where it will live. All branches are going through this process, and so someone needs to define goals/roles etc.
+
+MC:also for the people annotating what will make more sense
+
+RoS:when using subclasses are implicitly using properties. 
+
+RiS:most of our terms from clinical investogation, most terms are roles or qualitities.
+
+CC:we shouldn't worry too much about role branch, they have a lot less structure. Will be quite a flat list. 
+
+EM:think this will be really hard to do, and what we want to achieve.
+
+RS:it will be hard. 
+
+RiS:at the next meeting there will be a lot of time dealing with roles this is coming from all branches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
