@@ -263,6 +263,81 @@ RS:it will be hard.
 
 RiS:at the next meeting there will be a lot of time dealing with roles this is coming from all branches
 
+MC:sub classes of normalization are not roles, they are methods, the role could be normalization and current children will be methods.
+
+HP: Looking at the definition of the normalization then practically then we need to push some classes to other branches role/goal- e.g. normalization but not the children which are more specific. Not much therefore needs to change in the dt branch. 
+
+EM:could attach the roles instead of the container classes.
+
+CC:where would you put mean_log in the ontology? And is this an exhaustive list? Suggest have a relation normalization of? 
+
+RiS:problem is that everytime use a mean would need to generate a new term. Lots of things use a log transformation. If construct terms by using the RO - mean transformation, log transformation. The ontology is not useful alone in this case, need a way to combine these.
+
+EM:could do in a subclass fashion and then see where we are at
+
+RoS options, either pre enumerate, or post enumerate, either is a burden for the annotator. People are building tools for post enumeration.
+
+TB:people will be able to search a term and pull out a term
+
+RoS:or write a program to generate all the combinations. If you generate terms you don't like then the ontology is wrong
+
+MC:at the end we want to use OBI, the solution is nice to have blocks, but practically we need to provide something annotators can use.
+
+RiS: Maybe we need a discussion about tools. Use phenote to construct complex terms for annotators and then make these available with the tools. 
+
+EM:cost might be too high for generating the tools. 
+
+TB:we want something useful for all communities. We need to do something.
+
+MC:the current h'archy is made for that
+
+RiS:agree
+
+HP:we need to be able to make imprecise annotations as well, like the idea of normalization class and being able to make imprecise annotations
+
+HP:not objecting to the idea of adding things to goal.
+
+RoS:do you want to say that the data has been normalized, or that normalization has occured
+
+Hp:I will infer one from the other
+
+CC:data undergoes normalization, but normalization is a role, data is transformed, transformation has role, normalization
+
+MC:The transformation has the role, not the data.
+
+AA:Some consensus emerging, we submit normalization to role (and or goal, goal is a subclass of role right now), we keep the class normalization and children. No-one really likes the idea of combinatorial terms except Richard, Christian
+
+MC will communicate with the role branch.
+
+RiS:Soultion for role and goal. roles are played by proposition. proposition can play the role if hypothesis, conclusion
+
+"a goal is a role that a proposition plays"
+
+e.g. differential expression, that's a hypothesis, could be a conclusion, could be a goal.
+
+the same proposition can play many roles. 
+
+MC:under 
+
+role
+ hypothesis
+ objective of process (goal)
+
+AA:suggest that role branch 'objective of process' is renamed to goal
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
