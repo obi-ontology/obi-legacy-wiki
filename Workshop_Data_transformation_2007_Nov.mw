@@ -305,11 +305,32 @@ CC:data undergoes normalization, but normalization is a role, data is transforme
 
 MC:The transformation has the role, not the data.
 
-AA:Some consensus emerging, we submit normalization to role (and or goal, goal is a subclass of role right now), we keep the class normalization and children. No-one really likes the idea of combinatorial terms except Richard, Christian
+Some consensus emerging, we submit normalization to role (and or goal, goal is a subclass of role right now), we keep the class normalization and children. No-one really likes the idea of combinatorial terms except Richard, Christian. This is not what Richard understood, he expected all the children to be moved. 
+
+MC:mean_log transformation can have a role:normalization
+
+RoS:we have a h'archy of techniques, e.g. loess, either make a class or infer from property role normalization. 
+
+EM:has issues with the name of e.g. mean_log_normalization ->mean_log_subtraction and the role normalization has been 
+
+AA:normalization moves to Role subclass of Pre-processing. All normalization's children will need to be renamed, and defs checked and the moved to children of the parent class data transformation. All the children will get has_role 'normalization'.
+
+
+RoS:is normalization always pre-processing?
+
+TB:we need to generalize normalization prior to submit to role branch
+
+
+
+
+
+
+
+
 
 MC will communicate with the role branch.
 
-RiS:Soultion for role and goal. roles are played by proposition. proposition can play the role if hypothesis, conclusion
+RiS:Solution for role and goal. roles are played by proposition. proposition can play the role if hypothesis, conclusion
 
 "a goal is a role that a proposition plays"
 
@@ -319,11 +340,14 @@ the same proposition can play many roles.
 
 MC:under 
 
-role
- hypothesis
- objective of process (goal)
+ -role
+  -hypothesis
+  -objective of process (goal)
 
 AA:suggest that role branch 'objective of process' is renamed to goal
+
+pre-processing has already been submitted to role already
+
 
 
  
