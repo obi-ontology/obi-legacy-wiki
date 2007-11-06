@@ -36,7 +36,7 @@ AA:the sine, cosine etc will be moved under MathematicalTransformation and their
 
 AA:MathematicalTransformation class name also needs an update as there are other things under other classes that could also be considered MathematicalTransformation - EM
 
-AA:Normalization moves to Role subclass. All normalization's children will need to be renamed, and defs checked and the moved to children of the parent class data transformation. All the children will get has_role 'normalization' property. MC
+AA:Normalization moves to Role subclass. All normalization's children will need to be renamed, and defs checked and the moved to children of the parent class data transformation. All the children will get has_role 'normalization' property. EM-MC
 
 AA:Preprocessing and downstream analysis proposed to the Roles branch will be removed. These are relative temporal concepts and therefore bad. Normalization will be proposed though. MC
 
