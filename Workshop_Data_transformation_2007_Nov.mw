@@ -12,7 +12,7 @@ CC Christian Cocos, U. Saarland
 
 MC Melanie Courtot, BCCRC
 
- MM Monnie McGee, Southern Methodist University (SMU, Dallas)
+MM Monnie McGee, Southern Methodist University (SMU, Dallas)
 
 EM Elisabetta Manducchi, UPenn
 
@@ -150,8 +150,14 @@ We can divide into moments and quantiles, or divide into current categories, and
 
 Emerging Design Principles:
 Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization
+
 Using qualities such as parametric and non parametric tests on classes to infer this h'archy
+
 Making general definitions with application specific names and examples, e.g. global_loess_two_channel not global_loess_microarray
+
+Qualities describe inherent properties/characteristics in independent continuents, whereas role are temporary properties that can vary with time.
+
+Many of the data transformation terms describe processes that are application specific.  We have tried to identify the generic equivalent of the application specific term, to use this term as an upper level node in the hierarchy and them allow the use of the application-specific term as a child/sub-class.  This allow the re-use of the generic term in other applications while supporting dataset annotation using the application-specific terms.
 
 AA:decide if parametric/non parametric are roles or qualities. Seems qualities is preferred. If these are qualities then they need to go to PATO, we think these are intrinic properties of the test.
 
@@ -203,6 +209,22 @@ Scheffe
 Dunnett
 Fisher method - another variant for combining p values
 Non parametric regression
+
+Discussion on whether parametric/non parametric should be added as properties. 
+These are properties that don't characterise the application - this is a good point. We need to be careful not to conflate the two. The application of the test/non parametric. Application_of_parametric_test? Quality of a continuant not the process. Qualities are not supposed to inhere in processes. We need a list of these continuants. 
+
+We discuss the para/non para, but we think that we should use qualitities.
+We may need to find the cases where parametric vs non parametric tests in scope. *competency question. These may not belong to us, where would they go?
+
+CC:these may be roles. 
+HP:examples?
+
+
+
+Classification:
+---------------
+
+
 
 
 
