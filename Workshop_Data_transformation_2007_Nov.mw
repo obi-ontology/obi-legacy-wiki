@@ -148,7 +148,7 @@ Area under a curve, central moments, centre by substract mean, itself a moment, 
  
 We can divide into moments and quantiles, or divide into current categories, and there is multiple inheitance. Suggestion to remove the organising subclasses and use roles to give the classification of the current organizing parents. Could recalculate the hierarchy using roles anyway. 
 
-Emerging Design Principles:
+<b>Emerging Design Principles:
 Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization
 
 Using qualities such as parametric and non parametric tests on classes to infer this h'archy
@@ -158,6 +158,9 @@ Making general definitions with application specific names and examples, e.g. gl
 Qualities describe inherent properties/characteristics in independent continuents, whereas role are temporary properties that can vary with time.
 
 Many of the data transformation terms describe processes that are application specific.  We have tried to identify the generic equivalent of the application specific term, to use this term as an upper level node in the hierarchy and them allow the use of the application-specific term as a child/sub-class.  This allow the re-use of the generic term in other applications while supporting dataset annotation using the application-specific terms.
+
+Policy:related to parallel universes of plan and application of plan. If we do only in 1, do i in plan, not application as we have qualities that need to inhere in something. Acc to BFo they inhere in indep cont, ie plan.
+</b>
 
 AA:decide if parametric/non parametric are roles or qualities. Seems qualities is preferred. If these are qualities then they need to go to PATO, we think these are intrinic properties of the test.
 
@@ -226,7 +229,41 @@ CC:test t, implemented by - application, has_role - differential_expression_anal
 
 EM:Hypothesis testing 'uses'  an instance of a hypothesis test
 Implemented by - not good, participates in - not right, long discussion on the use of these relationships correctly - implements, uses.
-Christian doesn't like implement as he considers should be physical
+Christian doesn't like implement as he considers should be physical. Long discussion on what's a good property name here. 
+
+AA:Parallel issues with tests (plans) and protocol applications. We will raise this for the meeting in Vancouver about how these 2 interact and where we think that something should be built.
+
+AA:Melanie volunteered to deal with loading with data transformation related plan terms if we can reach a consensus on definitions and the plan/protocol terms
+
+
+Nontests
+
+CategoricalHypothesisDataTest synonym QualitativeHypothesisTest- tests where the data is not quantitative where values are e.g. observations. 
+ Fisher Exact Test P
+ Chi Squared test P
+ Chi Squared RAO_Scott P
+ Chi Sq Macnamar (for paired data) P
+ plus Chi squared others ... P
+
+QuantitativeDataHypothesisTest - data which can be measured sib of Categorical
+Wilcoxon
+ NP
+ NP
+ NP
+ NP
+
+ P
+ P
+ P
+ P
+ P
+ P
+ P
+
+
+Nonclassified
+
+
 
 
 
