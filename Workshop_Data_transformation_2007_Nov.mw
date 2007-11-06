@@ -20,7 +20,7 @@ DS Daniel Schober, EBI
 
 TB Tina Boussard, Stanford
 
-RoS Richard Scheuerman
+RoS Richard Scheuerman, Texas Southwestern.
 -----------------------------------------------------------------------------------------
 
 
@@ -52,6 +52,23 @@ AA:Following the phone call with DR we will identify areas of overlap with the D
 AA:We will investigate the MyGrid Service ontology as source of SW terms, likely to overlap with the SW ontology as well. HP has asked Katy Wolstencroft to send the OWL file.
 
 AA:Schedule some time to check that relations branch have any relations we need for RO2.
+
+
+<b>Summary of actions Tuesday November 6, 2007</b>
+
+AA:new terms to add in the following structure and names:
+
+Curve fitting
+ Loess fitting - non parametric fit - could go under curve_fitting
+Loess_transformation
+  Loess_global_transformation 
+     Loess_global_transformation_two_channel
+     Loess_global_transformation_single_channel
+  Loess_group_transformation  
+
+AA - MM will provide a definition of Loess fitting, new term under curve fitting.
+
+AA - Elisabetta will look to see if there can be dual and single channel specific cildren in other places in the hierarchy. Will send a list of proposals in email to dt group.
 
 
 Tuesday 6 November 2007
@@ -95,7 +112,8 @@ RiS:When we talk about partitioning and filtering, we partition on characteristi
 
 AA:new terms to add in the following structure and names:
 
-Loess fitting - non parametric fit - could go under curve_fitting
+Curve fitting
+ Loess fitting - non parametric fit - could go under curve_fitting
 Loess_transformation
   Loess_global_transformation 
      Loess_global_transformation_two_channel
@@ -103,6 +121,14 @@ Loess_transformation
   Loess_group_transformation  
 
 AA - MM will provide a definition of Loess fitting, new term under curve fitting.
+
+AA - Elisabetta will look to see if there can be dual and single channel specific cildren in other places in the hierarchy. Will send a list of proposals in email to dt group.
+
+
+
+
+
+
 
 
 
