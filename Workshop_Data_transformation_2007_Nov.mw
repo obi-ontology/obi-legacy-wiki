@@ -217,7 +217,22 @@ We discuss the para/non para, but we think that we should use qualitities.
 We may need to find the cases where parametric vs non parametric tests in scope. *competency question. These may not belong to us, where would they go?
 
 CC:these may be roles. 
+
 HP:examples?
+
+RoS:suggest we build them as we need them hypothesis_testing uses HypothesisTest
+
+CC:test t, implemented by - application, has_role - differential_expression_analysis
+
+EM:Hypothesis testing 'uses'  an instance of a hypothesis test
+Implemented by - not good, participates in - not right, long discussion on the use of these relationships correctly - implements, uses.
+Christian doesn't like implement as he considers should be physical
+
+
+
+
+
+
 
 
 
