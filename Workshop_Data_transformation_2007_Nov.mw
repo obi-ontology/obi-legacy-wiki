@@ -258,11 +258,9 @@ AA:Automatically generating class descriptions have hypothesis test and all chil
 
 Discussion on partitioning and filtering
 -----------------------------------------
+Current h'archy doesn't reflect supervised and unsupervised clustering. EM has an alternative classification. Doesn't like the parent partitioning method over h'arch clustering. Wants partioning method as a quality etc.
 
-Are we happy with filtering and partioning in the file. Not yet discussed.
-
-Data Transformation
- Partioning
+Discussion on the classification method based on sequence analysis - Bjoern's terms, whether we need a new set of terms for sequence analysis, and move this here. Sequence analysis could be a role as well.
 
 
 
@@ -275,8 +273,20 @@ Data Transformation
 
 
 
-Classification:
----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
