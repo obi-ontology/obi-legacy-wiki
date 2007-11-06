@@ -235,34 +235,24 @@ AA:Parallel issues with tests (plans) and protocol applications. We will raise t
 
 AA:Melanie volunteered to deal with loading with data transformation related plan terms if we can reach a consensus on definitions and the plan/protocol terms
 
+Is tests which are good for multiple groups a property or a h'archy?
+
 
 Nontests
 
-CategoricalHypothesisDataTest synonym QualitativeHypothesisTest- tests where the data is not quantitative where values are e.g. observations. 
- Fisher Exact Test P
- Chi Squared test P
- Chi Squared RAO_Scott P
- Chi Sq Macnamar (for paired data) P
- plus Chi squared others ... P
+CategoricalHypothesisDataTest synonym QualitativeHypothesisTest- tests where the data is not - 
 
-QuantitativeDataHypothesisTest - data which can be measured sib of Categorical
-Wilcoxon
- NP
- NP
- NP
- NP
+see xls sheet.
 
- P
- P
- P
- P
- P
- P
- P
+EM: Where to put hypothesis_testing in the file? Sib of differential_expression_analysis
 
 
-Nonclassified
+Suggestions on natural order for a biologist. Monnie: sample no applied to. 
+Permutation test breaks this.
+RoS:distribution - makes a t test
+RiS:Parent class should be StatisticalHypothesisTests. (not forgetting InformalHypTest - interpretation). 
 
+AA:Automatically generating class descripts have hypothesis test and all in flat list and James infers h'archy based on properties and show them.
 
 
 
