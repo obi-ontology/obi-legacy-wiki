@@ -12,7 +12,7 @@ CC Christian Cocos, U. Saarland
 
 MC Melanie Courtot, BCCRC
 
-MM Monnie McGee, Southern Methodist University (SMU, Dallas)
+ MM Monnie McGee, Southern Methodist University (SMU, Dallas)
 
 EM Elisabetta Manducchi, UPenn
 
@@ -123,6 +123,93 @@ Loess_transformation
 AA - MM will provide a definition of Loess fitting, new term under curve fitting.
 
 AA - Elisabetta will look to see if there can be dual and single channel specific cildren in other places in the hierarchy. Will send a list of proposals in email to dt group.
+
+AA:New Structure to add. Needs definitions and roles
+
+data_transformation
+ descriptive_statistical_calculation
+     mean_calculation, add moment and center roles
+     median_calculation, add center and quantile roles
+     mode_calculation, add center role
+     quantile_calculation, 
+     variance_calculation, add spread, moment roles
+     standard_deviation_calculation. spread roles
+     interquartile_calculation, spread roles
+     skewness_calculation,moment roles
+     kurtosis_calculation, moment roles
+
+Parametric/Non parametric
+distinction between parametric/non parametric - should this be in the class hierarchy or a property. Also applies to regression
+
+
+Explanation of moments from Monnie
+
+Area under a curve, central moments, centre by substract mean, itself a moment, get the area under the curve. Where n=0, then get the mean, n=1 get variance, n=2 get the kurtosis and n=3 get the skewness.
+ 
+We can divide into moments and quantiles, or divide into current categories, and there is multiple inheitance. Suggestion to remove the organising subclasses and use roles to give the classification of the current organizing parents. Could recalculate the hierarchy using roles anyway. 
+
+Emerging Design Principles:
+Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization
+Using qualities such as parametric and non parametric tests on classes to infer this h'archy
+Making general definitions with application specific names and examples, e.g. global_loess_two_channel not global_loess_microarray
+
+AA:decide if parametric/non parametric are roles or qualities. Seems qualities is preferred. If these are qualities then they need to go to PATO, we think these are intrinic properties of the test.
+
+Statistical tests. E.g. hypothesis testing is missing
+
+Z score calculation - not a descriptive statistic, then can derive a P value
+P value calculation - 
+
+hypothesis tests:
+
+
+'informal hypothesis test' data interpretation - what clinicians do, before or after the hypothesis test?
+Z score - not at test, used in a test
+  1 sample
+  2 sample
+Wilcoxon
+t-test 
+       independent sample
+       two sample
+	   paired
+	   unpaired
+       pooled_t_test (equal_variance)
+Chi-squared
+ RAO-Scott_Chi_sqaured
+Kolmogorov-Smirnov
+Wilcoxon_Signed_rank
+ANOVA
+Fisher Exact test
+Hypogeometric_distribution_test
+MANOVA 
+one way, multiway (includes two factor)  - properties of many tests,repeated measures
+univariate and multi variate  - might be properties or parents
+Regression analysis (Analysis of variance could be a subset of regression and reression can be descriptive where you just want the slope)
+type 1 error -  considerations for the hypothesis, for ?PATO
+type 2 error - for ?PATO
+alpha level -  prob of type 1 error parameters for these tests
+beta level - prob of type 2 error parameters for these tests (MC has submitted these to DENDRI branch already quantitative_parameter - may be part of a calculation, not determined by the calc itself. We think it may not belong there). Are these qualities or parameters? Is a parameter a role? These are not numbers they are probabilities. Are these a role?)
+Permutation_test - multiple testing correction method
+normality_test
+family_wise_error
+false_discovery_rate (and children)
+ P-FDR, FWER (mult testing corrections)
+ strong control
+ weak control
+Bonferroni_correction
+CDAC 
+Tukey's HSD
+Scheffe
+Dunnett
+Fisher method - another variant for combining p values
+Non parametric regression
+
+
+
+
+
+
+
 
 
 
