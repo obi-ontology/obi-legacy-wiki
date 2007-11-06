@@ -252,7 +252,19 @@ Permutation test breaks this.
 RoS:distribution - makes a t test
 RiS:Parent class should be StatisticalHypothesisTests. (not forgetting InformalHypTest - interpretation). 
 
-AA:Automatically generating class descripts have hypothesis test and all in flat list and James infers h'archy based on properties and show them.
+[http://bama.ua.edu/~jleeper/627/choosestat.html]
+
+AA:Automatically generating class descriptions have hypothesis test and all children in flat list and James infers h'archy based on properties and show them.
+
+Discussion on partitioning and filtering
+-----------------------------------------
+
+Are we happy with filtering and partioning in the file. Not yet discussed.
+
+Data Transformation
+ Partioning
+
+
 
 
 
