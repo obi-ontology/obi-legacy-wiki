@@ -30,34 +30,7 @@ RoS Richard Scheuerman, Texas Southwestern.
 [[TuesdayNotes|Tuesday 6 November Notes]]
 
 
-Summary of Action Items Monday 5 November
------------------------------------------
 
-AA:We agree to remove the existing definitions from sine, cosine all in MathematicalFunction and point at some citation 
-
-AA:Elisabetta will look for citations for these terms - EM
-
-AA:names will be sine_transformation (or similar) for clarification that we mean the application of a sine - EM
-
-AA:the sine, cosine etc will be moved under MathematicalTransformation and their current parent class will be removed
-
-AA:MathematicalTransformation class name also needs an update as there are other things under other classes that could also be considered MathematicalTransformation - EM
-
-AA:Normalization moves to Role subclass. All normalization's children will need to be renamed, and defs checked and the moved to children of the parent class data transformation. All the children will get has_role 'normalization' property. EM-MC
-
-AA:Preprocessing and downstream analysis proposed to the Roles branch will be removed. These are relative temporal concepts and therefore bad. Normalization will be proposed though. MC
-
-AA:We suggest that role branch 'objective of process' is renamed to goal. Simpler MC.
-
-AA:We will ask that Roles interaction with DT and other branches be discussed in Vancouver. HP, done will be discussed on next coordinator call.
-
-AA:Following the phone call with Daniel Rubin we will generate a list of SW terms for the SW ontology. Done, HP will clean up the list
-
-AA:Following the phone call with DR we will identify areas of overlap with the DT branch, check that we represent these terms in OBI and feedback to Daniel on areas where we are not orthogonal
-
-AA:We will investigate the MyGrid Service ontology as source of SW terms, likely to overlap with the SW ontology as well. HP has asked Katy Wolstencroft to send the OWL file.
-
-AA:Schedule some time to check that relations branch have any relations we need for RO2.
 
 
 <b>Summary of actions Tuesday November 6, 2007</b>
