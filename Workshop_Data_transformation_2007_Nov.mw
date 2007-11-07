@@ -34,8 +34,8 @@ RoS Richard Scheuerman, Texas Southwestern.
 [[ThursdayNotes|Thursday 8 November Notes]]
 
 
-<b>Emerging Design Principles:
-Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization
+<b>Emerging Design Principles:</b>
+Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization. 
 
 Using qualities such as parametric and non parametric tests on classes to infer this h'archy
 
@@ -46,7 +46,7 @@ Qualities describe inherent properties/characteristics in independent continuent
 Many of the data transformation terms describe processes that are application specific.  We have tried to identify the generic equivalent of the application specific term, to use this term as an upper level node in the hierarchy and them allow the use of the application-specific term as a child/sub-class.  This allow the re-use of the generic term in other applications while supporting dataset annotation using the application-specific terms.
 
 Policy:related to parallel universes of plan and application of plan. If we do only in 1, do i in plan, not application as we have qualities that need to inhere in something. Acc to BFo they inhere in indep cont, ie plan.
-</b>
+
 
 
 <b>Thanks to EMERALD Coordination Action from the EC for workshop funding</b>
