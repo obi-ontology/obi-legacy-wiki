@@ -34,7 +34,9 @@ RoS Richard Scheuerman, Texas Southwestern.
 [[ThursdayNotes|Thursday 8 November Notes]]
 
 
-[[MediaTerms_list_ebi_workshopNov07.xls| Term list submitted to data transformation ]]
+[[Media:Terms_list_ebi_workshopNov07.xls| Term list submitted to data transformation]]
+
+
 
 <b>Emerging Design Principles:</b>
 Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization. 
