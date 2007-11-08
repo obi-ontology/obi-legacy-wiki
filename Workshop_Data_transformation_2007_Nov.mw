@@ -41,17 +41,18 @@ RoS Richard Scheuerman, Texas Southwestern.
 
 
 <b>Emerging Design Principles:</b>
-Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization. 
 
-Using qualities such as parametric and non parametric tests on classes to infer this h'archy
+Qualities describe inherent properties/characteristics in independent continuants, whereas roles are temporary properties that can vary with time.
 
-Making general definitions with application specific names and examples, e.g. global_loess_two_channel not global_loess_microarray
+Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them (moment_calculation, spread_calculation, etc.), and same for normalization and averaging. 
 
-Qualities describe inherent properties/characteristics in independent continuents, whereas role are temporary properties that can vary with time.
+Using qualities such as parametric and non parametric tests on classes to infer this hierarchy.
+
+Making general definitions with application specific names and examples, e.g. global_loess_two_channel not global_loess_microarray.
 
 Many of the data transformation terms describe processes that are application specific.  We have tried to identify the generic equivalent of the application specific term, to use this term as an upper level node in the hierarchy and them allow the use of the application-specific term as a child/sub-class.  This allow the re-use of the generic term in other applications while supporting dataset annotation using the application-specific terms.
 
-Policy:related to parallel universes of plan and application of plan. If we do only in 1, do i in plan, not application as we have qualities that need to inhere in something. Acc to BFo they inhere in indep cont, ie plan.
+Policy related to parallel universes of plan and application of plan. If we create classes do only in one of these, do it in plan, not application, as we have qualities that need to inhere in something. According to BFO they inhere in independent continuant, i.e. plan.
 
 
 
