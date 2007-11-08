@@ -10,7 +10,7 @@
 
 * Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
 
-* Develop and discuss a set of rules for editing and committing the OWL file, esp. removing e.g. branches that are interacting with mult branches esp. roles, and relations. DT has found inputs as roles and properties and this is redundant and needs resolving. We'd like a process for that.
+* Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
 
 
 ''back to [[January2008Workshop|Workshop home page]]''
