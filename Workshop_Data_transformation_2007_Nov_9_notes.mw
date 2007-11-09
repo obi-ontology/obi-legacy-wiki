@@ -5,3 +5,11 @@ Friday 9th November 2007 Notes
 Present: JM, EM, MC, PR, HP
 
 [[Data_transformation_workshop| Main Data Transformation Workshop page>> ]]
+
+Discussion on the classification hierarchy, with supervised and unsupervised learning as children of classification_method.
+
+EM: There are examples in which techniques can be used as either supervised or unsupervised
+
+JM: Could perhaps use these as roles
+
+General agreement that we may need either multiple inheritance or roles because of above issue
