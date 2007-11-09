@@ -6,7 +6,7 @@ Present: JM, EM, MC, PR, HP
 
 [[Data_transformation_workshop| Main Data Transformation Workshop page>> ]]
 
-</br>
+<br>
 
 Discussion on the classification hierarchy, with supervised and unsupervised learning as children of classification_method.
 
@@ -16,6 +16,8 @@ JM: Could perhaps use these as roles
 
 MC: We may need either multiple inheritance or roles because of above issue
 
+JM: Supervised and unsupervised classification should be disjoint concepts; a concept can be one or the other but not both. 
+
 General Agreement that we will use classification, supervised and unsupervised as roles.
 
 MC: We may need to add restrictions to some of these since some concepts should only be one or other
@@ -23,6 +25,8 @@ MC: We may need to add restrictions to some of these since some concepts should 
 EM: We also need to add phylogenetic analysis as role or a concept somewhere
 
 AI: Submit classification as role and supervised_classification and unsupervised_classification as children of classification role to role branch.
+
+EM: Classification is the union of supervised and unsupervised classification, however there are instances in which only one algorithm can use a role (restriction)
 
 Discussion with Philippe about Plan branch: 
 
