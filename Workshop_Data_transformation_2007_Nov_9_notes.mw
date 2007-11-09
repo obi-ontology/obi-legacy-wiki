@@ -12,8 +12,14 @@ EM: There are examples in which techniques can be used as either supervised or u
 
 JM: Could perhaps use these as roles
 
-General agreement that we may need either multiple inheritance or roles because of above issue
+MC: We may need either multiple inheritance or roles because of above issue
+
+General Agreement that we will use classification, supervised and unsupervised as roles.
+
+AI: Submit classification, supervised_classification and unsupervised_classification as roles to role branch.
 
 Discussion with Phillipe about Plan branch: 
 
 AI: MC and JM to help load list of terms and hierarchy for algorithm into plan branch (Note in owl file algorithm is not currently under plan - needs moving).  Also need to add definition for algorithm.
+
+MC: Algorithm is a plan because it has the potential to be executed (as a plan)
