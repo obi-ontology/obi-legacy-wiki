@@ -16,6 +16,8 @@ MC: We may need either multiple inheritance or roles because of above issue
 
 General Agreement that we will use classification, supervised and unsupervised as roles.
 
+MC: We may need to add restrictions to some of these since some concepts should only be one or other
+
 AI: Submit classification, supervised_classification and unsupervised_classification as roles to role branch.
 
 Discussion with Philippe about Plan branch: 
