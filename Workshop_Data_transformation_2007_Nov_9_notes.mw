@@ -1,6 +1,6 @@
 ===Data Transformation Workshop, Cambridge===
 
-==Friday 9th November 2007 Notes==
+===Friday 9th November 2007 Notes===
 
 Present: JM, EM, MC, PR, HP
 
@@ -33,3 +33,9 @@ Discussion with Philippe about Plan branch:
 AI: MC and JM to help load list of terms and hierarchy for algorithm into plan branch (Note in owl file algorithm is not currently under plan - needs moving).  Also need to add definition for algorithm.
 
 MC: Algorithm is a plan because it has the potential to be executed (as a plan)
+
+MC: There is no 'utlitizes' relation for specific branches, e.g. utilizes_a_data_transformation
+
+EM: CC has suggested we may use implemented for this
+
+PR: We could have 'uses' property for this
