@@ -18,6 +18,8 @@ General Agreement that we will use classification, supervised and unsupervised a
 
 MC: We may need to add restrictions to some of these since some concepts should only be one or other
 
+EM: We also need to add phylogenetic analysis as role or a concept somewhere
+
 AI: Submit classification, supervised_classification and unsupervised_classification as roles to role branch.
 
 Discussion with Philippe about Plan branch: 
