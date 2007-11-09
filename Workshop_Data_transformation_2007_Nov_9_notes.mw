@@ -39,3 +39,5 @@ MC: There is no 'utlitizes' relation for specific branches, e.g. utilizes_a_data
 EM: CC has suggested we may use implemented for this
 
 PR: We could have 'uses' property for this
+
+AI: Propose a more general 'utilizes' relation to relations branch
