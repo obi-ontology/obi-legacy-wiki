@@ -35,6 +35,8 @@ More abbreviations:
 AI Action Item
 -----------------------------------------------------------------------------------------
 
+==Links to meeting notes and action items==
+
 [[ActionItemsDataTransformatio|Summary of Meeting Action Items]]
 
 [[MondayNotes|Monday 5 November Notes]]
@@ -50,16 +52,18 @@ AI Action Item
 
 ----
 
+==Files from workshop==
 
-'''Files (spreadsheets) from workshop:'''
+Non-data transformation terms files:
 
 [[Media:Terms_list_ebi_workshopNov07.xls| Term list submitted to data transformation]]
 
 [[Media:Non-dataTransTerms_9-13.xls‎| Term list submitted - review needed to decide if fit in data transformation branch]]
+
+
 ----
 
-
-<b>Emerging Design Principles:</b>
+==Emerging Design Principles==
 
 Qualities describe inherent properties/characteristics in independent continuants, whereas roles are temporary properties that can vary with time.
 
