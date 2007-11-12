@@ -8,36 +8,36 @@ Present: JM, EM, MC, PR, HP
 
 <br>
 
-Discussion on the classification hierarchy, with supervised and unsupervised learning as children of classification_method.
+Discussion on the classification hierarchy, with supervised_classification and unsupervised_classification as children of classification.
 
-EM: There are examples in which techniques can be used as either supervised or unsupervised
+EM: There are examples in which techniques can be used for classification or for other purposes. E.g. hierarchical clustering can be used for classification (when one cuts the tree after clustering) but it can also be used just to build the tree (e.g. in phylogeny). Also some methods can be used both in a supervised and in unsupervised fashion.
 
-JM: Could perhaps use these as roles
+JM: Could perhaps use these as roles.
 
-MC: We may need either multiple inheritance or roles because of above issue
+MC: We may need either multiple inheritance or roles because of above issue.
 
 JM: Supervised and unsupervised classification should be disjoint concepts; a concept can be one or the other but not both. 
 
 General Agreement that we will use classification, supervised and unsupervised as roles.
 
-MC: We may need to add restrictions to some of these since some concepts should only be one or other
+MC: We may need to add restrictions to some of these since some concepts should only be one or other.
 
-EM: We also need to add phylogenetic analysis as role or a concept somewhere
+EM: We also need to add phylogenetic analysis as role or a concept somewhere.
 
 AI: Submit classification as role and supervised_classification and unsupervised_classification as children of classification role to role branch.
 
-EM: Classification is the union of supervised and unsupervised classification, however there are instances in which only one algorithm can use a role (restriction)
+EM: Classification is the union of supervised and unsupervised classification, however there are instances in which only one algorithm can be used with either role according to the application.
 
 Discussion with Philippe about Plan branch: 
 
-AI: MC and JM to help load list of terms and hierarchy for algorithm into plan branch (Note in owl file algorithm is not currently under plan - needs moving).  Also need to add definition for algorithm.
+AI: MC and JM to help load list of terms and hierarchy for algorithm into plan branch. (Note tha in the OWL file algorithm is not currently under plan - needs moving).  Also need to add definition for algorithm.
 
-MC: Algorithm is a plan because it has the potential to be executed (as a plan)
+MC: Algorithm is a plan because it has the potential to be executed (as a plan).
 
-MC: There is no 'utlitizes' relation for specific branches, e.g. utilizes_a_data_transformation
+MC: There is no 'utlitizes' relation for specific branches, e.g. utilizes_a_data_transformation.
 
-EM: CC has suggested we may use implemented for this
+EM: CC has suggested we may use implemented_by for this, even though I would prefer 'utilizes'.
 
-PR: We could have 'uses' property for this
+PR: We could have 'uses' property for this.
 
-AI: Propose a more general 'utilizes' relation to relations branch
+AI: Propose a more general 'utilizes' relation to relations branch.
