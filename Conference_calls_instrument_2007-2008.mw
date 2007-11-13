@@ -1,5 +1,15 @@
 ====Summary of the Instrument Branch Conference Calls====
 
+*13. November 07:
+*Agenda:
+** Instrument leaf node definition discussion
+** Instrument use case discussion
+** Discuss exploitation of usable ISO standards, e.g.
+***ISO 15225:2000 Nomenclature -- Specification for a nomenclature system for medical devices for the purpose of regulatory data exchange
+***ISO/IEEE 11073-10101:2004 Health informatics -- Point-of-care medical device communication -- Part 10101: Nomenclature
+***ISO/TS 20225:2001 Global medical device nomenclature for the purpose of regulatory data exchange
+
+
 *6. November 07:
 *Agenda:
 ** Resolve problems with questions marked classes.
