@@ -1,8 +1,18 @@
 ====Summary of the Instrument Branch Conference Calls====
+27. November 07:
+*Agenda:
+** Instrument leaf node definition discussion
+** Instrument use case discussion
+** Resolve problems with 'question-marked' classes.
+** Discuss policy to mark Meta-classes/helper classes via '_'-prefix.
+**[[InstrumentMinutes27Nov2007|Minutes]]
+
+
 *20. November 07:
 *Agenda:
 ** Instrument leaf node definition discussion continued
 No call today, discussion about the leaf nodes continues on obi-devel list.
+
 
 *13. November 07:
 *Agenda:
