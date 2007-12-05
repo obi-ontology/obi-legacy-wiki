@@ -1,9 +1,86 @@
 ====Summary of the Instrument Branch Clean Up====
 
 
-**Terms cleaned:
+**Terms remaining cleaned:
 
-
+*optical_subsystem
+*diode_laser
+*dye_laser
+*gas_laser
+*ion_laser
+*argon_ion_laser
+*krypton_ion_laser
+*solid_state_laser
+*neodymium-YAG_laser
+*obscuration_bar
+*centrifuge
+*computer
+*heating_block
+*homogenizer
+*hybridization_chamber
+*hybridization_station
+*liquid_handler
+*oligonucleotide_synthesizer
+*sonicator
+*spectrophotometer
+*thermal_cycler
+*vacuum_dryer
+*vortexer
+*microarray_wash_station
+*crosslinking_instrument
+*cytometer
+*flow_cytometer
+*flow_cytometer_analyzer
+*A10-Analyzer
+*A40-MiniFCM
+*Bactiflow
+*Cell_Lab_Quanta_SC
+*Cyan
+*CYFlow_ML
+*CyFlow_SL
+*CyFlow_SL3
+*CytoBuoy
+*CytoSence
+*CytoSub
+*FACS_Caliber
+*FACS_Canto
+*FACS_Canto2
+*FACS_Scan
+*FC_500
+*Guava_EasyCyte_Mini
+*Guava_EasyCyte_Plus
+*Guava_PCA
+*Guava_PCA-96
+*ImageStream
+*inFlux_Analyzer
+*LactoScope
+*Luminex_100
+*Luminex_200
+*MACS_Quant
+*Somacount
+*SomaScope
+*flow_cytometer_sorter
+*BioSorter1000
+*BioSorter2000
+*BioSorter250
+*BioSorter500
+*CyFlow_Space
+*FACSAria
+*FACSvantage
+*Influx_Cell_Sorter
+*LSR2
+*MoFlo
+*Reflection
+*image_cytometer
+*power_pack
+*fluorometer
+*liquid_chromatography_instrument
+*microtitre_plate
+*polystyrene_tube
+*filtration_labware
+*paper_filter
+*supernatant_collection_system_harvesting_frame
+*waterbath
 
 
 
