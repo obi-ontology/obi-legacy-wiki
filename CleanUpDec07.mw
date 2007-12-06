@@ -28,9 +28,6 @@
 *vortexer
 *microarray_wash_station
 *crosslinking_instrument
-
-*flow_cytometer
-*flow_cytometer_analyzer
 *A10-Analyzer
 *A40-MiniFCM
 *Bactiflow
@@ -71,7 +68,6 @@
 *LSR2
 *MoFlo
 *Reflection
-*image_cytometer
 *power_pack
 *fluorometer
 *liquid_chromatography_instrument
