@@ -61,7 +61,7 @@ MC,6/12/07
 *polystyrene_tube (alt_term scintilliation_tube) should probably be tube with additional properties?
 *filtration_labware: should probably be labware with a role of filtration?
 *paper_filter -> shall we keep it?
-*supernatant_collection_system_harvesting_frame 
+*supernatant_collection_system_harvesting_frame -> I don't know what that is
 *labware: hard to make the difference between labware/instrument. I didn't find a definition for labware, apart from "The term “labware” refers to tube racks, plate holders and other. equipment..". In my mind labware is the "small stuff" (not a definition!) and instrument the "big stuff", but the current definiton of instrument would also apply to labware:"An instrument is a device which provides a mechanical or electronic advantage as a participant in a process".
 In addition, heated_bath is under labware currently, why would it be there whereas centrifuge for example is under instrument.
 *A10-Analyzer: I kept the hyphen as it is the instrument's name.
