@@ -13,14 +13,13 @@
 *solid_state_laser
 *neodymium-YAG_laser
 *obscuration_bar
-*centrifuge
-*computer
+
 *heating_block
-*homogenizer
-*hybridization_chamber
-*hybridization_station
+
+*hybridization_chamber->to keep?cf below
+*hybridization_station->to keep?cf below
 *liquid_handler
-*oligonucleotide_synthesizer
+
 *sonicator
 *spectrophotometer
 *thermal_cycler
