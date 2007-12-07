@@ -67,3 +67,5 @@ In addition, heated_bath is under labware currently, why would it be there where
 *A10-Analyzer: I kept the hyphen as it is the instrument's name.
 *FACSCalibur is an analyser and sorter. Should be moved under flow_cytometer_sorter?
 *Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"
+
+====Solved issues====
