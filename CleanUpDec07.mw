@@ -20,21 +20,10 @@
 *hybridization_station->to keep?cf below
 *liquid_handler
 
-*sonicator
-*spectrophotometer
-*thermal_cycler
-*vacuum_dryer
-*vortexer
 *microarray_wash_station
 *crosslinking_instrument
 *FACS_Caliber
-*ImageStream
-*inFlux_Analyzer
-*LactoScope
-*Luminex_100
-*Luminex_200
-*MACS_Quant
-*Somacount
+
 *SomaScope
 *BioSorter1000
 *BioSorter2000
@@ -76,5 +65,9 @@ MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our
 MC,7/12/07
 *computer: current def says "is an electronic instrument". should "electronic" be submitted somewhere else?
 *hybridization_chamber and station: hybridization should be a role?
+*thermal_cycler: alternative terms PCR_machine. As per Daniel reccomendation I put PCR and Polymerase CHain Reaction _machine as alt terms. However an other alt term is DNA_amplifier, do we want to "explode" DNA?
+*ImageStream: is an image_cytometer
+*Lactoscope is a  spectrophotometer
+*difference between somacount and somascope?
 
 ====Solved issues====
