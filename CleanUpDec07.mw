@@ -74,4 +74,8 @@ MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our
 *FACSCalibur is an analyser and sorter. Should be moved under flow_cytometer_sorter?
 *Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"
 
+MC,7/12/07
+*computer: current def says "is an electronic instrument". should "electronic" be submitted somewhere else?
+*hybridization_chamber and station: hybridization should be a role?
+
 ====Solved issues====
