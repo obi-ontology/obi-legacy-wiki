@@ -65,6 +65,11 @@ MC,6/12/07
 *supernatant_collection_system_harvesting_frame -> I don't know what that is
 *labware: hard to make the difference between labware/instrument. I didn't find a definition for labware, apart from "The term “labware” refers to tube racks, plate holders and other. equipment..". In my mind labware is the "small stuff" (not a definition!) and instrument the "big stuff", but the current definiton of instrument would also apply to labware:"An instrument is a device which provides a mechanical or electronic advantage as a participant in a process".
 In addition, heated_bath is under labware currently, why would it be there whereas centrifuge for example is under instrument.
+
+FG (7/12/07) comment: As described in the annotation properties of Labware it is only a placeholder at the minute for things that are not instruments. The whole object hierarchy is under review at the moment so the separation is temporary, indicated by the annotation property "graph_position_temporary". For the short term please ignore everything under labware and just deal with instruments. I agree the definition is not great but is dependent on a re-working of the object hierarchy. 
+
+MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our next action item could then be finalizing the hierarchy (labware, cardinal_part_of_ and _temporary)
+
 *A10-Analyzer: I kept the hyphen as it is the instrument's name.
 *FACSCalibur is an analyser and sorter. Should be moved under flow_cytometer_sorter?
 *Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"
