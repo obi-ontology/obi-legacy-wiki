@@ -26,11 +26,23 @@
 MC,6/12/07
 
 * OBI_IDs: should be 6 digits. This should probably be added to the Naming conventions page? We also should probably keep in mind to check that at some point.
+DS: Yes should all be uniform. ID conventions are listed as part of the OBO policies on the wiki.
+
 *polystyrene_tube (alt_term scintilliation_tube) should probably be tube with additional properties?
+DS: If this is a frequently used entry term/search attribute we can have it as is I guess.
+
 *filtration_labware: should probably be labware with a role of filtration?
 *paper_filter -> shall we keep it?
+DS: I guess yes. Why shouldn't we?
+
 *supernatant_collection_system_harvesting_frame -> I don't know what that is
+DS: google harvesting frame supernatant -->
+ "The Supernatant Collection system is designed for collecting 90% of the supernatant in a microplate well and separating the living cell with no stress, eliminating centrifugation and other similar techniques. It can be used in a variety of release assays with different radioactive isotopes, such as Cr51 or I125.
+The Supernatant Collection system offers a safe way to handle samples containing isotopes, and is being used in cytotoxicity testing for measurement of toxic effects on cellular material and chromium release studies. By eliminating tedious centrifuging and pipetting steps in these assays, the Supernatant Collection system offers a faster, safer, and more reproducible technique, producing more reliable results. In 1978, the Supernatant Collection system was added to the National Institute of Health's (NIH) Manual of Tissue Typing Tests. "
+
 *labware: hard to make the difference between labware/instrument. I didn't find a definition for labware, apart from "The term “labware” refers to tube racks, plate holders and other. equipment..". In my mind labware is the "small stuff" (not a definition!) and instrument the "big stuff", but the current definiton of instrument would also apply to labware:"An instrument is a device which provides a mechanical or electronic advantage as a participant in a process".
+DS: Labware in of more primitive constitution, has less parts, is more passive than active....
+
 In addition, heated_bath is under labware currently, why would it be there whereas centrifuge for example is under instrument.
 
 FG (7/12/07) comment: As described in the annotation properties of Labware it is only a placeholder at the minute for things that are not instruments. The whole object hierarchy is under review at the moment so the separation is temporary, indicated by the annotation property "graph_position_temporary". For the short term please ignore everything under labware and just deal with instruments. I agree the definition is not great but is dependent on a re-working of the object hierarchy. 
@@ -38,13 +50,17 @@ FG (7/12/07) comment: As described in the annotation properties of Labware it is
 MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our next action item could then be finalizing the hierarchy (labware, cardinal_part_of_ and _temporary)
 
 *A10-Analyzer: I kept the hyphen as it is the instrument's name.
+DS: Good.
+
 *FACSCalibur is an analyser and sorter. Should be moved under flow_cytometer_sorter?
 *Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"
 
 MC,7/12/07
 *computer: current def says "is an electronic instrument". should "electronic" be submitted somewhere else?
 *hybridization_chamber and station: hybridization should be a role?
-*thermal_cycler: alternative terms PCR_machine. As per Daniel reccomendation I put PCR and Polymerase CHain Reaction _machine as alt terms. However an other alt term is DNA_amplifier, do we want to "explode" DNA?
+*thermal_cycler: alternative terms PCR_machine. As per Daniels reccomendation I put PCR and Polymerase CHain Reaction _machine as alt terms. However an other alt term is DNA_amplifier, do we want to "explode" DNA?
+No DNA is known in everyday language, see naming conventions.
+
 *ImageStream: is an image_cytometer
 *Lactoscope is a  spectrophotometer
 *difference between somacount and somascope?
