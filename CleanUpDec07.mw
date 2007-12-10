@@ -72,6 +72,7 @@ MC, 10/12/07
 
 
 FG, (email 10/12/07)
+
 Currently we intend to use the part of relation to describe the components parts of instruments. Due to this the "cardinal_part_of_instrument" class now seems out of place which is not even classified as a device. In addition I am not sure why there is a class called InstrumentAndPart_temporary within the hierarchy, also not asserted under device. If these RU's which are sublcasses of both cardinal_part_of_instrument and instumentAndPart_temporary are actually required in OBI then they should be modeled within the branch appropraitely. If they are not required they should be deleted.
 
 If the RU are terms that have been submitted and required by OBI then I propose to place the RU in a class called UnassertedInstrumentAndPartRepresentationalUnit (or something similar) as a child of the instrument class.
