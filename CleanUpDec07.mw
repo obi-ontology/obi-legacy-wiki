@@ -65,4 +65,19 @@ No DNA is known in everyday language, see naming conventions.
 *Lactoscope is a  spectrophotometer
 *difference between somacount and somascope?
 
+
+MC, 10/12/07
+
+*definition_citation: the cardinality of the definition_citation is 1, when there are 2 sources, do we put the 2 sources in the one field (separator?) or do we choose one?
+
+
+FG, (email 10/12/07)
+Currently we intend to use the part of relation to describe the components parts of instruments. Due to this the "cardinal_part_of_instrument" class now seems out of place which is not even classified as a device. In addition I am not sure why there is a class called InstrumentAndPart_temporary within the hierarchy, also not asserted under device. If these RU's which are sublcasses of both cardinal_part_of_instrument and instumentAndPart_temporary are actually required in OBI then they should be modeled within the branch appropraitely. If they are not required they should be deleted.
+
+If the RU are terms that have been submitted and required by OBI then I propose to place the RU in a class called UnassertedInstrumentAndPartRepresentationalUnit (or something similar) as a child of the instrument class.
+
+In addition the class labelled "_move_to_biomaterial_branch" would appear to contain roles rather than biomaterials
+
+The labware class currently exists only as a placeholder for devices that are not instruments. Therefore every child of labware should really just be asserted as a flat list. The class "filtration_labware" seems to have been arbitrarily added and would seem to conflate the role a particular entity of labware would perform. I would propose removing this class to maintin the flat list.
+
 ====Solved issues====
