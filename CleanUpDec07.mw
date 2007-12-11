@@ -7,21 +7,32 @@
 
 *hybridization_chamber->to keep?cf below
 *hybridization_station->to keep?cf below
-*liquid_handler
+*liquid_handler-> to keep? see below
 
-*microarray_wash_station
-*crosslinking_instrument
-*FACS_Caliber
+*microarray_wash_station -> definition question, see below.
+*crosslinking_instrument -> concerns about the term name, see below.
+*FACS_Caliber -> concerns below
 
 *SomaScope
 
 *power_pack
-*fluorometer
 *liquid_chromatography_instrument
 
 ====Issues/Ideas====
  
 (please add your initials to keep track of who suggested what)
+
+AL, 11/12/07
+
+*General question: Kevin C made the original definition of fluorometer, and I added to it. What should I put down as the editor? I've put in OBI, but I am unsure. Is it the person who last modified it?
+
+*liquid_handler-> to keep? We already have notes in this term about keeping it only as a defined class, and infer children of it. I've cleaned up the definition, but there's not much else I can do until it is resolved.
+
+*microarray_wash_station: the current definition is "A microarray wash station is an instrument used to wash Affymetrix-type arrays.". Either this definition should be made more generic, or the term should be made more specific. It seems odd that such a general term as "microarray_wash_station" should be Affy-specific, doesn't it?
+
+*crosslinking_instrument: if we intend that other ontologies can be used in conjunction with OBI, we shouldn't have such a general term used specifically for chemically joining two or more molecules. I'm sure there are other "crosslinkers" that are on a much different scale in engineering etc. I have moved the original label to be an alternative term, and have renamed the main label accordingly (to molecular_crosslinker). Do you agree?
+
+*FACS_Caliber: I haven't changed this at all, as I don't know much about cytometers, but I also know that "The FACS Calibur is one of the most popular cytometers in use for research]" isn't a good-enough definition! Ideas?
 
 MC,6/12/07
 
