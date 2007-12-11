@@ -104,7 +104,7 @@ No DNA is known in everyday language, see naming conventions.
 
 
 
-*ImageStream: is an image_cytometer AND flow_cytometer-> moved under instrument and has_part FC and has_part image_cytometer
+*ImageStream: is an image_cytometer AND flow_cytometer-> moved under instrument and has_part FC and has_part image_cytometer, child of the new class Multispectral Imaging Flow Cytometer
 *Lactoscope is a  spectrophotometer -> done
 
 FG, (email 10/12/07)
