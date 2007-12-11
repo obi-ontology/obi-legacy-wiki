@@ -46,6 +46,8 @@ DS: If this is a frequently used entry term/search attribute we can have it as i
 DS: I guess yes. Why shouldn't we?
 
 MC: sorry was unclear. do we want to list all the possible material filters can be made of? I am also thinking about things like "quartz cuvette". Is there a way in OBI to say a filter made of paper for example? a cuvette made of quartz?
+-> we keep at the moment and will see depending on the needs
+
 
 *supernatant_collection_system_harvesting_frame -> I don't know what that is
 DS: google harvesting frame supernatant -->
@@ -59,16 +61,17 @@ DS: Labware in of more primitive constitution, has less parts, is more passive t
 
 In addition, heated_bath is under labware currently, why would it be there whereas centrifuge for example is under instrument.
 
+-> labware is not top-priority at the moment
+
 FG (7/12/07) comment: As described in the annotation properties of Labware it is only a placeholder at the minute for things that are not instruments. The whole object hierarchy is under review at the moment so the separation is temporary, indicated by the annotation property "graph_position_temporary". For the short term please ignore everything under labware and just deal with instruments. I agree the definition is not great but is dependent on a re-working of the object hierarchy. 
 
 MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our next action item could then be finalizing the hierarchy (labware, cardinal_part_of_ and _temporary)
 
 
-*FACSCalibur is an analyser and sorter. Should be moved under flow_cytometer_sorter?
 
 
 MC,7/12/07
-*computer: current def says "is an electronic instrument". should "electronic" be submitted somewhere else?
+
 *hybridization_chamber and station: hybridization should be a role?
 
 
@@ -95,6 +98,11 @@ No DNA is known in everyday language, see naming conventions.
 
 
 *FACS_Caliber: I haven't changed this at all, as I don't know much about cytometers, but I also know that "The FACS Calibur is one of the most popular cytometers in use for research]" isn't a good-enough definition! Ideas?->will be manufacturer and model number and use relations.
+
+
+*FACSCalibur is an analyser and sorter. Should be moved under flow_cytometer_sorter?-> Daniel did it
+
+*computer: current def says "is an electronic instrument". should "electronic" be submitted somewhere else? -> work on computer definition (Melanie)
 
 
 FG, (email 10/12/07)
