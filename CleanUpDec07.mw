@@ -24,7 +24,7 @@
 
 AL, 11/12/07
 
-*General question: Kevin C made the original definition of fluorometer, and I added to it. What should I put down as the editor? I've put in OBI, but I am unsure. Is it the person who last modified it?
+
 
 *liquid_handler-> to keep? We already have notes in this term about keeping it only as a defined class, and infer children of it. I've cleaned up the definition, but there's not much else I can do until it is resolved.
 
@@ -94,6 +94,8 @@ DS: Good.
 No DNA is known in everyday language, see naming conventions.
 
 *Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"-> change to particle in suspension
+
+*General question: Kevin C made the original definition of fluorometer, and I added to it. What should I put down as the editor? I've put in OBI, but I am unsure. Is it the person who last modified it?-> we put both in this case, Kevin and Allyson, in 2 annotations definition_editor
 
 
 FG, (email 10/12/07)
