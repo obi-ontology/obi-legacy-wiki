@@ -72,8 +72,6 @@ MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our
 
 MC,7/12/07
 
-*hybridization_chamber and station: hybridization should be a role?
-
 
 *ImageStream: is an image_cytometer
 *Lactoscope is a  spectrophotometer
@@ -104,6 +102,8 @@ No DNA is known in everyday language, see naming conventions.
 
 *computer: current def says "is an electronic instrument". should "electronic" be submitted somewhere else? -> work on computer definition (Melanie)
 
+
+*hybridization_chamber and station: hybridization should be a role?-> hybridization is a process
 
 FG, (email 10/12/07)
 
