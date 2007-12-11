@@ -28,9 +28,9 @@ AL, 11/12/07
 
 *liquid_handler-> to keep? We already have notes in this term about keeping it only as a defined class, and infer children of it. I've cleaned up the definition, but there's not much else I can do until it is resolved.->FG will send an email to X in MO to sort that out
 
-*microarray_wash_station: the current definition is "A microarray wash station is an instrument used to wash Affymetrix-type arrays.". Either this definition should be made more generic, or the term should be made more specific. It seems odd that such a general term as "microarray_wash_station" should be Affy-specific, doesn't it?
+*microarray_wash_station: the current definition is "A microarray wash station is an instrument used to wash Affymetrix-type arrays.". Either this definition should be made more generic, or the term should be made more specific. It seems odd that such a general term as "microarray_wash_station" should be Affy-specific, doesn't it?->FG will send an email to X in MO to sort that out
 
-*crosslinking_instrument: if we intend that other ontologies can be used in conjunction with OBI, we shouldn't have such a general term used specifically for chemically joining two or more molecules. I'm sure there are other "crosslinkers" that are on a much different scale in engineering etc. I have moved the original label to be an alternative term, and have renamed the main label accordingly (to molecular_crosslinker). Do you agree?
+*crosslinking_instrument: if we intend that other ontologies can be used in conjunction with OBI, we shouldn't have such a general term used specifically for chemically joining two or more molecules. I'm sure there are other "crosslinkers" that are on a much different scale in engineering etc. I have moved the original label to be an alternative term, and have renamed the main label accordingly (to molecular_crosslinker). Do you agree?->FG will send an email to X in MO to sort that out
 
 *FACS_Caliber: I haven't changed this at all, as I don't know much about cytometers, but I also know that "The FACS Calibur is one of the most popular cytometers in use for research]" isn't a good-enough definition! Ideas?
 
