@@ -66,7 +66,7 @@ MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our
 
 
 *FACSCalibur is an analyser and sorter. Should be moved under flow_cytometer_sorter?
-*Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"
+
 
 MC,7/12/07
 *computer: current def says "is an electronic instrument". should "electronic" be submitted somewhere else?
@@ -92,6 +92,8 @@ DS: Good.
 
 *thermal_cycler: alternative terms PCR_machine. As per Daniels reccomendation I put PCR and Polymerase CHain Reaction _machine as alt terms. However an other alt term is DNA_amplifier, do we want to "explode" DNA?
 No DNA is known in everyday language, see naming conventions.
+
+*Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"-> change to particle in suspension
 
 
 FG, (email 10/12/07)
