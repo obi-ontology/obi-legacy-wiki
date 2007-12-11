@@ -72,9 +72,6 @@ MC (7/12/07): ok with that. I would suggest finishing the terms clean-up and our
 
 MC,7/12/07
 
-
-*ImageStream: is an image_cytometer
-*Lactoscope is a  spectrophotometer
 *difference between somacount and somascope?
 
 
@@ -104,6 +101,11 @@ No DNA is known in everyday language, see naming conventions.
 
 
 *hybridization_chamber and station: hybridization should be a role?-> hybridization is a process
+
+
+
+*ImageStream: is an image_cytometer AND flow_cytometer-> moved under instrument and has_part FC and has_part image_cytometer
+*Lactoscope is a  spectrophotometer -> done
 
 FG, (email 10/12/07)
 
