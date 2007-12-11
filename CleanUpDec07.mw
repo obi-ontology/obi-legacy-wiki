@@ -32,7 +32,6 @@ AL, 11/12/07
 
 *crosslinking_instrument: if we intend that other ontologies can be used in conjunction with OBI, we shouldn't have such a general term used specifically for chemically joining two or more molecules. I'm sure there are other "crosslinkers" that are on a much different scale in engineering etc. I have moved the original label to be an alternative term, and have renamed the main label accordingly (to molecular_crosslinker). Do you agree?->FG will send an email to X in MO to sort that out
 
-*FACS_Caliber: I haven't changed this at all, as I don't know much about cytometers, but I also know that "The FACS Calibur is one of the most popular cytometers in use for research]" isn't a good-enough definition! Ideas?
 
 MC,6/12/07
 
@@ -93,6 +92,9 @@ No DNA is known in everyday language, see naming conventions.
 *Guava cytometers use aspiration and not a fluid to transport the cells within the machine, however our definition of flow_cytometer says "A flow_cytometer is an instrument for counting, examining and sorting microscopic particles suspended in a stream of fluid"-> change to particle in suspension
 
 *General question: Kevin C made the original definition of fluorometer, and I added to it. What should I put down as the editor? I've put in OBI, but I am unsure. Is it the person who last modified it?-> we put both in this case, Kevin and Allyson, in 2 annotations definition_editor
+
+
+*FACS_Caliber: I haven't changed this at all, as I don't know much about cytometers, but I also know that "The FACS Calibur is one of the most popular cytometers in use for research]" isn't a good-enough definition! Ideas?->will be manufacturer and model number and use relations.
 
 
 FG, (email 10/12/07)
