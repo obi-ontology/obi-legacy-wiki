@@ -1,4 +1,17 @@
 ====Summary of the Instrument Branch Conference Calls====
+
+11. December 07:
+Agenda:
+    * Discuss metadata name issues on citation vs source
+    * Discuss cardinality of above
+    * Discuss term update results/issues, e.g.
+          o "cardinal_part_of_instrument" class now seems out of place which is not even classified as a device.
+    * Instrument use case discussion
+    * Resolve problems with 'question-marked' classes.
+    * Discuss policy to mark Meta-classes/helper classes via '_'-prefix.
+    * ???
+
+
 04. December 07:
 *Agenda:
 ** Defined classes discussion
