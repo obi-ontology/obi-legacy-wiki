@@ -26,7 +26,7 @@ AL, 11/12/07
 
 
 
-*liquid_handler-> to keep? We already have notes in this term about keeping it only as a defined class, and infer children of it. I've cleaned up the definition, but there's not much else I can do until it is resolved.
+*liquid_handler-> to keep? We already have notes in this term about keeping it only as a defined class, and infer children of it. I've cleaned up the definition, but there's not much else I can do until it is resolved.->FG will send an email to X in MO to sort that out
 
 *microarray_wash_station: the current definition is "A microarray wash station is an instrument used to wash Affymetrix-type arrays.". Either this definition should be made more generic, or the term should be made more specific. It seems odd that such a general term as "microarray_wash_station" should be Affy-specific, doesn't it?
 
@@ -81,9 +81,6 @@ MC,7/12/07
 MC, 10/12/07
 
 *definition_citation: the cardinality of the definition_citation is 1, when there are 2 sources, do we put the 2 sources in the one field (separator?) or do we choose one?
-
-
-
 
 ====Solved issues====
 
