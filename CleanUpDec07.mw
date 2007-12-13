@@ -19,6 +19,12 @@
 *liquid_chromatography_instrument
 
 ====Issues/Ideas====
+
+MC, 13/12/07
+
+Did somebody remove some of the curation_status annotations? All terms had one added automatically and now some are missing. This is a required metadata as explained here https://wiki.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata
+
+
  
 (please add your initials to keep track of who suggested what)
 
