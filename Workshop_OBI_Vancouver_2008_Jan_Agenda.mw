@@ -12,7 +12,7 @@
 
 * Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
 
-* Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
+** Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
 
 * A session focused on use cases and assessment strategies.  We are at a stage now where this is going to be critical for OBI to be recognized as useful and adopted.
 
@@ -26,35 +26,68 @@
 
 ** Agenda detail
 
-Monday 28/01
+*'''Monday 28/01'''
 
 morning: Use Cases
 
 afternoon: Use Cases
 
-Tuesday 29/01
+Presentation of use cases. We expect 1 use case per "group" coming (+ Lilly)
+10 min presentation, 20 min discussion
+
+'''''outcome:''''' list of requirements for OBI/tools to fulfill
+
+end of day dedicated to general discussion 
+
+
+
+*'''Tuesday 29/01'''
 
 morning: Branch breakout
 
 afternoon: Branch breakout 
 
-Wednesday 30/01
+Branch lead editor hosts the branch break out for the whole day. Has the option to nominate somebody to replace him/her though.
+
+'''''outcome:''''' summary of issues 
+
+
+*'''Wednesday 30/01'''
 
 morning:Branch reports
 
 afternoon: Branch reports
 
-Thursday 31/01
+Branch leader summarizes discussion/issues within his/her branch
+1h per branch is allocated (20min presentation general status/issues, 40min discussion)
+Roles and relations, having general impact, will be the first ones.
 
-morning: 
+End of the day: discussion about remaining issues
 
-afternoon:
+'''''outcome:''''' issues solved and identification of remaining issues 
 
-Friday 01/02
 
-morning:
+*'''Thursday 31/01'''
 
-afternoon: end of workshop at noon?
+Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
+
+Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
+
+Discussion of polysemy and ways to solve that, DT have examples
+
+Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
+
+'''''outcome:''''' issues solved, with a practical example when applicable 
+
+
+*'''Friday 01/02'''
+
+Propose clear milestones.
+Proposal for sub-milestones and shorter deadlines. Mechanism to follow up/centralize progress.
+eg:
+end february -> terms clean (definition, metadata)
+end march -> hierarchy clean
+... 
 
  
 
