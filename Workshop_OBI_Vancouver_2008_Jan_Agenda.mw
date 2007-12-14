@@ -69,6 +69,8 @@ End of the day: discussion about remaining issues
 
 *'''Thursday 31/01'''
 
+Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
+
 Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
 
 Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
