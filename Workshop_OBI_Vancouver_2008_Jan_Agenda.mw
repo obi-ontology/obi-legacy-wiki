@@ -70,17 +70,22 @@ End of the day: discussion about remaining issues
 '''''outcome:''''' issues solved and identification of remaining issues 
 
 
-*'''Thursday 31/01'''
+*'''Thursday 31/01''' - Parallel sessions
 
-Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
+Session 1 - General policies
 
 Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
+
+Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
+
+Session 2 - OWL technicalities
+
+Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
 
 Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
 
 Discussion of polysemy and ways to solve that, DT have examples
 
-Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
 
 '''''outcome:''''' issues solved, with a practical example when applicable 
 
