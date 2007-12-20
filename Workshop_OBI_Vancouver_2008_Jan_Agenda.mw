@@ -1,15 +1,21 @@
 <b>Draft agenda (for discussion)</b>
 
-* [http://sourceforge.net/mailarchive/message.php?msg_name=90B06673D826C64E8ED8EEA6B6FDF8CA0219005D%40crcmail1.BCCRC.CA interaction with roles branch] Data transformation has identified some terms that we consider to be roles, these will be submitted to Roles branch in due course. The interaction of the dt and roles branch and design considerations is what we would like to discuss with all branches
-
-* Suggestion from DT to running whole group sessions in the pm and running parallel branch specific sessions in the am (or vice versa). Can the venue support that? Suggestion is to have branch meetings first before main meetings get really started. Would the lead editor indicate if they want to meet on the milestone spreadsheet.
-
-* Discussion of polysemy and ways to solve that, DT have examples
+'''General issues to consider'''
 
 * When to move Protege 4. Cost Benefit Analysis
 
 * Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
 
+
+
+
+'''Issues addressed by the agenda below'''
+
+* [http://sourceforge.net/mailarchive/message.php?msg_name=90B06673D826C64E8ED8EEA6B6FDF8CA0219005D%40crcmail1.BCCRC.CA interaction with roles branch] Data transformation has identified some terms that we consider to be roles, these will be submitted to Roles branch in due course. The interaction of the dt and roles branch and design considerations is what we would like to discuss with all branches
+
+* Suggestion from DT to running whole group sessions in the pm and running parallel branch specific sessions in the am (or vice versa). Can the venue support that? Suggestion is to have branch meetings first before main meetings get really started. Would the lead editor indicate if they want to meet on the milestone spreadsheet.
+
+* Discussion of polysemy and ways to solve that, DT have examples
 * Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
 
 ** Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
@@ -21,7 +27,7 @@
 *  We should add language to distinguish from function and relations.  possibly a good candidate for a discussion at the face-to-face. 
 *  Collaboration with W3C HCLSIG Experiment Ontology effort
 
-* BYOUC. Bring your own use cases. richard scheuermann: I volunteer to present a use case related to infectious disease research.
+* BYOUC. Bring your own use cases. Richard Scheuermann: I volunteer to present a use case related to infectious disease research.
 
 
 ** Agenda detail
