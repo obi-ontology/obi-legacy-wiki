@@ -6,7 +6,11 @@
 
 * Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
 
-*  Collaboration with W3C HCLSIG Experiment Ontology effort
+* Collaboration with W3C HCLSIG Experiment Ontology effort
+
+* Some methods are using the distance in the ontology to compute data. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
+
+* discussion on analyte, stimulus
 
 
 '''Issues addressed by the agenda below'''
@@ -99,6 +103,9 @@ Session 1 - General policies
 Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
 
 Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
+
+Other concerns raised by members:
+- formalize "why do we try and avoid multiple inheritance?"
 
 Session 2 - OWL technicalities
 
