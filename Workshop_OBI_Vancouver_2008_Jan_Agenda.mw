@@ -4,6 +4,8 @@
 
 '''General issues to consider'''
 
+* A road map to release: branch dissolution? -> Single OBI file? -> Evaluation? -> Iterate? 
+
 * When to move Protege 4. Cost Benefit Analysis
 
 * Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
@@ -35,7 +37,6 @@
 *  We should add language to distinguish from function and relations.  possibly a good candidate for a discussion at the face-to-face. 
 
 * BYOUC. Bring your own use cases. Richard Scheuermann: I volunteer to present a use case related to infectious disease research.
-
 
 ==Agenda detail==
 
