@@ -112,6 +112,8 @@ Discussion on where there are multiple branch implications e.g. algorithms and t
 Other concerns raised by members:
 - formalize "why do we try and avoid multiple inheritance?"
 
+CENTRA CALL: 9-10 PST
+
 Session 2 - OWL technicalities
 
 Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
@@ -119,6 +121,9 @@ Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.
 Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
 
 Discussion of polysemy and ways to solve that, DT have examples
+
+
+CENTRA CALL: 10-11 PST
 
 
 '''''outcome:''''' issues solved, with a practical example when applicable 
@@ -131,9 +136,8 @@ Proposal for sub-milestones and shorter deadlines. Mechanism to follow up/centra
 eg:
 end february -> terms clean (definition, metadata)
 end march -> hierarchy clean
-... 
+...
 
- 
 ==List of attendees==
 
 1. "physical" attendees
