@@ -55,7 +55,52 @@ end of day dedicated to general discussion
 
 
 
-*'''Tuesday 29/01'''
+*'''Tuesday 29/01''' - Parallel sessions
+
+
+Session 1 - General policies
+
+Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
+
+Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
+
+Other concerns raised by members:
+- formalize "why do we try and avoid multiple inheritance?"
+
+CENTRA CALL: 9-10 PST
+
+Session 2 - OWL technicalities
+
+Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
+
+Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
+
+Discussion of polysemy and ways to solve that, DT have examples
+
+
+CENTRA CALL: 10-11 PST
+
+
+'''''outcome:''''' issues solved, with a practical example when applicable 
+
+
+*'''Wednesday 30/01'''
+
+morning:Branch reports
+
+afternoon: Branch reports
+
+Branch leader summarizes discussion/issues within his/her branch
+1h per branch is allocated (20min presentation general status/issues, 40min discussion)
+Roles and relations, having general impact, will be the first ones.
+
+End of the day: discussion about remaining issues
+
+'''''outcome:''''' issues solved and identification of remaining issues 
+
+
+*'''Thursday 31/01'''
+
 
 ''agenda for  [[BranchBreakout|Branch Individual breakout]]''
 
@@ -86,48 +131,6 @@ afternoon: Mixed branch breakout
 '''''outcome:''''' summary of issues 
 
 
-*'''Wednesday 30/01'''
-
-morning:Branch reports
-
-afternoon: Branch reports
-
-Branch leader summarizes discussion/issues within his/her branch
-1h per branch is allocated (20min presentation general status/issues, 40min discussion)
-Roles and relations, having general impact, will be the first ones.
-
-End of the day: discussion about remaining issues
-
-'''''outcome:''''' issues solved and identification of remaining issues 
-
-
-*'''Thursday 31/01''' - Parallel sessions
-
-Session 1 - General policies
-
-Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
-
-Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
-
-Other concerns raised by members:
-- formalize "why do we try and avoid multiple inheritance?"
-
-CENTRA CALL: 9-10 PST
-
-Session 2 - OWL technicalities
-
-Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
-
-Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
-
-Discussion of polysemy and ways to solve that, DT have examples
-
-
-CENTRA CALL: 10-11 PST
-
-
-'''''outcome:''''' issues solved, with a practical example when applicable 
-
 
 *'''Friday 01/02'''
 
@@ -154,6 +157,7 @@ end march -> hierarchy clean
 *Alan Ruttenberg
 *Susanna Sansone
 *Richard Scheuermann
+*Barry Smith
 
 2. "remote" attendees
 
