@@ -71,8 +71,7 @@ Communities are compiling lists of their ~BioMaterial term requirements (prefera
 Lists of required relationships are also being compiled. For example, partipants are compiling relations required to create a formal specification of an action/treatment/protocol performed on a given ~BioMaterial. Where possible, candidate relations should be taken from - or at least derived from - the [[http://obo.sourceforge.net/cgi-bin/detail.cgi?relationship OBO Relations (RO)]] ontology.
 
 ==Editors==
-* Susanna (Lead Editor)
-* Melanie Courtot
+* Susanna and Melanie Courtot (Lead Editors)
 * Alan Ruttenberg
 * Daniel Schober
 * Bjoern Peters
