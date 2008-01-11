@@ -4,19 +4,18 @@
 === January 18, 2008 ===
 
 === January 11, 2008 ===
-Malenie recap the work she is doing with James:
+Melanie recap the work she is doing with James:
 * Clean up individual metadata' terms: definitions, editors etc
-* Fild place in hierarchy
+* Find place in hierarchy
 
 Proposal to keep '''Biomaterial''' as '''name of the branch''', but with the following '''definition: object and has_role (sample role or reagent role)'''.
 While Device would be an object and ((has_role some instrument_role) or (has_part some (has_role some instrument_role)))
 
 Bjoern will put the following question to Barry: "How are roles associated with classes of objects? Does the fact that one object in one context has a role transfer this to the class, or does only the object at the moment it plays the role has the role?"
 
-What do we do with terms like 'allel' or 'gene', are these Biomaterial? If it is 'gene record' then is not, moved to other branch, but when referring to the polimer, then yes, but with other name, e.g. 'nucleotide sequence'.
+What do we do with terms like 'allele' or 'gene', are these Biomaterial? If it is 'gene record' then is not, moved to other branch, but when referring to the polymer, then yes, but with other name, e.g. 'nucleotide sequence'.
 
 In the next call (Jan 18th) we will review the latest list of terms according to proposed definition.
-
 
 === January 04, 2008 ===
 General discussion on the biomaterial branch.
