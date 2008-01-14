@@ -40,6 +40,10 @@
 
 *'''Monday 28/01'''
 
+
+CENTRA CALL: 9-10 PST
+
+
 morning: Use Cases
 
 afternoon: Use Cases
@@ -58,6 +62,9 @@ end of day dedicated to general discussion
 *'''Tuesday 29/01''' - Parallel sessions
 
 
+CENTRA CALL: 9-10 PST
+
+
 Session 1 - General policies - Dorothy Lam Boardroom, ground floor.
 
 How do we resolve difficult development decisions (e.g. long discussion on analyte)
@@ -70,7 +77,6 @@ Discussion on where there are multiple branch implications e.g. algorithms and t
 Other concerns raised by members:
 - formalize "why do we try and avoid multiple inheritance?"
 
-CENTRA CALL: 9-10 PST
 
 Session 2 - OWL technicalities - 14th floor conference meeting room
 
@@ -81,9 +87,6 @@ Representing mappings to other ontologies in OBI. DT will map to MO terms by the
 Discussion of polysemy and ways to solve that, DT have examples
 
 
-CENTRA CALL: 10-11 PST
-
-
 Afetrnoon - 3pm
 * Road map to release: branch dissolution? -> Single OBI file? -> Evaluation? -> Iterate? 
 
@@ -92,6 +95,10 @@ Afetrnoon - 3pm
 
 
 *'''Wednesday 30/01'''
+
+
+CENTRA CALL: 9-10 PST
+
 
 Branch review
 
@@ -109,6 +116,11 @@ End of meeting at 4pm, then snow trip to Cypress mountain: https://wiki.cbil.upe
 
 *'''Thursday 31/01'''
 
+
+CENTRA CALL: 9-10 PST
+
+
+
 Branch review
 
 Each branch will be allocated one hour for discussion. If some time remains at the end of these 2 days we can come back on some of them.
@@ -122,10 +134,19 @@ End of the day: discussion about remaining issues
 
 *'''Friday 01/02'''
 
+
+CENTRA CALL: 9-10 PST
+
+
+
 Propose clear milestones.
+
 Proposal for sub-milestones and shorter deadlines. Mechanism to follow up/centralize progress.
+
 eg:
+
 end february -> terms clean (definition, metadata)
+
 end march -> hierarchy clean
 ...
 
