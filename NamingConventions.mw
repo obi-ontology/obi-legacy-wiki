@@ -1,15 +1,11 @@
-'''Naming Conventions for use in Controlled Vocabulary and Ontology Engineering'''
-
-So far no common naming convention have been agreed upon or accepted by a wider community. We believe that the application of common naming guidelines can maximize the communication among geographically distributed developers, simplify ontology development and help in subsequent administration tasks.
-By increasing the robustness of controlled vocabulary term and class names, we anticipate that a standard naming convention will assist in the integration, e.g. comparison, alignment and mapping of terminological artifacts. They can facilitate access to ontologies through meta-tools, e.g. PROMPT related ontology merging tools as currently developed by the NCBO BioPortal, by reducing the diversity with which these tools have to deal, thus reducing the burden on tool- and ontology developers alike. Further more explicit naming conventions will ease the use of context-based text-mining procedures used for automatic term-recognition and annotation. On the user side, naming conventions can increase term accessibility and increase exportability and term re-use, reducing development time and costs. Therefore we foresee that such conventions could benefit the overall management of the final resources.
-A concerted activity has been directed towards the review of existing documentations in an effort to distill universally valid term naming guidelines. The aim of this analysis is to overcome the present diversity and fragmentation of naming schemes throughout the different ontology groups and to determine what conventions can be commonly applied to aid in the creation of robust labels / names for controlled vocabulary terms and ontology classes in the biological domain. 
-To prevent OE groups to re-invent the wheel over and over again the construction of a common repository to collect such conventions for the main representation languages is desirable. Only if these conventions are made explicit  and are published in an open resource, they can easily be compared to each other and get evaluated/developed further. 
+'''Naming Conventions'''
 
 A guidance document entitled '''Towards naming conventions for use in controlled vocabulary and ontology engineering''' has been developed by the Metabolomics Standards Society - Ontology Working Group, in collaboration with the OBO-Foundry. Initially it intended to cover the needs of the following groups:
 * Metabolomics Standards Initioative (MSI)
 * Proteomics Standards Initiative (PSI)
 * Ontology of Biomedical Investigations (OBI)
-Ultimately we hope that in its final form these naming conventions will be widely endorsed by larger umbrella organizations and recognized authorities, becoming part of OBO Foundry best practice design principles. Currently a questionaire and survey is prepared to evaluate what conventions were used by the OBO Foundry ontologies so far. Find more details as well as the survey results on http://obofoundry.org/wiki/index.php/Naming
+Ultimately we hope that in its final form these naming conventions will be widely endorsed by larger umbrella organizations and recognized authorities, becoming part of OBO Foundry best practice design principles. 
+Find the actual naming conventions on the OBO Foundry wiki at http://obofoundry.org/wiki/index.php/Naming
 
 Initial recommendations and best practices have been published in the conference proceedings http://bio-ontologies.org.uk/download/Bio-Ontologies2007.pdf and on the website of the Bio-Ontology SIG at ISMB 2007. 
 
