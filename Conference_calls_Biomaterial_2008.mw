@@ -1,7 +1,116 @@
 ==Biomaterial Conference Calls==
 
  A link to the full list of files used for or produced after each call can be [[BiomaterialTermNeedsLists| found here.]]
+
 === January 18, 2008 ===
+
+We reviewed 
+****
+for PATO:
+- emulsion: an emulsion is a mixture of two immiscible substances. One
+substance (the dispersed phase) is dispersed in the other (the
+continuous
+phase).
+
+- solution: a solution is a homogeneous mixture composed of two or
+more
+substances. In such a mixture, a solute is dissolved in another
+substance,
+known as solvent.
+
+- suspension: a suspension is a heterogenous fluid containing solid
+particles that are sufficiently large for sedimentation. The internal
+phase
+(solid) is dispersed throughout the external phase (fluid).
+
+
+For ROLE:
+
+- supernatant: is the role of a liquid floating above non-soluble
+solids/precipitates
+
+- provider: there is already supplier in role, with reagent supplier,
+subject provider and technology provider as children. If we define
+biomaterial as object with role sample or reagent, maybe we should
+suggest
+to replace reagent supplier with biomaterial supplier, and add an
+alternative term provider to the parent term supplier.
+
+- pellet: is the role of the concentrated component of a mixture that
+has
+been centrifuged (note: wikipedia seems to consider precipitate as a
+synonym, however I don't think it is the case, pellet refering to
+centrifugation whereas precipitate is the solid formed during a
+chemical
+reaction. Precipitate could be an other role and precipitation could
+go
+under material separation in the protocol application branch.
+Precipitate is
+also mentioned in the definition of supernatant above)
+
+- precipitate: role of a solid formed during a chemical reaction.
+
+- dye: role of substance capable of staining or coloring defined
+targets
+
+For PROTOCOL_APPLICATION:
+
+1. transplantation: an operation in which an organ or tissue is
+transplanted
+
+with children
+
+2. xenotransplantation:  is the transplantation of living cells,
+tissues or
+organs from one species to another such as from pigs to humans
+
+3. allotransplantation: is the transplantation of organs between
+members of
+the same species.
+
+4. autotransplantation: is the transplantation of tissue from one part
+of
+the body to another in the same individual. )
+
+5. transcription: transcription is the process by which genetic
+information
+from DNA is transferred into RNA. DNA sequence is enzymatically copied
+by
+RNA polymerase to produce a complementary nucleotide RNA strand .
+(note: there is already reverse_transcription under
+material_transformation)
+
+6. translation: translation is the second stage of protein
+biosynthesis,
+during which messenger RNA is decoded to produce a specific
+polypeptide
+according to rules specified by the genetic code.
+
+7. precipitation: formation of a solid in a solution during a chemical
+reaction (possibly a child of material separation)
+
+TO DELETE:
+1. population: is already under object_aggregate -> flag for deletion
+
+
++ other terms as mentioned in the OWL file:
+-_move to quality:
+1. natural biomaterial (and child ecotype)
+2. unicellular organism
+3. in vivo biomaterial
+4. artificially engineered biomaterial
+5. organism status (pre or post mortem)
+
+- _move to aggregate
+1.cDNA library
+2.cohort
+3.strain
+
+-_move to relations
+1. cell derived from multicellular organism
+
+
+
 
 === January 11, 2008 ===
 Melanie recap the work she is doing with James:
