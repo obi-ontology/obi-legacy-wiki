@@ -84,6 +84,7 @@ are biomaterials.
 protocol application branch
 
 '''D''' 
+
 Closer integration among branches, e.g. provider, to be solved at the workshop.
 
 The 'provider' is a synonim of 'supplier', remove 'reagent supplier'
@@ -93,24 +94,24 @@ The 'provider' is a synonim of 'supplier', remove 'reagent supplier'
 
 For PROTOCOL_APPLICATION:
 
-1. transplantation: an operation in which an organ or tissue is
+8. transplantation: an operation in which an organ or tissue is
 transplanted
 
 with children
 
-2. xenotransplantation:  is the transplantation of living cells,
+9. xenotransplantation:  is the transplantation of living cells,
 tissues or
 organs from one species to another such as from pigs to humans
 
-3. allotransplantation: is the transplantation of organs between
+10. allotransplantation: is the transplantation of organs between
 members of
 the same species.
 
-4. autotransplantation: is the transplantation of tissue from one part
+11. autotransplantation: is the transplantation of tissue from one part
 of
 the body to another in the same individual. )
 
-5. transcription: transcription is the process by which genetic
+12. transcription: transcription is the process by which genetic
 information
 from DNA is transferred into RNA. DNA sequence is enzymatically copied
 by
@@ -118,14 +119,16 @@ RNA polymerase to produce a complementary nucleotide RNA strand .
 (note: there is already reverse_transcription under
 material_transformation)
 
-6. translation: translation is the second stage of protein
+13. translation: translation is the second stage of protein
 biosynthesis,
 during which messenger RNA is decoded to produce a specific
 polypeptide
 according to rules specified by the genetic code.
 
-7. precipitation: formation of a solid in a solution during a chemical
+14. precipitation: formation of a solid in a solution during a chemical
 reaction (possibly a child of material separation)
+
+-----
 
 TO DELETE:
 1. population: is already under object_aggregate -> flag for deletion
