@@ -5,7 +5,7 @@
 === January 18, 2008 ===
 
 We reviewed Melanie/James proposed change on the existing terms.
-There changs are below, along with our decisions ('''D''') and actions.
+There changs are below, along with our comments ('''C''') decisions ('''D''') and actions.
 
 ---- 
 Move these to PATO:
@@ -62,6 +62,25 @@ also mentioned in the definition of supernatant above)
 
 - dye: role of substance capable of staining or coloring defined
 targets
+
+'''C''' from Bjoern
+- I would like to understand why emulsion, solution and suspension are
+not materials and / or what the bearer of these qualities would be.
+
+- Provider role / supplier role: This has been going back and forth
+between branches. The use case is that people want to specify a
+provider for a material. How will that now be achieved? I don't think
+that is necessarily for this branch to solve, but we need to keep in
+mind that people were submitting this to the biomaterial branch in
+order to make this link, not because they were assuming that providers
+are biomaterials.
+
+- transcription, translation and precipitation are already in the
+protocol application branch
+
+
+
+
 
 For PROTOCOL_APPLICATION:
 
