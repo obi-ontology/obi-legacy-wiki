@@ -10,7 +10,7 @@ We reviewed Melanie/James proposed change on the existing terms.
 There changs are below, along with our comments ('''C''') decisions ('''D''') and actions.
 
 ---- 
-Move these to PATO:
+'''Move these to PATO:'''
 
 1.  emulsion: an emulsion is a mixture of two immiscible substances. One
 substance (the dispersed phase) is dispersed in the other (the
@@ -38,7 +38,7 @@ ask Chris/George if it is still true that PATO only includes 'natural qualities'
 
 ----
 
-For ROLE:
+'''Move to ROLE:'''
 
 3. supernatant: is the role of a liquid floating above non-soluble
 solids/precipitates
@@ -92,7 +92,7 @@ The 'provider' is a synonim of 'supplier', remove 'reagent supplier'
 
 ------
 
-For PROTOCOL_APPLICATION:
+'''Move to PROTOCOL_APPLICATION:'''
 
 8. transplantation: an operation in which an organ or tissue is
 transplanted
@@ -131,10 +131,14 @@ reaction (possibly a child of material separation)
 '''D'''
 
 
+
+
+
 -----
 
-TO DELETE:
-1. population: is already under object_aggregate -> flag for deletion
+'''TO DELETE:'''
+
+15. population: is already under object_aggregate -> flag for deletion
 
 
 + other terms as mentioned in the OWL file:
