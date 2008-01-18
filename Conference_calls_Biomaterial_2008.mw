@@ -40,17 +40,17 @@ ask Chris/George if it is still true that PATO only includes 'natural qualities'
 
 For ROLE:
 
-- supernatant: is the role of a liquid floating above non-soluble
+3. supernatant: is the role of a liquid floating above non-soluble
 solids/precipitates
 
-- provider: there is already supplier in role, with reagent supplier,
+4. provider: there is already supplier in role, with reagent supplier,
 subject provider and technology provider as children. If we define
 biomaterial as object with role sample or reagent, maybe we should
 suggest
 to replace reagent supplier with biomaterial supplier, and add an
 alternative term provider to the parent term supplier.
 
-- pellet: is the role of the concentrated component of a mixture that
+5. pellet: is the role of the concentrated component of a mixture that
 has
 been centrifuged (note: wikipedia seems to consider precipitate as a
 synonym, however I don't think it is the case, pellet refering to
@@ -62,12 +62,12 @@ under material separation in the protocol application branch.
 Precipitate is
 also mentioned in the definition of supernatant above)
 
-- precipitate: role of a solid formed during a chemical reaction.
+6. precipitate: role of a solid formed during a chemical reaction.
 
-- dye: role of substance capable of staining or coloring defined
+7. dye: role of substance capable of staining or coloring defined
 targets
 
-'''C from Bjoern'''
+'''C from Bjoern''' prior call
 
 - I would like to understand why emulsion, solution and suspension are
 not materials and / or what the bearer of these qualities would be.
@@ -84,7 +84,9 @@ are biomaterials.
 protocol application branch
 
 '''D''' 
+Closer integration among branches, e.g. provider, to be solved at the workshop.
 
+The 'provider' is a synonim of 'supplier', remove 'reagent supplier'
 
 
 ------
