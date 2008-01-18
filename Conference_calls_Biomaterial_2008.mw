@@ -141,22 +141,21 @@ reaction (possibly a child of material separation)
 15. population: is already under object_aggregate -> flag for deletion
 
 
-+ other terms as mentioned in the OWL file:
--_move to quality:
+16. other terms as mentioned in the OWL file:
+A. move to quality:
 1. natural biomaterial (and child ecotype)
 2. unicellular organism
 3. in vivo biomaterial
 4. artificially engineered biomaterial
 5. organism status (pre or post mortem)
 
-- _move to aggregate
+B. _move to aggregate
 1.cDNA library
 2.cohort
 3.strain
 
--_move to relations
+C. move to relations
 1. cell derived from multicellular organism
-
 
 
 
