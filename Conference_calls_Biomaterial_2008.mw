@@ -9,14 +9,14 @@ There changs are below, along with our decisions ('''D''').
 
 ---- 
 Move these to PATO:
- * emulsion: an emulsion is a mixture of two immiscible substances. One
+1.  emulsion: an emulsion is a mixture of two immiscible substances. One
 substance (the dispersed phase) is dispersed in the other (the
 continuous
 phase).
 
 '''D''' 
 
- * solution: a solution is a homogeneous mixture composed of two or
+2. solution: a solution is a homogeneous mixture composed of two or
 more
 substances. In such a mixture, a solute is dissolved in another
 substance,
