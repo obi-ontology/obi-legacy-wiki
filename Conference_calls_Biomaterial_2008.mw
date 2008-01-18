@@ -175,9 +175,8 @@ Create defined class that is the 'output of a material transformation' (name to 
 17. There is no group in the taxonomy to distinguish between e.g. immortal cell line or single cell; that is why we have this term. Bjoern: we nee to place both 'unicellular' and 'multicellular' under organism
 Alan: says CARO has 'multicellular' CARO:0000012   
 
-18. What about a 'xenograft'? Wikipedia says that this a quality of how the process is done. 
-
-Apply only to 'multicellular'?
+18. Not move: we need to apply specific use cases. 
+[What about a 'xenograft'? Wikipedia says that these terms a quality of how the process is done.  Note that this only apply to 'multicellular' organisms, but what about parasites?]
 
 ----
 
