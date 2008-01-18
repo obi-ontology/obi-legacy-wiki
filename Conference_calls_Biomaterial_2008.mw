@@ -5,7 +5,7 @@
 === January 18, 2008 ===
 
 We reviewed Melanie/James proposed change on the existing terms.
-There changs are below, along with our decisions ('''D''').
+There changs are below, along with our decisions ('''D''') and actions.
 
 ---- 
 Move these to PATO:
@@ -15,20 +15,21 @@ substance (the dispersed phase) is dispersed in the other (the
 continuous
 phase).
 
-'''D''' 
-
 2. solution: a solution is a homogeneous mixture composed of two or
 more
 substances. In such a mixture, a solute is dissolved in another
 substance,
 known as solvent.
 
- *  suspension: a suspension is a heterogenous fluid containing solid
+3. suspension: a suspension is a heterogenous fluid containing solid
 particles that are sufficiently large for sedimentation. The internal
 phase
 (solid) is dispersed throughout the external phase (fluid).
 
-ACTION for SAS: 
+'''D'''
+Create a new entiry 'misture' under independent continuant and leave the formal definiotions open: so that this class will hold the above terms.
+
+'''ACTION''' for SAS: 
 ask Chris/George if it is still true that PATO only includes 'natural qualities' only, or also 'experimental qualities'.
 
 For ROLE:
