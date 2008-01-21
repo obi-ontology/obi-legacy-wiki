@@ -1,16 +1,5 @@
 =OBI Workshop - Agenda=
 
-==Draft agenda (items for discussion)==
-
-'''General issues to consider'''
-
-* When to move Protege 4. Cost Benefit Analysis
-
-* Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
-
-* Some methods are using the distance in the ontology to compute data. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
-
-* discussion on analyte, stimulus
 
 ==Agenda detail==
 
@@ -75,6 +64,13 @@ Discussion on where there are multiple branch implications e.g. algorithms and t
 
 Other concerns raised by members:
 - formalize "why do we try and avoid multiple inheritance?"
+- When to move Protege 4. Cost Benefit Analysis
+
+- Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
+
+- Some methods are using the distance in the ontology to compute data. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
+
+- discussion on analyte, stimulus
 
 
 Session 2 - OWL technicalities - 14th floor conference meeting room
