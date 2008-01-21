@@ -154,6 +154,7 @@ Known issues:
 - biomaterial: states: in vivo, in vitro, pre and post mortem....
 - redundancy between relation and roles
 - instrument and biomaterial: how to deal with commercial terms
+- protocol_application: natural process: how to represent, how to link to GO 
 
 '''''outcome:''''' summary of issues / status
 
