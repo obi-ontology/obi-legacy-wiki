@@ -8,35 +8,9 @@
 
 * Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
 
-* Collaboration with W3C HCLSIG Experiment Ontology effort
-
 * Some methods are using the distance in the ontology to compute data. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
 
 * discussion on analyte, stimulus
-
-* ambiguity of usage between roles and qualities (RS): maybe grouping roles/relations and function/qualities together for a discussion?
-
-* definition of a role: currently processes can't be bearer of roles. A role is not context dependent as pointed out by Alan, it is more related to "socially sanctioned". The general notion of role has to be clarified, for a lot of people function is something inherent to the object you consider (e.g. heart is pumping blood) whereas a role is something context dependent (e.g. protein plays a reagent role in this experiment). This should be explained by Barry and Alan in more details.
-
-
-'''Issues addressed by the agenda below'''
-
-* [http://sourceforge.net/mailarchive/message.php?msg_name=90B06673D826C64E8ED8EEA6B6FDF8CA0219005D%40crcmail1.BCCRC.CA interaction with roles branch] Data transformation has identified some terms that we consider to be roles, these will be submitted to Roles branch in due course. The interaction of the dt and roles branch and design considerations is what we would like to discuss with all branches
-
-* Suggestion from DT to running whole group sessions in the pm and running parallel branch specific sessions in the am (or vice versa). Can the venue support that? Suggestion is to have branch meetings first before main meetings get really started. Would the lead editor indicate if they want to meet on the milestone spreadsheet.
-
-* Discussion of polysemy and ways to solve that, DT have examples
-* Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
-
-** Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
-
-* A session focused on use cases and assessment strategies.  We are at a stage now where this is going to be critical for OBI to be recognized as useful and adopted.
-
-*  Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address). 
-
-*  We should add language to distinguish from function and relations.  possibly a good candidate for a discussion at the face-to-face. 
-
-* BYOUC. Bring your own use cases. Richard Scheuermann: I volunteer to present a use case related to infectious disease research.
 
 ==Agenda detail==
 
