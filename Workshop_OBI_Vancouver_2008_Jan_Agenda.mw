@@ -48,28 +48,32 @@ Presentation of use cases. We expect 1 use case per "group" coming (+ Lilly)
 
 morning: 9-12
 
-9-9.30: Plan branch (Philippe)
+9-9.30: Introduction
 
-9.30-10: Protocol application (Bjoern)
+9.30-10: Role (Richard)
 
 10-10.30: Relations (Liju)
 
-10.30-11: Role
+10.30-10.45: break
 
-11-11.30: Function
+10.45-11.15: Protocol application (Bjoern)
 
-11.30-12: Qualities
+11.15-11.45: Function (Bill)
+
+11.45-12.15: Qualities
 
 
-afternoon: 13-17
+afternoon: 13.15-17
 
-13-13.30: Biomaterial (Susanna)
+13.15-13.45: Biomaterial (Susanna)
 
-13.30-14.30: Instrument (Melanie) and Data transformation (James) - joint use case describing a flow cytometry experiment
+13.45-14.45: Instrument (Melanie) and Data transformation (James) - joint use case describing a flow cytometry experiment
 
-14.30-15.00: DENRIE (Alan) - data exchange related to a flow cytometry experiment
+14.45-15.00: break
 
-15.00-16.00: discussion
+15.00-15.30: DENRIE (Alan) - data exchange related to a flow cytometry experiment
+
+15.30-16.00: Plan branch (Philippe)
 
 16.00-16.30: Rakhi Bhat (from Lilly) will present her work via teleconference.
 
