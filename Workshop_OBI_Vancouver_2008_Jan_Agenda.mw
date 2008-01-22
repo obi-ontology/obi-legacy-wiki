@@ -117,7 +117,9 @@ morning: 9-12
 
 * definition of a role: currently processes can't be bearer of roles. A role is not context dependent as pointed out by Alan, it is more related to "socially sanctioned". The general notion of role has to be clarified, for a lot of people function is something inherent to the object you consider (e.g. heart is pumping blood) whereas a role is something context dependent (e.g. protein plays a reagent role in this experiment). This should be explained by Barry and Alan in more details.
 
+* instrument: what is the function and what is the role
 
+* redundancy between relation and roles?
 
 afternoon: 13-16
 
@@ -127,19 +129,6 @@ afternoon: 13-16
 
 15-16: Plan branch (Philippe)
 
-
-
-
-Known issues:
-- biomaterial: states: in vivo, in vitro, pre and post mortem....currently "states" are under "to_be_fixed"
-
-- redundancy between relation and roles
-
-- instrument and biomaterial: how to deal with commercial terms
-
-- protocol_application: natural process: how to represent, how to link to GO. Induction of natural process - a protocol application in which some natural process (usually defined by GO) is set off.
-
-- instrument: what is the function and what is the role
 
 
 '''''outcome:''''' summary of issues / status
@@ -156,9 +145,15 @@ CENTRA CALL: 9-10 PST
 
 11-12: Protocol application (Bjoern) 
 
+* protocol_application: natural process: how to represent, how to link to GO. Induction of natural process - a protocol application in which some natural process (usually defined by GO) is set off.
+
 13-14: Biomaterial (Melanie)
 
 14-15: Instrument (Ryan)
+
+* biomaterial: states: in vivo, in vitro, pre and post mortem....currently "states" are under "to_be_fixed"
+
+* instrument and biomaterial: how to deal with commercial terms
 
 15-16:  Data transformation (James)
 
