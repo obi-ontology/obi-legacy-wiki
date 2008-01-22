@@ -71,7 +71,7 @@ Other concerns raised by members:
 
 - Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
 
-- Some methods are using the distance in the ontology to compute data. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
+- Some methods are using the hierarchy in the ontology to compute annotation-based similarity measures. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
 
 - discussion on analyte, stimulus
 
