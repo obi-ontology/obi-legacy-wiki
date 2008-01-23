@@ -53,53 +53,9 @@ afternoon: 13.15-17
 
 
 
-*'''Tuesday 29/01''' - Parallel or Plenary sessions (to be determined by group vote)
 
 
-CENTRA CALL: 9-10 PST (or by teleconference, see remote attendance section for details)
-
-Depending on progress during the previous days, we'll choose to have a plenary session or not on Tuesday morning.
-
-
-Session 1 - General policies - Dorothy Lam Boardroom, ground floor.
-
-How do we resolve difficult development decisions (e.g. long discussion on analyte)
-How do we keep track of these decisions?
-
-Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
-
-Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
-
-Other concerns raised by members:
-- formalize "why do we try and avoid multiple inheritance?"
-- When to move Protege 4. Cost Benefit Analysis
-
-- Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
-(DS: Since I am remotely attending, I can only present in the Centra time slot at 9-10. Alternatively I could present in a obi-dev call after the WS)
-
-- Some methods are using the hierarchy in an ontology to compute annotation-based similarity measures. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
-
-- discussion on analyte, stimulus
-
-
-Session 2 - OWL technicalities - 14th floor conference meeting room
-
-Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
-
-Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
-
-Discussion of polysemy and ways to solve that, DT have examples
-
-
-Afetrnoon - 3pm
-* Road map to release: branch dissolution? -> Single OBI file? -> Evaluation? -> Iterate? 
-Deprecation policy and other implications if public release.
-
-
-'''''outcome:''''' issues solved, with a practical example when applicable  - roadmap for release process
-
-
-*'''Wednesday 30/01'''
+*'''Tuesday 29/01'''
 
 
 
@@ -148,7 +104,7 @@ afternoon: 13-16
 End of meeting at 4pm, then snow trip to Cypress mountain: https://wiki.cbil.upenn.edu/obiwiki/index.php/January2008Workshop#Snow
 
 
-*'''Thursday 31/01'''
+*'''Wednesday 30/01'''
 
 
 CENTRA CALL: 9-10 PST
@@ -177,6 +133,50 @@ CENTRA CALL: 9-10 PST
 
 
 
+*'''Thursday 31/01''' - Parallel or Plenary sessions (to be determined by group vote)
+
+
+CENTRA CALL: 9-10 PST (or by teleconference, see remote attendance section for details)
+
+Depending on progress during the previous days, we'll choose to have a plenary session or not on Tuesday morning.
+
+
+Session 1 - General policies - Dorothy Lam Boardroom, ground floor.
+
+How do we resolve difficult development decisions (e.g. long discussion on analyte)
+How do we keep track of these decisions?
+
+Engineering methodology, from the motivations (why are we here what is the problem(s) we are trying to address).
+
+Discussion on where there are multiple branch implications e.g. algorithms and their application. Where to build, how to ensure consistency
+
+Other concerns raised by members:
+- formalize "why do we try and avoid multiple inheritance?"
+- When to move Protege 4. Cost Benefit Analysis
+
+- Collaborative development Protege (for Protege 3.x and Protege 4) and implications to metadata handling (DS).
+(DS: Since I am remotely attending, I can only present in the Centra time slot at 9-10. Alternatively I could present in a obi-dev call after the WS)
+
+- Some methods are using the hierarchy in an ontology to compute annotation-based similarity measures. What happens for these if we choose to use roles, which tends to "flatten" the hierarchy?
+
+- discussion on analyte, stimulus
+
+
+Session 2 - OWL technicalities - 14th floor conference meeting room
+
+Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
+
+Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
+
+Discussion of polysemy and ways to solve that, DT have examples
+
+
+Afetrnoon - 3pm
+* Road map to release: branch dissolution? -> Single OBI file? -> Evaluation? -> Iterate? 
+Deprecation policy and other implications if public release.
+
+
+'''''outcome:''''' issues solved, with a practical example when applicable  - roadmap for release process
 
 
 *'''Friday 01/02'''
