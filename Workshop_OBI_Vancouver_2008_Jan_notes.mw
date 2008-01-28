@@ -410,3 +410,34 @@ AI:RS will provide a clinical trial example of protocol
 AI:How do we embed OBI in different systems - AR wants as focus of a session this week
 
 </b>
+
+<b>6. Susanna Sansone - Biomaterial Use Case</b>
+
+* Multi-omics technologies, sample details etc
+* Went through the use cases from the wiki, summarize most want to describe the subject of the study, innate, also during and after the treatment, historical characteristics e.g. medical history
+* Definition of biomaterial branch, objects that have a role, sample or reagent roles - has been redefined recently. 
+* Issues about how to deal with defined classes
+* Dealing with mixtures sum of parts, how describe if add something RS: a new mixture
+* Track biological and anatomical origin, derived from mesoderm, link to EnvO
+* result_of centrifugation - AR: can deal with as from ProtocolApplication. Need to remove the duplication. 
+
+BS:the way that BP presented his queries was useful for marketing purposes, and this documentation is key, liked the way that BP presented this
+
+JM:These could be considered as competency questions
+
+AR:competency questions are part of use cases no?
+
+JM:in use case is a scenario and an example, comp questions is what is returned when I ask the ontology a question
+
+
+RS:the use cases are 3 kinds of derived from, 1. where no net increase/decrease 2. partioning. 3. merging. Do we want to describe all three independently rather than using derives_from
+
+PRS:we can described char of a sample e.g. lake sample, not affect the bugs in it, originates from gives more power. 
+
+BP:these things that are in biomaterial branch have all gone through a process e.g. env sample collection, this is an object that is an output from a process. This should give us the connection to env etc.
+
+
+<b>7. Alan Ruttenberg, DENRI</b>
+
+* worked from the google docs, now in OWL
+* made recent fixes, added arist. definitions and find missing relations 'encodes' and 'about' - about is not in wordnet in the way that we use iy
