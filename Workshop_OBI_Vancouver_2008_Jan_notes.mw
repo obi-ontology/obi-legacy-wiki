@@ -503,4 +503,19 @@ BS:we should think prospectively about things like gene list
 <b>8. Melanie Courtot, Instrumentation</b>
 
 * Labelling flow cytometry protocol extract instrument represent using OBI
-*
+* Do we need pipettes, ice bucket, small lab ware
+* does size matter
+* we have sample tube, should this be defined as holding a sample
+* falcon is needed here
+
+AR:when do we give an id for something, sample tube, has_quality volume. You only need to id when 
+
+BP:sample tube shouldn't be asserted should be defined, otherwise need to embed all possible uses
+
+RS:is this flat? looks to be, tubes, beakers, etc do these need to be added?
+
+MC:we have labware and instrument and it's not clear
+
+RS:we can determine in terms of function
+
+AR:these can be anon classes - may need an id, even for inferred classes
