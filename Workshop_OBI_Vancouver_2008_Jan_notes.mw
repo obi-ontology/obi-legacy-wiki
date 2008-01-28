@@ -446,3 +446,15 @@ BP:these things that are in biomaterial branch have all gone through a process e
 * file formats are realizable as file exists
 * programming language - patterns of words, syntactic plan, pl are ways of expressing algorithms, need to express that and can't
 * digital entity - bits - relationship to other information entities is that digital entity encodes them. Not realizable - could be a sib of non realizable information entity
+
+BS:there are information content entity outside OBI
+
+AR:should be in BFO, so should narrative object and symbolic
+
+BS:even if we did that, I am trying to keep BFO small
+
+AR:you are missing abstract entities, acc to Stanford Philosophical Enc.
+
+BS:BFO is a small ontology for research, subset of SUMO want to keep it small. Unit should not be in OBI
+
+AR:the measurement x cm should be in OBI. We could call unit unitname instead but it does belong here
