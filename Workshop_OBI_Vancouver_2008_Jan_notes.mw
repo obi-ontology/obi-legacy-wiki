@@ -4,19 +4,18 @@
 
 In person
 ---------
-Melanie C
-Ryan B
-Helen P
-Liju F
-James M
-Philippe RS
+Melanie Courtot
+Ryan Brinkman
+Helen Parkinson
+Liju Fan
+James Malone
+Philippe Rocca-Serra
 Susanna Sansone
 Bjoern Peters
 Barry Smith
-Richard S
+Richard Scheuerman
 Bill Bug
 Bjoern Peters
-Bill B
 Kartek Kathari (Mark Wilkinson's group) - developing ontology for gel electrophoresis experiments
 John Westbrook - Structural Biology, www.pdb - sites that do direct data acquisition for PDB archive (EBI, USA, Japan)
 
@@ -66,5 +65,34 @@ JF: we need to know the objective of the assay  - measure glucose - how you do i
 AR:option 1. Analyte role inheres in glucose of specimen. What if there is no glucose nothing to inhere in.
 
 RS:plays a role in plan, even if null when measured. Can inhere in the plan. 
+
 AR:can only inhere in an independent continuant, plan is not. 
+
 BS:can use named parts of plan e.g. goals. Analyte would be name for the part of a plan. When we use analyte, we are talking about plans, and realize
+
+RB:sometime you find something you weren't looking for and wanted to use analyte for that
+
+BS: then you have revised your plan.
+
+BP:if you don't detect glucose - that's a fail, but there is also assay fail
+
+BS:we only do canonical experiment where they are completed. Cases where there is no 'thing' we don't deal with that case, except in plan. To get all investigation we describe all successful things. Failure is a meta thing
+
+AR:question is not about whether we find glucose. 
+
+BS:if plan is to measure x, and there is no x, then plan should be that 'we are looking for x'  is it there
+
+RS:Ryan's def worked
+
+AR:didn't place in ontology
+
+RB: one proposal
+
+analyte-role, the thing you found has role analyte
+analyte goal - in plan
+
+Confusing to have analyte as a prefix for both
+
+BP:only problem is that we need to inhere role in something. Inheres in the class glucose for me. As long as we don't specify that there is glucose in the sample.
+
+JF:where do roles that are e.g. on processes go
