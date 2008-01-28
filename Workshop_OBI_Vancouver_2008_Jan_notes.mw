@@ -1,0 +1,60 @@
+==Vancouver Notes. Monday 28 Jan 2008==
+
+1. Ryan runs through the agenda
+
+In person
+---------
+Melanie C
+Ryan B
+Helen P
+Liju F
+James M
+Philippe RS
+Susanna Sansone
+Bjoern Peters
+Barry Smith
+Richard S
+Bill Bug
+Bjoern Peters
+Bill B
+Kartek Kathari (Mark Wilkinson's group) - developing ontology for gel electrophoresis experiments
+John Westbrook - Structural Biology, www.pdb - sites that do direct data acquisition for PDB archive (EBI, USA, Japan)
+
+By Phone/Centra
+-----------
+Jennifer Fostel
+Rashid from CEBS
+Daniel Schober
+Elisabetta Manduchi
+
+
+Jennifer Fostel. Ppt
+
+Presentation by PPT.
+Need for adding roles to other than independent continuant e.g. data transformation processes
+
+There are study variables that are factors, and cases where variables are not factors. Added concept to factor, and then need a link to a variable which is in OBI
+
+Outcome - StatisticalFactor is a subclass
+Outcome=result of plan process etc
+StatisticalFactor - factor that is a conclusion that has been found to be stat. signigficant
+
+==Discussion on Jennifer's presentation:==
+RS: fraction is an ouput of assay, I view as a biomaterial transformation.
+I agree with everything else on slide 5.
+My use case, outout from assays are dependent continuants e.g. glucose @ 10 pg per dcl.
+That phrase is an indep cont that inheres on the specimen that went in. Analyte 2 roles here, plays a role as a dependent continuant to represent something about the sample
+
+JF:Trying to divide between quality/not. Conclusion describes a quality of the input material.
+
+RS:Agree, quality is a quality of specimen not the analyte.
+
+BS:Agree with RS, there's a simpler version. When you list objective to measure, you are not measurung glucose, you measure a quality of the specimen - glucose in this specimen. In all cases what you are measuring is a quality and then don't need a role. Is there a case where you don't measure a quality of a specimen.
+
+AR:You want to say which quality, that's why we need analyte
+
+BS:of course
+
+AR:but which quality is what analyte, not just any quality.
+
+BS:more than this. When define an assay, glucose is a not a role quality of a spec, so we use analyte.
