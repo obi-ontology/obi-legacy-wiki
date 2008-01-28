@@ -4,27 +4,30 @@
 
 In person
 ---------
-Melanie Courtot
-Ryan Brinkman
-Helen Parkinson
-Liju Fan
-James Malone
-Philippe Rocca-Serra
-Susanna Sansone
-Bjoern Peters
-Barry Smith
-Richard Scheuerman
-Bill Bug
-Bjoern Peters
-Kartek Kathari (Mark Wilkinson's group) - developing ontology for gel electrophoresis experiments
+Melanie Courtot,
+Ryan Brinkman,
+Helen Parkinson,
+Liju Fan,
+James Malone,
+Philippe Rocca-Serra,
+Susanna Sansone,
+Bjoern Peters,
+Barry Smith,
+Richard Scheuerman,
+Bill Bug,
+Bjoern Peters,
+
+Two new OBI participants:
+-------------------------
+Kartek Kathari, (Mark Wilkinson's group) - developing ontology for gel electrophoresis experiments
 John Westbrook - Structural Biology, www.pdb - sites that do direct data acquisition for PDB archive (EBI, USA, Japan)
 
 By Phone/Centra
 -----------
-Jennifer Fostel
-Rashid from CEBS
-Daniel Schober
-Elisabetta Manduchi
+Jennifer Fostel,
+Rashid from CEBS,
+Daniel Schober,
+Elisabetta Manduchi,
 
 
 Jennifer Fostel. Ppt
@@ -43,6 +46,8 @@ RS: fraction is an ouput of assay, I view as a biomaterial transformation.
 I agree with everything else on slide 5.
 My use case, outout from assays are dependent continuants e.g. glucose @ 10 pg per dcl.
 That phrase is an indep cont that inheres on the specimen that went in. Analyte 2 roles here, plays a role as a dependent continuant to represent something about the sample
+
+<b>Analyte Discussion</b>
 
 JF:Trying to divide between quality/not. Conclusion describes a quality of the input material.
 
@@ -144,6 +149,5 @@ BS:made before had info object, and needs to be changed
 JF: would this term be in plan or DENRI.
 
 BP:lets define the terms
-
 
 Analyte Page [[https://wiki.cbil.upenn.edu/obiwiki/analyte] - for definitions and conclusions about analyte
