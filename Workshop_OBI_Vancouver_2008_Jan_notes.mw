@@ -58,3 +58,13 @@ BS:of course
 AR:but which quality is what analyte, not just any quality.
 
 BS:more than this. When define an assay, glucose is a not a role quality of a spec, so we use analyte.
+
+AR: we need a name, or placeholder. So this is why we need analyte
+
+JF: we need to know the objective of the assay  - measure glucose - how you do it doesn't matter. we are using analyte as shortterm. I want a term that's broader than analyte
+
+AR:option 1. Analyte role inheres in glucose of specimen. What if there is no glucose nothing to inhere in.
+
+RS:plays a role in plan, even if null when measured. Can inhere in the plan. 
+AR:can only inhere in an independent continuant, plan is not. 
+BS:can use named parts of plan e.g. goals. Analyte would be name for the part of a plan. When we use analyte, we are talking about plans, and realize
