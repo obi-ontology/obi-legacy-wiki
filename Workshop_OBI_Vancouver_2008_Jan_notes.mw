@@ -20,6 +20,7 @@ Bjoern Peters,
 Two new OBI participants:
 -------------------------
 Kartek Kathari, (Mark Wilkinson's group) - developing ontology for gel electrophoresis experiments
+
 John Westbrook - Structural Biology, www.pdb - sites that do direct data acquisition for PDB archive (EBI, USA, Japan)
 
 By Phone/Centra
@@ -29,6 +30,8 @@ Rashid from CEBS,
 Daniel Schober,
 Elisabetta Manduchi,
 
+
+Analyte Discussion ''
 
 Jennifer Fostel. Ppt
 
@@ -47,7 +50,7 @@ I agree with everything else on slide 5.
 My use case, outout from assays are dependent continuants e.g. glucose @ 10 pg per dcl.
 That phrase is an indep cont that inheres on the specimen that went in. Analyte 2 roles here, plays a role as a dependent continuant to represent something about the sample
 
-<b>Analyte Discussion</b>
+<b>Analyte Discussion [[https://wiki.cbil.upenn.edu/obiwiki/analyte]</b>
 
 JF:Trying to divide between quality/not. Conclusion describes a quality of the input material.
 
@@ -150,7 +153,7 @@ JF: would this term be in plan or DENRI.
 
 BP:lets define the terms
 
-Analyte Page [[https://wiki.cbil.upenn.edu/obiwiki/analyte] - for definitions and conclusions about analyte
+Analyte Page [[https://wiki.cbil.upenn.edu/obiwiki/analyte]] - for definitions and conclusions about analyte
 
 MC:objective is in role, then we would need to move that
 
@@ -167,3 +170,9 @@ PRS:no intent was to measure, and solves that problem
 BP:is an objective then of a protocol
 
 HP:absence means undetectable in this case. It's shorthand.
+
+AR:we need to make a logical definition to tie the concept of glucose
+
+BS:we need an aboutness thing
+
+AR:
