@@ -38,6 +38,8 @@ Elisabetta Manduchi,
 
 <b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
 
+<b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
+
 
 ==Presentations and Discussions from branches==
 
@@ -269,5 +271,14 @@ JM:has_base should have been defined OK, we need to follow that up.
 MC:is utilizes being added ?
 
 AR:no, probably is participants, and there are two ways to say the same thing. this needs to be fixed.
+
+BS:issues with instance vs class level relationships and that we need to be clear what is being used. Not only OWL artefacts, instances that go into relations part need to be comprehensible.
+
+AR:better to have instance and quantification for understanding. only some of the inverse relns will work
+
+BS:all sum assertions will be in the ontology and also one outside ontology. how make these work where they don't satisy the all sum relations.
+
+<b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
+
 
 <b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
