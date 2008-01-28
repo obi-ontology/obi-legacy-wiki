@@ -224,10 +224,12 @@ AR:context - one will make more progress by removing context and talk about comp
 AR:some belong in EnvO, for site and the qualities of site
 
 <b>AI: Send terms to BS for him to present in Manchester http://darwin.nerc-oxford.ac.uk/gc_wiki/index.php/EnvO_Project</b>
-</b>
 
-BB:Like the practicality for application of OBI. Some projects have similar objectives, two are NCBO, OBD - OPen Biomedical Data repository - phenotypic descriptions using PATO. Already being discussed, re-use for clinical data. Suggest that RS shares experience with Suzi Lewis's group. Mark Musen's group, combine OWL, relational backend, swirl rules. 
 
-RS:we're already working with them on that.
+BB:Like the practicality for application of OBI. Some projects have similar objectives, two are NCBO, OBD - OPen Biomedical Data repository - phenotypic descriptions using PATO. Already being discussed, re-use for clinical data. Suggest that RS shares experience with Suzi Lewis's group. Mark Musen's group, combine OWL, relational backend, swirl rules. Also FUGE OM implementations in Newcastle Allyson Lister's work. We grew out of FUGO, connection with the data model. How will the threads come back together? Also Healthcare life science group, looking at neuropathology going through the same process with mining a paper and represent on OBI. Suggest also look at that.
+
+RS:we're already working with Mark Musen's gp. We tried to work with FUGE and they were not receptive. BUT we are developing FUGE for flow cytometry between me and Ryan. Preference not for FUGE but would rather use OBI. Not got a good interaction with FUGE so far, as it's too generic, and you need your own business rules. 
+
+BB:Agree with sentiment, but a layer might be needed to implement.
 
 <b>AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI</b>
