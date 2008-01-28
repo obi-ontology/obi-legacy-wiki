@@ -266,5 +266,8 @@ BP:reference on protocol applications focussed on text defs in protocol applicat
 
 JM:has_base should have been defined OK, we need to follow that up.
 
+MC:is utilizes being added ?
+
+AR:no, probably is participants, and there are two ways to say the same thing. this needs to be fixed.
 
 <b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
