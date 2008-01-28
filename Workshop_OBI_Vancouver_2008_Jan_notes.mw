@@ -48,13 +48,11 @@ Elisabetta Manduchi,
 1. <b>Jennifer Fostel. [[https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Fostel_OBI-rolebranch-issues.ppt]]</b>
 
 Presentation by PPT.
-Need for adding roles to other than independent continuant e.g. data transformation processes
-
-There are study variables that are factors, and cases where variables are not factors. Added concept to factor, and then need a link to a variable which is in OBI
-
-Outcome - StatisticalFactor is a subclass
-Outcome=result of plan process etc
-StatisticalFactor - factor that is a conclusion that has been found to be stat. signigficant
+* Need for adding roles to other than independent continuant e.g. data transformation processes
+* There are study variables that are factors, and cases where variables are not factors. Added concept to factor, and then need a link to a variable which is in OBI
+* Outcome - StatisticalFactor is a subclass, Outcome=result of plan process etc
+* StatisticalFactor - factor that is a conclusion that has been found to be stat. signigficant
+* Big issues with analyte
 
 <b>Analyte Conclusion by AR [[New page|https://wiki.cbil.upenn.edu/obiwiki/index.php/Analyte]</b>
 
@@ -332,5 +330,11 @@ BS:Assays are determined as output data, mouse is not an output from this assay
 BP:No it's an output of a protocol application, data comes from assay
 
 BS:want to be clear in the use case assay, output data.
+
+AR:distinctness is a problem, as when need to count need at different levels, and traverse across multiple levels for objects at a consistent type. Users might not know levels, and this is a problem. 
+
+BP:we do define distinct locally, if something is different in database fields=distinct' can be different for different types. Get questions that cannot answer, need to offer some sort of answer.
+
+
 
 <b>AI:determine if in Bjoern's use case of an ELSIPOT assay an ELISPOT plate is a reagent or an instrument.</b>
