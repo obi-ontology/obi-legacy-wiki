@@ -437,7 +437,12 @@ PRS:we can described char of a sample e.g. lake sample, not affect the bugs in i
 BP:these things that are in biomaterial branch have all gone through a process e.g. env sample collection, this is an object that is an output from a process. This should give us the connection to env etc.
 
 
-<b>7. Alan Ruttenberg, DENRI</b>
+<b>7. Alan Ruttenberg, DENRI  ppt</b>
 
 * worked from the google docs, now in OWL
-* made recent fixes, added arist. definitions and find missing relations 'encodes' and 'about' - about is not in wordnet in the way that we use iy
+* made recent fixes, added arist. definitions and find missing relations 'encodes' and 'about' - about is not in wordnet in the way that we use it
+* think objective goes here, movd shared plan into realizable entity
+* algorithms - what's the difference between this and a plan, maybe alg is just a shared plan?
+* file formats are realizable as file exists
+* programming language - patterns of words, syntactic plan, pl are ways of expressing algorithms, need to express that and can't
+* digital entity - bits - relationship to other information entities is that digital entity encodes them. Not realizable - could be a sib of non realizable information entity
