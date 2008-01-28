@@ -506,7 +506,8 @@ BS:we should think prospectively about things like gene list
 * Do we need pipettes, ice bucket, small lab ware
 * does size matter
 * we have sample tube, should this be defined as holding a sample
-* falcon is needed here
+* falcon is needed here, where should we stop?
+
 
 AR:when do we give an id for something, sample tube, has_quality volume. You only need to id when 
 
@@ -519,3 +520,13 @@ MC:we have labware and instrument and it's not clear
 RS:we can determine in terms of function
 
 AR:these can be anon classes - may need an id, even for inferred classes
+
+RB:we don't put it in unless someone asked for it
+
+MC:this would go under labware - but no good definition
+
+HP:the ice bucket cover should not be modelled as this would be represented as text for humans and if it's needed by the community it will be added
+
+BS:needed for the Robot scientist
+
+BS:functions for artifacts - function is what it was built for, roles are when put to other uses.
