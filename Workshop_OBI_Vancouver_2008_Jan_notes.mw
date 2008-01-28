@@ -96,3 +96,13 @@ Confusing to have analyte as a prefix for both
 BP:only problem is that we need to inhere role in something. Inheres in the class glucose for me. As long as we don't specify that there is glucose in the sample.
 
 JF:where do roles that are e.g. on processes go
+
+AR:analyte in in the plan, and this is in your brain
+
+BS:one part of plan is a part labelled for 'analyte'
+
+AR:would need to be 'has_analyte_part'
+
+BS:suggested some horrible concatenation. Issues with refering expressions which have no reference. There is a distinction between plans, measure x, and decide if x is there. Need to handle sep., no good solution in philosophy unless you do this. To say that even when no glucose, there is a glucose quality is bad. Everything would then have a glucose quality even when it is not there. 
+
+RB:when X is there, then there is an analyte?
