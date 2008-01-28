@@ -103,6 +103,30 @@ BS:one part of plan is a part labelled for 'analyte'
 
 AR:would need to be 'has_analyte_part'
 
-BS:suggested some horrible concatenation. Issues with refering expressions which have no reference. There is a distinction between plans, measure x, and decide if x is there. Need to handle sep., no good solution in philosophy unless you do this. To say that even when no glucose, there is a glucose quality is bad. Everything would then have a glucose quality even when it is not there. 
+BS:suggested some horrible concatenation. Issues with refering expressions which have no reference. There is a distinction between plans, measure x, and decide if x is there. Need to handle sep., no good solution in philosophy unless you do this. To say that even when no glucose, there is a glucose quality is bad. Everything would then have a glucose quality even when it is not there, and there are no negative qualities.
 
-RB:when X is there, then there is an analyte?
+JF:what if assay is to measure a behaviour in a rat
+
+BP:this is more complex. We do have protocols that measure non substances. Lets not go there yet.
+
+PRS:how do you measure behaviour. E.g. exploratory behav. in rats, swimming behaviour
+
+BP:we will be able to do that, I want to complete analyte.
+
+AR:there are two analytes - role/goal. Is that OK
+
+BP:No
+
+RS:there is a goal to measure glucose. 
+
+JF:objective of plan is to measure glucose and that is a quality of specimen. Not heard anything different. 
+
+BS:I think when you say glucose, you mean amt of glucose in specimen where that specimen is blood
+
+JF:if we believe amt glucose is a quality of assay, the specimen has glucose then you determine that. I have a glucometer, and it's function is to measure glucose. How do we define that use of glucose
+
+BS:suggest when you measure glucose you measure a quality, expressed as e.g. a ratio. when measure a behavior is an independent cont aggregate, and determine a quality of that ratio of time spends smoking vs something else
+
+BP:finish glucose first.
+
+BS:think solution works for both.
