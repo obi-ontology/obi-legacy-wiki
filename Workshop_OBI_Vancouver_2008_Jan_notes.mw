@@ -278,7 +278,14 @@ AR:better to have instance and quantification for understanding. only some of th
 
 BS:all sum assertions will be in the ontology and also one outside ontology. how make these work where they don't satisy the all sum relations.
 
-<b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
+BB:feel that relations branch is conscience, they are the ontology police. has_function, has_role etc are these sub types of the RO - bearer of. If so why do we need these instead of RO bears?
 
+AR:special cases. all say that when something has_role - the object has the the role. e.g. if has_function with a role then will generate an error - using bears from RO will not do that.
+
+BB:ok, but this is a problem as OBO relations are being used elsewhere
+AR:these have been sent to OBO relations ontology
+BS:these likely will be added to RO and are useful 
+
+<b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
 
 <b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
