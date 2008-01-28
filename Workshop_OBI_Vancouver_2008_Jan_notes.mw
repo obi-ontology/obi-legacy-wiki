@@ -293,8 +293,12 @@ BB:OBO-BFO bridge file? Anything in RO2 will be addressed by Christian right?
 
 LF:yes.
 
+PRS: should we now stop adding more relations now and work with what we have
+
+AR:we are stopping things that don't make sense, very few things are being added
+
 BS:need a process to connect obi needs to RO to make sure that instance level relations are disseminated in OBI to stop people making new relations.
 
 <b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
 
-<b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
+<b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs. </b>
