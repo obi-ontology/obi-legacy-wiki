@@ -458,3 +458,7 @@ AR:you are missing abstract entities, acc to Stanford Philosophical Enc.
 BS:BFO is a small ontology for research, subset of SUMO want to keep it small. Unit should not be in OBI
 
 AR:the measurement x cm should be in OBI. We could call unit unitname instead but it does belong here
+
+BS:already have a document ontology
+
+AR:could make this information entity a new obo foundry ontology
