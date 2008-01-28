@@ -221,6 +221,13 @@ BS:most things in PATO need this, and hasn't been dealt with as an issue.
 
 AR:context - one will make more progress by removing context and talk about components e.g. environment sites and locations (and their qualities) and time.
 
-AR:some belong in EnvO
+AR:some belong in EnvO, for site and the qualities of site
 
-<b>AI: RS to enter these into the EnvO tracker. http://darwin.nerc-oxford.ac.uk/gc_wiki/index.php/EnvO_Project</b>
+<b>AI: Send terms to BS for him to present in Manchester http://darwin.nerc-oxford.ac.uk/gc_wiki/index.php/EnvO_Project</b>
+</b>
+
+BB:Like the practicality for application of OBI. Some projects have similar objectives, two are NCBO, OBD - OPen Biomedical Data repository - phenotypic descriptions using PATO. Already being discussed, re-use for clinical data. Suggest that RS shares experience with Suzi Lewis's group. Mark Musen's group, combine OWL, relational backend, swirl rules. 
+
+RS:we're already working with them on that.
+
+<b>AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI</b>
