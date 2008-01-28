@@ -42,9 +42,12 @@ Elisabetta Manduchi,
 <b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
 
 <b>
-AI:BP and AR will try and develop ProtocolApplication from Plan
+AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically
 
 AI:Protocol and ProtocolApplication branches will be merged
+
+AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP
+
 </b>
 
 ==Presentations and Discussions from branches==
@@ -372,8 +375,14 @@ BB:if have multiple protocol applications that have the same objective then can 
 
 BP:different levels of preciseness, so can be as granular as you need. Class of protocolapplications all of which have a measure of glucose as an output are the inverse of the protocols that have goal - determine glucose. Easier to determine at the process level therefore as can be precise and granular.
 
+PRS:same issue in data transformation and algorithm, see no reason why we can't deal with it in this direction
+
+BS:some things are avoid doing - don't communicate protocol application. 
 
 <b>
 AI:BP and AR will try and develop ProtocolApplication from Plan
+
 AI:Protocol and ProtocolApplication branches will be merged
+
+AI:Produce an example a ProtocolApplication from ArrayExpress - HP
 </b>
