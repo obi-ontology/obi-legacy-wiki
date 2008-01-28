@@ -252,7 +252,7 @@ AR:easier in OWL, separate the logic layer and embed in a database system. Think
 <b>3. Liju Fan. Relations Branch PPT https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Fan_RelationsBranchStatusReport_012808.ppt</b>
 Chromium use case assay at the instance level relation.
 Previously added type level relations.
-AR:assume that all instance level, and class relns are built on these.
+AR:assume that all instance level, and class relations are built on these.
 LF:new role types proposed:
 * inheres_in (inverse has_function) - 
 * has_role
@@ -273,11 +273,11 @@ MC:is utilizes being added ?
 
 AR:no, probably is participants, and there are two ways to say the same thing. this needs to be fixed.
 
-BS:issues with instance vs class level relationships and that we need to be clear what is being used. Not only OWL artefacts, instances that go into relations part need to be comprehensible.
+BS:issues with instance vs class level relationships and that we need to be clear what is being used. Not only OWL artifacts, instances that go into relations part need to be comprehensible.
 
 AR:better to have instance and quantification for understanding. only some of the inverse relns will work
 
-BS:all sum assertions will be in the ontology and also one outside ontology. how make these work where they don't satisy the all sum relations.
+BS:all sum assertions will be in the ontology and also one outside ontology. how make these work where they don't satisfy the all sum relations.
 
 BB:feel that relations branch is conscience, they are the ontology police. has_function, has_role etc are these sub types of the RO - bearer of. If so why do we need these instead of RO bears?
 
@@ -333,8 +333,19 @@ BS:want to be clear in the use case assay, output data.
 
 AR:distinctness is a problem, as when need to count need at different levels, and traverse across multiple levels for objects at a consistent type. Users might not know levels, and this is a problem. 
 
-BP:we do define distinct locally, if something is different in database fields=distinct' can be different for different types. Get questions that cannot answer, need to offer some sort of answer.
-
-
+BP:we do define distinct locally, if something is different in database fields=distinct' can be different for different types. Get questions that cannot answer, need to offer some sort of answer and that's an issue
 
 <b>AI:determine if in Bjoern's use case of an ELSIPOT assay an ELISPOT plate is a reagent or an instrument.</b>
+
+<b>5. Philippe Rocca-Serra Plan Branch</b>
+
+* Determine purpose of a study, treatments, populations, temporal component, replications, nature of measurements, applications/incompatibilities between protocol applications, reagents etc
+* Plan, protocol, algorithm, still defining, limit on what is maths and comp sci. deciding where to draw the line and try to decide what class constraints. Do plans need goals? What process is being executed.
+* If have to declare protocol as a plan, by realizing a DNA extraction process, how much do I need to represent in plan, how much in protocol application? Branch divisions? Some things could be merged
+
+BS:P/A should be a single tree (no multiple inheritance) but need assays, inputs, outputs, plans. 
+
+
+
+
+BB:need to know algorithms in order to know what can be meta analysed.
