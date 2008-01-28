@@ -8,8 +8,7 @@ Helen Parkinson,
 Liju Fan,
 James Malone,
 Philippe Rocca-Serra,
-Susanna Sansone,
-Bjoern Peters,
+Susanna Sansone,Bjoern Peters,
 
 Barry Smith,
 Richard Scheuerman,
@@ -56,8 +55,11 @@ AI:How do we embed OBI in different systems - AR wants as focus of a session thi
 
 AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call
 
-AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad. </b>
+AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.
 
+AI:BS will provide an example of function/role that doesn't involve doubling up with role and functions
+
+</b>
 =========================================================================================
 
 
@@ -530,3 +532,8 @@ HP:the ice bucket cover should not be modelled as this would be represented as t
 BS:needed for the Robot scientist
 
 BS:functions for artifacts - function is what it was built for, roles are when put to other uses.
+
+BP:then you need 2 things, role and function for all artifacts
+
+<b>AI:BS will provide an example of function/role that doesn't involve doubling up with role and functions
+</b>
