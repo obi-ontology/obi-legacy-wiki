@@ -10,6 +10,7 @@ James Malone,
 Philippe Rocca-Serra,
 Susanna Sansone,
 Bjoern Peters,
+
 Barry Smith,
 Richard Scheuerman,
 Bill Bug,
@@ -283,8 +284,14 @@ BB:feel that relations branch is conscience, they are the ontology police. has_f
 AR:special cases. all say that when something has_role - the object has the the role. e.g. if has_function with a role then will generate an error - using bears from RO will not do that.
 
 BB:ok, but this is a problem as OBO relations are being used elsewhere
+
 AR:these have been sent to OBO relations ontology
+
 BS:these likely will be added to RO and are useful 
+
+BB:OBO-BFO bridge file? Anything in RO2 will be addressed by Christian right?
+
+LF:yes.
 
 <b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
 
