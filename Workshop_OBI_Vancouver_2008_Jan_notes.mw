@@ -45,17 +45,18 @@ Outcome - StatisticalFactor is a subclass
 Outcome=result of plan process etc
 StatisticalFactor - factor that is a conclusion that has been found to be stat. signigficant
 
-==Discussion on Jennifer's presentation:==
-RS: fraction is an ouput of assay, I view as a biomaterial transformation.
-I agree with everything else on slide 5.
-My use case, outout from assays are dependent continuants e.g. glucose @ 10 pg per dcl.
-That phrase is an indep cont that inheres on the specimen that went in. Analyte 2 roles here, plays a role as a dependent continuant to represent something about the sample
+
 
 <b>Analyte Conclusion by AR [[New page|https://wiki.cbil.upenn.edu/obiwiki/index.php/Analyte]</b>
 
 <b>AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve</b>
 
 <b>Discussion</b>
+
+RS: fraction is an ouput of assay, I view as a biomaterial transformation.
+I agree with everything else on slide 5.
+My use case, outout from assays are dependent continuants e.g. glucose @ 10 pg per dcl.
+That phrase is an indep cont that inheres on the specimen that went in. Analyte 2 roles here, plays a role as a dependent continuant to represent something about the sample
 
 JF:Trying to divide between quality/not. Conclusion describes a quality of the input material.
 
