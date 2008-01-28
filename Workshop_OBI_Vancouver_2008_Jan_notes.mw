@@ -237,3 +237,6 @@ BB:Agree with sentiment, but a layer might be needed to implement.
 AR:easier in OWL, separate the logic layer and embed in a database system. Think about doing logic first. We decide not to have this discussion until the end of the meeting.
 
 <b>3. Liju Fan. Relations Branch PPT</b>
+Chromium use case assay at the instance level relation.
+Previously added type level relations.
+AR:assume that all instance level, and class relns are built on these.
