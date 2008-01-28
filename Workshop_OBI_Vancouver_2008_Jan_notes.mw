@@ -29,6 +29,16 @@ Daniel Schober,
 Elisabetta Manduchi,
 
 
+==Emerging Action Items==
+<b>AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve</b>
+
+<b>AI: Send Enviroment Ontology related terms to BS for him to present in Manchester, esp. RS</b> 
+
+<b>AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI</b>
+
+<b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
+
+
 ==Presentations and Discussions from branches==
 
 
@@ -223,7 +233,7 @@ AR:context - one will make more progress by removing context and talk about comp
 
 AR:some belong in EnvO, for site and the qualities of site
 
-<b>AI: Send terms to BS for him to present in Manchester http://darwin.nerc-oxford.ac.uk/gc_wiki/index.php/EnvO_Project</b>
+<b>AI: Send Env related terms to BS for him to present in Manchester http://darwin.nerc-oxford.ac.uk/gc_wiki/index.php/EnvO_Project</b>
 
 
 BB:Like the practicality for application of OBI. Some projects have similar objectives, two are NCBO, OBD - OPen Biomedical Data repository - phenotypic descriptions using PATO. Already being discussed, re-use for clinical data. Suggest that RS shares experience with Suzi Lewis's group. Mark Musen's group, combine OWL, relational backend, swirl rules. Also FUGE OM implementations in Newcastle Allyson Lister's work. We grew out of FUGO, connection with the data model. How will the threads come back together? Also Healthcare life science group, looking at neuropathology going through the same process with mining a paper and represent on OBI. Suggest also look at that.
@@ -246,3 +256,6 @@ LF:new role types proposed:
 * has_quality
 * is_realization_of
 * utilizes (a question about child of these being present in the OBI file, this is not general and needs to be dicussed later)
+Issues: slow process, relations are database field style, represent in OBI are problematic. Want session to do that in this workshop.
+
+<b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
