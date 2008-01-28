@@ -176,3 +176,51 @@ HP:absence means undetectable in this case. It's shorthand.
 AR:we need to make a logical definition to tie the concept of glucose
 
 BS:we need an 'aboutness' thing and that's been added to analyte page
+
+
+<b>2. Richard Scheuerman ppt. Towards an OBI based data model</b>
+
+Similar issues to Jennifer on coverage of OBI, this is a good thing. 
+Major focus can we use OBI as a data model for 
+* BioHealthBase - pathogens, and primary expt data, virulence qualities, genome sequence.
+*IMMPORT - primary experiment data, clinical, proteomics, etc
+* ClinicalTranslationalScienceAward - clinical and translational investigations. 
+
+Want a common framework for all these databases using OBI
+
+Use case. Mapped a publication into OBI, processes etc then mapped to a spreadsheet to determine all the protocol applications and assays. Composite things that correspond to 
+multiple protocols. Want to describe these composite things somehow, and can't do in OBI.
+
+Developing an OBI based data model, also want to use it for clinical trials e.g case report forms, inclusion criteria, assessment of subjects using assessment assays, composite score, medical history, physical exams.
+
+Issues:
+*time and temperature representation
+*composite protocol application and outcomes, inclusion criteria = age. 
+*Need for new dt terms. How age is an inclusion criteria - single conclusion span - start and end determined. Physical, or time dimensions.
+*Need for roles in processes
+*what is time
+*how do we represent context in obi (should we?)
+
+BP:some of this belongs in the ontology some in the database implementation
+
+AR:we have time, and we can say it and we can't reason over it
+
+BS:can these protocols be in public catalogues? If so those protocols can be externally represented
+
+AR:complex protocols are just protocols with parts this is not a big issue
+
+AR:PATO has relational and monadic qualities. 
+
+RS:Chris Mungall never commented. There are relative ones to am accepted std e.g. units of measure and qualities of one independent quality to another. (we think this is what is meant in PATO). 
+
+BB:depends on what we want to capture in OBI. We don't need to capture what a cm is.
+
+RS:we had a comparator concept, thing and thing we measure vs.
+
+BS:most things in PATO need this, and hasn't been dealt with as an issue.
+
+AR:context - one will make more progress by removing context and talk about components e.g. environment sites and locations (and their qualities) and time.
+
+AR:some belong in EnvO
+
+<b>AI: RS to enter these into the EnvO tracker. http://darwin.nerc-oxford.ac.uk/gc_wiki/index.php/EnvO_Project</b>
