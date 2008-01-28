@@ -131,5 +131,17 @@ BP:finish glucose first.
 
 BS:think solution works for both.
 
-<b>Analyte Role as it refers to a biomaterial </b>
-<b>Analyte Role as it refers to plan</b>
+BS:Objective is part of the plan.
+
+RB:what's the parent for analyte-role - is it plan
+
+BS:no it's a part of plan. All analyte role is part of some plan.
+
+PRS; goal is a role played by a statement
+
+BS:made before had info object, and needs to be changed
+
+[[https://wiki.cbil.upenn.edu/obiwiki/analyte] - for definitions and conclusions about analyte
+
+<b>Analyte Role as it refers to a biomaterial quality of a sample e.g. quantity of glucose in a sample</b>
+<b>Analyte Role as it refers to plan - part of a plan </b>
