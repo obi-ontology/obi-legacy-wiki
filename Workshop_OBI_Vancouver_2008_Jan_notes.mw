@@ -411,7 +411,7 @@ AI:How do we embed OBI in different systems - AR wants as focus of a session thi
 
 </b>
 
-<b>6. Susanna Sansone - Biomaterial Use Case</b>
+<b>6. Susanna Sansone - Biomaterial Use Case https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Sansone_OBIBiomaterialBranchUCs.ppt</b>
 
 * Multi-omics technologies, sample details etc
 * Went through the use cases from the wiki, summarize most want to describe the subject of the study, innate, also during and after the treatment, historical characteristics e.g. medical history
@@ -445,7 +445,11 @@ BP:these things that are in biomaterial branch have all gone through a process e
 * algorithms - what's the difference between this and a plan, maybe alg is just a shared plan?
 * file formats are realizable as file exists
 * programming language - patterns of words, syntactic plan, pl are ways of expressing algorithms, need to express that and can't
-* digital entity - bits - relationship to other information entities is that digital entity encodes them. Not realizable - could be a sib of non realizable information entity
+* digital entity - bits - relationship to other information entities is that digital entity encodes them. Not realizable - could be a sibling of non realizable information entity
+* source code module - see discussion below
+* datum - qualities and datums are converging, some datums are proxy for qualities. Should we repeat, if not where does it live?
+
+<b>AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad. </b>
 
 BS:there are information content entity outside OBI
 
@@ -462,3 +466,27 @@ AR:the measurement x cm should be in OBI. We could call unit unitname instead bu
 BS:already have a document ontology
 
 AR:could make this information entity a new obo foundry ontology
+
+PRS:how is a source code module and related bits helping the biologist?
+
+BB:we need to know about NIH source code, and make it searchable and useable
+
+BP:we are getting away from the point
+
+JM:is there a useage for these?
+
+AR:no we were asked for these
+
+BP:I think some came from test cases and are artefacts
+
+AR:I think we need all these
+
+BP:I don't think we need gene list
+
+AR:Chris S wants this somehow. 
+
+HP:can we have an accession number list
+
+RS:it's a special case of matrix - and we need matrix
+
+BS:we should think prospectively about things like gene list
