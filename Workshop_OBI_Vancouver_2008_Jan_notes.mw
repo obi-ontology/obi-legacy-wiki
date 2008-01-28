@@ -48,6 +48,11 @@ AI:Protocol and ProtocolApplication branches will be merged
 
 AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP
 
+AI:RS will provide a clinical trial example of protocol
+
+AI:How do we embed OBI in different systems - AR wants as focus of a session this week
+
+
 </b>
 
 ==Presentations and Discussions from branches==
@@ -379,10 +384,29 @@ PRS:same issue in data transformation and algorithm, see no reason why we can't 
 
 BS:some things are avoid doing - don't communicate protocol application. 
 
+HP:these are negation statements they can be transformed into positive statements.
+
+AR:if you have both ways to represent the protocol/protocol applications, need to look in both cases and deal with on the implementation side, by making a mapping table
+
+HP:that's solving on the implementation side a bad design decision in the ontology
+
+BP:We want to remove redundancy. No one wanted to have duplicates.
+
+HP:this needs to be done with testing from both directions, we are discussing what the tests should be not where to start from, need to start from both places.
+
+BS:lots of clinical trials things have things in plan that can't be in protocol application
+
+PRS:should we have input from the clinical trial field
+
 <b>
 AI:BP and AR will try and develop ProtocolApplication from Plan
 
-AI:Protocol and ProtocolApplication branches will be merged
+AI:Protocol and ProtocolApplication branches will be merged by evaluating some use cases 
 
-AI:Produce an example a ProtocolApplication from ArrayExpress - HP
+AI:Produce an example a ProtocolApplication from ArrayExpress Protocol- HP
+
+AI:RS will provide a clinical trial example of protocol
+
+AI:How do we embed OBI in different systems - AR wants as focus of a session this week
+
 </b>
