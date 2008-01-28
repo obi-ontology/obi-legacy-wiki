@@ -1,0 +1,20 @@
+An objective_of_a_protocol is a part_of a protocol
+
+An measure_(measured_analyte) is an objective_of_a_protocol that calls for measuring the substance's abundance within a sample.(realized_as a process in which we use an instrument whose function is to measure the <> substance)
+
+When there is a measured analyte there is a substance that bears a quality and because of the realization of a protocol describing that substance and that quality there comes into being a new role played by that substance which is the role measured_analyte.
+
+An detect_presense_of_analyte_objective is an objective_of_a_protocol that calls for determine the presence or absense of a given type of substance (to a given threshold of detectibility) within a sample.(realized_as a process in which we use an instrument whose function is to measure the <> substance)
+
+A find_glucose_objective is a find_analyte_objective where the analyte is glucose
+
+A concentration_of_substance_quality is a quality that is the ratio of mass of one substance (bearing the analyte_role) of the volume of another substance (bearing the specimen_role) in another. (quality is borne by the specimen)
+
+A concentration_of_glucose_quality is a concentration_of_substance_quality that is the concentration of glucose in a specimen
+
+An analyte_role is <> 
+
+We need:
+How to relate glucose (substance) to the quality?
+How to relate glucose (substance) to the objective?
+A: measured_analyte is "about" the bearer of the analyte role
