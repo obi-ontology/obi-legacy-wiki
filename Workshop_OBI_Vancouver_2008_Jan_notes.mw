@@ -256,6 +256,9 @@ LF:new role types proposed:
 * has_quality
 * is_realization_of
 * utilizes (a question about child of these being present in the OBI file, this is not general and needs to be dicussed later)
+ * hidden relations in text in parts of OBI
 Issues: slow process, relations are database field style, represent in OBI are problematic. Want session to do that in this workshop.
+
+BP:we focussed on text defs in protocol application, and these are not yet in OWL, so not really hidden, just not formalized.
 
 <b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs</b>
