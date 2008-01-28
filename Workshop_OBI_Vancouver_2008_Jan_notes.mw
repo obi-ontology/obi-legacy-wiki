@@ -233,3 +233,5 @@ RS:we're already working with Mark Musen's gp. We tried to work with FUGE and th
 BB:Agree with sentiment, but a layer might be needed to implement.
 
 <b>AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI</b>
+
+AR:easier in OWL, separate the logic layer and embed in a database system. Think about doing logic first. We decide not to have this discussion until the end of the meeting.
