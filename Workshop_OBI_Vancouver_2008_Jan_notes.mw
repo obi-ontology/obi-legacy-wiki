@@ -249,7 +249,7 @@ BB:Agree with sentiment, but a layer might be needed to implement.
 
 AR:easier in OWL, separate the logic layer and embed in a database system. Think about doing logic first. We decide not to have this discussion until the end of the meeting.
 
-<b>3. Liju Fan. Relations Branch PPT</b>
+<b>3. Liju Fan. Relations Branch PPT https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Fan_RelationsBranchStatusReport_012808.ppt</b>
 Chromium use case assay at the instance level relation.
 Previously added type level relations.
 AR:assume that all instance level, and class relns are built on these.
@@ -302,3 +302,21 @@ BS:need a process to connect obi needs to RO to make sure that instance level re
 <b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
 
 <b>AI:AR,BD will go to the relations ontology meeting in Denver to present our needs. </b>
+
+
+<b>4. Bjoern Peters: Protocol Applications Branch Use Cases and IEDB</b>
+
+* Common questions: how many influenza T cell epitpoes are there - these are bio, not about the analytes. Also inexact of what they mean, this is a general question frame in OBI: count set of objects derived from influenza for which one or more prot applications measured a positive T cell response to the peptide. Issues that to count in OWL need disjointness, and doesn't scale.
+Peptide seq of epitope does not equal influenza, needs a translation
+* In processes have created planned processes and other things. There is always an execution that can refer to. BS thinks planned process is not a special kind of process, suggests 'process that is a realization of x plan'. Some protocols induce natural processes e.g. methylation and need a way to connect natural processes.
+* lots of things ended up with protocolapplications e.g. purchase of an antibody. Doesn't belong to ProtocolApplication. May need to go up one level represent other processes in a different way. Planned processes in OBI scope for e.g. 
+* broke protocols into sub processes, also a role recipient, something that has things happen to. These should be enumerated. Need to make sure that inputs and outputs are connected, can't do in OWL. (use case for SWIRL)
+* inputs and outputs are things necessary to realize the protocol. hard to say when the output exists e.g. when is a cake produced in a baking protocol. 
+* could agree that for something need to be an output then something needs to have changed (but am I a new instance if my blood pressure changes)
+* have text definitions for many things. 
+* would lie to decide where to stop e.g. administer substance in vivo - not all possible children. define precisely by using inputs and outputs, not in instantiating all possible children.
+* discussion on whether a sample needs to be representative of the whole, and cases where it's just partitioning where criteria are used to make a separation. RS:suggest sample is an output of a process and specimen could be an input to an assay. Could have a generic representation for all specimens derived from organisms.
+* 
+
+
+BS:planned process is a realization of a plan, should be able to infer planned process as an is-a to avoid mult. inheritance. Planned process then should be an inferred class.
