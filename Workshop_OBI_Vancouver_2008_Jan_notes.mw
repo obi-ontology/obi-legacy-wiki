@@ -240,3 +240,9 @@ AR:easier in OWL, separate the logic layer and embed in a database system. Think
 Chromium use case assay at the instance level relation.
 Previously added type level relations.
 AR:assume that all instance level, and class relns are built on these.
+LF:new role types proposed:
+* inheres_in (inverse has_function) - 
+* has_role
+* has_quality
+* is_realization_of
+* utilizes (a question about child of these being present in the OBI file, this is not general and needs to be dicussed later)
