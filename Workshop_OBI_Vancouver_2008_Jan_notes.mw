@@ -41,6 +41,11 @@ Elisabetta Manduchi,
 
 <b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
 
+<b>
+AI:BP and AR will try and develop ProtocolApplication from Plan
+
+AI:Protocol and ProtocolApplication branches will be merged
+</b>
 
 ==Presentations and Discussions from branches==
 
@@ -341,11 +346,34 @@ BP:we do define distinct locally, if something is different in database fields=d
 
 * Determine purpose of a study, treatments, populations, temporal component, replications, nature of measurements, applications/incompatibilities between protocol applications, reagents etc
 * Plan, protocol, algorithm, still defining, limit on what is maths and comp sci. deciding where to draw the line and try to decide what class constraints. Do plans need goals? What process is being executed.
-* If have to declare protocol as a plan, by realizing a DNA extraction process, how much do I need to represent in plan, how much in protocol application? Branch divisions? Some things could be merged
+* If have to declare protocol as a plan, by realizing a DNA extraction process, how much do I need to represent in plan, how much in protocol application? Branch divisions? Some things could be merged. Need a way to automate this process of development.
 
 BS:P/A should be a single tree (no multiple inheritance) but need assays, inputs, outputs, plans. 
 
+BS:should just do protocol, and infer protocol application, good way to validate inferred classes.
+
+BP:we had this discussion before, protocol, protocol application are interdependent and term submission showed that. Wanted to put it all together. Put in protocol application, easier to handle in terms of what was done rather than what was planned. 
+
+RS: Should be in plan as can describe without having to realize it.
+
+BS:we don't know what protocols are until realized as protocols are abstract. The best source is therefore protocol applications.
+
+AR:since we connect, hook up, and things that are hypotheticals are split, and merge by making a connection not infer
+
+HP:bad, need a single way to do this, and remove redundancy so either one or the other and not both
+
+BP:Possible that won't be symmetrical anyway. 
+
+RS:can we define the objective from the protocol application?
+
+PRS: all protocols have an objective
+
+BB:if have multiple protocol applications that have the same objective then can get into problems.
+
+BP:different levels of preciseness, so can be as granular as you need. Class of protocolapplications all of which have a measure of glucose as an output are the inverse of the protocols that have goal - determine glucose. Easier to determine at the process level therefore as can be precise and granular.
 
 
-
-BB:need to know algorithms in order to know what can be meta analysed.
+<b>
+AI:BP and AR will try and develop ProtocolApplication from Plan
+AI:Protocol and ProtocolApplication branches will be merged
+</b>
