@@ -60,6 +60,8 @@ StatisticalFactor - factor that is a conclusion that has been found to be stat. 
 
 <b>AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve</b>
 
+<b>AI:determine if in Bjoern's use case ELISPOT plate is a reagent or an instrument - protocol application and instrument branches</b>
+
 <b>Discussion</b>
 
 RS: fraction is an ouput of assay, I view as a biomaterial transformation.
@@ -316,7 +318,19 @@ Peptide seq of epitope does not equal influenza, needs a translation
 * have text definitions for many things. 
 * would lie to decide where to stop e.g. administer substance in vivo - not all possible children. define precisely by using inputs and outputs, not in instantiating all possible children.
 * discussion on whether a sample needs to be representative of the whole, and cases where it's just partitioning where criteria are used to make a separation. RS:suggest sample is an output of a process and specimen could be an input to an assay. Could have a generic representation for all specimens derived from organisms.
-* 
-
+* Need a way to connect inputs and outputs - maybe with SWIRL rules
+* Need controls, time intervals, multiple repeats
+* To answer use case above - get all assays that have as output data 'on the T-cell response to an object' the final part of this is not clear yet. 
+ 
 
 BS:planned process is a realization of a plan, should be able to infer planned process as an is-a to avoid mult. inheritance. Planned process then should be an inferred class.
+
+BS: all investigations have some result, data, report etc. Output also biomaterials some times, sometimes both. Suggest don't merge the two outputs. 
+
+BS:Assays are determined as output data, mouse is not an output from this assay
+
+BP:No it's an output of a protocol application, data comes from assay
+
+BS:want to be clear in the use case assay, output data.
+
+<b>AI:determine if in Bjoern's use case of an ELSIPOT assay an ELISPOT plate is a reagent or an instrument.</b>
