@@ -29,10 +29,10 @@ Daniel Schober,
 Elisabetta Manduchi,
 
 
-<b>1. Presentations and Discussions from branches</b>
+==Presentations and Discussions from branches==
 
 
-<b>Jennifer Fostel. [[https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Fostel_OBI-rolebranch-issues.ppt]]</b>
+1. <b>Jennifer Fostel. [[https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Fostel_OBI-rolebranch-issues.ppt]]</b>
 
 Presentation by PPT.
 Need for adding roles to other than independent continuant e.g. data transformation processes
@@ -235,3 +235,5 @@ BB:Agree with sentiment, but a layer might be needed to implement.
 <b>AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI</b>
 
 AR:easier in OWL, separate the logic layer and embed in a database system. Think about doing logic first. We decide not to have this discussion until the end of the meeting.
+
+<b>3. Liju Fan. Relations Branch PPT</b>
