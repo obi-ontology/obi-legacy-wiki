@@ -54,9 +54,9 @@ AI:HP will produce an example from ArrayExpress Protocol->ProtocolApplication
 
 AI:How do we embed OBI in different systems - AR wants as focus of a session this week
 
-<AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call</b>
+AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call
 
-<b>AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad. </b>
+AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad. </b>
 
 =========================================================================================
 
@@ -501,3 +501,6 @@ BS:we should think prospectively about things like gene list
 <b>AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call</b>
 
 <b>8. Melanie Courtot, Instrumentation</b>
+
+* Labelling flow cytometry protocol extract instrument represent using OBI
+*
