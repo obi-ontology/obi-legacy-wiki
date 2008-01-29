@@ -619,3 +619,5 @@ BS:Aggregate protocol application is a protocol appl according to Alan
 BS:BFO issues, processes and aggregates of processes are siblings - problem in BFO. Define 3 PA as PA units and mix and match to make larger and more complex PA
 
 BS:before using BFO need to fix granularities and we don't have this; defining PA in terms of kids then is a bad idea
+
+BP:I made this proposal, lets go back to the question, how is PA different from PlannedProcess  - I withdraw suggestion to define in terms of children, but we still need to know how PA/PlannedProcess are different
