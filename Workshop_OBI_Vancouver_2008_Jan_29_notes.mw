@@ -53,6 +53,11 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 <b>AI:Define Objective add a definition, synonym is GOAL DONE</b>
 
 <b>AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses - THIS WEEK</b>
+
+<b>AI:to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way</b>
+
+
+<b>AI:EDIT:evaluant is added as a role, RS will make a definition</b>
 ======================================================================================
 
 <b>Agenda</b>
@@ -463,3 +468,83 @@ BS:Conclusion is too general, conclusion goes in the paper.
 HP:don't think terms of paper, there are too many things that are conclusions that are not published.
 
 BS:defining conclusions: the conclusion of an investigation is an info content entity resulting  e.g. E.g. Samson Tu's description of autism.
+
+AR:measuring pollution example - doesn't satisfy universal,
+
+RS:measure vs decide - decide=investigation measure =PA
+
+AR:need to excise the proxy for in invesigation. Reserve investigation to mean those cases where there is a class level finding. Some things might not them meet investigation in OBI
+
+HP:what about cases where there is no conclusion and no paper just cell lines
+
+BP:Then it's a study, not an experiment
+
+MC:we have two levels id perhaps, processes that we do and deal with the 2 levels and see if we need the other levels. We agreed on PA being at the instance level.
+
+MC:BP had a good definition of investigation and PA
+
+AR:proxy for messed that up
+
+BP:some conclusions are uninteresting. Conclusions for investigations are interesting across investigations.
+
+HP:If I add a conclusion then I had  a bunch of PA and now I have an investigation
+
+BS:That's a non cannonical case. 
+
+HP:How does that help me
+
+BS:This is a problem is we define investigation as a protocol appl and a conclusion. These are not a problem as they are non in a meta analysis or they are non cannonical
+
+JF:why is production of data not a conclusion. In role we had an outcome that is data production. outcome is a subclass of conclusion
+
+BS:too vague, we want to know why something is an investigation.
+
+BS:If you collect data for drawing a conclusion then you are performing an investigation.
+
+RS:As soon as you want to add a conclusion that is a new submission
+
+BP:no the intent was that an investigation was done
+
+HP:OK and I can agree with that
+
+AR:biobanks might submit data?
+
+RS:then they start an investigation
+
+AR:no
+
+RS:you are making incorrect assumptions. Needs to be an investigation using biobank samples
+
+Consensus has been reached. We have agreed that an investigation has a conclusion and this differentiates it from a PA
+
+We are now adding to protege. Placement of Investigation is OK as is.
+
+BS:Wants to add survey - an investigation without a conclusion.
+
+HP:why can't this be done by grouping into assays?
+
+Definition of Investigation:
+
+Definition of ProtocolApplicaton:
+
+BP:MaterialTransformation, DataTransformation, etc easier to define start with these.
+
+AI<b>Children of ProtocolApplication are redefined based on this discussion</b>
+
+BP:Now into PA review. Want to say that there are 2 processes, get data and separate cells in flow sorting. The assay then is only data out. 
+
+HP:but there is still material out
+
+AR:then it's not called an output
+
+BS:Assay outputs data is about qualities (or other features) of the input material (dependent continuant) or evaluant
+
+<b>AI:to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant</b>
+
+HP:you need to define generally in terms of materials that could also occur in chemistry not specimen
+
+RB:we want to add evaluant? Is evaluant in OBI? Needs to be added for this definition
+
+AR:if material is being used can't distinguish reagent
+
+<b>AI:EDIT:evaluant is added as a role, RS will make a definition</b>
