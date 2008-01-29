@@ -607,3 +607,5 @@ BP:we agreed that investigation and protocol are different. There are 2 types pl
 We check def of Protocol for consistency. We have circular definitions.
 
 BP:the 3 subtypes if protocols, we could define the ProtocolApplication in terms of the union of its children. Would solve the problem.
+
+BS:are you sure that dealt all cases where there are 2 PA going on at the same time. issues with disjointness then. Some investigation where assay/material transformation - if use disjunction then can't represent them in investigation.
