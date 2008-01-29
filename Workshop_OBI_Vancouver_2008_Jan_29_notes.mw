@@ -39,34 +39,35 @@ AI:Develop a use case that shows cross database integration using OBI and add a 
 
 AI:OBI coordinators should nominate 1 or 2 people to be OBI associate editors - agenda item for a coordinators call CS
 
-<b>AI:InformationEntity will be renamed plan, synonym RealizableInformationEntity DONE
+AI:InformationEntity will be renamed plan, synonym RealizableInformationEntity DONE
 
-<b>AI:Edit:DigitalEntity->kid of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity DONE
+AI:Edit:DigitalEntity->kid of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity DONE
 
-Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR<
+Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR
 
 AI:Definition of InformationEntity to be done by BS/AR/BB
 
-<b>AI:EDIT:Objective now child of InfoEntity DONE</b>
+AI:EDIT:Objective now child of InfoEntity DONE
 
-<b>AI:EDIT:Define Objective add a definition, synonym is GOAL DONE</b>
+AI:EDIT:Define Objective add a definition, synonym is GOAL DONE
 
-<b>AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses</b>
+AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses
 
-<b>AI:to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way</b>
+AI:to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way
 
-<b>AI:EDIT:evaluant is added as a role, RS will make a definition</b>
+AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated
 
-<b>AI:Edit:re-defined material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material' DONE</b>
+AI:Edit:re-defined material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material' DONE
 
-<b>AI:Edit:Check the definition of DataTransformation, MaterialTransformation, and all children of PA (except waiting moved) reworded for consistency. PA also redefined in terms of bring about objective of a protocol - DONE</b>
+AI:Edit:Check the definition of DataTransformation, MaterialTransformation, and all children of PA (except waiting moved) reworded for consistency. PA also redefined in terms of bring about objective of a protocol - DONE
 
-<b>AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done) </b>
+AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done)
 
-<b>AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI</b>
+AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI
 
-<b>AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week</b>
+AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week
 
+</b>
 ** ====================================================================================== **
 
 <b>Agenda</b>
