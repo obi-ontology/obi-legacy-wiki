@@ -424,12 +424,3 @@ AI:How do we embed OBI in different systems - AR wants as focus of a session thi
 BS:the way that BP presented his queries was useful for marketing purposes, and this documentation is key, liked the way that BP presented this
 
 JM:These could be considered as competency questions
-
-AR:competency questions are part of use cases no?
-
-JM:in use case is a scenario and an example, comp questions is what is returned when I ask the ontology a question
-
-
-RS:the use cases are 3 kinds of derived from, 1. where no net increase/decrease 2. partioning. 3. merging. Do we want to describe all three independently rather than using derives_from
-
-PRS:we can described char of a sample e.g. lake sample, not affect the bugs in it, originates from gives more power.
