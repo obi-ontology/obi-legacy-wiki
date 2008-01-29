@@ -638,4 +638,5 @@ This was unresolved, AI have been added so we don't lose track of this.
 * OWL implementation will need new relations
 * Function in BFO is a RealizableEntity - definition is horrible, inheres in object of a kind defined to perform x function
 * BFO list not helpful in guidance on using function
-* developed OBI examples
+* developed OBI examples, are quite complex
+*
