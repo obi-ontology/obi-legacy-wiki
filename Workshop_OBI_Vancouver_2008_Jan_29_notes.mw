@@ -407,3 +407,15 @@ AR:Investigation doesn't need to have a plan, you don't know all that before sta
 BP:A funding agency can have objective to cure cancer. When I list aims those are objectives. exp design is then plan when I apply for money
 
 BS:all technical terms in an NIH grant might need to be in OBI, good validation step. Plans can be general, and sometimes need to be modified.
+
+BP:Investigations need more than one PA. PA can also have multiple PA. What else is it that differentiates. Could be conclusions that are not simply an output, this is an interpretive step.
+
+JW:the outcome of a protocol is known, the outcome of an investigation is not know at the outset
+
+RB:RS used the work experiment. Are experiments different than PA. or did you mean Investigations
+
+RS:There are gps of specimens that are an intermediate layer
+
+HP:This makes things more complex, suggest that use in that case a sub investigation
+
+PRS:Conclusion is under role - may need to move.
