@@ -592,11 +592,32 @@ General yes it's OK in OBI SVN.
 
 <b>9. James Malone - Flow Cytometry Data Transformation Use Case</b>
 
-* plots - histogram, dot plot, density plot - visualization 
+* plots - histogram, dot plot, density plot - visualization, need to be added and probably others too. 
 * minor granularity issue with a specific type of test, new terms added
 * see table that shows mapping
-* 
+* SW ontology link needed to deal with instances of e.g. sw names
 
-<b>AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch : DT and DENRI branches</b>
+<b>AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch : DT and DENRI branches. Could be done with defined classes</b>
+
+RB:where would sw type live? 
+
+AR:information ontology, beside algorithm, they can be realized
+
+BB:need packages vs libraries as well.
+
+BS:process vs roles for dt. confusing instances with types. instance of the dt process is only ever used to normalize and is therefore an instance.
+
+AR:if a process is the same but used for different processes - then you get 2 parents
+
+BS:I agree that I have not made my case, but this is an instance level thing
+
+
+
+
+
+
+
+
+
 
 <b>10. Raki Bhat (Lilly)</b>
