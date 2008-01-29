@@ -38,8 +38,11 @@ AI:Develop a use case that shows cross database integration using OBI and add a 
 
 AI:OBI coordinators should nominate 1 or 2 people to be OBI associate editors - agenda item for a coordinators call CS
 
-AI:InformationEntity will be renameed plan
-</b>
+<b>AI:InformationEntity will be renamed plan, synonym RealizableInformationEntity DONE</b>
+
+<b>AI:Edit:DigitalEntity->kid of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity DONE</b>
+
+<b>Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR</b> 
 ======================================================================================
 
 <b>Agenda</b>
@@ -235,8 +238,18 @@ AR:InfoEnt are all plans
 
 BS:solution call InformationEntity, if you are happy that an algorithm is a plan then rename plan is OK
 
-<b>AI:InformationEntity will be renameed plan</b>
+<b>AI:Edit:InformationEntity will be renamed plan, synonym RealizableInformationEntity DONE</b>
 
-We restarted and note that we need to work on a branch basis.
+Alan fixed a minor edit error that caused the file opening to fail and note that we need to work on a branch basis to avoid Protege errors.
 
-<b>AI:
+NonRealizableInfoEntity has one child. If only needs one child then maybe merge.
+
+<b>AI:Edit:DigitalEntity->kid of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity</b>
+
+BP:Do we also need to deal with DENRI and Plan?
+
+PRS:want to deal with Plan first. Should these be disjoint
+
+AR:probably, issues with the protege adding disjoints. Want to remove all disjoints now and add a script later to deal with that. All should be pairwise disjoint apart from couple of cases where BFO is not clear. AR 
+
+<b>Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR</b>
