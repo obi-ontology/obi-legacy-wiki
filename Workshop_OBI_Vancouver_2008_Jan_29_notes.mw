@@ -65,6 +65,7 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 
 <b>AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI</b>
 
+<b>AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week</b>
 
 ** ====================================================================================== **
 
@@ -623,3 +624,7 @@ BS:before using BFO need to fix granularities and we don't have this; defining P
 BP:I made this proposal, lets go back to the question, how is PA different from PlannedProcess  - I withdraw suggestion to define in terms of children, but we still need to know how PA/PlannedProcess are different
 
 BP:do we want to continue this discussion.
+
+BS:Has some notes of things that need to be changed, need to work on these. RB volunteers Melanie, James.
+
+==Bill Bug, Function Branch Report==
