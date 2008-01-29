@@ -81,43 +81,39 @@ Format: 10 min presentation, 50 min discussion
 
 '''OBI Completion Milestones'''
 
-# OBI "Working" Release - Have OBI at a stage we are ready to have people use requires:
-## Curation_status curation_complete OK (TBD) on all terms - March 1
+1) OBI "Working" Release - Have OBI at a stage we are ready to have people use requires:
+* Curation_status curation_complete OK (TBD) on all terms - March 1
 * Individual review of OBI 
 ** Term;problem;solution submitted March 15
 ** Problems without suggestions reviewed by group, then advisors
 * Use cases worked out through OBI to demonstrate "it works"
 * Deprecation policy (and other OBO Foundry requirements http://obofoundry.org/crit.shtml)
 * Documentation on how to use
-# Manuscript requires (1) and:
+2) Manuscript requires (1) and:
 * Authorship plan
 * Some text
-
 3) OBO Foundry release
 
+*Lunch - $10 to kitty - headcount
+*Dinner -  banana leaf (Malaysian, across from Holiday Inn; 50% off last night's dinner) - headcount
 
-Lunch - $10 to kitty - headcount
-Dinner -  banana leaf (Malaysian, across from Holiday Inn; 50% off last night's dinner) - headcount
-
-Wednesday - cypress mountain - leave at 4 from BCCRC (bring your gear). Will order take away  - headcount (snow 7 food). Reservations for others (Cactus Club?)
+*Wednesday - cypress mountain - leave at 4 from BCCRC (bring your gear). Will order take away  - headcount (snow 7 food). Reservations for others (Cactus Club?)
 
 
 '''10-11:''' Plan branch (Philippe)
 
-11-12: Qualities (Melanie + all)
+'''11-12:''' Qualities (Melanie + all)
 
 * discussion with PATO
 * term collection
 
-
-Afternoon: 13-16
+=== Afternoon: 13-16 ===
 
 '''13-14:''' Function (Bill)
 
 '''14-15:''' Role (Jennifer)
 
 '''15-16:''' Relations (Liju) 
-
 
 * ambiguity of usage between roles and qualities (RS): maybe grouping roles/relations and function/qualities together for a discussion?
 
@@ -127,13 +123,11 @@ Afternoon: 13-16
 
 * redundancy between relation and roles?
 
-16-17: Protocol application (Bjoern) 
-
-
+'''16-17:''' Protocol application (Bjoern) 
 
 * protocol_application: natural process: how to represent, how to link to GO. Induction of natural process - a protocol application in which some natural process (usually defined by GO) is set off.
 
-'''outcome:''' summary of issues / status
+'''Outcome:''' summary of issues / status
 
 == '''Wednesday 30/01''' ==
 
