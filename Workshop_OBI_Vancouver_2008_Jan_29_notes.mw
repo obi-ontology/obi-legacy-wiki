@@ -11,7 +11,7 @@ AI: Branch/Individual review of other branches by March - all
 
 AI: Develop a test plan for the OBI release, document and execute BB
 
-AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: NEEDS A DEADLINE BY END OF WEEK
+AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: NEEDS A DEADLINE DETERMINED BY END OF WEEK
 
 * RS:Volunteer to do a use case clinical study
 
@@ -58,7 +58,7 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 
 <b>AI:Edit:re-defined material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material' DONE</b>
 
-<b>AI:Edit:Check the definition of DataTransformation and reworded for consistency - DONE</b>
+<b>AI:Edit:Check the definition of DataTransformation, MaterialTransformation, and all children of PA (except waiting moved) reworded for consistency - DONE</b>
 
 <b>AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done) </b>
 
@@ -593,6 +593,6 @@ BS:all these have to deal with time, and this needs to be resolved
 
 <b>AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done) </b>
 
-MC:we need to make sure that all the PA definitions 
+MC:we need to make sure that all the PA definitions are consistent. All are checked for consistency and minor modifications are made.
 
 <b>AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI</b>
