@@ -8,7 +8,21 @@ Emerging Action Items:
 
 <b>AI: Branch/Individual review of other branches by March - all<b>
 
-<b>AI: Develop a test plan for the OBI release, document and execute BB<b>
+<b>AI: Develop a test plan for the OBI release, document and execute BB</b>
+
+<AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template:
+
+* RS:Volunteer to do a use case clinical study
+
+* RB:Flow cytometry use case
+
+* JM/HP:AE
+
+* PRS/BII use case
+
+* BB:BIRN use case
+
+* JG:Immunity use case
 
 ======================================================================================
 
@@ -67,3 +81,45 @@ BB:Test plan,
 <b>AI: Develop a documentation plan for OBI and assign tasks JM/MC/BB</b>
 
 <b>AI: Develop a test plan for the OBI release, document and execute BB<b>
+
+SS:If I need to add terms in the short term, how do I deal with that?
+
+BP:We need the terms that work for cross branch terms
+
+RB:I would say I need this, and offer a solution
+
+RS:useeful if you add to existing h'archy for the other branches
+
+SS:do we use the tracker
+
+RS:Volunteer to do a use case clinical study
+
+RB:Flow cytometry use case
+
+JM/HP:AE
+
+PRS/BII use case
+
+BB:BIRN use case
+
+JG:Immunity use case
+
+HP:What will be the format?
+
+RB:Protege not the first tool that people will need to use
+
+BP:Free text query and translation into OBI terms
+
+AR:Could put them into my triple store. What is the goal?
+
+RB:We want people to start using OBI, and we need to show what OBI is useful for
+
+JM:We are identifying a different user group here
+
+HP:I liked the mapping of the spreadsheet from RS and the use case translation from Bjoern, these are good representations
+
+SS:I think we are mixing two things, showing what OBI could be used for, and we show ourselves  for the next workshop, then we can use for other people. I want to work on what I need.
+
+RS:I was thinking making sure that the high level content was there
+
+HP:I think we need to do this for us as internal review and then put it out there, we need to do this.
