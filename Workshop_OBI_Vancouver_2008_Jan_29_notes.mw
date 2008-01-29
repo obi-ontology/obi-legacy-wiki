@@ -43,6 +43,8 @@ AI:OBI coordinators should nominate 1 or 2 people to be OBI associate editors - 
 <b>AI:Edit:DigitalEntity->kid of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity DONE</b>
 
 <b>Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR</b> 
+
+AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 ======================================================================================
 
 <b>Agenda</b>
@@ -221,7 +223,7 @@ BS:OBI will need a couple of people to be associate OBI editors, and their role 
 <b>1. Plan Branch - Philippe Rocca Serra (no ppt - just the ontology)</b>
 
 * InformationEntity is what's realized, this is basically what is plan - should this be renamed as plan?
-* Should plan and algorithm be merged?
+* Should plan, protocol and algorithm be merged has been discussion on that. Alg could be a specialization of a plan?
 
 
 BS:There is a shareable plan which is documented, when someone realizes it then they have a private plan. 
@@ -252,4 +254,10 @@ PRS:want to deal with Plan first. Should these be disjoint
 
 AR:probably, issues with the protege adding disjoints. Want to remove all disjoints now and add a script later to deal with that. All should be pairwise disjoint apart from couple of cases where BFO is not clear. AR 
 
-<b>Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR</b>
+<b>AI:Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR</b>
+
+BS:Gene seqs are not info, they can be represented as imformation
+
+BP:looks like it does now, as this is a BFO issue if these definitions are now considered to be wrong
+
+Ai:Definition of InformationEntity to be done by BS/AR/BB</b>
