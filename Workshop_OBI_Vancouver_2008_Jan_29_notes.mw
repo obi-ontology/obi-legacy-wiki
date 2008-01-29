@@ -39,19 +39,19 @@ AI:Develop a use case that shows cross database integration using OBI and add a 
 
 AI:OBI coordinators should nominate 1 or 2 people to be OBI associate editors - agenda item for a coordinators call CS
 
-<b>AI:InformationEntity will be renamed plan, synonym RealizableInformationEntity DONE</b>
+<b>AI:InformationEntity will be renamed plan, synonym RealizableInformationEntity DONE
 
-<b>AI:Edit:DigitalEntity->kid of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity DONE</b>
+<b>AI:Edit:DigitalEntity->kid of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity DONE
 
-<b>Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR</b> 
+Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR<
 
-AI:Definition of InformationEntity to be done by BS/AR/BB</b>
+AI:Definition of InformationEntity to be done by BS/AR/BB
 
 <b>AI:EDIT:Objective now child of InfoEntity DONE</b>
 
-<b>AI:Define Objective add a definition, synonym is GOAL DONE</b>
+<b>AI:EDIT:Define Objective add a definition, synonym is GOAL DONE</b>
 
-<b>AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses - THIS WEEK</b>
+<b>AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses</b>
 
 <b>AI:to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way</b>
 
