@@ -444,4 +444,20 @@ BP:PA give you instance level data which can refute a hypothesis. Investigations
 
 AR:this is a rathole. We can talk about conclusions as part of documents. Now we are doing something hard, and we may not make process.
 
-BP:If we do that then docs need digital entities what kind?
+BP:If we do that then docs need digital entities what kind of entities are these
+
+BS:PA provides evidence to support the conclusion - we can define conclusion from there
+
+AR:PA and Investigation - Inv get funded for, has a narrative object that contains conclusions etc, 
+
+JW:in a PA doing a well defined steps, in an Investigation not the case
+
+RS:Assay has a finding, conclusion is an outcome of a investigation
+
+AR:I don't want to change PA. 
+
+BP:finding is data from an assay, is instance level data. it works. Alan says that we shouldn'y define hypothesis is hard. I state that any statement beyond instance level data are conclusions and these are investigation level data. If there is a problem we can move on
+
+BS:Conclusion is too general, conclusion goes in the paper.
+
+HP:don't think terms of paper, there are too many things that are conclusions that are not published.
