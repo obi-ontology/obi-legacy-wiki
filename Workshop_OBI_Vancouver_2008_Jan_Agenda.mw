@@ -1,11 +1,9 @@
 =OBI Workshop - Agenda=
 
-=== '''Monday 28/01''' ===
 
+== '''Monday 28/01''' ==
 
 '''8:30 am ''' - Pickup OBIers lobby Holiday Inn
-
-
 
 Presentation of use cases. 
 
@@ -71,12 +69,7 @@ What are the objectives of the workshop?
 18:30 Tojo's - Reservations for 13 under Ryan. 1133 West Broadway.  Walk 6 blocks west or take #9 bus from in front of Holiday Inn running every 5 minutes.  
 
 
-
-*'''Tuesday 29/01'''
-
-
-
-
+== '''Tuesday 29/01''' ==
 
 Branch review
 
@@ -151,19 +144,14 @@ afternoon: 13-16
 
 * protocol_application: natural process: how to represent, how to link to GO. Induction of natural process - a protocol application in which some natural process (usually defined by GO) is set off.
 
-'''''outcome:''''' summary of issues / status
+'''outcome:''' summary of issues / status
 
 
-
-
-*'''Wednesday 30/01'''
-
+== '''Wednesday 30/01''' ==
 
 CENTRA CALL: 9-10 PST
 
 10-11: DENRIE (Alan)
-
-
 
 11-12: Biomaterial (Melanie)
 
@@ -184,8 +172,10 @@ CENTRA CALL: 9-10 PST
 End of meeting at 4pm, then snow trip to Cypress mountain: https://wiki.cbil.upenn.edu/obiwiki/index.php/January2008Workshop#Snow
 
 
-*'''Thursday 31/01''' - Parallel or Plenary sessions (to be determined by group vote)
 
+== '''Thursday 31/01''' ==
+ 
+- Parallel or Plenary sessions (to be determined by group vote)
 
 CENTRA CALL: 9-10 PST (or by teleconference, see remote attendance section for details)
 
@@ -226,12 +216,11 @@ Deprecation policy and other implications if public release.
 '''''outcome:''''' issues solved, with a practical example when applicable  - roadmap for release process
 
 
-*'''Friday 01/02'''
+
+=='''Friday 01/02'''==
 
 
 CENTRA CALL: 9-10 PST - Grants opportunities discussion
-
-
 
 Propose clear milestones.
 
@@ -244,9 +233,10 @@ end february -> terms clean (definition, metadata)
 end march -> hierarchy clean
 ...
 
+
 ==List of attendees==
 
-1. "physical" attendees
+==="physical" attendees===
 
 *Ryan Brinkman
 *William Bug
@@ -262,7 +252,7 @@ end march -> hierarchy clean
 *Richard Scheuermann
 *Barry Smith
 
-2. "remote" attendees
+==="remote" attendees===
 
 *Tina Boussard
 *Cristian Cocos
