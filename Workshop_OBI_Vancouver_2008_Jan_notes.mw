@@ -65,6 +65,9 @@ AI:Organization needs a place in the ontology, not yet determined
 
 AI:JW will provide a link for PDBs effort to do this for beamlines
 
+AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch</b>
+
+
 </b>
 =========================================================================================
 
@@ -587,8 +590,13 @@ General yes it's OK in OBI SVN.
 
 <b>AI:JW will provide a link for PDBs effort to do this for beamlines</b>
 
-<b>James Malone - Flow Cytometry Data Transformation Use Case</b>
+<b>9. James Malone - Flow Cytometry Data Transformation Use Case</b>
 
+* plots - histogram, dot plot, density plot - visualization 
+* minor granularity issue with a specific type of test, new terms added
+* see table that shows mapping
+* 
 
+<b>AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch : DT and DENRI branches</b>
 
-<b>Raki Bhat (Lilly)</b>
+<b>10. Raki Bhat (Lilly)</b>
