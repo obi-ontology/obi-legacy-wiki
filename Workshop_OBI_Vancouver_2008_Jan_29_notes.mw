@@ -58,7 +58,7 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 
 <b>AI:Edit:re-defined material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material' DONE</b>
 
-<b>AI:Edit:Check the definition of DataTransformation, MaterialTransformation, and all children of PA (except waiting moved) reworded for consistency - DONE</b>
+<b>AI:Edit:Check the definition of DataTransformation, MaterialTransformation, and all children of PA (except waiting moved) reworded for consistency. PA also redefined in terms of bring about objective of a protocol - DONE</b>
 
 <b>AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done) </b>
 
