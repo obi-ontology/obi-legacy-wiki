@@ -17,8 +17,6 @@ AI:Take use cases and see if OBI can be used to complete these use cases, need s
 
 * RB:Flow cytometry use case
 
-
-
 * JM/HP:AE
 
 * PRS/BII use case
@@ -56,8 +54,11 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 
 <b>AI:to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way</b>
 
-
 <b>AI:EDIT:evaluant is added as a role, RS will make a definition</b>
+
+<b>AI:Edit:re-defined material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material' DONE</b>
+
+
 ======================================================================================
 
 <b>Agenda</b>
@@ -548,3 +549,9 @@ RB:we want to add evaluant? Is evaluant in OBI? Needs to be added for this defin
 AR:if material is being used can't distinguish reagent
 
 <b>AI:EDIT:evaluant is added as a role, RS will make a definition</b>
+
+RB:protocol application has instance level data - 
+
+BP:that's assay we defined there, we should now define Material and Data transformation next
+
+<b>AI:Edit:re-define material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material'</b>
