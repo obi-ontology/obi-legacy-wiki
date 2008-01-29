@@ -604,4 +604,6 @@ Lack of conviction about this, we look at the definition of PA and planned proce
 
 BP:we agreed that investigation and protocol are different. There are 2 types planned processes - protocolapplication and investigation. This makes the difference
 
-We check def of Protocol for consistency
+We check def of Protocol for consistency. We have circular definitions.
+
+BP:the 3 subtypes if protocols, we could define the ProtocolApplication in terms of the union of its children. Would solve the problem.
