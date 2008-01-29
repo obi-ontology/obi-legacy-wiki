@@ -233,10 +233,10 @@ BS:You have non realinfoent, and infoent
 
 AR:InfoEnt are all plans
 
-BS:solution call InformationEntity RealizableInfoEntity, Ig you are happy that an algorithm is a plan then rename plan is OK
+BS:solution call InformationEntity, if you are happy that an algorithm is a plan then rename plan is OK
 
 <b>AI:InformationEntity will be renameed plan</b>
 
 We restarted and note that we need to work on a branch basis.
 
-<b>AI:rename
+<b>AI:
