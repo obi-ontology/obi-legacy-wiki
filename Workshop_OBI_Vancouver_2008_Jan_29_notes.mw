@@ -51,6 +51,8 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 <b>AI:EDIT:Objective now child of InfoEntity DONE</b>
 
 <b>AI:Define Objective add a definition, synonym is GOAL DONE</b>
+
+<b>AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses - THIS WEEK</b>
 ======================================================================================
 
 <b>Agenda</b>
@@ -382,4 +384,26 @@ RS:there are objectives that don't have hypothesis e.g. collection of data
 
 RB:you'd be observing for a reason, achieve some kind of understanding, which is an end point
 
-BP:now hypothesis, what's the difference between investigation and protocol application. I propose that protocol application never tests a hypothesis, but an investigation might
+BP:now hypothesis, what's the difference between investigation and protocol application. I propose that protocol application never tests a hypothesis, but an investigation sometimes does.
+
+<b>AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses - THIS WEEK</b>
+
+PRS:what about a dt where there is a hypothesis test
+
+RS:as soon as you do that it's an investigation
+
+MC:would like to see Plan, Hypothesis, Inv and PA interbranch issues need to be resolved
+
+BB:Agree. Also function is in there
+
+BP:Don't see why function is in there. We care now about hypothesis
+
+BB:May relate to objective, may use an assay to use a thing that helps measure function
+
+BP:not need to discuss function to differentiate between Investigation and PA
+
+AR:Investigation doesn't need to have a plan, you don't know all that before start. 
+
+BP:A funding agency can have objective to cure cancer. When I list aims those are objectives. exp design is then plan when I apply for money
+
+BS:all technical terms in an NIH grant might need to be in OBI, good validation step. Plans can be general, and sometimes need to be modified.
