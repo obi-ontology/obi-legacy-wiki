@@ -67,7 +67,7 @@ AI:TIME - needs to be discussed and a proposal produced for representing tempora
 AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week
 
 </b>
-** ====================================================================================== **
+XX======================================================================================XX
 
 <b>Agenda</b>
 
@@ -638,4 +638,4 @@ This was unresolved, AI have been added so we don't lose track of this.
 * Function in BFO is a RealizableEntity - definition is horrible, inheres in object of a kind defined to perform x function
 * BFO list not helpful in guidance on using function
 * developed OBI examples, are quite complex
-*
+* Function in OBI should have limited scope in Instrument, Plan, PA,
