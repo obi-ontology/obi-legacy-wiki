@@ -508,7 +508,8 @@ BS:we should think prospectively about things like gene list
 * Do we need pipettes, ice bucket, small lab ware
 * does size matter
 * we have sample tube, should this be defined as holding a sample
-* falcon is needed here, where should we stop?
+* falcon is needed here, where should we stop with tubes - decision with tube and properties that can be used if needed e.g.
+* question is it enough for instrument manufacturer, model, serial, JW:physical location? AR: that's handled separately, as anything can have location
 
 
 AR:when do we give an id for something, sample tube, has_quality volume. You only need to id when 
