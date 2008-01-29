@@ -66,6 +66,10 @@ AI:TIME - needs to be discussed and a proposal produced for representing tempora
 
 AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week
 
+AI:MC will write up the discussion on Role, Function and what we understand for distribution and we will then develop a consensus on going forward on this. No consensus reached yet.
+
+AI:BS will resolve BFO issues reported to him, all examples will be resolved by May 4 2008
+
 </b>
 XX======================================================================================XX
 
@@ -700,3 +704,36 @@ RS:I think in my use case I need the role an instrument plays when performing a 
 
 JF:RS saying that he uses a centrifuge in a PA, you describe as a role, and poss a function
 DT branch has role of normalization, may also be the function of an algorithm
+
+AR:question is there a function and role that are the same, answer if there is a function it's a realization of a function, not also a role. RS needs the role.
+
+MC:For an instrument it can be obvious, for a protein is much harder. Is reagent a function or a role.
+
+BS:have a protocol, 3 centrifuges, 1 and 2 backups. have a backup role, and first run is a role . Roles are optional and how you decide to use them in a PA. The GO tells what the function of protein is, the role is your role, as a label, as a suppressor.
+
+MC:reagent is always a role not a function. said opposite before
+
+BB:yes, but seems role is more important for reagent
+
+BS:role is often dependent on function
+
+RS:there are some molecules that have a role in an assay, not to do with function, some reagents are produced where it realizes function in an assay. two types of reagent.
+
+BP:we referred to the doorstop problem doorstop=function doorstop, centrifuge has role doorstop. so instruments can perform a role so AR is wrong. 
+
+AR:rare that have instrument that is not designed fr a function that can play the role where it  is playing a role that another instrument was designed to do. In that case need both role and function.
+
+JW:more generic the instrument the more roles it will have
+
+
+AI:MC will write up the discussion on Role, Function and what we understand for distribution and we will then develop a consensus on going forward on this. No consensus reached yet.
+
+AI:BS will resolve BFO issues reported to him, all examples will be resolved by May 4 2008
+
+
+Ryan calls time again.
+
+
+
+
+===========================================================================================
