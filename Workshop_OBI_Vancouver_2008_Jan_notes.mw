@@ -8,8 +8,7 @@ Helen Parkinson,
 Liju Fan,
 James Malone,
 Philippe Rocca-Serra,
-Susanna Sansone,
-Bjoern Peters,
+Susanna Sansone,Bjoern Peters,
 
 Barry Smith,
 Richard Scheuerman,
@@ -28,7 +27,7 @@ Jennifer Fostel,
 Rashid from CEBS,
 Daniel Schober,
 Elisabetta Manduchi,
-
+Raki Bhat,
 
 ==Emerging Action Items==
 <b>AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve</b>
@@ -41,8 +40,9 @@ Elisabetta Manduchi,
 
 <b>AI:Role Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed </b>
 
-<b>
 AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically
+
+AI:Organization needs a place in the ontology, not yet determined
 
 AI:Protocol and ProtocolApplication branches will be merged
 
@@ -50,10 +50,22 @@ AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExp
 
 AI:RS will provide a clinical trial example of protocol
 
+AI:HP will produce an example from ArrayExpress Protocol->ProtocolApplication
+
 AI:How do we embed OBI in different systems - AR wants as focus of a session this week
 
+AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call
+
+AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.
+
+AI:BS will provide an example of function/role that doesn't involve doubling up with role and functions
+
+AI:Organization needs a place in the ontology, not yet determined
 
 </b>
+=========================================================================================
+
+
 
 ==Presentations and Discussions from branches==
 
@@ -411,7 +423,7 @@ AI:How do we embed OBI in different systems - AR wants as focus of a session thi
 
 </b>
 
-<b>6. Susanna Sansone - Biomaterial Use Case</b>
+<b>6. Susanna Sansone - Biomaterial Use Case https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Sansone_OBIBiomaterialBranchUCs.ppt</b>
 
 * Multi-omics technologies, sample details etc
 * Went through the use cases from the wiki, summarize most want to describe the subject of the study, innate, also during and after the treatment, historical characteristics e.g. medical history
@@ -424,3 +436,156 @@ AI:How do we embed OBI in different systems - AR wants as focus of a session thi
 BS:the way that BP presented his queries was useful for marketing purposes, and this documentation is key, liked the way that BP presented this
 
 JM:These could be considered as competency questions
+
+AR:competency questions are part of use cases no?
+
+JM:in use case is a scenario and an example, comp questions is what is returned when I ask the ontology a question
+
+
+RS:the use cases are 3 kinds of derived from, 1. where no net increase/decrease 2. partioning. 3. merging. Do we want to describe all three independently rather than using derives_from
+
+PRS:we can described char of a sample e.g. lake sample, not affect the bugs in it, originates from gives more power. 
+
+BP:these things that are in biomaterial branch have all gone through a process e.g. env sample collection, this is an object that is an output from a process. This should give us the connection to env etc.
+
+
+<b>7. Alan Ruttenberg, DENRI  ppt</b>
+
+* worked from the google docs, now in OWL
+* made recent fixes, added arist. definitions and find missing relations 'encodes' and 'about' - about is not in wordnet in the way that we use it
+* think objective goes here, movd shared plan into realizable entity
+* algorithms - what's the difference between this and a plan, maybe alg is just a shared plan?
+* file formats are realizable as file exists
+* programming language - patterns of words, syntactic plan, pl are ways of expressing algorithms, need to express that and can't
+* digital entity - bits - relationship to other information entities is that digital entity encodes them. Not realizable - could be a sibling of non realizable information entity
+* source code module - see discussion below
+* datum - qualities and datums are converging, some datums are proxy for qualities. Should we repeat, if not where does it live?
+
+<b>AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad. </b>
+
+BS:there are information content entity outside OBI
+
+AR:should be in BFO, so should narrative object and symbolic
+
+BS:even if we did that, I am trying to keep BFO small
+
+AR:you are missing abstract entities, acc to Stanford Philosophical Enc.
+
+BS:BFO is a small ontology for research, subset of SUMO want to keep it small. Unit should not be in OBI
+
+AR:the measurement x cm should be in OBI. We could call unit unitname instead but it does belong here
+
+BS:already have a document ontology
+
+AR:could make this information entity a new obo foundry ontology
+
+PRS:how is a source code module and related bits helping the biologist?
+
+BB:we need to know about NIH source code, and make it searchable and useable
+
+BP:we are getting away from the point
+
+JM:is there a useage for these?
+
+AR:no we were asked for these
+
+BP:I think some came from test cases and are artefacts
+
+AR:I think we need all these
+
+BP:I don't think we need gene list
+
+AR:Chris S wants this somehow. 
+
+HP:can we have an accession number list
+
+RS:it's a special case of matrix - and we need matrix
+
+BS:we should think prospectively about things like gene list
+
+<b>AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call</b>
+
+<b>8. Melanie Courtot, Instrumentation</b>
+
+* Labelling flow cytometry protocol extract instrument represent using OBI
+* Do we need pipettes, ice bucket, small lab ware
+* does size matter
+* we have sample tube, should this be defined as holding a sample
+* falcon is needed here, where should we stop with tubes - decision with tube and properties that can be used if needed e.g.
+* question is it enough for instrument manufacturer, model, serial, (or other unique id and serial is a subtype) JW:physical location? AR: that's handled separately, as anything can have location. 
+
+
+AR:when do we give an id for something, sample tube, has_quality volume. You only need to id when 
+
+BP:sample tube shouldn't be asserted should be defined, otherwise need to embed all possible uses
+
+RS:is this flat? looks to be, tubes, beakers, etc do these need to be added?
+
+MC:we have labware and instrument and it's not clear
+
+RS:we can determine in terms of function
+
+AR:these can be anon classes - may need an id, even for inferred classes
+
+RB:we don't put it in unless someone asked for it
+
+MC:this would go under labware - but no good definition
+
+HP:the ice bucket cover should not be modelled as this would be represented as text for humans and if it's needed by the community it will be added, no one has asked for this and aiming at completeness will not be productive
+
+BS:needed for the Robot scientist
+
+BS:functions for artifacts - function is what it was built for, roles are when put to other uses.
+
+BP:then you need 2 things, role and function for all artifacts
+
+<b>AI:BS will provide an example of function/role that doesn't involve doubling up with role and functions
+</b>
+
+BP:Instrument Manufacturer - where does this live? It's an instance of Organization
+
+<b>AI:Organization needs a place in the ontology, not yet determined</b>
+
+RS:when you use instrument in an assay - there are config parameters. 
+
+MC:the instrument is not enough - filter etc. Is it the same instrument. If we want to do that we need to model all the parts of the instrument to do that. Don't expect a user to annotate these. Template for these? 
+
+AR:we can define a class expression for the specific type.
+
+HP:is the config a plan? Has anyone asked for it?
+
+MC:yes, so we need it
+
+RB:how do we implement - and OWL file from vendors
+
+BP:then we need to have laser for e.g. so that the vendors can have the vocab, don't want it in the same file
+
+HP:practically though we need these and the people in this room will deal with this, whatever we do with the OWL file.
+
+BP:we wanted to keep the h'archy outside the OWL file
+
+RB:so organizations - e.g. Affymetrix, and there would be an org.owl file and this could be opulated by us
+
+RS:hardware is config and then changes that are made in a run. e.g. parameters - which are qualities.
+
+HP:I think we need to only deal with the hardware configuration
+
+AR:do we use classes or instances? 
+
+RS:want to group on e.g. common laser
+
+AR:can do that at query time
+
+HP:if you group on parts then there will be mult inheritance so can't do that
+
+
+
+
+
+
+
+
+
+
+
+<b>Raki Bhat (Lilly)</b>
