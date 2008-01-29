@@ -75,6 +75,7 @@ AI:BS will devolve organization ontology, document ontology and information enti
 
 AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch
 
+AI:AR will post the OBO release policy document and people will offer comment on if this is a good policy for OBI
 </b>
 =========================================================================================
 
@@ -634,12 +635,61 @@ BB:has a Birnlex ontology that might also help with SW.
 
 ==Discussion on how to prioritize for the workshop==
 
-RB  What do we need to publish?
+RB:What do we need to publish?
 
-RS  What's missing? Investigation
+RS:What's missing? Investigation etc
 
-AR  Documentation
+AR:Documentation?
 
-JM  Use cases, and annotation examples
+JM:Use cases, and annotation examples?
 
-BS: Grant question, packaged for grants
+BS: Grant question, packaged for grants?
+
+HP:what is a 1.0 release?
+
+RB:W3C Model for release:
+<b>
+->we are at a working draft now
+-->Public working draft, - iterate
+--->candidate recommendation, iterate, 12 months, publish before OBI is accepted ideally
+---->proposed recommendation, needs to be stable.
+Need a versioning policy and an obsoletion policy
+
+</b>
+We all agree that we need a process
+
+BP:how much do we need to ask the community to comment on
+
+SS:before we go to the community, we will have another workshop in the summer. Suggest internal evaluation in July.
+
+HP:Suggest limit attendance to people who have tested it so that we make progress
+
+BB:worked examples, and also queries and building some data sets
+
+AR:Part of OBI foundry, they are also trying to develop a process, which is more limiting on release. They do rolling releases. Maybe we can be thinking about this. Needs to go on the obi-discuss list.
+
+BB:As soon as we put things out we need a versioning policy and a way to channel feedback - report generation etc. This was the need for curation status, not just human readable.
+
+AR:Go don't do that
+
+HP:they do, there is always an alert and a consultation period for GO changes esp. obsoleting.
+
+BP:they keep the 3 top levels fixed in GO, but there will be changes esp. additive.
+
+RB:I'd like to know what the release policy is, we have made 2 releases and I think now publication might be a good example
+
+BS:we would need commitment from large data holders to use ontology and evaluation
+
+RB:not for publication, but for OBO peer review
+
+AR:let's not invent a new process for this, there is a process document, see what's missing
+
+RS:we need to see the branch ppt to see if we are ready. 
+
+SS:This will also influence what we can do at the next workshop
+
+AR:Has everyone read OBI, all of it?
+
+BS:I have read it, maybe 6 months ago  - all has changed a lot
+
+BP:each branch should be happy all other branches look at it, read and understood
