@@ -102,7 +102,7 @@ Moderation - self-moderate your slot. Will cutoff discussion at 59 minutes, leav
 OBI Completion Milestones
 
 1) OBI "Working" Release - Have OBI at a stage we are ready to have people use requires:
-* Curation_complete status &  OK on all terms - March 1
+* Curation_status curation_complete OK (TBD) on all terms - March 1
 * Individual review of OBI 
 ** Term;problem;solution submitted March 15
 ** Problems without suggestions reviewed by group, then advisors
