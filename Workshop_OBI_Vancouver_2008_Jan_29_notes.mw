@@ -37,6 +37,8 @@ AI:Find the original doc for authorship policy and take to a coord conference ca
 AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan - needs volunteers
 
 AI:OBI coordinators should nominate 1 or 2 people to be OBI associate editors - agenda item for a coordinators call CS
+
+AI:InformationEntity will be renameed plan
 </b>
 ======================================================================================
 
@@ -213,4 +215,28 @@ BS:OBI will need a couple of people to be associate OBI editors, and their role 
 
 <b>AI:OBI coordinators should nominate 1 or 2 people to be OBI associate editors - agenda item for a coordinators call</b>
 
-<b>1. Presentation from Philippe Rocca-Serra</b>
+<b>1. Plan Branch - Philippe Rocca Serra (no ppt - just the ontology)</b>
+
+* InformationEntity is what's realized, this is basically what is plan - should this be renamed as plan?
+* Should plan and algorithm be merged?
+
+
+BS:There is a shareable plan which is documented, when someone realizes it then they have a private plan. 
+
+BP:fine, can we call the shared plan, plan. Rename then information entity plan?
+
+BS:No. Why do you want digitalEntity to be realizable
+
+BP:It's not
+
+BS:You have non realinfoent, and infoent 
+
+AR:InfoEnt are all plans
+
+BS:solution call InformationEntity RealizableInfoEntity, Ig you are happy that an algorithm is a plan then rename plan is OK
+
+<b>AI:InformationEntity will be renameed plan</b>
+
+We restarted and note that we need to work on a branch basis.
+
+<b>AI:rename
