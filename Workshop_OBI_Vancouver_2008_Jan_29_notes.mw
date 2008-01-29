@@ -45,6 +45,10 @@ AI:OBI coordinators should nominate 1 or 2 people to be OBI associate editors - 
 <b>Disjointness, currently incomplete. AR will strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR</b> 
 
 AI:Definition of InformationEntity to be done by BS/AR/BB</b>
+
+<b>AI:EDIT:Objective now child of InfoEntity DONE</b>
+
+<b>AI:Define Objective add a definition, synonym is GOAL DONE</b>
 ======================================================================================
 
 <b>Agenda</b>
@@ -260,4 +264,66 @@ BS:Gene seqs are not info, they can be represented as imformation
 
 BP:looks like it does now, as this is a BFO issue if these definitions are now considered to be wrong
 
-Ai:Definition of InformationEntity to be done by BS/AR/BB</b>
+AI:Definition of InformationEntity to be done by BS/AR/BB</b>
+
+PRS:issue with algoritm being define in terms of function and the logical overhead
+
+BP:this is replicated in planned processes. Def for me of alg is something realized as a data transformation process
+
+AR:This excludes cases where a robot is doing something
+
+RS:still data as input, output is data that drives the motor
+
+BP:If you want a set of robot instructions where movement is an output then we can add it later now we need data trans
+
+AR:what about alg as something that deals with sw interpreters
+
+JM:call it SW algorithm, as it's not alg in general
+
+PRS:go back to plan, need objective or goal etc where plan. Should all plans have a goal and need a role. 
+
+BS:can't make a generic goal for a protocol that is it's applied in a protocol application, it's a trick sounds like evading the question
+
+BP:it has context though
+
+BS:protocolapplications have goals, and protocol has same goal. The goal of a protocol is not to be applied.
+
+AR:can define in terms of inputs and outputs, goal is to get from inputs to outputs
+
+BS:no. You are using output as goal then.
+
+RB:State my goals for an expt is within a population, need a testable hypothesis
+
+HP:in some cases there are non hypothesis studies, but there can still be a goal
+
+AR:default goal could be in terms of the protocol application, better to do more clearly
+
+BP:Do we need a class goal - another info entity, protocol has a part goal/objective
+
+PRS:objective is there, it's a role played by a statement
+
+JF:Objective should be moved from role. It's in DENRI not role
+
+RB:I agree with Barry, that there are things that I want to test, and there will be a protocol application
+
+BP:We are separating goal which not realizable from plan which is realizable, that's a good split. If you goal is to cure cancer, you don't realize that.
+
+AR:realize doesn't mean that it can happen, but that action or process will follow from it
+
+BP:the thing that translate to action into plan, not the goal
+
+<b>AI:EDIT:Objective now child of InfoEntity</b>
+
+AR:not happy with goal not being realizable
+
+BS:objective in plan and objective as realized is different from the thing that is cardinal part of plan. Think here we mean plan in first sense and it can be realizable
+
+BP:Is objective a plan
+
+BS:no it's part of a plan
+
+<b>AI:Define Objective add a definition, synonym is GOAL DONE</b>
+
+BS:Objectve should be lower in the h'archy than plan.
+
+BP:can you realize an objective without a plan, must have a plan to realize it. Therefore not in itself realizable
