@@ -608,4 +608,14 @@ We check def of Protocol for consistency. We have circular definitions.
 
 BP:the 3 subtypes if protocols, we could define the ProtocolApplication in terms of the union of its children. Would solve the problem.
 
-BS:are you sure that dealt all cases where there are 2 PA going on at the same time. issues with disjointness then. Some investigation where assay/material transformation - if use disjunction then can't represent them in investigation.
+BS:are you sure that dealt all cases where there are 2 PA going on at the same time. issues with disjointness then. Some investigation where assay/material transformation - if use disjunction then can't represent them in investigation. There is another PA - aggregate PA. 
+
+RS:this was in the use case - composites
+
+RB:is it a child or sibling. 
+
+BS:Aggregate protocol application is a protocol appl according to Alan
+
+BS:BFO issues, processes and aggregates of processes are siblings - problem in BFO. Define 3 PA as PA units and mix and match to make larger and more complex PA
+
+BS:before using BFO need to fix granularities and we don't have this; defining PA in terms of kids then is a bad idea
