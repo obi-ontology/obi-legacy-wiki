@@ -419,3 +419,29 @@ RS:There are gps of specimens that are an intermediate layer
 HP:This makes things more complex, suggest that use in that case a sub investigation
 
 PRS:Conclusion is under role - may need to move.
+
+AR:Is the example of the nurses study an an investigation
+
+We think it is
+
+BP:Barry, PA gives instance level data, e.g. has these outcomes. Conclusions are general statements. 
+
+BS:Often true not always true, you might have an experiment to find an instance e.g. a planet found
+
+RB:Assay is a type of PA. PA is about instance level data, has multiple info.
+
+BP:Study we tried to take care of in San Diego. we need these terms, we couldn't decide what the difference is between PA and Study - we had a defined class of multiple PA that are in a defined class based on some thing e.g. done at the same time.
+
+We decide to focus on difference between Investigations and Conclusions
+
+BP:where you find an instance like a star I make a universal statement 'new star' conclusion 
+
+BS:BP is right, according to Popper says all science is designed to falsify hypotheses - testable hypotheses - we can't prove hypothesis is true, we can prove not true. Science not interested in the instances, and there are hypotheses that have been tested that = science
+Goal is to get to testable hypothesis but do so processes to refute hypotheses. 
+
+
+BP:PA give you instance level data which can refute a hypothesis. Investigations should make a new hypothesis again testable. 
+
+AR:this is a rathole. We can talk about conclusions as part of documents. Now we are doing something hard, and we may not make process.
+
+BP:If we do that then docs need digital entities what kind?
