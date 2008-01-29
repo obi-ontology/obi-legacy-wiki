@@ -58,8 +58,10 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 
 <b>AI:Edit:re-defined material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material' DONE</b>
 
+<b>AI:Edit:Check the definition of DataTransformation and reworded for consistency - DONE</b>
 
-======================================================================================
+
+** ====================================================================================== **
 
 <b>Agenda</b>
 
@@ -555,3 +557,17 @@ RB:protocol application has instance level data -
 BP:that's assay we defined there, we should now define Material and Data transformation next
 
 <b>AI:Edit:re-define material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material'</b>
+
+BS:are mice inputs to an observation?
+
+All agree yes. And this is then an assay not an MaterialTransformation. Agreement
+
+AR:overlapping issue?
+
+BP:cell sorting, sort cells, while you sort you count, count is an assay, then you have 2x process of materialseparation and an assay simultan
+
+BP:These happen in parallel
+
+BS:that's Ok if works for the community
+
+<b>AI:Edit:Check the definition of DataTransformation and reworded for consistency - DONE</b>
