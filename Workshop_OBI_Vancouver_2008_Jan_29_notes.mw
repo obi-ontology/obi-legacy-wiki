@@ -60,6 +60,10 @@ AI:Definition of InformationEntity to be done by BS/AR/BB</b>
 
 <b>AI:Edit:Check the definition of DataTransformation and reworded for consistency - DONE</b>
 
+<b>AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done) </b>
+
+<b>AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI</b>
+
 
 ** ====================================================================================== **
 
@@ -571,3 +575,24 @@ BP:These happen in parallel
 BS:that's Ok if works for the community
 
 <b>AI:Edit:Check the definition of DataTransformation and reworded for consistency - DONE</b>
+
+PRS:another class - 'Waiting' doing nothing to a material for a duration of time. No-one wants waiting, it comes under the definition of MaterialTransformation
+
+BP:we have the general problem that we want to connect bits of a protocol. We don't have any temporal concepts. As we don't have the parent sub parts here so we don't gain anything from 
+adding waiting
+
+BS:waiting goes in the human behaviour ontology - it's too general for OBI
+
+PRS:Material and Data Trans are processes that have the 'objective to' included in the definition. Should this only be on plan and at least should be an objective on all of the children of PA
+
+JF:we had time tiggers to deal with the use case Alan described wait 2 mins after washing.
+
+RS:I prefer incubation to waiting
+
+BS:all these have to deal with time, and this needs to be resolved
+
+<b>AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done) </b>
+
+MC:we need to make sure that all the PA definitions 
+
+<b>AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI</b>
