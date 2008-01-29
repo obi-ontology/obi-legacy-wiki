@@ -639,3 +639,9 @@ This was unresolved, AI have been added so we don't lose track of this.
 * BFO list not helpful in guidance on using function
 * developed OBI examples, are quite complex
 * Function in OBI should have limited scope in Instrument, Plan, PA,
+* Objective, role, function not orthogonal
+* what are the use cases e.g. separate molecule by size
+
+HP:did any of the use cases submitted speak to the function branch?
+
+BB:not checked in detail
