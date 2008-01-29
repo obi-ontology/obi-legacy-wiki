@@ -73,7 +73,8 @@
 Each branch will be allocated one hour for discussion. If some time remains at the end of these 2 days we can come back on some of them.
 Format: 10 min presentation, 50 min discussion
 
-'''9-10: CENTRA CALL: 9-10 PST'''
+
+'''9-10PST:''' CENTRA CALL
 
 *Skype available seems to work for free-to-listen - message susanna
 
@@ -129,15 +130,23 @@ Format: 10 min presentation, 50 min discussion
 
 '''Outcome:''' summary of issues / status
 
+
 == '''Wednesday 30/01''' ==
 
-CENTRA CALL: 9-10 PST
+===Morning: 9-12===
 
-10-11: DENRIE (Alan)
+''Continue branch reviews''
 
-11-12: Biomaterial (Melanie)
+'''9-10PST:''' CENTRA CALL
 
-13-14: Instrument (Melanie)
+'''10-11:''' DENRIE (Alan)
+
+'''11-12:''' Biomaterial (Melanie)
+
+
+===Afternoon: 12-16===
+
+'''13-14:''' Instrument (Melanie)
 
 * biomaterial: states: in vivo, in vitro, pre and post mortem....currently "states" are under "to_be_fixed"
 
@@ -145,26 +154,26 @@ CENTRA CALL: 9-10 PST
 
 * instrument and biomaterial: how to deal with commercial terms
 
-14-15:  Data transformation (James)
+'''14-15:''' Data transformation (James)
 
-15-16: End of the day: discussion about remaining issues (e.g. '''update from EnvO''': what goes there? See [http://www.ebi.ac.uk/~sansone/Norman-Morrison-GSC-EnvO-Lite-Version.ppt slides from Norman Morrison])
+'''15-16:''' End of the day: discussion about remaining issues (e.g. '''update from EnvO''': what goes there? See [http://www.ebi.ac.uk/~sansone/Norman-Morrison-GSC-EnvO-Lite-Version.ppt slides from Norman Morrison])
 
-'''''outcome:''''' issues solved and identification of remaining issues 
+'''Outcome:''' issues solved and identification of remaining issues 
 
-End of meeting at 4pm, then snow trip to Cypress mountain: https://wiki.cbil.upenn.edu/obiwiki/index.php/January2008Workshop#Snow
-
+*End of meeting at 4pm, then snow trip to Cypress mountain: https://wiki.cbil.upenn.edu/obiwiki/index.php/January2008Workshop#Snow
 
 
 == '''Thursday 31/01''' ==
- 
-- Parallel or Plenary sessions (to be determined by group vote)
 
-CENTRA CALL: 9-10 PST (or by teleconference, see remote attendance section for details)
+''Parallel or Plenary sessions'' (to be determined by group vote)
+
+===Morning: 9-12===
+
+'''9-10PST:''' CENTRA CALL
 
 Depending on progress during the previous days, we'll choose to have a plenary session or not on Tuesday morning.
 
-
-Session 1 - General policies - Dorothy Lam Boardroom, ground floor.
+'''Session 1''' - General policies - Dorothy Lam Boardroom, ground floor.
 
 How do we resolve difficult development decisions (e.g. long discussion on analyte)
 How do we keep track of these decisions?
@@ -181,7 +190,7 @@ Other concerns raised by members:
 - discussion on analyte, stimulus
 
 
-Session 2 - OWL technicalities - 14th floor conference meeting room
+'''Session 2''' - OWL technicalities - 14th floor conference meeting room
 
 Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
 
@@ -189,32 +198,28 @@ Representing mappings to other ontologies in OBI. DT will map to MO terms by the
 
 Discussion of polysemy and ways to solve that, DT have examples
 
+===Afternoon: 12-15===
 
-Afetrnoon - 3pm
 * Road map to release: branch dissolution? -> Single OBI file? -> Evaluation? -> Iterate? 
-Deprecation policy and other implications if public release.
+*Deprecation policy and other implications if public release.
 
-
-'''''outcome:''''' issues solved, with a practical example when applicable  - roadmap for release process
+'''Outcome:''' issues solved, with a practical example when applicable  - roadmap for release process
 
 
 
 =='''Friday 01/02'''==
 
+===Morning: 9-12===
 
-CENTRA CALL: 9-10 PST - Grants opportunities discussion
+'''9-10PST:''' CENTRA CALL - Grants opportunities discussion
 
-Propose clear milestones.
+*Propose clear milestones.
 
-Proposal for sub-milestones and shorter deadlines. Mechanism to follow up/centralize progress.
+*Proposal for sub-milestones and shorter deadlines. Mechanism to follow up/centralize progress.
 
-eg:
-
-end february -> terms clean (definition, metadata)
-
-end march -> hierarchy clean
-...
-
+*eg: 
+**end february -> terms clean (definition, metadata)
+**end march -> hierarchy clean
 
 =List of attendees=
 
