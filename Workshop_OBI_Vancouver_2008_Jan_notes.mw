@@ -432,6 +432,4 @@ JM:in use case is a scenario and an example, comp questions is what is returned 
 
 RS:the use cases are 3 kinds of derived from, 1. where no net increase/decrease 2. partioning. 3. merging. Do we want to describe all three independently rather than using derives_from
 
-PRS:we can described char of a sample e.g. lake sample, not affect the bugs in it, originates from gives more power. 
-
-BP:these things that are in biomaterial branch have all gone through a process e.g. env sample collection, this is an object that is an output from a process. This should give us the connection to env etc.
+PRS:we can described char of a sample e.g. lake sample, not affect the bugs in it, originates from gives more power.
