@@ -17,6 +17,8 @@ AI:Take use cases and see if OBI can be used to complete these use cases, need s
 
 * RB:Flow cytometry use case
 
+
+
 * JM/HP:AE
 
 * PRS/BII use case
@@ -355,3 +357,5 @@ BP:not all objectives have a plan
 JW:the plan comes after objective is implemented
 
 BS:BP wants to create a KO mouse, and to fulfill this objective is the real world part of objective. Fulfillment is not realization. Realization is always a process. Objective is not a process, as its not the process that is the objective, it's the boundary of the process. protocol application is a process, you processes like climbing a mountain, being on top of a muntain is not an achievement, it is getting to the top by climbing, not being there.
+
+BS:OBJECTIVE belongs under NONREALIZABLEINFOENTITY
