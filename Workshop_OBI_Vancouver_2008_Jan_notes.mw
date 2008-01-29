@@ -67,6 +67,9 @@ AI:JW will provide a link for PDBs effort to do this for beamlines
 
 AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch</b>
 
+AI: dt branch will consider using objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol
+
+AI:role is confusing and all the discussions will be distilled by BS and AR for clarity
 
 </b>
 =========================================================================================
@@ -616,6 +619,17 @@ BP:did you consider the objective of the protocol application - that was the oth
 HP:this could still happen, and this was considered. 
 
 AR:I am more worried about users understanding this.
+
+<b>AI: dt branch will consider using objective, not role - might make things easier</b>
+
+<b>Role is confusing and all the discussions will be distilled by BS and AR for clarity to come up with a less confusing definition</b>
+
+JM:SW ontology is nascent and we have a contingency
+
+BB:has a birnlex ontology that might also help with SW.
+
+
+
 
 
 
