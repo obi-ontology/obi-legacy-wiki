@@ -14,6 +14,7 @@ Barry Smith,
 Richard Scheuerman,
 Bill Bug,
 Bjoern Peters,
+Jay? from Bjoern's group
 
 Two new OBI participants:
 -------------------------
@@ -61,6 +62,8 @@ AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the w
 AI:BS will provide an example of function/role that doesn't involve doubling up with role and functions
 
 AI:Organization needs a place in the ontology, not yet determined
+
+AI:JW will provide a link for PDBs effort to do this for beamlines
 
 </b>
 =========================================================================================
@@ -577,6 +580,12 @@ RS:want to group on e.g. common laser
 AR:can do that at query time
 
 HP:if you group on parts then there will be mult inheritance so can't do that
+
+RB:would this be in the OBI SVN?
+
+General yes it's OK in OBI SVN.
+
+<b>AI:JW will provide a link for PDBs effort to do this for beamlines</b>
 
 
 
