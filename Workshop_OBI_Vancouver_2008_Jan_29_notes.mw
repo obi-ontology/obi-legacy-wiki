@@ -19,6 +19,7 @@ AI:Take use cases and see if OBI can be used to complete these use cases, need s
 
 * JM/HP:AE
 
+
 * PRS/BII use case
 
 * BB:BIRN use case
@@ -596,3 +597,11 @@ BS:all these have to deal with time, and this needs to be resolved
 MC:we need to make sure that all the PA definitions are consistent. All are checked for consistency and minor modifications are made.
 
 <b>AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI</b>
+
+BS:PA differs from a planned process in that a protocol is executed not plan.  
+
+Lack of conviction about this, we look at the definition of PA and planned process.
+
+BP:we agreed that investigation and protocol are different. There are 2 types planned processes - protocolapplication and investigation. This makes the difference
+
+We check def of Protocol for consistency
