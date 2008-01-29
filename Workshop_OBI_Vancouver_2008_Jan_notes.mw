@@ -649,11 +649,11 @@ HP:what is a 1.0 release?
 
 RB:W3C Model for release:
 <b>
-->we are at a working draft now
--->Public working draft, - iterate
---->candidate recommendation, iterate, 12 months, publish before OBI is accepted ideally
----->proposed recommendation, needs to be stable.
-Need a versioning policy and an obsoletion policy
+* we are at a working draft now
+* next Public working draft, - iterate
+* next candidate recommendation, iterate, 12 months, publish before OBI is accepted ideally
+* next proposed recommendation, needs to be stable.
+* Need a versioning policy and an obsoletion policy
 
 </b>
 We all agree that we need a process
