@@ -641,7 +641,62 @@ This was unresolved, AI have been added so we don't lose track of this.
 * Function in OBI should have limited scope in Instrument, Plan, PA,
 * Objective, role, function not orthogonal
 * what are the use cases e.g. separate molecule by size
+* Instrument and reagent use function, and the dfunctions are realized as PA, got mirroring between function and realization of function same as in other places in OBI. Define by specifying PA.
 
 HP:did any of the use cases submitted speak to the function branch?
 
 BB:not checked in detail
+
+BB:would like to know from branches how they thing we should proceed with function.
+
+BS:seems that BB is clear on BFO, and also proved need between function and role
+
+RS:don't need to say that heart pumps blood in OBI. My use cases need function not role. Equip manufacturers need function. I need role.
+
+BB:Simpler better as looked at clinical assessments, you often don't get anything more than glucose was measured, don't know how. How would you represent that. 
+
+RS:these are assay types
+
+We think function inheres in reagent and PA, and no other use cases have been found. 
+
+MC:distinction between function and role - who decides which? In role in BFO - role of artifical heart is to pump blood - that's a role
+
+BS:
+role:borne by an independent continuant e.g. person, not need to play that role e.g student, roles are optional, many socially assigned, some from bio reality
+
+functions: entities esp independent continuants have functions as they were made to have them. all hearts were made to pump blood, even if some do badly. artifical heart was made to pump blood, - then it's a function, error in BFP
+
+dispositions:entities have these and are not a design feature - going grey for e.g. 
+
+BB:not worried about this distinction. We have now thin specified cases. We want to see how would use in OBI.
+
+RS:functions are different from PA, but we should work on one branch and then have a way to deal with parallelism in other branches
+
+BB:function seems to be covered in other bits of OBI
+
+BP:leave function for now, and see what it should be later after we work through PA/
+
+MC:Clear answer - artifical heart function pumping blood - centrifuge - function spin, never have the role centrifuge - will it have both? Will it never have a role.
+
+BP:separator role never held by a centrifuge - 
+
+BB:it would in some cases if some device was specified to play role spin.
+
+RB:was built to have that function
+
+so function or role? still not clear for the centrifuge.
+
+JW:can any object have multiple functions? Yes, function and role then validating. Can then be validating when represented in data acquisition
+
+HP:so summarizing then if something is being used for its std function then role=function, if there is a case when it's being used for something not designed for then you can use role.
+
+BP:we could define cannonical function for instruments then.
+
+JW:is the scope of functions and roles the same set - not nec, but mostly
+
+BP:we define the things that live in the process, and we only need to define the process
+
+RS:I think in my use case I need the role an instrument plays when performing a function. not same as the role in the PA
+
+JF:RS saying that he uses a centrifuge in a PA, you describe as a role, and poss a function
+DT branch has role of normalization, may also be the function of an algorithm
