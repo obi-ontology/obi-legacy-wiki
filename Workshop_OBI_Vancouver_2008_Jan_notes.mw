@@ -31,21 +31,19 @@ Elisabetta Manduchi,
 Raki Bhat,
 
 ==Emerging Action Items==
-<b>AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve<
+<b>AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve.
 
-AI: AR/BB/JF - BB will produce a TRUE role subset of the INOH Molecular Role ontology, which AR will review, and pass on to JF.</b>
+AI: AR/BB/JF - BB will produce a TRUE role subset of the INOH Molecular Role ontology, which AR will review, and pass on to JF.
 
 AI: Send Enviroment Ontology related terms to BS for him to present in Manchester, esp. RS
 
-AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI<
+AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI
 
 AI:AR,BD will go to the relations ontology meeting in Denver to present our needs
 
 AI:Relation Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed 
 
 AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically
-
-AI:Organization needs a place in the ontology, not yet determined
 
 AI:Protocol and ProtocolApplication branches will be merged
 
@@ -67,9 +65,9 @@ AI:Organization needs a place in the ontology, not yet determined
 
 AI:JW will provide a link for PDBs effort to do this for beamlines
 
-AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch</b>
+AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch
 
-AI: dt branch will consider using objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol
+AI: DT branch will consider using objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol
 
 AI:Role is confusing and all the discussions will be distilled by BS and AR for clarity
 
