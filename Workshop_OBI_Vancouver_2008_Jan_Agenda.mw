@@ -75,13 +75,13 @@ Format: 10 min presentation, 50 min discussion
 
 '''9-10: CENTRA CALL: 9-10 PST'''
 
-Skype available seems to work for free-to-listen - message susanna
+*Skype available seems to work for free-to-listen - message susanna
 
-Moderation - self-moderate your slot. Will cutoff discussion at 59 minutes, leaving time to recognize contribution of others. 
+*Moderation - self-moderate your slot. Will cutoff discussion at 59 minutes, leaving time to recognize contribution of others. 
 
-OBI Completion Milestones
+'''OBI Completion Milestones'''
 
-1) OBI "Working" Release - Have OBI at a stage we are ready to have people use requires:
+# OBI "Working" Release - Have OBI at a stage we are ready to have people use requires:
 * Curation_status curation_complete OK (TBD) on all terms - March 1
 * Individual review of OBI 
 ** Term;problem;solution submitted March 15
@@ -89,8 +89,7 @@ OBI Completion Milestones
 * Use cases worked out through OBI to demonstrate "it works"
 * Deprecation policy (and other OBO Foundry requirements http://obofoundry.org/crit.shtml)
 * Documentation on how to use
-
-2) Manuscript requires (1) and:
+# Manuscript requires (1) and:
 * Authorship plan
 * Some text
 
