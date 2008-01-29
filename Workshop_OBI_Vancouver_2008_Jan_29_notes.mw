@@ -286,7 +286,7 @@ BS:can't make a generic goal for a protocol that is it's applied in a protocol a
 
 BP:it has context though
 
-BS:protocolapplications have goals, and protocol has same goal. The goal of a protocol is not to be applied.
+BS:ProtocolApplications have goals, and protocol has same goal. The goal of a protocol is not to be applied.
 
 AR:can define in terms of inputs and outputs, goal is to get from inputs to outputs
 
@@ -324,6 +324,22 @@ BS:no it's part of a plan
 
 <b>AI:Define Objective add a definition, synonym is GOAL DONE</b>
 
-BS:Objectve should be lower in the h'archy than plan.
+BS:Objective should be lower in the h'archy than plan.
 
 BP:can you realize an objective without a plan, must have a plan to realize it. Therefore not in itself realizable
+
+BS:not clear if it's an info entity from working through the definition
+
+PRS:we need to decide this now
+
+BS:This is an ontology for protocol driven research, everything is connected to protocol application
+
+AR:I want to make a KO mouse - is that an objective. This is a process to make a continuant
+
+BP:objective is use a KO in summer 2008
+
+AR:this is realizable, future point
+
+BP:I need a example
+
+BS:I could buy it in 2008
