@@ -189,12 +189,16 @@ Other concerns raised by members:
 
 - discussion on analyte, stimulus
 
+- From Daniel Schober: proposal to prefix helper classes with underscore
+
 
 '''Session 2''' - OWL technicalities - 14th floor conference meeting room
 
 Ontology mapping: how do we import other ontologies in OBI cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports
 
 Representing mappings to other ontologies in OBI. DT will map to MO terms by the workshop and they want discuss representation of that in OBI
+
+How do we deal with time?
 
 Discussion of polysemy and ways to solve that, DT have examples
 
