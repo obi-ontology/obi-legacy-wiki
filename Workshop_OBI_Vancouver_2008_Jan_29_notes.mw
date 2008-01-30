@@ -84,7 +84,12 @@ AI:Define hospital when do organization
 
 <b>AR/BS will discuss relation proposal or the new term proposal for variable in study design</b>
 
+<b>AI:types can bear quality like things features and mathematical function and this is a workaround here for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC will look into this asap. 21 Feb 2008. Alan will call in as will BS.</b> 
 </b>
+
+<b>AI:relation branch terms will be sent to RO2</b>
+
+
 XX======================================================================================XX
 
 <b>Agenda</b>
@@ -909,22 +914,81 @@ JF:roles on propositions, if we move hypothesis this goes away. mostly resolved.
 ==Liju Fan, roles branch report ==
 
 * has_base - what is domain? 
+
 BS: belongs to maths not biomedicine, discussed if things should be included 
+
 MC:we don't want a maths ontology, we have a need for these, 2, 10, we have other relations 
+
 RS:can we use has parameter
+
 AR:what do you do where a function has multiple inputs, is this different from other functions
 would parameter use
+
 PRS:no functions these are log_transformations - has input role.
+
 AR:could we deal with this as an input
+
 RS:input is data, output is data, base is a parameter.
-AR:input has role, implies that there is a role
+
+AR:input has role, implies that there is a role, base is a role
+
+BS:has_variable, is a quality not a relation, is a quality of a function not a relation. DT can live with roles as a quality. But we need something to inhere the quality in and we can't
+
+BS:math entities are like types, don't change. seems that types can play a role, we select them, same thing might apply here. they might be bearers of qualities. BFO says that instances of dep continuants can't have qualities. Says nothing about types.
+
+<b>AI:types can bear quality like things mathematical function and features and this is a workaround here for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch will look into this. </b>
+
+* repels/has_affinity_for - outside obi scope. Kevin Clancy proposed as did protocol application branch
+
+BS:suggest that you create whatever relation you want and make a placeholder until chebi or someone steps up.
+
+BB:affinity is a quality
+
+BS:send to PATO
+
+BP:quality will not help, we want to say something about binding
+
+JW:how deal with hydrophobic interaction
+
+AR:already in biopax land.
+
+BP:need to specify that this label binds this molecule for protocol application
+
+AR:these are functions, there are binding function in go
+
+BP:we need to connect objects
+
+BB:PATO has this. 
+
+JW:what level of detail would you go to
+
+BS:depends on what's needed by a branch
+
+AR:events like this are in biopax obo - not in any place now. good to have an example, so we can do something
+
+BP:binding assay - detects a binds b - needs the relational quality of A for B
+
+JW:what to do with cleavage
+
+BP:all branches try to submit elsewhere and keep if not elsewhere, we only submitted these
+
+<b>AI:binds/repels etc needs to go to PATO, and Bill will provide an example for how to do a relational quality and will also talk to Chris Mungall about adding to PATP</b>
+
+* Instrument branch has submitted a bunch of terms to relation
+
+<b>AI:relation branch terms will be sent to RO2</b>
+
+MC:there are some that did not yet any feedback
+
+JM:when you get issues with terms, are you bouncing these back to the branch
 
 
 
 
-* 
-* 
-* 
+
+
+
+
 
 
 
