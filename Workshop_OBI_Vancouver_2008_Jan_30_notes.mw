@@ -113,3 +113,10 @@ PRS:sailing a boat, goal is to sail to India, I find USA. I don't realize the ob
 BP:you revise the planned objective
 
 AR:Plan and Protocol now merged in to a single file
+
+
+Roles:
+ * RO has class and instance level relationships. 
+ * OBI needs instance and instance_type relationships
+ * uniquely_identified is needed for the serial number instrument relationship
+ * issue with this relationship and URI as used by the semantic web needs to be resolved
