@@ -80,7 +80,9 @@ AI:Philippe to make a list of obi roles that should be in chebi
 
 AI:Define hospital when do organization
 
-<b>AI:no resolution on processes being bearers of roles, needs to be resolved</b>
+<b>AI:no resolution on processes being bearers of roles, needs to be resolved, issues also with roles, propositions and variables</b>
+
+
 </b>
 XX======================================================================================XX
 
@@ -841,15 +843,11 @@ RS:take the animals, get results inhere in the animals not in the processes, and
 
 RB:close branch and this term. had an hour
 
-<b>AI:no resolution on processes being bearers of roles, needs to be resolved</b>
+<b>AI:no resolution on processes being bearers of roles, functions, variables, propositions needs to be resolved</b>
 
-3 further cases to resolve: 
+AR:experimental factor - study variable - 
 
-* test functions
 
-* roles of variables
-
-* roles of propositions
 
 
 
