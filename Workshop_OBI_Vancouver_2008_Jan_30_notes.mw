@@ -344,7 +344,8 @@ HP:these are things that are not created by your protocol applications in your i
 * action item for MC to take to instrument branch
 * genetic info content is a problem - suggestion to send to sequence ontology
 * issues with importing/mapping from outside ontologies
-
+* what is a buffer, AR :a material with a role
+* what is a mixture. we think population is aggregate
 
 
 HP:do we lose artefact object?
@@ -355,3 +356,9 @@ OR can we could keep artefact object and add classes underneath it use this stra
 </b>
 
 AR:workaround, have an owl file, user interface promises that has the subclass axiom, so that these can be seen during development, but not for distribution.
+
+AR:suggest that we only add mixtures that we care about, and not add general concepts
+
+<b>AI:use roles for e.g. buffer in biomaterial rather than hierarchy - BioMaterial Branch</b>
+
+<b>AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes</b>
