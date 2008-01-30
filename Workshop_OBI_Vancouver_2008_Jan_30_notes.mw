@@ -29,7 +29,9 @@ OR can we could keep artefact object and add classes underneath it use this stra
 
 *<b>AI:DT can do the gating examples as a defined class into the ontology - branch action item</b>
 
-<b>AI:Alan to write up an OBI import strategy doc as described at the workshop</b> 
+<b>AI:Alan to write up an OBI import/mapping strategy doc as described at the workshop</b> 
+
+<b>AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results</b>
 
 ==Barry Smith Role, Relation==
 
@@ -528,3 +530,21 @@ JM:can see how could work, how it scales. Concern if we refer to a lot of other 
 AR:could create externals by script if scaling issues
 
 CK:could do with Alan Rector's methodology
+
+AR:for some additional info e.g. pref term, may need to translate and will need to use the derived file fr that
+
+HP:what's the next step - create an external file.
+
+<b>AI:AR/MC/JM will do a test with CTO into BioMaterial
+
+CK:why do we need people curating it? Could do on fly
+
+AR:not all URIs tell where a term is due to issues. Need to say is an instance of owl thing or a class. or may need to define domains and ranges so we might want to make assertions in OBI.
+
+SS:we will create an owl file in all cases? We need to create cross product ontology and we can use OLS to do that. We would like OLS to serve this.
+
+AR:this is a cross product ontology
+
+SS:this we do when we need it. OBI will be pure, when you want for your application you import?
+
+AR:no we will get things and they will live in OBI, and we will release that
