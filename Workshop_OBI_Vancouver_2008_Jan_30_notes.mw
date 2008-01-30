@@ -548,3 +548,19 @@ AR:this is a cross product ontology
 SS:this we do when we need it. OBI will be pure, when you want for your application you import?
 
 AR:no we will get things and they will live in OBI, and we will release that
+
+BS:another use for importing, OBI to some community - you know they need some chem terms, you can do that
+
+AR:yes you can package any way you want
+
+SS:how will you have this packaged up for all
+
+AR:there will be one file called externals and people can edit themselves
+
+HP:I think we can build a default
+
+RS:I thought a community would build their own, but that's not part of OBI
+
+AR:what need, will be more critical what they get from an ontology. This is just a way to get external terms
+
+RS:when we need an external term in OBI wasn't designed to build cross products
