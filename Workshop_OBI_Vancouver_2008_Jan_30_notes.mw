@@ -190,8 +190,9 @@ RB:the parts that no function in the experiment will not be modeled
 * meta data is good
 * problem, induction of natural processes e.g. methylation, how acheived. objective is clear
 * need a link between natural process to some other obo process
-* have a conflict of labels
-*
+* have a conflict of labels for some classes
+* conflict of labelling for e.g. cloning, overlapping terms in different ways - simply container classes now for non orthogonal terms
+* Invitrogen schema, most is in PA, and needed to OBI-ize it, was a great schema took some resolution for PA
 
 RS:when was biomaterial->material transformation. 
 
@@ -227,4 +228,18 @@ BP:no GO term cell co culturing - maybe I need to change the label
 
 RS:concern re h'archy
 
-BP:there is no h'archy, we couldn't get to one, we focussed on defining things and later work on a h'archy, there is a bit of h'archy
+BP:there is no h'archy, we couldn't get to one, we focussed on defining things and later work on a h'archy, there is a bit of h'archy. 
+
+RS:if use an enzyme as a reagent you can talk about function, resist linking to processes
+
+HP:suggest point at EC numbers rather than point at a GO process to avoid confusion
+
+BS:worried about cloning, we have transformation_of in RO. Where have a thing that generates another thing, this is not transformation, is merging, or fusing
+
+BP:we need to define were start with one or more, and end up with an output where multiple things might have happened
+
+BS:cloning is not just material transformation as give rise to an organism
+
+RS:merging and splitting are in material transformation 
+
+BS:then is simply a label issues between the class name and the RO name. That's OK but need to be aware of it and make the definition explicit
