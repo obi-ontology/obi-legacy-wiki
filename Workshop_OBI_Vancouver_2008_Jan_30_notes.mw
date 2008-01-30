@@ -346,19 +346,25 @@ HP:these are things that are not created by your protocol applications in your i
 * issues with importing/mapping from outside ontologies
 * what is a buffer, AR :a material with a role
 * what is a mixture. we think population is aggregate
+* artifact and natural AR:could use roles BP: also need for organism derived, or is derived from a planned process - mating can be a planned process for e.g. We will use artefact object instead. Need artfact object as a defined class for this to work, but we like the solution
+* in vivo, in vitro, ex vivo etc BP:only true for cells, tissues in general things inside or outside the body hard for proteins. These are qualities of some biomaterials and need to restrict how is applied. 
 
 
 HP:do we lose artefact object?
 
 <b>AI:discuss within Instrument branch consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
 
-OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class
+OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent
 </b>
 
 AR:workaround, have an owl file, user interface promises that has the subclass axiom, so that these can be seen during development, but not for distribution.
 
 AR:suggest that we only add mixtures that we care about, and not add general concepts
 
-<b>AI:use roles for e.g. buffer in biomaterial rather than hierarchy - BioMaterial Branch</b>
+<b>AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch</b>
 
-<b>AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes</b>
+<b>AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular</b>
+
+<b>AI:population now has material as a parent and not object aggregate as material is now a union of BFO things</b>
+
+BP:e.g. manufactured protein, have proteins, these are materials determined by content, manufactured ones use the reasoner - classified under material and artifact object
