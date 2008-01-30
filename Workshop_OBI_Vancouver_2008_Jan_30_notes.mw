@@ -90,4 +90,24 @@ BP:This is in objective, we tie a process and the why in objective
 
 BS:the process is not taking a role
 
-<b>AI:processes can't bear roles, objective is used instead for e.g. negative control</b>
+<b>AI:processes can't bear roles, objective is used instead for e.g. negative control - this has been added to the action item wiki</b>
+
+PRS:if objective is realizable entity then is a cardinal part of a protocol, 
+
+BS:as a specification
+
+BP:all protocols have an objective.
+
+BS:plans have constant and variable parts. Some things are left open. True of all parts and the whole plan. Objective will have some parts that are specific and some that are left open. The fact that plans are structured with constant and variable, we might specify coarse and fine objective e.g. cure for cancer, vs test a response to a drug in mouse liver. When we say objective, this is an info entity, the mult descriptions are possible.
+
+PRS:want to be 100 sure. Objective is a planned process?
+
+BS:objectives exist in plan and the realized objective. Need label these.
+
+AR:objective, and achievement, or outcome?
+
+BS:planned objective and realized objective?
+
+PRS:sailing a boat, goal is to sail to India, I find USA. I don't realize the objective - what have I done
+
+BP:you revise the planned objective
