@@ -96,6 +96,10 @@ AI:Define hospital when do organization
 <b>AI:issue that we need a quality like thing of gifness. could also be solved by using feature om OBI as above, again a work around BS:</b>
 
 <b>AI:branches to prioritize which relations are needed and tell role branch</b>
+
+<b>AI:We will need to deal with Parameters, probably in instrument</b>
+
+<b>AI:JW to look at use case docs and suggest some for stuctural biology</b>
 XX======================================================================================XX
 
 <b>Agenda</b>
@@ -1044,6 +1048,9 @@ AR:Chris said parameters will not be accepted.
 
 BS:Settings on equipment are an OBI thing, if exists only in a biomedical investigation belongs to OBI. 
 
+<b>AI:We will need to deal with Parameters, probably in instrument</b>
+
+<b>AI:JW to look at use case docs and suggest some for stuctural biology</b>
 
 
 
