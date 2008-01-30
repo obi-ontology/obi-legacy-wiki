@@ -70,19 +70,24 @@ PRS:do we just need a relation specifies
 <b>AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch</b>
 
 
+RS:we specify that we need to use organ liver - so we'll have an organ specification and will need to point to other ontologies
 
+BS:yes, and for data format that would be also specified here.
 
+RS:and  that's where you point to other ontologies
 
+BS:dealt with all cases where processes are bearing roles now, and resolved that
 
+RS/BP:Sham surgery has a role
 
+AR:bees dancing
 
+BS:continuants have optional qualities, can lose parts, occurents have all their qualities and parts, can't lose or gain. If a process goes faster it's not acquired a new feature. 
 
+BP:bees dancing, communication is a planned process, objective is to send a message. Mock surgery is a planned process where the objective is to have a control
 
+BP:This is in objective, we tie a process and the why in objective
 
+BS:the process is not taking a role
 
-
-
-
-
-
-JM:
+<b>AI:processes can't bear roles, objective is used instead for e.g. negative control</b>
