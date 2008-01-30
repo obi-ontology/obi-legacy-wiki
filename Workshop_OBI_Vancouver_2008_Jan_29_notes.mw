@@ -56,6 +56,9 @@ AI:to prepare a better definition for assay based on the discussion and convince
 
 AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated
 
+<i>DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.</i>
+
+
 AI:Edit:re-defined material transformation - added to OWL file. .. is a protocol application where the objective is to produce output material from input material' DONE
 
 AI:Edit:Check the definition of DataTransformation, MaterialTransformation, and all children of PA (except waiting moved) reworded for consistency. PA also redefined in terms of bring about objective of a protocol - DONE
