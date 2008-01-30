@@ -122,3 +122,5 @@ Roles:
  * issue with this relationship and URI as used by the semantic web needs to be resolved
  * some instance level relations are primitive, some can be defined, not addressed in RO paper
  * OBI needs to define it's instance level relns in terms of simpler instance level relns and this has not been done in logical statements.
+
+<b>AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.</b>
