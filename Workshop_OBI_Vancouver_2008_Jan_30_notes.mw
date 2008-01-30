@@ -29,6 +29,8 @@ OR can we could keep artefact object and add classes underneath it use this stra
 
 *<b>AI:DT can do the gating examples as a defined class into the ontology - branch action item</b>
 
+<b>AI:Alan to write up an OBI import strategy doc as described at the workshop</b> 
+
 ==Barry Smith Role, Relation==
 
 * Time - OBI should deal with only biomedical investigations. Numbers, Time are outside OBI
@@ -512,3 +514,17 @@ for an expt purpose then we should consider that
 
 
 ==Ontology Imports - Alan Ruttenberg==
+
+* Alan outlines an import strategy
+
+<b>AI:Alan to write up an OBI import strategy doc as described at the workshop</b> 
+
+JM:How does this look? Sep file
+
+AR:yes, one external, one external derived, run a script to get parts of the info
+
+JM:can see how could work, how it scales. Concern if we refer to a lot of other ontologies?
+
+AR:could create externals by script if scaling issues
+
+CK:could do with Alan Rector's methodology
