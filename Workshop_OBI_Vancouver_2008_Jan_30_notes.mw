@@ -289,3 +289,12 @@ PRS:we have not finished PA and Protocol relation, BS told us that we need to de
 BP:The definition here is more generic, in terms of analyte, would change to another representation.
 
 RS:where we talk about composite PA, even if there are sub parts material transformation and data transformation
+
+BP:yes.All have some sort of dt, summing etc is a dt
+
+PRS:perform a transcription assay, gene expression, I declare a protocol purpose is to detect mRNA<, material is a microarray, role consumable, utilizes some instruments.
+
+BP:you just care about the assay? We don't have transcription assay yet. We need to add that
+Could define some assays. 
+
+RS:quality of rna in an evaluant, then that's a general class in OBI. When you do your application you are more precise about consumables and instruments when you instantiate
