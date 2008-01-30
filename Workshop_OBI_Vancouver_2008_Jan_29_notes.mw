@@ -82,6 +82,7 @@ AI:Define hospital when do organization
 
 <b>AI:no resolution on processes being bearers of roles, needs to be resolved, issues also with roles, propositions and variables</b>
 
+<b>AR/BS will discuss relation proposal or the new term proposal for variable in study design</b>
 
 </b>
 XX======================================================================================XX
@@ -846,6 +847,95 @@ RB:close branch and this term. had an hour
 <b>AI:no resolution on processes being bearers of roles, functions, variables, propositions needs to be resolved</b>
 
 AR:experimental factor - study variable - 
+
+RS:already constant and conditional variables 
+
+AR:I don't know where variable is
+
+RS:in same place as conclusions and investigations
+
+PRS:variable is a synonym for a factor, time is not part of the treatment in one of these examples it's not a variable.
+
+BP:if you are doing a time course then this is in protocol application. If you conclude something about time then your conclusion is different, how do you design what you do
+
+RS:general case of independent var, conditional population a disease b no disease, or time
+
+JF:we are calling those experimental factors
+
+AR:We have no factor or variable
+
+PRS:can we not start with time, it's already a problem
+
+AR:is variable part of a hypothesis - certain type of hypothesis - BP agrees
+
+AR:about would link variable between drug and it's dosage
+
+BP: in describing the drug you would have all the details.
+
+JW:needs to be part of investigation
+
+PRS:intervention design and declaration of the variables, some variables are not independent of each other. can't have only compound
+
+HP:we need to deal with variables linked with study and also links between variables
+
+BP:suggest that variables are on investigation design, it it only a relation or is it a thing
+
+BS:suspicious - not a role, these are type entities, no instances unless we choose the types
+
+AR:if have an independent variable, where the protocols are different you can do a consistency check
+
+BS:if we put in part of investigation design we would need to say something about the types in reality that can serve as factors
+
+AR:can do as types, define relations 
+
+BS:we maybe able to narrow the types 
+
+AR:not a class, is a part of has_independent_variable has type
+
+BB:if we do as a relation what is the domain. Study Design.
+
+AR:use a relation and then use to related to material and protocolapplication
+
+PRS:what's the inverse relation, does this break
+
+AR:we still need a link from specification to the type
+
+BS:we have a new term specification of study variable  - is a part of a study design which specifies which variables are objects of interest in the study
+
+<b>AR/BS will discuss relation proposal or the new term proposal for variable in study design</b>
+
+JF:roles on propositions, if we move hypothesis this goes away. mostly resolved.
+
+==Liju Fan, roles branch report ==
+
+* has_base - what is domain? 
+BS: belongs to maths not biomedicine, discussed if things should be included 
+MC:we don't want a maths ontology, we have a need for these, 2, 10, we have other relations 
+RS:can we use has parameter
+AR:what do you do where a function has multiple inputs, is this different from other functions
+would parameter use
+PRS:no functions these are log_transformations - has input role.
+AR:could we deal with this as an input
+RS:input is data, output is data, base is a parameter.
+AR:input has role, implies that there is a role
+
+
+
+
+* 
+* 
+* 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
