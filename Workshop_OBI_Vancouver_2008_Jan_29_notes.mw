@@ -74,7 +74,13 @@ AI:BS/AR to explain why roles cannot be born by processes
 
 AI:update naming conventions page to allow this case of suffix role being allowed in this special case
 
+AI:Susanna to supply subtype of compound role toxin etc to Jennifer
 
+AI:Philippe to make a list of obi roles that should be in chebi
+
+AI:Define hospital when do organization
+
+<b>AI:no resolution on processes being bearers of roles, needs to be resolved</b>
 </b>
 XX======================================================================================XX
 
@@ -762,7 +768,101 @@ JF:OK
 
 <b>AI:update naming conventions page to allow this case of suffix role being allowed in this special case</b>
 
+AR:drug role, could be therapeutic instead. 
 
+<b>AI:Susanna to supply subtype of compound role toxin etc</b>
+
+JF:issues with defining metabolite, not always in the body
+
+RS:we need to make sure we are not defining the other metabolites in cell, suggest active_drug_metabolite
+
+MC:do we keep metabolic process?
+
+AR:not an issue here, so we use from GO
+
+MC:PA could be things are investigated, metabolic process could be investigated
+
+RS:phosphorylation natural - not in OBI if you do it in yr expt then it's in OBI. Treatment and result go in OBI
+
+SS:metabolite are in chebi, should it be there
+
+JF:not the compound, derived via a process
+
+PRS:should be in chebi. Here we mean active metabolite, and this is in chebi
+
+JF:not need to be a role
+
+<b>AI:Philippe to make a list of obi roles that should be in chebi</b>
+
+
+<b>AI:Define hospital when do organization</b>
+
+JF:Biological replicate - the other batch of cells, or the process.
+
+HP:the process is replication, this is a role. BS agree
+
+JF:reference treatment  - reference medical device is instrument, sham treatment - bearer is a protocol application - mimic the harmless portion of an intervention 
+
+BS:treating the type not the instance, sham is a type of treatment, so particular sham treatment is the reference, you need an instance of a sham treatment. When we have a reference substance - is that an instance or a type?
+
+BS:baseline participant - is that a person, or any person who in the context of that study
+
+BP:in design you speak in general, when you start these are instantiated
+
+BS:these are then playing a role, the treatment is not the same. you create de novo. every instance of sham treatment is created as such, it is not playing a role
+
+JF:is a function
+
+BS:these are processes created fr a purpose they do not play a role
+
+BS:not function
+
+BP:these sound similar as baseline sounds like belogs in study - sham_treated_participant
+
+BS:some reference participants are determined by that fact that they had a sham treatment
+
+RS:sham is a different treatment, not some other treatment playing a sham role. Can't equate with role.
+
+AR:we will get multiple inheritance, e.g. heart surgeries, each case there can be a sham. Lead us to role again
+
+RS:define as surgery when do the dt then have the gp play a role as the comparator. Tie role to a data item or to a person
+
+BP:a treatment is a case in an investigation and only in the case of a single investigation
+
+BS:shaving is it a sham treatment?
+
+JF:could be, 
+
+RS:not always so, contextual
+
+BP:so animal output of the protocol was sham treated
+
+RS:take the animals, get results inhere in the animals not in the processes, and need to define the animals not the processes
+
+RB:close branch and this term. had an hour
+
+<b>AI:no resolution on processes being bearers of roles, needs to be resolved</b>
+
+3 further cases: 
+
+* test functions
+
+* roles of variables
+
+* roles of propositions
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
