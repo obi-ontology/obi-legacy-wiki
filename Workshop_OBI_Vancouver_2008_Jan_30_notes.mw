@@ -328,3 +328,7 @@ AR:relevant also to data processing, e.g. randomization of the data
 <b>AI:Edit:Defintion of PA defined as being carried out to modify or generate data or materials in an investigation</b>
 
 AR:moves it up to a higher level, and that doesn't help
+
+BP:I would like to move acquisition,  up to planned process - things that come from outside a protocol application
+
+HP:these are things that are not created by your protocol applications in your investigation, This is clear. Data collection is a bad name, confusing with the label with other parts of dt
