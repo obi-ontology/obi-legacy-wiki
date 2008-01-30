@@ -87,7 +87,9 @@ AI:Define hospital when do organization
 <b>AI:types can bear quality like things features and mathematical function and this is a workaround here for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC will look into this asap. 21 Feb 2008. Alan will call in as will BS.</b> 
 </b>
 
-<b>AI:relation branch terms will be sent to RO2</b>
+<b>AI:branch OK relation branch terms will be sent to RO2</b>
+
+<b>AI:BS will review relations s/sheet and document the approach for dealing with has_model that need to be represented in OBI</b>
 
 
 XX======================================================================================XX
@@ -983,6 +985,22 @@ MC:there are some that did not yet any feedback
 JM:when you get issues with terms, you need to help us by bouncing things back to the branch
 
 RS:we need a better way of solving this, there are too many things here
+
+MC:today I need to say that instrument has model_x
+
+BB:models are classes, and manufacturers are instances
+
+PRS:we are still struggling with using OBI classes to input data. We know that instrument has model, and we need a way to view that.
+
+AR:model, instrument is an instance of a model, language is database centric.  This is hard in realism based thing and we didn't want simply to reject. Proliferation is part of the database terms.
+
+BS:model - if we introduce an aboutness relation then we already can use this to deal with model. There will be an InfoEntity that is model number
+
+<b>AI:BS will review relations s/sheet and document the approach for dealing with has_model that need to be represented in OBI</b>
+
+
+
+
 
 
 
