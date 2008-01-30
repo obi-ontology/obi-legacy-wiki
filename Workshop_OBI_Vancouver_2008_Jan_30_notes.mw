@@ -341,23 +341,17 @@ HP:these are things that are not created by your protocol applications in your i
 * issue with def of biomaterial - new def added, material is BFO object
 * BS suggest have material - as need biomaterial which has non bio parts
 * need to allow to disambiguate biomaterials, artefact objects and instruments - use role and have biomaterial as a defined class
-* artefact object - KO mouse, 
-* artefact object will be a defined class
+* action item for MC to take to instrument branch
+* genetic info content is a problem - suggestion to send to sequence ontology
+* issues with importing/mapping from outside ontologies
+
+
 
 HP:do we lose artefact object?
 
 <b>AI:discuss within Instrument branch consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
 
-OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch
+OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class
 </b>
 
 AR:workaround, have an owl file, user interface promises that has the subclass axiom, so that these can be seen during development, but not for distribution.
-
-
-
-
-
-
-
-
-*
