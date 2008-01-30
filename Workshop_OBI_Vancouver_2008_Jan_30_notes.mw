@@ -400,13 +400,24 @@ BP:nothing else has used environment
 * chris S will do our external branch review
 * use case docs next
 * had to use roles to avoid multiple inheritance, will now use objective
+* we used has_input and has_output - there are no logical definitions yet. these are future work
 
 BB: is what's here partly the outcome of a microarray meeting
 
-AR:dye swap merge is not mathematical 
+AR:dye swap merge is not mathematical, could logically define in terms of the data that is information entity
 
 RS:this is merging replicates and is placed
 
 BS:moving average -> moving average transformation or calculation
 
 RS:still want to do gating
+
+BP:there is a specific dt in e.g chromium release assay. for me natural definition would be in terms of the assays.
+
+RS:we will run into the same issue with data transformations, and we can say what the inputs and outputs are without assay
+
+AR:we can write owl statements for e.g. some of the terms. Some of these are composite, we can catch the commonalities.
+
+BP:background correction is a process - and there is also an objective - 
+
+RS:issues with roles so we didn't do anything with this
