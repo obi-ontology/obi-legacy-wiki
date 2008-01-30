@@ -1,6 +1,6 @@
 ==Wednesday January 30 Notes==
 
-==Barry Smith==
+==Barry Smith Role, Relation==
 
 * Time - OBI should deal with only biomedical investigations. Numbers, Time are outside OBI
 * Information Ontology will be worked on by Alan and Barry
@@ -125,3 +125,16 @@ Roles:
  * don't use names of related things in the relation name AR:thinks this is a consistency check and useful
 
 <b>AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.</b>
+
+=Melanie Courtot, Instrument Branch==
+
+* OWL file up to date
+* terms submitted are included
+* finishing meta data clean up
+* minor issues
+* poor coverage, mostly flow cytometry
+* issue with manufacturers and how relate to branch content
+* expecting NMR, chromatography, NMR not in first draft
+* current content=first working release
+
+<b>AI:communities to send terms to instrument branch to improve coverage</b>
