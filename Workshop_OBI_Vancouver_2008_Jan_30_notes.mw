@@ -401,6 +401,7 @@ BP:nothing else has used environment
 * use case docs next
 * had to use roles to avoid multiple inheritance, will now use objective
 * we used has_input and has_output - there are no logical definitions yet. these are future work
+* people think we need to connection to algorithm and logical definitions of input and output
 
 BB: is what's here partly the outcome of a microarray meeting
 
@@ -420,4 +421,25 @@ AR:we can write owl statements for e.g. some of the terms. Some of these are com
 
 BP:background correction is a process - and there is also an objective - 
 
-RS:issues with roles so we didn't do anything with this
+RS:issues with roles so we didn't do anything with some terms, and now the h'archy is flatter - we can go back to more h'archy
+
+PRS:there are still some that are compound terms that include method and purpose e.g. false discovery rate. e.g. Box Cox is refers to the method from Box and Cox, most point to a function and get a base and need a parameter to get a function. If we go down the line of fixing qualification and a method. 
+
+RS:what is the difference? SOme things are well defined by the function and others are more complex. Things that were small and well described are based on function, in other cases we refer to a function
+
+
+PRS:then we need to resolved the case where I need to an FFF and Tukey Bi weight correction, I need to find a property that I can set.
+
+HP:there is no connection yet to algorithms anyway
+
+BP:if you describe all steps along the way - people care about the outcome.
+
+PRS:we need to provide the means to capture which algorithm, you just need a way to specify things.
+
+BP:we just need to deal with that somehow
+
+AR:inputs and outputs needs to be dealt with, or the objectives
+
+RS:we can describe the output but not the objective
+
+RS:runs through the gating example and dimensionality reduction
