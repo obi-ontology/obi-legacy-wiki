@@ -302,3 +302,11 @@ RS:quality of rna in an evaluant, then that's a general class in OBI. When you d
 LF:NMR assay definition You are grouing assays on instrument
 
 BP:not yet done, yes. We can classify as alt. h'archy. We need one assay h'archy and we went this way
+
+RS:h'archy is based on types of measurements are made, ie the evaluant
+
+BP:I would propose that, but you can define in other ways e.g. instrument manufacturers might want that
+
+RS:I want to group all assays that measure virulence or function of a T cell
+
+BP:also for us.
