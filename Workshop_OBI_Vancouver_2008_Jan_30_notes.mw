@@ -447,3 +447,28 @@ RS:runs through the gating example and dimensionality reduction
 BP:this is not about matrices, this is about vectors, and projection of vectors
 
 RS:OK
+
+MC:move gate as a child of partitioning method
+
+AR:no is a defined class in context
+
+RS:we need a generic thing though like a vector partition
+
+AR:you'll try to factor the neutral stuff, and make composite logical definitions
+
+HP:if we have convincing use cases
+
+BP:should avoid matrix terms.
+
+RB:data were cells and vectors, and gating is a complex thing that uses terms everywhere
+
+BB:if this terms to be practical send the maths things to Ivo and they might get on with it
+
+AR:not the next thing that you do
+
+RB:you can test gating context if you can define in terms of what is the input data
+
+BP:some maths things will not have an objective, some that are tied to assays can be tied to an objective. for sine etc there should not be an objective, should be handled elsewhere.
+for an expt purpose then we should consider that
+
+<b>AI:DT can do the gating examples as a defined class into the ontology - branch action item</b>
