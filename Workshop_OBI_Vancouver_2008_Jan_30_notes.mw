@@ -141,6 +141,8 @@ Roles:
 * role and function confusion resolved y'day will be summarised
 * labware - 
 * issues with how to represent by function
+* how restrict use to instance level relations
+* new relations requested
 
 <b>AI:communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging</b>
 
@@ -160,3 +162,7 @@ PRS:Instrument is a material with a role of instrument -
 MC:under discussion also for biomaterial
 
 <b>AI:need a relation to connect PA to instrument and function and to work through how to represent that. LF, MC, BP</b>
+
+BB: how connect instrument to parts?
+
+MC:using defined classes
