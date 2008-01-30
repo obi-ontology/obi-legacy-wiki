@@ -298,3 +298,7 @@ BP:you just care about the assay? We don't have transcription assay yet. We need
 Could define some assays. 
 
 RS:quality of rna in an evaluant, then that's a general class in OBI. When you do your application you are more precise about consumables and instruments when you instantiate
+
+LF:NMR assay definition You are grouing assays on instrument
+
+BP:not yet done, yes. We can classify as alt. h'archy. We need one assay h'archy and we went this way
