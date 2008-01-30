@@ -183,3 +183,28 @@ RS:what part of an instrument has no function -
 RB:the parts that no function in the experiment will not be modeled
 
 ==Bjoern Peters, Protocol Application Branch ==
+
+* specification etc needs adding from today's discussion
+* worked on material transformation a lot (was biomaterial transformation)
+* focus on text definitions, not much on OWL definitions as we need role and plan and they weren't ready
+* meta data is good
+* problem, induction of natural processes e.g. methylation, how acheived. objective is clear
+* need a link between natural process to some other obo process
+*
+*
+
+RS:when was biomaterial->material transformation. 
+
+BP:was a branch decision, Frank insisted
+
+RS:do we need to link to a natural process? I can see why want to say methylation, but the natural process
+
+BP:here because the labels conflict with processes outside obi like reverse transcription
+
+RS:would call it generating making a molecule in a specific way. Suggest use as a chemical process
+
+BB:and point to reverse transcribe
+
+RS:you don't do DNA repair in a PA, you modify it
+
+BP:Ok these are as submitted
