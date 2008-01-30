@@ -1,1 +1,88 @@
 ==Wednesday January 30 Notes==
+
+==Barry Smith==
+
+* Time - OBI should deal with only biomedical investigations. Numbers, Time are outside OBI
+* Information Ontology will be worked on by Alan and Barry
+* Roles
+  * if there is a red curtain in the theatre, the redness is not a role in this context
+  * if a grid is split into 1km squares, km is not a role
+  * need a word for reln between parameter, variables, and the investigation that uses these in PA - BS suggests SETTING as these are not roles like patient role
+
+MC:you say that parameter, hypothesis, objective will live in Protocol. If you modify param during PA, is that a new PA?
+
+BS:No, PA are changeable. If we set voltage outside param we need to ammend the protocol, maybe create a new one
+
+BP:We always said that the we are looking at the end of the PA, and modify Protocol.
+
+<b>BS:In a protocol have a spec of a parameter, realize info entity, gets realized in a 2 stage process, when experimenter adjusts machine, and then when the machine runs with that setting.</b>
+
+BS:also state what will be measuring in the protocol
+
+JF:what about the drug dosage
+
+BS:same as a protocol setting
+
+HP:what about the variables relating to the materials used in the protocol
+
+PRS:this is still part of the protocol, similar to the inclusion criteria for a study. I think is part of the protocols
+
+BS:may be part of protocols that are applied, not nec. specified in the chain.
+
+HP:was thinking more about relation to experimental design, and how that is represented
+
+JW:for me it's characterizing state of the input and the output
+
+BS:agree, but inputs have choice
+
+JW:where there are variable where these are not factors need to record these as well
+
+RS:Think this deals with a lot of issues, analyte, factor, you are talking about kinds of factor now - settings, variables, when you realize these they become qualities of the instrument, the evaulant etc
+
+AR:can be a process, can be a disposition
+
+BB:includes serial no of the device, lot no of the reagent
+
+BP:how implement? we have protocol, we need specification, and a relationship
+
+BS:we need a partonomic analysis of protocols, some will be optional some will be necessary
+
+AR:was hoping that we could use relations rather than rebuilt the h.archy
+
+BS:if we make is specification, makes it easier as is realizable info entity 
+
+BP:this would be parallel to how we use role, tree for specifications
+
+RS:now we need to deal with PA and investiagtion. Variables are spec at the level of investigation, as at the PA level dealing with analytes.
+
+BS:this is an old issue. I think simple soln is that protocol doesn't specify all in planned processes, if you add all together gets specified.
+
+BP:plan has an objective and specifies instructions. 
+
+BS:someone needs to create an anatomy of a protocol so we know which bits are optional
+
+JW:where does this deal with the characterization of input and output
+
+BP:new relationship that allows us to talk about specifications that do not come to reality
+
+PRS:do we just need a relation specifies
+
+<b>AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JM:
