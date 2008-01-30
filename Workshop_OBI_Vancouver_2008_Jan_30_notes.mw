@@ -199,7 +199,8 @@ RB:the parts that no function in the experiment will not be modeled
 * propose high level grouping of assays  e.g. measurement of material quality, detection of label, etc. Issues with how separate DT from these assays, there is a dt but reporting on the process is natural, reporting as a dt is not natural. Proposal to group by what is the ultimate data output. Not clear yet if will work for all assays.
 * planned processes need addressing : enrollment is needed, is not a data transformation, or a material transformation, we need the term, but would like to use planned process. We have things that are 'branchless' - should all go under planned processes. We could add more things here. Objective and specification will help
 * group assignment and enrollment don't belong under the PA header. BS suggests remove PA as a subclass and move up h'archy. these are planned processes in which people are assigned roles.
-* 
+* material transformation in PA or biomaterial transformation ? BP:sample or reagent transformations looks good 
+
 
 
 RS:when was biomaterial->material transformation. 
