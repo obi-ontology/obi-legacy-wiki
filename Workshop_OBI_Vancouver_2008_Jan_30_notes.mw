@@ -143,6 +143,11 @@ Roles:
 * issues with how to represent by function
 * how restrict use to instance level relations
 * new relations requested
+* commercial terms - where store? 
+* settings - now part of specification/PA
+
+
+
 
 <b>AI:communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging</b>
 
@@ -166,3 +171,13 @@ MC:under discussion also for biomaterial
 BB: how connect instrument to parts?
 
 MC:using defined classes
+
+BB:issues with part vs whole functions and inference
+
+RS:parts of instruments can be parts, where is the line between instrument of part and instrument
+
+MC:solved with functional parts, likely using these. Laser can be used as laser or as a part of.
+
+RS:what part of an instrument has no function -  
+
+RB:the parts that no function in the experiment will not be modeled
