@@ -190,7 +190,7 @@ RB:the parts that no function in the experiment will not be modeled
 * meta data is good
 * problem, induction of natural processes e.g. methylation, how acheived. objective is clear
 * need a link between natural process to some other obo process
-*
+* have a conflict of labels
 *
 
 RS:when was biomaterial->material transformation. 
@@ -205,6 +205,26 @@ RS:would call it generating making a molecule in a specific way. Suggest use as 
 
 BB:and point to reverse transcribe
 
-RS:you don't do DNA repair in a PA, you modify it
+RS:you don't do DNA repair in a PA, you modify it. Not happy
 
 BP:Ok these are as submitted
+
+HP:labels are just labels, useful part in the definition
+
+RS:induction of a natural process bad
+
+BP:is a placeholder class, and we need to fix things here
+
+BS:what would we substitute?
+
+BP:back into higher level class, just a problem label
+
+BS:deliberate methylation perhaps? or planned methylation
+
+RS:lots of things mimicking natural process that are not under induction of natural process
+
+BP:no GO term cell co culturing - maybe I need to change the label
+
+RS:concern re h'archy
+
+BP:there is no h'archy, we couldn't get to one, we focussed on defining things and later work on a h'archy, there is a bit of h'archy
