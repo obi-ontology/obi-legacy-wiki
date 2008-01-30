@@ -137,10 +137,26 @@ Roles:
 * expecting NMR, chromatography, NMR not in first draft
 * current content=first working release
 * need to discuss how import OWL files and what are the constraints
-* consensus will be granualar only to support specific use cases
-* role and function confusion
-
+* consensus will be granular only to support specific use cases
+* role and function confusion resolved y'day will be summarised
+* labware - 
+* issues with how to represent by function
 
 <b>AI:communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging</b>
 
 BB:for BIRN we have microscopy and some imaging, we have all the meta data. If I submit as OWL would that be useful?
+
+RB:We may not need to model in obi unless there is a query use case
+
+RS:how would deal with a ruler? Or a pipette - a container
+
+PRS:re consumables, another distinction, how deal with microarrays - used 1x. Is that an instrument or a reagent, where reagent is a role
+
+MC:was thinking of using aggregate object so that composite material/instrument plays a role.
+Have role instrument, reagent etc
+
+PRS:Instrument is a material with a role of instrument - 
+
+MC:under discussion also for biomaterial
+
+<b>AI:need a relation to connect PA to instrument and function and to work through how to represent that. LF, MC, BP</b>
