@@ -392,3 +392,19 @@ BP:nothing else has used environment
 
 
 ==James Malone - Data Transformation==
+
+* Cambridge Workshop summary, see wiki
+* Done a branch review to look at complete terms corrected curation status
+* 139, 51 complete - and h'archy OK
+* we have some cases where we took a sensible view on suffixes
+* chris S will do our external branch review
+* use case docs next
+* had to use roles to avoid multiple inheritance, will now use objective
+
+BB: is what's here partly the outcome of a microarray meeting
+
+AR:dye swap merge is not mathematical 
+
+RS:this is merging replicates and is placed
+
+BS:moving average -> moving average transformation or calculation
