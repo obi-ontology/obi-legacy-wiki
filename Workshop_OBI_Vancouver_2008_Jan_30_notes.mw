@@ -197,6 +197,10 @@ RB:the parts that no function in the experiment will not be modeled
 * assay incomplete
 * substance detection - uses analyte - now problematic, here we'll have lots of things where can detect any quality, not exhaustive now. Need to add 'as the goal of' 
 * propose high level grouping of assays  e.g. measurement of material quality, detection of label, etc. Issues with how separate DT from these assays, there is a dt but reporting on the process is natural, reporting as a dt is not natural. Proposal to group by what is the ultimate data output. Not clear yet if will work for all assays.
+* planned processes need addressing : enrollment is needed, is not a data transformation, or a material transformation, we need the term, but would like to use planned process. We have things that are 'branchless' - should all go under planned processes. We could add more things here. Objective and specification will help
+* group assignment and enrollment don't belong under the PA header. BS suggests remove PA as a subclass and move up h'archy. these are planned processes in which people are assigned roles.
+* 
+
 
 RS:when was biomaterial->material transformation. 
 
@@ -309,4 +313,18 @@ BP:I would propose that, but you can define in other ways e.g. instrument manufa
 
 RS:I want to group all assays that measure virulence or function of a T cell
 
-BP:also for us.
+BP:also for our use case.
+
+JF: do we need specific protocols to assign to a role, or a generic role assigment one?
+
+AR:need both. 
+
+HP:could make a generic parent and then assign existing children
+
+AR:relevant also to data processing, e.g. randomization of the data
+
+<b>AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process</b>
+
+<b>AI:Edit:Defintion of PA defined as being carried out to modify or generate data or materials in an investigation</b>
+
+AR:moves it up to a higher level, and that doesn't help
