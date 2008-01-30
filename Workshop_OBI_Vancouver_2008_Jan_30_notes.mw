@@ -196,7 +196,7 @@ RB:the parts that no function in the experiment will not be modeled
 * material transformation complete
 * assay incomplete
 * substance detection - uses analyte - now problematic, here we'll have lots of things where can detect any quality, not exhaustive now. Need to add 'as the goal of' 
-* 
+* propose high level grouping of assays  e.g. measurement of material quality, detection of label, etc. Issues with how separate DT from these assays, there is a dt but reporting on the process is natural, reporting as a dt is not natural. Proposal to group by what is the ultimate data output. Not clear yet if will work for all assays.
 
 RS:when was biomaterial->material transformation. 
 
@@ -271,3 +271,21 @@ BP:h'archy is defined by what say, define an assay for e.g.
 RS:I want PATO to define high level qualities does it do that?
 
 BP:is unintuitive for me
+
+RS:rate could be a general quality of a process
+
+BP:h'achy could change if assay doesn't work in some cases
+
+HP:seems to me that this will work, I can use assay as it stands I think
+
+BP:text def says that there are mult steps in the assay
+
+PRS:should that be defined here, or in the protocol?
+
+BP:this is in the spirit of realizing a protocol, if you want to talk about steps, you can say  all the parts, e.g. labelling is a material transformation
+
+PRS:we have not finished PA and Protocol relation, BS told us that we need to determine the parts. I think we need to do that here
+
+BP:The definition here is more generic, in terms of analyte, would change to another representation.
+
+RS:where we talk about composite PA, even if there are sub parts material transformation and data transformation
