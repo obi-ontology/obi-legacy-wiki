@@ -368,3 +368,23 @@ AR:suggest that we only add mixtures that we care about, and not add general con
 <b>AI:population now has material as a parent and not object aggregate as material is now a union of BFO things</b>
 
 BP:e.g. manufactured protein, have proteins, these are materials determined by content, manufactured ones use the reasoner - classified under material and artifact object
+
+BB:seems obvious that in vivo/in vitro etc need to be defined classes based on some properties
+
+<b>AI:biomaterial will attempt define these in vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes </b>
+
+BP:maybe attached to objects or processes as well as biomaterials. 
+
+RB:seems like we can test this
+
+BS:these are locations of processes
+
+BP:you'd define these as the environment of the cell or tissue then
+
+AR:in vivo is to do with the participant
+
+BP:cell in a liver measuring some metabolite, if it's ex vivo this experiment was ex vivo
+
+HP:does this belong on assay, in vivo, ex vivo, etc. 
+
+BP:nothing else has used environment
