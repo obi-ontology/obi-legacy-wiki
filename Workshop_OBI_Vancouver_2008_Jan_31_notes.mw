@@ -54,6 +54,19 @@
 <b>AI:An underscore will be added to each branches helper classes, each branch will deal with this themselves</b>
 
 <b>AI:MC will add stimulus to the tracker</b>
+
+
+<b>AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. CS</b>
+
+<b>Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned . This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG</b>
+
+<b>Coordinators/Core Dev will review March 1 release and add to track for resolution</b>
+
+<b>BB/MC will report of the resolution of the curation complete issues discussed elsewhere - DONE</b>
+
+<b>AI:Coordinators/Core Dev will review March 1 release and add to track for resolution, will be added by Mar 15</b>
+
+<b>AI:we need the criteria that define what is the prioritization for issues and if nec. we take it to a vote for e.g.  Mar 1 release, depends on CS mail to coordinators. SS will mail CS so that we can make the time line work. </b>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -377,7 +390,7 @@ JM:what does it buy us, credibility, interest
 
 RB:there is a working group to look at what means curation complete - JM, MC, CS, DS 
 
-<b>BB/MC will report of the resolution of the curation complete issues discussed elsewhere
+<b>BB/MC will report of the resolution of the curation complete issues discussed elsewhere - DONE</b>
 
 Current status of the discussion reported by Melanie 31 Jan 2008:
 
