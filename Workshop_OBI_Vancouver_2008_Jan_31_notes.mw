@@ -158,7 +158,7 @@ AR:propose what OBO foundry does, class called obsolote class, never delete anyt
 
 ==Engineering Methodology==
 
-<b>AI:Improve wiki, FAQ, methodology pages need work, need also to explain why multiple inheritance is bad - JM, JW, MC, FG, DS, BB -</b>
+<b>AI:Improve wiki, FAQ, methodology pages, tools and applications page e.g. add meta data tags need work, need also to explain why multiple inheritance is bad - JM, JW, MC, FG, DS, BB -</b>
 
 <b>AI:Paper proposal on engineering methodology to provide an incentive</b>
 
@@ -211,3 +211,7 @@ EM:wants to use h'archy to show similarity - depth measured, consequences for th
  * now in the tracker and will be assigned at a dev call
 
 <b>AI:MC will add stimulus to the tracker
+
+==Technical Protege Issues==
+
+Adding meta data tags each time. There is code that can add later.
