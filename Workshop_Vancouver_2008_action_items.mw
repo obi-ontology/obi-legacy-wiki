@@ -15,6 +15,45 @@ AI:AR,BD will go to the relations ontology meeting in Denver to present our need
 
 AI:Relation Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed 
 
+==Action Items Wednesday==
+
+
+
+*<b>AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch</b>
+
+*<b>AI:processes can't bear roles, objective is used instead for e.g. negative control - this has been added to the action item wiki</b>
+
+*<b>AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.</b>
+
+*<b>AI:communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging</b>
+
+*<b>AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process</b>
+
+*<b>AI:Edit:Defintion of PA defined as being carried out to modify or generate data or materials in an investigation</b>
+
+*<b>AI:discuss within Instrument branch consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
+
+OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent
+</b>
+
+*<b>AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch</b>
+
+*<b>AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular</b>
+
+*<b>AI:population now has material as a parent and not object aggregate as material is now a union of BFO things</b>
+
+*<b>AI:biomaterial will attempt define these in vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes </b>
+
+*<b>AI:DT can do the gating examples as a defined class into the ontology - branch action item</b>
+
+<b>AI:Alan to write up an OBI import/mapping strategy doc as described at the workshop</b> 
+
+<b>AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI </b>
+
+<b>AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works</b>
+
+<b>AI:Add imports and all related issues as an agenda item for the next workshop SS</b>
+
 
 ==Action Items Thursday==
 
