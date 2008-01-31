@@ -261,6 +261,8 @@ AR:what's the version that's in the bioportal
 
 <b>Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned . This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG</b>
 
+<b>Coordinators/Core Dev will review March 1 release and add to track for resolution</b>
+
 AR:we should have a version - in SF as it is a moving target.
 
 SS:Is it the same on the bioportal and the foundy
@@ -321,3 +323,9 @@ RB:there is a working group to look at what means curation complete - JM, MC, CS
 JM:we discussed in group about h'archy and defs related to cur complete. defs are contigent on  is-a
 
 BP:if curation complete means h'archy then we can't do that for Mar 1
+
+SS:suggest that we need people to work who are on the calls
+
+BP:we will make tracking tickets
+
+<b>Coordinators/Core Dev will review March 1 release and add to track for resolution</b>
