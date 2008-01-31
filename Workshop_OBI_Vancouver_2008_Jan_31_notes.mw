@@ -1,4 +1,4 @@
-==Thursday Janury 31 Notes==
+en==Thursday Janury 31 Notes==
 
 ==Discussion on managing input to OBI==
 * How to keep track
@@ -158,7 +158,7 @@ AR:propose what OBO foundry does, class called obsolote class, never delete anyt
 
 ==Engineering Methodology==
 
-<b>AI:Improve wiki, FAQ, methodology pages need work - JM, JW, MC, FG, DS, BB -</b>
+<b>AI:Improve wiki, FAQ, methodology pages need work, need also to explain why multiple inheritance is bad - JM, JW, MC, FG, DS, BB -</b>
 
 <b>AI:Paper proposal on engineering methodology to provide an incentive</b>
 
@@ -186,6 +186,18 @@ RB:minutes for obi dev call - which branch, all or none
 
 ==Multiple Branch issues==
 
-HP:should these not go to the dev list
-
 <b>AI:Multi branch issues will go to the and issue tracker and hence dev call</b>
+
+BB:fitting obi together will be the rate limiting step
+
+==Multiple inheritance bad, and why are we trying to avoid that==
+
+HP:This is about engineering methodology and should be documented there.
+
+=Using Roles to flatten h'archy==
+
+EM:wants to use h'archy to show similarity - depth measured, consequences for that in OBI
+
+<b>AI:General feeling that there is no design whereby computing over h'archy depth is designed into OBI and it's not a good way to work with OBI at present MC will speak to EM about this</b>
+
+==Prefix helper classes with an _==
