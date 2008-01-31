@@ -255,9 +255,9 @@ SS:the times will affect what we can do in the next workshop, what we can do by 
 
 AR:what's the version that's in the bioportal
 
-<b>AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push CS</b>
+<b>AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. CS</b>
 
-<b>Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned . This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet BB, MC, CK</b>
+<b>Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned . This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. BB, MC, CK</b>
 
 AR:we should have a version - in SF as it is a moving target.
 
@@ -286,3 +286,12 @@ RB:we need unit tests, list of what needs to be done, and implementation. In thi
 MC;how do we deal with validation issues
 
 BB:unit test for each branch first, via pellet - BB will write this. Perl script (MC_ merges) and we make a release in a new tag branch of SVN, error handling will be manual.
+
+
+MC:there is no clean up, terms without ids now.
+
+RB:Editor notes removed. 
+
+AR:discussion on what terms will be in the obi.owl file, obsolete classes will be in. We can post bi-weekly, no clean up.
+
+PRS:or we will release merged files and they get notified.
