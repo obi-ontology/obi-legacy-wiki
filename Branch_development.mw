@@ -38,7 +38,7 @@ https://wiki.cbil.upenn.edu/obiwiki/index.php/AutoIDcommunityRanges
 
 https://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/lastac_autoID
 
-==Latest Branch Term Files==
+==Latest Branch OWL Files==
 
 Links to the latest list of terms for each branch can be found in the table below.  Note: as this is currently active work these links are likely to change over time.
 
@@ -59,10 +59,10 @@ Links to the latest list of terms for each branch can be found in the table belo
 | [https://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/OBI-Function.owl link here]
 |-
 | Instrument
-| [http://spreadsheets.google.com/pub?key=pT8ShyqlllIUySkFP8biiTg link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/InstrumentAndPart.owl?view=log link here]
 |-
 | Plan and Planned Process (formally plan and protocol application)
-| http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/PlanAndPlannedProcess.owl?view=log
+| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/PlanAndPlannedProcess.owl?view=log link here]
 |-
 | Protocol Application
 | See above
@@ -71,10 +71,10 @@ Links to the latest list of terms for each branch can be found in the table belo
 | [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/Quality.owl?view=log link here]
 |-
 | Relations
-| [https://spreadsheets.google.com/ccc?key=p4ViR8BgYUWaAG1b5IaxcJw&hl=en&pli=1 link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/Relations.owl?view=log link here]
 |-
 | Role
-| http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/Role.owl?view=log
+| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/Role.owl?view=log link here]
 |}
 
 <br>
