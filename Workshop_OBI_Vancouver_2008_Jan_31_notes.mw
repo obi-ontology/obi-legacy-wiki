@@ -1,6 +1,6 @@
 ==Thursday Janury 31 Notes==
 
-==Discussion on managing input to OBI
+==Discussion on managing input to OBI==
 * How to keep track
 * How to summarize emails
 * How to communicate previous decisions
@@ -19,8 +19,9 @@
 * Use <i>Editor Note</i> if becomes too complex in the OWL file these can be stripped out, next release will have 2 files, one with E. note one without
 * Doesn't need to be done retrospectively
 * This relies on a usable and used deprecation policy
-* A tracker will be used instead of email for tracking issues, this will be SF until a decisio n is made
-* We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM. 
+* A tracker will be used instead of email for tracking issues, this will be SF until a decision is made
+* We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM
+* If something comes to dev-list, it can be referred to a branch instead
 </b>
 
 
@@ -68,4 +69,17 @@ HP:this is a social problem not a technology problem
 
 BP:do we need a new tracker/svn link?
 
+AR:now that we have the google groups, people can use google groups for everything, is mirrored
+
 <b>AI:</b>
+
+* Should we be a W3C group?
+    * we need to have three W3C supporters
+    * get telecon
+    * get webspace
+    * use of tracker
+    * need an editor
+    * benefit for community
+<b>AI:* AR will look into what are committing to in becoming a W3C group</b>
+
+*
