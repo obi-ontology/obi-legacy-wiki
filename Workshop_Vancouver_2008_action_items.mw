@@ -138,38 +138,38 @@ DL:?
 AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch
 DL:?
 
-*AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF
+AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF
 DL:Mar 1
 
 
-*AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.
+AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.
 DL:?
 
-*AI:communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging
+AI:communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging
 BB:Mar 1
 
-*AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process
+AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process
 DL:Mar 1
 
-*AI:Edit:Defintion of PA defined as being carried out to modify or generate data or materials in an investigation
+AI:Edit:Defintion of PA defined as being carried out to modify or generate data or materials in an investigation
 DL:? did this get done
 
-*AI:discuss within Instrument branch consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
+AI:discuss within Instrument branch consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
 DL:Mar 1
 
 OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent
 
-*AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch
+AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch
 DL:Mar 1
 
-*AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular
+AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular
 DL:Mar 1
 
 
-*AI:biomaterial will attempt define these in vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes 
+AI:biomaterial will attempt define these in vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes 
 DL:Mar 1
 
-*AI:DT can do the gating examples as a defined class into the ontology - branch action item
+AI:DT can do the gating examples as a defined class into the ontology - branch action item
 DL:?
 
 AI:Alan to write up an OBI import/mapping strategy doc as described at the workshop 
