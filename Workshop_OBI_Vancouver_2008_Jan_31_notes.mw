@@ -221,3 +221,50 @@ Adding meta data tags each time. There is code that can add these later from MC,
 * Mapping to other ontologuies
 * Roadmap to release, timelines
 * Dealing with time
+
+<b>AI:wiki timelines</b>
+
+
+
+==OBI "Working" Release - Have OBI at a stage we are ready to have people use requires:==
+
+   * Curation_status curation_complete OK (TBD) on all terms - March 1
+   * Individual review of OBI
+         o Term;problem;solution submitted March 15
+         o Problems without suggestions reviewed by group, then advisors 
+   * Use cases worked out through OBI to demonstrate "it works"
+   * Versioning policy (and other OBO Foundry requirements http://obofoundry.org/crit.shtml)
+   * Documentation on how to use 
+   * Each branch list of requirements to be completed to complete by March 1.
+   * Branch review of other branches
+
+
+AR:want something intermediate for other editors in OBO discuss to look at
+
+HP:will that actually happen
+
+AR:they need a person to have a review for OBO process
+
+HP:that could be the rate limiting step
+
+AR:don't need docs for OBO to look at it
+
+HP:this not reasonable, you need the docs to understand
+
+SS:the times will affect what we can do in the next workshop, what we can do by then from that date
+
+AR:what's the version that's in the bioportal
+
+<b>AI:Bioportal should point at the most recent version OBI-OWL merged file release. We will release that.</b>
+
+AR:we should have a version - in SF as it is a moving target.
+
+SS:Is it the same on the bioportal and the foundy
+
+RB:I assume that SVN is OK, and we can commit what's in SVN, and we make a version release on a regular basis.
+
+JG:The OBI OWL file is not in subversion
+
+AR:recommend that run a script, then svn copy etc to release
+
+BB:And we can ask the Bioportal people for use to post on an SVN trigger
