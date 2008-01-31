@@ -257,7 +257,7 @@ AR:what's the version that's in the bioportal
 
 <b>AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. CS</b>
 
-<b>Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned . This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. BB, MC, CK</b>
+<b>Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned . This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. BB, MC, CK</b>
 
 AR:we should have a version - in SF as it is a moving target.
 
@@ -294,4 +294,18 @@ RB:Editor notes removed.
 
 AR:discussion on what terms will be in the obi.owl file, obsolete classes will be in. We can post bi-weekly, no clean up.
 
-PRS:or we will release merged files and they get notified.
+PRS:I would like the editor notes removed for release.
+
+RB:till 1.0 we already agreed that these will be included
+
+BP:they can be confusing and out of date
+
+MC:Then it will be cleaned by March 1. Public 1.0 is official 1.0, we are talking about an intermediate release
+
+RB:we can have another version with out all other stuff. 
+
+BB:we don't commit to that at this point
+
+AR:could be scripted.
+
+JB:I have a script that export it to XLS spreadsheet
