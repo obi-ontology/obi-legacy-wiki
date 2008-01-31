@@ -478,9 +478,46 @@ date of incorporation.
 <b>AI: John will provide us with top-level hierarchy (low number of terms)
 for incorporation into OBI.</b>
 
-==Use Case from Philippe Rocca-Serra==
- !!Insert Notes from MC here!!
+
+==Cartik Kothari use case discussion==
+
+Conflicts in publications, eg proteomics (annotated in uniprot with
+CAUTION: for example)
+solved by looking up material and methods section
+
+automation of framework for that -> describe experiments in a structured
+format
+
+<b>AI: Cartik has to share his annotations with OBI
+DL:
+</b>
+
+==Philippe Rocca-Serra Use Case Discussion==
+
+human nutrition
+perturbation introduced in 2 groups of animals
+affimetrix platform and NMR spectroscopy
+
+set up: 2 groups * 6 animals
+- high fat diet + control food
+
+glucose tolerance test challenge for all animals, after recovery from that
+challenge they will sample blood at different times, compute glucose
+concentration and deduce insulin.
+blood plasma, slice of livers (extract RNA->transcriptomics)
+normalization (bioconductor, R)
+linear model of data, corrections , get differentially expressed genes in
+their set
+
+Experiment has aim, materials and methods (plan/protocol in OBI), results
+
+AR: difference between results and conclusion?
+PRS: results = data, conclusion, generation of new hypothesis
+
+Map this on OBI, using investigation, DT, plan, objective....
+
 
 * Has a use case from a paper for nutrigenomics
 * Wants to validate OBI using it
 * using a form approach
+* Add a link to PRS text docs
