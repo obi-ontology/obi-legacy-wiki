@@ -13,7 +13,13 @@
     * proposer summarizes
     * how do we document the conclusion
 
-<b>AI:Summary editor note in OWL file, can point to external URL if needed, summary should be in text use SVN change log note to say what has been changed as well. We can generate one OBI files one with doc, one without. Doesn't need to be done retrospectively. This relies on a useable and used deprecation policy</b>
+<b>AI:
+* Summary editor note in OWL file, can point to external URL if needed
+* Summary should be in text use SVN change log note to say what has been changed as well. 
+* Use <i>Editor Note</i> if becomes too complex in the OWL file these can be stipped out.
+* Doesn't need to be done retrospectively
+* This relies on a useable and used deprecation policy
+</b>
 
 E.g. if change analyte, commit -analyte changed. Editor note, summary of why. Point to wiki, or thread. Typo fixes do not need to be logged. 
 
@@ -58,4 +64,4 @@ RB:Look at OWL tracker now http://www.w3.org/2007/OWL/tracker/ integrates into y
 
 HP:this is a social problem not a technology problem
 
-<b>AI:
+<b>AI:</b>
