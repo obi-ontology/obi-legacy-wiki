@@ -430,3 +430,50 @@ BP:we will make tracking tickets
 BB:likely that anything in that period will not be fixed.
 
 <b>AI:we need the criteria that define what is the prioritization for issues and if nec. we take it to a vote for e.g.  Mar 1 release, depends on CS mail to coordinators. SS will mail CS so that we can make the time line work. </b>
+
+
+==Use Case Discussion, John Westbrook==
+
+Presentation of an investigation = collection of PDB entries contributed
+by different investigators, working on the same protein.
+structure comes from multi tech, x-ray, nmr...then used as models:tracking
+this info is important.
+Record instruments, settings, experiments....descriptive info report
+style, not paper style.
+
+they want to reduce complexity associated with dealing with multiple types
+of files coming from multiple users.
+
+3 kind of specific examples <=> 3 level of infos
+1. protein expression protocol
+for structural genomics project: record at trial level the progress of
+production
+info is text, standards protocols, specific details for each trial is
+captured
+
+AR: what granularity do we need? what are you mining for?
+
+JW: mining for common methodology, materials and reagents
+
+2. crystallization description
+x-ray experiment, single crystal as specimen
+2 ways of collecting info:
+protocol desc: + and - info on trials for crystallization - methodology,
+detailed solutions conditions (concentrations, temperature, apparatus...)
+crystal itself
+
+3. data collection on that crystal after diffraction experiment
+
+
+example of OBI related:
+radiation source etc...-> instruments
+software used to process info
+essential features of dataset: qualities (accuracy) of the data
+
+they have controlled vocabularies to describe every of these. These CVs
+could be the core of their term submission list.
+
+Proposal to get a new submission from John, with no promise regarding the
+date of incorporation.
+<b>AI: John will provide us with top-level hierarchy (low number of terms)
+for incorporation into OBI.</b>
