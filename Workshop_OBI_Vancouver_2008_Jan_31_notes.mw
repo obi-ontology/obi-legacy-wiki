@@ -318,35 +318,30 @@ JM:what does it buy us, credibility, interest
 
 RB:there is a working group to look at what means curation complete - JM, MC, CS, DS 
 
-<b>BB/MC will report of the resolution of the curation complete issues discussed elsewhere</b>
+<b>BB/MC will report of the resolution of the curation complete issues discussed elsewhere
 
 Current status of the discussion reported by Melanie 31 Jan 2008:
 
 Regarding the list of proposed values, this is the list as proposed by 
 James:
 
-- *uncurated: *nothing done yet, working term name and ID assigned on 
+* uncurated: *nothing done yet, working term name and ID assigned on 
 insertion (which leads to...)
-
-- *under curation*:  is being worked on by a curator but not complete 
+* under curation*:  is being worked on by a curator but not complete 
 yet, either metadata not all there, or values not correct/complete, 
 etc.  Notes should be added in "editor_note" property to record any 
 specific issues, comments. (which leads to...)
-
-- *pending final vetting* all definitions, placement in hierarchy and 
+* pending final vetting* all definitions, placement in hierarchy and 
 min metadata complete and are awaiting a review of the term (by someone 
 other than the editor of the concept). (which leads to...)
-
-- *curation complete* ready for use, we curated it and it has been 
+* curation complete* ready for use, we curated it and it has been 
 reviewed and will be included in next "release" of  OBI.
-
--*raw import*: terms imported from an external ontology (and I presume 
+* raw import*: terms imported from an external ontology (and I presume 
 will therefore not be altered) - these terms must have some mapping to 
 original source, i.e. ID code  My only questions are (apart from does 
 this look OK to everyone) do we need raw import and if so how do we deal 
 with this, i.e. do we review these concepts as well and are they 
 included in our owl file for OBI releases?
-
 </b>
 
 
