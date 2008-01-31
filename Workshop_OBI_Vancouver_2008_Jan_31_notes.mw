@@ -22,6 +22,7 @@
 * A tracker will be used instead of email for tracking issues, this will be SF until a decision is made
 * We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM
 * If something comes to dev-list, it can be referred to a branch instead
+* When proposing an item in tracker we will discuss on dev call, it will be assigned to a person, and that person will take responsibility for resolving discussion and closing
 </b>
 
 
@@ -85,7 +86,13 @@ AR:now that we have the google groups, people can use google groups for everythi
 
 * Process needed for decision making
 
-* Time lag is one month
-<b>
-
+* Time lag is one month on votes - long
 <b>AI:Proposal: We will now have 2 week deadlines on anything that is put to the vote - JM will make a wiki to vote</b>
+
+* Who is responsible for a thread closure?
+
+BB:suggest that someone on the branch takes responsibility. I will not do that again, no resolution
+
+MC:I started analyte. I am happy to resolve, what if people disagree
+
+RB:Work through an example: If we started today, add to sf, proposed a solution, then I assign to. During dev call go through unassigned issues, deadline set and someone owns.
