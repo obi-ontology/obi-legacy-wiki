@@ -1,0 +1,32 @@
+==Thursday Janury 31 Notes==
+
+==Discussion on managing input to OBI
+* How to keep track
+* How to summarize emails
+* How to communicate previous decisions
+
+MC:People should be allowed an opinion, but need to know what the decision was. E.g a tracker.
+
+RB:OBI file is the arbitrator - curation complete= a decision
+
+BB:and we have annotation properties for discussion, and we can add there
+
+SS:issue that this on the call.
+
+PRS:branch leader to add an editor note in the file
+
+HP:tracker works well for a small no of editors, but release notes would be better and can generate these from the file
+
+BB:related thing, no-one can bring up a topic unless they provide a solution and they document it's closure.
+
+AR:I have been adding release notes on checkin, and there's a mailing list on checkin, and there's a log. This not at the level of definitions
+
+MC:In OWL file is great, some things did not make it to the OWL file
+
+BP:we didn't have the OWL file in the early days, now we can force people to use it
+
+<b>AI:Two proposals for this, OWL file annotation property and SVN checkin logs</b>
+
+AR:we could get tracker from W3C - XG Incubator
+
+BP:2 things, we won't have the resolution in the OWL file, and that's fine. We need the resolution, discussion conclusion as an annotation property
