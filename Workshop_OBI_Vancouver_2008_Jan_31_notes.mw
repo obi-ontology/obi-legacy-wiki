@@ -23,6 +23,7 @@
 * We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM
 * If something comes to dev-list, it can be referred to a branch instead
 * When proposing an item in tracker we will discuss on dev call, assign a date for closure, it will be assigned to a person, and that person will take responsibility for resolving discussion and closing on the due date decided.
+* If you have tracker things from this meeting (look for your initials) use the tracker
 </b>
 
 
@@ -96,3 +97,11 @@ BB:suggest that someone on the branch takes responsibility. I will not do that a
 MC:I started analyte. I am happy to resolve, what if people disagree
 
 RB:Work through an example: If we started today, add to sf, proposed a solution, then I assign to. During dev call go through unassigned issues, deadline set and someone owns.
+
+* Coordinators - active/inactive
+
+AR:in W3C there is a policy where you need to attend 2/3 calls, can't vote if don't do that
+
+* Deprecation
+
+* How a vote gets on the wiki call
