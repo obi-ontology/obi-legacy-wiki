@@ -1,3 +1,5 @@
+==Getting to a Release, policies and processes==
+
 <b>AI:
 * Summary editor note in OWL file, can point to external URL if needed
 * Summary should be in text use SVN change log note to say what has been changed as well. 
