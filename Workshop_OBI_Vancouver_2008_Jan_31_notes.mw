@@ -102,6 +102,57 @@ RB:Work through an example: If we started today, add to sf, proposed a solution,
 
 AR:in W3C there is a policy where you need to attend 2/3 calls, can't vote if don't do that
 
-* Deprecation
+RB:time zone issues with that
+
+<b>AI:Have a vote to remove people from coordinators list if they are not participating in OBI. Will contact everyone to ask for a replacement/withdraw. CS</b>
+
+CS:community matters not the person.
+
+AR:representative does not =coordinator
+
+* Does a representative= a coordinator
+
+AR:I raise the point that people can be representatives and not coordinators
+
+SS:Good example with OBI, EMnvO is a sep project now.
+
+RB:New group - representatives
+
+HP:please no new email list
+
+SS:suggest that the coord now are active in branches and community reps
+
+JM:We have core dev, community reps, and coordinators
+
+RB:we need to reach out to those who are community reps
+
+<b>AI:Identify what the responsibilities are for a coordinator and a community representative - Coord Call. CS</b>
+
 
 * How a vote gets on the wiki call
+
+MC:In latest call coord call we discussed using a voting system to resolve issues and people voted against that
+
+HP:decision on a call or a meeting to put something to the vote.
+
+<b>Things get voted on in wiki by proposing a vote on a dev call</b>
+
+AR:e.g. analyte, someone documents the issue tracker, pro and con, post, and that summary is voted on.
+
+MC:analyte went through that process, people wanted to reach a consensus and that wasn't possible.
+
+AR:there are formal objections, chairs can close an issue, these are documented e.g. on dev call goes to coordinators call. Would like to run through the process
+
+<b>AI:if consensus cannot be reached by developers, coordinating will decide by some as yet undefined mechanism</b>
+
+RB:resolution of issues outstanding, can we assign these. Looking at tracker
+
+<b>AI:in SF tracker will be added to agenda for next dev call. CS</b>
+
+* Deprecation
+
+AR:propose what OBO foundry does, class called obsolote class, never delete anything. Only thing can remove. Logical defs need to be removed.
+
+<b>AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS</b>
+
+BP:things
