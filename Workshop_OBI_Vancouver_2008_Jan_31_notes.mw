@@ -523,3 +523,11 @@ Map this on OBI, using investigation, DT, plan, objective....
 * Wants to validate OBI using it
 * using a form approach
 * Add a link to PRS text docs
+
+=== Working PRS Liver Transcriptomics example in OWL ===
+
+* ''protocol application'': '''RNA abundance measurement'''
+** gave it a definition that referred to the protocol being realized
+** has_input: biomaterial - no problem
+** has_output: (information content entity AND (''about'' SOME (RNA Concentration))
+*** RNA Concentration is a quality
