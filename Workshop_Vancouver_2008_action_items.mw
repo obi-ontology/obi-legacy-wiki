@@ -356,32 +356,23 @@ BB/MC will report of the resolution of the curation complete issues discussed el
 #AI: Develop a documentation plan for OBI and assign tasks JM/MC/BB. '''DL:Mar 1 for a plan'''
 #AI: Branch/Individual review of other branches by March '''DL:Mar 15'''
 #AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)'''
-#AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: 
--DL:May 1
-- RS:Volunteer to do a use case clinical study
--- RB:Flow cytometry use case
--- JM/HP:ArrayExpress use case
--- PRS/BII use case
--- BB:BIRN use case
--- JG:Immunity use case
--- CS:JF SIFT use case
--- GenePattern use case  (CS/HP)
-#AI: Developing a long term (5 year) management plan for the OBI grant - AR/BP/BS 
-''DL:Apr 1''
-#AI:Policy needs developing and take to a coord conference call  
--DL:12 Mar Coord call
-#AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan. JW
--DL:Jul 1
-#AI:OBI coordinators should nominate 1 person to be OBO foundry associate editors - agenda item for a coordinators call CS
--DL:Mar 12 coord call.
-AI;Disjointness, currently incomplete. Strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR/MC
--DL:Apr 1
-#AI:Definition of InformationEntity to be done by BS/AR/BB
--DL:Mar 1
-#AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses
--DL:Mar 1 add to OWL file
-#AI:BS to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way
--DL:Mar 1 UNCLEAR
+#AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1'''
+##RS:Volunteer to do a use case clinical study
+##RB:Flow cytometry use case
+##JM/HP:ArrayExpress use case
+##PRS/BII use case
+##BB:BIRN use case
+##JG:Immunity use case
+##CS:JF SIFT use case
+##GenePattern use case  (CS/HP)
+#AI: Developing a long term (5 year) management plan for the OBI grant - AR/BP/BS '''DL:Apr 1'''
+#AI:Policy needs developing and take to a coord conference call '''DL:12 Mar Coord call'''
+#AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan. JW '''DL:Jul 1'''
+#AI:OBI coordinators should nominate 1 person to be OBO foundry associate editors - agenda item for a coordinators call CS  '''DL:Mar 12 coord call.'''
+#AI;Disjointness, currently incomplete. Strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR/MC  '''DL:Apr 1'''
+#AI:Definition of InformationEntity to be done by BS/AR/BB '''DL:Mar 1'''
+#AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file'''
+#AI:BS to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way  '''DL:Mar 1 UNCLEAR'''
 #AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated
 <i>DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.</i>
 -DL:Def done, OWL file Mar 1
