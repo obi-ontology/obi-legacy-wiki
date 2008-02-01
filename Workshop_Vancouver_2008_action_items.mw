@@ -383,7 +383,7 @@ BB/MC will report of the resolution of the curation complete issues discussed el
 #AI:Works with Chebi to resolve roles for chemicals, submit to Chebi. JF/SS/PRS  '''DL:Mar 1'''
 #AI:Hospital should be added when Organization is added to OBI tracker MC  '''DL:Feb 7'''
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1'''
-AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE'''
+#AI:AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE'''
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''DL:21 Feb phone call''' 
 #AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:  '''DL:?When info ontology is tackled?'''
 #AI:Approved relation branch terms will be sent to RO2 LF  '''DL:Feb 7'''
@@ -392,31 +392,19 @@ AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE
 #AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc'''
 #AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch  '''DL:Info Ontology?'''
 #AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF/JG  '''DL:Feb 7'''
-#AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.
--DL:Feb 15
+#AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.  '''DL:Feb 15'''
 #AI:Communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging. CK will review the file and reformat.
 BB:Feb 15
-#AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process PRS
--DL:Mar 1
-#AI:Edit:Definition of PA defined as being carried out to modify or generate data or materials in an investigation. Issues still BP.
--DL:Mar 1
-#AI:discuss within Instrument branch ,consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
--DL:Feb 15
-OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent
-#AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch
--DL:Mar 1
-#AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular
--DL:Mar 1 OWL file
-#AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS
--DL:Mar 1
-#AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS
--DL:Mar 1
-#AI:MC/JM/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc
--DL:Apr 1
-#AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI 
--DL:Apr 1
-#AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.
--DL:Workshop
+#AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process PRS  '''DL:Mar 1'''
+#AI:Edit:Definition of PA defined as being carried out to modify or generate data or materials in an investigation. Issues still BP.  '''DL:Mar 1'''
+#AI:discuss within Instrument branch ,consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.  '''DL:Feb 15'''  OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent
+#AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch  '''DL:Mar 1'''
+#AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular  '''DL:Mar 1 OWL file'''
+#AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS  '''DL:Mar 1'''
+#AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS  '''DL:Mar 1'''
+#AI:MC/JM/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1'''
+#AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI  '''DL:Apr 1'''
+#AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.  '''DL:Workshop'''
 #AI:Ontology annotation and release notes policy
 - Summary editor note in OWL file, can point to external URL if needed
 - Summary should be in text use SVN change log note to say what has been changed as well. 
