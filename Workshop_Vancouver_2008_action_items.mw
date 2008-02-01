@@ -379,32 +379,19 @@ BB/MC will report of the resolution of the curation complete issues discussed el
 #AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week (Plan and PA branch work will be merged into a single effort)  '''DL:Mar 1'''
 #AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this.  '''DL:Mar 1 (not OWL file) docs'''
 #AI:BS will resolve BFO issues reported to him.  '''DL:May 4'''
-#AI: Daniel Schober to update naming conventions page to allow suffix role being allowed in role special case and also for cases in data transformation branch which are sensible e.g. sine_transformation
--DL:7 Feb
-#AI:Works with Chebi to resolve roles for chemicals, submit to Chebi. JF/SS/PRS
--DL:Mar 1
-#AI:Hospital should be added when Organization is added to OBI tracker MC
--DL:Feb 7
-#AI:issues also with propositions bearing roles unresolved AR
--DL:Mar 1
-AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity
--DL:DONE
-#AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS. 
--DL:21 Feb phone call, 
-#AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:
--DL:?When info ontology is tackled?
-#AI:Approved relation branch terms will be sent to RO2 LF
--DL:Feb 7
-#AI:BS will review relations s/sheet and document the approach for dealing with has_model that need to be represented in OBI AR/LF/BS
--DL:Feb 15
-#AI:branches to prioritize which relations are needed and tell role branch
--DL:Mar 1
-#AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO 
--DL:Mar 1 term submission to MC's google doc
-#AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch
--DL:Info Ontology ?
-#AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF/JG
--DL:Feb 7
+#AI: Daniel Schober to update naming conventions page to allow suffix role being allowed in role special case and also for cases in data transformation branch which are sensible e.g. sine_transformation  '''DL:7 Feb'''
+#AI:Works with Chebi to resolve roles for chemicals, submit to Chebi. JF/SS/PRS  '''DL:Mar 1'''
+#AI:Hospital should be added when Organization is added to OBI tracker MC  '''DL:Feb 7'''
+#AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1'''
+AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE'''
+#AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''DL:21 Feb phone call''' 
+#AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:  '''DL:?When info ontology is tackled?'''
+#AI:Approved relation branch terms will be sent to RO2 LF  '''DL:Feb 7'''
+#AI:BS will review relations s/sheet and document the approach for dealing with has_model that need to be represented in OBI AR/LF/BS  '''DL:Feb 15'''
+#AI:branches to prioritize which relations are needed and tell role branch  '''DL:Mar 1'''
+#AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc'''
+#AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch  '''DL:Info Ontology?'''
+#AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF/JG  '''DL:Feb 7'''
 #AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.
 -DL:Feb 15
 #AI:Communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging. CK will review the file and reformat.
