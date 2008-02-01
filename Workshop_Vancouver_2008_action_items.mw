@@ -151,23 +151,23 @@ AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMateria
 *DL:Mar 1
 
 AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular
+*DL:Mar 1 OWL file
+
+
+AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS
 *DL:Mar 1
 
-
-AI:biomaterial will attempt define these in vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes 
+AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS
 *DL:Mar 1
 
-AI:DT can do the gating examples as a defined class into the ontology - branch action item
-*DL:?
-
-AI:Alan to write up an OBI import/mapping strategy doc as described at the workshop 
-*DL:Mar 1
+AI:MC/JM/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc
+*DL:Apr 1
 
 AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI 
-*DL:? Summer workshop
+*DL:Apr 1
 
-AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works
-*DL:? Summer workshop
+AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.
+*DL:Workshop
 
 AI:Ontology annotation and release notes policy
 * Summary editor note in OWL file, can point to external URL if needed
@@ -181,10 +181,9 @@ AI:Ontology annotation and release notes policy
   * If something comes to dev-list, it can be referred to a branch instead
   * When proposing an item in tracker we will discuss on dev call, assign a date for closure, it will be assigned to a person, and that person will take responsibility for resolving discussion and closing on the due date decided.
   * If you have tracker things from this meeting (look for your initials) use the tracker
-*DL:Mar 1 for outstanding items to be added to tracker e.g. analyte, policy is DONE.
 
-AI:Two proposals for release notes, OWL file annotation property and SVN checkin logs
-*DL:? suggestion needs resolution
+AI:Two proposals for release notes, OWL file annotation property and SVN checkin logs, resolved as editor notes long, SVN short.
+*DL:DONE
 
 
 AI:AR will look into what are committing to in becoming a W3C group
@@ -196,14 +195,10 @@ AI:AR will look into what are committing to in becoming a W3C group
     * need an editor
     * benefit for community
 
-*DL:?
+*DL:Feb 15
 
-
-AI:Have a vote to remove people from coordinators list if they are not participating in OBI. Will contact everyone to ask for a replacement/withdraw. CS
+AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS
 *DL: 13 Feb, next coord call
-
-AI:Identify what the responsibilities are for a coordinator and a community representative - Coord Call. CS
-*DL:13 Feb, next coord call
 
 AI:Things get voted on in wiki by proposing a vote on a dev call
 *DL:n/a policy
@@ -212,96 +207,88 @@ AI:if consensus cannot be reached by developers, coordinating will decide by som
 *DL:n/a policy
 
 AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS
-*DL:13 Feb, next coord call
+*DL:21 Feb, next dev call. HP will invite CM
 
 AI:Paper proposal on engineering methodology to provide an incentive
-*DL:?
+*DL: dependent on authorship policies
 
 AI:custom google custom search box for OBI wiki will be requested from CS group CS
-*DL:something has been DONE what?
+*DL:In progress, Apr 1
 
 
-
-AI:DENRI, Relations, Quality, Role need links to their term list files and or notes on the Branch Conf Calls
-*DL:DONE ?
+AI:Wiki DENRI, Relations, Quality, Role need links to their term list files and or notes on the Branch Conf Calls
+*DL:DONE
 
 AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call
 *DL:immediate effect
 
 AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call
-*DL:Mar 1, for existing items to be added to tracker
+*DL:Immediate
 
 AI:General feeling that there is no design whereby computing over h'archy depth is designed into OBI and it's not a good way to work with OBI at present MC will speak to EM about this
 *DL:Mar 1
 
 AI:An underscore will be added to each branches helper classes, each branch will deal with this themselves
-*DL:Mar 1
+*DL:Mar 1 OWL file
 
 AI:MC will add stimulus to the tracker
 *DL:Mar 1
 
-AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. CS
+AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. Chris Stoeckert and Daniel Rubin.
 *DL:15 Feb for mechanism, upload after Mar 1
 
 Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG
 *DL:Mar 1, first release
 
-Coordinators/Core Dev will review March 1 release and any issues will be added to track for resolution
+Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.
 *DL:Mar 15
-
 
 AI:We need the criteria that define what is the prioritization for issues and if nec. we take it to a vote for e.g.  Mar 1 release, depends on CS mail to coordinators. SS will mail CS so that we can make the time line work. 
 *DL:13 Feb
 
-AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically
-*DL:?
+AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically. This is a script to merge. Evaluation needs to be soon
+*DL: Mar 1
 
 AI:Protocol and ProtocolApplication branches will be merged. The OWL files for Plan, Protocol have been merged by AR. He will send instructions to the dev list
-*DL:DONE, files merged, need a decision on list
+*DL:DONE, files merged committed, PA list will be used, Alan will fix plan email to PA
+
 
 AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP
-*DL:?
+*DL:Mar 1
 
 AI:RS will provide a clinical trial example of protocol
 *DL:? same as use case
 
 AI:How do we embed OBI in different systems - AR wants as focus of a session this week
-*DL:Fri 1 Feb
+*DL:DONE
 
-AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call
-*DL:?
+AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.
+*DL:Dealt tith in calls
 
 AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.
-*DL:?
+*DL:May 1
 
-AI:BS will provide an example of function/role that doesn't involve doubling up with role and functions
-*DL:?
 
-AI:Organization needs a place in the ontology, not yet determined
-*DL:?
+AI:JW will provide a link for PDBs attempt to deal with instrument and parts thereof to do this for beamlines JW
+*DL:DONE
 
-AI:JW will provide a link for PDBs attempt to deal with instrument and parts thereof to do this for beamlines
-*DL:Mar 1
+AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.
+*DL:Feb 15
 
-AI:Make the connection between the visulation here between table and graph that comes out of this process currently that is in the DENRI branch
-*DL:?
+AI: DT branch will test objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol
+*DL:Mar 1 OWL file
 
-AI: DT branch will consider using objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol
-*DL:Mar 1
 
-AI:Role is confusing and all the discussions will be distilled by BS and AR for clarity
-*DL:?
-
-AI:BS will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI
-*DL:?
+AI:BS/AR will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI
+*DL:it will happen at some point
 
 AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch
-*DL:6 Feb
+*DL:15 Feb
 
-AI:AI: John will provide us with top-level hierarchy (low number of terms) for incorporation into OBI.
+AI:AI: John Westbrook will provide us with top-level hierarchy (low number of terms) for incorporation into OBI.
 *DL:after Mar 1 release?
 
-<b>AI: Cartik has to share his annotations with OBI
+<b>AI: Cartik will share his annotations with OBI, 
 *DL:after Mar 1 release?
 </b>
 
