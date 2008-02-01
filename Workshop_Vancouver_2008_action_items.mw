@@ -121,30 +121,29 @@ AI:BS will review relations s/sheet and document the approach for dealing with h
 AI:branches to prioritize which relations are needed and tell role branch
 *DL:Mar 1
 
-AI:We will need to deal with Parameters, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc.
-*DL:
+AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO 
+*DL:Mar 1 term submission to MC's google doc
 
 AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch
-*DL:?
+*DL:Info Ontology ?
 
-AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF
-*DL:Mar 1
-
+AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF/JG
+*DL:Feb 7
 
 AI:BS will send out some notes on logical definitions for instance level relations to relations branch to prevent relation explosion.
-*DL:?
+*DL:Feb 15
 
-AI:communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging
-BB:Mar 1
+AI:Communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging. CK will review the file and reformat.
+BB:Feb 15
 
-AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process
+AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process PRS
 *DL:Mar 1
 
-AI:Edit:Defintion of PA defined as being carried out to modify or generate data or materials in an investigation
-*DL:? did this get done
-
-AI:discuss within Instrument branch consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
+AI:Edit:Definition of PA defined as being carried out to modify or generate data or materials in an investigation. Issues still BP.
 *DL:Mar 1
+
+AI:discuss within Instrument branch ,consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.
+*DL:Feb 15
 
 OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent
 
