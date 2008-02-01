@@ -66,50 +66,44 @@ AI:Definition of InformationEntity to be done by BS/AR/BB
 *DL:Mar 1
 
 AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses
-*DL:
+*DL:Mar 1 add to OWL file
 
 AI:BS to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way
-*DL:Mar 1
+*DL:Mar 1 UNCLEAR
 
 AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated
 <i>DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.</i>
-*DL:Def done, needs to be added to Tracker by Mar 1
-
-
+*DL:Def done, OWL file Mar 1
 
 AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA DONE. Needs to be resolved when time representation is resolved (not done)
-*DL:? Summer workshop
+*DL:Time will be on agenda Summer workshop * consider Inviting Uli Sattler
 
 AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI
-*DL:?Summer workshop
+*DL:Summer workshop
 
 AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week (Plan and PA branch work will be merged into a single effort)
 *DL:Mar 1
 
-AI:MC will write up the discussion on Role, Function and what we understand for distribution and we will then develop a consensus on going forward on this. No consensus reached yet.
-*DL:Mar 1
+AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this. 
+*DL:Mar 1 (not OWL file) docs
 
-AI:BS will resolve BFO issues reported to him
+AI:BS will resolve BFO issues reported to him. 
 *DL:May 4
 
+AI: Daniel Schober to update naming conventions page to allow suffix role being allowed in role special case and also for cases in data transformation branch which are sensible e.g. sine_transformation
+*DL:7 Feb
 
-AI: Daniel Schober to update naming conventions page to allow this case of suffix role being allowed in this special case
+AI:Works with Chebi to resolve roles for chemicals, submit to Chebi. JF/SS/PRS
 *DL:Mar 1
 
-AI:Susanna to supply subtype of compound role toxin etc to Jennifer
-*DL:Mar 1
+AI:Hospital should be added when Organization is added to OBI tracker MC
+*DL:Feb 7
 
-AI:Philippe to make a list of obi roles that should be in chebi
-*DL:Mar 1
+AI:issues also with propositions bearing roles unresolved AR
+DL:Mar 1
 
-AI:Hospital should be added when Organization is added to OBI
-*DL:?
-
-AI:issues also with propositions and roles unresolved
-DL?
-
-AR/BS will discuss relation proposal or the new term proposal for variable in study design
-*DL:?
+AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity
+*DL:DONE
 
 AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS. 
 *DL:21 Feb phone call
