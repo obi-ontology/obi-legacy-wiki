@@ -357,8 +357,8 @@ BB/MC will report of the resolution of the curation complete issues discussed el
 #AI: Branch/Individual review of other branches by March '''DL:Mar 15'''
 #AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)'''
 #AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1'''
- #RS:Volunteer to do a use case clinical study
- #RB:Flow cytometry use case
+##RS:Volunteer to do a use case clinical study
+##RB:Flow cytometry use case
 ##JM/HP:ArrayExpress use case
 ##PRS/BII use case
 ##BB:BIRN use case
@@ -373,19 +373,12 @@ BB/MC will report of the resolution of the curation complete issues discussed el
 #AI:Definition of InformationEntity to be done by BS/AR/BB '''DL:Mar 1'''
 #AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file'''
 #AI:BS to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way  '''DL:Mar 1 UNCLEAR'''
-#AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated
-<i>DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.</i>
--DL:Def done, OWL file Mar 1
-#AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA ‘’’DONE.’’’ Needs to be resolved when time representation is resolved (not done)
--DL:Time will be on agenda Summer workshop - consider Inviting Uli Sattler
-#AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI
--DL:Summer workshop
-#AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week (Plan and PA branch work will be merged into a single effort)
--DL:Mar 1
-#AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this. 
--DL:Mar 1 (not OWL file) docs
-#AI:BS will resolve BFO issues reported to him. 
--DL:May 4
+#AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated ''DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.'' '''DL:Def done, OWL file Mar 1'''
+#AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA ‘’’DONE.’’’ Needs to be resolved when time representation is resolved (not done) '''DL:Time will be on agenda Summer''' workshop - consider Inviting Uli Sattler
+#AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI  '''DL:Summer workshop'''
+#AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week (Plan and PA branch work will be merged into a single effort)  '''DL:Mar 1'''
+#AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this.  '''DL:Mar 1 (not OWL file) docs'''
+#AI:BS will resolve BFO issues reported to him.  '''DL:May 4'''
 #AI: Daniel Schober to update naming conventions page to allow suffix role being allowed in role special case and also for cases in data transformation branch which are sensible e.g. sine_transformation
 -DL:7 Feb
 #AI:Works with Chebi to resolve roles for chemicals, submit to Chebi. JF/SS/PRS
