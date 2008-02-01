@@ -434,41 +434,22 @@ BB/MC will report of the resolution of the curation complete issues discussed el
 #AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
 #AI:General feeling that there is no design whereby computing over h'archy depth is designed into OBI and it's not a good way to work with OBI at present MC will speak to EM about this  '''DL:Mar 1'''
 #AI:An underscore will be added to each branches helper classes, each branch will deal with this themselves  '''DL:Mar 1 OWL file'''
-#AI:MC will add stimulus to the tracker
--DL:Mar 1
-#AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. Chris Stoeckert and Daniel Rubin.
--DL:15 Feb for mechanism, upload after Mar 1
-Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG
--DL:Mar 1, first release
-#Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.
--DL:Mar 15
-#AI:We need the criteria that define what is the prioritization for issues and if nec. we take it to a vote for e.g.  Mar 1 release, depends on CS mail to coordinators. SS will mail CS so that we can make the time line work. 
--DL:13 Feb
-#AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically. This is a script to merge. Evaluation needs to be soon
--DL: Mar 1
-#AI:Protocol and ProtocolApplication branches will be merged. The OWL files for Plan, Protocol have been merged by AR. He will send instructions to the dev list
--DL:’’’DONE’’’, files merged committed, PA list will be used, Alan will fix plan email to PA
-#AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP
--DL:Mar 1
-#AI:RS will provide a clinical trial example of protocol
--DL:? same as use case
-#AI:How do we embed OBI in different systems - AR wants as focus of a session this week
--DL:’’’DONE’’’
-#AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.
--DL: Dealt with in calls
-#AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.
--DL:May 1
-#AI: JW will provide a link for PDBs attempt to deal with instrument and parts thereof to do this for beamlines JW
--DL:’’’DONE’’’
-#AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.
--DL:Feb 15
-#AI: DT branch will test objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol
--DL:Mar 1 OWL file
-#AI:BS/AR will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI
--DL:it will happen at some point
-#AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch
--DL:15 Feb
-#AI: John Westbrook will provide us with top-level hierarchy (low number of terms) for incorporation into OBI.
--DL:after Mar 1 release?
-#AI: Cartik will share his annotations with OBI, 
--DL:after Mar 1 release?
+#AI:MC will add stimulus to the tracker  '''DL:Mar 1'''
+#AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. Chris Stoeckert and Daniel Rubin.  '''DL:15 Feb for mechanism, upload after Mar 1'''
+#AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release'''
+#Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''
+#AI:We need the criteria that define what is the prioritization for issues and if nec. we take it to a vote for e.g.  Mar 1 release, depends on CS mail to coordinators. SS will mail CS so that we can make the time line work.  '''DL:13 Feb'''
+#AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically. This is a script to merge. Evaluation needs to be soon  '''DL: Mar 1'''
+#AI:Protocol and ProtocolApplication branches will be merged. The OWL files for Plan, Protocol have been merged by AR. He will send instructions to the dev list  '''DL: DONE files merged committed, PA list will be used, Alan will fix plan email to PA'''
+#AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
+#AI:RS will provide a clinical trial example of protocol  '''DL:? same as use case'''
+#AI:How do we embed OBI in different systems - AR wants as focus of a session this week '''DL: DONE'''
+#AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DL: Dealt with in calls'''
+#AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.  '''DL:May 1'''
+#AI: JW will provide a link for PDBs attempt to deal with instrument and parts thereof to do this for beamlines JW '''DL: DONE'''
+#AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.  '''DL:Feb 15'''
+#AI: DT branch will test objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol  '''DL:Mar 1 OWL file'''
+#AI:BS/AR will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI  '''DL:it will happen at some point'''
+#AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch  '''DL:15 Feb'''
+#AI: John Westbrook will provide us with top-level hierarchy (low number of terms) for incorporation into OBI.  '''DL:after Mar 1 release?'''
+#AI: Cartik will share his annotations with OBI  '''DL:after Mar 1 release?'''
