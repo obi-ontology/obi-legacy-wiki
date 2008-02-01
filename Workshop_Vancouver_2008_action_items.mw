@@ -357,8 +357,8 @@ BB/MC will report of the resolution of the curation complete issues discussed el
 #AI: Branch/Individual review of other branches by March '''DL:Mar 15'''
 #AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)'''
 #AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1'''
-##RS:Volunteer to do a use case clinical study
-##RB:Flow cytometry use case
+ #RS:Volunteer to do a use case clinical study
+ #RB:Flow cytometry use case
 ##JM/HP:ArrayExpress use case
 ##PRS/BII use case
 ##BB:BIRN use case
