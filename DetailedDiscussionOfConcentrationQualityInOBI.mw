@@ -267,8 +267,8 @@ There are typically two ways in which concentration is important to the experime
 
 For the former, typically you use an a priori means to set concentration based on some intrinsic property of the solvent - e.g., molar wt (wt. of one Avogadro's Number [6.02 x 10e23] worth of atoms of that compound) or equivalent wt (wt. of one Avogadro's number worth of dissociated H30+ ions) of solute.  The following is an exhaustive list of the means by which concentration is measured.  OBI will ultimately need to support them all.  Since they "mean" slightly different things (though all are essentially designed to specify a density of solutes in solution), we may need more than a Units Ontology to create a BFO-compliant ontological representation of all of these:
 # Molarity = moles of solute per liter of solution
-# Molality = moles of solute per kg of H20
-# Normality = H30+ molar equivalents per liter of solution
+# Molality = moles of solute per kg of H<sub>2</sub>O
+# Normality = H<sub>3</sub>O<sup>+</sup> molar equivalents per liter of solution
 # % by wt = % by wt. of solute compared to total wt. of solution
 # % by vol = % by vol. of solute compared to total vol. of solution
 
@@ -293,7 +293,17 @@ This is just so we all have a sense of what entities we are talking about when d
 
 These are the concentration qualities we'll need to represent when providing descriptions of assays that rely on precise concentration measures.  Though this may seem like more detail than OBI needs contend with, my sense is if we cannot describe a solution creation protocol in detail, we'll not have provided what is needed to specify critical experimental detail, since without the detail of the "typical" protocol, we'll not be able to clearly identify when a specific instance of that protocol as carried out in a particular lab on a particular day may have deviated from that "typical" protocol.
 
-If we now look at case 2 above (using an assay to measure a concentration), it's useful to look just briefly at a fairly ubiquitous assay and associated instrument used for making that measurement.
+If we now look at case 2 above (using an assay to measure a concentration), it's useful to look just briefly at a fairly ubiquitous assay and associated instrument used for making that measurement - absorbance spectroscopy.  Basically, a sample of the solution is put into a container of controlled size made of material that doesn't absorb in the visible (e.g., a quartz cuvet), and the concentration is deduced based on the % of incident light that is transmitted to the photomultiplier detector.  The theory behind this is expressed in the inverse of transmittance (the absorbance) '''Beers Law''':
+
+	'''''A''''' = '''''e''''' * '''''l''''' * '''''C'''''
+where
+
+	'''''A''''' = absorbance ( = -log(transmitted photon power/absorbed photon power))
+	'''''e''''' = molar absorptivity (the ''extinction coefficient'' when I learned it in the 70's)
+	'''''l''''' = the path length traveled by the light through the solution (the width of the cuvet)
+	'''''C''''' = concentration
+	
+The underlying theory associated with '''Beers Law''' is best thought of from a statistical mechanical point-of-view.  Basically, the absorbance will be a function of liklihood a photon is absorbed when it collides with a molecule ('''molar absorptivity''') times the liklihood it will hit a molecule along its path.  The latter quantity is represented as a path length ('''l''') times the density of molecules along that path ('''C''').
 
 
 <br>
