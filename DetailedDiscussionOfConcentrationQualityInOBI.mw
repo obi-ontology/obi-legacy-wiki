@@ -14,6 +14,20 @@ How can we build formal descriptions for capturing concentration both as a descr
 
 ----
 
+===Participants===
+* Alan Ruttenberg (AR)
+* John Westbrook (JW)
+* Bjoern Peters (BP)
+* Ryan Brinkman (RB)
+* Philippe Rocca-Serra (PRS)
+* James Malone (JM)
+* Melanie Courtot (MC)
+* Chris Mungall (CM)
+* Barry Smith (BS)
+* Bill Bug (BB)
+
+----
+
 [[ConcentrationQualityInOBI|<<Summary Discussion Of Concentration Quality In OBI]] <br>
 [[OngoingDeveloperDiscussions|<<Ontology Developer Discussion page]] <br>
 [[HomePage|<<Back to Homepage]]
@@ -23,6 +37,21 @@ How can we build formal descriptions for capturing concentration both as a descr
 __TOC__
 
 ===Discussion===
-[[Image:Concentration-small.jpg|thumb|left|800px|Initial diagram by Alan Ruttenberg]]<br>
+[[Image:Concentration-small.jpg|thumb|left|800px|Initial diagram by Alan Ruttenberg]]
 
+==== BS: February 1, 2008 4:18:46 PM PST ====
+I don't see how this differs from the Alan Rector solution
+That is, in Case 2: There is no zinc in the sample. What does 'ZincConcentration2' represent?
+
+==== BB: February 1, 2008 4:31:18 PM PST ====
+That was my concern with the current example as drawn.  The definition of concentration does not REQUIRE an "of-sovlent" relation.  It only says that when a concentration quality has a "of-solvent" relation, it MUST be to a material.  My sense was this was essentially equivalent to the current "ro:towards" relation used to specified "pato:concentration of" what.  In other words, a Concentration MUST have a "in-solvent" relation but doesn't have to have an "of-solvent" relation.  Of course, it then has NO WAY of linking back to the solute material it is intended to be reporting on.
+
+We need to refine this representation so that it:
+	1) Copes well with the "lacks" case (i.e., concentration less than the sensitivity of the assay used)
+	2) Can do so in a way that makes the link back to concentration of WHAT explicit
+	3) Doesn't lead to the explosion of "no concentration of X" qualities.
+
+
+<br>
+<br>
 ===Conclusion===
