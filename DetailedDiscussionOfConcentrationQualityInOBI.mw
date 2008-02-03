@@ -256,6 +256,46 @@ Thanks for the fun :)
 
 
 
+==== BB: February 3, 2008 3:24 AM PST ====
+I do think this discussion is important - especially the points Chris has made regarding the problem of describing a concentration value of zero that can still point back to the specific molecular species we are trying to capture.  I don't think we really solved that yet, regardless of whether we're looking with "God's eye" (counting individual molecules) or using an information entity.
+
+However, I want to try to bring us back to the typical way in which we are trying to manipulate and represent concentration in the context of performing experiments.
+
+There are typically two ways in which concentration is important to the experimental descriptions we need to represent:
+# Concentration of a particular set of solutes is fed into an experiment as a part of an assay (e.g., incubate this set of materials in a saline buffer composed of these solute concentrations, set the pH of your electrophysiological recording saline to X, etc.)
+# Concentration of a particular solute is the output of an assay (e.g., the concentration of protein in this solution, the concentration of glucose in this blood sample)
+
+For the former, typically you use an a priori means to set concentration based on some intrinsic property of the solvent - e.g., molar wt (wt. of one Avogadro's Number [6.02 x 10e23] worth of atoms of that compound) or equivalent wt (wt. of one Avogadro's number worth of dissociated H30+ ions) of solute.  The following is an exhaustive list of the means by which concentration is measured.  OBI will ultimately need to support them all.  Since they "mean" slightly different things (though all are essentially designed to specify a density of solutes in solution), we may need more than a Units Ontology to create a BFO-compliant ontological representation of all of these:
+# Molarity = moles of solute per liter of solution
+# Molality = moles of solute per kg of H20
+# Normality = H30+ molar equivalents per liter of solution
+# % by wt = % by wt. of solute compared to total wt. of solution
+# % by vol = % by vol. of solute compared to total vol. of solution
+
+To give us something concrete to work with, here's a standard chemistry problem one might be given and then asked to calculate the various concentration measures:
+
+''A 1 Liter solution containing 571.6g of H<sub>2</sub>SO<sub>4</sub> (sulfuric acid) has a density of 1.329g/cm<sup>3</sup>.  Calculate the Molarity, Molality, Normality, % by wt, and % by vol. of this H<sub>2</sub>SO<sub>4</sub> solution''
+
+The properties we have are:
+* '''''H<sub>2</sub>SO<sub>4</sub> molecular weight''''' = 2*(1.0079) + 32.06 + 4*(15.9994) = 98.0734 g/mole
+* '''''H<sub>2</sub>SO<sub>4</sub> equivalent weight''''' = 98.0734 g/mole * 1/(2 H+/mole) = 49.0367 g/H<sub>3</sub>O<sup>+</sup> equiv
+
+The values for this solution are:
+* '''''moles H<sub>2</sub>SO<sub>4</sub>''''' = 571.6 g/(98.0734 g/mole) = 5.828 moles
+* '''''volume of H<sub>2</sub>O''''' = 1 Liter - (1329g - 571.6g)*1ml/g = 0.7574 L H<sub>2</sub>O  [note that 1 cm<sup>3</sup> or cc = 1 ml]
+* '''''Molarity of H<sub>2</sub>SO<sub>4</sub> solution''''' = 5.828 Moles H<sub>2</sub>SO<sub>4</sub>/1 L soln = 5.828 M
+* '''''Molality of H<sub>2</sub>SO<sub>4</sub> solution''''' = moles/g H<sub>2</sub>O = 5.828 / 0.7574 kg H<sub>2</sub>O = 7.694745180882 m
+* '''''Normality of H<sub>2</sub>SO<sub>4</sub> solution''''' = equiv/L = 571.6 g/49.0367 g/equiv * 1/L = 11.657 N
+* '''''% by wt of H<sub>2</sub>SO<sub>4</sub> solution''''' = 571.6 g/1329 g for 1 L * 100 % = 43.01 % by wt
+* '''''% by vol of H<sub>2</sub>SO<sub>4</sub> solution''''' = (1000 ml total soln - 757.4 ml H<sub>2</sub>O)/(1000 ml total soln) = 24.26 % by volume
+
+This is just so we all have a sense of what entities we are talking about when dealing with concentration.  The type of quality we are describing is a density - whether in grams or moles - described in thermodynamic terms (i.e., scaled by Avogadro's Number).  Even when given in grams, its meant to be a proxy for the number of molecules per unit volume again scaled by Avogadro's Number.
+
+These are the concentration qualities we'll need to represent when providing descriptions of assays that rely on precise concentration measures.  Though this may seem like more detail than OBI needs contend with, my sense is if we cannot describe a solution creation protocol in detail, we'll not have provided what is needed to specify critical experimental detail, since without the detail of the "typical" protocol, we'll not be able to clearly identify when a specific instance of that protocol as carried out in a particular lab on a particular day may have deviated from that "typical" protocol.
+
+If we now look at case 2 above (using an assay to measure a concentration), it's useful to look just briefly at a fairly ubiquitous assay and associated instrument used for making that measurement.
+
+
 <br>
 <br>
 ===Conclusion===
