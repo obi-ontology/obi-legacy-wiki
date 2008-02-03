@@ -118,7 +118,7 @@ Consider:
 * SubClassOf(Zinc,Metal)
 * ZincConcentration = Concentration THAT hasSolute ONLY Zinc
 * MetalConcentration = Concentration THAT hasSolute ONLY Metal
-* => SubClassOf(ZincConcentration,MetalConcentration)
+** => SubClassOf(ZincConcentration,MetalConcentration)
 
 Fair enough. This seems intuitive
 
@@ -130,11 +130,15 @@ The zinc concentration may be low (or zero), but the overall concentration of me
 
 To see this: translate your first (non-zero) example to OWL then ask Pellet for metal concentrations of a certain magnitude.
 
-There are two options: [a] accept this, and understand that "metal concentration" means concentration of *some* metal, and attach concentration instances to instances of molecule aggregates, or [b] make the towards/of-solute relation always instance-type.
+There are two options:
+<br>[a] accept this, and understand that "metal concentration" means concentration of *some* metal, and attach concentration instances to instances of molecule aggregates;
+<br>[b] make the towards/of-solute relation always instance-type.
 
 In detail:
 
-[a] Recapitulating Alan's diagram1, but using an aggregate:
+[a] accept this, and understand that "metal concentration" means concentration of *some* metal, and attach concentration instances to instances of molecule aggregates
+
+Recapitulating Alan's diagram1, but using an aggregate:
 
 # zc1 instanceOf Conc
 # zc1 has_solute z1
@@ -149,7 +153,10 @@ We can have the zero-limit case if we allow aggregates with no parts/grains. Thi
 
 We can define named classes X Concentration = Concentration THAT has_solute some Aggregate THAT hasPart only X. But we should name them such that it is clear we mean some Xs, not all Xs.
 
-[b] The 'towards' relation (or its sub-relations such as has-solute) must always be to a type, even for quality instances.
+
+[b] make the towards/of-solute relation always instance-type
+
+The 'towards' relation (or its sub-relations such as has-solute) must always be to a type, even for quality instances.
 
 This has a few interesting consequences:
 * We need OWL Full (or DL+punning?) to represent the type ZincConcentration = Concentration THAT inheresIn VALUE Zinc
@@ -158,6 +165,96 @@ This has a few interesting consequences:
 The benefit of this approach is that we allow something to have an instance of both LOW ZincConc and HIGH MetalConc without contradiction.
 
 We may be able to have a zero-magnitude ZincConc
+
+
+==== AR: February 2, 2008 9:24:54 PM PST ====
+<tt>CM: Consider:
+* SubClassOf(Zinc,Metal)
+* ZincConcentration = Concentration THAT hasSolute ONLY Zinc
+* MetalConcentration = Concentration THAT hasSolute ONLY Metal
+** => SubClassOf(ZincConcentration,MetalConcentration)</tt>
+
+Reading this as a MetalConcentration is a Concentration who's solute is Metal (if anything).
+
+Are you distinguishing '''the''' MetalConcentration from '''a''' MetalConcentration? '''the''' MetalConcentration would be the concentration any metal in the solvent, i.e. the sum of ZincConcentration, IronConcentration, SilverConcentration, etc.
+
+'''a''' MetalConcentration would be any of the individual ones. Let's call the '''the''' case TotalMetalConcentration to make this clear.
+
+A material might have several MetalConcentration qualities inhere in it. However it could have only 1 each of TotalMetalConcentration, ZincConcentration, IronConcentration, etc.
+
+We can't capture that the magnitude of the TotalMetalConcentration is the sum of the individual metal concentrations in OWL.
+We can say that there can be only one ZincConcentration that inheres in a material.
+
+Class(Material partial restriction(bears maxCardinality(1 ZincConcentration)))  // OWL 1.1 QCR (Qualified Cardinality Restrictions)
+
+What does this say:
+# If we subclass such Concentration qualities we need to be careful about what we are saying.
+# Where we have true subClasses of Concentrations we may need to have a TotalConcentration quality as well.
+
+<tt>CM: We can imagine Zinc means Aggregate that hasPart only Zinc here; we also get the same inference if we use SOME.</tt>
+
+I've deliberately avoided the aggregate distinction. One of the outcomes of the OBI workshop is that the Aggregate/Object/FiatObjectPart doesn't work for OBI because it is too multigranular an ontology. We resolved to erase the distinction by creating
+
+Class(obi:Material :complete (union-of bfo:Object bfo:ObjectAggregate bfo:FiatObjectPart))
+
+and then only subclass obi:Material (Their's more to say about this. It suggests that bfo should only have Object, and leave the granularity distinctions to the domain specific ontologies, for instance).
+
+<tt>CM: However, if we attach our magnitudes to concentration instances (whichever way we do this: direct representation of ppm in reality, or via some information entity, measurement or the like) and rely solely on the type description as a means of capturing the actual concentration we end up with contradictions:
+
+The zinc concentration may be low (or zero), but the overall concentration of metal may be high.</tt>
+
+The is the part that I was having trouble tracking without the *a* versus *the* distinction. Indeed the zinc concentration may be low, and then we have that some MetalConcentration is low, but all we know is that the magnitude of TotalMetalConcentration > magnitude ZincConcentration.
+
+No contradiction - just the need to be careful which concentration we are talking about.
+
+<tt>CM: To see this: translate your first (non-zero) example to OWL then ask Pellet for metal concentrations of a certain magnitude.</tt>
+
+:) Please share yours. It will be easier to sync. I haven't done my OWL implementation yet.
+
+<tt>CM: There are two options: [a] accept this, and understand that "metal concentration" means concentration of *some* metal, and attach concentration instances to instances of molecule aggregates, or [b] make the towards/of-solute relation always instance-type.</tt>
+
+I take [a]. MetalConcentration, as you defined it can only mean concentration of *some* metal. We may also want to define TotalMetalConcentration. If I'm not mistaken, TotalMetalConcentration would be a subclass of MetalConcentration as long as the interpretation of Metal is as an aggregate of molecules each of which is any element that is a Metal. ZincConcentration would be a subclass of MetalConcentration but not ofTotalMetalConcentration.
+
+<tt>CM:
+# zc1 instanceOf Conc
+# zc1 has_solute z1
+# z1 instanceOf Aggregate THAT hasPart ONLY Zinc
+# zc1 has_magnitude [123ppm]	
+
+Fact [4] can be done via some info-entity if we like. That's an orthogonal discussion.</tt>
+
+Agreed, sort of. If the magnitude is real then we can't have it be an information entity. However we could define a new relation between an info entity and a quality and define it to mean that the info entity is an exact representation of the quality value, rather than simply being "about". The current relation is intended to be rather looser. Was it you or Cristian who said that a measurement is necessarily wrong :) (unless you get improbably lucky).
+
+<tt>CM: We '''cannot''' drop fact [3] in the zero-limit case and rely on the asserted membership of a ZincConcentration class for the reasons given above; We can't discriminate between zero-conc of zinc and zero-conc of metal.</tt>
+
+Yes we can, I think. I believe that your zero-conc of metal means of total metal - a different quality.
+
+<tt>CM: We can have the zero-limit case if we allow aggregates with no parts/grains. This would be a little anti-realist.</tt>
+
+Unless we are anti-aggregate (as is OBI now, apparently :)
+
+<tt>CM: We can define named classes X Concentration = Concentration THAT has_solute some Aggregate THAT hasPart only X. But we should name them such that it is clear we mean some Xs, not all Xs.</tt>
+
++1
+
+<tt>CM:
+This has a few interesting consequences:
+* We need OWL Full (or DL+punning?) to represent the type ZincConcentration = Concentration THAT inheresIn VALUE Zinc
+* ZincConcentration is not a kind of MetalConcentration</tt>
+
+Agree with the conclusions. I don't think it is satisfactory, even barring the OWL Full issues (which is merely annoying). The thing is that the realist position also suggests that we ground all relations by explaining how the instance level relations work, and no such explanation is offered here. I think that the instance level description I offer is a reasonable grounding, but then there is no difference between the two cases.
+
+<tt>CM: The benefit of this approach is that we allow something to have an instance of both LOW ZincConc and HIGH MetalConc without contradiction.</tt>
+
+Both [a] and [b] allow this.
+
+<tt>CM: We may be able to have a zero-magnitude ZincConc.</tt>
+
+Interestingly, I think that the interpretation of my proposed solution doesn't have a zero magnitude ZincConc. There can be concentration datums that are 0, and real magnitudes that are positive, but because there is no Zinc sometimes, the value 0 for real magnitude simply isn't available, as the ratio of solute to solvent can't be computed when there isn't any solute. Which is kind if satisfying, in a perverse (realist) kind of way.
+
+Thanks for the fun :)
+
+
 
 <br>
 <br>
