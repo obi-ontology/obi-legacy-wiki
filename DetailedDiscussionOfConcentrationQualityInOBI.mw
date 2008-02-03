@@ -44,13 +44,58 @@ I don't see how this differs from the Alan Rector solution
 That is, in Case 2: There is no zinc in the sample. What does 'ZincConcentration2' represent?
 
 ==== BB: February 1, 2008 4:31:18 PM PST ====
-That was my concern with the current example as drawn.  The definition of concentration does not REQUIRE an "of-sovlent" relation.  It only says that when a concentration quality has a "of-solvent" relation, it MUST be to a material.  My sense was this was essentially equivalent to the current "ro:towards" relation used to specified "pato:concentration of" what.  In other words, a Concentration MUST have a "in-solvent" relation but doesn't have to have an "of-solvent" relation.  Of course, it then has NO WAY of linking back to the solute material it is intended to be reporting on.
+That was my concern with the current example as drawn.  The definition of concentration does not REQUIRE an "of-solute" relation.  It only says that when a concentration quality has a "of-solute" relation, it MUST be to a material.  My sense was this was essentially equivalent to the current "ro:towards" relation used to specified "pato:concentration of" what.  In other words, a Concentration MUST have a "in-solvent" relation but doesn't have to have an "of-solvent" relation.  Of course, it then has NO WAY of linking back to the solute material it is intended to be reporting on.
 
 We need to refine this representation so that it:
-	1) Copes well with the "lacks" case (i.e., concentration less than the sensitivity of the assay used)
-	2) Can do so in a way that makes the link back to concentration of WHAT explicit
-	3) Doesn't lead to the explosion of "no concentration of X" qualities.
+# Copes well with the "lacks" case (i.e., concentration less than the sensitivity of the assay used)
+# Can do so in a way that makes the link back to concentration of WHAT explicit
+# Doesn't lead to the explosion of "no concentration of X" qualities.
 
+==== CM: February 1, 2008 5:10:06 PM PST ====
+<tt>BB: That was my concern with the current example as drawn.  The definition of concentration does not REQUIRE an "of-solute" relation.  It only says that when a concentration quality has a "of-solute" relation, it MUST be to a material.  My sense was this was essentially equivalent to the current "ro:towards" relation used to specified "pato:concentration of" what.</tt>
+
+That is what I thought too
+
+I will be the first to admit that this is a curious relation. It is in some part an artificial instance-type relation to make up for the constraint that the inheres relation must be binary.
+
+The strangeness manifests itself at the class an instance level. In [1], is the Zinc box denoting a single molecule of Zinc? Is this a representative molecule? Or have other molecules been omitted from the diagram?
+
+<tt>BB: In other words, a Concentration MUST have a "in-solvent" relation but doesn't have to have an "of-solute" relation.  Of course, it then has NO WAY of linking back to the solute material it is intended to be reporting on.</tt>
+
+Well it can have a universal restriction at the class level; Alan has defined a class
+
+ZincConcentration = Concentration THAT in-solute ONLY Zinc
+
+The instance ZincConcentration2 is presumably asserted to instantiate this class.
+
+==== AR: February 1, 2008 9:32:34 PM PST ====
+<tt>BS: I don't see how this differs from the Alan Rector solution
+That is, in Case 2: There is no zinc in the sample. What does 'ZincConcentration2' represent?</tt>
+
+Don't know Alan's solution but you should notice that in the case that there is no zinc there is no instance of zinc(properly "portion of zinc"). The zero, when there is one, is an information entity about the quality. The quality itself is a bit odd, in that while it generally refers to some zinc, it might not. Finally, there is no implication that a 0 information entity says that there is in fact no zinc - this saves us from the "limit of detectibility" problem-that we might measure nothing because the instrument can't detect that little.  Of course that can be tightened up for other classes (of big things)
+
+==== AR: February 1, 2008 9:32:34 PM PST ====
+<tt>CM: The strangeness manifests itself at the class an instance level. In [1], is the Zinc box denoting a single molecule of Zinc? Is this a representative molecule? Or have other molecules been omitted from the diagram?</tt>
+
+"Zinc" should be read "portion of zinc".
+
+<tt>CM: Alan has defined a class: ZincConcentration = Concentration THAT in-solute ONLY Zinc. The instance ZincConcentration2 is presumably asserted to instantiate this class.</tt>
+
+Yes. The name is only a name. What it represents when there is no zinc is admittedly odd, but presumably it is something to do only with the solute. Perhaps "Solute that lacks Zinc" ;-)
+
+<tt>BB: We need to refine this representation so that it:
+1) Copes well with the "lacks" case (i.e., concentration less than the sensitivity of the assay used).</tt>
+
+That isn't "lacks". It is "might lack".
+Sensitivity of the assay is in that the result of the assay is information and that the information is different from the stuff.
+
+<tt>BB: 2) Can do so in a way that makes the link back to concentration of WHAT explicit.</tt>
+
+Via the class relations (traversed via allValuesFrom)
+
+<tt>BB: 3) Doesn't lead to the explosion of "no concentration of X" qualities.</tt>
+
+There is no such quality that in some cases happens not to related to zinc.
 
 <br>
 <br>
