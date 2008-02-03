@@ -1,0 +1,22 @@
+==How do we specify solute concentration in OBI using BFO + OBO-RO + PATO==
+
+There are typically two ways in which concentration is important to the experimental descriptions OBI will need to support:
+
+# Concentration of a particular set of solutes is fed into an experiment as a part of an assay - e.g.:
+## incubate this set of materials in a saline buffer composed of these solute concentrations
+## set the pH of your electrophysiological recording saline to X
+
+# Concentration of a particular solute is the output of an assay - e.g.:
+## the concentration of protein in this solution
+## the concentration of glucose in this blood sample
+
+How can we build formal descriptions for capturing concentration both as a description of a planned process/protocol, as well as the information content entity output of an assay?
+
+[[https://wiki.cbil.upenn.edu/obiwiki/index.php/OngoingDeveloperDiscussions| Ontology Developer Discussion page]]
+[[HomePage|<<Back to Homepage]]
+
+__TOC__
+
+===Summary of Discussion===
+
+===Summary of Conclusion===
