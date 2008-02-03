@@ -293,15 +293,15 @@ This is just so we all have a sense of what entities we are talking about when d
 
 These are the concentration qualities we'll need to represent when providing descriptions of assays that rely on precise concentration measures.  Though this may seem like more detail than OBI needs contend with, my sense is if we cannot describe a solution creation protocol in detail, we'll not have provided what is needed to specify critical experimental detail, since without the detail of the "typical" protocol, we'll not be able to clearly identify when a specific instance of that protocol as carried out in a particular lab on a particular day may have deviated from that "typical" protocol.
 
-If we now look at case 2 above (using an assay to measure a concentration), it's useful to look just briefly at a fairly ubiquitous assay and associated instrument used for making that measurement - absorbance spectroscopy.  Basically, a sample of the solution is put into a container of controlled size made of material that doesn't absorb in the visible (e.g., a quartz cuvet), and the concentration is deduced based on the % of incident light that is transmitted to the photomultiplier detector.  The theory behind this is expressed in the inverse of transmittance (the absorbance) '''Beers Law''':
+If we now look at case 2 above (using an assay to measure a concentration), it's useful to look just briefly at a fairly ubiquitous assay and associated instrument used for making that measurement - absorbance spectroscopy.  Basically, a sample of the solution is put into a container of controlled size made of material that doesn't absorb in the visible (e.g., a quartz cuvette), and the concentration is deduced based on the % of incident light that is transmitted to the photomultiplier detector.  The theory behind this is expressed in '''Beers Law''':
 
-	'''''A''''' = '''''e''''' * '''''l''''' * '''''C'''''
+	'''''A''''' = '''''e'''''  x  '''''l'''''  x  '''''C'''''
+
 where
-
-	'''''A''''' = absorbance ( = -log(transmitted photon power/absorbed photon power))
-	'''''e''''' = molar absorptivity (the ''extinction coefficient'' when I learned it in the 70's)
-	'''''l''''' = the path length traveled by the light through the solution (the width of the cuvet)
-	'''''C''''' = concentration
+* '''''A''''' = ''absorbance'' (-log(transmitted photon power/absorbed photon power))
+* '''''e''''' = ''molar absorptivity'' (the ''extinction coefficient'' when I learned it in the 70's)
+* '''''l''''' = the ''path length'' traveled by the light through the solution (i.e., the width of the cuvette)
+* '''''C''''' = ''concentration''
 	
 The underlying theory associated with '''Beers Law''' is best thought of from a statistical mechanical point-of-view.  Basically, the absorbance will be a function of liklihood a photon is absorbed when it collides with a molecule ('''molar absorptivity''') times the liklihood it will hit a molecule along its path.  The latter quantity is represented as a path length ('''l''') times the density of molecules along that path ('''C''').
 
