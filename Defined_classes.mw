@@ -27,7 +27,7 @@ This page is a draft for discussion.
 
 * In visual ontology editors such as protege, one must define a class as a subclass of some existing class. Tools may not have appropriate support for the visual organization of defined classes, and may partially evaluate the consequences of the logical definition when placing the term in the class hierarchy. As an initial practice, we will add terms that naturally fall under a branch to be a subclass of the branch top level, and those that do not as a subclass of Entity.
 
-* It is an open question as to under what situations, if any,  we should ''assert''  that some class is a subclass of  a defined class. Intuitively it would seem that universals should not be subclasses of defined classes.
+* It is an open question as to under what situations, if any,  we should ''assert''  that some class is a subclass of  a defined class. Intuitively it would seem that universals should not be subclasses of defined classes. Unless otherwise specified, we will not assert subclasses of defined classes until we have motivating examples.
 
 * A defined class should not be asserted to be disjoint from another. If they are disjoint from other classes it should be as a consequence of their definition.
 
