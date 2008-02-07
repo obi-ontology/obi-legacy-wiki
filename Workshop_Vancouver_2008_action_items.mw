@@ -63,7 +63,7 @@
 #AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular  '''DL:Mar 1 OWL file'''
 #AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS  '''DL:Mar 1'''
 #AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS  '''DL:Mar 1'''
-#AI:MC/JM/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1'''
+#AI:MC/JM/AR/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1'''
 #AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI  '''DL:Apr 1'''
 #AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.  '''DL:Workshop'''
 #AI:Ontology annotation and release notes policy
