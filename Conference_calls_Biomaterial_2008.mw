@@ -13,7 +13,7 @@ Agenda items:
 Summary:
 ''this text need to edited during the call, to reflect discussion/agreements''
 
-''1. Discuss material (and biomaterial), reagent, input, output, consumed (propose definitions/ branches for these and how they relate to each other)''
+'''1. Discuss material (and biomaterial), reagent, input, output, consumed (propose definitions/ branches for these and how they relate to each other)'''
 
 REAGENT
 
@@ -90,7 +90,14 @@ Individual(rat1 type(rat) value(has_role Individual(sr1 type(sample_role))))
 
 Inferred: rat1: type(biomaterial).
 
+----
+'''2. Documentation for material'''
 
+----
+'''3. Re-view and update the branch editors' list (continuity is beneficial for everybody)'''
+
+----
+'''4. Review [[BiomaterialTermNeedsLists | dispatcher file]]'''
 
 
 === January 18, 2008 ===
