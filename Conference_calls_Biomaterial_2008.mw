@@ -60,19 +60,19 @@ For output and input we might consider asking the role branch to have a hierarch
  ---> sample_role
  -> output role
 
----
+----
 CONSUMED
 
 I think it should be a role of a participant during a process, but I don't remember if this has already been discussed in more details.
 On a side note, the instrument branch will need something similar, to annotate "labware" that are being used only once and thrown away (discussion during last instrument branch call, proposed by Philippe)
 
----
+----
 MATERIAL
 
 An action item has been created under the sourceforge tracker "documentation of material" that has been assigned to Alan.
 As I understood form decisions during the workshop, when such a documentation is produced it is circulated on the dev list, and if agreed upon included in the methodology. (I will do the same for the discussion about role/function/disposition).
 
----
+----
 BIOMATERIAL
 
 Will be defined as a defined class (as described by Alan)
