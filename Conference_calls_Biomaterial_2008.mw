@@ -9,7 +9,7 @@ Agenda items:
   * material (and biomaterial), reagent, input, output, consumed (propose definitions/ branches for these and how they relate to each other)
  * Documentation for material
  * Re-view and update the branch editors' list (continuity is beneficial for everybody)
- * Review dispatcher file
+ * Review [[BiomaterialTermNeedsLists | dispatcher file]]
 
 Summary:
 
@@ -381,11 +381,11 @@ Next call is 18 May 2007, 16.30 BST
 ----
 
 We started our discussion from this file [https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeedsLists Ante 13th Apr 2007 call]<br>
-
 File produced after this call: [https://www.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeedsLists Post 13th Apr 2007 call]<br>
 (Susanna, Tina, Alan, Ryan, Bjorn, Philippe, Jennifer)
 
 SUMMARY:<br>
+
 - As the previous call, the focus was (only) to sort terms for their relevance to this branch, and we worked on Tina an Ryan's terms
 - AA1. Bjorn will start discussion on OBO-dicuss list (cc to OBI-devel)
 
@@ -406,7 +406,6 @@ File produced after this call: [https://www.cbil.upenn.edu/obiwiki/index.php/Bio
 
 [[BiomaterialTermNeeds/calls/16_Mar_07| MINUTES]] <br>
 SUMMARY:<br>
-
 - As the previous call, the focus was (only) to sort terms for their relevance to this branch, and we completed the first available list of terms
 - Terms from Env. and Polim. communities have not yet been revised
 - AA1. Norman will complete the first list of Env terms
@@ -454,6 +453,7 @@ Next call: 16 March 2007, 16,00 GMT. Susanna will host again.
 File produced after this call: [[BiomaterialTermNeedsLists|Post 2nd Mar 2007 call]]<br>
 
 [[BiomaterialTermNeeds/calls/2_Mar_07|MINUTES]] <br>
+
 SUMMARY:<br>
 
 We started with review of BP's terms. Decided that anything that's gene or protein related will wait till later as there is 1. overlap with e.g. SO and special needs to describe chimaerics that cover everyone's term lists. Some people had flagged overlap, and some hadn't so needs to be revisited and maybe a guideline set.
@@ -463,7 +463,6 @@ Range e.g. age range, density range need to be kept in mind as we need a generic
 Action items:
 - AA1. Helen to clean up the spreadsheet and repost it<br>
 - AA2. Jennifer to clean up her terms some need discussion with MO e.g. death etc<br>
-
 - AA3. Make contact with Luisa with some guidelines re: filtering the PSI lists<br>
 - AA4. Identify all gene/protein related terms save and get back to these later when we've completed the  first cut of all the term lists and got placement etc.<br>
 
@@ -471,9 +470,9 @@ Next call we could <br>
 1. Discuss the MO terms<br>
 2. Develop a core list<br>
 3. PSI terms will be filtered off line for relevance to biomaterial branch, and will report back<br>
-
 4. Helen/other mo person needs to suggest placement the MO terms in OBI<br>
 5. term  names need a clean up a la naming conventions<br>
+
 6. We need to id terms for other branches and propose them<br>
 7. Helen P and Jennifer will look into death type terms off line
 
@@ -485,10 +484,10 @@ Next call: 9 March 2007, 16,00 GMT. Alan will host again.<br>
 
 [[BiomaterialTermNeeds]]/calls/23''feb''07|MINUTES|]] <br>
 SUMMARY:<br>
-
 - No mailing list for this branch (at least for the moment)
 - Collect biomaterial terms in tab delimited format and post the file on the (previous) [[BioMaterial]] WIKI page<br>
 - Add definitions, source and example first, then if possible bin them in current OBI classes<br>
+
 - Use the same hearders as in this [[ http://www.ebi.ac.uk/~sansone/FuGO/data''tranformation''terms%20All-Com-PRS-210106.xls|Data Transformation file |]] <br>
 - Proteomics/PSI sample terms are posted under [[ http://obo.sourceforge.net/cgi-bin/table.cgi|OBI |]] see MI, MOD, IPR, SEP<br>
 - March 1st deadline for editors (first set of terms), April 1 deadline for the others (to add on)<br>
