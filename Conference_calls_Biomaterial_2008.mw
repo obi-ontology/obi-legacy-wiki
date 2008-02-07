@@ -29,7 +29,7 @@ The 2 definitions above are annotated as "incomplete" so I assume the relevant b
 
 Antibody reagent has been assigned to Philippe on the sourceforge tracker, and I added a comment to this issue there.
 
----
+----
 INPUT
 
 There are currently several relations regarding input:
@@ -40,7 +40,7 @@ There are currently several relations regarding input:
 
 I think we need to add an InputRole under the role branch. The inputs_data doesn't seem relevant for us.
 
----
+----
 OUTPUT
 
 There are currently several relations regarding output:
@@ -55,10 +55,10 @@ I think we need to add an OutputRole under the role branch. The outputs_data doe
 For output and input we might consider asking the role branch to have a hierarchy like:
 
 - role
----- input_role
-----------reagent_role
-----------sample_role
----- output role
+ -> input_role
+ --> reagent_role
+ ---> sample_role
+ -> output role
 
 ---
 CONSUMED
