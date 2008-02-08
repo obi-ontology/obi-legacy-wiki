@@ -45,8 +45,19 @@ Since there was a class Population (or SamplePopulation) in the initial hierarch
 
 We have created a '_defined_material' helper class and placed under this a 'biomaterial' class to be able to automatically classify material class with the right restrictions. All children of 'biomaterial' will be inferred.
 
+
+
 ----
 Action items for next call:
+
+
+Approve final version of the documentation
+
+DOCUMENTATION:
+
+- Original version [[Media:MaterialDocumentation.doc]] 
+
+
 
 Philippe will move terms that do not belong to Biomaterial branch. 
 
