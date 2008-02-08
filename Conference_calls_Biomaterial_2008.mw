@@ -24,11 +24,14 @@ We bounce this back to Instrument and Role as this does not belong to this branc
 
 MATERIAL
 
-We will not try to differenciate between aggregate and fiat part of.  "Because OBI spans many levels of granularity, we can't effectively use the BFO three level granularity model. Thus we erase the difference using this strategy of saying it is any of the material like entities in BFOMaterial is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart" (from Alan)
+We will not try to differenciate between aggregate and fiat part of.  "Because OBI spans many levels of granularity, we can't effectively use the BFO three level granularity model. Thus we erase the difference using this strategy of saying it is any of the material like entities in BFOMaterial is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart" (from Alan).
+
+Decision is to move both Biomaterial and Instrument under Material (Alan has done this during the call) 
 
 
 
-HERE
+
+NOTE --- HERE ---
 
 
 ----
