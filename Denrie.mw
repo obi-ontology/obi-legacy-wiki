@@ -30,15 +30,30 @@ List of Digital Entity and Non-realizable Information Entity Terms from Communit
 * http://spreadsheets.google.com/ccc?key=p5JLniV3bk-edIPKOziyXfA&hl=en
 
 == Current outstanding issues==
-Current action items outstanding:
+Action items related to DENRIE from Vancouver Workshop
+* General items
+** Branch/Individual review of other branches by March DL:Mar 15
+* Items involving DENRIE
+** Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM. DL:Feb 15
+** issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR: DL:?When info ontology is tackled?
+*** Types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS. DL:21 Feb phone call
+** Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology. DL: Dealt with in calls
+** BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad. DL:May 1
+* Items involving DENRIE marked as DONE
+** Edit:InformationEntity will be renamed plan, synonym RealizableInformationEntity
+** Edit:DigitalEntity->child of NonRealizableInfoEntity, Plan will be a sibling of NonRealizeableInfoEntity, both children of InfoEntity
+** EDIT:Objective now child of InfoEntity
+** EDIT:Define Objective add a definition, synonym is GOAL
+
+Previous posted issues
 * Discuss presentation by Barry Smith provided by Alan Ruttenberg
 ** http://mumble.net/~alanr/Partitions_quantities_BuffaloNov06.ppt
 *Identify terms that need to be submitted to other branches
 ** Chris S. attempt [[Image:digital entity-cs.xls]]
 *Review Software Ontology
 ** Bill Bug wrote on July 10, 2007 to the OBI-developers list:
-
 <pre>
+
 Here's the currently published version of the NCBC-wide Software/Resource Ontology:
 	http://bioontology.org/projects/ontologies/SoftwareOntology/
 
