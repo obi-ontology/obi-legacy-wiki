@@ -52,7 +52,35 @@ Action items for next call:
 
 Philippe will move terms that do not belong to Biomaterial branch. 
 
+***HOW TO HAVE PROTEGE TO CHECK INFERRED CLASSES AND MOVE THEM TO RELEVANT DEFINED CLASSES:
 
+1-Get a reasoner,Racer pro in my evaluation:
+information can be obtained from: 
+http://protege.stanford.edu/plugins/owl/api/ReasonerAPIExamples.html
+
+Racer Web Site:
+http://www.racer-systems.com/products/download/education.phtml
+Note:
+I have selected the educational license from the racer download page and followed the regsitration process + instructions for installation (very straightforward).
+The installation process should start Racer. If it does not,you will have to start it manually (click the icon)
+
+2. Run an SVN-Update and open the OBI protege project
+
+3. For testing purpose,pick one of the biomaterial class , eg Blood_Plasma and add the following restriction:
+
+has_role some (specimen_role or Reagent)
+
+Save the owl file.
+
+4. go to Protege Menu 'OWL' -> 'Classify Taxonomy'...
+
+5. et voila! just have a look at the new Subclass Explorer pane.
+
+It complains a bit (see message below) but still manages to infer the
+blood plasma should be a child of the defined class 'Biomaterial' which
+shows up in blue in the protege pane.
+
+*****END-TO BE MOVED- to DOCUMENTATION PAGE*******
 
 === January 18, 2008 ===
 
@@ -508,14 +536,13 @@ Action items:
 - AA4. Identify all gene/protein related terms save and get back to these later when we've completed the  first cut of all the term lists and got placement etc.<br>
 
 Next call we could <br>
-
 1. Discuss the MO terms<br>
+
 2. Develop a core list<br>
 3. PSI terms will be filtered off line for relevance to biomaterial branch, and will report back<br>
 4. Helen/other mo person needs to suggest placement the MO terms in OBI<br>
 5. term  names need a clean up a la naming conventions<br>
 6. We need to id terms for other branches and propose them<br>
-
 7. Helen P and Jennifer will look into death type terms off line
 
 Next call: 9 March 2007, 16,00 GMT. Alan will host again.<br>
@@ -530,8 +557,8 @@ SUMMARY:<br>
 - Collect biomaterial terms in tab delimited format and post the file on the (previous) [[BioMaterial]] WIKI page<br>
 - Add definitions, source and example first, then if possible bin them in current OBI classes<br>
 - Use the same hearders as in this [[ http://www.ebi.ac.uk/~sansone/FuGO/data''tranformation''terms%20All-Com-PRS-210106.xls|Data Transformation file |]] <br>
-
 - Proteomics/PSI sample terms are posted under [[ http://obo.sourceforge.net/cgi-bin/table.cgi|OBI |]] see MI, MOD, IPR, SEP<br>
+
 - March 1st deadline for editors (first set of terms), April 1 deadline for the others (to add on)<br>
 - Next call Friday 2nd March same time 11EST, 16.00 GMT UK (Norman will call us by skype), to see what we have and how to precede to build this branch (aristotelian definitions, add metadata tags, naming convention, binning etc) <br>
 
