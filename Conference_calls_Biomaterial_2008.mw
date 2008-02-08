@@ -29,21 +29,21 @@ Jennifer has asked to be removed from the editor list, no other vounteer has com
 
 REAGENT, INPUT, OUTPUT
 
-Go to Role branch
+Go to Role branch (they are there now  input_role, output_role, reagent - Alan)
 
 CONSUMED
 
-We bounce this back to Instrument and Role as this does not belong to this branch. Is not a good term and will suggest to replace it with 'used' (for the moment done already by Alan). However we feel this is negative term as something that has gone cannot play a role and we are not happy with it. "Maybe 'discarded' and 're-used or retained' be a better way to deal in instrument rather than in terms of annotation of what is now absent" (from Helen)
+We bounce this back to Instrument and Role as this does not belong to this branch. Is not a good term and will suggest to replace it with 'used'  in definitions that say 'consumed' (for the moment done already by Alan in the definition of reagent). However we feel this is negative term as something that has gone cannot play a role and we are not happy with it. "Maybe 'discarded' and 're-used or retained' be a better way to deal in instrument rather than in terms of annotation of what is now absent" (from Helen)
 
 MATERIAL, BIOMATERIAL
 
-We will not try to differenciate between aggregate object and fiat part of object, for simplicity.  OBI spans many levels of granularity and for this reason we cannot effectively use the three BFO level granularity model. Therefore we remove the difference using this strategy of saying: it is any of the material like entities in BFOMaterial is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart then is a material.
+We will not try to differentiate between aggregate, object, and fiat object part, because it doesn't work well for OBI.  OBI spans many levels of granularity and for this reason we cannot effectively use the three BFO level granularity model. Therefore we remove the difference using this strategy of saying: it is any of the material like entities in BFO. Material is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart.  
 
-Following this strategy we have moved both Biomaterial and Instrument under Material - assuming that the Instrument branch will review and agree on this change.
+Following this strategy we have moved both Biomaterial and Instrument under Material - assuming that the Instrument branch will review and agree on this change. Biomaterial is renamed Biomaterial(deprecated) as all the subs will be removed from it and we make a defined class for it (described below)
 
-Since there was a class Population (or SamplePopulation) in the initial hierarchy, we have also created Organization and Person asserted classes (under Material) to cater for individual and groups of individual, and match the level of granularity agregate and fiat.
+Since there was a class Population (or SamplePopulation) in the initial hierarchy(were in TheRest.owl), we have also created Organization and Person asserted classes (under Material) to cater for individual and groups of individual, and match the level of granularity agregate and fiat.
 
-We have created a '_defined_biomaterial' helper class and placed under this a 'biomaterial_defined' class to be able to automatically classify material class with the right restrictions. All children of 'biomaterial_defined' will be inferred.
+We have created a '_defined_material' helper class and placed under this a 'biomaterial' class to be able to automatically classify material class with the right restrictions. All children of 'biomaterial' will be inferred.
 
 ----
 Action items for next call:
