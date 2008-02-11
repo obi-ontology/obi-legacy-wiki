@@ -31,8 +31,11 @@ List of Digital Entity and Non-realizable Information Entity Terms from Communit
 
 == Current outstanding issues==
 Action items related to DENRIE from Vancouver Workshop
-* Related discussion
-** [[https://wiki.cbil.upenn.edu/obiwiki/index.php/MondayJan28Notes#Jan_28_workshop_item_7| Monday point 7]]
+* Related discussion: https://wiki.cbil.upenn.edu/obiwiki/index.php/MondayJan28Notes
+** Point 7: Alan Ruttenberg, DENRI ppt http://ashby.csail.mit.edu/presentations/DenrieReport.pdf
+** Point 9: James Malone - Flow Cytometry Data Transformation Use Case
+* Related discussion: https://wiki.cbil.upenn.edu/obiwiki/index.php/TuesdayJan29Notes
+
 * General items
 ** Branch/Individual review of other branches by March DL:Mar 15
 * Items involving DENRIE
@@ -54,8 +57,8 @@ Previous posted issues
 ** Chris S. attempt [[Image:digital entity-cs.xls]]
 *Review Software Ontology
 ** Bill Bug wrote on July 10, 2007 to the OBI-developers list:
-
 <pre>
+
 Here's the currently published version of the NCBC-wide Software/Resource Ontology:
 	http://bioontology.org/projects/ontologies/SoftwareOntology/
 
