@@ -6,7 +6,8 @@ Agenda items:
  1. Approve documentation of biomaterial as defined class, posted at http://groups.google.com/group/obi-biomaterial?hl=en
  cf tracker at http://sourceforge.net/tracker/index.php?func=detail&aid=1886742&group_id=177891&atid=886178
 
-comments/corrections up to now:
+comments/corrections up to now=
+
 From Alan:
 
 A. change _defined_biomaterial to _defined_material (already updated in the OWL file)
