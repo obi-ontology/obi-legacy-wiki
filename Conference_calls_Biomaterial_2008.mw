@@ -6,6 +6,34 @@
 === February 15, 2008 ===
 SUMMARY:
 
+''' 1. Approve documentation of biomaterial'''
+as defined class, posted at http://groups.google.com/group/obi-biomaterial?hl=en
+cf tracker at http://sourceforge.net/tracker/index.php?func=detail&aid=1886742&group_id=177891&atid=886178
+
+Pre-call comments/corrections from Alan:
+
+A. change _defined_biomaterial to _defined_material (already updated in the OWL file)
+
+'''Decision''': Agreed
+ 
+B. We should add appropriate roles to those elements below biomaterial
+(deprecated) only after thinking about it and seeing that it makes
+sense. Some of them might already be role-like already and we want to
+make these defined classes, perhaps. Some might be reagents only, or
+specimens only. For example I think blood would be (at least at first
+glance) specimen, but not reagent.
+
+'''Decision''': Not discussed
+
+From Frank, Philippe, Alan and Melanie:
+ 
+C. clarify the status of organization and person as placeholders. Possibly will be moved to other ontology in the future?
+
+'''Decision''': More work needed
+
+----
+
+
 ''' 2. Review terms 'removed' by Philippe'''
 
 '''2.1 ecotype is is in two locations'''
@@ -65,9 +93,7 @@ Philippe's initial comments: split into synthetic to quality and polypeptide OBI
 '''Decision''': This could be a defined class formally defined as: a polypeptide (from ChEBI) which is_output role in protocol application polypeptide_synthesis.
 
 
-
-
----
+----
 
 AGENDA ITEMS:
  1. Approve documentation of biomaterial as defined class, posted at http://groups.google.com/group/obi-biomaterial?hl=en
