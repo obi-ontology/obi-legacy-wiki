@@ -10,6 +10,7 @@ Agenda items:
  From Alan:
 
  A. change _defined_biomaterial to _defined_material (already updated in the OWL file)
+ 
  B. We should add appropriate roles to those elements below biomaterial
 (deprecated) only after thinking about it and seeing that it makes
 sense. Some of them might already be role-like already and we want to
