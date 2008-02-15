@@ -6,21 +6,21 @@ Agenda items:
  1. Approve documentation of biomaterial as defined class, posted at http://groups.google.com/group/obi-biomaterial?hl=en
  cf tracker at http://sourceforge.net/tracker/index.php?func=detail&aid=1886742&group_id=177891&atid=886178
 
- comments/corrections up to now:
- From Alan:
+comments/corrections up to now:
+From Alan:
 
- A. change _defined_biomaterial to _defined_material (already updated in the OWL file)
+A. change _defined_biomaterial to _defined_material (already updated in the OWL file)
  
- B. We should add appropriate roles to those elements below biomaterial
- (deprecated) only after thinking about it and seeing that it makes
- sense. Some of them might already be role-like already and we want to
- make these defined classes, perhaps. Some might be reagents only, or
- specimens only. For example I think blood would be (at least at first
- glance) specimen, but not reagent.
+B. We should add appropriate roles to those elements below biomaterial
+(deprecated) only after thinking about it and seeing that it makes
+sense. Some of them might already be role-like already and we want to
+make these defined classes, perhaps. Some might be reagents only, or
+specimens only. For example I think blood would be (at least at first
+glance) specimen, but not reagent.
 
- From Frank, Philippe, Alan and Melanie:
+From Frank, Philippe, Alan and Melanie:
  
- C. clarify the status of organization and person as placeholders. Possibly will be moved to other ontology in the future?
+C. clarify the status of organization and person as placeholders. Possibly will be moved to other ontology in the future?
 
  2. Review terms 'removed' by Philippe
  3. Review remaining terms in the Biomaterial, identify missing definitions, metadata etc.
