@@ -12,14 +12,14 @@ Agenda items:
  A. change _defined_biomaterial to _defined_material (already updated in the OWL file)
  
  B. We should add appropriate roles to those elements below biomaterial
-(deprecated) only after thinking about it and seeing that it makes
-sense. Some of them might already be role-like already and we want to
-make these defined classes, perhaps. Some might be reagents only, or
-specimens only. For example I think blood would be (at least at first
-glance) specimen, but not reagent.
+ (deprecated) only after thinking about it and seeing that it makes
+ sense. Some of them might already be role-like already and we want to
+ make these defined classes, perhaps. Some might be reagents only, or
+ specimens only. For example I think blood would be (at least at first
+ glance) specimen, but not reagent.
 
  From Frank, Philippe, Alan and Melanie:
-
+ 
  C. clarify the status of organization and person as placeholders. Possibly will be moved to other ontology in the future?
 
  2. Review terms 'removed' by Philippe
