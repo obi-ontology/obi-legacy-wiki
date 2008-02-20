@@ -5,14 +5,28 @@
 AGENDA ITEMS:
 Pending:
  1. approve documentation regarding ontology import (cf example B cell in the owl file)
- 2. [http://spreadsheets.google.com/ccc?key=pfbdSTOaDf0D9d7wSiNLoVw&hl=en_GB Mark priorities for Relation branch] (1 - 3, with 1 highest)
-a. is_factor_of	
-domain: biomaterial_characteristic	
-range: investigation		
-definition: indicate that the characteristic of the biomaterial is a factor of the investigation
-b.?	
-domain: biomaterial	
-range: biomaterial		
+
+Comments:
+AR: <br>
+
+- Use sw.neurocommons.org:8890 instead of ashby as the sparql endpoint. Same
+machine, but more durable url.
+
+- Regarding external.owl, people can probably go and edit it directly,
+as it is a simple format, or we could have a tab delimited
+spreadsheet, which is easy for people ot edit, and generate the OWL
+from a script.
+
+
+ 2. [http://spreadsheets.google.com/ccc?key=pfbdSTOaDf0D9d7wSiNLoVw&hl=en_GB Mark priorities for Relation branch] (1 - 3, with 1 highest)<br>
+a. is_factor_of	<br>
+domain: biomaterial_characteristic	<br>
+range: investigation	<br>	
+definition: indicate that the characteristic of the biomaterial is a factor of the investigation<br><br>
+
+b.?	<br>
+domain: biomaterial	<br>
+range: biomaterial	<br>	
 definition: relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
 
 
