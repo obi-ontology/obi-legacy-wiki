@@ -74,7 +74,7 @@
 ##This relies on a
 ###usable and used deprecation policy
 ###A tracker will be used instead of email for tracking issues, this will be SF until a decision is made
-###We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM
+###We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM '''DONE'''
 ###If something comes to dev-list, it can be referred to a branch instead
 ###When proposing an item in tracker we will discuss on dev call, assign a date for closure, it will be assigned to a person, and that person will take responsibility for resolving discussion and closing on the due date decided.
 ###If you have tracker things from this meeting (look for your initials) use the tracker
