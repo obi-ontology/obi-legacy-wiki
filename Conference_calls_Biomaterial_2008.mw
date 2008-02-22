@@ -8,6 +8,15 @@ AGENDA ITEMS:
 
 Pending:
  2. approve documentation regarding ontology import (cf example B cell in the owl file)
+ 3. [http://spreadsheets.google.com/ccc?key=pfbdSTOaDf0D9d7wSiNLoVw&hl=en_GB Mark priorities for Relation branch] (1 - 3, with 
+ 3. Review remaining terms in the Biomaterial, identify missing definitions, metadata etc.
+ 4. Review [[BiomaterialTermNeedsLists | dispatcher file]]
+
+----
+
+SUMMARY:
+
+''' 2. approve documentation regarding ontology import'''
 
 Comments:
 AR: <br>
@@ -20,26 +29,43 @@ as it is a simple format, or we could have a tab delimited
 spreadsheet, which is easy for people ot edit, and generate the OWL
 from a script.
 
+'''Decision''': 
 
- 3. [http://spreadsheets.google.com/ccc?key=pfbdSTOaDf0D9d7wSiNLoVw&hl=en_GB Mark priorities for Relation branch] (1 - 3, with 1 highest)<br>
+
+
+'''3. Terms for Relation branch'''
+
+1 highest)<br>
 a. is_factor_of	<br>
 domain: biomaterial_characteristic	<br>
 range: investigation	<br>	
 definition: indicate that the characteristic of the biomaterial is a factor of the investigation<br><br>
-
 b.?	<br>
+
 domain: biomaterial	<br>
 range: biomaterial	<br>	
 definition: relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
 
 
- 3. Review remaining terms in the Biomaterial, identify missing definitions, metadata etc.
- 4. Review [[BiomaterialTermNeedsLists | dispatcher file]]
 
 
 ----
 
 === February 15, 2008 ===
+
+AGENDA ITEMS:
+ 1. Approve documentation of biomaterial as defined class, posted at http://groups.google.com/group/obi-biomaterial?hl=en
+ cf tracker at http://sourceforge.net/tracker/index.php?func=detail&aid=1886742&group_id=177891&atid=886178
+ 2. Review terms 'removed' by Philippe
+ 3. [http://spreadsheets.google.com/ccc?key=pfbdSTOaDf0D9d7wSiNLoVw&hl=en_GB Mark priorities for Relation branch] (1 - 3, with 1 highest)
+ 4. Review remaining terms in the Biomaterial, identify missing definitions, metadata etc.
+ 5. First discussion regarding ontology import (cf example B cell in the owl file)
+Pending:
+ 6. Review [[BiomaterialTermNeedsLists | dispatcher file]]
+ 7. Review/prioritize submission to Relations branch
+
+----
+
 SUMMARY:
 
 ''' 1. Approve documentation of biomaterial'''
@@ -128,19 +154,6 @@ Philippe's initial comments: split into synthetic to quality and polypeptide OBI
 
 '''Decision''': This could be a defined class formally defined as: a polypeptide (from ChEBI) which is_output role in protocol application polypeptide_synthesis.
 
-
-----
-
-AGENDA ITEMS:
- 1. Approve documentation of biomaterial as defined class, posted at http://groups.google.com/group/obi-biomaterial?hl=en
- cf tracker at http://sourceforge.net/tracker/index.php?func=detail&aid=1886742&group_id=177891&atid=886178
- 2. Review terms 'removed' by Philippe
- 3. [http://spreadsheets.google.com/ccc?key=pfbdSTOaDf0D9d7wSiNLoVw&hl=en_GB Mark priorities for Relation branch] (1 - 3, with 1 highest)
- 4. Review remaining terms in the Biomaterial, identify missing definitions, metadata etc.
- 5. First discussion regarding ontology import (cf example B cell in the owl file)
-Pending:
- 6. Review [[BiomaterialTermNeedsLists | dispatcher file]]
- 7. Review/prioritize submission to Relations branch
 
 === February 8, 2008 ===
 Agenda items:
