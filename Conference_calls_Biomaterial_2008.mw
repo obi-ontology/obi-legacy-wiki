@@ -4,12 +4,11 @@
 
 AGENDA ITEMS:
 
- 1. Continue to review the current file
+ 1. Continue to review the current file, identify missing definitions, metadata etc.
  2. Approve documentation regarding ontology import (cf example B cell in the owl file)
 
 Pending:
  3. [http://spreadsheets.google.com/ccc?key=pfbdSTOaDf0D9d7wSiNLoVw&hl=en_GB Mark priorities for Relation branch] (1 - 3, with 
- 3. Review remaining terms in the Biomaterial, identify missing definitions, metadata etc.
  4. Review [[BiomaterialTermNeedsLists | dispatcher file]]
 
 ----
@@ -29,7 +28,7 @@ as it is a simple format, or we could have a tab delimited
 spreadsheet, which is easy for people ot edit, and generate the OWL
 from a script.
 
-'''Decision''': 
+'''Decision''': ok, accepted
 
 
 
@@ -45,6 +44,51 @@ b.?	<br>
 domain: biomaterial	<br>
 range: biomaterial	<br>	
 definition: relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
+
+'''Decision''': contact Liju. Also 'is_factor_of' is an old one intended to say that something plays a role of factor in the experiment; to be discusses further in protocol_application and plan branch (Bjoern and Philippe).
+
+
+'''1. Continue to review the current file, identify missing definitions, metadata etc.'''
+
+From Philippe:
+
+creation of _CHEBI_object import placeholder class
+	-moved from 'unclassified with its childern
+	-move biomolecule class with its children under _CHEBI_object
+
+creation of a class Collection (metadata to be added)
+	-move Population class as a child of collection
+	-move Sample-population as a child of population
+	-move cDNA library, screening library (from previously unclassified) and
+Phage display library as children of Collection
+
+Under biomaterial
+
+creation of helper class _move to role?
+
+creation of helper class _move to protocol application?
+	-move genetic_modification
+	note: need to check/submit to PATO 'genetically modified' as a quality
+
+creation of helper class _move to information_content_entity? ->
+submission to tracker Item 1899832
+	-move Genotype
+	-move strain
+	-move serotype
+	-move genetic information content
+
+creation of helper class _move to site?
+
+	-move in_vivo biomaterial
+	-need to add in-vitro biomaterial (this is following discussion during
+Vancouver Meeting)
+
+
+creation of helper class, "?a defined class is needed" where we put
+	-move natural and artificial material
+	-move ecotype
+
+
 
 
 
