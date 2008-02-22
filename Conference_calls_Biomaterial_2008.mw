@@ -53,13 +53,19 @@ definition: relationships between biomaterials to indicate a change has taken pl
 From Philippe:
 
 creation of _CHEBI_object import placeholder class
+
 	-moved from 'unclassified with its childern
+
 	-move biomolecule class with its children under _CHEBI_object
 
 creation of a class Collection (metadata to be added)
+
 	-move Population class as a child of collection
+
 	-move Sample-population as a child of population
+
 	-move cDNA library, screening library (from previously unclassified) and
+
 Phage display library as children of Collection
 
 Under biomaterial
@@ -67,31 +73,35 @@ Under biomaterial
 creation of helper class _move to role?
 
 creation of helper class _move to protocol application?
+
 	-move genetic_modification
+
 	note: need to check/submit to PATO 'genetically modified' as a quality
 
 creation of helper class _move to information_content_entity? ->
+
 submission to tracker Item 1899832
+
 	-move Genotype
+
 	-move strain
+
 	-move serotype
+
 	-move genetic information content
 
 creation of helper class _move to site?
 
 	-move in_vivo biomaterial
-	-need to add in-vitro biomaterial (this is following discussion during
-Vancouver Meeting)
+
+	-need to add in-vitro biomaterial (this is following discussion during Vancouver Meeting)
 
 
 creation of helper class, "?a defined class is needed" where we put
+
 	-move natural and artificial material
+
 	-move ecotype
-
-
-
-
-
 
 ----
 
