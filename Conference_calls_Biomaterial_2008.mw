@@ -3,9 +3,30 @@
 
 AGENDA ITEMS:
 
-1. clarify how to apply roles specimen_role and reagent to our classes
+1. clarify how to apply roles specimen_role and reagent to our classes<br>
 
+2. _move_to classes<br>
+- _move to information_content_entity -> all terms submitted<br>
+- _move to relations -> all terms submitted<br>
+- _move to role -> all terms submitted<br>
 
+- _move to protocol application<br>
+discuss:<br>
+- lavage<br>
+proposed definition: the process of cleaning or rinsing (source
+wikipedia)
+<br>
+- histological preparation<br>
+proposed definition: the process of preparing a tissue section for
+histology study. Usually involves several steps, like fixation.
+processing, embedding, sectioning and staining. (source wikipedia
+adapted)<br>
+
+- _move to quality<br>
+discuss differentiation_state and organism_status<br>
+- _move to site: if agreement in the branch we should move in vivo as
+a child of site<br>
+Shall we move the submitted classes under obsolete?<br>
 
 === February 22, 2008 ===
 
