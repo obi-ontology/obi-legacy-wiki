@@ -3,8 +3,9 @@
 
 AGENDA ITEMS:
 
-1. clarify how to apply roles specimen_role and reagent to our classes<br>
+1a. do we need the relation transformed_into? use case?<br>
 
+1b. clarify how to apply roles specimen_role and reagent to our classes<br>
 2. _move_to classes<br>
 - _move to information_content_entity -> all terms submitted<br>
 - _move to relations -> all terms submitted<br>
@@ -37,7 +38,6 @@ Pb: without further refinement, will cause multiple inheritance, everything is a
 
 5. organization and person
 Pb/Question: is an organization truely an independent continuant?
-
 
 === February 22, 2008 ===
 
