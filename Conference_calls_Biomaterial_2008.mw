@@ -2,12 +2,17 @@
 
 === March 7, 2008 ===
 
-AGENDA ITEMS:
+
+AI: MC will contact Alan/Chris to know if there is a taxonomy.owl file somewhere.
 
 1a. do we need the relation transformed_into? use case?<br>
 
 1b. clarify how to apply roles specimen_role and reagent to our classes<br>
 1c. update our curation status values<br>
+
+AI: JM will update those in the file
+
+
 2. _move_to classes<br>
 - _move to information_content_entity -> all terms submitted<br>
 - _move to relations -> all terms submitted<br>
@@ -31,13 +36,15 @@ discuss differentiation_state and organism_status<br>
 a child of site<br>
 Shall we move the submitted classes under obsolete?<br>
 
+AI: MC submitted labage and histological_preparation to the tracker.
+JM will move submitted classes under obsolete.
+
 3. unclassified:
 discuss cardinal_part of_organism
 discuss homogenous substance ->do we need it ? what for? ->homogenous is a dependant continuant
 
 4. molecule mixture
 Pb: without further refinement, will cause multiple inheritance, everything is a molecular mixture
-
 
 === February 29, 2008 ===
 
