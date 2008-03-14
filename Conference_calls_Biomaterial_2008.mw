@@ -1,30 +1,27 @@
 ==Biomaterial Conference Calls==
 
-=== March 7, 2008 ===
-
-
-AI: MC will contact Alan/Chris to know if there is a taxonomy.owl file somewhere.
+=== March 14, 2008 ===
 
 1a. do we need the relation transformed_into? use case?<br>
 
 1b. clarify how to apply roles specimen_role and reagent to our classes<br>
 1c. update our curation status values<br>
 
-AI: JM will update those in the file
+-> Check status
 
 
 2. _move_to classes<br>
 - _move to information_content_entity -> all terms submitted<br>
-- _move to relations -> all terms submitted<br>
 
+- _move to relations -> all terms submitted<br>
 - _move to role -> all terms submitted<br>
 - _move to protocol application<br>
 discuss:<br>
 - lavage<br>
+
 proposed definition: the process of cleaning or rinsing (source
 wikipedia)
 <br>
-
 - histological preparation<br>
 proposed definition: the process of preparing a tissue section for
 histology study. Usually involves several steps, like fixation.
@@ -34,9 +31,55 @@ adapted)<br>
 discuss differentiation_state and organism_status<br>
 - _move to site: if agreement in the branch we should move in vivo as
 a child of site<br>
+
 Shall we move the submitted classes under obsolete?<br>
 
-AI: MC submitted labage and histological_preparation to the tracker.
+-> Check status
+
+3. unclassified:
+discuss cardinal_part of_organism
+discuss homogenous substance ->do we need it ? what for? ->homogenous is a dependant continuant
+
+4. molecule mixture
+Pb: without further refinement, will cause multiple inheritance, everything is a molecular mixture
+
+
+=== March 7, 2008 ===
+
+
+AI: MC will contact Alan/Chris to know if there is a taxonomy.owl file somewhere.
+
+1a. do we need the relation transformed_into? use case?<br>
+1b. clarify how to apply roles specimen_role and reagent to our classes<br>
+1c. update our curation status values<br>
+
+AI: JM will update those in the file
+
+
+2. _move_to classes<br>
+- _move to information_content_entity -> all terms submitted<br>
+- _move to relations -> all terms submitted<br>
+- _move to role -> all terms submitted<br>
+
+- _move to protocol application<br>
+discuss:<br>
+- lavage<br>
+proposed definition: the process of cleaning or rinsing (source
+wikipedia)
+<br>
+- histological preparation<br>
+proposed definition: the process of preparing a tissue section for
+histology study. Usually involves several steps, like fixation.
+processing, embedding, sectioning and staining. (source wikipedia
+adapted)<br>
+
+- _move to quality<br>
+discuss differentiation_state and organism_status<br>
+- _move to site: if agreement in the branch we should move in vivo as
+a child of site<br>
+Shall we move the submitted classes under obsolete?<br>
+
+AI: MC submitted lavage and histological_preparation to the tracker.
 JM will move submitted classes under obsolete.
 
 3. unclassified:
@@ -51,16 +94,16 @@ Pb: without further refinement, will cause multiple inheritance, everything is a
 AGENDA ITEMS:
 
 1a. do we need the relation transformed_into? use case?<br>
+
 1b. clarify how to apply roles specimen_role and reagent to our classes<br>
 2. _move_to classes<br>
 - _move to information_content_entity -> all terms submitted<br>
-
 - _move to relations -> all terms submitted<br>
 - _move to role -> all terms submitted<br>
+
 - _move to protocol application<br>
 discuss:<br>
 - lavage<br>
-
 proposed definition: the process of cleaning or rinsing (source
 wikipedia)
 <br>
@@ -69,11 +112,11 @@ proposed definition: the process of preparing a tissue section for
 histology study. Usually involves several steps, like fixation.
 processing, embedding, sectioning and staining. (source wikipedia
 adapted)<br>
+
 - _move to quality<br>
 discuss differentiation_state and organism_status<br>
 - _move to site: if agreement in the branch we should move in vivo as
 a child of site<br>
-
 Shall we move the submitted classes under obsolete?<br>
 
 3. unclassified:
@@ -105,6 +148,7 @@ SUMMARY:
 
 Comments:
 AR: <br>
+
 - Use sw.neurocommons.org:8890 instead of ashby as the sparql endpoint. Same
 machine, but more durable url.
 
@@ -122,10 +166,10 @@ from a script.
 1 highest)<br>
 a. is_factor_of	<br>
 domain: biomaterial_characteristic	<br>
-
 range: investigation	<br>	
 definition: indicate that the characteristic of the biomaterial is a factor of the investigation<br><br>
 b.?	<br>
+
 domain: biomaterial	<br>
 range: biomaterial	<br>	
 definition: relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
