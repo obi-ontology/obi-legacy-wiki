@@ -1,6 +1,17 @@
 ==Biomaterial Conference Calls==
 
 === March 14, 2008 ===
+AI: Philippe to reorganize BioMaterial.owl obsoleting classes which have been moved to Role, PA, Quality and DENRIE
+AI: Contact DENRIE for discussion about taxonomic information -> in keeping with the issue of having children of organisms such as Eukaryotes, virus in OBI, or whether to only have leaf element of a Taxonomic/Phylogenic ontology
+AI: Contact Relation ontology to discuss the loss of transformed_into relation. How to keep track of information related to site origin (geographical or anatomical), do we need a relation such as 'collected_from[site] or 'isolated_from[site]'
+AI: James to provide a list of the classes  missing metadata
+
+decisions: 
+
+i.the children of molecular mixture (namely liquid chemical solution and phosphate buffered saline buffer) will become defined classes-> remains to be done
+ii.homogeneous and heterogeneous as quality will be submitted to PATO
+iii.molecular mixture will probably be deprecated
+iv. regarding point 1b, all classes under biomaterial(deprecated) will have be defined classes with the has_role some(reagent_role or specimen_role) in order to retain more flexibility, with the caveat that all material with role reagent become defined:biomaterial.
 
 1a. do we need the relation transformed_into? use case?<br>
 
