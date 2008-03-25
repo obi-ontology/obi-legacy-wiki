@@ -29,11 +29,19 @@ This page is a draft for discussion.
 
 * It is an open question as to under what situations, if any,  we should ''assert''  that some class is a subclass of  a defined class. Intuitively it would seem that universals should not be subclasses of defined classes. Unless otherwise specified, we will not assert subclasses of defined classes until we have motivating examples.
 
-* A defined class should not be asserted to be disjoint from another. If they are disjoint from other classes it should be as a consequence of their definition. However, If knowledge is being manually re-stated within the defined class "branch" then this is an indication that 
+* A defined class should not be asserted to be disjoint from another. If they are disjoint from other classes it should be as a consequence of their definition. 
+
+'''Comments: '''
+
+
+Frank Gibson (2008/03/19)
+
+However, If knowledge is being manually re-stated within the defined class "branch" then this is an indication that 
 ** i)The is_a hierarchy should be used and defined classes should be asserted (sub-classes) under defined classes,
-** ii) The defined classes require re-modelling to avoid the manual re-statement of knowledge. [http://sourceforge.net/mailarchive/forum.php?thread_name=51259.24.82.177.233.1205044485.squirrel%40webmail.ebi.ac.uk&forum_name=obi-instrument-branch relevant email discussion]
+** ii) The defined classes require re-modelling to avoid the manual re-statement of knowledge. 
 
 
+[http://sourceforge.net/mailarchive/forum.php?thread_name=51259.24.82.177.233.1205044485.squirrel%40webmail.ebi.ac.uk&forum_name=obi-instrument-branch relevant email discussion]
 
 '''Questions: '''
 * Should we have separate files for defined classes?
