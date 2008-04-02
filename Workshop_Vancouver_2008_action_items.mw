@@ -110,7 +110,7 @@
 #AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DL: Dealt with in calls'''
 #AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.  '''DL:May 1'''
 #AI: JW will provide a link for PDBs attempt to deal with instrument and parts thereof to do this for beamlines JW '''DL: DONE'''
-#AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.  '''DL:Feb 15'''
+#AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.  '''DL:Feb 15'''  '''DONE'''
 #AI: DT branch will test objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol  '''DL:Mar 1 OWL file'''
 #AI:BS/AR will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI  '''DL:it will happen at some point'''
 #AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch  '''DL:15 Feb'''
