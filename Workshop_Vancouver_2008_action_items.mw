@@ -47,10 +47,7 @@
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1'''
 #AI:AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE'''
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''DL:21 Feb phone call''' 
-#AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:  '''DL:?When info ontology is tackled?'''
-Current decision is to leave GIF as data format specification instance, but move the instances to a separate file.
-'''Done: new file DataFormatSpecification.owl
-People need to update their .owl and .repository files to include it '''
+#AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:  '''DL:?When info ontology is tackled?'''  '''Current decision is to leave GIF as data format specification instance, but move the instances to a separate file.  Done: new file DataFormatSpecification.owl  People need to update their .owl and .repository files to include it '''
 #AI:Approved relation branch terms will be sent to RO2 LF  '''DL:Feb 7'''
 #AI:BS will review relations s/sheet and document the approach for dealing with has_model that need to be represented in OBI AR/LF/BS  '''DL:Feb 15'''
 #AI:branches to prioritize which relations are needed and tell role branch  '''DL:Mar 1'''
