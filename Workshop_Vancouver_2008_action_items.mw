@@ -32,7 +32,7 @@
 #AI:Policy needs developing and take to a coord conference call '''DL:12 Mar Coord call'''
 #AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan. JW '''DL:Jul 1'''
 #AI:OBI coordinators should nominate 1 person to be OBO foundry associate editors - agenda item for a coordinators call CS  '''DL:Mar 12 coord call.'''
-#AI;Disjointness, currently incomplete. Strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR/MC  '''DL:Apr 1'''
+#AI;Disjointness, currently incomplete. Strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR/MC  '''DL:Apr 1'''  '''DONE'''
 #AI:Definition of InformationEntity to be done by BS/AR/BB '''DL:Mar 1'''
 #AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file'''
 #AI:BS to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way  '''DL:Mar 1 UNCLEAR'''
@@ -48,6 +48,9 @@
 #AI:AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE'''
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''DL:21 Feb phone call''' 
 #AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:  '''DL:?When info ontology is tackled?'''
+Current decision is to leave GIF as data format specification instance, but move the instances to a separate file.
+'''Done: new file DataFormatSpecification.owl
+People need to update their .owl and .repository files to include it '''
 #AI:Approved relation branch terms will be sent to RO2 LF  '''DL:Feb 7'''
 #AI:BS will review relations s/sheet and document the approach for dealing with has_model that need to be represented in OBI AR/LF/BS  '''DL:Feb 15'''
 #AI:branches to prioritize which relations are needed and tell role branch  '''DL:Mar 1'''
@@ -63,7 +66,7 @@
 #AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular  '''DL:Mar 1 OWL file'''
 #AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS  '''DL:Mar 1'''
 #AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS  '''DL:Mar 1'''
-#AI:MC/JM/AR/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1'''
+#AI:MC/JM/AR/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1''' '''Done: http://docs.google.com/Doc?id=dzprnmw_5fwg97rds '''
 #AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI  '''DL:Apr 1'''  '''DONE'''
 #AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.  '''DL:Workshop'''
 #AI:Ontology annotation and release notes policy
@@ -92,7 +95,7 @@
 #AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS  '''DL:21 Feb, next dev call. HP will invite CM'''
 #AI:Paper proposal on engineering methodology to provide an incentive  '''DL: dependent on authorship policies'''
 #AI:custom google custom search box for OBI wiki will be requested from CS group CS  '''DL:In progress, Apr 1'''
-#AI:Wiki DENRI, Relations, Quality, Role need links to their term list files and or notes on the Branch Conf Calls  '''DL:’’’DONE’’’
+#AI:Wiki DENRI, Relations, Quality, Role need links to their term list files and or notes on the Branch Conf Calls  '''DL:'''DONE'''
 #AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call  '''DL:immediate effect'''
 #AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
 #AI:General feeling that there is no design whereby computing over h'archy depth is designed into OBI and it's not a good way to work with OBI at present MC will speak to EM about this  '''DL:Mar 1'''
