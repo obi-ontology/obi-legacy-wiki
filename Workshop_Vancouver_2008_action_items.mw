@@ -18,6 +18,8 @@
 #AI:Relation Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed. '''DL:Mar 1 (enter into tracker)'''
 #AI: Develop a documentation plan for OBI and assign tasks JM/MC/BB. '''DL:Mar 1 for a plan'''
 #AI: Branch/Individual review of other branches by March '''DL:Mar 15'''
+## JM has reviewed DENRIE branch
+##CS has reviewed DT branch
 #AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)'''
 #AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1'''
 ##RS:Volunteer to do a use case clinical study
@@ -86,7 +88,7 @@
 ##use of tracker
 ##need an editor
 ##benefit for community  '''DL:Feb 15'''   '''- Needed to see what we needed to do in return: Answer write a nice report under the W3C banner. '''
-#AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call'''
+#AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call''' -DONE set up core coordinating committee
 #AI:Things get voted on in wiki by proposing a vote on a dev call  '''DL:n/a policy'''
 #AI:if consensus cannot be reached by developers, coordinating will decide by some as yet undefined mechanism  '''DL:n/a policy'''
 #AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS  '''DL:21 Feb, next dev call. HP will invite CM''' - still under discussion
