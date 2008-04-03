@@ -65,7 +65,7 @@
 #AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS  '''DL:Mar 1'''
 #AI:MC/JM/AR/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1''' '''Done: http://docs.google.com/Doc?id=dzprnmw_5fwg97rds '''
 #AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI  '''DL:Apr 1'''  '''DONE'''
-#AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.  '''DL:Workshop'''
+#AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.  '''DL:Workshop'''  '''DONE'''
 #AI:Ontology annotation and release notes policy
 ##Summary editor note in OWL file, can point to external URL if needed
 ##Summary should be in text use SVN change log note to say what has been changed as well. 
@@ -85,7 +85,7 @@
 ##get webspace
 ##use of tracker
 ##need an editor
-##benefit for community  '''DL:Feb 15'''
+##benefit for community  '''DL:Feb 15'''   '''- Needed to see what we needed to do in return: Answer write a nice report under the W3C banner. '''
 #AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call'''
 #AI:Things get voted on in wiki by proposing a vote on a dev call  '''DL:n/a policy'''
 #AI:if consensus cannot be reached by developers, coordinating will decide by some as yet undefined mechanism  '''DL:n/a policy'''
@@ -96,7 +96,7 @@
 #AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call  '''DL:immediate effect'''
 #AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
 #AI:General feeling that there is no design whereby computing over h'archy depth is designed into OBI and it's not a good way to work with OBI at present MC will speak to EM about this  '''DL:Mar 1'''
-#AI:An underscore will be added to each branches helper classes, each branch will deal with this themselves  '''DL:Mar 1 OWL file'''
+#AI:An underscore will be added to each branches helper classes, each branch will deal with this themselves  '''DL:Mar 1 OWL file'''  '''DONE'''
 #AI:MC will add stimulus to the tracker  '''DL:Mar 1'''
 #AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. Chris Stoeckert and Daniel Rubin.  '''DL:15 Feb for mechanism, upload after Mar 1'''
 #AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release'''
