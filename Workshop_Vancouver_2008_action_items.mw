@@ -27,11 +27,11 @@
 ##BB:BIRN use case
 ##JG:Immunity use case
 ##JF SIFT use case
-##GenePattern use case  (CS/HP)
+##GenePattern use case  (CS/HP) - HP contacted GenePattern who expressed interest
 #AI: Developing a long term (5 year) management plan for the OBI grant - AR/BP/BS '''DL:Apr 1'''
 #AI:Policy needs developing and take to a coord conference call '''DL:12 Mar Coord call'''
 #AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan. JW '''DL:Jul 1'''
-#AI:OBI coordinators should nominate 1 person to be OBO foundry associate editors - agenda item for a coordinators call CS  '''DL:Mar 12 coord call.'''
+#AI:OBI coordinators should nominate 1 person to be OBO foundry associate editors - agenda item for a coordinators call CS  '''DL:Mar 12 coord call. DONE'' - was discussed, candidates identified, question of more than 1 - waiting for more info to be resolved at a later call'
 #AI;Disjointness, currently incomplete. Strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR/MC  '''DL:Apr 1'''  '''DONE'''
 #AI:Definition of InformationEntity to be done by BS/AR/BB '''DL:Mar 1'''
 #AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file'''
@@ -89,9 +89,9 @@
 #AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call'''
 #AI:Things get voted on in wiki by proposing a vote on a dev call  '''DL:n/a policy'''
 #AI:if consensus cannot be reached by developers, coordinating will decide by some as yet undefined mechanism  '''DL:n/a policy'''
-#AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS  '''DL:21 Feb, next dev call. HP will invite CM'''
+#AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS  '''DL:21 Feb, next dev call. HP will invite CM''' - still under discussion
 #AI:Paper proposal on engineering methodology to provide an incentive  '''DL: dependent on authorship policies'''
-#AI:custom google custom search box for OBI wiki will be requested from CS group CS  '''DL:In progress, Apr 1'''
+#AI:custom google custom search box for OBI wiki will be requested from CS group CS  '''DL:In progress, Apr 1''' - DONE
 #AI:Wiki DENRI, Relations, Quality, Role need links to their term list files and or notes on the Branch Conf Calls  '''DONE'''
 #AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call  '''DL:immediate effect'''
 #AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
@@ -102,7 +102,7 @@
 #AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release'''  '''Status: First release done. Second on the way. Some tests available.
 Version is date, rather than numbering scheme.'''
 #Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''
-#AI:We need the criteria that define what is the prioritization for issues and if nec. we take it to a vote for e.g.  Mar 1 release, depends on CS mail to coordinators. SS will mail CS so that we can make the time line work.  '''DL:13 Feb'''
+#AI:We need the criteria that define what is the prioritization for issues and if nec. we take it to a vote for e.g.  Mar 1 release, depends on CS mail to coordinators. SS will mail CS so that we can make the time line work.  '''DL:13 Feb''' - DONE
 #AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically. This is a script to merge. Evaluation needs to be soon  '''DL: Mar 1'''
 #AI:Protocol and ProtocolApplication branches will be merged. The OWL files for Plan, Protocol have been merged by AR. He will send instructions to the dev list  '''DL: DONE files merged committed, PA list will be used, Alan will fix plan email to PA'''
 #AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
@@ -117,7 +117,7 @@ Version is date, rather than numbering scheme.'''
 #AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch  '''DL:15 Feb'''
 #AI: John Westbrook will provide us with top-level hierarchy (low number of terms) for incorporation into OBI.  '''DL:after Mar 1 release?'''
 #AI: Cartik will share his annotations with OBI  '''DL:after Mar 1 release?'''
-#AI: CS The  https://wiki.cbil.upenn.edu/obiwiki/index.php/QuickTerms-CrossProducts  proposal  as topic on agenda for next  developer call '''DL: February 15'''
+#AI: CS The  https://wiki.cbil.upenn.edu/obiwiki/index.php/QuickTerms-CrossProducts  proposal  as topic on agenda for next  developer call '''DL: February 15''' - DONE - put on Feb 6 agenda.
 #AI: AR will develop measurement proposal and circulate to OBI and Chris Mungall, Barry Smith, Michael Ashburner as this conflicts with "towards" relation in PATO, and derive a consensus. '''DL: February 15'''
 #AI: BP/PRS/AR/MC Resolve "process" as either a series of steps or as a series of steps with input and output '''DL:February 15'''
 ----
