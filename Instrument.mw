@@ -5,9 +5,7 @@
 Conference call schedule, agenda and minutes for the calls can be found under:
 https://wiki.cbil.upenn.edu/obiwiki/index.php/InstrumentTermCalls
 
-===Latest used class ID (lastac for AutoID Plugin)===
-* The latest ID seed can be found in the default.properties file that, after adding classes to the instruments owl file, needs to be updated:
-https://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/lastac_autoID/default.properties.InstrumentAndPart
+
 
 ===Latest Branch report===
 Our branches latest report can be found here: http://www.ebi.ac.uk/~malone/OBI/instrument_branch/Instrument_Branch_Report_070606.doc
