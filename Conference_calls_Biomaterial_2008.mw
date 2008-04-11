@@ -1,5 +1,192 @@
 ==Biomaterial Conference Calls==
+=== April 11, 2008 ===
 
+1. discussion about  organism, strain, cultivar<br>
+
+PRS: http://en.wikipedia.org/wiki/Cultivar from Wikipedia: Cultivars can be asexual clones or seed-raised.<br>
+MC: cultivar synonym of strain for plant<br>
+
+AR: plant strain evolving naturally, human selection -> cultivar<br>
+AR: instance of strain or cultivar is an organsim<br>
+
+BP: organism that could be classified as strain, not an instance<br>
+
+AR: class BL6 mouse, instances mice<br>
+cultivar_role borne by plant realized in a process where it is selected for propagation because it is pretty or useful<br>
+Class Bl6 Mouse. Instances are mice with certain characteristics<br>
+Bl6 mouse subclass of organism<br>
+organism -> mouse -> bl6 mouse<br>
+
+Bill's file<br>
+http://purl.org/nbirn/birnlex/ontology/BIRNLex-OrganismalTaxonomy.owl<br>
+AR: owl file for taxonomy<br>
+http://www.berkeleybop.org/ontologies/owl/NCBITaxon<br>
+
+
+<owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_11"><br>
+
+<rdfs:label xml:lang="en">Cellvibrio gilvus</rdfs:label><br>
+<oboInOwl:hasRelatedSynonym><br>
+<oboInOwl:Synonym><br>
+<rdfs:label xml:lang="en">'Cellvibrio gilvus'</rdfs:label><br>
+
+</oboInOwl:Synonym><br>
+</oboInOwl:hasRelatedSynonym><br>
+<oboInOwl:hasDbXref><br>
+<oboInOwl:DbXref><br>
+<rdfs:label>:</rdfs:label><br>
+
+<oboInOwl:hasURI <br>rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/#_</oboInOwl:hasURI>
+</oboInOwl:DbXref><br>
+</oboInOwl:hasDbXref><br>
+<rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_10"/><br>
+
+<has_rank rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_species"/><br>
+</owl:Class><br>
+
+<br>
+benefits: hierarchical relations between species<br>
+downside: hierarchical rel in taxonomy unclear: is_a? sometimes, sometimes less clear<br>
+
+<br>
+externa.owl includes term<br>
+externalDerived.owl includes superclasses<br>
+
+<br><br>
+summary<br>
+
+external.owl <- a species asked for<br>
+
+use case mouse BL6<br>
+http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10088&lvl=3&p=mapview&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock
+
+<br>
+
+mus: http://purl.org/obo/owl/NCBITaxon#NCBITaxon_100088<br>
+
+asserted class organism<br>
+<br>
+then, in external.owl: Collect all superclasses, assert subclass/superclass relations between each, including sub/super relation between http://purl.org/obo/owl/NCBITaxon#NCBITaxon_100088 and immediate parent<br>
+
+<br>
+
+Root of taxonomy:<br>
+http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Root&id=1&lvl=3&p=mapview&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock
+<br>
+in externalDerived we go up superclasses until reaching one of the 5 top levels<br>
+
+then top level subclass of organism<br>
+
+organisms commonly used in molecular research projects:<br>
+Arabidopsis thaliana	Escherichia coli	Pneumocystis carinii<br>
+Bos taurus	Hepatitis C virus	Rattus norvegicus<br>
+Caenorhabditis elegans	Homo sapiens	Saccharomyces cerevisiae<br>
+Chlamydomonas reinhardtii	Mus musculus	Schizosaccharomyces pombe<br>
+
+Danio rerio (zebrafish)	Mycoplasma pneumoniae	Takifugu rubripes<br>
+Dictyostelium discoideum	Oryza sativa	Xenopus laevis<br>
+Drosophila melanogaster	Plasmodium falciparum	Zea mays<br>
+
+organism -> 5 top levels -> remaining classes<br>
+
+
+<br>
+AR loads taxonomy.owl in neurocommons for querying for externalDerived.owl<br>
+<br>
+BIll made new ids for taxonomy terms which we don't want<br>
+=> we don't put "strain" in OBI<br>
+
+
+cultivar of tulip would be a subclass of tulip, with additional info "cultivar bred for color" would be outside, doesn't go into this hierarchy<br>
+AR: cultivar role, with subclass color_cultivar<br>
+tulip has role color_cultivar (maybe not role, where else?)<br>
+
+
+
+organism would be union of the 4 top levels (7-viroid, other, unclassified), we don't define organism in OBI<br>
+things outside of that 5 classes are not organism (eg plasmids)<br>
+
+cross-breed: is a mouse derived from a and derived from B<br>
+knock-out mouse, process of making a knock out or defined as lacking a gene<br>
+
+first goal: build the is_a hierarchy, then add additional things as required<br>
+
+http://jaxmice.jax.org/strain/000664.html<br>
+instructions for users: if you give us mouse, try and give us a jax id<br>
+
+AI: AR tries to get a dump of jax<br>
+
+AI: PRS in protege, define organism as union of the 4 top levels<br>
+
+AI: MC google doc proposal to biom and denrie<br>
+
+AI: AR prototypes script that will fetch superclasses for externalDerived<br>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#><br>
+
+select ?super ?label<br>
+from <http://purl.org/hcls/potluck><br>
+where<br>
+
+{<br>
+<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606> rdfs:subClassOf ?super.<br>
+?super rdfs:label ?label<br>
+}<br>
+<br>
+result: http://tinyurl.com/6qz5tc<br>
+
+<br>
+AI: BP will review other tax efforts, and provide report/summary (what is not in ncbi and is needed)<br>
+
+AI: PRS checks with Tina for cultivar, after we write the proposal<br>
+
+
+<br>
+2. entity of organismal origin<br>
+
+Comments from Bjoern:<br>
+In our work on the IEDB, we noticed that we are really implying two meanings
+of 'organismal origin':<br>
+
+(1) was this object part_of or produced by an organism. This is important
+when characterizing samples, e.g. 'this blood was taken from a rabbit'.<br>
+
+(2) can objects with the same physico-chemical structure be found in an
+organism. This is important to characterize all kinds of man-made objects.
+E.g. you are expressing 'rabbit' hemagglutinin in E. Coli, spotting 'human'
+DNA probes on a microarray or synthesizing 'viral' peptides.<br>
+<br>
+relation is_similar_too? no, too fuzzy<br>
+
+could be derived from rabbit expressed in E coli? no, it's not derived from a rabbit (was not taken from rabbit)<br>
+
+protein sequence X, we need to know the origin: either rabbit or synthetized<br>
+
+1/ derived from organism<br>
+1/ would be output of PA like extraction or material separation or taking sample from organism<br>
+
+entity of organismal origin is a defined class: is the output of a PA where that process started with taking sample from organism<br>
+
+organism as subclass of entity of organismal origin (assumes chicken came first) and followed only by extraction or material separation<br>
+
+(list of PA to be defined properly)<br>
+
+organism or (part of organism and output of process starting with taking sample from organism followed by only material separations)<br>
+
+follow by only materials -> not followed by anything that is a transformation<br>
+
+
+No consensus here:<br>
+ideas:<br>
+- MC: we need to care only about first PA, which would be taking sample from organism. Somebody who wants to go to the source can do it through the successive PAs.<br>
+- AR: we need to define the list of authorized PAs to say that it is still derived from organism. e.g. glue is not derived from horse, because some PA that was not acceptable took place<br>
+- Bjoern: we don't care about which PAs have been applied. If you want to consider your leather shoes to be of organismal origin it's fine too.<br>
+
+
+AR: plastic things are therefore entities of organismal origin, old trees -> pressure protocol -> aging protocol -> drilling protocol -> distilling protocol ....<br>
+
+
+End of discussion.
+<br>
 
 === March 14, 2008 ===
 Present: MC,JM,PRS
@@ -23,7 +210,6 @@ AI: Contact Relation ontology to discuss the loss of transformed_into relation. 
 AI: Philippe to reorganize BioMaterial.owl obsoleting classes which have been moved to Role, PA, Quality and DENRIE
 AI: James to provide a list of the classes  missing metadata
 1a. do we need the relation transformed_into? use case?<br>
-
 1b. clarify how to apply roles specimen_role and reagent to our classes<br>
 1c. update our curation status values<br>
 
@@ -31,14 +217,14 @@ AI: James to provide a list of the classes  missing metadata
 
 
 2. _move_to classes<br>
-- _move to information_content_entity -> all terms submitted<br>
 
+- _move to information_content_entity -> all terms submitted<br>
 - _move to relations -> all terms submitted<br>
 - _move to role -> all terms submitted<br>
 - _move to protocol application<br>
+
 discuss:<br>
 - lavage<br>
-
 proposed definition: the process of cleaning or rinsing (source
 wikipedia)
 <br>
@@ -48,10 +234,10 @@ histology study. Usually involves several steps, like fixation.
 processing, embedding, sectioning and staining. (source wikipedia
 adapted)<br>
 - _move to quality<br>
+
 discuss differentiation_state and organism_status<br>
 - _move to site: if agreement in the branch we should move in vivo as
 a child of site<br>
-
 Shall we move the submitted classes under obsolete?<br>
 
 -> Check status
@@ -70,6 +256,7 @@ Pb: without further refinement, will cause multiple inheritance, everything is a
 AI: MC will contact Alan/Chris to know if there is a taxonomy.owl file somewhere.
 
 1a. do we need the relation transformed_into? use case?<br>
+
 1b. clarify how to apply roles specimen_role and reagent to our classes<br>
 1c. update our curation status values<br>
 
@@ -79,20 +266,20 @@ AI: JM will update those in the file '''DONE'''
 2. _move_to classes<br>
 - _move to information_content_entity -> all terms submitted<br>
 - _move to relations -> all terms submitted<br>
-- _move to role -> all terms submitted<br>
 
+- _move to role -> all terms submitted<br>
 - _move to protocol application<br>
 discuss:<br>
 - lavage<br>
 proposed definition: the process of cleaning or rinsing (source
 wikipedia)
 <br>
+
 - histological preparation<br>
 proposed definition: the process of preparing a tissue section for
 histology study. Usually involves several steps, like fixation.
 processing, embedding, sectioning and staining. (source wikipedia
 adapted)<br>
-
 - _move to quality<br>
 discuss differentiation_state and organism_status<br>
 - _move to site: if agreement in the branch we should move in vivo as
@@ -114,16 +301,16 @@ Pb: without further refinement, will cause multiple inheritance, everything is a
 AGENDA ITEMS:
 
 1a. do we need the relation transformed_into? use case?<br>
-
 1b. clarify how to apply roles specimen_role and reagent to our classes<br>
 2. _move_to classes<br>
 - _move to information_content_entity -> all terms submitted<br>
+
 - _move to relations -> all terms submitted<br>
 - _move to role -> all terms submitted<br>
-
 - _move to protocol application<br>
 discuss:<br>
 - lavage<br>
+
 proposed definition: the process of cleaning or rinsing (source
 wikipedia)
 <br>
@@ -132,11 +319,11 @@ proposed definition: the process of preparing a tissue section for
 histology study. Usually involves several steps, like fixation.
 processing, embedding, sectioning and staining. (source wikipedia
 adapted)<br>
-
 - _move to quality<br>
 discuss differentiation_state and organism_status<br>
 - _move to site: if agreement in the branch we should move in vivo as
 a child of site<br>
+
 Shall we move the submitted classes under obsolete?<br>
 
 3. unclassified:
@@ -168,7 +355,6 @@ SUMMARY:
 
 Comments:
 AR: <br>
-
 - Use sw.neurocommons.org:8890 instead of ashby as the sparql endpoint. Same
 machine, but more durable url.
 
@@ -185,13 +371,14 @@ from a script.
 
 1 highest)<br>
 a. is_factor_of	<br>
+
 domain: biomaterial_characteristic	<br>
 range: investigation	<br>	
 definition: indicate that the characteristic of the biomaterial is a factor of the investigation<br><br>
 b.?	<br>
-
 domain: biomaterial	<br>
 range: biomaterial	<br>	
+
 definition: relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
 
 '''Decision''': contact Liju. Also 'is_factor_of' is an old one intended to say that something plays a role of factor in the experiment; to be discusses further in protocol_application and plan branch (Bjoern and Philippe).
