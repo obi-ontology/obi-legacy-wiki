@@ -1,4 +1,84 @@
 ==Biomaterial Conference Calls==
+
+
+=== April 11, 2008 ===
+
+1. AR tries to get a dump of jax <br>
+
+dump is available at trunk/src/ontology/catalogs/jax-strains-
+email.txt<br>
+to discuss: how do we proceed from this text version<br>
+<br>
+- do uniprot IDs map to that?<br>
+- OBI could initiate that project but shouldn't take it on<br>
+- review and check what info we want -> owl<br>
+
+- how much are people making their own strains instead using catalogs?<br>
+- problem is where to stop? needs more work<br>
+- desire of annotate with strains<br>
+<br>
+todo: we should review jax, check what OWL representation we could get for that and the 87 from Bill, 1000 from BP, and see how to deal with<br>
+<br>
+
+2. PRS in protege, define organism as union of the 4 top levels<br>
+postponed<br>
+<br>
+3. MC google doc proposal to biom and denrie<br>
+google doc is available at http://docs.google.com/Doc?docid=dzprnmw_21csm25rfj&hl=en<br>
+
+-> google doc to be forwarded to denrie for feedback<br>
+
+4. AR prototypes script that will fetch superclasses for
+externalDerived<br>
+
+people interested (PRS, AR, JM, MC) in the mireot script will work together to find best way to do things
+
+
+
+5. BP will review other tax efforts, and provide report/summary<br>
+(what
+is not in ncbi and is needed)<br>
+<br>
+- no way to distinguish species and strains in ncbi<br>
+- each term in ncbi tax (if we don't care about distinction strain/specie), then we don't have the problem of knowing it is an is_a relation<br>
+
+- each term in ncbi is an instance of organism<br>
+- http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=226902&lvl=3&lin=f&keep=1&srchmode=1&unlock
+<br>
+consensus: we go ahead and use ncbi, knowing it has issues<br>
+warn that there is a potential pb using classes like clinical sample -> would be better represented in OBI in an other way<br>
+
+as we create things that are not in ncbi, we try to fetch them from other places<br>
+Two examples: Uniprot has e.g. mouse strain information and synonyms<br>
+http://beta.uniprot.org/taxonomy/10090 (we could for example use their labels/synonyms, even if not ID)<br>
+UBio maps multiple taxonomic classifications together<br>
+http://www.ubio.org/<br>
+should guide us when we need something out of ncbi<br>
+
+
+6. PRS checks with Tina for cultivar, after we write the proposal<br>
+(this action item is to be postponed until we complete the proposal -
+just copied here as reminder)<br>
+<br>
+ 
+7.lavage: the PA branch added "obtaining lavage sample", with definition "a protocol application to separate cells and/or cellular secretions from an anatomical space by the introduction and removal of fluid", which covers the use case for the bronchial alveolar lavage.
+Do we still need a general "lavage" term (or other label) covering the use case "washing/rinsing" a sample?<br>
+
+no need for washing.<br>
+the Biomaterial branch should have a defined class "lavage" if requested later on<br>
+
+8. follow up of the discussion regarding entity of organismal origin<br>
+
+
+AI: AR will define EOO as defined class: was output of taking sample from organism and participant in any subsequent protocol application<br>
+
+or <br>
+output of some protocol application where input was taking sample from organism<br>
+<br>
+AI for James to create defined class EOO<br>
+<br>
+AI: AR thinks about "we need a transitive input_of relation that traverses output through input and collects pas"<br>
+
 === April 11, 2008 ===
 
 1. discussion about  organism, strain, cultivar<br>
@@ -7,6 +87,7 @@ PRS: http://en.wikipedia.org/wiki/Cultivar from Wikipedia: Cultivars can be asex
 MC: cultivar synonym of strain for plant<br>
 
 AR: plant strain evolving naturally, human selection -> cultivar<br>
+
 AR: instance of strain or cultivar is an organsim<br>
 
 BP: organism that could be classified as strain, not an instance<br>
@@ -14,33 +95,34 @@ BP: organism that could be classified as strain, not an instance<br>
 AR: class BL6 mouse, instances mice<br>
 cultivar_role borne by plant realized in a process where it is selected for propagation because it is pretty or useful<br>
 Class Bl6 Mouse. Instances are mice with certain characteristics<br>
+
 Bl6 mouse subclass of organism<br>
 organism -> mouse -> bl6 mouse<br>
 
 Bill's file<br>
 http://purl.org/nbirn/birnlex/ontology/BIRNLex-OrganismalTaxonomy.owl<br>
+
 AR: owl file for taxonomy<br>
 http://www.berkeleybop.org/ontologies/owl/NCBITaxon<br>
 
 
 <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_11"><br>
-
 <rdfs:label xml:lang="en">Cellvibrio gilvus</rdfs:label><br>
+
 <oboInOwl:hasRelatedSynonym><br>
 <oboInOwl:Synonym><br>
 <rdfs:label xml:lang="en">'Cellvibrio gilvus'</rdfs:label><br>
-
 </oboInOwl:Synonym><br>
 </oboInOwl:hasRelatedSynonym><br>
+
 <oboInOwl:hasDbXref><br>
 <oboInOwl:DbXref><br>
 <rdfs:label>:</rdfs:label><br>
-
 <oboInOwl:hasURI <br>rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/#_</oboInOwl:hasURI>
+
 </oboInOwl:DbXref><br>
 </oboInOwl:hasDbXref><br>
 <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_10"/><br>
-
 <has_rank rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_species"/><br>
 </owl:Class><br>
 
@@ -371,14 +453,13 @@ from a script.
 
 1 highest)<br>
 a. is_factor_of	<br>
-
 domain: biomaterial_characteristic	<br>
+
 range: investigation	<br>	
 definition: indicate that the characteristic of the biomaterial is a factor of the investigation<br><br>
 b.?	<br>
 domain: biomaterial	<br>
 range: biomaterial	<br>	
-
 definition: relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
 
 '''Decision''': contact Liju. Also 'is_factor_of' is an old one intended to say that something plays a role of factor in the experiment; to be discusses further in protocol_application and plan branch (Bjoern and Philippe).
