@@ -43,7 +43,6 @@
 #AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI  '''DL:Summer workshop'''
 #AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week (Plan and PA branch work will be merged into a single effort)  '''DL:Mar 1'''
 #AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this.  '''DL:Mar 1 (not OWL file) docs'''
-210408: In progress. Bill is currently tackling the issue of what to do with functions. We will write a doc once clear.
 #AI:BS will resolve BFO issues reported to him.  '''DL:May 4'''
 #AI: Daniel Schober to update naming conventions page to allow suffix role being allowed in role special case and also for cases in data transformation branch which are sensible e.g. sine_transformation  '''DL:7 Feb'''
 #AI:Works with Chebi to resolve roles for chemicals, submit to Chebi. JF/SS/PRS  '''DL:Mar 1'''
