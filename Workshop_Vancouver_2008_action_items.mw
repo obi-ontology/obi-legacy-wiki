@@ -16,13 +16,11 @@
 #AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI '''DL:?'''
 #AI:AR,BS will go to the relations ontology meeting in Denver to present our needs '''DL:May 19'''
 #AI:Relation Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed. '''DL:Mar 1 (enter into tracker)'''
-#AI: Develop a documentation plan for OBI and assign tasks JM/MC/BB. '''DL:Mar 1 for a plan'''
-210408: we have a general outline - writing in slow progress
+#AI: Develop a documentation plan for OBI and assign tasks JM/MC/BB. '''DL:Mar 1 for a plan''' '''DONE'''
 #AI: Branch/Individual review of other branches by March '''DL:Mar 15'''
 ## JM has reviewed DENRIE branch
 ##CS has reviewed DT branch
-#AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)'''
-210408: monthly release at the moment, to implement multiple checks and automate the process
+#AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)''' '''In Progress'''
 #AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1'''
 ##RS:Volunteer to do a use case clinical study
 ##RB:Flow cytometry use case
@@ -37,8 +35,7 @@
 #AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan. JW '''DL:Jul 1'''
 #AI:OBI coordinators should nominate 1 person to be OBO foundry associate editors - agenda item for a coordinators call CS  '''DL:Mar 12 coord call. DONE'' - was discussed, candidates identified, question of more than 1 - waiting for more info to be resolved at a later call'
 #AI;Disjointness, currently incomplete. Strip all out and script adding back in. Al will be pairwise DJ apart from a couple of places in BFO where it's fuzzy AR/MC  '''DL:Apr 1'''  '''DONE'''
-#AI:Definition of InformationEntity to be done by BS/AR/BB '''DL:Mar 1''' 
-MC, 210408: In progress (AR working on definition for Denrie Branch)
+#AI:Definition of InformationEntity to be done by BS/AR/BB '''DL:Mar 1'''  '''In Progress'''
 #AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file'''
 #AI:BS to prepare a better definition for assay based on the discussion and convince Alan that it is always a dependent continuant. Assay has been redefined in the OWL file in an approx way  '''DL:Mar 1 UNCLEAR'''
 #AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated ''DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.'' '''DL:Def done, OWL file Mar 1'''
