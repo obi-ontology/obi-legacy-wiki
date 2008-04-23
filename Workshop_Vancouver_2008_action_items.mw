@@ -12,21 +12,11 @@
 ----
 #AI: Send Enviroment Ontology related terms to BS for him to present in Manchester, esp. RS.  '''DL:? asked BS (ask Richard)'''
 #AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI '''DL:? (ask Richard)'''
-#AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)''' '''In Progress''' (add to tracker)
 #AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1''' (add to tracker in including each use case)
 ##RS:Volunteer to do a use case clinical study
-##RB:Flow cytometry use case
-##JM/HP:ArrayExpress use case
-##PRS/BII use case
-##BB:BIRN use case
 ##JG:Immunity use case
-##JF SIFT use case
-##GenePattern use case  (CS/HP) - HP contacted GenePattern who expressed interest
-#AI: Developing a long term (5 year) management plan for the OBI grant - AR/BP/BS '''DL:Apr 1''' (add to tracker, assign BP)
 #AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan. JW '''DL:Jul 1''' (contact John Westbrook)
-#AI:Definition of InformationEntity to be done by BS/AR/BB '''DL:Mar 1'''  '''In Progress''' (add to tracker)
-#AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file''' (add to tracker, assign BP)
-#AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated ''DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.'' '''DL:Def done, OWL file Mar 1''' def tbd with RS (add to tracker)
+#AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file''' (add to tracker, assign BP) hypothesis in tracker
 #AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA ‘’’DONE.’’’ Needs to be resolved when time representation is resolved (not done) '''DL:Time will be on agenda Summer''' workshop - consider Inviting Uli Sattler (add to tracker)
 #AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI  '''DL:Summer workshop'''discussion to start on tracker (assign MC, merge with previous)
 #AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this.  '''DL:Mar 1 (not OWL file) docs''' In Progress - Bill working in function - we will write a doc (add to tracker)
@@ -44,9 +34,9 @@
 #AI:Communities to send terms to instrument branch to improve coverage. BB will send an OWL file for BIRN microscopy and imaging. CK will review the file and reformat.  '''BB:Feb 15'''
 #AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process PRS  '''DL:Mar 1'''
 #AI:Edit:Definition of PA defined as being carried out to modify or generate data or materials in an investigation. Issues still BP.  '''DL:Mar 1'''
-#AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch  '''DL:Mar 1'''
+#AI:use roles for e.g. buffer in (bio)material rather than hierarchy - BioMaterial Branch  '''DL:Mar 1''' In progress - almost completed.
 #AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS  '''DL:Mar 1'''
-#AI:Ontology annotation and release notes policy
+#AI:Ontology annotation and release notes policy In progress
 ##Summary editor note in OWL file, can point to external URL if needed
 ##Summary should be in text use SVN change log note to say what has been changed as well. 
 ##Use ''Editor Note'' if becomes too complex in the OWL file these can be stripped out, next release will have 2 files, one with E. note one without
@@ -73,7 +63,7 @@
 #AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call  '''DL:immediate effect'''
 #AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
 #AI:MC will add stimulus to the tracker  '''DL:Mar 1'''
-#AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release'''  
+#AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release''' 2 first releases done - is OWL-DL and passes Pellet test 
 #Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''
 #AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
 #AI:RS will provide a clinical trial example of protocol  '''DL:? same as use case'''
@@ -194,6 +184,31 @@ AI:Hospital should be added when Organization is added to OBI tracker MC
 #AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.  '''DL:Feb 15'''  '''DONE'''
 
 #AI: CS The  https://wiki.cbil.upenn.edu/obiwiki/index.php/QuickTerms-CrossProducts  proposal  as topic on agenda for next  developer call '''DL: February 15''' - DONE - put on Feb 6 agenda.
+
+#AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)''' '''In Progress''' (tracker http://sourceforge.net/tracker/index.php?func=detail&aid=1911447&group_id=177891&atid=886178)
+
+#AI:Definition of InformationEntity to be done by BS/AR/BB (tracker http://sourceforge.net/tracker/index.php?func=detail&aid=1950131&group_id=177891&atid=886178)
+
+#AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1''' (add to tracker in including each use case)
+##RB:Flow cytometry use case
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950134&group_id=177891&atid=886178
+##JM/HP:ArrayExpress use case
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950135&group_id=177891&atid=886178
+##PRS/BII use case
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950136&group_id=177891&atid=886178
+##BB:BIRN use case
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950137&group_id=177891&atid=886178
+##JF SIFT use case
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950139&group_id=177891&atid=886178
+##GenePattern use case  (CS/HP) - HP contacted GenePattern who expressed interest
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950140&group_id=177891&atid=886178
+
+#AI: Developing a long term (5 year) management plan for the OBI grant - AR/BP/BS '''DL:Apr 1''' (add to tracker, assign BP)
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950143&group_id=177891&atid=886178
+
+#AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated ''DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.'' '''DL:Def done, OWL file Mar 1''' def tbd with RS 
+http://sourceforge.net/tracker/index.php?func=detail&aid=1950007&group_id=177891&atid=886178
+
 
 
 [[ActionItemsByDateDiscussed]]
