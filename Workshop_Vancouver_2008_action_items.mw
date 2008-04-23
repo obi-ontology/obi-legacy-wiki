@@ -10,11 +10,8 @@
 
 
 ----
-#AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve.  '''DL:Mar 1 release''' (tracker 1866457)
 #AI: Send Enviroment Ontology related terms to BS for him to present in Manchester, esp. RS.  '''DL:? asked BS (ask Richard)'''
 #AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI '''DL:? (ask Richard)'''
-#AI:Relation Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed. '''DL:Mar 1 (entered into RO tracker 1949892 )'''
-
 #AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)''' '''In Progress''' (add to tracker)
 #AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1''' (add to tracker in including each use case)
 ##RS:Volunteer to do a use case clinical study
@@ -134,6 +131,14 @@
 
 #AI: BP/PRS/AR/MC Resolve "process" as either a series of steps or as a series of steps with input and output '''DL:February 15'''
 ----
+
+
+==Action items moved into tracker==
+#AI: AR/BP/BS - will refine the analyte proposal. There are placement issues to resolve.  '''DL:Mar 1 release''' (tracker 1866457)
+
+#AI:Relation Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed. '''DL:Mar 1 (entered into RO tracker 1949892 )'''
+
+
 
 
 ==Completed Action Items==
