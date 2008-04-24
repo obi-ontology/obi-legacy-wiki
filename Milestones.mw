@@ -4,17 +4,128 @@ Can be found there [[PastActionItems]]
 ==Milestones for manuscript==
 {| border="1"
 |+ Milestones for Manuscript
-! Item !! Responsible !! Team !! Date !! Comment
+! Item !! Responsible !! Team !! Due date !! Comment
 |-
-| MIREOT [http://docs.google.com/Doc?docid=dzprnmw_5fwg97rds&hl=en policy]
-| NA
+| MIREOT ("imports") [http://docs.google.com/Doc?docid=dzprnmw_5fwg97rds&hl=en policy]
+|
 | JM, AR, PRS, MC
 | 
 |
 |-
 | Deprecation policy [|Deprecation [http://docs.google.com/Doc?docid=dzprnmw_5fwg97rds&hl=en policy]
-| NA
+| 
 | DS, JM, AR, PRS, MC
 | 
 |
+|-
+| Use cases and Competency questions [https://wiki.cbil.upenn.edu/obiwiki/index.php/OBIEvaluation here]
+| JM
+|
+| 
+|
+|-
+| OBI documentation [http://docs.google.com/Doc?docid=dzprnmw_2fhdrq9dh&hl=en here]
+| 
+| JM, BB, AR, MC
+| 
+|
+|-
+| Biomaterial sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds here]
+| SAS, MC
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| Data transformation sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/DataTransformation here]
+| TB, JM
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| DENRIE sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/DigitalEntityTerms here]
+| CS
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| Function sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/FunctionTerms here]
+| BB
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| Instrument sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/InstrumentTerms here]
+| DS
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| PlanAndPlanned process sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/PlanBranch here] and [https://wiki.cbil.upenn.edu/obiwiki/index.php/ProtocolApplicationBranch here]
+| BP, PRS
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| Quality sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/QualitiesBranch here]
+| CM
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| Role sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/RoleTerms here]
+| JF
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
+|-
+| Relations sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/ListOfRelationships here]
+| LF
+|
+| 
+| editors sign off:
+review sign off:
+
+advisors sign off:
+
+final sign off:
 |}
