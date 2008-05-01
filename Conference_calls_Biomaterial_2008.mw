@@ -3,7 +3,6 @@
 
 === April 25, 2008 ===
 1. discuss taxonomy proposal<br>
-
 BB had comments - he will join our call to review the current proposal. <br>
 
 
@@ -13,24 +12,24 @@ BB had comments - he will join our call to review the current proposal. <br>
 dump is available at trunk/src/ontology/catalogs/jax-strains-
 email.txt<br>
 to discuss: how do we proceed from this text version<br>
+
 <br>
 - do uniprot IDs map to that?<br>
-
 - OBI could initiate that project but shouldn't take it on<br>
 - review and check what info we want -> owl<br>
 - how much are people making their own strains instead using catalogs?<br>
 - problem is where to stop? needs more work<br>
-- desire of annotate with strains<br>
 
+- desire of annotate with strains<br>
 <br>
 todo: we should review jax, check what OWL representation we could get for that and the 87 from Bill, 1000 from BP, and see how to deal with<br>
 <br>
 
 2. PRS in protege, define organism as union of the 4 top levels<br>
 postponed<br>
+
 <br>
 3. MC google doc proposal to biom and denrie<br>
-
 google doc is available at http://docs.google.com/Doc?docid=dzprnmw_21csm25rfj&hl=en<br>
 
 -> google doc to be forwarded to denrie for feedback<br>
@@ -43,22 +42,20 @@ people interested (PRS, AR, JM, MC) in the mireot script will work together to f
 
 
 5. BP will review other tax efforts, and provide report/summary<br>
-
 (what
 is not in ncbi and is needed)<br>
 <br>
 - no way to distinguish species and strains in ncbi<br>
 - each term in ncbi tax (if we don't care about distinction strain/specie), then we don't have the problem of knowing it is an is_a relation<br>
 - each term in ncbi is an instance of organism<br>
-- http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=226902&lvl=3&lin=f&keep=1&srchmode=1&unlock
 
+- http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=226902&lvl=3&lin=f&keep=1&srchmode=1&unlock
 <br>
 consensus: we go ahead and use ncbi, knowing it has issues<br>
 warn that there is a potential pb using classes like clinical sample -> would be better represented in OBI in an other way<br>
 
 as we create things that are not in ncbi, we try to fetch them from other places<br>
 Two examples: Uniprot has e.g. mouse strain information and synonyms<br>
-
 http://beta.uniprot.org/taxonomy/10090 (we could for example use their labels/synonyms, even if not ID)<br>
 UBio maps multiple taxonomic classifications together<br>
 http://www.ubio.org/<br>
@@ -66,7 +63,6 @@ should guide us when we need something out of ncbi<br>
 
 
 6. PRS checks with Tina for cultivar, after we write the proposal<br>
-
 (this action item is to be postponed until we complete the proposal -
 just copied here as reminder)<br>
 <br>
@@ -1139,6 +1135,7 @@ Susanna will host again.<br>
 ----
 
 We started our discussion from this file [[BiomaterialTermNeedsLists|Ante 9th Mar 2007 call]]<br>
+
 File produced after this call: [[BiomaterialTermNeedsLists|Post 9th Mar 2007 call]]
 
 SUMMARY:
@@ -1167,7 +1164,6 @@ Next call: 16 March 2007, 16,00 GMT. Susanna will host again.
 File produced after this call: [[BiomaterialTermNeedsLists|Post 2nd Mar 2007 call]]<br>
 
 [[BiomaterialTermNeeds/calls/2_Mar_07|MINUTES]] <br>
-
 SUMMARY:<br>
 
 We started with review of BP's terms. Decided that anything that's gene or protein related will wait till later as there is 1. overlap with e.g. SO and special needs to describe chimaerics that cover everyone's term lists. Some people had flagged overlap, and some hadn't so needs to be revisited and maybe a guideline set.
@@ -1181,13 +1177,14 @@ Action items:
 - AA4. Identify all gene/protein related terms save and get back to these later when we've completed the  first cut of all the term lists and got placement etc.<br>
 
 Next call we could <br>
+
 1. Discuss the MO terms<br>
 2. Develop a core list<br>
 3. PSI terms will be filtered off line for relevance to biomaterial branch, and will report back<br>
 4. Helen/other mo person needs to suggest placement the MO terms in OBI<br>
 5. term  names need a clean up a la naming conventions<br>
-
 6. We need to id terms for other branches and propose them<br>
+
 7. Helen P and Jennifer will look into death type terms off line
 
 Next call: 9 March 2007, 16,00 GMT. Alan will host again.<br>
@@ -1201,12 +1198,12 @@ SUMMARY:<br>
 - No mailing list for this branch (at least for the moment)
 - Collect biomaterial terms in tab delimited format and post the file on the (previous) [[BioMaterial]] WIKI page<br>
 - Add definitions, source and example first, then if possible bin them in current OBI classes<br>
-
 - Use the same hearders as in this [[ http://www.ebi.ac.uk/~sansone/FuGO/data''tranformation''terms%20All-Com-PRS-210106.xls|Data Transformation file |]] <br>
+
 - Proteomics/PSI sample terms are posted under [[ http://obo.sourceforge.net/cgi-bin/table.cgi|OBI |]] see MI, MOD, IPR, SEP<br>
 - March 1st deadline for editors (first set of terms), April 1 deadline for the others (to add on)<br>
 - Next call Friday 2nd March same time 11EST, 16.00 GMT UK (Norman will call us by skype), to see what we have and how to precede to build this branch (aristotelian definitions, add metadata tags, naming convention, binning etc) <br>
 
 ==Related Links==
-
+*[[2007BiomaterialConferenceCalls|2007 conference calls notes ]]
 *[http://groups.google.com/group/obi-biomaterial Join our mailing-list]
