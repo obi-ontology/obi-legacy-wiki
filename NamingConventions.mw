@@ -22,6 +22,7 @@ It was discussed whether
 or
 * only those terms that need this postfix to be understood (also when viewed outside of the Branch context or outside of the ontology) by the reader get this postfix. In the obi dev call of 16.1.08 we agreed on this latter convention. We agreed that the postfix should be omitted when perceived as clearly redundant taking the first part of the term into account. Editors are however allowed to add the postfix where they feel a need for it.
 
+e.g. use the 'sine transformation' rather than a colloquial 'sine'.
 
 
   * Comments or questions on naming issues should be sent to schober [[at]] ebi.ac.uk directly or to the OBI developers mailing lists.
