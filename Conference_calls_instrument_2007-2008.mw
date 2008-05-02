@@ -1,11 +1,28 @@
 ====Summary of the Instrument Branch Conference Calls====
 
-22. April 2008
+
+6. May 2008
 
 Agenda:
- same as last week
+* Review latest changes implemented by Frank and Melanie in owl file due to branch report. Any remaining issues here?
+* Review status of Function/PA discussions: (Should we or the Function branch review?)
+** e.g. For each instrument I with function F there is a protocol PR each application P of which has_participant instrument I which realizes its function F as part of P.
+**instrument I 'has minimal functional realization' in protocol application PF. We can then later automatically translate PF --> F (e.g. heating --> 'heating_function') to create the instrument function hierarchy in parallel.
+*next steps would be to
+** a) convert the function terms from the instrument branch to PF terms, and submit them to the protocol application branch (if they don't exist there already).
+** b) create the relation 'minimal functional realization of' in the relation branch
+** c) connect instruments with their PF protocol applications using the relation b)
+** d) write a script that will auto-create the function terms based on a - c
+**Example of outcome: 
+***Pipetting is a protocol_application (material separation) with the objective to obtain a defined volume of liquid material (output) from a larger volume of input liquid material utilizing a pipette device.
+***Pipetting_function is a function that is realized in a pipetting protocol_application
+***Pipette has function pipetting function
+* Add missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
+*[[InstrumentMinutes2008May6|Minutes]]
 
-*[[InstrumentMinutes22Apr2008|Minutes]]
+22. April 2008
+
+skipped
 
 
 15. April 2008
