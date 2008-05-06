@@ -23,9 +23,7 @@
 #AI:AR,BS will go to the relations ontology meeting in Denver to present our needs '''DL:May 19''' (retire)
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
-#AI:Approved relation branch terms will be sent to RO2 LF  '''DL:Feb 7'''
 #AI:BS will review relations s/sheet and document the approach for dealing with has_model that need to be represented in OBI AR/LF/BS  '''DL:Feb 15'''
-#AI:branches to prioritize which relations are needed and tell role branch  '''DL:Mar 1'''
 #AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc '''Done''' - submitted to PATO beginning of march, but no feedback yet.
 #AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch  '''DL:Info Ontology?'''
 #AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF/JG  '''DL:Feb 7'''
@@ -75,6 +73,8 @@
 #AI: Cartik will share his annotations with OBI  '''DL:after Mar 1 release?'''
 #AI: AR will develop measurement proposal and circulate to OBI and Chris Mungall, Barry Smith, Michael Ashburner as this conflicts with "towards" relation in PATO, and derive a consensus. '''DL: February 15'''
 #AI: BP/PRS/AR/MC Resolve "process" as either a series of steps or as a series of steps with input and output '''DL:February 15'''
+#AI:Approved relation branch terms will be sent to RO2 LF  '''DL:Feb 7'''
+#AI:branches to prioritize which relations are needed and tell role branch  '''DL:Mar 1'''
 ----
 
 ==Action items moved into tracker==
