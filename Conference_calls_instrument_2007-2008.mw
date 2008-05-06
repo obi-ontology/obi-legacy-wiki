@@ -4,7 +4,8 @@
 6. May 2008
 
 Agenda:
-* Review latest changes implemented by Frank and Melanie in owl file due to branch report. Any remaining issues here?
+* Review latest changes implemented by Frank and Melanie in owl file due to branch report.
+* Clean up remaining issues as found on http://sw.neurocommons.org/2008/obi/reports/InstrumentAndPart_report.html
 * Review status of Function/PA discussions: (Should we or the Function branch review? Frank could you summarize the outcome of your discussion with Bjoern?)
 ** e.g. For each instrument I with function F there is a protocol PR each application P of which has_participant instrument I which realizes its function F as part of P.
 **instrument I 'has minimal functional realization' in protocol application PF. We can then later automatically translate PF --> F (e.g. heating --> 'heating_function') to create the instrument function hierarchy in parallel.
