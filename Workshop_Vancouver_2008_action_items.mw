@@ -77,9 +77,9 @@
 
 *AI:Relation Branch will develop a way to make it clear for relations using an annotation property (or similar) to make it clear which relations can be used at class and which can be used at instance level. This constraint is needed. '''DL:Mar 1 (entered into RO tracker 1949892 )'''
 
-*AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch  '''DL:Info Ontology?'''
+*AI:move hypothesis, dt role, stat factor from role, add under new class specification suggest a new role - specifies? Plan/PA branch  '''DL:Info Ontology?'''  TRACKER TO JF
 
-*AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF/JG  '''DL:Feb 7'''
+*AI:processes can't bear roles, objective is used instead for e.g. negative control - add to tracker. JF/JG  '''DL:Feb 7'''  TRACKER TO JF
 
 ==Completed Action Items==
 
