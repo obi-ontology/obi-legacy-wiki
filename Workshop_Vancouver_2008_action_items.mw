@@ -33,7 +33,6 @@
 #AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
 #AI:MC will add stimulus to the tracker  '''DL:Mar 1'''
 #AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release''' 2 first releases done - is OWL-DL and passes Pellet test 
-#Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''
 #AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
 #AI:RS will provide a clinical trial example of protocol  '''DL:? same as use case'''
 #AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DL: Dealt with in calls'''
@@ -204,5 +203,6 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1950007&group_id=177891
 
 *AI:AR will look into what are committing to in becoming a W3C group '''DONE'''
 
+#Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''   '''DONE - set up core coord committee'''
 
 [[ActionItemsByDateDiscussed]]
