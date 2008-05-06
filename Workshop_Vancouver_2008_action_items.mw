@@ -24,13 +24,6 @@
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
 #AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc '''Done''' - submitted to PATO beginning of march, but no feedback yet.
-#AI:AR will look into what are committing to in becoming a W3C group
-##we need to have three W3C supporters
-##get telecon
-##get webspace
-##use of tracker
-##need an editor
-##benefit for community  '''DL:Feb 15'''   '''- Needed to see what we needed to do in return: Answer write a nice report under the W3C banner. '''
 #AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call''' -DONE set up core coordinating committee
 #AI:Things get voted on in wiki by proposing a vote on a dev call  '''DL:n/a policy'''
 #AI:if consensus cannot be reached by developers, coordinating will decide by some as yet undefined mechanism  '''DL:n/a policy'''
