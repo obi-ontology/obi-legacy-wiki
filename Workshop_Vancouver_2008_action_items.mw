@@ -58,7 +58,7 @@
 
 *AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS  '''DL:Mar 1'''  TRACKER TO PRS
 
-#AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this.  '''DL:Mar 1 (not OWL file) docs''' In Progress - Bill working in function - we will write a doc  TRACKER TO MC
+*AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this.  '''DL:Mar 1 (not OWL file) docs''' In Progress - Bill working in function - we will write a doc  TRACKER TO MC
 
 ==Completed Action Items==
 
