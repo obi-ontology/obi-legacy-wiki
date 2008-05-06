@@ -25,9 +25,6 @@
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
 #AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc '''Done''' - submitted to PATO beginning of march, but no feedback yet.
 #AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call''' -DONE set up core coordinating committee
-#AI:Things get voted on in wiki by proposing a vote on a dev call  '''DL:n/a policy'''
-#AI:if consensus cannot be reached by developers, coordinating will decide by some as yet undefined mechanism  '''DL:n/a policy'''
-#AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS  '''DL:21 Feb, next dev call. HP will invite CM''' - still under discussion
 #AI:Paper proposal on engineering methodology to provide an incentive  '''DL: dependent on authorship policies'''
 #AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call  '''DL:immediate effect'''
 #AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
@@ -203,6 +200,8 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1950007&group_id=177891
 
 *AI:AR will look into what are committing to in becoming a W3C group '''DONE'''
 
-#Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''   '''DONE - set up core coord committee'''
+*Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''   '''DONE - set up core coord committee'''
+
+*AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS   '''DONE''' 
 
 [[ActionItemsByDateDiscussed]]
