@@ -143,69 +143,78 @@ AI:Hospital should be added when Organization is added to OBI tracker MC
 
 *AI:Works with Chebi to resolve roles for chemicals, submit to Chebi. JF/SS/PRS 
 
+*AI:Approved relation branch terms will be sent to RO2 LF '''DONE'''
+
+*AI:branches to prioritize which relations are needed and tell role branch '''DONE'''
+
 #AI:Policy needs developing and take to a coord conference call '''DL:12 Mar Coord call''' (assummed to refer to authorship policy)
 
-#AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week (Plan and PA branch work will be merged into a single effort)  '''DL:Mar 1'''
+*AI:PRS will put together something for discussion on Plan, PA and Protocol - will be discussed later this week (Plan and PA branch work will be merged into a single effort)  '''DL:Mar 1'''
 
-#AI:AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE'''
+*AI:AR/BS w DENRI. Is a 'variable' is a relation to a class or an entity  '''DL:DONE'''
 
-#AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:  '''DL:?When info ontology is tackled?'''  '''Current decision is to leave GIF as data format specification instance, but move the instances to a separate file.  Done: new file DataFormatSpecification.owl  People need to update their .owl and .repository files to include it '''
+*AI:issue that we need a quality like thing of 'Gifness' and how works with DENRI. could also be solved by using feature om OBI as above, again a work around BS/AR:  '''DL:?When info ontology is tackled?'''  '''Current decision is to leave GIF as data format specification instance, but move the instances to a separate file.  Done: new file DataFormatSpecification.owl  People need to update their .owl and .repository files to include it '''
 
-#AI:discuss within Instrument branch ,consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.  '''DL:Feb 15'''  OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent '''DONE'''
+*AI:discuss within Instrument branch ,consequences for making artefact object a defined class only to avoid problems where there are biomaterials that are also human generated.  '''DL:Feb 15'''  OR can we could keep artefact object and add classes underneath it use this strategy only for biomaterials, as we think all instruments will be artefact objects. Would be weird to have instrument next to protein. MC will communicate to instrument branch. Biomaterial branch are going with the defined class and will use reasoner to place terms in h'archy e.g. under artifact object and some other parent '''DONE'''
 
-#AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular  '''DL:Mar 1 OWL file''' '''DONE'''
+*AI: proposal how to define material: material is union of BFO object, BFP object aggregate, BFO fiat object part. Is now the root for biomaterial and artifact which are defined classes and will help OBI be multi granular  '''DL:Mar 1 OWL file''' '''DONE'''
 
-#AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS  '''DL:Mar 1''' '''DONE'''
-#AI:MC/JM/AR/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1''' '''Done: http://docs.google.com/Doc?id=dzprnmw_5fwg97rds '''
-#AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI  '''DL:Apr 1'''  '''DONE'''
-#AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.  '''DL:Workshop'''  '''DONE'''
+*AI:DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS  '''DL:Mar 1''' '''DONE'''
 
-#AI:Two proposals for release notes, OWL file annotation property and SVN checkin logs, resolved as editor notes long, SVN short.  '''DL:DONE'''
+*AI:MC/JM/AR/DS to write up an OBI import/mapping strategy doc as described at the workshop as doc  '''DL:Apr 1''' '''Done: http://docs.google.com/Doc?id=dzprnmw_5fwg97rds '''
 
-#AI:custom google custom search box for OBI wiki will be requested from CS group CS  '''DL:In progress, Apr 1''' - DONE
+*AI:AR/JM/MC will work through a use case with the cell type ontology import needed for biomaterial and test this strategy and report on the results. This will be an OBI application ontology as soon as we start bringing into OBI  '''DL:Apr 1'''  '''DONE'''
 
-#AI:Wiki DENRI, Relations, Quality, Role need links to their term list files and or notes on the Branch Conf Calls  '''DONE'''
+*AI:develop a strategy for dealing with the OBO foundry ontologies and OBI application ontology if import works. Decision if we have that everything is done.  '''DL:Workshop'''  '''DONE'''
 
-#AI:General feeling that there is no design whereby computing over h'archy depth is designed into OBI and it's not a good way to work with OBI at present MC will speak to EM about this  '''DL:Mar 1''' '''DONE'''
+*AI:Two proposals for release notes, OWL file annotation property and SVN checkin logs, resolved as editor notes long, SVN short.  '''DL:DONE'''
 
-#AI:An underscore will be added to each branches helper classes, each branch will deal with this themselves  '''DL:Mar 1 OWL file'''  '''DONE'''
+*AI:custom google custom search box for OBI wiki will be requested from CS group CS  '''DL:In progress, Apr 1''' - DONE
 
-#AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. Chris Stoeckert and Daniel Rubin.  '''DL:15 Feb for mechanism, upload after Mar 1'''  '''DONE'''
+*AI:Wiki DENRI, Relations, Quality, Role need links to their term list files and or notes on the Branch Conf Calls  '''DONE'''
 
-#AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically. This is a script to merge. Evaluation needs to be soon  '''DL: Mar 1'''
+*AI:General feeling that there is no design whereby computing over h'archy depth is designed into OBI and it's not a good way to work with OBI at present MC will speak to EM about this  '''DL:Mar 1''' '''DONE'''
 
-#AI:Protocol and ProtocolApplication branches will be merged. The OWL files for Plan, Protocol have been merged by AR. He will send instructions to the dev list  '''DL: DONE files merged committed, PA list will be used, Alan will fix plan email to PA'''
+*AI:An underscore will be added to each branches helper classes, each branch will deal with this themselves  '''DL:Mar 1 OWL file'''  '''DONE'''
 
-#AI:How do we embed OBI in different systems - AR wants as focus of a session this week '''DL: DONE'''
-#AI: JW will provide a link for PDBs attempt to deal with instrument and parts thereof to do this for beamlines JW '''DL: DONE'''
-#AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.  '''DL:Feb 15'''  '''DONE'''
+*AI:Bioportal should point at the most recent version OBI-OWL merged file release so that progress is visible. We could release every 2 weeks, point at what changes in change log. Could be pull or push. Chris Stoeckert and Daniel Rubin.  '''DL:15 Feb for mechanism, upload after Mar 1'''  '''DONE'''
 
-#AI: CS The  https://wiki.cbil.upenn.edu/obiwiki/index.php/QuickTerms-CrossProducts  proposal  as topic on agenda for next  developer call '''DL: February 15''' - DONE - put on Feb 6 agenda.
+*AI:BP and AR will try and develop ProtocolApplication from Plan to evaluate whether this can be done automatically. This is a script to merge. Evaluation needs to be soon  '''DL: Mar 1'''
 
-#AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)''' '''In Progress''' (tracker http://sourceforge.net/tracker/index.php?func=detail&aid=1911447&group_id=177891&atid=886178)
+*AI:Protocol and ProtocolApplication branches will be merged. The OWL files for Plan, Protocol have been merged by AR. He will send instructions to the dev list  '''DL: DONE files merged committed, PA list will be used, Alan will fix plan email to PA'''
 
-#AI:Definition of InformationEntity to be done by BS/AR/BB (tracker http://sourceforge.net/tracker/index.php?func=detail&aid=1950131&group_id=177891&atid=886178)
+*AI:How do we embed OBI in different systems - AR wants as focus of a session this week '''DL: DONE'''
 
-#AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1''' (add to tracker in including each use case)
-##RB:Flow cytometry use case
+*AI: JW will provide a link for PDBs attempt to deal with instrument and parts thereof to do this for beamlines JW '''DL: DONE'''
+
+*AI:Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM.  '''DL:Feb 15'''  '''DONE'''
+
+*AI: CS The  https://wiki.cbil.upenn.edu/obiwiki/index.php/QuickTerms-CrossProducts  proposal  as topic on agenda for next  developer call '''DL: February 15''' - DONE - put on Feb 6 agenda.
+
+*AI: Develop a test plan for the OBI release, document and execute BB '''DL:Mar 15 (second release)''' '''In Progress''' (tracker http://sourceforge.net/tracker/index.php?func=detail&aid=1911447&group_id=177891&atid=886178)
+
+*AI:Definition of InformationEntity to be done by BS/AR/BB (tracker http://sourceforge.net/tracker/index.php?func=detail&aid=1950131&group_id=177891&atid=886178)
+
+*AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1''' (add to tracker in including each use case)
+**RB:Flow cytometry use case
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950134&group_id=177891&atid=886178
-##JM/HP:ArrayExpress use case
+**JM/HP:ArrayExpress use case
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950135&group_id=177891&atid=886178
-##PRS/BII use case
+**PRS/BII use case
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950136&group_id=177891&atid=886178
-##BB:BIRN use case
+**BB:BIRN use case
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950137&group_id=177891&atid=886178
-##JF SIFT use case
+**JF SIFT use case
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950139&group_id=177891&atid=886178
-##GenePattern use case  (CS/HP) - HP contacted GenePattern who expressed interest
+**GenePattern use case  (CS/HP) - HP contacted GenePattern who expressed interest
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950140&group_id=177891&atid=886178
-##JG:Immunity use case
+**JG:Immunity use case
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950196&group_id=177891&atid=886178
 
-#AI: Developing a long term (5 year) management plan for the OBI grant - AR/BP/BS '''DL:Apr 1''' (add to tracker, assign BP)
+*AI: Developing a long term (5 year) management plan for the OBI grant - AR/BP/BS '''DL:Apr 1''' (add to tracker, assign BP)
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950143&group_id=177891&atid=886178
 
-#AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated ''DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.'' '''DL:Def done, OWL file Mar 1''' def tbd with RS 
+*AI:EDIT:evaluant is added as a role, RS will make a definition. It's the thing being evaluated ''DEF:An evaluant_role is the role played by a portion of material (including specimens and human subjects) that serves as the subject of study in an assay such that the output data describes a feature (quality..... e.g. "contains 10 pg/ml IL2") of the evaluant.'' '''DL:Def done, OWL file Mar 1''' def tbd with RS 
 http://sourceforge.net/tracker/index.php?func=detail&aid=1950007&group_id=177891&atid=886178
 
 
