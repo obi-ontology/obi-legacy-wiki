@@ -24,19 +24,6 @@
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
 #AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc '''Done''' - submitted to PATO beginning of march, but no feedback yet.
-#AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS  '''DL:Mar 1'''
-#AI:Ontology annotation and release notes policy In progress
-##Summary editor note in OWL file, can point to external URL if needed
-##Summary should be in text use SVN change log note to say what has been changed as well. 
-##Use ''Editor Note'' if becomes too complex in the OWL file these can be stripped out, next release will have 2 files, one with E. note one without
-##Doesn't need to be done retrospectively
-##This relies on a
-###usable and used deprecation policy
-###A tracker will be used instead of email for tracking issues, this will be SF until a decision is made
-###We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM '''DONE'''
-###If something comes to dev-list, it can be referred to a branch instead
-###When proposing an item in tracker we will discuss on dev call, assign a date for closure, it will be assigned to a person, and that person will take responsibility for resolving discussion and closing on the due date decided.
-###If you have tracker things from this meeting (look for your initials) use the tracker
 #AI:AR will look into what are committing to in becoming a W3C group
 ##we need to have three W3C supporters
 ##get telecon
@@ -81,6 +68,20 @@
 *AI:Edit:suggested edit new class role assignment with group assignment underneath it if PA can be distinct from a Planned Process PRS  '''DL:Mar 1''' TRACKER TO PRS
 
 *AI:Edit:Definition of PA defined as being carried out to modify or generate data or materials in an investigation. Issues still BP.  '''DL:Mar 1''' TRACKER TO BP
+
+*AI:biomaterial will attempt define in vivo, ex vivo etc as a defined class and see if this works, these may be at assay level not material level, and these will likely be processes PRS  '''DL:Mar 1'''  TRACKER TO PRS
+
+*AI:Ontology annotation and release notes policy In progress
+ *Summary editor note in OWL file, can point to external URL if needed
+ *Summary should be in text use SVN change log note to say what has been changed as well. 
+ *Use ''Editor Note'' if becomes too complex in the OWL file these can be stripped out, next release will have 2 files, one with E. note one without
+ *Doesn't need to be done retrospectively
+ *This relies on a usable and used deprecation policy
+   *A tracker will be used instead of email for tracking issues, this will be SF until a decision is made
+###We will look at new tracker options due to SF issues, will be added to a future developers call, options trac, w3c, sf. A wiki vote page will be set up by JM '''DONE'''
+###If something comes to dev-list, it can be referred to a branch instead
+###When proposing an item in tracker we will discuss on dev call, assign a date for closure, it will be assigned to a person, and that person will take responsibility for resolving discussion and closing on the due date decided.
+###If you have tracker things from this meeting (look for your initials) use the tracker
 
 ==Completed Action Items==
 
