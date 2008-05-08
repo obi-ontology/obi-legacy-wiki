@@ -1,0 +1,85 @@
+==Frequently Asked Questions==
+
+If you are new to OBI or just wondering if your question has been answered before, please see the list of FAQs below.  If you can not find your question here please email obi-devel@lists.sourceforge.net
+
+__TOC__
+
+nd declarative representation which includes the vocabulary (or names) for referring to the terms in that subject area and the logical statements that describe what the terms are, how they are related to each other, and how they can or cannot be related to each other. Ontologies therefore provide a vocabulary for representing and communicating knowledge about some topic and a set of relationships that hold among the terms in that vocabulary." 
+
+===What files do I need to use OBI?===
+
+OBI is available as one single file that merges the sub parts of the project the developers are dealing with.
+You can download OBI from http://purl.obofoundry.org/obo/obi.owl. This link will always point to the latest version of the file.
+
+Previous versions can be found at https://obi.svn.sourceforge.net/svnroot/obi/tags/releases/
+
+===How do I display the textual class names===
+
+Since the class name which is the default display slot in Protege is the unique OBI ID, we are using the RDF:Label annotation property to describe the English, textual label of the class.  To display this under Protege you need to alter the display slot.  There are instructions on how to do this here https://wiki.cbil.upenn.edu/obiwiki/index.php/AutoIDcommunityRanges#Displaying_the_textual_class_name
+
+
+===How to have Protege 3.3.1 to check inferred classes and moved them to the relevant classes===
+
+This tutorial has been created following a test carried out it the biomaterial branch.
+
+If you are working with a stable distribution of Protege, i.e Protege 3.3.1, do the following
+
+1. Get a reasoner,(Racer pro in my evaluation but one could try pellet available here: http://www.mindswap.org/2003/pellet/performance.shtml):
+More information about reasoners can be obtained from: http://protege.stanford.edu/plugins/owl/api/ReasonerAPIExamples.html
+
+Racer Web Site: http://www.racer-systems.com/products/download/education.phtml Note: I have selected the educational license from the racer download page and followed the regsitration process + instructions for installation (very straightforward).
+
+The installation process should start Racer reasoner. 
+If it does not, you will have to start it manually (click the Race reasoner icon)
+
+2. Run an SVN-Update and open the OBI protege project
+
+3. For testing purpose, pick one of the biomaterial class, e.g. blood_plasma and add the following restriction:
+
+has_role some (specimen_role or Reagent)
+
+Save the owl file.
+
+4. go to Protege Menu 'OWL' -> 'Classify Taxonomy'... (remember, for this to work, Racer reasoner must be running)
+
+5. A pop-up window named 'Connected to Racer' shows-up and reports on progress. close it by clicking on 'OK'
+
+6. et voila! just have a look at the new Subclass Explorer pane which has open.
+
+7. look for the helper class '_defined_biomaterial' (Created for testing purpose during a biomaterial branch call) and expand it
+expand biomaterial and the inferred class should show up in blue.
+
+Note: The reasoner might complain a bit (see message below) but still manages to infer the blood plasma should be a child of the defined class 'Biomaterial' which shows up in blue in the Protege pane. 
+
+Possible error message from Racer, complaining complaints about cell_coculturing
+(has_input min 2) and
+(has_input only OBI_1000022)<- this statement is causing an report : " the current version of DIG interface does not support quantifier restrictions on datatype properties.Ignoring this restriction and attempting to continue..."
+
+===Are there any instances in OBI?===
+
+Currently there are no instances in OBI.  The aim is really to develop the ontology and allow the users to populate it to their usage requirements.  We intend to do some evaluation and testing at some stage which may result in some instance examples at a later date but a populated knowledge base is currently out of scope of OBI.
+
+===Why are there 'unclassified' and 'temporary' classes?===
+
+There are a few 'holder' classes in the ontology currently - these are temporary and are simply bins in which terms which have not been appropriately defined and placed yet reside.  These will be removed in the final release of the ontology.
+
+===When can I use OBI?===
+
+The OBI Consortium is currently working towards an 'official' release.  This release will have been evaluated against a set of use cases to show that it works for those requirements.  This version is not going to have coverage for all possible biomedical investigations - although this is the ultimate goal of OBI - moreover, this release will have a limited coverage and further releases will add increased coverage for the intended audience.
+
+=== Why should multiple inheritance be avoided when creating an asserted set of ontology classes and subclasses? ===
+Avoiding multiple inheritance is fundemental to how the OBI developers leverage the tools specifically designed for use both to curate and process OWL ontologies (e.g., reasoners such as Pellet and FaCT++).  ObjectProperties are used to construct the multiple class restrictions needed to infer the variety of ways in which researchers need to classify certain entities, as opposed to asserting those classification schemes by building multiple hierarchies via the owl:SubclassOf class axiom. This is a critical issue both in helping to guide the choices we make within a branch as to what defining properties should be used to build the single asserted subsumptive (i.e., 'is_a') hierarchy, as well as how to use relations to construct complex logical entailments between classes to capture complex representations.  This also normalizes the representation in a way that makes it easier for humans to manage the complex, extensive interelatedness as changes need to be applied to very large ontologies.  An example of how one would capture the multiple classifications needed by researchers is when one considers the use of naturally derived enzymes used in the course of a detection assay.  The enzyme ''glucose oxidase'' is a type of enzyme that oxidizes glucose.  It is a dimeric macromolecule and is frequently used in glucose indicator assays in which case the diatomic O2 product it generates is detected.  Such an enzyme would sensibly be asserted as a type of macromolecule.  One would then create ObjectProperties to specify:
+* it is the ''bearer of'' an ''oxidation function''
+* it ''participates in'' the ''role of catalyst'' in an ''exzymatic process'' that has ''glucose'' as ''input'' and ''O2'' as ''output''
+* it ''participates in'' the ''role of reagent'' in an ''assay'' used to ''realize'' a ''planned protocol'' whose ''objective'' is to ''measure'' the ''amount'' of ''glucose''
+All of these subsidiary ways in which researchers might seek to classify ''glucose oxidase'' are represented via ObjectProperties and can then be infered with an OWL reasoner.
+For more information on this issue see:
+# [http://www.cs.man.ac.uk/~rector/papers/rector-modularisation-kcap-2003-distrib.pdf KCAP 2003 article on Ontology Modularization/Normalization by Alan Rector]
+# [http://sourceforge.net/mailarchive/forum.php?thread_name=4698B3B7.60501%40cs.man.ac.uk&forum_name=obi-devel Mikel Egaña Aranguren post re: Ontology Design Pattern July 2007 ISMB presentation and citaions]
+# [https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyDesignPatterns OBI Wiki page on Ontology Design Pattern links]
+# OBI developer list discussion threads
+## [http://sourceforge.net/mailarchive/forum.php?thread_name=F3AB4896-CE9A-44FD-9623-CFF0A30F8F8F%40gmail.com&forum_name=obi-devel Alan Rector's comment to Alan Ruttenberg re: normalization and single inheritance]
+## [http://sourceforge.net/mailarchive/forum.php?thread_name=4695120B.7070506%40ebi.ac.uk&forum_name=obi-develOntology Design Pattern for Normalisation (Untangling)]
+
+
+[[in progress]]
