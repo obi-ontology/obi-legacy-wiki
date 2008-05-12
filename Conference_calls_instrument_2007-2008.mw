@@ -1,10 +1,12 @@
 ====Summary of the Instrument Branch Conference Calls====
-12. May 2008
+13. May 2008
 
 Agenda:
-*Check new Branch Report items
-* Review status of Function/PA discussions
+* Check new Branch Report items
+* Review status of Function/PA discussions, i.e. do we agree on:
+**  "As the issue of function later came up with the instrument branch, Bjoern and Bill recommended they work with the PA branch to see that all the required 'minimal PAs' linked to a specific function are created and then can be linked to the appropriate instrument using the 'has_minimal_PA' relation.  I've agreed to help the instrument branch review their current spreadsheet and guarantee the needed 'minimal PAs' exist or are submitted to the PA branch for creation.  These will later be converted to bfo:functions algorithmicaly at which point a more complete, formal representation of all the pieces - including those needed for R2 & R3 - can be implemented." 
 * Add missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
+* decide on next steps
 *[[InstrumentMinutes2008May12|Minutes]]
 
 
