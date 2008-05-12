@@ -14,20 +14,9 @@
 #AI:Richard to communicate with Suzi Lewis and Chris Mungall on OBD future, overlap syngeries with OBI '''DL:? (ask Richard)'''
 #AI:Take use cases and see if OBI can be used to complete these use cases, need some kind of template for this: '''DL:May 1''' (add to tracker in including each use case)
 ##RS:Volunteer to do a use case clinical study
-
-#AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file''' (add to tracker, assign BP) hypothesis in tracker
-#AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA Needs to be resolved when time representation is resolved (not done) '''DL:Time will be on agenda Summer''' workshop - consider Inviting Uli Sattler (add to tracker)
-#AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI  '''DL:Summer workshop'''discussion to start on tracker (assign MC, merge with previous)
-#AI: Daniel Schober to update naming conventions page to allow suffix role being allowed in role special case and also for cases in data transformation branch which are sensible e.g. sine_transformation  '''DL:7 Feb''' Tracker for DS created 
-#AI:AR,BS will go to the relations ontology meeting in Denver to present our needs '''DL:May 19''' (retire)
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
 #AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC/SS/CM will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc '''Done''' - submitted to PATO beginning of march, but no feedback yet.
-#AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call''' -DONE set up core coordinating committee
-#AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call  '''DL:immediate effect'''
-#AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
-#AI:MC will add stimulus to the tracker  '''DL:Mar 1'''
-#AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release''' 2 first releases done - is OWL-DL and passes Pellet test 
 #AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
 #AI:RS will provide a clinical trial example of protocol  '''DL:? same as use case'''
 #AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DL: Dealt with in calls'''
@@ -42,6 +31,13 @@
 ----
 
 ==Action items moved into tracker==
+*AI:Edit:waiting was moved next to acclimatization and is no longer a child of PA Needs to be resolved when time representation is resolved (not done) '''DL:Time will be on agenda Summer''' workshop - consider Inviting Uli Sattler (add to tracker)
+*AI:TIME - needs to be discussed and a proposal produced for representing temporal events, waiting etc in OBI  '''DL:Summer workshop'''discussion to start on tracker (assign MC, merge with previous)
+http://sourceforge.net/tracker/index.php?func=detail&aid=1962586&group_id=177891&atid=886178
+
+*AI: Daniel Schober to update naming conventions page to allow suffix role being allowed in role special case and also for cases in data transformation branch which are sensible e.g. sine_transformation  '''DL:7 Feb''' Tracker for DS created 
+*AI:Resolve the difference between Investigation and ProtocolApplication - BP suggests that PA never tests a hypothesis and that Investigations can have hypotheses  '''DL:Mar 1 add to OWL file''' (add to tracker, assign BP) hypothesis in tracker
+http://sourceforge.net/tracker/index.php?func=detail&aid=1889536&group_id=177891&atid=886178
 
 *AI:Develop a use case that shows cross database integration using OBI and add a milestone for the long term plan. JW '''DL:Jul 1''' 
 http://sourceforge.net/tracker/index.php?func=detail&aid=1962584&group_id=177891&atid=886178
@@ -66,6 +62,17 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1962584&group_id=177891
 
 ==Completed Action Items==
 
+AI:Bi-weekly releases of the OBI merged file will be made in SVN, it will be versioned less than 1.0). This will require unit tests from Bill (another AI from this workshop), will be in OWL-DL, likely this will mean use of pellet. Will be released on 1 and 15 of each Month. First release will be on March 1. For release it must classify in pellet at a minimum. This will be a per 1.0 release. JG will provide his an xls version as well BB, MC, CK, JG  '''DL:Mar 1, first release''' 2 first releases done - is OWL-DL and passes Pellet test 
+
+AI:Resolution of how to focus coordinators and also have useful community representation, and   also to consider advisor input CS  '''DL: 13 Feb, next coord call''' -DONE set up core coordinating committee
+
+AI:When call minutes done, sent to list for branch or dev, coord, and name minutes from that date and that branch - All branch editor and or person hosting dev or coord call  '''DL:immediate effect'''
+
+AI:Dealing with multi branch issues - if these exist they will go into tracker and hence a dev call '''DL:Immediate'''
+
+AI:MC will add stimulus to the tracker  '''DL:Mar 1''' (decision is to be added if need expressed)
+
+AI:AR,BS will go to the relations ontology meeting in Denver to present our needs '''DL:May 19''' (retire)
 
 AI:AR will post the OBO release policy document and people will offer comment on if this is a good policy for OBI
 *DL:DONE. Deadline for comments Feb 15
