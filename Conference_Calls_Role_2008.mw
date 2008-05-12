@@ -1,0 +1,34 @@
+====TCon Schedule====
+*May 2008
+** May 12
+Agenda:
+*MC: http://sw.neurocommons.org/2008/obi/reports/Role_report.html
+*Check your spelling.
+* Try more general words.
+* Try different words that mean the same thing.
+* Broaden your search by using fewer words.
+* Try asking a question on Yahoo! Answers
+
+AI JF to work on this
+
+*MC: I'll add notes to wiki; my recurrent AI :-)
+*what to do with "outcome" AI JF pass to DENRIE
+pass outcome to conclusion, part of DENRIE
+
+*MC - output of statistical analysis
+only know it is a statistical factor at end of experiment, before then it is a factor, part of hypothesis
+
+*what to do with protocol application role; children: input, output, specimen, treated
+has_input relationship makes input_role redundant
+
+*MC: what was the intent for treated? what kind of use case?
+AI JF send e-mail about treated role
+
+*specimen role a study participant role (prev. called biological specimen role)
+
+*what to do with analyte (by whatever name) 
+analyte - (1) is there or not (2) how much; now called evaluant
+
+MC;  feed glucose -> care paramter + study design factor; measure glucose -> analyte
+
+MC: output of measuring protocol or detection protocol
