@@ -1,6 +1,6 @@
 ==OBI Branch Development==
 
-The development of an Ontology for Biomedical Investigations (OBI) has been divided into branches which were segregated into carefully selected non-overlapping areas of interest which would be modelled.  Each Branch has an assigned group of editors that oversee the development of a given branch.  Here is a view of the ObiBranchDevelopment workflow [[]].
+The development of an Ontology for Biomedical Investigations (OBI) has been divided into branches which were segregated into carefully selected non-overlapping areas of interest which would be modelled.  Each Branch has an assigned group of editors that oversee the development of a given branch.
 
 An introduction to OBI can be found [http://obi.sourceforge.net/ at the SourceForge website] 
 See the [[ObiBranches|branch outline]] for details on the branch development plan including roles and responsibilities.
