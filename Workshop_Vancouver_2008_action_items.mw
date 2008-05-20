@@ -225,7 +225,7 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1950007&group_id=177891
 
 *AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DONE Dealt with in calls'''
 
-*AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.  '''DONE'''
+*AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad. Result: Email send to Barry who is fine with MeasurementUnit for now; may revisit this later in the context of the overall measurement proposal.  '''DONE'''
 
 *AI: DT branch will test objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol  '''DL:Mar 1 OWL file'''  '''DONE - now handed over to plan and planned process''
 
