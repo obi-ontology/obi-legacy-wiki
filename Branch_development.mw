@@ -27,6 +27,8 @@ Each branch is assigned a group of editors which are responsible for the design 
 <br>
 
 ==List of OBI Branch ID ranges==
+
+As of February 2008, assigning IDs to OBI terms has become an automated process which is performed on the ontology before each official release.  Previous (now depricated) details on branch ranges can be found here
 https://wiki.cbil.upenn.edu/obiwiki/index.php/AutoIDcommunityRanges
 
 ==Link to Minimal Metadata Information==
