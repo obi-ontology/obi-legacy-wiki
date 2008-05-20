@@ -16,7 +16,6 @@
 ##RS:Volunteer to do a use case clinical study
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
-#AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.  '''DL:May 1'''
 #AI: DT branch will test objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol  '''DL:Mar 1 OWL file'''  '''now with plan and planned process''
 #AI:BS/AR will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI  '''DL:it will happen at some point'''
 #AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch  '''DL:15 Feb'''
@@ -221,5 +220,7 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1950007&group_id=177891
 *AI:RS will provide a clinical trial example of protocol  '''DONE'''
 
 *AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DONE Dealt with in calls'''
+
+#AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.  '''DONE'''
 
 [[ActionItemsByDateDiscussed]]
