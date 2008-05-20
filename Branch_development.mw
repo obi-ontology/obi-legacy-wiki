@@ -44,34 +44,34 @@ Links to the latest list of terms for each branch can be found in the table belo
 ! Branch !! Term List File 
 |-
 | Biomaterial
-| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/Biomaterial.owl?view=log link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Biomaterial.owl?view=log link here]
 |-
 | Data Transformation
-| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/DataTransformation.owl?view=log link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/DataTransformation.owl?view=log link here]
 |-
 | DENRIE
-| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/DigitalEntityPlus.owl?view=log link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/DigitalEntityPlus.owl?view=log link here]
 |-
 | Function
-| [http://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/OBI-Function.owl link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/OBI-Function.owl link here]
 |-
 | Instrument
-| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/InstrumentAndPart.owl?view=log link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/InstrumentAndPart.owl?view=log link here]
 |-
 | Plan and Planned Process (formally plan and protocol application)
-| [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/PlanAndPlannedProcess.owl?view=log link here]
+| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/PlanAndPlannedProcess.owl?view=log link here]
 |-
 | Protocol Application
 | See above
 |-
 | Qualities
-| [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches/Quality.owl link here]
+| [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Quality.owl link here]
 |-
 | Relations
-| [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches/Relations.owl link here]
+| [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Relations.owl link here]
 |-
 | Role
-| [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches/Role.owl link here]
+| [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Role.owl link here]
 |}
 
 <br>
