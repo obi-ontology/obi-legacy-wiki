@@ -16,7 +16,6 @@
 ##RS:Volunteer to do a use case clinical study
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
-#AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
 #AI:RS will provide a clinical trial example of protocol  '''DL:? same as use case'''
 #AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DL: Dealt with in calls'''
 #AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.  '''DL:May 1'''
@@ -63,6 +62,8 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1962584&group_id=177891
 *AI:MC/BB/JF will write up the explanation on Role, Function and what we understand about these for distribution and we will then develop a consensus on going forward on this.  '''DL:Mar 1 (not OWL file) docs''' In Progress - Bill working in function - we will write a doc  TRACKER TO MC
 
 *AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc''' - submitted to PATO beginning of march, but no feedback yet.  TRACKER TO MC
+
+*AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
 
 ==Completed Action Items==
 
