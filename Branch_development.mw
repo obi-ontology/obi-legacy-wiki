@@ -33,10 +33,7 @@ https://wiki.cbil.upenn.edu/obiwiki/index.php/AutoIDcommunityRanges
 * List of minimal metadata to add for terms: [[MinimalMetadata]]
 
 ==List of OBI Identifiers for Each Branch==
-* Range of Identifiers for each ObiBranch to use: https://wiki.cbil.upenn.edu/obiwiki/index.php/ProtegeGoodies#What_are_the_numeric_ranges_for_the_different_ObiBranches_and_how_do_I_use_them.3F
-* The branch specific default.properties files which contain the latest assigned class IDs (lastac) can be put here: 
-
-https://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/lastac_autoID
+*An initial set of identifiers was used during early development.  This has now been replaced by an automated single renaming strategy which is performed before each release.
 
 ==Latest Branch OWL Files==
 
