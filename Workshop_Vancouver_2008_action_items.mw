@@ -16,7 +16,6 @@
 ##RS:Volunteer to do a use case clinical study
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
-#AI:RS will provide a clinical trial example of protocol  '''DL:? same as use case'''
 #AI:Alan will generate a list of problems and solutions with DENRI for discussion on a conference call. Info ontology.  '''DL: Dealt with in calls'''
 #AI:BS will provide a better name for MeasurementUnit as Units pre-exist in the world outside data and so the name is bad.  '''DL:May 1'''
 #AI: DT branch will test objective, not role for e.g. normalization - might make things easier and practical consequences will not be huge: DT branch, Protocol  '''DL:Mar 1 OWL file'''  '''now with plan and planned process''
@@ -219,5 +218,7 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1950007&group_id=177891
 *Coordinators/core dev will review March 1 release and any issues will be added to track for resolution and may be accepted via some process defined by the coordinators if there is conflict.  '''DL:Mar 15'''   '''DONE - set up core coord committee'''
 
 *AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. AR Proposal for discussion is that we use OBO foundry process, add an obsolete class. Issues with logical definitions and previous use of editor note for this CS   '''DONE''' 
+
+*AI:RS will provide a clinical trial example of protocol  '''DONE'''
 
 [[ActionItemsByDateDiscussed]]
