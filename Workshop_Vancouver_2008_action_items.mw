@@ -16,7 +16,6 @@
 ##RS:Volunteer to do a use case clinical study
 #AI:issues also with propositions bearing roles unresolved AR  '''DL:Mar 1 In Progress''' (add to tracker )
 #AI:types can bear quality like things features and mathematical function and this is a workaround here where classes are created in OBI for math entities. Outside BFO so needs to be OBI and would mean that we don't need a relation. New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.  '''Reassigned to JM'''
-#AI:BS/AR will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI  '''DL:it will happen at some point'''
 #AI:BB will send the link to his modified BirnLex SW ontology to the data transformation branch  '''DL:15 Feb'''
 #AI: John Westbrook will provide us with top-level hierarchy (low number of terms) for incorporation into OBI.  '''DL:after Mar 1 release?'''
 #AI: Cartik will share his annotations with OBI  '''DL:after Mar 1 release?'''
@@ -60,6 +59,8 @@ http://sourceforge.net/tracker/index.php?func=detail&aid=1962584&group_id=177891
 *AI:We will need to deal with Parameters instances such as voltage, use cases from Instrument, will be in qualities. MC will group terms on a google doc and work with PATO  '''DL:Mar 1 term submission to MC's google doc''' - submitted to PATO beginning of march, but no feedback yet.  TRACKER TO MC
 
 *AI:Produce an example a Protocol acquired into ProtocolApplication from ArrayExpress - HP  '''DL:Mar 1'''
+
+*AI:BS/AR will devolve organization ontology, document ontology and information entity to a new ontology in the future, these are too high level for OBI  '''ASSIGNED TO BP'''
 
 ==Completed Action Items==
 
