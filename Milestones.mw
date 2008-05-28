@@ -101,7 +101,9 @@ final sign off:
 | BP, PRS
 |
 | 
-| editors sign off:
+| BP: The branch terms are in good shape regarding metadata (definitions and examples). Blockers right now are mismatches and duplications between other branches and this, including instruments, roles, objectives, relations, biomaterial. Use cases that cross branches have to be applied and need to show that there is no (or little) ambiguity how they should be modeled.
+
+editors sign off:
 review sign off:
 
 advisors sign off:
