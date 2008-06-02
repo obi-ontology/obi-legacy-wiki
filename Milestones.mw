@@ -8,14 +8,14 @@ Can be found there [[PastActionItems]]
 |-
 | MIREOT ("imports") [http://docs.google.com/Doc?docid=dzprnmw_5fwg97rds&hl=en policy]
 | AR,MC
-| JM, AR, PRS, MC, DS
+| JM, AR, PRS, MC, DS, AL
 | 
 |
 |-
 | Deprecation policy [|Deprecation [http://docs.google.com/Doc?docid=dzprnmw_5fwg97rds&hl=en policy]
 | AR
 | DS, JM, AR, PRS, MC
-| 
+| This seems to have the wrong link: it points to what seems to be an out-of-date MIREOT document, and not one on deprecation.
 |
 |-
 | OBI [|OBI-Minimal [https://wiki.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata Metadata]
