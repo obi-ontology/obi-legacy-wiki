@@ -1,6 +1,20 @@
 ====Summary of the Instrument Branch Conference Calls====
 
 
+'''Agenda for 10. June 2008:'''
+
+* Prepare branch report as requested on cc list (26/05/2008 23:53) and review http://docs.google.com/Doc?docid=dg9kgrmp_2f447dkgf&hl=en
+**check if what we do is in harmony with what others do (avoid redundancy)
+
+if time permits:
+
+* Evaluate the use case Philippe and me have provided and then add/implement all needed RUs tackling our instrument-branch.
+* Implement device classes as needed by use case at http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en
+* Continue to add last missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
+* Next steps and term submissions (e.g. from Philippe, terms form PSI MS, MSI NMR, ...) ?
+[[InstrumentMinutes2008June10|Minutes]]
+
+
 
 03. June 2008
 
@@ -11,7 +25,6 @@
 * implement device classes as needed by use case at http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en
 * next steps and term submissions (e.g. from Philippe, terms form PSI MS, MSI NMR, ...) ?
 [[InstrumentMinutes2008June03|Minutes]]
-
 
 
 20. and 27. May 2008 (skipped)
