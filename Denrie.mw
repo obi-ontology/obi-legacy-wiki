@@ -13,7 +13,7 @@ Notes and schedule for calls can be found at the
 
 ==Latest Digital Entity and Non-realizable Information Entity branch .owl file==
 
-https://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/DigitalEntityPlus.owl
+https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches/DigitalEntityPlus.owl
 
 ==Current OBI types==
 * "digital_entity" Def: digital entity is an information entity which is a collection of bits that can be interpreted by a computer.
