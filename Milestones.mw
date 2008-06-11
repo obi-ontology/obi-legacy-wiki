@@ -39,14 +39,14 @@ Can be found there [[PastActionItems]]
 | Cross products [to_be_added here]
 | PRS
 | SAS, PRS, DS
-| 
-|
+|  
+| Link to [http://docs.google.com/Doc?docid=dpzgxm6_4ctzwssgw&hl=en google document]
 |-
 | Biomaterial sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds here]
 | SAS, MC
 |
 | 
-| editors sign off:
+| editors sign off: PRS: Branch reorganization by BP and PRS, Branch report being written (PRS) and clarification on branch interactions (cf Protocol application). discussion / blocker relate to assignement of qualities/roles (under 'exploration' in 2 branches on svn bpbranch and prsbranch (for quality + use of restrictions on pa for defining output and input)
 review sign off:
 
 advisors sign off:
@@ -111,10 +111,10 @@ advisors sign off:
 final sign off:
 |-
 | Quality sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/QualitiesBranch here]
-| CM
+| CM, PRS temp
 |
 | 
-| editors sign off:
+| editors sign off: PRS: work ongoing on OBI related qualities -> test being carried out on prsbranch / quality. use of restriction, possible identification for the need to a new relation -> need to be debated in a devel call
 review sign off:
 
 advisors sign off:
