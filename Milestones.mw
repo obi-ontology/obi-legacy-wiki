@@ -105,9 +105,9 @@ final sign off:
 |-
 | PlanAndPlanned process sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/PlanBranch here] and [https://wiki.cbil.upenn.edu/obiwiki/index.php/ProtocolApplicationBranch here]
 | BP, PRS
-|
-| 
-| BP: The branch terms are in good shape regarding metadata (definitions and examples). Blockers right now are mismatches and duplications between other branches and this, including instruments, roles, objectives, relations, biomaterial. Use cases that cross branches have to be applied and need to show that there is no (or little) ambiguity how they should be modeled.
+| KC, JG, RV
+| August 1
+| BP: The branch terms are in good shape regarding metadata (definitions and examples). Blockers right now are mismatches and duplications between other branches and this, including instruments, roles, objectives, relations, biomaterial. Use cases that cross branches have to be applied and need to show that there is no (or little) ambiguity how they should be modeled. [http://docs.google.com/Doc?docid=dpzgxm6_5fwtdc6f9&hl=en Description of the branch in its current state and remaining issues]
 
 editors sign off:
 review sign off:
