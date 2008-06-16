@@ -1,106 +1,178 @@
 ==Biomaterial Conference Calls==
 
+=== June 13th 2008 ===
+
+1. moving person under eukaryote<br>
+
+ all agree - AI for PRS<br>
+2. xenograft as role<br>
+ is a role borne by a tissue which has been transplanted<br>
+ pb (BP): refers to thing in the past<br>
+ cut a branch of tree and put it on new tree<br>
+
+ xenograft is coming from 1st PA: taking sample<br>
+ when put on new tree<br>
+ plays its role xenograft in new process = growing on tree<br>
+ pb of "history" of PA<br>
+
+ can we use is preceded by?<br>
+<br>
+
+big problem - digested material<br>
+can not say what it is without saying where it comes from<br>
+and no longer plays the role<br>
+e.g. digested enolase is not anymore an enolase (no function, structure)<br>
+
+digested_enolas is derived from enolase and output of digestion<br>
+defined class in biom?<br>
+<br>
+digested is a role played by the output of a digestion protocol<br>
+role is defined during process<br>
+when process finished<br>
+
+role ends<br>
+AI for BP to contact BFO and ask about "states" (whatever the name)<br>
+<br>
+cf http://groups.google.com/group/bfo-discuss/browse_thread/thread/822b421c64a804a1<br>
+e.g. irradiated, digested<br>
+
+state related to process<br>
+process leads to that state<br>
+irradiation process induces state "irradiated"<br>
+material is state of dependent continuant  (e.g. material is irradiated)<br>
+
+<br>
+biomaterial<br>
+
+- legacy from mage<br>
+- everything related to biological stuff<br>
+- play with defined class<br>
+but now is it really helpful?<br>
+unless more constrained, no added value compared to being a material<br>
+<br>
+
+agreement on removing it - to be approved by others though<br>
+<br>
+proposed: send email to biomaterial branch with notes (AI for MC)<br>
+saying we want to remove biomaterial<br>
+if everybody ok<br>
+we send to obi-dev mentionning it doesn't change what we have which are material entities<br>
+
+<br>
+current: biom as sample or reagents<br>
+<br>
+sample is_a material that has_role sample_role<br>
+<br>
+sample is material that realizes role sample_role<br>
+enolase plays role sample_role<br>
+
+sample container, contains sample<br>
+reagent is material that has_role reagent role<br>
+sample seems to be useless like that - better example with reagent<br>
+
 === May 30th 2008 ===
 
 Summary of AI:<br>
-
 AI for JM: move physical_document from therest.owl <br>
 AI for JM: Subclassing of defined classes for dev call<br>
+
 AI for AR: check deprecation of properties<br>
 AI for BP: how to link is manufactured by and output of PA together<br>
 AI: JM to contact AR and ask him to look at biomat and consider the stance of subclassing under defined classes<br><br>
 
 
 
+
 PRS: chromium51 will be in chebi
 <br>
+
 few issues mentioned with protege -<br>
 AI for JM: move physical_document from therest.owl <br>
 e.g. book manufactured by X has_fction communication<br>
 
 <br>
-
 Subclassing of defined classes<br>
 to be push to dev call?<br>
+
 AI for JM who is charing next dev call (added to the agenda <br>https://wiki.cbil.upenn.edu/obiwiki/index.php/ConferenceCallAgenda#June_2008)
 <br>
 - is_manufactured_by = is output of material transformation<br>
 material transformation covers building instruments etc...(= assembling sthg with an objective)<br>
-
 <br>
 so obsolete is_manufactured_by<br>
 (we have to check deprecation of properties)<br>
+
 Note from MC: cf deprecation policy at http://docs.google.com/Doc?docid=dzprnmw_20cdv87mdw&hl=en, this is already an AI for AR<br>
 <br>
 is manufactured by person = originator of material transfo process<br>
-
 we need relation is manufactured by, role manufacturer<br>
 under manufacturer role can be borne by person and organization<br>
 manufacturer role could be subclassed<br>
+
 we need to link is manufactured by and output of PA together (AI for BP to check on that?)<br>
 <br>
 
 EOO:<br>
-
 is output of PA (should be mat transfo)<br>
 cell of org origin: is output of PA so not part of organism, need to say why this restriction on cell<br>
 Cell of Org Origin: def unclear<br>
+
 <br>
 pb: classes shouldn't be asserted under EOO<br>
 should be moved out, restrictions applied<br>
-
 EOO should be output of mat transfo that has input organism<br>
 (we know there are problems with derives_from and the fact of retaining a significant portion of the input, e.g. kill cow to get grass, has input cow output grass but except weird cases should be ok)<br>
 <br>
 OBSOLETE: curation status deprecated is a beautiful idea with script moving stuff<br>
+
 too painful via protege<br>
 <br>
 General ideas: we have building blocks and people are picking in there to build what they need<br>
-
 e.g. B cell in liver of mouse: I take B cell, liver and mouse in biom and mix and match<br>
 
 <br>
 Agreed: keep on hold modifications to BM branch<br>
+
 go on discussing<br>
 then implement if solved with instrument branch<br>
 <br>
-
 AI: JM to contact AR and ask him to look at biomat and consider the stance of subclassing under defined classes<br>
 
 
 
 === May 23rd 2008 ===
 1. MIREOT <br>
+
 Attendees of the call (BP, PRS, MC) are happy with the current shape of the document at <br>http://docs.google.com/Doc?docid=dzprnmw_24cp3693dd&hl=en<br>
 We propose to send it out to obi-dev for general review by others.<br>
-
 If you have any objection to that please express it now. If none, I will forward the document on Monday to the obi-dev mailing list.<br>
 <br>
 2. Discussion on primary hierarchy of the branch<br>
+
 <br>
 http://groups.google.com/group/obi-developer/browse_thread/thread/ff7361bbbad1c3d1<br>
 
 origin/structure/function<br>
-
 any class under material MUST have at least one of those<br>
 either by asserted hierarchy or addition of restriction<br>
 
 <br>
+
 -> potential pb for imports<br>
 we can only import is_a hierarchy, so if chebi has a class by structure and has function we can keep only one<br>
-
 <br>
 
 BP: import organism hierarchy form ncbi, all of those imports will be organism, wouldn't feel the need to go into more details (maybe unicell vs multicell but not compulsory)<br>
 <br>
 PBS discussion<br>
+
 reagent is a role, PBS is under material entity, (all agree)<br>
 is_output_ of preparing buffer (material pooling)<br>
-
 has_role buffer role<br>
 <br>
 We have been discussing mostly about going along the 3 potential axis, origin/structure/function, and we always into one small thing that is unclear for one of us.<br>
 Bjoern has a clear plan to reorganize the hierarchy, and he proposed to implement it in owl using the SVN branch mechanism for next week.<br>
+
 This will help us see more clearly how to organize our branch.<br>
 There was a general feeling that the sub branches (e.g. children of anatomical entity) were approximately ok, so the major reorganization would happen at the top levels.<br>
 
@@ -130,11 +202,11 @@ organism-strain?<br>
 
 Use case: C57BL6, hybrid Mus sprettus and Mus musculus, which are
 disjoint classes<br>
+
 2 possibilities:<br>
 - BL6 is subclass of the union of Mus sprettus and Mus musculus (=
 union of the 2 types represents the hybrid (not created as class
 though))<br>
-
 - BL6 is subclass from Mus the parent and related to Mus sprettus and
 Mus musculus via other relation ("evolved from") (= BL6 asserted as a
 type of the proximal parent and other relation to relate)<br>
@@ -145,15 +217,14 @@ KO mouse: still type of the background organism, not a new strain<br>
 
 birnlex: annotation property saying taxon_rank and point to instance
 of enumerated class to say if strain, cultivar etc....<br>
-
 ncbi has list of taxon ranks, that could be combined with jax.<br>
 
 BB might break up from his file so that we could re use it.<br>
 
 AI for next week:<br>
 AI: MC to check with BP if he seems ok<br>
-AI: depending on BP, finalize taxonomy doc, circulate to obi-dev<br>
 
+AI: depending on BP, finalize taxonomy doc, circulate to obi-dev<br>
 AI: AR modifies its script to include annotations like "<has_rank
 rdf:resource="http://purl.org/obo/owl/
 NCBITaxon#NCBITaxon_superkingdom"/>"<br>
@@ -171,6 +242,7 @@ need for specification in any case, e.g. we do something different for
 taxonomy and cell import<br>
 focus: get specification done,  check for publication on that, maybe
 including protege<br>
+
 will focus on the mechanics of the process<br>
 
 using external classes doesn't endorse the external ontology (note
@@ -179,6 +251,7 @@ form taxonomy discussion): other ontologies have bugs etc...<br>
 AI for next week:<br>
 MC: write spec (to be reviewed by all though :-) )<br>
 JM: contact Manchester<br>
+
 AR: contact coord<br>
 
 4. JM creates defined class EOO (entity of organismal origin) - AR
