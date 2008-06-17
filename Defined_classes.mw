@@ -29,6 +29,8 @@ This page is a draft for discussion.
 
 * Any class that is not a defined class is intended to be a universal.
 
+[DS: Can anybody provide an example for such a universal that can not be modeled as a defined class using more granular atoms? I think any class can be made a defined class, the question is when can we/the user/the reasoner profit from this...]
+
 * Defined classes should have a single expression indicating the necessary and sufficient conditions and should have no additional necessary conditions.
 
 * In visual ontology editors such as protege, one must define a class as a subclass of some existing class. Tools may not have appropriate support for the visual organization of defined classes, and may partially evaluate the consequences of the logical definition when placing the term in the class hierarchy. As an initial practice, we will add terms that naturally fall under a branch to be a subclass of the branch top level, and those that do not as a subclass of Entity.
