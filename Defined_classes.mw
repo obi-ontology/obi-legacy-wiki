@@ -23,7 +23,7 @@ This page is a draft for discussion.
 
 * The definition of a defined classes does not necessarily follow the usual Aristotelian definition form, but should when appropriate. The definition should indicate that the class is defined. Proposal: wording such as "Individuals in the class foo are defined to be ...". 
 
-[DS: Such definition should state which conditions (relations+class values) are part of its essential properties. Its Genus is stated explicitly as well (see naming conventions). So ideally the new (inferred) Geni (is that correct Latin plural?) can but do not need to be ststed completely.
+[DS: Such definition should state which conditions (relations+class values) are part of its essential properties. Its Genus is stated explicitly as well (see naming conventions). So the question is whether all the new (inferred) Geni (is that correct Latin plural?) need to be stated explicitly in the definition].
 
 * All defined classes have logical definitions. (Pierre notes issue with defined classes that it might be hard to write logical definitions. To be resolved, see email thread)
 
