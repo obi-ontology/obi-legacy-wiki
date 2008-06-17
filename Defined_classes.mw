@@ -1,9 +1,11 @@
 At the 2007 summer workshop it was decided to allow defined classes in OBI, for two principal reasons
 
-# To allow the definitions of terms that were in use by the community but were not "universals" as determined by the group.
+# To allow the definitions of terms that were in use by the community but were not "universals" as determined by the group.[DS: state the examples]
 # To facilitate organization of OBI as a single asserted hierarchy while allowing for polyhierarchy where appropriate.
 
 The first case is the stronger. The second (need for polyhierarchy) needs further justification in the form of plausible use cases and should be reviewed once we have some.
+
+[DS: E.g. do most biologist expect to find a 'LC-MS assay' as well under 'LC assay' as under 'MS assay', or do they want to find it assigned under 'MS assay' only, the one that controlled the output data to a greater degree?]
 
 An action item was to come up with a mechanism of handling these defined classes in day to day development of the ontology - where to put them, how to mark them, what are policies related to them?
 
@@ -16,6 +18,8 @@ This page is a draft for discussion.
 * All defined classes are classes which have necessary and sufficient conditions - In an OWL file, this means that they are "complete" or are defined by an equivalentClasses statement. 
 
 * It is uncertain whether the converse is true, that all classes with neccessary and sufficient conditions are defined classes. Therefore defined classes should be marked as such. Absent a way to create a metaclass in OWL, we will use an annotation property: obi:class_type asserted on defined classes  with values: possible values: "defined_term" "defined_for_normalization", or "universal" to indicate the two choices above, or the usual case. To avoid having people to remember to add class_type:universal in the common case we will have a script add this property to all classes that don't already have a class_type property value. Additional comments regarding the choice to use a defined class should be placed in the editor note. All other metadata for a class is relevent for defined classes.
+
+[DS: I dont think such an indication is necessary. In the Editors Protege and OBO Edit defined classes are marked as such. I think adding a 'defined_class' metadata tag is not necessary, redundant and will only contribute to overcomplicate development and decrease user acceptance.]
 
 * The definition of a defined classes does not necessarily follow the usual Aristotelian definition form, but should when appropriate. The definition should indicate that the class is defined. Proposal: wording such as "Individuals in the class foo are defined to be ...". 
 
