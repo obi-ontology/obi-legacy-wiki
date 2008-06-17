@@ -35,7 +35,9 @@ Issues to be tackled by the instruments branch in the near future can be found h
 ** physical arrays are utilized by most communities in some way. It might make sense to separate the features of such arrays into terms, in order to have just a few descriptors that would cover any (?) kind of arrays e.g. from Petri dish to oligo or protein chip. [[http://www.smp-cell.org/Files/Arrays.xls List of possible terms]]
 
 ===Master Term Lists===
-*The Master term list can be found here:
+
+*The latest set of terms can be found in the InstrumentAndPart.owl file under the OBI SVN repository.
+*The initial mster term list can be found here:
 http://spreadsheets.google.com/feeds/list/o09625430083521070159.5666294627741813298/od6/public/basic
 *A Google spreadsheet with the submitted terms for the instrument branch can be found here:
 http://spreadsheets.google.com/pub?key=pT8ShyqlllIUySkFP8biiTg
