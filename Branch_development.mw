@@ -43,37 +43,46 @@ Links to the latest list of terms for each branch can be found in the table belo
 
 {| border="1"
 |+ Latest Branch Terms
-! Branch !! Term List File 
+! Branch !! Term List File !! HTML browser
 |-
 | Biomaterial
 | [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Biomaterial.owl?view=log link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/803226298/?session=11a9bd7533f-22-11a9bd82981 HTML]
 |-
 | Data Transformation
 | [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/DataTransformation.owl?view=log link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/-1749715526/?session=11a9bd7533f-22-11a9bd82981 HTML]
 |-
 | DENRIE
 | [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/DigitalEntityPlus.owl?view=log link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/-199456832/?session=11a9bd7533f-22-11a9bd82981 HTML]
 |-
 | Function
 | [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/OBI-Function.owl link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/1276538141/?session=11a9bd7533f-22-11a9bd82981 HTML]
 |-
 | Instrument
 | [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/InstrumentAndPart.owl?view=log link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/1868151930/?session=11a9bd7533f-22-11a9bd82981 HTML]
 |-
 | Plan and Planned Process (formally plan and protocol application)
 | [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/PlanAndPlannedProcess.owl?view=log link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/-1018161278/?session=11a9bd7533f-22-11a9bd82981 Process] [http://owl.cs.manchester.ac.uk/browser/classes/-204391659/?session=11a9bd7533f-22-11a9bd82981 Plan]
 |-
 | Protocol Application
 | See above
 |-
 | Qualities
 | [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Quality.owl link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/-561356810/?session=11a9bd7533f-22-11a9bd82981 HTML]
 |-
 | Relations
 | [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Relations.owl link here]
+| [http://owl.cs.manchester.ac.uk/browser/objectproperties/?session=11a9bd7533f-22-11a9bd82981 ObjectProperties] [http://owl.cs.manchester.ac.uk/browser/dataproperties/ DataProperties]
 |-
 | Role
 | [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Role.owl link here]
+| [http://owl.cs.manchester.ac.uk/browser/classes/262589439/?session=11a9bd7533f-22-11a9bd82981 HTML]
 |}
 
 <br>
