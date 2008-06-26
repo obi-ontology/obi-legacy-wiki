@@ -9,19 +9,19 @@ See the [[ObiBranches|branch outline]] for details on the branch development pla
 
 <br>
 
-==List of OBI Branches==
+==List of OBI Branches and Branch Reports==
 The branches within OBI correspond to areas of interest to biomedical investigation.  These development branches are constituents of the OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The branches are as follows: <br>
 
-* [[BiomaterialTermNeeds |Biomaterial]] (lead editors: Susanna Sansone and Melanie Courtot)
-* [[DataTransformation |Data Transformation]] (Tina Boussard and James Malone)
-* [[DigitalEntityTerms |Digitial Entity and Non-realizable Information Entity (DENRIE)]] (Chris Stoeckert)
-* [[FunctionTerms |Function]] (Bill Bug)
-* [[InstrumentTerms |Instrument]] (Daniel Schober)
-* [[PlanBranch |Plan (investigation design - protocol)]] (Philippe Rocca-Serra)
-* [[ProtocolApplicationBranch |Protocol Application]] (Bjoern Peters)
-* [[QualitiesBranch |Qualities]] (Chris Mungall)
-* [[RoleTerms |Role]] (Jennifer Fostel)
-* [[ListOfRelationships |Relations]] (Liju Fan)
+* [[BiomaterialTermNeeds |Biomaterial]] (lead editors: Susanna Sansone and Melanie Courtot), latest Report on: 
+* [[DataTransformation |Data Transformation]] (Tina Boussard and James Malone), latest Report on: http://docs.google.com/Doc?id=dm9czrk_5dcn65ffw
+* [[DigitalEntityTerms |Digitial Entity and Non-realizable Information Entity (DENRIE)]] (Chris Stoeckert), latest Report on: http://docs.google.com/Doc?id=dzprnmw_40fgg4ksf9
+* [[FunctionTerms |Function]] (Bill Bug), latest Report on:
+* [[InstrumentTerms |Instrument]] (Daniel Schober), latest Report on: http://docs.google.com/Doc?id=dg9kgrmp_2f447dkgf
+* [[PlanBranch |Plan (investigation design - protocol)]] (Philippe Rocca-Serra), latest Report on:
+* [[ProtocolApplicationBranch |Protocol Application]] (Bjoern Peters), latest Report on:
+* [[QualitiesBranch |Qualities]] (Chris Mungall), latest Report on: http://docs.google.com/Doc?id=dzprnmw_42f9mk6vdn
+* [[RoleTerms |Role]] (Jennifer Fostel), latest Report on:
+* [[ListOfRelationships |Relations]] (Liju Fan), latest Report on:
 
 Each branch is assigned a group of editors which are responsible for the design and development of the terms, structure and hierarchy.  Mailing lists, weekly conference calls and regular face-to-face meetings are used to progress the development of each branch in a collaborative and cooperative manner.  An introduction to OBI can be found [http://obi.sourceforge.net/ here at the SourceForge website ]
 <br>
