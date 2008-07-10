@@ -1,0 +1,193 @@
+==OBI workshop - July 7th-11th, EBI, Cambridge, UK==
+
+This OBI workshop is hosted by the European Bioinformatics Institute (EBI) and set to bring together the Coordinators and the Core Developers. 
+
+This workshop is held back-to-back with the [http://www.obofoundry.org/wiki/index.php/OBO_Foundry_Workshop_2008 OBO Foundry workshop].
+
+'''Organizers''':
+* Philippe Rocca-Serra
+* Susanna-Assunta Sansone
+
+
+==Logistics==
+
+'''EBI meeting rooms:''' 
+:Wednesday: room C209/10 (Sanger building)
+:Thursday, room A2-33 (EBI building)
+:Friday: room C209/10 (Sanger building)
+               
+'''Travel directions to EBI and (partly) sponsored accommodation:''' 
+:Refer to the [http://www.obofoundry.org/wiki/index.php/OBO_Foundry_Workshop_2008 OBO Foundry workshop page] for information.
+
+'''Sponsored transportation:''' 
+:The EBI is approximately 20 minutes from central Cambridge by car. Public transport is infrequent and unreliable which is why we shall be providing transportation from/to the accommodation at Homerton College (right outside the entrance, in visitor parking area) and EBI for the entire duration of the OBI workshop. Please, refer to the workshop agenda for the organized transportation times
+
+'''Sponsored Food:''' 
+:Note that only lunch vouchers will be provided and can be redeemed to the onsite restaurant facilities (Murray's or Dina).
+
+== Notes ==
+
+Initial set of [https://wiki.cbil.upenn.edu/obiwiki/index.php/Summer2008Workshop/notes notes and presentations] are available.
+
+==Agenda==
+'' Few topics to be discussed, but do not have place in the agenda''
+* Information Artifact Ontology presentation by Alan
+* Vaccine investigation community
+:: They have decided to postpone their NIH R01 grant resubmission to Nov 5th. So if the OBI coord group agrees to provide a Letter of Support for our Vaccine Ontology development, they can wait until Oct 08
+* how do we deal with time (e.g. time series analysis) -> Note that the issue might have been addressed during the OBO meeting /BFO session (another BFO related discussion is Can role be born by dependent continuants?
+* Tools to visualize toplevel classes connected through relation (OwlViz, Jambalaya, External tools?, ...): Get a holistic network based view on main OBI-upper level structure: Show how branches 'hub-nodes' protocol, protocol application, device, (function), data transformation, role, biomaterial are related to each other.
+
+
+=== Wednesday, July 9th, 2008 ===
+''8.15 Transport from Homerton College to EBI''
+:''NOTE: Since on that morning a parallel ChEBI meeting (EBI Hall View Room), attended by ChEBI group plus Michael, Suzi, Alan, Barry and Chris M is taking place, we propose to start the OBI meeting with the following topic''
+
+''' 9.00 - 10.30 Session 1:'''
+
+'''' Report/Update on OBO Foundry Meeting: 30 minutes -> cover BFO related discussion relevant to OBI work ''''
+
+'''' How to enhance and promote cross-branch work ''''
+:E.g.: 
+::Function/Instrument case study
+::Process & Biomaterial & Instrument & Quality
+::Potentially: Data Transformation & Denrie & Quality
+
+'' 10.30 - 11.00 Break - get your own coffee/tea at the bar'' 
+
+''' 11.00 - 12.00 Session 2: Review of [https://wiki.cbil.upenn.edu/obiwiki/index.php/Milestones milestones and actions]'''
+
+''12.00 - 13.00 Lunch at canteen on the Campus - sponsored vouchers''
+
+'''13.00 - 14.00 Session 3: Summary of ChEBI discussion and outcomes of session 1'''
+
+'''14.00 - 16.00 Session 4: Problem/Issues reported by OBI-Branches'''
+
+'''' Independent Continuant Axis ''''
+:Biomaterial: Coverage (e.g. what do we import from other ontologies?), navigation/link to other resources, complex biomaterial entities (e.g. how do we deal with chemical mixtures, complex/composed materials)
+:Instrument: Need resolution of Function + Distinguish between device and instrument
+
+''''Occurent Axis''''
+:ProtocolApplication: Needs resolution of Objective + Refinement of Plan definition. issues with Algorithm
+:DataTransformation: Needs resolution of 'Objective' discussion + resolution on 'Feature' in BFO space (in order for instance to specify log base for a log transformation).
+
+''''Dependent Continuant Axis''''
+:Role: Quality/Historical Role ->related to timeline and time issue
+:Denrie: 
+::Is specification a realizable entity or not: current view is that these are realizable
+::Proposal for Objective and Conclusion
+:Function: Need Resolution on Modeling issue -> go over use cases and options
+
+''''Relation:''''
+: Need to discuss submission from DENRIE (information "about" something (and "encodes" relation)) and from Quality/PA (quality results_from process with reverse relation process confers quality)
+
+'' 16.00 - 16.30 Break - get your own coffee/tea at the bar'' 
+
+'''16.30 - 17.45 Session 4 (continued): Problem/Issues as reported by OBI-Branches'''
+
+''17.45 Transport from EBI to Homerton College''
+
+
+=== Thursday, July 10th, 2008 ===
+
+''8.15 Transport from Homerton College to EBI''
+
+''' 9.00 - 10.30 Session 6: Planning the evaluation phase'''
+:Who plans to test/use OBI v1.0 release in the next 6 months and how?
+::E.g. use of OBI in [http://symba.sourceforge.net/ Symba] database by Allyson
+:How can we use these applications for the evaluation phase?
+:Or do we need coordinate or even design evaluations projects for [https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions each use case identified]?
+
+:Recrute External people: Ted Leftfield (GenePattern, already interacting with DT-branch), Possibly others.
+
+:Involve Publishers/Journal Editors: 'Nature Ontologies?'
+
+'' 10.30 - 11.00 Break - get your own coffee/tea at the bar'' 
+
+''' 11.00 - 12.00 Session 7: Extending OBI and plans for other releases'''
+:Possible strategies to discuss
+::New rounds of term collection
+::Review OBO foundry ontologies to collect Instruments, protocol application, data transformations...
+::Involve Vendor and provide guidelines for OBIfication of catalogues (starting with instruments/devices)
+::Evaluate term enrichment techniques
+
+''12.00 - 13.00 Lunch at canteen on the Campus - sponsored vouchers''
+
+'''13.00 - 15.30 Session 8: Plan for manuscript(s)''' 
+:Publication planning - framework and assignment of writing 
+:What are the required criteria to decide that we are ready for release 1.0/publication
+:Should we have one main piece and several technical papers? 
+::These can be both the [https://wiki.cbil.upenn.edu/obiwiki/index.php/Milestones technical (working practice) documents] - authored by the relevant OBI contributors- and application project done by individual partecipants only
+::These could potentially be put together as a special issue
+
+'' 15.30 - 16.00 Break - get your own coffee/tea at the bar'' 
+
+'''16.00 - 17.45 Session 9: Fundings + Preparing for the Next OBI Meeting'''
+: proposed location for the winter meeting 2009: MIT, Boston, date: End of January/Early February
+: proposed location for the summer meeting 2009: EBI, Cambridge, date: Early July
+
+''17.45 Transport from EBI to Homerton College''
+
+
+=== Friday, July 11th, 2008 ===
+
+''8.15 Transport from Homerton College to EBI''
+
+''' 9.00 - 10.30 Session 10a: Tools '''
+:Current practices
+::Protege good practices: get everyone up to speed
+::Use of SVN branches for evaluation: dropping OBI auto id plugins; automatic creation of definition for a number of qualities/historical roles
+: Protégé +SVN vs Collaborative Protégé:
+::Daniel review and Alan's comment
+
+'' 10.30 - 11.00 Break - get your own coffee/tea at the bar'' 
+
+''' 11.00 - 12.00 Session 10b: Tools '''
+:Feature requests 
+::batch loader for quick terms ?
+::batch loader for defined classes ?
+::batch loader capable of setting all restrictions ?
+::automatic release- report creation –notification/reminder
+::term tracking/submission tracking
+
+''12.00 - 13.00  Lunch at canteen on the Campus - sponsored vouchers''
+
+'''''Who is still here????'''''
+
+''17.45 Transport from EBI to Homerton College''
+
+== Confirmed delegates ==
+
+
+1. Tina	        Boussard  
+
+2. Melanie	Courtot
+
+3. Frank	Gibson
+
+4. Suzanna	Lewis
+
+5. Allyson	Lister 
+
+6. James	Malone
+
+7. Luisa        Montecchi
+
+8. Norman	Morrison
+
+9. Helen	Parkinson
+
+10. Bjoern	Peters 
+
+11. Philippe    Rocca-Serra 
+
+12. Alan	Ruttenberg
+
+13. Susanna-Assunta	Sansone
+
+14. Richard H.  Scheuermann
+
+15. Daniel	Schober
+
+16. Barry	Smith
+
+17. Christian Stoeckert
