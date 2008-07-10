@@ -20,7 +20,7 @@ Can be found there [[PastActionItems]]
 |-
 | OBI [|OBI-Minimal [https://wiki.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata Metadata]
 | DS
-| DS, AR, BB, GF, SAS, AL
+| DS, AR, GF, SAS, AL
 | Complete
 | Link to [http://docs.google.com/Doc?docid=dg9kgrmp_0kb9g38dc&hl=en google document] 
 |-
@@ -38,13 +38,13 @@ Can be found there [[PastActionItems]]
 |-
 | OBI documentation of development lifecycle [http://docs.google.com/Doc?docid=dzprnmw_2fhdrq9dh&hl=en here]
 | JM, MC
-| JM, DS, BB, AR, MC, FG
+| JM, DS, AR, MC, FG
 | Describing the development process that was undertake to produce OBI, e.g. branches
 | 
 |-
 | User Documentation (i.e. how to use OBI)
 | JM, MC
-| JM, DS, BB, AR, MC
+| JM, DS, AR, MC
 | 
 | A how to use OBI document. 
 |-
@@ -56,7 +56,7 @@ Can be found there [[PastActionItems]]
 |-
 | Creation of IAO
 | AR
-| 
+| AR, BS
 |  
 | 
 |-
