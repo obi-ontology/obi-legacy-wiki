@@ -56,7 +56,7 @@ Can be found there [[PastActionItems]]
 |-
 | Biomaterial sign off [https://wiki.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds here]
 | SAS, MC
-|PRS, BP, AR, JM
+| PRS, BP, AR, JM
 | 
 | editors sign off: PRS: Branch reorganization by BP and PRS, Branch report being written (PRS) and clarification on branch interactions (cf Protocol application). discussion / blocker relate to assignement of qualities/roles (under 'exploration' in 2 branches on svn bpbranch and prsbranch (for quality + use of restrictions on pa for defining output and input)
 review sign off:
@@ -69,7 +69,7 @@ final sign off:
 | TB, JM
 |
 | End of June 2008
-| editors sign off: JM: The branch is in good shape, 95% terms metadata complete and we are beginning to tackle remaining unclassified items now.  Further, we have begun use case evaluation.
+| editors sign off: JM: The branch is in good shape, all terms metadata complete and we are beginning to tackle remaining unclassified items now.  Further, we have begun use case evaluation.
 review sign off:
 
 advisors sign off:
