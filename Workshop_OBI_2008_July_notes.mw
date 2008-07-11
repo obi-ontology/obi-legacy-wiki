@@ -1,0 +1,259 @@
+=== Summary notes and ACTIONS ===
+
+==== Wednesday 9th, Thursday 10, Friday 11th, July, 08 ====
+
+''This is still a draft to be reviewed and edited by workshop's participants in the coming days''
+
+
+ '''1. ChEBI discussion - outcome'''
+
+* Planned changes for ChEBI ontology
+:It is probably that a distiction will be made between ChEBI (database) and a Chemical Ontology. The latter will be split into: molecular, ensamble and role sub-ontologies. 
+:Foundry rules will be followed, e.g. single inheritance will also be followed, use of defined classes.
+::Changes on the ontology will impact the ChEBI database content; ChEBI team reckons that this could be a heavy job, but apparently they are willing to make these changes.
+
+ '''2. Branch interactions and use cases'''
+
+* We agreed that we need to focus on use cases and see if OBI is fit for purpose
+:Some branches have still some work to do (e.g. term curation), so we leave to each branch to decide if continuing to hold their weekly calls
+:'''ACTION for All''' Use cases run - agreed plan and timelines
+::-> Use case 1= We will use [https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions Richard's use case] and focus on assay that brings toghether many branches. As first step we will review Richard's competency questions and see if OBI (in it current version) can answer them: does OBI have the right coverage (are terms we need present); are they correctly classified; do the right relation exists etc...
+:::-> We will hold 2 calls per week 'use case dev calls', using dev (wed) and biomaterial (frid) slots (if more are needed we can use protocol application on thur). James has already added these to the OBI calendar.
+:::-> We start on wed July 30; and the next few dev calls will be used to recap what has happened at these workshops
+:::-> The outcome of this test will be document as: 1) spreadsheet as google doc, 2) textual description as google doc, 3) a computationally readable format (RDF triple stores and SPARQL queries)
+::->Use case 2= in parallel the transcriptomics community will work to map MGED Ontology to OBI, to check coverage and compatibility. We feel this is a  more technical tasks that a subgroup can do in parallel.
+
+* There are 4 type of main use cases
+:LIMS style, e.g. where each step in the protocol are described in details
+:DB style, e.g. where type of protocols are only described
+:Tag text/paper with ontology (manual)
+:Text mining (automatic)
+:Map to existing ontology in the 'same' domain that ultimately will be replaced with OBI (e.g. MGED Ontology)
+::Ultimately we will need to run one or more for each category; but as a start we will focus on the second one (Richard's use case fells in this category).
+
+ '''3. Election of the OBI Foundry Associated Editor'''
+
+* Bjoern and Ryan volunteered for this role: we agreed to finalize the choise at the workshop
+:Following anonymous vote (11 out of 14 voting Coord members, excluding R and B, were present) Bjoern has been elected with majority. 
+::'''ACTION''' the decision will be (formally) communicate to the Foundry Coordinators
+::Bjoern's duties and responsabolities as the OBI Foundry Associated Editor are desribed in the [http://obo-discuss.googlegroups.com/web/OBO%20policies%20v9.doc?gda=lp9nJkQAAAAkcBeUg2J5ZA2_6CxCuU3lRB-2zU2C7MpxOB1dEhhC2WG1qiJ7UbTIup-M2XPURDQ-ObQmmYrINxfDdtqSOmw8Mrcs8iXmqFOLtoR1C5reIg OBO Foundry policy document]
+::We also discussed how the OBI associated editor will be represented in publication by the Foundry: there is a possiblity the 'OBI Consortium' can be the author; decision is up to the ontology custodians
+
+ '''4. Other communities and general communication process'''
+
+* How do we improve communication with interested communities?
+:Expression on interest submitted by vaccine community; use cases, description and list of 50 top terms have been submitted
+::'''ACTION Bjoern and Richard''' will discuss with this community and evaluate the level of time/mapower they are willing to invest to work on OBI
+:Currently we have communities which dedicate time/mapower to OBI development, and others that are waiting for a (final) product to be tested/used. It is also important to mantain the buy-in of these communities and keep them informed as major progresses occur. Even if registered on dev list, the high volume there does not allow to distinguish those major progresses.
+:: '''ACTION James and Melanie''' will add description to the OBI users list and send a message to the dev list, inviting those communities to register.  
+
+* Active outreach 
+:We agree that we need to outreach other communities, but the question is when? 
+::Do we have enough to show to them and get their buy-in? And if they are willing to volunteer time, do we have time to dedicate to bring them up to speed with the development?
+::We need to re-educate a new group to get more manpower, if they are willing to volunteer dev time
+::'''ACTION Philippe''' email the dev list and put a note on the web to sollicit expression of interests
+
+* Find BIRN representative 
+:'''ACTION for Chris''' will contact Mary Martone and Jeff Grethe
+
+ '''5. DENRIE branch issues' report'''
+
+[https://wiki.cbil.upenn.edu/obiwiki/images/3/33/DENRIEforOBIWorkshop.ppt Chris S;s presentation]
+* The current OBI trunk release does not reflect the latest stage of the branch discussion, which propose few resolutions, see list in Chris' slides 5 and 7. These should be part of the Information Artifact Ontology (IAO)
+:'''ACTION for IAO editors''' create necessary types to be later imported in OBI DENRIE branch.
+:'''ACTION for IAO editors''' submit 'is_measurement_of' (critical to assay and protocol application) and 'is_rendered_by' and 'is_rendering_of' to RO, provinding definitions, ranges and domains.
+:'''ACTION for IAO editors''' is to release thes asap 
+
+* Where do terms like XML, RDF, zip go?
+:XML are call of data format specification, and MAGE-ML v1 spec is an instance of MAGE-ML? Is this the spec or the the content of the file etc; also note that not all versions are backward compatibles and so cannot be necessary subclassed.
+:'''ACTION for Chris''' collect data file formats from All/OBI and send to Alan or by filling the [http://spreadsheets.google.com/viewform?key=pOLnugNsGv-bLqaRooZPETQ&email=true IAO term request form]
+:'''ACTION for Alan''' ultimately include this in IAO
+
+* What is an ID, where does it live?
+:E.g. a serial number of a car; an ID is an dependent continuant so we need to keep track of these...'''!UNRESOLVED!'''
+
+* Objective replaced with 'objective specification' 
+:'''ACTION for Bjoern and Philippe''' manage its children terms that will be in the plan/protocol application branch.
+
+ '''6. Instrument branch issues's report'''
+
+[https://wiki.cbil.upenn.edu/obiwiki/images/8/87/OBI_Instrument_Schober09July.ppt Daniel;s presentation]
+* Difference between instrument and device need to be defined
+:We need to fully characterize the instrument or device, what function this entity can realize canonically. The problem is that the Function branch activity is on hold.
+:'''ACTION for Bjoern, Philippe, Daniel''' take over the Function branch.
+:'''ACTION Daniel''' solution worked out today by setting restrictions on devices towards organization entity and defined class manufacturer; the same approach need to be applied to qualify device and instrument with a function.
+
+* Instance or class: do we need to add HG_U133A array?
+:We agreed not to become a catalogue of instruments or devices, but to deal with upon request and create an external file of instances. However to deal with this we need to resolve the issue of serial number, batch number (see DENRIE branch report, slides 6, 7).
+:'''ACTION for IEO editors''' address these pending issues and notify OBI DENRIE and Instrument branches.
+
+ '''7. Role branch issues's report'''
+
+* [https://wiki.cbil.upenn.edu/obiwiki/images/4/47/RoleBranchforOBIWorkshop.ppt Jennifer/Richard's presentation]
+:- Cross check needed between roles in role branch and use in protocol application
+::The hierachy of roles - created by the role branch- and the one created by protocol application do not match.......'''!UNRESOLVED!'''
+::In protocol application the objective is the primary differentia.... ''to be continued''
+::'''ACTION for Bjoern, Philippe and Jennifer'' .... ''to be defined''
+:-Organization conflate with space: we need to map 'trial site' from CDISC refers to both the physical space and the organization. Trial site should be a child of BFO site, but this latter definition need to be changed
+::'''ACTION for Barry''' BFO allow to specify a location for a process by means of the partecipation relation -> the range of the location is currently geographicak only, but it needs to be extended to include organization/physical location too.
+:- [http://sourceforge.net/tracker/index.php?func=detail&aid=1799728&group_id=177891&atid=886178 Manufacturer role] track item
+::'''ACTION done''' we have created a defined class, added definition, changed range 'is_manufactured_by' to manufacturer and domain to device.
+
+ '''8. Other issues'''
+
+Philippe's presentation ''to_be_added''
+* [http://sourceforge.net/tracker/index.php?func=detail&aid=2001127&group_id=76834&atid=947684 Conferred qualities] track item
+:See agreed solution to this in 'Issue with role in BFO' section below.
+
+* Digital document cannot bear qualities
+:Can an electronic record be affected by a process? E.g. process = curation_has_output (some e-record and has quality curated). Is this quality land or information land? The latter, as is the record's contect is curated not the record. 
+:'''ACTION for Barry/Alan''' modify '''BFO''' so that quality of information content, and continuans can acquire qualities as result of a process and then loose it.
+
+* Term 'amputated' is a role? 
+:BFO defines it as: a realizable entity whose manifestation brings about some results or and that is not typical of its bearer in virtue of the latter's physical structure'. Barry says role are 'optional': the process of amputation was optional (before occurring), but once it happens it is not longer 'optional', meaning it cannot be undone. The bearer or player of the role does not have to be the the bearer or player: its physical nature does not force it to be.
+::'''ACTION for Barry''' to refine '''BFO''' definition of role and add a new quality.
+
+* Measurement and assay from protocol application
+:Measurement of a quality -> how to record the datum of the weight of a mouse? If I weight a mouse with a device, and the result recorded (value: 0.12; unit: kg; dimention: mass), this datum 'is_measurament_of' weight quality (determinate)
+::According to Alan, PATO 'weight' class should have children: 'determinable weight' and 'determinate weight'. The determinable are things that persist, but determinate are those that persist at a specific time. ::'Weight quality (determinable)': every mouse has a weight, so it is determinable quality: an instance of a class <-> datum information of <-> 'Weight quality (determinate)'. But there is no agreement and determinable class does not exists in PATO or in any ontology. 
+:Measurement of a process-> we want to measure process smoking. 
+::Number of cigarette count, instrument time watch, one day experiment, 5 cigarettes per day (value=5, unit = cigarette, dimension = quantity). For Bjoern unit and dimension are the same things.
+....'''''Alan and Bjoern, please edit this part and summarize your discussions and the conlcusion drawn'''''
+::'''ACTION for Bjoern, Alan''' refine the domain and range of the current relations: is_measurement_of and is_measuremant_about in collaboration with Unit Ontology.
+
+* Funtion branch will be demoted, works goes to Protocol Application and Instrument 
+:These 2 branches will work together to resolve the details of the relations to use (either canonically realizes function (Bjoern), or Frank's proposal as in " centrifugation is_realization_of =1 is_realization_of some centrifuge_fucntion (necessary and sufficient function) utilizes_device some centrifuge "
+::'''ACTION for Frank and Bjoern''' to define the appropiate relations.
+
+* Aggregate objects in biomaterial
+:ChEBI ensamble will address this for chemicals, but other types of mixture: occurring naturally and those artefacts. OBI needs to deal with the latter, but coordinate with ChEBI that has a urgent need to solve this.
+:'''ACTION for Philippe, Bjoern''' to contant ChEBI/chemical ontology (ideally via its Associated Editor) and propose solutions for this.
+
+* Material functioning as devices
+:Gel is made and the will function to separate the protein: is this a device or a material?
+
+* Environmental matters
+:'''ACTION for Philippe''' Create a class 'environmental origin' under material entity and set the restriction.
+
+ '''9. Example of implementations using OBI'''
+
+* We had short presentations on use on OBI by [http://symba.sourceforge.net/ Symba], [https://www.immport.org/immportWeb/home/home.do ImmPort], [http://www.immuneepitope.org/home.do IEDB] and the [http://www.ebi.ac.uk/net-project/projects.html#bioinvindex ISAcreator] tool.
+:These systems currently use OBI as list of controlled terms, no levarage on the relations has been make.
+
+ '''10. Interaction with PSI, general buy-in'''
+
+* We need to be able to demonstrate improvements to get buy-in
+:We/OBI do have a presence at PSI: first FuGE, lately OBI have been presented. Luisa, PSI ontology chair, is also keeping the discussion and the relationship live; however she cannot make/forse the decision. 
+:: At this stage PSI community has all they need: a CVs that works with their XML-based format. These are being used to exchange data among large, international repositories.  
+::Ideally PSI should map their CVs to OBI and then switch to use OBI. Now up to us/OBI to be able to show that this switch is worth the time and effort and that OBI is going to help to do things considerably better.
+
+* On Friday afternoon, we meet with Henning Hermiakob (PSI chair) 
+:We discussed strategy to include PSI terms into OBI. We agreed to start working with PSI-MS terms, particularly, instrument terms and map and include these to OBI.
+::'''ACTION for Chris''' contact Eric, Luisa, Henning to get engagement and define plan work
+
+* On Friday afternoon, we also meet with Richard Cote (OLS)
+:Richard has been given a month to make some improvements (until mid Aug)
+:Alan suggested few improvements to be done: support OWL (use of OWL API), navigation to parent term, bookmarking a search, clickable ontology class/relations view (currently generated with graphwiz, but it maybe possible to output text), navigation back and [http://jowl.ontologyonline.org/obi.html search functionalities] 
+:Philippe also suggests support of cross products. Sounds this are bith problematics: how to display  terms and intersections, e.g. 
+::engineered foreign transposable element gene
+::intersection of SO:0000111 ! transposable element gene 
+::intersection of has_quality SO:0000783 ! engineered
+::intersection of has_quality SO:0000784 ! foreign
+:The current OLS model does not supports this. Maybe it is possible to do it with an hack, without messing with the data model: pull the annotation values in the string and parse these out at run time. OLS is getting few millions calls a day and this hack may slow down things.
+:'''ACTION for Philippe''' will send link to xps to Richard.
+:'''ACTION for James''' send his code to Richard for possible reuse.
+
+
+
+
+  '''11. Milestones to release and publication'''
+
+* We have review the status and update it, during the workshop. Results have been recorded in the [https://wiki.cbil.upenn.edu/obiwiki/index.php/Milestones milestone page]. 
+
+* OBI release(s) need to have a 'disclaimer/note' saying that this version has satisied certain criteria: e.g. passes use cases a and b; but we will need to ensure back compatibility. 
+::However, despite OBI relies on other extrenal (OBO) ontologies we cannot stop our releases even if these are not yet completed or polished compliant with Foundry ontologies.
+
+* Which journal to submit to the main OBI paper?
+:The main criteria: open access, broad domain readership; timeliness of publication; impact factor.
+:Candidate: Nature Biotech; Plos Biology; Plos One.
+::[https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItems '''ACTION to All''' to vote to reach an agreement]
+
+* Steps and timelines to papers
+:Outline of main paper: list of sections with suggested content in bullet points. 
+::'''ACTION for Bjoern''' draft by end of Aug/Sep 1st
+:People sign up to section(s) they wish to contribute writing to
+:First draft ready by ~end of Nov, mostly depends on use cases' outcomes and timelines
+
+* Technical papers
+:We agree that these will be published as separate papers and authored only by those that have worked on the topic or helped to write it. Order will be decided by the contributors and it is unclear if 'OBI Consortium' should be included as authors of just in the acknowledgement section.
+
+ '''12. Cite OBI and advertise implementations'''
+
+* Cite OBI (before main paper is out)
+:We need something asap that other papers can cite (we still use FuGO paper!). There is an agreement to cite the purl site
+::'''ACTION for Tina''' to put on the sf site few words -> Already done by James, thanks!
+
+* List/advertise implementation of OBI
+:We need to post/list/link to implementions as a way to advertise but also to follow who is doing what with OBI. 
+
+  '''13. Location for next workshop'''
+
+* Winter 09
+:Alan offered Boston; Ryan re-propose Vancouver; satellite to PBC in Hawaii (Tina will enquire organizers)
+::Preference is during the week; Alan says that at the same time with a semantic web workshop, few OBI people will attend.
+::'''ACTION for Tina''' to check if PBC is a real possibility (wcan we can help with meeting room, roon rates etc)
+::based on the outcome [https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItems '''ACTION to All''' to vote to reach an agreement]
+
+* Summer 09
+:Before or after the 2nd OBO Foundry workshop (Monday, Tuesday, June 8-9)
+
+ '''14. Issues with SVN'''
+
+* Tag are pointer to a revision
+:All doc should be in the trunk (as good practice indicated by svn documentation) including release documentations. Currently, some documentation is included in the svn tags but not in the trunk. Keep current obi practice for svn revisit if we run into legitimate criticism from people accessing our obi-svn.
+::'''ACTION for Ally''' document this issue.
+
+* Move tag/releases to releases using svn-copy -> release is promoted.
+:'''ACTION for Ally''' obi-svn commit to obi-devel
+:'''ACTION for Philippe''' send an email to obi-devel to remind developers of the changes.
+
+ '''15. OBI webpages and other internal organization'''
+
+* Buy an obi-ontology.org domain
+:With media wiki we can export import easly with no format changes. Alan has bought the domain for 5 years (see email to Coord list).
+:Neurocommons templates will be used to design the new pages with the following main links: Users + Developers + Download + Browse + Contact _______(Search)
+::'''ACTION for Alan''' will set up the wiki at Neurocommons
+::'''ACTION for Ally, Melanie, Philippe, Alan''' to move the content of current wiki page to new location. Need to ask Chris S for adimin access to current wiki.
+
+* Chairing calls
+:Chris is happy to continue chairing the Coord call, but it would probably be Bjorn's activity to continue these.
+::'''ACTION for Chris''' to discuss this with Bjoern
+
+* OWL -OBO converter
+:Work from Chris M is not complete, we need to find out when this will be done and if by him.
+::'''ACTION for Philippe''' to follow up with Chris M
+
+ '''16. Collaborative Protege (CP)'''
+
+* Differences between SVN and CP 
+:SVN requires checking in and out the local copy, and the change annotation are separate from the actual RUs. These are solved with the CP. However it is unclear if we can work on CP offline (e.g. google doc allows this): if not, many agrees that this is not good in general but CP could still be used occasionally during calls or workshops.
+::'''ACTION for Daniel''' ask what their plans are to keep CP version updated with Protege; check the offline functionality; check version of Pellet run; list of know issues; how to access the server and move in and out (email sent to Tania Tudorache, of the CP team, and cc to OBI dev list).
+:There is also a web functionality that would be a useful way to allow users to browse OBI releases, without having to install Protege. These views can be customized to show only the feature we wish (e.g. metadata, comments etc).
+::'''ACTION for Daniel''', as part of the release process, push a version on the server.
+
+ '''17. Funding discussion'''
+
+* NIH R1 call for ontology for biomedical research
+:Alan and Barry have already tried and Ryan plans to do one for FlowCyt specifically. It looks like the call has a bent on neuroscience, so BIRN is the most appropiate contact. 
+::'''ACTION for Chris, Ryan''' to ensure there is complementarity between the two possible proposals/
+:The goal of the submitted project is to demonstrate how to integrate two datasets
+:The next deadline is Sep08 and the one after Jan09. We could aim for the latter and in preparation of this application. We could also consider running a usecase as proof of principles to demonstrate OBI will helps data integration.
+::Susanna/Philippe will need to do something similar: take datasets from Pride/proteomics and ArrayExpress/transcriptomics (currently annotated with MO and PSI Cvs) and annotate this using OBI and other Foundry ontologies.
+::'''ACTION for Alan, Chris''' to call NIH officer to better understand of what 'integration' with ontology means
+
+* NSF calls
+Suggestions from Barry (via Alan)
+**http://www.nsf.gov/pubs/2008/nsf08563/nsf08563.htm Directorate for Biological Sciences
+Advances in Biological Informatics (ABI), Deadline August 2008
+**http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5147
+Crosscutting Collaborative Research in Computational Neuroscience (CRCNS)
