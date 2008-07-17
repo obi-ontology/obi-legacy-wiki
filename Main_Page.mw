@@ -1,3 +1,8 @@
+== Under Construction ==
+
+We are in the process of moving the OBI Wiki here. Until there is an announcement that this site is official, the official wiki is at https://wiki.cbil.upenn.edu/obiwiki/
+----
+
 The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will model the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it.
 
 The latest complete version of ontology (.owl) file will always be available from [http://purl.obofoundry.org/obo/obi.owl: http://purl.obofoundry.org/obo/obi.owl].
@@ -22,9 +27,7 @@ The latest complete version of ontology (.owl) file will always be available fro
 
 Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
 
-== Under Construction ==
 
-We are in the process of moving the OBI Wiki here. Until there is an announcement that this site is official, the official wiki is at https://wiki.cbil.upenn.edu/obiwiki/
 
 == Getting started ==
 
