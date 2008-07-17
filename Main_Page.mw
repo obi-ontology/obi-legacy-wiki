@@ -1,3 +1,23 @@
+The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will model the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it.
+
+The latest complete version of ontology (.owl) file will always be available from [http://purl.obofoundry.org/obo/obi.owl: http://purl.obofoundry.org/obo/obi.owl].
+
+*Develop an Ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations
+*Make OBI compatible with other bio-ontologies
+*Develop OBI using an open source approach
+*Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations 
+
+
+
+
+
+
+
+
+
+
+----
+
 <big>'''MediaWiki has been successfully installed.'''</big>
 
 Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
