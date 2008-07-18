@@ -1,4 +1,6 @@
+== Mailing lists for users of OBI ==
 ; [http://groups.google.com/group/obi-users obi-users] : List for help on using OBI. [mailto:obi-users@googlegroups email obi-users]
+== OBI developers mailing lists ==
 ; [https://lists.sourceforge.net/lists/listinfo/obi-devel obi-developer] : List for discussion regarding the development of OBI. [mailto:obi-developer@lists.sourceforge.net email obi-developer]
 ; [https://lists.sourceforge.net/lists/listinfo/obi-svn-commit obi-svn-commit] : Subscribe to monitor commits to our [http://purl.obofoundry.org/obo/obi/repository subversion repository].
 ; [http://groups.google.com/group/obi-owl obi-owl] : List for discussion on OWL issues in the context of OBI. [mailto:obi-owl@googlegroups email obi-owl]
@@ -10,4 +12,5 @@
 ; [https://lists.sourceforge.net/lists/listinfo/obi-datatrfm-branch obi-datatrfm-branch] : List to discuss terms in the ontology of data transformation branch such as cosine transformation, curve fitting... [mailto:obi-datatrfm-branch@lists.sourceforge.net email obi-datatrfm-branch]
 ; [https://lists.sourceforge.net/lists/listinfo/obi-plan-branch obi-plan-branch] :  List to discuss terms in the ontology of plan branch such as protocol, investigation design... [mailto:obi-plan-branch@lists.sourceforge.net email obi-plan-branch]
 ; [https://lists.sourceforge.net/lists/listinfo/obi-function-branch obi-function-branch] : List to discuss terms in the ontology of function branch such as instrument_function... [mailto:obi-function-branch@lists.sourceforge.net email obi-function-branch]
+== Mailing lists about managing OBI ==
 ; [https://lists.sourceforge.net/lists/listinfo/obi-coord obi-coord] : List for discussion of administrative issues of the OBI project. [mailto:obi-coord@lists.sourceforge.net email obi-coord]
