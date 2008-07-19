@@ -1,0 +1,13 @@
+MIREOT - Minimal information to reference external ontology terms
+
+'''Abstract'''
+
+Developing an ontology covering all aspects of biomedical investigations is an ambitious project on its own. Several implementation choices have been made to ensure interoperability with other resources. These include the use of BFO as the upper-level ontology and membership in the OBO Foundry (http://www.obofoundry.org/). Such membership means OBI abides by OBO Foundry design principles, among which is a commitment to orthogonality, or partitioning of the term space, with other OBO Foundry ontologies.
+
+Current members of the OBO Foundry cover elements of biological and clinical investigations, to varying degrees. OBI aims to avoid duplication of effort, and instead develops ways to import pre-existing knowledge into the ontology.
+
+While the Web Ontology Language (OWL), the format used to create OBI, provides a mechanism to import ontologies [example], this mechanism is unsuitable for OBI. Firstly, given the current state of editing tools and the issues they have working with large ontologies, direct OWL imports are not practical for day-to-day development. Secondly, the other ontologies used by OBI are under active development and may not be aligned with the OBI development approach. Importing such ontologies as a whole could lead to inconsistencies or unintended inferences.
+
+We propose a method that allows selective use of classes from external ontologies that are of direct interest to OBI. In examining OBO Foundry ontologies, it was found that specific terms are fairly stable in what they are intended (and observed) to denote, even as the containing ontology is reorganized. In this report we propose a mechanism and minimal information standard for importing required terms into an ontology. We also suggest an implementation for this mechanism, scripts for automation of the import process and finally some ideas for future work and extensions.
+
+[http://docs.google.com/Doc?docid=dzprnmw_24cp3693dd&hl=en MIREOT Specification document]
