@@ -1,3 +1,396 @@
-This page will contain the full OBI consortium members list. 
+OBI operates as a consortium consisting of two parts. Firstly, a [[Consortium#The_OBI_Coordinating_Committee| Coordinating Committee]], which itself is composed of Community Representatives and Core Developers. The [[Consortium#OBI_Developers_Working_Group| Developers Working Group]] is the second part of the OBI Consortium. The OBI Consortium also has [[Supporting Groups]] who are committed to the use, development and growth of OBI. They have have provided resources in the form of contributions from their group members and support of their attendance at OBI meetings. 
 
-The [http://obi.sourceforge.net/consortium/index.php OBI consortium can be found here]
+== The OBI Coordinating Committee ==
+ 
+The representives of the communities participating in the development of OBI. Please note that the starting date of a CC member is the date they started in the Coordinating Committee, and not the overall date of joining OBI, which could be earlier.
+ 
+
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''The OBI Community representatives'''
+!width="20%"|Community name
+!width="20%"|Individuals
+!width="20%"|Community Affiliation
+!width="20%" |Institutional Affiliation
+!width="20%"|Start date
+!width="20%"|End Date
+|-
+|rowspan="3" | Bio-Imaging
+|[http://www.nbirn.net/about/personnel.shtm Jeff Grethe]
+|[http://www.nbirn.net Biomedical Informatics Research Network (BIRN)] Coordinating Center
+|[http://www.ucsd.edu/ University of California, San Diego]
+|Winter 2007
+|-
+|[http://www.stanford.edu/~rubin/ Daniel Rubin]
+|Radiological Society of North America (RSNA)
+|[http://bioontology.org/ National Center for Biomedical Ontology] at [http://smi.stanford.edu Stanford Medical Informatics] and the [http://radiology.stanford.edu Department of Radiology] [http://www.stanford.edu/ Stanford University]
+|Winter 2007
+|-
+|[http://fireball.drexelmed.edu/neuroterrain/personnel/bbug/bbug.shtml Bill Bug]
+|[http://www.nbirn.net Biomedical Informatics Research Network (BIRN)]
+|[http://www.neuroterrain.org Laboratory of Bioimaging and Anatomical Informatics] in the [http://neurobio.drexelmed.edu/ Department of Neurobiology and Anatomy], [http://www.drexelmed.edu/ Drexel University College of Medicine]
+|Spring 2006
+|
+|-
+|Cellular Assays
+|[http://www.dkfz.de/mga/home/wiemann/ Stefan Wiemann]
+|
+|[http://www.dkfz.de/smp-cell/cell.org/groups.asp?siteID=7 DKFZ]
+|
+| 
+|-
+| rowspan="3" |Clinical Investigations
+|[http://www.niehs.nih.gov/cebs-df/fostel.cfm Jennifer Fostel]
+|[http://www.bioontology.org/wiki/index.php/CTO:Main_Page Ontology for Clinical Investigations]
+|[http://www.niehs.nih.gov/cebs-df/twg.cfm NIEHS, National Institute for Environmental Health Sciences]
+|Spring 2004
+|-
+|[http://www.pharmgkb.org/home/team.jsp Tina Hernandez-Boussard]
+|
+|[http://stanford.edu Department of Genetics, Stanford Medical School]
+|Fall 2007
+|
+|-
+|[http://www8.utsouthwestern.edu/findfac/personal/0,2358,16416,00.html Richard Scheuermann]
+|[http://www.bioontology.org/wiki/index.php/CTO:Main_Page Ontology for Clinical Investigations]
+|[http://www.utsouthwestern.edu University of Texas Southwestern Medical Center], in the Department of Pathology and [http://www.utsouthwestern.edu/utsw/cda/dept174769/files/327041.html Division of Biomedical Informatics]
+|Winter 2007
+|
+|-
+<!-- Crop Sciences -->
+|Crop Sciences
+|[http://www.irri.org/about/irridir/staffbio.asp#RichardBruskiewich Richard Bruskiewich]
+|[http://www.generationcp.org Generation Challenge Programme]
+|[http://www.irri.org IRRI]
+|
+| 
+|-
+<!-- Electrophysiology -->
+|Electrophysiology
+|[http://www.cs.ncl.ac.uk/people/home.php?id=369 Frank Gibson]
+|[http://www.carmen.org.uk/ CARMEN]
+|[http://www.cs.ncl.ac.uk School of Computing Science],[http://www.ncl.ac.uk/ Newcastle University]
+|Spring 2007
+|
+|-
+  <!-- Environmental Omics -->
+|[http://www.mged.org/Workgroups/rsbi/rsbi.html Environmental Omics]
+|[http://www.cs.manchester.ac.uk/bhig/people.php#normanmorrison Norman Morrison]
+|
+|[http://envgen.nox.ac.uk NERC Environmental Bioinformatic Centre] and
+[http://www.cs.manchester.ac.uk/ School of Computer Science, The University of Manchester]
+|Spring 2004
+|
+|-
+<!-- Flow Cytometry -->
+|[http://flowcyt.sourceforge.net Flow Cytometry]
+|[http://www.bccrc.ca/tfl/people_rbrinkman.html Ryan Brinkman]
+|[http://www.isac.net ISAC] and [http://www.ficcs.org FICCS]
+|[http://bccrc.ca British Columbia Cancer Research Center] and
+[http://www.ubc.ca University of British Columbia in the Department of Medical Genetics , Vancouver, BC, Canada]
+| Spring 2004
+|
+|-
+<!-- Genomics/Metagenomics -->
+|rowspan="2"|Genomics/Metagenomics
+|[http://www.ceh.ac.uk/sections/meb/meb.html Dawn Field]
+|rowspan="2"|[http://www.genomics.ceh.ac.uk/genomecatalogue Genome Catalogue]
+|rowspan="2"|[http://www.ceh.ac.uk/ NERC Centre for Ecology and Hydrology]
+|Winter 2005
+|
+|-
+|Tanya Gray
+|Winter 2005
+|
+|-
+<!-- Immunology -->
+|rowspan="2"|Immunology
+|[http://www8.utsouthwestern.edu/findfac/personal/0,2358,16416,00.html Richard Scheuermann]
+|[https://www.immport.org/immportWeb/home/home.do ImmPort], [http://www.ficcs.org FICCS, BioHealthBase]
+|[http://www.utsouthwestern.edu University of Texas Southwestern Medical Center], in Department of Pathology and [http://www.utsouthwestern.edu/utsw/cda/dept174769/files/327041.html Division of Biomedical Informatics]
+|Spring 2006
+|
+|-
+|[http://www.liai.org/pages/faculty-peters Bjoern Peters]
+|[http://www.immuneepitope.org/ Immune Epitope Database and Analysis Resource]
+|[http://www.liai.org La Jolla Institute for Allergy and Immunology]
+|Spring 2006
+|
+|-
+<!-- In Situ Hybridization and Immunohistochemistry -->
+|In Situ Hybridization and Immunohistochemistry
+|[http://www.systemsbiology.org/scientists Eric Deutsch]
+|[http://mged.sourceforge.net/misfishie/index.php MISFISHIE]
+|
+|
+|
+|- 
+  <!-- Metabolomics -->
+|rowspan="2"|Metabolomics
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?s_person_id=424 Susanna Sansone]
+|rowspan="2"|[http://msi-ontology.sourceforge.net/ MSI]
+|rowspan="2"|[http://www.ebi.ac.uk/net-project The European Bioinformatics Institute EBI-EMBL, NET Project]
+|Spring 2004
+|
+|-
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?s_person_id=734 Daniel Schober]
+|Spring 2006
+|
+|-
+<!-- Neuroinformatics -->
+|rowspan="2"|Neuroinformatics
+|[http://fireball.drexelmed.edu/neuroterrain/personnel/bbug/bbug.shtml Bill Bug]
+|[http://www.nbirn.net Biomedical Informatics Research Network (BIRN)]
+|[http://www.neuroterrain.org Laboratory of Bioimaging and Anatomical Informatics], in the [http://neurobio.drexelmed.edu/ Department of Neurobiology and Anatomy],[http://www.drexelmed.edu/ Drexel University College of Medicine]
+|Spring 2006
+|
+|-
+|[http://www.cs.ncl.ac.uk/people/home.php?id=369 Frank Gibson]
+|[http://www.carmen.org.uk/ CARMEN]
+|[http://www.cs.ncl.ac.uk School of Computing Science][http://www.ncl.ac.uk/ Newcastle University]
+|Spring 2007
+|
+|-
+ <!-- Nutrigenomics -->
+|Nutrigenomics
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?person_id=422 Philippe Rocca-Serra]
+|[http://www.mged.org/Workgroups/rsbi/rsbi.html RSBI]
+|[http://www.ebi.ac.uk/net-project The European Bioinformatics Institute EBI-EMBL, NET Project]
+|Spring 2004
+|
+|-
+  <!-- Polymorphism -->
+|Polymorphism
+|[http://www.pharmgkb.org/home/team.jsp Tina Hernandez-Boussard]
+|[http://www.pharmgkb.org PharmGKB]
+|[http://stanford.edu Department of Genetics], Stanford Medical School
+|Winter 2006
+|Fall 2007
+|-
+  <!-- Proteomics -->
+|rowspan="6"|Proteomics
+|[http://www.ebi.ac.uk/Information/Staff/person_maint.php?person_id=424 Susanna Sansone]
+|rowspan="6"|[http://psidev.sourceforge.net/ PSI]
+|rowspan="2"|[http://www.ebi.ac.uk/net-project The European Bioinformatics Institute EBI-EMBL, NET Project]
+|Spring 2004
+|
+|-
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?person_id=734 Daniel Schober]
+|Spring 2006
+|
+|-
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?person_id=525 Luisa Montecchi]
+|rowspan="2"|[http://www.ebi.ac.uk The European Bioinformatics Institute EBI-EMBL]
+|Spring 2006
+|
+|-
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?person_id=437 Chris Taylor]
+|
+|
+|-
+|[http://mged.sf.net Trish Whetzel]
+|
+|Spring 2004
+|
+|-
+|[http://www.cs.ncl.ac.uk/people/home.php?id=369 Frank Gibson]
+|[http://www.cs.ncl.ac.uk School of Computing Science],[http://www.ncl.ac.uk/ Newcastle University]
+|Spring 2007
+|
+|-
+<!-- Structural Biology / Structural Bioinformatics -->
+|Structural Biology / Structural Bioinformatics
+|John Westbrook
+|[http://www.wwpdb.org Worldwide Protein Data Bank (wwPDB)]
+|Department of Chemistry and Chemical Biology, [http://www.rutgers.edu Rutgers University]
+|Winter 2007
+|
+|-
+  <!-- Toxicogenomics -->
+|rowspan="2"|Toxicogenomics
+|[http://www.niehs.nih.gov/cebs-df/fostel.cfm Jennifer Fostel]
+|[http://www.mged.org/Workgroups/rsbi/rsbi.html Toxicogenomics]
+|[http://www.niehs.nih.gov/cebs-df/twg.cfm NIEHS, National Institute for Environmental Health Sciences]
+|Spring 2004
+|
+|-
+|[http://www.ebi.ac.uk/Information/Staff/person_maint.php?person_id=424 Susanna Sansone]
+|[http://www.mged.org/Workgroups/rsbi/rsbi.html RSBI]
+|[http://www.ebi.ac.uk/net-project The European Bioinformatics Institute
+EBI-EMBL, NET Project]
+|Spring 2004
+|
+|-
+<!-- Transcriptomics -->
+|rowspan="10"|Transcriptomics
+|[http://www.ebi.ac.uk/Information/Staff/person_maint.php?person_id=424 Susanna Sansone]
+|rowspan="10"|[http://mged.sourceforge.net/ontologies MGED]
+|rowspan="2"|[http://www.ebi.ac.uk/net-project NET Project]
+|Spring 2004
+|
+|-
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?person_id=422 Philippe Rocca-Serra]
+|Spring 2004
+|
+|-
+|[http://mged.sf.net Trish Whetzel]
+|
+|Spring 2004
+|
+|-
+|[http://www.cbil.upenn.edu/~stoeckrt/home.html Chris Stoeckert]
+|[http://pcbi.upenn.edu Department of Genetics and Center for Bioinformatics], [http://www.upenn.edu/ University of Pennsylvania]
+|Spring 2004
+|
+|-
+|Gilberto Fragoso
+|[http://ncicb.nci.nih.gov NCI Center for Bioinformatics]
+|Spring 2004
+|
+|-
+|Joe White
+|
+|
+|
+|-
+|[http://www.ebi.ac.uk/Information/Staff/person_maint.php?person_id=413 Helen Parkinson]
+|[http://www.ebi.ac.uk The European Bioinformatics Institute EBI-EMBL]
+|Spring 2004
+|
+|-
+|Mervi Heiskanen
+|
+|
+|
+|-
+|Liju Fan
+|Ontology Workshop, LLC, Columbia, MD, USA
+|Spring 2004
+|
+|-
+|[http://wwwfom.sk.med.ic.ac.uk/medicine/people/helen.causton/ Helen Causton]
+|Imperial College
+|Spring 2004
+|
+|}
+
+
+
+
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''The OBI Core Developers'''
+!width="20%"|Community name
+!width="20%"|Individuals
+!width="20%"|Community Affiliation
+!width="20%" |Institutional Affiliation
+!width="20%"|Start date
+!width="20%"|End Date
+|-
+|
+|Melanie Courtot
+|[http://flowcyt.sourceforge.net Flow Cytometry], [http://www.ebi.ac.uk/sbo/ SBO],
+[http://www.ebi.ac.uk/biomodels/ BioModels]    
+|[http://bccrc.ca British Columbia Cancer Research Center] and [http://www.ubc.ca University of British Columbia] in the Department of Medical Genetics, Vancouver, BC, Canada]
+|Fall 2007
+|
+|-
+|
+|[http://www.cs.ncl.ac.uk/people/home.php?id=452 Allyson Lister]
+|[http://www.mged.org/Workgroups/rsbi/rsbi.html RSBI],
+[http://www.genomics.ceh.ac.uk/genomecatalogue Genome Catalogue],
+[http://symba.sf.net SyMBA],
+[http://fuge.sf.net FuGE]
+|[http://www.cisban.ac.uk CISBAN]
+|Spring 2006
+|
+|-
+|
+|[http://sciencecommons.org/about/whoweare/ruttenberg/ Alan Ruttenberg]
+|[http://sw.neurocommons.org/ The Neurocommons]
+|Science Commons
+|Fall 2007
+|
+|-
+|
+|[http://www.ebi.ac.uk/Information/Staff/person_maint.php?s_person_id=734 Daniel Schober]
+|[http://www.ebi.ac.uk EBI]
+|Fall 2007
+|
+|
+|-
+|
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?s_person_id=863 James Malone]
+|[http://www.microarray-quality.org/ EMERALD]
+|[http://www.ebi.ac.uk EBI]
+|Fall 2007
+|
+|}
+
+
+
+== OBI Developers Working Group ==
+The Developers Working Group consists of all developers within the communities collaborating in the development of OBI, at the discretion of current OBI Consortium members. 
+
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''The OBI Developers'''
+!width="20%"|Community name
+!width="20%"|Individuals
+!width="20%"|Community Affiliation
+!width="20%" |Institutional Affiliation
+!width="20%"|Start date
+!width="20%"|End Date
+|-
+|
+|Kevin Clancy
+|
+|
+|
+|
+|-
+|
+|Christian Cocos
+|
+|
+|
+|
+|-
+|
+|Jay Greenbaum
+|
+|
+|
+|
+|-
+|
+|Pierre Grenon
+|
+|
+|
+|
+|-
+|
+|Elisabetta Manduchi 
+|
+|(University of Pennsylvania)
+|
+|
+|-
+|
+|Chris Mungall
+|
+|
+|
+|
+|-
+|
+|Matthew Pocock
+|
+|
+|
+|
+|-
+|
+|Holger Stenzhorn
+|
+|
+|
+|}
