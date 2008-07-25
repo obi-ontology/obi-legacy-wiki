@@ -30,13 +30,17 @@ The Ontology for Biomedical Investigations (OBI) project is developing an integr
 ----
 '''Who is OBI?'''
 
-The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The [[Consortium|OBI Consortium]] is the name under which the OBI project authors its work.
+The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The [[Consortium|OBI Consortium]] is the name under which the OBI project authors its work. The OBI Consortium contains:
+
+
+ 
+
 
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
 ----
 '''Talk with us'''
 
-We have [[Mailing_lists| mailing lists]] for both users and developers. Join the users list to be notified of each OBI release.
+We have [[Mailing_lists| mailing lists]] for both users and developers. Join the users list to be notified of each OBI release. If you represent a Community that would like to collaborate in the development of OBI, contact the [https://lists.sourceforge.net/lists/listinfo/obi-coord| Coordination Committee].
 
 '''Report bugs'''
 
