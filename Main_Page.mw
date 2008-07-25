@@ -19,18 +19,20 @@ The Ontology for Biomedical Investigations (OBI) project is developing an integr
 ----
 '''What is it?'''
 
-The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it.
+The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. Currently OBI is being built under the Basic Formal Ontology [http://www.ifomis.uni-saarland.de/bfo/home.php (BFO)].
 
 *Develop an Ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations
 *Make OBI compatible with other bio-ontologies
 *Develop OBI using an open source approach
 *Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations 
 
+For further information please see our [https://wiki.cbil.upenn.edu/obiwiki/index.php/FAQ FAQ section]
+
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
 ----
 '''Who is OBI?'''
 
-The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The [[Consortium|OBI Consortium]] is the name under which the OBI project authors its work. The OBI Consortium contains:
+The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The [[Consortium|OBI Consortium]] is the name under which the OBI project authors its work. 
 
 
  
