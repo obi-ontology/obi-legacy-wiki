@@ -289,7 +289,7 @@ EBI-EMBL, NET Project]
 |Melanie Courtot
 |[http://flowcyt.sourceforge.net Flow Cytometry], [http://www.ebi.ac.uk/sbo/ SBO],
 [http://www.ebi.ac.uk/biomodels/ BioModels]    
-|[http://bccrc.ca British Columbia Cancer Research Center] and [http://www.ubc.ca University of British Columbia] in the Department of Medical Genetics, Vancouver, BC, Canada]
+|[http://bccrc.ca British Columbia Cancer Research Center]
 |Fall 2007
 |
 |-
@@ -315,7 +315,6 @@ EBI-EMBL, NET Project]
 |[http://www.ebi.ac.uk EBI]
 |Fall 2007
 |
-|
 |-
 |
 |[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?s_person_id=863 James Malone]
@@ -323,9 +322,15 @@ EBI-EMBL, NET Project]
 |[http://www.ebi.ac.uk EBI]
 |Fall 2007
 |
+|-
+|
+|[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?person_id=422 Philippe Rocca-Serra]
+|[http://mged.sourceforge.net/ontologies MGED], 
+[http://www.ebi.ac.uk/net-project NET Project]
+|[http://www.ebi.ac.uk EBI]
+|Summer 2008
+|
 |}
-
-
 
 == OBI Developers Working Group ==
 The Developers Working Group consists of all developers within the communities collaborating in the development of OBI, at the discretion of current OBI Consortium members. 
