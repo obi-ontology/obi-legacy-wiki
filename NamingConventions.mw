@@ -15,18 +15,27 @@ Naming conventions that are not discussed yet on the OBO Foundry wiki are collec
 
 Here extensions of the obo foundry naming conventions are to be collected and discussed.
 
-== re-occuring postfixes in terms==
+== Re-occuring postfixes in names==
 
 It was discussed whether 
 * all terms under, e.g. 'role' should be postfixed with the '_role'-postfix (which would make the RA quite verbose)
 or
-* only those terms that need this postfix to be understood (also when viewed outside of the Branch context or outside of the ontology) by the reader get this postfix. In the obi dev call of 16.1.08 we agreed on this latter convention. We agreed that the postfix should be omitted when perceived as clearly redundant taking the first part of the term into account. Editors are however allowed to add the postfix where they feel a need for it.
+* only those terms that need this postfix to be understood (also when viewed outside of the branch context or outside of the ontology) by the reader get this postfix.
 
-e.g. use the 'sine transformation' rather than a colloquial 'sine'.
 
-The decision was made to include an epistemiological postfix for all terms that have a polysems or homonyms in other branches, e.g. if there is a 'device'(e.g. a 'screw driver') under material entity and there is a 'device'(e.g. 'finger nail' under role
+In the obi dev call of 16.1.08 we agreed on this latter convention. We agreed that the postfix should be omitted when perceived as obvious in all other contexts and no polysems exist. This is also in fulfilment of the naming convention "1. Be clear and unambiguous/Avoid taboo words/Affixes reflecting epistemological claims". 
 
-where a) the term without the postfix exists in other branches, denoting the bearer of the role or b) the term without the postfix could/should exist in other branches. 
+Editors are allowed to add the postfix where they feel a need for it in order to ensure the naming convention "1. Be clear and unambiguous/Use explicit and concise names + Use context independent names".
+
+E.g. use the 'sine transformation' rather than a colloquial 'sine' and 'screwdriver role' when you refer to the role your fingernail or a coin can play, rather than to the device/screwdriver produced with this intended function.
+
+Include epistemiological postfixes for terms that have a polysem in other branches, e.g. if there is a 'debth measure device' under material entity, and there is a 'debth measure device' under role, then call the latter 'debth measure device role' when you refer to a tree trunk an ape uses to measure the depth of a river.
+
+Bjoern recommended to add the postfix where 
+a) the term without the postfix exists in other branches, denoting the bearer of the role or 
+b) the term without the postfix could/should exist in other branches. 
+
+I think that in this case (when a polysem exist) both names should be made explicit and unique by adding a specifying suffix (pre or postfix).
 
 
   * Comments or questions on naming issues should be sent to schober [[at]] ebi.ac.uk directly or to the OBI developers mailing lists.
