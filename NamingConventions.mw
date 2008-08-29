@@ -17,6 +17,8 @@ Here extensions of the obo foundry naming conventions are to be collected and di
 
 == Re-occuring postfixes in names==
 
+https://sourceforge.net/tracker/?func=detail&atid=886178&aid=1950012&group_id=177891
+
 It was discussed whether 
 * all terms under, e.g. 'role' should be postfixed with the '_role'-postfix (which would make the RA quite verbose)
 or
