@@ -1,15 +1,77 @@
 ==Biomaterial Conference Calls==
 
+=== September 12th 2008 ===
+
+Proposed changes from AR:
+
+1. peptide, currently OBI_0100083 -> CHEBI:16670
+agreed.
+
+2. enzyme = defined class
+(protein or has_part some protein) and has_function some GO:0003824
+(catalytic activity)
+
+Note from BP that there are RNA enzymes as well.
+Agreed on: (protein or rna) or has_part (protein or rna) and has_function some GO:0003824
+(catalytic activity)
+
+We will import molecular function with parent function
+We will import GO:0003824 with parent molecular function
+
+We will also import  CHEBI:23367 molecular entities, with parent material entity.
+
+Amino acid CHEBI:33709 will be imported as well and will be a child of molecular entities (we will fix the label to be singular in our import, Alan to fix code to respect this. Original one will be kept as alternative term. For terms where we have obi:preferred term we will store that in external.owl and this will take precedence over the rest)
+
+3. DNA Polymerase = defined class
+enzyme and  has_function some GO:0034061 (DNA polymerase activity)
+4. Reverse transcriptase = defined class
+enzyme and has_function some GO:0003964 (RNA-directed DNA polymerase activity)
+
+GO:0003824 catalytic activity to be imported, which child GO:0034061 DNA polymerase activity
+
+AI for BP: check on pro and definition or protein, does it cover complexes?
+
+
+5. recombinant plasmid = plasmid and output of some <appropriate material
+transformation>
+
+recombinant plasmid is already output of recombinant plasmid construction process.
+We need the term "plasmid" to move forward.
+
+We will create our own defined class for plasmid:
+plasmid = DNA and has_quality circular and has_function (is_realized_as some gene expression) GO:0010467
+circular is to be imported from SO:0001235: "A region containing at least one unique origin of replication and a unique termination site."
+
+6. environmental matter (formerly known as environmental sample) rename
+"environmental matter" and move rest to editor note.
+agreed.
+
+7. anatomical entity currently OBI_0100015 -> CARO:0000000
+we decided against this import: current definition in CARO reads:"Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species" This would cover individual organisms as well and is not desired.
+This class will be renamed to "organism part" with definition "An organism part is a part of organism's anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm)."
+
+8. cell compartment currently OBI_0100054 ->? membrane-bounded organelle GO:0043227
+agreed.
+Current parent cell component which was imported from CARO will be replaced by GO import of GO:0005575
+
+AR will experiment with declaring the CARO and GO classes as equivalent.
+
+
+Postponed: 
+- mireot system: how to make it easier for people to use?
+- mixtures (cf email from Bjoern: http://groups.google.com/group/obi-biomaterial/browse_thread/thread/eb81a4e80556f8e4?hl=en)
+
+
+
 === June 13th 2008 ===
 
 1. moving person under eukaryote<br>
-
  all agree - AI for PRS<br>
 2. xenograft as role<br>
  is a role borne by a tissue which has been transplanted<br>
  pb (BP): refers to thing in the past<br>
- cut a branch of tree and put it on new tree<br>
 
+ cut a branch of tree and put it on new tree<br>
  xenograft is coming from 1st PA: taking sample<br>
  when put on new tree<br>
  plays its role xenograft in new process = growing on tree<br>
