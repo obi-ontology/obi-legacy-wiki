@@ -1,5 +1,50 @@
 ==Biomaterial Conference Calls==
 
+=== September 19th 2008 ===
+
+- mireot<br>
+
+-- AR will try and improve scripts<br>
+Sometimes neurocommons is notup-to-date with latest ontologies versions, and causes extra information not to be loaded properly, requiring manual checks<br>
+-- JM will check on status with protege people, to be done during OWLED workshop: we will present the mireot mechanism and this will probably foster interactions with developers present<br>
+
+- mixture<br>
+-- mixture are composed of different elements, will have properties as well.<br>
+-- concentration will be defined or not, people will have choice to specify them or not<br>
+
+-- start with material entity and has_part A, has_part B...<br>
+future possible: if part B in such proportion has properties 'buffer"<br>
+AI for PRS: liaise with CHEBI people, check if this seems like an acceptable solution and if they can work out a template together.<br>
+
+- function branch?<br>
+-- questions about how to edit that branch: who is responsible?<br>
+e.g., obi_function term seems to be a placeholder and we might consider deleting it.<br>
+
+- JM tiny clean-up of branch, on AR's latest email model<br>
+-- to be examined during next call<br>
+
+- next steps for the biomaterial branch?<br>
+-- PRS: digested DNA -> connect adjectives to the PA that cause them to appear<br>
+2 options:<br>
+
+1. biomaterial has_quality irradiated and is_output_from PA irradiation<br>
+2. irradiated results_from PA irradiation<br>
+
+"results_from" is a new relation that would need to be created, and would allow linking directly a protocol to its effects (e.g. irradiation PA -> irradiated) without need for a bearer (version 2)
+<br>
+version 1 is currently possible, as all required elements are in the ontology, and in this case we would have a link between the bearer and the "historical_role"<br>
+
+PRS will start going through to the file, implementing solution 1.<br>
+PRS will drop line to Chris Mungall for relation "results_from" and inclusion in ro.<br>
+
+- defined classes<br>
+currently in buckets at top (_defined protocol application, _defined_material)<br>
+
+proposal from AR to have mini buckets positioned as needed by editor (e.g. I need a biomaterial defined class, I add a placeholder "_defined_classes" when editing the file, and this get removed by script when release<br>
+divergent opinions on this, MC fears people will add mini-buckets with various syntaxes, and current solution seems satisfactory.<br>
+
+- by next release (october), replace DENRIE with IAO in OBI<br>
+
 === September 12th 2008 ===
 
 Proposed changes from AR:
