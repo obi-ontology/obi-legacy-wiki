@@ -3,7 +3,7 @@ We are in the process of moving the OBI Wiki here. Until there is an announcemen
 ----
 The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of life-science and clinical investigations. 
 *To cite OBI please use the following: '''The OBI Consortium [http://purl.obofoundry.org/obo/obi/ http://purl.obofoundry.org/obo/obi]'''
-*The latest complete version of ontology (.owl) file will always be available from [http://purl.obofoundry.org/obo/obi.owl: http://purl.obofoundry.org/obo/obi.owl].
+*The latest complete version of ontology (.owl) file will always be available from [http://purl.obofoundry.org/obo/obi.owl http://purl.obofoundry.org/obo/obi.owl].
 
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
 ! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Ontology</font>
