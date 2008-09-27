@@ -1,22 +1,74 @@
 ==Biomaterial Conference Calls==
 
+
+=== October 3rd 2008 ===
+
+focus on representing solutions.<br>
+
+Proposed working example: Tris solution has components tris and water. We will define a tris solution, then assign concentration to tris and water, and finally say that the tris solution is bearing the role buffer when the concentrations are in an acceptable range.<br>
+
+
+=== September 26th 2008 ===
+
+
+1. protein complexes<br>
+PRO doesn't cover complexes, but GO does.<br>
+protein complex mireot-ed from GO http://amigo.geneontology.org/cgi-bin/amigo/term-details.cgi?term=GO:0043234<br>
+definition: Any macromolecular complex composed of two or more polypeptide subunits, which may or may not be identical. Protein complexes may have other associated non-protein prosthetic groups, such as nucleotides, metal ions or carbohydrate groups.<br>
+
+2. mixture<br>
+more precisely: solutions, gas, alloy, emulsion, suspension<br>
+solution can be split into multiple portions that are also solutions with the same components: Portion of molecular matter - ensemble of molecules<br>
+
+has_granular_part relation:<br>
+ex portion of water has_granular_part H2O molecule (and not water has_granular_part water) => has_granular_part: idea of composition, there also need to be a large number of H2O molecule, idea of identity to the whole is necessary but not sufficient of has_granular_part<br>
+
+Definition: Granular parts are the constitutent parts of Pluralities. They are of the same sort. Generally pluralities have a high number of grains. The loss of a grain has no effect on the sortality of the identity of the plurality<br>
+
+Example tris solution: has_granular_part H2O, has_granular_par tris: we import H2O and tris from chebi and create tris solution in OBI<br>
+<br>
+Problem: how do we deal with concentration?<br>
+<br>
+We started discussing this, but didn't conclude. The discussion is to be resumed during next biomaterial call.<br>
+
+Few initial notes:<br>
+AR: initial attempt https://wiki.cbil.upenn.edu/obiwiki/images/5/57/Concentration.pdf - some issues, like for example if no zinc in sample what does the concentration quality inheres in?<br>
+BP: it would be nice to have an easy construct like Material has_granular_part (H20, 25%)<br>
+
+BP: Tris buffer has_granular part H20<br>
+Tris buffer has granulart part Tris<br>
+Tris buffer has component (all H20 molecules in buffer) (where all H2O molecules in buffer = scattered portion of water)<br>
+
+scattered poriton of water has_concentration (25% by mass)<br>
+<br>
+AR: from tris has_quality concentration_of_water (value 25%), one can imply that tris has_granular_part molecule of H2O<br>
+
+====>>>> we would like to end up specifying element and concentration and get the rest
+
+(molecule and is_granular_part_of solution) has_concentration X <br>
+for example: (H2O and is_granular part of tris buffer) has concentration 25%<br>
+
+Note: we probably need to define a range of concentration, 1-25% to have for example the role buffer.
+so we need to define the tris solution based on its granular parts, and the buffer role that it plays if the components are in an acceptable range of concentration.
+
+
 === September 19th 2008 ===
 
 - mireot<br>
-
 -- AR will try and improve scripts<br>
 Sometimes neurocommons is notup-to-date with latest ontologies versions, and causes extra information not to be loaded properly, requiring manual checks<br>
 -- JM will check on status with protege people, to be done during OWLED workshop: we will present the mireot mechanism and this will probably foster interactions with developers present<br>
 
 - mixture<br>
+
 -- mixture are composed of different elements, will have properties as well.<br>
 -- concentration will be defined or not, people will have choice to specify them or not<br>
-
 -- start with material entity and has_part A, has_part B...<br>
 future possible: if part B in such proportion has properties 'buffer"<br>
 AI for PRS: liaise with CHEBI people, check if this seems like an acceptable solution and if they can work out a template together.<br>
 
 - function branch?<br>
+
 -- questions about how to edit that branch: who is responsible?<br>
 e.g., obi_function term seems to be a placeholder and we might consider deleting it.<br>
 
@@ -24,13 +76,14 @@ e.g., obi_function term seems to be a placeholder and we might consider deleting
 -- to be examined during next call<br>
 
 - next steps for the biomaterial branch?<br>
+
 -- PRS: digested DNA -> connect adjectives to the PA that cause them to appear<br>
 2 options:<br>
-
 1. biomaterial has_quality irradiated and is_output_from PA irradiation<br>
 2. irradiated results_from PA irradiation<br>
 
 "results_from" is a new relation that would need to be created, and would allow linking directly a protocol to its effects (e.g. irradiation PA -> irradiated) without need for a bearer (version 2)
+
 <br>
 version 1 is currently possible, as all required elements are in the ontology, and in this case we would have a link between the bearer and the "historical_role"<br>
 
@@ -39,7 +92,6 @@ PRS will drop line to Chris Mungall for relation "results_from" and inclusion in
 
 - defined classes<br>
 currently in buckets at top (_defined protocol application, _defined_material)<br>
-
 proposal from AR to have mini buckets positioned as needed by editor (e.g. I need a biomaterial defined class, I add a placeholder "_defined_classes" when editing the file, and this get removed by script when release<br>
 divergent opinions on this, MC fears people will add mini-buckets with various syntaxes, and current solution seems satisfactory.<br>
 
