@@ -1,6 +1,16 @@
 ====Summary of the Instrument Branch Conference Calls====
 
 
+'''Agenda for 13. October 2008'''
+
+* Branch clean up (e.g. addressed editor notes)
+* Work on device mini use case "flow cytometer used to count CD8 positive cells" (e.g. http://www.scq.ubc.ca/flow-cytometry-a-technology-to-count-and-sort-cells/)
+** Pick a most important relations between instrument, manufacturer, function, protocol application, Biomaterial/sample, device part, instrument parameter, software and protocol and try to model.
+* Next round term submissions (nmr and Chrom CV terms) via xl2owl tool (http://70.167.3.46/~jgbaum/cgi-bin/xl2owl.cgi)
+
+[[InstrumentMinutes2008October13|Minutes]]
+
+
 
 '''Agenda for 29. July 2008'''
 * Look at Richard Scheuermann's use case at 
