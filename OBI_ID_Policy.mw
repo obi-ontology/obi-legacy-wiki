@@ -1,0 +1,23 @@
+OBI ID Policy
+
+'''Abstract'''
+
+As part of the release process, we want to produce files that have homogeneous identifiers (IDs) and stable URIs.
+
+Like the rest of the OBO ontologies we want to use purl [1] based URIs, because of the ability to redirect to a different URL should we want to change hosts, etc. (the current OBI URIs are based on Sourceforge).
+
+
+Regarding the form of the URI itself, those that have expressed an opinion have the opinion that we should give all entities that we define - classes, relations, and instances, with IDs and use labels for the human readable version.
+
+
+    * This differs from the current practice of having relations use names instead of ids in the identifiers. Also, we are planning to change the form of the purl based URI. Currently, the OBO URIs of are the form:http://purl.org/obo/owl/OBI#OBI_0100102 We don't like this because "owl" isn't a necessary part of the name.
+    * "OBI" appears redundantly in the URI
+    * The # doesn't scale if we want to provide web pages per term. What it means in the URI is that one should fetch the whole ontology, and then look up the part after the "#" - the "fragment identifier". For ontologies such as FMA, this is a real problem. OBI may similarly grow over time.
+
+
+    * All agree on using purl.org to redirect our URIs, with purl.obofoundry.org being an alias (that we control) for purl.org
+    * All agree on using IDs for everything from now on, with ids typically assigned by script just before release.
+    * We are in consensus that we should use URIs of the form http://purl.obofoundry.org/obo/OBI_0010000
+
+
+[http://docs.google.com/Doc?id=dzprnmw_8fnr5nmd4&hl=en OBI ID Policy document]
