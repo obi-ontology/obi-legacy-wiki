@@ -1,15 +1,44 @@
-'''Talk with us'''
+This is the developers page. This page lists the resources that are of use for people developing OBI.
+
+
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Talk with us</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Conference calls</font>
+! width=23% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Report bugs</font>
+! width=23% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Contribute</font>
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
 
 We have [[Mailing_lists| mailing lists]] for both users and developers. Join the users list to be notified of each OBI release. If you represent a Community that would like to collaborate in the development of OBI, contact the [https://lists.sourceforge.net/lists/listinfo/obi-coord| Coordination Committee].
 
-'''Conference Calls'''
-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
 Weekly Developer Working Group conference calls are held on Wednesdays from 11-12AM EST, 4-5PM GMT, with the exception of the second Wednesday of each month. For more information on these calls, check [https://wiki.cbil.upenn.edu/obiwiki/index.php/ConferenceCallAgenda the conference call agenda]. 
 
-'''Report bugs'''
+
+ 
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
 
 Visit our [http://purl.obofoundry.org/obo/obi/tracker issue tracker] to report problems or submit terms for inclusion, and to track their resolution.
 
-'''Contribute to the software effort'''
 
-Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] is open for perusal. The OBI [http://purl.obofoundry.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings.
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+
+Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] is open for perusal. The OBI [http://purl.obofoundry.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings. 
+|}
+
+[[Branch_development| Branch development of the Ontology]]
+
+[[Case_study| Case studies: submitted for representation within OBI]]
+
+[[Use_case| Use cases: demonstration how OBI can be used for a particular application domain]]
+
+[[UML_group| UML group]]
+
+[[Workshop| Developer workshops]]
