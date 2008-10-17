@@ -731,8 +731,8 @@ organism. This is important to characterize all kinds of man-made objects.
 E.g. you are expressing 'rabbit' hemagglutinin in E. Coli, spotting 'human'
 DNA probes on a microarray or synthesizing 'viral' peptides.<br>
 <br>
-relation is_similar_too? no, too fuzzy<br>
 
+relation is_similar_too? no, too fuzzy<br>
 could be derived from rabbit expressed in E coli? no, it's not derived from a rabbit (was not taken from rabbit)<br>
 
 protein sequence X, we need to know the origin: either rabbit or synthetized<br>
@@ -755,11 +755,11 @@ No consensus here:<br>
 ideas:<br>
 - MC: we need to care only about first PA, which would be taking sample from organism. Somebody who wants to go to the source can do it through the successive PAs.<br>
 - AR: we need to define the list of authorized PAs to say that it is still derived from organism. e.g. glue is not derived from horse, because some PA that was not acceptable took place<br>
+
 - Bjoern: we don't care about which PAs have been applied. If you want to consider your leather shoes to be of organismal origin it's fine too.<br>
 
 
 AR: plastic things are therefore entities of organismal origin, old trees -> pressure protocol -> aging protocol -> drilling protocol -> distilling protocol ....<br>
-
 
 End of discussion.
 <br>
@@ -793,12 +793,11 @@ AI: James to provide a list of the classes  missing metadata
 
 
 2. _move_to classes<br>
-
 - _move to information_content_entity -> all terms submitted<br>
 - _move to relations -> all terms submitted<br>
 - _move to role -> all terms submitted<br>
-- _move to protocol application<br>
 
+- _move to protocol application<br>
 discuss:<br>
 - lavage<br>
 proposed definition: the process of cleaning or rinsing (source
@@ -809,8 +808,8 @@ proposed definition: the process of preparing a tissue section for
 histology study. Usually involves several steps, like fixation.
 processing, embedding, sectioning and staining. (source wikipedia
 adapted)<br>
-- _move to quality<br>
 
+- _move to quality<br>
 discuss differentiation_state and organism_status<br>
 - _move to site: if agreement in the branch we should move in vivo as
 a child of site<br>
@@ -1428,5 +1427,6 @@ Proposal to solve ontology imports.
 Decision on cleaning up the tree: general clean-up of the terms (definition, metadata...) without worrying about position at the moment. Hopefully this will help us to clarify things for further steps.
 
 ==Related Links==
+*[[2008BiomaterialConferenceCalls|2008 conference calls notes ]]
 *[[2007BiomaterialConferenceCalls|2007 conference calls notes ]]
 *[http://groups.google.com/group/obi-biomaterial Join our mailing-list]
