@@ -3,7 +3,7 @@
 Present:
 
 Ryan Brinkman - Terry Fox Laboratory, Vancouver
-Melanie Courtot - Terry Fox Laboratory, Vancouver
+Melanie Courtot - Terry Fox Laboratory, Vancouver,
 Philippe Rocca-Serra - EBI
 Monnie McGee - Southern Methodist University, Dallas
 Tina Boussard, Dept Surgery, Stanford
@@ -12,6 +12,26 @@ Ricardo Pietrobon, Duke University
 
 1. Introductions for all
 
-2. Ppt by James.
+2. Ppt by James. * add slides
 
 Review of the latest ontology version in OBI.
+
+Use cases - we haven't been able to meet all of a complex use case and so we have broken this down into smaller cases. Want to use one of Ted's and one of Ricardo's use cases to look at the bigger picture and broke down the use cases.
+
+RP:The way that we do things in my group is very standardized, may be a good surprise for OBI
+
+RP:Looks like cells etc are really well represented, what about patients?
+
+JM:We use roles for that, and population for community
+
+PRS:population is what you mean by community? We have ways to describe the recruit process etc
+
+RP:Idea of people and their biomaterials is interesting
+
+PRS:Is a consequence of BFO and the way it models these
+
+Use cases:
+
+Data annotation
+Smart forms - autocompletion
+QC - nonsense detection - annotation detected etc
