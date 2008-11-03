@@ -19,7 +19,10 @@ Ricardo Pietrobon, Duke University
 
 
 *************************************************************************************
- == Day 1. 03 November 2008 ==
+ 
+
+
+== Day 1. 03 November 2008 ==
 
 
 
@@ -108,4 +111,10 @@ RP:Rupali who is in my group. She's working with ontologies, but she's yet not f
 
 JM:looking at the protege file. 
 
-PRS:Variables can be role, or can be part of plan or process. Still unresolved
+PRS:Responding to RP: Variables can be role, or can be part of plan or process. Still unresolved as to their location.
+
+HP:Are variables anywhere at present?
+
+MC:They are not anywhere. This goes back to an issue in BFO. 
+
+AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add this to the agenda for Vancouver.
