@@ -339,3 +339,11 @@ JM:Depends on the definition? If we use the output union.
 RB:When you do gating you can do subsets where you have more than you started with? Events on the boundaries - sets are overlapping.  Could have in any type of boundary event.
 
 JM:As long as they are only in 1 then this is OK.
+
+JM:Descriptive stats calculation - MM thinks that the definition is OK.
+
+RP:What's the difference between a mean method and a mean calculation
+
+HP:process and thing that is applied to process
+
+RP:Do you need to duplicate. The method is embedded in the class here. Is there a reason for duplication. They appear in the ontology twice.
