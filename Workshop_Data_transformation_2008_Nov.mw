@@ -347,3 +347,9 @@ RP:What's the difference between a mean method and a mean calculation
 HP:process and thing that is applied to process
 
 RP:Do you need to duplicate. The method is embedded in the class here. Is there a reason for duplication. They appear in the ontology twice.
+
+RP:you could have a general class for process and then realise the process as a general method and have the method realized as the process.
+
+HP:So an alternate way to model this is to have all the methods and then automatically have these as defined classes in the ontology.
+
+JM:The difference is the input and output - that's not a method
