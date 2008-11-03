@@ -35,3 +35,20 @@ Use cases:
 Data annotation
 Smart forms - autocompletion
 QC - nonsense detection - annotation detected etc
+Data exchange
+
+JM:Do these fit with your needs RP?
+
+RP:Research divided into basic, T1 clinical, T2 community. We deal a lot with clinical - about propsective studies, how do you formulate a research question. Literature, question, data analysis, from there, into the final manuscript. Very modular. We do data annotation towards the research question, and exclusion/inclusion criteria. QC not applies that much. Data exchange - huge thing in clinical research. What do you mean by that?
+
+JM: Vocabularies, formats etc - all of these. Query across all knowledge bases
+
+RP:CDISC example - protocols for data exchange and the vocabulary are distinct for them
+
+JM:That undersells OBI a bit
+
+RP:variable structure - ordinal, and role - what is the role - outcome, potential confounder - that's exchange. Vocab is about how we state gender.  That's what I mean
+
+JM:If you look at data annotation - that's vocab. Not using more than that. But we can use it as part of a knowledge base and then we have a way to do more than simply use the vocabulary
+
+RP:We have qm within the variable descriptions. Exchange is more interesting than the vocab. We are translating SNOMED into portugese. Not a nice process.
