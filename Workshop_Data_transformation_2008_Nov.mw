@@ -121,4 +121,44 @@ AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add thi
 
 Discussion on the web version of Protege - very slow, loading protege as an applet.
 
-RP:A group from Beijing have a web based version of Protege - I can send an email about that.
+RP:A group from Beijing have a web based version of Protege, will visit Beijing shortly and  - I can send an email about that.
+
+RP: I sent a long list of stat methods. We are working on inputs for those. Rupali is the preson working on that. Is a very long list and we are slowly going through this.
+
+AI:Follow up on input/output lists for zelig - with Rupali
+
+JM:We have had some statisticians look at this and added some new classification hierarchy.
+
+MC:we release a new version end of every month. We are waiting for the MSI issue. We were waiting for the feedback from the OBI coordinators.
+
+MM:Why are center calculations separated from averaging. A center calc is an average. 'Average' means mean median mode these are synonyms. Average should be a center calculation
+
+AI:'center calculation' and 'averaging data transformation' defined classes need attention. MM thinks that these could be conflated. Moving average needs to be under both. Data imputation possibly incorrect - could be a class in itself. Need a new defined class for that - probably objective. 
+
+MM:A moving average is a centre calc done over time, or a series of windows - is an average calc just done in a series rather than a single dataset. Usually used with time series data for smoothing in a window based form. Is still an average. 
+
+RP:Rather than having a single class, a moving average is not. nec a mean. So centre calc relation with time?
+
+RB:At least moving average under both.
+
+RP:Is moving average a different type of average?
+
+MM:Is just over a different kind of data
+
+PRS:Needs the window parameter
+
+RP:Is really a different class, or is child class plus some parameter  - like time, window size
+
+PRS:can be qualified on the input.
+
+MM:An objective then, or a moving mean child of mean? We discuss whether moving mode has ever been used.
+
+MM:Mode is used for categorical data.
+
+RB:So we would have moving mean, under mean
+
+MM:Do we have lowess localized and regressio smoother? Really a moving average is the same kind of thing as a window. In Lowess we do regression over a window. In moving average similar
+
+JM:Suggest that we make a definition in terms of an objective with some extra input e.g. for the window size. Would then be able to add easily to some other sort of term, e.g. lowess. 
+
+MM:Might work.
