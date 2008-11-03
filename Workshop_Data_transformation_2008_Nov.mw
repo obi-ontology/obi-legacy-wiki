@@ -437,6 +437,10 @@ MM:Differential expression is not associated with any specific statistic
 
 AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
 
-MM:Discriminant analysis is another way to talk about classification. Is a method of classification. Disc analysis should be a synonym of classification or class discovery
+MM:Discriminant analysis is another way to talk about classification. Is a method of classification. Disc analysis should be a synonym of classification or class discovery. 
 
 AI:Discriminant analysis should be a synonym of classification or class discovery MM
+
+MM:Worries that comparing 2 groups by disc analysis. thought disc analysis is just about classification. So assertion that these are synonyms are correct.
+
+AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S transformations should have objective normalization
