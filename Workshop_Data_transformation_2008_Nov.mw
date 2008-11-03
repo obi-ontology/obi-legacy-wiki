@@ -444,3 +444,34 @@ AI:Discriminant analysis should be a synonym of classification or class discover
 MM:Worries that comparing 2 groups by disc analysis. thought disc analysis is just about classification. So assertion that these are synonyms are correct.
 
 AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S transformations should have objective normalization
+
+AI: Feature extraction suggested to be made an objective as suggested in review.
+
+TB:Will the definition of feature extraction - clinical scanned images - e.g. MRI or similar. 
+
+RP:for some exams you do do that. Comes with an index per patient.
+
+PRS:the difference is that there is a pixel definition, pixel vs voxel. 
+
+HP:true also for the mouse imaging - may want to split into 2D and 3D. BIRN must have come up this, we can ask them if we need to extend
+
+AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if they are different.
+
+Discussion about what the objective is vs. a process. Defined classes are special class exist to sort things by rules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We need some methods:
