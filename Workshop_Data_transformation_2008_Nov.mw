@@ -23,25 +23,9 @@ Action Items:
 
 AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add this to the agenda for Vancouver.
 
-AI:Follow up on input/output lists for dt applications - for Xelig - with Rupali and RP
-
-AI:'center calculation' and 'averaging data transformation' defined classes need attention. MM thinks that these could be conflated. Moving average needs to be under both. Data imputation possibly incorrect - could be a class in itself. Need a new defined class for that - probably objective. 
-
-AI:Need to add the fuzzy clustering methods e.g. 
-http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
-
-AI:Find information for B transformation (existing term) - need an objective. - RB
-
-AI:Background correction - changes to an objective. RB
-
-AI:Follow up on input/output lists for zelig - with Rupali
-
-AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add this to the agenda for Vancouver.
-
 AI:Need to add the fuzzy clustering methods - http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
 
 AI:'center calculation' and 'averaging data transformation' defined classes need attention. MM thinks that these could be conflated. Moving average needs to be under both. Data imputation possibly incorrect - could be a class in itself. Need a new defined class for that - probably objective.
-
 
 AI:We will ask the metagenomic community for a use case. PRS. We will work on this when we have use cases for these
 
@@ -100,7 +84,6 @@ AI:gating is not a dimensionality reduction and is therefore incorrectly placed 
 AI:Background correction - changes to an objective. RB
 
 AI:Change 'data partitioning' to an objectiveAI:Find information for B transformation (existing term) - need an objective. - RB
-
 
 
 -----------------------------------------------------
