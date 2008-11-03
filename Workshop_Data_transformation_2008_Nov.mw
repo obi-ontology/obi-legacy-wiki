@@ -403,4 +403,20 @@ RB:Trimming is a process of outlier removal - are these synonyms
 AI:Def trimmed mean calc - has part trimming process, suceeded by mean calculation.
 Outlier removal to be added as an objective. 
 
-AI:Descriptive stats is also an objective
+AI:Descriptive stats also becomes an objective
+
+JM:Normalization should be straightforward
+
+MC:Do we need to deal with meta data issues
+
+JM:Should be OK
+
+JM:Partioning, I have added this as an objective.
+
+MM:We can add Ward's method under agglomerative h'arch clustering, also another one
+
+AI:Need defintion for Ward's method under agglomerative h'arch clustering - MC
+
+RP:Tree regression analysis - CART not on
+
+AI:Add CART - MM random forest MM - to OBI, QT clustering - RB
