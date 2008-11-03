@@ -463,6 +463,10 @@ We skip Fisher's exact test for now.
 
 MM:can normalize and then do a scale adjnustment - loess is one way to do a scale adjustment. Only seen scale adj in content of loess. 
 
-AI:We need a defined class 'scale adjustment' - asserted not defined and 'loess scaled group trans' is then a defined class. - has part scale adjustment, suceeding transformation.
+AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. We need a scaling objective as well and maybe a parent class scale_adjustment. 
 
-MM:looking to see whether other scaling adjustments instead of loess.
+AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
+
+MM:Not an objective?
+
+MC:A defined class is a way to say that if fulfills these conditions and no need to define.
