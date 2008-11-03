@@ -179,3 +179,7 @@ AI:Need to add the fuzzy clustering methods -
 http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
 
 MM:suggest that we change class discovery to pattern discovery. Can use class and also cluster on the basis of the samples, genes vs. class. They are not synonyms in this case.
+
+AI:RB will find information for B transformation (existing term) - need an objective.
+
+AI:Background correction - changes to an objective. RB
