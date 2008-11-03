@@ -367,3 +367,40 @@ JM:We had this discussion get a plot, what is it you get - data that is rendered
 RP:And the output of the test p value etc is in the ontology
 
 Yes work still to do.
+
+MM:Did we decide what to do with variables?
+
+HP:We can enumerate these and define them and put them in some unclassified place.
+
+MM:When you decide what test to use we need to know what variables we need. 
+
+AI:create a sheet for variables as these determine what test you do
+
+MC:I think these should go to information. DENRIE branch were dealing with this as with parameters, hence now with the IO. Nice to know if they plan to deal with this or not.
+
+PRS:well we are the main consumers
+
+PRS: Discussion on whether trim is its own process. E.g. trimmed mean - the mean has been processed. We can't assign qualities. We need to lift this limitation
+
+RP:Windowing is a true process. Mean is a method. 
+
+AI:add variable into the DT or DENRIE hierarchy - see how we have done it, and then it will get done.
+
+MM:trim is a quality, things that are processes can't have qualities. 
+
+PRS:Trim is a kind of filtering perhaps
+
+RB:Try and find a place to put a trimmed mean
+
+MM:Other places where you might do this
+
+RB:Filtering
+
+MM:remove data that is aberrant, outlier removal. To get a robust estimate of the mean. Wouldn't think about that as a filtering
+
+RB:Trimming is a process of outlier removal - are these synonyms 
+
+AI:Def trimmed mean calc - has part trimming process, suceeded by mean calculation.
+Outlier removal to be added as an objective. 
+
+AI:Descriptive stats is also an objective
