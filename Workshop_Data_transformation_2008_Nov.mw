@@ -463,7 +463,7 @@ We skip Fisher's exact test for now.
 
 MM:can normalize and then do a scale adjnustment - loess is one way to do a scale adjustment. Only seen scale adj in content of loess. 
 
-AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. We need a scaling objective as well and maybe a parent class scale_adjustment. 
+AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. Add a scaling objective will be added, loess scale gp trans is-a loess group transformation, followed by a scaling adjustment. This will be a defined class  - any dt with objective scaling.
 
 AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
 
