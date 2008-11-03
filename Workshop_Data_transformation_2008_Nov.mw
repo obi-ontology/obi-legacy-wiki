@@ -322,4 +322,8 @@ MC:RS wanted to say that gating was a property based partioning.
 
 HP:will we need to determine non property based partioning ever, property of what is being partioned?
 
-AI:Send an email Richard to describe the issue and see if he is happy  - MC
+AI:Send an email Richard to describe the issue and see if he is happy with the proposal above  - MC
+
+JM:Any objective can be done based on properties or randomly and we still have other classes. Dimensionality reduction also can be an objective. 
+
+AI:Address dimensionality reduction vs. data vector reduction - if these are the same thing - then we can have a single term for both. - MC will also add this to the email.
