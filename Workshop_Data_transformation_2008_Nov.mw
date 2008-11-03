@@ -222,7 +222,7 @@ RP:for one type of unput like count, you can mult distributions. Neg bionomial, 
 
 Use case: research question. Dataset trial clinical, 1300 patients, try to predict no of subjects enrolled per site. I am the PI of the trial, 150 sites worldwide, create a model to say which sites to select - each person in time for cost/time committment. I enroll all as as site, all sites recruit. I want a model to decide which sites I retain in the site. I use a bionomial count model, how do we find a count model for a count series. Once i include your prev. patterns of enrollment my model will do better at predicting. I want to model to account for base line variables, plus previous patterns of enrollmemt. Time series model has cont dep variable. Looked for time series for count variable, found experimental variables. This ontology would help - Base line var, count dependent var, time series etc - I need a way to find a model.
 
-Hypothesis - base line variable weakest predictor, but that prev patterns is the best thing.
+Hypothesis - base line variable weakest predictor, but that previous patterns is likely the best thing.
 
 MM:response variable is a count=patients enrolled. Dist of response var determine what linear model you need. 
 
