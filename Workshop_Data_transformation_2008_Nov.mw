@@ -180,6 +180,18 @@ http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
 
 MM:suggest that we change class discovery to pattern discovery. Can use class and also cluster on the basis of the samples, genes vs. class. They are not synonyms in this case.
 
-AI:RB will find information for B transformation (existing term) - need an objective.
+AI:Find information for B transformation (existing term) - need an objective. - RB
 
 AI:Background correction - changes to an objective. RB
+
+RP:Do you cite papers?
+
+JM:We always try to cite something, we will write it ourselves where we make a general definitions. 
+
+MM:Here we'd need many defs for many technologies, so we wrote our own definition
+
+MM:Loess is under curve setting and is also its own class. Is that OK? Also looking at loess scale group terms.
+
+RP:The question for modelling this plus the moving average - somethinh similar. MA a centre measure some stratification of the data. Loess scale group scaling here transforming the data rather than fitting the data. Always the method and something else. The class is the relationship between two other classes
+
+MC:This is what we think of as a defined class. Averaging data trans is-a data trans and some other properties
