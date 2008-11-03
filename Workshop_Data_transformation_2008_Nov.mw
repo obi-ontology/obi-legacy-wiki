@@ -512,3 +512,11 @@ Network Analysis -
 AI:Add a synonym to Network analysis - network topology analysis. 
 
 AI:Send an email to RS about Network analysis objectives
+
+Discussion on polynomial transformations - and whether this is a technique or a transformation?
+
+MM:Linear regression is a polynomial regression where stop at degree 1. 
+
+RP:Dealing with the independent var in a linear regression model
+
+AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
