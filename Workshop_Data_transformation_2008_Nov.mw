@@ -467,6 +467,6 @@ AI:Loess scale group transformation is a scaling adjustment. CHange tree to refl
 
 AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
 
-MM:Not an objective?
+MM:Not an objective? But a defined class?
 
 MC:A defined class is a way to say that if fulfills these conditions and no need to define.
