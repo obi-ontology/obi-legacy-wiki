@@ -465,4 +465,4 @@ We skip Fisher's exact test for now.
 
 MM:can normalize and then do a scale adjnustment - loess is one way to do a scale adjustment. Only seen scale adj in content of loess. 
 
-AI:We need a defined class, class has_part Loess gp transformation, suceeded by a scaling.
+AI:We need a defined class 'scale adjustment' - asserted not defined and 'loess scaled group trans' is then a defined class.
