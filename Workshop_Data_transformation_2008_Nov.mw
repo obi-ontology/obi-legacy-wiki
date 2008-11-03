@@ -520,3 +520,5 @@ MM:Linear regression is a polynomial regression where stop at degree 1.
 RP:Dealing with the independent var in a linear regression model
 
 AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
+
+PRS:metabolomics terms use cases from metabolomics from MSI.
