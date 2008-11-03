@@ -162,3 +162,20 @@ MM:Do we have lowess localized and regressio smoother? Really a moving average i
 JM:Suggest that we make a definition in terms of an objective with some extra input e.g. for the window size. Would then be able to add easily to some other sort of term, e.g. lowess. 
 
 MM:Might work.
+
+RB:Where's C means?
+
+MM:K means?
+
+RB:K means is there, that's why I was wondering about C means
+
+MM/JM: what's C means
+
+RB:K means need to chose clusters, C means not the case
+
+MM:Fuzzy?
+
+AI:Need to add the fuzzy clustering methods -
+http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
+
+MM:suggest that we change class discovery to pattern discovery. Can use class and also cluster on the basis of the samples, genes vs. class. They are not synonyms in this case.
