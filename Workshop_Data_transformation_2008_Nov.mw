@@ -521,4 +521,8 @@ RP:Dealing with the independent var in a linear regression model
 
 AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
 
-PRS:metabolomics terms use cases from metabolomics from MSI.
+PRS: Metabolomics terms use cases from metabolomics from MSI.
+
+AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
+
+AI:We will ask the metagenomic community for a use case. PRS
