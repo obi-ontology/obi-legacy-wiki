@@ -282,3 +282,44 @@ PRS:Hypothesis testing. I already added terms related to this
 MM:FDR is under a different heading, multiple testing. The spreadsheet is on sf
 
 [Link to tracker item ||http://sourceforge.net/tracker/index.php?func=detail&aid=1889536&group_id=177891&atid=886178]
+
+
+== Back to Branch Review ==
+
+JM:Back to the gating discussion. Gating is a child of 'data vector reduction' - child of 'data partitioning'
+
+AI:Change 'data partitioning' to an objective
+
+JM:Data vector reduction, also an objective 
+
+MM:DVR is a method of reducing dimensionality
+
+JM:Partitioning is slice up input - does union of outputs = input. Is that a fair definition
+
+MM:I don't think you lose output
+
+RP:Do you lose information
+
+MM:Depends on the partition, you may collapse the dimensions.
+
+JM:This is a child of data partioning, if we change the def of this then the child reln will wrong.
+
+RP:Is it reversible?
+
+TB:We had a discussion about this before
+
+JM:Seems that gating is about partitioning that doesn't involve loss of data
+
+MM:Partioning is divide into blocks, union output=input
+
+JM:So data vector reduction needs a new parent. 
+
+RB:you can use clustering to do gating
+
+AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR -  was this created so that gating will fall into the hierarchy?
+
+MC:RS wanted to say that gating was a property based partioning.
+
+HP:will we need to determine non property based partioning ever, property of what is being partioned?
+
+AI:Send an email Richard to describe the issue and see if he is happy  - MC
