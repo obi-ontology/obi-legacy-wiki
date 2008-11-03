@@ -34,6 +34,74 @@ AI:Find information for B transformation (existing term) - need an objective. - 
 
 AI:Background correction - changes to an objective. RB
 
+AI:Follow up on input/output lists for zelig - with Rupali
+
+AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add this to the agenda for Vancouver.
+
+AI:Need to add the fuzzy clustering methods - http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
+
+AI:'center calculation' and 'averaging data transformation' defined classes need attention. MM thinks that these could be conflated. Moving average needs to be under both. Data imputation possibly incorrect - could be a class in itself. Need a new defined class for that - probably objective.
+
+
+AI:We will ask the metagenomic community for a use case. PRS. We will work on this when we have use cases for these
+
+AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
+
+AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
+
+AI:Send an email to RS about Network analysis objectives
+
+AI:Add a synonym to Network analysis - network topology analysis.
+
+AI:Need some way to relate multiple testing with the need for multiple test correction RB has a use case
+
+AI:Add more children for specific methods of multiple testing procedure.
+
+AI:We need a new objective - 'Type 1 Error Rate correction'
+
+AI:JM will email Elisabetta offline to ask about MA transformation objective.
+
+AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
+
+AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. Add a scaling objective will be added, loess scale gp trans is-a loess group transformation, followed by a scaling adjustment. This will be a defined class - any dt with objective scaling.
+
+AI:Add feature selection - objective. RB In this sense doing machine learning as in wikipedia http://en.wikipedia.org/wiki/Feature_selection - RB. Random forests should be under feature selection.
+
+AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if they are different.
+
+AI: Feature extraction suggested to be made an objective as suggested in review.
+
+AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S transformations should have objective normalization
+
+AI:Discriminant analysis should be a synonym of classification or class discovery MM
+
+AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
+
+AI:Review branch to check for missing subsumption of terms for objectives
+
+AI:Add CART random forest to OBI MM will define , QT clustering - RB will define
+
+AI:Need defintion for Ward's method under agglomerative h'arch clustering - MC
+
+AI:Descriptive stats also becomes an objective
+
+AI:Def trimmed mean calc - has part trimming process, suceeded by mean calculation. Outlier removal to be added as an objective.
+
+AI:add variable into the DT or DENRIE hierarchy - see how we have done it, and then it will get done.
+
+AI:create a sheet for variables as these determine what test you do
+
+AI:Address dimensionality reduction vs. data vector reduction - if these are the same thing - then we can have a single term for both. - MC will also add this to the email.
+
+AI:Send an email Richard to describe the issue and see if he is happy with the proposal above - MC
+
+AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR - was this created so that gating will fall into the hierarchy?
+
+AI:Background correction - changes to an objective. RB
+
+AI:Change 'data partitioning' to an objectiveAI:Find information for B transformation (existing term) - need an objective. - RB
+
+
 
 -----------------------------------------------------
  
