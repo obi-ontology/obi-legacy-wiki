@@ -52,3 +52,15 @@ RP:variable structure - ordinal, and role - what is the role - outcome, potentia
 JM:If you look at data annotation - that's vocab. Not using more than that. But we can use it as part of a knowledge base and then we have a way to do more than simply use the vocabulary
 
 RP:We have qm within the variable descriptions. Exchange is more interesting than the vocab. We are translating SNOMED into portugese. Not a nice process.
+
+JM:Design decisions - we decided to use some devices to progress. We wanted to use roles to say that a transformation plays a role to avoid multiple parentage. Processes can't be the bearer of roles, this caused a problem for the design. Therefore we had an 'objective' - e.g. clustering, classifying.
+
+MC:we had a hierachy originally with these terms in built e.g. normalization and this had a lot of parentage issues. 
+
+JM:We are using the reasoner to build the hierarchy we have - we avoid multiple inheritance, also more maintainable.
+
+JM:Input and output - dt has 'non realizable info entity' - these terms may not live in OBI for ever. We may import these in future.
+
+RP:Ontolology is on SVN?
+
+JM:Yes and is all DL
