@@ -220,10 +220,26 @@ MC:we can say something about the input.
 
 RP:for one type of unput like count, you can mult distributions. Neg bionomial, poisson. Input being count, and method split across difft dist families as an example.
 
-Use case: research question. Dataset trial clinical, 1300 patients, try to predict no of subjects enrolled per site. I am the PI of the trial, 150 sites worldwide, create a model to say which sites to select - each person in time for cost/time committment. I enroll all as as site, all sites recruit. I want a model to decide which sites I retain in the site. I use a bionomial count model, how do we find a count model for a count series. Once i include your prev. patterns of enrollment my model will do better at predicting. I want to model to account for base line variables, plus previous patterns of enrollmemt. Time series model has cont dep variable. Looked for time series for count variable, found experimental variables. This ontology would help - Base line var, count dependent var, time series etc - I need a way to find a model.
+Use case: research question. Dataset trial clinical, 1300 patients, try to predict no of subjects enrolled per site. I am the PI of the trial, 150 sites worldwide, create a model to say which sites to select - each person in time for cost/time commitment. I enroll all as as site, all sites recruit. I want a model to decide which sites I retain in the site. I use a bionomial count model, how do we find a count model for a count series. Once i include your prev. patterns of enrollment my model will do better at predicting. I want to model to account for base line variables, plus previous patterns of enrollment. Time series model has cont dep variable. Looked for time series for count variable, found experimental variables. This ontology would help - Base line var, count dependent var, time series etc - I need a way to find a model.
 
 Hypothesis - base line variable weakest predictor, but that previous patterns is likely the best thing.
 
 MM:response variable is a count=patients enrolled. Dist of response var determine what linear model you need. 
 
 RP:Not 1:1 can have multiple models per variable
+
+JM:We do have some examples of hypothesis testing where we say things about what kinds of data are allowed. We have a spreadsheet of all
+
+RP:I was trying to get at the question what determines the choice of method.
+
+MM:All of the things mentioned come under the general linear model, type of glm is determibed by dist of response variable and not the predictors. 
+
+RP:method varies dep. on what the predictors are.
+
+MM:There may not be a method in this case, at least not an optimal one
+
+HP:For OBI though you are using the ontology to say given x parameters, what are the available methods?
+
+JM:This is a good query - I have this data, has some distributions, what dt can I run. We need the inputs on the dts to do this. We can then answer the query
+
+RP:In my group - 'here's the question what's the best analysis method' happens all the time. There are interesting effects with 'last push effects' - get 'seasons' in the data - that relate to length and phase of recruitment
