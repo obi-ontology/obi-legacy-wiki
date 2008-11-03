@@ -3,11 +3,17 @@
 Present:
 
 Ryan Brinkman - Terry Fox Laboratory, Vancouver
+
 Melanie Courtot - Terry Fox Laboratory, Vancouver,
+
 Philippe Rocca-Serra - EBI
+
 Monnie McGee - Southern Methodist University, Dallas
+
 Tina Boussard, Dept Surgery, Stanford
+
 Helen Parkinson, EBI
+
 Ricardo Pietrobon, Duke University
 
 1. Introductions for all
@@ -63,4 +69,20 @@ JM:Input and output - dt has 'non realizable info entity' - these terms may not 
 
 RP:Ontolology is on SVN?
 
-JM:Yes and is all DL
+JM/PRS:Yes and is all DL. 
+
+JM:The complexity of describing input/outputs allows use to futureproof things. We need to say some things about some dts. E.g. Log base 10 - we no way to represent this in OBI. Due to things being unclear with BFO. Some transformations have a feature e.g. log - allows capture difference between log base 10 and log base 2. Shouldn't be here in the long term. 
+
+HP:Is under data transformation, not really there
+
+MC:For convenience we could assert it under OWL thing for now
+
+JM:Will not stay there for sure. We have not reached a satisfactory conclusion. BS thinks that numbers should be under a number ontology. Better live in the information ontology.
+
+RP:Is OBI operational? Will show some applications where this will be implemented
+
+MC:We have systems for maintaining stability, ids, etc, and meaning not just labels. We guarantee to you that the ids stay the same. 
+
+RP:But position may change?
+
+MC:If log base moves, we need to decide if changes the meaning. We then deprecate and change.
