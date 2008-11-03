@@ -86,3 +86,9 @@ MC:We have systems for maintaining stability, ids, etc, and meaning not just lab
 RP:But position may change?
 
 MC:If log base moves, we need to decide if changes the meaning. We then deprecate and change.
+
+RP:What's the current percentage that is stable.
+
+PRS:Until we have run the use cases and we are confident that we can do this, then this will be announced. 
+
+RP:A chicken and egg problem. Our systems are experimental - this is OK for us, is  good test bed.
