@@ -195,3 +195,31 @@ MM:Loess is under curve setting and is also its own class. Is that OK? Also look
 RP:The question for modelling this plus the moving average - somethinh similar. MA a centre measure some stratification of the data. Loess scale group scaling here transforming the data rather than fitting the data. Always the method and something else. The class is the relationship between two other classes
 
 MC:This is what we think of as a defined class. Averaging data trans is-a data trans and some other properties
+
+RP:The Zelig package from R - the have some structure built in. 
+
+http://gking.harvard.edu/zelig/
+
+PRS:We could use has_part relations to define that we do this doing some particular thing?
+
+RP:May or may not be useful. 
+
+JM:As a general rule, the more you can say about each class, the richer it becomes
+
+RP:Zelig says that there is one method -'generalized linear models' and different distribution families
+
+JM:Is this a feature of the process or the output data?
+
+MM:Is a property of the data - the distribution. 
+
+RP:I agree, but the method is different due to the distribution
+
+MM:general linear model is really rich
+
+MC:we can say something about the input.
+
+RP:for one type of unput like count, you can mult distributions. Neg bionomial, poisson. Input being count, and method split across difft dist families as an example.
+
+Use case: research question. Dataset trial clinical, 1300 patients, try to predict no of subjects enrolled per site. I am the PI of the trial, 150 sites worldwide, create a model to say which sites to select - each person in time for cost/time committment. I enroll all as as site, all sites recruit. I want a model to decide which sites I retain in the site. I use a bionomial count model, how do we find a count model for a count series. Once i include your prev. patterns of enrollment my model will do better at predicting. I want to model to account for base line variables, plus previous patterns of enrollmemt. Time series model has cont dep variable. Looked for time series for count variable, found experimental variables. This ontology would help - Base line var, count dependent var, time series etc - I need a way to find a model.
+
+Hypothesis - base line variable weakest predictor, but that prev patterns is the best thing.
