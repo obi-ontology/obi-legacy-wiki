@@ -419,4 +419,26 @@ AI:Need defintion for Ward's method under agglomerative h'arch clustering - MC
 
 RP:Tree regression analysis - CART not on
 
-AI:Add CART - MM random forest MM - to OBI, QT clustering - RB
+AI:Add CART random forest  to OBI MM will define , QT clustering - RB will define 
+
+JM:As DT is now under objective driven process. We know therefore that all should have at least one process. There are terms that come under a process
+
+AI:Review branch to check for missing subsumption of terms for objectives
+
+RP:Fisher's exact is a hypothesis test (looking at the s/sheet), what are parents?
+
+MM:we didn't get to that yet
+
+MM:Differential expression analysis - could also be used in microarray - is a hypothesis test. Need to test centre vs spread measures. 
+
+TB:A hypothesis test is more general?
+
+MM:Differential expression is not associated with any specific statistic
+
+AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
+
+MM:Discriminant analysis is another way to talk about classification. Is a method of classification. Disc analysis should be a synonym of classification or class discovery
+
+AI:Discriminant analysis should be a synonym of classification or class discovery MM
+
+MM:All discrimination is separation of data.
