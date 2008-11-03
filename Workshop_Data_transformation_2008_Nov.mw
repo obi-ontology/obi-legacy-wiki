@@ -353,3 +353,17 @@ RP:you could have a general class for process and then realise the process as a 
 HP:So an alternate way to model this is to have all the methods and then automatically have these as defined classes in the ontology.
 
 JM:The difference is the input and output - that's not a method
+
+RP:For descriptive stats what about graphics
+
+MM:We didn't try to put these in
+
+MC:These are in another branch - DENRIE 
+
+RP:Can get complex.
+
+JM:We had this discussion get a plot, what is it you get - data that is rendered as a plot. Direct output is data that is rendered.
+
+RP:And the output of the test p value etc is in the ontology
+
+Yes work still to do.
