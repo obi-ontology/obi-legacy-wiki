@@ -678,12 +678,17 @@ Break info about tests down so that clinicians can understand the stats. Clinici
 
 Layer 1: What a method is and what it does. Use example hypothesized conclusion from a previous question diagram
 
-Layer 2: Input, what types of variables:
+Layer 2: Input, what types of variables - has reln with the question diagram variables, methods section of the paper:
 structure
   continuous
   categorical
     nominal
     ordinal
   time dependent
+
+Role:
+  Outcome
+  Predictor
+  Potential confounder ...
 
 Layer 3:
