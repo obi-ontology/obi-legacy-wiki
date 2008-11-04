@@ -16,6 +16,8 @@ Helen Parkinson, EBI
 
 Ricardo Pietrobon, Duke University
 
+Ted Liefeld, Broad Institute
+
 
 -------------
 
@@ -666,4 +668,4 @@ Researcher->Statistician
 
 Statistician->Researcher
 
-Hypothesized conclusion must match the variables - allows internal consistency checking - QD axis.
+Hypothesized conclusion must match the variables - allows internal consistency checking - QD axis. Many published papers are missing this info. All this is done completely manual. Would like an ontology to help with this.
