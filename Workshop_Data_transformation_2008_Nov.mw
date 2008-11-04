@@ -699,3 +699,32 @@ Tables and Graphics
 Layer 4:
 Previous publications (teach by example)
 Application in another area can promote reuse
+
+Layer 5:
+Additional references
+  Wikipedia
+  Books
+  Articles
+  Datasets and scripts (to teach biostatistics)
+
+<b>Use case 2, Pietrobon 2004</b>
+Had a method, looking for a dataset to apply the method e.g. Item response theory
+
+All publications work in this way. 
+
+Course in outcomes research in different universities
+
+See paper streamlining biomedical research analysis - IEEE Carvalho and Pietrobon 2008
+
+Using OBI
+---------
+
+Variable ontology aligned with the research question - maybe follow the question diagram framework
+
+E.g. Structure of the variable, role of the variable in the context of the research question
+
+Analysis methods aligned with the input and output in the layers
+
+- statistical tests etc
+
+tests beds database where OBI can be integrated. Using semantic media wiki, could use the ontology there. There are wiki forms where can attach an ontology.
