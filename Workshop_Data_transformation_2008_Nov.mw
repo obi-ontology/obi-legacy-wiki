@@ -670,4 +670,8 @@ Statistician->Researcher
 
 Hypothesized conclusion must match the variables - allows internal consistency checking - QD axis. Many published papers are missing this info. All this is done completely manual. Would like an ontology to help with this.
 
-A single dataset can have multiple question diagrams and multiple papers.
+A single dataset can have multiple question diagrams and multiple papers. A single dataset can have 5000 variables.
+
+Establishing communication between statistician and the scientist:
+
+Break info about tests down so that clinicians can understand the stats. Clinicians think in terms of previous examples.
