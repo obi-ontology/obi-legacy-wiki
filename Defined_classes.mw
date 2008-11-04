@@ -5,7 +5,7 @@ At the 2007 summer workshop it was decided to allow defined classes in OBI, for 
 
 The first case is the stronger. The second (need for polyhierarchy) needs further justification in the form of plausible use cases and should be reviewed once we have some.
 
-[DS: E.g. do most biologist expect to find a 'LC-MS assay' as well under 'LC assay' as under 'MS assay', or do they want to find it assigned under 'MS assay' only, the one that controlled the output data to a greater degree?]
+[DS: E.g. Most biologist expect to find a 'LC-MS assay' as well under 'LC assay' as under 'MS assay'. I guess in this discussion we always need to state when we assume the classification/reasoning step  to take place and what view of the ontology (asserted or inferred) we present to the users.]
 
 An action item was to come up with a mechanism of handling these defined classes in day to day development of the ontology - where to put them, how to mark them, what are policies related to them?
 
@@ -19,23 +19,23 @@ This page is a draft for discussion.
 
 * It is uncertain whether the converse is true, that all classes with neccessary and sufficient conditions are defined classes. Therefore defined classes should be marked as such. Absent a way to create a metaclass in OWL, we will use an annotation property: obi:class_type asserted on defined classes  with values: possible values: "defined_term" "defined_for_normalization", or "universal" to indicate the two choices above, or the usual case. To avoid having people to remember to add class_type:universal in the common case we will have a script add this property to all classes that don't already have a class_type property value. Additional comments regarding the choice to use a defined class should be placed in the editor note. All other metadata for a class is relevent for defined classes.
 
-[DS: I dont think such an indication is necessary. In the Editors Protege and OBO Edit defined classes are marked as such. I think adding a 'defined_class' metadata tag is not necessary, redundant and will only contribute to overcomplicate development and decrease user acceptance.]
+[DS: I dont think such an indication is necessary. In the Editors Protege and OBO Edit defined classes are marked as such. I think adding a 'defined_class' metadata tag is not necessary, redundant and will only contribute to overcomplicate implementation, development and decrease user acceptance even further.]
 
 * The definition of a defined classes does not necessarily follow the usual Aristotelian definition form, but should when appropriate. The definition should indicate that the class is defined. Proposal: wording such as "Individuals in the class foo are defined to be ...". 
 
-[DS: Such definition should state which conditions (relations+class values) are part of its essential properties. Its Genus is stated explicitly as well (see naming conventions). So the question is whether all the new (inferred) Geni (is that correct Latin plural?) need to be stated explicitly in the definition].
+[DS: Such definition should state which conditions (relations+class values) are part of its essential properties, but only the differrentiae. The question is whether new (inferred) Geni (is that correct Latin plural?) need to be stated explicitly in the definition].
 
 * All defined classes have logical definitions. (Pierre notes issue with defined classes that it might be hard to write logical definitions. To be resolved, see email thread)
 
 * Any class that is not a defined class is intended to be a universal.
 
-[DS: Can anybody provide an example for such a universal that can not be modeled as a defined class using more granular atoms? I think any class can be made a defined class, the question is when can we/the user/the reasoner profit from this...]
+[DS: Can anybody provide an example for such a universal that can not be modeled as a defined class using more granular atoms? I think any class can be made a defined class, the question is when can we/the user/the reasoner profit from this... There is nothing wrong with having primitive classes in an owl ontology, we should keep realistic about this.]
 
-* Defined classes should have a single expression indicating the necessary and sufficient conditions and should have no additional necessary conditions.
+* Defined classes should have a single expression indicating the necessary and sufficient conditions and should have no additional necessary conditions [DS:.. that are explicitly defined (they will have inherited N restrictions of cause)].
 
-* In visual ontology editors such as protege, one must define a class as a subclass of some existing class. Tools may not have appropriate support for the visual organization of defined classes, and may partially evaluate the consequences of the logical definition when placing the term in the class hierarchy. As an initial practice, we will add terms that naturally fall under a branch to be a subclass of the branch top level, and those that do not as a subclass of Entity.
+* In visual ontology editors such as Protege, one must define a class as a subclass of some existing class. Tools may not have appropriate support for the visual organization of defined classes, and may partially evaluate the consequences of the logical definition when placing the term in the class hierarchy. As an initial practice, we will add [DS: defined classes] terms that naturally fall under a branch to be a subclass of the branch top level [DS: contradictive with statement below (junk classes under :thing) ], and those that do not as a subclass of Entity.
 
-* It is an open question as to under what situations, if any,  we should ''assert''  that some class is a subclass of  a defined class. Intuitively it would seem that universals should not be subclasses of defined classes. Unless otherwise specified, we will not assert subclasses of defined classes until we have motivating examples.
+* It is an open question as to under what situations, if any,  we should ''assert''  that some class is a subclass of  a defined class. Intuitively it would seem that universals should not be subclasses of defined classes [DS: State the intuitive reason]. Unless otherwise specified, we will not assert subclasses of defined classes until we have motivating examples.
 
 * A defined class should not be asserted to be disjoint from another. If they are disjoint from other classes it should be as a consequence of their definition. 
 
@@ -53,12 +53,12 @@ However, If knowledge is being manually re-stated within the defined class "bran
 
 '''Questions: '''
 * Should we have separate files for defined classes?
-  Bjoern: No, Pierre: Yes, Alan: prefer separate, but [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000260.html protege makes us pay too much for extra files], so maybe no.
+  Bjoern: No, Pierre: Yes, Alan: prefer separate, but [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000260.html protege makes us pay too much for extra files], so maybe no. Daniel: No.
 
 * Should we accommodate Protege's UI and create junk classes so that defined classes can be put in a "folder".
-  Barry: No, Bjoern: Yes, Pierre: Dunno Alan: Prefer no, and would instead like [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000228.html tool support] 
+  Barry: No, Bjoern: Yes, Pierre: Dunno Alan: Prefer no, and would instead like [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000228.html tool support] DS: No. Also: Better call them Helper classes. They are no junk.
 
- Resolution: junk classes directly below owl:thing, one per branch. Home file for each of these classes is the branch file.
+ Resolution: junk classes directly below owl:thing, one per branch [DS: Wasn't the policy introduced above to have them at branch root level? At the momengt we haev a crude mixture]. Home file for each of these classes is the branch file.
 
 * Are there motivations for defined classes other than the two listed?
 
