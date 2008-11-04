@@ -1,6 +1,6 @@
 Data Transformation Workshop Day 2 04 November 2008
 
-==DAY 2==
+==DAY 2 AM==
 
 Presentation Ricardo Pietrobon - Computational Ontologies in the process of streamlining biomedical data analysis 
 
@@ -185,7 +185,7 @@ TB:Database of database is about clinical research, yes
 
 == Day 2 PM ==
 
-Discussion on the Zelig work that RP has done categorizing inputs and outputs and how to use that.
+Discussion on the Zelig work that RP has done categorizing inputs and outputs and how to use that in the context of OBI.
 
 JM:We can look at your use cases and develop comptency questions. 
 
@@ -193,4 +193,32 @@ RP:My experience for clinical research is that we need a few tests
 
 HP:Can we focus on a core set that we can add to OBI and see what the intersection is with what we have already and what Monnie did preparing the hypothesis tests?
 
-Working on the hypothesis test document
+Working on the hypothesis test document:
+
+RP:Many of these fall into one categorg e.g. Chi squared becomes exact with an option.
+
+HP:The current parentage doesn't need to be correct
+
+RP:We did not include paired in our characterization, we did have parametric and non parametric.
+
+RP:What's quanitative and qualitative
+
+MM:ordinal is quantitative 
+
+Discussion on the classification we used vs the one RP used.
+
+MM:We can change the classification if needed
+
+Qualitative changes to nominal
+
+MM:Dichotomous is a subset of nominal 
+
+Discussion on whether we need nominal ordinal or another classification
+
+MM:The response variable was in mind when we built the sheet.
+
+RP:The univariate and multivariate - difference between epidemiologists - would call this a bi-variate. 
+
+MM:in stats is about the no of response var, one response var is univariat
+
+We upload this as a google doc so that we can edit it.
