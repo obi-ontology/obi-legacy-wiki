@@ -747,4 +747,24 @@ RB:Is there a downside
 
 TB:New focus for us.
 
-JM:We've talked about data having rules, this will be a problem, not allowed in BF0.
+JM:We've talked about data having rules, this will be a problem, not allowed in BF0. E.g. a variable can't be a predictor role in BFO
+
+MC:We need to know what we want to represent as variables. These will be in IO.
+
+AI:Dump out the definitions of the variables used at Duke - these are defined in templates RP
+
+RP:Not everything is covered - there are exceptions to that structure
+
+PRS:We have worked on different branchs, I found important going over the study descriptions. When we define the perturbations in bio systems we have a similar set up, different vocab. We are missing variable structure. Continuous etc. Relates back to where variables live. Question, of how method apply affects the study design. Think things are aligned already with OBI
+
+RP:Structures in a data dictionary can be changed. Think need to know the variable structure prior to selecting a method
+
+PRS:Plan and dt branches need cross talk 
+
+JM:How can we break this down. Variables, if you have these we can add them. We have already talked to AR about this. Will post to them to get a response. 
+
+RP:Continue the methods mapping inputs - stat methods to their inputs. 
+
+TB:We can take that as a concrete example. Cover the hypothesis, methods, and the results in OBI. We can start on the methods.
+
+HP:We may need to consider modelling methods not some process, if these are not equivalent
