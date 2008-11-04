@@ -1,1 +1,504 @@
 Data Transformation Workshop Day 1 03 November 2008
+
+
+
+
+== Day 1. 03 November 2008 ==
+
+
+
+1. Introductions for all
+
+2. PPT by James. * add slides
+
+Review of the latest ontology version in OBI.
+
+Use cases - we haven't been able to meet all of a complex use case and so we have broken this down into smaller cases. Want to use one of Ted's and one of Ricardo's use cases to look at the bigger picture and broke down the use cases.
+
+RP:The way that we do things in my group is very standardized, may be a good surprise for OBI
+
+RP:Looks like cells etc are really well represented, what about patients?
+
+JM:We use roles for that, and population for community
+
+PRS:population is what you mean by community? We have ways to describe the recruit process etc
+
+RP:Idea of people and their biomaterials is interesting
+
+PRS:Is a consequence of BFO and the way it models these
+
+Use cases:
+
+Data annotation
+Smart forms - autocompletion
+QC - nonsense detection - annotation detected etc
+Data exchange
+
+JM:Do these fit with your needs RP?
+
+RP:Research divided into basic, T1 clinical, T2 community. We deal a lot with clinical - about propsective studies, how do you formulate a research question. Literature, question, data analysis, from there, into the final manuscript. Very modular. We do data annotation towards the research question, and exclusion/inclusion criteria. QC not applies that much. Data exchange - huge thing in clinical research. What do you mean by that?
+
+JM: Vocabularies, formats etc - all of these. Query across all knowledge bases
+
+RP:CDISC example - protocols for data exchange and the vocabulary are distinct for them
+
+JM:That undersells OBI a bit
+
+RP:variable structure - ordinal, and role - what is the role - outcome, potential confounder - that's exchange. Vocab is about how we state gender.  That's what I mean
+
+JM:If you look at data annotation - that's vocab. Not using more than that. But we can use it as part of a knowledge base and then we have a way to do more than simply use the vocabulary
+
+RP:We have qm within the variable descriptions. Exchange is more interesting than the vocab. We are translating SNOMED into portugese. Not a nice process.
+
+JM:Design decisions - we decided to use some devices to progress. We wanted to use roles to say that a transformation plays a role to avoid multiple parentage. Processes can't be the bearer of roles, this caused a problem for the design. Therefore we had an 'objective' - e.g. clustering, classifying.
+
+MC:we had a hierachy originally with these terms in built e.g. normalization and this had a lot of parentage issues. 
+
+JM:We are using the reasoner to build the hierarchy we have - we avoid multiple inheritance, also more maintainable.
+
+JM:Input and output - dt has 'non realizable info entity' - these terms may not live in OBI for ever. We may import these in future.
+
+RP:Ontolology is on SVN?
+
+JM/PRS:Yes and is all DL. 
+
+JM:The complexity of describing input/outputs allows use to futureproof things. We need to say some things about some dts. E.g. Log base 10 - we no way to represent this in OBI. Due to things being unclear with BFO. Some transformations have a feature e.g. log - allows capture difference between log base 10 and log base 2. Shouldn't be here in the long term. 
+
+HP:Is under data transformation, not really there
+
+MC:For convenience we could assert it under OWL thing for now
+
+JM:Will not stay there for sure. We have not reached a satisfactory conclusion. BS thinks that numbers should be under a number ontology. Better live in the information ontology.
+
+RP:Is OBI operational? Will show some applications where this will be implemented
+
+MC:We have systems for maintaining stability, ids, etc, and meaning not just labels. We guarantee to you that the ids stay the same. 
+
+RP:But position may change?
+
+MC:If log base moves, we need to decide if changes the meaning. We then deprecate and change.
+
+RP:What's the current percentage that is stable.
+
+PRS:Until we have run the use cases and we are confident that we can do this, then this will be announced. 
+
+RP:A chicken and egg problem. Our systems are experimental - this is OK for us, is  good test bed.
+
+MC:As of today, the meaning is in the term, this is the base unit. As we have stable ids, is OK to use as a CV. As term position may change, and not all is complete you may not want to use it further. 
+
+JM:That's fair. We need to get to input and ouput. Not there for a fully functional knowledge basis.
+
+RP:Rupali who is in my group. She's working with ontologies, but she's yet not fully trained yet in all our processes - but she's been interacting with the OBO groups.
+
+JM:looking at the protege file. 
+
+PRS:Responding to RP: Variables can be role, or can be part of plan or process. Still unresolved as to their location.
+
+HP:Are variables anywhere at present?
+
+MC:They are not anywhere. This goes back to an issue in BFO. 
+
+AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add this to the agenda for Vancouver.
+
+Discussion on the web version of Protege - very slow, loading protege as an applet.
+
+RP:A group from Beijing have a web based version of Protege, will visit Beijing shortly and  - I can send an email about that.
+
+RP: I sent a long list of stat methods. We are working on inputs for those. Rupali is the preson working on that. Is a very long list and we are slowly going through this.
+
+AI:Follow up on input/output lists for zelig - with Rupali
+
+JM:We have had some statisticians look at this and added some new classification hierarchy.
+
+MC:we release a new version end of every month. We are waiting for the MSI issue. We were waiting for the feedback from the OBI coordinators.
+
+MM:Why are center calculations separated from averaging. A center calc is an average. 'Average' means mean median mode these are synonyms. Average should be a center calculation
+
+AI:'center calculation' and 'averaging data transformation' defined classes need attention. MM thinks that these could be conflated. Moving average needs to be under both. Data imputation possibly incorrect - could be a class in itself. Need a new defined class for that - probably objective. 
+
+MM:A moving average is a centre calc done over time, or a series of windows - is an average calc just done in a series rather than a single dataset. Usually used with time series data for smoothing in a window based form. Is still an average. 
+
+RP:Rather than having a single class, a moving average is not. nec a mean. So centre calc relation with time?
+
+RB:At least moving average under both.
+
+RP:Is moving average a different type of average?
+
+MM:Is just over a different kind of data
+
+PRS:Needs the window parameter
+
+RP:Is really a different class, or is child class plus some parameter  - like time, window size
+
+PRS:can be qualified on the input.
+
+MM:An objective then, or a moving mean child of mean? We discuss whether moving mode has ever been used.
+
+MM:Mode is used for categorical data.
+
+RB:So we would have moving mean, under mean
+
+MM:Do we have lowess localized and regressio smoother? Really a moving average is the same kind of thing as a window. In Lowess we do regression over a window. In moving average similar
+
+JM:Suggest that we make a definition in terms of an objective with some extra input e.g. for the window size. Would then be able to add easily to some other sort of term, e.g. lowess. 
+
+MM:Might work.
+
+RB:Where's C means?
+
+MM:K means?
+
+RB:K means is there, that's why I was wondering about C means
+
+MM/JM: what's C means
+
+RB:K means need to chose clusters, C means not the case
+
+MM:Fuzzy?
+
+AI:Need to add the fuzzy clustering methods -
+http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
+
+MM:suggest that we change class discovery to pattern discovery. Can use class and also cluster on the basis of the samples, genes vs. class. They are not synonyms in this case.
+
+AI:Find information for B transformation (existing term) - need an objective. - RB
+
+AI:Background correction - changes to an objective. RB
+
+RP:Do you cite papers?
+
+JM:We always try to cite something, we will write it ourselves where we make a general definitions. 
+
+MM:Here we'd need many defs for many technologies, so we wrote our own definition
+
+MM:Loess is under curve setting and is also its own class. Is that OK? Also looking at loess scale group terms.
+
+RP:The question for modelling this plus the moving average - somethinh similar. MA a centre measure some stratification of the data. Loess scale group scaling here transforming the data rather than fitting the data. Always the method and something else. The class is the relationship between two other classes
+
+MC:This is what we think of as a defined class. Averaging data trans is-a data trans and some other properties
+
+RP:The Zelig package from R - the have some structure built in. 
+
+http://gking.harvard.edu/zelig/
+
+PRS:We could use has_part relations to define that we do this doing some particular thing?
+
+RP:May or may not be useful. 
+
+JM:As a general rule, the more you can say about each class, the richer it becomes
+
+RP:Zelig says that there is one method -'generalized linear models' and different distribution families
+
+JM:Is this a feature of the process or the output data?
+
+MM:Is a property of the data - the distribution. 
+
+RP:I agree, but the method is different due to the distribution
+
+MM:general linear model is really rich
+
+MC:we can say something about the input.
+
+RP:for one type of input like count, you can mult distributions. Neg bionomial, poisson. Input being count, and method split across difft dist families as an example.
+
+Use case: research question. Dataset trial clinical, 1300 patients, try to predict no of subjects enrolled per site. I am the PI of the trial, 150 sites worldwide, create a model to say which sites to select - each person in time for cost/time commitment. I enroll all as as site, all sites recruit. I want a model to decide which sites I retain in the site. I use a bionomial count model, how do we find a count model for a count series. Once i include your prev. patterns of enrollment my model will do better at predicting. I want to model to account for base line variables, plus previous patterns of enrollment. Time series model has cont dep variable. Looked for time series for count variable, found experimental variables. This ontology would help - Base line var, count dependent var, time series etc - I need a way to find a model.
+
+Hypothesis - base line variable weakest predictor, but that previous patterns is likely the best thing.
+
+MM:response variable is a count=patients enrolled. Dist of response var determine what linear model you need. 
+
+RP:Not 1:1 can have multiple models per variable
+
+JM:We do have some examples of hypothesis testing where we say things about what kinds of data are allowed. We have a spreadsheet of all
+
+RP:I was trying to get at the question what determines the choice of method.
+
+MM:All of the things mentioned come under the general linear model, type of glm is determibed by dist of response variable and not the predictors. 
+
+RP:method varies dep. on what the predictors are.
+
+MM:There may not be a method in this case, at least not an optimal one
+
+HP:For OBI though you are using the ontology to say given x parameters, what are the available methods?
+
+JM:This is a good query - I have this data, has some distributions, what dt can I run. We need the inputs on the dts to do this. We can then answer the query
+
+RP:In my group - 'here's the question what's the best analysis method' happens all the time. There are interesting effects with 'last push effects' - get 'seasons' in the data - that relate to length and phase of recruitment.
+
+RP:We formulate qu's based on variables and ontology can suggest and then show what results would look like. In Item response theory (IRT), if say scale to measure a condition, IRT allows to pick questions and cf have a latent construct. See a database and has a data dictionary and data that relates to it, idea of linking scales, by time a physician has a dataset and has some data, clinicians need to see a previous example.
+
+MC:Does the input/output work
+
+RP:The research question is the extra part
+
+HP:So what's needed here is the switch to the knowledge base model where the application of a protocol i.e. data trans application is visible.
+
+==Checking through the agenda==
+
+Discussion about what to do about SW, whether this will end up in Denrie/IO. JM thinks that this will not end up in these branches based on a discussion with Alan, though what Larissa is proposing may change things.
+
+TB:Suggests that we also talk about the manuscript. To do Friday am
+
+PRS:Hypothesis testing. I already added terms related to this
+
+MM:FDR is under a different heading, multiple testing. The spreadsheet is on sf
+
+[Link to tracker item ||http://sourceforge.net/tracker/index.php?func=detail&aid=1889536&group_id=177891&atid=886178]
+
+
+== Back to Branch Review ==
+
+JM:Back to the gating discussion. Gating is a child of 'data vector reduction' - child of 'data partitioning'
+
+AI:Change 'data partitioning' to an objective
+
+JM:Data vector reduction, also an objective 
+
+MM:DVR is a method of reducing dimensionality
+
+JM:Partitioning is slice up input - does union of outputs = input. Is that a fair definition
+
+MM:I don't think you lose output
+
+RP:Do you lose information
+
+MM:Depends on the partition, you may collapse the dimensions.
+
+JM:This is a child of data partioning, if we change the def of this then the child reln will wrong.
+
+RP:Is it reversible?
+
+TB:We had a discussion about this before
+
+JM:Seems that gating is about partitioning that doesn't involve loss of data
+
+MM:Partioning is divide into blocks, union output=input
+
+JM:So data vector reduction needs a new parent. 
+
+RB:you can use clustering to do gating
+
+AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR -  was this created so that gating will fall into the hierarchy?
+
+MC:RS wanted to say that gating was a property based partioning.
+
+HP:will we need to determine non property based partioning ever, property of what is being partioned?
+
+AI:Send an email Richard to describe the issue and see if he is happy with the proposal above  - MC
+
+JM:Any objective can be done based on properties or randomly and we still have other classes. Dimensionality reduction also can be an objective. 
+
+AI:Address dimensionality reduction vs. data vector reduction - if these are the same thing - then we can have a single term for both. - MC will also add this to the email.
+
+RP:Is it different, or smaller than
+
+JM:different, properties different to the parent. The output is different
+
+RP:Are the properties different, or is a subset?
+
+JM:Depends on the definition? If we use the output union.
+
+RB:When you do gating you can do subsets where you have more than you started with? Events on the boundaries - sets are overlapping.  Could have in any type of boundary event.
+
+JM:As long as they are only in 1 then this is OK.
+
+JM:Descriptive stats calculation - MM thinks that the definition is OK.
+
+RP:What's the difference between a mean method and a mean calculation
+
+HP:process and thing that is applied to process
+
+RP:Do you need to duplicate. The method is embedded in the class here. Is there a reason for duplication. They appear in the ontology twice.
+
+RP:you could have a general class for process and then realise the process as a general method and have the method realized as the process.
+
+HP:So an alternate way to model this is to have all the methods and then automatically have these as defined classes in the ontology.
+
+JM:The difference is the input and output - that's not a method
+
+RP:For descriptive stats what about graphics
+
+MM:We didn't try to put these in
+
+MC:These are in another branch - DENRIE 
+
+RP:Can get complex.
+
+JM:We had this discussion get a plot, what is it you get - data that is rendered as a plot. Direct output is data that is rendered.
+
+RP:And the output of the test p value etc is in the ontology
+
+Yes work still to do.
+
+MM:Did we decide what to do with variables?
+
+HP:We can enumerate these and define them and put them in some unclassified place.
+
+MM:When you decide what test to use we need to know what variables we need. 
+
+AI:create a sheet for variables as these determine what test you do
+
+MC:I think these should go to information. DENRIE branch were dealing with this as with parameters, hence now with the IO. Nice to know if they plan to deal with this or not.
+
+PRS:well we are the main consumers
+
+PRS: Discussion on whether trim is its own process. E.g. trimmed mean - the mean has been processed. We can't assign qualities. We need to lift this limitation
+
+RP:Windowing is a true process. Mean is a method. 
+
+AI:add variable into the DT or DENRIE hierarchy - see how we have done it, and then it will get done.
+
+MM:trim is a quality, things that are processes can't have qualities. 
+
+PRS:Trim is a kind of filtering perhaps
+
+RB:Try and find a place to put a trimmed mean
+
+MM:Other places where you might do this
+
+RB:Filtering
+
+MM:remove data that is aberrant, outlier removal. To get a robust estimate of the mean. Wouldn't think about that as a filtering
+
+RB:Trimming is a process of outlier removal - are these synonyms 
+
+AI:Def trimmed mean calc - has part trimming process, suceeded by mean calculation.
+Outlier removal to be added as an objective. 
+
+AI:Descriptive stats also becomes an objective
+
+JM:Normalization should be straightforward
+
+MC:Do we need to deal with meta data issues
+
+JM:Should be OK
+
+JM:Partioning, I have added this as an objective.
+
+MM:We can add Ward's method under agglomerative h'arch clustering, also another one
+
+AI:Need defintion for Ward's method under agglomerative h'arch clustering - MC
+
+RP:Tree regression analysis - CART not on
+
+AI:Add CART random forest  to OBI MM will define , QT clustering - RB will define 
+
+JM:As DT is now under objective driven process. We know therefore that all should have at least one process. There are terms that come under a process
+
+AI:Review branch to check for missing subsumption of terms for objectives
+
+RP:Fisher's exact is a hypothesis test (looking at the s/sheet), what are parents?
+
+MM:we didn't get to that yet
+
+MM:Differential expression analysis - could also be used in microarray - is a hypothesis test. Need to test centre vs spread measures. 
+
+TB:A hypothesis test is more general?
+
+MM:Differential expression is not associated with any specific statistic
+
+AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
+
+MM:Discriminant analysis is another way to talk about classification. Is a method of classification. Disc analysis should be a synonym of classification or class discovery. 
+
+AI:Discriminant analysis should be a synonym of classification or class discovery MM
+
+MM:Worries that comparing 2 groups by disc analysis. thought disc analysis is just about classification. So assertion that these are synonyms are correct.
+
+AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S transformations should have objective normalization
+
+AI: Feature extraction suggested to be made an objective as suggested in review.
+
+TB:Will the definition of feature extraction - clinical scanned images - e.g. MRI or similar. 
+
+RP:for some exams you do do that. Comes with an index per patient.
+
+PRS:the difference is that there is a pixel definition, pixel vs voxel. 
+
+HP:true also for the mouse imaging - may want to split into 2D and 3D. BIRN must have come up this, we can ask them if we need to extend
+
+AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if they are different.
+
+Discussion about what the objective is vs. a process. Defined classes are special class exist to sort things by rules.
+
+AI:Add feature selection - objective. RB In this sense doing machine learning as in wikipedia http://en.wikipedia.org/wiki/Feature_selection - RB. Random forests should be under feature selection.
+
+We skip Fisher's exact test for now.
+
+MM:can normalize and then do a scale adjnustment - loess is one way to do a scale adjustment. Only seen scale adj in content of loess. 
+
+AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. Add a scaling objective will be added, loess scale gp trans is-a loess group transformation, followed by a scaling adjustment. This will be a defined class  - any dt with objective scaling.
+
+AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
+
+MM:Not an objective? But a defined class?
+
+MC:A defined class is a way to say that if fulfills these conditions and no need to define.
+
+MM:MA transformation - where does this go? Is a precursor to visualization. Always see a plot. Could also be used for any case where there is two channel data. If variable data in groups then the R:G may not be 1. Could be a descriptive way of looking at the data.
+
+AI:JM will email Elisabetta offline to ask about MA transformation objective.
+
+MM:Should we have an unclassified parent?
+
+HP:No these are not wrong just differently incomplete
+
+Multiple testing procedure - needs an objective
+
+MM:These are typically P value adjustments applied in the context of large no of tests not simply error correction. 
+
+RP:This is not really a test, is in addition to a test, not a method. 
+
+TB:You want to flag that this has been used. 
+
+RP:How fit this into the ontology. Here you do the method and then do this
+
+RB:Objective is error correction.
+
+MM:Type 1 error rate correction
+
+AI:We need a new objective - 'Type 1 Error Rate correction'
+
+HP:I would go with the general term and add children if we need them
+
+RP:As well as the mechanism what about the name that they are known. E.g. Bonferroni?
+
+MM:What I did is listed the ways that can correct - will go back and list the specific methods. Discussion with JM - in practice these are disjoint
+
+AI:Add more children for specific methods of multiple testing procedure.
+
+RP:This is a process that goes on top of another method. If apply mult testing after a t test - how relate one to the other. 
+
+AI:Need some way to relate multiple testing with the need for multiple test correction RB has a use case
+
+Network Analysis - 
+PRS: this seems related to describing network topology 
+
+AI:Add a synonym to Network analysis - network topology analysis. 
+
+AI:Send an email to RS about Network analysis objectives
+
+Discussion on polynomial transformations - and whether this is a technique or a transformation?
+
+MM:Linear regression is a polynomial regression where stop at degree 1. 
+
+RP:Dealing with the independent var in a linear regression model
+
+AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
+
+PRS: Metabolomics terms use cases from metabolomics from MSI.
+
+AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
+
+AI:We will ask the metagenomic community for a use case. PRS. We will work on this when we have use cases for these
+
+soft independent modeling of class analogy analysis - what's the objective.
+
+AI:PRS will go back and check the objective for 'soft independent modeling of class analogy analysis'
+
+AI: SMCA - is an normalization objective
+
+We have reached the end of the list for the objectives.
+
+
+==END OF DAY 1==
