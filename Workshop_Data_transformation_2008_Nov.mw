@@ -587,3 +587,46 @@ AI:PRS will go back and check the objective for 'soft independent modeling of cl
 AI: SMCA - is an normalization objective
 
 We have reached the end of the list for the objectives.
+
+
+==END OF DAY 1==
+
+==DAY 2==
+
+Presentation Ricardo Pietrobon - Computational Ontologies in the process of streamlining biomedical data analysis 
+
+http://www.researchonresearch.org
+
+Support networks - coordinate databases for various networks, templates for manuscript writing etc
+
+Research Use Case 1.
+
+Looking at papers and 'getting a data dictionary' research question in a std format, data analysis details
+
+Actors:clinical researcher and a statistician
+
+Data dictionary - = a dataset?
+
+Assume everything is a dataset - even for a prospective study. 
+
+Secondary data analysis - so no new variables
+
+All analysis in consultation with statistician
+
+Input=indication of stat method
+
+Format for returning data to researcher is standardized in terms of format. Helps speed up analysis
+
+Manuscripts written on line - using google docs
+
+Mock Data dictionary - Carey paper *add link
+
+Variable name, in a spreadsheet or in a relational database. CRF - study questionnaire. The questions are the variable description. All completely custom per paper. Not vocab level dization. Is a std way to present the data dictionary. Have a local electronic data capture system - builds a data dictionary when data is captured.
+
+Quality measures: percent missing, percent implausible.
+
+For prospective sets create a CRF - has potential to be a data dictionary
+
+90% of studies captured electronically. Vocab and variables not std within the group when using that SW
+
+Existing datasets - Meta data repository - Database of Databases.
