@@ -674,4 +674,16 @@ A single dataset can have multiple question diagrams and multiple papers. A sing
 
 Establishing communication between statistician and the scientist:
 
-Break info about tests down so that clinicians can understand the stats. Clinicians think in terms of previous examples.
+Break info about tests down so that clinicians can understand the stats. Clinicians think in terms of previous examples. Use a layers of information principle. 5 different layers.
+
+Layer 1: What a method is and what it does. Use example hypothesized conclusion from a previous question diagram
+
+Layer 2: Input, what types of variables:
+structure
+  continuous
+  categorical
+    nominal
+    ordinal
+  time dependent
+
+Layer 3:
