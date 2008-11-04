@@ -640,4 +640,31 @@ Now assisted text mining, extracting fields. - limited abilities for text mining
 
 Outcome is a research question in a std format.
 
-Title, database, years used, hypothesized conclusions, variables of different types, strate, inclusion criteria, exclusion criteria, text on stat methods, tables of data
+Title, database, years used, hypothesized conclusions, variables of different types, strata, inclusion criteria, exclusion criteria, text on stat methods, tables of data
+
+Desire to stdize the research process to limit iterations of analysis and writing -> faster. 
+
+Hypothesized conclusions:
+There is a disconnect between hypotheses and real intentions (Feinstein). Need to know what are the final conclusions, not nec. what the hypothesis is. Forget about conclusions being right or wrong. Hence the term 'hypothesized conclusions'.
+
+Did some studies looking at thought process of researchers, they think from the end of the research process. 
+
+Variables: names of these are study specific and from the data dictionary (originally derived from CRF). 
+
+Outcomes - dependent variables
+Predictors - main independent variables (clinical researchers focus on this)
+Potential confounders - everything else
+Strata - a certain strata might be important
+Inclusion/Exclusion criteria - study design
+
+Use a diagram to make sure that all the above variables are communicated to all members of the team
+
+Tables and graphics - the study has to have mock tables. This is std in survey design and used here at the start of the study not the end. Essential even as when all variables etc are known, this helps communicate with the statistician and the researcher. Allows presentation of the results in a format that a given journal will accept.
+
+Question diagram  function
+communication
+Researcher->Statistician
+
+Statistician->Researcher
+
+Hypothesized conclusion must match the variables - allows internal consistency checking - QD axis.
