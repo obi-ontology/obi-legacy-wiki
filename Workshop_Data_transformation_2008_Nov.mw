@@ -768,3 +768,5 @@ RP:Continue the methods mapping inputs - stat methods to their inputs.
 TB:We can take that as a concrete example. Cover the hypothesis, methods, and the results in OBI. We can start on the methods.
 
 HP:We may need to consider modelling methods not some process, if these are not equivalent
+
+RP:Package Zelig page has 50 methods, we have been going through them
