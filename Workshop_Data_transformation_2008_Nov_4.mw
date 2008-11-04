@@ -1,0 +1,181 @@
+Data Transformation Workshop Day 2 04 November 2008
+
+==DAY 2==
+
+Presentation Ricardo Pietrobon - Computational Ontologies in the process of streamlining biomedical data analysis 
+
+http://www.researchonresearch.org
+
+Support networks - coordinate databases for various networks, templates for manuscript writing etc
+
+Research Use Case 1.
+
+Looking at papers and 'getting a data dictionary' research question in a std format, data analysis details
+
+Actors:clinical researcher and a statistician
+
+Data dictionary - = a dataset?
+
+Assume everything is a dataset - even for a prospective study. 
+
+Secondary data analysis - so no new variables
+
+All analysis in consultation with statistician
+
+Input=indication of stat method
+
+Format for returning data to researcher is standardized in terms of format. Helps speed up analysis
+
+Manuscripts written on line - using google docs
+
+Mock Data dictionary - Carey paper *add link
+
+Variable name, in a spreadsheet or in a relational database. CRF - study questionnaire. The questions are the variable description. All completely custom per paper. Not vocab level dization. Is a std way to present the data dictionary. Have a local electronic data capture system - builds a data dictionary when data is captured.
+
+Quality measures: percent missing, percent implausible.
+
+For prospective sets create a CRF - has potential to be a data dictionary
+
+90% of studies captured electronically. Vocab and variables not std within the group when using that SW
+
+Existing datasets - Meta data repository - Database of Databases.
+Data dictionary per study in the database. Wiki type mechanism to edit the data dictionary.
+This is a database of metadata for databases.
+Study level info and data dictionary - field name, question from CRF and responses, measures of quality (not available for all studies).
+
+Originally funded by NIA - manual entry of data, converting paper systems - slow. Needs to be available
+Then asked researchers to add the info. Poor results response to the researchers
+Now assisted text mining, extracting fields. - limited abilities for text mining - just literature searching - not mining study docs or CRF due to lack of ability.
+
+Outcome is a research question in a std format.
+
+Title, database, years used, hypothesized conclusions, variables of different types, strata, inclusion criteria, exclusion criteria, text on stat methods, tables of data
+
+Desire to stdize the research process to limit iterations of analysis and writing -> faster. 
+
+Hypothesized conclusions:
+There is a disconnect between hypotheses and real intentions (Feinstein). Need to know what are the final conclusions, not nec. what the hypothesis is. Forget about conclusions being right or wrong. Hence the term 'hypothesized conclusions'.
+
+Did some studies looking at thought process of researchers, they think from the end of the research process. 
+
+Variables: names of these are study specific and from the data dictionary (originally derived from CRF). 
+
+Outcomes - dependent variables
+Predictors - main independent variables (clinical researchers focus on this)
+Potential confounders - everything else
+Strata - a certain strata might be important
+Inclusion/Exclusion criteria - study design
+
+Use a diagram to make sure that all the above variables are communicated to all members of the team
+
+Tables and graphics - the study has to have mock tables. This is std in survey design and used here at the start of the study not the end. Essential even as when all variables etc are known, this helps communicate with the statistician and the researcher. Allows presentation of the results in a format that a given journal will accept.
+
+Question diagram has a function in communication
+Researcher->Statistician
+
+Statistician->Researcher
+
+Hypothesized conclusion must match the variables - allows internal consistency checking - QD axis. Many published papers are missing this info. All this is done completely manual. Would like an ontology to help with this.
+
+A single dataset can have multiple question diagrams and multiple papers. A single dataset can have 5000 variables.
+
+Establishing communication between statistician and the scientist:
+
+Break info about tests down so that clinicians can understand the stats. Clinicians think in terms of previous examples. Use a layers of information principle. 5 different layers.
+
+Layer 1: What a method is and what it does. Use example hypothesized conclusion from a previous question diagram
+
+Layer 2: Input, what types of variables - has reln with the question diagram variables, methods section of the paper:
+Var Structure
+  continuous
+  categorical
+    nominal
+    ordinal
+  time dependent
+
+Var Role:
+  Outcome
+  Predictor
+  Potential confounder ...
+
+Layer 3:Output
+Tables and Graphics
+  examples of what the method can provide
+  ..
+
+Layer 4:
+Previous publications (teach by example)
+Application in another area can promote reuse
+
+Layer 5:
+Additional references
+  Wikipedia
+  Books
+  Articles
+  Datasets and scripts (to teach biostatistics)
+
+<b>Use case 2, Pietrobon 2004</b>
+Had a method, looking for a dataset to apply the method e.g. Item response theory
+
+All publications work in this way. 
+
+Course in outcomes research in different universities
+
+See paper streamlining biomedical research analysis - IEEE Carvalho and Pietrobon 2008
+
+Using OBI
+---------
+
+Variable ontology aligned with the research question - maybe follow the question diagram framework
+
+E.g. Structure of the variable, role of the variable in the context of the research question
+
+Analysis methods aligned with the input and output in the layers
+
+- statistical tests etc
+
+tests bed with databases where OBI can be integrated. Using semantic media wiki, could use the ontology there. There are wiki forms where can attach an ontology. Usability tests etc.  Interested in implementation.
+
+-----------End of ppt--------------
+
+TB:Lot of overlap with the data transformation branch, good use case, different perspective, useful for us to look at the structure. 
+
+RB:We haven't spent a lot of time on inputs and outputs yet
+
+RB:We have been working on Zelig - 50 methods, working through these to formalize their inputs, most of those methods not used. 
+
+TB:We talked about how to classify the methods and we are still struggling with that - output/input
+
+JM:We can do that by all.
+
+HP:Need to add the restrictions - and we need to know what those are
+
+RB:Is there a downside
+
+TB:New focus for us.
+
+JM:We've talked about data having rules, this will be a problem, not allowed in BF0. E.g. a variable can't be a predictor role in BFO
+
+MC:We need to know what we want to represent as variables. These will be in IO.
+
+AI:Dump out the definitions of the variables used at Duke - these are defined in templates RP
+
+RP:Not everything is covered - there are exceptions to that structure
+
+PRS:We have worked on different branchs, I found important going over the study descriptions. When we define the perturbations in bio systems we have a similar set up, different vocab. We are missing variable structure. Continuous etc. Relates back to where variables live. Question, of how method apply affects the study design. Think things are aligned already with OBI
+
+RP:Structures in a data dictionary can be changed. Think need to know the variable structure prior to selecting a method
+
+PRS:Plan and dt branches need cross talk 
+
+JM:How can we break this down. Variables, if you have these we can add them. We have already talked to AR about this. Will post to them to get a response. 
+
+RP:Continue the methods mapping inputs - stat methods to their inputs. 
+
+TB:We can take that as a concrete example. Cover the hypothesis, methods, and the results in OBI. We can start on the methods.
+
+HP:We may need to consider modelling methods not some process, if these are not equivalent
+
+RP:Package Zelig page has 50 methods, we have been going through them
+
+TB:Database of database is about clinical research, yes
