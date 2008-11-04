@@ -89,7 +89,6 @@ AI:create a sheet for variables as these determine what test you do - ALL worksh
 
 AI:Address dimensionality reduction vs. data vector reduction - if these are the same thing - then we can have a single term for both. - MC will also add this to the email.
 
-
 AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR - was this created so that gating will fall into the hierarchy? Needs checking with RS - MC. will Send an email Richard to describe the issue and see if he is happy with the proposed changes in gating - MC
 
 AI:Background correction - changes to an objective. RB
