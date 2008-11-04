@@ -630,3 +630,14 @@ For prospective sets create a CRF - has potential to be a data dictionary
 90% of studies captured electronically. Vocab and variables not std within the group when using that SW
 
 Existing datasets - Meta data repository - Database of Databases.
+Data dictionary per study in the database. Wiki type mechanism to edit the data dictionary.
+This is a database of metadata for databases.
+Study level info and data dictionary - field name, question from CRF and responses, measures of quality (not available for all studies).
+
+Originally funded by NIA - manual entry of data, converting paper systems - slow. Needs to be available
+Then asked researchers to add the info. Poor results response to the researchers
+Now assisted text mining, extracting fields. - limited abilities for text mining - just literature searching - not mining study docs or CRF due to lack of ability.
+
+Outcome is a research question in a std format.
+
+Title, database, years used, hypothesized conclusions, variables of different types, strate, inclusion criteria, exclusion criteria, text on stat methods, tables of data
