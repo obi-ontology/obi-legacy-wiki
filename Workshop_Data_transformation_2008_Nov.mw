@@ -669,3 +669,5 @@ Researcher->Statistician
 Statistician->Researcher
 
 Hypothesized conclusion must match the variables - allows internal consistency checking - QD axis. Many published papers are missing this info. All this is done completely manual. Would like an ontology to help with this.
+
+A single dataset can have multiple question diagrams and multiple papers.
