@@ -14,6 +14,8 @@ Tina Boussard, Dept Surgery, Stanford
 
 Helen Parkinson, EBI
 
+James Malone, EBI
+
 Ricardo Pietrobon, Duke University
 
 Ted Liefeld, Broad Institute
@@ -33,7 +35,7 @@ Action Items Day 1:
 
 AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add this to the agenda for Vancouver. MC
 
-AI:Need to add the fuzzy clustering methods - http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html RB
+AI:Need to add the fuzzy clustering methods - http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html RB added term proposal to tracker
 
 AI:'center calculation' and 'averaging data transformation' defined classes need attention. MM thinks that these could be conflated. Moving average needs to be under both. Data imputation possibly incorrect - could be a class in itself. Need a new defined class for that - probably objective. - MM
 
@@ -94,7 +96,7 @@ AI:Background correction - changes to an objective. RB
 
 AI:Change 'data partitioning' to an objective - JM
 
-AI:Find information for B transformation (existing term) - need an objective. - RB
+AI:Find information for B transformation (existing term) - need an objective. - RB added note to tracker
 
 
 -----------------------------------------------------
