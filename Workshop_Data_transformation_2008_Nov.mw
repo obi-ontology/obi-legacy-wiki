@@ -727,4 +727,24 @@ Analysis methods aligned with the input and output in the layers
 
 - statistical tests etc
 
-tests beds database where OBI can be integrated. Using semantic media wiki, could use the ontology there. There are wiki forms where can attach an ontology.
+tests bed with databases where OBI can be integrated. Using semantic media wiki, could use the ontology there. There are wiki forms where can attach an ontology. Usability tests etc.  Interested in implementation.
+
+-----------End of ppt--------------
+
+TB:Lot of overlap with the data transformation branch, good use case, different perspective, useful for us to look at the structure. 
+
+RB:We haven't spent a lot of time on inputs and outputs yet
+
+RB:We have been working on Zelig - 50 methods, working through these to formalize their inputs, most of those methods not used. 
+
+TB:We talked about how to classify the methods and we are still struggling with that - output/input
+
+JM:We can do that by all.
+
+HP:Need to add the restrictions - and we need to know what those are
+
+RB:Is there a downside
+
+TB:New focus for us.
+
+JM:We've talked about data having rules, this will be a problem, not allowed in BF0.
