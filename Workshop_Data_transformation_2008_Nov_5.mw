@@ -17,3 +17,33 @@ Using O-XML - uses LSIDs. Taverna use scuffle. Limitation - param files external
 When module defined has some semantic support in Genepattern
 
 Execution logs come with the output files.
+
+Discussion on the formats which are used to define inputs and outputs per module. List of formats and relationship to the processes are available.
+
+NB. Zelig is not yet plugged into gene pattern
+
+Using OBI in Genepattern.
+
+Using GCT and RES - local genepattern formats. Tab delimited formats embedded in GenePattern
+
+Extend file readers for MAGE-TAB.
+
+Within MAGE-TAB can record a workflow. Want to do this in a generic way. OBI id for the analysis type.
+
+Can reverse generate a pipeline from an analysis - possibly done in any tool.
+
+Seen in OBI about the analyses - need something regarding the parameters. E.g. random seeds - for reproducibiliy need to have some reproducibility. IEEE spec for random number generators may not been enough. 
+
+Need parameter values to map analyses from other systems.
+
+Execution logs replaced by SDRF. 
+
+Define generic protocols using OBI ids rather than LSIDs - static, need to be able to add these easily to the examples. 
+
+Categorization of analysis - large menu of terms that describe analyses.
+
+Need to map terms between tools e.g. GenePattern vs. GEWorkbench - different names, same method. Already allow suites, want to have tag clouds - people can add their own names. Want to prepopulate this from OBI.
+
+AI:Look at the categorization in GenePattern and check vs. the current OBI objectives, should be some 
+
+AI:GenePatterns needs parameters as well as analysis methods
