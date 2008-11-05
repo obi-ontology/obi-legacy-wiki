@@ -47,3 +47,13 @@ AI:Look at the categorization in GenePattern and check vs. the current OBI objec
 AI:GenePatterns need parameters as well as analysis methods, need to add these as a wish list items. 
 
 AI:GenePattern has a list of what was run most frequently, we will use these to determine focus for GenePattern support.
+
+
+<b>Working through the GenePattern use case doc to categorize and add new terms</b>
+
+See google doc http://spreadsheets.google.com/ccc?key=phYpwAQC6nxrfk0SR099aZQ&inv=ob... 
+
+AI:Add 'cross validation' as an objective - JM (added to s/sheet)
+
+AI:Need to add distance measures in the ontology. We need to add these to the list
+Euclidean distance. Problem that we don't know where to put these yet. Where's the list?- Branch Work
