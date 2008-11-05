@@ -74,4 +74,10 @@ AI:Add BIC - bayesian info criteria - way to determine a number that will determ
 
 AI:RMA, GC-RMA, MAS5 - need to be added somewhere - with algorithm
 
-AI:Need to deal with annotation where we map to ids, where we add annotation value
+AI:Need to deal with annotation where we map to ids, where we add annotation value also for case Hu68kHu35kAtoU95 - is this in data transformation
+
+AI: Add a subclass for GSEA on differential expression excercise. MM
+
+TL: HeatmapViewer - if allows subsetting is not simple data visualization - dataset can be sort and subsetted. 
+
+AI: LandmarkMatch, LocatePeaks relate to proteomics. May related to the sequence of the data - MM will investigate these
