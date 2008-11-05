@@ -1,6 +1,6 @@
 == Day 3 ==
 
-Ted Liefeld Gene Pattern Presentation * add ppt *
+=== Ted Liefeld Gene Pattern Presentation ==== * add ppt *
 
 In silico support for reproducible research. Info to reproduce the research.
 
@@ -9,3 +9,11 @@ Accessible to different levels of users.
 Workflow support 
 
 Local dist/computing
+
+Gene pattern 60 analyses, 14 reformatters dataloaders, 18 visualizers, 8 pipelines
+
+Using O-XML - uses LSIDs. Taverna use scuffle. Limitation - param files external in a provenance recording system in RDF. 
+
+When module defined has some semantic support in Genepattern
+
+Execution logs come with the output files.
