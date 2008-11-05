@@ -44,6 +44,6 @@ Need to map terms between tools e.g. GenePattern vs. GEWorkbench - different nam
 
 AI:Look at the categorization in GenePattern and check vs. the current OBI objectives, should be some concordance
 
-AI:GenePatterns need parameters as well as analysis methods
+AI:GenePatterns need parameters as well as analysis methods, need to add these as a wish list items. 
 
 AI:GenePattern has a list of what was run most frequently, we will use these to determine focus for GenePattern support.
