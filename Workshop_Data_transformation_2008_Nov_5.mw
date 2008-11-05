@@ -42,6 +42,6 @@ Categorization of analysis - large menu of terms that describe analyses.
 
 Need to map terms between tools e.g. GenePattern vs. GEWorkbench - different names, same method. Already allow suites, want to have tag clouds - people can add their own names. Want to prepopulate this from OBI.
 
-AI:Look at the categorization in GenePattern and check vs. the current OBI objectives, should be some 
+AI:Look at the categorization in GenePattern and check vs. the current OBI objectives, should be some concordance
 
 AI:GenePatterns needs parameters as well as analysis methods
