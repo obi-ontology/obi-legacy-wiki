@@ -58,4 +58,16 @@ AI:Add 'cross validation' as an objective - JM (added to s/sheet)
 AI:Need to add distance measures in the ontology. We need to add these to the list
 Euclidean distance. Problem that we don't know where to put these yet. Where's the list?- Branch Work
 
-AI:Add pattern matching as an objective - DT branch. We need a generic algorithm for this. We think KNN like is close, where K=2.
+AI:Add pattern matching (class neighbours) as an objective - DT branch. We need a generic algorithm for this. We think KNN is the closest thing to a generic algorithm for this, where K=2. Checking about how this is implemented in GenePattern
+
+Comparative marker selection - generic form of differential analysis. Want features that differentiate the samples. A distance metric is created, then permutes the dataset. Still need an answer for the KNN
+
+AI:We need Features - where features are discriminant between samples - feature selection objective. COmparativeMarkerSelection. Also need to add markers to the role branch where a marker is a synonym of feature.  - follow up with TL.
+
+
+
+
+
+
+
+TL:Same kind of thing for class neighbours -
