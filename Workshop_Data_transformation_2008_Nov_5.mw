@@ -71,3 +71,7 @@ AI:compare spectra, is a comparison again, we need info about the implementation
 AI:Add cross correlation as a term - generic term will be cross correlation, needs an objective. 
 
 AI:Add BIC - bayesian info criteria - way to determine a number that will determine cluster numbers, AIC, ICL, to be added as new terms. Related GenePattern  ConsenusClustering
+
+AI:RMA, GC-RMA, MAS5 - need to be added somewhere - with algorithm
+
+AI:Need to deal with annotation where we map to ids, where we add annotation value
