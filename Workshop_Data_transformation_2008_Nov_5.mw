@@ -57,3 +57,5 @@ AI:Add 'cross validation' as an objective - JM (added to s/sheet)
 
 AI:Need to add distance measures in the ontology. We need to add these to the list
 Euclidean distance. Problem that we don't know where to put these yet. Where's the list?- Branch Work
+
+AI:Add pattern matching as an objective - DT branch. We need a generic algorithm for this. We think KNN like is close, where K=2.
