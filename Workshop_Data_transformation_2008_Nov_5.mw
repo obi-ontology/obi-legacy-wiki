@@ -64,10 +64,4 @@ Comparative marker selection - generic form of differential analysis. Want featu
 
 AI:We need Features - where features are discriminant between samples - feature selection objective. COmparativeMarkerSelection. Also need to add markers to the role branch where a marker is a synonym of feature.  - follow up with TL.
 
-
-
-
-
-
-
-TL:Same kind of thing for class neighbours -
+AI:Add a link to Teds tools that assist users with which tool to use under which cases, we could build this into the ontology later - TL/DT branch
