@@ -86,3 +86,5 @@ CONCERN:Two sub cases, implement an algorithm by 2 different softwares but thing
 QUERY USE CASE:
 
 If I know an algorithm e.g. CART tell me which SW implements it and what the input is for the SW that implements this.
+
+SW has  properties (imcomplete), where it is URI , if it's open source, manufacturer, access - GUI, Web services
