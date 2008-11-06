@@ -14,6 +14,6 @@ Def:Selection is the objective of choosing data based on some criteria such as r
 
 <b>Add mutual information  to OBI - def: a formula (borrowed from information theory) that compares the probability that two items occur together as a joint event with the probability that they occur individually (and that their co-occurances are a result of chance). Needs a placement in OBI - should live with correlation</b> - MM
 
-<b>AI:add fold-change - process of calculating to OBI and define - JM
+<b>AI:add fold-change - process of calculating to OBI and define - JM</b>
 
 <b>AI:define NMF currently u/c and add objectives - TL</b>
