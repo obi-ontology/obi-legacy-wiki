@@ -50,3 +50,9 @@ Quality assessment - in the case of ProteomicsAnalysis this is about removing fe
 RB:QA can also be outlier identification (part of QA) - filtering comes after. 
 
 AI:Quality assessment - QC is a thing you do to have quality. Outlier id is a part of QA, but not a synonym.
+
+AI:Add outlier added as a role. MC
+
+AI:Add survival analysis objective, and add cox regression, move kaplan meyer under this
+
+AI:Address longtudunial data set
