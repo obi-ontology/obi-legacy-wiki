@@ -4,10 +4,6 @@
 
 <b>AI:LOHPaired module - needs paper checking for what is implemented so we can assign a general algorithm and specific ones - MM</b>
 
-MergeRows, MergeColumns - we have not addressed merge yet. Here we have 2 data sources and is this therefore a special kind of merge. 
-
-RB:Merge is the union of two sets. Select then merge, merge then select
-
 <b>AI:Merge needs to be added as an objective synonym  - combine - JM
 Definition: the union of two or more sets. E.g. the merging of columns or merging of rows from two different tab-delimited data sets.</b>
 
