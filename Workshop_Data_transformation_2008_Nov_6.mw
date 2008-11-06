@@ -1,1 +1,17 @@
 ==Continuing with Ted's use cases==
+
+<b>AI:Add SNP and LOH methods/processes to dt - DT branch</b>
+
+<b>AI:LOHPaired module - needs paper checking for what is implemented so we can assign a general algorithm and specific ones - MM
+
+MergeRows, MergeColumns - we have not addressed merge yet. Here we have 2 data sources and is this therefore a special kind of merge. 
+
+RB:Merge is the union of two sets. Select then merge, merge then select
+
+<b>AI:Merge needs to be added as an objective synonym  - combine - JM
+Definition: the union of two or more sets. E.g. the merging of columns or merging of rows from two different tab-delimited data sets.</b>
+
+<b>AI:Add selection - e.g. selection based on row or column ids after merge.
+Def:Selection is the objective of choosing data based on some criteria such as row or column identifiers. - Add to OWL file. JM</b>
+
+<b>AI:We will need to add union, intersection, complement - JM</b>
