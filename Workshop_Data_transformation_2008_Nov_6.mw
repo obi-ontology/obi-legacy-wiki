@@ -15,5 +15,10 @@ Def:Selection is the objective of choosing data based on some criteria such as r
 <b>Add mutual information  to OBI - def: a formula (borrowed from information theory) that compares the probability that two items occur together as a joint event with the probability that they occur individually (and that their co-occurances are a result of chance). Needs a placement in OBI - should live with correlation</b> - MM
 
 <b>AI:add fold-change - process of calculating to OBI and define - JM</b>
-
 <b>AI:define NMF currently u/c and add objectives - A pattern recognition algorithm that ids patterns that together explain the data as a linear combinatio of expression signatures. Synonyms:SY  - NCIT. Citation needs adding to NCIT TL</b>
+
+RS:reduction, selection etc - these will appear elsewhere in the ontology - there will be different types of discovery, or selection. These can be added as more generic objectives under objective. 
+
+AI:Make the objectives precise e.g. data selection - JM
+
+AI:Check the NCIT for several alg definitions present there - DT branch
