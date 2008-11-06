@@ -44,3 +44,9 @@ Discussion on Thresholding. We need to distinguish between floor, ceiling, cutti
 TL:min change filtering, fold change filtering 
 
 <b>AI:Add two new types of filtering min change filtering and fold change filtering as child of filtering </b>
+
+Quality assessment - in the case of ProteomicsAnalysis this is about removing features that don't meet the criteria - whatever they are. 
+
+RB:QA can also be outlier identification (part of QA) - filtering comes after. 
+
+AI:Quality assessment - QC is a thing you do to have quality. Outlier id is a part of QA, but not a synonym.
