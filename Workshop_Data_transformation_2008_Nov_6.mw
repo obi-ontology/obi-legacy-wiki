@@ -56,3 +56,27 @@ AI:Add outlier added as a role. MC
 AI:Add survival analysis objective, and add cox regression, move kaplan meyer under this
 
 AI:Address longitidunal data sets in DT  - DT branch
+
+
+==Mini software use case==
+
+Representing a sw that implements an algorithm or method.
+
+Example GenePattern - 
+
+
+
+Simple case
+CART module from GenePattern that implements the process of CART. Has a single objective
+http://www.broad.mit.edu/webservices/gpModuleRepository/download/prod/module/?file=/CART/broad.mit.edu:cancer.software.genepattern.module.analysis/00056/2/CART.pdf
+
+
+
+Complex GenePattern case
+
+PreprocessDataSet - GenePattern module which performs various preprocessing operations: thresholding, filtering, discretization, normalization. DT should capture the individual operations. Filtering is captured, at least in generality, under subclasses of dimensionality reduction, and various normalizations are already captured. Might want to add terms for thresholding and discretization. Also need to capture filtering criteria somewhere (parameter/feature?).
+
+Documentation - http://www.broad.mit.edu/webservices/gpModuleRepository/download/prod/module/?file=/ProteoArray/broad.mit.edu:cancer.software.genepattern.module.analysis/00068/1/ProteoArray.pdf
+ 
+
+TL:use case where have parameters for an sw implementation e.g CART - and the parametervalues instantiated when run the implementation (inputs to the process). So need a way to have parameters that relate to an objective, and there are many methods implemented.
