@@ -1,3 +1,42 @@
+==Action items day 2==
+
+<b>AI:Look at the categorization in GenePattern UI and check vs. the current OBI objectives, should be some concordance
+
+AI:GenePatterns need parameters as well as analysis methods, need to add these as a wish list items. 
+
+AI:Add 'cross validation' as an objective - JM (added to s/sheet)
+
+AI:Need to add distance measures in the ontology. We need to add these to the list
+Euclidean distance. Problem that we don't know where to put these yet. Where's the list?- Branch Work
+
+AI:Add pattern matching (class neighbours) as an objective - DT branch. We need a generic algorithm for this. We think KNN is the closest thing to a generic algorithm for this, where K=2. Checking about how this is implemented in GenePattern
+
+
+AI:GenePattern has a list of what was run most frequently, we will use these to determine focus for GenePattern support
+
+AI:We need Features - where features are discriminant between samples - feature selection objective. COmparativeMarkerSelection. Also need to add markers to the role branch where a marker is a synonym of feature.  - follow up with TL.
+
+AI:Add a link to Teds tools that assist users with which tool to use under which cases, we could build this into the ontology later - TL/DT branch
+
+AI:compare spectra, is a comparison again, we need info about the implementation to do more than add the objective for this to the sheet. -TL
+
+AI:Add cross correlation as a term - generic term will be cross correlation, needs an objective. 
+
+AI:Add BIC - bayesian info criteria - way to determine a number that will determine cluster numbers, AIC, ICL, to be added as new terms. Related GenePattern  ConsenusClustering
+
+AI:RMA, GC-RMA, MAS5 - need to be added somewhere - with algorithm
+
+AI:Need to deal with annotation where we map to ids, where we add annotation value also for case Hu68kHu35kAtoU95 - is this in data transformation
+
+AI: Add a subclass for GSEA on differential expression excercise. MM
+
+AI: LandmarkMatch, LocatePeaks relate to proteomics. May related to the sequence of the data - MM will investigate these
+
+
+---------------
+
+
+
 <b>Day 3 Ted Liefeld Gene Pattern Presentation </b> * add ppt *
 
 In silico support for reproducible research. Info to reproduce the research.
