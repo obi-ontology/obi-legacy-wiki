@@ -1,6 +1,6 @@
 ==Action Items Day 4==
 
-AI:Add SNP and LOH methods/processes to dt - DT branch
+<b>AI:Add SNP and LOH methods/processes to dt - DT branch
 
 AI:LOHPaired module - needs paper checking for what is implemented so we can assign a general algorithm and specific ones - MM
 
@@ -16,24 +16,25 @@ AI:Add mutual information  to OBI - def: a formula (borrowed from information th
 
 AI:add fold-change - process of calculating to OBI and define - JM
 
-AI:define NMF currently u/c and add objectives - A pattern recognition algorithm that ids patterns that together explain the data as a linear combinatio of expression signatures. Synonyms:SY  - NCIT. Citation needs adding to NCIT TL
+AI:define NMF currently u/c and add objectives - A pattern recognition algorithm that ids patterns that together explain the data as a linear combinatio of expression signatures. Synonyms:SY  - NCIT. Citation needs adding to NCIT - TL
 
 AI:Make the objectives precise e.g. data selection - JM
+
 AI:Check the NCIT for several alg definitions present there - DT branch
 
-AI:Add warping as a synonym for aligment objective
+AI:Add warping as a synonym for alignment objective - JM
 
-AI:Put the lsids back in the GenePattern use case file as names change 
+AI:Put the lsids back in the GenePattern use case file as names change - JM/TL
 
 AI:Special kind of warping or possibly normalization (if we can agree that these are the same thing last resolution is that warping isn't a correction for systematic error) - Warping can be many to 1 or 1:1 for many:1 we need to add Discretization objective - Discretization objective is the approximation the solution of a continuous problem by representing it in terms of a discrete set of elements - JM. Synonym - bucketing, binning. Some reln to normalization but we cannot define this ontologically
 
 AI:thresholding: Thresholding objective is a special kind of filtering where boundaries for minimum and maximum values are determined and the values that do not meet these criteria are removed.  Add as a child of filtering - JM
 
-AI:Quality assessment - QC is a thing you do to have quality. Outlier id is a part of QA, but not a synonym.
+AI:Quality assessment to add - QC is a thing you do to have quality. Outlier id is a part of QA, but not a synonym. 
 
 AI:Add outlier added as a role. MC
 
-AI:Add survival analysis objective, and add cox regression, move kaplan meyer under this
+AI:Add survival analysis objective, and add cox regression, move Kaplan Meyer under this - TB
 
 AI:Address longitidunal data sets in DT  - DT branch
 
@@ -58,7 +59,7 @@ AI:Check Ricardo's slides and create a competency question per path
 
 AI:Check R's slides and check all tests are present
 
-
+</b>
 
 ==Continuing with Ted's use cases==
 
