@@ -40,3 +40,7 @@ TB:In a protocol recruit the people, then ask their age.
 Discussion on Thresholding. We need to distinguish between floor, ceiling, cutting off, or modifying the samples value. Two types of thresholding meaning - cut out where a threshold, or transform where there's a threshold met.
 
 <b>AI:thresholding: Thresholding objective is a special kind of filtering where boundaries for minimum and maximum values are determined and the values that do not meet these criteria are removed.  Add as a child of filtering - JM
+
+TL:min change filtering, fold change filtering 
+
+<b>AI:Add two new types of filtering min change filtering and fold change filtering as child of filtering </b>
