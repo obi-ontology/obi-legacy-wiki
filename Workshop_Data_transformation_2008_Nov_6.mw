@@ -2,7 +2,7 @@
 
 <b>AI:Add SNP and LOH methods/processes to dt - DT branch</b>
 
-<b>AI:LOHPaired module - needs paper checking for what is implemented so we can assign a general algorithm and specific ones - MM
+<b>AI:LOHPaired module - needs paper checking for what is implemented so we can assign a general algorithm and specific ones - MM</b>
 
 MergeRows, MergeColumns - we have not addressed merge yet. Here we have 2 data sources and is this therefore a special kind of merge. 
 
@@ -15,3 +15,5 @@ Definition: the union of two or more sets. E.g. the merging of columns or mergin
 Def:Selection is the objective of choosing data based on some criteria such as row or column identifiers. - Add to OWL file. JM</b>
 
 <b>AI:We will need to add union, intersection, complement - JM</b>
+
+<b>Add mutual information  to OBI - def: a formula (borrowed from information theory) that compares the probability that two items occur together as a joint event with the probability that they occur individually (and that their co-occurances are a result of chance)</b> - MM
