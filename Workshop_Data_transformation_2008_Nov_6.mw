@@ -82,3 +82,7 @@ Documentation - http://www.broad.mit.edu/webservices/gpModuleRepository/download
 TL:use case where have parameters for an sw implementation e.g CART - and the parametervalues instantiated when run the implementation (inputs to the process). So need a way to have parameters that relate to an objective where there are many methods implemented.
 
 CONCERN:Two sub cases, implement an algorithm by 2 different softwares but things that GenePattern param are hard coded and therefore different implementation will not be directly comparable in terms of parameters. Like to have a generic definition of 'common parameter's than can be mapped between implementations where this can be done. Where x and y parameters = the input data for the clustering.
+
+QUERY USE CASE:
+
+If I know an algorithm e.g. CART tell me which SW implements it and what the input is for the SW that implements this.
