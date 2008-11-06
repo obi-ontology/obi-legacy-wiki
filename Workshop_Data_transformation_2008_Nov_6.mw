@@ -19,6 +19,10 @@ Def:Selection is the objective of choosing data based on some criteria such as r
 
 RS:reduction, selection etc - these will appear elsewhere in the ontology - there will be different types of discovery, or selection. These can be added as more generic objectives under objective. 
 
-AI:Make the objectives precise e.g. data selection - JM
+<b>AI:Make the objectives precise e.g. data selection - JM</b>
 
-AI:Check the NCIT for several alg definitions present there - DT branch
+<b>AI:Check the NCIT for several alg definitions present there - DT branch</b>
+
+Discussion on warping - if this is a synonym of feature alignment or a child. Warping has two steps, select feature and then align or warp based on these, but can be part of the same tool and also performed as two separate steps. 
+
+<b>AI:Add warping as a synonym for aligment objective</b>
