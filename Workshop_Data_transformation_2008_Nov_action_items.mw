@@ -39,7 +39,7 @@ AI:Send an email to RS about Network analysis's objectives
 
 AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
 
-AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
+'''DONE''' AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
 
 AI: SMCA - is an normalization objective
 
@@ -53,7 +53,7 @@ AI:Document these use cases Use case: longitudinal analysis - show me the method
 
 AI:Quality assessment to add - QC is a thing you do to have quality. Outlier id is a part of QA, but not a synonym.
 
-AI:Add outlier to the role bra. MC
+'''DONE''' AI:Add outlier to the role bra. MC - submitted to tracker https://sourceforge.net/tracker/index.php?func=detail&aid=2229248&group_id=177891&atid=886178
 
 AI:Put the lsids back in the GenePattern use case file as names change - JM/TL
 
