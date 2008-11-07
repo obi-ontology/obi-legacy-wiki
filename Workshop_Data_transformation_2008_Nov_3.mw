@@ -18,6 +18,38 @@ AI:Change 'data partitioning' to an objective
 
 AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR -  was this created so that gating will fall into the hierarchy? Send an email Richard to describe the issue and see if he is happy with this proposal  - MC
 
+AI:Address dimensionality reduction vs. data vector reduction - if these are the same thing - then we can have a single term for both. - MC will also add this to the email.
+
+AI:create a sheet for variables as these determine what test you do
+
+AI:add variable into the DT or DENRIE hierarchy - see how we have done it, and then it will get done.
+
+AI:Def trimmed mean calc - has part trimming process, suceeded by mean calculation.
+Outlier removal to be added as an objective. 
+
+AI:Descriptive stats also becomes an objective
+
+AI:Need defintion for Ward's method under agglomerative h'arch clustering - MC
+
+AI:Add CART random forest  to OBI MM will define , QT clustering - RB will define 
+
+AI:Review branch to check for missing subsumption of terms for objectives
+
+AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
+
+AI:Discriminant analysis should be a synonym of classification or class discovery MM
+
+AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S transformations should have objective normalization
+
+AI: Feature extraction suggested to be made an objective as suggested in review.
+
+AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if they are different.
+
+AI:Add feature selection - objective. RB In this sense doing machine learning as in wikipedia http://en.wikipedia.org/wiki/Feature_selection - RB. Random forests should be under feature selection.
+
+
+
+
 == Day 1. 03 November 2008 ==
 
 
