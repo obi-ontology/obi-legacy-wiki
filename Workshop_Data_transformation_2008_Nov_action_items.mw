@@ -37,7 +37,7 @@ AI:JM will email Elisabetta offline to ask about MA transformation's objective.
 
 AI:Send an email to RS about Network analysis's objectives
 
-AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
+'''DONE''' AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow. MC checked in previous revisions and didn't find anything
 
 '''DONE''' AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
 
