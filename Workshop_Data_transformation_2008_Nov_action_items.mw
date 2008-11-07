@@ -143,3 +143,57 @@ AI:Add pattern matching (class neighbours) as an objective - DT branch. We need 
 ===Unassigned===
 
 AI:GenePatterns need parameters as well as analysis methods, need to add these as a wish list items.
+
+AI:Add SNP and LOH methods/processes to dt - DT branch
+
+AI:LOHPaired module - needs paper checking for what is implemented so we can assign a general algorithm and specific ones - MM
+
+AI:Merge needs to be added as an objective synonym - combine - JM Definition: the union of two or more sets. E.g. the merging of columns or merging of rows from two different tab-delimited data sets.
+
+AI:Add selection - e.g. selection based on row or column ids after merge. Def:Selection is the objective of choosing data based on some criteria such as row or column identifiers. - Add to OWL file. JM
+
+AI:We will need to add union, intersection, complement - JM
+
+AI:Add mutual information to OBI - def: a formula (borrowed from information theory) that compares the probability that two items occur together as a joint event with the probability that they occur individually (and that their co-occurances are a result of chance). Needs a placement in OBI - should live with correlation - MM
+
+AI:add fold-change - process of calculating to OBI and define - JM
+
+AI:define NMF currently u/c and add objectives - A pattern recognition algorithm that ids patterns that together explain the data as a linear combinatio of expression signatures. Synonyms:SY - NCIT. Citation needs adding to NCIT - TL
+
+AI:Make the objectives precise e.g. data selection - JM
+
+AI:Check the NCIT for several alg definitions present there - DT branch
+
+AI:Add warping as a synonym for alignment objective - JM
+
+AI:Put the lsids back in the GenePattern use case file as names change - JM/TL
+
+AI:Special kind of warping or possibly normalization (if we can agree that these are the same thing last resolution is that warping isn't a correction for systematic error) - Warping can be many to 1 or 1:1 for many:1 we need to add Discretization objective - Discretization objective is the approximation the solution of a continuous problem by representing it in terms of a discrete set of elements - JM. Synonym - bucketing, binning. Some reln to normalization but we cannot define this ontologically
+
+AI:thresholding: Thresholding objective is a special kind of filtering where boundaries for minimum and maximum values are determined and the values that do not meet these criteria are removed. Add as a child of filtering - JM
+
+AI:Quality assessment to add - QC is a thing you do to have quality. Outlier id is a part of QA, but not a synonym.
+
+AI:Add outlier added as a role. MC
+
+AI:Add survival analysis objective, and add cox regression, move Kaplan Meyer under this - TB
+
+AI:Address longitidunal data sets in DT - DT branch
+
+AI:Add 'test for trend' to OBI
+
+AI:Add cox regression
+
+AI:add multivariate analysis of variance
+
+AI:Longitudinal analysis and define it - change to objective
+
+AI:Document these use cases Use case: longitudinal analysis - show me the methods show me the methods I can use- consider modelling as part of data, rather than in the heirarchy Use case: longitudinal analysis response variable=time - show me the methods I can use
+
+AI:design decision - we will use feature to say things like 'normally distributed' - about data as a workaround for now.
+
+AI:Implement feature - normally distributed in OBI and apply to a process.
+
+AI:Check Ricardo's slides and create a competency question per path
+
+AI:Check RP's slides with the test graphs and tests present on these are consistent with what we have in the ontology. Add any tests that are not present.
