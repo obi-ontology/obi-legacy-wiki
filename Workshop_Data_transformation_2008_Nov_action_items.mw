@@ -35,9 +35,6 @@ AI:JM will email Elisabetta offline to ask about MA transformation's objective.
 
 AI:We need a new objective - 'Type 1 Error Rate correction'
 
-
-AI:Need some way to relate multiple testing with the need for multiple test correction RB has a use case
-
 AI:Add a synonym to Network analysis - network topology analysis. 
 
 AI:Send an email to RS about Network analysis's objectives
@@ -45,7 +42,6 @@ AI:Send an email to RS about Network analysis's objectives
 AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
 
 AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
-
 
 
 AI: SMCA - is an normalization objective
@@ -71,7 +67,10 @@ AI:Find information for B transformation (existing term) - need an objective. - 
 
 AI: Add QT clustering - RB will define 
 
-AI:Add feature selection - objective. RB In this sense doing machine learning as in wikipedia http://en.wikipedia.org/wiki/Feature_selection - RB. Random forests should be under feature selection.
+AI:Add feature selection - objective. RB In this sense doing machine learning as in wikipedia http://en.wikipedia.org/wiki/Feature_selection - RB. Random forests should be under feature 
+
+AI:Need some way to relate multiple testing with the need for multiple test correction RB has a use case
+selection.
 
 
 ===Ted Liefeld's Tasks===
@@ -82,7 +81,7 @@ AI:Add feature selection - objective. RB In this sense doing machine learning as
 
 AI:PRS will go back and check the objective for 'soft independent modeling of class analogy analysis'
 
-AI:We will ask the metagenomic community for a use case. PRS. We will work on this when we have use cases for these
+AI:We will ask the metagenomic community for a use case (about sequence alignment?  We will work on this when we have use cases for these PRS
 
 
 ===General Data Transformation Branch Tasks===
