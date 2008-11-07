@@ -46,6 +46,32 @@ AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if th
 
 AI:Add feature selection - objective. RB In this sense doing machine learning as in wikipedia http://en.wikipedia.org/wiki/Feature_selection - RB. Random forests should be under feature selection.
 
+AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. Add a scaling objective will be added, loess scale gp trans is-a loess group transformation, followed by a scaling adjustment. This will be a defined class  - any dt with objective scaling.
+
+AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
+
+AI:JM will email Elisabetta offline to ask about MA transformation's objective.
+
+AI:We need a new objective - 'Type 1 Error Rate correction'
+
+
+AI:Add more children for specific methods of multiple testing procedure.
+
+AI:Need some way to relate multiple testing with the need for multiple test correction RB has a use case
+
+AI:Add a synonym to Network analysis - network topology analysis. 
+
+AI:Send an email to RS about Network analysis's objectives
+
+AI:Find out what WAS classified under polynomial transformation (in some previous version) - need to have a property that is associated with it somehow.
+
+AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
+
+AI:We will ask the metagenomic community for a use case. PRS. We will work on this when we have use cases for these
+
+AI:PRS will go back and check the objective for 'soft independent modeling of class analogy analysis'
+
+AI: SMCA - is an normalization objective
 
 
 
@@ -483,7 +509,7 @@ MC:A defined class is a way to say that if fulfills these conditions and no need
 
 MM:MA transformation - where does this go? Is a precursor to visualization. Always see a plot. Could also be used for any case where there is two channel data. If variable data in groups then the R:G may not be 1. Could be a descriptive way of looking at the data.
 
-AI:JM will email Elisabetta offline to ask about MA transformation objective.
+AI:JM will email Elisabetta offline to ask about MA transformation's objective.
 
 MM:Should we have an unclassified parent?
 
