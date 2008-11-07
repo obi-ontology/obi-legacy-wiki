@@ -54,6 +54,8 @@ AI:Add 'cross validation' as an objective - JM (added to s/sheet)
 
 AI:Add cross correlation as a term - generic term will be cross correlation, needs an objective.
 
+AI:Add BIC - bayesian info criteria - way to determine a number that will determine cluster numbers, AIC, ICL, to be added as new terms. Related GenePattern ConsenusClustering
+
 
 ===Monnie McGee's Tasks===
 
@@ -85,8 +87,6 @@ AI:Add feature selection - objective. RB In this sense doing machine learning as
 
 AI:Need some way to relate multiple testing with the need for multiple test correction RB has a use case
 selection.
-
-
 
 ===Ted Liefeld's Tasks===
 
@@ -143,6 +143,3 @@ AI:Add pattern matching (class neighbours) as an objective - DT branch. We need 
 ===Unassigned===
 
 AI:GenePatterns need parameters as well as analysis methods, need to add these as a wish list items.
-
-
-AI:Add BIC - bayesian info criteria - way to determine a number that will determine cluster numbers, AIC, ICL, to be added as new terms. Related GenePattern ConsenusClustering
