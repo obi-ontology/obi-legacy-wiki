@@ -19,8 +19,6 @@ AI:create a sheet for variables as these determine what test you do -DONE and su
 
 AI:Descriptive stats also becomes an objective
 
-AI:Need defintion for Ward's method under agglomerative h'arch clustering - MC
-
 AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
 
 AI:Discriminant analysis should be a synonym of classification or class discovery MM
@@ -120,6 +118,9 @@ AI:LOHPaired module - needs paper checking for what is implemented so we can ass
 AI:Add mutual information to OBI - def: a formula (borrowed from information theory) that compares the probability that two items occur together as a joint event with the probability that they occur individually (and that their co-occurances are a result of chance). Needs a placement in OBI - should live with correlation - MM
 
 AI:add fold-change - process of calculating to OBI and define - JM
+
+
+AI:Need defintion for Ward's method under agglomerative h'arch clustering - MM
 
 
 ===Ryan Brinkman's Tasks===
