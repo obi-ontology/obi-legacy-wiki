@@ -47,7 +47,11 @@ AI: SMCA - is an normalization objective
 
 AI:Add 'cross validation' as an objective - JM (added to s/sheet)
 
+AI:design decision - we will use feature to say things like 'normally distributed' - about data as a workaround for now.
 
+AI:Implement feature - normally distributed in OBI and apply to a process.
+
+AI:Document these use cases Use case: longitudinal analysis - show me the methods show me the methods I can use- consider modelling as part of data, rather than in the heirarchy Use case: longitudinal analysis response variable=time - show me the methods I can use
 
 
 ===Tina Boussard's Tasks===
@@ -139,6 +143,10 @@ AI:Need to add distance measures in the ontology. We need to add these to the li
 
 AI:Add pattern matching (class neighbours) as an objective - DT branch. We need a generic algorithm for this. We think KNN is the closest thing to a generic algorithm for this, where K=2. Checking about how this is implemented in GenePattern
 
+AI:Check Ricardo's slides and create a competency question per path
+
+AI:Check RP's slides with the test graphs and tests present on these are consistent with what we have in the ontology. Add any tests that are not present.
+
 
 ===Unassigned===
 
@@ -187,13 +195,3 @@ AI:Add cox regression
 AI:add multivariate analysis of variance
 
 AI:Longitudinal analysis and define it - change to objective
-
-AI:Document these use cases Use case: longitudinal analysis - show me the methods show me the methods I can use- consider modelling as part of data, rather than in the heirarchy Use case: longitudinal analysis response variable=time - show me the methods I can use
-
-AI:design decision - we will use feature to say things like 'normally distributed' - about data as a workaround for now.
-
-AI:Implement feature - normally distributed in OBI and apply to a process.
-
-AI:Check Ricardo's slides and create a competency question per path
-
-AI:Check RP's slides with the test graphs and tests present on these are consistent with what we have in the ontology. Add any tests that are not present.
