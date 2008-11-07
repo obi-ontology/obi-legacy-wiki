@@ -31,7 +31,7 @@ AI:Address dimensionality reduction vs. data vector reduction - if these are the
 
 AI:JM will email Elisabetta offline to ask about MA transformation's objective.
 
-AI:We need a new objective - 'Type 1 Error Rate correction' (MC comment: should that be correction of eature type 1 rate error?)
+'''DONE''' AI:We need a new objective - 'Type 1 Error Rate correction' (MC comment: should that be correction of feature type 1 rate error?) - JM/MC: added error correction, to revise if need for specific error rate
 
 AI:Add a synonym to Network analysis - network topology analysis. 
 
