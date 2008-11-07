@@ -1,7 +1,22 @@
 Data Transformation Workshop Day 1 03 November 2008
 
+AI:Hammer BFO/IO for answers on where variables will be in the ontology. Add this to the agenda for Vancouver.
 
 
+AI:Follow up on input/output lists for Zelig - with Amrupali
+
+AI:'center calculation' and 'averaging data transformation' defined classes need attention. MM thinks that these could be conflated. Moving average needs to be under both. Data imputation possibly incorrect - could be a class in itself. Need a new defined class for that - probably objective. 
+
+AI:Need to add the fuzzy clustering methods -
+http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
+
+AI:Find information for B transformation (existing term) - need an objective. - RB
+
+AI:Background correction - changes to an objective. RB
+
+AI:Change 'data partitioning' to an objective
+
+AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR -  was this created so that gating will fall into the hierarchy? Send an email Richard to describe the issue and see if he is happy with this proposal  - MC
 
 == Day 1. 03 November 2008 ==
 
