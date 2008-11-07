@@ -25,7 +25,7 @@ AI:Address dimensionality reduction vs. data vector reduction - if these are the
 
 '''DONE''' AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S transformations should have objective normalization
 
-AI: Feature extraction suggested to be made an objective as suggested in review.
+'''DONE''' AI: Feature extraction suggested to be made an objective as suggested in review.
 
 '''DONE''' AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. Add a scaling objective will be added, loess scale gp trans is-a loess group transformation, followed by a scaling adjustment. This will be a defined class  - any dt with objective scaling.
 
