@@ -61,7 +61,7 @@ AI:Special kind of warping or possibly normalization (if we can agree that these
 
 AI:Add warping as a synonym for alignment objective - JM
 
-AI:Merge needs to be added as an objective synonym - combine - JM Definition: the union of two or more sets. E.g. the merging of columns or merging of rows from two different tab-delimited data sets.
+'''DONE''' AI:Merge needs to be added as an objective synonym - combine - JM Definition: the union of two or more sets. E.g. the merging of columns or merging of rows from two different tab-delimited data sets.
 
 AI:Ensure that the dt  objectives precise e.g. selection -> data selection - JM
 
