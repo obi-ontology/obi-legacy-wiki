@@ -41,7 +41,7 @@ AI:Send an email to RS about Network analysis's objectives
 
 '''DONE''' AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
 
-AI: SMCA - is an normalization objective
+'''DONE''' AI: SMCA - has an normalization objective
 
 AI:Add 'cross validation' as an objective - JM (added to s/sheet)
 
