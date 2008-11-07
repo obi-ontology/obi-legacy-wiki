@@ -19,9 +19,9 @@ AI:Address dimensionality reduction vs. data vector reduction - if these are the
 
 '''DONE''' AI:Descriptive stats also becomes an objective
 
-AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
+'''DONE''' AI:Differential expression analysis becomes an objective - as any test can be used - this is the objective
 
-AI:Discriminant analysis should be a synonym of classification or class discovery MM
+'''DONE''' AI:Discriminant analysis should be a synonym of classification or class discovery MM
 
 '''DONE''' AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S transformations should have objective normalization
 
