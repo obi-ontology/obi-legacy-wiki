@@ -43,8 +43,10 @@ AI:Find out what WAS classified under polynomial transformation (in some previou
 
 AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
 
-
 AI: SMCA - is an normalization objective
+
+AI:Add 'cross validation' as an objective - JM (added to s/sheet)
+
 
 
 
@@ -71,7 +73,6 @@ AI:quantitative variable - we need a definition that separates from ordinal - MM
 AI: LandmarkMatch, LocatePeaks relate to proteomics. May related to the sequence of the data - MM will investigate these 
 
 AI: Add a subclass for GSEA on differential expression excercise. MM
-
 
 
 ===Ryan Brinkman's Tasks===
@@ -132,24 +133,16 @@ AI:Need to deal with annotation where we map to ids only e.g add GO terms, where
 
 AI:RMA, GC-RMA, MAS5 - need to be added somewhere - with algorithm
 
-
-
-
-
-===Unassigned===
-
 AI:Look at the categorization in GenePattern UI and check vs. the current OBI objectives, should be some concordance
-
-AI:GenePatterns need parameters as well as analysis methods, need to add these as a wish list items.
-
-AI:Add 'cross validation' as an objective - JM (added to s/sheet)
 
 AI:Need to add distance measures in the ontology. We need to add these to the list Euclidean distance. Problem that we don't know where to put these yet. Where's the list?- Branch Work
 
 AI:Add pattern matching (class neighbours) as an objective - DT branch. We need a generic algorithm for this. We think KNN is the closest thing to a generic algorithm for this, where K=2. Checking about how this is implemented in GenePattern
 
 
+===Unassigned===
 
+AI:GenePatterns need parameters as well as analysis methods, need to add these as a wish list items.
 
 
 AI:Add BIC - bayesian info criteria - way to determine a number that will determine cluster numbers, AIC, ICL, to be added as new terms. Related GenePattern ConsenusClustering
