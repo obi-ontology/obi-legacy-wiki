@@ -61,6 +61,12 @@ AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if th
 
 AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
 
+AI:look up other types of chi squared and define them MM
+
+AI:quantitative variable - we need a definition that separates from ordinal - MM
+
+
+
 ===Ryan Brinkman's Tasks===
 
 AI:Find information for B transformation (existing term) - need an objective. - RB
@@ -73,15 +79,24 @@ AI:Need some way to relate multiple testing with the need for multiple test corr
 selection.
 
 
+
 ===Ted Liefeld's Tasks===
 
 ===Ricardo Pietrobon's Tasks===
+
+AI: Alt term:categorical variable. Needs two child terms: dichotomous variable, polychotomous variable and definitions - RP
+
+AI:Dump out the definitions of the variables used at Duke - these are defined in templates RP
+ - DONE, available as a google doc.
 
 ===Philippe Rocca-Serra's Tasks===
 
 AI:PRS will go back and check the objective for 'soft independent modeling of class analogy analysis'
 
 AI:We will ask the metagenomic community for a use case (about sequence alignment?  We will work on this when we have use cases for these PRS
+
+AI:Methods will be proposed from relevant terms in the header row of the hypothesis test spreadsheet to the plan/planned process branch. PRS
+
 
 
 ===General Data Transformation Branch Tasks===
@@ -94,3 +109,6 @@ http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
 AI:Review branch to check for missing subsumption of terms for objectives
 
 AI:Add more children for specific methods of multiple testing procedure.
+
+
+===Unassigned===
