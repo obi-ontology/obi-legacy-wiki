@@ -43,7 +43,7 @@ AI:Send an email to RS about Network analysis's objectives
 
 '''DONE''' AI: SMCA - has an normalization objective
 
-AI:Add 'cross validation' as an objective - JM (added to s/sheet)
+'''DONE''' AI:Add 'cross validation' as an objective - JM (added to s/sheet) - NOTE: this has been added as a child of partitioning objective, with alternative term rotation estimation
 
 AI:design decision - we will use feature to say things like 'normally distributed' - about data as a workaround for now.
 
