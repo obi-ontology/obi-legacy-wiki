@@ -29,18 +29,12 @@ AI:EH transformation - belongs where B transformation is sibling - B/H/EH/S tran
 
 AI: Feature extraction suggested to be made an objective as suggested in review.
 
-
-
 AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. Add a scaling objective will be added, loess scale gp trans is-a loess group transformation, followed by a scaling adjustment. This will be a defined class  - any dt with objective scaling.
-
-AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
 
 AI:JM will email Elisabetta offline to ask about MA transformation's objective.
 
 AI:We need a new objective - 'Type 1 Error Rate correction'
 
-
-AI:Add more children for specific methods of multiple testing procedure.
 
 AI:Need some way to relate multiple testing with the need for multiple test correction RB has a use case
 
@@ -52,9 +46,7 @@ AI:Find out what WAS classified under polynomial transformation (in some previou
 
 AI: Sequence analysis becomes and objective, anything underneath will have it as an objective. Objective is 'sequence feature identification' or 'prediction'
 
-AI:We will ask the metagenomic community for a use case. PRS. We will work on this when we have use cases for these
 
-AI:PRS will go back and check the objective for 'soft independent modeling of class analogy analysis'
 
 AI: SMCA - is an normalization objective
 
@@ -71,6 +63,8 @@ Outlier removal to be added as an objective.  MM
 
 AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if they are different.
 
+AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
+
 ===Ryan Brinkman's Tasks===
 
 AI:Find information for B transformation (existing term) - need an objective. - RB
@@ -86,6 +80,11 @@ AI:Add feature selection - objective. RB In this sense doing machine learning as
 
 ===Philippe Rocca-Serra's Tasks===
 
+AI:PRS will go back and check the objective for 'soft independent modeling of class analogy analysis'
+
+AI:We will ask the metagenomic community for a use case. PRS. We will work on this when we have use cases for these
+
+
 ===General Data Transformation Branch Tasks===
 
 AI:Follow up on input/output lists for Zelig - with Amrupali - DT branch
@@ -94,3 +93,5 @@ AI:Need to add the fuzzy clustering methods -
 http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/cmeans.html
 
 AI:Review branch to check for missing subsumption of terms for objectives
+
+AI:Add more children for specific methods of multiple testing procedure.
