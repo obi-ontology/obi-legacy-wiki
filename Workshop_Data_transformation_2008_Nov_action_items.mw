@@ -9,9 +9,9 @@ AI:'center calculation' and 'averaging data transformation' defined classes need
 
 '''DONE''' AI:Background correction - changes to an objective. 
 
-'''DONE''' AI:Change 'data partitioning' to an objective
+'''DONE''' AI:Change 'data partitioning' to an objective (obsoleted property-based and random-based vecto selection)
 
-AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR -  was this created so that gating will fall into the hierarchy? Send an email Richard to describe the issue and see if he is happy with this proposal  - MC - DONE. RS is Happy 
+'''DONE''' AI:gating is not a dimensionality reduction and is therefore incorrectly placed under property based vector reduction - PBVR. Gating has objective data partioning, goes under the root. PBVR -  was this created so that gating will fall into the hierarchy? Send an email Richard to describe the issue and see if he is happy with this proposal  - MC - DONE. RS is Happy 
 
 AI:Address dimensionality reduction vs. data vector reduction - if these are the same thing - then we can have a single term for both. - MC will also add this to the email.
 
