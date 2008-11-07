@@ -31,7 +31,7 @@ AI: Feature extraction suggested to be made an objective as suggested in review.
 
 AI:JM will email Elisabetta offline to ask about MA transformation's objective.
 
-AI:We need a new objective - 'Type 1 Error Rate correction'
+AI:We need a new objective - 'Type 1 Error Rate correction' (MC comment: should that be correction of eature type 1 rate error?)
 
 AI:Add a synonym to Network analysis - network topology analysis. 
 
