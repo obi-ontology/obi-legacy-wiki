@@ -27,7 +27,6 @@ AI:Discriminant analysis should be a synonym of classification or class discover
 
 AI: Feature extraction suggested to be made an objective as suggested in review.
 
-
 '''DONE''' AI:Loess scale group transformation is a scaling adjustment. CHange tree to reflect this. Just the scaling, not the transformation. Add a scaling objective will be added, loess scale gp trans is-a loess group transformation, followed by a scaling adjustment. This will be a defined class  - any dt with objective scaling.
 
 AI:JM will email Elisabetta offline to ask about MA transformation's objective.
