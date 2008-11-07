@@ -67,8 +67,11 @@ AI:Merge needs to be added as an objective synonym - combine - JM Definition: th
 
 AI:Ensure that the dt  objectives precise e.g. selection -> data selection - JM
 
+AI:We will need to add union, intersection, complement to OBI - JM
 
+AI:define NMF currently u/c and add objectives - A pattern recognition algorithm that ids patterns that together explain the data as a linear combinatio of expression signatures. Synonyms:SY - NCIT. Citation needs adding to NCIT - TL
 
+AI:Add selection - e.g. selection based on row or column ids after merge. Def:Selection is the objective of choosing data based on some criteria such as row or column identifiers. - Add to OWL file. JM
 
 
 ===Tina Boussard's Tasks===
@@ -115,6 +118,8 @@ AI:thresholding: Thresholding objective is a special kind of filtering where bou
 AI:LOHPaired module - needs paper checking for what is implemented so we can assign a general algorithm and specific ones - MM
 
 AI:Add mutual information to OBI - def: a formula (borrowed from information theory) that compares the probability that two items occur together as a joint event with the probability that they occur individually (and that their co-occurances are a result of chance). Needs a placement in OBI - should live with correlation - MM
+
+AI:add fold-change - process of calculating to OBI and define - JM
 
 
 ===Ryan Brinkman's Tasks===
@@ -190,12 +195,3 @@ AI:GenePatterns need parameters as well as analysis methods, need to add these a
 AI:Add SNP and LOH methods/processes to dt - DT branch
 
 ===Unassigned===
-
-AI:Add selection - e.g. selection based on row or column ids after merge. Def:Selection is the objective of choosing data based on some criteria such as row or column identifiers. - Add to OWL file. JM
-
-AI:We will need to add union, intersection, complement - JM
-
-
-AI:add fold-change - process of calculating to OBI and define - JM
-
-AI:define NMF currently u/c and add objectives - A pattern recognition algorithm that ids patterns that together explain the data as a linear combinatio of expression signatures. Synonyms:SY - NCIT. Citation needs adding to NCIT - TL
