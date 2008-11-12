@@ -4,6 +4,8 @@
 * What happens next? The longer term plan for continuing OBI development.
 * Neurocommons hacking session
 * NCBO Bioportal (Trish) on Thursday
+* Namespace discussion (if not solved earlier): We need a policy that can be applied not just to MSI but for any other ontology that will be later 'included' in OBI (e.g. SepCV).
+* Refine and agree on obi policy regarding prohibited assertions under defined classes: https://wiki.cbil.upenn.edu/obiwiki/index.php/DefinedClasses
 
 ===Participants===
 
