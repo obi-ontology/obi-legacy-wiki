@@ -91,11 +91,11 @@ AI:Add CART random forest  to OBI MM will define
 AI:Def trimmed mean calc - has part trimming process, suceeded by mean calculation.
 Outlier removal to be added as an objective.  MM
 
-AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if they are different.
+'''DONE - 3D is different - opens up lots more terms'''AI:MM will ask a colleague what to do for 3D and 2D feature extraction and if they are different.
 
 AI:MM will look to see whether other scaling adjustments are used instead of loess ever.
 
-AI:look up other types of chi squared and define them MM
+'''DONE - see google docs hypothesis testing spreadsheet'''AI:look up other types of chi squared and define them MM
 
 AI:quantitative variable - we need a definition that separates from ordinal - MM
 
@@ -121,7 +121,6 @@ AI:add fold-change - process of calculating to OBI and define - JM
 
 
 AI:Need defintion for Ward's method under agglomerative h'arch clustering - MM
-
 
 ===Ryan Brinkman's Tasks===
 
