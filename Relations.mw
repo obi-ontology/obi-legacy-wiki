@@ -1,0 +1,28 @@
+The Relations branch of the Ontology for Biomedical Investigations
+
+== Overview ==
+
+The relations branch of OBI is a open forum for the discussion and implementation of ontology relations for OBI. The OBI [http://purl.obofoundry.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings. The OBI mailing lists including the relations mailing list are listed [http://obi-ontology.org/page/Mailing_lists here].
+
+
+== Relation conference call agenda ==
+
+The current conference call agenda, along with previous call minutes can be found on the 
+
+
+==Relations development procedure ==
+
+The OBI project is using the OBO relation ontology [http://www.bioontology.org/wiki/index.php/RO:Main_Page (RO)]. The following process represents how a relation is accepted in the OBI Relations.owl
+
+# A relation is proposed via the mailing list or issue tracker.
+# If the relation is in the RO, then it is available for use.
+# If the relation is not in the RO, then the RO_proposed is checked to see if the relation exists there.
+# If the relation is in RO_proposed then it is include in OBI, by manually including the relation in the OBI file external-by-hand.owl
+# If the relation is neither in RO or RO_proposed then the relation is inlcuded in the OBI file Relations.owl
+# Every relation in Relations.owl is in effect a proposal for inclusion into the RO.
+# If a relation that is in RO_proposes or in OBI Relations.owl is accepted in the RO, then OBI uses this version of the relation rather than the relation contain in external-by-hand or Relations.owl
+
+
+== Relations in OBI ==
+
+The list of relations currently proposed or being used in OBI can be found.
