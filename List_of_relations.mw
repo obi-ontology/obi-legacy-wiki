@@ -1,0 +1,13 @@
+[[Relations | << Back to Relations home page]]
+
+== Overview ==
+The relations used in OBI are contained in:
+# The relation ontology (RO)
+# Proposed relations for the RO (RO_proposed)
+# OBI specific relations (Relations.owl) 
+
+The following page describes the relations used in OBI, in addition to those included in the RO. In other words the relations used from RO_proposed and the relations contained in Relations.owl. To find the most up to date relations please check out the most recent version of the ontology from subversion.
+
+== Relations in use from RO_proposed ==
+
+== Relations Relations.owl ==
