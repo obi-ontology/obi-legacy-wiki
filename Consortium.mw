@@ -286,14 +286,12 @@ EBI-EMBL, NET Project]
 
 {| border="1" cellpadding="5" cellspacing="0" width=100%
 |+ '''The OBI Core Developers'''
-!width="20%"|Community name
-!width="20%"|Individuals
-!width="20%"|Community Affiliation
+!width="30%"|Individuals
+!width="30%"|Community Affiliation
 !width="20%" |Institutional Affiliation
 !width="20%"|Start date
 !width="20%"|End Date
 |-
-|
 |[http://mcourtot.googlepages.com/home Mélanie Courtot]
 |[http://flowcyt.sourceforge.net Flow Cytometry], [http://www.ebi.ac.uk/sbo/ SBO],
 [http://www.ebi.ac.uk/biomodels/ BioModels]    
@@ -301,7 +299,6 @@ EBI-EMBL, NET Project]
 |Fall 2007
 |
 |-
-|
 |[http://www.cs.ncl.ac.uk/people/home.php?id=452 Allyson Lister]
 |[http://www.mged.org/Workgroups/rsbi/rsbi.html RSBI],
 [http://www.genomics.ceh.ac.uk/genomecatalogue Genome Catalogue],
@@ -311,28 +308,24 @@ EBI-EMBL, NET Project]
 |Spring 2006
 |
 |-
-|
 |[http://sciencecommons.org/about/whoweare/ruttenberg/ Alan Ruttenberg]
 |[http://sw.neurocommons.org/ The Neurocommons]
 |[http://sciencecommons.org/ Science Commons]
 |Fall 2007
 |
 |-
-|
 |[http://www.ebi.ac.uk/Information/Staff/person_maint.php?s_person_id=734 Daniel Schober]
 |
 |[http://www.ebi.ac.uk EBI]
 |Fall 2007
 |
 |-
-|
 |[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?s_person_id=863 James Malone]
 |[http://www.microarray-quality.org/ EMERALD]
 |[http://www.ebi.ac.uk EBI]
 |Fall 2007
 |
 |-
-|
 |[http://www.ebi.ac.uk/Information/Staff/person_maintx.php?person_id=422 Philippe Rocca-Serra]
 |[http://mged.sourceforge.net/ontologies MGED], 
 [http://www.ebi.ac.uk/net-project NET Project]
