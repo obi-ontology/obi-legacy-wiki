@@ -6,6 +6,7 @@
 * Clean up file according to http://ashby.csail.mit.edu/web/2008/obi/reports/InstrumentAndPart_report.html
 * Update device relations list at https://wiki.cbil.upenn.edu/obiwiki/index.php/ListOfRelationships
 * Binning under defined classes Policy discussion
+* Discuss Differrentiae of 'instrument': has_parameter_set
 * Work out how to do a device mini use case "flow cytometer used to count CD8 positive cells" (e.g. http://www.scq.ubc.ca/flow-cytometry-a-technology-to-count-and-sort-cells/)
 ** Pick a most important relations between instrument, manufacturer, function, protocol application, Biomaterial/sample, device part, instrument parameter, software and protocol and try to model.
 
