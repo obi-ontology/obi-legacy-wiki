@@ -4,7 +4,100 @@
 '''Agenda for 18. November 2008'''
 
 * Clean up file according to http://ashby.csail.mit.edu/web/2008/obi/reports/InstrumentAndPart_report.html
-* Update device relations list at https://wiki.cbil.upenn.edu/obiwiki/index.php/ListOfRelationships
+* Update the following device relations which were listed on the ListofRelations page which has now been retired. For each relation please state 
+#the name of the relation, 
+#the relation definition, 
+#the domain and range, 
+#example of use 
+# Then submit a tracker item for each one
+
+* List of Relations from MO that are relevant to the ObiBranch Instrument
+[[Image:InstrumentRelationsFromMO.txt]]
+
+'''runs OS/software'''
+* Domain: any sufficient automated and computerized subclass of OBI:instrument and OBI:platform
+* Range: a realizable_entity subclass (equivalent to the deleted OBI:software)
+
+'''realizes process step'''
+* Domain: OBI:instrument
+* Range:  some BFO:processual enity subclass, such as BFO:Process, BFO:fiat process part, OBI:protocol_application or OBI:assay ?
+
+'''or alternatively (dept. on granularity) executes'''
+* Domain: OBI:instrument
+* Range:  BFO:process, OBI:assay
+
+'''has_function'''
+* Domain: OBI:instrument
+* Range:  OBI:instrument_function
+'''
+'''measures'''
+* Domain: OBI:instrument, OBI:part''of''instrument  OR we have a class OBI:instrument_application here...
+* Range:  OBI:data_object
+
+'''parameter_setting'''
+* Domain: OBI:instrument
+* Range:  OBI:parameter_value_application
+
+''' (or additionaly) default_setting'''
+* Domain: OBI:instrument
+* Range:  OBI:parameter_value_application
+
+'''data_input'''
+* Domain: OBI:instrument
+* Range:  OBI:data_object, OBI:data_set
+
+'''data_output'''
+* Domain: OBI:instrument
+* Range:  OBI:data_object, OBI:data_set
+
+'''has_vendor'''
+* Domain: OBI:instrument
+* Range: vendor (not yet present in OBI)
+
+'''has_model'''
+* Domain: OBI:instrument
+* Range:  model (not yet present in OBI)
+
+'''throughput_style (highthroughput vs small scale)'''
+* Domain: OBI:instrument
+* Range:  data''throughput''scale (not yet present in OBI)
+
+'''part_of_system/platform/pipeline'''
+* Domain: OBI:instrument
+* Range:  OBI:platform
+
+'''placement/environment (external influences)'''
+* Domain: OBI:instrument
+* Range: BFO:three''dimensional''region, BFO:site
+
+'''user'''
+* Range: OBI:investigator or OBI:subject_role (are realizables/roles right now, so seem a bit strange), maybe better some Continuant 'person' class ?
+
+'''(eventually) last_user'''
+* Domain: OBI:instrument
+* Range: OBI:investigator  or OBI:subject_role (are realizables/roles right now, so seem a bit strange), maybe better some Continuant 'person' class ?
+
+'''last-checked'''
+* Domain: OBI:instrument
+* Range:  BFO:temporal instant
+
+'''known_defects/problems/shortcomings'''
+* Domain: OBI:instrument
+* Range: (-), might be of datatype property (String)
+
+'''processing_time/timescale'''
+* Domain: OBI:instrument
+* Range: BFO:temporal_interval
+
+'''consumes'''
+* Domain: OBI:instrument
+* Range:  OBI:labware/consumables
+
+
+There could be more abstract relations, i.e. to an 'Instrumentation Effect' class (as in EXPO) that describes what implecations regarding the design princlipe lie in a decision to use a specific instrument type... 
+
+
+
 * Binning under defined classes Policy discussion
 * Discuss Differrentiae of 'instrument': has_parameter_set
 * Work out how to do a device mini use case "flow cytometer used to count CD8 positive cells" (e.g. http://www.scq.ubc.ca/flow-cytometry-a-technology-to-count-and-sort-cells/)
