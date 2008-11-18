@@ -31,4 +31,4 @@ The OBI project is using the OBO relation ontology [http://www.bioontology.org/w
 
 == Relations in OBI ==
 
-The list of relations currently proposed or being used in OBI can be found in the Relations.owl file. The relations being re-used from the RO_proposed file can be found in the external-by-hand.owl file. A wiki version of this file is displayed on the [[List_of_relations | list of the relations]] page.
+The list of relations currently proposed or being used in OBI can be found in the Relations.owl file. The relations being re-used from the [http://www.berkeleybop.org/ontologies/obo-all/ro_proposed/ro_proposed.owl RO_proposed] file can be found in the external-by-hand.owl file. A wiki version of this file is displayed on the [[List_of_relations | list of the relations]] page.
