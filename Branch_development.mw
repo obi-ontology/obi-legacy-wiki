@@ -1,5 +1,4 @@
-OBI is separated into branched to aid multi-user and distributed development
-
+To enable OBI development to proceed efficiently, the ontology structure was separated into sections (biomaterial, data transformation, digital entity, function, instrument, protocol application, qualities, role and relations) called branches, allowing concurrent development by different groups, with each group working more or less independently. Each branch is maintained in a separate OWL file, and contains closely related terms and definitions. For example, the instrument branch covers relevant kinds of instrumentation and parts of devices. The individual branch pages are listed below:
 
 [http://obi-ontology.org/page/BiomaterialTermNeeds Biomaterial]
 
