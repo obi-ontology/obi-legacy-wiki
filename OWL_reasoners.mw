@@ -1,0 +1,5 @@
+* [http://clarkparsia.com/pellet/ Pellet] is an open source reasoner for OWL 2 DL in Java. It provides standard and cutting-edge reasoning services for OWL ontologies.
+
+* [http://owl.man.ac.uk/factplusplus/ Fact++] is the new generation of the well-known FaCT OWL-DL reasoner. FaCT++ uses the established FaCT algorithms, but with a different internal architecture. Additionally, FaCT++ is implementated using C++ in order to create a more efficient software tool, and to maximise portability. New optimisations have also been introduced, and some new features added.
+
+* [http://www.racer-systems.com/index.phtml RacerPro] is an OWL reasoner and inference server for the Semantic Web.
