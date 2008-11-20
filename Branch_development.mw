@@ -1,9 +1,37 @@
-To enable OBI development to proceed efficiently, the ontology structure was separated into sections (biomaterial, data transformation, digital entity, function, instrument, protocol application, qualities, role and relations) called branches, allowing concurrent development by different groups, with each group working more or less independently. Each branch is maintained in a separate OWL file, and contains closely related terms and definitions. For example, the instrument branch covers relevant kinds of instrumentation and parts of devices. The individual branch pages are listed below:
+To enable OBI development to proceed efficiently, the ontology structure was separated into sections (biomaterial, data transformation, digital entity, function, instrument, protocol application, qualities, role and relations) called branches, allowing concurrent development by different groups, with each group working more or less independently. Each branch is maintained in a separate OWL file, and contains closely related terms and definitions. For example, the instrument branch covers relevant kinds of instrumentation and parts of devices. The individual branch pages are listed below in relation to their mapping to BFO:
 
-[http://obi-ontology.org/page/BiomaterialTermNeeds Biomaterial]
 
-[[PlanandPlanProcess]]
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Occurent</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Independent continuant</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Dependent continuant</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Relations</font>
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+*Plan and planned process
+*Data transformation
 
-[[Instrument]]
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
 
-[[Relations]]
+*[http://obi-ontology.org/page/BiomaterialTermNeeds Biomaterial]
+*Instrument
+ 
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+
+*Information_artifact_ontology
+*Role_branch
+*Function_branch
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+
+*[[Relations]]
+
+
+
+|}
