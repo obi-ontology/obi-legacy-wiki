@@ -2,12 +2,18 @@
 
 '''Agenda for 25. November 2008'''
 
-*The possible inclusion of consumes data, generates data as functions to replace the relations inputs/outputs data.
-* Continuation of the has_model_number [https://sourceforge.net/tracker2/?func=detail&aid=2310042&group_id=177891&atid=886178 discussion here]. A possibility is that we create one relation called has_nominal_number. ([http://en.wikipedia.org/wiki/Nominal_number Wikipedia def of nominal number]). This would avoid us having to create specific relations for things like, model number, catlogue number, serial number etc, batch number. Instead we could have the following.
+*The possible inclusion of consumes data, produces data as functions. For example, the device was designed with the intent to produce data. 
+<pre>
+-consume_data: Is a function that in borne by in a material entity by virtue of its structure. When realized the material entity consumes (has an input of) data.
 
-has_nominal_number some serial_number
+-produce_data: Is a function that is borne by a material entity by virtue of its structure. When realized the material entity produces (has an output of) data
+</pre>
 
-has_nominal_number some batch_number
+* As a result of the data_functions, the definition of instrument could be changed to "is a device that is designed with the intention to provide the function to produce_data
+
+* Continuation of the has_model_number/identifies<->identified_by [https://sourceforge.net/tracker2/?func=detail&aid=2310042&group_id=177891&atid=886178 discussion here]. 
+
+
 
 '''Agenda for 18. November 2008'''
 
