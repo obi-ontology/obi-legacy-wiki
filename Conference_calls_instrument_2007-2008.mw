@@ -10,6 +10,7 @@
 </pre>
 
 * As a result of the data_functions, the definition of instrument could be changed to "is a device that is designed with the intention to provide the function to produce_data
+*DS: I think produce_data is still too restrictive: An ultrasonic homogenizer is an instrument and does not produce data. Again, a more appropriate differentiae would be instrument '''has parameter''' (be it an on/off switch in the simplest case or software in a more complex case).
 
 * Continuation of the has_model_number/identifies<->identified_by [https://sourceforge.net/tracker2/?func=detail&aid=2310042&group_id=177891&atid=886178 discussion here]. 
 
