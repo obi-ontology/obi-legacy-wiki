@@ -3,3 +3,5 @@
 * [http://owl.man.ac.uk/factplusplus/ Fact++] is the new generation of the well-known FaCT OWL-DL reasoner. FaCT++ uses the established FaCT algorithms, but with a different internal architecture. Additionally, FaCT++ is implementated using C++ in order to create a more efficient software tool, and to maximise portability. New optimisations have also been introduced, and some new features added.
 
 * [http://www.racer-systems.com/index.phtml RacerPro] is an OWL reasoner and inference server for the Semantic Web.
+
+* [http://www.hermit-reasoner.com/ The HermiT Reasoner for OWL]. HermiT is the first publicly-available OWL reasoner based on a novel &#8220;hypertableau&#8221; calculus which provides much more efficient reasoning than any previously-known algorithm. Ontologies which previously required minutes or hours to classify can often by classified in seconds by HermiT, and HermiT is the first reasoner able to classify a number of ontologies which had previously proven too complex for any available system to handle.
