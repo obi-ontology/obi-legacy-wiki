@@ -32,15 +32,34 @@ Visit our [http://purl.obofoundry.org/obo/obi/tracker issue tracker] to report p
 
 Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] is open for perusal. The OBI [http://purl.obofoundry.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings. 
 |}
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Workshops</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Working Groups</font>
+! width=23% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Application</font>
+! width=23% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Resources</font>
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
 
-[[Branch_development| Branch development of the Ontology]]
+*[[Workshop| Developer workshops]]
 
-[[Case_study| Case studies: submitted for representation within OBI]]
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
 
-[[Use_case| Use cases: demonstration how OBI can be used for a particular application domain]]
+*[[Branch_development| Branch development]] 
+*[[UML_group| UML group]]
+
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+
+*[[Case_study| Submitted case studies]]
+*[[Use_case| Use cases]]
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
 
 [[OWL_reasoners | OWL reasoners]]
-
-[[UML_group| UML group]]
-
-[[Workshop| Developer workshops]]
+|}
