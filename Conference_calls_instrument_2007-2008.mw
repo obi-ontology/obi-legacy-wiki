@@ -2,6 +2,10 @@
 
 '''Agenda for 2nd. December 2008'''
 
+* manufacturer use case (cf agenda 14 october)
+
+* discuss difference between device and instrument and do we need to keep both. I (MC) am unclear about the distinction: for example Frank seems to say an ultrasonic homogenizer is a device whereas you would say it's an instrument. Also, I'm unsure with that we gain something by saying for example an ultrasonic homogenizer is an instrument vs saying it is a device.
+
 *The possible inclusion of consumes data, produces data as functions. For example, the device was designed with the intent to produce data. 
 <pre>
 -consume_data: Is a function that in borne by in a material entity by virtue of its structure. When realized the material entity consumes (has an input of) data.
