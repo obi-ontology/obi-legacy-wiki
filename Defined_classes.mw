@@ -5,7 +5,7 @@ At the 2007 summer workshop it was decided to allow defined classes in OBI, for 
 
 The first case is the stronger. The second (need for polyhierarchy) needs further justification in the form of plausible use cases and should be reviewed once we have some.
 
-[DS: E.g. Most biologist expect to find a 'LC-MS assay' as well under 'LC assay' as under 'MS assay'. I guess in this discussion we always need to state when we assume the classification/reasoning step  to take place and what view of the ontology (asserted or inferred) we present to the users.]
+[DS: E.g. Most biologist expect to find a 'LC-MS assay' as well under 'LC assay' as under 'MS assay'. I guess in this discussion we always need to state when we assume the classification/reasoning step  to take place and what view of the ontology (asserted or inferred) we present to the editors and users.]
 
 An action item was to come up with a mechanism of handling these defined classes in day to day development of the ontology - where to put them, how to mark them, what are policies related to them?
 
