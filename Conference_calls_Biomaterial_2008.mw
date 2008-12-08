@@ -11,15 +11,15 @@ II/ artifact object: the biom branch will update restrictions and revisit
 
 III/ Identify 10 "core" terms
  
-0. material entity
-1. organism
-2. organization
-3. chemical entities in solution (mixtures)
-4. environmental matter
-5. macroscopic part of organism
-6. molecular entities
-7. artifact object
-8. EOO
+*material entity
+*organism
+*organization
+*chemical entities in solution (mixtures)
+*environmental matter
+*macroscopic part of organism
+*molecular entities
+*artifact object
+*EOO
 
 note:  protein shouldn't be outside molecular entities 
 we need a round of clean up, including metadata
