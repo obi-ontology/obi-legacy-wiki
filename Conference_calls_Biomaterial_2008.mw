@@ -1,5 +1,44 @@
 ==Biomaterial Conference Calls==
 
+=== December 5th 2008 ===
+
+I/ creation of defined class organization bearing role regulatory role as regulatory agency
+regulatory agency: The agency or government department that has responsibility over the legislation (acts and regulations) for a given sector of the government.
+source: biobasics.gc.ca/english/View.asp
+
+
+II/ artifact object: the biom branch will update restrictions and revisit
+
+III/ Identify 10 "core" terms
+ 
+0. material entity
+1. organism
+2. organization
+3. chemical entities in solution (mixtures)
+4. environmental matter
+5. macroscopic part of organism
+6. molecular entities
+7. artifact object
+8. EOO
+
+note:  protein shouldn't be outside molecular entities 
+we need a round of clean up, including metadata
+
+agreement on having roles reagent and specimen role on a case by case basis (e.g. Alan's cat not specimen)
+
+Review of those terms
+1. organism
+- Homo sapiens alternative term natural person, alt term human
+person is subject to confusion, e.g. as a legal term "This is a common offshore legal term meaning a living breathing person as opposed to an unnatural person such as a corporation", thus we chose to have natural person as alternative term
+- organism should include dead ones as well
+
+2. organization
+
+We added an instance organization Affymetrix to serve as model/template for other branches. For example the instrument branch needs to represent manufacturers.
+Instances will be added in a separate file - Affymetrix has been added in the Biomaterial branch file just as an example how we proceed.
+Role branch will add a manufacturer role
+Relation branch: there is a relation is_manufactured_by, do we need the inverse is_manufacturer_of? do we need a more generic one is_supplier and then use roles?
+
 === November 7th 2008 ===
 
 Present: JF,BP,PRS.
