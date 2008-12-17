@@ -1,1 +1,62 @@
 A list of core terms will be compiled by each branch and added here, by the end of the year (2008).
+
+
+
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''Biomaterial branch'''
+!width="40%"|terms
+!width="60%" |description - discussion
+|-
+|1. material entity
+| definition: currently union of 3 types of BFO objects
+new proposed definition: material entity def A
+"snap:IndependentContinuant" ("independent_continuant") that is
+spatially extended, and its identity of is independent of that of
+other entities and can be maintained through time.
+ex of usage: collection of random bacteria, a chair, dorsal surface
+of the body
+(examples chosen to cover the 3 cases)
+|-
+|2. organism
+| - Homo sapiens alternative term natural person, alt term human person is subject to confusion, e.g. as legal term "This is a common offshore legal term meaning a living breathing person as opposed to an unnatural person such as a corporation", thus we chose to have natural person as alternative term
+- organism should include dead ones as well
+|-
+|3. organization
+| - We added an instance organization Affymetrix to serve as model/
+template for other branches. For example the instrument branch needs
+to represent manufacturers. Instances will be added in a separate file
+- Affymetrix has been added in the Biomaterial branch file just as an
+example how we proceed. Role branch will add a manufacturer role
+Relation branch: there is a relation is_manufactured_by, do we need
+the inverse is_manufacturer_of? do we need a more generic one
+is_supplier and then use roles?
+|-
+|4. molecular entities
+| - instead of adding our own label and preferred term to get rid of
+plural form, we should contact external resource and ask for
+modification according to OBO Foundry principles. Adding our own form
+is not very efficient, and create double display of labels in protege
+if both lang tags are set to "en"
+
+Process of adding new subclasses to molecular entities
+case of "huge" resources e.g. melanie has a list of 600 fluorochromes
+and bjoern a list of 1000 peptides
+Proposal is to store these very specific resources in external files
+(Bjoern may not want to get 600 fluorochromes when downloading OBI)
+|-
+|5. chemical entities in solution (mixtures)
+|
+|-
+|6. environmental matter
+| 
+|-
+|7. macroscopic part of organism
+|
+|-
+|8. artifact object
+| 
+|-
+|9. EOO (entity of organismal origin)
+| 
+|}
+<br>
