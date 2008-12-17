@@ -60,3 +60,43 @@ Proposal is to store these very specific resources in external files
 | 
 |}
 <br>
+
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''DENRIE branch'''
+!width="40%"|terms
+!width="60%" |description - discussion
+|-
+|1. datum/ data; dataset; data structure
+| 
+|-
+|2. narrative object - textual
+| 
+|-
+|3. narrative object - figure
+| 
+|-
+|4. software
+| 
+|-
+|5. variable - could be plan
+|
+|-
+|6. hypothesis
+| 
+|-
+|7. result
+|
+|-
+|8. conclusion
+| 
+|-
+|9. objective specification - research objective
+| 
+|-
+|10. study design - technical approach
+| 
+|-
+|11. value/ unit
+| 
+|}
+<br>
