@@ -100,3 +100,27 @@ Proposal is to store these very specific resources in external files
 | 
 |}
 <br>
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''Role branch'''
+!width="40%"|terms
+!width="60%" |description - discussion
+|-
+|1. analyte role
+| 
+|-
+|2. protocol participant role
+| 
+|-
+|3. specified input role
+| 
+|-
+|4. specified output role
+| 
+|-
+|5. evaluant role
+|
+|-
+|6. reagent role
+| 
+|}
+<br>
