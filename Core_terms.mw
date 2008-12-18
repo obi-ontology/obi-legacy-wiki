@@ -124,3 +124,38 @@ Proposal is to store these very specific resources in external files
 | 
 |}
 <br>
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''Plan and Planned Process Branch'''
+!width="40%"|terms
+!width="60%" |description - discussion
+|-
+|1. investigation
+| status: branch approved
+|-
+|2. study design
+| status: branch approved
+|-
+|3. protocol
+| status: branch approved
+|-
+|4. assay
+| status: branch approved
+|-
+|5. analyte measuring assay
+| status: branch approved
+|-
+|6. material administration
+| status: not reviewed
+|-
+|7. objective driven process, planned process, and protocol application 
+| status: not done. suggestion to merge two or more 
+|-
+|8. material transformation = artifact creation
+| status: first branch review done
+|-
+|9. material separation
+| status: not reviewed
+|-
+|10. manufacturing process
+| status: first branch review done
+|}
