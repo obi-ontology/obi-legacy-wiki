@@ -150,6 +150,9 @@ Proposal is to store these very specific resources in external files
 |7. objective driven process, planned process, and protocol application 
 | status: not done. suggestion to merge two or more 
 |-
+|8. objective specification, plan specification
+| status: not done. includes the concretization and realization relationships
+|-
 |8. material transformation = artifact creation
 | status: first branch review done
 |-
