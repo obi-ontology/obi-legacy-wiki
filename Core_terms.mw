@@ -153,12 +153,12 @@ Proposal is to store these very specific resources in external files
 |8. objective specification, plan specification
 | status: not done. includes the concretization and realization relationships
 |-
-|8. material transformation = artifact creation
+|9. material transformation = artifact creation
 | status: first branch review done
 |-
-|9. material separation
+|10. material separation
 | status: not reviewed
 |-
-|10. manufacturing process
+|11. manufacturing process
 | status: first branch review done
 |}
