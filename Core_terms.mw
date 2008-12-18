@@ -162,3 +162,43 @@ Proposal is to store these very specific resources in external files
 |11. manufacturing process
 | status: first branch review done
 |}
+
+<br>
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''Data Transformation Branch'''
+!width="40%"|terms
+!width="60%" |description - discussion
+|-
+|1. data transformation
+| 
+|-
+|2. data transformation objective
+| 
+|-
+|3. has_objective
+| 
+|-
+|4. inputs_specified_data
+| 
+|-
+|5. outputs_specified_data
+| 
+|-
+|6. datum
+| 
+|-
+|7. data set
+| 
+|-
+|8. image - linking to a visualization (is_rendered_by)
+| 
+|-
+|9. software
+|
+|-
+|10. material separation
+| status: not reviewed
+|-
+|11. 'roles for data'
+| 
+|}
