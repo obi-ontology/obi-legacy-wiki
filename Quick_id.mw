@@ -3,7 +3,7 @@ Process for the quick submission of a term to obtain an OBI ID
 '''Status: Document in progress'''
 
 
-The terms requiring a quick OBI ID should be added to the obi-quick-id.owl branch file. When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated".
+The terms requiring a quick OBI ID should be added to the obi-quick-id.owl branch file. When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated". First of all consult the [[Protege_for_OBI | document for using OBI in Protege]].
 
 
 Process
