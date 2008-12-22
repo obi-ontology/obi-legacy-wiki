@@ -1,15 +1,107 @@
-Process for the quick submission of a term to obtain an OBI ID
+= How to submit a term to OBI to get an OBI ID =
+
+Contributing authors: [[Frank_Gibson |Frank Gibson]], [[Dirk_Derom | Dirk Derom]]
 
 '''Status: Document in progress'''
 
 
-The terms requiring a quick OBI ID should be added to the obi-quick-id.owl branch file. When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated". First of all consult the [[Protege_for_OBI | document for using OBI in Protege]].
+''This section explains how to add terms to OBI in order to obtain an OBI ID quickly''<br>
+<br>
+<br>
+'''This section assumes that you:'''<br>
+<ul><li>Downloaded and installed [http://protege.stanford.edu/download/prerelease/full/ Protege] 3.4</li>
+<li>That you checked out the OBI repository using subversion via the command line or via a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] from the [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/ OBI subversion repository] </li>
+<li>You followed [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/developer/instructions-svn-local.txt these instructions] on how to use a branch file locally</li>
+<li>You know how to [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI]. </li>
+<li>Are aware of the [[OBI_Minimal_metadata|OBI Minimal metadata]]<br></ul>
+<br><br>
+
+Following the instructions outlined in section II of the [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI] document. Set the obi-quick-id.owl file as the active ontology file.
+
+Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file.
+
+== I have a term I would like to add to OBI, where do I start? ==
+
+OBI uses the [http://www.ifomis.org/bfo Basic Formal Ontology] (BFO) as an upper ontology to provide a framework in support of domain ontologies developed for scientific research. When submitting a term to OBI consideration should be given as to which node of BFO the term should be inferred under. For example, is the term a process, a material entity or information that describes an entity?
+
+The following instructions will help you determine where under BFO your term should go and therefore how to describe and annotate it for inclusion within OBI.
+
+The first step is to determine which BFO class your term should be inferred under. The choices are listed in the table below. Click on the class link to follow the next instructions
 
 
-Process
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">BFO Class</font>
+! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Definition</font>
+! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Example</font>
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+[[#Process | process]]
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+A "span:ProcessualEntity" ("processual_entity") that is a maximally connected spatio-temporal whole and has bona fide beginnings and endings corresponding to real discontinuities.
+
+ 
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+the life of an organism, the process of sleeping, the process of cell-division
+
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+[[#Material entity | material entity]]
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+Material is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart. 
+A bfo:object is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time.
+A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.
+A bfo:faitObjectPart is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
+ 
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+An organism, a heart, a chair, a lung, an apple. A heap of stones, a group of commuters on the subway, a collection of random bacteria, a flock of geese, the patients in a hospital. Upper and lower lobes of the left lung, the dorsal and ventral surfaces of the body, the east side of Saarbruecken, the lower right portion of a human torso
+
+|}
+
+
+=== Process ===
+
+If from the BFO definition, you believe your term to be a process then should should describe it in the following manner.
 
 A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
 
-Material entity
 
-A ['''term'''] is a material entity that ['''description of material''']. If appropriate, The ['''term'''] is manufactured by ['''organization or person'''], has function ['''function'''].
+For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
+
+A term........['''Dirk to fill in''']
+
+
+
+When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated". 
+
+
+=== Material entity ===
+
+If from the BFO definition, you believe your term to be a material entity then you should describe it in the following manner.
+
+A ['''term'''] is a material entity that ['''description of material''']. 
+
+If appropriate, also add the following:
+
+The ['''term'''] is manufactured by ['''organization or person'''], has function ['''function'''].
+
+
+For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
+
+A term........['''Dirk to fill in''']
+
+When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated".
