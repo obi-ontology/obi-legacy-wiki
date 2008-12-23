@@ -13,7 +13,8 @@ Contributing authors: [[Frank_Gibson |Frank Gibson]], [[Dirk_Derom | Dirk Derom]
 <li>That you checked out the OBI repository using subversion via the command line or via a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] from the [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/ OBI subversion repository] </li>
 <li>You followed [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/developer/instructions-svn-local.txt these instructions] on how to use a branch file locally</li>
 <li>You know how to [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI]. </li>
-<li>Are aware of the [[OBI_Minimal_metadata|OBI Minimal metadata]]<br></ul>
+<li>Are aware of the [[OBI_Minimal_metadata|OBI Minimal metadata]]</li>
+<li>Are aware of the [http://www.obofoundry.org/wiki/index.php/Naming OBO Foundry naming conventions]. </li> </ul>
 <br><br>
 
 Following the instructions outlined in section II of the [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI] document. Set the obi-quick-id.owl file as the active ontology file.
