@@ -65,7 +65,7 @@ You can set the obi-quick-id.owl file as the active ontology file following the 
 
 
 
-== I have a term I would like to add to OBI, where do I start? ==
+== Determine the node of the Basic Formal Ontology? ==
 
 OBI uses the [http://www.ifomis.org/bfo Basic Formal Ontology] (BFO) as an upper ontology to provide a framework in support of domain ontologies developed for scientific research. When submitting a term to OBI consideration should be given as to which node of BFO the term should be inferred under. For example, is the term a process, a material entity or information that describes an entity?
 
@@ -105,10 +105,9 @@ the life of an organism, the process of sleeping, the process of cell-division
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
 ----
 Material is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart. 
-A bfo:object is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time.
-A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.
+A bfo:object is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time. A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.
 A bfo:faitObjectPart is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
- 
+
 
 
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
