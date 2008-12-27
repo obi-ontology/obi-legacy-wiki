@@ -40,7 +40,7 @@ Any questions regarding the Quick ID's can be asked ['''here ?mailinglist for Qu
 == 1.4 Before you start... ==
 Before you can add terms through the Quick ID procedure, you must be aware of the following:
 <br>
-<ul><li>Quick ID uses a specific software to add the terms to OBI. Quick ID (and OBI in general) uses [http://protege.stanford.edu/ Protege], and we recommend that you download and install <br>[http://protege.stanford.edu/download/prerelease/full/ Protege 3.4]</li>
+<ul><li>Quick ID uses a specific software to add the terms to OBI. Quick ID (and OBI in general) uses [http://protege.stanford.edu/ Protege], and we recommend that you download and install [http://protege.stanford.edu/download/prerelease/full/ Protege 3.4]</li>
 <li>That you checked out the OBI repository using subversion via the command line or via a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] from the [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/ OBI subversion repository] </li>
 <li>You followed [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/developer/instructions-svn-local.txt these instructions] on how to use a branch file locally</li>
 <li>You know how to [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI]. </li>
