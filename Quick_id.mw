@@ -11,7 +11,7 @@ This section is both an introduction as a tutorial for the ''Quick ID'' procedur
 <br>
 == What is a Quick ID? ==
 Quick ID's refers to a procedure developed to ''quickly'' add terms to the OBI. 
-<br>
+<br><br>
 
 == Why does OBI use Quick ID's? == 
 <br>
@@ -31,26 +31,24 @@ Contributors through the Quick ID benefit from:
 	<li>Hands on control of the OBI</li>
 	<li>More robust ontology integration by shared expertise</li>
 </ul>
-<br>
+<br><br>
 
 == Who can add a Quick Term? ==
 Quick ID is created for all who want to add terms to the OBI. The goal of OBI is to create an integrated ontology for the description of life-science and clinical investigations. Anyone involved in the life-sciences or clinical investigations is welcomed to contribute to OBI. The power of OBI is driven by the input of these various fields. The Quick ID process is an expression of this emphasis on open access and development. <br>
 Any questions regarding the Quick ID's can be asked ['''here ?mailinglist for Quick ID?''']. 
 <br><br>
 == Before you start... ==
-Before you can add terms through the Quick ID procedure, you must be aware of the following:
+When you want to add terms through the Quick ID procedure, it is assumed that you:
 <br>
-<ul><li>Quick ID uses a specific software to add the terms to OBI. Quick ID (and OBI in general) uses [http://protege.stanford.edu/ Protege], and we recommend that you download and install [http://protege.stanford.edu/download/prerelease/full/ Protege 3.4]</li>
-<li>That you checked out the OBI repository using subversion via the command line or via a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] from the [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/ OBI subversion repository] </li>
-<li>You followed [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/developer/instructions-svn-local.txt these instructions] on how to use a branch file locally</li>
-<li>You know how to [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI]. </li>
-<li>Are aware of the [[OBI_Minimal_metadata|OBI Minimal metadata]]</li>
-<li>Are aware of the [http://www.obofoundry.org/wiki/index.php/Naming OBO Foundry naming conventions]. </li> </ul>
+<ul>
+	<li>You know how to use the specific software to add the terms to OBI. Quick ID (and OBI in general) uses [http://protege.stanford.edu/ Protege], and we recommend that you download and install [http://protege.stanford.edu/download/prerelease/full/ Protege 3.4]</li>
+	<li>You have checked out the latest version of the OBI repository using subversion via the command line or via a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] from the [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/ OBI subversion repository] </li>
+	<li>Know how to use the Quick ID file locally following [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/developer/instructions-svn-local.txt these instructions]</li>
+	<li>Know how to [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI]. </li>
+	<li>Are aware of the [[OBI_Minimal_metadata|OBI Minimal metadata]]</li>
+	<li>Are aware of the [http://www.obofoundry.org/wiki/index.php/Naming OBO Foundry naming conventions]. </li> 
+</ul>
 <br><br>
-
-Following the instructions outlined in section II of the [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI] document. Set the obi-quick-id.owl file as the active ontology file.
-
-Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file.
 
 = How to submit a term to OBI to get an OBI ID =
 
