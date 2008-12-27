@@ -52,13 +52,13 @@ Following the instructions outlined in section II of the [http://docs.google.com
 
 Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file.
 
-= 2 How to submit a term to OBI to get an OBI ID =
+= How to submit a term to OBI to get an OBI ID =
 
 ''This section explains how to add terms to OBI in order to obtain an OBI ID quickly''<br>
 <br>
 <br>
 
-== 2.1 I have a term I would like to add to OBI, where do I start? ==
+== I have a term I would like to add to OBI, where do I start? ==
 
 OBI uses the [http://www.ifomis.org/bfo Basic Formal Ontology] (BFO) as an upper ontology to provide a framework in support of domain ontologies developed for scientific research. When submitting a term to OBI consideration should be given as to which node of BFO the term should be inferred under. For example, is the term a process, a material entity or information that describes an entity?
 
