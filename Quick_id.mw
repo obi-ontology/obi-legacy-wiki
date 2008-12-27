@@ -52,26 +52,13 @@ Following the instructions outlined in section II of the [http://docs.google.com
 
 Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file.
 
-= How to submit a term to OBI to get an OBI ID =
+= 2 How to submit a term to OBI to get an OBI ID =
 
 ''This section explains how to add terms to OBI in order to obtain an OBI ID quickly''<br>
 <br>
 <br>
-== Before you start... ==
-Before adding a quick term, it is assumed that you:<br>
-<ul><li>Downloaded and installed [http://protege.stanford.edu/download/prerelease/full/ Protege] 3.4</li>
-<li>That you checked out the OBI repository using subversion via the command line or via a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] from the [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/ OBI subversion repository] </li>
-<li>You followed [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/developer/instructions-svn-local.txt these instructions] on how to use a branch file locally</li>
-<li>You know how to [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI]. </li>
-<li>Are aware of the [[OBI_Minimal_metadata|OBI Minimal metadata]]</li>
-<li>Are aware of the [http://www.obofoundry.org/wiki/index.php/Naming OBO Foundry naming conventions]. </li> </ul>
-<br><br>
 
-Following the instructions outlined in section II of the [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI] document. Set the obi-quick-id.owl file as the active ontology file.
-
-Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file.
-
-== I have a term I would like to add to OBI, where do I start? ==
+== 2.1 I have a term I would like to add to OBI, where do I start? ==
 
 OBI uses the [http://www.ifomis.org/bfo Basic Formal Ontology] (BFO) as an upper ontology to provide a framework in support of domain ontologies developed for scientific research. When submitting a term to OBI consideration should be given as to which node of BFO the term should be inferred under. For example, is the term a process, a material entity or information that describes an entity?
 
