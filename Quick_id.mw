@@ -74,26 +74,27 @@ The following instructions will help you determine where under BFO your term sho
 The first step is to determine which BFO class your term should be inferred under. The choices are listed in the table below. Click on the class link to follow the next instructions
 
 
-{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
-! width=15% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">BFO Class</font>
-! width=30% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Definition</font>
-! width=35% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Short Description</font>
-! width=20% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Example</font>
+{|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
+
+! width=15% | <font size="+0">BFO Class</font>
+! width=30% | <font size="+0">Definition</font>
+! width=35% | <font size="+0">Short Description</font>
+! width=20% | <font size="+0">Example</font>
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+
+|valign="TOP"| 
 ----
 [[#Process | process]]
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP"| 
 ----
 A "span:ProcessualEntity" ("processual_entity") that is a maximally connected spatio-temporal whole and has bona fide beginnings and endings corresponding to real discontinuities.
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP"| 
 ----
 Description of process here
 
-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+|valign="TOP"| 
 ----
 <ul>
 	<li>the life of an organism</li>
@@ -102,24 +103,24 @@ Description of process here
 </ul>
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP"| 
 ----
 [[#Material entity | material entity]]
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP"| 
 ----
 Material is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart. 
 A bfo:object is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time. A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.
 A bfo:faitObjectPart is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP"| 
 ----
-Description of process here
+Description of Material here
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+|valign="TOP"| 
 ----
 <ul>
 	<li>An organism</li>
