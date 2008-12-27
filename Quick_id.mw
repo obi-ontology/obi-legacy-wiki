@@ -7,11 +7,12 @@ This document gives both the rationale and instructions on how to add quick term
 = Introduction to the ''Quick ID''? =
 
 This section is both an introduction as a tutorial for the ''Quick ID'' procedure. It is recommended to read this first if you are not familiar with the concept of Quick ID's. 
-<br> 
-<br>
+
+
 == What is a Quick ID? ==
-Quick ID's refers to a procedure developed to ''quickly'' add terms to the OBI. 
-<br><br>
+Quick ID's refers to a procedure developed to ''quickly'' add terms to the OBI. The Quick ''ID's'' refer to ID's given to the terms one adds to the OBI repository, where ''quick' refers to the fast input from the user. Quick ID's therefore refers to the process of quickly adding terms to the OBI, without the necessity of being a ''core'' developer of OBI. It is a process to allow those individuals who might not be strongly involved in the design of OBI, to add terms to the OBI repository. 
+If we use ''Quick ID's'', we refer to the process of adding terms into the OBI. If we use ''Quick terms' we refer to the actual terms added to the OBI. 
+
 
 == Why does OBI use Quick ID's? == 
 <br>
@@ -31,7 +32,12 @@ Contributors through the Quick ID benefit from:
 	<li>Hands on control of the OBI</li>
 	<li>More robust ontology integration by shared expertise</li>
 </ul>
-<br><br>
+
+
+== How are the Quick terms integrated into OBI ==
+
+Quick terms hold a special position within OBI. The Quick
+Quick terms all have the status of ''uncurated''. This means that these terms are 'on submission' not part of what you could call the core OBI. 
 
 == Who can add a Quick Term? ==
 Quick ID is created for all who want to add terms to the OBI. The goal of OBI is to create an integrated ontology for the description of life-science and clinical investigations. Anyone involved in the life-sciences or clinical investigations is welcomed to contribute to OBI. The power of OBI is driven by the input of these various fields. The Quick ID process is an expression of this emphasis on open access and development. <br>
