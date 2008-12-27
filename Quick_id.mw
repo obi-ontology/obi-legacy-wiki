@@ -13,7 +13,7 @@ This section gives an overview of what a ''Quick ID'' is. It is recommended to r
 
 <br>
 
-== Why does OBI use Quick ID's? == 
+== 1.2. Why does OBI use Quick ID's? == 
 <br>
 Quick Id's are created for those who want to contribute/support to the OBI targeting those individuals who are not directly involved or familiar with ontology design. Adding terms through the procedure of Quick ID, allows for fast additions with a minimal learning curve. It's procedure is despite it (relatively) simplicity, nevertheless very powerful. It's combination of curation and openness enables a fast growing ontology created by and for the community.<br><br>
 The benefits of the Quick ID procedure for OBI are:
@@ -22,12 +22,14 @@ The benefits of the Quick ID procedure for OBI are:
 	<li>Input from various fields using a single procedure</li>
 	<li>Reduction of a potentially high learning curve for those less familiar with ontology design</li>
 	<li>Curate the OBI and maintain influx from the community</li>
+	<li>Reduced load on curation through expert input</li>
 </ul>
 Contributors through the Quick ID benefit from:
 <ul>
 	<li>Growing OBI without a steep learning curve</li>
 	<li>Small load on contribution</li>
 	<li>Hands on control of the OBI</li>
+	<li>More robust ontology integration by shared expertise</li>
 </ul>
 <br>
 
