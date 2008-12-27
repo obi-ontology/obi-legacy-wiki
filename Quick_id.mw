@@ -117,7 +117,7 @@ An organism, a heart, a chair, a lung, an apple. A heap of stones, a group of co
 |}
 
 
-=== Process ===
+==  In the case of a Process ==
 
 If from the BFO definition, you believe your term to be a process then should should describe it in the following manner. Click on the class '''process''' in Protege and click on the add subclass icon and describe the new subclass of process as below. 
 
@@ -200,7 +200,7 @@ uncurated
 
 
 
-=== Material entity ===
+== In the case of a Material entity ==
 
 If from the BFO definition, you believe your term to be a material entity then you should describe it in the following manner. Click on the class '''material entity''' in Protege and click on the add subclass icon and describe the new subclass of material entity as below. 
 
