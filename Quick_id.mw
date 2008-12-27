@@ -52,9 +52,18 @@ When you want to add terms through the Quick ID procedure, it is assumed that yo
 
 = How to submit a term to OBI to get an OBI ID =
 
-''This section explains how to add terms to OBI in order to obtain an OBI ID quickly''<br>
-<br>
-<br>
+''This section explains how to add terms to OBI in order to obtain an OBI ID quickly.''
+<br><br>
+
+
+== Set obi-quick-id.owl as the active ontology file ==
+
+Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file.
+
+You can set the obi-quick-id.owl file as the active ontology file following the instructions outlined in section II of the [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI] document.
+<br><br>
+
+
 
 == I have a term I would like to add to OBI, where do I start? ==
 
