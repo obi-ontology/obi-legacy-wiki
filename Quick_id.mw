@@ -53,7 +53,19 @@ When you want to add terms through the Quick ID procedure, it is assumed that yo
 = How to submit a term to OBI to get an OBI ID =
 
 ''This section explains how to add terms to OBI in order to obtain an OBI ID quickly.''
-<br><br>
+
+
+== Before you start... ==
+When you want to add terms through the Quick ID procedure, it is assumed that you:
+<br>
+<ul>
+	<li>You know how to use the specific software to add the terms to OBI. Quick ID (and OBI in general) uses [http://protege.stanford.edu/ Protege], and we recommend that you download and install [http://protege.stanford.edu/download/prerelease/full/ Protege 3.4]</li>
+	<li>You have checked out the latest version of the OBI repository using subversion via the command line or via a [http://en.wikipedia.org/wiki/Comparison_of_Subversion_clients SVN client] from the [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/ OBI subversion repository] </li>
+	<li>Know how to use the Quick ID file locally following [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/developer/instructions-svn-local.txt these instructions]</li>
+	<li>Know how to [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI]. </li>
+	<li>Are aware of the [[OBI_Minimal_metadata|OBI Minimal metadata]]</li>
+	<li>Are aware of the [http://www.obofoundry.org/wiki/index.php/Naming OBO Foundry naming conventions]. </li> 
+</ul>
 
 
 == Set obi-quick-id.owl as the active ontology file ==
