@@ -75,9 +75,9 @@ The first step is to determine which BFO class your term should be inferred unde
 
 
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
-! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">BFO Class</font>
-! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Definition</font>
-! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Example</font>
+! width=20% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">BFO Class</font>
+! width=50% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Definition</font>
+! width=30% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Example</font>
 |-
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
 ----
@@ -93,8 +93,11 @@ A "span:ProcessualEntity" ("processual_entity") that is a maximally connected sp
 
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
 ----
-the life of an organism, the process of sleeping, the process of cell-division
-
+<ul>
+	<li>the life of an organism</li>
+	<li>the process of sleeping</li>
+	<li>the process of cell-division</li>
+</ul>
 
 |-
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
@@ -116,6 +119,173 @@ An organism, a heart, a chair, a lung, an apple. A heap of stones, a group of co
 
 |}
 
+
+==  In the case of a Process ==
+
+If from the BFO definition, you believe your term to be a process then should should describe it in the following manner. Click on the class '''process''' in Protege and click on the add subclass icon and describe the new subclass of process as below. 
+
+A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
+
+When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated". 
+
+For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
+
+A term........['''Dirk to fill in''']
+
+
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Propery</font>
+! width=75% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Value</font>
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+rdfs:label]
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with term name....
+ 
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+definition
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with term definition...
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+definition source
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with definition source...
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+definition editor
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+PERSON:...replace with your name ...
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+preferred term
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with term label...
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+has curation status
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+uncurated
+
+
+|-
+|}
+
+
+
+== In the case of a Material entity ==
+
+If from the BFO definition, you believe your term to be a material entity then you should describe it in the following manner. Click on the class '''material entity''' in Protege and click on the add subclass icon and describe the new subclass of material entity as below. 
+
+A ['''term'''] is a material entity that ['''description of material''']. 
+
+If appropriate, also add the following:
+
+The ['''term'''] is manufactured by ['''organization or person'''], has function ['''function'''], has supplier ['''organization or person'''].
+
+
+For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
+
+
+When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated".
+
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Propery</font>
+! width=75% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Value</font>
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+rdfs:label]
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with term name....
+ 
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+definition
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with term definition...
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+definition source
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with definition source...
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+definition editor
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+PERSON:...replace with your name ...
+
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+preferred term
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+...replace with term label...
+|-
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+has curation status
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+uncurated
+
+
+|-
+|}
 
 ==  In the case of a Process ==
 
