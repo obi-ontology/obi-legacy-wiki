@@ -21,23 +21,24 @@ The benefits of the Quick ID procedure for OBI are:
 <ul>
 	<li>Direct input from the scientific community</li>
 	<li>Input from various fields using a single procedure</li>
-	<li>Reduction of a potentially high learning curve for those less familiar with ontology design</li>
 	<li>Curate the OBI and maintain influx from the community</li>
 	<li>Reduced load on curation through expert input</li>
 </ul>
 Contributors through the Quick ID benefit from:
 <ul>
-	<li>Growing OBI without a steep learning curve</li>
 	<li>Small load on contribution</li>
 	<li>Hands on control of the OBI</li>
 	<li>More robust ontology integration by shared expertise</li>
+	<li>Improved speed for the construction and extension of OBI</li>
 </ul>
 
 
-== How are the Quick terms integrated into OBI ==
+== How are the Quick terms integrated into OBI? ==
 
-Quick terms hold a special position within OBI. The Quick
-Quick terms all have the status of ''uncurated''. This means that these terms are 'on submission' not part of what you could call the core OBI. 
+Quick Terms hold a special position within OBI. It is fully part of the OBI, however needs to be curated before being submitted to the OBI. This curation process normally has a small load, however allows for the development of a well-structured OBI. 
+Initially, a Quick Term has the status of ''uncurated''. This means that these terms are 'on submission' not part of what you could call the core OBI. A developer of OBI then checks the submitted term and adds it to the OBI. Normally, when the Quick Term is added according the following instructions, this process is semi-automatic.
+For a Quick Term to be added quickly to the OBI, it is therefore important to follow the instructions. 
+
 
 == Who can add a Quick Term? ==
 Quick ID is created for all who want to add terms to the OBI. The goal of OBI is to create an integrated ontology for the description of life-science and clinical investigations. Anyone involved in the life-sciences or clinical investigations is welcomed to contribute to OBI. The power of OBI is driven by the input of these various fields. The Quick ID process is an expression of this emphasis on open access and development. <br>
