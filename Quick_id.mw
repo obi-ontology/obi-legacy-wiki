@@ -75,9 +75,10 @@ The first step is to determine which BFO class your term should be inferred unde
 
 
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
-! width=20% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">BFO Class</font>
-! width=50% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Definition</font>
-! width=30% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Example</font>
+! width=15% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">BFO Class</font>
+! width=30% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Definition</font>
+! width=35% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Description</font>
+! width=20% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+0">Example</font>
 |-
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
 ----
@@ -118,7 +119,7 @@ A bfo:faitObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 An organism, a heart, a chair, a lung, an apple. A heap of stones, a group of commuters on the subway, a collection of random bacteria, a flock of geese, the patients in a hospital. Upper and lower lobes of the left lung, the dorsal and ventral surfaces of the body, the east side of Saarbruecken, the lower right portion of a human torso
 
 |}
-
+'''Bold text'''
 
 ==  In the case of a Process ==
 
