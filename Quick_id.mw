@@ -52,7 +52,13 @@ Any questions regarding the Quick ID's can be asked ['''here ?mailinglist for Qu
 
 = How to submit a term to OBI to get an OBI ID? =
 
-''This section explains how to add terms to OBI in order to obtain an OBI ID quickly.''
+This section explains how to add terms to OBI in order to obtain an OBI ID quickly. As mentioned before, the Quick ID's are created to add terms to OBI ''without'' being deeply involved in the design of OBI. This emphasis on simplifying the process of adding terms is reflected in this section by distinguishing between the actual procedure (=this section) and the theory/concepts behind this procedure (=appendices).
+
+<ul>
+	<li>If you simply want to add terms to the ontology, then follow the instructions in this section.</li>
+	<li>If you however want to get an idea of the concepts behind this procedure, simply click on the links in the document and you will be guided to a more detailed description of that particular element of the process.</li>
+</ul>
+If this document is not detailed enough and you would like to see additional information, do not hesitate to contact us! It can only improve this document and hence the entire procedure of the Quick ID.
 
 
 == Before you start... ==
@@ -319,6 +325,5 @@ uncurated
 
 |-
 |}
-
 
 = Appendix A: More in-depth structure and integration of Quick ID's and OBI =
