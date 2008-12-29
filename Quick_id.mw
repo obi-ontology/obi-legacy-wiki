@@ -121,17 +121,13 @@ The following instructions will help you determine where under BFO your term sho
 	<li>information that describes an entity</li> 
 </ul>
 
-Once you decided which class corresponds to your term, you click on the class which brings you to the next step.
-
-Note: Some of these definitions and descriptions use specific terminology, and these main BFO specific terms are explained in the [glossary]. These include: span, snap, occurent. 
-
-
+The table lists the nodes and gives a definition of these nodes. The explanation gives further information on each of the terms of the definition. Examples are shown in the last column. Once you decided which class corresponds to your term, you click on the class which brings you to the next step.
 
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
 ! width=15% | <font size="+0">BFO Class</font>
 ! width=30% | <font size="+0">Definition</font>
-! width=35% | <font size="+0">Short Description</font>
+! width=35% | <font size="+0">Explanation of terms</font>
 ! width=20% | <font size="+0">Example</font>
 |-
 
