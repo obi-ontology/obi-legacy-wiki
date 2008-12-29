@@ -362,7 +362,7 @@ These appendices all start with a question. The answer should allow you to under
 <br><br>
 '''BFO'''
 <br><br>
-''' ''The following information is gathered from BFO and is a (very short) summary which hopefully allows to grasp the basics of the BFO. For a full description of Basic Formal ontology (BFO), go to the [ http://www.ifomis.org/bfo BFO website].'' '''
+'''The following information is gathered from BFO and is a (very short) summary which hopefully allows to grasp the basics of the BFO. For a full description of Basic Formal ontology (BFO), go to the [http://www.ifomis.org/bfo BFO website]. '''
 <br><br>
 An ontology tries to '''represent''' the reality and therefore a scientific ontology tries to represent the reality investigated by the sciences. But representing such a reality must be valid across various fields. Constructing specific ontologies only applicable to a specific field is not very useful since it still does not allow to '''integrate''' the data from those fields. BFO is a framework that allows those various fields to be connected using the BFO framework. 
 <br><br>
