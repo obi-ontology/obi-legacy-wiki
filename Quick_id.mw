@@ -120,13 +120,19 @@ When you want to add terms through the Quick ID procedure, it is assumed that yo
 Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file. You can set the obi-quick-id.owl file as the active ontology file following the instructions outlined in section II of the [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI] document.
 <br><br>
 
-=== Determine the node of the Basic Formal Ontology? ===
+=== Determine the node of the Basic Formal Ontology ===
 
-OBI uses the [http://www.ifomis.org/bfo Basic Formal Ontology] (BFO) as an upper ontology to provide a framework in support of domain ontologies developed for scientific research. When submitting a term to OBI consideration should be given as to which node of BFO the term should be inferred under. For example, is the term a process, a material entity or information that describes an entity?
+The following instructions will help you determine where under BFO your term should go and therefore how to describe and annotate it for inclusion within OBI. When submitting a term to OBI consideration should be given as to which node of BFO the term should be inferred under. This section allows you to determine whether the term you would like to add is a 
+<ul>
+	<li>process</li>
+	<li>material entity</li>
+	<li>information that describes an entity</li> 
+</ul>
 
-The following instructions will help you determine where under BFO your term should go and therefore how to describe and annotate it for inclusion within OBI.
+Once you decided which class corresponds to your term, you click on the class which brings you to the next step.
 
-The first step is to determine which BFO class your term should be inferred under. The choices are listed in the table below. Click on the class link to follow the next instructions
+Note: Some of these definitions and descriptions use specific terminology, and these main BFO specific terms are explained in the [glossary]. These include: span, snap, occurent. 
+
 
 
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
@@ -170,10 +176,10 @@ Material is any of
 	<li>bfo:Object</li>
 	<li>bfo:ObjectAggregate</li>
 	<li>bfo:FiatObjectPart.</li>
-</ul><br>
+</ul>
 A '''bfo:object''' is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time.<br>
-A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.<br>
-A bfo:faitObjectPart is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
+A '''bfo:objectaggregate''' is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.<br>
+A '''bfo:faitObjectPart''' is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
 
 
 |valign="TOP"| 
