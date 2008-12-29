@@ -196,7 +196,7 @@ Description of Material here
 
 |}
 
-==  In the case of a Process ==
+===  In the case of a Process ===
 
 If from the BFO definition, you believe your term to be a process then should should describe it in the following manner. Click on the class '''process''' in Protege and click on the add subclass icon and describe the new subclass of process as below. 
 
