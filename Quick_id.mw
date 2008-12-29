@@ -24,7 +24,7 @@ This page is created both to explain the actual procedure of adding terms to OBI
 </ul>
 <br><br>
 
-= Introduction to the ''Quick ID''? =
+== Introduction to the ''Quick ID''? ==
 
 ''This section is both an introduction to the ''Quick ID'' procedure. Read through this section if you are not (really) familiar with the Quick ID procedure.''<br>
 
@@ -55,7 +55,7 @@ Quick ID is created for all who want to add terms to the OBI. The goal of OBI is
 Any questions regarding the Quick ID's can be asked ['''here ?mailinglist for Quick ID?''']. 
 
 <br><br>
-== BFO, OBI and Quick ID ==
+=== BFO, OBI and Quick ID ===
 
 '''In short'''<br><br>
 ''Quick ID's is a file ''within'' OBI, and OBI uses BFO as an upper ontology. The Quick ID file allows to add terms into OBI, but needs to be curated before being added to the 'core' OBI repository.''
@@ -86,10 +86,10 @@ The Ontology for Biomedical Investigations project (cf. OBI) is developing an in
 '''Quick Terms'''<br><br>
 The Quick ID file is a specific file within OBI, which (since being part of the OBI) also uses the BFO. This file is different from other OBI files, due to the fact that all terms initially are 'uncurated'. Though it's part of the OBI, the terms added through Quick ID are not immediately part of the core OBI, but need curation before added to the core OBI. When terms are added correctly this is a semi-automatic process.<br><br>
 
-== Basic Terminology of Quick ID ==
+=== Basic Terminology of Quick ID ===
 
 
-== How is Quick ID's integrated with OBI? ==
+=== How is Quick ID's integrated with OBI? ===
 
 = How to submit a term to OBI to get an OBI ID? =
 
