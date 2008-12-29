@@ -360,20 +360,32 @@ These appendices all start with a question. The answer should allow you to under
 '''In short'''<br>
 ''Quick ID's is a file ''within'' OBI, and OBI uses BFO as an upper ontology. The Quick ID file allows to add terms into OBI, but needs to be curated before being added to the 'core' OBI repository.''
 <br><br>
-'''In general'''<br><br>
-The Ontology for Biomedical Investigations project (cf. OBI) is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. In other words: OBI uses the 'framework' of BFO and builds an ontology within this framework which allows to connect data from different fields.<br><br>
-The Quick ID file is a specific file within OBI, which (since being part of the OBI) also uses the BFO. This file is different from other OBI files, due to the fact that all terms initially are 'uncurated'. Though it's part of the OBI, the terms added through Quick ID are not immediately part of the core OBI, but need curation before added to the core OBI. When terms are added correctly this is a semi-automatic process.<br><br>
-In what follows we give some more information on the different elements. 
-<br>
-<br><br>
 '''BFO'''
-''' ''For a full description of Basic Formal ontology (BFO), go to the BFO website.'' '''
+<br><br>
+''' ''The following information is gathered from BFO and is a (very short) summary which hopefully allows to grasp the basics of the BFO. For a full description of Basic Formal ontology (BFO), go to the [ http://www.ifomis.org/bfo BFO website].'' '''
+<br><br>
+An ontology tries to '''represent''' the reality and therefore a scientific ontology tries to represent the reality investigated by the sciences. But representing such a reality must be valid across various fields. Constructing specific ontologies only applicable to a specific field is not very useful since it still does not allow to '''integrate''' the data from those fields. BFO is a framework that allows those various fields to be connected using the BFO framework. 
+<br><br>
+Therefore the BFO is a top-level (or upper or formal) ontology. It's main characteristics are:
+<ul>
+	<li>top-level<br>
+	As mentioned before it is the overall framework designed to integrate domain ontologies.</li>
+	<li>Holds categories containing or representing universals primarily<br>
+	The goal of BFO is not to develop ontologies as such, but to organize domain ontologies (e.g. an ontology for the neurosciences, the genetic ontology...). Universals are the 'abstract or general' structure (e.g. "human", "mammal" or "feline"). These universals are the focus of BFO and not domain specific terms.</li>
+	<li>Uses perspectivalism<br>
+	Many different representations that are equally good (good in the sense of being true) precisely in that they capture different and important 
+features of one and the same reality </li>
+	<li>It's extended downward<br>
+	When the BFO will be extended this will be done through its domain ontologies. It is believed that the BFO holds the classes needed for the construction and development of detailed domain ontologies. As such, this framework is thought to be stable and extensive.</li>
+</ul>
 <br>
 <br><br>
 '''OBI'''
-<br>
+<br><br>
+The Ontology for Biomedical Investigations project (cf. OBI) is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. In other words: OBI uses the 'framework' of BFO and builds an ontology within this framework which allows to connect data from different fields.
 <br><br>
 '''Quick Terms'''
+The Quick ID file is a specific file within OBI, which (since being part of the OBI) also uses the BFO. This file is different from other OBI files, due to the fact that all terms initially are 'uncurated'. Though it's part of the OBI, the terms added through Quick ID are not immediately part of the core OBI, but need curation before added to the core OBI. When terms are added correctly this is a semi-automatic process.<br><br>
 
 == Appendix B: Basic Terminology of Quick ID ==
 
