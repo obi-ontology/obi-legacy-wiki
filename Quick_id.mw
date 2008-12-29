@@ -165,8 +165,14 @@ Description of process here
 
 |valign="TOP"| 
 ----
-Material is any of bfo:Object, bfo:ObjectAggregate, or bfo:FiatObjectPart. 
-A bfo:object is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time. A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.
+Material is any of 
+<ul>
+	<li>bfo:Object</li>
+	<li>bfo:ObjectAggregate</li>
+	<li>bfo:FiatObjectPart.</li>
+</ul><br>
+A '''bfo:object''' is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time.<br>
+A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.<br>
 A bfo:faitObjectPart is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
 
 
