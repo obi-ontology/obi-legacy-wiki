@@ -355,7 +355,7 @@ uncurated
 
 These appendices all start with a question. The answer should allow you to understand the procedure of the Quick ID's more. Nevertheless, it's not possible to 'fully' answer all questions, since Quick ID's are part of OBI, which is integrated with BFO. Therefore, the appendices sometimes are mere summaries of the actual answer. These answers are nevertheless rather extensive guides for the questions it tries to address. If so, these appendices refer to documents or URL's containing more information. 
 
-== Appendix A: What is BFO, OBI and Quick ID ==
+== Appendix A: BFO, OBI and Quick ID ==
 
 '''In short'''<br><br>
 ''Quick ID's is a file ''within'' OBI, and OBI uses BFO as an upper ontology. The Quick ID file allows to add terms into OBI, but needs to be curated before being added to the 'core' OBI repository.''
