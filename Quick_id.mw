@@ -395,3 +395,49 @@ The Quick ID file is a specific file within OBI, which (since being part of the 
 
 
 = Glossary of Common Terminology =
+
+{|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
+
+! width=15% | <font size="+0">Concept</font>
+! width=30% | <font size="+0">Definition</font>
+! width=35% | <font size="+0">Short Description</font>
+! width=20% | <font size="+0">Example</font>
+|-
+
+|valign="TOP"| 
+----
+Span
+
+|valign="TOP"| 
+----
+Span is a concept used within BFO
+
+|valign="TOP"| 
+----
+Description of span
+|valign="TOP"| 
+----
+example
+
+|-
+
+|valign="TOP"| 
+
+Snap
+
+|valign="TOP"| 
+
+Snap is a concept used within BFO
+
+|valign="TOP"| 
+
+Description of snap
+
+|valign="TOP"| 
+
+example
+
+|-
+
+
+|}
