@@ -126,9 +126,7 @@ The table lists the nodes and gives a definition of these nodes. The explanation
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
 ! width=15% | <font size="+0">BFO Class</font>
-! width=30% | <font size="+0">Definition</font>
-! width=35% | <font size="+0">Explanation of terms</font>
-! width=20% | <font size="+0">Example</font>
+! width=85% | <font size="+0">Explanation</font>
 |-
 
 |valign="TOP"| 
@@ -137,14 +135,21 @@ The table lists the nodes and gives a definition of these nodes. The explanation
 
 |valign="TOP"| 
 ----
-A "span:ProcessualEntity" ("processual_entity") that is a maximally connected spatio-temporal whole and has bona fide beginnings and endings corresponding to real discontinuities.
-
-|valign="TOP"| 
-----
-Description of process here
-
-|valign="TOP"| 
-----
+'' '''Definition''' ''<br>
+A "span:ProcessualEntity" ("processual_entity") that is a maximally connected spatio-temporal whole and has bona fide beginnings and endings corresponding to real ''discontinuities''.
+<br><br>
+'' '''Example: process of sleeping''' ''
+<ul>
+	<li>''span:ProcessualEntity'' and ''processual_entity''<br>
+	Both span:ProcessualEntity and processual_entity come from the terminology used in BFO. In this stage it is not important to know where they are referring to, but you can always check the [glossary] for more information.</li>
+	<li>''maximally connected''<br>
+	</li>
+	<li>''spatio-temporal whole''</li>
+	<li>''bona fide beginnings and endings''</li>
+	<li>''real discontinuities''</li>
+</ul>
+	
+'' '''Other examples''' ''
 <ul>
 	<li>the life of an organism</li>
 	<li>the process of sleeping</li>
@@ -170,13 +175,7 @@ A '''bfo:objectaggregate''' is a "snap:IndependentContinuant" ("independent_cont
 A '''bfo:faitObjectPart''' is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
 
 
-|valign="TOP"| 
-----
-Description of Material here
-
-
-|valign="TOP"| 
-----
+''' ''Other examples'' '''
 <ul>
 	<li>An organism</li>
 	<li>A heart</li>
