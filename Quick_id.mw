@@ -135,8 +135,7 @@ The following instructions will help you determine where under BFO your term sho
 	<li>material entity</li>
 	<li>information that describes an entity</li> 
 </ul>
-
-The table lists the nodes and gives a definition of these nodes. The explanation gives further information on each of the terms of the definition. Examples are shown in the last column. Once you decided which class corresponds to your term, you click on the class which brings you to the next step.
+Using the definition of process, material entity or information that describes an entitiy (which are all BFO classes), one can determine under which class the particular term should go to. The table also gives further information on each of the terms of the definition. Examples are shown in the last column. Once you decided which class corresponds to your term, you click on the class which brings you to the next step.
 
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
