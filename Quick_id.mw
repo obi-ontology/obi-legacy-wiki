@@ -109,10 +109,21 @@ When you want to add terms through the Quick ID procedure, it is assumed that yo
 
 === Set obi-quick-id.owl as the active ontology file ===
 
+{|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
+
+!  | <font size="+0"></font>
+!  | <font size="+0"></font>
+|-
+
+|valign="TOP"|
 Once selected as active all new classes added to the ontology via Protege will be added to the obi-quick-id.owl file. You can set the obi-quick-id.owl file as the active ontology file following the instructions outlined in section II of the [http://docs.google.com/View?docid=dzprnmw_10gk2mcpfb use Protege with OBI] document. <br><br>
 
 When set as active, the file 'obi-quick-id.owl' (and only obi-quic-id.owl) should no longer be in italic and have a different background color than the other files.
+|valign="TOP"|
 [[Image:Set_active.gif|obi-quick-id.owl set as active]]
+|-
+
+|}
 
 === Determine the node of the Basic Formal Ontology ===
 
