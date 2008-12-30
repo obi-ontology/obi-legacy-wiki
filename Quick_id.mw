@@ -443,7 +443,7 @@ uncurated
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
 ! width=15% | <font size="+0">Concept</font>
-! width=30% | <font size="+0">Definition</font>
+! width=30% | <font size="+0">Origin</font>
 ! width=35% | <font size="+0">Short Description</font>
 ! width=20% | <font size="+0">Example</font>
 |-
@@ -454,7 +454,7 @@ Span
 
 |valign="TOP"| 
 ----
-Span is a concept used within BFO
+BFO
 
 |valign="TOP"| 
 ----
@@ -471,7 +471,7 @@ Snap
 
 |valign="TOP"| 
 
-Snap is a concept used within BFO
+BFO
 
 |valign="TOP"| 
 
@@ -489,7 +489,7 @@ Quick Terms
 
 |valign="TOP"| 
 
-Quick Terms
+OBI
 
 |valign="TOP"| 
 
