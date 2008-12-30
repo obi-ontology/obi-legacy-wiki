@@ -78,7 +78,7 @@ features of one and the same reality </li>
 	<li>It's extended downward<br>
 	When the BFO will be extended this will be done through its domain ontologies. It is believed that the BFO holds the classes needed for the construction and development of detailed domain ontologies. As such, this framework is thought to be stable and extensive.</li>
 </ul>
-<br><br>
+<br>
 To sum it up: BFO is a top-level (dealing with only universals, say working on an 'abstract level') ontology (cf. the attempt to describe or represent reality) which allows domain specific ontologies (such as OBI) to describe reality by differentiating between the characteristics (e.g. 'is this a process or not') of the particular element (e.g. 'a heart') one wants to describe.
 <br><br><br>
 '''OBI'''
