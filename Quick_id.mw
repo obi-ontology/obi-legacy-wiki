@@ -135,9 +135,9 @@ The following instructions will help you determine where under BFO your term sho
 	<li>material entity</li>
 	<li>information that describes an entity</li> 
 </ul>
-Using the definition of process, material entity or information that describes an entitiy (which are all BFO classes), one can determine under which class the particular term should go to. Each term should fit in one of these classes. Therefore, you should start with process and move on untill you found the class appropriate for your Quick Term. It is always a good idea to read through all the classes, even if you 'are sure' which class it should go under. It will take more time for the term to be added when the class is not appropriate and therefore must be reviewed. 
+Using the definition of process, material entity or information that describes an entity (which are all BFO classes), one can determine under which class the particular term should go to. Each term should fit in one of these classes. Therefore, you should start with process and move on until you found the class appropriate for your Quick Term. It is always a good idea to read through all the classes, even if you 'are sure' which class it should go under. 
 <br><br>
-Use the following table to determine the class. In the first column you find the actual BFO class and in the second the definition and explanation of the particlar class. Examples are used to further assist you in determining the class. Once you decided which class corresponds to your term, click on the class which brings you to the next step.<br>
+Use the following table to determine the class. In the first column you find the actual BFO class and in the second the definition and explanation of the particular class. Examples are used to further assist you in determining the class. Once you decided which class corresponds to your term, click on the class which brings you to the next step.<br>
 
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
@@ -212,7 +212,6 @@ A bfo:object is a "snap:IndependentContinuant" ("independent_continuant") that i
 	<li>maintained through time<br>
 	Maintained through time refers to the fact if the entity exists, all parts of the entity also exist. In the case of a heart, this means that every entity of the heart (such as right ventricle, aorta, cardiac septem) all 'exist' when the heart 'exists'. A heart might be functioning today and not tomorrow, yet it still is the same heart.</li>
 </ul>
-<br><br>
 ''' ''Other Examples'' '''
 <ul>
 	<li>A bus</li>
