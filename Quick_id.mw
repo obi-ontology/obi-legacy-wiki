@@ -135,7 +135,9 @@ The following instructions will help you determine where under BFO your term sho
 	<li>material entity</li>
 	<li>information that describes an entity</li> 
 </ul>
-Using the definition of process, material entity or information that describes an entitiy (which are all BFO classes), one can determine under which class the particular term should go to. The table also gives further information on each of the terms of the definition. Examples are shown in the last column. Once you decided which class corresponds to your term, you click on the class which brings you to the next step.
+Using the definition of process, material entity or information that describes an entitiy (which are all BFO classes), one can determine under which class the particular term should go to. Each term should fit in one of these classes. Therefore, you should start with process and move on untill you found the class appropriate for your Quick Term. It is always a good idea to read through all the classes, even if you 'are sure' which class it should go under. It will take more time for the term to be added when the class is not appropriate and therefore must be reviewed. 
+<br><br>
+Use the following table to determine the class. In the first column you find the actual BFO class and in the second the definition and explanation of the particlar class. Examples are used to further assist you in determining the class. Once you decided which class corresponds to your term, click on the class which brings you to the next step.<br>
 
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
@@ -157,8 +159,8 @@ A "span:ProcessualEntity" ("processual_entity") that is a maximally connected sp
 	<li>''span:ProcessualEntity'' and ''processual_entity''<br>
 	Both span:ProcessualEntity and processual_entity come from the terminology used in BFO. In this stage it is not important to know where they are referring to, but you can always check the [glossary] for more information.</li>
 	<li>''maximally connected spatio-temporal whole''<br>
-	A process has both spatial and temporal 'parts'. Both spatial and temporal parts are tightly connected and therefore defined as 'maximally connected spatia-temporal whole. One example is the '''John's life''' can be described as 'when he was a child', 'when he was an adult'... (=temporal part) and they are tightly connected with the spatial parts as in 'when he lived in Seatle', 'when he lived in New York'... <br>
-	In the case of sleeping: sleeping is clearly stretched over time and are tightly (e.g. from 9am till 1pm) connected with the place one was sleeping (in bed, on the couch, in a haystack...).</li>
+	A process has both spatial and temporal 'parts'. Both spatial and temporal parts are tightly connected and therefore defined as 'maximally connected spatia-temporal whole. One example is the '''John's life''' can be described as 'when he was a child', 'when he was an adult'... (= temporal part) and they are tightly connected with the spatial parts as in 'when he lived in Seatle', 'when he lived in New York'... <br>
+	In the case of sleeping: sleeping is clearly stretched over time (e.g. from 9am till 1pm) and is tightly connected with the place one was sleeping (in bed, on the couch, in a haystack...).</li>
 	<li>''bona fide beginnings and endings''<br>
 	The process must have a "real" beginning and ending, a very distinct begin point and end point. <br>
 	In the case of sleeping: beginning point = when one begins to sleep, ending point: when one wakes up</li>
@@ -189,10 +191,23 @@ Material is any of
 	<li>bfo:FiatObjectPart.</li>
 </ul>
 A '''bfo:object''' is a "snap:IndependentContinuant" ("independent_continuant") that is spatially extended, maximally self-connected and self-contained (the parts of a substance are not separated from each other by spatial gaps) and possesses an internal unity. The identity of substantial "snap:Object" ("object") entities is independent of that of other entities and can be maintained through time.<br>
-A '''bfo:objectaggregate''' is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.<br>
+<br><br>
+''' ''Other Examples'' '''
+<ul>
+	<li></li>
+	<li></li>
+</ul>
+----
+A '''bfo:objectaggregate''' is a "snap:IndependentContinuant" ("independent_continuant") that is a mereological sum of separate "snap:Object" ("object") entities and possesses non-connected boundaries.
+<br><br>
+''' ''Other Examples'' '''
+<ul>
+	<li></li>
+	<li></li>
+</ul>
+----
 A '''bfo:faitObjectPart''' is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
-
-
+<br><br>
 ''' ''Other examples'' '''
 <ul>
 	<li>An organism</li>
