@@ -234,7 +234,7 @@ A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant
 	<li>''a mereological sum of separate "snap:Object" ("object") entities''<br>
 	The degree of unity of the objectaggregate is less than the object. In the case of a gooze vs a geeze, it should be clear that the unity is less strong for the flock of geese in comparison to a single goose. Also note, that an objectaggregate consists only out of snap:object, as in a flock of geese is a collection of multiple geese and nothing but geese.</li>
 	<li>''non-connected boundaries''<br>
-	Where the previous class stated that there were no spatial gaps between the different elements (e.g. in the case of a rock, there is no 'space' between the elements of the rock), this is not the case for an objectaggregate. There are gaps between all or some of its parts. In the example of a flock of geese, there is a gap between goose 1, goose 2, goose 3...</li>
+	Where the previous class stated that there were no spatial gaps between the different elements (e.g. in the case of a rock, there is no 'space' between the elements of the rock), this is not the case for an objectaggregate. There are gaps between all or some of its parts. In the example of a flock of geese, there is a gap between goose 1, goose 2, goose 3... (but not between the parts of a goose, which is a snap:object).</li>
 </ul>
 ''' ''Other Examples'' '''
 <ul>
@@ -249,18 +249,26 @@ A bfo:objectaggregate is a "snap:IndependentContinuant" ("independent_continuant
 :'''bfo:faitObjectPart'''
 | style="border-top:1px dashed grey" |
 '' '''Definition''' ''<br>
-A bfo:faitObjectPart is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
+A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant") that is part of a "snap:Object" ("object") but is not demarcated by any physical discontinuities.
 <br><br>
-'' '''Example: process of ...''' ''
-<br><br>
+'' '''Example: the north east of Brussels''' ''
+<ul>
+	<li>''snap:IndependentContinuant and independent_continuant''<br>
+	Both snap:IndependentContinuant and independent_continuant come from the terminology used in BFO. In this stage it is not important to know where they are referring to, but you can always check the [glossary] for more information.</li>
+	<li>part of snap:Object but not demarcated by physical discontinuities<br>
+	The boundaries between the different parts of an object are natural discontinuous, such as the natural discontinuity of the head of a goose and the neck. However for a Fiat part (cf. fiatObectPart), there is no such clear discontinuity. For the north east of Brussels, there is no clear distinguishable discontinuity, but nevertheless is a distinct part of Brussels. Therefore it goes within the class of snap:fiatObjectPart</li>
+</ul>
 ''' ''Other examples'' '''
 <ul>
 	<li>Upper and lower lobes of the left lung</li>
 	<li>The dorsal and ventral surfaces of the body</li>
 	<li>The east side of Saarbruecken</li>
 	<li>The lower right portion of a human torso</li>
+	<li>A fragment of bone</li>
+	<li>A pound of meat</li>
+	<li>A spherical mass of biomatter</li>
+	<li>A two inch wide slice cut from the chicken’s wing</li>
 </ul>
-
 |}
 
 ===  In the case of a Process ===
