@@ -157,18 +157,22 @@ A "span:ProcessualEntity" ("processual_entity") that is a maximally connected sp
 <ul>
 	<li>''span:ProcessualEntity'' and ''processual_entity''<br>
 	Both span:ProcessualEntity and processual_entity come from the terminology used in BFO. In this stage it is not important to know where they are referring to, but you can always check the [glossary] for more information.</li>
-	<li>''maximally connected''<br>
-	</li>
-	<li>''spatio-temporal whole''</li>
-	<li>''bona fide beginnings and endings''</li>
-	<li>''real discontinuities''</li>
+	<li>''maximally connected spatio-temporal whole''<br>
+	A process has both spatial and temporal 'parts'. Both spatial and temporal parts are tightly connected and therefore defined as 'maximally connected spatia-temporal whole. One example is the '''John's life''' can be described as 'when he was a child', 'when he was an adult'... (=temporal part) and they are tightly connected with the spatial parts as in 'when he lived in Seatle', 'when he lived in New York'... <br>
+	In the case of sleeping: sleeping is clearly stretched over time and are tightly (e.g. from 9am till 1pm) connected with the place one was sleeping (in bed, on the couch, in a haystack...).</li>
+	<li>''bona fide beginnings and endings''<br>
+	The process must have a "real" beginning and ending, a very distinct begin point and end point. <br>
+	In the case of sleeping: beginning point = when one begins to sleep, ending point: when one wakes up</li>
+	<li>''corresponding to real discontinuities''<br>
+	The phase before the beginning point must be clearly distinguishable from the phase after the beginning point: ''here = being awake vs. being asleep''<br>
+	The phase before ending point must be clearly distinguishable from the phase after the ending point: ''here = being asleep vs. being awake'''.</li>
 </ul>
-	
 '' '''Other examples''' ''
 <ul>
 	<li>the life of an organism</li>
 	<li>the process of sleeping</li>
 	<li>the process of cell-division</li>
+	<li>the functioning of a heart>/li>
 </ul>
 
 |-
