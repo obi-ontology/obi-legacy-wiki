@@ -390,6 +390,9 @@ If you need an additional field:
 
 ==== Examples of "Process" ====
 
+If you're looking for a field specific example, click one of the following links:
+*[[#neurophysiology|Neurophysiology]]
+
 ''' Example 1: '''
 
 A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
@@ -471,7 +474,7 @@ uncurated
 
 ==== Examples of "Material Entity" ====
 
-''' Example 1: '''
+<span id="neurophysiology">''' Example 1: '''</span>
 
 
 If from the BFO definition, you believe your term to be a material entity then you should describe it in the following manner. Click on the class '''material entity''' in Protege and click on the add subclass icon and describe the new subclass of material entity as below. 
