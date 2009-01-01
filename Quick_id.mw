@@ -319,9 +319,51 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 [[Image:QID_uncurated.gif|Result of the new created class]]
 |-
 
+|valign="TOP"|
+sometimes you might need more than 1 field of a specific property to "fully" describe your term. This could be in the case of e.g. definition source (if you have more than 1 source that needs to be referred to), definition editor (if you're not the only one adding this term)
+*Define the property "example of usage"
+**Double click in Value field
+**Give an example of usage of your term
+*Define the property "preferred term"
+**Double click in Value field
+**Fill in the name you'd prefer to give your term
+*Define the property "alternative term"
+**Double click in Value field
+**Fill in the name you'd prefer to give your term in the case the preferred term is not available
+*Define the property "preferred term"
+**Double click in Value field
+**Fill in the name you'd prefer to give your term
+*Double click in the Value field
+**If it's a process, use the following structure:<br>
+"A [term] is a process that [description of what the process does] and has the input [material entity / information] and utilizes the function of a [material entity/device]. The output of the process is [material entity / information]. "
+**If it's a material entity, use the following structure:<br>
+"A [term] is a material entity that [description of material]."<br>
+If appropriate also add the following:<br>
+"The [term] is manufactured by [organization or person], has function [function], has supplier [organization or person]."
+*Define the property "definition editor"
+**Double click in Value field
+**Fill in your name (since you are the editor of this term)
+*Define the property "definition source"
+**Double click in Value field
+**Fill in the source of the term's definition. This can be a wikipedia page, a book reference... Be precise in your reference.
+|valign="TOP"|
+[[Image:QID_properties.gif|Result of the new created class]]
+|-
+
+|valign="TOP"|
+*Set the curation status to "uncurated".
+**In the right pane, just beneath the field where you named the class, click on the icon that says "Select existing resource..." (and not "Add existing resource as value..."
+**A popup screen will appear, and select uncurated in the right pane of the popup screen.
+**Click OK<br><br><br><br><br><br><br><br><br><br>
+**The 'Value' of "has curation status" should now be uncurated
+|valign="TOP"|
+[[Image:QID_curation_status.gif|Result of the new created class]]<br><br>
+[[Image:QID_uncurated.gif|Result of the new created class]]
+|-
+
+
 
 |}
-
 
 === Examples on how to define your term ===
 
