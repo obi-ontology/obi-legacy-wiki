@@ -271,7 +271,7 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 </ul>
 |}
 
-===  Define your term ===
+===  Create a new class ===
 
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
@@ -308,19 +308,15 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 [[Image:QID_name_term.gif|Result of the new created class]]
 |-
 
-|valign="TOP"|
-*Set the curation status to "uncurated".
-**In the right pane, just beneath the field where you named the class, click on the icon that says "Select existing resource..." (and not "Add existing resource as value..."
-**A popup screen will appear, and select uncurated in the right pane of the popup screen.
-**Click OK<br><br><br><br><br><br><br><br><br><br>
-**The 'Value' of "has curation status" should now be uncurated
-|valign="TOP"|
-[[Image:QID_curation_status.gif|Result of the new created class]]<br><br>
-[[Image:QID_uncurated.gif|Result of the new created class]]
-|-
+|}
+
+=== Define the newly created class ===
+
+Next you need to define the properties of your newly created class. Fill in a single value for each of these properties (e.g. only 1 definition, 1 reference...). However, if you need/have multiple values for your class, use the option of adding an extra field (see "Add extra fields" at the end of this table on how to do that). This means that if you have multiple references for your definition (e.g. a wikipage and a book which are the sources of your definition), than add as many additional "definition source" as required.
+
+{|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
 |valign="TOP"|
-sometimes you might need more than 1 field of a specific property to "fully" describe your term. This could be in the case of e.g. definition source (if you have more than 1 source that needs to be referred to), definition editor (if you're not the only one adding this term)
 *Define the property "example of usage"
 **Double click in Value field
 **Give an example of usage of your term
@@ -333,35 +329,60 @@ sometimes you might need more than 1 field of a specific property to "fully" des
 *Define the property "preferred term"
 **Double click in Value field
 **Fill in the name you'd prefer to give your term
-*Double click in the Value field
-**If it's a process, use the following structure:<br>
-"A [term] is a process that [description of what the process does] and has the input [material entity / information] and utilizes the function of a [material entity/device]. The output of the process is [material entity / information]. "
-**If it's a material entity, use the following structure:<br>
+|valign="TOP"|
+[[Image:QID_properties.gif|The properties pane]]
+|-
+
+|}
+
+<ul>
+<li>Define your definition</li>
+	<ul>
+		<li>Double click in the Value field</li>
+		<li>If it's a process, use the following structure:<br>
+"A [term] is a process that [description of what the process does] and has the input [material entity / information] and utilizes the function of a [material entity/device]. The output of the process is [material entity / information]. "</li>
+		<li>If it's a material entity, use the following structure:<br>
 "A [term] is a material entity that [description of material]."<br>
-If appropriate also add the following:<br>
-"The [term] is manufactured by [organization or person], has function [function], has supplier [organization or person]."
+''If appropriate also add the following:''<br>
+"The [term] is manufactured by [organization or person], has function [function], has supplier [organization or person]."</li>
+	</ul>
+</ul>
 *Define the property "definition editor"
 **Double click in Value field
 **Fill in your name (since you are the editor of this term)
 *Define the property "definition source"
 **Double click in Value field
 **Fill in the source of the term's definition. This can be a wikipedia page, a book reference... Be precise in your reference.
-|valign="TOP"|
-[[Image:QID_properties.gif|Result of the new created class]]
-|-
+
+
+{|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
 |valign="TOP"|
 *Set the curation status to "uncurated".
 **In the right pane, just beneath the field where you named the class, click on the icon that says "Select existing resource..." (and not "Add existing resource as value..."
 **A popup screen will appear, and select uncurated in the right pane of the popup screen.
-**Click OK<br><br><br><br><br><br><br><br><br><br>
+**Click OK<br><br><br><br><br><br><br><br><br><br><br>
 **The 'Value' of "has curation status" should now be uncurated
 |valign="TOP"|
 [[Image:QID_curation_status.gif|Result of the new created class]]<br><br>
 [[Image:QID_uncurated.gif|Result of the new created class]]
 |-
 
+|}
 
+{|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
+
+|valign="TOP"|
+*Add extra fields (if applicable):
+Sometimes you might need more than 1 field of a specific property to "fully" describe your term. This could be in the case of e.g. definition source (if you have more than 1 source that needs to be referred to), definition editor (if you're not the only one adding this term). Use common sense to evaluate how many additional fields you require (if any). When e.g. adding the definition source, only list the main references. There is no need to list all references used for the definition. This goes for all additional fields. <br>
+If you need an additional field:
+**Click the icon "Create new annotation value"
+**Select the value you are after (e.g. an additional definition source)
+:NOTE: you can only create a new annotation value ''' ''after'' ''' you already filled in the value for that particular property. So fill in your alternative term first, then and only then you are able to create an additional alternative term.
+|valign="TOP"|
+|valign="TOP"|
+[[Image:QID_new_annotation_value.gif|Create a new annotation value by clicking the icon "Create new annotation value"]]
+|-
 
 |}
 
