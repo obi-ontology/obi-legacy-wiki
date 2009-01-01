@@ -323,8 +323,11 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 |}
 
 
+=== Examples on how to define your term ===
 
+==== Examples of "Process" ====
 
+''' Example 1: '''
 
 A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
 
@@ -336,66 +339,66 @@ A term........['''Dirk to fill in''']
 
 
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
-! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Propery</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Property</font>
 ! width=75% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Value</font>
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 rdfs:label]
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with term name....
  
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 definition
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with term definition...
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 definition source
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with definition source...
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 definition editor
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 PERSON:...replace with your name ...
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 preferred term
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with term label...
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 has curation status
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 uncurated
 
