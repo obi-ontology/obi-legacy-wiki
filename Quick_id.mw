@@ -273,7 +273,6 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 
 ===  In the case of a Process ===
 
-''' Open Protege, go to the Class Process '''
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
 !  |
@@ -281,19 +280,49 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 |-
 
 |valign="TOP"|
-1. Select the ''' ''Process'' ''' class in the left panel:<br>
+*Select the "Class" tab. 
+|valign="TOP"|
+[[Image:QID_Select_class.gif|Selection of the class tab]]
+|-
+
+
+|valign="TOP"|
+*Select the ''' ''Process'' ''' class in the left pane:<br>
 :entity -> occurent -> processual entity -> process. 
 <br><br>
-2. Click on 'Create Subclass' to create a new Subclass.<br>
+*Click on 'Create Subclass' to create a new Subclass.<br>
 :The class you're about to create will be automatically added to the Quick ID class.
 |valign="TOP"|
-[[Image:QID_select_process.gif|Selection of the class "Process"]]
+[[Image:QID_select_process.gif|Selection of the class "Process" and creating a new class]]
 |-
+
+|valign="TOP"|
+*This should look like the screenshot on your right.
+|valign="TOP"|
+[[Image:QID_new_class.gif|Result of the new created class]]
+|-
+
+|valign="TOP"|
+*Name your class. Hint: this is most likely the name of your term. But do note that when adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]]. 
+|valign="TOP"|
+[[Image:QID_name_term.gif|Result of the new created class]]
+|-
+
+|valign="TOP"|
+*Set the curation status to "uncurated".
+**In the right pane, just beneath the field where you named the class, click on the icon that says "Select existing resource..." (and not "Add existing resource as value..."
+**A popup screen will appear, and select uncurated in the right pane of the popup screen.
+**Click OK<br><br><br><br><br><br><br><br><br><br>
+**The 'Value' of "has curation status" should now be uncurated
+|valign="TOP"|
+[[Image:QID_curation_status.gif|Result of the new created class]]<br><br>
+[[Image:QID_uncurated.gif|Result of the new created class]]
+|-
+
 
 |}
 
 
-==== Create and define the subclass for your term ====
 
 
 
