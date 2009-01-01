@@ -273,7 +273,29 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 
 ===  In the case of a Process ===
 
-If from the BFO definition, you believe your term to be a process then should should describe it in the following manner. Click on the class '''process''' in Protege and click on the add subclass icon and describe the new subclass of process as below. 
+==== Open Protege, go to the Class Process ====
+{|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
+
+!  |
+!  | 
+|-
+
+|valign="TOP"|
+1. Select the ''' ''Process'' ''' class in the left panel:<br>
+:entity -> occurent -> processual entity -> process. 
+<br><br>
+2. Click on 'Create Subclass' to create a new Subclass.<br>
+:The class you're about to create will be automatically added to the Quick ID class.
+|valign="TOP"|
+[[Image:QID_select_process.gif|Selection of the class "Process"]]
+|-
+
+|}
+
+
+==== Create and define the subclass for your term ====
+
+
 
 A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
 
@@ -351,8 +373,6 @@ uncurated
 
 |-
 |}
-
-
 
 === In the case of a Material entity ===
 
