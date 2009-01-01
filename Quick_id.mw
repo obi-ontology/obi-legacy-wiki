@@ -403,7 +403,10 @@ uncurated
 |-
 |}
 
-=== In the case of a Material entity ===
+==== Examples of "Material Entity" ====
+
+''' Example 1: '''
+
 
 If from the BFO definition, you believe your term to be a material entity then you should describe it in the following manner. Click on the class '''material entity''' in Protege and click on the add subclass icon and describe the new subclass of material entity as below. 
 
@@ -424,62 +427,62 @@ When adding the terms they must be annotated according to the [[OBI_Minimal_meta
 ! width=75% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Value</font>
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 rdfs:label]
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with term name....
  
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 definition
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with term definition...
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 definition source
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with definition source...
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 definition editor
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 PERSON:...replace with your name ...
 
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 preferred term
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 ...replace with term label...
 |-
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 has curation status
 
 
-|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+|valign="TOP" | 
 ----
 uncurated
 
