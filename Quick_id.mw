@@ -312,7 +312,8 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 
 === Define the newly created class ===
 
-Next you need to define the properties of your newly created class. Fill in a single value for each of these properties (e.g. only 1 definition, 1 reference...). However, if you need/have multiple values for your class, use the option of adding an extra field (see "Add extra fields" at the end of this table on how to do that). This means that if you have multiple references for your definition (e.g. a wikipage and a book which are the sources of your definition), than add as many additional "definition source" as required.
+Next you need to define the properties of your newly created class. Fill in a single value for each of these properties (e.g. only 1 definition, 1 reference...). If you need/have multiple values for your class, use the option of adding an extra field (see "Add extra fields" at the end of this table on how to do that). This means that if you have multiple references for your definition (e.g. a wikipage and a book which are the sources of your definition), than add as many additional "definition source" as required.
+Follow the [[OBI_Minimal_metadata| OBI minimum metadata guidelines]] for your values.
 
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
