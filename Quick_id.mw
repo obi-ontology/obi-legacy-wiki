@@ -900,7 +900,7 @@ physical document
 
 |}
 
-=== Examples on how to define your term ===
+=== Examples on how to define your terms ===
 
 The best way of getting an idea on how it's supposed to be done, is to browse the OBI repository (which you checked out using SVN). However, for you convenience we provide some examples of Protege both from Quick Terms as from OBI core terms. This will give an insight in how a Quick Term could look like and how a core term of OBI in its final form looks like. They main difference between such Quick Term and a core OBI term is the status of being uncurated as a Quick Term.<br>
 The following terms are snapshots and possibly due for change. The following term descriptions therefore are not necessarily the latest versions of the term within OBI. As said, for the latest versions do use Protege itself. They are merely provided as an easily accessible 'first glance' of the terms. <br><br>
