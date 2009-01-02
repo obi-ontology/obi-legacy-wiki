@@ -83,15 +83,16 @@ To sum it up: BFO is a top-level (dealing with only universals, say working on a
 <br><br><br>
 '''OBI'''
 <br><br>
-The Ontology for Biomedical Investigations project (cf. OBI) is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. In other words: OBI uses the 'framework' of BFO and builds an ontology within this framework which allows to connect data from different fields.
+The Ontology for Biomedical Investigations project (cf. OBI) is developing an integrated ontology for the description of biological and clinical investigations (and therefore is a domain specific ontology in contrast with the top-level ontology BFO). This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. In other words: OBI uses the 'framework' of BFO and builds an ontology within this framework which allows to connect data from different fields.
 <br><br><br>
 '''Quick Terms'''<br><br>
-The Quick ID file is a specific file within OBI, which (since being part of the OBI) also uses the BFO. This file is different from other OBI files, due to the fact that all terms initially are 'uncurated'. Though it's part of the OBI, the terms added through Quick ID are not immediately part of the core OBI, but need curation before added to the core OBI. When terms are added correctly this is a semi-automatic process.<br><br>
+The Quick ID file is a specific file within OBI, which (since being part of the OBI) also uses the BFO. It's a protocol developed for those who have values they think are part of the OBI domain specific ontology, but are not core developers of OBI as such. This protocol allows those individuals to add terms in an easy manner. <br><br>
+The Quick ID procedure is built around the quick-id.owl file. It's basically a file ''within'' the OBI ontology which holds all newly added terms. Adding a term through the Quick ID adds those terms to the Quick ID file (within OBI). This file is different from other OBI files, due to the fact that all terms initially are 'uncurated'. Though it's part of the OBI, the terms added through Quick ID are not immediately part of the core OBI, but need curation before added to the core OBI. When terms are added correctly this is a semi-automatic process.<br><br>
 
-=== Basic Terminology of Quick ID ===
-
-
-=== How is Quick ID's integrated with OBI? ===
+=== Additional Information ===
+<br><br>
+When you start out with OBI, it is not surprising that the specific terminology is confusing. Therefore we provide a short [[#Glossary of Common Terminology|glossary of terms]] used in BFO, OBI and Quick ID. It's gives both a short description as (if applicable) wher to find additional information. <br><br>
+If this document nevertheless is not sufficient to solve your questions, than check out the mailinglist for Quick ID.
 
 == Submit a term to OBI ==
 
