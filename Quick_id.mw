@@ -902,32 +902,29 @@ physical document
 
 === Examples on how to define your term ===
 
-The best way of getting an idea on how it's supposed to be done, is to browse the OBI repository (which you checked out using SVN). However, for you convenience we provide some examples of Protege. Do note that some of these examples might be modified. The following term descriptions therefore are not necessarily the latest versions of the term within OBI. As said, for the latest versions do use Protege itself. These screenshots are merely provided as an easily accessible 'first glance' of the terms. Do note that the following examples are not Quick Terms, but already curated terms of OBI. The main difference with Quick Terms is the "uncurated" curation status of Quick Terms.<br><br>
+The best way of getting an idea on how it's supposed to be done, is to browse the OBI repository (which you checked out using SVN). However, for you convenience we provide some examples of Protege both from Quick Terms as from OBI core terms. This will give an insight in how a Quick Term could look like and how a core term of OBI in its final form looks like. They main difference between such Quick Term and a core OBI term is the status of being uncurated as a Quick Term.<br>
+The following terms are snapshots and possibly due for change. The following term descriptions therefore are not necessarily the latest versions of the term within OBI. As said, for the latest versions do use Protege itself. They are merely provided as an easily accessible 'first glance' of the terms. <br><br>
 The terms are sorted according to the BFO class. The decision to rank them in e specific class are not describes in these examples. Such an explanation can be found in the [[#Determine the node of the Basic Formal Ontology|explanation of the BFO classes]].<br><br>
 Hence we end up with the following structure:
 *Process
-**[[#visual fixation|visual fixation]]: example of Quick Term using the [[#Define the newly created class|Quick ID procedure]]
+**[[#visual fixation|visual fixation]]: example of a Quick Term using the [[#Define the newly created class|Quick ID procedure]]
 **[[#DNA sequence variation detection|DNA sequence variation detection]]: example of core OBI
 **[[#storage|storage]]: example of core OBI
 *Material Entity
-**bfo:object
-***[[#neurophysiology|Neurophysiology]]
-***[[#neurophysiology|Neurophysiology]]
-**bfo:objectaggregate
-***[[#neurophysiology|Neurophysiology]]
-***[[#neurophysiology|Neurophysiology]]
-**bfo:faitObjectPart
-***[[#neurophysiology|Neurophysiology]]
-***[[#neurophysiology|Neurophysiology]]
+**[[#face|face]]: example of a Quick Term using the [[#Define the newly created class|Quick ID procedure]]
+**[[#rat|rat]]: example of a Quick Term using the [[#Define the newly created class|Quick ID procedure]]
+**[[#word|word]]: example of a Quick Term using the [[#Define the newly created class|Quick ID procedure]]
+**[[#cell culture supernatant|cell culture supernatant]]: example of core OBI
+**[[#physical document|physical document]]: example of core OBI
 
-<span id="visual fixation">''' visual fixation '''</span>
+<span id="visual fixation">''' Visual Fixation '''</span>
 <br><br>
 ''Can be found in the OBI at''<br>
 :&nbsp; entity<br>
 :&nbsp; &lfloor; occurent<br>
 :&nbsp; &nbsp; &lfloor; processual entity<br>
 :&nbsp; &nbsp; &nbsp; &lfloor; process<br>
-:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; fixation task<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; visual fixation<br>
 <br>
 ''Properties and Values''
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
@@ -954,13 +951,13 @@ visual fixation task
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 Definition
 |valign="TOP"  style=" border-top:1px dotted grey;"| 
-A visual fixation is a process that maintains the visual gaze on a location or stimulus and has the input of visual stimulus (stimuli) and utilizes the function of an eye. The output of the process is visual fixation (maintenance of the visual gaze).
+A visual fixation is a process that maintains the visual gaze on a location or stimulus and has the input of visual stimulus (stimuli) and utilizes the function of an eye. The output of the process is the image which falls on the fovea of the eye.
 |-
  
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 Definition Editor
 |valign="TOP" style="border-top:1px dotted grey;" | 
-Dirk Derom
+PERSON: Dirk Derom
 |-
 
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
@@ -970,9 +967,21 @@ http://en.wikipedia.org/wiki/Fixation_(visual)
 |-
 
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+http://www.encyclopedia.com/doc/1O87-visualfixation.html
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 Example of usage
 |valign="TOP" style=" border-top:1px dotted grey;" | 
-Lauwereyns, J., K. Watanabe, et al. (2002). "A neural correlate of response bias in monkey caudate nucleus." Nature 418(6896): 413-417
+"The monkey sat in a primate chair inside a sound-attenuated room with his head ﬁxed. In the BST, the monkey was required to direct and maintain his gaze at a central ﬁxation spot during a ﬁrst ﬁxation (‘pre-target’) period of 1.5 s." Lauwereyns, J., K. Watanabe, et al. (2002). "A neural correlate of response bias in monkey caudate nucleus." Nature 418(6896): 413-417
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+Munoz, D. P., I. T. Armstrong, et al. (2003). "Altered control of visual fixation and saccadic eye movements in attention-deficit hyperactivity disorder." J Neurophysiol 90(1): 503-14.
 |-
 
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
@@ -1029,7 +1038,7 @@ DNA sequence variation detection is a process which aims at finding changes (exp
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 Definition Editor
 |valign="TOP" style="border-top:1px dotted grey;" | 
-Philippe Rocca-Serra
+PERSON: Philippe Rocca-Serra
 |-
 
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
@@ -1122,103 +1131,361 @@ storage
 |}
 
 
-<span id="neurophysiology2">''' Example 1: '''</span>
-
-
-If from the BFO definition, you believe your term to be a material entity then you should describe it in the following manner. Click on the class '''material entity''' in Protege and click on the add subclass icon and describe the new subclass of material entity as below. 
-
-A ['''term'''] is a material entity that ['''description of material''']. 
-
-If appropriate, also add the following:
-
-The ['''term'''] is manufactured by ['''organization or person'''], has function ['''function'''], has supplier ['''organization or person'''].
-
-
-For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
-
-
-When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated".
-
+<span id="face">''' Face '''</span>
+<br><br>
+''Can be found in the OBI at''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; continuant<br>
+:&nbsp; &nbsp; &lfloor; independent continuant<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; material entity<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; face<br>
+<br>
+''Properties and Values''
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
-! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Propery</font>
-! width=75% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Value</font>
 
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+-
 |-
-|valign="TOP" | 
-----
-rdfs:label]
 
-
-|valign="TOP" | 
-----
-...replace with term name....
- 
-
-|-
-|valign="TOP" | 
-----
-definition
-
-
-|valign="TOP" | 
-----
-...replace with term definition...
-
-|-
-|valign="TOP" | 
-----
-definition source
-
-
-|valign="TOP" | 
-----
-...replace with definition source...
-
-|-
-|valign="TOP" | 
-----
-definition editor
-
-
-|valign="TOP" | 
-----
-PERSON:...replace with your name ...
-
-|-
-|valign="TOP" | 
-----
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 preferred term
-
-
-|valign="TOP" | 
-----
-...replace with term label...
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+face
 |-
-|valign="TOP" | 
-----
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+The term face refers to the central sense organ complex, for those animals that have one, normally on the ventral surface of the head and can depending on the definition in the human case, include the hair, forehead, eyebrow, eyes, nose, ears, cheeks, mouth, lips, philtrum, teeth, skin, and chin.
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+PERSON: Dirk Derom
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+http://en.wikipedia.org/wiki/Face
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+Farah, M. J. (1996). "Is face recognition 'special'? Evidence from neuropsychology." Behav Brain Res 76(1-2): 181-9.
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 has curation status
-
-
-|valign="TOP" | 
-----
+|valign="TOP" style=" border-top:1px dotted grey;" | 
 uncurated
-
-
 |-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+rdfs label
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+face
+|-
+
 |}
 
 
-----
-Rest<br>
-DNA sequence variation detection
+<span id="rat">''' Rat '''</span>
+<br><br>
+''Can be found in the OBI at''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; continuant<br>
+:&nbsp; &nbsp; &lfloor; independent continuant<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; material entity<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; rat<br>
+<br>
+''Properties and Values''
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
 
-A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+-
+|-
 
-When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated". 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+preferred term
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+rat
+|-
 
-For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+-
+|-
 
-A term........['''Dirk to fill in''']
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+Rats are various medium sized, long-tailed rodents of the superfamily Muroidea. "True rats" are members of the genus Rattus, the most important of which to humans are the black rat, Rattus rattus, and the brown rat, Rattus norvegicus. Many members of other rodent genera and families are also called rats and share many characteristics with true rats.
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+PERSON: Dirk Derom
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+http://en.wikipedia.org/wiki/Rat
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+Stalnaker, T. A., M. R. Roesch, et al. (2006). "Abnormal associative encoding in orbitofrontal neurons in cocaine-experienced rats during decision-making." Eur J Neurosci 24(9): 2643-53.
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+has curation status
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+uncurated
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+rdfs label
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+rat
+|-
+
+|}
+
+
+<span id="word">''' Word '''</span>
+<br><br>
+''Can be found in the OBI at''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; continuant<br>
+:&nbsp; &nbsp; &lfloor; independent continuant<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; material entity<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; random dots<br>
+<br>
+''Properties and Values''
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+preferred term
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+word
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+A word is a unit of language that carries meaning and consists of one or more morphemes which are linked more or less tightly together, and has a phonetic value. Typically a word will consist of a root or stem and zero or more affixes.
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+PERSON: Dirk Derom
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+http://en.wikipedia.org/wiki/Word
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+Pulvermuller, F., R. Assadollahi, et al. (2001). "Neuromagnetic evidence for early semantic access in word recognition." Eur J Neurosci 13(1): 201-5.
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+has curation status
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+uncurated
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+rdfs label
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+word
+|-
+
+|}
+
+
+
+<span id="cell culture supernatant">''' Cell Culture Supernatant '''</span>
+<br><br>
+''Can be found in the OBI at''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; continuant<br>
+:&nbsp; &nbsp; &lfloor; independent continuant<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; material entity<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; cell culture supernatant<br>
+<br>
+''Properties and Values''
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+PRS:22022008: moved from _unclassified to _a defined class is needed following BM call
+|-
+
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+PRS:22022008. result from protocol_application where input=cell culture and output=supernatant
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+preferred term
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+cell culture supernatant
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+Supernatant of a cell culture is a material entity which contains media, supplements, and secreted products of the cells and becomes the environment of cultivated cell.
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+PERSON: Bjoern Peters
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+GROUP: IEDB
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+Solution containing RPMI, fetal calf sera, antibiotics, and monoclonal antibody UCHT1. Isolation of proliferation factor of immature T-cell clone in concanavalin A-stimulated splenocyte culture supernatant. Immunology. 2003 Jun;109(2):209-16. PMID: 12757615
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+has curation status
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+metadata complete
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+rdfs label
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+cell culture supernatant
+|-
+
+|}
+
+<span id="physical document">''' Physical Document '''</span>
+<br><br>
+''Can be found in the OBI at''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; continuant<br>
+:&nbsp; &nbsp; &lfloor; independent continuant<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; material entity<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; physical document<br>
+<br>
+''Properties and Values''
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+BP: moved and renamed for BFO
+|-
+
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+information_content_entity "is_encoded_in" some physical_document in obi before split (040907).
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+preferred term
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+physical document
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+A physical document is an object serving as a record of information by means of symbolic marks.
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+PERSON: Bjoern Peters
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+GROUP: OBI
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+a book is a physical document
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+has curation status
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+metadata complete
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+rdfs label
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+physical document
+|-
+
+|}
 
 == Glossary of Common Terminology ==
 
