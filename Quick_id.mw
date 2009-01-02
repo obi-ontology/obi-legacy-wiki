@@ -388,12 +388,85 @@ If you need an additional field:
 
 === Examples on how to define your term ===
 
-==== Examples of "Process" ====
+The best way of getting an idea on how it's supposed to be done, is to browse the OBI repository (which you checked out using SVN). However, for you convenience we provide some examples of Protege. Do note that some of these examples might be modified. The following term descriptions therefore are not necessarily the latest versions of the term within OBI. As said, for the latest versions do use Protege itself. These screenshots are merely provided as an easily accessible 'first glance' of the terms. Do note that the following examples are not Quick Terms, but already curated terms of OBI. The main difference with Quick Terms is the "uncurated" curation status of Quick Terms.<br><br>
+The terms are sorted according to the BFO class, with a further subdivision of scientific domain. This way you can compare your term with other domain specific terminology. The decision to rank them in e specific class are not describes in these examples. Such an explanation can be found in the [[#Determine the node of the Basic Formal Ontology|explanation of the BFO classes]].<br><br>
+Hence we end up with the following structure:
+*Process
+**[[#example1|Biology - Genome]]
+**[[#neurophysiology|Neurophysiology]]
+*Material Entity
+**bfo:object
+***[[#neurophysiology|Neurophysiology]]
+***[[#neurophysiology|Neurophysiology]]
+**bfo:objectaggregate
+***[[#neurophysiology|Neurophysiology]]
+***[[#neurophysiology|Neurophysiology]]
+**bfo:faitObjectPart
+***[[#neurophysiology|Neurophysiology]]
+***[[#neurophysiology|Neurophysiology]]
 
-If you're looking for a field specific example, click one of the following links:
-*[[#neurophysiology|Neurophysiology]]
+<span id="example1">''' Example of a process in biology: DNA sequence variation detection '''</span>
+<br><br>
+''' ''Can be found in the OBI at'' '''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; occurent<br>
+:&nbsp; &nbsp; &lfloor; processual entity<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; process<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; term<br>
+<br>
+''' ''Properties and Values'' '''
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
 
-''' Example 1: '''
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+preferred term
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+DNA sequence variation detection is a process which aims at finding changes (expansion, amplification, deletion, mutation) in sequence of DNA molecule.
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+Philippe Rocca-Serra
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+Capturing genomic signatures of DNA sequence variation using a standard anonymous microarray platform. Nucleic Acids Res. 2006;34(18):e121. PMID: 17000641
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+has curation status
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+metadata complete
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+DNA sequence variation detection
+|-
+
+|}
+DNA sequence variation detection
 
 A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
 
@@ -474,7 +547,7 @@ uncurated
 
 ==== Examples of "Material Entity" ====
 
-<span id="neurophysiology">''' Example 1: '''</span>
+<span id="neurophysiology2">''' Example 1: '''</span>
 
 
 If from the BFO definition, you believe your term to be a material entity then you should describe it in the following manner. Click on the class '''material entity''' in Protege and click on the add subclass icon and describe the new subclass of material entity as below. 
