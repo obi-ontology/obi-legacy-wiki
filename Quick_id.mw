@@ -90,9 +90,9 @@ The Quick ID file is a specific file within OBI, which (since being part of the 
 The Quick ID procedure is built around the quick-id.owl file. It's basically a file ''within'' the OBI ontology which holds all newly added terms. Adding a term through the Quick ID adds those terms to the Quick ID file (within OBI). This file is different from other OBI files, due to the fact that all terms initially are 'uncurated'. Though it's part of the OBI, the terms added through Quick ID are not immediately part of the core OBI, but need curation before added to the core OBI. When terms are added correctly this is a semi-automatic process.<br><br>
 
 === Additional Information ===
-<br><br>
-When you start out with OBI, it is not surprising that the specific terminology is confusing. Therefore we provide a short [[#Glossary of Common Terminology|glossary of terms]] used in BFO, OBI and Quick ID. It's gives both a short description as (if applicable) wher to find additional information. <br><br>
-If this document nevertheless is not sufficient to solve your questions, than check out the mailinglist for Quick ID.
+
+When you start out with OBI, it is not surprising that the specific terminology is confusing. Therefore we provide a short [[#Glossary of Common Terminology|glossary of terms]] used in BFO, OBI and Quick ID. It's gives both a short description as (if applicable) where to find additional information. <br><br>
+If this document nevertheless is not sufficient to solve your questions, than check out the mailinglist for Quick ID.<br><br>
 
 == Submit a term to OBI ==
 
