@@ -287,8 +287,11 @@ A bfo:fiatObjectPart is a "snap:IndependentContinuant" ("independent_continuant"
 
 
 |valign="TOP"|
-*Select the ''' ''Process'' ''' class in the left pane:<br>
-:entity -> occurent -> processual entity -> process. 
+*Select the BFO class in the lef pane. Two options:
+**''' ''Process'' '''
+**''' ''Material Entity'' '''
+:Note: do not choose the classes Object, ObjectAggregate, FiatObjectPart. If it's an Object, ObjectAggregate, FiatObjectPart, then select 'Material Entity' as shown on the screenshot.
+
 <br><br>
 *Click on 'Create Subclass' to create a new Subclass.<br>
 :The class you're about to create will be automatically added to the Quick ID class.
