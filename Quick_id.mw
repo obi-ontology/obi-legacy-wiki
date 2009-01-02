@@ -390,11 +390,12 @@ If you need an additional field:
 === Examples on how to define your term ===
 
 The best way of getting an idea on how it's supposed to be done, is to browse the OBI repository (which you checked out using SVN). However, for you convenience we provide some examples of Protege. Do note that some of these examples might be modified. The following term descriptions therefore are not necessarily the latest versions of the term within OBI. As said, for the latest versions do use Protege itself. These screenshots are merely provided as an easily accessible 'first glance' of the terms. Do note that the following examples are not Quick Terms, but already curated terms of OBI. The main difference with Quick Terms is the "uncurated" curation status of Quick Terms.<br><br>
-The terms are sorted according to the BFO class, with a further subdivision of scientific domain. This way you can compare your term with other domain specific terminology. The decision to rank them in e specific class are not describes in these examples. Such an explanation can be found in the [[#Determine the node of the Basic Formal Ontology|explanation of the BFO classes]].<br><br>
+The terms are sorted according to the BFO class. The decision to rank them in e specific class are not describes in these examples. Such an explanation can be found in the [[#Determine the node of the Basic Formal Ontology|explanation of the BFO classes]].<br><br>
 Hence we end up with the following structure:
 *Process
-**[[#example1|Biology - Genome]]
-**[[#neurophysiology|Neurophysiology]]
+**[[#visual fixation|visual fixation]]: example of Quick Term using the [[#Define the newly created class|Quick ID procedure]]
+**[[#DNA sequence variation detection|DNA sequence variation detection]]: example of core OBI
+**[[#storage|storage]]: example of core OBI
 *Material Entity
 **bfo:object
 ***[[#neurophysiology|Neurophysiology]]
@@ -406,16 +407,86 @@ Hence we end up with the following structure:
 ***[[#neurophysiology|Neurophysiology]]
 ***[[#neurophysiology|Neurophysiology]]
 
-<span id="example1">''' Example of a process in biology: DNA sequence variation detection '''</span>
+<span id="visual fixation">''' visual fixation '''</span>
 <br><br>
-''' ''Can be found in the OBI at'' '''<br>
+''Can be found in the OBI at''<br>
 :&nbsp; entity<br>
 :&nbsp; &lfloor; occurent<br>
 :&nbsp; &nbsp; &lfloor; processual entity<br>
 :&nbsp; &nbsp; &nbsp; &lfloor; process<br>
-:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; term<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; fixation task<br>
 <br>
-''' ''Properties and Values'' '''
+''Properties and Values''
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+Not identical to "fixational eye movements" (or fixational instability, retinal jitter). Fixational eye movements refer to the movement (retinal jitter) of the eye ''during'' fixation. Fixation Task refers to the ''task'' to fixate a specific object and does not target the movement of the eye during this task.<br>
+More on fixational instability can be found here: http://en.wikipedia.org/wiki/Fixational_eye_movements
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+preferred term
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+visual fixation
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+visual fixation task
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+A visual fixation is a process that maintains the visual gaze on a location or stimulus and has the input of visual stimulus (stimuli) and utilizes the function of an eye. The output of the process is visual fixation (maintenance of the visual gaze).
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+Dirk Derom
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+http://en.wikipedia.org/wiki/Fixation_(visual)
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+Lauwereyns, J., K. Watanabe, et al. (2002). "A neural correlate of response bias in monkey caudate nucleus." Nature 418(6896): 413-417
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+has curation status
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+uncurated
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+rdfs label
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+visual fixation
+|-
+
+|}
+
+
+<span id="DNA sequence variation detection">''' DNA sequence variation detection '''</span>
+<br><br>
+''Can be found in the OBI at''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; occurent<br>
+:&nbsp; &nbsp; &lfloor; processual entity<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; process<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; DNA sequence variation detection<br>
+<br>
+''Properties and Values''
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
 
 |valign="TOP" width=25% style="border-left:50px solid white;"| 
@@ -461,92 +532,82 @@ metadata complete
 |-
 
 |valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
-Example of usage
+rdfs label
 |valign="TOP" style=" border-top:1px dotted grey;" | 
 DNA sequence variation detection
 |-
 
 |}
-DNA sequence variation detection
-
-A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
-
-When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated". 
-
-For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
-
-A term........['''Dirk to fill in''']
 
 
+<span id="storage">''' Storage '''</span>
+<br><br>
+''Can be found in the OBI at''<br>
+:&nbsp; entity<br>
+:&nbsp; &lfloor; occurent<br>
+:&nbsp; &nbsp; &lfloor; processual entity<br>
+:&nbsp; &nbsp; &nbsp; &lfloor; process<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; storage<br>
+<br>
+''Properties and Values''
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
-! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Property</font>
-! width=75% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Value</font>
 
+|valign="TOP" width=25% style="border-left:50px solid white;"| 
+Editor note
+|valign="TOP" | 
+-
 |-
-|valign="TOP" | 
-----
-rdfs:label]
 
-
-|valign="TOP" | 
-----
-...replace with term name....
- 
-
-|-
-|valign="TOP" | 
-----
-definition
-
-
-|valign="TOP" | 
-----
-...replace with term definition...
-
-|-
-|valign="TOP" | 
-----
-definition source
-
-
-|valign="TOP" | 
-----
-...replace with definition source...
-
-|-
-|valign="TOP" | 
-----
-definition editor
-
-
-|valign="TOP" | 
-----
-PERSON:...replace with your name ...
-
-|-
-|valign="TOP" | 
-----
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 preferred term
-
-
-|valign="TOP" | 
-----
-...replace with term label...
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+-
 |-
-|valign="TOP" | 
-----
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+alternative term
+|valign="TOP" style=" border-top:1px dotted grey;"| 
+-
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition
+|valign="TOP"  style=" border-top:1px dotted grey;"| 
+storage is a process by which material entities are placed in well identified location and possibly under controlled environment in ad-hoc devices/structures in order to preserve and protect them from decay/alteration and maintain availability
+|-
+ 
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Editor
+|valign="TOP" style="border-top:1px dotted grey;" | 
+Philippe Rocca-Serra
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Definition Source
+|valign="TOP" style="border-top:1px dotted grey;" | 
+OBI-Branch
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
+Example of usage
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+PMID: 18550121.Total Prostate Specific Antigen Stability Confirmed After Long-Term Storage of Serum at -80C. J Urol. 2008 Jun 10.
+|-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey;"| 
 has curation status
-
-
-|valign="TOP" | 
-----
-uncurated
-
-
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+metadata complete
 |-
+
+|valign="TOP" style="border-left:50px solid white; border-top:1px dotted grey"| 
+rdfs label
+|valign="TOP" style=" border-top:1px dotted grey;" | 
+storage
+|-
+
 |}
 
-==== Examples of "Material Entity" ====
 
 <span id="neurophysiology2">''' Example 1: '''</span>
 
@@ -632,6 +693,19 @@ uncurated
 
 |-
 |}
+
+
+----
+Rest<br>
+DNA sequence variation detection
+
+A ['''term'''] is a process that ['''description of what the process does'''] and has the input '''[material entity / information'''] and utilizes the function of a ['''material entity/device''']. The output of the process is ['''material entity / information'''].
+
+When adding the terms they must be annotated according to the [[OBI_Minimal_metadata| OBI minimum metadata requirments]] and have the curation status "uncurated". 
+
+For example if you have the term called ['''Dirk insert an example here''']. It could be described in the following way.
+
+A term........['''Dirk to fill in''']
 
 == Glossary of Common Terminology ==
 
