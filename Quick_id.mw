@@ -378,12 +378,17 @@ Follow the [[OBI_Minimal_metadata| OBI minimum metadata guidelines]] for your va
 {|class="wikitable" valign="TOP"  style="text-align: left; width: 100%; cellspacing:0; cellpadding: 5; background: #FFFFFF; border-left:10px solid white;border-right:5px solid white;"
 
 |valign="TOP"|
-*Add extra fields (if applicable):
+<ul>
+	<li>Add extra fields (if applicable):
 Sometimes you might need more than 1 field of a specific property to "fully" describe your term. This could be in the case of e.g. definition source (if you have more than 1 source that needs to be referred to), definition editor (if you're not the only one adding this term). Use common sense to evaluate how many additional fields you require (if any). When e.g. adding the definition source, only list the main references. There is no need to list all references used for the definition. This goes for all additional fields. <br>
 If you need an additional field:
-**Click the icon "Create new annotation value"
-**Select the value you are after (e.g. an additional definition source)
-:NOTE: you can only create a new annotation value ''' ''after'' ''' you already filled in the value for that particular property. So fill in your alternative term first, then and only then you are able to create an additional alternative term.
+		<ul>
+			<li>Click the icon "Create new annotation value"</li>
+			<li>Select the value you are after (e.g. an additional definition source)</li>
+			<li>NOTE: you can only create a new annotation value ''' ''after'' ''' you already filled in the value for that particular property. So fill in your alternative term first, then and only then you are able to create an additional alternative term.</li>
+		</ul>
+	</li>
+</ul>
 |valign="TOP"|
 |valign="TOP"|
 [[Image:QID_new_annotation_value.gif|Create a new annotation value by clicking the icon "Create new annotation value"]]
