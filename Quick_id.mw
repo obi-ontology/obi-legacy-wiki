@@ -767,7 +767,7 @@ rat
 :&nbsp; &lfloor; continuant<br>
 :&nbsp; &nbsp; &lfloor; independent continuant<br>
 :&nbsp; &nbsp; &nbsp; &lfloor; material entity<br>
-:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; random dots<br>
+:&nbsp; &nbsp; &nbsp; &nbsp; &lfloor; word<br>
 <br>
 ''Properties and Values''
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
@@ -977,8 +977,6 @@ physical document
 |-
 
 |}
-
-
 
 == Glossary of Common Terminology ==
 
