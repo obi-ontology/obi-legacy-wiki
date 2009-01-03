@@ -395,6 +395,10 @@ If you need an additional field:
 
 |}
 
+=== Check consistency ===
+
+=== Submit to the OBI repository ===
+
 === Examples on how to define your term ===
 
 The best way of getting an idea on how it's supposed to be done, is to browse the OBI repository (which you checked out using SVN). However, for you convenience we provide some examples of Protege both from Quick Terms as from OBI core terms. This will give an insight in how a Quick Term could look like and how a core term of OBI in its final form looks like. They main difference between such Quick Term and a core OBI term is the status of being uncurated as a Quick Term.<br>
