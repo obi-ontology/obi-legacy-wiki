@@ -5,7 +5,7 @@ The Digital Entity and Non-realizable Information Entity Branch is an [[Branch_d
 [[Main_Page|<<Back to Homepage]]
 
 == Scope ==
-The scope of the Digital Entity and Non-realizable Information Entity branch is to identify essential entities to describe the output of measurements, types of files, and information content. The scope of DENRIE is restricted to biological and biomedical investigations. The Information Artifact Ontology is the source for general Information entities and will be imported into OBI. OBI will contain terms specific to investigations.
+The scope of the Digital Entity and Non-realizable Information Entity branch is to identify essential entities to describe the output of measurements, types of files, and information content. The scope of DENRIE is restricted to biological and biomedical investigations. The Information Artifact Ontology is the source for general Information entities and will be imported into OBI. Terms with OBI IDs will be specific to investigations.
 
 ==Digital Entity and Non-realizable Information Entity conference calls==
 Notes and schedule for calls can be found at the
