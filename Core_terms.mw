@@ -111,10 +111,10 @@ re using them
 | datum/data -> data item
 |-
 |2. narrative object - textual
-| 
+| narrative object (report) information
 |-
 |3. narrative object - figure
-| 
+| narrative object (report) encoding in a format
 |-
 |4. software
 | 
