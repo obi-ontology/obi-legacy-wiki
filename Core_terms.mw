@@ -45,7 +45,11 @@ Proposal is to store these very specific resources in external files
 (Bjoern may not want to get 600 fluorochromes when downloading OBI)
 |-
 |5. chemical entities in solution (mixtures)
-|
+|concentration proposal form BP and AR
+- has been discussed in Karlsruhe with Stefan Schulz, Marijke Keet ->
+seems to lean towards Bjoern's proposal
+- AI for Bjoern: send email including description of his proposal
+- AI for all: encode one example properly in OWL file before workshop
 |-
 |6. environmental matter
 | - link to envo
@@ -58,7 +62,14 @@ defined class environmental matter, which has quality/role of being
 able to host organisms)
 |-
 |7. macroscopic part of organism
-|
+|parasites, fetus etc are macroscopic part or organism too, even
+though they are organisms
+- JM: parasitic could be disposition?
+- virus? not macroscopic (macroscopic= multicellular or similar size)
+- issue of canonical part: parasites yes or no?
+- current pb: heart on table
+=> process changing nature of the input -> conferred quality, TBD in
+Vancouver
 |-
 |8. artifact object
 | - issue= an output of mat transfo is artifact - ex: collect something
