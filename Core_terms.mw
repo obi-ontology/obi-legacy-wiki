@@ -243,3 +243,57 @@ re using them
 |11. 'roles for data'
 | 
 |}
+
+<br>
+{| border="1" cellpadding="5" cellspacing="0" width=100%
+|+ '''Instrument Branch'''
+!width="40%"|terms
+!width="60%" |description - discussion
+|-
+|1. device
+| It’s hard to find a formal differentiae to distinguish ‘instrument’ from ‘device’. Humans tend to classify more in a probabilistic and fuzzy way. It is hard to discretely model phase transitions that are continuous.
+In general an instrument is regarded to be more complex as a device. Complexity is hard to define. Can a certain amount of ‘has part’ statements (min cardinality) lead to an acceptable solution ? Are there approaches to model Entrophy? This also lead to the question if a distinction between a device function and a instrument function is justified. Do we need the device / instrument distinction at all? What do we gain having this distinction? A simple device should not get all the properties of an instrument. E.g. a 'tube' does not need to have parameters, data outputs, software, .. that a 'flow cytometer' instrument might have.
+
+|-
+|2. instrument
+| 
+|-
+|3. platform
+| 
+|-
+|4. artifact object
+| 
+|-
+|5. device function
+| 
+|-
+|6. _canonical realization of device function
+| 
+|-
+|7. produce data function
+| 
+|-
+|8. information processor function
+| 
+|-
+|9. process
+|
+|-
+|10. protocol
+| 
+|-
+|11. relations
+| For device:
+material entity  and
+has function SOME function
+is manufactured by  SOME  (organisation OR homo sapiens) 
+is device for  SOME process (inverse:  process utilizes device )
+gets_energy_from SOME homo sapiens  (just an idea to reflect that a device is usually more passive and handled by humans, whereas instruments are actively driving processes )
+
+For instrument:
+device  and 
+has_parameter_settings SOME information artefact   (how does this relate to has quality? Would has software be a subrelation here as well?)
+gets_energy_from SOME power supply
+has part  min 5  	(5 is quite arbitrary…, just an idea)
+
+|}
