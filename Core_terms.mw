@@ -48,16 +48,46 @@ Proposal is to store these very specific resources in external files
 |
 |-
 |6. environmental matter
-| 
+| - link to envo
+- http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=ENVO&termId=ENVO%3A00010483&termName=environmental%20matter
+- possibility: mireot environmental matter - issue: current children
+of ENVO too broad for us (e.g. bone)
+- AI for JM to send email to envo/biomaterial with proposal (change
+environmental matter to "material entity", subclasses, and then have
+defined class environmental matter, which has quality/role of being
+able to host organisms)
 |-
 |7. macroscopic part of organism
 |
 |-
 |8. artifact object
-| 
+| - issue= an output of mat transfo is artifact - ex: collect something
+from street, is it artifact?
+- process branch needs to say what mat transformation is (note: has
+been renamed artifact material creation) - e.g. we don't want
+collection there
+- we agree that all output of artifact material creatio will be
+artifact object
+- AI for BP: work on artifact material creation and check
+classification
+- AI for BIomaterial branch: review what falls under there
+
 |-
 |9. EOO (entity of organismal origin)
-| 
+| - all EOO should be artifact objects
+- "artifact of organismal origin": intent to collect sthg that was
+part of organism
+- blood serum should be linked to blood as macroscopic part of
+organism
+- BP: extracted heart is no longer an heart, as parthood relation
+don't hold anymore
+other example: finger part of hand not true anymore if severed finger
+- we need relation "severed finger used to be finger"
+- Alan's proposal: having finger (anat structure) and subclasses
+finger in vivo and severed finger
+- other anatomy ontology don't work that way -> would create issues in
+re using them
+- AI for BP: have one example blood and heart/finger
 |}
 <br>
 
