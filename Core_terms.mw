@@ -45,7 +45,7 @@ Proposal is to store these very specific resources in external files
 (Bjoern may not want to get 600 fluorochromes when downloading OBI)
 |-
 |5. chemical entities in solution (mixtures)
-|- concentration proposal form BP and AR, has been discussed in Karlsruhe with Stefan Schulz, Marijke Keet , seems to lean towards Bjoern's proposal AI for Bjoern: send email including description of his proposal AI for all: encode one example properly in OWL file before worksho
+|
 |-
 |6. environmental matter
 | 
