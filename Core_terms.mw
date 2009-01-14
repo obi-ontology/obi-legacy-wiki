@@ -109,15 +109,16 @@ re using them
 |-
 |1. datum/ data; dataset; data structure
 | datum/data -> data item
+see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/579eed73373feca8?hl=en and http://groups.google.com/group/information-ontology/browse_thread/thread/24694b46a1239912?hl=en
 |-
 |2. narrative object - textual
-| 
+| see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |3. narrative object - figure
-| 
+| see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |4. software
-| 
+| see http://groups.google.com/group/information-ontology/browse_thread/thread/81adc82d0c5d0a39?hl=en and http://code.google.com/p/information-artifact-ontology/issues/detail?id=7
 |-
 |5. variable - could be plan
 |
@@ -129,7 +130,7 @@ re using them
 |
 |-
 |8. conclusion
-| 
+| discussion in progress as part of narrative object
 |-
 |9. objective specification - research objective
 | 
