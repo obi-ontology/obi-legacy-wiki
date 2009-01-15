@@ -181,13 +181,13 @@ see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/579eed
 | status: branch approved
 |-
 |4. assay
-| status: branch approved
+| status: branch approved. Should have more children added, e.g. non analyte-measuring assays
 |-
 |5. analyte measuring assay
 | status: branch approved
 |-
 |6. material administration
-| status: not reviewed
+| status: first branch review done. 
 |-
 |7. objective driven process, planned process, and protocol application 
 | status: not done. suggestion to merge two or more 
@@ -196,7 +196,7 @@ see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/579eed
 | status: not done. includes the concretization and realization relationships
 |-
 |9. material transformation = artifact creation
-| status: first branch review done
+| status: first branch review done. After switch to 'artifact creation', we need to when we want something to be a transformation only, and when something is a newly created artifact.  
 |-
 |10. material separation
 | status: not reviewed
