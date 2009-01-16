@@ -57,41 +57,17 @@
 *VO and OBI (Oliver)
 *Automated Investigations (Larisa)
 
-===Agenda items===
+=== Other possible Agenda items===
 
 Please add proposed agenda items below. If you have any specific time constraint please use the dated slots below and add why the constraint.
 
 * What happens next? The longer term plan for continuing OBI development.
 * OBI classes into IAO and BFO
-* Neurocommons hacking session
-* Namespace discussion (if not solved earlier): We need a policy that can be applied not just to MSI but for any other ontology that will be later 'included' in OBI (e.g. SepCV).
-* Refine and agree on obi policy regarding prohibited assertions under defined classes: https://wiki.cbil.upenn.edu/obiwiki/index.php/DefinedClasses
 * Making the old wiki read-only and moving over to the [http://obi-ontology.org new wiki]
-* quickterm proposal
-* 10 terms per branch
-* Larisa: automated investigations
-* conferred qualities
-* variables
 * define a standard procedure for communities to submit new terms to OBI (I believe this is related to the QuickTerms sub-project)
 ** What should the community do to facilitate the process?
 ** How will OBI incorporate? Who will be responsible?
 ** Do we need different processes for asserted vs defined classes?
-
-
-Monday 2nd Feb
-
-Tuesday 3rd Feb
-
-Wednesday 4th Feb
-
-* Treatment of relations, defined classes, and defined qualities. (proposed by Barry - to be addressed on the 4th)
-* Roles and qualities of dependent continuants (BFO issue - to be addressed with Barry)
-
-Thursday 5th Feb
-
-* NCBO Bioportal (Trish) on Thursday, Feb 5
-
-Friday 6th Feb
 
 ===Participants===
 
