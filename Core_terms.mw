@@ -246,16 +246,16 @@ the desired results.
 | Still awaiting this also to be added so we can start adding output data..
 |-
 |6. datum
-| 
+| Awaiting definition from IAO
 |-
 |7. data set
-| 
+| Awaiting definition from IAO
 |-
 |8. image - linking to a visualization (is_rendered_by)
-| 
+| An image is an information content entity which provides a visual representation of for the result of a measurement.  Part of IAO
 |-
 |9. software
-|
+| 
 |-
 |10. material separation
 | 
