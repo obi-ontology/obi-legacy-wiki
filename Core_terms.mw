@@ -237,7 +237,7 @@ the desired results.
 | A data transformation objective is an objective specification that a data transformation may have towards which the realization of that transformation is directed.
 |-
 |3. has_objective
-| 
+| This sits outside of DT branch but still lacks a definition.
 |-
 |4. inputs_specified_data
 | 
