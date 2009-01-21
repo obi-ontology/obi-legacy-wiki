@@ -255,7 +255,7 @@ the desired results.
 | An image is an information content entity which provides a visual representation of for the result of a measurement.  Part of IAO
 |-
 |9. software
-| 
+| IAO.  Awaiting definition.  Need instructions on be subclassing this so we can add relevant DT/OBI classes.
 |-
 |10. material separation
 | 
