@@ -130,7 +130,14 @@ also see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/5
 see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |3. narrative object - figure
-| see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
+|information entity about a realizable 
+               text format 
+              figure format 
+              audio format 
+              table format 
+              html spec 
+              pdf spec 
+see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |4. software
 | Software entity: series of encoded instructions that can be directly executed by a CPU, or transformed in to a form that can be. For programming texts that are syntactically correct and which are in a language that can be executed by an interpreter this would correspond to the tokenized version of the text stripped of comments. 
@@ -149,6 +156,9 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/4
 |-
 |6. hypothesis
 | hypothesis is a proposition
+A proposition is an ICE that affirms or denies something and is either true or false. A proposition represents the relation of the information to reality according to the author. alternative term: statement  (from http://www.google.ca/search?q=define%3Aproposition and Bjoern) 
+editor note: Alan is concerned that he doesn't understand what instances of hypotheses are and would prefer to have them the narrative style definitions of the terms conclusion, hypothesis, result, and would like to not have proposition as a term as it looks like the definition is coincident with data item
+
 see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/b0825584009fb768
 |-
 |7. result
