@@ -108,8 +108,18 @@ re using them
 !width="60%" |description - discussion
 |-
 |1. datum/ data; dataset; data structure
-| datum/data -> data item
-see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/579eed73373feca8?hl=en and http://groups.google.com/group/information-ontology/browse_thread/thread/24694b46a1239912?hl=en
+| data item is an information content entity that is intended to be a truthful statement about something (modulo , e.g. measurement imprecision or unintended error) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements. (synonym datum, data).
+editor note: truth fulness is supposed to differentiate lies from facts. It is not meant to indicate that the data item represents an absolute truth. The processes that 'tend to reliably produce truthful statements' need to be spelled out. One of them should be assay.
+editor note: alternative def: Data item refers to a fact usually collected as the result of    experience, observation or experiment, or processes within a computer    system, or a set of premises. This may be a number, word, or image,    particularly as a measurement or observation of a set of variables.
+
+data set is a bundling of data items without implication of homogeneity or  other structural 
+constraints, at least at the broadest level. 
+editor note: Originally included the bundling was for some purpose but that requires a matching logical definition.
+
+data structure is specification of relationships between data items.
+editor note: term label may actually be data structure specification
+
+also see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/579eed73373feca8?hl=en and http://groups.google.com/group/information-ontology/browse_thread/thread/24694b46a1239912?hl=en
 |-
 |2. narrative object - textual
 | see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
