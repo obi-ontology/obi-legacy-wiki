@@ -167,6 +167,8 @@ the desired results.
 |-
 |11. value/ unit
 |scalar measurement datum is_a data item and has part unit label and has part numeral
+
+measurement unit label is as a label that is part of a measurement datum and denotes a unit of measure. (labels are a type of symbol so it is of the same type as numeral). 
 editor note: instances of unit label would be drawn from the PATO units of measurement ontology or equivalent
 
 see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e64016e158bd6a6c
