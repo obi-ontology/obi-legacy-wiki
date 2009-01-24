@@ -122,25 +122,34 @@ editor note: term label may actually be data structure specification
 also see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/579eed73373feca8?hl=en and http://groups.google.com/group/information-ontology/browse_thread/thread/24694b46a1239912?hl=en
 |-
 |2. narrative object - textual
-| see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
+|      report (purpose of information for the author and audience) 
+        journal article 
+        patent application 
+        grant progress report 
+        patient record 
+see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |3. narrative object - figure
 | see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |4. software
-| see http://groups.google.com/group/information-ontology/browse_thread/thread/81adc82d0c5d0a39?hl=en and http://code.google.com/p/information-artifact-ontology/issues/detail?id=7
+| Software entity: series of encoded instructions that can be directly executed by a CPU, or transformed in to a form that can be. For programming texts that are syntactically correct and which are in a language that can be executed by an interpreter this would correspond to the tokenized version of the text stripped of comments. 
+editor note: also a definition available from SepCV
+
+see also http://groups.google.com/group/information-ontology/browse_thread/thread/81adc82d0c5d0a39?hl=en and http://code.google.com/p/information-artifact-ontology/issues/detail?id=7
 |-
 |5. variable - could be plan
 |see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/411a13f034737c1d
 |-
 |6. hypothesis
-| see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/b0825584009fb768
+| hypothesis is a proposition
+see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/b0825584009fb768
 |-
 |7. result
-|discussion in progress as part of narrative object
+|result is a proposition
 |-
 |8. conclusion
-| discussion in progress as part of narrative object
+| conclusion is a proposition
 |-
 |9. objective specification - research objective
 | see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/d088883005df2d87
