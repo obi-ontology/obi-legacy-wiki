@@ -139,7 +139,13 @@ editor note: also a definition available from SepCV
 see also http://groups.google.com/group/information-ontology/browse_thread/thread/81adc82d0c5d0a39?hl=en and http://code.google.com/p/information-artifact-ontology/issues/detail?id=7
 |-
 |5. variable - could be plan
-|see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/411a13f034737c1d
+|experimental factor is a specification that is varied within an experiment (signifying, for example, the 'control' and 'experimental' groups)  synonym is independent variable
+
+dependent variable is a data item that is simply a measurement derived from instruments with no manipulations 
+derived variable is a data item that has been obtained through processing of other data. 
+proxy variable is a data item where one variable is linked to another via a vague or non-specific relation (i.e., 'time-spent freezing' is a proxy for 'fear', which may contribute to the high-level interpretation of a study). 
+
+see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/411a13f034737c1d
 |-
 |6. hypothesis
 | hypothesis is a proposition
