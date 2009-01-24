@@ -166,7 +166,11 @@ of the investigation are related, how they are interpreted, and what are
 the desired results. 
 |-
 |11. value/ unit
-|scalar measurement datum is_a data item and has part unit label and has part numeral
+| scalar measurement datum is_a data item and has part unit label and has part numeral. 
+editor note: measurement datum is an information content entity that is a recording of the output of a measurement such as as produced by an instrument. (Given the discussions on data/ datum this should be   
+relabeled as "measurement data item." )
+
+numeral which is a symbol that denotes a number. 
 
 measurement unit label is as a label that is part of a measurement datum and denotes a unit of measure. (labels are a type of symbol so it is of the same type as numeral). 
 editor note: instances of unit label would be drawn from the PATO units of measurement ontology or equivalent
