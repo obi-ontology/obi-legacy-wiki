@@ -152,7 +152,10 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/b
 | conclusion is a proposition
 |-
 |9. objective specification - research objective
-| see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/d088883005df2d87
+| An objective specification is an information entity which can serve as the aim or purpose towards which the realization of the plan is directed. 
+editor note: waiting for Plan and Planned process branch
+
+see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/d088883005df2d87
 |-
 |10. study design - technical approach
 | Agree with approval by Plan and Planned Process branch. Updated definition from BP is: A study design is a plan comprising of protocols and/or data 
@@ -163,7 +166,10 @@ of the investigation are related, how they are interpreted, and what are
 the desired results. 
 |-
 |11. value/ unit
-|see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e64016e158bd6a6c
+|scalar measurement datum is_a data item and has part unit label and has part numeral
+editor note: instances of unit label would be drawn from the PATO units of measurement ontology or equivalent
+
+see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e64016e158bd6a6c
 |}
 <br>
 
