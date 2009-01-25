@@ -130,13 +130,21 @@ also see http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/5
 see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |3. narrative object - figure
-|information entity about a realizable 
-               text format 
-              figure format 
-              audio format 
-              table format 
-              html spec 
-              pdf spec 
+'report element format' is a format in which information is presented
+and consumed by a human being.  that consumes the information 
+report element format
+    figure format
+------ dot plot
+------ [...]
+
+
+    table format
+    text format
+    audio format
+    movie format
+
+Needs some more work (keep 'format' or not,  clarify relations). 
+
 see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/be1021bf8ed390f6?hl=en
 |-
 |4. software
