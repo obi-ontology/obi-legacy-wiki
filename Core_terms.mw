@@ -296,7 +296,7 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e
 | A relation between a process and a participant in that process, that consumes a data set . The process is the realization of a concretization of a realizable information entity (objective specification or plan specification). In general, not all data present at the beginning of the process are specified_data.
 |-
 |5. has_specified_output_data
-| Still awaiting this also to be added so we can start adding output data..
+| A relation between a participant in a process, that produces a data set . The process is the realization of a concretization of a realizable information entity (objective specification or plan specification). In general, not all data present at the end of the process are specified_data.
 |-
 |6. datum
 | Awaiting definition from IAO
