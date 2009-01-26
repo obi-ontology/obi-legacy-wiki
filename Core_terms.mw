@@ -310,10 +310,7 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e
 |9. software
 | IAO.  Awaiting definition.  Need instructions on be subclassing this so we can add relevant DT/OBI classes.
 |-
-|10. material separation
-| Not sure about this?
-|-
-|11. 'roles for data' and variable
+|10. 'roles for data' and variable
 | Still not clear how to represent these.
 |}
 
