@@ -292,10 +292,10 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e
 |3. has_objective
 | This sits outside of DT branch but still lacks a definition.
 |-
-|4. inputs_specified_data
+|4. has_specified_input_data
 | Still awaiting this to be added so we can start adding input data...
 |-
-|5. outputs_specified_data
+|5. has_specified_output_data
 | Still awaiting this also to be added so we can start adding output data..
 |-
 |6. datum
