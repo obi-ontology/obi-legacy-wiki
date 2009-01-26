@@ -298,7 +298,7 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e
 |5. has_specified_output_data
 | A relation between a participant in a process, that produces a data set . The process is the realization of a concretization of a realizable information entity (objective specification or plan specification). In general, not all data present at the end of the process are specified_data.
 |-
-|6. datum
+|6. data item
 | Awaiting definition from IAO
 |-
 |7. data set
