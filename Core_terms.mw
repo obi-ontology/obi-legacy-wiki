@@ -308,7 +308,7 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e
 | A report figure is a report display element that has some aspect of illustration, but may be a composite of figures, images, and other elements  Part of IAO
 |-
 |9. software
-| IAO.  Awaiting definition.  Need instructions on be subclassing this so we can add relevant DT/OBI classes.
+| IAO.  Series of encoded instructions that can be directly executed by a CPU, or transformed in to a form that can be. For programming texts that are syntactically correct and which are in a language that can be executed by an interpreter this would correspond to the tokenized version of the text stripped of comments. Need instructions on be subclassing this so we can add relevant DT/OBI classes.
 |-
 |10. 'roles for data' and variable
 | Still not clear how to represent these.
