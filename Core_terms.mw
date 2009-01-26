@@ -305,8 +305,7 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e
 | Awaiting definition from IAO
 |-
 |8. report figure - linking to a visualization (is_rendered_by)
-| A report figure is a report display element that has some aspect of illustration, but may be a composite of figures, images, and other elements
- Part of IAO
+| A report figure is a report display element that has some aspect of illustration, but may be a composite of figures, images, and other elements  Part of IAO
 |-
 |9. software
 | IAO.  Awaiting definition.  Need instructions on be subclassing this so we can add relevant DT/OBI classes.
