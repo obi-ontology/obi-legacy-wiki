@@ -304,7 +304,7 @@ see also http://groups.google.com/group/obi-denrie-branch/browse_thread/thread/e
 |7. data set
 | Awaiting definition from IAO
 |-
-|8. image - linking to a visualization (is_rendered_by)
+|8. report figure - linking to a visualization (is_rendered_by)
 | An image is an information content entity which provides a visual representation of for the result of a measurement.  Part of IAO
 |-
 |9. software
