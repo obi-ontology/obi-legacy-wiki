@@ -6,9 +6,51 @@ Details of the weekly OBI data transformation branch calls can be found on this 
 <br>
 <br>
 
+__NOTOC__
+
 ==Call List==
 
-__NOTOC__
+===Jan 28, 2009===
+----
+Present: 
+
+* Slides for workshop next week in SVN: 
+http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/DT_core_vancouver_2009.ppt
+* Adding achieves_planned_objective some data transformation objectve (no has_objective has been replaced by achieve_planned_objective)
+* Slides for GenePattern use case: 
+* Progressing with adding data sets, James has generated this list from which we need output data sets:
+
+{| class="wikitable"| border="1"
+|-
+! Data Transformation Type
+! Output Data
+|-
+| normalization data transformation
+| normalized data set
+|-
+| row 2, cell 1
+| row 2, cell 2
+|}
+
+normalization data transformation - normalized data set
+averaging data transformation - average value (interestingly, this does not sound like a data 'set' per se)
+center calculation data transformation - center value (again does not sound like a data set)
+class discovery data transformation - data set with assigned discovered class labels
+class prediction data transformation - data set with assigned class labels (synonym classified data)
+background correction data transformation - background corrected data set
+error correction data transformation - data set corrected for error
+curve fitting data transformation - data set fitted to curve (really not sure of wording for this one)
+data vector reduction data transformation - ? something about  a data set with reduced vectors
+descriptive statistical calculation data transformation - ?
+differential expression analysis data transformation - differentially expressed data set (wording here seems wrong but I'm trying to be loyal to the definition which is not just about genes)
+feature extraction data transformation - quantified features data set
+merging data transformation- merged data set
+partitioning data transformation - partitioned data set
+cross validation data transformation - ? something about partitioning that is more specific than the above term, perhaps output is analysis data set and validation data set?
+scaling data transformation- editor note on the class says 'awaiting English definition from Monnie' :)
+sequence analysis data transformation -
+spread calculation data transformation - editor note on the class says 'awaiting English definition from Monnie'
+
 
 ===Jan 22, 2009===
 ----
