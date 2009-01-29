@@ -51,20 +51,33 @@ Present:
 | data vector reduction data transformation
 | ? something about  a data set with reduced vectors
 |-
-| row 1
-| row 2
+| descriptive statistical calculation data transformation
+| ?
+|-
+| differential expression analysis data transformation
+| differentially expressed data set (wording here seems wrong but I'm trying to be loyal to the definition which is not just about genes)
+|-
+| feature extraction data transformation
+| quantified features data set
+|-
+| merging data transformation
+| merged data set
+|-
+| partitioning data transformation
+| partitioned data set
+|-
+| cross validation data transformation
+| ? something about partitioning that is more specific than the above term, perhaps output is analysis data set and validation data set?
+|-
+| scaling data transformation
+| editor note on the class says 'awaiting English definition from Monnie'
+|-
+| sequence analysis data transformation
+| ?
+|-
+| spread calculation data transformation
+| editor note on the class says 'awaiting English definition from Monnie'
 |}
-
-
-descriptive statistical calculation data transformation - ?
-differential expression analysis data transformation - differentially expressed data set (wording here seems wrong but I'm trying to be loyal to the definition which is not just about genes)
-feature extraction data transformation - quantified features data set
-merging data transformation- merged data set
-partitioning data transformation - partitioned data set
-cross validation data transformation - ? something about partitioning that is more specific than the above term, perhaps output is analysis data set and validation data set?
-scaling data transformation- editor note on the class says 'awaiting English definition from Monnie' :)
-sequence analysis data transformation -
-spread calculation data transformation - editor note on the class says 'awaiting English definition from Monnie'
 
 ===Jan 22, 2009===
 ----
