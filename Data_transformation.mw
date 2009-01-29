@@ -1,7 +1,6 @@
-== Data Transformation ==
+== Data Transformation Ontology Branch==
 
 The Data Transformation Branch is an OBI Branch concerned with identifying entities and relations to describe processes which produce output data given some input data.  For example, the application of a clustering protocol to microarray data or the application of a statistical testing method on a primary data set to determine a p-value.
-
 
 ==Funding Acknowledgements==
 JM and HP EMERALD project
