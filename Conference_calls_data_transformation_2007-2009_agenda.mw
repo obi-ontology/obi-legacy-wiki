@@ -17,7 +17,7 @@ Present:
 * Slides for workshop next week in SVN: http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/DT_core_vancouver_2009.ppt
 * Adding achieves_planned_objective some data transformation objectve (no has_objective has been replaced by achieve_planned_objective)
 * Slides for GenePattern use case: 
-* Progressing with adding data sets, James has generated this list from which we need output data sets:
+* Progressing with adding data sets, I've generated this list from which we need output data sets:
 
 {| class="wikitable" | border="1" | cellpadding="2"
 |-
@@ -33,20 +33,29 @@ Present:
 | center calculation data transformation
 | center value (again does not sound like a data set)
 |-
-| row 1
-| row 2
+| class discovery data transformation
+| data set with assigned discovered class labels
+|-
+| class prediction data transformation
+| data set with assigned class labels (synonym classified data)
+|-
+| background correction data transformation
+| background corrected data set
+|-
+| error correction data transformation
+| data set corrected for error
+|-
+| curve fitting data transformation
+| data set fitted to curve (really not sure of wording for this one)
+|-
+| data vector reduction data transformation
+| ? something about  a data set with reduced vectors
 |-
 | row 1
 | row 2
 |}
 
 
-class discovery data transformation - data set with assigned discovered class labels
-class prediction data transformation - data set with assigned class labels (synonym classified data)
-background correction data transformation - background corrected data set
-error correction data transformation - data set corrected for error
-curve fitting data transformation - data set fitted to curve (really not sure of wording for this one)
-data vector reduction data transformation - ? something about  a data set with reduced vectors
 descriptive statistical calculation data transformation - ?
 differential expression analysis data transformation - differentially expressed data set (wording here seems wrong but I'm trying to be loyal to the definition which is not just about genes)
 feature extraction data transformation - quantified features data set
