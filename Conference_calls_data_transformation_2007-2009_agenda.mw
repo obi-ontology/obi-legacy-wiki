@@ -20,7 +20,7 @@ http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/DT_core_vancou
 * Slides for GenePattern use case: 
 * Progressing with adding data sets, James has generated this list from which we need output data sets:
 
-{| class="wikitable"| border="1"
+{| class="wikitable" | border="1" | cellpadding="2"
 |-
 ! Data Transformation Type
 ! Output Data
@@ -28,13 +28,20 @@ http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/DT_core_vancou
 | normalization data transformation
 | normalized data set
 |-
-| row 2, cell 1
-| row 2, cell 2
+| averaging data transformation
+| average value (interestingly, this does not sound like a data 'set' per se)
+|-
+| center calculation data transformation
+| center value (again does not sound like a data set)
+|-
+| row 1
+| row 2
+|-
+| row 1
+| row 2
 |}
 
-normalization data transformation - normalized data set
-averaging data transformation - average value (interestingly, this does not sound like a data 'set' per se)
-center calculation data transformation - center value (again does not sound like a data set)
+
 class discovery data transformation - data set with assigned discovered class labels
 class prediction data transformation - data set with assigned class labels (synonym classified data)
 background correction data transformation - background corrected data set
@@ -50,7 +57,6 @@ cross validation data transformation - ? something about partitioning that is mo
 scaling data transformation- editor note on the class says 'awaiting English definition from Monnie' :)
 sequence analysis data transformation -
 spread calculation data transformation - editor note on the class says 'awaiting English definition from Monnie'
-
 
 ===Jan 22, 2009===
 ----
