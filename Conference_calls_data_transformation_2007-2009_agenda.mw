@@ -49,7 +49,7 @@ Present:
 | data set of predicted values according to fitted curve (really not sure of wording for this one)
 |-
 | data vector reduction data transformation
-| ? something about  a data set with reduced vectors
+| data set with fewer dimensions than original data
 |-
 | descriptive statistical calculation data transformation
 | ?
