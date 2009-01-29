@@ -34,7 +34,7 @@ Present:
 | center value (again does not sound like a data set)
 |-
 | class discovery data transformation
-| data set with assigned discovered class labels
+| data set with assigned discovered class labels (synonym clustered data)
 |-
 | class prediction data transformation
 | data set with assigned class labels (synonym classified data)
