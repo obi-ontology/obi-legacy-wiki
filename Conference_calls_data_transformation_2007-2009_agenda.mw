@@ -24,3 +24,870 @@ Present: JM, MC, TB, MM
 Present: JM, MC, TB
 
 * Call in from Ricardo presenting his groups work on variables and other related DT concepts
+
+
+
+
+===Nov, 2008===
+
+===Nov 13, 2008===
+----
+
+* Review Daniel's MSI terms, mostly ok, some are not DTs, see the sheet with comments here 
+* Review action items from workshop, JM and MC to start straight away (already done some during workshop end)
+* Email sent about variables by MC
+
+
+===Nov 6, 2008===
+----
+
+Call canceled as workshop takes place 
+https://wiki.cbil.upenn.edu/obiwiki/index.php/Data_transformation_workshop2
+
+
+===Oct 9, 2008===
+----
+
+* discuss advancing with our use case today.
+* check over workshop agenda 
+http://www.microarray-quality.org/DataTransformationOntologyWorkshop2008.html
+
+
+===Oct 2, 2008===
+----
+'''Present: JM, MC'''
+
+* MC Spreadsheet of objectives
+* DT Workshop agenda http://www.microarray-quality.org/DataTransformationOntologyWorkshop2008.html
+
+
+
+===Sept 18, 2008===
+----
+'''Present: JM, MC, TB'''
+
+* JM objectives for first 9 DTs:
+** No idea about b transformation, is flow cytomerty term will contact Ryan
+** Background Correction - this sounds like an objective to me, otherwise we need an objective for noise reduction
+** biexponential transformation - curve fitting objective?
+** box-cox transformation - normalization
+** cosine transformation - compression (of images or audio files for example)
+** curve fitting - sounds like an objective, all under curve fitting could have this objective
+* Hypothesis tests - model t-test using objective and has feature about the test or the data?
+* Agenda for DT workshop
+** Use case for AE - maybe a presentation on work JM and MC have done
+** Also Ted's use case maybe encoded in OWL
+** Gather some queries that Ted may wish to use OBI for
+** Ricardo's use case - Tina working through this at moment, hit some issues
+* AI: JM to email about assign dependent continuant properties to data and other dependent continuants.
+* AI: MC to email Alan
+
+<br>
+
+===Sept 04, 2008===
+----
+'''Present: JM, MC, TB'''
+
+* Review previous outstanding issues as not been call for a while
+* Review of DT branch, we need to add objectives:
+** JM to do first 9 b-transformation - curve fitting
+** MC data imputation (and any other that you can find :) )
+** TB mean centring - regression analysis
+
+===July 31, 2008===
+----
+'''Present: JM, MC, RB'''
+
+* Took look at GenePattern use case and divided up some of definition between JM, MC and RB. 
+* To report back in 2 weeks
+
+Deadline 2 weeks for GenePatterUse case
+
+
+
+===June 26, 2008===
+----
+'''Present: JM, MC''' 
+
+*I (James) can't make call as I'm away at meeting but have filtered out some AIs from EM's spreadsheet (not all).  We should prob divide this up and tackle them.  
+*AI Classes to add from EMs GenePatternUseCases spreadsheet:
+**network reconstruction/reverse engineering
+**mass spec area change
+**format conversion
+**decision trees (CART,…)
+**SNP analysis
+**Add specific feature extraction algorithms in DT, such as RMA, gcRMA, MAS5, GenePix.
+**More similarity calculations, e.g. Mahalanobis
+**Add KNN for data imputation and class prediction
+**Need to deal with statistical tests. Proposal is to start by having a statistical testing class incorporating the main tests in flat fashion. We'll subsequently refine and revise whether or not we should be separating the test statistics out.
+
+===June 19, 2008===
+----
+'''Present:''' MM, EM, MC, TB
+
+* We discussed the terms 'background correction' and 'time series analysis' (EM spreadsheet) and updated definition/examples of the former. Decided that the latter should be removed to avoid multiple inheritance (explanation in Excel file). EM will commit the updated Excel file to svn. <b>DONE</b>
+* EM pointed out that the DT google doc might need revision for the example referring SVM. She has sent off-line email to JM and MC on this. '''DONE - JM updated doc'''
+* Regarding the terms assigned to MM (bootstrapping, multiple comparison adjustments, Westfall and Young family wise error rate correction, Benjamini and Hochberg false discovery rate correction method, Benjamini and Yekutieli false discovery rate correction method), she has been going through a book by S. Dudoit to try to assess how to best fit these in DT. Work in progress.
+* We went through the GenePattern Excel file from svn and looked at last column containing DT call decisions. AIs: MC to post to tracker all terms that in that column are marked for submission to DENRIE; MM to contact Alan Dabney relatively to the terms marked in that column to be dealt with when Mass Spectrometry is expanded; TB to go through the terms marked in that column as SNP analysis related and to take them on or assign them to appropriate person; JM take on or assign to appropriate person those terms which are AI (e.g. CART, SVM, etc.). The remaining terms will be assigned at the next conference call
+* Any AI from last time that was not completed should be completed.
+
+===June 12, 2008===
+----
+'''Present:''' JM, EM, MC
+
+*JM validation terms see spreadsheet here
+http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/
+*Monnie's terms
+**bootstrapping, multiple comparison adjustments, Westfall and Young family wise error rate correction, Benjamini and Hochberg false discovery rate correction method, Benjamini and Yekutieli false discovery rate correction method
+*Feature definition (see tracker item) - correct typo in has_feature_value and use has_polynomial_degree as example 
+*JM email relations branch for status on has_feature
+*15-19 Dec discussed as poss for workshop
+*AI JM - allocate AI from EM's spreadsheet
+*EM - provide defs for unclassified terms 'background correction' and 'time series analysis' <b>DONE</b>
+*AOB
+
+===June 5, 2008===
+----
+'''Present:''' JM, EM, MM
+*EM clustering term definitions - spreadsheet in here http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/
+*JM to submit tree (as data structure) and dendogram (as visualization of a tree) to DENRIE
+*Continue with unclassified - Monnie will look at some of the following terms:
+**bootstrapping, multiple comparison adjustments, Westfall and Young family wise error rate correction, Benjamini and Hochberg false discovery rate correction method, Benjamini and Yekutieli false discovery rate correction method
+**FDR and FWER classes to be added as parent classes for some of these terms
+*Mass spec terms email to Monnie - new MS ontology come to light
+*Update on workflow
+*JMs definitions to follow next week
+*Feature definition (see tracker item)
+
+===May 29, 2008===
+----
+'''Present:''' JM, MC, EM, TB
+* Algorithm - (possible children dt algorithm and software algorithm) - put to dev call
+** Workflow to tracker
+* Report from RP and TB due. - RP is out of country delayed until next week
+* gating status: cf AI to Ryan and Richard from call 8th of May - submitted to tracker, awaiting feedback
+* Start tackling the unclassified stuff.
+
+*Outstanding network analysis issues (from Feb 2008):
+**edge weighting - temp place holder
+**modular decomposition - temp place holder 
+**node shortest path identification - definition not clear. (a shortest path needs a start and an end (here called target). There is no mention of start here. Shouldn't the input to this DT be a pair of nodes (the start and the end)?)
+**edge betweenness calculation - definition doesn't seem to match the wikipedia def. Maybe we can use just the latter, if that's what was meant by RS? From http://en.wikipedia.org/wiki/Girvan-Newman_algorithm
+**network subgraph quality calculation - should 'output quality of a subgraph partition' just be replaced by 'output quality of a subgraph' here? 
+**intra subgraph connectivity calculation - internal node missing : JM to add tracker get to DENRI
+
+*EM to look at clustering methods <b>DONE</b>
+*JM to do validation methods
+*email Monnie about mass spec terms
+
+===May 22, 2008===
+----
+'''Present:''' JM, MC, EM, TB
+
+* Report from RP and TB due and TBD a week from today.
+* Discussion from Kevin Clancey on adding sequencing terms
+* Finish discussing EM comments to GenePattern use case file. Compile a list of to dos, including stuff to submit to other branches.
+**JM AI Tracker To DENRI:
+***heatmap, survival curve, venn diagram, graph in the sense of (V=vertices, E=edges), not in the sense of graph of a function.
+**MC AI Tracker To Plan:
+***Workflow, algorithm
+* MM will report on response from Baggerly and Dabney.
+**Monnie spoke to Alan Dabney and he is interested in helping with placement of some proteomics terms
+*JM AI: Go through EM's annotated spreadsheet and come up with plan of action
+*JM AI: Also send spreadsheet back to Ted Liefeld
+
+===May 15, 2008===
+----
+'''Present''': MC, EM, MM, TB, RP (Ricardo Pietrobon)
+
+* RP presented some relevant use cases (described here http://www.box.net/shared/static/wpkdpf74sg.xmi). They span more than the DT branch: at a minimum DENRIE and Plan.
+* AI (JM): RP to be included in future DT conference calls.
+* AI: RP to send .owl file with a sample of terms; TB to separate out which components belong to which branch (time frame 2 weeks).
+* MC proposes to post the files above to the obi-users Google list
+* EM reported on her review of the GenePattern use case file. We discussed up to line 78 inclusive and extracted ToDos have been added to this file and committed to svn.
+* The need to recruit mass spectrometry experts has been again emphasized. AI: MM to contact Keith Baggerly at MD Anderson in Houston & Alan Dabney at Texas A&M (statisticians) to see if they would like to contribute to this part, starting with providing defs for terms extracted by the GenePattern use case.
+
+===May 8, 2008===
+----
+'''Present''': MC, EM, JM
+
+*Partial least square discriminant analysis - missing definition
+**AI: James will add from here: http://www.camo.com/rt/Resources/pls-da.html
+*Update from Elisabetta on spreadsheet of terms progress
+**http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/GenePatternUseCases.xls
+*Gating comment from Richard - move this?
+**AI for Richard and Ryan to come to some agreement off list
+*The Comparative Data Analysis Ontology - (I've cc'd alan in this email also) I've taken a look at this and there is def some overlap with DT and DENRIE, although the CDAO is a lot smaller than we are.  Some of the terms we might consider, although probably not all.  We can discuss this on call and I can report back on my thoughts.
+**JM to discuss with AR and contact CDAO
+*Tackling _unclassified classes
+*AOB
+
+===May 1, 2008===
+----
+'''Present''': MC, EM, JM, TB
+*Elisabetta's feedback from use case spreadsheet
+**A number of the terms are names of algorithms implemented in software http://www.broad.mit.edu/cgi-bin/cancer/software/genepattern/modules/gp_modules.cgi
+**Some new terms to add, EM has spreadsheet of terms [[media:GenePatternUseCases2.xls]]
+**AI: Elisabetta Complete spreadsheet and add to SVN
+*James plan of action, specifically tackling terms we have been sitting on because we are awaiting developments from other branches
+*This also links to Ryan's email about sorting out or _unclassified classes
+*The Comparative Data Analysis Ontology Alan emailed around yesterday, let's have a quick look at this and see if we have any overlap with them.
+**AI: James to take a look and report back
+*AOB
+
+===April 24, 2008===
+----
+'''Present''': MC, EM
+* From last time AI: JM to chase up discussion with plan on use of objective '''Done - email sent, awaiting response'''
+* Discussed DT definition: for now we'll keep the definition as is (version (1) in email correspondence), till the Plan branch has finalized how to deal with objective (we are keeping version (2) in the editor notes). Once that's done, we will discuss replacing the definition with version (2). In terms of adding examples, that's fine and they can be added however the place for those is in the example of usage metadata field, not in the definition one.
+* Clean up DT terms which don't have required metadata, as this will be one of the next checks for release: we went over the report file during the call, MC to send notes regarding .owl file changes.
+* Terms from Ted (Gene Pattern terms): AI for all, look at EM comments/questions in file [[media:GenePatternUseCases.xls]], so that we can discuss these next time.
+
+<br>
+
+===April 17, 2008===
+----
+'''Present''': MC, JM, EM, TB
+
+*New terms from instrument branch:
+**calculation: the measurement of a number of things (like for example in a gamma counter)
+**signal transformation: for example conversion from analog to digital
+**analysis: general analysis of something, probably as a parent of sequence analysis
+-James to chase up discussion with plan on use of objective
+*Update from James on use case analysis see file [[media:Gene_workflow_use_case.xls]]
+-We will work through file and annotate as OBI experts and then compare with Ted's.  We can use this as a lesson for annotating OBI to develop future annotation strategy.  EM will have first look at file <b>DONE HALF</b> [[media:GenePatternUseCases.xls]]
+
+<br>
+
+===April 3, 2008===
+----
+'''Present''': EM, MC, and JM
+
+*update on the "feature" and parameter status from MC and JM
+*look at the list of outstanding action items from the workshop to make 
+sure we have done all the DT ones
+*update from last week "AI: Melanie to bring up at the next dev call the 
+issue of what to do with non-OBO Foundry ontologies." 
+*I also tried to test one of the use cases I have which involves  analysis with machine learning and realised we are still missing a bunch of these terms.  We can chat about this on call I  guess.
+*AOB
+
+<br>
+
+===March 20, 2008===
+----
+'''Present''': EM, PRS, MC, and JM (managed to join for the last part of call)
+
+* Updates to Aristotelian definitions, AI: (i) JM to upload updated defs from EM; (ii) this covers many but not all of our terms, other defs will need to be revised by the respective editors.
+* We will need to include in DT terms to cover protein structure analyses/predictions. John Westbrook had a PDB OBO ontology that could be useful in this regard. AI: Melanie to bring up at the next dev call the issue of what to do with not OBO Foundry ontologies.
+* Policy regarding situations when somebody might not be able to work on the branch for an extended period of time, possibly leaving tasks to be completed. In this case, other people in the branch will move on with branch to dos according to priority list. They might therefore take over those tasks as well, if they get at that point in the priority list. Else, if those tasks have not been addressed by others by the time that person can join the branch again, that person will resume their work on those.
+* We started evaluating our use cases. First case discussed at the call was EM text use case 1. This highlighted the need of attaching 'parameters' to a given DT, which will take parameter values (this term is in OBI) on any specific application of that DT. At next conference call we'll need to resume the discussion of how to handle relations between DTs and their parameters.
+
+===March 13, 2008===
+----
+'''Present''': EM, JM, MC, HP, TB 
+
+Agenda:
+* Update on visualization changes following DENRIE call
+* Feature discussion update
+* Beginning of evaluation phase
+* EM's comments on network analysis terms
+
+* AI: All must update their defs to that they are Aristotelian '''EM-DONE: [[Media:EM_ChangeToArist1.xls]]'''
+* AI: Email Richard with Elisabetta's comments for any input JM '''DONE'''
+* AI: Contact DENRIE and Relations branch about feature as a Property JM
+* AI: update Features range JM '''DONE'''
+
+===March 6, 2008===
+----
+'''Present''' JM, MC, EM, TB
+
+* CS has completed review - assess his comments
+* JM Completed add feature and has_feature_value action (from last week) - implications
+* AOB
+
+* AI for JM - clean up curation_status annotation property to new version
+
+===February 28, 2008===
+----
+'''Present'''
+EM, MC, PRS, RB, TB
+
+* CS has started review of our branch.
+* AI: Our main priority is to fill the Google DT_input_output doc set up by Melanie. Each of us will start with the terms that they have last edited in our DT cleanup and we'll move from there. 
+* After that, the next step is to attack the _unclassified stuff. PRS has started on some of these terms, which he had originally submitted.
+*AI (JM): add feature under data_transformation, and create relation has_feature_value datatype property domain: feature (e.g. log_base), and range use XML Schema Datatypes (xsd) types, e.g. positiveInteger '''DONE'''
+* AI (EM): once JM is done with the above, rephrase the names and defs for has_base, has_number_of_variable, and has_degree in terms of features '''DONE [[Media:EM_UpdateFeatures1.xls]] , [[Media:EM_InsertFeatures1.xls]]'''
+
+===February 21, 2008===
+----
+'''Agenda'''
+*Make the connection between the visulation between table and graph that comes out of this process currently that is in the DENRI branch. A cross branch issue. DT, DENRI. JM
+*Objectives as a tool to normalize the branch. DT branch, AR
+
+Relevant to branch we also have the following outstanding action items:
+*DT can do the gating examples as a defined class into the ontology - branch action item RS/RB/JM/PRS DL:Mar 1
+*Item 29: New class called feature - has_feature relates a type to a feature, all base, degree and number are features of type. DT branch and CC, AR, BS.
+
+'''Action Items:'''
+
+*AI: review definition of objectives and those classes that can be 'defined' logically (avoiding asserted multiple inheritance).  Document this somewhere - EM <b>DONE</b>
+*AI: add feature under data_transformation and children e.g. has_base and enumerate the ranges of these, e.g. positiveInteger  and create relation has_feature_value datatype property domain: feature (e.g. has_log_base), and range use XML Schema Datatypes (xsd) types, e.g. positiveInteger- JM
+*AI: Review any concept that has input and/or output that is relevant to DENRI, e.g. a visulisation -> graph - All
+
+===February 14, 2008===
+----
+Agenda
+
+* Discussion on defining classes which may require multiple inheritance
+**It would appear that multiple inheritance is becoming required for some of the data transformation concepts.  The use of objective may just be pushing the problem to objective.  
+**Examples will be created by Elisabetta <b>(DONE)</b>), Philippe, Tina and Melanie and will give to Alan and discuss next week on call
+**Continuous and discrete may not both be required - Elisabetta is going to find use case to confirm whether or not we need both
+* Partial least square discriminant analysis (PLS-DA) term - Tina been unable to find good definition, any takers?
+
+===February 7, 2008===
+----
+Agenda
+*Possible Data Transformation EMERALD Outreach Workshop
+*Review of action items for branch from OBI Workshop Vancouver
+*Objective in plan - replacement for using role
+**Currently have as objectives (formerly roles):
+***averaging
+***normalization
+***supervised_classification
+***unsupervised_classification
+***center_calculation (for mode_calculation, median_calculation et al)
+***spread_calculation (standard_deviation_calculation et al)
+***moment_calculation (skewness_calculation et al)
+***partitioning
+*Road map to release - beginning use case evaluation and next steps
+*Partial least square discriminant analysis (PLS-DA) term
+*AOB
+
+Action Items:
+*James to add Spreadsheet of defined statistics to sourceforge tracker to discuss on call  '''DONE'''
+*James to move Tina's recent terms under data transformation until we decide on solution to continuous/discrete statistics problem  '''DONE'''
+*Elisabetta to assign roles as objectives to Philippe on tracker  '''DONE'''
+*James email dev list to add people to sourceforge project if not already on  '''DONE'''
+
+===January 31, 2008===
+----
+Agenda
+OBI Workshop - no specific DT call
+
+
+===January 24, 2008===
+----
+Agenda
+*Outstanding issues with the branch to be raised at workshop, e.g. 'roles for processes'
+
+===January 17, 2008===
+----
+Agenda
+
+*mathematical_transformation class name needs an update as there are other things under other classes that could also be considered mathematical transformations. Should we have such a class or just move its children directly under data_transformation. [Discussion of this item can now be done as EM has finished revising all terms under this.]
+
+*<b>INTERNAL BRANCH REVIEW (Please try to attend if possible)</b>
+We will have an internal branch review to mark terms complete as "curation_complete" and ready for OBI Beta release.
+
+*Discuss whether or not we should have a ratio_calculation term from [[Media:DTvsNonDT.xls]]. (Possibly postpone this item to next conference call).
+
+===January 10, 2008===
+----
+Agenda
+
+- go over the action items from the workshop and check on their status.
+https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItemsDataTransformatio
+
+- discuss a use case to be presented during the workshop in Vancouver
+
+-  mathematical_transformation class name needs an update as there are other things under other classes that could also be considered mathematical transformations. Should we have such a class or just move its children directly under data_transformation. [Discussion of this item can now be done as EM has finished revising all terms under this.]
+
+- Discuss whether or not we should have a ratio_calculation term from [[Media:DTvsNonDT.xls]].
+
+- Discuss date and strategy for branch review to decide on which terms are considered complete and should therefore have status 'curation_complete' and be included in the first beta release of OBI.
+
+Notes today’s call
+
+MC to add a flow cytometry data transformation use case for discussion and walkthrough during workshop.  It was thought a non-microarray example might be useful since microarrays have been covered quite a lot already.
+
+-Date for internal branch review, mark terms ready with ‘curation_complete’ – 17th January 2008
+-After this have a review by external person(s)
+
+Reviewing action items:
+
+-Cristian – no response from him on AI from workshop  <br>
+AI – James to contact Cristian regarding the AIs <b>done</b>
+
+-Daniel AI ongoing, use of ‘branch’ property to be pushed to dev call.
+
+-HP  3, 4 and 5 – to be followed up offline
+
+-JM AI 4, 6, 7 – send reminder emails to appropriate people <b>done</b> <br>
+AI 11 – Awaiting definitions from TB  <br>
+AI 12 – Done, awaiting definitions from TB  <br>
+AI 16 – Now have file will action this  <br>
+AI 17 – Submitted to Plan branch, awaiting action from branch  <br>
+
+-EM AI 8, 12, 13 and 17 have high priority <b> 12, 13, and 17 DONE </b><br>
+AI 16 is half complete now
+
+-MC AI 9 – MC to email Nicolas Le Novere  <br>
+AI 10  -done as much as is possible, requires discussion OBI wide as involves interaction with other branches as well  <br>
+AI 12 and 13 still underway, no agreement reached 
+
+-MM AI 3 and 8 as priority because have dependencies to other AI within branch and AI 7 from MC list regarding probabilistic algorithm, James to email Monnie
+
+Continue from Richard onwards next week.
+
+===December 20, 2007===
+----
+Present: MC, EM, MM, RiS
+
+- Touched based on action items from the November DT workshop (https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItemsDataTransformatio) and dependencies between action items of different people. EM suggested that MM gives priority to her action items # 3, 8, since there are already dependencies on these for some of her recently submitted terms.
+
+- Discussion re analyte (not a term belonging to our branch, but related to terms that were submitted to us and that we needed to pass on to other branches). MC summarized the recent thread on this topic in the OBI-devel mailing list. RiS will send email to the OBI-devel mailing list with his view on the matter. MC noted that people will need to give a precise definition of what it is meant by 'hypothesis' to facilitate finding an agreement.
+
+- Raise any issue related to our branch or its relationships with other branches that should be brought up at the Vancouver workshop.
+* RiS suggested different pairings of branch breakouts.
+* MC invites everybody to make suggestions and also to edit the upcoming workshop agenda wiki with issues they would like to be discussed.
+* EM noted that one issue that might be worth keeping in mind re guidelines on the structure of OBI (such as lots of subclasses with possible multiple inheritance vs flatter hierarchy which leverages roles and relationships) is that there has been recent work in the literature where ontology hierarchical structures have been used to define similarity measures between terms, and these measures become the input to other applications aimed at 'computing with annotations'. One might need to consider how flattening a hierarchy in OBI might impact its potential use in this kind of applications.
+
+===December 13, 2007===
+----
+Present: MC, EM, TB, RB
+
+Agenda
+
+- RB asked that the TBD section of https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItemsDataTransformatio#Summary_of_Action_Items
+be reorganized, separating the discussed items (with the relative decisions) from those yet to be worked on. EM to restructure this page. <b>DONE</b>
+
+- We discussed whether or not a subclass for data interpretation (suggested by RiS at the workshop) should be included now under data_transformation. We decided for now not to add this subclass to data_transformation. Even though data interpretation can be thought as a protocol_application whose input and output are data, hence a data_transformation, and is something that usually occurs very often during a data analysis, it can be considered an implicit step and we do not want to make the annotation effort too complicated for a user. Typically there is a data interpretation/human judgement between any two other data transformations in a series, but (as RB pointed out) these (human judgements) can be thought as the "screws" keeping together the "pieces" (other data_transformations) and we might be interested just in the pieces. We can always add a data_interpretation subclass later should a use case reveal its necessity.
+
+- We discussed how to incorporate the community submitted MA_plot in our branch, also in view of the decision made at the workshop to have a place for graphical representations. We decided to add a 'visualization' subclass to data_transformation and place MP_plotting (instead of 'plot' to indicate an action) under it. EM to provide definitions (for 'visualization' use that from wikipedia). We will add further terms under this class when we get more community submissions. <b>DONE</b>
+
+- We all agreed that our goal is to first complete the clean-up of what we have so far, as distributed under the action items from the workshop. After that we will present what we have to the community and ask for further submissions to cover what's missing. At that point we will also discuss adding terms for those areas that we are not covering yet, but which we agreed at the workshop that should be covered, e.g. phylogenetic analyses, sequence analyses, etc.
+
+- We discussed schedule for upcoming conference calls, in view of the Holidays. See above.
+
+===December 6, 2007===
+----
+Present: MC, EM, MM, RB
+
+Agenda
+
+-Discussion of probe as a subcommunity specific alternate tag both for reporter_role and detector_role (2 different concepts). The subcommunities of the microarray community correspond to the'Affy' and to the 'Schena, Brown et al' terminologies respectively. The former uses 'probe' for the reporter on the array, the latter uses 'probe' for the fluorescently labeled material hybed to the array (detector). MC to pass these issues to the role branch.
+
+-RB proposes to track all issues which might involve other branches on the main wiki page, distinguishing the outstanding ones from the solved ones. MC to set this up. The above issue will be tracked here.
+
+-MC to summarize issues raised by hybridization_probe, mismatch and perfect match probe to the function branch. This issue to be tracked also as above. 
+
+-Also to track the probe_set issue. Which branch should this be passed to? We are not sure how to handle this, if probe is going to be a role. MC to place this under outstanding issues involving other branches.
+
+-We discussed the entries from community-submitted terms that were previously discussed via email and then submitted by EM to the DENRIE google docs. We expanded our comments on 'probe_intensity'. 'Intensity' is a PATO term and is also in the OBI .owl file. Why is it not imported from PATO?
+
+===November 29, 2007===
+----
+Present: MC, EM, JM
+
+Agenda
+
+-JM to email Monnie about skype conferencing since can not see her online.
+
+-EM to send relations to relations branch (obi-relations@lists.sourceforge.net) '''DONE'''
+
+-JM to email Liju about relations re: specialised utilizes relations, e.g. utilizes_instrument
+
+-No need to use 'utilizes' as relation because 'has_participant' is sufficient
+
+* Role branch:<br>
+** remove input and output which are in the relation branch (emailed to Relation and Role branches to make them aware of duplication)<br>
+** add roles center_calculation, moment_calculation, quantile_calculation, kurtosis_calculation: shall we suggest a parent calculation that would encompass all the different types (to be sent to role branch)?
+
+* denrie branch: <br>
+** probe: alternative_term reporter?<br>
+**AI for TB (from workshop): propose the term "probe" to biomaterials <br>
+** As side note: What about reagent?  - not sure where to put reagent other than as a role.<br>
+** EM to email denrie branch about community-submitted terms probe_intensity and storage_of_measurement_results and issues we found with these.
+*** storage of measurement results (our modified definition)<br>
+****The operation of saving the ouput of an assay or of a data transformation into a file format (such as txt) (possible child: list_mode data file)
+
+===November 15, 2007===
+----
+Present: JM, MC, RB, EM, HP, CC
+
+Agenda
+
+- The branch status update spreadsheet Ryan sent out
+
+- Term review from list created in data transformation workshop
+
+- Decide if we want to submit probabilistic_algorithm (with synonym stochastic_algorithm?) to the plan branch (AI for MC from workshop)
+
+- AOB
+
+===November 1, 2007===
+----
+Present: TB (first part of the call), EM, MC
+
+- JM to update the branch .owl file to reflect the latest EM_MC_proposals5.doc file (only change is to update the definition of 'gating'). Additional terms have been submitted to the DENRIE branch.
+
+- MC gave an update re polysemy discussion.
+
+- Any workshop related questions for next week: at the workshop we'll need to first continue the clean-up, e.g. work on the terms in red in the EM_MC_proposals5.doc file. Might be useful at times to split in small groups and distribute the work and then to reconvene and discuss. Access to a library account might be needed, but Helen already confirmed that it will be no problem. EM and MC will try to get together on Sunday before the workshop to move on with some of the definitions that need to be refined.
+
+===October 25, 2007===
+----
+
+Present: EM, MC, JM, TB
+
+- JM gave DataTransf branch report on dev call on 24th October
+
+- Proposal file 3 and tree file 4 posted - EM to update them in view of today's call. '''DONE'''
+
+- Keep data_transformation in definitions until the name has been changed (then replace with data_analysis or whatever name is selected for this)
+
+- Email Daniel about metadata "definition_source" property which is missing from current OBI file
+
+- With flag_filtering - TB: too specific to microarray/mass spec. Term will be removed since encompassed by "projection"
+
+- JM to look into use of alternative_term_tag to provide context for specific communities '''To be raised on dev call'''
+
+- MC to check on flow cytometry measurements concept name with Josef. Then possibly submit to Chris' branch.
+
+- JM to do clean up of owl file after files posted
+
+===October 18, 2007===
+----
+
+Present: JM, MC, EM
+
+-The autoid file specific to data_transformation is missing from branch  - James to add to http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/lastac_autoID/  (once figured out which number we are up to!)
+
+-Delay final definition and naming of branch until workshop
+
+-Submission of differential_expression_analysis measurements (i.e. expression_level) to Digital and Non-realizable Entity branch – terms to be submitted by MC/EM. '''DONE'''
+
+-JM to email Jen Fostel with two new roles: data_pre-processing_role and down-stream_analysis_role. '''DONE'''
+
+-JM- Add minimal metadata to .owl file – leave blank if details not available yet but add properties as reminder that need to be completed to comply with minimal metadata as agreed on dev call 17 Oct 2007
+
+-EM – update files and post to wiki. '''DONE'''
+
+-JM - post update of housekeeping file after having went through it on today’s call.  Some items now complete, some to be completed and some postponed to workshop.  '''DONE: find document here [[Media:Housekeeping_DT_19Oct07.doc]].'''
+
+-MC, EM discuss filtering role offline and post new file. '''DONE'''
+
+-New hierarchy now being formed see – wiki document DataTransfo_tree_3.doc  parts in red are still under discussion.  JM will edit .owl file.
+
+-JM to start ontology clean up based on new docs hierarchy, definitions and housekeeping clean up of .owl file. '''DONE'''  
+
+
+Agenda:
+
+1) File reflecting a first joint proposal of EM and MC for branch clean-up phase I (10/15/07): [[Media:EM_MC_proposals1.doc]]
+
+- fix the definition of data_transformation:  "A protocol application whose input and output consist of data" (NOTE: consistent with siblings assay and biomaterial_transformation)
+- if the definition is approved, ask people on the list for their favorite term_name (data_manipulation, data_processing, data_analysis...) and put it to a vote by the community (eg [http://www.surveymonkey.com/ surveymonkey])
+
+- differential_expression_analysis and submission to the Digital Entity and Non-realizable branch of term representing the outcome of measurement "expression level of a transcript or of a protein" (pre-approved by Chris)
+
+- addition of the data_pre-processing_role and down-stream_analysis_role roles (pre-approved by branch)
+
+- removal of mathematical_function, statistical_error and statistical_significance_method (pre-approved by branch)
+
+
+2) Branch house-keeping issues in this document [[Media:Housekeeping_DataTransf.doc‎]]
+
+===October 11, 2007===
+----
+
+Present: TB, JM, RB, EM, MC, JG
+
+Agenda:
+
+1) If you have any use cases and they are not yet posted on the wiki,  
+please try and do so before the call tomorrow.
+
+2) JM will present a use case and walk through the data as it related  
+to the DT branch
+
+From JM: - Simple example of how we might assess the dt branch of the ontology with a use case [https://wiki.cbil.upenn.edu/obiwiki/images/0/07/Dt_usecase_example_jm.doc file here]
+
+3) Melanie will give an update on the document from EM that she has  
+been going through (if she is ready for this  :)  )
+
+4) Review use cases that are posted on the wiki
+https://wiki.cbil.upenn.edu/obiwiki/index.php/ 
+EvaluationPhase1Submissions
+
+Minutes:
+TB Deadline end of October 30th for populating ontology with instances
+
+JM walked through use case example
+
+Action Item: EM Protocol relating to data analysis from experiments, send on link to these -  see JM use case example
+
+Talk about renamin branch
+MC: Data processing – is computer specific (see wikipedia definition)
+Data analysis or data manipulation
+JM: Are we splitting hairs here?  
+RB: Definition is most important part not concept name
+
+MC walked through work to date on EM comments document
+MC: Some discussion on how to best approach this, i.e. top down or bottom up.
+EM and MC: Should agree the main higher level structure first before going to instance level details (general agreement)
+
+JM: Pre-processing and post-processing are likely roles – they have specific meanings given a particular contextual use (general agreement)
+
+JM: Clustering and classification are likely roles too for same reasons
+
+MC: Question about multiple inheritance, should it be avoided
+JM: Multiple inheritance is inevitable and we can use features of owl to model these – 'avoiding' can be artificial
+
+TB: Need to look at timetable to cleaning-up ontology file
+Action Item: TB and JM: Look at ontology and separate out parts to branch editors.  Will upload document of house-keeping changes that need to be made to .owl file before next week.
+
+===October 4, 2007===
+----
+Notes from TC, October 4, 2007
+
+Present: JM, EM, MC, TB
+
+Welcome Melanie Courtot to the DT branch
+
+- EM: Highlight the need for our branch to deal with analyses concerning miRNA (target prediction and   precursor identification on the genome) as well as for identification of TFBS combining expression data with sequence analysis data. Also necessary to cover the recent methods of differential expresssion analyses at the gene set level (as opposed to the gene level), e.g. GSEA. 
+
+- TB: James to send email to the branch to request use cases before the next teleconference call next week.
+
+-Issue with renaming branch data processing - postponed to workshop
+
+-MC to begin to work through EM document on outstanding issues, discuss progress next week
+
+-JM will pick an example use case and walk through it next week
+
+===September 27, 2007===
+----
+Agenda: 
+Discuss any use cases we have for branch
+AOB
+
+
+
+===September 20, 2007===
+----
+Notes from TC, September 20, 2007
+
+Present: JM, EM, TB
+
+Discussion about how to proceed next with branch development.  
+
+EM suggests 2nd stage is to go through terms and remove, redefine and reclassify after 1st stage of initial definitions and classifying.  Perhaps start this at workshop.
+
+One way might be to create flat file and the create roles from this owl file (which is likely to contain multiple inheritance at least at first).  
+
+JM: Competency question and use cases would help to show us what concepts we need and how we use it and hence should help with creating roles for processing concepts.  Need people to submit these.
+
+JM posted '''workshop agenda''' <http://www.microarray-quality.org/DataTransformationOntologyWorkshop.html> looks ok but comments welcome if people wish to add/change things.  Will keep schedule flexible, especially regarding anyone leaving early, e.g. Friday.
+
+EM: should Data Transformation become Data Processing so that the term and definition is not restrictive.  TB: Need to get agreement within branch members – schedule for two weeks time when EM can make next DT call.  JM Need to raise this at dev if we agree to change name of branch do that everyone is aware. 
+
+
+Next week: gather use cases and competency questions try and email before then.  AOB
+
+Week after: discussion about renaming data transformation to data processing with everyone.
+
+===September 13, 2007===
+----
+Notes from TC, September 13, 2007
+
+Present:  RS, RB, EM, TB
+
+Roles:  We briefly spoke about roles, and thought that would be a good discussion for the workshop.  We need to have a clear understanding of the distinction between types, roles, and qualities.
+
+DataFile:  Finished going over data file of our initial “non-branch” terms.  See wiki https://wiki.cbil.upenn.edu/obiwiki/images/1/1a/Non-dataTransTerms_9-13.xls
+
+
+Invertible Transformations: Perhaps distinguish data transformations that are invertible.  This will not be easy, for example some linear transformations are invertible, others are not.  So the two classes overlap.  Maybe invertible can be a quality of a transformation.
+
+
+<br>
+
+===September 6, 2007===
+----
+Present: TB, EM
+<br>
+We went over the terms that were originally thought to be out of our branch scope.  Comments we made on the file can be found here: https://wiki.cbil.upenn.edu/obiwiki/images/d/de/Non-dataTransTerms_9-6.xls
+===June 14, 2007===
+----
+
+Present:  philippe; ryan; james; tina
+Agenda
+
+*review of terms that have not yet been classified
+*review of new definitions that have been sent to the branch:
+*Jennifer Cai (see previous email)
+--Tina will incorporate
+*Roger Chang (http://helix-web.stanford.edu/people/boussard/OBI_Network_Data_Transformation_UTSW_update.xls )
+--Tina will incorporate
+*Philippe (see email 6/6/07)
+*Bjoern (talked about this last call and all were ok with new definitions)
+*review new term definitions (editors were to standardize definitions based on the example that helen sent out 6/1/07
+*dev call next week, Data Transformation presenting - discussion on data transformation Status Sheet Tine has produced which can be found [http://www.ebi.ac.uk/~malone/OBI/data_trans/DataTransReport140607.doc here]
+
+Philippe to write up example in the doc to be sent to dev 
+
+PRS: hard to get examples for some instances, use pubmed ID where this is the problem
+
+useful to capture some of the statistical measures; ask advisors for statistics ontology; all ask around
+
+{| border="1"
+|+ Latest Branch Terms
+! Editor of File!! File 
+|-
+| Jeff (2-23)
+| [https://wiki.cbil.upenn.edu/obiwiki/images/4/45/Grethe.doc here]
+|-
+| Ryan: (23-52)
+| [https://wiki.cbil.upenn.edu/obiwiki/images/4/4a/DataTrnsfrmDefs-070703-1634-RB.xls here] (contains the assigned and edited terms only, format ala James)
+|-
+| James: (53-82)
+|[http://www.ebi.ac.uk/~malone/OBI/data_trans/JM-DataTran_Hieararchy_7JUN07.xls here] (new definitions are in red)
+|-
+| Helen: (83-102)
+|[http://www.ebi.ac.uk/~malone/OBI/data_trans/new_dt_defs_hp.xls here]
+|-
+| Philippe: (103-132)
+| link needed
+|-
+| Richard: (133-162)
+| link needed
+|-
+| Tina: (163-183)
+| [https://wiki.cbil.upenn.edu/obiwiki/images/e/e8/TB-DataTran_Hieararchy_2JULY07.xls here] (new defs in pink)
+|}
+<br>
+
+===June 7, 2007===
+----
+
+Agenda
+* Review new term definitions assigned to editors last week
+
+{| border="1"
+|+ Latest Branch Terms
+! Editor of File!! File 
+|-
+| Jeff (2-23)
+| link needed
+|-
+| Ryan: (23-52)
+| link needed
+|-
+| James: (53-82)
+|[http://www.ebi.ac.uk/~malone/OBI/data_trans/JM-DataTran_Hieararchy_7JUN07.xls here]
+|-
+| Helen: (83-102)
+| link needed
+|-
+| Philippe: (103-132)
+| link needed
+|-
+| Tina: (163-183)
+| link needed 
+|}
+
+Note from the call can be found [[Jun7Notes|here.]]
+
+<br>
+
+===May 31, 2007===
+----
+
+Agenda
+* Discuss term classification assigned to each editor last week
+
+Minutes and links to all related files [[DataTransCall31May07|can be found here.]]
+
+<br>
+
+===May 24, 2007===
+----
+
+
+Present: James, Ryan, and Tina
+
+* Each editor will take 30 terms from the term list dated 17th of may to assign a class. We will add a column to the spreadsheet to add which class each term is to go in
+* Use the spreadsheet that Philippe sent out back in Dec '06 as a basis to be edited as needed for the hierarchy
+* Tina to send data questions to submitters, there were many terms that we asked for better definitions and/or examples. Tina will send these terms back to the submitters for additional information
+* Order for taking 30 terms: tina ryan james jeff phillippe
+* Tina to recirculate everything via email
+* Send note to obi-datatrans list that data were sent individually due to size constraints
+- next week is the deadline
+* call next week to go over terms
+* if you cant make deadline, please let us know immediately
+- cc chris s. on the email
+
+<br>
+
+===May 17, 2007===
+----
+
+Present: Jeff, Ryan, Tina
+
+*We finished going over all the terms in the list! Yea!!
+
+*All terms have been commented on by the group/and or editor
+<br>
+
+===April 26, 2007===
+----
+
+{| border="1"
+|+ Related Call Files
+! Call Term List!! [https://wiki.cbil.upenn.edu/obiwiki.old/uploads/datatrans_terms_26APR07.xls can be found here ] 
+|}
+
+Minutes from this call can be found [[ 26apr07|here.]]
+
+<br>
+
+===April 05, 2007===
+----
+
+{| border="1"
+|+ Related Call Files
+! Call Term List!! [https://wiki.cbil.upenn.edu/obiwiki.old/uploads/datatrans_terms_5apr07.xls can be found here ] 
+|}
+
+File from this call can be found above.
+
+<br>
+
+===March 15, 2007===
+----
+
+{| border="1"
+|+ Related Call Files
+! Call Term List!! [https://wiki.cbil.upenn.edu/obiwiki.old/uploads/datatrans_terms_15mar07.xls can be found here ] 
+|}
+
+
+Present: Philippe, Ryan, Jeff, and Tina
+
+Notes from call:
+
+*Need to better define what we mean by data transformation. We have data coming in and data going out, but what is in between. Is it 1 step or a protocol?
+*Who will handle data visualization? Will that fall into data transformation?
+*Started to go through the list of terms that were already collected (see file above)
+<br>
+
+===March 6, 2007===
+----
+
+Minutes from this meeting can be found [[ mar0607|here.]]
+
+<br>
+
+==Related links==
+
+*[https://www.cbil.upenn.edu/obiwiki/index.php/GoogleCal OBI Conference Calls Agenda ]
