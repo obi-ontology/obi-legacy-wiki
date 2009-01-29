@@ -8,6 +8,8 @@ Details of the weekly OBI data transformation branch calls can be found on this 
 
 ==Call List==
 
+__TOC__
+
 ===Jan 22, 2009===
 ----
 Present: JM, MC, TB, MM
@@ -26,13 +28,8 @@ Present: JM, MC, TB
 * Call in from Ricardo presenting his groups work on variables and other related DT concepts
 
 
-
-
-===Nov, 2008===
-
 ===Nov 13, 2008===
 ----
-
 * Review Daniel's MSI terms, mostly ok, some are not DTs, see the sheet with comments here 
 * Review action items from workshop, JM and MC to start straight away (already done some during workshop end)
 * Email sent about variables by MC
@@ -40,14 +37,12 @@ Present: JM, MC, TB
 
 ===Nov 6, 2008===
 ----
-
 Call canceled as workshop takes place 
 https://wiki.cbil.upenn.edu/obiwiki/index.php/Data_transformation_workshop2
 
 
 ===Oct 9, 2008===
 ----
-
 * discuss advancing with our use case today.
 * check over workshop agenda 
 http://www.microarray-quality.org/DataTransformationOntologyWorkshop2008.html
