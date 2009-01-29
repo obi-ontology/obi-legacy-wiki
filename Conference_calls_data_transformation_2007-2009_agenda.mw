@@ -52,7 +52,7 @@ Present:
 | data set with fewer dimensions than original data
 |-
 | descriptive statistical calculation data transformation
-| ?
+| data set of one or more features of original data
 |-
 | differential expression analysis data transformation
 | differentially expressed data set (wording here seems wrong but I'm trying to be loyal to the definition which is not just about genes)
