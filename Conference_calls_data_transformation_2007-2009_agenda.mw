@@ -14,8 +14,7 @@ __NOTOC__
 ----
 Present: 
 
-* Slides for workshop next week in SVN: 
-http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/DT_core_vancouver_2009.ppt
+* Slides for workshop next week in SVN: http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/DT/DT_core_vancouver_2009.ppt
 * Adding achieves_planned_objective some data transformation objectve (no has_objective has been replaced by achieve_planned_objective)
 * Slides for GenePattern use case: 
 * Progressing with adding data sets, James has generated this list from which we need output data sets:
