@@ -46,7 +46,7 @@ Present:
 | data set corrected for error**
 |-
 | curve fitting data transformation
-| data set fitted to curve (really not sure of wording for this one)
+| data set of predicted values according to fitted curves (really not sure of wording for this one)
 |-
 | data vector reduction data transformation
 | ? something about  a data set with reduced vectors
