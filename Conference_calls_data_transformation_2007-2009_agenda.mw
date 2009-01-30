@@ -55,7 +55,7 @@ Present:
 | data set of one or more features of original data
 |-
 | differential expression analysis data transformation
-| differentially expressed data set (wording here seems wrong but I'm trying to be loyal to the definition which is not just about genes)
+| data set containing relative importance of variables in describing the phenomenon of interest
 |-
 | feature extraction data transformation
 | quantified features data set
@@ -67,13 +67,13 @@ Present:
 | partitioned data set
 |-
 | cross validation data transformation
-| ? something about partitioning that is more specific than the above term, perhaps output is analysis data set and validation data set?
+| data set partitioned into a training set and a validation or testing set (synonym rotation estimation)
 |-
 | scaling data transformation
-| editor note on the class says 'awaiting English definition from Monnie'
+| scaled data set
 |-
 | sequence analysis data transformation
-| ?
+| data set containing the sequence of whole or part of a genome or protein (biology) or the sequence of a polymer (chemistry).  The data set could consist of similarities or dissimilarities in compared sequences, gene-structures, reading frames, distributions of introns and exons, point mutations, SNPs or function annotation.  See http://en.wikipedia.org/wiki/Sequence_analysis.
 |-
 | spread calculation data transformation
 | editor note on the class says 'awaiting English definition from Monnie'
