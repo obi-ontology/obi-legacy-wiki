@@ -28,10 +28,10 @@ Present:
 | normalized data set
 |-
 | averaging data transformation
-| average value (interestingly, this does not sound like a data 'set' per se)
+| data item that results in the average value (child of center calculation)
 |-
 | center calculation data transformation
-| center value (again does not sound like a data set)
+| data item that gives a numerical value of a measure of center
 |-
 | class discovery data transformation
 | data set with assigned discovered class labels (synonym clustered data)
@@ -76,7 +76,7 @@ Present:
 | data set containing the sequence of whole or part of a genome or protein (biology) or the sequence of a polymer (chemistry).  The data set could consist of similarities or dissimilarities in compared sequences, gene-structures, reading frames, distributions of introns and exons, point mutations, SNPs or function annotation.  See http://en.wikipedia.org/wiki/Sequence_analysis.
 |-
 | spread calculation data transformation
-| editor note on the class says 'awaiting English definition from Monnie'
+| data item that gives a numerical value of a measure of spread
 |}
 
 <br>
