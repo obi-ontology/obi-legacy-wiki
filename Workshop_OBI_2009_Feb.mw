@@ -78,6 +78,15 @@ For conference calling, call the number 6047074539, using password 777888#.
 **NCBO presentation (Trish)
 **Neurocommons hacking / reasoning with OBI session (Alan)
 **OBI release - how to access it and where (MC-AR and discussion with all)
+*** How to let people flexibly use OBI -> multiple releases
+(1)OBI:Core (don't touch under pain of chastisement unless approved by OBI CC)
+(2)OBI:Full Everything tagged: ready for release  
+(3)OBI_devel (OBI:Crap) – what is in subversion doesn't get released. Use at your own peril. 
+(4)OBI:Custom - Users can edit #imports and roll their own OBI
+
+terms in no version, need editing, terms that are not into a release 
+
+
 **VO and OBI (Oliver)
 **Automated Investigations (Larisa)
 **time permitting: protege experimental writer (Alan), OCRe - http://rctbank.ucsf.edu/home/ocre.html
