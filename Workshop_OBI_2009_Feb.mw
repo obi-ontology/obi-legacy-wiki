@@ -25,7 +25,7 @@ For conference calling, call the number 6047074539, using password 777888#.
 *Policies
 **Namespace (e.g. MSI) - PRS and SAS
 ***'''OBI/Feb 2''' -  Policy accepted as proposed by PRS&SAS
-***'''PRS/Feb 2''' - Submit slides to OBI documentation
+***'''PRS/Feb 2''' - Submit slides to OBI documentation in docs folder under  svn
 ***'''AR/Feb 9''' - Will come up with a way to say “original definition” , change note includes original definition. Dated/editorwill be submitted to OBI Foundry through proposal for IAO metadata 
 ***'''AR&PRS/Feb 9''' -  Will fix the way we do dbxref
 ***'''MC/Feb 9'''  - Make and edit to Policy document that editors will add date of edit, add imported definition goes in the note when adding new definitions
@@ -36,7 +36,7 @@ For conference calling, call the number 6047074539, using password 777888#.
 **Quick ID - FG and AR (Note this is really ongoing work and not in a suitable state for comment or discussion as yet, rather this is just a heads-up that is exists http://obi-ontology.org/page/Quick_id)
 ***'''FG/TBD''' - Will condense QuickID doc to a summary page to make appealing once policy is finished
 **Quick term - BP and PRS
-***'''PRS/Feb 2''' - Share slides onto OBI documentation resource
+***'''PRS/Feb 2''' - Share slides onto OBI documentation resource in svn under docs folder
 ***'''OBI/Feb 2''' - Adopt PRS proposal for a template for analyte measuring assay
 ***'''PRS&PL/March 2''' - Data entry form mechanism - Will make spreadsheet or Protege plugin or MediaWiki or GoogleDocs or emailing text file or Protege ppl. Assay is priority for end users & as showcase for manuscript
 ***'''PRS&PL/March 2''' - Will write script to process templates 
@@ -44,14 +44,14 @@ For conference calling, call the number 6047074539, using password 777888#.
 
 *Use cases 
 **James Malone (Melanie Courtot)
-***'''JM/Feb 3''' - Share GenePattern use case slides
+***'''JM/Feb 3''' - Share GenePattern use case slides in svn under docs folder
 ***'''JM/Feb 9''' - Planned_specification -> Workflow_Specification -> GenePattern_Workflow_Specification (includes specific file formats required for GenePattern) as a defined class
 **Bjoern Peters
-***'''BP/Feb 2''' - Share slides
+***'''BP/Feb 3''' - Share slides through svn in docs folder
 **Jennifer Fostel
-**Richard Scheuermann
-**other non-manuscript use-cases (time permitting): Susanna
-
+***'''JP/Feb 3''' - Share slides through svn in docs folder
+** Arrays and Designs  - PRS/SAS
+***'''PRS/Feb 3''' - Share slides through svn in docs folder
 
 2. Tuesday 3rd - 9am to 12am and 1pm to 5pm
 
@@ -65,6 +65,7 @@ For conference calling, call the number 6047074539, using password 777888#.
 
 
 *Core RU (branch discussion for branches that don't have core <s>terms</s>)
+**Variable/Parameters
 **Biomaterial - MC
 **Instrument -FG
 **PAPP - Function - BP and PRS
