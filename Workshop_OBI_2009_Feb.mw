@@ -24,23 +24,29 @@ For conference calling, call the number 6047074539, using password 777888#.
 
 *Policies
 **Namespace (e.g. MSI) - PRS and SAS
-***'''AI OBI/Feb 2''' -  Policy accepted as proposed by PRS&SAS
-***'''AI PRS/Feb 2''' - Submit slides to OBI documentation
-***'''AI AR/Feb 9''' - Will come up with a way to say “original definition” , change note includes original definition. Dated/editorwill be submitted to OBI Foundry through proposal for IAO metadata 
-***'''AI: AR&PRS/Feb 9''' -  Will fix the way we do dbxref
-***'''AI: MC/Feb 9'''  - Make and edit to Policy document that editors will add date of edit, add imported definition goes in the note when adding new definitions
+***'''OBI/Feb 2''' -  Policy accepted as proposed by PRS&SAS
+***'''PRS/Feb 2''' - Submit slides to OBI documentation
+***'''AR/Feb 9''' - Will come up with a way to say “original definition” , change note includes original definition. Dated/editorwill be submitted to OBI Foundry through proposal for IAO metadata 
+***'''AR&PRS/Feb 9''' -  Will fix the way we do dbxref
+***'''MC/Feb 9'''  - Make and edit to Policy document that editors will add date of edit, add imported definition goes in the note when adding new definitions
 **Defined classes: Refine and agree on obi policy regarding prohibited assertions under defined classes: https://wiki.cbil.upenn.edu/obiwiki/index.php/DefinedClasses
-***'''AI:MC/Feb 9''' -  Edit to OBI policy page: Nothing is asserted under defined class in released OBI. For development class can do this, but cannot be tagged as “ready for release”. Summary: Nothing that is tagged “ready for release” can be asserted under a defined class.
-***'''AI: MC/Feb 9''' - Add sentence to wiki Things with necessary and sufficient conditions blah blah blah
+***'''MC/Feb 9''' -  Edit to OBI policy page: Nothing is asserted under defined class in released OBI. For development class can do this, but cannot be tagged as “ready for release”. Summary: Nothing that is tagged “ready for release” can be asserted under a defined class.
+***'''MC/Feb 9''' - Add sentence to wiki Things with necessary and sufficient conditions blah blah blah
 
 **Quick ID - FG and AR (Note this is really ongoing work and not in a suitable state for comment or discussion as yet, rather this is just a heads-up that is exists http://obi-ontology.org/page/Quick_id)
-***'''AI: FG/TBD''' - Will condense QuickID doc to a summary page to make appealing once policy is finished
+***'''FG/TBD''' - Will condense QuickID doc to a summary page to make appealing once policy is finished
 **Quick term - BP and PRS
-***'''AI: PRS/Feb 2''' - Share slides onto OBI documentation resource
+***'''PRS/Feb 2''' - Share slides onto OBI documentation resource
+***'''OBI/Feb 2''' - Adopt PRS proposal for a template for analyte measuring assay
+***'''PRS&PL/March 2''' - Data entry form mechanism - Will make spreadsheet or Protege plugin or MediaWiki or GoogleDocs or emailing text file or Protege ppl. Assay is priority for end users & as showcase for manuscript
+***'''PRS&PL/March 2''' - Will write script to process templates 
+***'''?/?'''  - Need new relation for proxy_for
+
 *Use cases 
 **James Malone (Melanie Courtot)
 **Bjoern Peters
 **Jennifer Fostel
+**Richard Scheuermann
 **other non-manuscript use-cases (time permitting): Susanna
 
 
@@ -86,8 +92,7 @@ For conference calling, call the number 6047074539, using password 777888#.
 (3)OBI_devel (OBI:Crap) – what is in subversion doesn't get released. Use at your own peril.
  
 (4)OBI:Custom - Users can edit #imports and roll their own OBI terms
-
-
+***'''?/?''' - Need to avoid all asserted classes making it into release version (from PRS template for Assay proposal
 **VO and OBI (Oliver)
 **Automated Investigations (Larisa)
 **time permitting: protege experimental writer (Alan), OCRe - http://rctbank.ucsf.edu/home/ocre.html
