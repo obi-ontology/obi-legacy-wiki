@@ -24,19 +24,19 @@ For conference calling, call the number 6047074539, using password 777888#.
 
 *Policies
 **Namespace (e.g. MSI) - PRS and SAS
-***AI OBI/Feb 2  Policy accepted as proposed by PRS&SAS
-***AI PRS/Feb 2 Submit slides to OBI documentation
-***AI AR/Feb 9 Will come up with a way to say “original definition” , change note includes original definition. Dated/editorwill be submitted to OBI Foundry through proposal for IAO metadata 
-***AI: AR&PRS/Feb 9  Will fix the way we do dbxref
-***AI: MC/Feb 9  make and edit to Policy document that editors will add date of edit, add imported definition goes in the note when adding new definitions
+***'''AI OBI/Feb 2''' -  Policy accepted as proposed by PRS&SAS
+***'''AI PRS/Feb 2''' - Submit slides to OBI documentation
+***'''AI AR/Feb 9''' - Will come up with a way to say “original definition” , change note includes original definition. Dated/editorwill be submitted to OBI Foundry through proposal for IAO metadata 
+***'''AI: AR&PRS/Feb 9''' -  Will fix the way we do dbxref
+***'''AI: MC/Feb 9'''  - Make and edit to Policy document that editors will add date of edit, add imported definition goes in the note when adding new definitions
 **Defined classes: Refine and agree on obi policy regarding prohibited assertions under defined classes: https://wiki.cbil.upenn.edu/obiwiki/index.php/DefinedClasses
-***AI:MC/Feb 9:  Edit to OBI policy page: Nothing is asserted under defined class in released OBI. For development class can do this, but cannot be tagged as “ready for release”. Summary: Nothing that is tagged “ready for release” can be asserted under a defined class.
-***AI: MC/Feb 9: Add sentence to wiki Things with necessary and sufficient conditions blah blah blah
+***'''AI:MC/Feb 9''' -  Edit to OBI policy page: Nothing is asserted under defined class in released OBI. For development class can do this, but cannot be tagged as “ready for release”. Summary: Nothing that is tagged “ready for release” can be asserted under a defined class.
+***'''AI: MC/Feb 9''' - Add sentence to wiki Things with necessary and sufficient conditions blah blah blah
 
 **Quick ID - FG and AR (Note this is really ongoing work and not in a suitable state for comment or discussion as yet, rather this is just a heads-up that is exists http://obi-ontology.org/page/Quick_id)
-***AI: FG/TBD will condense QuickID doc to a summary page to make appealing once policy is finished
+***'''AI: FG/TBD''' - Will condense QuickID doc to a summary page to make appealing once policy is finished
 **Quick term - BP and PRS
-***AI PRS/Feb 2 - Share slides onto OBI documentation resource
+***'''AI: PRS/Feb 2''' - Share slides onto OBI documentation resource
 *Use cases 
 **James Malone (Melanie Courtot)
 **Bjoern Peters
