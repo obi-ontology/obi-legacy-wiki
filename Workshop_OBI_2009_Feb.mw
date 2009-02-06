@@ -60,12 +60,12 @@ For conference calling, call the number 6047074539, using password 777888#.
 *[[http://bananaleaf-vancouver.com/menu.html lunch]] Send tasty selections to rbrinkman@bccrc.ca
 * Eric Deutsch - 30 minutes presentation/discussion: addition of terms from the proteomics/mass spectrometry community
 **'''ED/Feb4''' share slides on OBI svn in docs folder
-**'''FG&ED&PRS/Feb 4'''  Do quick term binning 
+**'''FG&ED&PRS/Feb 4'''  Do quick term binning - Done: discussed with Eric how to proceed by binning MS terms under basic BFO hierarchy
 
 *Core RU (branch discussion for branches that don't have core representational units)
 **Role - JF
 **Relations - FG
-***'''FG/Feb  4''' Upload slides with notes taken during workshop to svn/docs
+***'''FG/Feb  4''' Upload slides with notes taken during workshop to svn/docs - Done
 **DT - JM
 ***'''JM/Feb  4''' Upload slides with notes taken during workshop to svn/docs
 **DENRIE - CS
@@ -75,7 +75,7 @@ For conference calling, call the number 6047074539, using password 777888#.
 **Variable/Parameters
 **Biomaterial - MC
 **Instrument -FG
-***'''FG/Feb  4''' Upload slides with notes taken during workshop to svn/docs
+***'''FG/Feb  4''' Upload slides with notes taken during workshop to svn/docs Done
 **PAPP - Function - BP and PRS
 ***'''AR/Feb 4''' Fix action specification 
 ***'''BP&JF&MC/Feb 7''' - Protocol application goes away and all other suggested changes
