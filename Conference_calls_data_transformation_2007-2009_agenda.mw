@@ -26,15 +26,15 @@ Present:
 |-
 | normalization data transformation
 | normalized data set
-|
+| done
 |-
 | averaging data transformation
 | data item that results in the average value (child of center calculation)
-|
+| done
 |-
 | center calculation data transformation
 | data item that gives a numerical value of a measure of center
-|
+| done
 |-
 | class discovery data transformation
 | data set with assigned discovered class labels (synonym clustered data)
