@@ -57,7 +57,7 @@ Present: JM, MC, MM, TB
 |-
 | class prediction data transformation
 | data set with assigned class labels (synonym classified data)
-|
+| done
 |-
 | background correction data transformation
 | background corrected data set
