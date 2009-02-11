@@ -38,6 +38,7 @@ Present: JM, MC, MM, TB
 |-
 ! Data Transformation Type
 ! Output Data
+! Status
 |-
 | normalization data transformation
 | normalized data set
@@ -64,7 +65,7 @@ Present: JM, MC, MM, TB
 | done
 |-
 | error correction data transformation
-| data set corrected for error**
+| data set corrected for error
 | done
 |-
 | curve fitting data transformation
