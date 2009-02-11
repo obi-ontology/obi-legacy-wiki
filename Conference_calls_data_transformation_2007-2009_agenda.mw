@@ -38,7 +38,7 @@ Present:
 |-
 | class discovery data transformation
 | data set with assigned discovered class labels (synonym clustered data)
-|
+| done
 |-
 | class prediction data transformation
 | data set with assigned class labels (synonym classified data)
