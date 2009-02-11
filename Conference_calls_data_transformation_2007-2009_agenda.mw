@@ -70,7 +70,7 @@ Present: JM, MC, MM, TB
 |-
 | curve fitting data transformation
 | data set of predicted values according to fitted curve (really not sure of wording for this one)
-|
+| done
 |-
 | data vector reduction data transformation
 | data set with fewer dimensions than original data
