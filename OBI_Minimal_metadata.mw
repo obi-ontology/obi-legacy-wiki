@@ -50,6 +50,6 @@ The proposed cardinalities are indicated in front of the name of the annotation 
 *'''alternative_term''': An alternative name for a class or property which means the same thing, i.e. semantically equivalent, as the preferred''term.
 **Cardinality: 0..n
 **Implementation: datatype annotation property
-*'''editor_note''': An administrative note intended for the editor. It will not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.
+*'''editor_note''': An administrative note intended for the editor. It will not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology. Editor notes should include the date of edit.
 **Cardinality: 0..n
 **Implementation: datatype annotation property
