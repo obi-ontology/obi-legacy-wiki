@@ -39,6 +39,8 @@ This page is a draft for discussion.
 
 * A defined class should not be asserted to be disjoint from another. If they are disjoint from other classes it should be as a consequence of their definition. 
 
+* In the released version of OBI, nothing should be asserted under a defined class. This implies that in no case such classes are to be marked "ready for release"
+
 '''Comments: '''
 
 
