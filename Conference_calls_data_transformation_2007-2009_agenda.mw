@@ -74,11 +74,11 @@ Present: JM, MC, MM, TB
 |-
 | data vector reduction data transformation
 | data set with fewer dimensions than original data
-|
+| done
 |-
 | descriptive statistical calculation data transformation
 | data set of one or more features of original data
-|
+| 
 |-
 | differential expression analysis data transformation
 | data set containing relative importance of variables in describing the phenomenon of interest
