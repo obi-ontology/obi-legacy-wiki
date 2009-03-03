@@ -29,11 +29,11 @@ The Ontology for Biomedical Investigations (OBI) addresses the need for controll
 
 The ontology has the scope of modeling all biomedical investigations and as such contains ontology terms for aspects such as:
 
-    * biological material - for example blood plasma
-    * instrument (and parts of an instrument therein) - for example DNA microarray, centrifuge
-    * information content - such as an image or a digital information entity such as an electronic medical record
-    * design and execution of an investigation (and individual experiments therein) - for example study design, electrophoresis material separaition
-    * data transformation (incorporating aspects such as data normalization and data analysis) - for example principal components analysis dimensionality reduction, mean calculation
+* biological material - for example blood plasma
+* instrument (and parts of an instrument therein) - for example DNA microarray, centrifuge
+* information content - such as an image or a digital information entity such as an electronic medical record
+* design and execution of an investigation (and individual experiments therein) - for example study design, electrophoresis material separaition
+* data transformation (incorporating aspects such as data normalization and data analysis) - for example principal components analysis dimensionality reduction, mean calculation
 
 Less 'concrete' aspects such as the role a given entity may play in a particular scenario (for example the role of a chemical compound in an experiment) and the function of an entity (for example the digestive function of the stomach to nutriate the body) are also covered in the ontology.
 
