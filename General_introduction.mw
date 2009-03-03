@@ -1,0 +1,38 @@
+'''This document is under construction.'''
+
+author: [[User:Dirk Derom|Dirk Derom]]
+
+This document will guide you through the maze of OBI. It's intended for those not familiar with OBI and aims to be an easy read document giving you all the minimum information for a quick understanding of OBI.
+
+
+
+== OBI/Ontologies in short ==
+=== About Ontologies ===
+=== Why we need an Ontology ===
+=== Overview of OBI ===
+
+
+== The idea(s) behind OBI ==
+
+=== OBI is an Ontology! ===
+
+The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. Currently OBI is being built under the Basic Formal Ontology (BFO).
+
+* Develop an Ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations
+* Make OBI compatible with other bio-ontologies
+* Develop OBI using an open source approach
+* Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations 
+
+=== OBI, BFO and IAO ===
+
+=== Organigram ===
+The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The OBI Consortium is the name under which the OBI project authors its work. 
+
+
+== A Practical Approach to OBI ==
+=== Branches and Coordinators ===
+=== Contributing to OBI ===
+==== 
+==== Quick Terms ====
+
+=== Using OBI ===
