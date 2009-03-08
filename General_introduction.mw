@@ -37,7 +37,7 @@ The ontology has the scope of modeling all biomedical investigations and as such
 
 Less 'concrete' aspects such as the role a given entity may play in a particular scenario (for example the role of a chemical compound in an experiment) and the function of an entity (for example the digestive function of the stomach to nutriate the body) are also covered in the ontology.
 
-=== OBI, BFO and IAO ===
+=== BFO, OBI and IAO ===
 
 === Organigram ===
 The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The OBI Consortium is the name under which the OBI project authors its work.
