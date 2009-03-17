@@ -13,21 +13,19 @@ This document will guide you through the maze of OBI. It's intended for those no
 OBI is a [http://en.wikipedia.org/wiki/Ontology Ontology] for the description of biological and clinical investigations using [http://www.ifomis.org/bfo BFO] as its [http://en.wikipedia.org/wiki/Upper_ontology upper-ontology].
 * An [http://en.wikipedia.org/wiki/Ontology Ontology] captures the concepts used within a specific domain along with its relations for those concepts. It's a controlled (usually community driven) effort to create a shared vacabulary for the specific domain.
 * BFO is an [http://en.wikipedia.org/wiki/Upper_ontology upper-ontology], which describes the very general concepts of scientific research where various domain ontologies can reside.
-* OBI is such a domain specific ontology, using BFO as its framework targeting biological and clinical investigations. 
+* OBI is such a domain specific ontology (cf. a more 'specific' ontology focussed on a specific domain), using BFO as its framework (cf. using the more general concepts) targeting biological and clinical investigations. 
 
 '''Scope?'''<br>
 <br>
-The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. 
-* Develop an Ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations 
-* Make OBI compatible with other bio-ontologies
-* Develop OBI using an open source approach
-* Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations
+The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. Its primary goals are:
+* to develop ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations 
+* to make OBI compatible with other bio-ontologies
+* to develop of OBI using an open source approach
+* to create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations
 
 '''Who?'''<br>
 <br>
-OBI is being [[#Consortium|developed by]] individuals from different biological and technological domains involved in Biomedical Investigations. 
-
-=== Overview of OBI ===
+OBI is being [[#Consortium|developed by]] individuals from different biological and technological domains involved in Biomedical Investigations.
 
 == The idea(s) behind OBI ==
 
