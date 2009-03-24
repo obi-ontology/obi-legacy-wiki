@@ -27,7 +27,7 @@ The ontology will represent the design of an investigation, the protocols and in
 <br>
 OBI is being [[#Consortium|developed by]] individuals from different biological and technological domains involved in Biomedical Investigations.
 
-== The idea(s) behind OBI ==
+== OBI ==
 
 The Ontology for Biomedical Investigations (OBI) addresses the need for controlled vocabularies to stimulate the integration of experimental data. OBI captures representation of designs, protocols, instrumentation, materials, processes, data and types of analysis in all areas of biological and biomedical investigations. 
 
@@ -67,8 +67,6 @@ OBI uses the Basic Formal Ontology upper level ontology as a means of describing
 === Organigram ===
 
 The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The OBI Consortium is the name under which the OBI project authors its work.
-
-
 
 == Contributing to OBI ==
 ==== The Developers ====
