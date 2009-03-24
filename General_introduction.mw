@@ -29,21 +29,19 @@ OBI is being [[#Consortium|developed by]] individuals from different biological 
 
 == The idea(s) behind OBI ==
 
-=== OBI is an Ontology! ===
+The Ontology for Biomedical Investigations (OBI) addresses the need for controlled vocabularies to stimulate the integration of experimental data. OBI captures representation of designs, protocols, instrumentation, materials, processes, data and types of analysis in all areas of biological and biomedical investigations. 
 
-The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology will represent the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. Currently OBI is being built under the Basic Formal Ontology (BFO).
+This need was originally identified in the transcriptomics domain by the Microarray Gene Expression Data Society (MGED), which developed the MGED Ontology as an annotation resource for microarray data. Recognizing the convergent needs of the protein and metabolite characterization, MGED become FUGO (Functional Genomics Investigation Ontology). FUGO was later on extended with clinical and epidemiological research and biomedical imaging (=OBI). OBI captures captures representation of designs, protocols, instrumentation, materials, processes, data and types of analysis in all areas of biological and biomedical investigations. 
 
+=== The Scope of OBI ===
+
+The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of biological and clinical investigations. This ontology will support the consistent annotation of biomedical investigations, regardless of the particular field of study. This leads to the formulation of the following goals:
 * Develop an Ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations
 * Make OBI compatible with other bio-ontologies
 * Develop OBI using an open source approach
 * Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations 
 
-=== The Scope of OBI ===
-
-The Ontology for Biomedical Investigations (OBI) addresses the need for controlled vocabularies to support integration of experimental data, a need originally identified in the transcriptomics domain by the Microarray Gene Expression Data Society (MGED), which developed the MGED Ontology as an annotation resource for microarray data.[2] OBI uses the Basic Formal Ontology[3] upper level ontology as a means of describing general entities that do not belong to a specific problem domain. As such, all OBI classes are a subclass of some BFO class.
-
 The ontology has the scope of modeling all biomedical investigations and as such contains ontology terms for aspects such as:
-
 * biological material - for example blood plasma
 * instrument (and parts of an instrument therein) - for example DNA microarray, centrifuge
 * information content - such as an image or a digital information entity such as an electronic medical record
@@ -52,7 +50,9 @@ The ontology has the scope of modeling all biomedical investigations and as such
 
 Less 'concrete' aspects such as the role a given entity may play in a particular scenario (for example the role of a chemical compound in an experiment) and the function of an entity (for example the digestive function of the stomach to nutriate the body) are also covered in the ontology.
 
-=== BFO, OBI and IAO ===
+=== BFO, IAO and OBI ===
+
+OBI uses the Basic Formal Ontology upper level ontology as a means of describing general entities that do not belong to a specific problem domain. As such, all OBI classes are a subclass of some BFO class.
 
 === Organigram ===
 The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The OBI Consortium is the name under which the OBI project authors its work.
