@@ -57,16 +57,6 @@ OBI uses the Basic Formal Ontology upper level ontology as a means of describing
 === Organigram ===
 The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The OBI Consortium is the name under which the OBI project authors its work.
 
-== A Practical Approach to OBI ==
-=== The OBI Consortium ===
-
-The MGED Ontology was originally identified in the transcriptomics domain by the Microarray Gene Expression Data Society (MGED) and was developed to address the needs of data integration. Following a mutual decision to collaborate, this effort later became a wider collaboration between groups such as MGED, PSI and MSI in response to the needs of areas such as transcriptomics, proteomics and metabolomics and the FuGO (Functional Genomics Investigation Ontology)[4] was created. This later became the OBI covering the wider scope of all biomedical investigations.
-
-As an international, cross-domain initiative, the OBI consortium draws upon a pool of experts from a variety of fields, not limited to biology. The current list of OBI consortium members is available at the OBI consortium website. The consortium is made up of a coordinating committee which is a combination of two subgroups, the Community Representative (those representing a particular biomedical community) and the Core Developers (ontology developers who may or may not be members of any single community). Separate to the coordinating committee is the Developers Working Group which consists of developers within the communities collaborating in the development of OBI at the discretion of current OBI Consortium members.
-=== Branches and Coordinators ===
-
-=== Workflow of the OBI ===
-
 
 
 == Contributing to OBI ==
