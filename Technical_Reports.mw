@@ -1,21 +1,8 @@
 Technical reports consists of user guides and development specifications or methodologies used in the design, development and application of OBI.
 
-==Policy documents ==
-
 * [[MIREOT|Minimal information to reference an external term]] 
 * [[OBI_Release_Policy|OBI Release Policy]]
 * [[OBI_Deprecation_Policy|OBI Deprecation Policy]]
-* [[OBI_ID_Policy|OBI Identifier Policy]]
-* [[OBI_Minimal_metadata|Minimal requirement for term annotations in OBI]]
-* [[OBI_Defined_classes|Defined classes in OBI]]
-* [[OBI_naming_conventions | Naming conventions for use within OBI]]
-
-== Term submission ==
-
-* [[Quick_id|Quick term submission for an OBI ID]]
-
-== Developer support documents ==
-
 * [[Protege_for_OBI|Viewing and editing OBI in Protege]]
-* [[OBI_SVN|The OBI subversion repository]]
+* [[OBI_ID_Policy|OBI Identifier Policy]]
 * [[Workshop documents]]
