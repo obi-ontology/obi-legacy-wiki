@@ -1,0 +1,6 @@
+This page lists all the pages according to their categories. This is mainly an admin/mod page, to keep an overview of where everything is stored. If there are pages you would like to move, you can change them directly by clicking on the page and change its category. 
+
+<categorytree mode=pages>Documents</categorytree>
+<categorytree mode=pages>Conference Calls</categorytree>
+<categorytree mode=pages>Branches</categorytree>
+<categorytree mode=pages>OBI Policy </categorytree>
