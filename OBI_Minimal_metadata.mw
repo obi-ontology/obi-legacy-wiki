@@ -53,3 +53,6 @@ The proposed cardinalities are indicated in front of the name of the annotation 
 *'''editor_note''': An administrative note intended for the editor. It will not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology. Editor notes should include the date of edit.
 **Cardinality: 0..n
 **Implementation: datatype annotation property
+
+
+[[category:OBI Policy]]
