@@ -1,5 +1,342 @@
+The OBI WIKI uses The [http://www.wickle.com/wikis/index.php/Graphviz_extension Graphviz Extension] to create diagrams using the dot language. Tutorials on how to create diagrams with Graphviz can be found [http://www.graphviz.org/ here]. This extensions is mainly used to quickly create diagrams without the need of uploading any files and changing a diagram on the wiki page itself. 
+
+Do note that you can not create overlapping clusters (Venn diagrams) using Graphviz. Documentation on how to work with Graphviz can be found [http://www.graphviz.org/Documentation.php here].
+
+Some examples of diagrams using dot:
+
+
 <graphviz>
 digraph G{
   A -> B
 }
 </graphviz>
+
+<pre>
+	<graphviz>
+	digraph G{
+	  A -> B
+	}
+	</graphviz>
+</pre>
+----
+<graphviz>
+graph G {
+  e
+  subgraph clusterA {
+    a -- b;
+    subgraph clusterC {
+      C -- D;
+    }
+  }
+  subgraph clusterB {
+    d -- f
+  }
+  d -- D
+  e -- clusterB
+  clusterC -- clusterB
+}
+</graphviz>
+<pre>
+<graphviz>
+graph G {
+  e
+  subgraph clusterA {
+    a -- b;
+    subgraph clusterC {
+      C -- D;
+    }
+  }
+  subgraph clusterB {
+    d -- f
+  }
+  d -- D
+  e -- clusterB
+  clusterC -- clusterB
+}
+</graphviz>
+</pre>
+----
+<graphviz>
+digraph Organigram {
+
+
+/* General Layout */
+rankdir = LR;
+
+/* Layout Nodes */
+
+
+
+/* Subgraph Branches */	
+
+	Subgraph cluster_Branches {
+	
+		node [shape = square, fontsize = 8];
+
+		BRANCHES [style = bold];
+		Denrie [color = grey];
+		Information [color = grey];
+		"Quick ID" [color = grey];
+		Instrument [color = grey];
+		Biomaterial [color = grey];
+		Quality [color = grey];
+		Function [color = grey];
+		Role [color = grey];
+
+
+		style = dashed;
+	}
+
+/* Subgraph Developers */	
+	
+	Subgraph cluster_Developers {
+
+		node [shape = box, fontsize = 8];
+
+		DEVELOPERS [style = bold];
+		"Coordinating Committee" [color = grey];
+		"Developers Working Groups" [color = grey];
+		"Supporting Working Groups" [color = grey];
+		"Community Representatives" [color = grey];
+		"Scientific Community" [color = grey];
+
+		style = dashed;
+	}
+
+
+/* Subgraph Development ORGANIZATION */
+	Subgraph cluster_ORGANIZATION {
+	
+		node [shape = box, fontsize = 8]
+
+		"ORGANIZATION" [style = bold];
+		"Mailinglists" [color = grey];
+		"Conference Calls" [color = grey];
+		Documents [color = grey];
+		Workshops [color = grey];
+		WIKI [color = grey];
+
+		style = dashed;
+	}
+
+
+/* Sub Cluster Design */
+	Subgraph cluster_Design {
+	
+		node [shape = box, fontsize = 8]
+
+		DESIGN [style = bold];
+		"TOOLS" [color = grey];
+		"Design Patterns" [color = grey];
+		"Design Principles" [color = grey];
+		"Design Process" [color = grey];
+		"Policy" [color = grey];
+
+		style = dashed;
+	}
+
+/* Sub Evaluation */
+	Subgraph cluster_Evaluation {
+	
+		node [shape = box, fontsize = 8]
+
+		"OBI Evaluation" [color = grey];
+		"Terms + Use Cases" [color = grey];
+
+		style = dashed;
+	}
+
+/* Relations */
+
+	node [shape = box, style = filled, color = black, fontcolor = white, fontsize = 10];
+	
+
+	OBI -> BRANCHES;
+	BRANCHES -> Denrie;
+	BRANCHES -> Information;
+	BRANCHES -> Instrument;
+	BRANCHES -> Biomaterial;
+	BRANCHES -> Quality;
+	BRANCHES -> Function;
+	BRANCHES -> Role;
+	BRANCHES -> "Quick ID";
+
+	OBI -> DEVELOPERS;
+	DEVELOPERS -> "Coordinating Committee";
+	DEVELOPERS -> "Developers Working Groups";
+	DEVELOPERS -> "Supporting Working Groups";
+	DEVELOPERS -> "Community Representatives";
+	DEVELOPERS -> "Scientific Community";
+
+	"Scientific Community" -> "Quick ID";
+	"Community Representatives" -> "BRANCHES";
+	"Supporting Working Groups" -> "BRANCHES";
+	"Coordinating Committee" -> "BRANCHES";
+	"Developers Working Groups" -> "BRANCHES";
+
+	OBI -> ORGANIZATION;
+	ORGANIZATION -> "Mailinglists";
+	ORGANIZATION -> "Conference Calls";
+	ORGANIZATION -> Documents;
+	ORGANIZATION -> Workshops;
+	ORGANIZATION -> WIKI;
+
+	OBI -> DESIGN;
+	DESIGN -> "Design Patterns";
+	DESIGN -> "Design Principles";
+	DESIGN -> TOOLS;
+	DESIGN -> "Design Process";
+	DESIGN -> Policy;
+
+	"Design Process" -> "Terms + Use Cases";
+	"Terms + Use Cases" ->"OBI Evaluation";
+	"OBI Evaluation" -> DESIGN;
+	
+
+}
+
+}
+</graphviz>
+<pre>
+<graphviz>
+digraph Organigram {
+
+
+/* General Layout */
+rankdir = LR;
+
+/* Layout Nodes */
+
+
+
+/* Subgraph Branches */	
+
+	Subgraph cluster_Branches {
+	
+		node [shape = square, fontsize = 8];
+
+		BRANCHES [style = bold];
+		Denrie [color = grey];
+		Information [color = grey];
+		"Quick ID" [color = grey];
+		Instrument [color = grey];
+		Biomaterial [color = grey];
+		Quality [color = grey];
+		Function [color = grey];
+		Role [color = grey];
+
+
+		style = dashed;
+	}
+
+/* Subgraph Developers */	
+	
+	Subgraph cluster_Developers {
+
+		node [shape = box, fontsize = 8];
+
+		DEVELOPERS [style = bold];
+		"Coordinating Committee" [color = grey];
+		"Developers Working Groups" [color = grey];
+		"Supporting Working Groups" [color = grey];
+		"Community Representatives" [color = grey];
+		"Scientific Community" [color = grey];
+
+		style = dashed;
+	}
+
+
+/* Subgraph Development ORGANIZATION */
+	Subgraph cluster_ORGANIZATION {
+	
+		node [shape = box, fontsize = 8]
+
+		"ORGANIZATION" [style = bold];
+		"Mailinglists" [color = grey];
+		"Conference Calls" [color = grey];
+		Documents [color = grey];
+		Workshops [color = grey];
+		WIKI [color = grey];
+
+		style = dashed;
+	}
+
+
+/* Sub Cluster Design */
+	Subgraph cluster_Design {
+	
+		node [shape = box, fontsize = 8]
+
+		DESIGN [style = bold];
+		"TOOLS" [color = grey];
+		"Design Patterns" [color = grey];
+		"Design Principles" [color = grey];
+		"Design Process" [color = grey];
+		"Policy" [color = grey];
+
+		style = dashed;
+	}
+
+/* Sub Evaluation */
+	Subgraph cluster_Evaluation {
+	
+		node [shape = box, fontsize = 8]
+
+		"OBI Evaluation" [color = grey];
+		"Terms + Use Cases" [color = grey];
+
+		style = dashed;
+	}
+
+/* Relations */
+
+	node [shape = box, style = filled, color = black, fontcolor = white, fontsize = 10];
+	
+
+	OBI -> BRANCHES;
+	BRANCHES -> Denrie;
+	BRANCHES -> Information;
+	BRANCHES -> Instrument;
+	BRANCHES -> Biomaterial;
+	BRANCHES -> Quality;
+	BRANCHES -> Function;
+	BRANCHES -> Role;
+	BRANCHES -> "Quick ID";
+
+	OBI -> DEVELOPERS;
+	DEVELOPERS -> "Coordinating Committee";
+	DEVELOPERS -> "Developers Working Groups";
+	DEVELOPERS -> "Supporting Working Groups";
+	DEVELOPERS -> "Community Representatives";
+	DEVELOPERS -> "Scientific Community";
+
+	"Scientific Community" -> "Quick ID";
+	"Community Representatives" -> "BRANCHES";
+	"Supporting Working Groups" -> "BRANCHES";
+	"Coordinating Committee" -> "BRANCHES";
+	"Developers Working Groups" -> "BRANCHES";
+
+	OBI -> ORGANIZATION;
+	ORGANIZATION -> "Mailinglists";
+	ORGANIZATION -> "Conference Calls";
+	ORGANIZATION -> Documents;
+	ORGANIZATION -> Workshops;
+	ORGANIZATION -> WIKI;
+
+	OBI -> DESIGN;
+	DESIGN -> "Design Patterns";
+	DESIGN -> "Design Principles";
+	DESIGN -> TOOLS;
+	DESIGN -> "Design Process";
+	DESIGN -> Policy;
+
+	"Design Process" -> "Terms + Use Cases";
+	"Terms + Use Cases" ->"OBI Evaluation";
+	"OBI Evaluation" -> DESIGN;
+	
+
+}
+
+}
+</graphviz>
+</pre>
