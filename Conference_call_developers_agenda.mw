@@ -1,0 +1,1094 @@
+====[[ConferenceCallConnectionDetails|Call-in Information ]]====
+
+===Conference Call Agenda Items===
+
+====May 2009====
+
+'''May 27 2009'''
+Developers Call - chair RB
+
+
+'''May 20 2009'''
+Developers Call - chair AR
+
+
+
+'''May 13 2009'''
+Coordinators Call - chair BP
+
+
+'''May 6 2009'''
+Developers Call - chair PRS
+
+
+====April 2009====
+
+'''April 29 2009'''
+Developers Call - chair LS
+
+
+
+'''April 22 2009'''
+Developers Call - chair JF
+
+
+'''April 15 2009'''
+Developers Call - chair JM
+
+
+
+'''April 8 2009'''
+Coordinators Call - chair BP
+
+
+'''April 1 2009'''
+Developers Call - chair MC
+*update on last week's AIs:
+**MC: Create list of documents in progress on google docs and link to it from the wiki
+**Oliver: Follow up with Frank on status of instrument terms.
+*wiki reorganization (Dirk)
+*manuscript discussion: do we have all sections? next step? (Bjoern)
+*tracker items (All): we currently have 90 items open (http://sourceforge.net/tracker/?limit=100&func=&group_id=177891&atid=886178&assignee=&status=&category=&artgroup=&keyword=&submitter=&artifact_id=&limitz=100&assignee=&status=1&category=&artgroup=&submitter=&keyword=&artifact_id=&submit=Filter&limitz=100), the oldest one dating back to September 2007. Please review the item(s) assigned to you before the call: 1) close the solved one(s), adding note explaining resolution 2) think about plan of action for unsolved one(s).
+
+====March 2009====
+'''March 11 2009'''
+Coordinators Call - chair BP
+* Discussion of authorship policy following the debate around co-authors on the Quick Terms paper
+
+
+====February 2009====
+'''February 25 2009'''
+Developers Call - chair JM
+* Volunteers to write paper for ISMB SIG and ICBO poster http://doodle.com/participation.html?pollId=sq8xwq7fxm8hqcct
+* Checking items are in tracker 
+
+
+
+'''February 11 2009'''
+Coordinator call - chair BP
+* Desired changes for BFO
+* incorporating changes from workshop
+* tracking of action items from workshop
+* policy for 'generalization' of branches beyond OBI
+
+====January 2009====
+'''January 28st 2009'''
+Developers call - chair BP
+* Overview of core terms
+
+
+'''January 21st 2009'''
+Developers call - chair JM
+
+* Core term discussion
+see http://obi-ontology.org/page/Core_terms
+
+* Vancouver agenda
+see https://wiki.cbil.upenn.edu/obiwiki/index.php/Winter2009Workshop
+
+
+'''January 14th 2009'''
+Coordinator call - chair BP
+* Add Dirk and Oliver to list of Consortium members at http://obi-ontology.org/page/Consortium and in the obi.owl file
+* Workshop agenda (+ list of deliverables) see https://wiki.cbil.upenn.edu/obiwiki/index.php/Winter2009Workshop#Draft_agenda
+* core terms: check on status for workshop
+* Manuscript: check on status for workshop
+* [http://purl.obofoundry.org/obo/obi/repository/trunk/src/ontology/branches/obi.obo OBI OBO] format. MSI attribution OK? 
+ 
+
+'''January 7th 2009'''
+Developers call - chair FG
+
+* Core term discussion
+see http://obi-ontology.org/page/Core_terms
+
+====December 2008====
+'''Dec 17, 2008'''
+Developers call - chair JF
+
+* Welcome potential new developer Dirk Deron
+*Implementation of the quick term proposal
+
+
+'''Dec 10, 2008'''
+Coordinators call - chair BP
+* msi terms policy (in general, not just for msi terms - just easier to use those as example)
+* licensing of OBI and derived materials:
+  * for the ontology itself: in TheRest.owl http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/TheRest.owl?revision=1225&view=markup: <dc:rights xml:lang="en">free, no license required.</dc:rights> Does that mean that anybody can take anything in OBI, do whatever they want with it, with no need for attribution?  
+  * for the derived materials (posters, presentations, ...) : do we want to decide on maybe a creative common share-alike http://creativecommons.org/about/licenses ?
+* syncing the author list on OBI consortium page with that in the release owl file.
+* Manuscript writing, results section: identification of core terms in each branch
+* Workshop planning
+
+'''Dec 03, 2008'''
+Developers call - chair MC
+* importing resources: what criteria?
+Some concerns have been expressed that for example IAO doesn't meet our minimal metadata requirements.
+* release team - members
+We are calling for volunteers to help out with the release, which at the moment is done by AR and MC.
+* OBI defined classes policy
+* roles/qualities for data
+* branch annotation: to keep?
+
+====November 2008====
+'''Nov 12, 2008'''
+Coordinators call. Chair: BP
+* Identifier / Namespace policy issues - Alan
+* Any issues with manuscript writing?
+* Any concerns for OBI Winter 2009 workshop?
+
+
+====October 2008====
+'''Oct 22, 2008'''
+* Demo of use and application of restrictions in Protege
+* workshop issues
+'''Oct 15, 2008'''
+* Any issues with manuscript writing?
+* Any concerns for OBI Winter 2009 workshop?
+
+'''Oct 8, 2008'''
+* Contact with Expo
+* Contact with Vaccine Ontology 
+* Community outreach in general (via Philippe, Susanna)
+* Any issues with manuscript writing?
+* Any concerns for OBI Winter 2009 workshop?
+* BioPortal demo and Usability study? (Trish)
+
+'''Oct 1, 2008'''
+* OBI workshop: if attending add your name https://wiki.cbil.upenn.edu/obiwiki/index.php/Winter2009Workshop
+* OBI manuscript update - reminder deadline for first draft of section is Oct 31, 
+* OBI in OBO and OLS - update on this
+* IAO: next release of OBI to happen during OWLED where will be the release team - we may not manage to integrate IAO into OBI before the november release.
+* use case: current status?
+**RS use case?
+**"global" use cases: have to be worked upon by submitting communities
+**"mini" use cases: simple examples to be worked upon inter-branches: e.g. the biomaterial branch started working on irradiated, the role branch works on a PCR use case with biomaterial and process branches...
+* Philippe's relation between "occurent" and "independent continuant" email
+
+====September 2008====
+'''Sep 8, 2008'''
+* Review progress on use case to date
+* Decide how to conclude this use case
+* Decide if we do more and how 
+* Manuscript: Go through section assignments, turn open sections into milestones
+
+
+Aug 15, 20, 22, 27, 29 - Use Case Calls
+
+====August 2008====
+'''Aug 13, 2008'''
+Coordinators call. Chair: BP
+* Result of publication policy vote https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItems/Votes
+* Review progress on getting to OBI 1.0 and manuscript https://wiki.cbil.upenn.edu/obiwiki/index.php/Milestones
+* Finalize potential journal list for OBI main manuscript https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItems 
+* Plan for following up action items from workshop https://wiki.cbil.upenn.edu/obiwiki/index.php/Summer2008Workshop/notes
+* Review of content on [http://obi-ontology.org/page/Main_Page new wiki site]
+'''Aug 6, 2008'''
+Developers call. - Use Case
+
+====July 2008====
+'''July 16, 2008'''
+Developers call. Chair: James
+Present:  JM, JF, MC
+*Recapped OBI workshop outcomes to those not present at meeting
+*Awaiting result on data - cross branch concensus is crucial to proceed 
+*AI: email coord and dev about change to calls over 4 weeks after 30th July
+*AI: Melanie to invite via google calander, JM, JF, MC and Alan to a Role call on Sample 
+
+
+'''July 2, 2008'''
+Developers call. Chair: Philippe
+
+====June 2008====
+'''June 25, 2008'''
+Developers call. Chair: Melanie
+*"browse OBI" button on top of our pages? pointing to our purl: http://purl.org/obo/obi/owldoc
+*status of documentation
+* OBI funding and pictures for poster
+currently: "This work is partially supported by grant funding  from the National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health (R01EB005034, NIH P41 HG003619) and EC EMERALD project (LSHG-CT-2006-037686)"
+*ISMB attendees list
+* discontinue use of autoID plugin - easier to control ID assignment in one place
+*release process: don't forget to send your highlights for release notes
+*agenda items for workshop?
+
+
+'''June 18, 2008'''
+Developers call. Chair: Daniel Schober
+*Deadline for documentation - due today
+*Poster info from MC and JM
+*Reminder about release process (T-10 days) AR
+*(Bjoern's "Function - protocol applications"  - discussion )
+*(Philippe and Daniel's use case - discussion ) 
+*Remove (Pseudo)-Redundance and experimental stuff from release file
+**E.g. now we have unmarked helper-bins such as OBI_function and PATO_quality as well as this (pseudo-)redundancy e.g. Protocol, Protocol_aplication, Protocol_application_role, _defined_protocol_aplication, all in the release file.
+**Does it make sense to release differrent views on the ontology, e.g. one with (for developers) and one without experimental stuff (for endusers/biologists)?
+*Check all inherited properties on correctness' as part of OBI checkup policy?
+**E.g. currently all instruments inherit an OBI: 'is_reagent_in' relation to 'protocol application' (asserted on the independent_continuant' class level). I think this is not very intuitive and it should be asserted deeper down the hierarchy or renamed in a more general wording so that it still applies to the leaf node level. Accordingly all inherited properties could be checked on applicability on the leaf node level. Use the properties view instead of the logics view to see all inherited relations.
+*What is the status of "help request for setting nested/composite restrictions in protege (e.g. material has_part (cell has_part virus))", and where is that documented ?
+
+
+
+
+
+'''June 11, 2008'''
+* Coordinators call.
+** Agenda for workshop in July, Cambridge
+** release proposal http://groups.google.com/group/obi-developer/browse_thread/thread/739cdb16eb0b946b?hl=en#
+** MSI community - approaching them about work with Mass Spec ontology
+** Discuss Functions in protocol applications - option 3 (BP) and comparison to others if possible
+
+'''June 4, 2008'''
+* Developers call. Chair: James
+** style issues concerning documentation (OBI-centric vs OBO-centric) '''Action Item:''' SAS and AR to sort offline and email group
+** algorithm and workflow - workflow is synonymous with plan
+**Subclassing of defined classes - Doc here https://wiki.cbil.upenn.edu/obiwiki/index.php/DefinedClasses
+**Incorporating MS ontology - some discussion on this, '''discussion pushed to coord call''' as touches on policy
+**Agenda for face to face meeting in Cambridge, 7-10 July
+**template for website http://groups.google.com/group/obi-developer/browse_thread/thread/85b9f6e46f0df398?hl=en#
+**help request for setting composite restrictions in protege (e.g. material has_part (cell has_part virus)) - 
+Alan example:
+'material entity' and ro:has_part some (cell and (ro:has_part some virus)) 
+Remember to put quotations around term labels with space in them
+
+*Remaining items from previous call: 
+** clean up of TheRest.owl: James volunteered to help out, cf https://sourceforge.net/tracker/index.php?func=detail&aid=1968905&group_id=177891&atid=886178 - almost complete bar one class
+** status of function (Bjoern) - cf use case by DS, PRS and SAS at
+http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en - not had chance to look yet
+*To be included in next release (not this one, following one)
+** versioning of the release: number, date... (currently <owl:versionInfo xml:lang="en">1.0.530</owl:versionInfo>, 1.0 + SVN revision number)
+** sourceforge tracker Please review/update your items.
+
+====May 2008====
+'''May 28, 2008'''
+* Developers call. Chair: Melanie
+** call for volunteers for the OBI documentation: http://docs.google.com/Doc?id=dzprnmw_4hck67jdg
+** obi-users list http://groups.google.com/group/obi-users?hl=en : could be used for use cases submission, and as entry point for external users?
+** MIREOT - updated document at http://docs.google.com/Doc?docid=dzprnmw_24cp3693dd&hl=en
+** status of function (Bjoern) - cf use case by DS, PRS and SAS at http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en
+** objective (Bjoern) - cf http://groups.google.com/group/obi-developer/browse_thread/thread/bc461f1dbfb16e22?hl=en
+** clean up of TheRest.owl: James volunteered to help out, cf https://sourceforge.net/tracker/index.php?func=detail&aid=1968905&group_id=177891&atid=886178
+** versioning of the release: number, date... (currently <owl:versionInfo xml:lang="en">1.0.530</owl:versionInfo>, 1.0 + SVN revision number)
+** sourceforge tracker
+
+
+
+
+'''May 21, 2008'''
+* Developers call. Chair: Jennifer
+** release status
+** function implementation
+** sourceforge tracker
+** clean up of TheRest.owl
+** deprecation policy
+
+
+'''May 14, 2008'''
+*Coordinator call 
+** distribution of OBI to external resources (Bioportal, OLS)
+** While creating the obi-users group I saw that you can get boxes for website for the list, there is even a "subscribe to the list". Maybe that's something we would want to add on our static webpage?<br>
+***Maybe even a section "support" (we could update the resource page), which would group:<br>
+**** documentation under SVN<br>
+**** faq<br>
+**** release notes (purl-ed)<br>
+**** obi-users mailing list<br>
+**** resources (e.g. OBI logo)<br>
+** Authorship on technical papers
+** Deadlines for branch development. When are they "done."
+'''May 7, 2008'''
+* Developers call. Chair: Bjoern
+* finalize going through and triage the rest of the action items.
+* start going through Ryan's assembly of Milestones and assign responsible people https://wiki.cbil.upenn.edu/obiwiki/index.php/Milestones .
+
+====April 2008====
+
+'''April 30, 2008'''
+* Developers call. Chair: Bjoern
+* While creating the obi-users group I saw that you can get boxes for website for the list, there is even a "subscribe to the list". Maybe that's something we would want to add on our static webpage?<br>
+Maybe even a section "support", which would group:<br>
+- documentation under SVN<br>
+- faq<br>
+- release notes (purl-ed)<br>
+- obi-users mailing list<br>
+
+'''April 23, 2008'''
+* Developers call - Chair: Bjoern
+** sourceforge, http://sourceforge.net/tracker/?group_id=177891&atid=886178 : most of the items on the tracker are more than 30 days old<br>
+How to proceed with feature and has_feature (unassigned at the moment) - news from BS?
+** approval of automatic checks for release<br>
+see http://groups.google.com/group/obi-developer/browse_thread/thread/dc40a6a300c466c4?hl=en<br>
+note for additional correction: definition editor is a required metadata - could be defaulted to "OBI" when missing<br>
+do we want to keep our annotation properties underscore separated? (e.g. curation_status)<br>
+** function report from Bill
+** conclusion to organization discussion (Bjoern)
+** "uses" branch - Jennifer
+
+
+'''April 16, 2008'''
+*Coordinator call 
+** Google groups welcome message - prototype at http://groups.google.com/group/obi-biomaterial?hl=en and http://groups.google.com/group/obi-denrie-branch?hl=en
+** approval of retirement of obi-plan-branch and obi-txcommit mailing-lists
+**OBI Authorship policy 
+TBD as well authorship on documents relating to development of new features of OBI. E.g. mapping policy. How to proceed with new things to be added, e.g. deprecation policy
+ (April 9 call postponed - centra update incompatible with sound and mac users)
+
+'''April 2, 2008'''
+* Developers call - Chair:Melanie
+** sourceforge tracker - ongoing votes
+** SVN reorganization
+** retire obi-plan-branch and obi-txcommit mailing-lists
+** normalized IDs have been assigned with releases: discuss deprecation policy<br>
+previously proposed was to move classes under obsolete, maybe adding an annotation property pointing to the previous parent
+** confirm use of https://wiki.cbil.upenn.edu/obiwiki/index.php/Definition_source for syntax of the content of definition_source
+** status of ongoing discussions: organization, taxonomy
+
+====March 2008====
+'''Mar. 26, 2008'''
+* Developers call - Chair: James
+**ISMB abstract submission
+
+** if quorum present, quickly go over decisions from previous call and confirm them.
+
+as a reminder:
+
+
+1/ import policy
+
+The import policy has been approved by all members present. It will be used from now on, with the reserve that it can be revised if any problem becomes apparent.
+
+2/ update of minimal metadata page
+
+Proposal to change the cardinality of definition_source to 1...n (instead of 1 currently).
+Attendees don't see any objection to do so, and leaving the curators free to put 1 or more sources.
+However, there had been previous objections by others who were not attending the call, so we think that this should be re-discussed.
+
+3/ implementation of the obi-users list
+
+Attendees agree on using Google groups. Again, there has been some objection before, so will need to be re-discussed.
+It would be nice to formalize the decision of using Google groups for our mailing-lists in the future. This has already been discussed and we thought it was agreed upon: due to recurrent problems with sourceforge lists, we would switch to google groups. We already mirrored the sourceforge mailing-lists on google for archiving purpose, and the latest lists (biomaterial, denrie, obi-owl) have been created under google.
+
+4/ SVN and documentation
+
+DT branch expressed the need for having a directory under SVN where to store for example spreadsheets for their branch.
+All attendees agree that there is no problem with that. We also agreed that we would like to have 2 distinct documentation directories, one for user documentation and one for development documentation. We could even have a link http://purl.org/obo/obi/documentation/ for the user documentation.
+This will be dealt with during SVN reorganization.
+Note: Liju commented that her branch already uses google doc and wishes to keep this, as there is a version control system. Everybody agreed that it is up to the branches to decide how to proceed, the DT proposal is for archiving of non-edited anymore documents for example.
+
+5/ Function
+
+In Vancouver it has been decided to let the Protocol Application branch define the function in the context of the protocol they create and where they specify the function of instruments.
+But function is more than just realizing a process, it also specifies the mode of participation of the bearer in the process.
+Bill point to a page on the wiki with examples : https://wiki.cbil.upenn.edu/obiwiki/index.php/ObiFunctionUseCases
+
+There is still some confusion between role and function. Bill is in contact with "function gurus" to try and sort out things, and will come back to the instrument branch (who submitted functions) with more information as soon as possible.
+
+The consensus (amongst attendees) is to clearly mention the function in the definition for the moment, and submit it under the tracker. Bill will liaise with Bjoern to see how to create processes and function, on the model "some independent continuant is the bearer of a function and participates in a process". The needed relations are already in OBO_REL.
+
+6/ OBI wikipedia page
+
+James proposed to create a wikipedia page for OBI, now that we enter a release cycle. All attendees agree.
+
+
+** last vote on the wiki regarding tracking system https://wiki.cbil.upenn.edu/obiwiki/index.php/ActionItems/Votes
+** use "clinical investigation" instead of "medical" on our website. (Alan tested a google search with "medical experiment")
+** SVN reorganization - proposal to be reviewed: could be implemented for next release, beginning of april.
+** What do we we do regarding import of non-obofoundry ontologies?<br>
+e.g., John Westbrook's ontology (PDBO.obo) is in OBO format and non-foundry, and DT would like to import some terms: do we convert to owl, then slurp in terms? can we use it if non foundry?
+
+
+Note: Call time will be one hour earlier for those on GMT (this changes to BST on 30th March which is GMT+1hour)
+
+'''Mar. 19, 2008'''
+* Developers call - Chair: Bill
+**Final review of import policy
+**Update of minimal metadata page<br>
+- do we want to keep definition_source with cardinality 1 or should we modify to 1..n?<br>
+see http://sourceforge.net/tracker/index.php?func=detail&aid=1911150&group_id=177891&atid=886178
+**mailing list for support: discuss implementation of the obi-users mailing-list as agreed on the coord call
+**DT branch would like to have a branch documentation directory under SVN to store their files
+**SVN structure - proposal for reorganization
+**Function branch - how to proceed?
+**OBI Wikipedia entry?
+
+'''Mar. 12, 2008'''
+* Coordinators call
+**Proposal to add Alan as OBI project admin on sourceforge
+**ISMB abstract
+**Discuss publication policy.
+**OBO Foundry Associate Editor
+**Update on OBI votes
+
+'''Mar. 5, 2008'''
+* Developers call
+**assign the only unassigned term under sourceforge: genome version protocol parameter http://sourceforge.net/tracker/index.php?func=detail&aid=1844273&group_id=177891&atid=886178
+**Final review of material documentation
+**Proposal (Chris and Melanie): rotating chair for obi-dev calls<br>
+Proposal to have a list of attendees and rotate for the chair position.<br>
+Chair role consists of:<br>
+- sending out the agenda at least one day before (and post it on the wiki),<br>
+- lead the discussions and ensure we keep on track on those,<br>
+- take the notes and post them (or liaise with Allyson/Melanie to have them posted)<br>
+**Discuss use of svn properties (e.g. revision, date...)<br>
+TheRest.owl contains versionInfo 0.6.7
+**Officially retire the protege auto_id plug-in
+**Discuss our IDs policy
+cf changes proposed with the release:
+- use of purl, e.g. http://purl.org/obo/OBI_0100102
+- use of "/" as a separator instead of "#"
+- assign IDs to everything (including relations)
+
+====February 2008====
+'''Feb. 28, 2008'''
+* Developers call
+**Discuss implementation policy for votes that have been accepted on the 20th.<br>
+1. curation_status: new values - cardinality<br>
+2. definition_source: update of the annotation property file and all the branch files<br>
+**Discuss release policy<br>
+1. Files have to be checked when committing into SVN<br>
+2. Various pre-releases check, J-8, J-3<br>
+3. email on dev if problems: the branches have to check/correct their respective files<br>
+4. If inconsistency/problem -> no release.<br>
+
+'''Feb. 20, 2008'''
+* Developers call
+** Discuss the use of the curation_status annotation property <br>
+We need to decide if we want to release all the terms, including their curation_status, and oducment it as suggested by Bill:  "...expectation to be set would be that anything other than those  
+with "review complete" should be considered likely to change place in  
+hierarchy or have definition refined, or be obsoleted in the next  
+release".<br>
+The other option is to release only terms with curation_status "complete" (name to be defined following vote), and not their annotation property curation_status. One issue is that ant term deemd "complete" which is an IS_A term curation "incomplete" will not be released. As described by Alan: "For instance, if a class has 'curation_status' 'review_complete', but one of its IS_A asserted graph ancestors is NOT 'review_complete', we'll not be able release that term, since we won't be able to construct its ancestor graph.  This would also cause problems for classes using ObjectProperty relations.  If one of the classes referred to in a class restriction are not 'review_complete', this would at least keep us from releasing that class with its restrictions.  We'd need to simply leave the restrictions out.  This might lead to a released, merged OBI that's considerably smaller than we all might expect"
+
+see discussion thread at http://groups.google.com/group/obi-developer/browse_thread/thread/d8a0890c191661fb?hl=en
+
+DECISION: we agreed that for the moment we will release all the terms and their annotation properties. This might be modified in the future with progress made on OBI. Release notes will clearly state  that the status of this release is "not to be used in production - things may (and probably will) change"
+
+** Organizations <br>
+How to deal with them. Who will take care of that branch? Should be independent?<br>
+
+DECISION: We will keep person and organization (in the sense of aggregate of person) under material. Organization is to be replaced by population. The role branch will create the necessary organization_roles for these to bear. The classes under material represent the physical part of the concept, and they bear roles representing the social status associated to these.<br>
+Side note: We had a discussion about how to represent for example "sigma". It has been decided that this would be an instance of reagent_supplier_role (or chemical_supplier) for example. Again, the role branch will create the appropriate classes.
+
+** Spatial regions <br>
+Instrument branch identified several terms that are spatial regions. These have been moved under spatial regions at the moment. What is the bfo status of this branch?
+
+DECISION: discussion postponed until Alan/Bill on the call.
+
+** SVN tidyup, to have single folder for ontology. Suggested structure and assignment of task.
+
+DECISION: Daniel volunteered to clean up SVN. He will circulate a proposal of action for this before modifying the current structure.
+
+** Sourceforge tracker review
+
+AI for everybody: review the terms and assign them.
+By default, terms related to branch will be assigned to branch leaders. E.g., cohort_role will be assigned to Jennifer as leader of the role branch.
+Comments are to be posted on the tracker items when action is taken towards resolution.
+
+
+'''Feb. 13, 2008'''
+* Coordinators call
+** AI:OBI coordinators should nominate 1 person to be OBO foundry associate editors
+** AI:Resolution of how to focus coordinators and also have useful community representation, and also to consider advisor input 
+** Time and location for next workshop. Sept/ Oct in Hinxton with OBO Foundry? Or in summer in Boston (Science Commons)?
+** Update on deprecation policy from developers call
+** Authorship of the "big" OBI manuscript, as it has implications for efforts over the next months.
+
+'''Feb. 6, 2008'''
+* Developers call
+** assign issues currently open on the sourceforge tracker to somebody.
+** AI:Deprecation policy will be discussed on next coordinators call to allow others to comments. 
+*** AR Proposal for discussion is that we use OBO foundry process
+** add an obsolete class. Issues with logical definitions and previous use of editor note for this
+** The https://wiki.cbil.upenn.edu/obiwiki/index.php/QuickTerms-CrossProducts proposal as topic on agenda
+** Road map to release
+
+====January 2008====
+'''Jan. 16, 2008'''
+* Developers call
+** Discuss use of Quality and PATO
+** Further discussion of resolving and documenting prolonged development issues (James, all)
+** Resolve citation vs source if major advocates are on call. (Daniel, Alan)
+** Use of annotation property (Melanie)
+ 
+'''Jan. 9, 2008'''
+* Coordinators call
+** Community/Collaborative issues
+**# letter of support for PATO
+**# PDB community and workshop
+**# NCBI grant to evaluate and extend Collaborative Protege (D. Rubin, M. Musen, N. Noy)
+** Development issues
+**# Clean up wiki regarding the development policies methodology section (Frank)
+**# Proposal on using voting to solve ongoing discussions like analyte. (Melanie)
+**#* When an issue seems unsolvable (e.g. current analyte discussion) among the community, a community member can submit a request to the coordinating committee (CC) to put the issue to a vote. 
+**#* The coordinating committee then decides to either put this issue to vote by the whole community, or alternatively can decide to solve the issue between coordinators (for example by voting only among members of the CC) 
+**#* Voting should be open for at least a month (cf point 1.3.2 of the OBI Regs) 
+**#* Voting behavior (either by CC members or by the whole community) will be made public (cf point 1.3.5 of OBI Regs) 
+**# Questions for advisors (from last weeks developers call)
+**#* gaps in ontology coverage - e.g., no quantitative values (note: Alan Rector has way of doing this)
+**#* issues resolved or postponed in OBI, general use of roles
+**#* old issues with biomaterial:
+**#*# biomaterial hard to define: something of interest, biological origin?
+**#*# granularity (Frank, Matthew)
+**#*# multiple inheritance
+**#* General properties, eg definition, overall structure of OBI
+**#* uses cases/competency questions
+**#*# how to apply use cases and competency questions to OBI.
+**#*# question for advisors: given these questions and the current status of OBI are we ready?
+**#*# Want to solicit Robert and Frank to get new questions (relevant for use with NCIt, Mygrid, etc.) Frank (in the context of the Thesaurus) and curators are trying to do fair amount of logical definition. This will be the next step for OBI, put more logical definitions in. We should get his advice on that.
+
+====December 2007====
+
+'''Dec. 19, 2007'''
+
+- finalize decision on space/underscore: no objections on that, so I propose that we definitively say we will use the space as a separator. We would need to update the wiki (maybe Daniel would volunteer as our "naming convention guru"  :-)  ) and then we need to decide how we are going to modify the current terms. (per branch responsibility seems logical)
+
+'''DECISION: Use space as separator.'''
+
+- it would be nice also to get a general agreement on the following (which are non sensitive issues)
+
+1. cardinality of definition_editor: in case we have several editors for a definition, do we put them all in one field (and with which separator?) or do we create distinct annotations. The instrument branch proposes to have several annotations (<definition_editor>Daniel Schober</definition_editor><definition_editor>Franck Gibson</definition_editor>...)
+
+'''DECISION: Use 1:1 cardinality.'''
+
+
+2. cardinality of definition_citation/source: same than above do we put everything in one field or do we separate, Again, the Instrument branch used the latter. (note: here I am not talking about the name source or citation, just the cardinality). The current cardinality on the minimal metadata page is 1 (https://wiki.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata), so would need to be changed
+
+'''DECISION: Use 1:1 cardinality.'''
+
+The above issues are just "technicalities" we need to agree on and that are currently holding us back in the curation work we are doing in Instrument and Data_transformation branches.
+
+Then a few "problematic" issues:
+
+- the annotation "curation_status" and its value "curation_complete". The instrument branch has bee using it to say "the term is clean" in the sense definition and metadata are ok. We used it in conjunction with other curation_status annotation, so for example a term cleaned but that we think might move in the hierarchy is curation_status complete and curation_status graph_position_temporary (the cardinality of curation_status on the minimal metadata page is 1...n)
+However, as Trish mentioned, for some people it actually means "term ready for release and won't (probably) move again". This is also a reasonable approach in the sense that moving a term in the hierarchy would probably imply modifying the definition as pointed out by James. Trish also proposed to have the cardinality of the curation_complete status set to one, which means using that value we would not be allowed to use any other curation_status in conjunction with it.
+
+'''DECISION: Melanie, James, Bill and Alan will draw up list with definitions for use, cardinality will be 1:n'''
+
+- the OBI IDs: some terms don't have any, and most of the time they are heterogeneous (between 2 and 10 digits for example). This seems to me to be an important issue, the IDs in the context of an ontology are very central as they represent the concept in the annotation made by our users.
+The proposal (James, Daniel and me) is that the lead editor of each branch takes care of that. We need uniform IDs, OBI_6digits, and we need to have the autoID files under SVN https://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/trunk/lastac_autoID/ 
+
+FG: I can tidy up the wiki for the development policies/methodology section and remove duplication - Apologies I will be unable to attend the call but can someone let me know the outcome, thanks.
+
+'''Dec. 12, 2007'''
+* Coordinators Call
+**  Jan workshop agenda. see https://wiki.cbil.upenn.edu/obiwiki/index.php/January_2008_Workshop_Agenda
+** status of branches: see https://wiki.cbil.upenn.edu/obiwiki/index.php/Milestones and look at Media:OBI_Milestones_v2.xls‎ under "Current Status of Branch Development."
+** Raised for developers call but possibly address here? "definition_source or definition_citation ?" see Daniel Schobers email from earlier today.
+** Interaction with PDB? Alan Ruttenberg suggested this in his Dec. 4 email to OBI dev. 
+** interaction with Lilly (the pharma company) and HCLSIG Experiment Ontology as discussed recently on the OBI devel list (last mail was on Dec. 7 on think from Susie Stephens). see http://esw.w3.org/topic/HCLSIG_BioRDF_Subgroup/Tasks/Experiment_Ontology
+
+====November 2007====
+'''Nov. 21, 2007'''
+* Developers Call
+** Subversion + Protege Tutorial (Allyson, Daniel S., Melanie)
+
+'''Nov. 14, 2007'''
+* Coordinators Call
+** Plan agenda for Vancouver meeting
+*** see https://wiki.cbil.upenn.edu/obiwiki/index.php/January_2008_Workshop_Agenda
+** Grant opportunity: http://grants.nih.gov/grants/guide/pa-files/PAR-07-425.html 
+
+'''Nov. 7, 2007'''
+* Developers Call
+** Providing formal definitions for low level terms. E.g., different models of the same type of instrument such as the different benchtop flow cytometers that Becton Dickinson makes.  
+
+====October 2007====
+'''Oct. 31, 2007'''
+* Developers Call
+** metadata questions (Melanie, James)
+*** metadata "definition_source": shall we annotate using definition_citation or dc: source? (definition_citation in Instrument branch, dc:source in data_transformation)
+*** alternative_term_tags: tagging of alternative term depending on the community, how will it be implemented?
+** Branch reports. 
+
+'''Oct. 24, 2007'''
+* Developers Call
+** Jena script to automatically add required metadata elements to the OBI terms (Melanie)
+** Object hierarchy. Any update?
+** Branch reports. 
+
+'''Oct. 17, 2007'''
+* Developers Call
+** Minimal metada - which go in public release
+
+'''Oct. 10, 2007'''
+* Coordinators Call
+** Core developers
+** Polymorphism and new community (Tina)
+** Grant opportunity: http://grants.nih.gov/grants/guide/pa-files/PAR-07-425.html 
+
+'''Oct. 3, 2007'''
+* Developers Call
+** Object hierarchy. Alan will summarize where the discussions stand on this issue.
+** Branch reports. Last week we heard about the Relations Branch. Any volunteers?  
+====September 2007====
+'''Sept. 26, 2007'''
+* Developers Call
+** use case/competency questions (James)
+** PAG abstract (Bjoern)
+** Branch reports (??)
+** Naming conventions (Daniel)
+
+'''Sept. 19, 2007'''
+* Developers Call
+** Call options
+** Presentation at PAG
+** Status of object hierarchy
+** derived classes
+
+'''Sept. 12, 2007'''
+* Coordinators Call
+** Conference call set-up
+** Letter of support for MGED grant (Chris)
+** Stem cell community (Alan)
+** Mailing lists
+
+====August 2007====
+'''Aug 29, 2007'''
+* Developers Call
+** Daniel raised a number of issues (see "some glitches in OBI.owl" email) which could be discussed based on his request for comments. 
+** Problems with sourceforge for mail lists - try Google groups?
+** PURL for OBI?
+'''Aug 15, 2007'''
+* Developers Call
+** Changes to OBI sourceforge site (Allyson)
+** DIscuss Biomaterial and Instrument top level terms as summarized at: https://wiki.cbil.upenn.edu/obiwiki/index.php/BiomatArtifactObjectBranchFoundation
+*** See a great video from Frank and Matt on their object hierarchy proposal: http://homepages.cs.ncl.ac.uk/frank.gibson/Flash2_OntologyOfObjects/Flash2_OntologyOfObjects.html
+*** Files on Frank and Matt's hierarchy proposal are at: http://obi.svn.sourceforge.net/svnroot/obi/branchDevelopment/development-examples/ 
+** Identify coordinator/volunteer for filling naming convention survey http://obofoundry.org/wiki/index.php/Naming (Daniel)
+*** This is probably an item for the coord call, but a volunteer is needed asap the survery is due by Sept 7th (and next cood call is only Sept 12th)
+'''Aug 8, 2007'''
+* Coordinators Call
+** Discussion of OBI Advisors role (see RS & BB mail to OBI-coord of July 25) 
+** Funding discussion. See http://grants.nih.gov/grants/guide/pa-files/PAR-07-425.html
+'''Aug 1, 2007'''
+* Developers Call
+** ? DIscuss Biomaterial and Instrument top level terms as summarized at: https://wiki.cbil.upenn.edu/obiwiki/index.php/BiomatArtifactObjectBranchFoundation
+** Provide terms to modENCODE group. Term tracker. 
+
+====July 2007====
+'''July 25, 2007'''
+* No Developers Call
+
+'''July 18, 2007'''
+* Developers Call
+
+[[July18Notes]]
+
+** unresolved non branch action items from the workshop and assign them to people and prioritise
+<pre>
+18. Artefact object discussion. Two different hierarchies were  discussed. No resolution during meeting. These OWL files need to be  
+posted and discussed during a dev call.
+19. Inferred classes. We worked through an example and identified that exploring existing design pattern work is needed.  Discuss on  
+dev call.
+20. Update OBI to BFO1.1
+23. Lot and material type - no resolution on this, needs further discussion on dev call
+25. Issue of handling vendor reagents in OBI unresloved - needs more  discussion on dev. call
+</pre>
+====June 2007====
+'''June 27, 2007'''
+''Potentially last call before workshop (4th July is holiday)''
+* Developers Call
+*Possible review branches:
+**Plan Branch
+***Status report link: [http://www.ebi.ac.uk/~malone/OBI/plan_branch/Plan%20Branch-report-June%2007.doc here]
+**Relations Branch
+***Status report link: [http://www.ebi.ac.uk/~malone/OBI/relations_branch/Relations%20Branch-report-June%2026.doc here]
+**Role Branch
+***Status report link: [http://www.ebi.ac.uk/~malone/OBI/role_branch/rolestatus.doc here]
+
+
+'''June 20, 2007'''
+
+* Developers Call
+** BioMaterial branch progress to date to be reviewed
+***[https://wiki.cbil.upenn.edu/obiwiki/index.php/BiomaterialTermNeeds Status report for June 2007 available here.]
+** Data Transformation branch progress to date to be reviewed
+***[http://www.ebi.ac.uk/~malone/OBI/data_trans/DataTransReport190607.doc Link to summary page of data transformation work to date] for use during call 
+** Alan R.: Check in about the branch files
+** Availability of Centra for Use with ObiBranch conference calls
+
+'''June 13, 2007'''
+* Coordinators Call
+** Discuss plans for the ISMB poster
+** Discuss workshop agenda
+** Lead editors for each branch - does each branch have one to coordinate the effort?
+
+'''June 6, 2007'''
+* Developers Call
+** Instrument branch progress to date to be reviewed
+***[http://www.ebi.ac.uk/~malone/OBI/instrument_branch/Instrument_Branch_Report_070606.doc Instrument Status report for June 2007 available here.]
+**[[CallNotes]]
+
+====May 2007====
+
+'''May 30, 2007'''
+* Developers Call
+** Follow up on protege import bugs
+** CTO follow up, Jennifer Fostel/Richard S.
+** Discuss metadata annotation properties
+*** example, needs better definition and should this be mandatory - Frank
+** Discuss Milestones in general, missed Milestones, tracking of Milestones etc.
+** Discuss upcoming June 1 milestone implications
+** Call Minutes can be [[DevCall30May|found here ]]
+
+'''May 23, 2007'''
+* Developers Call
+** Branch wiki pages - James
+** Term Provenance - Trish
+** Motivation is to provide a method to filter terms for use in annotation applications.
+
+'''May 16, 2007'''
+* Developers Call
+** Review Workflow for [[ObiBranches]] development
+** Cross-branch issues
+*** [[PlanBranch]] and [[ProtocolApplicationBranch]] - which group is modelling what items?
+*** [[ProtocolApplicationBranch]] and [[DataTransformation]] - is a change needed in this structure?
+*** Interaction of [[ListOfRelationships|Relations ]] group to all other branches
+** Function branch status (BB)
+*** important cross-branch nexus
+*** relations between BFO Function, Disposition, Role, and Process
+*** BFO definitions for Function & Disposition problematic, complicated, and somewhat ambiguous
+*** working on examples - see ''OBI Examples'' at bottom of [[FunctionTerms | OBI Function Branch Wiki page]]
+*** specify process and independent continuants, as well as relevant continuant roles and qualities
+*** reviewing articles on Function by IFOMIS researcher [http://hem.passagen.se/ijohansson/index.html| Ingvar Johannson]  - see Function manuscripts at foot of page
+
+'''May 9, 2007'''
+* Coordinators Call
+** Core Developers?
+** Google group for OBI?
+*** Any guidelines needed - final archive of document?
+** Postponed: Update on Coordinators - Ryan
+** Tentative: Policy for adding new communities - Susanna
+** Meet with NIH program officers Monday July 9 before Workshop starts?
+
+
+'''May 2, 2007'''
+* Developers Call
+** OBI Workshop in July, update by Mervi
+** Policy to collect relations - Liju and Relations branch editors
+** Discussion of Richard's email on protocol application subtree (see email 4/27)
+
+====April 2007====
+
+'''April 25, 2007'''
+* Developers Call
+** OBI Branch files - generation and usage
+*** Batch term loading code
+** Policy to collect relations?
+** SVN::Notify - preference for email list to post to
+** Annotation properties
+*** definition_source, see [[DueCredit]] for implementation requirements
+*** term provenance
+** tools/software directory for OBI SVN?
+
+'''April 18, 2007'''
+* Developers Call
+** Update on discussion on representation of definition_source
+** Branch report - volunteers?
+** Vote on representation of ontology authors using dc:creator tag, 1 per author - All
+** Vote on information re:representing advisors - All
+
+'''April 11, 2007'''
+* Coordinators Call
+** OBI Support for OBO Foundry paper
+** Vote on CARMEN Community
+** Combining branches GDC and Digital Entity
+** Level of modeling granularity of OBI - provide annotation terms or also provide a framework for a biomedical investigation
+** Follow-up/Summary from Dagsthul?
+** Confirm Editor-in-Chief role
+** Update on plans for 4th Workshop - Mervi
+** Term submission Milestone - Deadline vs Guideline?
+
+'''April 4, 2007'''
+* Developers Call
+* review timeline with [[ Upload:trigger.owl|triggers in OWL]] - Alan
+* [[ObiBranches]] Status report - [[ProtocolApplicationBranch]]
+* discuss how to manage implementing relations in ~ObiBranch files
+
+====March 2007====
+
+'''March 28, 2007'''
+* Developers Call - Cancelled
+
+'''March 21, 2007'''
+* Developers Call
+** review timeline with [[ Upload:trigger.owl|triggers in OWL |]] - Alan - Postponed
+** discuss remaining metadata annotation implementation issues, see email on [http://tinyurl.com/34rctp File Format for batch loading] for questions - All
+** discuss [[ http://tinyurl.com/34ekl6|information on splitting OBI.owl file |]], which branch gets which subtrees as 'active' - All
+** discuss implementation ideas for definition_source, see [[DueCredit]] wiki page for requirements - All
+** managing terms proposed by communities with existing resources in production use, e.g. PSI, MGED, what information needs to be maintained by the branch editors - All
+
+
+'''March 14, 2007'''
+* Coordinators Call
+** Discuss policy for due credit for work with [[DueCredit|ontology development]], posters etc.
+** Milestone Deadlines, are these realistic?
+*** Is there a need for branch editor? Some branches are doing so and 'editor-in-chief' to oversee the work of the branch groups?
+** Discuss viewpoint on representing information in OBI to fit the needs of the semantic web
+** Register permanent URL for OBI file? - see note from Chris Mungall/Bill Bug
+** Stable release of OBI planned for Oct, 2007 - which version of OWL? - Trish
+** Coordinator Participation - Ryan
+** Decide on meetings to submit OBI paper to (Outreach Milestone)
+*** Page has been created at the [[HomePage]] (see 'Upcoming meetings - submit abstract' section)
+** Travel Fund email - Bjoern
+** OBI logo - is there a resolution on which version to display on site?
+** Vote on policy for web site maintenance - policy approved by project admins (Ally, Daniel, Trish, Daniel)
+
+'''March 7, 2007'''
+* Developers Call
+** Finalize implementation of [[WorkshopMetadata]] in OWL
+** Agree on string syntax representation of definition_source information - All
+** Review OWL representation of definition_source information as classes and instances - Alan
+** Present working implementation of timeline with triggers in OWL - Alan
+
+====February 2007====
+
+'''February 28, 2007'''
+* Developers Call
+** Finalize implementation of [[WorkshopMetadata]] in OWL
+** Review OWL representation of definition_source information as classes and instances - demo OWL file needed
+** Discuss plans to split OBI file into 'branches'
+** Present working implementation of timeline with triggers in OWL - Alan
+
+'''February 21, 2007'''
+* Developers Call
+** Discuss implementation of [[WorkshopMetadata]] in OWL
+
+'''February 14, 2007'''
+* Coordinators Call
+** Travel Fund email
+** Discuss policy for due credit for work with ontology development, posters etc.
+** Vote on dividing into branches covering OBI scope, [[ObiBranches]]
+** Vote on policy for web site maintenance - policy being reviewed by OBI project admins
+** Remind Coordinators to sign-up for obi-advisors list
+** clean-up of OBI file following workshop - see email from Daniel, http://sourceforge.net/mailarchive/message.php?msg_id=38155636
+
+'''February 7, 2007'''
+* Developers Call
+** Finalize the [[WorkshopMetadata]] annotation terms
+
+====January 2007====
+
+'''January 31, 2007'''
+* No call - OBI Workshop
+
+'''January 24, 2007'''
+* Developers Call
+** Continue review of BFO
+
+'''January 17, 2007'''
+* Developers Call
+** Review OBI classes that are siblings of BFO classes. Decide if we can re-tree them somewhere else without changing BFO structure. Follow up with BFO developers if agree that some have to stay as is.
+
+'''January 10, 2007'''
+* Coordinators Call
+** Finalize Workshop Prep - Bjoern, All
+** Vote on inclusion of the Imaging Community
+** Development Policies regarding the obiwiki (Gilberto), SVN (Trish) and ontology file (Trish) - Agreement by All
+** Agree as to the information to send NCBO on OBI as required by the ~BioPortal - All
+** Agree that the [[FuGO]] Sourceforge project, SVN etc. will be left on Sourceforge - All
+** Status of OBI CC List at: [https://www.cbil.upenn.edu/obiwiki/index.php/ObiCcParticipants] - All
+** Status of obi-advisors list - who should be subscribed to this list and is a change to the OBI Project Structure document needed? - All
+** Discuss new groups - ORegAnno(www.oreganno.org) and Pazar(www.pazar.info)
+** Update on PATO meeting - Tina
+** Discuss policy for funding, specifically letters of support: All funding welcome - Bjoern
+** LoS Request from Barry
+
+'''January 3, 2007'''
+* Developers Call
+** Finalize metadata annotation terms needed to replace the usage of the existing search tags
+** Discussion on other Workshop prep action items as needed [https://www.cbil.upenn.edu/obiwiki/index.php/SanDiego2007WorkshopPrepActionItems]
+
+====December 2006====
+
+
+'''December 27, 2006'''
+* No Developers Call
+
+'''December 20, 2006'''
+* No Developers Call
+
+'''December 13, 2006'''
+* Coordinator Call
+** Discuss number of attendees at the workshop - Bjoern
+** Agree as to the information to send NCBO on OBI as required by the ~BioPortal - All
+** Agree that the [[FuGO]] Sourceforge project, SVN etc. will be left on Sourceforge - All, Postponed
+** Status of OBI CC List at: [https://www.cbil.upenn.edu/obiwiki/index.php/ObiCcParticipants] - All, Postponed
+** Development Policies regarding the obiwiki, svn and ontology file - Gilberto - wiki, Trish - svn,   Agreement by All, Postponed
+** Status of obi-advisors list - who should be subscribed to this list and is a change to the OBI Project Structure document needed? - All, Postponed
+** Update on PATO meeting - Tina, Postponed
+** Discuss policy for funding, specifically letters of support: All funding welcome - Bjoern
+** LoS Request from Barry
+** Vote on including the Clinical Trials 'community' into OBI - All
+** Prioritize Action Items for Workshop Prep - All
+** Discuss new group - ORegAnno(www.oreganno.org) and Pazar(www.pazar.info)? - All, Postponed
+
+====November 2006====
+
+'''November 8, 2006'''
+* Coordinator Call
+** Follow-up from ISMB
+** Questions regarding submitting OBI to OBO
+** Domain name for obiwiki
+** Vote on logo - see [http://fugo.sf.net/downloads] for choices
+** SF Site - project admins and list admins
+** Note:Update Project Name/URL on web sites
+
+====October 2006====
+
+'''October 11, 2006'''
+* Coordinator Call
+* Agenda for January workshop - please add topic suggestions to [[SanDiego2007Workshop]]
+* Participants and modes of participation in workshop
+* Comments on New Logo
+* Decision as to when to announce move to developers list and start using the obi-devel list
+* BBSRC funding - link sent by Ljiu
+* Wrap-up of all docs from 2nd Workshop
+
+====September 2006====
+
+'''September 13, 2006'''
+* Coordinator Call
+** External participants (Alison Deckhut) at Workshop in San Diego
+** Vote on Project name change
+** Vote on Project Organization document
+** Vote on expanded project scope - more than Functional Genomics
+
+** Not able to attend:
+*** Trish, Helen P, Susanna, Philippe
+
+
+====August 2006====
+
+'''August 23, 2006'''
+* Developers Call
+** Demo by Robert Stevens and Nick Drummond on Protege/OWL and how to generate machine managed multiple inheritance
+
+'''August 16, 2006'''
+* Developers Call
+** Review items for further clean-up in OWL file from workshop
+** Plan continued devlopment of the ontology
+
+'''August 12, 2006'''
+* FuGO Coordinators Call
+** General Business
+*** Discuss project name change (All)
+*** Discuss project structure, document proposed by Chris T (All)
+*** Vote on addition of imaging working group to [[FuGO]] project (All)
+*** Is further clean-up of the OWL file needed before posting, e.g. update version, release date, term identifiers (Class versus OBI versus [[FuGO]]? (All)
+*** Discuss edits to Workshop Report (All)
+*** Discuss plans for continuing the development of the ontology
+*** Planning for next meeting: San Diego January / February 2007?
+** Coordinators Reports
+
+
+====July 2006====
+
+'''July 12, 2006'''
+* FuGO Coordinators Call
+** General Business
+*** Finalize/Approve Workshop Schedule (All)
+*** Reply to Allyson on definition paper (All)
+*** Use of AutoID plugin during workshop? (Trish, All)
+*** Decision to have a Developers Call on July 19 and if so what to discuss
+*** Structure of FuGO project - how to best list the Communities and Coordinators on the [[FuGO]] web site (needs to be done before OMICS publication)
+*** Structure of FuGO project - organizational structure for adding new Community Coordinators? (All)
+*** Community Road Maps? (All)
+*** Finalize content for DILS/JBB poster? (Susanna, All)
+*** Discuss use of xml:lang attribute in [[FuGO]] file? (Daniel/Trish, All)
+*** Update on interest in [[FuGO]] from the Yeast Community? (Chris T)
+*** POSTPONED ITEM FOR WORKSHOP- Discuss Clincal Trial Ontology and how this effects the process and scope of [[FuGO]] (Barry Smith)
+** Coordinators Reports
+
+'''July 5, 2006'''
+* FuGO Developers Call  - minutes: http://fugo.sourceforge.net/notes/fugo_notes-070506.txt
+** Review Instrument Terms from the following Communities:
+# BIRNLex (imaging)
+# PSI-MS (mass spec)
+
+
+====June 2006====
+
+'''June 28, 2006'''
+* FuGO Developers Call
+** Review Instrument Terms from the following Communities:
+# Flow Cytometry
+# Transcriptomics
+
+
+'''June 21, 2006'''
+* FuGO Developers Call
+** Review ontology modeling proposal to indicate a "Factor"
+** Discuss plans to move forward with reviewing Intrument Terms
+
+'''June 14, 2006'''
+* FuGO Coordinators Call
+** General Business
+*** Discuss/Confirm 2nd [[FuGO]] Workshop Agenda (http://fugo.sourceforge.net/news/index.php) - All
+*** Decide on topics to address in next months Developers Calls (include Epitope Use Case) - All
+*** Vote on MIACA as a collaborating community (http://miaca.sf.net) - All
+*** Review Policy for managing tracker items - add URL to wiki, [[ManagingFugoTermsTracker|Managing FuGO]] Term Tracker - Trish
+*** Review new FuGO web site design - Trish
+*** Update on potential Collaboration with Yeast Community - Chris T.
+** Coordinators Reports
+
+'''June 7, 2006'''
+* Review location of Factor terms
+
+====May 2006====
+
+'''May 31, 2006'''
+* Review plans for the 2nd [[FuGO]] Workshop
+* Review Modelling Proposal for indicating Factor terms
+* Review proposed location of factor terms
+
+'''May 10, 2006'''
+* FuGO Coordinators Call
+** General Business
+*** Discuss Community Road Maps
+# do communities have these
+# how do they fit OR diverge in development style of [[FuGO]]
+# can these be posted on [[FuGO]] site
+*** Post a How to Contribute wiki page?
+*** Approve new members
+*** Set-up time to confirm that CVS merge will work
+*** Discuss plan for next months calls
+*** Discuss when to review Epitope Use Case
+*** Participation in upcoming " Biomedical Ontology in Action" November 8, 2006, Baltimore, Maryland, USA  http://www.imbi.uni-freiburg.de/medinf/kr-med-2006/
+** Coordinator Reports
+** Chris - report from MGED Jamboree
+** Susanna, Trish, Chris, Dawn, Philippe, Daniel - Report from PSI meeting
+** Timeline for updating web sites to present/display correct name of [[FuGO]], i.e. add Investigation to the long name
+** AOB
+
+'''May 3, 2006'''
+* Review Study terms fro Toxicology community - Jennifer presenting
+
+
+====April 2006====
+
+'''April 26, 2006'''
+* Review Study terms from the Flow Cytometry Community - Ryan presenting
+
+'''April 12, 2006'''
+* FuGO Coordinators Call
+** General Business
+*** Developers Meeting schedule for April period (time between Coordinator calls) (All)
+*** Addition of new communities (CS)
+*** Ontology management items (All)
+# agree as to idspace of [[FuGO]]
+# policy for assigning and approving terms into [[FuGO]] as proposed through the tracker - universal and domain/technology specific
+*** CVS policy - trunk and branches
+*** Copyright of [[FuGO]] (TW)
+*** Plans for next workshop - funding possibilities, proposed dates (CS, SS)
+*** OMICS Special Issue (DF/SS)
+** Coordinators Reports
+*** Community Coordinator Reports
+*** CS - update from Ontology Immunology Workshop?
+*** SS - update from Crop Sciences Workshop
+*** CT - update from [[Genomes2Sytems]] Conference
+*** CT - update on PSI preparations
+*** Others - add as needed
+
+'''April 5, 2006'''
+* FuGO Developers Call
+** Discuss terms proposed from Transcriptomics community
+** Discuss issue of Study and timeline
