@@ -18,5 +18,18 @@ A quick overview of some of the CSS.
 
 Too much to list here.
 
+= Progress =
+== So far... ==
+I've
+* Changed the color of the sidebar as all the links on the wiki to a more soft color.
+* Sidebar
+** Reduced the font of the menu: there is no easy way (to my knowledge) to create a two column sidebar. I thought (hoped) it would work using tables, yet no luck. I can always try to add div's to it to tweak it a little. Any comments more then welcome. 
+** Added some links, some pages need to be created.
+
+== Added pages ==
+* Some admin pages (can be seen on categorytree)
+
+== Questions ==
+* Do we need google analytics (extension) for the wiki, to keep track of the most popular pages so we know which pages 'must' be maintained?
 
 [[category:Wiki admin]]
