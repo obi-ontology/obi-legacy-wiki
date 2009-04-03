@@ -92,7 +92,6 @@ Digraph {
 		Subgraph cluster_comments {
 			"Upper-Level Ontology";
 			"Domain Specific Ontology";
-			"Related Ontologies";
 		
 		color = white;
 			
