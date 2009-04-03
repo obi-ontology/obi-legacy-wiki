@@ -64,9 +64,55 @@ As an international, cross-domain initiative, the OBI consortium draws upon a po
 OBI uses the Basic Formal Ontology upper level ontology as a means of describing general entities that do not belong to a specific problem domain. As such, all OBI classes are a subclass of some BFO class.
 
 
-=== Organigram ===
+=== Organization Chart ===
 
 The OBI project is an international, collaborative effort to build an ontology to be used for annotation of Biomedical Investigations. The OBI Consortium is the name under which the OBI project authors its work.
+
+<graphviz>
+Digraph {
+
+/* Node styles */
+	node [shape = square];
+	{node [color = grey, style = dashed];
+		"Upper-Level Ontology";
+		"Domain Specific Ontology";
+		"Related Ontologies";
+	}
+
+	{ node [color =grey]
+		"NeuroCommons";
+	}
+
+	{ node [shape = plaintext]
+		"...";
+	}
+
+/* Subs */
+	/* Comments */
+		Subgraph cluster_comments {
+			"Upper-Level Ontology";
+			"Domain Specific Ontology";
+			"Related Ontologies";
+		
+		color = white;
+			
+		}
+
+/* Relations */
+	BFO -> OBI;
+	BFO -> "OBO Foundry";
+	
+	"OBO Foundry" -> OBI;
+	"OBO Foundry" -> "NeuroCommons" [color = grey];
+	"OBO Foundry" -> "..." [color = grey];
+	
+	OBI -> Branches;
+	
+	"Upper-Level Ontology" -> BFO [style = dashed, color = grey];
+	"Domain Specific Ontology" -> OBI [style = dashed, color = grey];
+	
+}
+</graphviz>
 
 == Contributing to OBI ==
 ==== The Developers ====
