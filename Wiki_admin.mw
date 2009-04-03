@@ -63,9 +63,12 @@ Some important notes on the CSS of the wiki (for those who are interested):
 == So far... ==
 I've
 * Changed the color of the sidebar as all the links on the wiki to a more soft color.
+* added category "meetings" (workshop, conferences...)
 * Sidebar
 ** Reduced the font of the menu: there is no easy way (to my knowledge) to create a two column sidebar. I thought (hoped) it would work using tables, yet no luck. I can always try to add div's to it to tweak it a little. Any comments more then welcome. 
 ** Added some links, some pages need to be created.
+* Imported:
+** workshop 2007: [https://wiki.cbil.upenn.edu/obiwiki/index.php/Day_1_Monday_9_July], [https://wiki.cbil.upenn.edu/obiwiki/index.php/Day_2_Tuesday_10_July],[https://wiki.cbil.upenn.edu/obiwiki/index.php/Day_3_Wednesday_11_July],[https://wiki.cbil.upenn.edu/obiwiki/index.php/Day_4_Thursday_12_July],[https://wiki.cbil.upenn.edu/obiwiki/index.php/Day_5_Friday_13_July] -> renamed: Workshop_notes_2007_july_9, Workshop_notes_2007_july_10...
 
 == Added pages ==
 * Some admin pages (can be seen on [[Category_Tree | categorytree]])
