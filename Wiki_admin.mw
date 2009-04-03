@@ -76,5 +76,6 @@ These pages are not dropped in the sense that they are deleted on the old wiki, 
 
 == Questions ==
 * Do we need google analytics (extension) for the wiki, to keep track of the most popular pages so we know which pages 'must' be maintained?
+* Is it a wise to add pages for action_items? Do we want a page gathering all action items (Action_items)? Can't all action_items be stored on the specific pages (e.g. for agenda, conference calls...)?
 
 [[category:Wiki admin]]
