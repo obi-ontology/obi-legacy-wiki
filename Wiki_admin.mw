@@ -1,24 +1,57 @@
-This page is intended for those pages related to the admin of the OBI wiki. 
+This page is intended for those pages related to the admin of the OBI wiki. Read through the guidelines to know how to edit/create pages. 
 
 
 = 'Wiki Admin' category Pages  =
+This category lists the regular pages which aren't special pages, but nevertheless are used to manage and maintain the wiki. Do note that this list does not list the [[Special:Specialpages | special pages]]. 
 <categorytree mode=pages>Wiki admin</categorytree>
 
+= Pages = 
 = Pages in need for edits =
 
 = Missing Pages =
 
-= Style & Design =
+= Using the wiki =
+
+== How to edit/create pages ==
+
+When editing/creating pages, keep the following in mind:
+* When creating a pages, use capitals for the first word, lowercase for the second and subsequent words (e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
+* When creating a page, it's preferred to start of with 'general' and end with more specific words (e.g. 'Conference_call_developers and not 'developers_conference_call)
+* When creating a page, add the category it belongs to. You can add multiple categories for each page. Check [[Special:Categories | this page]] to see which categories we use on this wiki
+* When editing/creating a page, it is always useful to add some comments in the 'Summary' field or checking the minor edit
+
+Additional resources: 
+* [http://en.wikipedia.org/wiki/How_to_edit Editing pages]
+* [http://en.wikipedia.org/wiki/Wikipedia:Naming_conventions Creating pages]
+
+
+== Create Diagrams ==
+
+This wiki is able to create diagrams without the need of uploading any file. Using a simple syntax, one can create complex diagrams. The advantage is that others can edit the diagram on the wiki and there is no longer a need to download the original file (of the diagram). These diagrams use the language 'dot' for the creation of the files. Some examples are shown [[Graphviz_example | here]].
+
+Some disadvantages:
+* dot does not (yet) allow for Venn diagrams (cf. overlapping clusters)
+* Large diagrams tend to become (too) big. This can be resolved by decreasing the font size or by applying ranks to the various elements
+
+
+== Style & Design ==
 
 A quick overview of some of the CSS.
 
 * MediaWiki:Sidebar is styled using regular skin specific css. CSS added to 'main.css' (obi-ontology/w/skins/cc4).
 
+== How to Create Tables ==
+
+To allow for a consistent styling of tables, we created a class in the main.css file. This class defines the headers, the width and length of the tables. It is recommended to use this class, and overrule some of its style if needed. 
+(in progress)
+
 = ToDo list =
 
-Too much to list here.
+Too much to list here, but some of it includes:
+* create style for tables
+* move imported pages
 
-= Progress =
+= Progress (temp for moving old wiki) =
 == So far... ==
 I've
 * Changed the color of the sidebar as all the links on the wiki to a more soft color.
