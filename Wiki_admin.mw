@@ -76,14 +76,7 @@ An overview (on the old wiki) to see which pages have been imported, check [http
 * Some admin pages (can be seen on [[Category_Tree | categorytree]])
 
 == Dropped pages ==
-These pages are not dropped in the sense that they are deleted on the old wiki, yet are not imported. I list them so others can judge whether they need to be imported nevertheless. 
-* [https://wiki.cbil.upenn.edu/obiwiki/index.php/ObiIntroduction Obi Introduction] -> replaced by [[General_introduction | General introduction]] (under construction and will use some info in the main OBI paper)
-* [https://wiki.cbil.upenn.edu/obiwiki/index.php/BranchBreakout BranchBreakout] -> drop?
-* [https://wiki.cbil.upenn.edu/obiwiki/index.php/BioMaterialUseCases BioMaterialUseCases] -> drop?
-* notes -> drop or add to page...?
-** [https://wiki.cbil.upenn.edu/obiwiki/index.php/15mar07 notes] 
-** [https://wiki.cbil.upenn.edu/obiwiki/index.php/17may07 some more notes]
-** [https://wiki.cbil.upenn.edu/obiwiki/index.php/24may07]
+Do we need [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Drop these pages]?
 
 == Questions ==
 * Do we need google analytics (extension) for the wiki, to keep track of the most popular pages so we know which pages 'must' be maintained?
