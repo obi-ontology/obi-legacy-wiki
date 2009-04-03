@@ -34,22 +34,29 @@ Some disadvantages:
 * Large diagrams tend to become (too) big. This can be resolved by decreasing the font size or by applying ranks to the various elements
 
 
-== Style & Design ==
-
-A quick overview of some of the CSS.
-
-* MediaWiki:Sidebar is styled using regular skin specific css. CSS added to 'main.css' (obi-ontology/w/skins/cc4).
-
 == How to Create Tables ==
 
 To allow for a consistent styling of tables, we created a class in the main.css file. This class defines the headers, the width and length of the tables. It is recommended to use this class, and overrule some of its style if needed. 
-(in progress)
+(in progress).
+
+For a more detailed overview on how to use tables, see [[http://en.wikipedia.org/wiki/Help:Table this wikipedia page]].
+
 
 = ToDo list =
 
 Too much to list here, but some of it includes:
 * create style for tables
 * move imported pages
+
+
+== Style & Design ==
+
+Some important notes on the CSS of the wiki (for those who are interested):
+
+* MediaWiki:Sidebar is styled using regular skin specific css. CSS added to 'main.css' (obi-ontology/w/skins/cc4).
+* Currently categories are hidden using css (display:none in obi-ontology/w/skins/cc4/main.css)
+* Tables are styled using table specific class (obi-ontology/w/skins/cc4/main.css)
+
 
 = Progress (temp for moving old wiki) =
 == So far... ==
@@ -60,7 +67,7 @@ I've
 ** Added some links, some pages need to be created.
 
 == Added pages ==
-* Some admin pages (can be seen on categorytree)
+* Some admin pages (can be seen on [[Category_Tree | categorytree]])
 
 == Questions ==
 * Do we need google analytics (extension) for the wiki, to keep track of the most popular pages so we know which pages 'must' be maintained?
