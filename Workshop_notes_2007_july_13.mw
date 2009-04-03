@@ -131,3 +131,6 @@ AR: Yes, it's at the process level when we will come into problems. TreatedRole 
 BB: that PATO Phenotype statement example I did SPECIFICALLY addressed the issue of treatement groups.  It didn't use roles - in its current "raw" form, but it provides a detailed example of how PATO and other OBO Foundry ontologies can be used to explicitly define treatment groups using PATO and the Phenotype syntax. Go to http://esw.w3.org/topic/HCLS/OntologyTaskForce/OboPhenotypeSyntaxExperiment and scroll down to Experiment Assertions. age mapped controls in particular
 
 PA: Can we use the current OBI term control_role to explicitly state that some elements are controls,  using the structure outlined by Alan?
+
+
+[[category:Meetings]]
