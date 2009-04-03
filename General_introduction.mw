@@ -76,7 +76,6 @@ Digraph {
 	{node [color = grey, style = dashed];
 		"Upper-Level Ontology";
 		"Domain Specific Ontology";
-		"Related Ontologies";
 	}
 
 	{ node [color =grey]
