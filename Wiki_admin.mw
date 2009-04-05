@@ -75,8 +75,9 @@ An overview (on the old wiki) to see which pages have been imported, check [http
 * Some admin pages (can be seen on [[Category_Tree | categorytree]])
 
 == Drop & Join pages ==
-Do we need [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Drop these pages]?
-Is it a good idea to join [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Join these pages]. Joining means loosing the history and discussions.
+Do we need [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Drop these pages]?<br>
+Is it a good idea to join [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Join these pages]. Joining means loosing the history and discussions.<br>
+What's shall we do with all the [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Action_items action pages] on the old wiki? Submit to tracker, drop or create 1 page?
 
 == Questions ==
 * Do we need google analytics (extension) for the wiki, to keep track of the most popular pages so we know which pages 'must' be maintained?
