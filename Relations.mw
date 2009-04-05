@@ -45,4 +45,4 @@ The OBI project is using the OBO relation ontology [http://www.bioontology.org/w
 # Every relation in Relations.owl is in effect a proposal for inclusion into the RO.
 # If a relation that is in [http://www.berkeleybop.org/ontologies/obo-all/ro_proposed/ro_proposed.owl RO_proposed] or in OBI Relations.owl is accepted in the RO, then OBI uses this version of the relation rather than the relation contained in external-by-hand or Relations.owl, as OBI imports the Relation Ontology.
 
-[[category:Branches]]
+[[category:Relations]]
