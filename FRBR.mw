@@ -1,3 +1,5 @@
+[[category:Obsolete]]
+
 This page is to discuss the possibility of using aspects of the [http://www.frbr.org/ FRBR] (Functional Requirements for Bibliographic Records) analysis for OBI/[http://www.frbr.org/ SWAN]'s representation of documents/publications. It grows out discussions with the SWAN team and the observation that aspects of their plan to represent the narrative of scientific papers and citations overlapped with parts of the digital entities plus branch.
 
 The backbone of the FRBR model are the four types Work, Expression, Manifestation, Item. In the sections below the definitions are taken from the [http://www.ifla.org/VII/s13/frbr/frbr.pdf FRBR Final Report]
