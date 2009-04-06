@@ -1,3 +1,5 @@
+[[category:?]]
+[[category:Obsolete]]
 ==Ontology Design Patterns==
 
 Over the last decade, members of [http://intranet.cs.man.ac.uk/bhig/ the Bio-Health Informatics Group at the University of Manchester] - in particular, [http://intranet.cs.man.ac.uk/bhig/people.php#alanrector Dr. Alan Rector], [http://intranet.cs.man.ac.uk/bhig/people.php#robertstevens Dr. Robert Stevens] and their colleagues - through their work on a wide variety on KR/KM/KD efforts as [http://www.openclinical.org/prj_galen.html The Galen Project], the [http://www.gong.manchester.ac.uk/ Gene Ontology Next Generation (GONG) Project] and fundamental contributions to application of OWL to semantically-driven data integration and bioinformatic knowledge representation, have been accumulating a variety of effective Design Patterns for practical ontology development.  This work has more recently found a home in the [http://www.co-ode.org CO-ODE Project].
