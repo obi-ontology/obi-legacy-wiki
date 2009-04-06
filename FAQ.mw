@@ -2,8 +2,6 @@
 
 If you are new to OBI or just wondering if your question has been answered before, please see the list of FAQs below.  If you can not find your question here please email obi-devel@lists.sourceforge.net
 
-__TOC__
-
 nd declarative representation which includes the vocabulary (or names) for referring to the terms in that subject area and the logical statements that describe what the terms are, how they are related to each other, and how they can or cannot be related to each other. Ontologies therefore provide a vocabulary for representing and communicating knowledge about some topic and a set of relationships that hold among the terms in that vocabulary." 
 
 ===What files do I need to use OBI?===
@@ -82,4 +80,4 @@ For more information on this issue see:
 ## [http://sourceforge.net/mailarchive/forum.php?thread_name=4695120B.7070506%40ebi.ac.uk&forum_name=obi-develOntology Design Pattern for Normalisation (Untangling)]
 
 
-[[in progress]]
+[[category:OBI general]]
