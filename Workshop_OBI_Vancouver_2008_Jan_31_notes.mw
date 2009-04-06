@@ -531,3 +531,5 @@ Map this on OBI, using investigation, DT, plan, objective....
 ** has_input: biomaterial - no problem
 ** has_output: (information content entity AND (''about'' SOME (RNA Concentration))
 *** RNA Concentration is a quality
+[[category:Workshops]]
+[[category:2008]]
