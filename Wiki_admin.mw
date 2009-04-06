@@ -66,7 +66,7 @@ Some important notes on the CSS of the wiki (for those who are interested):
 == So far... ==
 I've
 * Changed the color of the sidebar as all the links on the wiki to a more soft color.
-* added category "meetings" (workshop, conferences...)
+* Added a few categories [[Category_Tree | see Category Tree]]
 * Sidebar
 ** Reduced the font of the menu: there is no easy way (to my knowledge) to create a two column sidebar. I thought (hoped) it would work using tables, yet no luck. I can always try to add div's to it to tweak it a little. Any comments more then welcome. 
 ** Added some links, some pages need to be created.
