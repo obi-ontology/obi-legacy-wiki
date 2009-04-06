@@ -18,12 +18,12 @@ These pages need revision or are missing:
 == How to edit/create pages ==
 
 When editing/creating pages, keep the following in mind:
-* When creating a pages, use capitals for the first word, lowercase for the second and subsequent words (e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
-* When creating a page, it's preferred to start of with 'general' and end with more specific words (e.g. 'Conference_call_developers and not 'developers_conference_call)
-* When creating a page, add the category it belongs to. You can add multiple categories for each page. Check [[Special:Categories | this page]] to see which categories we use on this wiki
-* When editing/creating a page, it is always useful to add some comments in the 'Summary' field or checking the minor edit
-* When creating a page, ask yourself 'Do we really need another page for this'?
-* When creating pages related to a specific event, add the datum at the end of page title (e.g. Workshop_notes_2008_july_9 or Woekshop_notes_2008_july_9-12 and not 2008_Workshop_notes nor Notes_workshop_2008_winter). 
+* When creating a pages, '''use capitals for the first word, lowercase for the second''' and subsequent words (e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
+* When creating a page, it's preferred to '''start of with 'general' and end with more specific words''' (e.g. 'Conference_call_developers and not 'developers_conference_call)
+* When creating a page, '''add the category it belongs to'''. You can add multiple categories for each page. Check [[Special:Categories | this page]] to see which categories we use on this wiki
+* When editing/creating a page, it is always useful to add '''some comments in the 'Summary' field''' or checking the minor edit
+* When creating a page, ask yourself ''''Do we really need another page for this''''?
+* When creating pages related to a '''specific event, add the datum''' at the end of page title (e.g. Workshop_notes_2008_july_9 or Woekshop_notes_2008_july_9-12 and not 2008_Workshop_notes nor Notes_workshop_2008_winter). 
 
 Additional resources: 
 * [http://en.wikipedia.org/wiki/How_to_edit Editing pages]
