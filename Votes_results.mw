@@ -538,3 +538,5 @@ In other words, the traditional way one identifies a source in a research paper 
 * We recently decided to use the representation of alternative tags is to follow the specification given on http://esw.w3.org/topic/OBI_Definition_Source, obsoleting the fields alternative_term_tag, alternative_term_source
 
 In other words, the page is out of date. It appears that the current version of this page is one of the same name on the wiki [[MinimalMetadata]]. Daniel created that page in February 2007. It's initial version is exactly the text of the sourceforge page. The current version of that page lists definition_citation as our "implementation" of the definition_source metadata.
+[[category:OBI general]]
+[[category:Wiki admin]]
