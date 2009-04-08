@@ -1,4 +1,4 @@
-[[category:Obsolete]]
+[[category:obsolete]]
 ==How do we specify solute concentration in OBI using BFO + OBO-RO + PATO==
 
 There are typically two ways in which concentration is important to the experimental descriptions OBI will need to support:
@@ -20,7 +20,8 @@ One of the most difficult requirements of the representational strategy we adopt
 ----
 
 [[DetailedDiscussionOfConcentrationQualityInOBI|<<Detailed Discussion Of Concentration Quality In OBI]] <br>
-[[Main Page|<<Back to Homepage]]
+[[OngoingDeveloperDiscussions|<<Ontology Developer Discussion page]] <br>
+[[HomePage|<<Back to Homepage]]
 
 ----
 
