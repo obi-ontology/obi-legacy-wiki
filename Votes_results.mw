@@ -1,1 +1,540 @@
 This page lists the votes made by the OBI developers.
+
+
+== COORDINATOR VOTE: authorship ==
+
+VOTING CLOSES 4th May 2008
+[edit] Poster authorship
+
+Authorship on posters and talk where the primary topic is OBI.
+Authorship will be "Presenters on behalf of the OBI Consortium" where the presenters will decide order amongst themselves. Note that authors are the Consortium but it is expected that the presenters will typically be the ones responsible for the abstract/ poster/ talk. The coordinating committee should be notified at least two weeks prior to any deadlines and it is up to the CC to respond with objections.
+
+    * Melanie Courtot - Y
+    * Ryan Brinkman - Y
+    * Richard Scheuermann - Y
+    * Chris Stoeckert - Y
+    * Tina Boussard - Y
+    * James Malone - Y
+    * Helen Parkinson - Abstain
+    * Alan Ruttenberg - Y
+    * Susanna Sansone - Y
+    * Daniel Schober - Y
+    * Bjoern Peters - Y
+    * Frank Gibson - Y 
+
+[edit] Authorship on the main OBI paper.
+
+Authorship will be the OBI Consortium followed by an alphabetical listing of the members. Contributions of the authors will be placed in the appendix. Writing duties and content will be discussed at the July face to face workshop.
+
+Please add your name and vote Y to accept this proposal, N to reject this proposal
+
+    * Melanie Courtot - Y
+    * Ryan Brinkman - Y
+    * Richard Scheuermann - Y
+    * Chris Stoeckert - Y
+    * Tina Boussard - Y
+    * James Malone - Y
+    * Helen Parkinson - abstain.
+    * Alan Ruttenberg - Y (supports if it can work, but open to possibility it won't)
+    * Susanna Sansone - Y
+    * Daniel Schober - Y
+    * Bjoern Peters - Y
+    * Frank Gibson - Y 
+
+
+== VOTE: Update of minimal metadata page ==
+
+Proposal to change the cardinality of definition_source to 1...n (instead of 1 currently) leaving the curators free to put 1 or more sources.
+Find the discussion (pros and cons) here: 
+http://sourceforge.net/tracker/index.php?func=detail&aid=1911150&group_id=177891&atid=886178
+
+
+VOTING CLOSES 10th April 2008
+
+Please vote Y to accept this proposal, N to reject this proposal
+
+*James Malone - Y
+*Bill Bug - Y
+*Melanie Courtot - Y
+*Alan Ruttenberg - Y
+*Elisabetta Manduchi - Y
+*Daniel Schober - N  (for reasons stated on tracker)
+*Helen Parkinson - Y
+*Ryan Brinkman - Y
+*Tina Boussard - Y
+*Allyson Lister - N - I agree with Daniel. If we had a way to link part of a definition with a particular source, I would not be opposed but I am opposed as the proposal stands now.
+*Susanna Sansone - N
+*Eric Deutsch - Y
+*Chris Stoeckert - Y
+*Richard Scheuermann - Y
+
+== VOTE: Implementation of the obi-users list ==
+
+Proposal to introduce the list using Google groups (rather than sourceforge). There has been some objection before, so need to put to vote. So proposal is add obi-users list as google group or add as sourceforge mailing list.
+
+VOTING CLOSES 10th April 2008
+
+Please vote G to introduce the user list as Google group, S to introduce the user list as a Sourceforge list
+
+*James Malone - G or S
+*Bill Bug - G
+*Melanie Courtot - G
+*Alan Ruttenberg - G
+*Elisabetta Manduchi - G
+*Daniel Schober - G or S
+*Helen Parkinson - G or S
+*Ryan Brinkman - G or S
+*Tina Boussard - G
+*Allyson Lister - G - though I *still* have yet to see any of our archived threads on google groups come up in *any* google search. Anyone else have any better luck?
+*Susanna Sansone - S
+*Eric Deutsch - G
+*Chris Stoeckert - G
+*Richard Scheuermann - A (not informed enough to make a judgement on the topics, so I will vote to abstain and leave the results to those who no more about the subject)
+
+== VOTE: SVN and documentation ==
+
+DT branch expressed the need for having a directory under SVN to store legacy spreadsheets etc. for their branch.  We also agreed that we would like to have 2 distinct documentation directories, one for user documentation and one for development documentation. We could even have a link http://purl.org/obo/obi/documentation/ for the user documentation. This will be dealt with during SVN reorganization. Note: Liju commented that her branch already uses google doc and wishes to keep this, as there is a version control system. Everybody agreed that it is up to the branches to decide how to proceed, the DT proposal is for archiving of non-edited anymore documents for example.
+
+VOTING CLOSES 10th April 2008
+
+Please vote Y to accept this proposal, N to reject this proposal
+
+*James Malone - Y
+*Bill Bug - Y
+*Melanie Courtot - Y
+*Alan Ruttenberg - Y
+*Elisabetta Manduchi - Y
+*Daniel Schober - Y
+*Helen Parkinson - Y
+*Ryan Brinkman - Y
+*Tina Boussard - Y
+*Allyson Lister - Y (as long as they are clearly marked as legacy, and used as such, as I can forsee non-legacy uses of a development documentation directory, and these uses should be kept separate)
+*Susanna Sansone - Y
+*Eric Deutsch - Y
+* Chris Stoeckert Y
+*Richard Scheuermann - Y (not sure why this needed to be voted on)
+
+
+== VOTE: Changes to OBI Tracking System ==
+
+As part of the review of OBI process at the winter 2008 workshop, four proposals were suggested for tracking changes to the owl files.  A summary of the four proposals is given below. 
+
+*Sourceforge tracker (current system)
+*W3C (Alan to complete)
+*Trac(Bjoern:) http://trac.edgewall.org/
+This an open source software package, which integrates a tracker with a subversion repository, roadmap, and wiki. The main advantage is the integration between these. One can e.g. refer to the version of files in svn with which an issue was supposed to be resolved. It works very nicely for us, and can be highly customized. 
+The main disadvantage is that someone would have to host and administer it. I am not volunteering. 
+
+*Google Code (Alan to complete by the 13th of March)
+
+Could you please indicate if you have a preference by adding the name of the tracking system you would prefer of please indicate if you have no preference.  (e.g. John Smith - Sourceforge, Jane Smith - no preference).
+
+VOTING CLOSES 31st of March.
+
+* Frank Gibson
+* Ryan Brinkman No preference
+* Jennifer Fostel No preference as long as the system has good help
+* Alan Ruttenberg
+* Gilberto Fragoso
+* Norman Morrison
+* Philippe Rocca-Serra - no preference
+* Susanna-Assunta Sansone
+* Chris Stoeckert - sourceforge tracker (rather not learn something new without really compelling reason - haven't heard it yet)
+* Dawn Field
+* Tanya Gray
+* Tina Hernandez-Boussard No preference
+* Bill Bug
+* Luisa Montecchi
+* Bjoern Peters
+* Richard Scheuermann - no preference
+* Helen Parkinson - sf tracker seems to be working well, I would like to continue to use it
+* James Malone - i quite like present sourceforge tracker 
+* Daniel Schober - Sourceforge tracker
+* Jeffrey Grethe
+* Daniel Rubin
+* Stefan Wiemann
+* Richard Bruskiewich
+* Eric Deutsch - no preference
+* Chris Taylor
+* Helen Causton
+* Liju Fan - sourceforge tracker (not familiar with the others)
+* Mervi Heiskanen
+* Joe White
+* Melanie Courtot - W3C - I like the email facility
+* Allyson Lister - no preference
+* Matthew Pocock
+* Elisabetta Manduchi - no preference
+
+8 - no preference
+5 - sourceforge
+1 - w3c
+
+== Vote on proposal for ISMB submission: authorship, abstract and poster preparation ==
+Y Ryan Brinkman<br>
+Y Bjoern Peters<br>
+Y Tina Boussard<br>
+Richard Scheuermann<br>
+N Philippe Rocca-Serra<br>
+A Susanna Sansone<br>
+Jennifer Fostel<br>
+Y Frank Gibson<br>
+Y Daniel Schober<br>
+Y Helen Parkinson<br>
+Y Chris Stoeckert<br>
+Y Bill Bug<br>
+A Liju Fan<br>
+Y Melanie Courtot<br>
+Y Allyson Lister<br>
+Y Alan Ruttenberg<br>
+Y James Malone<br>
+<br>
+Y: 12<br>
+N: 1<br>
+A: 2<br>
+<br>
+According to OBI  rules 2/3 of the CCC must vote and the result has to
+be a simple majority.
+There are 17 members in the CCC, 13 have voted and 10 (a majority of the
+Yes/No votes so far) have voted yes.
+CC members are also counted in the overall vote tally (and could
+overturn the CCC vote), however none have provided feedback in the time
+required to submit this poster.
+<br>
+I acknowledge that there was not a two week voting period, however I
+hope we can move on at this time. As such the poster will be submitted
+this evening.
+
+== VOTE: list of core-coordinators ==
+
+'''THIS VOTE IS OPEN TO MEMBERS OF THE COORDINATING COMMITTEE ONLY. VOTING CLOSED 13th MARCH 2008.'''
+
+Following the workshop in Vancouver it has been decided to create a core-coordinators list. After inquiry, a subset of "opt-in and active as editor" has been identified. It is proposed to identify this subset + the core developers as "core-coordinators". This should should speed up decisions needed to make progress, as for example a quorum of that core-coordinators group will have authority to take decisions.
+
+Full list of proposed core-coordinators (includes core-coordinators, i.e. "Opt in and active as editor" status + core developers)<br>
+<br>Ryan Brinkman 
+<br>Bjoern Peters
+<br>Tina Boussard
+<br>Richard Scheuermann
+<br>Philippe Rocca-Serra
+<br>Susanna Sansone
+<br>Jennifer Fostel
+<br>Frank Gibson
+<br>Daniel Schober
+<br>Helen Parkinson
+<br>Chris Stoeckert
+<br>Bill Bug
+<br>Liju Fan
+<br>Melanie Courtot
+<br>Allyson Lister
+<br>Alan Ruttenberg
+<br>Daniel Schober
+<br>James Malone
+
+
+If the vote were to pass the following changes would be made to the OBI-GroupRegs document:<br>
+
+Under section 1.2 Constitution.<br>
+Add:<br>
+"1.2.8        A core coordinating committee (CCC) will be formed from the CC  <br>
+however the CCC will only contain CRs who are demonstrably active in <br> 
+OBI development such as participating as an OBI editor,  and the core developers. The CCC is  <br>
+formed mainly to expedite the  voting process by increasing the <br> 
+likelihood of reaching a quorum and voters making informed choices. "<br>
+<br>
+Then under section 1.3 Voting, all references to CC will be changed to CCC.<br>
+For example<br>
+"1.3.4        A voting process is only considered legitimate where votes have  <br>
+been cast by two-thirds of current CCC members (either at the meeting  <br>
+or beforehand)."<br>
+Please indicate if you agree with the proposal by indicating: <br><br>
+Y - Yes <br>
+N - No 
+
+
+
+* Ryan Brinkman - Y
+* Bjoern Peters - Y
+* Tina Boussard -Y
+* Richard Scheuermann - Y
+* Philippe Rocca-Serra
+* Susanna Sansone - Y
+* Jennifer Fostel - Y
+* Frank Gibson - Y
+* Daniel Schober - Y
+* Helen Parkinson -Y
+* Chris Stoeckert - Y
+* Bill Bug - Y
+* Liju Fan
+* Daniel Rubin
+* Stefan Wiemann
+* Mervi Heiskanen
+* Eric Deutsch - Y
+* Luisa Montecchi - Y
+* Chris Taylor
+* Norman Morrsion
+* John Westbrook
+* Gilberto Fragoso
+* Jeff Grethe
+* Richard Bruskiewich/ Rosemary Shrestha
+* Trish Whetzel
+* Dawn Field
+* Tanya Gray
+* Joe White
+* Helen Causton
+* Melanie Courtot - Y
+* Allyson Lister - Y
+* Alan Ruttenberg Y
+* James Malone - Y
+
+== VOTE: Changes to Voting Time==
+
+As part of the review of OBI process at the winter 2008 workshop, it has been suggested that the length of time a vote (on this page) is open for is reduced to 2 weeks (from the current 4 weeks).
+
+Please indicate if you agree with the proposal by indicating: <br>
+Y - Yes (change to 2 weeks) <br>
+N - No (remain at 4 weeks) 
+
+* Frank Gibson - Y
+* Ryan Brinkman Y
+* Jennifer Fostel - Y
+* Alan Ruttenberg -Y
+* Gilberto Fragoso
+* Norman Morrison
+* Philippe Rocca-Serra - Y
+* Susanna-Assunta Sansone - Y
+* Chris Stoeckert Y
+* Dawn Field
+* Tanya Gray
+* Tina Hernandez-Boussard-Y
+* Bill Bug - Y
+* Luisa Montecchi
+* Bjoern Peters - Y
+* Richard Scheuermann - Y
+* Helen Parkinson - Y
+* James Malone - Y
+* Daniel Schober - Y
+* Jeffrey Grethe
+* Daniel Rubin
+* Stefan Wiemann
+* Richard Bruskiewich
+* Eric Deutsch - Y
+* Chris Taylor
+* Helen Causton
+* Liju Fan - Y
+* Mervi Heiskanen
+* Joe White
+* Melanie Courtot - Y
+* Allyson Lister - Y
+* Matthew Pocock
+* Elisabetta Manduchi - Y
+
+===Spaces or Underscores===
+S-spaces
+U-underscores
+
+*Ryan Brinkman S (If underscores needed software can make the change)
+*Jennifer Fostel 
+*Gilberto Fragoso S (this applies to annotations of classes with terms, not to identifiers)
+*Norman Morrison 
+*Philippe Rocca-Serra S
+*Susanna-Assunta Sansone S
+*Chris Stoeckert S
+*Trish Whetzel 
+*Dawn Field 
+*Tanya Gray 
+*Tina Hernandez-Boussard U
+*Bill Bug S (terms are for people; underscores might confuse some into thinking terms are immutable identifiers, which they are NOT)
+*Luisa Montecchi 
+*Bjoern Peters 
+*Richard Scheuermann 
+*Daniel Schober S
+*Jeffrey Grethe 
+*Daniel Rubin 
+*Stefan Wiemann 
+*Richard Bruskiewich 
+*Eric Deutsch 
+*Chris Taylor 
+*Helen Causton 
+*Liju Fan 
+*Mervi Heiskanen 
+*Helen Parkinson S
+*James Malone U comment: no real preference, either can be parsed by tools
+*Joe White
+*Melanie Courtot U comment:easy to parse, more intuitive to "escape" spaces, consistency
+*Allyson Lister U
+*Matthew Pocock S - terms are for people, people read spaces, not underscores (internationalization - full unicode?)
+*Alan Ruttenberg S
+
+
+=== Update to ''curation status'' AnnotationProperty value ===
+
+A discussion thread from Dec 2007/Jan 2008 attempted to update the ''curation status'' value definitions based on the past year of experience performing branch editing.  We need to finalize these, so they can be used to help automate the automated acceptance testing we are setting up for the OBI release implementation.
+
+'''VOTING CLOSED 20th FEBRUARY (need time to fully implement use of these for the scheduled March 1 release).'''
+
+''Proposal''<br>
+	A) Restrain the cardinality of the curation_status property to 1<br>
+	B) 
+{|  border="1"
+|+ Proposed curation_status values, definitions, and order of precedence
+|-
+! order
+! value
+! definition
+|-
+| 1
+| ''uncurated''
+| Nothing done yet beyond assigning a unique class ID and proposing a preferred term
+|-
+| 2
+| ''metadata_incomplete''
+| Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.
+|-
+| 3
+| ''metadata_complete''
+| Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.
+|-
+| 4
+| ''pending_final_vetting''
+| All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete.  The class is awaiting a final review by someone other than the definition editor.
+|-
+| 5
+| ''ready_for_release''
+| Class has undergone final review, is ready for use, and will be included in the next OBI release.
+|}
+<br>
+Please indicate if you agree with the proposal by indicating: <br>
+Y - Yes (accept = I concur both with the above proposal AND with the suggested amendments below) <br>
+N - No (reject pending addressing suggested change stated below = I don't like the above, and I would instead suggest...) 
+
+* Frank Gibson - Y
+* Ryan Brinkman  Y
+* Jennifer Fostel - Y
+* Alan Ruttenberg
+* Gilberto Fragoso
+* Norman Morrison
+* Philippe Rocca-Serra - Y BUT would replace 'curation_complete' with 'ready_for_release' to address comment made during Vancouver Meeting
+* Susanna-Assunta Sansone - Y
+* Chris Stoeckert  Y
+* Dawn Field
+* Tanya Gray
+* Tina Hernandez-Boussard
+* Bill Bug
+* Luisa Montecchi
+* Bjoern Peters - Y
+* Richard Scheuermann - Y
+* Helen Parkinson
+* James Malone - Y
+* Daniel Schober - Y
+* Jeffrey Grethe
+* Daniel Rubin
+* Stefan Wiemann
+* Richard Bruskiewich
+* Eric Deutsch - Y
+* Chris Taylor
+* Helen Causton
+* Liju Fan - Y
+* Mervi Heiskanen
+* Joe White
+* Melanie Courtot - Y
+* Allyson Lister
+* Matthew Pocock
+* Elisabetta Manduchi - Y
+
+=== VOTE: definition_source vs. definition_citation ===
+
+Please add your name if I haven't put it here - this is just a list I got from the last vote.
+
+This vote is ONLY to address the name of the metadata field, and nothing about the definition or anything else.
+
+Please place either an S or a C after your name to show how you've voted.
+
+VOTING CLOSED 20 FEBRUARY 2008 
+
+S-definition_source C-definition_citation
+
+* Frank Gibson - S
+* Ryan Brinkman - No preference
+* Jennifer Fostel - C
+* Gilberto Fragoso
+* Norman Morrison
+* Philippe Rocca-Serra - S
+* Susanna-Assunta Sansone - S
+* Chris Stoeckert - Don't care
+* Trish Whetzel
+* Dawn Field
+* Tanya Gray
+* Tina Hernandez-Boussard
+* Bill Bug
+* Luisa Montecchi
+* Bjoern Peters - I really don't care
+* Richard Scheuermann - I really don't care
+* Daniel Schober S
+* Jeffrey Grethe
+* Daniel Rubin
+* Stefan Wiemann
+* Richard Bruskiewich
+* Eric Deutsch - S
+* Chris Taylor
+* Helen Causton
+* Liju Fan - S
+* Mervi Heiskanen
+* Helen Parkinson
+* James Malone 
+* Joe White
+* Melanie Courtot - C
+* Allyson Lister - S
+* Matthew Pocock
+* Alan Ruttenberg -C
+
+Pros and Cons 
+
+'''Pro 'definition_source' (Daniel):'''
+#'''I am not aware of any community approved decision to use ‘definition_citation’'''.
+#'''‘definition_source’ is what we have on the community approved minimal metadata pages and in the list we submitted to SKOS'''.  
+#Changing to ‘definition_citation’ will/has set the owl files out of sync with the obi webpages, which might confuse people.
+#We have already agreed to use definition_source at least two times already (once when community-approving the minimal metadata page, and once on a recent telecom (see OBI notes email of 31.10.07, [Obi-devel] Definition_source proposal). I cite from the notes: “1. Definition_source proposal. We all agree that definition_source is a mandatory minimal metadata property. [...] '''The proposal is to change the property label definition_citation to definition_source and all use that'''." 
+#The use of definition_citation instead of definition_source might mislead people: '''The word 'citation' is more restrictive than 'source'  and we do not want to quote a definition, but rather indicate what we took as a starting point/source for the modified definition we ultimately capture'''. The value for definition source is not a strict citation. It gets normalized and refined in most of the cases so that we end with a very distantly related text to what is found in the 'citation'. 
+#'''I believe 'citation' would increase the barrier to align definitions to ours and the OBO Foundrys requirements. It will generate a need to capture an (unmodified) definition_citation AND our (modified) OBI_definition.''' I guess the problem is that if we use definition_citation, we would not be allowed to alter it and would need to store an 'original_definition' AND a normalized OBO Foundry compliant  OBI definition. To be able to proceed and get good ontologically clean definitions we should have the freedom to create and derive our own refined 'definition', using definition sources to credit their roots where applicable. '''This is just a matter of pragmatics and ‘not getting stuck in the meta-ether’'''.
+#'''I belive updating the OBI web pages and make people aware of our minimal metadata-change is more work''' than string-substituting our owl files to use definition_source as originally agreed.
+# Besides our webpages (https://wiki.cbil.upenn.edu/obiwiki/index.php/Definition_source) '''the following external pages and owl examples use definition_source already''': http://esw.w3.org/topic/OBI_Definition_Source and http://esw.w3.org/topic/HCLS/Labels_and_Definitions
+#Alan, '''all the 5 first URLs you cite below do not mention definition_citation, but definition_source.''' The next 2 (external) URLs you cite do have nothing to do with our immediate issue and refer to citations in literature (where the content of what is cited does not need to be modified): The obo discuss link does not mention 'citation' and the next one is just a general publishing best practice for text documents that says nothing about the name for an annotation field anyway.
+# Regarding "Wiki uri on 31.01.2007" which you state... I have no idea what you mean here. Please provide a link.
+
+
+
+
+'''Pro 'definition_citation' (Alan):'''
+
+There are three issues: what the contents of the field should be, what it should be named, and the status of http://obi.sourceforge.net/ontologyInformation/MinimalMetadata.html
+
+1. Contents of the field
+
+We discussed the contents of the field in these developers meetings
+* http://obi.sourceforge.net/notes/developers/200702/28Feb2007.txt
+* http://obi.sourceforge.net/notes/developers/200703/07Mar2007.txt
+
+In this meeting we receive the coordinators call decision on the proposal: String format adopted, instance representation not to be in all versions of OBI, but to be in ones intended for Semantic Web use
+* http://obi.sourceforge.net/notes/developers/200704/18Apr2007.txt
+
+Documentation is here:
+* http://esw.w3.org/topic/OBI_Definition_Source
+
+2. Name of the field
+
+On April 17 2007, Trish updated the page [https://wiki.cbil.upenn.edu/obiwiki.old/index.php/MinimalMetadata MinimalMetadata] to [https://wiki.cbil.upenn.edu/obiwiki.old/index.php/MinimalMetadata?versions%5B%5D=9&versions%5B%5D=8&action=diff change] definition_source to definition_citation. On the next day she [https://wiki.cbil.upenn.edu/obiwiki.old/index.php/CommunityPracticesInOntologyMetadata?versions%5B%5D=72&versions%5B%5D=70&action=diff updated] the page [https://wiki.cbil.upenn.edu/obiwiki.old/index.php/MinimalMetadata  CommunityPracticesInOntologyMetadata] to point to  MinimalMetadata saying that that page was our authority for how OBI uses metadata. Previously it had been the "Metadata Annotation document". This is consistent with a decision having been made in the aforementioned coordinator call.
+
+Motivation:
+* http://obo-discuss.googlegroups.com/web/OBO%20policies%20v8_AR.doc : "We view publishing an open ontology as analogous to publishing an open-access scientific paper in many respects"
+* http://library.duke.edu/research/citing/within/ "Citing Sources Within Your Paper: Whenever you quote, paraphrase, summarize, or otherwise refer to the work of another, you are required to cite its source"
+
+Our current definition for definition_citation is: "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"
+
+In other words, the traditional way one identifies a source in a research paper is a citation, publishing ontologies in the foundries are analogous to publishing research papers, and name that most clearly suggests this is definition_citation. That the definition starts out with "formal citation" further reinforces this.
+
+3. Status of http://obi.sourceforge.net/ontologyInformation/MinimalMetadata.html.
+
+* We use a property called "example_of_usage" not "example" as noted on the page
+* We recently decided to use the representation of alternative tags is to follow the specification given on http://esw.w3.org/topic/OBI_Definition_Source, obsoleting the fields alternative_term_tag, alternative_term_source
+
+In other words, the page is out of date. It appears that the current version of this page is one of the same name on the wiki [[MinimalMetadata]]. Daniel created that page in February 2007. It's initial version is exactly the text of the sourceforge page. The current version of that page lists definition_citation as our "implementation" of the definition_source metadata.
