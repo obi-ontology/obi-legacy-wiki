@@ -126,4 +126,104 @@ We have  mailing lists for both users and developers. Join the users list to be 
 
 == Using OBI ==
 
+=== SVN ===
+
+* Structure of SVN - there are 4 projects set-up, each with their own trunk, branches and tags directory: web, ontology, and tools.
+** web - location for web related files, e.g. the OBI homepage
+** branchDevelopment - location for the branch owl files that are currently being worked on
+** ontology - location for release-ready .owl, .pprj and other files
+** tools - any application code that is of use for the project that is NOT available at another location. The autoid plugin to use with Protege is stored here as this was pointed to us from the Protege list and the code subsequently modified by Gilberto Fragoso.
+
+* see current [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/instructions-svn-local.txt?view=markup README] in the SVN project
+
+==== Powerpoint presentation ====
+
+Powerpoint Presentation on Subversion for OBI [[Image:SubversionObi.ppt]] : given 21 November 2007 by Allyson, Daniel S., and Melanie at the obi-dev Telecon.
+
+==== How to install and set up your local svn repository ====
+
+
+First, read this svn section under
+http://sourceforge.net/docs/B01/en/#
+
+SVN (Subversion) is a tool used by many software developers to manage changes within their source code tree. SVN provides the means to store not only the current version of a piece of source code, but a record of all changes (and who made those changes) that have occurred to that source code. Use of SVN is particularly common on projects with multiple developers, since SVN ensures changes made by one developer are not accidentally removed when another developer posts their changes to the source tree.
+
+In order to access a Subversion repository, you must install a Subversion clientfor your operating system.
+
+On windows, please download and install the TortoiseSVN client from
+http://tortoisesvn.net/downloads
+
+After this configurate the SVN client as described here:
+http://sourceforge.net/docs/F07/en/#config
+and here
+http://sourceforge.net/svn/?group_id=177891
+
+but use the following obi parameter:
+URL:  https://obi.svn.sourceforge.net/svnroot/obi
+
+Then you can create a new folder where you want all the svn stuff to be put by the svn-'checkout'. right click on the new folder and select svn-checkout.
+You will be asked to do some settings and then you connect to the SF svn address and download (checkout) the present directory structure and files into your specified client-based folder.
+Later you will update this folder or files via 'svn update' before you commit your changes back to the common repository. You can use the repro browser (again for tortoise svn client all the options are available via rightclick on your checkout folder or specific files) to just have a look what's in svn without actually downloading/updating anything in your local folder.
+
+How to use svn is described here:
+http://sourceforge.net/docs/E09/en/#top
+
+==== How to Use SVN ====
+
+* command line based (UNIX/MAC):
+[http://svnbook.red-bean.com/en/1.4/svn.tour.cycle.html online tutorial for SVN]
+
+* windows Explorer plugin-based (PC):
+[http://www.shokhirev.com/nikolai/programs/SVN/svn.html using tortoise svn]
+
+to summarize:
+
+- when you want to commit your changes, ALWAYS do '''svn update''' first (svn status -u can also predict conflicts)
+
+If the svn update shows no conflict ("C" in front of the file name) then go ahead and '''svn commit'''
+
+If the svn show conflicts:
+
+	- svn will create additional files in your working repository:
+
+			- ''filename.mine'': This is your file as it existed in your working copy before you updated your working copy—that is, without conflict markers. This file has only your latest changes in it. (If Subversion considers the file to be unmergeable, then the .mine file isn't created, since it would be identical to the working file.)
+
+			- ''filename.rOLDREV'': This is the file that was the BASE revision before you updated your working copy. That is, the file that you checked out before you made your latest edits.
+
+			- ''filename.rNEWREV'': This is the file that your Subversion client just received from the server when you updated your working copy. This file corresponds to the HEAD revision of the repository.
+
+	- at this point you can't commit into svn (as long as these 3 files exists)
+
+=> YOU NEED TO SOLVE THE CONFLICT FIRST
+
+		- you can decide to throw away your changes: '''svn revert''' or copy one of the temporary svn file over your copy
+
+		- you can merge the conflicts by hand (lines identified by ========= and >>>>> and <<<<<<<<)
+
+Once the conflict is solved, run '''svn resolved''' to tell svn that you're now ok. NOTE: svn will trust you, and will not check that you actually solved the conflicts. At this point the .mine, .rOLDREV and .rNEWREV are deleted.
+
+	- you can now '''svn commit''' your files
+
+
+Please check the [http://obi.svn.sourceforge.net/viewvc/obi/branchDevelopment/trunk/instructions-svn-local.txt?view=markup README] in the SVN project for the lock option
+
+
+* USEFUL COMMAND
+You can check using diff between a given revision (for instance the last one committed) and your local working copy - e.g.:<br>
+
+svn diff -r 470 Biomaterial.owl<br>
+
+The above compares the revision 470 of the file Biomaterial.owl to your local copy.<br>
+
+svn diff -r 470 Biomaterial.owl > test.diff.001<br>
+
+
+The above compares the revision 470 of the file Biomaterial.owl to your local copy and write the result in a local file in your copy called test.diff.001.<br>
+(Thanks to Bill for the tip!)<br>
+
+
+
+* Unix/Mac  - command-line or embedded GUI wrapper in Eclipse or Netbeans
+* PC - Tortoise Client
+
 [[category:OBI general]]
