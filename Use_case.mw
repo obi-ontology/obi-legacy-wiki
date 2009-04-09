@@ -531,5 +531,55 @@ Asprin can reduce swelling in an injured limb in mice
 # We conclude animals that had asprin and which responded better to the treatment by reducing swelling faster have a gene mutation that allows them to respond faster. Animals that do not respond as quickly lack this mutation. We are investigating this further.
 
 
+==Informal Compentency Questions==
+
+'''Informal Competency Questions''': the requirements of the ontology, dependent on the [[Motivation]]. Described as informal questions or tasks that an ontology must be able to answer. The Gomez-Perez book on Ontological Engineering (http://books.google.com/books?id=UjS0N1W7GSEC) describes competency questions as (pp 119-120, when describing the methodology to create the TOVE ontologies): "..a set of natural language questions, called competency questions, are used to determine the scope of the ontology. These questions and their answers are both used to extract the main concepts and their properties, relations, and formal axioms of the ontology...Given the set of informal scenarios, a set of informal competency questions are identified. Informal competency questions are those written in natural language to be answered by the ontology once the ontology is expressed in a formal language. The competency questions play the role of a type of requirement specification against which the ontology can be evaluated."
+
+*Note: the original compentency question page can be found [[https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions here]]. The details of which need to be reworked and merged within this page
+
+=== Informal Competency Questions for the PSI Gel Working group ===
+According to the [http://psidev.info/index.php?q=node/91 MIAPE GE] guidelines, OBI would be required to hold terms specific to the methods and techniques of protein separation using gel electrophoresis and cover gel manufacture and preparation, running conditions, protein detection techniques, the method of image acquisition and a technical description of the digitised image generated. Therefore, the competency questions are:
+# Does OBI have all the terms that are represented in [http://psidev.sourceforge.net/gps/CV/ sepCV]?
+
+The competency questions specific for sepCV are: 
+
+* Does sepCV support the minimal information reporting guidelines of MIAPE GE?
+* Does sepCV explicitly model the terms required by the use-cases modelled using [http://psidev.info/index.php?q=node/83#formats GelML]?
+* Are the concepts an accurate representation and a reflection of the terms used in the application domain of Sample processing and separation techniques?
+* Are the definition and semantic meaning of terms unambiguous within the context of the application domain of sample processing and separation techniques?
+* Is sepCV a community defined and accepted lexicon for a sample processing and separation techniques?
+
+
+*[[OBIEvaluation]] - Link to the evaluation strategy pages for OBI which included all submitted competency questions.
+
+=== Informal Competency Questions as a result of discussions on obi-instrument branch ===
+
+[http://sourceforge.net/mailarchive/forum.php?thread_name=90B06673D826C64E8ED8EEA6B6FDF8CA02190082%40crcmail1.BCCRC.CA&forum_name=obi-instrument-branch Archived Email thread]
+These represent more discussion points rather than specific questions
+
+The requirements of those acting as OBI-complient data producers are different from the requirements of
+OBI-complient data consumers. 
+# Producers need to have guidlines, the framework and support in providing their data. 
+# Consumers need the framework, available data and tools to support a wide range of querying, including fairly ad-hoc queries. 
+# Do we need to distinguish between 'browsing' consumers where all the work is done by a person clicking on links, and 'systematic' consumers where the heavy-lifting is done by software agents?
+
+=== [http://sourceforge.net/mailarchive/forum.php?thread_name=0BF025DD64B01342A4F6552D5E452F0C018AF797%40FRD01EXCMBX01.ads.invitrogen.net&forum_name=obi-devel Archived email Thread] - Regarding commercial terms within OBI ===
+
+#The company has the option to maintain the OBI-view of their catalogue
+
+#OBI should provide clear guide-lines for how a company could represent their catalogue with OBI
+
+#Presenting catalogues using OBI should not impact in any way the ability of the company to represent, present or distribute the catalogue in alternative formats
+
+#The presence of a company-maintained catalogue does not impact upon the possibility of some other party (OBI or a third-party) maintaining information about some or all of the products listed in the catalogue in some other OBI-complient source. It is, however, desirable that where practical, a single product is described in a single place.
+
+And there is a responsibility that the company has:
+
+
+#The company has a responsibility to make it clear what the licensing terms are for any OBI-formatted catalogue information, so that recipients know if they can refer to or replicate in part or in full the information contained within the catalogue.
+
+
+#OBI must enable annotation tools (OBI editors, or less specialized apps) to use a wide range of relevant OBI-complaint terms. Regardless of the underlying engineering or technical details, the user must have the option of being presented with a single, integrated view of the domain.
+
 
 [[category:OBI general]]
