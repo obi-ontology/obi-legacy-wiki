@@ -1,177 +1,42 @@
-==OBI Branch Development==
+To enable OBI development to proceed efficiently, the ontology structure was separated into sections (biomaterial, data transformation, digital entity, function, instrument, protocol application, qualities, role and relations) called branches, allowing concurrent development by different groups, with each group working more or less independently. Each branch is maintained in a separate OWL file, and contains closely related terms and definitions. For example, the instrument branch covers relevant kinds of instrumentation and parts of devices. The individual branch pages are listed below in relation to their mapping to BFO:
 
-The development of an Ontology for Biomedical Investigations (OBI) has been divided into branches which were segregated into carefully selected non-overlapping areas of interest which would be modelled.  Each Branch has an assigned group of editors that oversee the development of a given branch.
 
-An introduction to OBI can be found [http://obi.sourceforge.net/ at the SourceForge website] 
-See the [[ObiBranches|branch outline]] for details on the branch development plan including roles and responsibilities.
-
-[[HomePage|<<Back to Homepage]]
-
-<br>
-
-==List of OBI Branches and Branch Reports==
-The branches within OBI correspond to areas of interest to biomedical investigation.  These development branches are constituents of the OBI ontology, each having a specific domain scope detailing the specific area that they represent.  The branches are as follows: <br>
-
-* [[BiomaterialTermNeeds |Biomaterial]] (lead editors: Susanna Sansone and Melanie Courtot), latest Report on: 
-* [[DataTransformation |Data Transformation]] (Tina Boussard and James Malone), latest Report on: http://docs.google.com/Doc?id=dm9czrk_5dcn65ffw
-* [[DigitalEntityTerms |Digitial Entity and Non-realizable Information Entity (DENRIE)]] (Chris Stoeckert), latest Report on: http://docs.google.com/Doc?id=dzprnmw_40fgg4ksf9
-* [[FunctionTerms |Function]] (Bill Bug), latest Report on:
-* [[InstrumentTerms |Instrument]] (Daniel Schober), latest Report on: http://docs.google.com/Doc?id=dg9kgrmp_2f447dkgf
-* [[PlanBranch |Plan (investigation design - protocol)]] (Philippe Rocca-Serra), latest Report on:
-* [[ProtocolApplicationBranch |Protocol Application]] (Bjoern Peters), latest Report on:
-* [[QualitiesBranch |Qualities]] (Chris Mungall), latest Report on: http://docs.google.com/Doc?id=dzprnmw_42f9mk6vdn
-* [[RoleTerms |Role]] (Jennifer Fostel), latest Report on:
-* [[ListOfRelationships |Relations]] (Liju Fan), latest Report on:
-
-Each branch is assigned a group of editors which are responsible for the design and development of the terms, structure and hierarchy.  Mailing lists, weekly conference calls and regular face-to-face meetings are used to progress the development of each branch in a collaborative and cooperative manner.  An introduction to OBI can be found [http://obi.sourceforge.net/ here at the SourceForge website ]
-<br>
-
-A UML group has been constituted to help modeling the use cases:
-* [[UMLgroup |UML]]
-
-==List of OBI Branch ID ranges==
-
-As of February 2008, assigning IDs to OBI terms has become an automated process which is performed on the ontology before each official release.  Previous (now depricated) details on branch ranges can be found here
-https://wiki.cbil.upenn.edu/obiwiki/index.php/AutoIDcommunityRanges
-
-==Link to Minimal Metadata Information==
-* List of minimal metadata to add for terms: [[MinimalMetadata]]
-
-==List of OBI Identifiers for Each Branch==
-*An initial set of identifiers was used during early development.  This has now been replaced by an automated single renaming strategy which is performed before each release.
-
-==Latest Branch OWL Files==
-
-Links to the latest list of terms for each branch can be found in the table below.  Note: as this is currently active work these links are likely to change over time.
-
-{| border="1"
-|+ Latest Branch Terms
-! Branch !! Term List File !! HTML browser
+{|class="wikitable" cellspacing="0" cellpadding="5" width=100%
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Occurent</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Independent continuant</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Dependent continuant</font>
+! width=25% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Relations</font>
 |-
-| Biomaterial
-| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Biomaterial.owl?view=log link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/803226298/?session=11a9bd7533f-22-11a9bd82981 HTML]
-|-
-| Data Transformation
-| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/DataTransformation.owl?view=log link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/-1749715526/?session=11a9bd7533f-22-11a9bd82981 HTML]
-|-
-| DENRIE
-| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/DigitalEntityPlus.owl?view=log link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/-199456832/?session=11a9bd7533f-22-11a9bd82981 HTML]
-|-
-| Function
-| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/OBI-Function.owl link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/1276538141/?session=11a9bd7533f-22-11a9bd82981 HTML]
-|-
-| Instrument
-| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/InstrumentAndPart.owl?view=log link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/1868151930/?session=11a9bd7533f-22-11a9bd82981 HTML]
-|-
-| Plan and Planned Process (formally plan and protocol application)
-| [http://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/PlanAndPlannedProcess.owl?view=log link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/-1018161278/?session=11a9bd7533f-22-11a9bd82981 Process] [http://owl.cs.manchester.ac.uk/browser/classes/-204391659/?session=11a9bd7533f-22-11a9bd82981 Plan]
-|-
-| Qualities
-| [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Quality.owl link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/-561356810/?session=11a9bd7533f-22-11a9bd82981 HTML]
-|-
-| Relations
-| [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Relations.owl link here]
-| [http://owl.cs.manchester.ac.uk/browser/objectproperties/?session=11a9bd7533f-22-11a9bd82981 ObjectProperties] [http://owl.cs.manchester.ac.uk/browser/dataproperties/ DataProperties]
-|-
-| Role
-| [https://obi.svn.sourceforge.net/viewvc/obi/trunk/src/ontology/branches/Role.owl link here]
-| [http://owl.cs.manchester.ac.uk/browser/classes/262589439/?session=11a9bd7533f-22-11a9bd82981 HTML]
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+*Plan and planned process
+*[[Data transformation]]
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
+----
+
+*[http://obi-ontology.org/page/BiomaterialTermNeeds Biomaterial]
+*[[Instrument | Instrument]]
+ 
+
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+
+*[http://obi-ontology.org/page/denrie Digital entities and non-realizable entities]
+*Role branch
+*Function branch
+*Quality
+
+|valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;"| 
+----
+
+*[[Relations]]
+
+
+
 |}
 
-<br>
 
-==OBI Branch Conference Call Minutes==
-
-The following table contains links to minutes from the various branch calls.  A [[GoogleCal|Conference Calls Agenda]] is also available online.
-
-{| border="1"
-|+ Latest Branch Terms
-! Branch !! Link to Notes 
-|-
-| Biomaterial
-| [[BiomaterialTermNeedsCalls |link]]
-|-
-| Data Transformation
-| [[DataTransformCalls|link]]
-|-
-| Digital Entity and Non-realizable Information Entity
-| [[DigitalEntityandNon-realizableInformationEntityCalls|link]]
-|-
-| Function
-| [[FunctionNeeds/TConsMinutes|link]]
-|-
-| Instrument
-| [[InstrumentTermCalls|link]]
-|-
-| OBI-relations
-| link needed
-|-
-| Plan
-| [[PlanTermNeedsCalls|link]]
-|-
-| Protocol Application
-| [[Minutes|link]]
-|-
-| Qualities
-| no calls
-|-
-| Role
-| [[RoleCalls|link]]
-|}
-
-<br>
-
-==OBI Branch Mailing Lists==
-
-The following table contains details on the mailing lists which are available for OBI.
-
-{| border="1"
-|+ Latest Branch Terms
-! Branch !! Term List File 
-|-
-| Biomaterial
-| http://groups.google.com/group/obi-biomaterial
-|-
-| Data Transformation
-| https://lists.sourceforge.net/lists/listinfo/obi-datatrfm-branch 
-|-
-| Digital Entity and Non-realizable Information Entity
-| http://groups.google.com/group/obi-denrie-branch
-|-
-| Function
-| https://lists.sourceforge.net/lists/listinfo/obi-function-branch 
-|-
-| Instrument
-| https://lists.sourceforge.net/lists/listinfo/obi-instrument-branch 
-|-
-| Plan
-| https://lists.sourceforge.net/lists/listinfo/obi-plan-branch 
-|-
-| Protocol Application
-| https://lists.sourceforge.net/lists/listinfo/obi-protocol-application-branch 
-|-
-| Qualities
-| No Mailing List
-|-
-| OBI-relations
-| https://lists.sourceforge.net/lists/listinfo/obi-relations
-|-
-| Role
-| https://lists.sourceforge.net/lists/listinfo/obi-role-branch 
-|}
-
-<br>
-
-A complete list of all OBI mailing lists can be found at http://sourceforge.net/mail/?group_id=177891
-
-==Related Links==
-
-*[[GoogleCal|OBI Conference Calls Agenda ]]
-*[[Milestones|OBI Milestones ]]
+[[category:Branches]]
+[[category:OBI general]]
