@@ -61,8 +61,90 @@ As an international, cross-domain initiative, the OBI consortium draws upon a po
 
 === Branches and Coordinators ===
 
-OBI uses the Basic Formal Ontology upper level ontology as a means of describing general entities that do not belong to a specific problem domain. As such, all OBI classes are a subclass of some BFO class.
+====Editor role====
+It was decided to split the development process into branches. For each branch, groups of editors were assigned. The responsibilities of an editor is as follows,
+* request and vet [[WorkshopMetadata|MIO]] required information for all terms from the communities
+* Compare and resolve conflicts between terms, iteratively get buy-in from the communities
+* Place terms in hierarchy
+* Vetting of orthogonality to existing OBO foundry ontologies; Submit terms to other OBO ontologies that do not belong in OBI
+* Move terms not fit for a given branch to a more appropriate branch, and notify the editors of the branch they are moved to
+* Communicate to the OBI-Devel Group whenever
+** changes to the OBI-Core classes in other branches are deemed necessary
+** classes in the branch which were considered part of the OBI-Core are deleted
 
+====Branch Leader Role====
+* be the principal contact for the branch
+* organize the branch calls and discussion
+* establish a wiki page for the branch where terms and notes are posted
+* negotiate with other branch leaders in cases of disputed terms or setting up joint discussions
+
+====Editor-in-Chief Role====
+It was decided at the March 14 Coordinators call that having an Editor-In-Chief for the OBI bracnches would be beneficial. The duties of this role are:
+* Moderate issues that arise between OBI branches. For example, if there is disagreement between branches such as to how to deal with terms important to those branches, the Editor-In-Chief will arbitrate the decision.
+* Help communities find the appropriate branches for their terms. For example, if terms important to a community are rejected by a branch as out of scope, the Editor-In-Chief will determine whether another branch is more appropriate or ask a bracnh to expand their scope to include those terms.
+* Monitor the discussion of the OBI branches for common issues that warrant general discussion. Bring these issues to the attention of the appropriate group (e.g, OBI developers list).
+* Monitor progress of the OBI branches. Check if they are meeting milestones and suggest steps to keep up with other branches.
+
+====Scoping Branch====
+* Post composite use-cases for study design
+* Document efforts in scoping branches to be able to publish manuscript
+
+====Branches====
+* independent_continuant
+** Biomaterial (Bjoern, Alan Tina, Helen, Susanna, Norman)
+** Instrument, Part of Instrument (Daniel, Melanie, Frank, Ryan)
+** Bio Repositories (Richard, Barry) --> NEEDS TO BE MOVED TO MILESTONES
+* Process
+** Protocol''application (except data''transformation) (Allyson, Bjoern, Alan)
+** Data Transformation (Jeff, Tina, Ryan, Philippe, Richard, Helen)
+*** Bio Repositories Process (Richard, Barry) --> NEEDS TO BE MOVED TO MILESTONES
+* Dependent continuants
+** Qualities (Biomaterial Characteristic, Phenotype) PATO (Chris M point of contact)
+** Roles (Reagent / Reporter / Variable) (Bill, Richard, Jennifer, Alan)
+** Function (Biological Function in [[FuGO]]) (GO, Bill, Suzi(advisor), Alan)
+* Generically Dependent Continuants - This is NOT a branch in itself. Needs to be added to BFO.
+** Sub-branch: Digital Entity and Non-realizable information entity (Data, Dimension, Measurement, Parameter, Value, capturing experimental conclusions) (Liju, Barry(adviser), Jennifer)
+** Sub-branch: Plan (old name: Study_design) (Susanna, Jennifer, Helen, Trish, Liju, Jeff, Philippe)
+* Relationships (Liju, Chris M, Alan, Daniel, Cristian)
+
+==== Branch Implementation====
+* Communication
+** Separate obi mailing lists for each group will be set up via sourceforge. You may sign up for any group's mailing list, even if you are not strictly part of that group
+* Separation of OBI.owl
+** Each branch will be restricted to only modifying their own branch through owl imports
+*** A new owl file will be created for each branch
+*** Liju suggests extracting each branch using Protege � she knows how
+*** Use owl imports for all other OBI branches, thus rendering them read-only
+** To solve problems with shared imports like BFO and others, we should have a parent node owl file containing those things
+*** we can delete this if we want to, once everything is merged back into OBI.owl: this is basically just a convenience method for branch development
+** Relations will be done after all the terms are finished, and the branches merged. They will be done by the relations branch group.
+*** However, DON'T IGNORE RELATIONS � track them and write them down
+*** Write them down in the definition and maybe in the group notes file,
+*** Send your change to the obi relations branch group list to keep them informed.
+
+** Merging back into a single OBI.owl file will occur once all branches are complete, and will be done manually.
+**[http://obi.svn.sourceforge.net/viewvc/*checkout*/obi/branchDevelopment/trunk/ImprotingExportingComplementaryOWLFile.doc?revision=47 This methodology] has raised several [[ProtegeIssues|issues with Protege.]]
+* Keeping Notes
+** Each group should keep a file (also in subversion) recording what changes they are making to their branch (this is in addition to the subversion commit messages). This way other groups can easily scan through and see what you're up to, and it will also provide a useful record within the group.
+* Use of Subversion
+** There will be X .owl files made within SVN, where X <code></code> the number of OBI branches we decided on
+** Initially, these will all be in the trunk directory of the OBI SVN repository. This means that any committed change made by a group will immediately be visible to all other groups as soon as they re-load Protege.
+*** If any branch wants to try something that they feel may break things, they can request that an SVN branch be specially created for them to work in. These branches will never be re-integrated back into the trunk, so they don't have to worry if things go wrong.
+*** Also, each time one of these volatile branches are finished (if any are made at all====), we may decide to tag that stage of the branch as closed or finished, so that people browsing the repository would know these branches were no longer in an active modification state.
+
+** Once all branches are complete, they will be manually concatenated back together again, and the finished file will be committed to the OBI.owl file living in the trunk of the SVN repository.
+* Deprecation of Terms
+** During OBI Branch work
+*** We may consider deprecation now using owl: Deprecated Class, owl: Deprecated Property as long as Alan doesn't find any problem with doing this
+*** It will be actually deleted before committing to obi.owl, again as long as everyone is happy with that at the time.
+** Once the OBI file is stable, will have to think very carefully about it
+*** Deprecation should be done properly and permanently, as it's important for our users to see these deprecation histories once it is 'stable'.
+*** When you deprecate, the smart thing to do (and is done in BIRN) is to take formal owl assertions to a place invisible to reasoners but which says things like 'my former parent is xyz'. That doesn't handle axioms, but would handle parents and children.
+* OBI Identifiers
+** Use community ID ranges for the branch ID ranges. This prevents different branches using the same ID without realizing it
+** The autoid plugin needs to know what the last assigned ID is, so it may be useful for each group to keep a file with the last assigned ID in it.
+* Recognition of Work
+** Each branch should decide on their branch leader, but ALL that do significant work should get credit for their work at a highly visible level, e.g. in the top-level of the obi file as well as in the Editor portion of the term.
 
 === Organization Chart ===
 
