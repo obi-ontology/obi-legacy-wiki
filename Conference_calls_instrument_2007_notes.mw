@@ -1,0 +1,542 @@
+== 11.12.2007 ==
+Minutes 11. December 07 Participants:Ryan, Melanie, Daniel.
+* Discuss metadata name issues on citation vs source--> make discussion point on obi dev.
+* Discuss cardinality of above
+* Discuss term update results/issues, e.g.
+** "cardinal_part_of_instrument" class now seems out of place which is not even classified as a device.
+* Instrument use case discussion
+* Resolve problems with 'question-marked' classes.
+* Discuss policy to mark Meta-classes/helper classes via '_'-prefix.
+
+AI: Submit discuss point on metadata to obi dev, also if annotation property values comma separated or associated/used multiple times, e.g. Kevin Lister, Ally as Fluometer definition editor.
+Cardinal Parts get deleted and subcalsses  (DS)
+delete _collected_relations (FG) _move_to_biomaterial_branch, del, and do so (FG) FG sends email to Chris an Trish to clear need for liguid handler, and others in MO.
+
+filtration_labware was deleted, because it had no valuable metadata anyway.
+Went through issues list and DS made changes on owl file directly.ImageStream was moved under a new parent under instrument multispectral_imaging_flow_cytometer to avoid multiple parenthood.
+
+== 04.12.07==
+Participants:RB, FG, MC
+
+**Defined classes
+
+- Frank explains about defined classes
+- He also points out that we will need to use a reasonner to check our branch
+
+**OBI software?
+
+- OBI supporting soft/tools -> grants will be submitted
+
+- Melanie to clean up the milestones file
+
+**New relations
+
+- Frank will summarize and pass on the new relations list and ask Daniel to pass it on
+
+**Branch clean-up
+
+We decided to try and take turns to clean-up the current hierarchy. Nothing fancy involved, no creation/deletion of classe or repositionning, just a clean up of each term that should, after curation  have:
+
+*preferred_term: editor-chosen name
+*standard definition: A normalized definition, of the form, "A ''child'' is a ''parent''..."
+*definition_editor: the person who adds/cleans the term (to whom credit is due to do the work, that would be you :-) )
+*definition_source: the origin of the definition (eg wikipedia)
+*example_of_usage: to be added if possible (not a required metadata)
+
+more information on metadata there: https://wiki.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata
+
+The current plan is:
+*Allyson Tuesday
+*Frank Wednesday
+*Melanie Thursday
+*Ryan Friday
+*Daniel Monday
+
+ objective:20 terms cleaned up each week.
+
+
+Once you cleaned up a set of terms, please add there the list of terms you did.(you can even re use that for the svn commit logs ;-) )
+If you encountered any special issue, or if you got any idea (eg new relation needed) please also add there.
+**[[CleanUpDec07|Clean-up]]
+
+== 27.11.2007 ==
+
+Participants:RB, FG, MC, DS
+   * Instrument leaf node definition discussion
+Proceed as before, keep leaf nodes in owl file rather than maintain an additional file. But mark them. Go ahead. See how it resolves when we get more terms. Commercial Classes? Should these be 'defined classes' rather than 'asserted'? MC can't see how Instrument leaf node-defined classes (ARs proposal) for could avoid multiple inheritance problem.
+Went over OBI owl, started to see what is in there to formaly model mass_spectrometer. Agreed to use Ryans use case for 'formal modelling start' next week or that following.
+We are using the has_part relation to define instruments. We recognise there may be more speacialised has_part relations, but these will be indentified with more examples
+Action items MC, RB: Put defs for: instrument name , Instrument ID , catalogue number , date or year of model release
+
+Outstanding issues:
+   * Resolve problems with 'question-marked' classes.
+   * Discuss policy to mark Meta-classes/helper classes via '_'-prefix.
+   * Discuss the 'new' relations for instruments and mappings
+   
+== 06.11.2007 ==
+Participants: Ryan, Ally, Daniel
+Ryan knows someone that does an electrophoresis ontology who could provide terms.
+Action Item Ryan: Make them aware of PSI SEP and PSI Gel ML.
+Removed Questionmarks from labels and resolved corresp issues.
+We agreed to discuss the following issues on the OBI dev call: metadata and defs needed on leafnode level?
+Action item DS: _collected relations: manufacturer_of_flow_cytometer pass on to relations branch. Some belong into PA branch.
+
+
+== 23.10.2007 ==
+Participants: Melanie, Ryan
+Discuss general development policies
+agree that editing of the branch should be coordinated between Daniel and Melanie to minimize SVN conflicts
+Discuss automatic addition of metadata/other checks
+script in progress to automatically add metadata, being tested by James Malone. Might be extended in the future to check for IDs for example. Melanie to send an email to Chris to add the item to the developer call agenda tomorrow.
+
+== 20.10.2007 ==
+DS gave an overview of the latest branch developments to Melanie, who just joined the branch in Ryans team. Upcoming issues were discussed as put on the instrument wiki.
+
+== 16.10.2007 ==
+
+Notes 16. 10. 07
+Participants: Melanie, Ally, Ryan, Daniel
+Enabled Melanie to svn update and commit.
+M:"I however was wondering whether it would make sense to rename to scientifical_instrument (device intended to assist in the conduct of science) and subdivise into measure_instruments (used to measure or compare the magnitude of physical properties, such as voltmeters, timers, clocks....) and analytical_instruments (used to measure multiple or complex material properties, such as mass spectrometers)." This was discussed and we agreed we want to have more terms first and then add further subhierarchies.
+Discussed how metadata should be added and agreed that we should indicate on
+https://wiki.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata which annotation properties will make it into the public release file.
+
+== 09.10.2007 ==
+Participants: Ryan, Melanie, Daniel
+We agreed that Melanie should make her changes to the Instrument owl file in svn as soon as possible. DS made her an OBI developer and now she should set up her protege and auto ID plugin. She will make a simple change and mark it. She will svn commit the instrument.owl file then and mention her change in the log file as well. Next call we can discuss this and see if everything is set up correctly.
+Regarding the relations, DS will ask if this operator_role is really needed and who did requested such need.
+
+== 25.09.2007 ==
+Notes Instrument Call 25 Sept 07: Participants: Ryan Brinkman, Daniel Schober
+PA terms: fluorometer: an instrument for the detection and measurement of fluoresence
+Ryan:Def not specific enough: holds true for cytometer as well
+   * micro-plate or slide based: Cytometer
+   * fluid based for Fluometer--> Ryan will ask J Greenbaum from PA branch to get more info.
+MO terms:
+Ask what they meant by 'Array': the Microarray or an Abstract Array?
+Array Groyup: same
+Hardware: ->On Computer level or on more general Instrument level ? --> Request example from MO. also for arrayer and array group. So far hardweare was made an alternative term for device (including all Instruments and labware).
+Cardinal part of : We should get rid of part_of_x classes: delete them if they are not Cardinal_part_of....
+Naming Conventions: Our terms are fine (except some administrative metadata and bins).
+Next step: NMR will integrate into OBI soon, but directly into the owl file, not using any table format before. Same will be done by PSI-SEP.
+
+== 04.09.2007 ==
+Participants: Ryan Brinkman, Daniel Schober
+PA terms: fluorometer: an instrument for the detection and measurement of fluoresence
+Ryan:Def not specific enough: holds true for cytometer as well
+micro-plate or slide based: Cytometer
+fluid based for Fluometer--> Ryan will ask J Greenbaum from PA branch to get more info.
+MO terms:
+Ask what they meant by 'Array': the Microarray or an Abstract Array?
+Array Groyup: same
+Hardware: ->On Computer level or on more general Instrument level ? --> Request example from MO. also for arrayer and array group. So far hardweare was made an alternative term for device (including all Instruments and labware).
+Cardinal part of : We should get rid of part_of_x classes: delete them if they are not Cardinal_part_of....
+Naming Conventions: Our terms are fine (except some administrative metadata and bins).
+Next step: NMR will integrate into OBI soon, but directly into the owl file, not using any table format before.
+
+==21.08.2007 ==
+Participants: Fank, Daniel.
+Discussed Franks object top level.
+
+== 14.08.2007 ==
+
+Participants: Ryan Brinkmann, Allyson Lister, Daniel Schober
+Checking marked classes: ?column_chromatography_solvent goes to Biomaterial
+?collection_tube is it cardinal part of fluidic system? Move to Labware?
+flow_cell ? Make name more explicit is it a chamber as its subclasses imply?
+?jet_in_air_flow_chamber is a Flow cell? (apply naming convention: Dont use ellipse or apocope, be explicit. 'Flow cell' consists of qualifier terms and omits the head noun. Ryan: What is a flow cell? better 'flow cell compartment'?
+?interrogation_point not an object, more a location or spatial entity
+?sample_fluid, ?sheath_fluid DS: Is a fluid an instrument? Or even part of an instrument ? Its a biomaterial.
+same with ?sheath_propellent
+?flow_cytometer: DS: Is this class justified? (has currently only one subclass), ask Ryan and Function Branch for differrentiae...
+Added a cytometer class and image cytometer.
+?liquid_handler more an inferred thing? DS: Is this class justified? Its a unnamed class. If so, put a fluidic_system and the fluidic_subsystem as subclasses. TW: This is required by MO. FG & DS: Capture as function. All: Needs to be reviewed, according to query use case. If we keep it its kept as unnamed owl class. The liquid handling class remains but as an undefined class with are unlikely to have children. It is expected that the reasoner would classifiy appropriate classes under this class that meet the have the liquid_handling function relation.
+liquid_chromatography_instrument (removed comment and questiobnmark.
+Checked for obo foundry naming convention: as under http://obofoundry.org/wiki/index.php/Naming Cleared some Labware Plurals...
+Discussed deadlines and implications for our branch.
+Discussed Subsystem and Part_of issues e.g. optical_subsystem
+
+== 17.07.2007 ==
+
+Attendendees: DS, AL, FG
+We went over the issues collected at the workshop:
+issue 5, 6 and 7: platform ,object agregate that collection of ... (refine definition, drop reagents), deal with vendor as relation later
+8.+ 18. Instrument branch: Resolve issues with artefact and biomaterial overlap in definitions later with biomaterial branch. Action Item: Frank sends biomaterial branch leader an email.
+9. Top level overspecified ? Do we need all these upper level classes, e.g. object artefact_object device instrument Decided to keep all until changes are really needed and Biomaterial issue is solved.
+29. Helper classes for temporary terms. All branches will use branchname_temp (all) Ally had 'branchname_temporary'. Action Item Daniel: Make changes to file and push our _collected_relations helper class upwards onto branch root and rename accordingly.
+
+== 13.07.2007 ==
+
+Attendees: RB,FG,MC,DS
+Instrument defs: Capture Instrument types and brand names as well to be able to link these to software and processes. Instances or catalog-object maintance will be difficult to do by obi (these changes fast, as software changes, and are hard to keep updated).
+We need to exploit the use case for this.
+Needed properties of Instruments: Manufacture, Model Number, catalogue Number, serial number, Instrument name, date of modelor year? Instrument ID? Domain is artefact object or Instrument? Which count for Labware (narroer) or Biomaterial (sibling) as well?
+AI: DS will check the above relations against what is currently ingerited and what is in our rel_helper class against what we already submitted to the rel branch and as the outcome provide the non-redundant relations of the above to rel branch.
+AI: RB will send a natural language description of a prototypical experiment and/or put link on https://wiki.cbil.upenn.edu/obiwiki/index.php/InstrumentTermCalls#Summary_of_the_Instrument_Branch_Conference_Calls
+
+== 03.07.2007 ==
+Participants: Trish, Daniel, Frank, Allyson
+The following changes were made to the OWL file:
+Discussed cardinal_part_of_instrument class and agreed it is a placegolder for what ultimately will be represented using the part_of_relation.
+Revision of the device hierarchy;
+The "_subsystem" postfixed classes (e.g. fluidic_subsystem) were moved from device to a new class cardinal_part_of_fluidic_system under cardinal_part_of_instrument.
+instrument_configuration and instrument_setting are relations that should be submitted to the relations branch. At the minute they are temporarily binned under the class administrative helper class '_collected_relations' (lives on the branch top level).
+liquid_handler class: Might be re-formulated as via a liquid_handling function. The liquid_handler class remains but as an unnamed/anonymous class with no children (requested by MO). It is expected that a reasoner would classify appropriate classes under this unnamed class. Unnamed (anonymous) classes are formed from logical descriptions alone and contain the individuals that satisfy these.
+
+Other Issues:
+
+Investigate if a spell check can be run over the OWL file for definitions annotation properties etc.
+Action
+
+Daniel to contact the function branch to enquire about the use of the function terms submitted to the function branch. Also in future we may need to work closely with the function branch so it would be good to "say hello"
+Daniel update status report and liaise with Allyson who will present it at the meeting.
+
+== 26.06.2007 ==
+
+-Changed artefact to artefact_object and normalised definition
+-Moved everything under artefact_object to leave artifact and biomaterial_entity under object. This included physical_document for TheRest branch
+-Normalised definition of device
+-Normailised definition of instrument
+-Renamed analyser and sorter to flow_cytometer_analyzer and flow_cytometer_sorter
+-Moved flow_cytometer_sorter as a subclass of flow_cytometer_analyzer
+-Added comment on labware
+Actions: Frank modifies InstrumentAndPart.owl and commits to svn.
+
+== 19.06.2007 ==
+* Tried to review latest InstrumentAndPart.owl file but unable to view this file separately from all files following the new [|instructions] provided for working with branch files so did not discuss any changes to the hierarchy.
+* For next call, re-visit the agenda posted for this call.
+
+== 05.06.2007 ==
+Present: Trish, Daniel, Liju, Allyson (Minutes)
+Who will be at the developers call tomorrow?
+Trish and Allyson will be at the GSC Workshop tomorrow, and can't make it.
+Daniel and Liju will present the Instrument Branch status tomorrow at the OBI Devel call.
+The status of the Instrument OWL file
+Frank had pointed out it didn't include the most recent changes we had made to the structure
+Everyone agrees we should update the OWL file to include these changes.
+Trish making the changes during the call.
+None of us is very happy with "Artefact" as a name. However, it will stand for now, until we can think of a better one.
+The hierarchy to be used is:
+object
+'artefact 'biologicalmaterialentity
+Under artefact should be:
+artefact
+'device '*instrument '*labware
+Concerns about the hierarchy
+We don't want to make any changes to what was agreed upon before tomorrow
+Liju notes that Artefact currently only has one child, and therefore it could be that these should be merged.
+Trish - we are proposing to change the "Instrument" label to "Artefact" without having mentioned to the obi-devel list before.
+Make sure we rename Instrument to Artefact, rather than deleting so OBI_47 remains the same (it is where the branch point was created).
+After Trish makes the changes, Liju can check that the branch file is OK.
+We need to load corrected obi branch files into svn so we can get our work done.
+Allyson has removed the now-unnecessary without* files in the svn branch development directory.
+Need to remember to use the AutoID plugin (or some other method) to ensure we use the correct range of OBI ids.
+We also need to submit our relations to the relations branch.
+
+== 29.05.2007 ==
+* Update on Action Items from last call
+   * Frank contact Stefan
+   * Frank post doc on Google documents.
+   * All look at our communities for use-cases.
+   * All will try out Trish's batch loader.
+   * Daniel will shortly add all our terms into the instrument branch file.
+   * Frank will have a word with Andy and see if he can look into what Andy's done with AndroMDA etc.
+   * Daniel should write what we mean by "relation", "properties", etc. and tell the Relations branch. (perhaps no
+Participants
+
+
+ * Trish, Frank, Daniel, Liju, and Ryan
+ Minutes
+
+
+ * Update on Action Items from last call
+   * Frank contact Stefan
+     * Terms will be re-submitted, but not for another month or two
+   * Frank post doc on Google documents
+     * Access to editing the document? Send Frank gmail account
+   * All look at our communities for use-cases
+     * Frank, Use Case will probably span other branches
+   * All will try out Trish's batch loader
+     * The code was posted in SVN and is available for use. The worksheet called Ready2Load is able to load.
+   * Daniel will shortly add all our terms into the instrument branch file
+     * Will try out next week
+   * Need for example in term list file
+     * Frank - example should reflect all the restrictions on the term, but we do not yet have restrictions on the terms.
+     * Liju - instruments do have parts, but if they are too granular then they do not need to be added.
+     * Daniel - would be useful for humans
+     * Frank - there are at least a few that would be useful
+     * Daniel - not informative to have the term name and where it is located, line 11
+     * Trish - this does not look like it fits the definition of example
+     * Daniel - Frank what needs clarification for the annotation property example?
+     * Frank - definition is not clear and would prefer that this not mandatory, e.g. Mass spec machine - the example could be different if stated
+     * Ryan - we had difficulty with this, not enough information
+     * Trish - also found difficulty in finding examples
+     * Frank - if for class - need relations and instances, if instance need something different
+   * Daniel should write what we mean by "relation", "properties", etc. and tell the Relations branch
+     * This was discussed at the Relations branch call. By 'relations' we mean ObjectProperty or DatatypeProperty in OWL.
+   * Frank will have a word with Andy and see if he can look into what Andy's done with AndroMDA etc
+     * Need to follow-up on this
+  * Next Steps
+    * Relations for Instruments
+      * Try out the relations terms in the OWL file before sending to the Relations branch
+    * Term Lists
+      * Need to settle on 'example' before loading sepCV terms
+      * MO and Flow Cyt terms are ok, but should check on 'example'
+      * Frank will send info need for sepCV terms
+    * When to start using the OWL file for the Instrument branch?
+      * ASAP
+      * Load with content for example for now and re-commit to SVN
+    * What is the best way to work with the OWL file
+      * One person manages the OWL file and changes are made serially and then commits to SVN
+
+Action Items
+
+
+ * TW - get latest document posted, either add sheets or load new doc
+ * All - review and post Use Cases for Instruments, Frank will add link to sepCV Use Case
+   * http://bioinf.ncl.ac.uk/carmen/index.php/Image:Harrogateusecase_scenario.pdf
+ * DS will try batch loading code
+ * Frank - move discussion on 'example' to OBI Developers call
+ * Frank will have a word with Andy and see if he can look into what Andy's done with AndroMDA etc
+ * Trish - will add in terms and commit OWL file to SVN
+
+== 22.05.2007 ==
+Instrument TC 22 May 2007
+Frank, Ally, Trish, Daniel, Liju Apologies: Ryan
+General Topics
++ Trish has updated the MGED ontology term with examples + Someone needs to contact Stefan so he can explain what's going on with the MIACA terms
+ + As it is now, there isn't enough to go on: no definitions
+ + Daniel could talk to Chris Taylor if that would help
+ + Daniel: the nature of MIACA is that it is broad and unspecific, so may not be worth pursuing for now.
+ + Frank will contact Stefan.
+ + For now, probably best to remove them as they do not meet the [[ MinimalMetadata|minimum information reqs for submitted terms |]].
++ Frank wants to add the 10 terms (normalized definitions) from sepCV, directly into the spreadsheet. Trish says yes, as long as it's OK with PSI. + There is a more recent spreadsheet than the one on the wiki. It's from Ryan, but due to the problem with file uploads on the wiki at the moment, it isn't available there. + Trish would like someone else to test her batch loading code, as she's been the developer and the tester so far.
+ + Ally suggested that Trish sent out the directions (README.txt) so whoever has time can try
+ + Daniel said he would try if he had time
+ + That shouldn't prevent anyone else from testing====
+==
+
+Initial list of Instrument Properties
++ Daniel has written down an initial list of properties/attributes for instrument terms
+ + it has been emailed around to the whole instrument list, and reproduced [[ InstrumentProperties|here|]]
+ + good place to start
+ + Frank: should remember that we should check these by starting with use cases, rather than assuming a certain property would be useful
+ + Daniel regards properties as a general term, for both datatype and object properties in the Protege sense (essentially, relations).
++ Liju: should we clarify what terms we should be using? We should talk in the same language, e.g. "Protege language" or "OWL language".
+ + Daniel should write what we mean and tell the Relations branch.
++ Frank: Some conflate use of the machine (protocol or protocol application) with the actual device properties.
+ + e.g. environment, data in & data out are all things that may not belong in the instrument properties
+ + parameter settings is a good thing that the instrument branch should deal with.
+   + example: voltage is a property of the instrument, but the actual voltage used is something defined during a protocol application/protocol.
++ Trish: lots of communities are using their own formats (e.g. FuGE or others). Andy (FuGE), for instance, has written a trivial validator. She could look into the FuGE model and see what's currently there in terms of relations to instruments.
+ + Frank will have a word with Andy and see if he can look into what Andy's done with AndroMDA etc.
+What next?
++ Frank: Use some use-cases to see what instrument properties are best to describe the machine and its possible use(s). + we should move into OWL as soon as possible + don't forget about the relations ontology + Daniel will shortly add all our terms into the instrument branch file.
+Datatype Properties in OBI?
++ Liju: Should we have datatype properties in OBI at all? + Trish: There was such a discussion, but there was no agreement reached. + This will need clearing up, but probably should be precipitated by the Relation branch. + Normally, "Sigma" would be written as free-text in a datatype property. If we don't use datatype properties, we will need an ontology term for every company. + Allyson: However, if we have Sigma as a class, it means that you could have many instances of Sigma, which isn't true in reality. + Liju: Sigma shouldn't be a class + Trish: At the first workshop, it was decided to simply allow such things to be classes. + Frank: all we need is a property that describes vendor. What sort of property that is, isn't relevant to this call as will be decided elsewhere.
+Where does the class end and instance start?
++ Liju: the class would be "Centrifuge XYZ", and the instance would be all the 1000s of centrifuges that are present in the physical world that are this type of centrifuge.
+MSI Instrument Terms: Where do they stand in relation to OBI? + Daniel: NMR and Chromatography will get integrated into sepCV, and from there into OBI + The rest will get transferred directly into OBI (though there won't be much in this category).
+Wrap-Up
++ Daniel: we really need use-cases. + Frank: we have no competency questions either. + Ally: what about using the same use-cases as the PA branch has, just for the instruments in them? + Frank: Sounds good. + Trish: Ok, but use the ones that are from communities within OBI + Liju: PA use-cases may not fit nicely with instrument branch's needs + Consensus: we'll have a look at them and see if any of them are suitable. + Trish: could also look at the sepCV use-cases
+Action: + Frank contact Stefan + Frank post doc on Google documents. + All look at our communities for use-cases. + All will try out Trish's batch loader. + Daniel will shortly add all our terms into the instrument branch file. + Frank will have a word with Andy and see if he can look into what Andy's done with AndroMDA etc. + Daniel should write what we mean by "relation", "properties", etc. and tell the Relations branch. (perhaps not an immediate action.)
+
+== 08.05.2007 ==
+
+Instrument Term Call - 08May2007
+
+Agenda:
+-Discuss items from review of Master term list
+-Update from Frank form PSI Spring workshop
+
+Participants: Daniel Schober (DS), Frank Gibson (FG), Trish Whetzel (TW), Bill Bug (BB)
+<code>-</code>-<code>-</code>
+
+-Discuss items from review of Master term list
+TW - Terms that need annotations, "example" is one that is missing for most terms
+FG - "example", if mandatory then each example has an embedded context, need an example for each community
+TW - why would a specific example be needed for each community? if the term can be used/needed by multiple communities
+then the information used as the "example" should reflect this
+BB - examples will be community specific
+DS - examples will be subclasses or instances. this is listed as a mandatory annotation property
+
+BB - without examples for the term, those that have not been a part of developing OBI will have lots of questions
+FG - should this be mandatory?
+DS, BB, TW - yes
+BB - the examples can be thought of as proposed subclasses and be of help in filling out the more granular nodes of the
+ontology. agree with the perspective that we don't want to slow down the ontology building, but without enough context
+the term usage is not consistent enough for machine processing of the information
+FG - can see pros and cons, let's proceed with caution
+
+DS - no one stops us from importing the terms
+
+FG - forcing every single term to have an example may be too much at this point
+
+TW - definition_source - should we update this as branch editors or should this be sent back to the term submitter?
+
+DS - we should not be doing too much modeling now before, definition_source is dependent on the definition itself so
+how can this be determined until the modeling is complete?
+
+FG - the source of the terms needs to be acknowledged, that is done via definition_source
+TW - agree with Frank
+FG - if normalizing the definition that is ok, otherwise then it needs to go back to the community
+TW - the biggest issue is with terms that are from sources that are in production use and we can not change these terms
+
+FG - terms from PSI, need to import them as they are or contact PSI editors about these changes
+
+DS - the more that we get into ontological modeling then there will need to be changes, the PSI terms are from CV's.
+maybe there can be new annotations properties?
+
+TW - remember that any changes need to be discussed by the person that contributed the term
+
+FG - it is a matter of time frame
+BB - it is with the metadata annotation properties that there is some problems. we'll end up iterating back-and-forth
+with the community to get this information. the goal it to keep things simple to keep this moving.
+
+TW - can the curation''status value raw''import be used for terms that come from a source where the term is a compound
+term and therefore will need further work before it can be fully accepted into OBI?
+
+BB - raw_import is used when the term is pretty close to how it fits for BFO. otherwise that doesn't work well.
+
+TW - iterative process and there should be at least one parent that is suitable for the term
+
+-Update from Frank form PSI Spring workshop
+FG - PSI CV will still be used and developed, we as OBI should not spend our time to normalize the definitions as they
+come from PSI
+
+BB - same for BIRNLex, need them to develop
+
+TW - what needs to happen with the PSI-MS terms WRT to OBI?
+FG - need to normalize definition, either in PSI-MS or OBI and if in OBI need to communicate this back to PSI
+TW - what about mapping between PSI terms in the CV and OBI, does PSI want that tracked?
+FG - yes
+TW - well, that sounds like process that PSI wants to have with OBI
+DS - we can not always assume that there is a 1-1 mapping
+TW - there was never an assumption that there would be a 1-1 mapping
+
+FG - just flag the term that it came from PSI and the include the identifier as part of the definition_source
+
+TW - not sure where the identifier goes, let's see if that is one of the possibilities for formats for definition_source
+
+BB - there is an example of this from BIRN. needs to be there for mapping. this can be done programmatically. there may
+be semantic decoupling to the original CV and we can do what we can to indicate what was done.
+
+FG - any source needs to have the ID. all terms from PSI can be used in development of OBI.
+
+TW - if the source of the term changes, then what happens?
+
+FG - any changes that we(OBI) make need to be documented, e.g. for PSI-MS terms, OBI needs to contact PSI for these if
+there are changes to the term name or definition
+
+FG - if example is mandatory, is that mandatory for OBI or the community that is submitting the term?
+DS - we can not enforce OBI guidelines on other communities
+BB - suggest to send back examples, definitions to the community for their awareness of what example is being proposed
+
+TW - to summarize: the OBI branch editors will come up with examples and send those back to the community for review?
+
+BB - we want to make sure that we create an Excel template for the branch editors
+
+TW - there was an email sent out that listed the information that needs to be in the spreadsheet. The exact column
+names do not matter since that will be handled via another file to map the column names in the file to the names of the
+annotation properties.
+
+== 17.04.2007 ==
+
+Ryan:
+Didn't get the NMR terms, as it was difficult to convert.
+BIRN and sepCV missing, PSI and chromatography also missing.
+Already a long file, though, so enough to be going on with for this talk
+
+Daniel:
+wants to wait until after the PSI conference to add the chromatography terms
+Trish and Daniel agree that the same should happen for the sepCV terms, which will also be discussed at the PSI meeting
+General Notes
+Question of granularity of OBI was not resolved in the last coordinators call
+How deeply should OBI go into making terms from each community? What is the �OBI node level�?
+Trish: Definitely still an open question, though not really what this call is about
+Ryan: Put what we have into OBI now, and then deal with further granularity issues once more terms get added.
+Treat 1 April as a deadline (not as a suggestion), and don't accept any terms from this point onwards, except as terms for the next deadline.
+we now have about 300 terms. Look through this file and cull terms that don't belong to the instrument branch, and send them to the right branch.
+Trish will be taking notes within the excel file and will send out the commented file after this TC.
+
+== 5.04.2007 ==
+
+<pre>
+Set weekly time
+
+-Tool?
+RB - tools we prob don't need this so will not keep for now,
+labware, just use this as a container for now, will need to get a better definition for this in time
+
+All - agree
+
+MP - propose to introduce a term artefact, as parent for both
+RB - there is a common parent for these, need to get a common meaning for this
+MP - all these things are manufactured
+TW - we tried this before, but there was concern from daniel
+RB - that is a term rather than definition, let's stick a definition
+TW -
+RB - chemicals can be manufactured
+MP - yes, this is a nessary, but not sufficient
+
+Object
+--artefact=foo
+----device (instrument)
+----labware
+
+TW - was artefact previously equipment?
+MP - yes, but artefact is more general
+RB - need to keep as focus for OBI
+
+FG - review proposal:
+Object
+-artefact
+--device
+---instrument
+---labware
+
+MP - can put out a definition for artefact
+
+TW - binning under the above terms, how did that work, ok for people
+FG - yes
+
+RB - why are things under device?
+TW - this was listed in an earlier version as synonymous
+AL - what is the relation between these?
+see:
+Object
+-artefact
+--device
+---instrument
+---labware
+
+TW - why have artefact? is this for future growth of the ontology
+FG - things that do not have an advantage
+MP - things like artefact could be waste products
+TW - yes, are these things that we care about. if we don't care about things that could be children to device can we drop artefact?
+All - yes
+
+TW - further bins under instrument?
+FG - yes, but would wait until after the PSI meeting
+MP - things like gel tank can be described by physical stuff and roles
+RB - there are things that have been submitted and we should look at those
+FG - are all the terms listed on the wiki been placed somewhere
+RB - no, not all bins
+
+TW - can we bin terms under instrument or labware?
+RB - yes, we can do that
+
+RB - can we put the terms in a Master file?
+TW - fine for Transcriptomics terms and PSI-MS
+
+
+MP - what about relations
+RB - difficult since OBI is working out relations
+MP - tend to add as many relations to a muddy concept and allow the reasoner to sort this out
+
+Action Items
+RB - will generate Master list
+All - all review the Master list to see what doesn't exist and report back to community that a term does not belong
+
+Next call - propose call for April 17
+</verbatim>
