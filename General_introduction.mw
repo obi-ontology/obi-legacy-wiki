@@ -206,6 +206,24 @@ Digraph {
 ==== Contribute ====
 We have  mailing lists for both users and developers. Join the users list to be notified of each OBI release. If you represent a Community that would like to collaborate in the development of OBI, contact the Coordination Committee.
 
+=====OBI Term Submission Guidelines=====
+
+* Currently, term requests may be submitted through the "OBI Term" Sourceforge Tracker system available here: 
+http://sourceforge.net/tracker/?func=add&group_id=177891&atid=886178
+
+
+* In order to submit terms, you will need to have an account with Sourceforge and you will need to be logged in. You can create a Sourceforge account here: http://sourceforge.net/account/newuser_emailverify.php
+
+* When you submit a term, it must conform, at a minimum, to the [[MinimalMetadata|OBI Minimal Metadata]] requirements. Practically this means a 'term' a 'definition' and preferably an 'example'. Optionally, you may also suggest which branch of OBI your term belongs in. Please see the [[ObiBranchDevelopment|current list of OBI Branches]] to help you in making your choice.
+
+* What happens next?
+
+* Submitted terms will be examined by Alan Ruttenberg/Helen Parkinson, and sent to the appropriate branch. Out of scope terms, for example those belonging to another ontology domain e.g. PATO will be flagged at the point of submission if possible. Branches will add terms and will be responsible for commenting in the tracker to inform the term submitter of progress
+
+* Batch submissions. If you have a large number of terms don't use the term tracker for all, instead create a spreadsheet of your terms with term and definition columns (this is the minimum) and attach to a single sf item
+
+* If you have any questions on the submission process or any other queries, please email the OBI developers at obi-devel at lists.sourceforge.net.
+
 == Using OBI ==
 
 === SVN ===
