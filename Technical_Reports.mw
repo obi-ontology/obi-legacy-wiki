@@ -7,10 +7,8 @@ Technical reports consists of user guides and development specifications or meth
 * [[OBI_Deprecation_Policy|OBI Deprecation Policy]]
 * [[OBI_ID_Policy|OBI Identifier Policy]]
 * [[OBI_Minimal_metadata|Minimal requirement for term annotations in OBI]]
-* [[OBI_Defined_classes|Defined classes in OBI]]
+* [[Defined_classes|Defined classes in OBI]]
 * [[OBI_naming_conventions | Naming conventions for use within OBI]]
-
-[[category:OBI general]]
 
 == Term submission ==
 
