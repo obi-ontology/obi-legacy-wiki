@@ -1,0 +1,192 @@
+== 02 Dec 2008 ==
+Minutes Dec 02 08 FG, DS, MC We proceeded according to the agenda: [16:11:00] daniel_stoertebeker says: is there a policy on the oonomasticon issue? [16:11:58] daniel_stoertebeker says: experiment with external file (oonomastikon for manufacturers) [16:13:10] Frank Gibson says: Defined class: Manufacturer (is_manufacturer_of) or some ((person or organization) and (bearer_of manufacture_role)) [16:13:37] daniel_stoertebeker says: all in oonomasticon are classes, not instances. [16:18:04] daniel_stoertebeker says: Put policy website either from Instrument branch or from Naming Conventions / ongoing discussions [16:18:56] daniel_stoertebeker says: development practices [16:20:08] daniel_stoertebeker says: vendor is currently missing in OBI [16:20:43] daniel_stoertebeker says: (see what are needed relations for that) [16:21:05] Frank Gibson says: https://sourceforge.net/tracker2/?func=detail&aid=2310029&group_id=177891&atid=886178 [16:21:42] Frank Gibson says: text from the tracker on the has_vendor relation [16:21:44] Frank Gibson says: I think I would change this to has_supplier: Is a relation between a process or material entity (maybe an artifact object) and an organization or person that supplies or provides material entities or services (processes) to other organizations or people. The organisation or person that is the supplier can play additional roles. For example, Manufacturer, Processor, Packager, Distributor, Wholesaler,Dealership, Drug dealer, Merchant [16:32:01] daniel_stoertebeker says: instrument: Device that produced Data--> not for homogenizer. [16:32:31] Mélanie Courtot says: instrument: device that has_setting --> not for electric screwdriver [16:33:03] daniel_stoertebeker says: centrifuge does it produce data ? [16:35:01] daniel_stoertebeker says: instrument: device has_setting / has parameter --> not for micrometer screw device [16:35:11] Frank Gibson says: http://en.wikipedia.org/wiki/Micrometer [16:37:19] daniel_stoertebeker says: instruments might be better modeled probablistic. [16:40:53] Mélanie Courtot says: PA branch generates function auto from script [16:40:56] Mélanie Courtot says: baased on what? [16:41:32] Mélanie Courtot says: PA branch has process which utilizes_device [16:41:44] Mélanie Courtot says: anything that utilizes_device realizes the function [16:46:32] Frank Gibson says: nsume_data: Is a function that in borne by in a material entity by virtue of its structure. When realized the material entity consumes (has an input of) data.
+-produce_data: Is a function that is borne by a material entity by virtue of its structure. When realized the material entity produces (has an output of) data
+
+Is a function that in borne by in a material entity by virtue of its structure. When realized the material entity process the data [16:51:19] Mélanie Courtot says: setting datum [16:51:30] Mélanie Courtot says: IAO_0000140 [16:52:39] Mélanie Courtot says: http://groups.google.com/group/information-ontology/browse_thread/thread/6b765f684f0d90e2 [16:52:51] daniel_stoertebeker says: has parameter, consumes data/processes data ?. [16:53:07] daniel_stoertebeker says: setting_datum is misplaced in OBI IAO, should be under IAO [16:53:32] daniel_stoertebeker says: under process [16:54:45] Mélanie Courtot says: http://code.google.com/p/information-artifact-ontology/issues/list [16:55:18] daniel_stoertebeker says: just call it parameter ? [16:55:36] Mélanie Courtot says: I was happy with setting datum - maybe at least add synonym then? [16:55:42] Frank Gibson says: Is a function that is borne by a material entity by virtue of its structure. When realized the material entity produces (has an output of) data [17:03:03] daniel_stoertebeker says: IAO is not checked ? I think it should (terms like datum lack definitions right now) [17:04:03] daniel_stoertebeker says: mail to IAO list ? [17:05:32] Mélanie Courtot says: need to go to office [17:07:35] daniel_stoertebeker says: IAO needs to comply to OBI minimal metadata.
+
+== 08 Nov 2008 ==
+Participants: Daniel, Frank, Melanie
+We put the first part of instrument relations in OBI term tracker:
+https://sourceforge.net/tracker/?group_id=177891&atid=886178 [16:09:52] Frank Gibson says: click the Add new artifact [16:18:29] daniel_stoertebeker says: User prefered name: runs software
+Editor prefered name: realizes software
+Alternative name: runs operating system realizes software executes software implements software
+Subrelation: has parameter settings
+Superrelation: realizes information artefact [16:32:20] Frank Gibson says: We require the relation has parameter. A parameter is a value/information that defines certain characteristics of systems or mathmatical functions.
+We also require the relation device_setting which is a value/information that defines certain characteristics of a device.
+has_parameter <-> is_parameter_of
+(child) has_device_setting <-> is_device_setting_of
+[16:39:40] Frank Gibson says: has_specified_output some information artifact [16:41:38] Mélanie Courtot says: has_provider [16:41:45] Mélanie Courtot says: which then has role vendro /manfactrer? [16:42:42] Frank Gibson says: has_provider some (person and has_role vendor)
+
+== 13 Oct 2008 ==
+Participants: Melanie, Ryan, Daniel
+Bioportal has been aligned to our metadata id policy and now shows labels.
+We should do our branch clean up on the fly and remove outdated editor notes.
+MSI term submission
+AI DS: Why is data format specification modeled as instances? Send to denrie (obi-denrie-branch@googlegroups.com) and OBI dev list.
+mini use case:
+is manufactyured by : why are others classes than 'artefact object' in domain for this relation ?
+Is relation branch active? No.
+Skype chat summary on use case
+[16:39:50] daniel_stoertebeker says: becton dickinson instance_of organization
+[16:42:18] daniel_stoertebeker says: organization:contact details (location?, URL?)
+[16:51:11] Mélanie Courtot says: organization has_role vendor or manufacturer
+[16:51:32] Mélanie Courtot says: these roles are realized in the process of manufacturing or selling
+[16:53:02] Mélanie Courtot says: FACS Canto is manfactured by BD
+[16:53:21] Mélanie Courtot says: BD is an organization that has role manufacturer and vendor
+[16:54:53] daniel_stoertebeker says: If we make the distinction between manufacturer and vendor we need a new 'is_sold_by' relation
+[16:55:24] Mélanie Courtot says: BD is an instance of organization
+[16:56:26] Mélanie Courtot says: Organization instances would be stored for example in Organization.owl file (oonomasticon)
+[17:00:15] Mélanie Courtot says: In addition we migt need Providers.owl and ManufacturersAndVendors.owl
+[17:03:50] daniel_stoertebeker says: instrument has function instrument function
+[17:04:28] daniel_stoertebeker says: protocol application has participant instrument
+[17:04:49] Mélanie Courtot says: utilizs_instrument, utilizes_device
+[17:05:40] Mélanie Courtot says: send out proposed manufacturer, 1 week feedback, next week: implementation of manufacturer
+[17:06:00] daniel_stoertebeker says: objective driven process utilizes_device device
+
+== 15 July 2008 ==
+Participants: FG, MC, DS, RB
+We approved the instrument functions Frank has moved from the spreadsheet into the obi functions.owl file.
+AI Frank: link devices to their functions via has_function relation (An experiment), play with N&C conditions for instrument.
+AI DS: Will check on status of auto term loaders (e.g. DENRI loader from Alan) and ask Jason Greenbaum and Alan on these and how minimal metadata can be added.
+AI all: look at instrment terms from Richard S use case. these will need to get into our branch soon.
+We discussed that there is a need to provide automatic term and minimal metadata addition for the most common formats we receive new terms (in xls, obo and owl format).
+Elsewise:
+in future they will be added auto matically?
+yes, by script from PA
+[16:08:44] Frank Gibson says: possibly, combined effort - will need to import pato
+[16:09:26] melanie_courtot says: mireot scripts for import in good way, you need to set up the widget maybe? http://docs.google.com/Doc?docid=dzprnmw_10gk2mcpfb&hl=en, there is a widget for curation status
+[16:15:50] Frank Gibson says: Measuring Instrument
+has_function measure_function
+this will account for rulers, an measuring cylinders and beakers
+
+an analytical_instrument is_a measuring instrument
+
+Analytical Instrument
+has_function measure_function
+has_function record
+"requires energy source"
+more machine based measuring devices [16:23:42] daniel_stoertebeker says: instrument: is a device that: measures OR syntesizes OR ...
+[16:24:02] Frank Gibson says: ok, so current suggestion is Instrument has_function measure function or has_function synthezes
+[16:29:42] daniel_stoertebeker says: More instruments come in from SEP, NMR, ...
+[16:30:35] melanie_courtot says: there are batch loader for denrie and role, would need to be modified
+[16:30:50] Frank Gibson says: hopefully, it would be handy to import sepCV via MIEROT OBO file
+[16:31:43] melanie_courtot says: currently we are using sparql queries on neurocommons to get mireot info, pretty sure the denrie loader could be modified, needs to be checked with Jason
+
+== 17 Juni 2008 ==
+Participants: DS, MC
+The agenda was followed.
+AI DS: generate add metrics and add pic to report
+AI MC: make the last part of doc look nice (e.g. correct bullet points)
+
+== 10 Juni 2008 ==
+Participants: Melanie, Frank, Daniel
+- We refined the branch report google doc
+- Currently all instruments inherit an OBI: 'is_reagent_in' relation to 'protocol application' (asserted on the independent_continuant' class level). I think this is not very intuitive and it should be asserted deeper down the hierarchy or renamed in a more general wording. Accordingly all inherited properties could be checked.--> AI: DS pipes this issue to next obi dev call.
+
+== 03 Juni 2008 ==
+Attended: MC, FG, RB, DS
+Notes: We basically followed the agenda and did a brainstorm on potentially useful Report section headers (as I had already suggested for the relations branch). We all put our proposed headers in the chat and discussed (see chat hardcopy below). Additionally we discussed the use case me and Phil send out. Frank wants simpler one and Melanie wants it to cover multiple function issue. We agreed that these are vaild Agenda items for OBI dev call. AI for DS: put up initial Branch Report as Google spreadsheet, and send out link for all to add on.
+
+[16:12:28] daniel_stoertebeker says: section on metrics (how many classes, rels are in our branch owl file. [16:12:40] Ryan Brinkman says: bottlencks [16:12:53] Ryan Brinkman says: time to completion [16:12:58] Frank Gibson says: future work [16:13:04] daniel_stoertebeker says: - section defining domain/ border to other branches (branch Top level description) [16:13:06] Frank Gibson says: cross branch issues [16:13:35] daniel_stoertebeker says: next steps [16:13:38] daniel_stoertebeker says: coverage [16:13:44] melanie_courtot says: known issues [16:13:57] Ryan Brinkman says: unknown issues, known unknown issues, unknown unknown issues [16:13:59] daniel_stoertebeker says: (have tackled all whats in use scase) ? [16:14:42] daniel_stoertebeker says: How we admin the branch. [16:15:16] daniel_stoertebeker says: future terms to be included and border problems [16:15:27] melanie_courtot says: device/artefact as defined class and subclassing :) [16:15:47] daniel_stoertebeker says: Instrument xps (where our devices are part of other branch composite terms) [16:15:59] Frank Gibson says: there are documented rules on that one melanie :) [16:16:12] melanie_courtot says: up for discussion after biom [16:16:26] daniel_stoertebeker says: vector as device? [16:18:13] daniel_stoertebeker says: timeline related metadata [16:18:49] daniel_stoertebeker says: Check compliant ? Metadata complete? [16:19:21] Frank Gibson says: [for ryan] http://lighthouseapp.com/tour [16:20:44] daniel_stoertebeker says: section on branch admin (list contributers, list that we have weeklt telecons, websites, Googledocs,...) [16:24:35] daniel_stoertebeker says: branch top level classes as xps? [16:25:28] daniel_stoertebeker says: manufacturers and brand names as oonomasticon or in Ontology as classes ? [16:28:06] Ryan Brinkman says: Ryan has to step out to take care of sick kid for a sec BRB [16:33:53] daniel_stoertebeker says: put pic of graph Viz 'device' Top level , incl rels to other main branch classes. [16:36:01] daniel_stoertebeker says: next step : Frank adds MS terms
+
+== 12 May 2008 ==
+Participants: DS, MC, FG
+Phils new devices were discussed and vetted. Functions were discussed (Frank does not see any advantage of having has_minimal_PA relation) As long as these issues don't affect our next step, for the moment we don't care and proceed with our TL structuring according to instrument functions. MC: Software has 2 definitions (assigned by 2 branches simultaneously) Then we provided further missing definitions on the google spreadsheet of device functions
+AI:Frank will add Mass Spec defined class as send per email to list today: Mass spectrometer has_part ion_source has_part mass_analyzer has_part ion_detector
+AI: Daniel will implement Phills new devices as discussed today
+
+== 06 May 2008 ==
+Participants: Daniel, Melanie
+Cleared remaining report issues from http://sw.neurocommons.org/2008/obi/reports/InstrumentAndPart_report.html We discovered annoying inconsistencies in Protege GUI, which lead to messed up annotations.
+OBI_0400152: software Warning: No preferred term - will be defaulted to the label value Warning: No curation status - will be defaulted to uncurated CRITICAL: No definition editor CRITICAL: No definition source CRITICAL: No definition OBI_0400153: droplet_sorter Warning: No preferred term - will be defaulted to the label value OBI_0000047: artefact_object CRITICAL: No definition OBI_0400010: argon_ion_laser Warning: rdfs:comment field not empty.Current value: http://en.wikipedia.org/wiki/Laser#Gas_lasers@en OBI_0400120: temperature_control_bath CRITICAL: No definition
+AI Melanie: put tracker item on Software def and location to DENRIE. AI Daniel:Do and commit changes in SVN.
+
+== 15 April 2008 ==
+Participants: Daniel, Melanie
+
+Discussed metadata: DS made the proposal to make editors aware of either annotation property pair or RDF idiom pair to fill in name and definition (No mixture should generate inconsistent browser keys) Discussed instrument functions and added definitions thereof. Few were identified as potential classes to be submitted to the Data transformation branch.
+
+== 1 April 2008 ==
+Participants: DS, MC
+General path to go/ next steps for branch were discussed briefly. We can start to structure device TLO according to functions, regardless of how they will me formalized ultimately, e.g. have a compound class name 'separation-device' made out of the genus term and the function as differrentia. We will encourage Bill to get BFO feedback and report on our next call.
+
+== 18 March 2008 ==
+Participants: DS, FG, MC, RB
+Continued and completed to derive top level instrument functions and put functions at: http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
+
+== 10 March 2008 ==
+Attended: MC, FG, DS
+Flow Cytometer definition based on its parts: First capture instrumets intended main function, then capture parts functions later
+'droplet_sorter': Class and its definition were added to the file and SF Item was closed.
+Review Functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en We were going through our upper level and collectd more important/general instrument functions for later crossproduct generation. They were put in the instr fct spreadsheet incl examples (http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en). We stopped at 'spectrophotometer' (Depth first).
+AI (Daniel): contact Bill about Function branch next steps and invite him on the next call.
+
+== 26 Feb 2008 ==
+Attended: Ryan, Frank, Melanie, Daniel
+discussed instrument configurations and how defined classes can be created. Melanie: Flowcytometer BDLSRII AND Laser ? Example Daniel: CS-SPE-NMR-MS (combination of instruments to designate technology.
+DS: ad how (post coordinated). Concentrate on atomic modules first for pre-coordinated development. Only re-occuring and heavily used combinations need a label and OBI ID.
+finished reviewing proposals for Terms 19-21, 22 and 24 (see https://spreadsheets.google.com/ccc?key=p4ViR8BgYUWaAG1b5IaxcJw&hl=en )
+parameter settings, where to get these from? Use cases? Vendors? Software?
+discussed top level instrument function proposals at http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
+for specific comments, see comment fields in spreadsheets
+AI: Melanie will post requirements from Bill regarding expected data.
+NOTE: Daniel is away next week, so Frank or Melanie will initiate next weeks call
+
+== 19 Feb 2008 ==
+Participants: Frank, Melanie, Daniel
+re-check rel list on http://spreadsheets.google.com/ccc?key=p4ViR8BgYUWaAG1b5IaxcJw&hl=en (complete? Defs good?)
+we added comments to proposed status comments and wait for them to finish commenting
+interrogation_point--> moved to three dimensional region
+jet_in_air_flow_chamber move to 3 dim region--> moved to three dimensional region
+AI Melanie: Mention we need spatial regions and Organisations (for Instruments) on obi dev call tomorrow.
+AI All: identify basic instrument functions for needed crossproducts (compound instrument names) to sort out our 'upper level': has_functon ranges for devices. There currently is measuring fct., instrument function, containing function...
+define next steps before release
+add more rels to device
+Person, organisation, vendor, manufacturer --> pass to material (bio)branch (role?)
+AI: Add has_function and is_manufactured_by to device (device = is_manufactured_by some (organisation or person) + has_function)
+Moved plattform under device.
+Discuss Organisations (roles? BioMaterial?)
+Check if all minimal metadata is there (script?) before next release.
+
+== 12 Feb 2008 ==
+Attended: Melanie, Daniel, Cartik Saravanamuthu
+Short Intro and wellcome to new call participant Cartik Saravanamuthu
+agreed on 'order of importance' for instrument relations at http://spreadsheets.google.com/ccc?key=p4ViR8BgYUWaAG1b5IaxcJw&hl=en
+discussion on labware and definition
+Our branch should start to think of XPS of the form Instrument= Device has_Function Instrument_Function
+interrogation_point and jet_in_air_flow_chamber:
+AI: Ryan and Melanie: come up with use case, example from Submitter (contact John Quinn) of these terms.
+artefact_object : material is_manufactureb_by SOME (Person OR Organisation) is fine for now and for OBI scope
+Checked and did not find any 'helper classes' that are not indicated as such
+
+== 5 feb 2008 ==
+Attended: Ryan, Melanie, Phillippe, Daniel
+Raw term import possabilities:
+Trishs Loader doesn't work.
+Alan did a script to load role and denri spreadsheet (special to their formats) and others xls into owl.
+Melanie did script to add Minimal Metadata, but that doesn't universally import(?)
+Tracker for single terms and bacsch submissions?
+AI: Daniel sends request for a semi-stable ID policy to agree upon before Pre release 1 March release.--> send to dev call.
+Upcoming terms for our branch:
+Bill Microscope terms
+Phillippe ca 30 terms
+Daniel NMR, chrom
+Frank, SEP.
+artefact_object: is a object that has at least one part manufactured_by Humans.
+--> we need an 'organisation' hierarchy sooner or later.
+Model nr , serial nr, .... what rels do we need?
+AI: Daniel indicates needed Instr. relations to relations branch (in order of 'importance'. AI: Melanie try to make Bill submit his owl terms to our branch via email (not tracker).
+Microarray: labware?
+Labware is a device that/which...... no moving parts, low complexity, less process steps it facilitates, passive (not active), single use?
+AI: All try to come up with definition for labware for next week and submit it to instrument branch with their pros and cons.
+
+== 22 Jan 2008 ==
+Participants:
+* Add still missing definitions and examples to our list of relations in the google spreadsheet
+* Summarize instrument branch developments, open and upcoming issues for Ryan/Melanie to present at WS 
+use cases discussed, take real world example from publication centra will be used for remotes only from 9 to 10 (as long as centra will not be crashing) cross communication mostly to biomaterial and relation branch
+
+
+== 15 Jan 2008 ==
+Participants: Melanie, Frank, Daniel
+We provided some examples and definitions for some instrument relations for the relations branch.
