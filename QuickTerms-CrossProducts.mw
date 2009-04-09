@@ -1,0 +1,26 @@
+[[category:?]]
+
+Process for quickly allocating OBI ids for accepted simple cross product terms.
+
+It is often the case that application specific ontologies will need OBI terms for entities that their application needs. Typically such needs are fairly immediate and so quick turnaround is essential to avoid the project having to invent their own terms. QuickTerms are simple cross product terms that can be reviewed and accepted quickly in order to satisfy these application ontology needs.
+
+
+Requesting one or more quick terms: What you need to provide to the tracker
+* Review the page [[QuickTermTypes]] to determine whether a template you can use already exists.
+* If a suitable template exists, select the group that corresponds to the quick term template your submission is about. If none of the templates seem to match your requirements, select the group "QuickTerm New Template", and include an example of the type or logical definition you want.
+* Include the required term ids for the template. If there are multiple term request you can attach a spreadsheet with all the term requests.
+* Include an email address to which the new term ids should be mailed to.
+
+Process for adding a new quick term template.
+* Example: Protocol terms defined by the reagent they use. 
+* The template cross product term will have the form <ProtocolApplication subclass> and has_input some <biomaterial subclass>. The <> terms are the ones that would need to be supplied for the definition.
+* At a developer call we will review the template. If accepted we create a new "Group" in the tracker "QuickTerm "+<name of the template>. We add a description of the template to the wiki page [[QuickTermTypes]]. The tracker page will have a link to this page.
+
+Process for reviewing and incorporating QuickTerms
+* At each developer meeting, recently submitted QuickTerms will be reviewed. Those that can be accepted at the meeting will be. If there is more work to be done, someone will be assigned the task of reviewing them.
+* Once a QuickTerm is accepted, a new defined class will be created according to the template and added to OBI. The new OBI ID will be sent to the requestor.
+
+Caveats
+* Many terms in obo are overlapping and subject to change. Submitters should attempt, where possible, to use terms from OBI or OBO Foundry ontologies. OBI reserves the right to use a more appropriate or stable term in the logical definition, and will update the logical definitions where appropriate as foundry ontologies evolve.
+
+For examples, see [[QuickTerm-CrossProduct/Examples]]
