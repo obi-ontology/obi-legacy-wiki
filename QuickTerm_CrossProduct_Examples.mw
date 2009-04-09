@@ -1,0 +1,100 @@
+[[category:?]]
+Let's look at an example provided by Philippe. 
+
+There are a number of terms that are need that are of the form: 
+
+
+*Example 1: gene expression assay using DNA microarray:
+
+'''Proposed Template:'''
+
+'''<assay>''' '''''utilizes_instrument''''' some '''<instrument>''' and '''''has_output''''' some information content entity about '''<bfo entity>'''
+
+once a template has been submitted and validated, a table for submitting terms built using the template can be created as follows:
+
+'''Variables''' are terms which may be classes and are indicates by <> in the template and may be used to define column headers in the submission table
+
+'''''Relations'''', which are indicated in bold&italic in the template, are then subsumed and do not show up in the table.
+
+
+{| border="1"
+|<assay>
+|<instrument>
+|<bfo entity>
+|-
+|OBI:OBI_70;assay 
+|EV:070000;Microarray platform
+|GO:GO0010467;gene expression
+|-
+|OBI:OBI_70;assay 
+|OBI:OBI_submitted;DNA microarray 
+|GO:GO0010467;gene expression 
+|-
+|}
+
+
+*Example 2: DNA binding site identification using DNA microarray
+
+Relies on the previous template. The example indicates simply another OBO Foundry term source.
+
+{| border="1"
+|<assay>
+|<instrument>
+|<bfo entity>
+|-
+|OBI:OBI_70;assay 
+|EV:070000;Microarray platform
+|SO:SO 0000235; transcription factor binding site
+|-
+|OBI:OBI_70;assay 
+|OBI:OBI_submitted;DNA microarray 
+|SO:SO 0000235; transcription factor binding site 
+|-
+|}
+
+
+
+*Example 3: protein identification using mass spectrometry
+
+In this last example, another template is proposed. It relies on the current definitions of Assay in OBI
+
+'''Proposed Template:'''
+''<OBI_instrument>'', '''''uses''''' ''<reagent>'', '''''has_input''''' ''<object>'', '''''has_output''''' ''<GO or CHEBI>''
+
+object = OBI terms under material and any external object term we are committed to import (Chebi, cell ontology, ncbi organism taxonomy, ... ?)
+
+General input sheet for assay quick submissions:
+
+
+{| border="1"
+|OBI instrument (will accept OBI instrument terms)
+|<reagent>(will accept any object)
+|<input> (will accept any object)
+|<output> (will accept GO + OBI )
+|-
+|OBI:49
+|
+|
+|CHEBI:36080
+|-
+|}
+
+
+
+{| border="1"
+|OBI:XXX
+|
+|
+|CHEBI:36080
+|-
+|}
+
+--> creates: 'assay that utilizes instrument <mass_spectrometer> and has_output information content entity on some <proteins>'
+
+Same example as top above re-worked
+
+step1: submit to the tracker the term that is missing in OBI (in this case DNA microarray, which is currently missing in OBI), [In this case, this is no longer a quick submission]
+
+step2: instrument is now available in OBI as OBI:XXX. the devised scheme can now be used straight away as: 
+
+Again, once established, this could therefore be a totally automated submission process.
