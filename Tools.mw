@@ -1,0 +1,34 @@
+==Useful owl related links==
+* [[ OwlBestPractices|Owl ''best'' ''practices'' extracted from the CO-ODE Protege-OWL Tutorial (2004)]]
+
+==How do I use Protege with the Pellet Reasoner?==
+* Excerpt from: http://www.mindswap.org/2003/pellet/faq.shtml
+**Pellet comes with a DIG server that you can use with Protege. You can start the DIG server by running pellet-dig.bat on Windows systems and by running pellet-dig.sh on Unix-like systems. You need to make sure that the port number used by Pellet and Protege is the same. When Pellet DIG server start you will see a message like the following: [[PelletDIGServer]] Version 1.3 (April 17 2006) Port: 8081
+**In Protege, go to "OWL" menu and select "Preferences". For the "Reasoner  URL" value enter "http://localhost:8081" and hit the close button. Or alternatively you can start Pellet DIG server using the port number defined in Protege, e.g. type pellet-dig -port 8080 in the command prompt.
+**Alternatively you can use the Pellet 4 prototype at: http://protege.stanford.edu/download/prerelease-alpha/prototype.html which has Pellet built in. To turn it on, select "Pellet" from the "Reasoner" menu.
+**You can get Pellet from http://pellet.owldl.com/
+
+== Tabular import tools ==
+Since many of us will have the need to import tables of 'next round' terms (with metadata), I would like to bring this nice Protege plugin to your attention:
+http://protege.stanford.edu/conference/2007/presentations/10.01_Nyulas.pdf
+It comes with the Protege installation and allows the import of rows in tables or RDTBs as classes or as instances into owl as well as Frame based Protege ontologies. So its the successor of the old Datagenie plugin which many of you might know.
+
+=Useful external tools=
+[put links here]
+
+
+
+== R2D2 – RDF to Database too ==
+
+
+http://aksw.org/Projects/R2D2?v=aac
+
+The Semantic Web aims at giving data more structure and computer understandable meaning. For that RDF enables to add metadata to the unmanageable mass of data in the World Wide Web. Hence, the transformation of data located in relational databases to RDF plays an essential role. To provide such functionality our implementation R2D2 maps an RDF query to a legacy relational database without having to replicate the data.
+
+R2D2 is be implemented in PHP and uses the RDF API for PHP (RAP) for querying a virtual R2D2-Graph. An R2D2-Graph is read only and may be used like other models in RAP by instantiating a new model named R2D2model. An R2D2model rewrites find(spo) and sparql() queries to SQL queries and transforms the SQL result set back into RDF triples. A database schema is mapped by the D2RQ Mapping Language – a declarative mapping language for describing the relation between an ontology and an relational data model.
+
+R2D2 supports:
+
+* querying a non-RDF database using SPARQL or find(spo).
+* publishing the content of a non-RDF database in RDF using the RAP NetAPI.
+* automatic generation of a mapping file for any database so you can query it in RDF
