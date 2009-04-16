@@ -1,0 +1,270 @@
+[[category:?]]
+
+[[Data_transformation_workshop| Main Data Transformation Workshop page>> ]]
+
+<br>
+
+AI: Data qualities we need to talk to PATO about. 
+
+AI: New terms to add in the following structure and names:
+
+curve fitting
+  loess_fitting - non parametric fit - could go under curve_fitting
+loess_transformation
+  loess_global_transformation 
+     loess_global_transformation_two_channel
+     loess_global_transformation_single_channel
+  loess_group_transformation  
+     loess_group_transformation_two_channel
+     loess_group_transformation_single_channel
+
+AI - MM will provide a definition of loess_fitting, new term under curve_fitting.
+
+AI - Elisabetta will look to see if there can be dual and single channel specific children in other places in the hierarchy. Will send a list of proposals in email to dt group.
+
+AI: New Structure to add. Needs definitions and roles
+
+data_transformation
+ descriptive_statistics_calculation
+     mean_calculation, add moment_calculation and center_calculation roles
+     mode_calculation, add center_calculation role
+     quantile_calculation
+          median_calculation, add center_calculation role
+     variance_calculation, add spread_calculation and moment_calculation roles
+     standard_deviation_calculation, add spread_calculation roles
+     interquartile_calculation, add spread_calculation roles
+     skewness_calculation, add moment_calculation roles
+     kurtosis_calculation, add moment_calculation roles
+
+AI: Decide if parametric/non parametric are roles or qualities. Seems qualities is preferred. If these are qualities then they need to go to PATO, we think these are intrinic properties of the test.
+
+AI: Parallel issues with tests (plans) and protocol applications. We will raise this for the meeting in Vancouver about how these 2 interact and where we think that something should be built.
+
+AI: Melanie volunteered to deal with loading data transformation related plan terms if we can reach a consensus on definitions and the plan/protocol terms.
+
+AI: Automatically generating class descriptions have hypothesis test and all children in flat list and James infers hierarchy based on properties and show them.
+
+
+Tuesday 6 November 2007 Meeting Notes
+-------------------------------------
+
+EM: Question: if we attach the has_normalization role to all children of the previous normalization class then isn't it assumed that every instance of these always has a normalization role? If so, that would be a problem as these children are not necessarily always used for normalization (that was one of the reason yesterday we decided to generalize their definitions).
+
+HP: Is it an issue that there are other roles, and if so we need to figure out what these are.
+
+EM: Gives examples of generalized definitions for global_loess_transformation and  median_transformation (previous median_log_transformation). Discussion of whether the terms are generically useful. 
+
+HP: Not seeing a problem with the generic definitions, specific examples are good and generic definitions mean that they can be applied.
+
+MC: We could make subclasses for these. If the definition is restrictive then suggests that we need this. Consensus was that if you add extra information to the definition then a sub class is needed. 
+
+EM: subclass: global_loess_normalization_microarray, where the generic variables x and y in the general definition are replaced by A and M, where A and M represent  average and difference of log ratios.
+
+RiS: May be the best of both worlds, get precise and and option for a general term.
+
+HP: No problem with that, but building the microarray into the name is problematic. Suggest that add the 2 channel part to the name, and consider the single channel case and then make a child for that too.
+
+RiS: Might be worth doing this as an example.
+
+HP: This might work well as generating a product, always have the option to subclass later if definitions are not precise enough. Worked well for GO. Shouldn't prefix terms, should be precise for the data case.
+
+MM: Suggest have a case that's loess and children that are more specific. Typically fitting a curve, simply the fit, not the subtraction. We'd need loess and a child for it.
+
+RiS: We have terms that use to describe datasets, mean, median, loess curve need to represent that as a property of the dataset.
+
+RoS: Christian pointed out that we are conflating things. Performing a best fit, and there is also a best fit.
+
+HP: Think RiS is describing that we need qualities of data, and that these need to live somewhere.
+
+AI: We need to talk to PATO about data qualities.
+
+EM: Suggest to compile a list of what we need first and then talk to PATO with our concrete list at hand.
+
+RiS: When we talk about partitioning and filtering, we partition on characteristics and use to filter data. We are also conflating here, and we should be careful.
+
+AI: New terms to add in the following structure and names:
+
+Curve fitting
+ loess_fitting - non parametric fit - could go under curve_fitting
+Loess_transformation
+  loess_global_transformation 
+     loess_global_transformation_two_channel
+     loess_global_transformation_single_channel
+  loess_group_transformation  
+
+AI: MM will provide a definition of loess_fitting, new term under curve_fitting.
+
+AI: Elisabetta will look to see if there can be dual and single channel specific cildren in other places in the hierarchy. Will send a list of proposals in email to dt group.
+
+Explanation of moments from MM:
+Area under a curve, central moments, center by substract mean, itself a moment, get the area under the curve. Where n=1, then get the mean, n=2 get variance, n=3 get the skewness, and n=4 get the kurtosis.
+ 
+We can divide into moments and quantiles, or divide into current categories, and there is multiple inheitance. Suggestion to remove the organising subclasses and use roles to give the classification of the current organizing parents. Could recalculate the hierarchy using roles anyway. 
+
+AI:New Structure to add. Needs definitions and roles
+
+data_transformation
+ descriptive_statistics_calculation
+     mean_calculation, add moment_calculation and center_calculation roles
+     mode_calculation, add center_calculation role
+     quantile_calculation
+          median_calculation, add center_calculation role
+     variance_calculation, add spread_calculation and moment_calculation roles
+     standard_deviation_calculation, add spread_calculation role
+     interquartile_calculation, add spread_calculation role
+     skewness_calculation, add moment_calculation role
+     kurtosis_calculation, add moment_calculation role
+
+Parametric/Non parametric
+distinction between parametric/non parametric - should this be in the class hierarchy or a property? Also applies to regression.
+
+
+<b>Emerging Design Principles:
+Avoiding multiple parentage using roles, e.g. descriptive statistics flat list with roles to classify them, and same for normalization
+
+Using qualities such as parametric and non parametric tests on classes to infer this hierarchy.
+
+Making general definitions with application specific names and examples, e.g. global_loess_two_channel not global_loess_microarray.
+
+Qualities describe inherent properties/characteristics in independent continuents, whereas roles are temporary properties that can vary with time.
+
+Many of the data transformation terms describe processes that are application specific.  We have tried to identify the generic equivalent of the application specific term, to use this term as an upper level node in the hierarchy and them allow the use of the application-specific term as a child/sub-class.  This allows the re-use of the generic term in other applications while supporting dataset annotation using the application-specific terms.
+
+Policy related to parallel universes of plan and application of plan. If we do only in one of these, do it in plan, not application as we have qualities that need to inhere in something. Acc to BFO they inhere in independent continuant, i.e. plan.
+</b>
+
+AI: Decide if parametric/non parametric are roles or qualities. Seems qualities is preferred. If these are qualities then they need to go to PATO, we think these are intrinsic properties of the test.
+
+Statistical tests. E.g. hypothesis_testing is missing
+
+Z score calculation - not a descriptive statistic, then can derive a P value
+P value calculation - 
+
+hypothesis tests:
+
+
+Ris: We need an 'informal hypothesis test' data interpretation - what clinicians do, before or after the hypothesis test?
+
+We compile a list of tests and statistics:
+
+Z score - not at test, used in a test
+  1 sample
+  2 sample
+Wilcoxon
+t-test 
+       one sample
+       two sample
+	   paired
+	   unpaired
+              pooled_t_test (equal_variance)
+Chi-squared
+RAO-Scott_Chi_sqaured
+Kolmogorov-Smirnov
+Wilcoxon_Signed_rank
+ANOVA
+Fisher Exact test
+Hypogeometric_distribution_test
+MANOVA 
+one way, multiway (includes two factor)  - properties of many tests,repeated measures
+univariate and multi variate  - might be properties or parents
+Regression analysis (Analysis of variance could be a subset of regression and reression can be descriptive where you just want the slope)
+type 1 error -  considerations for the hypothesis, for PATO?
+type 2 error - for PATO?
+alpha level -  prob of type 1 error parameters for these tests
+beta level - prob of type 2 error parameters for these tests (MC has already submitted to DENRIE branch quantitative_parameter - SBO definition may be part of a calculation, not determined by the calc itself. We think it may not belong there). Are these qualities or parameters? Is a parameter a role? These are not numbers they are probabilities. Are these a role?)
+Permutation_test
+multiple testing correction methods (strong and weak control)
+   FDR
+   FWER
+   P-FDR
+   Bonferroni
+   Sidak
+Tukey's HSD
+Scheffe
+Dunnett
+normality_test
+Fisher method - a different test from the one above, aimed at combining p values
+Non parametric regression
+
+Discussion on whether parametric/non parametric should be added as properties. 
+These are properties that don't characterise the application - this is a good point. We need to be careful not to conflate the two. The application of the test/non parametric. Application_of_parametric_test? Quality of a continuant not the process. Qualities are not supposed to inhere in processes. We need a list of these continuants. 
+
+We discuss the parametric/non-parametric, but we think that we should use qualitities.
+We may need to find the cases where parametric vs non parametric tests in scope. *competency question. These may not belong to us, where would they go?
+
+CC: These may be roles. 
+
+HP: Examples?
+
+RoS: Suggest we build them as we need them hypothesis_testing uses HypothesisTest.
+
+CC: test t, implemented by - application, has_role - differential_expression_analysis
+
+EM: Hypothesis testing 'uses'  an instance of a hypothesis test.
+
+Implemented by - not good, participates in - not right, long discussion on the use of these relationships correctly - implements, uses.
+Christian doesn't like implement as he considers should be physical. Long discussion on what's a good property name here. 
+
+AI: Parallel issues with tests (plans) and protocol applications. We will raise this for the meeting in Vancouver about how these 2 interact and where we think that something should be built.
+
+AI: Melanie volunteered to deal with loading data transformation related plan terms if we can reach a consensus on definitions and the plan/protocol terms.
+
+Are tests which are good for multiple groups a property or a hierarchy?
+
+
+Nontests
+
+CategoricalHypothesisDataTest synonym QualitativeHypothesisTest- tests where the data is not - 
+
+see xls sheet.
+
+EM: Where to put hypothesis_testing in the file? Sib of differential_expression_analysis.
+
+Suggestions on natural order for a biologist. 
+
+MM: sample no applied to. Permutation test breaks this.
+
+RoS: Distribution - makes a t test.
+
+RiS: Insteac of hypothesis_testing, this class should be named statistical_hypothesis_testing. (not forgetting informal hypothesis testing - interpretation). 
+
+[http://bama.ua.edu/~jleeper/627/choosestat.html]
+
+AI: Automatically generating class descriptions have all tests in flat list and James infers hierarchy based on properties and show them.
+
+
+Discussion on partitioning and filtering
+----------------------------------------
+
+Current h'archy doesn't reflect supervised and unsupervised classification. EM has an alternative using a top class "classification" instead of partitioning_method, with things reshuffled. Doesn't like the parent partitioning_method over hierarchical_clustering, as this is not a clustering method based on partitions (as instead is k-menas). Maybe partioning method should be a quality etc.
+
+Discussion on the on sequence analysis terms currently under classification_method. These are Bjoern's terms, whether we need a new set of terms for sequence analysis, and move this here. Sequence analysis could be a role as well.
+
+partitioning_method. Currently we see many problems with this class and its organization into subclasses. A first-draft proposal that we want to make is to replace its hierarchy as follows: 
+
+* similarity_calculation
+* classification (a data analysis which attaches a label to each input entry; leave generic to allow fuzzy methods) 
+  * supervised_classification (alt. class_prediction) 
+     * support_vector_machine_classification... 
+     * neural_network_classification, etc.
+     * kNN_classification
+     * b_cell_epitope_prediction (deal with the these and siblings)
+  * unsupervised_classification (alt. class_discovery) 
+     * hierarchical_clustering_classification (with its current subclasses) 
+     * k_means 
+     * fuzzy methods? 
+
+Partitioning could become goal or role (need to keep it in file).
+Keep hierarchy above and try to fit concepts into this and see where end up.
+We might need to move classification, supervised_classification and unsupervised_classification to roles.
+
+Filtering vs Projection – not synonyms.  Filtering is not the same as dimensionality reduction.  Gating may also be child of filtering (which is not same as dim_red).
+Final agreement appears to be that we can retain the recently proposed hierarchy under dimensionality_reduction, except gating should be moved as direct child of data-_transformation until RiS sorts this term and its placement out with Ryan and Joseph.
+
+AI (JM): edge_filtering and structural_filtering to be subclassed into a new network_analysis concept temporarily.
+
+AI: Add similarity_calculation as child of data_transformation
+
+AI: Add “_classification” to end of hierarchical_clustering class
+
+AI: gating to be moved up to direct child of data_transformation.
