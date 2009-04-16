@@ -1,207 +1,182 @@
 [[category:?]]
 
 [[Data_transformation_workshop| Main Data Transformation Workshop page>> ]]
-
 <br>
 
-AI: Everything currently under unclassified goes under network analysis. JM
+Agenda for today:
 
-AI: Plotting terms needs discussion.
+Thursday 8 November 2007
+------------------------
 
-AI: Sequence analysis needs discussion.
+Discussion of stochastic vs deterministic processes and how might fit into BFO.
 
-AI: Longitundinal data not been dealt with, e.g. survival analysis, Kaplan Meier.
+CC: Thinks that stochastic is epistemic and is a projection of how we regard processes not a representation of reality. We would like to classify stats in this way so this might be a problem.
 
-AI: Time series needs discussion.
+AI: We will raise the usage of Protege 4 at the next workshop. 
 
-AI: Inter rater agreement - e.g. AGPAR score on a baby, how well do they agree when rated by 2  people.
+AI: Melanie will get some proteomics use cases as she has worked with this data before.
 
-AI: Data interpretation e.g. extract a diagnosis from a test result.
+AI: Propose get rid of input and ouput roles as we already have properties has_input_of and has_output_of so no need to be in roles as well. MC
 
-AI: Mass spec analysis terms need to be discussed.
+EM: If we move to 4, we are working with an OWL file? Is this seamless?
 
-AI: Move everything currently under data imputation goes to a new class mass spec analysis if that works, or unclassified. JM
+RoS: Yes for OWL.
 
-AI: Data imputatation: needs a definition. EM
+HP: The Autoid plugin is replaced now with in Protege 4 for example and this will cause us some issues during migration.
 
-AI: Add KNN to imputation class. There will be others. EM
+RoS: When James visits Manchester he'll be shown 4, and if James has a list of requirements then these will discussed with Protege 4 developers.
 
-AI: Averaging method: dye_swap should be a child of replicate_analysis, and the latter should be renamed. EM
+AI: James to have a list of our protege requirements and to return with a list of pros and cons of protege 4 for us to consider in Vancouver
 
-AI: Averaging could be a role, not a class. This because dye-swap merge can be used for averaging, but also in some cases for normalization. Treat as a special case has normalization role and averaging. MC to pass to role branch.
+Agenda for today:
 
-CC: Offers to give a tutorial on the BFO world view on use of roles, qualities.
+MC: Suggest that we generate a list of terms to suggest to Philippe on Friday for the Plan/Alg branch. These are in our unclassified branch, so there'll be issues with definitions. 
 
-Distinction between essential and accidental properties. Essential should be in the tree, e.g. x is quality belongs in the tree. Whenever add a node, think whether that node or its parent is an essential property. If it is an accidential property should be a quality or a role. Normalization is a good example. Partitioning and clustering also sound like role, not essential. 
+EM: We want the defs to be in the algorithm terms not the transformation branch. Then a transformation can simply refer to a well defined algorithm.
 
-RoS: When we tried to classify the hypothesis tests we couldn't get a good organisation, so maybe then the classifications we were using were non essential qualities.
+HP: These definitions could of the citation type.
 
-RoS: Is neccessary and sufficient the same as accidental and essential? 
+MC: I wouldn't mind adding these to the OWL file if Philippe is busy, but will not be able to do the definitions.
 
-CC: These are not synonyms. There's an overlap though.
+EM: The defs will be quite simply - alg is described in this reference for e.g. and then these can be added. Suggest create an _unclassified.
 
-RoS: This is aristotleen, what's the modern approach?
+HP: There will be all the same issues with structuring this class, and we might want to have that discussion with him, so that he builds in the same way.
 
-CC: Modern math logic, standard view is that 1 order logic is enough, some people think we need higher order logic. What you can read from a 1 order expression should reflect that in the ontology.
+EM: We might do dt hierarchy first and then project to plan. Suggest that we do it. When we pass an algorithm to them we need a place to reference it anyway, so suggest do that first.
 
-AI: Propose averaging as a role. We defined mean_calculation, so we can refer to that definition to define averagin, e.g. applying a mean_calculation to the input.
+EM: Polynomial stuff, degree - need a relationship has_degree with a number (non-negative integer), the number of variables is also needed.
 
-EM: probabilistic_algorithm and expectation_maximization need to be discussed. 
-expectation_maximization is a a technique that can be used in many contexts. Other examples are permutation tests and Hidden Markov Models. We do need to to deal with all these cases. Need a way to handle general techniques. 
+AI: Two for relations branch: has_degree, and has_number_of_variables where values are non-negative integers. CC
 
-AI: Move probablistic_algorithm and its current structure for now to the unclassified section and figure out what to do. Probablistic_algorithm could be part of the plan branch, child of algorithm, suggest rename to stochastic_algorithm with probablistic_algorithm as a synonym. MC will look into that. The current child term expectation maximization needs to go to dt unclassified for now.
+RoS: What's a (math) dimension?
 
-There is some stuff in the excel file that did not get into the OWL file for various reasons. Looks like Philippe's and Richard's were not submitted, currently missing links on the dt wiki. EM and TB have gone through the non-data transform file. Shortest path calculation etc need to be reclassified, and there are some mass spec terms ~50 terms in here. Some needs to go to other branches. EM Will look up notes. 
+CC: In math, that's a quality or relation, only physical dimensions are in BFO.
 
-EM: Suggest clean up the OWL file and then include these as will be easier when this done.
+RoS: Thinking in OWL have object properties where filler is a physical thing. e.g. has_part Hand and data properties, have numbers and strings or both. In OWL can have a class of dimension, can say in OWL has_quality 4 dimensions, so is an option to have a class of dimension.
 
-AI: Remaining submitted terms from the non-data transform file have been discussed at a recent conference call, EM and TB will revisit, see mail. Some need to go to other branches and some need to be included in the current file.
-http://sourceforge.net/mailarchive/forum.php?thread_name=Pine.LNX.4.61.0709121048280.12725%40hera.pcbi.upenn.edu&forum_name=obi-datatrfm-branch
+Discussion on whether certain math concepts such as dimension should even be in OBI as they are not part of the real world. We decide to proceed as we need these anyway. 
 
+EM: So we need relationshps between polynomials and non-negative integers to get attach degree and number of variables.
 
-Discussion on distributions.
-MM: Use case: give me cancer data with a Poisson distribution - statistician use case. Terms such as Poisson distribution - properties of data, think they belong in the data branch. 
+CC: Polynomial has one variable and this is a vector.
 
-AI:Terms to submit to DENRIE branch:
-Probability distribution
-discrete univariate probability distribution 
-Poisson distribution
-Binomial distribution
-hypergeometric distribution
-geometric distribution
-Bernoulli distribution
-continuous univariate probability distribution
-Normal distribution (Gaussian Distribution)
-standard normal distribution - z distribution
-Fisher F variance ratio distribution
-Student T distribution
+EM: No m variables where m is the dimension of the vector space. OK will make proposals to Josef (Ryan's group) based on this about their terms. Josef is working on a data exchange format for Flow Cytometry where OBI will be used.
 
+CC: One more thing, why stop at polynomials, why not represent manifolds, tangent spaces.
 
-AI: Submit the list of distributions to the DENRIE branch. 
+EM: Same thing, just positive integers, these are properties of something.
 
-AI: Suggest add to RO a property has_distribution. CC
+DS: Fractional dimensions?
 
-AI: New terms to add from s/sheet MC and EM will send a completed file to James for loading.  Where possible use a citation for definitions and cite the source:
+MM: Not when dealing with bio data.
 
-error estimation - could be a role, needs discussion
-add the following under unclassified CC:
- K-fold cross validation method
- Leave one out cross validation method
- Jackknifing  method
- Boostrapping
+EM: Only want to define what we need. What we have now needs to be changed (from Ryan's group) so I need to communicate with them. 
 
-AI: Adding missing terms from the spreadsheet MM 
-children of FDR
- Benjamini and Hochberg false discovery rate correction method
- Benjamini and Yekutieli false discovery rate correction method
- Holm false discovery rate correction method
- family wise error rate (FWER) correction method
-   Westfall and Young
+EM: Think in BFO spatial region should not have children with the 0,1,2,3 dimensions. Should have a relationship has_dimensions with non-negative integers. 
 
-AI: Add the following under unclassified TB:
- Regression analysis method
- Multiple linear regression analysis (MLR)
- Principal Component Regression (PCR)
- Partial least square regression analysis (PLS)
- Discriminant Analysis
- Partial least square discriminant analysis (PLS-DA)
- Linear discriminant analysis (LDA)
- Canonical variate analysis (CVA)
- Discriminant function analysis (DFA)
- soft independent modeling of class analogy (SIMCA) analysis 
- 
-Add under imputation all need defining MM:
- Estimator based imputation method
- Mean imputation method
- Substitution method
+HP: Think these were added to represent anatomy, BFO doesn't care about math.
 
-AI: Add mass spec terms, not clear if all only mass spec, need defining also bounce back to Philippe PRS:
- Spectral Data Processing
- Baseline correction
- Golotvin and Williams baseline correction
- Polynomial regression baseline correction
- Apodization
- Phase shift correction
- Constant phase and linear phase correction 
- Frequency shift correction
- Deconvolution
- Reference deconvolution (FIDDLE)
- Zero filling
- Temporal filtering (Lorentzian or Gaussian) 
- Water suppression 
- Water suppression using time-domain convolution.
+CC: Could make these dimensions instances instead.
 
-Add:
- background_correction - may be a role, sounds like normalization, add methods for this. MM
+EM: Instances not good, could be lines, circles etc.
 
-Add:
- Non-negative Matrix Factorization (NMF) to retrieve spectral patterns with meaningful  MM biological effects. 
- 
-Propose add to DENRIE:
- Genetic Algorithm to child of Algorithm
- boosting algorithm
- Bootstrap algorithm
- Weighted Majority Algorithm
- Fourier algorithm
- Cooley and Tukey Fast Fourier Algorithm
- 
-Add to decision tree child EM
- C4.5 
+MM: In stats if we have 100 variables then we have 100 dimensions.
 
-Add to unclassified (EM?):
- fourier transformation
-  discrete Fourier transformation
-  discrete time Fourier transformation
-  Fast Fourier Transformation
+EM: Agree, looks like in spatial_region some dimensions have been selected, as they have a special role for anatomy, the current list is non an exhaustive list.
 
-AI: Check consistency of algorithms vs applications across branches.
+RoS: Is in BFO world, where they are modelling reality not math. 
 
-Add to unclassified:
- Hadamard transformation
- Laplace transformation
- Discrete Karhunen-Loève transformation
- Lorentz to Gaussian Transformation
- Generalised logarithm (abbreviated to glog)
- Extended generalised logarithm (abbreviated to extended glog)
+EM: We use the term space?
 
-Add to mathematical transformation EM:
- Variance autoscaling 
- Pareto scaling
+RoS: They are not using the same type of space. And shouldn't get hung up on the words.
 
-Now looking at the second sheet, need to assign people to define terms.
+CC: Physical background for BFO is naive physics. Once get beyond that BFO doesn't work. Barry is a proponent of naive physics.
 
-AI: EM will clean up the non-data-transformation_terms_9-13, xls.
-Has terms that were decided were not in the branch and now we think they do. People still need to be assigned to do definitions. 
+AI: We will not use spatial_region for math dimensions, it was not intended to represent that in BFO. We can propose to add properties such as has_nonphysical_dimension where needed.
 
-AI: JM and HP will clean up the notes and add who will do what to the spreadsheets for ease of editing.
+<b>Proceeding till January</b>
 
-Discussion on meta data usage and inconsistent usages.
+RoS: Do you know what breadth and depth we need yet?
 
-AI: DS:will flag cases where we have inconsistencies to the dev list. E.g use of branch. DC:citation -> definition_citation.
+JM: We have the use cases. OBI has a wide scope and the use cases are it.
 
-AI: James will follow up with Gilberto to the XML solution of adding annotation properties to annotation properties that would allow us to to specify terms in a community. 
+RoS: Rather than trying to model everything take someone which a narrow case and deliver something that they can use to annotate something, or more than one use case.
 
+HP: Would express that as we have done card sorting from x lists of terms from y communities. We have built and validated something that has been validated and tested for z communities.
 
-AI:Meta data discussion. Some inconsistencies have been identified by Daniel. Use of branch property, use of DC:source, replace these annotations with definition_citation. DS will flag more. 
+RoS: If you have data transformation for microarray studies, is it feasible that you can start annotating with a fragment of OBI before OBI is ready.
 
-Discussion on homynms again. And alternative terms. Can't add an e.g. sensu term on an alternate name on a annotation property. We need a way to handle this. People think will be rare.
+HP: Yes, but I don't want to do that for all the data in AE.
 
-<b>Evaluation</b>
+RoS: Then map MO to OBI and use these, and use a bit of OBI.
 
-JM: How will we assess what we have done? Given the use cases and competency questions. Have some use cases for data transformation.[https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions]
+EM: We can do that.
 
-Question of looking at the process view or a data view, we have a description of the process and also the data.
+AI: Mapping MO data transformation terms to OBI and representation of that in OBI - EM.
 
-RoS: Interested in incompetency questions: Ontologies for healthcare records, body parts can be fractured, but not allow people to say that eyebrow is fractured.
+EM: If I have a series of transformations, if I annotate I need to say what order I do things. 
 
-RoS: What are you evaluating for? Need to know the question.
+HP: I am not sure that you do. If you have properties preceded_by and succeeded_by. These are in the RO.
 
-HP: Coverage, structure, ease of use. Maybe also statistical correctness e.g. for a statistician.
+RoS: Can have a datatype o-n, where o-n are order or position.
 
-MM: Is this for just bioinformatics? If not think we should take a random sample. Abstracts in PUBMED.
+JM: Temporal region is in BFO and connected temporal region.
 
-DS: We suggested that people supply the common ones.
+EM: For DT we now have more power and richness in OBI than in MO.
 
-AI: Suggest that if Monnie is willing she gets 10 papers that she might want to 'use' in some way and gets a sample of those that we can use for evaluation, random sampling might help. 
+EM: Do we have experimental protocols type terms, etc?
 
-AI: All to get some more use cases. 3 use cases and competency questions each. By 30th November.
+HP: All were submitted OK, what has happened to them is less clear.
+
+TB: Have all terms been sent to the right branches where these were not for dt.
+
+EM: I will do that and then we will send out the other terms.
+
+DS: We also agreed that we will get a use case for the instrument from Ryan, we are in the same process. We will also need to reach out. Use cases will be specific to the communities not the branches. Nice to see how the applications are
+
+HP: We are all building our own applications.
+
+AI: Melanie will get some proteomics use cases as she has worked with this data before.
+
+<b>Standards Discussion</b>
+
+Identification of other community groups
+
+1. Workflow people, MyExperiment/MyGrid
+
+Evaluation by other communities:
+
+E.g. MyGrid, Statisticians etc.
+
+RoS: New communities: systems biology people, SBML - reactions - are these interested?
+
+MC: Nicolas likes OBI, concerns if we wants to extend OBI can he? He's interested in re-using OBI. For him he's interested in Physics concepts e.g. if needs a extra transformations?
+
+AI: MC to ask Nicolas what he needs in terms of physics concept and for an example.
+
+RoS: Maybe he has roles. 
+
+<b>Discussion on what is raw data</b>
+
+Not from an instrument, as can be raw clinical data.
+
+'raw data is uninterpreted from a storage medium'
+
+AI: Propose get rid of input and ouput roles as we already have properties has_input_of and has_output_of so no need to be in roles as well. MC
+
+Discussion of whether raw data is a necessary concept
+We think it will not be useful as the ontology has enough power already and anyway users think in terms of the SW/file format and we don't need this concept in the ontology even as  role. Also raw data is mixed for microarray and has 2 channels or one and one would do different things with it.
+
+MM: I want to know what RMA does, can I ask the ontology that.
+
+HP and EM: That's instance level you could do that if you had a knowledge database and had instantiated the ontology as annotation in a database. <b>An incompetency question'</b> - really useful to think in these terms when explaining scope.
+
+EM: All feature extraction methods or SW are part of our branch as are images->data. E.g. GenePix, and algoritms such as MAS 4 and 5, RMA, etc. 
+
+AI: Ensure that Image processing for feature extraction etc SW and algorithms are represented in our branch.
+
+AI: Suggest to roles a check for redundancy in existing properties, and flag for developers in case needed.
+
+DS: There's a button that shows where things are used, and need to check that.
+
+AI: Develop a set of rules for editing and committing the OWL file, esp. removing e.g. branches that are interacting with multiple other branches e.g. roles, and relations - HP added to the Vancouver example.
