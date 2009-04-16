@@ -1,0 +1,43 @@
+[[category:?]]
+
+This is the ProtocolApplicationBranch
+
+==Editors==
+* Bjoern Peters (Lead Editor)
+* Frank Gibson
+* Alan Ruttenberg
+* Allyson Lister
+* Jay Greenbaum
+* Randi Vita
+* Kevin Clancy
+
+==Mailing List==
+The mailing list is: http://sourceforge.net/mailarchive/forum.php?forum=obi-protocol-application-branch
+
+
+==Meeting Minutes==
+
+The record of minutes can be found at the [[Minutes]] page.
+
+==Action Items==
+
+[[Action Item List]]
+
+==Development Decisions==
+[[Major Development Decisions]]
+
+==Use Cases==
+[[ProtocolApplicationUseCases|Protocol Application Use Cases]]
+
+==Development Items==
+
+Tab delimited file with terms from flow cytometry:
+https://wiki.cbil.upenn.edu/obiwiki.old/uploads/Protocol_application-FlowCytometry-2007-03-30.txt
+
+
+OWL file
+'''Is not current:''' first version of an OBI file with subclassed RO relations
+https://wiki.cbil.upenn.edu/obiwiki.old/uploads/OBI41_RO.zip
+
+Spreadsheet tracking all submitted terms
+http://spreadsheets.google.com/pub?key=pw8j3hhLqiX0GTks-gE_ibA
