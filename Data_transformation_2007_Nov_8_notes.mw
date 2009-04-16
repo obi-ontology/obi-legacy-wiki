@@ -1,0 +1,207 @@
+[[category:?]]
+
+[[Data_transformation_workshop| Main Data Transformation Workshop page>> ]]
+
+<br>
+
+AI: Everything currently under unclassified goes under network analysis. JM
+
+AI: Plotting terms needs discussion.
+
+AI: Sequence analysis needs discussion.
+
+AI: Longitundinal data not been dealt with, e.g. survival analysis, Kaplan Meier.
+
+AI: Time series needs discussion.
+
+AI: Inter rater agreement - e.g. AGPAR score on a baby, how well do they agree when rated by 2  people.
+
+AI: Data interpretation e.g. extract a diagnosis from a test result.
+
+AI: Mass spec analysis terms need to be discussed.
+
+AI: Move everything currently under data imputation goes to a new class mass spec analysis if that works, or unclassified. JM
+
+AI: Data imputatation: needs a definition. EM
+
+AI: Add KNN to imputation class. There will be others. EM
+
+AI: Averaging method: dye_swap should be a child of replicate_analysis, and the latter should be renamed. EM
+
+AI: Averaging could be a role, not a class. This because dye-swap merge can be used for averaging, but also in some cases for normalization. Treat as a special case has normalization role and averaging. MC to pass to role branch.
+
+CC: Offers to give a tutorial on the BFO world view on use of roles, qualities.
+
+Distinction between essential and accidental properties. Essential should be in the tree, e.g. x is quality belongs in the tree. Whenever add a node, think whether that node or its parent is an essential property. If it is an accidential property should be a quality or a role. Normalization is a good example. Partitioning and clustering also sound like role, not essential. 
+
+RoS: When we tried to classify the hypothesis tests we couldn't get a good organisation, so maybe then the classifications we were using were non essential qualities.
+
+RoS: Is neccessary and sufficient the same as accidental and essential? 
+
+CC: These are not synonyms. There's an overlap though.
+
+RoS: This is aristotleen, what's the modern approach?
+
+CC: Modern math logic, standard view is that 1 order logic is enough, some people think we need higher order logic. What you can read from a 1 order expression should reflect that in the ontology.
+
+AI: Propose averaging as a role. We defined mean_calculation, so we can refer to that definition to define averagin, e.g. applying a mean_calculation to the input.
+
+EM: probabilistic_algorithm and expectation_maximization need to be discussed. 
+expectation_maximization is a a technique that can be used in many contexts. Other examples are permutation tests and Hidden Markov Models. We do need to to deal with all these cases. Need a way to handle general techniques. 
+
+AI: Move probablistic_algorithm and its current structure for now to the unclassified section and figure out what to do. Probablistic_algorithm could be part of the plan branch, child of algorithm, suggest rename to stochastic_algorithm with probablistic_algorithm as a synonym. MC will look into that. The current child term expectation maximization needs to go to dt unclassified for now.
+
+There is some stuff in the excel file that did not get into the OWL file for various reasons. Looks like Philippe's and Richard's were not submitted, currently missing links on the dt wiki. EM and TB have gone through the non-data transform file. Shortest path calculation etc need to be reclassified, and there are some mass spec terms ~50 terms in here. Some needs to go to other branches. EM Will look up notes. 
+
+EM: Suggest clean up the OWL file and then include these as will be easier when this done.
+
+AI: Remaining submitted terms from the non-data transform file have been discussed at a recent conference call, EM and TB will revisit, see mail. Some need to go to other branches and some need to be included in the current file.
+http://sourceforge.net/mailarchive/forum.php?thread_name=Pine.LNX.4.61.0709121048280.12725%40hera.pcbi.upenn.edu&forum_name=obi-datatrfm-branch
+
+
+Discussion on distributions.
+MM: Use case: give me cancer data with a Poisson distribution - statistician use case. Terms such as Poisson distribution - properties of data, think they belong in the data branch. 
+
+AI:Terms to submit to DENRIE branch:
+Probability distribution
+discrete univariate probability distribution 
+Poisson distribution
+Binomial distribution
+hypergeometric distribution
+geometric distribution
+Bernoulli distribution
+continuous univariate probability distribution
+Normal distribution (Gaussian Distribution)
+standard normal distribution - z distribution
+Fisher F variance ratio distribution
+Student T distribution
+
+
+AI: Submit the list of distributions to the DENRIE branch. 
+
+AI: Suggest add to RO a property has_distribution. CC
+
+AI: New terms to add from s/sheet MC and EM will send a completed file to James for loading.  Where possible use a citation for definitions and cite the source:
+
+error estimation - could be a role, needs discussion
+add the following under unclassified CC:
+ K-fold cross validation method
+ Leave one out cross validation method
+ Jackknifing  method
+ Boostrapping
+
+AI: Adding missing terms from the spreadsheet MM 
+children of FDR
+ Benjamini and Hochberg false discovery rate correction method
+ Benjamini and Yekutieli false discovery rate correction method
+ Holm false discovery rate correction method
+ family wise error rate (FWER) correction method
+   Westfall and Young
+
+AI: Add the following under unclassified TB:
+ Regression analysis method
+ Multiple linear regression analysis (MLR)
+ Principal Component Regression (PCR)
+ Partial least square regression analysis (PLS)
+ Discriminant Analysis
+ Partial least square discriminant analysis (PLS-DA)
+ Linear discriminant analysis (LDA)
+ Canonical variate analysis (CVA)
+ Discriminant function analysis (DFA)
+ soft independent modeling of class analogy (SIMCA) analysis 
+ 
+Add under imputation all need defining MM:
+ Estimator based imputation method
+ Mean imputation method
+ Substitution method
+
+AI: Add mass spec terms, not clear if all only mass spec, need defining also bounce back to Philippe PRS:
+ Spectral Data Processing
+ Baseline correction
+ Golotvin and Williams baseline correction
+ Polynomial regression baseline correction
+ Apodization
+ Phase shift correction
+ Constant phase and linear phase correction 
+ Frequency shift correction
+ Deconvolution
+ Reference deconvolution (FIDDLE)
+ Zero filling
+ Temporal filtering (Lorentzian or Gaussian) 
+ Water suppression 
+ Water suppression using time-domain convolution.
+
+Add:
+ background_correction - may be a role, sounds like normalization, add methods for this. MM
+
+Add:
+ Non-negative Matrix Factorization (NMF) to retrieve spectral patterns with meaningful  MM biological effects. 
+ 
+Propose add to DENRIE:
+ Genetic Algorithm to child of Algorithm
+ boosting algorithm
+ Bootstrap algorithm
+ Weighted Majority Algorithm
+ Fourier algorithm
+ Cooley and Tukey Fast Fourier Algorithm
+ 
+Add to decision tree child EM
+ C4.5 
+
+Add to unclassified (EM?):
+ fourier transformation
+  discrete Fourier transformation
+  discrete time Fourier transformation
+  Fast Fourier Transformation
+
+AI: Check consistency of algorithms vs applications across branches.
+
+Add to unclassified:
+ Hadamard transformation
+ Laplace transformation
+ Discrete Karhunen-Loève transformation
+ Lorentz to Gaussian Transformation
+ Generalised logarithm (abbreviated to glog)
+ Extended generalised logarithm (abbreviated to extended glog)
+
+Add to mathematical transformation EM:
+ Variance autoscaling 
+ Pareto scaling
+
+Now looking at the second sheet, need to assign people to define terms.
+
+AI: EM will clean up the non-data-transformation_terms_9-13, xls.
+Has terms that were decided were not in the branch and now we think they do. People still need to be assigned to do definitions. 
+
+AI: JM and HP will clean up the notes and add who will do what to the spreadsheets for ease of editing.
+
+Discussion on meta data usage and inconsistent usages.
+
+AI: DS:will flag cases where we have inconsistencies to the dev list. E.g use of branch. DC:citation -> definition_citation.
+
+AI: James will follow up with Gilberto to the XML solution of adding annotation properties to annotation properties that would allow us to to specify terms in a community. 
+
+
+AI:Meta data discussion. Some inconsistencies have been identified by Daniel. Use of branch property, use of DC:source, replace these annotations with definition_citation. DS will flag more. 
+
+Discussion on homynms again. And alternative terms. Can't add an e.g. sensu term on an alternate name on a annotation property. We need a way to handle this. People think will be rare.
+
+<b>Evaluation</b>
+
+JM: How will we assess what we have done? Given the use cases and competency questions. Have some use cases for data transformation.[https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions]
+
+Question of looking at the process view or a data view, we have a description of the process and also the data.
+
+RoS: Interested in incompetency questions: Ontologies for healthcare records, body parts can be fractured, but not allow people to say that eyebrow is fractured.
+
+RoS: What are you evaluating for? Need to know the question.
+
+HP: Coverage, structure, ease of use. Maybe also statistical correctness e.g. for a statistician.
+
+MM: Is this for just bioinformatics? If not think we should take a random sample. Abstracts in PUBMED.
+
+DS: We suggested that people supply the common ones.
+
+AI: Suggest that if Monnie is willing she gets 10 papers that she might want to 'use' in some way and gets a sample of those that we can use for evaluation, random sampling might help. 
+
+AI: All to get some more use cases. 3 use cases and competency questions each. By 30th November.
