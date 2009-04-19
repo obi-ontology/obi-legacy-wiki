@@ -309,7 +309,7 @@ General Topics
  + Daniel could talk to Chris Taylor if that would help
  + Daniel: the nature of MIACA is that it is broad and unspecific, so may not be worth pursuing for now.
  + Frank will contact Stefan.
- + For now, probably best to remove them as they do not meet the [[ MinimalMetadata|minimum information reqs for submitted terms |]].
+ + For now, probably best to remove them as they do not meet the [[OBI Minimal metadata|minimum information reqs for submitted terms |]].
 + Frank wants to add the 10 terms (normalized definitions) from sepCV, directly into the spreadsheet. Trish says yes, as long as it's OK with PSI. + There is a more recent spreadsheet than the one on the wiki. It's from Ryan, but due to the problem with file uploads on the wiki at the moment, it isn't available there. + Trish would like someone else to test her batch loading code, as she's been the developer and the tester so far.
  + Ally suggested that Trish sent out the directions (README.txt) so whoever has time can try
  + Daniel said he would try if he had time
