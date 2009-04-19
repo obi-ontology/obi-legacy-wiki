@@ -39,5 +39,5 @@ The Function branch editors will be responsible for communicating to other branc
 
 Finally, the Functions to be covered by OBI will be those specifically related to investigational details such as executing a protocol, performing an assay, or using an instrument.
 
-=== 5. [[ObiFunctionUseCases|BFO Function and OBI Function Use Cases]] ===
+=== 5. [[Use case|BFO Function and OBI Function Use Cases]] ===
 [[category:Function]]
