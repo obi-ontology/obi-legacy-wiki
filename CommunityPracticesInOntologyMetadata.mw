@@ -165,7 +165,7 @@ Additional Information
 * Version of the ontology (owl:versionInfo, dc:hasVersion, dc:isVersionOf)
 * protege:defaultLanguage, value=en. This is needed to hide the numneric identifiers used in the rdf:ID field with the string label.
 
-===The current needs (Spring, 2007) for metadata information is listed on the [[MinimalMetadata]] page along with it's implementation in the OBI.owl file===
+===The current needs (Spring, 2007) for metadata information is listed on the [[OBI Minimal metadata]] page along with it's implementation in the OBI.owl file===
 
 ====Note: The above is a minimal set of descriptors. Find a full recommendation and detailed information such as examples and cardinalities for the annotation tags in the Metadata Annotation document, Chapter 7.2.5.1 Metadata for representational units (RUs):====
 http://msi-ontology.sourceforge.net/recommendations/Meta''Annot''v2.doc
