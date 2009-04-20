@@ -1,0 +1,419 @@
+== DetailedNotesJul6 ==
+Tina, Bjoern,Helen,Susanna,James, Alan
+Biomaterial Call notes: 06 July 2007
+Terms now imported. Under bionmaterial, all terms and no structure
+BP:switch between truly biomaterial as in natural organism, bits, proteins and switch away experimental artefacts. Under natural then things that are not outr scope, but mapping works from here.
+HP:seems clean
+AR:all stuff in natural side should be mappable elsewhere
+org_part, organism, organism_status, in vivo biomaterial, Tina, thought we would split org status into a role.
+AA: split this, added as an editor note
+In parallel we do exp. artefact
+cell_pellet,
+biological macromolecule - defintion needs a tweak to define in natural
+suspension - intended to be the natural kind
+There are two organisms, difft OBI ids, is a bug.
+BP:could be an import error
+AR:could be was already there and got put in again.
+AA:resolve dupl. orgs
+AA. Population - to be decided if natural can include e.g. a KO or not
+AA.strain, same problem with inbred
+AR: natural, composite, or syntehtic - inbetween class could work. These are e.g.s of in betweeners. population.
+Emulsion same issues
+Ecotype - natural, mult inheritance possibly?
+PBS - experimental, not a biomaterial,
+BP:we have chebi objects
+HP:can be material, and biomaterial
+AR:redundancy?
+Cell, natural, - could be snythetic
+syn_polp -exp
+transgenic_organism, exp
+whole_mount - exp
+chebi objects
+solution
+serotype - natural
+genetic_modification - is it a thing or a process
+display_library - artifical
+lsyate - what about when get viral lysis?
+individual - problem
+haplotype - quality
+genotype - quality
+diplotype - quality, left alone, should have been in SO.
+BAL - exp
+cDNA - exp
+cell_supernatant -
+cohort - role
+biosourceprovider - role, organization
+serum, natural but getting it is experimental
+plasma, "
+organ_section " - alone, always an experimental artefact -
+AA. xenograft - new term, HP will define do offline
+AA. chimera - new term, HP will define do offline
+libray - exp
+liquid_chemical_solution
+allele - role
+unicellular_org - natural
+
+BP:alternate grouping chemical soln, mol mixture,PBS, all are like definition of material some kind of aggregates, or composites. These can be exp or natural. SOme are pure parts e.g. chemicals, have that as an alternate split, mixtures, vs. unit
+SS:if under exp material, experimentally created or transformed material.
+PATO will have exp quality and also a natural quality
+SS:we can split the material from the biomaterial
+BP:don't know how to proceed now.. Not clear what Susanna said. is there a change we need to make
+SS:you wanted to split, is that correct?
+SS:split buffers vs. biological.
+AR:e.g. serum is that biological or experimental
+SS:exp, but is biological
+AR:but then is boh
+BP:natl vs exp might not be the best split.
+BP:soln, mol mix are the same kinds of things, group together with emulsion, suspension, liquid_chemical_soln and PBS. PBS is-a liquid chemical solution
+AA:there are 2 viruses in the OWL file. One needs removing
+Cell_culture - experimental
+AR:shall we group the parts of things - org part, org section
+SS:immortal cell under experimental
+Individual is this a synonym for organism. Is an identifier for an instance in an experimental setting.
+AR:genotype is a quality -
+HP:is notation for a mutation that is a variant of stuff
+AR:not saying that genotypes don't belong in single inheritance fit in pATO
+HP:needs to be biologically useful, single inheritance isn't how biology works
+BP:can it be on a gene or a whole genome?
+AR:needs to considered by whole branch
+BP:put a new group genetic information content, allele, genotype etc gop under it.
+HP:in any case we need a mapping to these things even if not in OBI
+BP:organisms, genes etc have GeneticInformation and these are children of genetic information
+AA:individual - now needs to be under to be discussed.
+organism_status - pre-mortem, post-mortem, - that's an organism quality.
+BP:could be going in sample annotation
+SS:alive and dead are qualities in pato -
+HP:keep org_status - that needs to come from pato need a mapping point
+AR:can define classes as defined classes, live organisms, defined class of organism and pato quality alive.
+TB:Susanna are you planning to present the problems?
+SS:missed that, was focussing on the open part
+TB:rbinging up the discussion points useful, where we are in the branch, what we want to bring up at the workshop.
+Tues am. Agenda - update of development status for branches
+HP:suggest we at least talk about the branches.
+SS:we could point at specific problems we have been encountering
+TB:genetic info content - e.g. discuss what we need etc, BS will have an opinionl. Better to hear this earlier.
+SS:apart from tbe genetic terms,
+HP:synthetic vs natural, that this is not clean
+BP:mention the protocol application things. cell line, cell culture - linkage between process and material - passage no, org from which cell line was derived. Interbranch relationships.
+HP:should we stop at this point
+BP:not happy with the structure, people will tear it apart. Either don't look at structure, or we spend some more time on this. SS:if you agree, I suggest to bring the file up, and asy is preliminary, bring up these and fill it in. Hp:Bjoern if you have ideas do it. I will see if I can motivate Alan. BP will arrive on Weds am. AR: will be there on Sunday night. AR and BP want to strcuture it some more. AR hoping would be some slots of work time to do things there. BP;may send an email of high order structure that I would like. AR:I can also send some notes. AA:put OBi ids, and check in. HP:If I send the defs this pm can you put them in? AR:yes.
+
+==DetailedNotes28Jun==
+Detailed BioMaterial Call Notes 28 June 2007
+Bjoern Peters, Tina Boussard, Alan Ruttenberg, Susanna Sanonse, James Malone, Helen Parkinson.
+Biomaterial Call
+BP, Alan did you edit the working version? Were those yours?
+AR:not made edits to the google docs
+BP:did someone modify on the call? Anyway I started from it and I have a final version, and I have added that.
+BP:goal was to provide the OWL file, got files from Susanna, Jennifer's file wasn't quite what wanted
+SS:I reposted what she sent
+BP:Not in shape that we can post it
+HP:should have happened that we sent this
+BP:Start with JF_final
+Line 6 - SS will edit the doc while we talk.
+Many are qualities, some are horrible
+BP:Want to go through this
+AR:suggest a col where could go.
+HP:suggest that we add a col and say out scope, let Jennifer sort these
+SS:where;s immortalized?
+BP:immortalized cell was in sheet
+SS:was discussing fix cells, and could go in PATO - exp created quality - could have a different root in PATO
+BP:immortalized is in, as cancer cells not nec exp
+BP:Primary - HP: in CTO? AA:to check if primary etc are in
+HP:what is a cell strain?
+BP: I had cell strain, why duplication
+SS:def and source the same. She has all the CEBS, she's the right person to do that
+BP:Cell strain - is like where they are derived from, is covered
+BP:do we have org strain anywhere?
+TB:has org strain,
+AR:is a subclass
+BP:we need to add strain specific terms
+AR:strain rather than organism, or cell
+BP:we need this Alan is it OK for organism strain
+AR:personal favour for BP OK
+AA:we added it and we'll come back to it
+FetalStatus - should not be included at all by this definition
+Death status, remove.
+AR:it;s clear what she's doing here, and we need a cookbook for translate into OBI. She's reflecting her data model.
+HP:this has been an ongoing problem with CEBS. More productive here to map to all repositories
+HP:Organ_section - we have organ part - this covers it. Is this a section provided by a process. Parts of organs and parts of organisms -
+BP:organism_section made by sectioning
+AR:is a defined term
+HP:whole_mount ?
+BP:org sample prep as a process
+AR:is an aggregate, and not the whole thing is not a part
+BP:is a former part for section.
+Organ_part is in scope. We need a general term that includes whole org prep and
+whole_organism - BP - crap, typically needed.
+HP:retain whole_org as a synonym
+Cell pellet we keep - process, supernatant - we have cell supernatant
+SS:specimen_pool - no.
+HP:checked population, did Susanna have mixture?
+SS:mixture - had a type of - should have a parent mixture
+HP:we've learned learn that the sheet should have been merged and these terms checked before sending to Bjoern
+AR:what does a mixture of specimens need?
+HP:I will do the things in scope for Jennifer.
+BP:Susanna's sheet nothing to discuss
+BP:final version Rows 3-16. Biomaterial term lis goes to other branches
+Final sheet, liquid chemical sol, changed purely that editor things for myself, and there's no source, we can add or remove as needed. Added a few examples. I merged one or two terms, that were the same by 2 communities
+HP:question re merging?
+BP: artificially_engineered_material and construct - bad primary class name -
+HP:did these get remained as synomyms.
+BP:in case of virus, was identical
+HP:just a point about retaining synomyms in general to allow back mapping later
+BP:also moved comments to editor notes
+HP:any probs that want to look at?
+19. protein_fragment -
+AR:part of a protein?
+BP:not if I make it
+AR:name is bad should be synthetic peptide, and def is bad
+BP:not sure about this, not only when synthesize it- might detect it in e.g. mass spec - peptide vs protein ?
+HP:if it;s 40 with posttranslational modifications, is it still a peptide?
+AR:def doesn't make it clear but is in scope
+BP:peptide vs. protein fragment are synonyms here
+AR:detect by mass spec
+BP:when refer to something 'part of protein' derived from protein, or made it yourself
+HP:if you made it then it's an artificially engineered biomaterial
+BP:want to link to a say it's an enzyme - and want to say it's synthetic
+HP:to say it's an enzyme is a catalytic siet BP:want to say it's same function as whole protein as
+AR:that's different - statement for a function
+HP:is this a proxy_for?
+No.
+AR;peptide may have same function as the protein
+BP:gave a bad e.g. was supposed to linlk partial sequence of whole protein, or synth or detect now want to say can be derived from a whole protein - 'derived -from'
+AR:if not derived from, or synth should be part of the same class
+HP: I would split them
+AR:agree, natl products not in scope of OBI
+SS:we have constructed from, different from derived_from
+BP:consenus to split, maybe merge later - hard to disinguish between synth and natural side by side
+AA:synthetic or nat occuring not something easy to split and often used side by side.
+SS:also what happened in pato - natural and artficial will be separated.
+AR:no need to split it - synthetic vs derived from natural
+usage model determibe whether we have 2 classes.
+BP:puts in synth polypeptide as a child of artifically_engineered_material
+Natural one is derived from protein - may not be a class -
+BP:fragment_derived_from protein - same def as before pretty much.
+All done for BP's sheet. All other terms OK and in original intent. May be discussions later ob
+SS:In othr sheet, are these in the dispatcher file, OK?
+BP:Will upload my version of this file.
+SS:I can help next week putting into protege.
+HP:to provide terms in same format as the final sheet.
+SS:we could structure it next week in protege
+HP:will try and do this pm, depends if Susanna can get the notes out tonight
+JM:batchloader works now.
+AR:leaves.
+
+==DetailedNotesJun22==
+BioMaterial Call
+Bjoern, Alan, Philippe, Trish, Tina, James, Susanna, Helen
+Sarting with Susanna's terms, probs in yellow
+fixed_cell - PATO - fixed quality in PATO?
+purified - also checking with PATO?
+need a process for purification
+living cell - alive is in PATO, cell - root node for cell type
+Discussion woth Chris and George, suggest we keep compound terms, and they keep the atomic. Bit confusing.
+TW:Are OBO compound terms, are these cross product? Yes apparently, In OBO they allow cross products, in OWL these can be build up with necessary and sufficient.
+AR:As no formal reln on OBO they called it cross products, not so in OBI, so we can do with OWL
+Questions on: Solid, gas, liquid, - PATO - solidity/gaseous. We also need to record that there is a GAS.
+Need to make reln between what is solid, e.g. water.
+DO we need this in OB
+AR No BP:yes
+PRS:in cell culture, specifcy the gases, or proportion of gases
+TW:need to specify the compound, and then say what the state is
+AR:there will be parts of the environment
+Discussion on whether the gas itself is needed.
+AR:we need gas and substance, we should change the definition.
+BP:Qu - gas, liquid, solid, - dofft way of slpiting the hierarchy different from how chebi would do. What types of high level nodes do we need.
+AR:will lead to mult inheritance
+BP:yes, but we want to get the high level nodes and limit taht we don't include blood
+SS:thing right, the def by PSI - all tehy want to do is id the state - sample is liquid - PATO quality sufficinent. AND we may need to say this is a gas. If we only need to do what PSI want - then this is fine. Happy to do that.
+AR:let someone resubmit the term if they really want it.
+Susanna has no more questions on her terms.
+SS:looking at the dispatcher file?
+HP:has anyone else we got defs for terms we care about
+PRS:molecular mixture - puzzled. A combination of two or more compounds. Def prepared by MO, was about related.
+AA:HP to check on the original MO use of mixture
+PRS:solution, got roles, solute, solvent - these need to go to role
+Susanna, talked about substance, not chemical, need to cross check
+TB:got PBS - role, and material
+SS:we need to review these to see if they are consistent
+BP:we seem to have duplicates as well
+PRS:PBS - 4 components, proportions, id solutes and solvents - lot of work for dealing with PBS. This is the way to go.
+There's a more grabnular model and then gfrab PBNS after it's classified
+TB;salmon sperm - biological fluid - DNA carrier - is a role.
+PRS:salmon sperm - species plus organism part and plus role - DNA carrier
+TB:status - alive/dead - PATO
+TB:org_part - part of the organisms anatomy or derived from biomaterial
+HP:think I would split into what's a part and what's derived
+BP:looking forward to high level structure
+SS:in dispatcher term, some terms not assigned to branches, or external. back to checking these.
+BP:sequence ontology workshop, all taken care in SO. All the parts of antigenic molecules
+SS:ions, 41-43 - from PSI and chebi etc. PSI was not to submit all now. Wanted to plug in later.
+SS:branch terms, we need to assign people to taking these to other branches
+AA AR:takes reln branch terms SS will note these into a file.
+AA TW:will take instrument branch terms
+AA SS: will senf to Jennider
+AA SS:cell line ontology will do
+AA TB:disease ontology
+AA: AR suggests send CARO to Chris M
+Discussion on need for follow up and what to give to other branches and what the workload to do this is.
+PRS: I put on the google all the PATO
+SS: I am not using the google.
+PRS: I did all the mapping to all the other ontologies
+SS: so is this file out of date
+PRS: I checked which terms were in unit, pato, cell line etc
+BP: add to status
+SS:also the current file has, need to check which is more up to date, Reason to assign to diff branches is to deal with one person does it and fields the question.
+AR:we are middle men and we maybe should be refering to the originator
+TB:but that person doesn't know history
+BP:needs to be us who does it, not easy
+TB:we need to send them out so we at least move forard.
+AA: PRS/AA will make one single dispatcher file
+AA: Philippe to send aroung the link info, and check the google account email and link to the google calendar
+AR:leaves
+TB:leaves
+SS:suggest that we assign an editor
+BP:agree, but priorities need to be elsewhere. Clear that for my time want to work no on dispatcher files.
+PRS:cam we go back to defs
+SS:we agreed to do this onwly where there are problems
+BP:will do the OBI OWL file, need to remove redundancy, needs def and example and seems to still be redundant.
+AA:all to clean up the files for Bjoern
+HP:in the google files or not?
+TW: if mult people are editing then googkle better
+HP:what's your preference Bjoern
+BP:need it in a week. Suggest we use a wiki for that. Next Wednesday deadline for these - 29th
+AA: all to send cleaned up list of terms with def and with example by Weds next week 27 June.
+SS:want a structure?
+BP:no need, easier to do in OWL
+SS:simply full list of terms then
+BP: asks Trish, way for us to look at protege file via centra.
+TW:GF invited all branch leaders to centra
+TW:ignore date, all people on email can be a presented.
+BP:should try on centra
+AA:all install centra which now supprts macs - need to preinstall for macs to use next week.
+TW:is a standing meeting, so can log in at any time.
+
+==Describe DetailedNotesJune8 here.==
+Helen, James, Bjoern
+Susanna will edit the file if there are call comments and will save it again.
+1. Allele - recessive - HP will look these up in PATO George 2. biomaterial_purity - HP to check with George, agree with generic
+
+BP do we have a good definition of what biomaterial is vs. material 'Any material in scope is a biomaterial and is in scope' better definition needed then for material and biomaterial
+BioMetrics - removed OrganismPart now includes cell
+BP agrees.
+Question on whether has to be in part of the whole? BP requires this
+HP:could be either in my view
+HP:take point - 3 cases - hand/arm example
+BP:can consider work with as part of the organism and then quality for derived from, - or call it sample, and then sample 'derived from tail'
+HP:cell_lysate - are there other types of lysate -> lysate term.
+SS:didn't thinkabout removing cell, also found sub classes - whole lysate, cell free lysate.
+AA:SS will put these on her sheet.
+BP:did we submit lysing to process - might be useful.
+BP:two typos on rows 13 and 15.
+HP:that's all the comments I had.
+BP:didn't do the others right. And lots of redundancy
+HP:is there anything else on the agenda
+SS:have two terms, not problems, looking for possible subclass- lipid emulsion - dispersed phase vs., continuous phase. Should we get the possible child terms.
+HP:good to make a note of these terms.
+PRS:looked at cell lysate and extract in group 4 should all be grouped
+BP:I thought I had all the cell terms
+SS:was supposed to be
+BP:we can merge them.
+HP:mult people doing defintions doesn't hurt
+BP:did we id any relations>
+HP:the one that you just mentioned 'derived_from'. Is this generic - e.g. derives from an organism or data from data.
+BP:was defined originally for developmental biology
+PRS:what are the bearers of the relation, continuant and processes? E.g. structure - can something derive from a process?
+BP:materialTransformation in P/A haev output derived from input Sampl outout cellsep process, imput is tail of a mouse - tail of a mouse was derived from the mouse.
+PRS:do we need a type - derives from a process
+HP:these are subtypes of derives from
+PRS:process/continuant bearers could be different
+BP:hoping could work with a single derived from relationship
+AA:PRS will post qu to the relation branch about this
+SS:request on ProtocolApplication page example on branch page would be good, even if is text
+BP:on P/A branch still not in good shape
+BP:shows proxy_for relationships - in the processes - measuring cell killing - really measuring radioactivity
+HP:don't find this useful - al science is an artefact
+
+BP:I believe the cell culture is T cells, work at level that is X tube, with x media HP:don't get the point,
+BP:biomaterial is a cell culture for 4 weeks, missing the point that the sample is a tumour in the patient so that can relate these things together. Proxy for is sim to derived cells,
+HP:how is that different from derived from -
+BP:always derived from, proxy for gives you something extra - tells you that you believe is there.
+HP:unconvinced.
+SS:if it works, then we can use it.
+SS:we are 30 mins in, unless people have other things, suggest we do the rest o of the terms
+JM:on dt call we will create a doc similar to the one Daniel did.
+SS:open to a way that we can report to the group
+BP:good idea to do that could do before the call
+JM:also summary of what has been done etc.
+SS:happy to do before the call.
+HP:could we do that well before the call please.
+SS:will circulate on Monday 18th June before 20th/
+SS:if you want to keep editing this file Helen then you are leading editor of this file.
+SS:Tina and Philippe were happy to get terms. HP:If Jennifer can't do hers then we need to know asap.
+Philippe gets: environmental_sample - mol mixture
+Tina: Organism through whole organism.
+Both to edit the sheet.
+
+==DetailedNotes==
+Describe DetailedNotes here.
+Complete Notes for BioMaterial Branch call 1 June 2007
+Present: Helen, Susanna, Bjoern, Tina,
+Summary:
+1. We will divide up the biomaterial file and assign rows by source or choice to people. - Susanna will do this and post. People will get what they submitted where possible. 2. BP wants lines 85-93, 53, 38-39, 82-83, 34, 16 3. We will each do defs, suggest a class 4. These will then be reviewed on subsequent calls esp. if problematic - non contentious things need not be discussed first 5. Aim to have a sheet with defs, classes etc and hierarchy to make an OWL file by the workshop.
+
+
+Susanna explained how dt group had divided by rows, assigned to people, review defs and suggest heirarchy, harmonise to naming conventions.
+How does this sound to the others. Susanna, Bjoern what do you think? Can we do it all on the call?
+BP:would really like to do it all on the call.
+SS:only 5 calls till the workshop
+BP:throught main point was to do an OWL heirarchy, need to do relative to each other
+TB:is working for dt at least
+BP:adv of moving to OWL there's at least something
+SS:hard to do things in the OWL file
+BP;do we have a google file
+SS:not yet, no password Philippe is not here
+BP:worked well for P/App, sent to mailing list and all could see it
+SS:will sort out for next week.
+BP:should focus on the hierarchy in the calls
+We agree.
+HP:suggest sort by source for the assignment
+BP:we sorted already - we need to resolve the redundancy though
+HP:yes
+TB:all terms next to each other, will need to merge these
+Look at the source, if terms identical from one source then will be assigned to each other
+BP:if something not clear then dumpt it for now.
+MO/CEBS/IED/PSI/MIACA etc
+MO/AE - Helen IED - Bjoern CEBS - Jen PSI - Susanna PharmGKB - Tina will also review in second round other's definition
+HP:should generate a std format for a definition
+e.g. for dt we have data in, data out -> example
+HP:min case we already need an example, an example is like an instance or child concept of the class
+
+AA:All to post the files that we have done.
+HP:SUggest that we make a small table to show these
+SS:re dispatcher files - when we submit these are we as OBI?
+HP:yes for SO terms that James did
+SS:we should be able to do the terms to other resources and get through the terms in 5 weeks
+BP:Can we do this by next week?
+SS:review the terms and put in hierarchy?
+SS:aim to get all the definitions by next week is the aim TB:for dt - everyone did their defs and we only talked about things that were straighforward
+SS:implies that we should read the definitions by the call?
+TB:yes
+SS:we will take a couple of calls to get through these
+BP:want to get to OWL
+SS:do you want to on SS or in OWL, my view is on SS
+BP:only concern is that we do the hierarchy even if on s/sheet
+SS:if we agree then for the final call we can do it OWL
+BP:from protocol application we need the owl file - as we need relns to cells for e.g. cell_sorting
+SS:will be hard to understand what each branch has done, then at workshop we can do that at the workshop
+BP:P/appl though is defined by other things.
+SS:OK we will do our best then - BP is volunteered to create the OWL file.
+SS:anything else to discuss?
+BP:Assignment of terms - shall we go through now.
+SS:will do when I sort
+BP:assigned the following 85-93, 53, 38-39, 82-83, 34, 16
+
+SS:do want also the IED, transgenic_organism
+BP:this is a mess, 53-54, 107-108 some redundancy still.
+SS:will deal with these. We can always have mult definitions.
+HP:helps to have people to bounce these off encourage people to mail each other.
