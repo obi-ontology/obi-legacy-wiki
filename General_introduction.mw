@@ -63,7 +63,7 @@ As an international, cross-domain initiative, the OBI consortium draws upon a po
 
 ====Editor role====
 It was decided to split the development process into branches. For each branch, groups of editors were assigned. The responsibilities of an editor is as follows,
-* request and vet [[WorkshopMetadata|MIO]] required information for all terms from the communities
+* request and vet [[Workshop_San_Diego_2007_Metadata|MIO]] required information for all terms from the communities
 * Compare and resolve conflicts between terms, iteratively get buy-in from the communities
 * Place terms in hierarchy
 * Vetting of orthogonality to existing OBO foundry ontologies; Submit terms to other OBO ontologies that do not belong in OBI
