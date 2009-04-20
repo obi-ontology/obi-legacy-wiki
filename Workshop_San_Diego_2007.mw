@@ -4,61 +4,61 @@ The workshop will take place at [[|https://www.cbil.upenn.edu/obiwiki/index.php/
 
 ===Protocol record of workshop
 ===
- * Optional session: Monday Morning 10:00 - 12:00 (OBI only, for people arriving early)
-   * Agenda: Discussion and demo of tools + resources.
-    * Gilberto Fragoso (Protege Tab for annotations)
-    * Allyson Lister (FuGE implementation)
-    * Chris Mungall(Phenote)
-    * Liju Fan(OWL-DL reasoner)
-    * Trish Whetzel (term tracker application)
- * Monday afternoon - 1:00PM - 6PM - Public session
-   * Agenda at http://www.liai.org/obi/index.html
- * Tue 9:00 -10:30 Development process including [[Milestones]]
- * Tue 10:30 - 12:30 	Minimal Information List for [[WorkshopMetadata|Metadata|]]
- * Tue 13:00 - 17:00  BFO mapping of misplaced classes
- * Tue 17:00 - 18:00 	PATO import discussion
- * Wed  9:00 - 10:00	Metadata action items
- * Wed 10:00 - 11:00	Clinical Trial Ontology
- * Wed 11:00 - 12:00	Split OBI scope into [[General_introduction#Branches_and_Coordinators|Branches]] with editors
- * Wed 13:00 		Finalize OBI import of PATO
- * Wed 13:00 - 14:00	Review Core Classes in OBO-UBO, use as draft and place OBO ontologies into OBI
- * Wed 14:00 - 18:00    Review Core Classes in OBI, remove unnecessary, arrived at 'vetted' OBI Core
- * Wed 16:00 - 18:00 	Formal OWL Relationship between Core Classes
- * Thu  9:00 - 12:00 	Develop Study design together
- * Thu 13:00 - 18:00 	Split into (two?) groups for development
- * Fri 9:00 - 12:00  	Critical Review
+* Optional session: Monday Morning 10:00 - 12:00 (OBI only, for people arriving early)
+** Agenda: Discussion and demo of tools + resources.
+** Gilberto Fragoso (Protege Tab for annotations)
+** Allyson Lister (FuGE implementation)
+** Chris Mungall(Phenote)
+** Liju Fan(OWL-DL reasoner)
+** Trish Whetzel (term tracker application)
+* Monday afternoon - 1:00PM - 6PM - Public session
+** Agenda at http://www.liai.org/obi/index.html
+* Tue 9:00 -10:30 Development process including [[Milestones]]
+* Tue 10:30 - 12:30 	Minimal Information List for [[WorkshopMetadata|Metadata|]]
+* Tue 13:00 - 17:00  BFO mapping of misplaced classes
+* Tue 17:00 - 18:00 	PATO import discussion
+* Wed  9:00 - 10:00	Metadata action items
+* Wed 10:00 - 11:00	Clinical Trial Ontology
+* Wed 11:00 - 12:00	Split OBI scope into [[General_introduction#Branches_and_Coordinators|Branches]] with editors
+* Wed 13:00 		Finalize OBI import of PATO
+* Wed 13:00 - 14:00	Review Core Classes in OBO-UBO, use as draft and place OBO ontologies into OBI
+* Wed 14:00 - 18:00    Review Core Classes in OBI, remove unnecessary, arrived at 'vetted' OBI Core
+* Wed 16:00 - 18:00 	Formal OWL Relationship between Core Classes
+* Thu  9:00 - 12:00 	Develop Study design together
+* Thu 13:00 - 18:00 	Split into (two?) groups for development
+* Fri 9:00 - 12:00  	Critical Review
 
 ===List of Attendees (alphabetical by last name)
 ===
-    * Tina Boussard
-    * Ryan Brinkman
-    * Bill Bug
-    * Simona Carini
-    * Alison Deckhut
-    * Liju Fan
-    * Dawn Field
-    * Jennifer Fostel
-    * Gilberto Fragoso
-    * Jason Greenbaum
-    * Jeff Grethe (BIRN)
-    * Jamie Lee
-    * Suzi Lewis
-    * Allyson Lister
-    * Maryann Martone (BIRN)
-    * Norman Morrison
-    * Christine Fennema-Notestine (BIRN)
-    * Helen Parkinson
-    * Bjoern Peters
-    * John Quinn
-    * Philippe Rocca-Serra
-    * Daniel Rubin
-    * Alan Ruttenberg
-    * Susanna Sansone
-    * Richard Scheuermann
-    * Daniel Schober
-    * Barry Smith
-    * Chris Stoeckert
-    * Randi Vita
-    * Trish Whetzel
+* Tina Boussard
+* Ryan Brinkman
+* Bill Bug
+* Simona Carini
+* Alison Deckhut
+* Liju Fan
+* Dawn Field
+* Jennifer Fostel
+* Gilberto Fragoso
+* Jason Greenbaum
+* Jeff Grethe (BIRN)
+* Jamie Lee
+* Suzi Lewis
+* Allyson Lister
+* Maryann Martone (BIRN)
+* Norman Morrison
+* Christine Fennema-Notestine (BIRN)
+* Helen Parkinson
+* Bjoern Peters
+* John Quinn
+* Philippe Rocca-Serra
+* Daniel Rubin
+* Alan Ruttenberg
+* Susanna Sansone
+* Richard Scheuermann
+* Daniel Schober
+* Barry Smith
+* Chris Stoeckert
+* Randi Vita
+* Trish Whetzel
 [[category:Workshops]]
 [[category:2007]]
