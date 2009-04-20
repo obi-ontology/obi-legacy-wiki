@@ -1,7 +1,6 @@
-==== [[Workshop San Diego 2007PrepActionItems]] otherwise known as OBI in 90
-====
- * Below is the list of items that have been approved by the OBI developers as items to address prior to the [[Workshop San Diego 2007]]
- * As your time and interest permit, please sign-up for one or more items. Please do not add or change the actual action items in this list without approval of the OBI Working Group via email confirmation on the obi-devel mailing list.
+
+* Below is the list of items that have been approved by the OBI developers as items to address prior to the [[Workshop San Diego 2007]]
+* As your time and interest permit, please sign-up for one or more items. Please do not add or change the actual action items in this list without approval of the OBI Working Group via email confirmation on the obi-devel mailing list.
 * The list now reflects the order in which items will be addressed with respect to those that require additions to the OBI.owl file as decided at the Developers TCon on Dec. 13, 2006.  It was decided to edit the file in a serial rather than parallel fashion in order to avoid any potential conflicts. Trish and Ally will investigate further the use of SVN and edits to an owl file as to what types of changes cause conflicts with parallel edits that need to be resolved by hand.
 
 ==== Action Item List
@@ -12,7 +11,7 @@
   # Add definitions to terms that do not currently have a text definition in the ontology file. '''DONE'''
     * Allyson Lister - lead, Chris S, Trish, Liju
     * Deadline to enter definitions is Jan.5, 2007
-    * Summary of work done for this task: [[SanDiego2007PrepAddDefinitions]]
+    * Summary of work done for this task: [[Workshop San Diego 2007 Preparation Add Definitions]]
 
   # Set all sibling class terms disjoint in the ontology file. Check on how disjoints are specified in BFO to ensure that does not conflict with development needs of OBI.
      ''' Liju '''In progress*
@@ -46,7 +45,7 @@
   # Collect data transformation terms from all groups and add to the ontology file. '''DONE'''
     * Philippe, Tina, Ryan
 
-  # Incorporate past term lists, e.g. [[InstrumentTerms]], that have been proposed. '''Instrument terms collected''' from groups that had previously submitted these terms for discussion - Flow cytometry, Transcriptomics, NMR
+  # Incorporate past term lists, e.g. [[Instrument]], that have been proposed. '''Instrument terms collected''' from groups that had previously submitted these terms for discussion - Flow cytometry, Transcriptomics, NMR
     * Trish - MO and PSI
     * Luisa - PSI
     * Ryan - Flow Cytometry
