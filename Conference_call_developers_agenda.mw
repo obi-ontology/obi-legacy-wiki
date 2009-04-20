@@ -727,7 +727,7 @@ dev call.
 *** example, needs better definition and should this be mandatory - Frank
 ** Discuss Milestones in general, missed Milestones, tracking of Milestones etc.
 ** Discuss upcoming June 1 milestone implications
-** Call Minutes can be [[DevCall30May|found here ]]
+** Call Minutes can be [[Conference call developers 2007 notes|found here ]]
 
 '''May 23, 2007'''
 * Developers Call
@@ -739,9 +739,9 @@ dev call.
 * Developers Call
 ** Review Workflow for [[General_introduction#Branches_and_Coordinators|Branches]] development
 ** Cross-branch issues
-*** [[PlanBranch]] and [[ProtocolApplicationBranch]] - which group is modelling what items?
-*** [[ProtocolApplicationBranch]] and [[DataTransformation]] - is a change needed in this structure?
-*** Interaction of [[ListOfRelationships|Relations ]] group to all other branches
+*** [[Plan]] and [[ProtocolApplicationBranch]] - which group is modelling what items?
+*** Protocol Application and [[Data transformation]] - is a change needed in this structure?
+*** Interaction of [[List of relations|Relations ]] group to all other branches
 ** Function branch status (BB)
 *** important cross-branch nexus
 *** relations between BFO Function, Disposition, Role, and Process
