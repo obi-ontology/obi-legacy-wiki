@@ -1,4 +1,4 @@
-[[category:obsolete]]
+[[category:Obsolete]]
 
 =Foundational semantic framework for material objects (biomaterial and instrument branches)=
 
@@ -12,11 +12,10 @@ Further review by the larger group of OBI developers that took place during the 
 #* if normalization is to be used, will we want to deploy a version of OBI where inferred classification hierarchies are saved as asserted classes for the convenience of the community of OBI users?
  comment from HP, yes I think we need the convenient version
 
-Note the issue of normalization and related Ontology Design Patterns are discussed on pages linked off [[OngoingDeveloperDiscussions|the main Developer Discussion page]]
 <br>
 <br>
 [[ OngoingDeveloperDiscussions|<< Back to Ongoing Developer Discussions page]] <br>
-[[HomePage|<<Back to Homepage]]
+[[Main Page|<<Back to Homepage]]
 
 __TOC__
 
