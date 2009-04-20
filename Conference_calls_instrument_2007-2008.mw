@@ -21,7 +21,7 @@ You can read through the notes of these calls on the notes page of [[Conference 
 
 * Continuation of the has_model_number/identifies<->identified_by [https://sourceforge.net/tracker2/?func=detail&aid=2310042&group_id=177891&atid=886178 discussion here]. 
 
-[[InstrumentMinutes2008December02|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 ==Agenda for 18. November 2008==
@@ -127,7 +127,7 @@ There could be more abstract relations, i.e. to an 'Instrumentation Effect' clas
 
 
 
-[[InstrumentMinutes2008November18|Minutes]]
+[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 
@@ -138,7 +138,7 @@ There could be more abstract relations, i.e. to an 'Instrumentation Effect' clas
 ** Pick the most important relations between instrument, manufacturer, function, protocol application, Biomaterial/sample, device part, instrument parameter, software and protocol and try to model successively.
 * Next round term submissions (nmr and Chrom CV terms) via xl2owl tool (http://70.167.3.46/~jgbaum/cgi-bin/xl2owl.cgi)
 
-[[InstrumentMinutes2008October13|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 
@@ -148,7 +148,7 @@ There could be more abstract relations, i.e. to an 'Instrumentation Effect' clas
 https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions#
 * Start listing device related requirements and add to xls sheet or owl file ?
 
-[[InstrumentMinutes2008July29|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 '''Call of 22. July 2008 skipped due to ISMB'''
@@ -161,7 +161,7 @@ https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions#
 * Continue to add last missing functions definitions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
 * Decide on next steps
 
-[[InstrumentMinutes2008July15|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 '''Agenda for 1. July 2008'''
@@ -169,7 +169,7 @@ https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions#
 * Implement device classes as needed by use case at http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en
 * Continue to add last missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
 
-[[InstrumentMinutes2008July01|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 '''Agenda for 17. June 2008'''
@@ -177,7 +177,7 @@ https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions#
 * Implement device classes as needed by use case at http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en
 * Continue to add last missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
 
-[[InstrumentMinutes2008June17|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 '''Agenda for 10. June 2008:'''
@@ -191,7 +191,7 @@ if time permits:
 * Implement device classes as needed by use case at http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en
 * Continue to add last missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
 * Next steps and term submissions (e.g. from Philippe, terms form PSI MS, MSI NMR, ...) ?
-[[InstrumentMinutes2008June10|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 
@@ -203,7 +203,7 @@ if time permits:
 * Continue to add last missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
 * implement device classes as needed by use case at http://docs.google.com/Doc?docid=dg9kgrmp_1hjv9jnf6&hl=en
 * next steps and term submissions (e.g. from Philippe, terms form PSI MS, MSI NMR, ...) ?
-[[InstrumentMinutes2008June03|Minutes]]
+[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 20. and 27. May 2008 (skipped)
@@ -219,7 +219,7 @@ Agenda:
 **  "As the issue of function later came up with the instrument branch, Bjoern and Bill recommended they work with the PA branch to see that all the required 'minimal PAs' linked to a specific function are created and then can be linked to the appropriate instrument using the 'has_minimal_PA' relation.  I've agreed to help the instrument branch review their current spreadsheet and guarantee the needed 'minimal PAs' exist or are submitted to the PA branch for creation.  These will later be converted to bfo:functions algorithmicaly at which point a more complete, formal representation of all the pieces - including those needed for R2 & R3 - can be implemented." 
 * Add missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
 * decide on next steps
-*[[InstrumentMinutes2008May12|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 6. May 2008
@@ -240,7 +240,7 @@ Agenda:
 ***Pipetting_function is a function that is realized in a pipetting protocol_application
 ***Pipette has function pipetting function
 * Add missing definitions for device functions on http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
-*[[InstrumentMinutes2008May6|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 
@@ -261,7 +261,7 @@ Agenda:
 **has_bearer range (as derived from def), to populate device top level
 **bearer-superclass   (shall we start to add these in the owl file?)
 * add further BFO compliant definitions
-*[[InstrumentMinutes15Apr2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 8. April 2008
@@ -276,7 +276,7 @@ Agenda:
 *review alternative function modelling strategies (borders to roles, protocol application (processes) and relations) as far as our needs and table is regarded.
 *review Functions definitions on
 http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
-*[[InstrumentMinutes1Apr2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 25. March 2008
@@ -293,7 +293,7 @@ Agenda:
 **review Functions on 
 http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en (Bill?)
 *continue to extract important upper level instrument functions from device hierarchy for later crossproduct generation.
-*[[InstrumentMinutes18Mar2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 11. March 2008
@@ -307,7 +307,7 @@ Agenda:
 *continue to discuss instrument fct proposals at 
 http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
 *next steps after release
-*[[InstrumentMinutes10Mar2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 04.March 2008
@@ -324,7 +324,7 @@ AI:<br>
 *Agenda:
 ** review proposals for Terms 19-21, 22 and 24  (see https://spreadsheets.google.com/ccc?key=p4ViR8BgYUWaAG1b5IaxcJw&hl=en )
 ** discuss instrument fct proposals at http://spreadsheets.google.com/ccc?key=pT8ShyqlllIVSL43Cm6zRBQ&hl=en
-*[[InstrumentMinutes26Feb2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 19.February 2008:
@@ -336,7 +336,7 @@ AI:<br>
 **?jet_in_air_flow_chamber
 ** identify basic instrument functions for needed crossproducts (compound instrument names) to sort out our 'upper level'
 ** define next steps before release
-*[[InstrumentMinutes19Feb2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 
@@ -349,7 +349,7 @@ AI:<br>
 **?jet_in_air_flow_chamber
 **artefact_object : material is_manufactureb_by SOME (Person OR Organisation)
 **clean up helper classes in our branch
-*[[InstrumentMinutes12Feb2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 05. February 08:
@@ -359,7 +359,7 @@ AI:<br>
 **artefact_object as cross product, analogous to whats on (https://wiki.cbil.upenn.edu/obiwiki/index.php/WednesdayJan30Notes#Biomaterial_Branch_-_Melanie_Courtot) for Biomaterial
 **How to handle new term submissions/formats
 **Think of logical definitions (crossproducts/intersections) for our branch Top level, what important rels do we need for differrentae to Genus?
-*[[InstrumentMinutes05Feb2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 22. January 08:
@@ -367,7 +367,7 @@ AI:<br>
 *Agenda:
 **Add still missing definitions  and examples to our list of relations in the google spreadsheet
 **Summarize instrument branch developments, open and upcoming issues for Ryan/Melanie to present at WS
-*[[InstrumentMinutes22Jan2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 15. January 07:
@@ -377,7 +377,7 @@ AI:<br>
 **Instrument use case discussion
 **Resolve problems with 'question-marked' classes.
 **Discuss policy to mark Meta-classes/helper classes via '_'-prefix.
-*[[InstrumentMinutes15Jan2008|Minutes]]
+*[[Conference_calls_instrument_2008_notes|Minutes]]
 
 
 
@@ -392,7 +392,7 @@ AI:<br>
 **Discuss policy to mark Meta-classes/helper classes via '_'-prefix.
 **???
 
-*[[InstrumentMinutes11Dec2007|Minutes]]
+*[[Conference_calls_instrument_2007_notes|Minutes]]
 
 04. December 07:
 *Agenda:
@@ -400,7 +400,7 @@ AI:<br>
 ** OBI software?
 ** Milestones
 
-*[[InstrumentMinutes04Dec2007|Minutes]]
+*[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 27. November 07:
@@ -410,7 +410,7 @@ AI:<br>
 ** Resolve problems with 'question-marked' classes.
 ** Discuss policy to mark Meta-classes/helper classes via '_'-prefix.
 ** Discuss the 'new' relations for instruments and mappings
-**[[InstrumentMinutes27Nov2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *20. November 07:
@@ -427,7 +427,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ***ISO 15225:2000 Nomenclature -- Specification for a nomenclature system for medical devices for the purpose of regulatory data exchange
 ***ISO/IEEE 11073-10101:2004 Health informatics -- Point-of-care medical device communication -- Part 10101: Nomenclature
 ***ISO/TS 20225:2001 Global medical device nomenclature for the purpose of regulatory data exchange
-**[[InstrumentMinutes13Nov2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *6. November 07:
@@ -436,7 +436,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ** Metadata discussion (What are the defaults)?
 *** Discuss if we need arestotelian definitions for leaf node terms.
 
-**[[InstrumentMinutes6November2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *30. October 07:
@@ -445,7 +445,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 **Discuss automatic addition of metadata/other checks, e.g. do we need a policy how to capture Editors names (in initials vs. full names)
 *** What else could be useful to check?
 
-**[[InstrumentMinutes30October2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *23. October 07:
@@ -454,7 +454,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 **Discuss obi metadata
 **Discuss automatic addition of metadata/other checks
 
-**[[InstrumentMinutes23October2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *16. October 07:
@@ -463,7 +463,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 **Enable Melanie to svn update and commit.
 **Discuss obi metadata
 
-**[[InstrumentMinutes16October2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *9. October 07:
@@ -471,14 +471,14 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 **Enable Melanie to modify and save the changes in the svn Instruments branch.owl file.
 **Discuss the latest relations branch developments with respect to instrument relations, i.e. from last Fridays relations call notes: "We discussed the issue of how to relate the operator of an instrument to the instrument. We discussed the possibility that it would be something like a process in which the operator had an "operator role" and the instrument the "operated role". Still it seems this may not be enough."
 
-**[[InstrumentMinutes9October2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 
 *2. October 07:
 *Agenda:
 ** Give an overwiew on our branch to our new participant Melanie.
-**[[InstrumentMinutes2October2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 
@@ -495,7 +495,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ***'''fluorometer:	''' an instrument for the detection and measurement of fluoresence, Example: laser/detector in capillary electrophoresis apparatus, NanoDrop ND-3300
 ** Discuss and refine cardinal part of instruments hierarchy
 ** Discuss next steps and deadlines
-**[[InstrumentMinutes25September2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *4. September 07:
@@ -508,7 +508,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ***adding all metadata
 ***how and where to get more terms
 
-**[[InstrumentMinutes4September2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 
@@ -522,7 +522,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ***adding metadata
 ***how and where to get more terms,
 ***how to encourage people to participate
-**[[InstrumentMinutes21August2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 *14. August 07:
@@ -538,7 +538,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ***adding metadata,
 ***how and where to get more terms,
 ***how to encourage people to participate
-**[[InstrumentMinutes14August2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 
 
@@ -553,7 +553,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ***9. Instrument branch: Remove device and create as a synonym for instrument (Instrument)
 ***18. Artefact object discussion. Two different hierarchies were discussed. No resolution during meeting. These OWL files need to be posted and discussed during a dev call
 ***29. Helper classes for temporary terms. All branches will use branchname_temp (all)
-**[[InstrumentMinutes17July2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 * 3July2007
 ** Agenda:
@@ -562,7 +562,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 *** Identify instrument-branch presenter for OBI WS.
 *** Discuss the term artefact, instrument and device definitions.
 *** Discuss the flow_cytometer functions and possible ways to categorize flow_cytometers accordingly.
-**[[InstrumentMinutes3July2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 * 26June2007
 ** Agenda:
@@ -572,14 +572,14 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 *** Add intermediate classes
 *** Identify instrument-branch presenter for OBI WS.
 *** Discuss the term artefact
-**[[InstrumentMinutes26June2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 * 19June2007
 ** Agenda:
 *** Review latest OWL File for hierarchy
 *** Discuss the term artefact
 *** Add intermediate classes
-**[[InstrumentMinutes19June2007|Minutes]]
+**[[Conference_calls_instrument_2007_notes|Minutes]]
 
 * 12June2007
 ** Agenda:
@@ -589,13 +589,13 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 *** Update on Action Items from last call
 *** Discuss changes needed in Instrument branch file
 *** Who will be on the developers call tomorrow?
-*** See [[ [[InstrumentBranchMinutes]]|Minutes]] for details.
+*** See [[ [[Conference_calls_instrument_2007_notes]]|Minutes]] for details.
 
 * 29May2007
 ** Agenda:
 *** Update on Action Items from last call
 *** Discuss changes needed in Instrument branch file
-*** See [[ [[InstrumentBranchMinutes]]|Minutes |]] for details.
+*** See [[ [[Conference_calls_instrument_2007_notes]]|Minutes |]] for details.
 
 * 22May
 ** Agenda:
@@ -608,7 +608,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 ** Agenda:
 *** Discuss items needed before loading terms from the Master Excel file into the OBI Instrument branch OWL file
 *** Update from PSI meeting re:terms from this community
-*** See [[ [[InstrumentBranchMinutes]]|Minutes |]] for details.
+*** See [[ [[Conference_calls_instrument_2007_notes]]|Minutes |]] for details.
 
 * 1May2007
 ** Agenda:
@@ -632,7 +632,7 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
 *** Discuss a proposed 'labware' - 'container' synonymy according to list of labware that are not containers Daniel compiled.
 *** Discuss added instrument terms on wiki
 *** Plan next call.
-*** See [[ [[InstrumentBranchMinutes]]|Minutes |]] for details.
+*** See [[ [[Conference_calls_instrument_2007_notes]]|Minutes |]] for details.
 
 
 * 16Mar2007
@@ -643,21 +643,21 @@ No call today, discussion about the leaf nodes continues on obi-devel list.
     * Plan next call
   * Action Items:
     * All - review existing posted [[InstrumentTerms]] terms to see if the proposed definitions are precise enough to bin the terms under a single parent.
-  * See [[ [[InstrumentBranchMinutes]]|Minutes |]] for details.
+  * See [[ Conference_calls_instrument_2007_notes|Minutes]] for details.
 
 * 12Mar2007
   * Agenda: Review Items on [[InstrumentIssues]] wiki page
   * Action Items:
     * DS - post UMLS terms that may help to organize instrument terms
     * All - work on a more general definition for OBI.
-  * See [[ [[InstrumentBranchMinutes]]|Minutes |]] for details.
+  * See [[Conference_calls_instrument_2007_notes|Minutes]] for details.
 
 * 09Mar2007
   * Agenda:
     * Review current proposed terms
   * Action Items:
     * None
-  * See [[ [[InstrumentBranchMinutes]]|Minutes |]] for details.
+  * See [[ [[Conference_calls_instrument_2007_notes]]|Minutes |]] for details.
 [[category:Conference calls]]
 [[category:instrument]]
 [[category:2007]]
