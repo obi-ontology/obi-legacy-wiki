@@ -1,0 +1,63 @@
+==Dev Call Minutes, 30 May, 2007 ==
+(AI = Action Item)
+Call Minutes:
+- Workshop start monday afternoon
+
+-	Follow up on Protege import bugs
+Liju actioned. Went to Prot�g� archive and found problem with namespace. Email sent to dev list details how to get around this. Individually remove other branches to edit your own branch.
+AI: Alan and Trish to look into using CVS for editing branches in Prot�ge and create a read_me file to describe how to do this.
+
+-	CTO follow up, Jennifer Fostel/Richard S.
+JF: Reporting on workshop CTO has decided to Clinical Investigation Ontology because clinical trials has specific meaning. CIO will look like or be child of OBI. What is vision for use of OBI?
+Chris: Envisage transcriptomics will use OBI in future, OBI will eventually become major ref ontology that terms are submitted too from community (no separate ontology).
+JF: Workshop meeting bring people back together for initiative, JF gave talk on OBI using Suzanna�s core slides. Not huge progress for building things � developer is not entirely happy with OBI at moment.
+Liju: No OWL people there, only philosophy people not interested in development of relations. Focus on terms creation.
+JF: Have list of terms and made contact with other with terms. Currently trying to get terms and see how fit in OBI. They have list of minimal information spec which JF to model towards.
+Liju: Is CIO developing an ontology alongside OBI?
+JF: Query tool and data management system created in Germany which is basis of CTO � hoping to replace it with terms from OBI. Dev indicated at end of meeting that unhappy with this process currently. Barry assures everything is OK as long as follow BFO. Very independent efforts modeling similar things similar to OBI. Need one set of terms so that all other efforts can find their terms.
+SA: Map to OBI or to CIO?
+Trish: Map to OBI group
+Alan: It was a tense workshop, started out with talks from barry pointing out flaws in work for Bridge (who was in audience) which caused tension. People who do clinical trials do not consider their issue biology. They did not see how this methodology could benefit them and what they do. There was a reasonable portion of audience did not see methodology desirable. Could face trying to get consensus to audience which are potentially adverse to the idea. On other hand clinical investigations covers more people which are concerned with relevant issues.
+JF: Good contact was made with relevant groups, e.g. BRIDGE
+SA: I see CIO will be a view of OBI for clinical world?
+JF: Can�t say that initially because will put people off. Need to build up consensus first to show them that there terms will fit into OBI.
+Chris: Not clear if OBI is one big file or stub that parts are imported into yet.
+Philippe: German based clinical effort mentioned � how much is public and how much can be used by OBI?
+Chris: On Google
+Philippe: Can we use this?
+FP: There is a lag in how we can use terms and pull them in.
+Trish: We don�t want to pick and choose terms from this yet.
+FP: Terms are not yet stable.
+Trish: Is it best someone goes through list as terms come in?
+Philippe: Have they identified any terms we may have missed? Is it worth reviewing?
+FP: Gain information from website. What is missing is who takes the role for looking at these. However, it is not a final product.
+Bjoern: Biggest problem is that there is no OBI working version yet. We need this before we start these discussions. We need to get productive before workshop so that project keeps moving.
+Trish: Is there any value in adding to 0.6.6 version yet?
+Chris: No since current dev is fairly rapid.
+Alan: Can we add a version tag which is inline with usual versioning system format?
+Trish: I�m more familiar with normal way of tagging ontology version file though have no concerns about changing things
+Alan: Can I make a tagged version of what is currently there using format?
+AI: Alan look into version tagging for files
+
+Milestones: JM: Concern about how we mark off milestones and whether we will hit them current. What we do on 1st June when hit next milestone and after?
+Trish: Some are finished and not marked off. Once we get branch files done (if done) how we then start building OBI as a whole from relations?
+Liju: Recommendation add relations. It is possible that if import files change how relations will also change.
+Alan: Is there an interest in latest Prot�g� (v4)?
+Chris: using OWL files so tool should be independent
+Alan: Theoretically yes but lot of discussion is about whether the tools can work for us. I would like to get confirmation first that Prot�g� 4 can deal properly with issues such as coop development.
+AI: Alan: Query on Prot�g� 4 suitability
+JM: how do we know when we have achieved the miletone on June 1st (review of terms)?
+Bjoern: If we had a branch with a file of terms, hierarchy and how that fits into ontology � but this is not going to happen I don�t think currently, too much discussion on policy rather than on practical work to progress project.
+Trish: deadline is review of terms
+Alan: One way might be to get all branch editors to speak on a call and try and address how these deadlines can be reached (currently not).
+Chris: I�ve been monitoring the branches to see where we are. I�m optimistic about how things are coming along since we have terms and people are starting to discuss relations. A major issue is getting people to make time to make calls. Evaluate the milestones and work at workshop.
+Alan: Why don�t we get Robert, Barry and Matthew on a call and walk through issues we have over a call before workshop.
+Liju: Barry wonders how we will do the relations
+Bjoern: I feel good way to bring things forward is to have an OWL file and use these rather than discuss issues
+Trish: I have several OWL files with this as early examples.
+Bjoern: Do we need observations modeled separately.
+Trish: This could be something brought forward.
+
+AI: ALL RELEVANT BRANCH EDITORS: branches to be reviewed each week to help progress:
+Instrument branch to be reviewed at next dev call (6 Jun)
+Biomaterial branch to be reviewed week after that (13 Jun)
