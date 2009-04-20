@@ -737,7 +737,7 @@ dev call.
 
 '''May 16, 2007'''
 * Developers Call
-** Review Workflow for [[ObiBranches]] development
+** Review Workflow for [[General_introduction#Branches_and_Coordinators|Branches]] development
 ** Cross-branch issues
 *** [[PlanBranch]] and [[ProtocolApplicationBranch]] - which group is modelling what items?
 *** [[ProtocolApplicationBranch]] and [[DataTransformation]] - is a change needed in this structure?
