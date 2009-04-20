@@ -834,7 +834,7 @@ dev call.
 
 '''March 7, 2007'''
 * Developers Call
-** Finalize implementation of [[WorkshopMetadata]] in OWL
+** Finalize implementation of [[Workshop_San_Diego_2007_Metadata]] in OWL
 ** Agree on string syntax representation of definition_source information - All
 ** Review OWL representation of definition_source information as classes and instances - Alan
 ** Present working implementation of timeline with triggers in OWL - Alan
@@ -843,14 +843,14 @@ dev call.
 
 '''February 28, 2007'''
 * Developers Call
-** Finalize implementation of [[WorkshopMetadata]] in OWL
+** Finalize implementation of [[Workshop_San_Diego_2007_Metadata]] in OWL
 ** Review OWL representation of definition_source information as classes and instances - demo OWL file needed
 ** Discuss plans to split OBI file into 'branches'
 ** Present working implementation of timeline with triggers in OWL - Alan
 
 '''February 21, 2007'''
 * Developers Call
-** Discuss implementation of [[WorkshopMetadata]] in OWL
+** Discuss implementation of [[Workshop_San_Diego_2007_Metadata]] in OWL
 
 '''February 14, 2007'''
 * Coordinators Call
@@ -863,7 +863,7 @@ dev call.
 
 '''February 7, 2007'''
 * Developers Call
-** Finalize the [[WorkshopMetadata]] annotation terms
+** Finalize the [[Workshop_San_Diego_2007_Metadata]] annotation terms
 
 ====January 2007====
 
