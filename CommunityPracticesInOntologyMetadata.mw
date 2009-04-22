@@ -68,7 +68,7 @@ The following represent the result of seeking to map the needs described above u
 |< Source3 ||^ property3 ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
 |-
 |< Source4 ||^ property4 ||^ ex1, ex2, ex3  ||^ This field is intended for use to describe...
-?>
+|}
 
 ==Current Practice==
 The following represent the current Annotation Properties in use within the BIRNLex OWL file<sup>�</sup>.
