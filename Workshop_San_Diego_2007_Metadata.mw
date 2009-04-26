@@ -13,10 +13,11 @@ The proposed cardinalities are indicated in front of the name of the annotation 
 ''' 1: preferred_term''': The concise, meaningful, and human-friendly name for a class or property  preferred by the ontology developers. (US-English)
 ''' 1: definition''': The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with informal definitions to further explain the meaning of the term.
 ''' 1: definition_editor''': The name of the editor of the definition.
-''' 1: definition_source''': An unambiguous and traceable reference to the source of the definition. Examples: ISBN, URI plus date, [[MeSH]] Term, PUBMED ID, DOI.
+''' 1: definition_source''': An unambiguous and traceable reference to the source of the definition. Examples: ISBN, URI plus date, MeSH Term, PUBMED ID, DOI.
 ''' 1: curation_status''': The curation status of a class or property. The allowed values come from an enumerated list of predefined terms. Examples: raw import, obo definition incomplete, graph position temporary, uncurated, curation approved
 ''' 1: example''': A phrase describing how a term should be used. May also include other kinds of examples, such as widely known subclasses or instances of the class.
 ==== Optional metadata: SHOULD be provided
+
 ====
 ''' 0: alternative term''': An alternative name for a class or property which means the same thing, i.e. semantically equivalent, as the preferred''term.
 ''' 0: alternative''term'' tag''': A tag to indicate sets of alternative terms. Examples: toxicogenomics_community, abbreviation.
