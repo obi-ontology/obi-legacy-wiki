@@ -740,7 +740,7 @@ dev call.
 * Developers Call
 ** Review Workflow for [[General_introduction#Branches_and_Coordinators|Branches]] development
 ** Cross-branch issues
-*** [[Plan]] and [[ProtocolApplicationBranch]] - which group is modelling what items?
+*** [[Plan]] and [[Protocol Application|Protocol Application Branch]] - which group is modelling what items?
 *** Protocol Application and [[Data transformation]] - is a change needed in this structure?
 *** Interaction of [[List of relations|Relations ]] group to all other branches
 ** Function branch status (BB)
