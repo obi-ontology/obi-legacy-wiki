@@ -4,7 +4,7 @@ DNA Fragmentation
 
 from: http://www.icms.qmul.ac.uk/flowcytometry/uses/apoptosis/dnafragmentation/index.html
 
-There are certain characteristics of apoptotic cells that can be identified and used to detect apoptotic cells in an otherwise healthy population of cells. Technically the easiest characteristic to detect is loss of DNA from permeabilised cells due to DNA fragmentation. When cells are permeabilised, for example by 70% ethanol, the fragmented 182bp DNA multimers leak out of the cell. The result is a population of cells with a reduced DNA content. If the cells are then stained with a DNA intecalating dye like propidium iodide, then a DNA profile representing cells in G1, S-phase and [[G2M]] will be observed with apoptotic cells being represented by a sub G0/G1 population seen to the left of the G0/G1 peak.
+There are certain characteristics of apoptotic cells that can be identified and used to detect apoptotic cells in an otherwise healthy population of cells. Technically the easiest characteristic to detect is loss of DNA from permeabilised cells due to DNA fragmentation. When cells are permeabilised, for example by 70% ethanol, the fragmented 182bp DNA multimers leak out of the cell. The result is a population of cells with a reduced DNA content. If the cells are then stained with a DNA intecalating dye like propidium iodide, then a DNA profile representing cells in G1, S-phase and G2M will be observed with apoptotic cells being represented by a sub G0/G1 population seen to the left of the G0/G1 peak.
 
 SubG1 Protocol
 * Harvest cells washing in PBS
