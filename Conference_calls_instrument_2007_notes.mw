@@ -318,7 +318,7 @@ General Topics
 
 Initial list of Instrument Properties
 + Daniel has written down an initial list of properties/attributes for instrument terms
- + it has been emailed around to the whole instrument list, and reproduced [[ InstrumentProperties|here|]]
+ + it has been emailed around to the whole instrument list, and reproduced [[ Instrument|here]]
  + good place to start
  + Frank: should remember that we should check these by starting with use cases, rather than assuming a certain property would be useful
  + Daniel regards properties as a general term, for both datatype and object properties in the Protege sense (essentially, relations).
