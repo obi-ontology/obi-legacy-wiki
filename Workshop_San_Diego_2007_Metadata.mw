@@ -3,11 +3,12 @@
 === Minimal requirement for term annotations in OBI (metadata)
 ===
 
-This page was generated as a result of discussions at the [[Workshop San Diego 2007]]. The page [[MinimalMetadata]] contains the working implementation guidelines and is the actively maintained page for this information.
+This page was generated as a result of discussions at the [[Workshop San Diego 2007]]. The page [[OBI Minimal metadata]] contains the working implementation guidelines and is the actively maintained page for this information.
 
 The proposed cardinalities are indicated in front of the name of the annotation property. Some are however still under discussion.
 
 ==== Mandatory metadata: MUST be provided
+
 ====
 ''' 1: preferred_term''': The concise, meaningful, and human-friendly name for a class or property  preferred by the ontology developers. (US-English)
 ''' 1: definition''': The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with informal definitions to further explain the meaning of the term.
