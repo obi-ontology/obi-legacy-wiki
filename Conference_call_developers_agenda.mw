@@ -811,9 +811,9 @@ dev call.
 
 '''March 21, 2007'''
 * Developers Call
-** review timeline with [[ Upload:trigger.owl|triggers in OWL |]] - Alan - Postponed
+** review timeline with triggers in OWL- Alan - Postponed
 ** discuss remaining metadata annotation implementation issues, see email on [http://tinyurl.com/34rctp File Format for batch loading] for questions - All
-** discuss [[ http://tinyurl.com/34ekl6|information on splitting OBI.owl file |]], which branch gets which subtrees as 'active' - All
+** discuss information on splitting OBI.owl file, which branch gets which subtrees as 'active' - All
 ** discuss implementation ideas for definition_source, see [[DueCredit]] wiki page for requirements - All
 ** managing terms proposed by communities with existing resources in production use, e.g. PSI, MGED, what information needs to be maintained by the branch editors - All
 
