@@ -13,6 +13,7 @@ Below is a tentative list of possible topics [[Conference_call_developers_agenda
 * Manuscript status
 * Is OBI ready for release 1.0? If not what is needed. 
 ** Use cases and first release
+** Gene Pattern Use Case - close to being able to completely represent this now
 ** OBI distributions
 * Using OWL 2 features in OBI
 * External ontology coordination. Status, issues, actions
