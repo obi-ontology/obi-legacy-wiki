@@ -19,6 +19,8 @@ Below is a tentative list of possible topics [[Conference_call_developers_agenda
 
 * Splitting into smaller focus groups to resolve issues:
 ** Parameter (if not resolved before then)
+** Adressing the OBI development process, case-study, model case-study, evaluate model, present use-case
+** Split up into groups to address a specific case-study and work through the development process
 
 * Using OWL 2 features in OBI
 * External ontology coordination. Status, issues, actions
@@ -27,9 +29,11 @@ Below is a tentative list of possible topics [[Conference_call_developers_agenda
 ** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
 ** Status of Vaccine ontology/OBI coordination
 ** EFO/OBI coordination
-** ISACreator demo
+
 * Moving quickterms/quickid into production
 * Funding opportunities
+* Software demos
+** ISACreator demo
 
 == Confirmed attendees ==
 
