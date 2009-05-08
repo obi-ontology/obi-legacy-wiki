@@ -16,6 +16,10 @@ Below is a tentative list of possible topics [[Conference_call_developers_agenda
 ** Use cases and first release
 ** Gene Pattern Use Case - close to being able to completely represent this now
 ** OBI distributions
+
+* Splitting into smaller focus groups to resolve issues:
+** Parameter (if not resolved before then)
+
 * Using OWL 2 features in OBI
 * External ontology coordination. Status, issues, actions
 ** review of IEDB OWL export/ IEDB-OBI coordination
