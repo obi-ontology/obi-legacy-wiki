@@ -10,6 +10,17 @@
 
 Below is a tentative list of possible topics [[Conference_call_developers_agenda/Minutes/Developer/2009-05-06|brainstormed]]
 
+
+*Development process
+
+The is a clear methodology to apply when building ontologies. In brief this involves stating the Goals - whats the point? The scope, by defining competency question the ontology should ask. Lastly this is followed by an evaluation process to determine if we have been able to answer our questions.
+** What is the goal of OBI?
+** What are the OBI competency questions?
+** How are we evaluating that we have answered out competency questions?
+
+Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
+
+
 * Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)?
 * Manuscript status
 * Is OBI ready for release 1.0? If not what is needed. 
@@ -17,6 +28,7 @@ Below is a tentative list of possible topics [[Conference_call_developers_agenda
 ** How are we evaluating our competency questions, what are our competency questions? If we have no evaluation process how do we know we have completed a case-study and can present a use-case and the ontology is of scientific importance in order to publish a paper on it?
 ** Gene Pattern Use Case - close to being able to completely represent this now
 ** OBI distributions
+
 
 * Splitting into smaller focus groups to resolve issues:
 ** Parameter (if not resolved before then)
