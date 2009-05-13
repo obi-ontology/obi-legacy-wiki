@@ -22,6 +22,7 @@ Coordinators Call - chair BP
 *restructuring of OBI coord / devel
 *Polymorphism community Michelle and Erick to relay Tina for the [http://obi-ontology.org/page/Consortium Consortium]
 *Progress on only asserting Realizable_enitites, directly under the class realizable enity and not asserting classes under role, function or disposition. The current classes under function and role need to be moved and defined as generic realizable entities, removing the suffixes. This process has been endorsed by Barry as an acceptible way forward. For the specifics see [http://hdl.handle.net/10101/npre.2009.3228.1 Phil's paper], as its easier to follow than the email thread
+*How to use subversion: The purpose of subversion is to enable one document to be revisioned. You can roll back between revisions so nothing is lost and add tags to describe specfic version. In other words we should only ever have one copy of a document that gets revisioned, rather than multiple copies of the same document which has appeared under the release folder, for the release manuscript and the ismb paper. Can we svn:delete everything under the papers folder that is not the current document.
 
 
 '''May 6 2009'''
