@@ -18,10 +18,10 @@ Developers Call - chair AR
 Coordinators Call - chair BP
 
 *Manuscript update
-*Agenda for Face to Face meeting http://obi-ontology.org/page/F2F_meetings/Summer_2009 
+*[http://obi-ontology.org/page/F2F_meetings/Summer_2009 Agenda for Face to Face meeting]
 *restructuring of OBI coord / devel
-*Polymorphism community Michelle and Erick to relay Tina for the http://obi-ontology.org/page/Consortium
-*Progress on only asserting Realizable_enitites, directly under the class realizable enity and not asserting classes under role, function or disposition. The current classes under function and role need to be moved and defined as generic realizable entities, removing the suffixes.
+*Polymorphism community Michelle and Erick to relay Tina for the [http://obi-ontology.org/page/Consortium Consortium]
+*Progress on only asserting Realizable_enitites, directly under the class realizable enity and not asserting classes under role, function or disposition. The current classes under function and role need to be moved and defined as generic realizable entities, removing the suffixes. This process has been endorsed by Barry as an acceptible way forward. For the specifics see [http://hdl.handle.net/10101/npre.2009.3228.1 Phil's paper], as its easier to follow than the email thread
 
 
 '''May 6 2009'''
