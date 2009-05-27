@@ -10,11 +10,11 @@
 
 Below is a tentative list of possible topics [[Conference_call_developers_agenda/Minutes/Developer/2009-05-06|brainstormed]]
 
-* Interation with EnVO
+* Interation with EnVO (0)
 
 Discussion to be done on Wed as Norman will only attend that day.
 
-*Development process
+*Development process (5)
 
 There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
 ** What is the goal of OBI?
@@ -23,36 +23,56 @@ There is a clear methodology to apply when building ontologies. In brief, this i
 
 Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
 
+* Status and progress per branch (5)
 
-* Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)?
+
+
+* Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)? (6)
 * Manuscript status
 * Is OBI ready for release 1.0? If not what is needed. 
-** Use cases and first release
+
+* Use cases and first release (6)
+** How are we evaluating that a use case is solved? 
 ** How are we evaluating our competency questions, what are our competency questions? If we have no evaluation process how do we know we have completed a case-study and can present a use-case and the ontology is of scientific importance in order to publish a paper on it?
+
+* Working through individual use cases (5)
 ** Gene Pattern Use Case - close to being able to completely represent this now
-** OBI distributions
+** Neuroscience Use Case - Dirk
+** IEDB use case - Bjoern
+** Vaccine Ontology use case - Oliver
 
+* OBI distributions (3)
 
-* Splitting into smaller focus groups to resolve issues:
+* Splitting into smaller focus groups to resolve issues: (6)
 ** Parameter (if not resolved before then)
-** Adressing the OBI development process, case-study, model case-study, evaluate model, present use-case
+** Addressing the OBI development process, case-study, model case-study, evaluate model, present use-case
 ** Split up into groups to address a specific case-study and work through the development process
 
-* Using OWL 2 features in OBI
-* External ontology coordination. Status, issues, actions
+* Using OWL 2 features in OBI (3)
+
+* External ontology coordination. Status, issues, actions (6)
 ** review of IEDB OWL export/ IEDB-OBI coordination
 ** IAO-OBI coordination
 ** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
 ** Status of Vaccine ontology/OBI coordination
+** Status of Immune Epitope ontology/OBI coordination
 
-* Moving quickterms/quickid into production
-* Funding opportunities
-* Software demos
+* Moving quickterms/quickid into production (5)
+
+* Funding opportunities (5)
+
+* Software demos (0)
 ** [http://isatab.sourceforge.net/tools.html ISACreator demo]
 
-*OBI Organizational structure
-
+*OBI Organizational structure (5)
 The current separation into community coordinators and editors may have outlived its usefulness. There should be a ~ 1 hour brainstorming session to discuss a revised organizational structure. This should result in a draft document to be further discussed on the coord list.
+
+*Documenting OBI (4)
+
+* OBI release process (6)
+
+
+* Working with MIREOT (3)
 
 == Confirmed attendees ==
 * Susanna Sansone
