@@ -41,20 +41,16 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 
 '''Tue 9th June'''
 ''(note that on this day OBO Foundry Coord, Philippe and Susanna will not attend)''
-
 * Interation with EnVO (0)
 ** Discussion with Norman, as will only attend this day.
-
 * External ontology coordination. Status, issues, actions (6)
 ** review of IEDB OWL export/ IEDB-OBI coordination
 ** IAO-OBI coordination ''(partly possible, later to be confirmed with Alan)''
 ** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
 ** Status of Vaccine ontology/OBI coordination
 ** Status of Immune Epitope ontology/OBI coordination
-
 * OBI release process (6)
 ** Hasn't happened for a while. How do we address this going forward. 
-
 *Development process (5)
 There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
 ** What is the goal of OBI?
@@ -62,54 +58,38 @@ There is a clear methodology to apply when building ontologies. In brief, this i
 ** How are we evaluating that we have answered the competency questions?
 Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
 
- '''Wed 10th June'''
-
+'''Wed 10th June'''
 * Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
-
 * Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)? (6)
 ** Manuscript status
 ** Is OBI ready for release 1.0? If not what is needed. 
-
 * Use cases and first release (6)
 ** How are we evaluating that a use case is solved? 
 ** How are we evaluating our competency questions, what are our competency questions? If we have no evaluation process how do we know we have completed a case-study and can present a use-case and the ontology is of scientific importance in order to publish a paper on it?
 
- '''Thur 11th June'''
-
+'''Thur 11th June'''
 * Splitting into smaller focus groups to resolve issues: (6)
 ** Parameter (if not resolved before then)
 ** Addressing the OBI development process, case-study, model case-study, evaluate model, present use-case
 ** Split up into groups to address a specific case-study and work through the development process
-
 * Working through individual use cases (5)
 ** Gene Pattern Use Case - close to being able to completely represent this now
 ** Neuroscience Use Case - Dirk
 ** IEDB use case - Bjoern
 ** Vaccine Ontology use case - Oliver
-
 * Status and progress per branch (5)
 
- '''Frid 12th June'''
-
+'''Frid 12th June'''
 * Moving quickterms/quickid into production (5)
-
 * Funding opportunities (5)
-
 *OBI Organizational structure (5)
 ** The current separation into community coordinators and editors may have outlived its usefulness. There should be a ~ 1 hour brainstorming session to discuss a revised organizational structure. This should result in a draft document to be further discussed on the coord list.
-
 * Documenting OBI (4)
-
 * OBI distributions (3)
-
 * Using OWL 2 features in OBI (3)
-
 * Working with MIREOT (3)
-
 * Software demos (0)
 ** [http://isatab.sourceforge.net/tools.html ISACreator demo]
-
-
 
 == Confirmed attendees ==
 * Susanna Sansone
