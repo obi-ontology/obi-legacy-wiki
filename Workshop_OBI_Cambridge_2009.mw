@@ -15,15 +15,18 @@
 
  '''Tue 9th June'''
  08:00 – Cambridge [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge] to EBI
- 18:30 – EBI to [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge], dinner on your own (list of restaurant in the area will be added here, shortly)
+ 18:30 – EBI to [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge]
+ DINNER on your own [http://www.cambridge-x.co.uk/eat/ list of restaurant around the Travelodge], or [http://ww w.thegreatfoodguide.com/list-places.aspx?town=Cambridge&countyid=5 other restaurants in Cambridge]
 
  '''Wed 10th June'''
  07:50 – Cambridge [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge] to EBI
- 18:00 – EBI to [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge], dinner on your own (list of restaurant in the area will be added here, shortly)
+ 18:00 – EBI to [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge]
+ DINNER on your own [http://www.cambridge-x.co.uk/eat/ list of restaurant around the Travelodge], or [http://ww w.thegreatfoodguide.com/list-places.aspx?town=Cambridge&countyid=5 other restaurants in Cambridge]
 
  '''Thur 11th June'''
  08:00 – Cambridge [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge] to EBI
- 17:30 – EBI to [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge], dinner on your own (list of restaurant in the area will be added here, shortly)
+ 17:30 – EBI to [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge]
+ DINNER on your own [http://www.cambridge-x.co.uk/eat/ list of restaurant around the Travelodge], or [http://ww w.thegreatfoodguide.com/list-places.aspx?town=Cambridge&countyid=5 other restaurants in Cambridge]
 
  '''Frid 12th June'''
  08:15 Cambridge [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge] to EBI
@@ -34,7 +37,29 @@
 The tentative list of possible topics [[Conference_call_developers_agenda/Minutes/Developer/2009-05-06|brainstormed]] has been prioritized during the dev call on 5/27 (where only 6 participants attended) and divided for each day.
 
 '''Tue 9th June'''
-''(note that OBO Foundry Coord, Philippe and Susanna will not attend this day)''
+''(note that on this day OBO Foundry Coord, Philippe and Susanna will not attend)''
+
+* Interation with EnVO (0)
+** Discussion with Norman, as will only attend this day.
+
+* External ontology coordination. Status, issues, actions (6)
+** review of IEDB OWL export/ IEDB-OBI coordination
+** IAO-OBI coordination ''(partly possible, later to be confirmed with Alan)''
+** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
+** Status of Vaccine ontology/OBI coordination
+** Status of Immune Epitope ontology/OBI coordination
+
+* OBI release process (6)
+** Hasn't happened for a while. How do we address this going forward. 
+
+*Development process (5)
+There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
+** What is the goal of OBI?
+** What are the OBI competency questions?
+** How are we evaluating that we have answered the competency questions?
+
+ '''Wed 10th June'''
+
 * Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)? (6)
 ** Manuscript status
 ** Is OBI ready for release 1.0? If not what is needed. 
@@ -48,21 +73,10 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 ** Addressing the OBI development process, case-study, model case-study, evaluate model, present use-case
 ** Split up into groups to address a specific case-study and work through the development process
 
-* OBI release process (6)
-** Hasn't happened for a while. How do we address this going forward. 
 
-* External ontology coordination. Status, issues, actions (6)
-** review of IEDB OWL export/ IEDB-OBI coordination
-** IAO-OBI coordination
-** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
-** Status of Vaccine ontology/OBI coordination
-** Status of Immune Epitope ontology/OBI coordination
 
-*Development process (5)
-There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
-** What is the goal of OBI?
-** What are the OBI competency questions?
-** How are we evaluating that we have answered the competency questions?
+
+
 
 Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
 
@@ -92,8 +106,7 @@ Only after this process can we determine if OBI is of any benefit and does what 
 * Software demos (0)
 ** [http://isatab.sourceforge.net/tools.html ISACreator demo]
 
-* Interation with EnVO (0)
-** Discussion to be done on Wed as Norman will only attend that day.
+
 
 == Confirmed attendees ==
 * Susanna Sansone
