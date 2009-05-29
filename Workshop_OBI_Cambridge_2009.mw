@@ -51,7 +51,7 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 ** Status of Immune Epitope ontology/OBI coordination
 * OBI release process (6)
 ** Hasn't happened for a while. How do we address this going forward. 
-*Development process (5)
+* Development process (5)
 There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
 * What is the goal of OBI?
 * What are the OBI competency questions?
