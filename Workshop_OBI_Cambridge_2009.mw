@@ -29,11 +29,10 @@
  08:15 Cambridge [http://www.travelodge.co.uk/search_and_book/hotel_overview.php?hotel_id=255 Travelodge] to EBI
  Individual or group taxis will be organized to return back to Travelodge, or train station or airports.
 
-== Agenda ==
+== Proposed Agenda ==
 
-Below is a tentative list of possible topics [[Conference_call_developers_agenda/Minutes/Developer/2009-05-06|brainstormed]]
+The tentative list of possible topics [[Conference_call_developers_agenda/Minutes/Developer/2009-05-06|brainstormed]] has been prioritized during the dev call on 5/27 (where only 6 participants attended) and divided for each day.
 
-At the dev call on 5/27, we added more items and voted on priority for each. In parenthesis behind each subject is the number of votes for 'we need to talk about this'. This is just meant as a first stab for prioritization (only 6 call participants, maybe insufficient knowledge on what some subjects would entail + several subjects seem to overlap). Here are the results, reordered by vote priority: 
 
 * Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)? (6)
 ** Manuscript status
