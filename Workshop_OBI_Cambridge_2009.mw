@@ -60,8 +60,11 @@ There is a clear methodology to apply when building ontologies. In brief, this i
 ** What is the goal of OBI?
 ** What are the OBI competency questions?
 ** How are we evaluating that we have answered the competency questions?
+Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
 
  '''Wed 10th June'''
+
+* Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
 
 * Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)? (6)
 ** Manuscript status
@@ -71,17 +74,12 @@ There is a clear methodology to apply when building ontologies. In brief, this i
 ** How are we evaluating that a use case is solved? 
 ** How are we evaluating our competency questions, what are our competency questions? If we have no evaluation process how do we know we have completed a case-study and can present a use-case and the ontology is of scientific importance in order to publish a paper on it?
 
+ '''Thur 11th June'''
+
 * Splitting into smaller focus groups to resolve issues: (6)
 ** Parameter (if not resolved before then)
 ** Addressing the OBI development process, case-study, model case-study, evaluate model, present use-case
 ** Split up into groups to address a specific case-study and work through the development process
-
-
-
-
-
-
-Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
 
 * Working through individual use cases (5)
 ** Gene Pattern Use Case - close to being able to completely represent this now
@@ -90,6 +88,8 @@ Only after this process can we determine if OBI is of any benefit and does what 
 ** Vaccine Ontology use case - Oliver
 
 * Status and progress per branch (5)
+
+ '''Frid 12th June'''
 
 * Moving quickterms/quickid into production (5)
 
