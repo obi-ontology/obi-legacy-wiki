@@ -52,15 +52,7 @@
 The tentative list of possible topics [[Conference_call_developers_agenda/Minutes/Developer/2009-05-06|brainstormed]] has been prioritized during the dev call on 5/27 (where only 6 participants attended) and divided for each day.
 
 '''Tue 9th June'''
-''(note that on this day OBO Foundry Coord, Philippe and Susanna will not attend)''
-* Interation with EnVO (0)
-** Discussion with Norman, as will only attend this day.
-* External ontology coordination. Status, issues, actions (6)
-** review of IEDB OWL export/ IEDB-OBI coordination
-** IAO-OBI coordination ''(partly possible, later to be confirmed with Alan)''
-** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
-** Status of Vaccine ontology/OBI coordination
-** Status of Immune Epitope ontology/OBI coordination
+''(note that on this day a) OBO Foundry Coord, Philippe and Susanna will not attend; b) Jie only arrives in the afternoon, ref to MGED terms; c) Norman will only attend this day, ref EnvO)''
 * OBI release process (6)
 ** Hasn't happened for a while. How do we address this going forward. 
 * Development process (5)
@@ -69,6 +61,14 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 *** What are the OBI competency questions?
 *** How are we evaluating that we have answered the competency questions?
 ** Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
+* External ontology coordination. Status, issues, actions (6)
+** Interation with EnVO
+** review of IEDB OWL export/ IEDB-OBI coordination
+** IAO-OBI coordination ''(partly possible, later to be confirmed with Alan)''
+** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
+** Status of Vaccine ontology/OBI coordination
+** Status of Immune Epitope ontology/OBI coordination
+
 
 '''Wed 10th June'''
 * Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
