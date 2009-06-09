@@ -56,9 +56,7 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 ''(note that on this day a) OBO Foundry Coord, Philippe and Susanna will not attend; b) Jie only arrives in the afternoon, ref to MGED terms; c) Norman will only attend this day, ref EnvO)''
 * 9:00-9:30 Sort agenda
 
-* OBI release process (6)
-** Hasn't happened for a while. How do we address this going forward. 
-** Recruit a new member to the release team
+* Collab with Envo
 
 * Development process (5)
 ** There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
@@ -66,16 +64,14 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 *** What are the OBI competency questions?
 *** How are we evaluating that we have answered the competency questions?
 ** Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
-* External ontology coordination. Status, issues, actions (6)
-** Interation with EnVO
-** review of IEDB OWL export/ IEDB-OBI coordination
-** IAO-OBI coordination ''(partly possible, later to be confirmed with Alan)''
-** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
-** Status of Vaccine ontology/OBI coordination
-** Status of Immune Epitope ontology/OBI coordination
 
 
 '''Wed 10th June'''
+
+* OBI release process (6)
+** Hasn't happened for a while. How do we address this going forward. 
+** Recruit a new member to the release team
+
 * Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
 * Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)? (6)
 ** Manuscript status
@@ -98,6 +94,12 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 * Status and progress per branch (5)
 
 '''Frid 12th June'''
+* External ontology coordination. Status, issues, actions (6)
+** review of IEDB OWL export/ IEDB-OBI coordination
+** IAO-OBI coordination ''(partly possible, later to be confirmed with Alan)''
+** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
+** Status of Vaccine ontology/OBI coordination
+** Status of Immune Epitope ontology/OBI coordination
 * Moving quickterms/quickid into production (5)
 * Put redirect from old wiki in place and point to new one
 * Funding opportunities (5)
