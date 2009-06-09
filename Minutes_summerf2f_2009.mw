@@ -223,6 +223,18 @@ BP: No but this is in preparation for objective specification-planned process pa
 
 FG: Agreed
 
+MC: I agree with Frank though only this once
+
+FG: I disagree
+
+BP: has_specified_output and has_specified_output_data - the issue with these two relations is that they are correct if we wish to assign 'output' role to material entity and data because we don't know if we can assign the role of input and output to data currently.  If we can have input and output role for data then we don't need these two relations. 
+
+FG: We should just have input and output relations nothing more specific than that.
+
+MC: I think everyone agree we need roles for data so we should push to barry/bfo, the problem is with the specification of the relation they need to have role output or input
+
+LS: That needs to be fixed
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
