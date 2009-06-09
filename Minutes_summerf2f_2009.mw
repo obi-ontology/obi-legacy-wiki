@@ -217,6 +217,12 @@ FG: We need to say proteins can be synthesised or whatever
 
 BP: This is not the same, i think natural language works here.
 
+FG: We don't have agent in OBI
+
+BP: No but this is in preparation for objective specification-planned process part, but we perhaps don't have space to add all the details in manuscript
+
+FG: Agreed
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
