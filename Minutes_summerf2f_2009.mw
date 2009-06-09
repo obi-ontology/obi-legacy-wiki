@@ -92,3 +92,5 @@ Summary of discussion: We will make the connection by saying a report graph is_a
 AI: JM to generate list of sample envs from AE and submit to Envo
 
 AI: JM to edit the figure for the GenePattern manuscript to reflect the wording in OBI, e.g. normalization process in figure should be normalization data transformation
+
+AI: JM + MC: to add the is_about relations between data sets and report graphs, priority is to get clustering example from GenePattern completed.  MC will help from IAO side as most of these axioms will be on IAO classes.
