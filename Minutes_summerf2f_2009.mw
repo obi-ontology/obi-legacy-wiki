@@ -197,7 +197,7 @@ BP: In an ideal world we would have a term 'mixture'.  This is where we need to 
 
 MC: If we add this into the journal now we will take up a lot of space
 
-FG: so chemical mixture is defined as mixture of one or more homogenous chemicals.  SO i think what chemical entities in solution describe is chemicals in a solution which is not a mixture.  So are you saying you want mixture class?
+FG: so chemical mixture is defined as mixture of one or more homogenous chemicals.  So I think what chemical entities in solution describe is chemicals in a solution which is not a mixture.  So are you saying you want mixture class?
 
 BP: Yes I feel we should have this, since we have mixed materials generally not accounted for in OBI.  At same time we have some issues saying, for example, why a cell is not one.
 
@@ -242,6 +242,8 @@ MC: Issue is when we have role input/output it means that your role is realized 
 BP: When you have an experiment and have instrument, cell etc, then they are all participants in the process. We should remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
 
 AI: LS and relations branch: remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
+
+Phil reenters room so we go back to sample
 
 ===Action Items===
 
