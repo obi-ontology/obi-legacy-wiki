@@ -284,12 +284,11 @@ specimen examples: Biobanking, e.g. blood taken and stored in a freezer for pote
 
 material samples: blood drawn from a patient to monitor glucose level, 
 
-
-
-
-
-
 JM: There is also issue that role is only borne during a process so once process ends it's not a sample
+
+FG: Well problem is in BFO these may not work since the role is dropped at end of the process
+
+PL: Stored is key here, if we say it is stored until it thrown away it still has role during this storage process
 
 ===Action Items===
 
