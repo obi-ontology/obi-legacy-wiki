@@ -241,6 +241,8 @@ MC: Issue is when we have role input/output it means that your role is realized 
 
 BP: When you have an experiment and have instrument, cell etc, then they are all participants in the process. We should remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
 
+AI: LS and relations branch: remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
