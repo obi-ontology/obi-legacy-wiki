@@ -290,7 +290,7 @@ FG: Well problem is in BFO these may not work since the role is dropped at end o
 
 PL: Stored is key here, if we say it is stored until it thrown away it still has role during this storage process
 
-specimen will lose role when it is destroyed
+specimen will lose role when it is no longer stored
 sample loses it representativeness of whole
 
 BP: Role is a social construct so as long as someone has the intent to derive something from it then it still has the role
