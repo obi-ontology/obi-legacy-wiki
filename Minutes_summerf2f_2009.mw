@@ -235,6 +235,12 @@ MC: I think everyone agree we need roles for data so we should push to barry/bfo
 
 LS: That needs to be fixed
 
+JM: I don't see issue, can someone give a concrete example
+
+MC: Issue is when we have role input/output it means that your role is realized within a process so it is a 'special' status
+
+BP: When you have an experiment and have instrument, cell etc, then they are all participants in the process. We should remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
