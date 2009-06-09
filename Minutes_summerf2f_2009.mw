@@ -260,3 +260,5 @@ AI: BP The slant needs to be changed in journal so that it shows that OBI can be
 AI: BP: to ask JF the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries? This will enable use case to be completed
 
 AI: Biomterial branch: to contact Chris about species neutral anatomy (UBERON) as we need to import this into OBI
+
+AI: LS and relations branch: remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
