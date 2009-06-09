@@ -14,15 +14,15 @@ This category lists the regular pages which aren't special pages, but neverthele
 (in progress)
 
 Creating a page:
-* '''capitals for the first word, lowercase for the second''' and subsequent words: (e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
-* '''start 'general', end specific ''' (e.g. 'Conference_call_developers and not 'developers_conference_call)
-* When creating a page, '''add the category it belongs to'''. You can add multiple categories for each page. Check [[Special:Categories | this page]] to see which categories we use on this wiki
-* '''if it's specific event, add the datum at the end''' (e.g. Workshop_notes_2008_july_9 or Woekshop_notes_2008_july_9-12 and not 2008_Workshop_notes nor Notes_workshop_2008_winter). 
-* '''add category if known'''
+* '''Capitals for the first word, lowercase for the second''' and subsequent words: (e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
+* '''Start 'general', end specific ''' (e.g. 'Conference_call_developers and not 'developers_conference_call)
+* '''Add the category it belongs to'''. You can check [[Special:Categories | this page]] for all categories we currently have
+* '''If it's specific event, add the datum at the end''' (e.g. Workshop_notes_2008_july_9 or Woekshop_notes_2008_july_9-12 and not 2008_Workshop_notes nor Notes_workshop_2008_winter). 
+* '''Add category if known'''
 * '''Do we really need another page for this?'''
 
 Editing a page:
-* '''comment in the 'Summary' field''' or check 'minor edit'
+* '''Comment in the 'Summary' field''' or check 'minor edit'
 
 
 Additional resources: 
