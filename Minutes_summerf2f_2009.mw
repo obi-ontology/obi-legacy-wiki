@@ -301,6 +301,12 @@ specimen gathering process is_a planned process with the objective to obtain and
 
 material sampling process is_a planned process with the objective to obtain and store a specimen that is representative of an input material entity (we will have to be able to answer for a given material sample what material it is representative of; that may require adding a role for the 'sampled material'.  Right now we will use the input relation)
 
+JM: We need to say that when it is no longer stored it is not a specimen not just when it is destroyed since this is our definition
+
+FG: I don't really care about this all that much, even though you make a very good point James and are correct. 
+
+JM: Why thank you Frank.
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
