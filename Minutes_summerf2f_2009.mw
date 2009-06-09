@@ -1,7 +1,7 @@
 ==Minute from Face to Face meeting summer 2009 @ EBI==
 
 ===Tuesday 9th June===
-JM, BP, NM, MC, FG, DD, PL, LS
+Attending: JM, BP, NM, MC, FG, DD, PL, LS
 
 
 '''Collab with Envo'''
@@ -24,4 +24,16 @@ BP: If we say mucose membrane then we talk about this class defining a site.
 
 FG: So they are completelty different
 
-NM: So you should go
+BP: So inside of my body is a site and this is 
+
+FG: material has_part site
+
+BP: Barry has said this is completely clear under BFO so we should follow this
+
+MC: What do we (OBI) need to do for Envo
+
+FG: We submit anything we consider site to the Envo tracker (see OBO foundry sourceforge site)
+
+JM: I can generate list of sites from AE and pass that on to NM if useful
+
+NM: Yes that would be useful. We are doing rocks and sludge, land cover such as agriculture and urban areas from satelite views of world, anatomical regions, holes in which you would find bacteria growing
