@@ -128,6 +128,14 @@ BP: I can add more specific info as well, like these are classews you get back f
 
 FG: I think this is still useful as it's from a diff perspective, using application specific external ontology
 
+MC: Do we explain why this useful, what advantages of using this approach are
+
+BP: Yes, we explain in journal paper where demonstrate how this could tie in different resources using a single query
+
+MC: But you are going to query using SPARQL oui? Something about ducks and genes querying GO and pubmed at same time, so why is this good to have in OBI instead of 3 different resources?
+
+BP: This is fine as long it is all in based on OBI structure
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
