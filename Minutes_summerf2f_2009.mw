@@ -243,7 +243,9 @@ BP: When you have an experiment and have instrument, cell etc, then they are all
 
 AI: LS and relations branch: remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
 
-Phil reenters room so we go back to sample
+Phil reenters room so we go back to sample#
+
+PL: Agreed with the changes that output range should become a GDC or material entity.  (some rant about GDCs and why boundaries are Indep Cont)
 
 ===Action Items===
 
