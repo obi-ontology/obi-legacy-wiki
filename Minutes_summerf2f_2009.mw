@@ -12,7 +12,7 @@ NM: Env are holes or sites with qualities that enable the area or site to suppor
 
 MC: If you have bacteria in an organism then the organism is an environment, so is it a role?
 
-BP: So we don't have environment at moment, we will have sample collected from site in OBI. There is a class site in BFO so we should define things in OBI under this. We don't worry about whether it is an environment this becomes clear when it is invovled in a sample collection process.
+BP: So we don't have environment at moment, we will have sample collected from site in OBI. There is a class site in BFO so we should define things in OBI under this. We don't worry about whether it is an environment this becomes clear when it is involved in a sample collection process.
 
 LS: It would be good from our point of view to have a higher level class for environment
 
@@ -20,9 +20,9 @@ FG: This shouldn't matter if we use BP proposed approach.  So any env should be 
 
 MC: How do we deal with having things under material that we want to say are environments?
 
-BP: If we say mucose membrane then we talk about this class defining a site.
+BP: If we say mucous membrane then we talk about this class defining a site.
 
-FG: So they are completelty different
+FG: So they are completely different
 
 BP: So inside of my body is a site and this is 
 
@@ -36,4 +36,6 @@ FG: We submit anything we consider site to the Envo tracker (see OBO foundry sou
 
 JM: I can generate list of sites from AE and pass that on to NM if useful
 
-NM: Yes that would be useful. We are doing rocks and sludge, land cover such as agriculture and urban areas from satelite views of world, anatomical regions, holes in which you would find bacteria growing
+NM: Yes that would be useful. We are doing rocks and sludge, land cover such as agriculture and urban areas from satellite views of world, anatomical regions, holes in which you would find bacteria growing
+
+NM gives demon of wonton ontology browser (URL is not shareable for this as currently private)
