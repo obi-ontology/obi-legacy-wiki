@@ -81,6 +81,12 @@ FG: clustering process needs to be renamed in manuscript to class discovery data
 
 AI: Rename the above in the figure in the manuscript
 
+Discussion about how we link the data item that is output from DT to the report graph that visualizes it. 
+
+JM: The part that is missing is the link between the data and report graph
+
+Summary of discussion: We will make the connection by saying a report graph is_about some data item and then add the specific details for each class.  So for clustering data the link will be, e.g. dendrogram is_about some clustered data set or .... etc.  This will make the connection between our data sets, the DTs and the report graphs that render the data.  This will enable us to represent the GenePattern use case, e.g. tell me all report graphs that can visualise clustered data sets (i.e. output of clustering data transformations).
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
