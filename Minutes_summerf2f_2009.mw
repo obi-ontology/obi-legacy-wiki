@@ -85,7 +85,7 @@ Discussion about how we link the data item that is output from DT to the report 
 
 JM: The part that is missing is the link between the data and report graph
 
-Summary of discussion: We will make the connection by saying a report graph is_about some data item and then add the specific details for each class.  So for clustering data the link will be, e.g. dendrogram is_about some clustered data set or .... etc.  This will make the connection between our data sets, the DTs and the report graphs that render the data.  This will enable us to represent the GenePattern use case, e.g. tell me all report graphs that can visualise clustered data sets (i.e. output of clustering data transformations).
+Summary of discussion: We will make the connection by saying a report graph is_about some data item and then add the specific details for each class.  So for clustering data the link will be, e.g. dendrogram is_about some tree-like data set (of which clustered data set will be a subclass) or .... etc.  This will make the connection between our data sets, the DTs and the report graphs that render the data.  This will enable us to represent the GenePattern use case, e.g. tell me all report graphs that can visualise clustered data sets (i.e. output of clustering data transformations).
 
 AI: JM + MC: to add the is_about relations between data sets and report graphs, priority is to get clustering example from GenePattern completed.  MC will help from IAO side as most of these axioms will be on IAO classes.
 
