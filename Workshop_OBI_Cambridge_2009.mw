@@ -59,7 +59,6 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 * Review of use cases in OBI manucripts
 ** Can we complete them all presently, what needs to be done?
 * Sample/specimen from Biomaterial
-* Evidence Codes
 
 * Development process (5)
 ** There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
@@ -75,7 +74,7 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 * Continue manuscript work
 ** Is OBI ready for release 1.0? If not what is needed. 
 * Speeding up OBI reasoning, OBO is quicker than OWL... is that a solution Alan ;)
-
+* Evidence Codes
 * OBI release process (6)
 ** Hasn't happened for a while. How do we address this going forward. 
 ** Recruit a new member to the release team
