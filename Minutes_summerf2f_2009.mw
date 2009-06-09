@@ -211,7 +211,11 @@ MC: grml
 
 FG: Protein is not a type of peptide
 
-BP: This is not an OBI issue, it is defined as such in external ontologies, chebi and pro
+BP: This is not an OBI issue, it is defined as such in external ontologies, chebi and pro.  We don't have recombinant expression system in OBI can we add it
+
+FG: We need to say proteins can be synthesised or whatever
+
+BP: This is not the same, i think natural language works here.
 
 ===Action Items===
 
