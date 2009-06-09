@@ -201,6 +201,8 @@ FG: so chemical mixture is defined as mixture of one or more homogenous chemical
 
 BP: Yes I feel we should have this, since we have mixed materials generally not accounted for in OBI.  At same time we have some issues saying, for example, why a cell is not one.
 
+ET: yes
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
