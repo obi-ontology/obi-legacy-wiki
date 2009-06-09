@@ -1,10 +1,27 @@
 ==Minute from Face to Face meeting summer 2009 @ EBI==
 
 ===Tuesday 9th June===
+JM, BP, NM, MC, FG, DD, PL, LS
+
 
 '''Collab with Envo'''
 
 JM: We have some sample information in AE which relates to Envo scope
+
 NM: Env are holes or sites with qualities that enable the area or site to support life is current thinking. Env sampling would be taking some quantity from this area or site. I assume you would want to represent env sample from the point of a sample going through an assay.
+
 MC: If you have bacteria in an organism then the organism is an environment, so is it a role?
-BP: So we don't have environment at moment, we will have sample collected from site in OBI.
+
+BP: So we don't have environment at moment, we will have sample collected from site in OBI. There is a class site in BFO so we should define things in OBI under this. We don't worry about whether it is an environment this becomes clear when it is invovled in a sample collection process.
+
+LS: It would be good from our point of view to have a higher level class for environment
+
+FG: This shouldn't matter if we use BP proposed approach.  So any env should be under site and then in future we can adjust this when envo has definition.  
+
+MC: How do we deal with having things under material that we want to say are environments?
+
+BP: If we say mucose membrane then we talk about this class defining a site.
+
+FG: So they are completelty different
+
+NM: So you should go
