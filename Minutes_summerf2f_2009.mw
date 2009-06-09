@@ -259,6 +259,14 @@ BP: I can have a population of 1, if i look at a whole body for example.
 
 FG: Yes, my definition (Referring to my google doc) is that a sample is a role that is borne by a material entity that is, the part (subset) of a population (whole or class) which is assumed to be representative of the population.
 
+PL: Data sets would not work here since it involves both roles and also Information which is not a material entity
+
+JM: So we need two sample, one for material and one for statistics
+
+BP: Yes 
+
+Agreed definition: a material sample is a role that is borne by a material entity that is, the part (subset) of a population (whole or class) which is assumed to be representative of the population.
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
