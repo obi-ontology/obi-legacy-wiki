@@ -89,6 +89,27 @@ Summary of discussion: We will make the connection by saying a report graph is_a
 
 AI: JM + MC: to add the is_about relations between data sets and report graphs, priority is to get clustering example from GenePattern completed.  MC will help from IAO side as most of these axioms will be on IAO classes.
 
+'''
+Immune Epitope DB Use Case'''
+
+BP: In this use case there is an issue which is that I created an intermediate ontology for our purposes because we needed a lot of assays in quickly and OBI is not stable and also takes time to add classes to.  So in many ways this does is not the best demonstration of OBI because it advocates a bespoke ontology.
+
+FG: Can't you import this bespoke ontology back into OBI
+
+BP: we have done some work on this
+
+FG: Is epitope within scope of OBI, i would be inclined to say yes
+
+BP: It is not clear to me whether it is or not.  What we have done with the ontology is build it around OBI but given them ONTIE IDs and keep them apart for now.  (BP shows ontology)  There are def some things that belong in OBI ELISA assy for example, but we have very specific assays which are granular because we use them in work, not sure if OBI needs these
+
+JM: Questions are, is in scope, who would be keeper for this if it wasn't and would it become sep ontology or sep file imported in?
+
+BP: I would be happy to give these OBI IDs but equally fine with them being in sep file.  
+
+FG: This is a good use of how to build an application focused ontology under OBI
+
+JM: I agree, similar to way we are trying to build for AE
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
