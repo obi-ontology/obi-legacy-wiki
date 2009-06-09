@@ -121,3 +121,7 @@ AI: JM to generate list of sample envs from AE and submit to Envo
 AI: JM to edit the figure for the GenePattern manuscript to reflect the wording in OBI, e.g. normalization process in figure should be normalization data transformation
 
 AI: JM + MC: to add the is_about relations between data sets and report graphs, priority is to get clustering example from GenePattern completed.  MC will help from IAO side as most of these axioms will be on IAO classes.
+
+AI: BP decide whether these should be added to OBI and come up with list of requirements before this can happen (i.e. adding things to OBI)
+
+AI: MC + AR to check if this can be accommodated once above is done
