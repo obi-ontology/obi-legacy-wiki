@@ -77,6 +77,8 @@ BP: I think instead we should not do this as it is annoying to read, instead we 
 
 JM: I agree, I think we need to make it easy to read first
 
+FG: clustering process needs to be renamed in manuscript to clustering data transformation, normalization process needs to be renamed in manuscript to normalization data transformation
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
