@@ -247,6 +247,18 @@ Phil reenters room so we go back to sample#
 
 PL: Agreed with the changes that output range should become a GDC or material entity.  (some rant about GDCs and why boundaries are Indep Cont)
 
+'''Sample/Specimen'''
+
+BP: One decision we made in biomaterial call is to try and model something simple first rather than try and do all possible uses of the words.  This example was blood sample.  This became hard because we ended up referencing other terms that are also contentious
+
+frank takes the floor to demonstrate his thinking 
+
+PL: There are two uses we are debating here, first is i took some blood from someone.  Second, this a randomly selected subset of a population which is representative of larger population
+
+BP: I can have a population of 1, if i look at a whole body for example.
+
+FG: Yes, my definition (Referring to my google doc) is that a sample is a role that is borne by a material entity that is, the part (subset) of a population (whole or class) which is assumed to be representative of the population.
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
