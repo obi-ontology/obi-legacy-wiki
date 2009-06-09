@@ -192,3 +192,5 @@ AI: BP decide whether these should be added to OBI and come up with list of requ
 AI: MC + AR to check if this can be accommodated once above is done
 
 AI: BP The slant needs to be changed in journal so that it shows that OBI can be extended for application ontology successfully
+
+AI: BP: to ask JF the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries? This will enable use case to be completed
