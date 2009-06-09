@@ -51,7 +51,7 @@ Some important notes on the CSS of the wiki (for those who are interested):
 * Currently categories are hidden using css (display:none in obi-ontology/w/skins/cc4/main.css)
 * Tables are styled using table specific class (obi-ontology/w/skins/cc4/main.css)
 
-= Progress (temp for moving old wiki) =
+= Progress =
 
 I'll go through all the pages and categorize them. Some pages can be dropped and joined. After this first round, I will go through all the dropped, joined and ? pages and finalize the import. 
 After the import I will correct the links. 
