@@ -179,13 +179,27 @@ FG: so we need to go back to JF with the following four questions what is it the
 
 AI: BP: to ask JF the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries?  This will enable use case to be completed
 
-===Tuesday AM 9th June===
+===Tuesday PM 9th June===
 
 '''Looking at first section of manuscript'''
 
 BP: We need a class that is high level, such as our anatomical entity, that we can import from external ontology. We need to be able to import a species neutral 
 
-AI: BP to contact Chris about species neutral anatomy (UBERON) as we need to import this into OBI
+AI: Biomaterial to contact Chris about species neutral anatomy (UBERON) as we need to import this into OBI
+
+FG: chemical entities in solution why is this solution and not liquid?
+
+MC: shall this be a defined class?
+
+BP: No.  more generally we are trying to model mixtures but we have limited to this for now.
+
+BP: In an ideal world we would have a term 'mixture'.  This is where we need to demonstrate the has_grain relation
+
+MC: If we add this into the journal now we will take up a lot of space
+
+FG: so chemical mixture is defined as mixture of one or more homogenous chemicals.  SO i think what chemical entities in solution describe is chemicals in a solution which is not a mixture.  So are you saying you want mixture class?
+
+BP: Yes I feel we should have this, since we have mixed materials generally not accounted for in OBI.  At same time we have some issues saying, for example, why a cell is not one.
 
 ===Action Items===
 
