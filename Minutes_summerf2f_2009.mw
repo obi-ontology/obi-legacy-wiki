@@ -278,9 +278,11 @@ BP: Question is when does it become a sample and not just a specimen?
 A specimen role is a role borne by a material entity that is collected for potential use during an investigation
 
 Furthermore;
-material sample is_a specimen
+material sample is_a specimen  (but not other way around)
 
+specimen examples: Biobanking, e.g. blood taken and stored in a freezer for potential further investigations
 
+material samples: blood drawn from a patient to monitor glucose level, 
 
 
 JM: There is also issue that role is only borne during a process so once process ends it's not a sample
