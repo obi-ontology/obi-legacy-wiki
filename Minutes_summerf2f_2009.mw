@@ -325,6 +325,12 @@ FG: Beer
 
 PL: derives_from suggests that original does not exist from the new part so it would not work for lavage.  What you are trying to say is has_part some stuff that derives from some anatomical entity
 
+BP: we need to be able to say that there was a link, that it_was_part_of but original still exists, similar to a sample process, but essentialy it is what did you take the specimen from.
+
+PL: If you have the notion of lavage, the process to lavage, then you already have the notion of what it was
+
+BP:
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
