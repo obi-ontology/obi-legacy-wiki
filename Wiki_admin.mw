@@ -40,16 +40,7 @@ To allow for a consistent styling of tables, we created a class in the main.css 
 For a more detailed overview on how to use tables, see [[http://en.wikipedia.org/wiki/Help:Table this wikipedia page]].
 
 
-= ToDo list =
 
-
-== Style & Design ==
-
-Some important notes on the CSS of the wiki (for those who are interested):
-
-* MediaWiki:Sidebar is styled using regular skin specific css. CSS added to 'main.css' (obi-ontology/w/skins/cc4).
-* Currently categories are hidden using css (display:none in obi-ontology/w/skins/cc4/main.css)
-* Tables are styled using table specific class (obi-ontology/w/skins/cc4/main.css)
 
 = Progress =
 
