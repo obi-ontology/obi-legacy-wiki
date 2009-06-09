@@ -9,10 +9,13 @@ This category lists the regular pages which aren't special pages, but neverthele
 
 = Using the wiki =
 
-== How to edit/create pages ==
+== How to create a new page (Namespaces) ==
 
-When editing/creating pages, keep the following in mind:
-* When creating a pages, '''use capitals for the first word, lowercase for the second''' and subsequent words (e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
+(in progress)
+
+For the creation of a new page, we follow the following rules:
+* '''capitals for the first word, lowercase for the second''' and subsequent words 
+(e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
 * When creating a page, it's preferred to '''start of with 'general' and end with more specific words''' (e.g. 'Conference_call_developers and not 'developers_conference_call)
 * When creating a page, '''add the category it belongs to'''. You can add multiple categories for each page. Check [[Special:Categories | this page]] to see which categories we use on this wiki
 * When editing/creating a page, it is always useful to add '''some comments in the 'Summary' field''' or checking the minor edit
