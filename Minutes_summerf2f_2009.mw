@@ -77,7 +77,7 @@ BP: I think instead we should not do this as it is annoying to read, instead we 
 
 JM: I agree, I think we need to make it easy to read first
 
-FG: clustering process needs to be renamed in manuscript to clustering data transformation, normalization process needs to be renamed in manuscript to normalization data transformation
+FG: clustering process needs to be renamed in manuscript to class discovery data transformation (OBI_0200175), normalization process needs to be renamed in manuscript to normalization data transformation (OBI_0200169)
 
 ===Action Items===
 
