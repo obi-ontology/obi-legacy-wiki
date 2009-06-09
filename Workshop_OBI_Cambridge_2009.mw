@@ -56,7 +56,12 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 ''(note that on this day a) OBO Foundry Coord, Philippe and Susanna will not attend; b) Jie only arrives in the afternoon, ref to MGED terms; c) Norman will only attend this day, ref EnvO)''
 * 9:00-9:30 Sort agenda
 
-* Collab with Envo
+* Collaboration with Envo with Norman
+
+* Review of use cases in OBI manucripts
+** Can we complete them all presently, what needs to be done?
+
+** Sample from Biomaterial
 
 * Development process (5)
 ** There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
