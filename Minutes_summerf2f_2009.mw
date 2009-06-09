@@ -39,3 +39,15 @@ JM: I can generate list of sites from AE and pass that on to NM if useful
 NM: Yes that would be useful. We are doing rocks and sludge, land cover such as agriculture and urban areas from satellite views of world, anatomical regions, holes in which you would find bacteria growing
 
 NM gives demon of wonton ontology browser (URL is not shareable for this as currently private)
+
+NM: Env and habitats and how you instantiate relations in OBI. Envo is trying to remove all reference ot habitats because we want to only reference site.  
+
+
+
+
+
+
+
+===Action Items===
+
+AI: JM to generate list of sample envs from AE and submit to Envo
