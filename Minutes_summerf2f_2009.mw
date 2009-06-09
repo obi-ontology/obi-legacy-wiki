@@ -131,3 +131,5 @@ AI: JM + MC: to add the is_about relations between data sets and report graphs, 
 AI: BP decide whether these should be added to OBI and come up with list of requirements before this can happen (i.e. adding things to OBI)
 
 AI: MC + AR to check if this can be accommodated once above is done
+
+AI: BP The slant needs to be changed in journal so that it shows that OBI can be extended for application ontology successfully
