@@ -296,7 +296,7 @@ PL: it will fall down for measurements of height since heights are quality
 
 specimen gathering process is_a planned process with the objective to obtain and store a material entity for potential use as an input during an investigation
 
-material sampling process is_a planned process with the objective to obtain and store a specimen that is representative of an input material entity
+material sampling process is_a planned process with the objective to obtain and store a specimen that is representative of an input material entity that plays the sampled material role
 
 ===Action Items===
 
