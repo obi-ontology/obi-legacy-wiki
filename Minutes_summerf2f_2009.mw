@@ -1,10 +1,10 @@
 ==Minute from Face to Face meeting summer 2009 @ EBI==
 
-===Tuesday 9th June===
+===Tuesday AM 9th June===
 Attending: JM, BP, NM, MC, FG, DD, PL, LS
 
 
-'''Collab with Envo'''
+'''Collaboration with Envo'''
 
 JM: We have some sample information in AE which relates to Envo scope
 
@@ -178,6 +178,14 @@ JM: I think we need a third use case and if we even thought about replacing it w
 FG: so we need to go back to JF with the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries?
 
 AI: BP: to ask JF the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries?  This will enable use case to be completed
+
+===Tuesday AM 9th June===
+
+'''Looking at first section of manuscript'''
+
+BP: We need a class that is high level, such as our anatomical entity, that we can import from external ontology. We need to be able to import a species neutral 
+
+AI: BP to contact Chris about species neutral anatomy (UBERON) as we need to import this into OBI
 
 ===Action Items===
 
