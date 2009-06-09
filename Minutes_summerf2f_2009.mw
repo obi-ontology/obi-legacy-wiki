@@ -40,13 +40,42 @@ NM: Yes that would be useful. We are doing rocks and sludge, land cover such as 
 
 NM gives demon of wonton ontology browser (URL is not shareable for this as currently private)
 
-NM: Env and habitats and how you instantiate relations in OBI. Envo is trying to remove all reference ot habitats because we want to only reference site.  
+NM: Env and habitats and how you instantiate relations in OBI. Envo is trying to remove all reference ot habitats because we want to only reference site.
+
+FG: Defining environments are outside scope of OBI (agreement from room)
 
 
+'''Assessing use cases in OBI paper'''
 
+BP: Discussion about replacing one of use cases from OBI Journal paper with the evidence code use case, discussed during the OBO Foundry workshop
 
+FG: I would suggest adding a further use case.
 
+LS: Should we just add this to existing use cases rather than create a new one?
 
+BP: So the EC ontology exists and the idea is to replace all of the EC IDs with an OBI identifier. This is a use case for OBI.
+
+FG: Competency question is can we replace EC IDs with OBI IDs, and second can we serve same queries. I would like to go through existing use cases first and then do other use cases.
+
+MC: I would like to address EC one
+
+FG: Only if we address other use cases first, this is priority (the journal use cases).
+
+JM: How are we going to do this, I woudl like a process for this session
+
+FG: Can we take each use case and represent it in actual OWL.
+
+'''GenePattern use case'''
+
+BP: Visualization is a process so it should be under planned process, presently it is obsoleted
+
+JM: It should be put back in if useful
+
+FG: We should add OBI IDs next to each name in the manuscript
+
+BP: I think instead we should not do this as it is annoying to read, instead we add this in suppl material
+
+JM: I agree, I think we need to make it easy to read first
 
 ===Action Items===
 
