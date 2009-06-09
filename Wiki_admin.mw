@@ -53,30 +53,12 @@ Some important notes on the CSS of the wiki (for those who are interested):
 
 = Progress =
 
-I'll go through all the pages and categorize them. Some pages can be dropped and joined. After this first round, I will go through all the dropped, joined and ? pages and finalize the import. 
-After the import I will correct the links. 
 
-
-== So far... ==
-I've
-* Changed the color of the sidebar as all the links on the wiki to a more soft color.
-* Added a few categories [[Category_Tree | see Category Tree]]
-* Sidebar
-** Reduced the font of the menu: there is no easy way (to my knowledge) to create a two column sidebar. I thought (hoped) it would work using tables, yet no luck. I can always try to add div's to it to tweak it a little. Any comments more then welcome. 
-** Added some links, some pages need to be created.
-
-== Moved/Imported pages ==
-An overview (on the old wiki) to see which pages have been imported, check [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Moved this page]. To see which pages are not yet imported check [https://wiki.cbil.upenn.edu/obiwiki/index.php/Special:Uncategorizedpages this page].
-
-* Some admin pages (can be seen on [[Category_Tree | categorytree]])
-
-== Drop & Join pages + Action pages ==
 [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Dropped These pages] are currently considered not useful and as such dropped. <br>
 Is it a good idea to join [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Join these pages]. Joining means loosing the history and discussions. (working on it)<br>
 What's shall we do with all the [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Action_items action pages] on the old wiki? Submit to tracker, drop or create 1 page? Currently the following pages and content will be added to the [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Tracker Tracker]<br>
 Where do [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:%3F these pages] belong to?
 
-Overall: a lot of pages are discussion pages or reports dating back to 2007. Is it useful to still import them and how should we do that? Join them, import them into category 'archive'...?
 
 
 
