@@ -120,6 +120,14 @@ JM: Agreed this will become AI for BP (see below)
 
 AI: BP The slant needs to be changed in journal so that it shows that OBI can be extended for application ontology successfully
 
+FG: Presently, as OBI stands, we can't do all of this use case
+
+BP: No, it still requires a few things, but all doable before journal is out
+
+BP: I can add more specific info as well, like these are classews you get back from this query too, but i'm not sure it is interesting and we already have the GenePattern querying use case
+
+FG: I think this is still useful as it's from a diff perspective, using application specific external ontology
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
