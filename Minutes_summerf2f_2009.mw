@@ -153,6 +153,32 @@ BP: Yes so we do this
 
 '''Use case 3: JF representing a protocol'''
 
+BP: So the us case discusses a protocol and how we can represent this.  We don't have in OBI, ethics committee, enroll balanced cohorts, placebo is still problematic, none of this can be done presently in OBI. 
+
+FG: Maybe we should stop at first part or not include it at all given we can't do it
+
+JM: So pros and cons as I se it, pro is it does talk about a study and the parts therein which is different and is critical to OBI's scope.  Con, I don't see this is an actual use case, what is USAGE here, is it annotation, template query, etc, also does this overlap with early methods section describing how we represent bits of studies?
+
+FG: I think we don't cover most of this in ontology and it doesn't show use as in use case so we should consider dropping it
+
+JM: Can we make modifications rather than drop?
+
+MC: In what way is it not use case?  
+
+JM: Use cases have an actor that show how the ontology will be used in a given scenario, this is largely a coverage example at present, but this can be modified to become a use case.
+
+FG: Issues still remains we don't cover it
+
+PL: This is a use case which is describing utility
+
+FG: yes but it needs updating as it's not correct at present.  I'm not saying delete it but we should reformulate it.  
+
+JM: I think we need a third use case and if we even thought about replacing it we would still be faced with issue of requireing some work for a new use case so doesn't remove the problem.  i would prefer to reformulate this and fix OBI
+
+FG: so we need to go back to JF with the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries?
+
+AI: BP: to ask JF the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries?  This will enable use case to be completed
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
