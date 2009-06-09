@@ -71,14 +71,17 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 
 '''Wed 10th June'''
 
+* Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
+* Continue manuscript work
+** Is OBI ready for release 1.0? If not what is needed. 
+* Speeding up OBI reasoning, OBO is quicker than OWL... is that a solution Alan ;)
+
 * OBI release process (6)
 ** Hasn't happened for a while. How do we address this going forward. 
 ** Recruit a new member to the release team
 
-* Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
 * Where are we now and what can we presently do with OBI (specifically what use cases do we now fulfill)? (6)
-** Manuscript status
-** Is OBI ready for release 1.0? If not what is needed. 
+
 * Use cases and first release (6)
 ** How are we evaluating that a use case is solved? 
 ** How are we evaluating our competency questions, what are our competency questions? If we have no evaluation process how do we know we have completed a case-study and can present a use-case and the ontology is of scientific importance in order to publish a paper on it?
