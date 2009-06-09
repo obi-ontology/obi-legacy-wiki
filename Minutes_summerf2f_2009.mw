@@ -209,6 +209,10 @@ JM: Agree we need to address these terms, they belong in OBI if anywhere.
 
 MC: grml
 
+FG: Protein is not a type of peptide
+
+BP: This is not an OBI issue, it is defined as such in external ontologies, chebi and pro
+
 ===Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
