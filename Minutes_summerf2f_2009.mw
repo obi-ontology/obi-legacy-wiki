@@ -352,7 +352,7 @@ BP: Also add reasoning to the agenda for Alan as it has slowed again
 
 JM: Would be useful if Alan could give us some tips tomorrow on helping speed up reasoning as we edit
 
-===Action Items===
+===Monday Action Items===
 
 AI: JM to generate list of sample envs from AE and submit to Envo
 
@@ -371,7 +371,6 @@ AI: BP: to ask JF the following four questions what is it the experiment you are
 AI: Biomterial branch: to contact Chris about species neutral anatomy (UBERON) as we need to import this into OBI
 
 AI: LS and relations branch: remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
-
 
 ===Wednesday AM 10th June===
 
