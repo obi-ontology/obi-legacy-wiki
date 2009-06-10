@@ -72,6 +72,9 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 
 * Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
 * Continue manuscript work
+* BFO discussion
+* RI dicsussion
+* Parameters
 ** Is OBI ready for release 1.0? If not what is needed. 
 * Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies 
 * Speeding up OBI reasoning, OBO is quicker than OWL... is that a solution Alan ;)
@@ -87,8 +90,8 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 ** How are we evaluating our competency questions, what are our competency questions? If we have no evaluation process how do we know we have completed a case-study and can present a use-case and the ontology is of scientific importance in order to publish a paper on it?
 
 '''Thur 11th June'''
+* Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
 * Splitting into smaller focus groups to resolve issues: (6)
-** Parameter (if not resolved before then)
 ** Addressing the OBI development process, case-study, model case-study, evaluate model, present use-case
 ** Addressing the movement of all currently asserted roles and functions to be generic realizable entities
 ** Split up into groups to address a specific case-study and work through the development process
@@ -103,7 +106,6 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 * External ontology coordination. Status, issues, actions (6)
 ** review of IEDB OWL export/ IEDB-OBI coordination
 ** IAO-OBI coordination ''(partly possible, later to be confirmed with Alan)''
-** Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
 ** Status of Vaccine ontology/OBI coordination
 ** Status of Immune Epitope ontology/OBI coordination
 * Moving quickterms/quickid into production (5)
