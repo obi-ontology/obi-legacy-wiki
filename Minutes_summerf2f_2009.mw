@@ -91,8 +91,7 @@ Summary of discussion: We will make the connection by saying a report graph is_a
 
 AI: JM + MC: to add the is_about relations between data sets and report graphs, priority is to get clustering example from GenePattern completed.  MC will help from IAO side as most of these axioms will be on IAO classes.
 
-'''
-Immune Epitope DB Use Case'''
+'''Immune Epitope DB Use Case'''
 
 BP: In this use case there is an issue which is that I created an intermediate ontology for our purposes because we needed a lot of assays in quickly and OBI is not stable and also takes time to add classes to.  So in many ways this does is not the best demonstration of OBI because it advocates a bespoke ontology.
 
