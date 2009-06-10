@@ -477,6 +477,8 @@ AR: Are there any objections to the realizable entity changes?
 
 BP: Given the approach we are going to take by putting everything just under realizable entity and then infer the different subtypes, this is fine for OBI I believe.
 
+BS: We wish to remove processual context, this will become deprecated.
+
 ===Tuesday Action Items===
 
 AI: AR to think about the definition of sample since he had a couple of minor issues
