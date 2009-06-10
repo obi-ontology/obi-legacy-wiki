@@ -398,19 +398,28 @@ AI: AR to think about the definition of sample since he had a couple of minor is
 
 BS: Earlier you said gathering and storing - do you mean gathering is one process and storing is another, or do you mean gathering and storing as one single process?  This needs to be 
 
-AI: BS to tinker with wording a little of specimen and sample 
+AI: BS to tinker with wording a little of specimen and sample
 
 
 
+'''Continuing manuscript work'''
+
+BP: Are we saying we have a relation with IAo which is that we are also building IAO within OBI or that IAO is sep effort
+
+AR: I think we should say that IAO was spun off from IAO as a result of the process of OBI
+
+BP: rename information content entity in IAO to Information artifact
+
+AI: MC rename information content entity in IAO to Information artifact
 
 
+'''Discussion on parameter'''
 
+AR: So there is a question whether an indep and dep variable should be in OBI
 
+BS: They should be in OBI they don't exist outside biological investigations
 
-
-
-
-
+AR: Indep and dep variables are clear, parameters are not clear.  This requires discussion.  Best way would be for JM and I to recapitulate our views
 
 ===Tuesday Action Items===
 
