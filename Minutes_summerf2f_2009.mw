@@ -413,13 +413,20 @@ BP: rename information content entity in IAO to Information artifact
 AI: MC rename information content entity in IAO to Information artifact
 
 
+
 '''Discussion on parameter'''
 
 AR: So there is a question whether an indep and dep variable should be in OBI
 
 BS: They should be in OBI they don't exist outside biological investigations
 
-AR: Indep and dep variables are clear, parameters are not clear.  This requires discussion.  Best way would be for JM and I to recapitulate our views
+AR: Indep and dep variables are clear, parameters are not clear.  This requires discussion.  Best way would be for JM and I to 
+
+recapitulate our views
+
+BS wants to redfine independent variable (focusing on definition on board)
+
+Lots of continuous discussion by everyone at once so not able to capture
 
 ===Tuesday Action Items===
 
