@@ -91,6 +91,7 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 
 '''Thur 11th June'''
 * Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies
+* Addressing review from OBO Foundry
 * Splitting into smaller focus groups to resolve issues: (6)
 ** Addressing the OBI development process, case-study, model case-study, evaluate model, present use-case
 ** Addressing the movement of all currently asserted roles and functions to be generic realizable entities
@@ -101,6 +102,7 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 ** IEDB use case - Bjoern
 ** Vaccine Ontology use case - Oliver
 * Status and progress per branch (5)
+
 
 '''Frid 12th June'''
 * External ontology coordination. Status, issues, actions (6)
