@@ -499,6 +499,24 @@ BP: do you envisage any OBO foundry ontology that will use spatial region or tem
 
 BS: I have thought of removing that.
 
+AR: are subclasses under material entity needed?
+
+BP: What is the need for spatial / temporal regions? If they are 
+included, they seem to be missing combinations (scattered ...)
+
+BS: length is only a property of spatial regions. There is an 
+is_projected relation, which links objects etc. and the regions,
+
+PL: Example: length of longest entity in the univers + 1 meter
+
+PL: how do we express time duration for a process
+
+BS: duration of time interval into which the process is projected
+
+PL: How do you then describe velocity, accelaration etc?
+
+BS: Will follow up.
+
 ===Tuesday Action Items===
 
 AI: AR to think about the definition of sample since he had a couple of minor issues
