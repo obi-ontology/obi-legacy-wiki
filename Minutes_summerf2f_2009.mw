@@ -481,7 +481,11 @@ BS: We wish to remove processual context, this will become deprecated.
 
 PL: What is relation between spatial region and spatiotemporal region
 
-BS: That is a projection relation, so that you can prject a spatial region onto a temporal region.  I have a paper on this very topic, unfortunately there are too many relations in that paper and that  will potentially introduce problems
+BS: That is a projection relation, so that you can prject a spatial region onto a temporal region.  I have a paper on this very topic, unfortunately there are too many relations in that paper and that  will potentially introduce problems.  Do we have relation of process to temoral region
+
+CM: duration of is in
+
+BS: This is somewhat ambiguous, we need to address this
 
 ===Tuesday Action Items===
 
