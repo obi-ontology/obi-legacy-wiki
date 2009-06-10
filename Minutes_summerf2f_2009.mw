@@ -453,6 +453,16 @@ BS: integer and string are not data types, they are numbers or letters.  Data ty
 
 AI: AR, following completion of JM parameter, AR will take this to IAO
 
+'''BFO Discussion'''
+
+BS: The common upper ontology which was to go into ISO is on hold for now.  BFO 2.0 will be released soon and will incorporate RO 2.0 into the release.  There will be several version of BFO 2.0, e.g. common logic version, owl version.  
+
+PL: Which was one is the 'correct version'?
+
+BS: Common Logic version is the canonical version of BFO
+
+AR: We have to live with the differences as a consequence of language differences.
+
 ===Tuesday Action Items===
 
 AI: AR to think about the definition of sample since he had a couple of minor issues
