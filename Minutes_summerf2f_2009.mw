@@ -440,6 +440,19 @@ some input parameter and
 some input dataset and 
 some output
 
+AI: JM to do parameter mark up from above
+
+
+'''Data types'''
+
+BP and JM: Discussion on data types, we would need ranges represetned by things such as 'string', 'floating point' and so on
+
+JM: I already submitted some of these to IAO list
+
+BS: integer and string are not data types, they are numbers or letters.  Data types are social artifacts
+
+AI: AR, following completion of JM parameter, AR will take this to IAO
+
 ===Tuesday Action Items===
 
 AI: AR to think about the definition of sample since he had a couple of minor issues
