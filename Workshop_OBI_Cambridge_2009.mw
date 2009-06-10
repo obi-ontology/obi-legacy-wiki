@@ -60,14 +60,6 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 ** Can we complete them all presently, what needs to be done?
 * Sample/specimen from Biomaterial
 
-* Development process (5)
-** There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
-*** What is the goal of OBI?
-*** What are the OBI competency questions?
-*** How are we evaluating that we have answered the competency questions?
-** Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
-
-
 '''Wed 10th June'''
 
 * Brief reciprocal update on day 1 and OBO Foundry/Industry discussions
@@ -76,9 +68,16 @@ The tentative list of possible topics [[Conference_call_developers_agenda/Minute
 * RI dicsussion
 * Parameters
 * Is OBI ready for release 1.0? If not what is needed. 
-* Jie report on checking that MGED terms are in OBI or other OBO foundry ontologies 
 * Speeding up OBI reasoning, OBO is quicker than OWL... is that a solution Alan ;)
 * Evidence Codes
+
+* Development process (5)
+** There is a clear methodology to apply when building ontologies. In brief, this involves stating the 1)Goals - whats the point? 2)The scope, by defining competency question the ontology should ask. 3)This is followed by an evaluation process to determine if we have been able to answer our questions.
+*** What is the goal of OBI?
+*** What are the OBI competency questions?
+*** How are we evaluating that we have answered the competency questions?
+** Only after this process can we determine if OBI is of any benefit and does what it is mean to do. Only after following a process like this can we have confidence in writing a paper and making the statement, OBI is a contribution to science and deserves a publication.
+
 * OBI release process (6)
 ** Hasn't happened for a while. How do we address this going forward. 
 ** Recruit a new member to the release team
