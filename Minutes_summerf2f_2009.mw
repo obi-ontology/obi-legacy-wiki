@@ -435,9 +435,10 @@ example for parameter
 
 for planned process k-means:
 
-plan specification: 
-
-part_of plan specification some input and some dataset and some output
+part_of plan objective specification 
+some input parameter and 
+some input dataset and 
+some output
 
 ===Tuesday Action Items===
 
