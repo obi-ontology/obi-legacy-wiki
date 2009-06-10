@@ -375,8 +375,22 @@ AI: LS and relations branch: remove the roles part of the definitions for the in
 
 ===Wednesday AM 10th June===
 
-Attending: JM, BP, MC, FG, DD, PL, LS, AR, JZ, SAS, PRS
+Attending: JM, BP, MC, FG, DD, PL, LS, AR, JZ, SAS, PRS, RS
 
 BP gives overview from Tuesday OBI meeting
 
 AR gives overview from industry meeting
+
+'''Discussion on sample/specimen'''
+
+AR: we need to add realises to the definition as this is a role
+
+Bjoern edits to add realises
+
+BS: We don't need storing process in the definition
+
+BP: It is  needed as otherwise the role is lost once it is collected and this is not what we desire, it needs to a be a specimen long after it is collected
+
+RS: What is main distinction here between sample and specimen
+
+FG: The distinction is that sample is representative of a whole whereas specimen is not, e.g. blood sample is representative of the whole blood, whereas you cut an arm off and use it then it it a specimen
