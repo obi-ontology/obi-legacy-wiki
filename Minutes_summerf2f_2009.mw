@@ -372,3 +372,9 @@ AI: BP: to ask JF the following four questions what is it the experiment you are
 AI: Biomterial branch: to contact Chris about species neutral anatomy (UBERON) as we need to import this into OBI
 
 AI: LS and relations branch: remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
+
+
+===Wednesday AM 10th June===
+Caveat: Minutes may occasionally be inaccurate during capture
+
+Attending: JM, BP, MC, FG, DD, PL, LS, AR, JZ, SAS, PRS
