@@ -1,6 +1,6 @@
-==Minute from Face to Face meeting summer 2009 @ EBI==
+=Minute from Face to Face meeting summer 2009 @ EBI=
 
-===Tuesday AM 9th June===
+==Tuesday AM 9th June==
 Caveat: Minutes may occasionally be inaccurate during capture
 
 Attending: JM, BP, NM, MC, FG, DD, PL, LS
@@ -180,7 +180,7 @@ FG: so we need to go back to JF with the following four questions what is it the
 
 AI: BP: to ask JF the following four questions what is it the experiment you are trying to do? how do you model this? how are you using OBI? what are queries?  This will enable use case to be completed
 
-===Tuesday PM 9th June===
+==Tuesday PM 9th June==
 
 '''Looking at first section of manuscript'''
 
@@ -372,7 +372,7 @@ AI: Biomterial branch: to contact Chris about species neutral anatomy (UBERON) a
 
 AI: LS and relations branch: remove the roles part of the definitions for the input and output relations and we can remove the information related input and output relations: has_specified_output_information, has_specified_input_information and instead has_specified_output and has_specified_input should be used.
 
-===Wednesday AM 10th June===
+==Wednesday AM 10th June==
 
 Attending: JM, BP, MC, FG, DD, PL, LS, AR, JZ, SAS, PRS, RS
 
@@ -400,8 +400,6 @@ BS: Earlier you said gathering and storing - do you mean gathering is one proces
 
 AI: BS to tinker with wording a little of specimen and sample
 
-
-
 '''Continuing manuscript work'''
 
 BP: Are we saying we have a relation with IAo which is that we are also building IAO within OBI or that IAO is sep effort
@@ -411,8 +409,6 @@ AR: I think we should say that IAO was spun off from IAO as a result of the proc
 BP: rename information content entity in IAO to Information artifact
 
 AI: MC rename information content entity in IAO to Information artifact
-
-
 
 '''Discussion on parameter'''
 
@@ -428,7 +424,7 @@ BS wants to redfine independent variable (focusing on definition on board)
 
 Lots of continuous discussion by everyone at once so not able to capture
 
-===Wednesday PM 10th June===
+==Wednesday PM 10th June==
 
 example for parameter
 
@@ -567,6 +563,6 @@ AI: JF and Role branch to coordinate and improve/remove study specimen, study pa
 AI: Biomaterial branch to add class 'test tube'
 
 
-===Thursday AM 11th June===
+==Thursday AM 11th June==
 
 Attending: BP, MC, FG, DD, PL, LS, AR, JZ, SAS, PRS, RS
