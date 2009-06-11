@@ -575,6 +575,9 @@ Logical vs textual definition: the goal of the english defintion is to convery t
 
 Top level defintions have been defined, we only managed to do 'chemical solution', 'organization', 'processed material', 'investigation', 'documenting', 'assay', 'material separation'.
 
+MO and OBI integration: relevant/suitable terms will be moved to OBI; then when a view of OBI is created for the MGED community, then this file will also include additional modules (MO specific).
+
+
 '''Actions'''
 
 Alan: will edit the OBI definition in english
@@ -584,3 +587,5 @@ Richard (Foundry Coord): discuss new rules for all ontologies, where definitions
 Alan: bring chemical solution discussion to ChEBI
 
 Dirk: to reorganise the wiki pages
+
+Jie: will work with MGED reps in OBI to sort MO terms for inlcusion to OBI
