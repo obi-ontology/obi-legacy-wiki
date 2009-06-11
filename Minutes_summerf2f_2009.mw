@@ -563,6 +563,24 @@ AI: JF and Role branch to coordinate and improve/remove study specimen, study pa
 AI: Biomaterial branch to add class 'test tube'
 
 
-==Thursday AM 11th June==
+==Thursday 11th June==
 
 Attending: BP, MC, FG, DD, PL, LS, AR, JZ, SAS, PRS, RS
+
+OBI review: Chris Mungall's review point to huge discrepancy between the logical and textual definitions. 
+
+We need to address style inconsistency in the definitions. The issue is how to make the OWL definitions that can be easly stated in natural language. 
+
+Logical vs textual definition: the goal of the english defintion is to convery to a reader what the term denotes, and to reflect the logical definition as much as sensible. The goal of the logical definition i to enable data integration. The 2 will not necessarly mach but should never contradict.
+
+Top level defintions have been defined, we only managed to do 'chemical solution', 'organization', 'processed material', 'investigation', 'documenting', 'assay', 'material separation'.
+
+'''Actions'''
+
+Alan: will edit the OBI definition in english
+
+Richard (Foundry Coord): discuss new rules for all ontologies, where definitions are preceded with '=def' for any necessary + sufficient definition
+
+Alan: bring chemical solution discussion to ChEBI
+
+Dirk: to reorganise the wiki pages
