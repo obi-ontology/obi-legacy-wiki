@@ -50,7 +50,7 @@ Present: JM, CS, RB, AR, MC, JZ, OY
  
 AI: for JM to have a go at adding the data transformation visualization process, using the form has_input data and has_output graph report
 *Jie has started working on OBI release and running into some problems. 
-AI: MC to help Jie with some release process issues
+AI: MC and AR to help Jie with some release process issues
 * DIscussion on MIREOT of terms with regard to whether to just bring in the term, its parent, or up to the root. For example, does PATO:dead belong directly under 'quality' or under 'monadic quality of continuant'? Agreed that it is better to at least bring in parent so that term can be placed better in OBI but current script just brings in term and would take some effort to fix. Oliver has developed a site with input from Melanie and Alan that solves this problem (see OntoFox at http://ontofox.hegroup.org/). 
 AI: Jie will try OntoFox for MIREOT of PATO terms into OBI.
 
