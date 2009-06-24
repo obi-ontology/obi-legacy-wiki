@@ -45,11 +45,15 @@ Dev Call - chair CS
 
 '''June 24 2009'''
 Dev Call - chair SAS
-Chair did not attend so CS chaired
-
-*AI: for JM to have a go at adding the data transformation visualization process, using the form has_input data and has_output graph report
-*AI: MC to help Jie with some release process issues
-
+Chair did not attend so JM and CS chaired
+Present: JM, CS, RB, AR, MC, JZ, OY
+*Discussion on linking data to its visualization as a report graph. In general, it was agreed that some data is input to some data visualization process where some report graph is output. Issue is with how to specify types of report graphs such as dot plots. One option based on earlier discussions (at the F2F workshop) are to create a specific process such as dot plot visualization with output dot plot - so create a visualization process for each type of report graph. The other option is to just use a general process and use something like description logic safe rules that are under development. The consensus was that DL safe rules are not mature enough yet and we should stick with the first option that we all understand. 
+ 
+AI: for JM to have a go at adding the data transformation visualization process, using the form has_input data and has_output graph report
+*Jie has started working on OBI release and running into some problems. 
+AI: MC to help Jie with some release process issues
+* DIscussion on MIREOT of terms with regard to whether to just bring in the term, its parent, or up to the root. For example, does PATO:dead belong directly under 'quality' or under 'monadic quality of continuant'? Agreed that it is better to at least bring in parent so that term can be placed better in OBI but current script just brings in term and would take some effort to fix. Oliver has developed a site with input from Melanie and Alan that solves this problem (see OntoFox at http://ontofox.hegroup.org/). 
+AI: Jie will try OntoFox for MIREOT of PATO terms into OBI.
 
 '''June 17 2009'''
 Dev Call - chair JM
