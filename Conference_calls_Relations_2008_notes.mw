@@ -1,0 +1,244 @@
+== 09-12-2998 ==
+
+Call cancelled 
+
+== November the 25th ==
+
+    * Please comment on agenda items add any new items to the bottom of the list 
+
+[edit] Agenda Items
+
+1/Please add your names as editors on the Relations home page
+
+
+2/ Outstanding actions to be closed
+
+
+    * submitted by the investigation branch 
+
+2.1/
+
+    * process "executes" realizableenduringentity
+    * study "executes" study_design 
+
+   1. A similar relation will be added to the OBO Relation Ontology very soon. 
+
+    * studydesign "isexecuted_by" study 
+
+   1. This is not true. There are many study designs which are never executed. Remember the rule (from http://genomebiology.com/2005/6/5/R46) is that A R B means: every instance of A stands in R to some instance of B 
+
+Action: closed - executed is a synonym of realizes
+
+
+2.2/
+
+    * studydesign "hasfactor" owl:Thing 
+
+   1. A good biomedical ontology should be independent of any given computer realization; this is because computer programming languages and ontology representation languages change, and it should not be necessary to revamp the ontology every time such changes are made.
+   2. 'owl:Thing' is an artifact of a certain computer language. It is out of place in a biomedical ontology. There were study designs for many decades before there were entities properly designated by 'owl:Thing', and there will likely be study designs for many millennia long after OWL has fallen into disrepair.
+   3. Biologists should be able to use a well-structured biomedical ontology without needing to learn OWL (or any other computational idiom). 
+
+    * owl:Thing "isfactorin" study_design 
+
+Action: closed. There is an open tracker item on the role branch for experimental factor when it is determined what a factor is, the request for a relation can be re-submitted.
+
+
+2.3/
+[edit] Biomaterial branch
+
+    * relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
+    * indicate that the characteristic of the biomaterial is a factor of the investigation 
+
+Action: closed. This is vague. A request has been made to the biomaterial branch to see if this is still relevant and if so to submit a tracker item for it.
+
+
+2.4/
+[edit] Protocol Application branch
+
+    * has_input - subclass of has_participant 
+
+   1. Domain: protocol_application
+   2. Range: has_role input_role
+   3. Inverse: is_input_for 
+
+    * has_output - subclass of has_participant 
+
+   1. Domain: protocol_application
+   2. Range: has_role output_role
+   3. Inverse: is_output_for 
+
+    * utilizes_reagent - subclass of has_participant 
+
+   1. Domain: Process
+   2. Range: continuant and has_role reagent_role
+   3. Inverse: is_reagent_in 
+
+    * utilizes_instrument - subclass of has_participant 
+
+   1. Domain: Process
+   2. Range: instrument
+   3. Inverse: is_instrument_for 
+
+    * is_proxy_for 
+
+   1. Domain: information_content_entity
+   2. Range: quality
+   3. Inverse: is_represented_by
+   4. Example: The A260/A280 of a nucleic acid sample is_proxy_for its level of purity. 
+
+    * has_role 
+
+   1. Domain: Thing
+   2. Range: role 
+
+Action: closed: All these relations have been added, although there domain and ranges are slightly different.
+
+
+3/ Definition of has_specfied_input/output as per tracker discussion.
+
+
+4/Definition of is_concretization_of The following definition has been proposed via the issue tracker
+
+is_concretization_of relates a generically dependent continuant to a
+specifically dependent continuant. A generically dependent continuant may
+inhere in more than one entity. It does so by virtue of the fact that there
+is, for each entity that it inheres, a specifically dependent
+*concretization* of the generically dependent continuant that is
+specifically dependent. For instance, consider a story, which is an
+information artifact that inheres in some number of books. Each book bears
+some quality that carries the story. The relation between this quality and
+the generically dependent continuant is that the former is the
+concretization of the latter.
+
+Definition source: Alan channeling Barry.
+
+
+5/The definition of inputs/outputs data. From the tracker discussion here. With functions to be added instead consumes data, generates data.
+
+    * Because information can not play roles, to indicate that a process has an input of data and an output of data the relations inputs_specified_data and outputs_specified_data have been created. 
+
+== November 14th 2008 ==
+
+Agenda
+
+Goal is to try and check on current status of the relations branch and have a roadmap for improvement
+
+HouseKeeping
+
+    * Welcome to everyone to the resumption of the relations branch calls
+    * We have a new Lead Editor. Frank will be taking over from Liju
+    * Can everyone please send their skype ID to Frank (f.gibson)
+    * Suggestion to move the wiki content of the Relations branch to the new wiki, to be done by Frank if agreed.
+    * The possibility of re-arrange the relations call time, from Friday afternoon. The possible options are:
+          o Monday 4pm GMT
+          o Tuesday 5pm GMT 
+
+
+Issues
+
+Review the proposals circulated by Melanie on the mailing list - Acceptance of these proposals will have a (positive) impact on the numbered issues below.
+
+In addition to the specifics detailed below, those would also get the following annotations:
+
+- curation status "ready for release"
+- definition editor PERSON: Chris Mungall
+- definition editor GROUP:OBI:<http://obi.sourceforge.net>
+- a preferred term duplicating the rdfs:label
+
+'''1. inheres_in'''
+domain: dependent continuant
+range: independent continuant
+
+'''2. addition of inverse relation of inheres_in: bearer_of'''
+
+def: "A relation between an entity and a dependent continuant; the reciprocal relation of inheres_in" [GOC:cjm]
+example of usage: red eye bearer_of redness
+
+domain: independent continuant
+range: dependent continuant
+
+would be added as super property for has_quality, has_function, has_role
+
+'''3. update has_quality (OBI_0000298)'''
+def: "A relation between an entity and a quality. For types: E has_quality Q iff: 
+for any eEt, exists qQt such that q inheres_in e at t. 
+For instances: e has_quality q at t iff q inheres_in e at t and q instance-of Quality" [GOC:cjm]
+is_a: OBO_REL:bearer_of
+
+'''4. update has_function (OBI_0000306)'''
+
+def: "Relation between an independent continuant and a function." [GOC:cjm]
+is_a: OBO_REL:bearer_of
+example of usage: heart has_function to-pump-blood
+
+5. update has_role (OBI_0000316)
+def: "A relation between a continuant C and a role R. The reciprocal relation of role_of." [GOC:cjm]
+is_a: OBO_REL:bearer_of
+
+'''6. update is_realization_of (OBI_0000308)'''
+
+would be renamed  "realizes"  with proposed synonyms below
+
+id: OBO_REL:realizes
+alt_id: OBO_REL:0000034
+name: realizes
+def: "Relation between a process and a function, where the unfolding of the 
+process requires the execution of the function. Class level: P realizes F iff: 
+given any p that instantiates P, there exists some f, t such that f instantiates
+ F at t and p *realizes* f. Here, *realizes* is the primitive 
+instance level relation" [GOC:cjm]
+synonym: "executes" RELATED []
+synonym: "involves_execution_of" RELATED []
+synonym: "is_realization_of" EXACT []
+synonym: "has_function_part" EXACT []
+example of usage: The process of 'histidine catabolism' (GO:0006548) realizes the 
+function 'histidine ammonia lyase activity' (GO:0004397) (note: here 'activity' 
+denotes a function and not a process). We leave open the possibility of defining 
+in future the sub-relations directly_realizes (as bewteen a function and it's 
+functioning) and indirectly_realizes.
+
+'''7. update is_realized_as (inverse of is_realization_of above) (OBI_0000300)'''
+
+would be renamed "realized_by" with proposed synonyms below
+
+id: OBO_REL:realized_by
+alt_id: OBO_REL:realized_as
+alt_id: OBO_REL:0000035
+name: realized_by
+def: "Relation between a realizable and a process. Reciprocal relation of realizes" [GOC:cjm]
+synonym: "executed_during" RELATED []
+synonym: "has_realization" EXACT []
+
+
+
+
+I/ inverse relation of has_role which has been added to the OBI file as "role is borne by, inverse of OBI_0000316"
+
+   1. In order to defined roles and functions each must have a bearer and be borne by an independent continuant and realized during a process. To achieve this we need the following has bearer relations which are children of the has_participant relation.
+   2. [DS:These role issues are discussed in Michael Dumontiers 'Roles'paper
+   3. [MC:I think we should consider Robert and Barry's paper Funtion, Role and Disposition in BFO
+   4. For some reason the relation inheres_in is marked as having an alternative term has_bearer
+   5. This format could be suitable for qualities. However the range of has_bearer would need to be adjusted as a quality is not a realizable entity. 
+
+Option 1:
+*has_bearer <-> is_bearer_of [domain = independent continuant, range = realizable entity]
+**(child) has_role <-> is_role_of [domain = independent continuant, range = role]
+**(child) has_function <-> is_function_of [domain = independent continuant, range = function]
+
+The alternative is
+
+Option 2:
+*has_bearer <-> is_bearer_of [domain = independent continuant, range = realizable entity]
+**(child) has_role_bearer <-> is_bearer_of_role [domain = independent continuant, range = role]
+**(child) has_function_bearer <-> is_bearer_of_function [domain = independent continuant, range = function]
+
+   1. In order to defined roles and functions each must have a bearer and be born by an independent continuant and realized during a process. To achieve this we need the following has bearer relations which are children of the has_participant relation.
+   2. Currently in OBI we have the relation is_realization_of <-> is_realized_as. The inverse of this relation should be is_realized_BY rather than _AS. This is because the realization occurs in or by the realization of a process. Entities such as functions and roles are realized during a process. Realizable entities are participants of a process. Therefore, the relation should be a sub-property of has_participant 
+
+has_participant
+-(child) is_realization_of <-> is_realized_by
+
+III/ has_input and has_output: domain and range are Objective driven process: everything that has_input or has_output is inferred to be an ODP. Proposal from Bjoern to rename those as has_intended_input and has_intended_output. However, there is an alternative proposal from Frank to name the objective_driven_input and objective_driven_output. However, Frank does not believe this should be in as a relation at all, instead we should have the relation is output, which can refer to any output. Then an instance of a output can be described as being objective_driven or not. Currently all this information is being hidden from the reasoner and processes are being classified as objective_driven if they have an output and no objective - this surely is a mistake.
+
+processX
+has_output some (material and (has_role some objective_driven))
