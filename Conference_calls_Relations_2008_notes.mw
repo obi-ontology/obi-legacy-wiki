@@ -4,7 +4,7 @@ Call cancelled
 
 == November the 25th ==
 
-    * Please comment on agenda items add any new items to the bottom of the list 
+* Please comment on agenda items add any new items to the bottom of the list 
 
 [edit] Agenda Items
 
@@ -14,40 +14,39 @@ Call cancelled
 2/ Outstanding actions to be closed
 
 
-    * submitted by the investigation branch 
+* submitted by the investigation branch 
 
 2.1/
 
-    * process "executes" realizableenduringentity
-    * study "executes" study_design 
+* process "executes" realizableenduringentity
+* study "executes" study_design 
 
-   1. A similar relation will be added to the OBO Relation Ontology very soon. 
+1. A similar relation will be added to the OBO Relation Ontology very soon. 
 
-    * studydesign "isexecuted_by" study 
+* studydesign "isexecuted_by" study 
 
-   1. This is not true. There are many study designs which are never executed. Remember the rule (from http://genomebiology.com/2005/6/5/R46) is that A R B means: every instance of A stands in R to some instance of B 
+1. This is not true. There are many study designs which are never executed. Remember the rule (from http://genomebiology.com/2005/6/5/R46) is that A R B means: every instance of A stands in R to some instance of B 
 
 Action: closed - executed is a synonym of realizes
 
 
 2.2/
 
-    * studydesign "hasfactor" owl:Thing 
+* studydesign "hasfactor" owl:Thing 
 
-   1. A good biomedical ontology should be independent of any given computer realization; this is because computer programming languages and ontology representation languages change, and it should not be necessary to revamp the ontology every time such changes are made.
-   2. 'owl:Thing' is an artifact of a certain computer language. It is out of place in a biomedical ontology. There were study designs for many decades before there were entities properly designated by 'owl:Thing', and there will likely be study designs for many millennia long after OWL has fallen into disrepair.
-   3. Biologists should be able to use a well-structured biomedical ontology without needing to learn OWL (or any other computational idiom). 
+1. A good biomedical ontology should be independent of any given computer realization; this is because computer programming languages and ontology representation languages change, and it should not be necessary to revamp the ontology every time such changes are made.
+2. 'owl:Thing' is an artifact of a certain computer language. It is out of place in a biomedical ontology. There were study designs for many decades before there were entities properly designated by 'owl:Thing', and there will likely be study designs for many millennia long after OWL has fallen into disrepair.
+3. Biologists should be able to use a well-structured biomedical ontology without needing to learn OWL (or any other computational idiom). 
 
-    * owl:Thing "isfactorin" study_design 
+* owl:Thing "isfactorin" study_design 
 
 Action: closed. There is an open tracker item on the role branch for experimental factor when it is determined what a factor is, the request for a relation can be re-submitted.
 
 
 2.3/
 [edit] Biomaterial branch
-
-    * relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
-    * indicate that the characteristic of the biomaterial is a factor of the investigation 
+* relationships between biomaterials to indicate a change has taken place, e.g. from starting material to the material after some process has been performed on the biomaterial
+* indicate that the characteristic of the biomaterial is a factor of the investigation 
 
 Action: closed. This is vague. A request has been made to the biomaterial branch to see if this is still relevant and if so to submit a tracker item for it.
 
@@ -55,41 +54,40 @@ Action: closed. This is vague. A request has been made to the biomaterial branch
 2.4/
 [edit] Protocol Application branch
 
-    * has_input - subclass of has_participant 
+* has_input - subclass of has_participant 
+1. Domain: protocol_application
+2. Range: has_role input_role
+3. Inverse: is_input_for 
 
-   1. Domain: protocol_application
-   2. Range: has_role input_role
-   3. Inverse: is_input_for 
+* has_output - subclass of has_participant 
 
-    * has_output - subclass of has_participant 
+1. Domain: protocol_application
+2. Range: has_role output_role
+3. Inverse: is_output_for 
 
-   1. Domain: protocol_application
-   2. Range: has_role output_role
-   3. Inverse: is_output_for 
+* utilizes_reagent - subclass of has_participant 
 
-    * utilizes_reagent - subclass of has_participant 
+1. Domain: Process
+2. Range: continuant and has_role reagent_role
+3. Inverse: is_reagent_in 
 
-   1. Domain: Process
-   2. Range: continuant and has_role reagent_role
-   3. Inverse: is_reagent_in 
+* utilizes_instrument - subclass of has_participant 
 
-    * utilizes_instrument - subclass of has_participant 
+1. Domain: Process
+2. Range: instrument
+3. Inverse: is_instrument_for 
 
-   1. Domain: Process
-   2. Range: instrument
-   3. Inverse: is_instrument_for 
+* is_proxy_for 
 
-    * is_proxy_for 
+1. Domain: information_content_entity
+2. Range: quality
+3. Inverse: is_represented_by
+4. Example: The A260/A280 of a nucleic acid sample is_proxy_for its level of purity. 
 
-   1. Domain: information_content_entity
-   2. Range: quality
-   3. Inverse: is_represented_by
-   4. Example: The A260/A280 of a nucleic acid sample is_proxy_for its level of purity. 
+* has_role 
 
-    * has_role 
-
-   1. Domain: Thing
-   2. Range: role 
+1. Domain: Thing
+2. Range: role 
 
 Action: closed: All these relations have been added, although there domain and ranges are slightly different.
 
@@ -115,7 +113,7 @@ Definition source: Alan channeling Barry.
 
 5/The definition of inputs/outputs data. From the tracker discussion here. With functions to be added instead consumes data, generates data.
 
-    * Because information can not play roles, to indicate that a process has an input of data and an output of data the relations inputs_specified_data and outputs_specified_data have been created. 
+* Because information can not play roles, to indicate that a process has an input of data and an output of data the relations inputs_specified_data and outputs_specified_data have been created.
 
 == November 14th 2008 ==
 
