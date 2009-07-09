@@ -1,0 +1,276 @@
+== May the 12th ==
+
+1. f2f meeting at EBI - a report from the branch
+
+2. relations at the Bio-SIG paper: keep utilizes device?
+
+3. how to attract participants?
+
+== April the 28th ==
+
+== Agenda Items ==
+
+review opened items:
+
+1. runs_software - to close
+
+Software has been included into IAO. Now: device is_bearer_of software, when the device is turn on/in the device realises the software.
+
+2. specified input / output - need to include definition and examples
+
+definition from f2f Vancouver meeting:
+A relation between a process and a participant present at the beginning of that process. The process is the realization of a concretization of a realizable information entity (objective specification or plan specification). The continuant realizes specified_Input_Role for that process. In general, not all participants present at the beginning of the process are specified_inputs.  
+
+from sf:
+processes that have specified inputs or outputs are realizations of
+concretized specifications. That makes them planned processes, which should
+be the domain of these relations.
+
+3. performed_by/acts_as  - lower the priority?
+
+from sf: An other scientific use case could be the therapeutic role borne by a drug,
+this drug acting as poison in a certain context.
+"drug X has_role treatment_role and acts_as poison (in a process where the
+concentration of X is too high for example)"
+
+But drug is a role. Is it allowed within BFO for roles to have roles?
+
+4. has_model
+What is the current state in IAO? specifically_denotes? has_identifier?
+
+5. has_feature 
+from sf: We need a relation linking a data transformation to a feature, for example
+a mathematical transformation has_feature number_of_variable.
+
+James already added a datatype property has_feature_value.
+
+The domain of has_feature will probably need to be wider than data
+transformation, maybe occurrent?
+
+
+How it is different from has_quality?
+
+6.  has_parameter, has_instrument_setting 
+
+
+We require the relation has parameter. A parameter is a value/information
+that defines certain characteristics of systems or mathmatical functions.
+
+We also require the relation instrument_setting which is a
+value/information that defines certain characteristics of an instrument,
+e.g rpm setting for a centrifuge instrument.
+
+Domain:instrument
+Range: some IAO subclass
+
+Editor-preferred name:
+has_parameter <-> is_parameter_of
+
+Subrelation:
+has_instrument_setting <-> is_instrument_setting_of
+
+
+== March the 31st ==
+
+
+science commons
+Editing RB 31 03 2009
+Bold textItalic textInternal linkExternal link (remember http:// prefix)Level 2 headlineEmbedded fileFile linkMathematical formula (LaTeX)Ignore wiki formattingYour signature with timestampHorizontal line (use sparingly)Bold textItalic textInternal linkExternal link (remember http:// prefix)Level 2 headlineEmbedded fileFile linkMathematical formula (LaTeX)Ignore wiki formattingYour signature with timestampHorizontal line (use sparingly)
+== Agenda Items == 1. the relation branch section for the manuscript 2. review the opened tracker items: we currently have 13 items open 3. do we need a call on the 14th? Is it still Easter? (I shall be traveling from Scotland and can not make it in any case). Or maybe on the 7th? the minutes from the call attended: MC, AR, LS, FG (at the beginning) == Actions == - LS: update the relation branch section following to AR suggestions (see google docs). Include the description and examples of the relations if it is required by other sections of the manuscript (we cannot decide it yet, wait till other sections are submitted, discuss it at the devel call tomorrow). - Revise opened items. Frank has closed 6 items out of 13 ones. - AR will add examples for the relation is_concretization_of. - The relation results_from is deprecated as decided at Vancouver f2f meeting, Feb.2009. Note: consider such entities (which are results from) as specified_output of process - Check other opened items and discuss them at the next call [[Category:Conference calls]] [[category:2009]] [[category:Relations]] [It's All Text!]
+
+Please note that all contributions to OBI Ontology are considered to be released under the Attribution 3.0 Unported (see OBI_Ontology:Copyrights for details). If you don't want your writing to be edited mercilessly and redistributed at will, then don't submit it here.
+You are also promising us that you wrote this yourself, or copied it from a public domain or similar free resource. DO NOT SUBMIT COPYRIGHTED WORK WITHOUT PERMISSION!
+Summary:
+
+ This is a minor edit  Watch this page
+Cancel | Editing help (opens in new window)
+Retrieved from "http://obi-ontology.org/page/RB_31_03_2009"
+Search
+OBI
+
+    * Home
+    * Introduction
+    * OBI Consortium
+    * Design Process
+    * Terms
+    * Branches
+    * Download
+
+Documents
+
+    * Tutorials
+    * Publications
+    * Technical Reports
+    * Browse OBI
+
+Contribute
+
+    * Quick ID
+    * Become a Developer
+    * Contact us
+
+Related Groups
+
+    * OBO Foundry
+    * Neurocommons
+
+Developers
+
+    * Home
+    * Mailing Lists
+    * Repository
+    * Agenda/Calendar
+    * WIKI help
+    * Issue Tracker
+    * Recent Pages
+    * All Pages
+
+Tools
+
+    * What links here
+    * Related changes
+    * Upload file
+    * Special pages
+
+This page
+
+    * Edit
+    * Page
+    * Discussion
+    * History
+    * Delete
+    * Move
+    * Protect
+    * Watch
+
+Me
+
+Dirk Derom
+My talk
+My preferences
+My watchlist
+My contributions
+Log out
+About OBI Ontology
+Creative Commons License
+Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 3.0 License
+
+
+== January the 20th ==
+
+== Relations branch call January the 20th ==
+
+*Please comment on agenda items. Add any new items to the '''end''' of the list. 
+
+== Agenda Items ==
+
+'''1/  We require the relation has parameter'''. A parameter is a value/information that defines certain characteristics of systems or mathmatical functions.
+
+
+'''2/ device_setting '''
+#We also require the relation device_setting which is a value/information that defines certain characteristics of a device.
+<pre>
+*has_parameter <-> is_parameter_of
+**(child) has_device_setting <-> is_device_setting_of
+</pre>
+<br>
+
+'''3/Proposal for the relation identifies<->identified by'''
+
+We need to be able to link artifact_objects to information about that
+object. For example, product information - batch number, lot number,
+catalogue number, devices - model number serial number etc.
+
+In order to do this the identifies<->identified_by relation has been
+proposed which is a relation between an artifact object and an
+information entity which aims to establish identity of the artifact
+object.
+
+*A similar relation has_label has been proposed by IAO.
+
+
+
+
+'''4/ The inclusion of the vector relation''' as per [https://sourceforge.net/tracker/index.php?func=detail&aid=2078795&group_id=177891&atid=886178 discussion], as a child of has_participant
+
+<pre>
+*has_participant
+**(child) has_vector <-> is_vector_of [domain = material entity, range = material entity]
+</pre>
+
+
+'''5/ The inclusion of the habitat relation''' to determine if a material entity is an environment
+<pre>
+*has_participant
+**(child) has_habitat <-> is_habitat_of [domain = organism, range = material entity]
+</pre>
+
+'''6/ relations located_in/occurs_in''' to link a process to its occurring site
+<br><br>
+<br>
+
+'''7/ update domain and ranges of existing relations'''
+
+'''8/ Inclusion and definition of the relation has_duration
+<pre>
+* has_duration 
+Domain: occurant
+Range: temporal_interval
+</pre>
+
+
+'''9/ What is the purpose of the has_objective relation?'''
+
+
+'''10/ Top level relationship '''
+
+Larisa has proposed the inclusion of a top relation, something like "related_to" and has posed the following arguments for.
+*it will not change anything in the current ontology;
+*it would be very useful for the users: if they are not sure which relation to use, they can use this one and replace it in future to a more appropriate relation;
+*it is important for logic inference, you can ask more questions about relations between classes, like are these classes related (by any way); or find all related classes to this one;
+*it would be also helpful for text mining applications. It is hard to detect in free text specific relations, but it is easier to work with more generic relations, and even "related_to" would give a lot of information.
+
+
+Currently in RO there seems to be a  _top_level_ relation called relationship - with no inverse. This does not seem to be defined in the ro.owl. However in the OBO file there is the following
+
+<pre>
+id: OBO_REL:relationship
+name: relationship
+def: "A relationship between two classes (terms). Relationships between classes are expressed 
+in terms of relations on underlying instances."
+</pre>
+*Ideally we would want this to be corrected at the ro.owl level.
+
+
+'''11/Terms from flow cytometry community'''
+* https://wiki.cbil.upenn.edu/obiwiki.old/uploads/Relations-FlowCytometry-2007-03-30.txt
+
+'''12/The relations depreciation policy needs to be drafted and approved'''
+
+[[Category:Conference calls]]
+[[category:2009]]
+[[category:Relations]]
+
+== January the 06th ==
+
+*Please comment on agenda items. Add any new items to the '''end''' of the list. 
+
+== Agenda Items ==
+'''1/ ''' Proposal to rename outputs_specified_data and inputs_specified_data to has_output/input_specified_data to be consistent with has_specified_input/ouput
+*Addition of their inverse relations (needed by DT branch to represent data is_output_specified_data from process)
+
+Action: completed
+
+
+'''2/ has_vendor/provider/supplier'''
+*http://sourceforge.net/tracker/index.php?func=detail&aid=2310029&group_id=177891&atid=886178
+
+The Biomaterial and Instrument branch need a relation between an independant continuant and its provider/vendor/supplier. This is not the same as the manufactured_by relation. Organisations that are manufactures can also be suppliers. Organisations that are suppliers are not always manufacturers.
+
+Currently, these organizations are instances of the organization class in the Biomaterial branch.
+
+Action: completed
+
+[[Category:Conference calls]]
+[[category:2009]]
+[[category:Relations]]
