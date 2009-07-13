@@ -13,21 +13,41 @@ All the categories can be found [[Category_Tree | here]].
 
 == How to create a new page (Namespaces) ==
 
-(in progress)
+To keep the wiki clean, we recommend to use the following logic when creating a new page:
 
-Creating a page:
-* '''Capitals for the first word, lowercase for the second''' and subsequent words: (e.g. 'Conference_call_developers' and not 'Conference_Call_Developers')
-* '''Start 'general', end specific ''' (e.g. 'Conference_call_developers and not 'developers_conference_call)
-* '''Add the category it belongs to'''. You can check [[Special:Categories | this page]] for all categories we currently have
-* '''If it's specific event, add the datum at the end''' (e.g. Workshop_notes_2008_july_9 or Woekshop_notes_2008_july_9-12 and not 2008_Workshop_notes nor Notes_workshop_2008_winter). 
-* '''Add category if known'''
+
+* '''Start 'general', end specific''' 
+: To avoid pages/namespaces such as '13July' which could mean anything from a note of a conference call to the agenda of a workshop on the 13th, you should start of general and end your namespace with the most specific element. In the case of a workshop this means that you start of with 'Workshop OBI' followed by the place of the workshop (e.g. Vancouver'), the year (e.g. 2008)...
+
+
+: Example 1: Conference_call_developers (and not developers_conference_call)
+: Example 2: Workshop_OBI_Vancouver_2009_13_July_notes
+: Example 2: Workshop_OBI_Vancouver_2009_13_July_agenda
+
+* '''Add the category'''
+:Categories are used to organize and structure the wiki. It e.g. allows you to navigate to the category 'Workshops' and get an overview of all the 'workshop pages' on the wiki. The only thing you need to do is add the appropriate category to the page using the following syntax:
+: <pre>[[category:CategoryX]]  [[category:AnotherX]] [[category:Example 3]]</pre>
+: You can add it to the bottom or top, but for consistency reasons add it to the bottom of the page. 
+
+:To see what kind of categories we have, check [[Special:Categories | this page]]. If you feel like creating another category, feel free to do so but do notify those who keep an eye on the wiki. 
+
+* '''Add the datum''' 
+: Adding the datum to your namespace helps to get a quick overview of the actual pages in the the [[Special:Allpages | special pages]]. Add the datum if it's related to a:
+:: - Workshop (notes of the workshop_OBI_Zimbabwe_2071_August_4)
+:: - Conference call (when there is a need for a page e.g.: conference_calls_developers_2054)
+ 
+: Example 1: Workshop_notes_2008_july_9 (and not 2008_Workshop_notes or Notes_workshop_2008_winter)
+: Example 2: workshop_OBI_Zimbabwe_2071_August_4
+: Example 3: conference_calls_developers_2054
+
 * '''Do we really need another page for this?'''
+: When you create a page, then do so if it's really needed. One can easily add notes of regular events (such as conference calls) to a page 'conference calls developers 2009 instead of creating a separate page for notes of that event (e.g. don't create 'notes_23_August').
 
-Editing a page:
 * '''Comment in the 'Summary' field''' or check 'minor edit'
+: When you edit a page, it's always good to add some comment. These comments make it easier to keep an overview on what the new edits are (and which ones need to be edited to keep the wiki clean).
 
 
-Additional resources: 
+If you want some additional resources, check: 
 * [http://en.wikipedia.org/wiki/How_to_edit Editing pages]
 * [http://en.wikipedia.org/wiki/Wikipedia:Naming_conventions Creating pages]
 
