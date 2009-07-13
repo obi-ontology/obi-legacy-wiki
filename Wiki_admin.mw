@@ -11,6 +11,12 @@ All the categories can be found [[Category_Tree | here]].
 
 = Using the wiki =
 
+This wiki uses the wiki editing rules, but has some custom guidinglines for 
+: - creating new pages
+: - creating diagrams
+: - creating tables
+
+
 == How to create a new page (Namespaces) ==
 
 To keep the wiki clean, we recommend to use the following logic when creating a new page:
@@ -66,9 +72,7 @@ To allow for a consistent styling of tables, we created a class in the main.css 
 (in progress).
 
 For a more detailed overview on how to use tables, see [[http://en.wikipedia.org/wiki/Help:Table this wikipedia page]].
-
-
-
+[http://www.example.com link title]
 
 = Progress =
 
