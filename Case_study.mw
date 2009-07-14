@@ -1,13 +1,11 @@
 [[category:OBI general]]
-
+== Case Studies ==
 A [http://en.wikipedia.org/wiki/Case_study case study] is a description of a scenario that you would like OBI to represent. For example the description of a particular scientific experiment. A case study can be a textual description or represented more formally. The following is a list of case studies that have been submitted for representation within OBI. A case study is not the same as a [[Use_case| use case]]. A use case shows how OBI can be used for a particular application. Each case study has its own page.
 
 A [http://en.wikipedia.org/wiki/Use_case use case] demonstrates how OBI can be used for a particular application. It demonstrates the use of OBI. A use case is not the same as a [[Case_study |case study]]. Each use case is listed below and forms a separate page.
 
 Previous wiki Case Studies can be found here: [[old_case_studies]]
 
-
-==Before you start==
 ===Phase 1 Evaluation Submission Page===
 
 Please add any submissions to the appropriate sections below and leave your name and a contact email if this is convenient.  Alternatively please email James Malone: malone at ebi.ac.uk
