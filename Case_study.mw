@@ -6,7 +6,9 @@ A [http://en.wikipedia.org/wiki/Use_case use case] demonstrates how OBI can be u
 
 Previous wiki Case Studies can be found here: [[old_case_studies]]
 
-==Phase 1 Evaluation Submission Page==
+
+==Before you start==
+===Phase 1 Evaluation Submission Page===
 
 Please add any submissions to the appropriate sections below and leave your name and a contact email if this is convenient.  Alternatively please email James Malone: malone at ebi.ac.uk
 
@@ -20,14 +22,16 @@ For guidelines see the document here.
 [[Evaluation SOP]]
 
 
-===Case Study 0001===
+==Case Study 0001==
 
 We wish to annotate an experiment performed as part of an investigation in which the effects of a particular amino acid substitution in the PB1-F2 protein of influenza virus is being evaluated. Although the investigators consider the experiment in question to be one experiment, several discrete steps of sample processing, assaying and data analysis are involved as listed below.  We would like to annotate the experiment in such a way as to allow the ability to recognize other experiments that use some of the same sub-process steps.
 
 This case study was submitted by Richard Scheuermann, Jan 2008 and the full description of the case study can be found [[Case_study_0001| here]].
 
 
-=== Decision processing in the Caudate Nucleus ===
+== Decision processing in the Caudate Nucleus ==
+
+Submitted: 15-07-2009
 
 This case study would like to annotate a cognitive neuroscience experiment, where a 'top-down/bias' effect is found in the caudate nucleus using single unit recordings in 2 adult male monkeys. 
 
