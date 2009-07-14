@@ -1,0 +1,50 @@
+The Qualities Branch is a conduit for OBI to submit terms to PATO.
+
+== Submitting terms for inclusion in OBI under Quality==
+
+Types of Quality in OBI will be drawn from the Phenotypic Quality Ontology (AKA PATO). Therefore, terms for OBI under this branch should be directly submitted to the PATO Tracker. http://sourceforge.net/tracker/?group_id=76834&atid=595654
+
+==Mail list==
+
+For discussion of terms, please use the OBO-Phenotype mail list
+https://lists.sourceforge.net/lists/listinfo/obo-phenotype
+
+==Valid terms for submission to the tracker==
+
+Any term can of course be submitted. However, to give a sense as to what feedback might be obtainbed, we present an analysis of terms in the file, Qualities-~FlowCytometry-2007-03-30.txt (available below).
+
+The only one that seems appropriate would be:
+PATO:0000018 fluorescence (which we have, obviously)
+although the definition you provide is actually for a process, and is better covered by:
+REX:0000043 fluorescence DEF: "Luminescence which occurs essentially only during the irradiation of a substance by electromagnetic radiation."
+
+There is a similar correspondence between the flow-cyt proposed "apoptosis" and
+GO:0006915 apoptosis
+PATO:0000638 apoptotic
+
+Likewise:
+necrosis: necrotic is in PATO: id: PATO:0000647
+
+And a phenotype is just an aggregate of qualities and dispositions inhering in an organism
+(might want to propose a BFO term, ~QualtiyAggregate to capture this entity?)
+
+genotype: this is also a class in the MGED Ontology and has been proposed to go to the Biomaterial branch.
+
+instrument_type: the instrument class in OBI covers types of instruments so I don't think this is needed.
+
+location: I don't think we have a branch for this but presumably fall under BFO class site.
+
+sample_type: this is covered by sample in the same way that instrument captures instrument type. should be covered by biomaterial
+
+taxon: there are two interpretations. One is where to put nomenclature such as taxon, genus, kingdom, etc.
+The other is where to put Mus musculus, Homo sapiens, etc. I'm guessing it's the latter based on the example.
+This is being addressed through organism under biomaterial.
+
+==For more information:==
+
+Contact either Chris Mungall or Chris Stoeckert
+
+==Community Term lists that have been submitted:==
+
+* Tab delimited file with terms from flow cytometry: Upload:Qualities-FlowCytometry-2007-03-30.txt
+* [[Image:DigitalEntityTerms-aug9.pdf]]
