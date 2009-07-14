@@ -1,4 +1,5 @@
-== July 18 2007. ==
+== July 18 2007 ==
+
 Attending: Jennifer F, Bjoern P, Gilberto F, Tina B, Bill B, Chris S. (note: call in number from the UK had changed without notice preventing others from calling in.
 Aim - resolving items where no conclusion was reached at the Bethesda workshop
 Discussion:
@@ -7,8 +8,163 @@ NSF proposal due end of August. Alan R (not on the call) had raised at the OBI w
 AA1. Bill B. will start a wiki page for the artefact/ intrument/ biomaterial discussion
 AA2. Bjoern P. will circulate a draft document for the NSF application to nail down PIs and institutions involved.
 
+== 6 June 2007 ==
+
+Summary:
+
+Daniel presented an instrument branch summary, full discussion below:
+
+OBI dev call. Present James, Helen.
+
+Chris S, Gilberto, Liju, Helen, Mervi, Daniel,Kevin,James, Bjoern, Tina
+
+Agenda:
+
+1. Instrument branch progress to date to be reviewed
+
+Daniel sends a word document prev sent to the relations branch to the dev
+
+Status report etc has been sent to the instrument branch.
+
+Chris S. Forwards the status report to the dev list.
+
+
+Daniel sent a report - see doc sent to OBI-deb and instrument lists
+
+Min meta data is the main problem, not many people have these and limited the no of terms that could be uploaded.
+
+CS:How many more will be added?
+
+DS:~500 instrument terms potentially, need better definitions with examples. Discussion on requirement for examples as this slows thing down.
+
+OBI platform probably belongs in instrument branch. Some terms look like instances e.g. BioSorter1000 - could be modelled at the instance level. No sense to provide defs for these, but we were forced to do that anyway.
+
+HP:asking about instance level - could an instrument be an instance at the level of serial no, rather than the model
+
+CS: agree at the level of a serial no then are at an instance eg. AffyU1333. Will be cases where there are model.
+
+DS:then how would you have a definition. Do you want to provide a def for each?
+
+CS:We are now handling terms that are of local not general interest
+
+BP:We had a discussion with biomaterial. Could deal with vendor, lot not etc occur through out. E.g. cell sorter from a manufacturer - can be a defined class - no need to model at this level
+
+KC:If I had to make an instrument - how do you handle a case where something is self made
+
+GF:We need to include something that is 'unclassified' but make more specific. 'Home made instrumentatiobn etc', these would be less specific than the commercial ones.
+
+KC:gel boxes are usually self made for e.g. need to allow for this. Capture what the 'thing' was supposed to do e.g. separation via electrophoresis
+
+LF:in the homemade case could we use the parts - can pick the sub parts that they need.
+
+KC:we put together in P/A pars such as separation - instrument could perform this protocol.
+
+HP:the definitions are not useful in some cases e.g. FACS_caliber
+
+GF:question abiut generality of definitions e.g. one that uses context in the case of cell counting in milk
+
+BP:Daniels point is that doing definitions for the universals.
+
+BP:reiterate that we want to deal with selfmade stuff and the commercial ones.
+
+CS:Agree with you, all branches should be handling this way, You've described a way that makes sense.
+
+HP:artefact seems to belong to BFO, will that stay?
+
+See term list: http://spreadsheets.google.com/pub?key=pT8ShyqlllIUySkFP8biiTg
+
+DS:is a placeholder - too broad
+
+CS:should we propose as a term for BFO?
+
+LF:discussion about this - has only one subclass - we don't need this. We will see if we can make any subclass
+
+HP:another concern is that the definition is so broad that this impacts on other branches
+
+DS:likely to change this term, is a placeholder for now.
+
+Liju:can now import the OWL file.
+
+GF:Instrument has a purpose - do you use this as a dimension and what was conclusion - faciliates protocol application step?
+
+BP:we had the same thing in P/A utilizes instrument. Properties are something that we should be going through
+
+We take a look at the properties.
+
+https://wiki.cbil.upenn.edu/obiwiki/index.php/InstrumentRelations
+
+Using OWL terminology for these object properties. Range, tried to stay within OBI.
+
+BP:Some overlap with P/A should we discuss these?
+
+DS:we can discuss inverse relns to deal with these on the relns branch call
+
+LF:invite to join the call on Friday.
+
+BP:Suggest we do it now
+
+LF:we can combine with the weds call for dev?
+
+CS:depends on what else we need to do
+
+BP;is a function branch person? Bill and I were in agreement that has_function would go away as process and used for are realized in process then the functionis defined.
+
+General agreement that this a better way to define function in context.
+
+KC:We are talking about equipment - do we want to differentiate function between instrument and protocol and e.g. heart valve function. Do we want to differentiate
+
+BP:Don't know if there is a need to define at that level, Function comes from BFO.
+
+KC:equipment is included in equipment and performing expts, not much about general bio functions
+
+BFO example of function is not specifically useful for OBI
+
+BP:we are defining protocol applications and so no need for function
+
+KC:agree
+
+HP:consensus on two things then
+
+DS:This is an initial list, data input/data output
+
+HP:do you have material output/input?
+
+KC:material input/material output or consumables might be useful
+
+BP:this needs to be tied to protocol application - how the instrument is used uis determined there.
+
+DS:part of system/part of platform - depends if we capture these collections. If we want users to provide descriptions e.g. environment - can affect performances. Last user etc.
+
+Processing time was mean to capture how long it takes in a range - might be useful to capture this?
+
+KC:could be a parameter?
+
+BP:data input instead?
+
+DS:we haven't looked into time handling
+
+BP:In gen in P/A we are modelling input and output - could have e.g. input Sample, output DNA - these are required. Suggest that we model specifically what is required for an instrument and generally in terms of protocols. Replace consumes in terms of the protocol application. E.g. instrument always needs eppos, in protocols are general, instrument adds some more info about the instrument itself.
+
+KC:exmaple of instrument parts reln to each other? Example of a DNA sequencer in detail
+
+CS:Would we need this level of granularity
+
+KC:might need for a benchmarking new technology
+
+GF:seems like these are not defining relns, but relns between parts that we want to relate sometimes.
+
+KC:If took a DNA Sequencer - and use for not PCR - e.g.
+
+HP:But if you define in terms of function then this is hard to do, if you do this in p/a than can cover cases where instrument is used for a non std purpose.
+
+GF:We need to devote some time to discuss the coord call.
+
+AA: Next coord call - polish the agenda for the workshop on 13th
+
+BP:nice job for instrument branch. Virtual round of applause 
 
 ==Dev Call Minutes, 30 May, 2007 ==
+
 (AI = Action Item)
 Call Minutes:
 - Workshop start monday afternoon
