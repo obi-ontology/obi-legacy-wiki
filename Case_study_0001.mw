@@ -1,0 +1,37 @@
+Submitted by Richard Scheuermann, Jan 2008.
+
+==Case Study summary ==
+1. We wish to annotate an experiment performed as part of an investigation in which the effects of a particular amino acid substitution in the PB1-F2 protein of influenza virus is being evaluated. Although the investigators consider the experiment in question to be one experiment, several discrete steps of sample processing, assaying and data analysis are involved as listed below.  We would like to annotate the experiment in such a way as to allow the ability to recognize other experiments that use some of the same sub-process steps.
+* a. Generation of recombinant viruses using reverse genetic approaches in which recombinant plasmids are transfected into cells to produce recombinant viruses.
+* b. Generation of mutant recombinant plasmids using site-directed mutagenesis.
+* c. Infection of mice using recombinant viruses.
+* d. Preparation of a homogenate specimen from the lungs of infected mice.
+* e. Measurement of interferon gamma levels in the lung homogenate specimen by ELISA.
+* f. Measurement of influenza virus titers in the lung homogenate specimen by plaque assay.
+* g. Conversion of the primary ELISA data as measured by light absorbance into interferon gamma amounts by standard curve interpolation.
+* h. Conversion of interferon gamma amount into interferon gamma concentration with a simple algebraic  equation.
+* i. Comparison of interferon gamma concentrations in lung homogenates derived from mice infected with two types of viruses that differ at a single amino acid position of the PB1-F2 protein to determine if they are statistically different using a students t test.
+* j. Conversion of virus titers at different time following infection in lung homogenates derived from mice infected with two types of viruses that differ at a single amino acid position of the PB1-F2 protein to determine if they are statistically different using a students t test.
+* k. Comparison of Kaplan-Meier survival curves for mice infected with two types of viruses that differ at a single amino acid position of the PB1-F2 protein to determine if they are statistically different.
+https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:OBI_Use_Case.xls 
+
+https://wiki.cbil.upenn.edu/obiwiki/index.php/Image:Conenello_2007_PB1-F2.pdf
+
+2. We wish to build a database that can capture descriptions of a wide variety of different experiments being performed by investigators interested in immunology and infectious diseases such that database users have the ability to identify experiments that share user-selected common features and extract selected data derived from those experiments.  The common experiment features would include:
+* a. a common assay (e.g. flow cytometry)
+* b. a common type of assay (e.g. all assays in which protein levels are measured)
+* c. a common treatment condition (e.g. anthrax vaccine)
+* d. a common analyte evaluated (e.g. interleukin 2)
+* e. a common type of analyte evaluated (e.g. cytokines)
+* f. a common experiment type (e.g. survival experiments)
+* g. a common conditional variable (e.g. type 1 diabetes)
+* h. a common type of conditional variable (e.g. autoimmune disease)
+3. Gene Ontology annotation has proved to be a useful way of describing the function of proteins in such a way as to allow for the inference of protein relationships to be inferred through the structure of the ontology used to annotate the proteins.  We would like to develop a complementary system for describing protein relationships based on data derived from two types of biological networks, protein-protein interaction networks and gene expression correlation networks (sometimes called by the misnomer genetic interaction networks).  Different methods have been developed to describe the topological properties of these networks.  Some of the properties are related to the nodes or vertices of the graph (proteins or genes), some are related to the edges of the graph (interactions or correlations), some are related to the entire network as a whole, and some are related to sub-graphs (modules) within the network.  Since the values of these properties are dependent on the methods used, we would like to be able to annotate each of the network components with property values and the methodological details related to the property values.  Some of the properties include:
+* a. For nodes - connectivity, module membership
+* b. For edges - betweenness, weight
+* c. For networks - average connectivity, average betweenness, other distributional characteristics of these properties, size
+* d. For sub-graph modules - node membership, edge membership, density
+
+== Competency Questions ==
+
+#Is the label X contained in OBI? - The answer should either be Yes (present) No Absent
