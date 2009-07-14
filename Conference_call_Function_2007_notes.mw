@@ -1,0 +1,81 @@
+==25 June 2007==
+''Agenda''
+
+'''June 25, 2007'''
+
+''Review previous discussions & Action Items''
+* OBI Function examples
+* contacting Ingvar Johansson (http://hem.passagen.se/ijohansson/index.html) from IFOMIS re: Function in BFO
+''Upcoming OBI meeting (Bethesda, MD - July 9 - 12th, 2007)''
+* special review with OBI Role branch (possible relations, too).
+* soliciting OBI functions from other branches.
+
+
+''Attendees''
+* Helen Causton
+* Suzi Lewis
+* Alan Ruttenberg
+* Bill Bug
+''Reviewed realizable entities - and their distinctness''
+* Function/Dispostion
+* Role
+* Pending changes in BFO 1.1 to help make this more distinct
+** in specific - role will become ''social role''
+* Role vs. Function
+** reference to Ingvar's work - the idea of local vs. global functions.
+** HC: can see how Disposition as distinct from Function may help us to define a local processual context for an entity that would be distinct from a definition for the function of that entity and would be useful when annotating and searching data.
+** SL: Thought the real distinction between Function and Role relates to Function being the ''natural'' inherent action of an entity as it relates to other entities (e.g., the ''function of an antibody to bind and epitope''), as compared to Role being an artificial context in which the ''natural'' Function is exploited (e.g., the ''role of an antibody as an indicator/reporter for the presence of a molecule containing that epitope.'').
+** relation of Function to Process
+*** complicated and intricate
+*** BB: can describe function without direct reference to related process and still come up with a relevant description that can then be deconstructed to identify the related entities in which the Function inheres, the the related processes, the roles for the entities in those processes, and the qualities of some of the entities that enable them to play those roles.  Roles seem best described as the mode of participation in a process.
+*** AR:
+**** cannot describe either Function or Role without a reference to a Process.  This is one of the problems with current ontological representations of Function - you must refer to Process to create a coherent and well-realized description of Function.  Still not clear there are rules that could enable us to clearly distinguish between Function and Role.
+**** sometimes confusion re: the distinct nature of Function and Role merely relates to having an inappropriate or incomplete description of Function.  For example, if one defines ''THE'' function of a hammer is to drive nails, then one is confounded when trying to describe the use of a hammer as a murder weapon (to crack open someone's skull).  There are two problems with that:
+***** One should say ''a'' Function, not ''the'' Function - as some entities will clearly have more than one fine-grained Function
+***** AR: Could define the Function of a hammer as an energy transducer - e.g., to transfer energy between entities, concentrating its application to a very small area on the receiving entity.  This would fit for driving nails or bashing brains.
+****** SL: Clearly the issue of granualirity is very important here, and we've not had any time to discuss that.
+****** BB: The issue of granualirity is a problem in general for many applications where one seeks to put BFO to use.
+** How much of the relation between Function/Disposition and Role must be asserted in the ontology.  What ways can we use inference to enrich our representation of OBI Function
+** We all seem to agree whatever recommendations we put out on how to describe OBI Function, the important aspect of the representation of Function in OBI will be that which is driven by the physical nature (in the sense of physics) of the entities and their relations, as opposed to a social contract or interpreted description of artifical, human context.
+''OBI Bethesda Mtg (Mon - THu; 7/9 - 7/12)''
+* Function and Role Branches - joining forces
+** will schedule time at Bethesda OBI mtg (Mon or Tues - 7/9 or 7/10) - for joint OBI Role & OBI Function discussions
+** Function & Role branch both are describing dependent continuants that inhere in other continuants - those others are being worked on by other OBI Branches - e.g., biomaterial, instruments, digital artifacts, etc.
+** share our limited resources
+** define for all OBI developers:
+*** cogent and distinct definitions for OBI Roles and OBI Functions
+*** clear, fleshed-out examples for OBI Roles and OBI Functions
+* OBI Function presentation for mtg
+** list some example OBI Functions
+*** we four should review/amend/extend the list on the current OBI Function home page
+*** can we agree on how to break down OBI Function descriptions in a way that can expedite:
+**** addressing community OBI Function requirements in a way that builds off what other branches are doing
+**** that provides for coherent, consistent, and cogent rules for how to define OBI Functions in the context of OBI as a whole
+***** SL: this is critical, if we are to expect OBI Functions to be represented consistently and for those OBI entities to be applied to data annotation in a consistent manner.
+** summarize these discussions
+
+
+== TCon - 2007-05-21 ==
+* attendants:
+'''''' Alan R., Bill B. - Helen C. to attend in future; Suzi L. not available
+* reviewing articles on Function by Ingvar Johannson
+'''''' Alan and Bill discussed Ingvar's article [[ http://hem.passagen.se/ijohansson/function4.PDF | ''The Constituent Function Analysis of Functions'' |]]
+'''''' Ingvar describes how ''Functional Analysis'' of FUNCTION differs from a ''Teleological Analysis'' (''Why'' a function exists).
+'''''' When described in the context of a larger, root ''Function'', ''Constituent Functions'' parts can be described formally, even when the larger ''Function'' is is described '''subjectively'''
+* relations between BFO Function, Disposition, Role, and Process
+'''''' We discussed whether or not there is a distinctly defined difference between the various BFO ''Realizable''Entities'' - e.g., ''Function'', ''Disposition'', and ''Role_
+* AA:
+'''''' Bill will write up our discussions to be submitted to Ingvar and BFO representatives.
+
+
+== 2007-05-14 ==
+
+* attendants:
+'''''' Suzi L., Alan R., Bill B. - Helen C. to attend in future
+* important cross-branch nexus
+* relations between BFO Function, Disposition, Role, and Process
+'''''' BFO definitions for Function & Disposition problematic, complicated, and somewhat ambiguous
+* working on examples - see ''OBI Examples'' at bottom of [[ [[FunctionTerms]] | OBI Function Branch Wiki page|]]
+'''''' specify process and independent continuants, as well as relevant continuant roles and qualities
+* AA
+'''''' plan to review articles on Function by IFOMIS researcher [[ http://hem.passagen.se/ijohansson/index.html | Ingvar Johannson |]] - see Function manuscripts at foot of page
