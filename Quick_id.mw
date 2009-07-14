@@ -94,6 +94,8 @@ The Quick ID procedure is built around the obi-quick-id.owl file. It's basically
 When you start out with OBI, it is not surprising that the specific terminology is confusing. Therefore we provide a short [[#Glossary of Common Terminology|glossary of terms]] used in BFO, OBI and Quick ID. It's gives both a short description as (if applicable) where to find additional information. <br><br>
 If this document nevertheless does not answer all your questions, you can join our mailinglist for Quick ID.<br><br>
 
+The process for quickly allocating OBI ids for accepted simple cross product terms can be found [[QuickTerms-CrossProducts | here]] along with some [[QuickTerm_CrossProduct_Examples | examples]].
+
 == Submit a term to OBI ==
 
 
