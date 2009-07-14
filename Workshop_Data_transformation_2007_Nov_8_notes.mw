@@ -1,0 +1,177 @@
+Agenda for today:
+
+Thursday 8 November 2007
+------------------------
+
+Discussion of stochastic vs deterministic processes and how might fit into BFO.
+
+CC: Thinks that stochastic is epistemic and is a projection of how we regard processes not a representation of reality. We would like to classify stats in this way so this might be a problem.
+
+AI: We will raise the usage of Protege 4 at the next workshop. 
+
+AI: Melanie will get some proteomics use cases as she has worked with this data before.
+
+AI: Propose get rid of input and ouput roles as we already have properties has_input_of and has_output_of so no need to be in roles as well. MC
+
+EM: If we move to 4, we are working with an OWL file? Is this seamless?
+
+RoS: Yes for OWL.
+
+HP: The Autoid plugin is replaced now with in Protege 4 for example and this will cause us some issues during migration.
+
+RoS: When James visits Manchester he'll be shown 4, and if James has a list of requirements then these will discussed with Protege 4 developers.
+
+AI: James to have a list of our protege requirements and to return with a list of pros and cons of protege 4 for us to consider in Vancouver
+
+Agenda for today:
+
+MC: Suggest that we generate a list of terms to suggest to Philippe on Friday for the Plan/Alg branch. These are in our unclassified branch, so there'll be issues with definitions. 
+
+EM: We want the defs to be in the algorithm terms not the transformation branch. Then a transformation can simply refer to a well defined algorithm.
+
+HP: These definitions could of the citation type.
+
+MC: I wouldn't mind adding these to the OWL file if Philippe is busy, but will not be able to do the definitions.
+
+EM: The defs will be quite simply - alg is described in this reference for e.g. and then these can be added. Suggest create an _unclassified.
+
+HP: There will be all the same issues with structuring this class, and we might want to have that discussion with him, so that he builds in the same way.
+
+EM: We might do dt hierarchy first and then project to plan. Suggest that we do it. When we pass an algorithm to them we need a place to reference it anyway, so suggest do that first.
+
+EM: Polynomial stuff, degree - need a relationship has_degree with a number (non-negative integer), the number of variables is also needed.
+
+AI: Two for relations branch: has_degree, and has_number_of_variables where values are non-negative integers. CC
+
+RoS: What's a (math) dimension?
+
+CC: In math, that's a quality or relation, only physical dimensions are in BFO.
+
+RoS: Thinking in OWL have object properties where filler is a physical thing. e.g. has_part Hand and data properties, have numbers and strings or both. In OWL can have a class of dimension, can say in OWL has_quality 4 dimensions, so is an option to have a class of dimension.
+
+Discussion on whether certain math concepts such as dimension should even be in OBI as they are not part of the real world. We decide to proceed as we need these anyway. 
+
+EM: So we need relationshps between polynomials and non-negative integers to get attach degree and number of variables.
+
+CC: Polynomial has one variable and this is a vector.
+
+EM: No m variables where m is the dimension of the vector space. OK will make proposals to Josef (Ryan's group) based on this about their terms. Josef is working on a data exchange format for Flow Cytometry where OBI will be used.
+
+CC: One more thing, why stop at polynomials, why not represent manifolds, tangent spaces.
+
+EM: Same thing, just positive integers, these are properties of something.
+
+DS: Fractional dimensions?
+
+MM: Not when dealing with bio data.
+
+EM: Only want to define what we need. What we have now needs to be changed (from Ryan's group) so I need to communicate with them. 
+
+EM: Think in BFO spatial region should not have children with the 0,1,2,3 dimensions. Should have a relationship has_dimensions with non-negative integers. 
+
+HP: Think these were added to represent anatomy, BFO doesn't care about math.
+
+CC: Could make these dimensions instances instead.
+
+EM: Instances not good, could be lines, circles etc.
+
+MM: In stats if we have 100 variables then we have 100 dimensions.
+
+EM: Agree, looks like in spatial_region some dimensions have been selected, as they have a special role for anatomy, the current list is non an exhaustive list.
+
+RoS: Is in BFO world, where they are modelling reality not math. 
+
+EM: We use the term space?
+
+RoS: They are not using the same type of space. And shouldn't get hung up on the words.
+
+CC: Physical background for BFO is naive physics. Once get beyond that BFO doesn't work. Barry is a proponent of naive physics.
+
+AI: We will not use spatial_region for math dimensions, it was not intended to represent that in BFO. We can propose to add properties such as has_nonphysical_dimension where needed.
+
+<b>Proceeding till January</b>
+
+RoS: Do you know what breadth and depth we need yet?
+
+JM: We have the use cases. OBI has a wide scope and the use cases are it.
+
+RoS: Rather than trying to model everything take someone which a narrow case and deliver something that they can use to annotate something, or more than one use case.
+
+HP: Would express that as we have done card sorting from x lists of terms from y communities. We have built and validated something that has been validated and tested for z communities.
+
+RoS: If you have data transformation for microarray studies, is it feasible that you can start annotating with a fragment of OBI before OBI is ready.
+
+HP: Yes, but I don't want to do that for all the data in AE.
+
+RoS: Then map MO to OBI and use these, and use a bit of OBI.
+
+EM: We can do that.
+
+AI: Mapping MO data transformation terms to OBI and representation of that in OBI - EM.
+
+EM: If I have a series of transformations, if I annotate I need to say what order I do things. 
+
+HP: I am not sure that you do. If you have properties preceded_by and succeeded_by. These are in the RO.
+
+RoS: Can have a datatype o-n, where o-n are order or position.
+
+JM: Temporal region is in BFO and connected temporal region.
+
+EM: For DT we now have more power and richness in OBI than in MO.
+
+EM: Do we have experimental protocols type terms, etc?
+
+HP: All were submitted OK, what has happened to them is less clear.
+
+TB: Have all terms been sent to the right branches where these were not for dt.
+
+EM: I will do that and then we will send out the other terms.
+
+DS: We also agreed that we will get a use case for the instrument from Ryan, we are in the same process. We will also need to reach out. Use cases will be specific to the communities not the branches. Nice to see how the applications are
+
+HP: We are all building our own applications.
+
+AI: Melanie will get some proteomics use cases as she has worked with this data before.
+
+<b>Standards Discussion</b>
+
+Identification of other community groups
+
+1. Workflow people, MyExperiment/MyGrid
+
+Evaluation by other communities:
+
+E.g. MyGrid, Statisticians etc.
+
+RoS: New communities: systems biology people, SBML - reactions - are these interested?
+
+MC: Nicolas likes OBI, concerns if we wants to extend OBI can he? He's interested in re-using OBI. For him he's interested in Physics concepts e.g. if needs a extra transformations?
+
+AI: MC to ask Nicolas what he needs in terms of physics concept and for an example.
+
+RoS: Maybe he has roles. 
+
+<b>Discussion on what is raw data</b>
+
+Not from an instrument, as can be raw clinical data.
+
+'raw data is uninterpreted from a storage medium'
+
+AI: Propose get rid of input and ouput roles as we already have properties has_input_of and has_output_of so no need to be in roles as well. MC
+
+Discussion of whether raw data is a necessary concept
+We think it will not be useful as the ontology has enough power already and anyway users think in terms of the SW/file format and we don't need this concept in the ontology even as  role. Also raw data is mixed for microarray and has 2 channels or one and one would do different things with it.
+
+MM: I want to know what RMA does, can I ask the ontology that.
+
+HP and EM: That's instance level you could do that if you had a knowledge database and had instantiated the ontology as annotation in a database. <b>An incompetency question'</b> - really useful to think in these terms when explaining scope.
+
+EM: All feature extraction methods or SW are part of our branch as are images->data. E.g. GenePix, and algoritms such as MAS 4 and 5, RMA, etc. 
+
+AI: Ensure that Image processing for feature extraction etc SW and algorithms are represented in our branch.
+
+AI: Suggest to roles a check for redundancy in existing properties, and flag for developers in case needed.
+
+DS: There's a button that shows where things are used, and need to check that.
+
+AI: Develop a set of rules for editing and committing the OWL file, esp. removing e.g. branches that are interacting with multiple other branches e.g. roles, and relations - HP added to the Vancouver example.
