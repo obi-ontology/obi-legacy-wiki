@@ -1,8 +1,67 @@
+[[category:OBI general]]
+
 A [http://en.wikipedia.org/wiki/Use_case use case] demonstrates how OBI can be used for a particular application. It demonstrates the use of OBI. A use case is not the same as a [[Case_study |case study]]. Each use case is listed below and forms a separate page.
 
 
+===Investigation of Treatment of Inflamation===
 
+====Hypothesis====
 
+Asprin can reduce swelling in an injured limb in mice
 
+====Experimental Approach====
+# Induce swelling in limbs of mice
+# Half of the mice receive asprin, half do not
+# Measure the reduction in swelling in both groups over 24 hours
+# If a statistically significant number of mice reduce swelling more quickly than mice treated with a placebo, then asprin has the ability to reduce swelling
+# If there are differences in the response to asprin, then we examine tissues to try and identify the causes of the differences.
+ 
+====Experimental Protocols====
 
-[[category:OBI general]]
+=====Protocol 1 - Selection and housing of mice=====
+# Select 50 male and 50 female mice of a given strain
+# Have a standard housing protocol for all the mice. Acclimatize them for two days
+# After two days, 48 male and 50 mice were determined to be healthy and could be used in protocol 2. The other mice died during acclimatization
+ 
+=====Protocol 2 - Induction of injury=====
+# Measure the volume of the left front foreleg of each mouse.
+# Use an apparatus to immobilize and hit the front foreleg of each mouse with a defined amount of force.
+# Allow each mouse to recover for 4 hours
+# Measure the amount of swelling by increased volume
+# Mice with a greater than 10% increase in volume are used for the study
+ 
+=====Protocol 3 - Preparing asprin and placebo doses.=====
+# Prepare a 100 microgram/ml solution of asprin
+# Quantitate the asprin concentration by spectrophotometry
+# Prepare a 100 microgram/ml solution of CaCl
+# Quantitate the CaCl concentration by spectrophotometry
+ 
+=====Protocol 4 - Administration of Asprin=====
+# Divide the male and female mice up into four equally sized groups.
+# Take one group of  each sex and inject each animal with 1 ml of asprin solution. Record the time of injection.
+# Measure and record the volume of the limb for each asprin injected mouse at two hour intervals.
+# Take the second group of each sex and inject each animal with the CaCl placebo solution. Record the time of injection.
+# Measure and record the volume of the limb for each CaCl injected mouse at two hourly intervals.
+# Continue all measurements for a 48 hour period.
+ 
+=====Protocol 5 - Analysis of Data=====
+# For each animal subtract the volume of the limb before treatment from the volume of the limb after treatment for each animal at each measured time period.
+# For each group for each time period, work out the mean value of the difference in volume and the standard deviation of the measurements.
+ 
+=====Protocol 6 - Analysis of organs=====
+# Each animal was sacrificed by cervical dislocation after the last measurement.
+# The following organs were harvested and weighed for each animal: Brain, heart, lungs, spleen, liver, kidneys, left and right foreleg muscles
+# Sections of each organ were prepared for histological examination by using the paraffin embedded mounting procedure.
+# All remaining tissues and the prepared slides were stored at -20C prior to analysis
+ 
+====Results====
+# CaCl2 treated animals continued to show increased swelling for 12 hours after administering the CaCl2 solution. Asprin treated animals showed increased swelling for only  2 hours after administration of the asprin solution
+# After 24 hours post injection, 75% of the asprin treated animals' limbs has returned to their original sizes. Only 65% of CaCl2 treated animals limbs' had returned to their original size by the end of the study.
+# The weights of all organs, except for swollen muscle limbs showed no significant differences in weight. The muscles crushed muscles showed increased weight compared to the uninjured muscles.
+# We examined the tissue sections of affected and unaffected limbs animals that showed swelling at the end of the study. Sections were stained to show nuclei and cell boundaries. Muscle fibers from injured limbs had increased size compared to uninjured controls. Injured limbs had increased macrocyte infiltration. However asprin treatment reduced both muscle size and the degree of muscular swelling seen in sections.
+ 
+====Conclusions====
+# Asprin reduces muscular swelling post injury. CaCl2 was seen to have little or no affect
+# Some animals show lower levels of responsiveness to the administration of asprin.
+# In tissue sections, the administration of asprin has the effect of reducing muscular swelling due to injury and reducing macrocyte infiltration as a response to injury
+# We conclude animals that had asprin and which responded better to the treatment by reducing swelling faster have a gene mutation that allows them to respond faster. Animals that do not respond as quickly lack this mutation. We are investigating this further.
