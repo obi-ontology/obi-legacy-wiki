@@ -1,4 +1,3 @@
-
 At the 2007 summer workshop it was decided to allow defined classes in OBI, for two principal reasons
 
 # To allow the definitions of terms that were in use by the community but were not "universals" as determined by the group.[DS: state the examples]
@@ -56,10 +55,10 @@ However, If knowledge is being manually re-stated within the defined class "bran
 
 '''Questions: '''
 * Should we have separate files for defined classes?
-  Bjoern: No, Pierre: Yes, Alan: prefer separate, but [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000260.html protege makes us pay too much for extra files], so maybe no. Daniel: No.
+Bjoern: No, Pierre: Yes, Alan: prefer separate, but [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000260.html protege makes us pay too much for extra files], so maybe no. Daniel: No.
 
 * Should we accommodate Protege's UI and create junk classes so that defined classes can be put in a "folder".
-  Barry: No, Bjoern: Yes, Pierre: Dunno Alan: Prefer no, and would instead like [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000228.html tool support] DS: No. Also: Better call them Helper classes. They are no junk.
+Barry: No, Bjoern: Yes, Pierre: Dunno Alan: Prefer no, and would instead like [https://mailman.stanford.edu/pipermail/p4-feedback/2007-July/000228.html tool support] DS: No. Also: Better call them Helper classes. They are no junk.
 
  Resolution: junk classes directly below owl:thing, one per branch [DS: Wasn't the policy introduced above to have them at branch root level? At the momengt we haev a crude mixture]. Home file for each of these classes is the branch file.
 
