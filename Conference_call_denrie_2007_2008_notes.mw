@@ -1,0 +1,826 @@
+====TCon Schedule====
+*June 2008
+** June 30 - [[#jun_30_2008_agenda | agenda]] -  [[#jun_30_2008_minutes| minutes]]
+** June 16 - [[#jun_16_2008_agenda | agenda]] -  [[#jun_16_2008_minutes| minutes]]
+** June 13 - [[#jun_13_2008_agenda | agenda]] -  [[#jun_13_2008_minutes| minutes]]
+** June 3 - [[#jun_3_2008_agenda | agenda]] -  [[#jun_3_2008_minutes| minutes]]
+*May 2008
+** May 5 - [[#may_5_2008_agenda | agenda]] -  [[#may_5_2008_minutes| minutes]]
+*April 2008
+** April 28 - no call
+** April 21 - [[#apr_28_2008_agenda| agenda]] -  [[#apr_28_2008_minutes| minutes]]
+** April 21 - [[#apr_21_2008_agenda| agenda]] -  [[#apr_21_2008_minutes| minutes]]
+** April 14 - [[#apr_14_2008_agenda| agenda]] -  [[#apr_14_2008_minutes| minutes]]
+** April 07 - [[#apr_07_2008_minutes| minutes]]
+*March 2008
+** March 31 - [[#mar_31_2008_agenda | agenda]] -  [[#mar_31_2008_minutes| minutes]]
+** March 24 - [[#mar_24_2008_agenda | agenda]] -  [[#mar_24_2008_minutes| minutes]]
+** March 17 - [[#mar_17_2008_agenda | agenda]]
+** March 10 - [[#mar_10_2008_agenda | agenda]] - [[#mar_10_2008_minutes| minutes]]
+** March 03 - [[#mar_03_2008_minutes| minutes]]
+*February 2008
+** February 25 - [[#feb_25_2008_minutes| minutes]]
+** February 14 - [[#feb_14_2008_action| action items]] -  [[#feb_14_2008_minutes| minutes]]
+** February 7 - [[#feb_7_2008_action| action items]] -  [[#feb_7_2008_minutes| minutes]]
+* January 2008
+** January 15 - [[#jan_15_2008_agenda| agenda]] -  [[#jan_15_2008_minutes| minutes]]
+** January 8 - [[#jan_8_2008_agenda| agenda]] -  [[#jan_8_2008_minutes| minutes]]
+* August 2007
+** August 9 - [[#aug_9_2007_agenda| agenda]] -  [[#aug_9_2007_minutes| minutes]]
+** August 29 (12 noon EDT) - [[#aug_29_2007_agenda| agenda]]
+* September 2007
+** September 13 (9:30 AM EDT) -  agenda -  [[#sep_13_2007_minutes| minutes]]
+** September 20 (10:00 AM EDT) -  agenda -  [[#sep_20_2007_minutes| minutes]]
+** September 27 (10:00 AM EDT) -   - [[#sep_27_2007_agenda| agenda]] -  [[#sep_27_2007_minutes| minutes]]
+
+====Action Items====
+<span id="feb_14_2008_action">'''February 14, 2008'''</span>
+* All - work on definition of is rendering of/ is rendered by relation.
+* Alan - move gene list to under data set.
+* All - continue discussion of relation of format specification to files. 
+<span id="feb_7_2008_action">'''February 7, 2008'''</span>
+* To be done by next call - Feb 14, 2008
+** Kevin C - will provide examples of protocols including DENRIE elements
+** Alan R: Further review and proposal for any reorganization. Proposal for basic relations. Example of measurement.
+** Alan R: Initial placement of independant and dependent variable
+** Alan R: Will have a go at "model number" et. all to replace dead ends in relation branch like has_model
+** Bill B: Will work several examples of imaging experiments that will include use of DENRI classes.
+** Chris S: will cull action items and discussion points on DENRIE from workshop and place in wiki
+** Chris S. will think about datasets
+====Agendas====
+<span id="jun_30_2008_agenda">'''June 30, 2008'''</span>
+* review hierarchy changes in latest release
+* review DENRIE doc
+<span id="jun_16_2008_agenda">'''June 16, 2008'''</span>
+*report on Information ontology workshop
+*review of DENRIE doc
+*identifiers
+<span id="jun_13_2008_agenda">'''June 13, 2008'''</span>
+* identifier terms
+* Jennifer's use case
+* visualization terms
+<span id="jun_3_2008_agenda">'''June 3, 2008'''</span>
+* Branch review. Need to fill out the milestones table and prepare an outline  for OBI documentation.
+* Tracker items.
+** status of genome version protocol parameter. version numbers in general.
+** status of genetic information content
+** status of software
+** new item: visualization terms requested from DT
+<span id="may_5_2008_agenda">'''May 5, 2008'''</span>
+* DENRIE report
+*information entity definitions
+* Jennifers use case
+<span id="apr_21_2008_agenda">'''April 21, 2008'''</span>
+* Jennifer's use case - Alan will help annotate.
+* Definitions for information entity, non-realizable information
+entity, and information content entity. - I've sent an email on this -
+any comments?
+* Response from Bjoern that not all specifications are realizable. Do
+we agree? If so, then should we move those under non-realizable
+information entity?
+<span id="apr_14_2008_agenda">'''April 14, 2008'''</span>
+* follow up on action items from last call:
+**JF and BB: use case / competency questions about storage of data in  
+files
+**All: review Bill's file at http://purl.org/nbirn/birnlex/ontology/BIRNLex-OrganismalTaxonomy.owl
+**PRS: document why no "strain" class in OBI
+* Review definitions for Information Entity, Non-realizable information entity, and information content entity. This item is in response to the email exchange with protocol-application (BP). 
+<span id="mar_31_2008_agenda">'''March 31, 2008'''</span>
+* Organism
+* DT parameters
+* older items
+** programming language
+** action items: is-rendered status, better definition for image, others?
+<span id="mar_24_2008_agenda">'''March 24, 2008'''</span>
+*From the tracker:
+** Bill: MathML, SMILES, FieldML, SBML, and CellML formats 
+** Alan: Image/ graph terms
+*Follow up to other items:
+** curation_status
+** response to Bjoern regarding programming language and objective.
+** organism
+
+<span id="mar_17_2008_agenda">'''March 17, 2008'''</span>
+* address requests from Bjoern/Protocol application branch<br>
+Requests to DENRIE:<br>
+ - move programming language out of 'plan'<br>
+ - move 'objective' into our branch (to be placed under 'specification')<br>
+* respond to James review last comment:<br>
+-Question: we have "measurement unit" in as a class, are we actually covering that?  Will this be an import from somewhere else eventually? <br>
+* tracker issues: genome version build, follow up with genetic information
+* is_rendered: follow up to defining (last by Jennifer)
+* does organization belong in DENRIE? i.e., is it a non-realizable information entity?  
+<span id="feb_14_2008_agenda">'''February 14, 2008'''</span>
+* discuss submission of terms to PATO. Decide on whic terms to add to the google spreadsheet "terms for qualities" at http://spreadsheets.google.com/ccc?key=phyoyF8FhymnarQ84Cc6GZQ&hl=en
+
+<span id="mar_10_2008_agenda">'''March 10, 2008'''</span>
+* address requests from Bjoern/Protocol application branch<br>
+Requests to DENRIE:<br>
+ - move programming language out of 'plan'<br>
+ - move 'objective' into our branch (to be placed under 'specification')<br>
+* respond to James review
+* tracker issues: genome version build, follow up with genetic information
+* is_rendered: follow up to defining (last by Jennifer)
+* does organization belong in DENRIE? i.e., is it a non-realizable information entity?  
+<span id="feb_14_2008_agenda">'''February 14, 2008'''</span>
+* discuss submission of terms to PATO. Decide on whic terms to add to the google spreadsheet "terms for qualities" at http://spreadsheets.google.com/ccc?key=phyoyF8FhymnarQ84Cc6GZQ&hl=en
+
+<span id="jan_15_2008_agenda">'''January 15, 2008'''</span>
+* use cases: any of these appropriate for us?
+https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions
+- perhaps Ryan's textual use case
+- Suggestion: I'm downloading files from an investigation that I need to load and analyze. What's in the files? and what format are they in?
+* New terms from James and Data Transformation. Two classes. Bernoulli trial and probability distribution. I think we should reject Bernoulli trial (i.e. send it back and suggest the information entity branch?) because this is a type of experiment. Accept probability distribution because it is a list of possible outcomes (and therefore all the subtypes).
+* OK to send other rejected terms to other branches? 
+see http://spreadsheets.google.com/ccc?key=p5JLniV3bk-edIPKOziyXfA&hl=en
+Note the sheets (listed at the bottom of the google doc) for Protocol application, Investigation design, quality, etc.
+* Discuss issues raised by Melanie.
+see http://obi-denrie-branch.googlegroups.com/web/denrie_review_030108
+
+<span id="jan_8_2007_agenda">'''January 8, 2008'''</span>
+
+Questions asked by MC:
+ 
+I am also confused about data_format_specification and format standard. data format specification (under information_entity) would be for example the OWL specification. The format standard then is OWL, with the current definition: OWL is a format standard of a digital entity that is conformant with the W3C Web Ontology Language specification.
+ 1. should there be a "owl specification" class under data format specification then?
+ 2. OWL format standard in that case means an OWL file in general, right?
+ 3. should there be a relation between the specification and the standard, I was thinking at <br>"the specification is_concretized_as the standard", but in that case the standard would have to be<br> a concretized information entity.
+
+Which leads to my last question, why are digital entities not concretized information entity? There is no definition for concretized information entity at the moment, for me it means  a practical application of an information entity, and an OWL file for example would fit that description.
+
+
+<span id="aug_9_2007_agenda">'''August 9, 2007'''</span>
+
+*The first conference call will occur August 2, 2007 (Thursday) at 9:30 AM US Eastern time.
+
+discussion of scope:  
+originally scope was of objects that were referred to in an investigation, e.g. lab books, personal communications, more formal entities.  We are distinguishing between the information content (non physical) and a digital entity which can be thought of as a physical thing but not exactly an object.  CC holds the view that we should focus on software and things that come from software, whereas measurements, data are qualities.  
+
+A journal article (a structured set of sentences) belongs in this branch.
+
+One use case is that OCI / OBI needs to record both that the blood pressure had value = 104 but also the fact that a doctor took the reading.
+
+What about hypothesis, conclusion?  CC feels that these are roles of propositions.  At the moment OBI decided to focus only on roles of independent continuants, which would not cover propositions.
+
+What about objective?  CC feels that this is a role of state of affairs.  At the moment state of affairs is not in either BFO or OBI
+
+We will visit the file and add definitions / scope terms until about row 120.  The remainder will go to OCI group first.
+
+
+<span id="aug_29_2007_agenda">'''August 29, 2007'''</span>
+
+Hi,
+Shall we have a call next week to catch up? How about Thursday 9:30 AM EDT Aug 30th? I will try to post some things to consider on the wiki (https://wiki.cbil.upenn.edu/obiwiki/index.php/DigitalEntityTerms).
+
+Kevin can you send me your owl file?
+
+Also, we actually have a mailing list. Would people like to sign up and use that?
+see https://lists.sourceforge.net/lists/listinfo/obi-denrie-branch
+
+Thanks,
+Chris
+
+ps. here's a reposting of some thoughts I had sent out but go no response on. Is this total rubbish?
+
+Example A. Information about a mouse:
+A mouse has a size and weight. (has qualities)
+The size of the mouse is visually assessed relative to its litter mates and is recorded as "above normal." (quality is encoded in information entity)
+The weight of the mouse is measured on a scale and is recorded as "5 grams." (quality is encoded in information entity)
+
+"above normal" and "50 grams" are measurements, a type of information about the size and weight of the mouse.
+Parts of the measurement are values and units.
+Qualitative value is_recorded_with qualities. [values provide a contextual association for qualities]
+Quantitatie value is_recorded_with numbers. [values provide a contextual association for numbers]
+
+Information entities: measurement, value, qualitative_value
+Information relationship: is_recorded_with 
+Where do numbers go? Seem analogous to qualities.
+Where do units go?
+
+Example B: Information about a microarray experiment:
+1. RNA is present in a mouse liver.
+2. Protocols applied to the liver generate fluorescent material bound to an array.
+3. The array with bound material is scanned. (reality)
+4. Fluorescence over each part of the array is measured as photon density and recorded as an image. 
+5. Values are generated from the image.
+6. A plot (figure) is generated from the values
+7. A statistical measure (likelihood score or p-value) is calculated from the numbers.
+8, A statement is made on gene expression based on the statistical measure.
+
+Information entities: image, figure (or plot), statistical measure, statement.
+
+
+<span id="sep_27_2007_agenda">'''September 27, 2007'''</span>
+
+Hi All,
+I took another pass at the spreadsheet (DigitalEntityTerms-aug9) of our ~ 100 terms (please note that I removed some empty rows so the row numbering is not the same as in the original excel file). I was able to assign a consensus on what should be done with the terms for most (rows 6-61, 72-84). The rest (rows 62-71, 85-100) I would like to discuss. If you have time to look at those and indicate your thinking that would be great. When we get these done we can then submit terms to appropriate branches and work on cleaning up (naming conventions, definitions, etc) for our terms.
+
+Thanks,
+Chris
+
+====Minutes====
+<span id="jun_30_2008_minutes">'''June  30, 2008'''</span><br>
+* review of hierarchy in new release. Melanie and Alan did a great job capturing the discussed changes in the new release. Enables us to identify issues like "fluorescent compensation matrix" seems out of place - should be lower level. Will need to fix definitions to better reflect the hierarchy. 
+* DENRIE doc. Having the latest release with the new hierarchy enabled updating the doc. Can get a count of classes now. Also get a snapshot of the upper level. To do still:
+** clean up notes and questions so that the doc is presentable to public.
+** explain that the root is now information artifact with the intent of not covering biological information.
+** update issues with outcomes (don't eliminate if they've been addressed) 
+<span id="jun_16_2008_minutes">'''June  16, 2008'''</span><br>
+* Alan: summary of Information Ontology workshop
+** rename as Information Artifact Ontology to make distinction between information that can be recorded as part of an investigation versus inherent in entities such genes and genomes.
+** a mailing list set up for ongoing discussion. http://groups.google.com/group/information-ontology
+** notes from the workshop can be found at http://neurocommons.org/page/First_IAO_workshop_notes_-_Darren
+** still need to work out upper information ontology  - actioned ffor Alan, Barry, Bjoern
+** did generate a list of information features
+** discussed programming/ software - not sure where programming language goes as not sure where language in general goes in hierarchy.
+** see Information Artifact Ontology covering general entities while DENRIE would cover investigation specific information entities
+** is_measurement_of recognized as a necessary relation. Someone needs to submit to Relations branch/ RO. 
+* Went over DENRIE google doc that Melanie generate in response to request for documenting branches.
+** item discussed was realizable/ non-realizable. current thinking and examples placed on google doc.
+** all should do a quick review and edit by Wednesday.
+* Follow up to identifier discussion.
+** Melanie has posted terms and definitions for a container class and some types of identifiers. These are mostly OK and Melanie will include the ones that are OK in the ontology - will continue discussing others. 
+<span id="jun_13_2008_minutes">'''June  13, 2008'''</span><br>
+* identification terms. CS circulated 4 terms with definitions to put under _identifier container. MC: what about Alan's definitions? Agreed that MC will merge the defs and circulate. Also raised question on "instrument model" versus "model number." CS was concerned that model number did not reflect that usually use characters or names not numbers for model. Is instrument too restrictive? change to device model. Also generalize version number and add catalog number.
+* Jennifer's use case. discussed protocol applications. How to link input subjects with protocol application and output measurement? Think should use relations. 
+* visualization terms - not discussed
+<span id="jun_3_2008_minutes">'''June  3, 2008'''</span><br>
+* Branch review. Melanie will post a template that other branches are using. Chris will make a first pass for later discussion.
+* Tracker items.
+** status of software. Consensus on terms and definitions as listed in email from Bjoern on programming. Alan will take these to the information ontolofg workshop. Will await outcome before adding to OBI.
+** status of genome version protocol parameter. version numbers in general. Discussion on identifiers and issue of properly defining a general class. Interim solution is to collect types of identifiers we need in OBI (e.g., genome sequence version, instrument model number) and place them in a container class _identifier.  
+** status of genetic information content. Most of these are qualities and can be imported from SO or PATO. In cases where the measurement of these qualities is needed (e.g., SNPs identified associated with a genotype), these will be obtained through relations from qualities to values. 
+** new item: visualization terms requested from DT. need to review and discuss further
+<span id="may_5_2008_minutes">'''May  5, 2008'''</span><br>
+Attending: JF, AR, MC, CS <br>
+1. Report on DENRIE branch
+http://sw.neurocommons.org/2008/obi/reports/DigitalEntityPlus_report.html
+
+Several terms were missing definition sources. CS provided these and MC will correct the file.
+- ratio of collected to emitted light. Submitted by the Flow Cytometry community in DigitalEntity-FlowCytometry-2007-03-30.txt
+- number of lost events computer: Submitted by the Flow Cytometry community in DigitalEntity-FlowCytometry-2007-03-30.txt
+- number of particles in subset: Submitted by the Flow Cytometry community in DigitalEntity-FlowCytometry-2007-03-30.txt
+- number of lost events electronic: Submitted by the Flow Cytometry community in DigitalEntity-FlowCytometry-2007-03-30.txt
+- parameter threshold: Submitted by the Flow Cytometry community in DigitalEntity-FlowCytometry-2007-03-30.txt
+- electronic case report tabulation: CDISC glossary
+- electronic case report form: CDISC glossary
+- measured expression level: This was submitted by the Data Transformation branch
+
+2. Information entity hierarchy and definitions
+Most of call was spent discussing this. Note that there will be an Information entity ontology meeting in early June so want Alan to be primed with DENRIE thinking.
+
+Information entity - definition refers to creation by cognitive subject. Not settled on definition but consensus was that for OBI to start with should limit scope to human cognitive subjects. 
+
+At issue with Bjoern and protocol application branch is the hierarchy under information entity. Current organization does not make sense. Need to either have realizable vs non-realizable entities as axis for hierarchy or get rid of these and just place specification, information content, objectives, and digital entities directly under information entity. This point was not resolved. 
+
+Led to discussion on what is an objective and whether it is realizable. Distinguish between unachievable goals (e.g., curing cancer) and experimental objectives (e.g., sequence feature identification objective from the MGED Ontology).  Seemed to be a consensus that objectives could be realizable although not resolved.
+
+3. Jennifer's use case for annotating with OBI. Jennifer will follow up on the reading Alan pointed her to and submit for discussion a start on annotation based on that.
+
+<span id="apr_21_2008_minutes">'''April 21, 2008'''</span><br>
+AR, BB, MC<br>
+1. Jennifer's use case - Alan will help annotate.<br>
+-> postponed<br>
+<br>
+2. Definitions for information entity, non-realizable information
+entity, and information content entity. - I've sent an email on this -
+any comments?<br>
+3. Response from Bjoern that not all specifications are realizable. Do
+we agree? If so, then should we move those under non-realizable
+information entity?<br>
+-> feedback from BS waited<br>
+BB: 4. coordination with other ontology efforts to characterize
+digital entities and web resources.<br>
+e.g. software ontology,  IEO (Information Entity Ontology)<br>
+
+MC: for software ontology DT branch is in touch with Daniel Rubin
+(we
+discussed it a bit during DT november workshop)<br>
+BB: Its not just a DT issue.  It really covers both DT and DENRIE.<br>
+
+AR: "An information entity is a  generically dependent continuant
+that always originates with a  sentient - either by a person
+perceiving, thinking, and  communicating, or by a machine that was
+designed to have a function  to produce and/or communicate
+information."<br>
+(current, but unfinished definition. - 1/2 circular right now)<br>
+
+As we discussed at the last F2F, that portion of DENRIE would be taken
+out and OBI would import IEO.<br>
+IEO would cover software and other top level classes that are not
+specific to OBI, but would be developed using OBI as a use case, and
+with participation from Denrie participants who wished to be involved.<br>
+
+Terms from Software ontology currently in birnlex, BB hopes to get
+them from OBI
+(software ontology no OBO_REL, single inheritance...)<br>
+
+BB: comment on taxonomy proposal<br>
+
+BB: existing IDs are in annotation properties (in his file,
+http://purl.org/nbirn/birnlex/ontology/BIRNLex-OrganismalTaxonomy.owl)<br>
+Some known problems:<br>
+proposal is: C57BL6: subtype of mus, strain info would come from jax<br>
+but in reality: C57BL6 subtype of hybrid of mus (M. spretus and
+M.musculus)<br>
+which is how it has been described in Birnlex taxonomy: C57BL6
+defined as subtype of that hybrid and not mus<br>
+
+BB would like to re discuss taxonomy proposal<br>
+
+AI: BB put comments in the google doc for reference (http://
+docs.google.com/Doc?docid=dzprnmw_21csm25rfj&hl=en)<br>
+AI: MC taxonomy discussion to be added to agenda for biomaterial call
+friday (Bill has been
+invited to join)<br>
+
+<span id="apr_14_2008_minutes">'''April 14, 2008'''</span><br>
+CS, JF, MC, JM, AR
+
+1. Organism. An action item was to review Bill's BIRNLEX file. In it, organism was the root for many classes representing a taxonomy. This approach was also discussed by Biomaterial call last week and will likely import a union of NCBI taxon top classes under the root class of organism. Not a DENRIE issue.
+
+2. Measurement unit. Question came from colleague of Melanie's on how to use units with OBI. Measurement unit is part of DENRIE branch. Plan is to import appropriate unit ontology such as here:
+http://purl.org/obo/owl/UO. Further discussion needed as to how to apply to use case - possibly through Jennifer's use case.
+
+3. Another action item was review of use cases. Jennifer provided a  very detailed use case on google docs.
+http://spreadsheets.google.com/ccc?key=p5JLniV3bk-fNPzU4UGH5Tw&hl=en
+The file was reviewed and OBI application discussed briefly. Follow up will be annotation of the use case elements using OBI that will also enable some semantic web type queries. 
+Alan provided a pointer to a related discussion:
+http://lists.w3.org/Archives/Public/public-semweb-lifesci/2007Feb/0076.html
+
+AI: Alan will help Jennifer annotate use case - discussion will be on DENRIE list.
+
+4. Information entity top level hierarchy and definitions. All agree that specification and realizable information entity locations in hierarchy should be flipped. IE can be realizable or not  and that should be the top two classes.
+Also consensus that definitions for IE, NRIE, and ICE can be improved but will need further discussion. Agreement that objectives are different from ICE. Also that conclusion is not a sibling and probably belongs under narrative object.
+
+AI: Chris report DENRIE discussion to Protocol-Application branch
+AI: Chris will start discussion of IE, NRIE, and ICE definitions on DENRIE branch.
+
+<span id="apr_07_2008_minutes">'''April 07, 2008'''</span><br>
+Attendees: Jennifer, Alan, Bill, Barry, Philippe, Melanie<br>
+1. Content of a data file<br>
+ JF: how to represent content of a data file, e.g. list of intensities from microarray, list of histological observations...<br>
+ BB: birn they represent brain regions - and have data sets in reference to these regions<br>
+ AR: not enough in obi now to do this yet. Could be instance of an ICE - we might have a list, not thought about this though yet -  ICE is "about" sthg, e.g. files are "about" output of some PA<br>
+JF: works in CIO - they want to model specific sets of data. They have 3 data files - CIO in a hurry<br>
+ AI for JF: give us a use case/ competency questions<br>
+ 
+ AR: representing measurements - they are "of sthg", a quality they are supposed to approximate<br>
+ JF: use case: list of intensities from microarray which are about set of genes<br>
+Protocol Application: generation of data intensities from scanner (probe/set value) - output is data - the file is the output of that PA<br>
+JF: how to link to measure of reality?ie go from probe sets to genes<br>
+BB: analogous to BB case:  PA: material in, 2 protocoles, data out<br>
+ PA-> data -> DT process -> data out<br>
+ last data out to be linked to reality<br>
+PRS:  probeset have role  reporter role , reporting on gene<br>
+MC: use of about relation: data sets in denrie is about sthg<br>
+AR: datum is related to quantity of mRNA in sample<br>
+BB: first step in MA mapping must go from spot (reporter fluorophore) to probe, which map to probe set, which map to mRNA<br>
+JF: material -> data; data DT -> data; all the data is about something<br>
+data elements have reporter role:  reporting about something<br>
+BB: I will write up fRMI foci/FreeSurfer regions/brain region<br>
+MC: microarray: CEL file format could be added<br>
+
+ AI: JF + BB: use case - competency question for what they want to do, eg microarray, and we'll go through it next week<br><br>
+
+2. organism discussion<br>
+JF -- my thinking was that if a mouse was a biomaterial, then a BL6 mouse was also a biomaterial<br>
+BB: if more than one thing labelled with that - we need a class not an instance<br>
+JF there are about 50 strains of mouse, 12 strains of rat commonly used , all C57/BL mice are genetically "identical"<br>
+AR: strain are typically genetically defined<br>
+MC: why not strain with instance C57, BL6...<br>
+AR: but instances of a strain are organisms<br>
+AR: if there is a difference between species and strain, it might have to do with the manner or duration over which their evolution is guided. Species over the longer term, strain over the shorter.<br>
+AR: input: instance of C57BL6<br>
+BB: example from BIRN: eevrything in owl with hirearchy and lots of info in the classes<br>
+ BB: we should reference sthg - proposes birnlex<br>
+AR: ultimately someone else's job. <br>
+PRS: what about other species ? adopt similar approach?<br>
+AR: Use for now as external ontology -  we need to connect with one of the projects and convince them to maintain an official OWL version of their content<br>
+BB: I welcome feedback on the contents of this file. <br>http://purl.org/nbirn/birnlex/ontology/BIRNLex-OrganismalTaxonomy.owl
+MC: how to use: mireot<br>
+JF: yes!  can we add other strains to Bill's OWL file?  i can offer to do rat and lab animals<br>
+MC: taxon rank is in there as enumerated class is translation of ncbi's file<br>
+BB: This is built on BFO, OBO-RO, and PATO<br>
+AR: there is no class called species or strain. There are just the classes of organisms<br>
+JF: where does "organism" fit into OBI?<br>
+MC: BB's file biaised towards experiments<br>
+MC: organism is under biomaterial<br>
+Example of competency question addressed by Bill : get all non human primate data<br>
+AR: strain and species are synonyms for organism<br>
+ BS: agrees with AR<br>
+ BS: single hierarchy with top organism- ncbi represents types in reality - mammal is a subtype of organism<br>
+however need to refere to some of those as instances  -  we need to refer to type: mammals and to instances, i.e. collection of all mammals alive today<br>
+BB: What we've created in BIRNLex-OrganismalTaxonomy is rooted in organism (a type of biomaterial) - and used NCBI Taxonomy's hierarchy vetted by GBIF, ITIS, IMSR, etc.  NCBI is just a starting material - not the authority.<br>
+MC: organism in Biomaterial<br>
+MC: imports from BB's file under organism<br>
+BB: cultivar is another taxon rank.<br>
+BS: mammal member of kingdom X and is an organism<br>
+MC: we also have genotype etc<br>
+JF: genotype = quality of strain / species<br>
+BB:  organism -> flat hierarchy, with horizontal "derived from" relationship<br>
+JF: agree with the non-flat hierarchy<br>
+MC: BB needed file in OWL based on bfo and nothing out there - so built his own file<br>
+
+MC: Summary: name of the strain is preferreed term for the class -  there won't be terms like strain and species in OBI<br>
+JF: genotype = quality of an organism<br>
+AR: then every organism has a different genotype and we can't use genotype in our definition of the class mouse<br>
+JF: also genotype can refer to strain = population<br>
+BB: This organism "type-ness" is a very very messy question of granularity.  Descriptions can be combinations of genotype & phenotype.  Especially as you walk up the taxonomic tree, some use morphological criteria (phenotype) and others phylogenetic criteria (genotype in the sense of allelic frequencies).<br>
+AR: need to review Bill's file<br>
+MC: Idea: organism in biomaterial, subclasses would be from BB's file<br>
+
+ AI for all for next week: Review file from Bill<br>
+
+'''Summary of AI:'''
+JF and BB: use case  / competency questions about storage of data in files<br>
+All: review Bill's file at http://purl.org/nbirn/birnlex/ontology/BIRNLex-OrganismalTaxonomy.owl<br>
+PRS: document why no "strain" class in OBI<br>
+<br>
+<span id="mar_31_2008_minutes">'''March 31, 2008'''</span>
+
+Attended by CS, MC, JF, JM
+
+1. Discussion of organism. Consensus that organism was not an information entity but less clear with strain and what makes characteristics like genotype information rather than a subtype. Need to think more about information entity definition to see if we can clearly delineate. 
+
+2. Programming language. Bjoern requested that programming language be moved from under plan. Consensus was that language was a specification and should be moved under that. The instance of a program is a plan (or set of intructions).
+
+3. Features of data transformation. There is a feature class under data transformation with log_base (as an example). The question is whether feature should remain a class (option 1) in which case it should be moved to be placed under information entity or should features of data transformations be encoded as property types (option 2) in which case feature is removed from the ontology as a class. 
+
+<span id="mar_24_2008_minutes">'''March 24, 2008'''</span>
+
+1. Data format specification. Bill has submitted new terms, MathML, SMILES, FieldML, SBML, and CellML that should be grouped with existing terms such as Gating-ML and zip under data format specification. However, these types of terms are instances. Proposals discussed were to create classes of formats (e.g, tab-delimited, mark-up language, compression) and move all the instances to a separate branch. Alternatively these could be marked as instances and left in OBI.
+
+2. Objective as specification. Bjoern has requested that objective be moved under specification. This change would mean that objective is realizable. The DENRIE branch still views objective as non-realizable as we understand but are willing to be convinced otherwise.
+
+3. Image versus graph (report figure). In James' review of the DENRIE branch he asked for clarification of the difference between image and graph. Both are information content entities but graph is a type of narrative object. After discussion, the distinction was still felt to be right but better documentation was needed. A start is to better define image to convey the sense that image is a visual (or sensor output) type of data whereas a report figure or graph is an organization of data to convey a particular inference.  
+
+<span id="mar_10_2008_minutes">'''March 10, 2008'''</span>
+
+1. review of James comments
+
+- Missing curation status: has been added by Bill. Bill has also made the preferred term equal the term label. Thanks Bill!<br>
+- Missing definition_source: All who have contributed definitions should provide a definition source. Bill will fill in OBI DENRIE branch for those still missing in one week. With definition source the minimal metadata will be provided and curation status can be updated.<br>
+- Class "source code module" relation to text-based digital entity. question of whether source code module is realizable. Will be assigned to Alan on tracker. <br>
+- Class "narrative object". Question regarding what a set of propositions means and how it includes graphs.Distinction between image and report graph: a report graph (or more generally a display element is constructed for some report while an image is a visual representation of something. <br>
+
+2. definition of is_rendered_by (Jennifer will submit to relation branch)<br>
+ "a relation between a data set and a report display element where the data set is depicted in the form of the display element.  This necessarily includes a data_transformation involved in transforming the data set from textual form to graphical form.  This data transformation can be a linear rearrangement or other."<br>
+
+3. discussion of visualization - link between data transformation branch and denrie
+summary: data in -> data transfo (=visualisation) -> data out -> rendering -> plot <br>
+
+DT - describe transformation<br>
+DENRIE -  describe rendered data <br>
+for example:<br>
+data -> MA transformation -> data out -> ma plot  = dot plot rendering ma pairs<br>
+The MA transformation will have objective visualization (objective still being worked on by PlanAndPlannedProcess branch)<br>
+
+DT AI: James remove visualization and MA plotting, EM provide def for MA transformation, then we'll have to revise other defs in view of this (e.g. loess normalization 2 channel, etc.)<br>
+
+<span id="mar_03_2008_minutes">'''March 03, 2008'''</span>
+
+1. Jennifer will work on the definition of "is_rendered_by" for next week<br>
+2. Ongoing discussion on organizations on mailing list<br>
+
+3. We need to discuss on genetic information<br>
+
+BB: try and re utilise what SO has done.<br> 
+2 issues:<br>
+1/ SO is designed to be a realist domain onto part of the OBO foundry, everything unless declared as a class is designed to be a real world entity. Does that include information entities?<br>
+2/ They're not using bfo - using obo-rel but might not be consistent. Need to consider what's in PATO.<br>
+
+4. curation_status<br>
+AR: put curation status as information_entity<br>
+BB: having it in the ontology will it be practical to use? object_property saying "has_curation_status"?<br>
+
+
+Situation now:<br>
+AR: bunch of strings and instead replace those with instances of this curation_status object.<br>
+BB: yes we are using strings, no in the sense this enumeration class. We still need to type string, no tool support.<br>
+AR: Unless we go for owl full: owl full for editing and owl dl to distribute<br>
+-> This system would allow Protege to generate a list of values in which we could choose, instead of typing in the curation_status value string.<br>
+
+
+OWL-FULL: statement that connects the property to the class: one thing that says object property curation_status range that list.<br>
+Creates it as datatype property.<br>
+This would go in the obi-owl-full file, and wouldn't be included when we produce the OWL-DL file, but the OWL-DL file would still have the values.<br>
+
+AR: The annotation property domain needs to be on the class and not on the property.<br>
+
+Currently:<br>
+CLASS<br>
+<!-- CurationStatus Enumerated Class Instances used for Class Annotation --><br>
+
+<owl:Class rdf:about="http://purl.org/obo/OBI/CurationStatus"><br>
+<rdfs:subClassOf rdf:resource="http://purl.org/obo/OBI/EnumerationClass"/><br>
+<definition xml:lang="en">The curation status of the term. The allowed values come from an enumerated list of predefined terms.</definition><br>
+<!-- <annotationPropertyDomain>http://www.w3.org/2002/07/owl#Class</annotationPropertyDomain> --><br>
+<!-- <annotationPropertyRange>http://obi.sourceforge.net/ontology/OBI.owl#EnumerationClass</annotationPropertyRange> --><br>
+
+ANNOTATION PROPERTY<br>
+<owl:AnnotationProperty rdf:about="http://purl.org/obo/OBI/curation_status"><br>
+<definition>The curation status of the term. The allowed values come from an enumerated list of predefined terms. Examples: raw import, definition incomplete, graph position temporary, uncurated, pending final vetting, curation complete. The value raw import indicates that the term is derived directly via import of an entity from an existing knowledge resource. The value definition incomplete indicates that the curators recognize the definition of the class remains incomplete in someway. The value graph position temporary indicates that the class may not be in its final preferred location within the ontology graph. The value uncurated indicates that the class has been created by curators but has received minimal review. The value pending final vetting indicates that indicates the term is likely ready for promotion to "curation complete" status, and only requires a final review by the curators responsible. The value curation complete indicates that the class has been fully vetted by the curation authorities and to the best of their ability determined to be ready for use.</definition><br>
+
+Proposed:<br>
+OBI-FULL:<br>
+We will add the range restriction there. ObjectProperty(curation_status range(CurationStatus))<br>
+
+===<br>
+superclass of curation_status:<br>
+<owl:AnnotationProperty rdf:about="http://purl.org/obo/OBI/curation_status"><br>
+<definition>The curation status of the term. The allowed values come from an enumerated list of predefined terms. Examples: raw import, definition incomplete, graph position temporary, uncurated, pending final vetting, curation complete. The value raw import indicates that the term is derived directly via import of an entity from an existing knowledge resource. The value definition incomplete indicates that the curators recognize the definition of the class remains incomplete in someway. The value graph position temporary indicates that the class may not be in its final preferred location within the ontology graph. The value uncurated indicates that the class has been created by curators but has received minimal review. The value pending final vetting indicates that indicates the term is likely ready for promotion to "curation complete" status, and only requires a final review by the curators responsible. The value curation complete indicates that the class has been fully vetted by the curation authorities and to the best of their ability determined to be ready for use.</definition><br>
+
+Should be removed and be a subclass of Information Content Entity<br>
+
+<span id="feb_25_2008_minutes">'''February 25, 2008'''</span>
+<br>From Melanie - feb 20 email:<br>
+I would suggest to talk about settings if possible, we are currently trying to see how to deal with instrument settings/configuration with Ryan.<br>
+
+Use case:<br>
+I have a BD LSR II flow cytometer in my lab. For my experiment, I replace its blue laser by a green one (= changing the wavelength from 475nm (blue) to 510nm (green) ) I also add an extra filter to this machine.<br>
+
+If we decide to use defined classe for BD LSRII in OBI, we would for example have BD LSR II has_part (laser has_quality wavelength).<br>
+Then how do I specify the value? Do I use an information content entity (datum) on the same model than for concentration?<br>
+(see the concentration.pdf from Alan, was there a conclusion on how to use it?)<br>
+
+How do I represent the addition of a part to the base model? (this may be a question for the instrument branch and not denrie though, and will probably involve creating a new instrument)<br>
+
+From Philippe - new terms feb 22 email<br>
+Terms:<br>
+-genetic information content (with children diplotype,haplotype, with likely exception of Allele)<br>
+-genotype<br>
+-strain<br>
+-serotype<br>
+
+Rationale:<br>
+these term sound like dependent_continuant  and can not be placed under Material.<br>
+These terms would not fit as qualities in the PATO sense (unless we missed something) hence our decision to approach the DENRIE branch for possible review,analysis and suggestions.<br>
+
+
+Suggested relocation:<br>
+We thought that these terms could fit nicely under 'information content entity' (the definition of the class seems to agree with this proposal).<br>
+
+
+Review action items on <br>https://wiki.cbil.upenn.edu/obiwiki/index.php/DigitalEntityandNon-realizableInformationEntityCalls#feb_14_2008_action
+<br>
+
+jennifer fostel: what is the relationship between the genetic info and the sequence?<br>
+Melanie Courtot: seq is the material about which we have more information (genetic)<br>
+<br>
+jennifer fostel: settings use case:<br>
+jennifer fostel: my protocol for visualizing DNA content using a fluorescent microscope:<br>
+
+Stain cells with DAPI (4¥, 6-diamidine-2¥-phenylindole, dihydrochloride), 10 mg<br>
+Excite with laser set at 360 nm<br>
+Observe using filter set at 456 nm<br>
+
+Stain cells with bisbenzimide <br>
+Excite with laser set at 365 nm, <br>
+Observe with filter set at 470 nm <br>
+<br>
+Melanie Courtot: genotype has domain genome<br>
+Philippe Rocca-Serra: yes that was my point, we probably need to specify what independent continuant the information entity inheres in. Once we have done this (and if this is possible) then we can have defined classes. this would address Jennifer 's point<br>
+Chris Stoeckert: is_rendered_by: a relation between a data set and a report display element where the data set is visualized or depicted in the form of the display element.<br>
+example of usage: a data set is rendered by a graph. The heights and weights of patients are rendered as a dot plot.<br>
+<br>
+AR: You might include mention of the fact that there is a data transformation involved in converting the data set to one which is isomorphic to the position on the medium the rendering is on.<br>
+
+
+
+<span id="feb_14_2008_minutes">'''February 14, 2008'''</span>
+* addressed action item from workshop on relation between graphs, plots, etc. and data sets. In DENRIE, graphs and plots are types of report figure. Data sets may or may not be transformed to be visualized as a graph. Agreed on relation between a data set and its rendering as a graph. For example, a data set consisting of tuples of heights and weights is rendered as a dot plot. The relationship "is rendered as" needs to be defined.
+
+
+Comments during the call:
+
+I/ data set
+
+data_set (like gene list) constituted of ID (accession) + text description (name)
+
+example: data_set regarding brain regions from Bill
+
+ID_72 Brain cortex
+
+=> need to link between the file and the physical region.
+
+idea is to have brain cortex in the list is ABOUT (new relation to be created. RO, Info Ontology?) the physical region (brain cortex part_of brain)
+
+
+II/ visualization and plots<br>
+After experiment you get a data set. This data set is either used immediately or transformed (log log) before plotting. Dot plots are visual rep of dataset with X,Y coord.
+
+Data transformation would be first log transfo of the points, when we render that as dot plot. The dot plot would be about that data set.
+
+simple example:
+we have a list of people and their weights (data set). We can make a graph of that.
+we can take a data set and directly visualize.
+
+1st way: visualization is a bar chart and we have a data transformation that takes the list and transforms it into an other data set that is then rendered.
+Does any data set need to be transformed before visualization?
+
+AR: not all, for example you measured forces of impact vs distance -> we got 2 pairs that can be taken natively by dot plots (=inputs are ready for the plot). For other kind of plot (eg density plot) we need to transform before.
+
+General relation between Information entity and concretization of them :
+
+- plot is part of the document<br>
+- relation between plot and the data set probably about several things: about your data set, the weight of the people...: maybe relation Is_rendered as which would be sub property of about
+
+
+We need to define the type of data sets that would be ok to be input of the different plots
+eg data_set with child pairs
+dot plots would go with other report display element
+dot plot is rendered from pairs data sets.
+
+=> we need to sort out the types of data sets
+
+
+
+* Noted that gene list is a type of data set and should be moved under data set.
+
+* addressed action item regarding "qualities" of information content entities. A characteristic or an attribute of a file is the format specification according to which it is structured. An issue raised is whether instances of format specifications such as OWL belong in OBI and if they do belong, how are these instances related to classes?
+<span id="feb_7_2008_minutes">'''February 7, 2008'''</span>
+* AR and BS: information ontology will be created, and we'll get rid of information entity and below in OBI -> these will be moved to the newly created information ontology.
+** AR and BS: will try and set up the information ontology before march 1st
+* datum = magnitude + unit
+* what do we do with variable?
+* Qualities and independant continuant
+** IE (eg gif file) and you want to associate a quality with it it breaks BFO which is why we want features (work around eg for math entities outside bfo, gifness)
+** Examples:
+*** log function: (currently under DT) that log transfo has_base 2
+*** or polynomial approximation has degree x
+** we could make subclasses of polynomial approximation but not satisfactory, we want to get the number not in the name. Feels like quality of process, but process can't have qualities.
+** we would have log_base under features for example
+* parameters as instrument settings -> qualities
+** parameters as variables, are input of your plan, and these are information entity that are specifications of what a process would be
+* last AI: make relation between process and image coming out of it -> DENRIE needs to define basic relations:
+** - units in place with datum
+** - worked examples
+** - thinking on organization and where parts go
+* Information entity: to add model number and serial number
+
+<span id="jan_15_2008_minutes">'''January 15, 2008'''</span>
+Attending: CS, AL, MC, AR
+* Use cases. Agree that the textual use case listed by Ryan on parts of a flow cytometry experiment is relevant to DENRIE. Either Alan will be prepared to support with DENRIE terms or present if Ryan doesn't (Melanie will check). Alan will also think about textmining use case and how it would benefit by annotation of parts of document with OBI terms. Chris will look at whether MO terms are in DENRIE and how used.
+* New terms from Data Transformation. Two classes: Bernoulli trial and Probability distribution. Will pass Bernoulli trial to Protocol application branch but indicate that we are willing to capture the outcome of such a trial (success/ failure) as a type of datum. Probability distribution can go in DENRIE as a type of information content entity. Note that new terms will go into owl file not spreadsheet.
+* Terms for other branches. It was agreed that the terms listed in the spreadsheets under DigitalEntityTerms-Aug9 can be passed on. Some question though about potential role terms (e.g., documentation). Event will be passed to Plan branch but will indicate willingness to capture event log. 
+* did not get to last agenda item to discuss Melanies review.  
+<span id="jan_8_2008_minutes">'''January 8, 2008'''</span>
+- format standard: It should be made clear what we are referring to. In our case we are referring to the ensemble of files that would comply with a specification, and not to a particular file. Format standard should maybe be renamed as "standard formatted data" for example.
+
+- digital entity: They should stay separated of information_entity (example a picture of somebody is not somebody) but there might be a relationship "is_encoded_as" between information_entity and digital_entity. This would also apply for a data_format_specification (eg OWL) that is encoded into a data_format (OWL). We will need to modify the definition which currently states that a digital entity is an information entity (otherwise would need to be a subclass of information entity)
+
+- problem with concretized_information_entity: We should be made clear what it is. There is no definition at the moment, Alan will check with Barry what was the intention here (and copy to the branch mailing list). MC misunderstood as "something with physical existence", which as pointed out by AR is clearly not what was intended here. Digital entities are not concretized information entity.
+
+- plan branch: There is no class named Plan in OBI. It is understood to be the branch called "information entity" and other classes (e.g. concretized information entity), a synonym should probably be added there. MC will email Philippe and check with him, and suggest addition of the synonym.
+
+<span id="aug_9_2007_minutes">'''August 9, 2007'''</span>
+
+Alan summarized work by the SWAN project.  They define four terms that may be useful to OBI:
+item is an instance; a particular book, for example
+manifestation the class of “the same” book; our idea of generically dependant continuant
+expression, the information content, also generically dependent continuant
+work might be equivalent to the results of an investigation, but this would need the capability to refer to ideas and specimens
+
+There was some concern that SWAN and OBI would have different use cases, and we tabled the discussion for the moment in order to make progress on the list of terms.  Chris S and Christian have identified terms that probably do not belong in this branch.  We started at the top, with BFO terms….
+
+Looking at the excel file we had extensive discussion about the scope of the branch.  The idea was not to replicate all of reality in this branch, but to use relationships heavily.
+
+Our branch is concerned with informational representation of some property that exists
+for example, blood pressure exists in reality.  Measurements or codifications of blood pressure belong in this branch.  Magnitude belongs in this branch as an information entity rather than a quality.
+
+We then discussed units.  Are units part of the dimension / particulars of the physical magnitude of the real world or are they a cardinal part of the measurement?
+
+Various solutions were offered:
+
+AR - magnitude, dimension, unit = result of measurement, before the triple is accepted as quality; instance with two or three parts (depend on unit-dimension relationship)
+
+AR: length is a quality of something; units => different ways to express that quality
+meters or inches.   
+
+There will be a units ontology; we need to decide how to associate units with the value of the measurement.  We also anticipate having “funky” units in addition to standard units vs non-standard measurements (e.g. inches vs meters, cells per mL, many mass/activity per volume measures).
+
+Use the relation “is_value_of” and “has_unit” or use “Has_value_in_meters_of”
+Most preferred to build the unit into the number, not the relation.
+
+Someone raised the idea of quality, quality determinant and data.  for example, a quality determinant may be a specific blood pressure of 120/80, while blood pressure itself may be a quality (also called a trait)  CC: determinable quality = quality.  No one thinks qualities belong in this branch
+
+CS: we are discussing information that is captured about some object, some quality of some object. how do we represent that information about that quality; do we have a relation "about"
+
+there was fundamental agreement about this view:
+types of info that we gather about the world belong in our branch, with relationships to the entities that we have info on.  e.g. measurements and values (here), about qualities (PATO), on entities in other branches
+
+is unit inherent in quality?  no
+thus units are a type of information, about a dimension (not generally accepted by the group)
+
+possibly unit = proxy for relationship between the number (39.7) and the particular length inch
+
+CC: the string “metre” is information, but not a unit; must connect string metre to something in reality
+
+AR - dimension = thing out there; need to address 39.7 inches vs 1 meter
+CC: conventionally agree to adopt a reference length
+AR: - where does this go?
+CC either physical stick or particular thing
+AR how do we say it? need to know we are all talking about same thing
+AR – there is a set of physical objects that represent lengths what about speed?  time?
+CC standard process that you can replicate that has the length of a second
+AR: the measurement is 39.7 times this thing; how do we represent it in OWL? what particular do we create?  CC will think about this
+
+we also need to include probablility measures, and the idea of “a fact”
+
+
+<span id="sep_13_2007_minutes">'''September 13, 2007'''</span>
+
+We had a branch call today and discussed some of the issues.
+
+1) Send the representation that Gully sent us to the members of the protocol application branch, to have them use it as a test case. When they hit the measurement boxes, send it back to our branch. This is dependent on Gully's consent.
+2) In the mean time work on how to say: a measurement of 50 grams. in OBI, to get the basic plumbing in order.
+3) Skip the issue of qualitative measurements until we have a handle on quantitative measurements. Null hypothesis: They go in PATO. (But, what do we call the recording of which tunnel a fly flew down in a behavioral experiment)
+4) Postpone the question of the 4 types of measurement and instead let that be pushed by them coming up in test cases we want to represent.
+
+Cristian will write up some thoughts about measurements.
+Alan will write small example of "50 grams" measurement in OWL for discussion next week.
+All think about hybridization measurement from Chris
+
+
+<span id="sep_20_2007_minutes">'''September 20, 2007'''</span>
+
+<pre>
+Chat History with Skype Conference (#alanruttenberg/$b0e1f25151e38f60)
+
+Created on 2007-09-28 01:53:32.
+
+2007-09-20
+Alan Ruttenberg: 10:39:15
+    My favourite bit of Cristian's email: "Propositions obtained as outcomes of measurement processes are, generally and rigorously speaking, false"
+Alan Ruttenberg: 10:39:29
+    which is true!
+Alan Ruttenberg: 10:41:05
+    kevin's fading
+Alan Ruttenberg: 10:41:13
+    try again kevin
+Alan Ruttenberg: 10:41:41
+    first part of sentence ok, second part not.  Can you type it?
+Alan Ruttenberg: 10:42:39
+    lost kevin. Assuming I shouldn't be called back.
+Alan Ruttenberg: 10:46:09
+    Example B: Information about a microarray experiment:
+    1. RNA is present in a mouse liver.
+    2. Protocols applied to the liver generate fluorescent material bound to an array.
+    3. The array with bound material is scanned. (reality)
+    4. Fluorescence over each part of the array is measured as photon density and recorded as an image. <the image is a type of measurement of the fluorescence over the array>
+    5. Values are generated from the image.
+    6. A plot (figure) is generated from the values
+    7. A statistical measure (likelihood score or p-value) is calculated from the numbers.
+    8, A statement is made on gene expression based on the statistical measure.
+Cristian Cocos: 10:49:03
+    sorry folks, i gotta go, pick up kid from kindergarten
+Alan Ruttenberg: 10:53:37
+    http://en.wikipedia.org/wiki/Turtles_all_the_way_down
+Chris Stoeckert: 10:56:31
+    data/datun = recording of the output a measurement by an instrument
+Chris Stoeckert: 10:58:30
+    types of data = primary data, processed data
+Alan Ruttenberg: 11:04:50
+    relatonship is proxy
+Alan Ruttenberg: 11:04:55
+    light proxy expression
+Alan Ruttenberg: 11:05:22
+    two kinds of operations: 1) Data transformation 2) Proxy statements
+Alan Ruttenberg: 11:05:45
+    All numbers associated with something real.
+Chris Stoeckert: 11:07:07
+    pixel intensity -> summation of pixels in a specified region = transformation to gene intensity
+William Bug: 11:09:45
+    photon collision --> energy transfer --> detector pixel electron accumulation --> virtual pixel values in a 2D array --> thresholding process --> segmentation process --> area measurement --> spot amplitude --> transcript expression
+William Bug: 11:13:29
+    calibration is important for deriving:
+         * detector pixel electron accumulation
+         * thresholding process
+         * transcript expression
+</pre>
+
+
+<span id="sep_27_2007_minutes">'''September 27, 2007'''</span>
+
+* reviewed Chris's reconciling of the branch suggestions for the terms in the Denrie Google spreadsheet
+* in agreement on entries up to row 59 (with caveats below)
+* Conversion to OWL
+** AR: other tasks prevented running the conversion, yet.
+** BB: Jena-based conversion code would be able to convert the content in this spreadsheet to OWL classes with the appropriate parent & annotation properties.
+* cardinal part of value
+** AR: number is being debated presently on the BFO list - should wait for the outcome before doing any more on this in OBI
+** CS: we will definitely require cardinal part of qualitative value
+** AR: should expect to specify such qualities using PATO
+** BB: some qualitative values are observations, others are a form of data reduction - used to promote uniform classification of related observations - may include a mapping between continuous values and specified ranges assigned to qualitative categories
+** same for categorical value (from CDISC)
+* documentaion (based on CDISC term)
+** as defined by CDISC, documentation = data object
+** may need a means to specify this as a synonym for OBI data object
+* statistical values (e.g., confidence value, p-value, S.E.)
+** BB: these are not observations but used to qualify a collection of observed values - a means to specify the relation between observed values and the population of possible value that could be observed in reality
+* parameter threshold
+** AR: is this an observed value - or is it not an instrument setting?
+** often will be specified in a particular protocol - along with specification of what standard to use in order to properly set an instrument detector offset and gain
+** an instance of that protocol will also then need to specify the ACTUAL setting for a given experiment
+** this needs to be vetted with the instrument branch
