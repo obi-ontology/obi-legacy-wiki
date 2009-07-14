@@ -1,0 +1,80 @@
+== OBI 1.0 ==
+
+OBI 1.0 is scheduled to be released on ...
+
+== Roadmap ==
+
+
+
+== Milestones ==
+
+{| border="1"
+|+ Milestones for Release 1.0
+! Item !! Responsible !! Team !! Due date !! Comment
+|-
+| MIREOT ("imports") [http://docs.google.com/Doc?docid=dzprnmw_24cp3693dd&hl=en policy]
+| AR,MC
+| JM, AR, PRS, MC, DS, AL
+| Complete
+|
+|-
+| Deprecation policy [|Deprecation [http://docs.google.com/Doc?docid=dzprnmw_20cdv87mdw&hl=en policy]
+| AR
+| DS, JM, AR, PRS, MC
+| Complete
+| 
+|-
+| OBI [|OBI-Minimal [https://wiki.cbil.upenn.edu/obiwiki/index.php/MinimalMetadata Metadata]
+| DS
+| DS, AR, GF, SAS, AL
+| Complete
+| Link to [http://docs.google.com/Doc?docid=dg9kgrmp_0kb9g38dc&hl=en google document] 
+|-
+| OBI [|OBI & OBO Foundry [http://www.obofoundry.org/wiki/index.php/Naming Naming Conventions]
+| DS
+| DS, SAS, PRS, OBO Foundry members
+| Complete (98% done)
+| Link to [https://wiki.cbil.upenn.edu/obiwiki/index.php/NamingConventions OBI Wiki] 
+|-
+| Use cases and Competency questions [https://wiki.cbil.upenn.edu/obiwiki/index.php/OBIEvaluation here]
+| JM
+| DS
+| Complete 
+| See collection [https://wiki.cbil.upenn.edu/obiwiki/index.php/EvaluationPhase1Submissions here] and document [[Media:OBI_Eval_Phase1_Guides.pdf| here]]
+|-
+| OBI documentation of development lifecycle [http://docs.google.com/Doc?docid=dzprnmw_2fhdrq9dh&hl=en here]
+| JM, MC
+| JM, DS, AR, MC, FG
+| Describing the development process that was undertake to produce OBI, e.g. branches
+| 
+|-
+| User Documentation (i.e. how to use OBI)
+| JM, MC
+| JM, DS, AR, MC
+| 
+| A how to use OBI document. 
+|-
+| Cross products 
+| PRS
+| SAS, PRS, DS
+| Complete 
+| Link to [http://docs.google.com/Doc?docid=dpzgxm6_4ctzwssgw&hl=en google document]
+|-
+| Creation of IAO
+| AR
+| AR, BS
+|  
+| 
+|-
+| Alan not to take on any more AIs!
+| AR
+| Everyone
+|  
+| 
+|-
+| Announcement Publication 
+| BP
+| MC, JM, AR + Everyone 
+| First Draft on 8/31
+| Link to [http://docs.google.com/Doc?docid=dfn5pq8x_12fqrm56hs&hl=en google document]
+|}
