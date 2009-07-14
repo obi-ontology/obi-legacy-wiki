@@ -1,3 +1,6 @@
+[[category:Workshops]]
+[[category:2008]]
+
 ==Action Items Day 4==
 
 <b>AI:Add SNP and LOH methods/processes to dt - DT branch
@@ -175,5 +178,435 @@ AI:Implement feature - normally distributed in OBI and apply to a process.
 AI:Check Ricardo's slides and create a competency question per path
 
 AI:Check R's slides and check all tests are present
-[[category:Workshops]]
-[[category:2008]]
+
+== Monday ==
+
+[[category:Join]]
+
+===Data transformation notes===
+
+===Monday 6 November 2007===
+
+[[Data_transformation_workshop| Main Data Transformation Workshop page>> ]]
+
+<br>
+
+<b>Monday 5 November Notes</b>
+
+Agenda: Goal is to have all of the concepts in place, resolve naming issues, road map to completing the branch also to revisit the general milestones and make sure that Data Transformation is in good shape to deal with that.
+
+1. General introduction to OBI and DT branch: JM.
+
+EM: The OWL file is not updated with the current roles, there's a google doc, and we need access to the document. Melanie has access and we need access to this tomorrow.
+
+1a. Clinical Investigation Ontology 
+
+RiS: We thought it might be a branch or a parallel development, decided at last workshop it is a community and getting terms together for clinical investigation and these fit in the branches. Looking to give first pass structure and then feed to branch structure, use with views. Most of RS time is devoted to this part of OBI. Lots of roles, protocols and plans, few data transformation terms. Most not unique to clinical investigations.
+
+1b. Relations branch. 
+
+CC: Started with the relations ontology, idea is that traditionally ontologies were tree structures using is-a, when representing clinical reality need other relation types. Next paper RO2 being drafted, want to build something for OBI needs.
+
+EM: Is has_the_role in the RO?
+
+CC: Yes that's in RO one.
+
+JM: We have not coded any roles in the OWL file.
+
+EM: Having the OWL file updated on a regular basis (for all branches) would make things more efficient, we just need the roles.
+
+We check and OBI roles are in the google doc file. <br>
+
+1c. Deriving from BFO - history of this was that it was the best fit even though it's not perfect. 
+
+Current hierarchy
+
+Process
+ PlannedProcess
+  ProtocolApplication
+    DataTransformation - output=data, input=data etc
+
+Discussion of whether synth of oligos is data->material, currently not a supported case.
+
+EM: Recently changed data transformation definition to better relate to the siblings.
+
+RiS: There are terms where there are plans and protocol application in clinical investigations and is very sloppy. Bigger issue in the clinical arena, as there are ethical/legal issues and plans are more commonly formulated in advance. Protocol is a child of InformationEntity.
+
+CC: This is an example with the colloquial language problems. People confuse things that are out there with info that is about the things out there. Is another examples.
+
+RiS: We discussed this at the last workshop and that's where the DENRIE branch is working.
+
+2. Roles file has been circulated to dt people by Melanie who has access to the google docs
+for discussion this afternoon.
+
+3. Reviewing the OWL file for data transformation.
+
+EM: MathematicalFunction we have agreed to remove.
+
+JM: We need to consider fundamental maths and stats and where we should stop. It's subjective, if it's basic and is well understood e.g. sine, cosine etc then we will use it anyway.
+
+TB: Philippe wanted to add these e.g. for sine etc, and wanted a placeholder. 
+
+RoS: We need these things, and if there is no other name space.
+
+EM: This is not an issue just with math function, there are some basic field specific terms (math, stats, etc.) which are perfectly established and well defined in the appropriate community, instead of re-inventing the wheel for this (with the risk of sloppy or inaccurate definitions, as is the case for all current definitions in mathematical_functions)), they could be placed in a "primitive" class where the terms are listed with no definitions (possibly with references), so that they can be pointed to. I would'nt put under our branch and shift them out.
+
+TB: OK but how do I organise it, if it's a mathematical transformation I expect to see it under data transformation.
+
+EM: Every def involves English terms and we are not defining all terms used. Sine and cosine don't need to be defined.
+
+RiS: Add terms need to have defs, but they can be from another source.
+
+EM:I would take these current functions as granted.
+
+DS: Similar problem with the instrument branch, as where cases are a make and a type no-one needs a definition. We want something usable.
+
+RoS: If have a list of trig functions and someone complains and get them to define it.
+
+HP: I like the idea of having these terms in the branch. 
+
+TB: What other terms might we need?
+
+EM: P-value is a good example, is a stat term. 
+
+RiS: Arithmetic, geometric, etc.
+
+EM: Put in one place, and group.
+
+RS: BasicMathematicalFunctions?
+
+TB: Suggest that we leave the name as is and revisit if there is a case that breaks the name.
+
+EM: At least remove the definitions.
+
+DS: OBI now tries to model everything in a granular way, not sure it it's realistic. For OBI we need a policy to get people to do the work and define as a sub ontology, and find some mathematicians. Question should OBO organisation deal with this. 
+
+HP: We need to do the do-able while recognising that there is a problem, a math ontology is needed.
+
+EM: Math per se is also an ontology.
+
+RiS: Not formally represented in this way.
+
+EM: I agree with Daniel, not realistic to do this in this community, if you really want to have pointers reference them instead of defining.
+
+MC: We need to keep this in our branch, people will not browse by hand, search for terms and if not in dt, if in some primitive branch, would be better to point out to it as a primitive term. 
+
+RiS: They are all dt through as well as being functions and so they can live here
+
+RoS:the cosine is not the application of a cosine, and this is about application of cosine here .
+
+EM: Suggest that we can add "_transformation" to the terms to make it clear that we are not defining sine but a sine transformation.
+
+RoS: What's the implication of adding these terms to dt branch? When I query will I get the wrong answer? If not then there's not a problem.
+
+RiS: The intention is that there can be defs brought in, for these things we don't need definitions.
+
+EM: Don't feel so strongly that keep them here.
+
+MC: If you add _transformation then you'll need to define it.
+
+EM: The definition could be "application of a function of type sine, where sine is defined in [citation]".
+
+TB: Disliked sine_transformation.
+
+RiS: By place in hierarchy then the definition is part by context.
+
+CC: Question, sine is a class, is there an example of an instance, is it an instance, or is it a class. Maybe these are instances and not have class posn. If do that with these may need to do with all math functions
+
+RiS: Not sure there is an instance of sine, but there is an instance of application of sine.
+
+CC: Sine sounds like a process.
+
+All: Yes, this we're defining the process not the sine.
+
+EM: Will we have instances in OBI?
+
+DS: We have not got a use case where we need instances.
+
+EM: Here is a use case differential_expression_analysis - various algorithms/programs implementing this (e.g. SAM), I don't see these as classes see this as instances of diff_exp_analysis.
+
+RiS: SAM is a type not an instance.
+
+EM: Not a class.
+
+RiS: We don't have instances in the ontology, think SAM is a class, when apply SAM with parameters then this is instantiated.
+
+DS: If look at the properties view, an instances needs all the properties to be true as well helps think of what an instance vs a class is.
+
+RiS: Looking at SAM, see that could also think that SAM is a bootstrap analysis and is a permutation test. Want to re-use the permutation analysis. Want to remove context from hierarchy.
+
+EM: SAM is not in the hierarchy. Permutation analysis is a methodology, used in SAM and in many other applications.
+
+RiS: There are lots of roles for permutations analysis e.g. in differential_expression_analysis
+
+EM: Expectation maximisation, used in multi contexts. Need something besides role e.g. method_used_by.
+
+RoS: Seems like same kind of thing as protocol and protocol application. 
+
+RiS: Need to tackle role.
+
+EM: Role will not work for everything.
+
+RoS: Techniques and application of techniques.
+
+RiS: OK but application of a permutation test can't be the context, need to re-use.
+
+EM: Not opposed to that.
+
+RiS: Need to decide now whether this is a logical design or is about the application.
+
+EM: Permutation test should not be a child of differential expression as it is a methodology used in many different types of analyses.
+
+MM: Parametric/non parametric, 
+
+EM: We don't want an ontology for statistics.
+
+TB: But we need these terms.
+
+EM: We need to decide how we will use them: will we subclass, or have properties? A lot of analysis methods will use a given technique.
+
+MC: Utilizes method/technique, e.g. parametric test and children here
+
+RiS: Is there a stats branch? 
+
+JM: We have probablistic, measurement terms were removed from this branch.
+
+
+Discussion on partitioning vs filtering vs gating.
+--------------------------------------------------
+
+RiS: Worked examples of filtering, random and directed sampling, where sample a subset the subset are sim to the parent class, properties are similar like aliquoting. Where do directed sampling is based on the data. 
+
+EM: Would not call the random partitioning, would call sampling. We have two edged filtering stuctures, filtering is an overloaded terms, has a meaning in flow cytometry, etc.
+
+RiS: I don't agree, gating is a kind of partitioning.
+
+EM: I am not a flow cytomter (ist) and that's what they wanted. 
+
+
+Back to mathematical_function.
+-------------------------------
+
+EM: I want to have all the math function terms and transformation together.
+
+RiS: Also need case where there is a diagnosis based on data.
+
+MC: Diagnosis is a role right now.
+
+RiS: I don't agree with that placement, result of a diagnostic protocol applicaton. Diagnosis is a quality of the person that it describes. To roles discussion.
+
+AI: We agree to remove the existing definitions and point at some citation as well leave a class as a container for similar terms and that we will not address defining the math functions. 
+
+AI: Elisabetta will look for citations for these.
+
+AI: Names will be _transformation (or similar) to clarify.
+
+AI: The sine, cosine etc will be moved under mathematical_transformation and the mathematical_function will be removed.
+
+AI: The name of the current mathematical_transformation class also needs an update as there are other things under other classes that are math trans.
+
+
+mathematical_transformation update from Elisabetta.
+---------------------------------------------------
+
+EM: Current terms are from Joseph and Ryan - flow cyto, Joseph sent a document with the definitions, the problem is that there are several inaccuracies. For example, what they call a linear_transformation is not what linear_transformation is in math. Some discussion on what the terms should be called. Bottom line EM will go through the doc and will discuss with Joseph and Ryan (this might take some time) and then propose modification to these terms, for now leave them alone. One thing thatis agreed upon is that non-linear_transformation should be removed.
+
+
+Role, Quality, Function Discussion moved to today.
+--------------------------------------------------
+
+Discussion on what Role is. 
+
+CC: Barry's position stems from some aristotlean views, 'essentialism': if I remove your fingers will you still be you? Philosophy dealt with this debate, conclusion we cannot make a difference between essential and non essential properties. We could work with this distinction, but if split hairs, will get counter examples to all. Not fashionable in current philosophy. So, modes of predictation - is_a is a mode of prediction and quality_of is different in aristotlean, mainstream philosophy they are not. May not help us in OBI.
+
+RiS: We need to make a decision. We are OK with roles, qualities and types are the problems.
+
+CC: Roles are analogous to functions for me. Role is a function in a social setting, e.g. with a thinking agent. Function is there regardless of whether there is a thinking entity.
+
+Both are context dependent, quality is supposed to be intrinisic. Roles and functions are extrinsic. (Christian is a naturalist).
+
+RiS: Types and qualities, where do you draw that line?  A red car is a car, and ontology explodes.
+
+HP:The ontology is not exploding.
+
+RiS: Back to differential gene expression, what is that? Is it a type, does the permutation test playing a role? And what is the role?
+
+EM: Might not have non-overlapping classes in all cases.
+
+TB: If we can avoid is best.
+
+RiS: differential_expression_analysis may not be a class in the ontology at all, could generate it.
+
+EM: We could have a more general class: differential_analysis rather than differential)expression_analysis. 
+
+RoS: Use of the word goal. There might be a set of techniques that are used to achieve some goal.
+
+RiS: If we separate these things then the ontology is focused and put together as we need them. 
+
+MC: Objective, goal etc. exists in the role branch. All can be roles. E.g. classification is a goal.
+
+EM: There will be a complex hierarchy then between goals, roles etc. and then this could be a problem.
+
+RiS: We need to decide the hierarchy and where it will live. All branches are going through this process, and so someone needs to define goals/roles etc.
+
+MC: Also for the people annotating what will make more sense.
+
+RoS: When using subclasses are implicitly using properties. 
+
+RiS: Most of our terms from clinical investigation, most terms are roles or qualitities.
+
+CC: We shouldn't worry too much about role branch, they have a lot less structure. Will be quite a flat list. 
+
+EM: I think this will be really hard to do, and what we want to achieve.
+
+RoS: It will be hard. 
+
+RiS: At the next meeting there will be a lot of time dealing with roles; this is coming from all branches.
+
+MC: Subclasses of normalization are not roles, they are methods, the role could be normalization and current children will be methods.
+
+HP: Looking at the definition of the normalization then practically we need to push some classes to other branches role/goal- e.g. normalization but not the children which are more specific. Not much therefore needs to change in the dt branch. 
+
+EM: Could attach the roles instead of the container classes.
+
+CC: Where would you put mean_log in the ontology? And is this an exhaustive list? Suggest have a relation normalization of? 
+
+RiS:p Problem is that everytime use a mean would need to generate a new term. Lots of things use a log transformation. If construct terms by using the RO - mean transformation, log transformation. The ontology is not useful alone in this case, need a way to combine these.
+
+EM: Could do in a subclass fashion and then see where we are at to decide how to restructure that in terms of properties, etc.
+
+RoS: Options: either pre enumerate or post enumerate. Either is a burden for the annotator. People are building tools for post enumeration.
+
+TB: People will be able to search a term and pull out a term.
+
+RoS: Or write a program to generate all the combinations. If you generate terms you don't like then the ontology is wrong.
+
+MC: At the end we want to use OBI, the solution is nice to have blocks, but practically we need to provide something annotators can use.
+
+RiS: Maybe we need a discussion about tools. Use phenote to construct complex terms for annotators and then make these available with the tools. 
+
+EM: Cost of generating the tools might be too high. 
+
+TB: We want something useful for all communities. We need to do something.
+
+MC: The current hierarchy is made for that
+
+RiS: Agree.
+
+HP: We need to be able to make imprecise annotations as well, like the idea of normalization class.
+
+HP: Not objecting to the idea of adding things to goal.
+
+RoS: Do you want to say that the data has been normalized, or that normalization has occured.
+
+HP: I will infer one from the other.
+
+CC: Data undergoes normalization, but normalization is a role, data is transformed, transformation has role, normalization.
+
+MC: The transformation has the role, not the data.
+
+Some consensus emerging, we submit normalization to role (and or goal, goal is a subclass of role right now), we keep the class normalization and children. No-one really likes the idea of combinatorial terms except Richard and Christian. This is not what Richard understood, he expected all the children to be moved. 
+
+MC: mean_log transformation can have a role:normalization.
+
+RoS: We have a hierarchy of techniques, e.g. loess, either make a class or infer from property role normalization. 
+
+AI: normalization moves to role subclass of pre-processing. All normalization's children will need to be renamed, and defs checked and the moved to children of the parent class data transformation. All the children can have the has_role 'normalization' property.
+
+RoS: Is normalization always pre-processing?
+
+TB: We need to generalize normalization prior to submit to role branch - we are using the omics branch. 
+
+EM: Normalization represents different concepts in different contexts. In database, schema normlization refers to removing redundancies. In statistics it is sometimes used as transforming the data so that they have a Gaussian distribution. Will we use all of them? 
+
+MM: Thinks it's safe to have the term normalization with the current meaning.
+
+We think we can proceed now with using the term normalize.
+
+MC will communicate with the role branch.
+
+RiS: Solution for role and goal. Roles are played by proposition. Proposition can play the role if hypothesis, conclusion.
+
+"a goal is a role that a proposition plays"
+
+e.g. differential expression, that's a hypothesis, could be a conclusion, could be a goal.
+
+the same proposition can play many roles. 
+
+MC:under 
+
+ -role
+  -hypothesis
+  -objective of process (goal)
+
+AI:suggest that role branch 'objective of process' is renamed to goal
+
+Prior to discussion with Daniel we take a look at the SW ontology. Seems to be quite wide ranging and has Gene, and data processing terms. 
+
+
+EM and MC's clean up document selected items for discussion:
+-------------------------------------------------------------
+
+1. We have changed def of data transformation so it fits the siblings. EM doesn't like the name, suggests data analysis or data processing. 
+
+Discussion and we decide we can live with this now the definition has been improved.
+
+2. pre-processing is what might happen prior to down-stream analyses (might need data preparation). Issues with definiton and the name. 
+
+RiS: There's an issue of how things are linked together in order. This is an example of this problem. There's a preceeded_by in RO. 
+
+HP: Propose remove these 2 roles and add normalization branch. Agreed.
+
+AI: MC will tell roles branch that prev 2 terms are removed and normalization will be added.
+
+AI: Elisabetta will clean up the file and change this.
+
+AI: Ask for OBI meeting discussion on roles.
+
+3. Issues about measurements - needs to be represented in the digital entity. Discussion on what should be done re event in BFO. 
+
+
+Skype call with Daniel.
+-----------------------
+
+Daniel. NCBO have been contributing to content so far. Descriptions only on tools that have been produced. Why were gene and protein there? OBI like process to clear out stuff. View is to describe software (SW) tools same way as Gene Ontology is used to annotate a gene. Concern on SW ontology. Started around the same time as OBI. 
+
+Use case, a researcher want to find a tool that will help me do a kind of analysis. Tool discover use case. Inputs and outputs, pipelines etc. Collaborative protege, and would edit live. 
+
+Daniel (or DS?): instrument branch has not yet got SW. Edit access to OBI, and edit two ontologies may not be the best way to go. View generation mechanism for ontologies, e.g. FMA for radlex. this is another use case.
+
+RiS:  We'd like the SW ontology to be focused on SW, gene, etc are covered by other ontology development groups. SW is a subset of what's being done. We'd like to have the SW ontology. Daniel wants to cross check the ontologies vs. OBI and harmonise.
+
+SW ont is not an obo foundry.
+
+Next step, feedback on list and say which things are in OBI. 
+No upper level ontology now. Not using BFO. 
+Would really help us if you did that. 
+Best way is to have a webex.
+Trying to get a community together for the ontology. 
+Are there use cases, competency - no - but he wants examples. 
+Tools to annotate phrases in databases e.g for NLP - no name, bioportal, web service to mine ontology terms. Relationship with phenote - you can extract ontology info, index terms or phrases using ontologies, or describe semantics e.g. of a sentence using ontology terms. Not same as what pato or a curator is doing. 
+
+
+Discussion.
+-----------
+
+RoS: Lot of work on ontologies that describe web services, inputs and outputs, tasks, e.g. DNA sequence, etc. Might be why Daniel has these inputs and outputs, which are covered in OBI, DW is also a DigitalEntity? Don't know if the MyGrid ontology has microarray stuff. 
+
+RiS: Confusion between SW ontology and need to annotate SW to be able to annotate it. He's trying to do both of those things. Input file and output files and those files have a syntax, and this might be better in the SW ontology. 
+
+RoS: Group of people in EBI who have funding to build a catalog of bioinformatics web services,  in collab with Manchester. There's some potential overlap. These are also SW components. Asked for an OWL file.
+
+RiS: We could id terms that belong to dt branch and add them to our list if we have them. 
+
+EM: List of SW packages, need to keep in mind that the SW are built to do a lot. E.g. GeneSpring does a lot of stuff, need to figure out what the context is. 
+
+RiS: Is a perl script SW?
+
+HP: If it's executable it's SW.
+
+TB: There's some stuff that's reusable.
+
+AI: Where there's an overlap with data transformation we'll point it out and interact with Daniel.
+
+AI:we will generate a list of dt transformation term.
