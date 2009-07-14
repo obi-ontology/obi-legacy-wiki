@@ -1,0 +1,255 @@
+== 07 June 07 ==
+
+Summary
+
+1. We don't much like the definition of prediction the BP provided, but we don't have anything better right now. Other epitope related terms were OK we think - in scope. Could also include genotype related terms for seq feature prediction are also in scope if epitope prediction terms are. 2. Jamie Lee has said people who provided the terms will get back to us where we had questions - Tina will remind them 3. Prep for dev call on 20th -Tb will look at Daniel's report 4. HP will look into room availability for a workshop on dt in Hinxton in Oct/November 2007 - funding is available on Emerald and we think we need a workshop to build the heirarchy and extend dt terms 5. James will work on hierarchy next week and try ti improve defs 6. Helen will work on completing her defs as will Tina - Ryanmay have done some of them - check master before proceeding.
+
+AA:continue defining, use Tina's master sheet
+
+
+
+
+Minutes:
+
+Bjoern's mail aboutr predictions - we didn't like the definition.
+
+B cell epitope - seq feature predcition, sequence regio has role epitope -
+
+we are not sure if this is a dt - like theSNP array prediction
+
+Tina has added the defs Bjoern sent, need to check on hp rdefined terms.
+
+HP:to add the terms sent by Elisabetta
+
+TB:Jamie-Lee's terms. Jamie-Lee has asked people to talk to use about the terms, not got anything back yet.
+
+HP:suggest we send the recent definitions as an example. Might need a workshop to deal with these definitions
+
+AA:HP to look into meeting room availibility for Oct-November for data transformation
+
+TB:what should we do with the master file. Make sure that the terms that are there fit.
+
+HP:cross check the class heirarchy?
+
+TB:yes
+
+HP:did we finish defining these yet? I haven't
+
+TB:OK lets focus on that then
+
+BP:question about precision - and subclassing. HP will add a new column of alternate subclass
+
+JM:had no problems with mine, but will come up with better defs of the classes next week
+
+TB:linlog is under mathematical transformation -
+
+TB:linlog is in two places - Ryan did more than his terms. He did some of James and Helen's too.
+
+AA:remove linlog from mathematical transformation -> normalization (variance stabilizing transformation.
+
+AA:check Ryan's list - he's done some of our terms
+
+AA:bayesian analysis needs to be added for bayesian models.
+
+AA:work to Tina's master file posted 7 June 2007 if still doing definitions
+
+James:for the Dev call we are under review for dev call.
+
+HP:report that Daniel wrote was nice. Main dif is that we have more tightly defined things
+
+JM:will look at the heirarchy and make a diagram
+
+TB:will look at Daniel's report and plan to post to dev list prior to the dev call.
+
+
+
+
+
+Data transformation call. 07 Jun 2007. Tina, James, Helen.
+
+
+Summary
+
+1. We don't much like the definition of prediction the BP provided, but we don't have anything better right now. Other epitope related terms were OK we think - in scope. Could also include genotype related terms for seq feature prediction are also in scope if epitope prediction terms are. 2. Jamie Lee has said people who provided the terms will get back to us where we had questions - Tina will remind them 3. Prep for dev call on 20th -Tb will look at Daniel's report 4. HP will look into room availability for a workshop on dt in Hinxton in Oct/November 2007 - funding is available on Emerald and we think we need a workshop to build the heirarchy and extend dt terms 5. James will work on hierarchy next week and try ti improve defs 6. Helen will work on completing her defs as will Tina - Ryanmay have done some of them - check master before proceeding.
+
+AA:continue defining, use Tina's master sheet
+
+
+
+
+Minutes:
+
+Bjoern's mail aboutr predictions - we didn't like the definition.
+
+B cell epitope - seq feature predcition, sequence regio has role epitope -
+
+we are not sure if this is a dt - like theSNP array prediction
+
+Tina has added the defs Bjoern sent, need to check on hp rdefined terms.
+
+HP:to add the terms sent by Elisabetta
+
+TB:Jamie-Lee's terms. Jamie-Lee has asked people to talk to use about the terms, not got anything back yet.
+
+HP:suggest we send the recent definitions as an example. Might need a workshop to deal with these definitions
+
+AA:HP to look into meeting room availibility for Oct-November for data transformation
+
+TB:what should we do with the master file. Make sure that the terms that are there fit.
+
+HP:cross check the class heirarchy?
+
+TB:yes
+
+HP:did we finish defining these yet? I haven't
+
+TB:OK lets focus on that then
+
+BP:question about precision - and subclassing. HP will add a new column of alternate subclass
+
+JM:had no problems with mine, but will come up with better defs of the classes next week
+
+TB:linlog is under mathematical transformation -
+
+TB:linlog is in two places - Ryan did more than his terms. He did some of James and Helen's too.
+
+AA:remove linlog from mathematical transformation -> normalization (variance stabilizing transformation.
+
+AA:check Ryan's list - he's done some of our terms
+
+AA:bayesian analysis needs to be added for bayesian models.
+
+AA:work to Tina's master file posted 7 June 2007 if still doing definitions
+
+James:for the Dev call we are under review for dev call.
+
+HP:report that Daniel wrote was nice. Main dif is that we have more tightly defined things
+
+JM:will look at the heirarchy and make a diagram
+
+TB:will look at Daniel's report and plan to post to dev list prior to the dev call. 
+
+== 31st May 07 ==
+
+Agenda
+
+    * Discuss term classification assigned to each editor last week 
+
+Terms to be discussed can be found here:
+
+
+cellpadding1 cellspacing1 border=1
+Editor of File 	File
+Jeff (2-23) 	
+Ryan: (23-52) 	2 files here |
+James: (53-82) 	[[ http://www.ebi.ac.uk/~malone/OBI/datatrans/JMDataTranHieararchy.xls|file here 	http://www.ebi.ac.uk/~malone/OBI/datatrans/jmdatatrans.xls]] also here is an alternative hierarchy view
+Helen: (83-102) 	See above file
+Philippe: (103-132) 	
+Richard: (133-162) 	
+Tina: (163-183) 	1 files here |
+
+?>
+
+Actions:
+
+    * Editors to create 'good definitions' for each term allocated as above.
+    * Consider hierarchy changes by looking at new classes created using the good start made by Philippe and added classes from James' spreadsheet. 
+    
+
+== 24th May 07 ==
+Notes from Call May 24, 2007
+
+present: James, Ryan, and Tina
+
+    * Each editor will take 30 terms from the term list dated 17th of may to assign a class. We will add a column to the spreadsheet to add which class each term is to go in 
+
+    * Use the spreadsheet that Philippe sent out back in Dec '06 as a basis to be edited as needed for the hierarchy 
+
+    * Tina to send data questions to submitters, there were many terms that we asked for better definitions and/or examples. Tina will send these terms back to the submitters for additional information 
+
+    * Order for taking 30 terms: tina ryan james jeff phillippe 
+
+    * Tina to recirculate everything via email 
+
+    * Send note to obi-datatrans list that data were sent individually due to size constraints 
+
+'next week is the deadline
+
+    * call next week to go over terms 
+
+    * if you cant make deadline, please let us know immediately 
+
+'cc chris s. on the email 
+
+== 17th May 07 ==
+
+Call from May 17, 2007
+
+Present: Jeff, Ryan, Tina
+
+We finished going over all the terms in the list -- Yea--
+
+All terms have been commented on by the group/and or editior 
+
+== 26th April ==
+Hi All,
+
+Here is a recap from our call this morning (4/26). I have also posted these on the wiki, so please feel free to comment/update as you see fit. It was decided on the call that we will try and get most of the work done off-line.
+
+
+1) Solicit more data transformation terms for other communities. So far we only have terms from the following groups:
+
+* MGED Ontology Terms
+* Genetic Association Terms
+* Gene Expression Microarray Terms
+* Network Analysis Terms
+* ELISA Terms
+* ELISPOT Terms
+* Polymorphism Terms
+* Flow Cytometry
+
+2) Finish going through the submitted terms independently. Please continue to mark up the terms as we have previously done on the skype calls, noting problems with definition, alternative branches, etc. Would it be possible for everyone to go over the remaining terms before 5/10? The latest file can be found here: https://www.cbil.upenn.edu/fugowiki/uploads/datatransterms26APR07.xls
+
+3) Contact data submitters to get more information about definitions in question. -Once we have gone through the rest of the terms, we will make a list to be sent back to submitters that contains all terms/definitions that editors have marked as needing more information/better definition.
+
+4) Go over the heiarchy that philippe sent off line https://www.cbil.upenn.edu/fugowiki/uploads/MSI-CV-DataTrnsfrm-201206.xls Once everyone has had a chance to go over these, we can have a call to discuss the structure
+
+5) Ask Trish to add agenda to get richard terms sorted out done. This is set for Wednesday 5/2 
+
+
+== 15th March 07 ==
+
+Present: Philippe, Ryan, Jeff, and Tina
+
+Notes from call:
+
+Need to better define what we mean by data transformation. We have data coming in and data going out, but what is in between. Is it 1 step or a protocol?
+
+Who will handle data visualization? Will that fall into data transformation?
+
+Started to go through the list of terms that were already collected (see attached) 
+
+== 1st March 07 ==
+
+Action items from Data transformation call (from memory, the pen and paper version was swallowed by my desk it seems � my apologies)
+
+- Ask Trish about the standard template for groups supplying terms
+
+Trish and Allen have discussed a standard formatted Excel file and a parser for them. Waiting to hear when that may be ready.
+
+- Ask those that sent in data to resend in with MIO terms and with consistent formatting
+
+Its not clear to me what the final consensus on human readable versus camelHumps versus underscores was. I think I confused things by using the work �term�
+The new list should be in a consistent format from groups (as per above)
+I suppose most important was the extra MIO bits that are now requested.
+
+I think we agreed to put out a general call, as well as specific emails to the people that sent in terms
+
+
+- Make an email list and a wiki page
+
+Done
+
+Additional data transformation branch action items from last call
+
+- Move algorithms to plan branch - Remove statistical measures transformations - Identify potential new classes based on submitted terms that should be part of data transformation
