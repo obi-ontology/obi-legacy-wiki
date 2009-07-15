@@ -30,6 +30,15 @@ To keep the wiki clean, we recommend to use the following logic when creating a 
 : Example 2: Workshop_OBI_Vancouver_2009_13_July_notes
 : Example 2: Workshop_OBI_Vancouver_2009_13_July_agenda
 
+* '''Is it part of a 'group'?'''
+: Some of the pages you need to create are part or recurring events such as workshops, use cases, case studies, conference calls... To allow the wiki admin for an easy overview on such pages, do use the structure appropriate for these pages. The following pages require a specific name-structure:
+:: - Use case: use "Use_case_Example_x"
+:: - Case Studies: use "Case_study_Example_x"
+:: - Conference Calls: use "Conference_call_TheBranch_TheDate_notes/agenda/..."
+:: - Workshops: Workshop_OBI_Place_Date_...."
+:: - OBI releases: use "OBI_release_v_1-0" (= OBI release version 1.0)
+
+
 * '''Add the category'''
 :Categories are used to organize and structure the wiki. It e.g. allows you to navigate to the category 'Workshops' and get an overview of all the 'workshop pages' on the wiki. The only thing you need to do is add the appropriate category to the page using the following syntax:
 : <pre>[[category:CategoryX]]  [[category:AnotherX]] [[category:Example 3]]</pre>
