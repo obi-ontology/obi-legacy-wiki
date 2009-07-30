@@ -1,0 +1,23 @@
+'''Where to add svn checkout instructions?''' 
+
+A) Install latest Protege 3.4.X version from 
+http://protege.stanford.edu/download/registered.html 
+
+B) Install an svn client. For windows, we recommend 
+http://tortoisesvn.tigris.org/ 
+
+C) Using the svn client, check out 
+http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology 
+(If you want to commit changes back to the repository, you will need to use
+https: instead of http:, and will need a sourceforge password for obi.)
+
+D) Go to the directory: ontology\branches and remove the '.template' 
+extension from the files obi.owl, obi.pprj, obi.repository
+
+E) open the obi.pprj file in protege
+(double clicking works on windows)
+
+
+'''How to get the password'''
+
+To obtain the password, first register at sourceforge https://sourceforge.net/account/registration/ , and then email the obi developer mailing list (obi-devel@lists.sourceforge.net), and ask for access.
