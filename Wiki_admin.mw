@@ -83,15 +83,14 @@ To allow for a consistent styling of tables, we created a class in the main.css 
 For a more detailed overview on how to use tables, see [[http://en.wikipedia.org/wiki/Help:Table this wikipedia page]].
 [http://www.example.com link title]
 
-= Progress =
+= Tasks =
 
 
-[https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Dropped These pages] are currently considered not useful and as such dropped. <br>
-Is it a good idea to join [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Join these pages]. Joining means loosing the history and discussions. (working on it)<br>
-What's shall we do with all the [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Action_items action pages] on the old wiki? Submit to tracker, drop or create 1 page? Currently the following pages and content will be added to the [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:Tracker Tracker]<br>
-Where do [https://wiki.cbil.upenn.edu/obiwiki/index.php/Category:%3F these pages] belong to?
-
-
-
+* Fix [[Special:Wantedpages | broken Links]]
+* <s>Move/Migrate Old wiki pages</s>
+* Create Table CSS
+* Clean Up Redirects
+* <s>Create Admin page</s>
+* <s>Write guidelines for namespaces</s>
 
 [[category:Wiki admin]]
