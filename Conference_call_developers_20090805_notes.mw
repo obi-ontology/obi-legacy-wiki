@@ -117,376 +117,381 @@ RB will be chair for next Monday's (Aug 10) call.
 
 Recorded chat during Dev call:
 
-jie zheng: Agenda:
-1a.
-set the chair’s for the next set of devel calls, assuming people are 
+* jie zheng: Agenda:
+
+1.set the chair’s for the next set of devel calls, assuming people are 
 happy with the current twice weekly call frequency, which should also 
 probably be reviewed.
-1. Possible OBI workshop in Sep/Oct - Alan made some comments about 
+
+2. Possible OBI workshop in Sep/Oct - Alan made some comments about 
 aligning with OWLED. Can we agree on date place perhaps?
-2. Manuscript progress - Melanie currently has doc, wondering where it 
+
+3. Manuscript progress - Melanie currently has doc, wondering where it 
 is going next and actually wondering how close it is to being finished.
-3. status of release
-Helen Parkinson: Hi everyone. Looks like a better turnout today, no 
+
+4. status of release
+* Helen Parkinson: Hi everyone. Looks like a better turnout today, no 
 canadian holidays  ;-) 
-jie zheng: 4. solution of restrictions of obsolete_classes, please check 
+* jie zheng: 5. solution of restrictions of obsolete_classes, please check 
 the link for detailed:
 https://sourceforge.net/mailarchive/forum.php?thread_name=29af5e2d0907292300g633ab3eco17f0761cc3d20395%40mail.gmail.com&forum_name=obi-devel 
 
-5. OBI documentation
+6. OBI documentation
 Is it better to create other types of tracker other than OBI terms, such 
 as, Action items (assigned in Dev call) or some other issues discussed 
 in mail list?
 If agree, I volunteer to add those in after Dev call and from mail list.
-6. Tracker items - there are quite a few high priority tracker items to 
+
+7. Tracker items - there are quite a few high priority tracker items to 
 go through (with more added) so we should continue to address these 
 (this will probably absorb most of call time)
 https://sourceforge.net/tracker/?group_id=177891&atid=886178
 Any blocker items for the manuscript?
-jie zheng: +1 Helen  :) 
-Ryan Brinkman: yes
-Alan Ruttenberg: yes
-Helen Parkinson: yes
-Ryan Brinkman: yes
-Alan Ruttenberg: I think we need 2
-Alan Ruttenberg: +1
-jennifer fostel: agree we need two meetings; easier to meet if they are 
+* jie zheng: +1 
+* Helen  :) 
+* Ryan Brinkman: yes
+* Alan Ruttenberg: yes
+* Helen Parkinson: yes
+* Ryan Brinkman: yes
+* Alan Ruttenberg: I think we need 2
+* Alan Ruttenberg: +1
+* jennifer fostel: agree we need two meetings; easier to meet if they are 
 same time.
 is it possible to move this meeting one hour later?
-Ryan Brinkman: +2
-jie zheng: twice a week.
-James Malone: and we keep 2nd wed for coord every month of course
-Helen Parkinson: I can be added to the chair list
-Alan Ruttenberg: moving wed call later is sometimes difficult for me
-Alan Ruttenberg: I would like to be removed from the chair list
-James Malone: lol
-James Malone: so would I
-jennifer fostel: i can volunteer to join the chairing list
-James Malone: :P
-Alan Ruttenberg: seriously  :) 
-jie zheng: I want to  :) 
-Helen Parkinson: Alan, there are no free lunches.
-Melanie Courtot: - keep calls twice a week
-James Malone: i think we can give alan hall pass  :) 
-Melanie Courtot: - chairs : we will recycle current list
-Helen Parkinson: Ok with me.
-Ryan Brinkman: I'll cover Alan's spot's
-Alan Ruttenberg: Helen, I will text you each time I start working on 
+* Ryan Brinkman: +2
+* jie zheng: twice a week.
+* James Malone: and we keep 2nd wed for coord every month of course
+* Helen Parkinson: I can be added to the chair list
+* Alan Ruttenberg: moving wed call later is sometimes difficult for me
+* Alan Ruttenberg: I would like to be removed from the chair list
+* James Malone: lol
+* James Malone: so would I
+* jennifer fostel: i can volunteer to join the chairing list
+* James Malone: :P
+* Alan Ruttenberg: seriously  :) 
+* jie zheng: I want to  :) 
+* Helen Parkinson: Alan, there are no free lunches.
+* Melanie Courtot: - keep calls twice a week
+* James Malone: i think we can give alan hall pass  :) 
+* Melanie Courtot: - chairs : we will recycle current list
+* Helen Parkinson: Ok with me.
+* Ryan Brinkman: I'll cover Alan's spot's
+* Alan Ruttenberg: Helen, I will text you each time I start working on 
 OBI, ok  ;-) 
-jie zheng: I think take alan off the list until OBI o.9 released.
-jie zheng: great!
-jennifer fostel: i was skipped -- can i volunteer to chair in alan's place?
-Ryan Brinkman: I second Jen's offer
-Alan Ruttenberg: thanks Jie
-Helen Parkinson: thanks Jen.
-Helen Parkinson: what's next?
-jie zheng: OK. I will make a list to ad Jen and Ryan.
-jennifer fostel: i am on a simultaneous call for the next 30 minutes so 
+* jie zheng: I think take alan off the list until OBI o.9 released.
+* jie zheng: great!
+* jennifer fostel: i was skipped -- can i volunteer to chair in alan's place?
+* Ryan Brinkman: I second Jen's offer
+* Alan Ruttenberg: thanks Jie
+* Helen Parkinson: thanks Jen.
+* Helen Parkinson: what's next?
+* jie zheng: OK. I will make a list to ad Jen and Ryan.
+* jennifer fostel: i am on a simultaneous call for the next 30 minutes so 
 will use text
-jennifer fostel: re manuscript - cani have another go at editing?
-Helen Parkinson: I'll take another go at it if needed as well
-Ryan Brinkman: Can yuo add them to th review queue on Google then?
-Ryan Brinkman: sweet
-jennifer fostel: first in, next up
-Helen Parkinson: larissa is on holiday too
-James Malone: i am wondering at one point we stop the review process?
-Melanie Courtot: AI: MC: finish review and commit under SVN - then send 
+* jennifer fostel: re manuscript - cani have another go at editing?
+* Helen Parkinson: I'll take another go at it if needed as well
+* Ryan Brinkman: Can yuo add them to th review queue on Google then?
+* Ryan Brinkman: sweet
+* jennifer fostel: first in, next up
+* Helen Parkinson: larissa is on holiday too
+* James Malone: i am wondering at one point we stop the review process?
+* Melanie Courtot: AI: MC: finish review and commit under SVN - then send 
 email on dev for next reviewer
-Helen Parkinson: Add me after you Bjoern please
-Helen Parkinson: sure
-jennifer fostel: re james -- stop when we run out of people who want to edit
-Alan Ruttenberg: ouch
-jennifer fostel: or when we are cycling through issues
-Melanie Courtot: sounds real bad Ryan
-Bjoern Peters: could not undesrtand Ryan
-jie zheng: better now.
-Helen Parkinson: Ryan asked if everyone gets another go at review
-Ryan Brinkman: sorry plan to have an open editing at the end?
-Helen Parkinson: not if we want to complete this in realtime
-jie zheng: AI: Bjoern update the queue of review list
-Ryan Brinkman: all authors should have a go at the very end I guess
-jennifer fostel: i suspect i should update my section
-Helen Parkinson: Bjoern is in charge right and the work needs to be 
+* Helen Parkinson: Add me after you Bjoern please
+* Helen Parkinson: sure
+* jennifer fostel: re james -- stop when we run out of people who want to edit
+* Alan Ruttenberg: ouch
+* jennifer fostel: or when we are cycling through issues
+* Melanie Courtot: sounds real bad Ryan
+* Bjoern Peters: could not undesrtand Ryan
+* jie zheng: better now.
+* Helen Parkinson: Ryan asked if everyone gets another go at review
+* Ryan Brinkman: sorry plan to have an open editing at the end?
+* Helen Parkinson: not if we want to complete this in realtime
+* jie zheng: AI: Bjoern update the queue of review list
+* Ryan Brinkman: all authors should have a go at the very end I guess
+* jennifer fostel: i suspect i should update my section
+* Helen Parkinson: Bjoern is in charge right and the work needs to be 
 assigned out to people.
-James Malone: so review is useful but adding new parts is more 
+* James Malone: so review is useful but adding new parts is more 
 important, I agree
-Helen Parkinson: Ok which use case is missing, and which needs work>?
-Alan Ruttenberg: yes, but I can't e.g. pop in and rewrite a section when 
+* Helen Parkinson: Ok which use case is missing, and which needs work>?
+* Alan Ruttenberg: yes, but I can't e.g. pop in and rewrite a section when 
 I have time.
-jennifer fostel: i am delinquent on my use case
-jennifer fostel: yes, i can do that
-jie zheng: work on use case. Jen will work on figures.
-Helen Parkinson: That sounded loike a short list to me.
-Helen Parkinson: OK, you can assign something to me if you like
-James Malone: ok as long as review is helping paper be compelted i'm 
+* jennifer fostel: i am delinquent on my use case
+* jennifer fostel: yes, i can do that
+* jie zheng: work on use case. Jen will work on figures.
+* Helen Parkinson: That sounded loike a short list to me.
+* Helen Parkinson: OK, you can assign something to me if you like
+* James Malone: ok as long as review is helping paper be compelted i'm 
 happy, i just wanted to make sure it wasn't generating more work rather 
 than finishing it
-jie zheng: If I can, I would like to help.
-Helen Parkinson: Alan will you do the addition to the task list doc please?
-Alan Ruttenberg: yes
-jie zheng: I can work on item 4)
-James Malone: we should put these in tracker with priority 9 i think
-James Malone: they are essentialy blockers
-Alan Ruttenberg: james, agreed
-Melanie Courtot: +1 add to tracker
-James Malone: i will add my item to the tracker and will get to it asap
-Helen Parkinson: Ok with me. Philippe's away and so can the other people 
+* jie zheng: If I can, I would like to help.
+* Helen Parkinson: Alan will you do the addition to the task list doc please?
+* Alan Ruttenberg: yes
+* jie zheng: I can work on item 4)
+* James Malone: we should put these in tracker with priority 9 i think
+* James Malone: they are essentialy blockers
+* Alan Ruttenberg: james, agreed
+* Melanie Courtot: +1 add to tracker
+* James Malone: i will add my item to the tracker and will get to it asap
+* Helen Parkinson: Ok with me. Philippe's away and so can the other people 
 commit to their tasks now?
-jie zheng: Sorry, what did you say, bjoern?
-jie zheng: Thanks.
-Helen Parkinson: Add an AI for alan to add commenst to the review queue doc.
-Alan Ruttenberg: cool
-Alan Ruttenberg:  :) 
-Alan Ruttenberg: easy
-James Malone: i trust your judgment bjoern, you have my proxy vote:)
-jie zheng: obi release, commit newids, there are some problems of these 
+* jie zheng: Sorry, what did you say, bjoern?
+* jie zheng: Thanks.
+* Helen Parkinson: Add an AI for alan to add commenst to the review queue doc.
+* Alan Ruttenberg: cool
+* Alan Ruttenberg:  :) 
+* Alan Ruttenberg: easy
+* James Malone: i trust your judgment bjoern, you have my proxy vote:)
+* jie zheng: obi release, commit newids, there are some problems of these 
 files.
-Helen Parkinson: Is the status up to date in general?
-Helen Parkinson: prev conversations indicate not
-jie zheng: obirelease: need clean up some terms.
-Alan Ruttenberg: helen: which status?
-Helen Parkinson: I added a tracker item for one of the obsolete terms in 
+* Helen Parkinson: Is the status up to date in general?
+* Helen Parkinson: prev conversations indicate not
+* jie zheng: obirelease: need clean up some terms.
+* Alan Ruttenberg: helen: which status?
+* Helen Parkinson: I added a tracker item for one of the obsolete terms in 
 use. Protege 4 allows used by queries that means we can check all the 
 obsolete classes
-Alan Ruttenberg: no
-Alan Ruttenberg: spellcheck on definitions would be good too
-Melanie Courtot: we stoped producing reports as it is an extra step, and 
+* Alan Ruttenberg: no
+* Alan Ruttenberg: spellcheck on definitions would be good too
+* Melanie Courtot: we stoped producing reports as it is an extra step, and 
 they were not really used I think
-Helen Parkinson: if they are not up to date, then this shouldn't delay 
+* Helen Parkinson: if they are not up to date, then this shouldn't delay 
 release for these
-Alan Ruttenberg: I would really like the use of obsolete classes cleaned up
-Helen Parkinson: I agree with Bjoern, there's so much wrong that these 
+* Alan Ruttenberg: I would really like the use of obsolete classes cleaned up
+* Helen Parkinson: I agree with Bjoern, there's so much wrong that these 
 things are minor
-Helen Parkinson: that sounded very negative - sorrt
-Alan Ruttenberg: use of obsolete classes can effect performance too
-Alan Ruttenberg: to be clear - remove use of obsolete classes before .9 
+* Helen Parkinson: that sounded very negative - sorrt
+* Alan Ruttenberg: use of obsolete classes can effect performance too
+* Alan Ruttenberg: to be clear - remove use of obsolete classes before .9 
 is my vote
-jie zheng: so what should we do?
-James Malone: alan - did we agree to make obsolete disjoint from rest of 
+* jie zheng: so what should we do?
+* James Malone: alan - did we agree to make obsolete disjoint from rest of 
 obi?
-Melanie Courtot: ok for release - not ok for report
-Helen Parkinson: OK, how long will it take to remove the obs classes and 
+* Melanie Courtot: ok for release - not ok for report
+* Helen Parkinson: OK, how long will it take to remove the obs classes and 
 can you find these?
-Alan Ruttenberg: I will write a query to get a report
-Helen Parkinson: yes, I think we agreed on the disjoint. Agree on the 
+* Alan Ruttenberg: I will write a query to get a report
+* Helen Parkinson: yes, I think we agreed on the disjoint. Agree on the 
 meta data issues with Bjoern
-Helen Parkinson: AI: Alan will find and fix all the obsolete classes in use
-jie zheng: ok
-Melanie Courtot: +1 on disjoint
-Alan Ruttenberg: alan will find and someone else will fix
-Melanie Courtot: "someone"?  :) 
-Helen Parkinson: Alan can you text me whenyou do your AI as well?
-Alan Ruttenberg:  :) 
-jie zheng: so try to release then clean up items later.
-Melanie Courtot: main issue in my opinion is that we keep running into 
+* Helen Parkinson: AI: Alan will find and fix all the obsolete classes in use
+* jie zheng: ok
+* Melanie Courtot: +1 on disjoint
+* Alan Ruttenberg: alan will find and someone else will fix
+* Melanie Courtot: "someone"?  :) 
+* Helen Parkinson: Alan can you text me whenyou do your AI as well?
+* Alan Ruttenberg:  :) 
+* jie zheng: so try to release then clean up items later.
+* Melanie Courtot: main issue in my opinion is that we keep running into 
 clean up issues that may be hard to debug
-Helen Parkinson: Ok we should defer some of the clean up unless it's 
+* Helen Parkinson: Ok we should defer some of the clean up unless it's 
 critical
-Melanie Courtot: some of the clean up is critical, eg, ID issues
-jie zheng: accumulate too many terms now
+* Melanie Courtot: some of the clean up is critical, eg, ID issues
+* jie zheng: accumulate too many terms now
 , if this round release works, not hard for later regularly release.
-Helen Parkinson: I have to agree on the branch set, up, I'd move to a 
+* Helen Parkinson: I have to agree on the branch set, up, I'd move to a 
 single file
-Melanie Courtot: they are soemtimes difficult to find
-Ryan Brinkman: Branches concept seems obsolete
-Helen Parkinson: Ok, but now this is a causing more probs than it solves
-James Malone: i agree, looking at commit log it is very rare people edit 
+* Melanie Courtot: they are soemtimes difficult to find
+* Ryan Brinkman: Branches concept seems obsolete
+* Helen Parkinson: Ok, but now this is a causing more probs than it solves
+* James Malone: i agree, looking at commit log it is very rare people edit 
 concurrently now
-Ryan Brinkman: flatten obi
-Helen Parkinson: Can we vote to move to a single file?
-Alan Ruttenberg: ok by me
-Ryan Brinkman: Anyone not want to flatten OBI?
-Helen Parkinson: no obsolete will be disjoint as you propsed.
-Melanie Courtot: AI: alan to add disjoint obsolete
-Melanie Courtot: Agreement on moving to one file durng editing process
-Helen Parkinson: sounds sensible
-James Malone: though the uninferred view
-Alan Ruttenberg: yes, uninferred
-James Malone: that would be my wish
-James Malone: remove instances and obsolete
-Alan Ruttenberg: No, I would say merge all if we are merging
-Ryan Brinkman: no instances please
-Alan Ruttenberg: why?
-James Malone: instances could potentially be huge
-jie zheng: merge all .owl files.
-James Malone: and irrelevant
-Helen Parkinson: I'd agree with merge all and obsolete for now
-Alan Ruttenberg: we can split things later
-Melanie Courtot: current merge = everything in - other possible, I need 
+* Ryan Brinkman: flatten obi
+* Helen Parkinson: Can we vote to move to a single file?
+* Alan Ruttenberg: ok by me
+* Ryan Brinkman: Anyone not want to flatten OBI?
+* Helen Parkinson: no obsolete will be disjoint as you propsed.
+* Melanie Courtot: AI: alan to add disjoint obsolete
+* Melanie Courtot: Agreement on moving to one file durng editing process
+* Helen Parkinson: sounds sensible
+* James Malone: though the uninferred view
+* Alan Ruttenberg: yes, uninferred
+* James Malone: that would be my wish
+* James Malone: remove instances and obsolete
+* Alan Ruttenberg: No, I would say merge all if we are merging
+* Ryan Brinkman: no instances please
+* Alan Ruttenberg: why?
+* James Malone: instances could potentially be huge
+* jie zheng: merge all .owl files.
+* James Malone: and irrelevant
+* Helen Parkinson: I'd agree with merge all and obsolete for now
+* Alan Ruttenberg: we can split things later
+* Melanie Courtot: current merge = everything in - other possible, I need 
 to get list of desired
-Alan Ruttenberg: I *will* get a split script going at some point
-Alan Ruttenberg: Yes
-Ryan Brinkman: Instances won't be worked on for now
-Alan Ruttenberg: If we have any split, we might as well have everything 
+* Alan Ruttenberg: I *will* get a split script going at some point
+* Alan Ruttenberg: Yes
+* Ryan Brinkman: Instances won't be worked on for now
+* Alan Ruttenberg: If we have any split, we might as well have everything 
 split
-Ryan Brinkman: so can't we jsut leave it out fo rnow
-Helen Parkinson: can we fall back to branches if we can't split later,
-James Malone: i disagree alan, instances represent something else
-Alan Ruttenberg: everything represents something else  :) 
-Helen Parkinson: I'd like all including the instances
-Alan Ruttenberg: I don't see the distinction, james
-Alan Ruttenberg: all is about investigations
-jie zheng: may be exclude some instances files in the future.
-Melanie Courtot: we don't have splitting script right now
-Ryan Brinkman: easier to work w/o them as we dont' need them for editing atm
-Alan Ruttenberg: let's worry about that when there are too many
-Helen Parkinson: right but they aren't huge now - so are we solving an 
-issue we don't have yet
-Alan Ruttenberg: helen, agreed
-James Malone: ok fine
-Melanie Courtot: they don't appear in the class hierarchy though - you 
+* Ryan Brinkman: so can't we jsut leave it out fo rnow
+* Helen Parkinson: can we fall back to branches if we can't split later,
+* James Malone: i disagree alan, instances represent something else
+* Alan Ruttenberg: everything represents something else  :) 
+* Helen Parkinson: I'd like all including the instances
+* Alan Ruttenberg: I don't see the distinction, james
+* Alan Ruttenberg: all is about investigations
+* jie zheng: may be exclude some instances files in the future.
+* Melanie Courtot: we don't have splitting script right now
+* Ryan Brinkman: easier to work w/o them as we dont' need them for editing atm
+* Alan Ruttenberg: let's worry about that when there are too many
+* Helen Parkinson: right but they aren't huge now - so are we solving an 
+* issue we don't have yet
+* Alan Ruttenberg: helen, agreed
+* James Malone: ok fine
+* Melanie Courtot: they don't appear in the class hierarchy though - you 
 need to go to instances tab to see them - so not real issues for editing
-Bjoern Peters: helen + alan + 1
-jie zheng: +1 alan.
-James Malone: let us hit the problem them worry
-James Malone: ok
-Helen Parkinson: I can see the point, but i'd defer for progress now
-Melanie Courtot:  :) 
-Alan Ruttenberg: Let's include ontie too
-Melanie Courtot: need work on ID range
-James Malone: given the decision we should def include ONTIE
-Helen Parkinson: Bjoern, what does ONTIE extend mostly?
-Alan Ruttenberg: one big happy class and instance family  :) 
-Melanie Courtot: yes - need to be scripted
-Helen Parkinson: I'd be inclined to add ONTIE too,
-Bjoern Peters: ONTology of Immune Epitopes
-Bjoern Peters: many assays specific for epitops
-Helen Parkinson: I meant which parts of OBI - never mind I can look
-jie zheng: count on alan + melanie of scripts.
-Bjoern Peters: processes
-James Malone: chuck it all in
-Helen Parkinson: got it. adding to the tracker, or adding to file?
-Helen Parkinson: can you add to the tracker and if there are no 
+* Bjoern Peters: helen + alan + 1
+* jie zheng: +1 alan.
+* James Malone: let us hit the problem them worry
+* James Malone: ok
+* Helen Parkinson: I can see the point, but i'd defer for progress now
+* Melanie Courtot:  :) 
+* Alan Ruttenberg: Let's include ontie too
+* Melanie Courtot: need work on ID range
+* James Malone: given the decision we should def include ONTIE
+* Helen Parkinson: Bjoern, what does ONTIE extend mostly?
+* Alan Ruttenberg: one big happy class and instance family  :) 
+* Melanie Courtot: yes - need to be scripted
+* Helen Parkinson: I'd be inclined to add ONTIE too,
+* Bjoern Peters: ONTology of Immune Epitopes
+* Bjoern Peters: many assays specific for epitops
+* Helen Parkinson: I meant which parts of OBI - never mind I can look
+* jie zheng: count on alan + melanie of scripts.
+* Bjoern Peters: processes
+* James Malone: chuck it all in
+* Helen Parkinson: got it. adding to the tracker, or adding to file?
+* Helen Parkinson: can you add to the tracker and if there are no 
 objections then add them.
-Alan Ruttenberg: yes, some are already in tracker
-Alan Ruttenberg: yes
-Helen Parkinson: ok clear.
-Alan Ruttenberg: I'm not a dumper  :) 
-Helen Parkinson: all should be in the tracker, you so are a dumper
-Alan Ruttenberg: haven't you seen that already  :) 
-Alan Ruttenberg: (laughing)
-Alan Ruttenberg: we're happy to share  :) 
-Alan Ruttenberg: !
-Alan Ruttenberg: (hint hint)
-James Malone: is it easily repeatable?
-Helen Parkinson: Didn't Olivier plan to refactor this
-Alan Ruttenberg: yes
-James Malone: does it adhere to an ISO standard?
-Alan Ruttenberg: there is work to do there too
-Helen Parkinson: when will Oliver's guy start?
-jie zheng: I will learn how to debug.
-jie zheng: I agree with alan.
-jie zheng: Unfortunately, scripts did not work in my computer.
-Alan Ruttenberg: every little bit helps, of course
-Bjoern Peters: ok, done
-Helen Parkinson: OK so we agreed, a single file, and instances and ONTIE 
+* Alan Ruttenberg: yes, some are already in tracker
+* Alan Ruttenberg: yes
+* Helen Parkinson: ok clear.
+* Alan Ruttenberg: I'm not a dumper  :) 
+* Helen Parkinson: all should be in the tracker, you so are a dumper
+* Alan Ruttenberg: haven't you seen that already  :) 
+* Alan Ruttenberg: (laughing)
+* Alan Ruttenberg: we're happy to share  :) 
+* Alan Ruttenberg: !
+* Alan Ruttenberg: (hint hint)
+* James Malone: is it easily repeatable?
+* Helen Parkinson: Didn't Olivier plan to refactor this
+* Alan Ruttenberg: yes
+* James Malone: does it adhere to an ISO standard?
+* Alan Ruttenberg: there is work to do there too
+* Helen Parkinson: when will Oliver's guy start?
+* jie zheng: I will learn how to debug.
+* jie zheng: I agree with alan.
+* jie zheng: Unfortunately, scripts did not work in my computer.
+* Alan Ruttenberg: every little bit helps, of course
+* Bjoern Peters: ok, done
+* Helen Parkinson: OK so we agreed, a single file, and instances and ONTIE 
 and Alan's NIF stuff
-Ryan Brinkman: documentation tracker?
-Helen Parkinson: I'd like one tracker too.
-Ryan Brinkman: agreed,
+* Ryan Brinkman: documentation tracker?
+* Helen Parkinson: I'd like one tracker too.
+* Ryan Brinkman: agreed,
 categories sound liek better solution
-Helen Parkinson: new categories are Ok with me.
-James Malone: you can't
-James Malone: no
-James Malone: sourceforge rule - once it's added can not remove or rename
-James Malone: yes
-Helen Parkinson: we can add new tho - e.g. task
-Helen Parkinson: OK
-James Malone: one of the categories is "no category" as an ontologist I 
+* Helen Parkinson: new categories are Ok with me.
+* James Malone: you can't
+* James Malone: no
+* James Malone: sourceforge rule - once it's added can not remove or rename
+* James Malone: yes
+* Helen Parkinson: we can add new tho - e.g. task
+* Helen Parkinson: OK
+* James Malone: one of the categories is "no category" as an ontologist I 
 am stuck in a pedantic paradox
-Helen Parkinson: do we agree then - Jie will do clean up using doc category
-Alan Ruttenberg: James, I am so happy to hear you say that  :) 
-Alan Ruttenberg: we agree, where we = I
-Alan Ruttenberg: jie, follow your tracker bliss
-Alan Ruttenberg: make it so  :) 
-Helen Parkinson: to change the categories you need admin
-jie zheng: I have no idea.
-Helen Parkinson: agreed
-jie zheng: So far, I won't create category now.
-Alan Ruttenberg: ecstatic
-Helen Parkinson: Ok one more item - the meeting?
-Melanie Courtot: AI for MC: add Jie as SVN admin
-jie zheng: I will try to put more information shown in mail list not in 
+* Helen Parkinson: do we agree then - Jie will do clean up using doc category
+* Alan Ruttenberg: James, I am so happy to hear you say that  :) 
+* Alan Ruttenberg: we agree, where we = I
+* Alan Ruttenberg: jie, follow your tracker bliss
+* Alan Ruttenberg: make it so  :) 
+* Helen Parkinson: to change the categories you need admin
+* jie zheng: I have no idea.
+* Helen Parkinson: agreed
+* jie zheng: So far, I won't create category now.
+* Alan Ruttenberg: ecstatic
+* Helen Parkinson: Ok one more item - the meeting?
+* Melanie Courtot: AI for MC: add Jie as SVN admin
+* jie zheng: I will try to put more information shown in mail list not in 
 tracker items.
-jie zheng: yes.
-Alan Ruttenberg: damn. no "ecstatic" button to press
-jie zheng: clean up meeting: where and when?
-Alan Ruttenberg: I think that's right
-Melanie Courtot: sounds right to me too
-jie zheng: I am OK after MGED 12 and place near Philly.
-Alan Ruttenberg: which week in september?
-jie zheng: OK for me.
-jennifer fostel: +2
-jennifer fostel: east coast
-Alan Ruttenberg: dc
-Helen Parkinson: thanks Bjoern
-Melanie Courtot: I would prefer Vancouver in september and dc in october 
+* jie zheng: yes.
+* Alan Ruttenberg: damn. no "ecstatic" button to press
+* jie zheng: clean up meeting: where and when?
+* Alan Ruttenberg: I think that's right
+* Melanie Courtot: sounds right to me too
+* jie zheng: I am OK after MGED 12 and place near Philly.
+* Alan Ruttenberg: which week in september?
+* jie zheng: OK for me.
+* jennifer fostel: +2
+* jennifer fostel: east coast
+* Alan Ruttenberg: dc
+* Helen Parkinson: thanks Bjoern
+* Melanie Courtot: I would prefer Vancouver in september and dc in october 
 - but I may be biaised  :) 
-jie zheng: so we decided late september?
-Alan Ruttenberg: It's possible, but not preferred.
-Alan Ruttenberg: who do we lose in october?
-jennifer fostel: mged is oct 5 - 8
-jennifer fostel: ah! already not on the doodle
-Alan Ruttenberg: ok
-Alan Ruttenberg: no
-Ryan Brinkman: not yet
-James Malone: except alan
-jie zheng: I see.
-James Malone: he's 'fairly' important  :) 
-jie zheng: +1
-jie zheng: I am ok late october in DC or east coast
-Melanie Courtot: owled is 23 - so we could have 22 too
-Alan Ruttenberg: yes
-Ryan Brinkman: 2-3
-Melanie Courtot: 3 days
-Ryan Brinkman: 2 better
-jie zheng: how about oct 20, 21?
-jie zheng: sorry, 19, 20
-James Malone: 19-21
-Bjoern Peters: 19 - 21
-Melanie Courtot: 19-20-21 or 20-21-22 maybe?
-Ryan Brinkman: as long as we dont' gget distracted by "philosophy" 
+* jie zheng: so we decided late september?
+* Alan Ruttenberg: It's possible, but not preferred.
+* Alan Ruttenberg: who do we lose in october?
+* jennifer fostel: mged is oct 5 - 8
+* jennifer fostel: ah! already not on the doodle
+* Alan Ruttenberg: ok
+* Alan Ruttenberg: no
+* Ryan Brinkman: not yet
+* James Malone: except alan
+* jie zheng: I see.
+* James Malone: he's 'fairly' important  :) 
+* jie zheng: +1
+* jie zheng: I am ok late october in DC or east coast
+* Melanie Courtot: owled is 23 - so we could have 22 too
+* Alan Ruttenberg: yes
+* Ryan Brinkman: 2-3
+* Melanie Courtot: 3 days
+* Ryan Brinkman: 2 better
+* jie zheng: how about oct 20, 21?
+* jie zheng: sorry, 19, 20
+* James Malone: 19-21
+* Bjoern Peters: 19 - 21
+* Melanie Courtot: 19-20-21 or 20-21-22 maybe?
+* Ryan Brinkman: as long as we dont' gget distracted by "philosophy" 
 questions I'd be happy wtih 3
-jie zheng: how about 17,18? (weekend)
-Melanie Courtot: 17, 18 is too early in my opinion
-James Malone: ok so wait for decision from gilberto and wait to hear 
+* jie zheng: how about 17,18? (weekend)
+* Melanie Courtot: 17, 18 is too early in my opinion
+* James Malone: ok so wait for decision from gilberto and wait to hear 
 from helen?
-Alan Ruttenberg: plus some people will continue to be available on the 
+* Alan Ruttenberg: plus some people will continue to be available on the 
 22, like me
-James Malone: 19-21 works for me
-Melanie Courtot: 19-21 sounds good
-jie zheng: sorry. Sunday
-jie zheng: yeah.
-Alan Ruttenberg: If sunday makes it much better I will make it
-jie zheng: +1 Bjoern.
-Bjoern Peters: ahh
-Bjoern Peters: good point
-Alan Ruttenberg: if necessary I can ask C&P
-Alan Ruttenberg: for sunday, anyways
-James Malone: we'd have to hold meeting on the Mall
-Alan Ruttenberg:  :) 
-Alan Ruttenberg: I like that
-James Malone: me too
-jie zheng: agree.
-Alan Ruttenberg: right
-Melanie Courtot:  :) 
-James Malone: I will bring my guitar
-Alan Ruttenberg: lol
-jie zheng: sounds good!
-Alan Ruttenberg: yah - let's rent a suite!
-Alan Ruttenberg: jacuzzi breaks sound good
-Ryan Brinkman: hot tub ontology party
-James Malone: :-o
-jie zheng: DC
-jie zheng: sounds good for me.
-Alan Ruttenberg: Travel/Hotel would be helpful for me
-jie zheng: I fine.
-Melanie Courtot: who is chairing next call?
-Ryan Brinkman: I am
-Alan Ruttenberg: I can make it monday, barring brain damage
-Alan Ruttenberg: bye
-James Malone: thanks all
-Melanie Courtot: bye!
-jennifer fostel: bye!
-Bjoern Peters: bye + thanks!
-jie zheng: bye thanks.
+* James Malone: 19-21 works for me
+* Melanie Courtot: 19-21 sounds good
+* jie zheng: sorry. Sunday
+* jie zheng: yeah.
+* Alan Ruttenberg: If sunday makes it much better I will make it
+* jie zheng: +1 Bjoern.
+* Bjoern Peters: ahh
+* Bjoern Peters: good point
+* Alan Ruttenberg: if necessary I can ask C&P
+* Alan Ruttenberg: for sunday, anyways
+* James Malone: we'd have to hold meeting on the Mall
+* Alan Ruttenberg:  :) 
+* Alan Ruttenberg: I like that
+* James Malone: me too
+* jie zheng: agree.
+* Alan Ruttenberg: right
+* Melanie Courtot:  :) 
+* James Malone: I will bring my guitar
+* Alan Ruttenberg: lol
+* jie zheng: sounds good!
+* Alan Ruttenberg: yah - let's rent a suite!
+* Alan Ruttenberg: jacuzzi breaks sound good
+* Ryan Brinkman: hot tub ontology party
+* James Malone: :-o
+* jie zheng: DC
+* jie zheng: sounds good for me.
+* Alan Ruttenberg: Travel/Hotel would be helpful for me
+* jie zheng: I fine.
+* Melanie Courtot: who is chairing next call?
+* Ryan Brinkman: I am
+* Alan Ruttenberg: I can make it monday, barring brain damage
+* Alan Ruttenberg: bye
+* James Malone: thanks all
+* Melanie Courtot: bye!
+* jennifer fostel: bye!
+* Bjoern Peters: bye + thanks!
+* jie zheng: bye thanks.
