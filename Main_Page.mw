@@ -46,7 +46,11 @@ Visit our [http://purl.obofoundry.org/obo/obi/tracker issue tracker] to report p
 
 '''Contribute to the software effort'''
 
-Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] is open for perusal. Note that the download link (right) is to the last stable OBI release. We recommend you check out the most recent version from svn for an up to date file [http://obi-ontology.org/page/Tutorials instructions here]. The OBI [http://purl.obofoundry.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings. 
+* Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] is open for perusal. 
+
+* Note that the download link (right) is to the last stable OBI release. We recommend you check out the most recent version from svn for an up to date file [http://obi-ontology.org/page/Tutorials instructions here]. 
+
+* The OBI [http://purl.obofoundry.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings. 
 
 
 |}
