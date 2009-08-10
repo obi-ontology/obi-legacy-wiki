@@ -1,13 +1,10 @@
-1. '''[http://obi-ontology.org/page/Tutorials#checkout How to checkout OBI from SVN]''' 
-
-2. '''[http://obi-ontology.org/page/Tutorials#sourceforge access How to get sourceforge access '''
-
-
+1. '''[http://obi-ontology.org/page/Tutorials#Checkout How to checkout OBI from SVN]''' 
+2. '''[http://obi-ontology.org/page/Tutorials#Sourceforge access How to get sourceforge access] '''
 3. '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI]'''
 
 <hr>
 
-<h2>1. Checkout</h2>
+<h2>Checkout</h2>
 
 
 A) Install latest Protege 3.4.X version from 
@@ -27,7 +24,7 @@ extension from the files obi.owl, obi.pprj, obi.repository
 E) open the obi.pprj file in protege
 (double clicking works on windows)
 
-'''2. How to get an OBI sourceforge access'''
+'''Sourceforge access'''
 
 1. First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
 
@@ -37,5 +34,3 @@ E) open the obi.pprj file in protege
 <hr>
 
 ==Reasoning==
-
-''' 3. Reasoning with OBI '''
