@@ -1,7 +1,7 @@
-1. '''[http://obi-ontology.org/page/Tutorials/#checkout ]''' 
+1. '''[http://obi-ontology.org/page/Tutorials/#checkout How to checkout OBI from SVN]''' 
 
 
-2. '''[http://obi-ontology.org/page/Tutorials/#Reasoning]'''
+2. '''[http://obi-ontology.org/page/Tutorials/#Reasoning How to reason with OBI]'''
 
 <h2>Checkout</h2>
 
@@ -24,7 +24,7 @@ E) open the obi.pprj file in protege
 (double clicking works on windows)
 
 
-<h2>Reasoning<h2>
+<h2>Reasoning<\h2>
 
 '''How to get an OBI sourceforge access'''
 
