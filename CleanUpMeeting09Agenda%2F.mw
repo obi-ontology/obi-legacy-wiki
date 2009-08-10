@@ -9,9 +9,13 @@
 
 e.g. _realizable entity, _under discussion
 
+note: _realizable entity and other top level buckets are only there to provide an anchor for defined classes. I would vote in favor of keeping those "development helper" classes in a separate file, along with OWL2 bits and all things we don't want in the released file. Other example of unwanted things is disjoint between obsolete classes and bfo:Entity, as this may create inconsistencies for users importing OBI and somehow defeats the purpose of obsoleting classes.
+
 ''' 2. remove editor notes '''
 
 some difference of opinion here, BP/HP want to remove these, AR thinks they add value
+MC: happy to distribute editor notes if those were cleaned up. I don't think that this will happen realistically, nor that it should be a priority before release, so I would vote for removing them.
+
 
 ''' 3. enforce curation status '''
 
@@ -57,3 +61,5 @@ e.g. PERSON: Kevin Clancy
 '''15. Mireot terms '''
 
 anything mireoted should probably be up to date in OBI 1.0 - do we have means to check this?
+
+'''16. Clean up quality branch (aka conferred/historical qualities) '''
