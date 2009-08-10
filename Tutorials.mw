@@ -53,13 +53,16 @@ key for presenting the results (one of "Time", "depth" (of the tree) ,
 (setq kb (load-kb-jena :obil))
 
 Output should be: 
+nowiki>
 
 #<Pellet KB on file:///Users/mcourtot/Desktop/OBI/SVN/obi/trunk/src/ontology/branches/obil.owl>
 
+</nowiki>
+
 Note: to use the above you need to set obil in lsw/trunk/owl/standard-ontologies.lisp
 
-<nowiki>(take-sample kb 60 "Time")
-
+<nowiki>
+(take-sample kb 60 "Time")
 </nowiki>
 
 It runs and prints out a sorted list of the classes thatit had time
@@ -132,7 +135,6 @@ The function:
 Draws a radial layout tree to depth 5. I find between 3 and 6 to be
 tolerable values depending on how cluttered the result is.
 
-</nowiki>
 
 [http://docs.google.com/File?id=dzprnmw_72fjqqjfcp_b Radial layout image]
 <hr>
