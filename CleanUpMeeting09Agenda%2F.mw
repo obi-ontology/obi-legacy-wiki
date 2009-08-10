@@ -9,7 +9,7 @@
 
 e.g. _realizable entity, _under discussion
 
-note: _realizable entity and other top level buckets are only there to provide an anchor for defined classes. I would vote in favor of keeping those "development helper" classes in a separate file, along with OWL2 bits and all things we don't want in the released file. Other example of unwanted things is disjoint between obsolete classes and bfo:Entity, as this may create inconsistencies for users importing OBI and somehow defeats the purpose of obsoleting classes.
+MC note: _realizable entity and other top level buckets are only there to provide an anchor for defined classes. I would vote in favor of keeping those "development helper" classes in a separate file, along with OWL2 bits and all things we don't want in the released file. Other example of unwanted things is disjoint between obsolete classes and bfo:Entity, as this may create inconsistencies for users importing OBI and somehow defeats the purpose of obsoleting classes.
 
 ''' 2. remove editor notes '''
 
