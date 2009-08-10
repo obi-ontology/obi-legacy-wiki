@@ -1,0 +1,53 @@
+'''Agenda for October 2009 Cleanup meeting '''
+
+Agree a process for OBI 1.0 release, clean up issues below for discussion:
+
+''' 1. Remove _classname - placeholder classes '''
+
+e.g. _realizable entity, _under discussion
+
+''' 2. remove editor notes '''
+
+some difference of opinion here
+
+''' 3. enforce curation status '''
+
+Two issues 1. curation status is not up to date and needs to be for release and 2. review terms where curation status is not complete and prioritise
+
+'''4. Resolve all obsolete term useage'''
+
+should be done by next release, will need checking again
+
+'''5. Resolve classified tree wierdness'''
+
+probably needs a manual check of defined classes
+
+'''6. remove duplicates'''
+
+e.g mass spec
+
+'''7. Decide what to do with issues relating to requests to modify other ontologies e.g. RO'''
+
+resolve/workaround/leave?
+
+'''8. resolve cases where there are no logical/text definitions '''
+
+'''9. resolve inconsistent logical/text definitions'''
+
+'''10. Check leaf nodes with a single child, and check there  potential additional children'''
+
+'''11. spellcheck, check for consistent class naming style'''
+
+'''12. resolve editor attribution '''
+
+e.g. PERSON: Kevin Clancy
+
+
+'''13. check inconsistencies'''
+
+15. produce a saved inferred version 
+
+
+16. Mireot terms 
+
+anything mireoted should probably be up to date in OBI 1.0 - do we have means to check this?
