@@ -3,6 +3,8 @@
 
 2. '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI]'''
 
+<hr>
+
 <h2>Checkout</h2>
 
 
@@ -23,6 +25,7 @@ extension from the files obi.owl, obi.pprj, obi.repository
 E) open the obi.pprj file in protege
 (double clicking works on windows)
 
+<hr>
 
 ==Reasoning==
 
