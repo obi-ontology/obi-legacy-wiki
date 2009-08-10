@@ -1,8 +1,9 @@
-1. '''[http://obi-ontology.org/page/Tutorials/#How to check out OBI pre-release version from OBI SVN? ]''' 
+1. '''[http://obi-ontology.org/page/Tutorials/#checkout ]''' 
 
 
-2. '''[http://obi-ontology.org/page/Tutorials/#Reasoning with OBI Reasoning with OBI]'''
+2. '''[http://obi-ontology.org/page/Tutorials/#Reasoning]'''
 
+<h2>Checkout</h2>
 
 
 A) Install latest Protege 3.4.X version from 
@@ -22,6 +23,8 @@ extension from the files obi.owl, obi.pprj, obi.repository
 E) open the obi.pprj file in protege
 (double clicking works on windows)
 
+
+<h2>Reasoning<h2>
 
 '''How to get an OBI sourceforge access'''
 
