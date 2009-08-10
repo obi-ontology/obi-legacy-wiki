@@ -64,43 +64,46 @@ Note: to use the above you need to set obil in lsw/trunk/owl/standard-ontologies
 It runs and prints out a sorted list of the classes that it had time
 to check. Here is what it looks like now:
 
-<nowiki>
+</nowiki>
 
-((("http://purl.obofoundry.org/obo/OBI_0000153"
-  ("cell co-culturing"))
- ("depth" "18") ("size" "11882") ("Time" "7564"))
-(("http://purl.obofoundry.org/obo/OBI_9999994"
-  ("chromium release assay"))
- ("depth" "18") ("size" "10502") ("Time" "5538"))
-(("http://purl.obofoundry.org/obo/OBI_0302851" ("fixed"))
- ("depth" "19") ("size" "8352") ("Time" "4025"))
-(("http://purl.obofoundry.org/obo/OBI_0600021" ("cell fixation"))
- ("depth" "17") ("size" "7890") ("Time" "2344"))
-(("http://purl.obofoundry.org/obo/OBI_0000264"
-  ("sample population"))
- ("depth" "16") ("size" "5321") ("Time" "2080"))
-(("http://msi-ontology.sourceforge.net/ontology/CHROM.owl#msi_01082"
-  ("evaporative light scattering detector"))
- ("depth" "13") ("size" "1296") ("Time" "2051"))
-(("http://purl.obofoundry.org/obo/OBI_0100064"
-  ("screening library"))
- ("depth" "16") ("size" "4587") ("Time" "1603"))
-(("http://purl.obofoundry.org/obo/OBI_0400023" ("CYFlow ML"))
- ("depth" "14") ("size" "6485") ("Time" "1542"))
-(("http://purl.obofoundry.org/obo/OBI_0400005" ("A10-Analyzer"))
- ("depth" "14") ("size" "6485") ("Time" "1536"))
-(("http://purl.obofoundry.org/obo/OBI_0400014" ("BioSorter1000"))
- ("depth" "14") ("size" "6493") ("Time" "1506"))
-(("http://purl.obofoundry.org/obo/OBI_0400041" ("FACSvantage"))
- ("depth" "14") ("size" "6493") ("Time" "1493"))
-(("http://purl.obofoundry.org/obo/OBI_0400055" ("inFlux Analyzer"))
- ("depth" "14") ("size" "6485") ("Time" "1484"))
-....
 
-<nowiki>
+*((("http://purl.obofoundry.org/obo/OBI_0000153"
+*  ("cell co-culturing"))
+* ("depth" "18") ("size" "11882") ("Time" "7564"))
+*(("http://purl.obofoundry.org/obo/OBI_9999994"
+*  ("chromium release assay"))
+* ("depth" "18") ("size" "10502") ("Time" "5538"))
+*(("http://purl.obofoundry.org/obo/OBI_0302851" ("fixed"))
+*("depth" "19") ("size" "8352") ("Time" "4025"))
+*(("http://purl.obofoundry.org/obo/OBI_0600021" ("cell fixation"))
+* ("depth" "17") ("size" "7890") ("Time" "2344"))
+*(("http://purl.obofoundry.org/obo/OBI_0000264"
+*  ("sample population"))
+* ("depth" "16") ("size" "5321") ("Time" "2080"))
+*(("http://msi-ontology.sourceforge.net/ontology/CHROM.owl#msi_01082"
+*  ("evaporative light scattering detector"))
+* ("depth" "13") ("size" "1296") ("Time" "2051"))
+*(("http://purl.obofoundry.org/obo/OBI_0100064"
+*  ("screening library"))
+* ("depth" "16") ("size" "4587") ("Time" "1603"))
+*(("http://purl.obofoundry.org/obo/OBI_0400023" ("CYFlow ML"))
+* ("depth" "14") ("size" "6485") ("Time" "1542"))
+*(("http://purl.obofoundry.org/obo/OBI_0400005" ("A10-Analyzer"))
+* ("depth" "14") ("size" "6485") ("Time" "1536"))
+*(("http://purl.obofoundry.org/obo/OBI_0400014" ("BioSorter1000"))
+* ("depth" "14") ("size" "6493") ("Time" "1506"))
+*(("http://purl.obofoundry.org/obo/OBI_0400041" ("FACSvantage"))
+* ("depth" "14") ("size" "6493") ("Time" "1493"))
+*(("http://purl.obofoundry.org/obo/OBI_0400055" ("inFlux Analyzer"))
+* ("depth" "14") ("size" "6485") ("Time" "1484"))
+*....
+
 
 You then pick off some culprit near the top, compute the tree, and
 have a look at it.
+
+
+<nowiki>
 
 (
 INFO [Thread-4] (ABox.java:1541) - Consistency
@@ -119,12 +122,16 @@ The function:
 
 (make-completion-graph a 5)
 
+<nowiki>
+
 => using the variable a that has been set up previously, a, give me the graph with a depth of 5
 
 Draws a radial layout tree to depth 5. I find between 3 and 6 to be
 tolerable values depending on how cluttered the result is.
 
-http://docs.google.com/File?id=dzprnmw_72fjqqjfcp_b
+</nowiki>
+
+[http://docs.google.com/File?id=dzprnmw_72fjqqjfcp_b image]
 <hr>
 
 Each node is formatted as
@@ -143,7 +150,9 @@ As you mouse over, the node under your mouse is red, direct parents
 and children are yellow. Clicking on node brings up an inspector that
 lists all the class expressions that are assigned to the node. 
 
-http://docs.google.com/File?id=dzprnmw_73g88dgnfd_b
+
+
+[http://docs.google.com/File?id=dzprnmw_73g88dgnfd_b image]
 
 You then look around for nonsense. Some nonsense are relations to
 types of individuals that don't make sense in the context. For
@@ -166,7 +175,7 @@ such a case of dueling is_specified_output_of/has_specified_output.
 Poking around I think this is due to artifact object:
 is_specified_output_of some 'artifact material creation' and
 
-http://docs.google.com/File?id=dzprnmw_74gdn84cth_b
+[http://docs.google.com/File?id=dzprnmw_74gdn84cth_b image]
 
 If we get rid of the axiom on artifact material creation and reload, we get:
 
@@ -177,8 +186,9 @@ The tree is 1/3 smaller. Such a change will typically affect many
 nodes, so you might see a surprising increase in reasoning speed for a
 small change such as this.
 
-Thus far the sorts of things I have been noticing are missing
-disjoints, incorrectly broad ranges for properties, and these uses of
+===Common Errors===
+
+Missing disjoints, incorrectly broad ranges for properties, and these uses of
 properties/inverse where we might be able to choose one direction and
 stick with it.
 
