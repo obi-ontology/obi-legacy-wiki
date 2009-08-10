@@ -1,7 +1,9 @@
-'''How to check out OBI pre-release version from OBI SVN?''' 
+1. '''[How to check out OBI pre-release version from OBI SVN?[''' 
 
 
-''' Reasoning with OBI '''
+2. '''[Reasoning with OBI]'''
+
+
 
 A) Install latest Protege 3.4.X version from 
 http://protege.stanford.edu/download/registered.html 
@@ -26,3 +28,6 @@ E) open the obi.pprj file in protege
 1. First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
 
 2. Second, email one of the OBI sourceforge administrators (e.g., Melanie) as seen in the OBI sourceforge site. Alternatively,  email the obi developer mailing list (obi-devel@lists.sourceforge.net). You will very likely be issued the right to access OBI sourceforge. This will allow you to make changes in OBI sourceforge.
+
+
+''' Reasoning with OBI '''
