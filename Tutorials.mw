@@ -103,9 +103,9 @@ to check. Here is what it looks like now:
 * ("depth" "14") ("size" "6485") ("Time" "1484"))
 *....
 
+===Step 3===
 
-You then pick off some culprit near the top, compute the tree, and
-have a look at it.
+Pick some culprit near the top, compute the tree, and have a look at it.
 
 
 <nowiki>
@@ -160,26 +160,17 @@ lists all the class expressions that are assigned to the node.
 
 [http://docs.google.com/File?id=dzprnmw_73g88dgnfd_b Visualization of the ontology]
 
-You then look around for nonsense. Some nonsense are relations to
-types of individuals that don't make sense in the context. For
-instance, in the image I attached, it doesn't make sense that we are
-seeing something about specified output data when we are describing a
-quality. The focus class is "fixed" and it's definition is
+===Step 4===
 
-quality_of some ('material entity'  and is_specified_output_of some
-'cell fixation')
+You then look around for nonsense. Some nonsense are relations to types of individuals that don't make sense in the context. For instance, in the image below, it doesn't make sense that we are seeing something about specified output data when we are describing a quality. The focus class is "fixed" and it's definition is
 
-So the first two nodes out from "fixed" are first an instance of
-quality, and second that cell fixation process. The fact that from
-that cell fixation process there is has_specified_output_data: datum
-means that we haven't said that processes such as cell fixation don't
-output data.
+<nowiki>quality_of some ('material entity'  and is_specified_output_of some
+'cell fixation')</nowiki>
 
-Another pattern is one where we see a property and then it's inverse
-immediately asserted (and again perhaps).  Picture 21, attached, shows
-such a case of dueling is_specified_output_of/has_specified_output.
-Poking around I think this is due to artifact object:
-is_specified_output_of some 'artifact material creation' and
+So the first two nodes out from "fixed" are first an instance of quality, and second that cell fixation process. The fact that from that cell fixation process there is has_specified_output_data: datum
+means that we haven't said that processes such as cell fixation don't have output data.
+
+Another pattern is one where we see a property and then it's inverse immediately asserted (and again perhaps).  Picture 21, attached, shows such a case of dueling is_specified_output_of/has_specified_output. Poking around I think this is due to artifact object:is_specified_output_of some 'artifact material creation' and
 
 [http://docs.google.com/File?id=dzprnmw_74gdn84cth_b image output]
 
@@ -188,9 +179,7 @@ If we get rid of the axiom on artifact material creation and reload, we get:
 (setq a  (check-entity-consistency !obi:OBI_0302851 kb t))
 #<completion for consistency check of 'fixed' !obi:OBI_0302851 5980 nodes>
 
-The tree is 1/3 smaller. Such a change will typically affect many
-nodes, so you might see a surprising increase in reasoning speed for a
-small change such as this.
+The tree is 1/3 smaller. Such a change will typically affect many nodes, so you might see a surprising increase in reasoning speed for a small change such as this.
 
 ===Common Errors===
 
