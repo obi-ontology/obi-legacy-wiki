@@ -114,8 +114,9 @@ http://purl.obofoundry.org/obo/OBI_0302851 for 0 individuals []
 INFO [Thread-4] (ABox.java:1628) - Consistent: true Tree depth: 19
 Tree size: 8352 Time: 2892
 #<completion for consistency check of 'fixed' !obi:OBI_0302851 8352 nodes>
+</nowiki>
 
-example output:
+''example output:''
 CL-USER> (setq a (check-entity-consistency !obi:OBI_0100010 kb t))
 #<completion for consistency check of 'Epstein Barr virus transformed B cell' !obi:OBI_0100010 2499 nodes>
 
@@ -132,8 +133,7 @@ The function:
 
 </nowiki>
 
-Draws a radial layout tree to depth 5. I find between 3 and 6 to be
-tolerable values depending on how cluttered the result is.
+Draws a radial layout tree to depth 5. Between 3 and 6 to be tolerable values depending on how cluttered the result is.
 
 
 [http://docs.google.com/File?id=dzprnmw_72fjqqjfcp_b Radial layout image]
