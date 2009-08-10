@@ -52,7 +52,7 @@ key for presenting the results (one of "Time", "depth" (of the tree) ,
 (setq kb (load-kb-jena :obil))
 
 Output should be: 
-nowiki>
+<nowiki>
 
 #<Pellet KB on file:///Users/mcourtot/Desktop/OBI/SVN/obi/trunk/src/ontology/branches/obil.owl>
 
