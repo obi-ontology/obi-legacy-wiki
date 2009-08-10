@@ -1,6 +1,9 @@
-'''Agenda for October 2009 Cleanup meeting '''
+=== Agenda for October 2009 Cleanup meeting ===
 
-Agree a process for OBI 1.0 release, clean up issues below for discussion:
+''Agree a process for OBI 1.0 release, clean up issues below for discussion:''
+
+<hr>
+
 
 ''' 1. Remove _classname - placeholder classes '''
 
