@@ -40,7 +40,7 @@ This document was originally a [http://docs.google.com/View?id=dzprnmw_71chch6pf
 ''Authors: Melanie Courtot, [http://groups.google.com/group/obi-developer/browse_thread/thread/94292461fca2a907?hl=en# - Alan Ruttenberg's google group page'']
 
 '''Step 1'''
-
+<nowiki>
  Load the kb and collect information. The take-sample function
 takes a kb, a number of seconds for the reasoner to run, and the sort
 key for presenting the results (one of "Time", "depth" (of the tree) ,
