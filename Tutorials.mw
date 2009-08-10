@@ -67,10 +67,8 @@ Note: to use the above you need to set obil in lsw/trunk/owl/standard-ontologies
 (take-sample kb 60 "Time")
 </nowiki>
 
-It runs and prints out a sorted list of the classes thatit had time
+It runs and prints out a sorted list of the classes that it had time
 to check. Here is what it looks like now:
-
-
 
 *((("http://purl.obofoundry.org/obo/OBI_0000153"
 *  ("cell co-culturing"))
