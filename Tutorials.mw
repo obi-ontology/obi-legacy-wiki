@@ -39,7 +39,7 @@ This document was originally a [http://docs.google.com/View?id=dzprnmw_71chch6pf
 
 ''Authors: Melanie Courtot, Alan Ruttenberg [http://groups.google.com/group/obi-developer/browse_thread/thread/94292461fca2a907?hl=en# - Alan's google group page''] and Helen Parkinson.
 
-The aim is to detect problems with the OWL file that cause OBI to reason slowly. Some use of axioms prevents this. The application described her provides some support for detecting and visualising these cases and some usage examples are included here. 
+The aim is to detect problems with the OWL file that cause OBI to reason slowly. Some use of axioms prevents this. The application described provides some support for detecting and visualising these cases and some usage examples are included here.
 
 
 ===Step 1===
