@@ -173,6 +173,8 @@ Another pattern is one where we see a property and then it's inverse immediately
 [http://docs.google.com/File?id=dzprnmw_74gdn84cth_b image output]
 
 If we get rid of the axiom on artifact material creation and reload, we get:
+
+
 <nowiki>
 
 (setq a  (check-entity-consistency !obi:OBI_0302851 kb t))
