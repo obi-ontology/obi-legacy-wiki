@@ -40,25 +40,31 @@ This document was originally a [http://docs.google.com/View?id=dzprnmw_71chch6pf
 ''Authors: Melanie Courtot, [http://groups.google.com/group/obi-developer/browse_thread/thread/94292461fca2a907?hl=en# - Alan Ruttenberg's google group page'']
 
 '''Step 1'''
-<nowiki>
- Load the kb and collect information. The take-sample function
+
+<nowiki> Load the kb and collect information. The take-sample function
 takes a kb, a number of seconds for the reasoner to run, and the sort
 key for presenting the results (one of "Time", "depth" (of the tree) ,
 "size" (number of nodes)).
-
+</nowiki>
 
 
 '''Step 2'''
 
 (setq kb (load-kb-jena :obil))
 
-Output should be: #<Pellet KB on file:///Users/mcourtot/Desktop/OBI/SVN/obi/trunk/src/ontology/branches/obil.owl>
+
+
+<nowiki>Output should be: #<Pellet KB on file:///Users/mcourtot/Desktop/OBI/SVN/obi/trunk/src/ontology/branches/obil.owl>
 Note: to use the above you need to set obil in lsw/trunk/owl/standard-ontologies.lisp
 
 (take-sample kb 60 "Time")
 
+<nowiki>
+
 It runs and prints out a sorted list of the classes that it had time
 to check. Here is what it looks like now:
+
+<nowiki>
 
 ((("http://purl.obofoundry.org/obo/OBI_0000153"
   ("cell co-culturing"))
@@ -90,6 +96,8 @@ to check. Here is what it looks like now:
 (("http://purl.obofoundry.org/obo/OBI_0400055" ("inFlux Analyzer"))
  ("depth" "14") ("size" "6485") ("Time" "1484"))
 ....
+
+<nowiki>
 
 You then pick off some culprit near the top, compute the tree, and
 have a look at it.
