@@ -173,9 +173,12 @@ Another pattern is one where we see a property and then it's inverse immediately
 [http://docs.google.com/File?id=dzprnmw_74gdn84cth_b image output]
 
 If we get rid of the axiom on artifact material creation and reload, we get:
+<nowiki>
 
 (setq a  (check-entity-consistency !obi:OBI_0302851 kb t))
 #<completion for consistency check of 'fixed' !obi:OBI_0302851 5980 nodes>
+
+</nowiki>
 
 The tree is 1/3 smaller. Such a change will typically affect many nodes, so you might see a surprising increase in reasoning speed for a small change such as this.
 
