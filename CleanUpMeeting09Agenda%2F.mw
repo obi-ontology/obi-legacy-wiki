@@ -5,61 +5,79 @@
 <hr>
 
 
-''' 1. Remove _classname - placeholder classes '''
+
+== General clean up items ==
+ 
+
+''' Remove _classname - placeholder classes '''
 
 e.g. _realizable entity, _under discussion
 
-MC note: _realizable entity and other top level buckets are only there to provide an anchor for defined classes. I would vote in favor of keeping those "development helper" classes in a separate file, along with OWL2 bits and all things we don't want in the released file. Other example of unwanted things is disjoint between obsolete classes and bfo:Entity, as this may create inconsistencies for users importing OBI and somehow defeats the purpose of obsoleting classes.
+note: _realizable entity and other top level buckets are only there to provide an anchor for defined classes. I would vote in favor of keeping those "development helper" classes in a separate file, along with OWL2 bits and all things we don't want in the released file. Other example of unwanted things is disjoint between obsolete classes and bfo:Entity, as this may create inconsistencies for users importing OBI and somehow defeats the purpose of obsoleting classes.
 
-''' 2. remove editor notes '''
+''' Remove editor notes '''
 
 some difference of opinion here, BP/HP want to remove these, AR thinks they add value
 MC: happy to distribute editor notes if those were cleaned up. I don't think that this will happen realistically, nor that it should be a priority before release, so I would vote for removing them.
 
 
-''' 3. enforce curation status '''
+''' Resolve all obsolete term useage'''
+
+should be done by next release, will need checking again
+
+''' Resolve classified tree wierdness'''
+
+probably needs a manual check of defined classes
+
+''' Remove duplicates'''
+
+e.g mass spec
+
+''' Decide what to do with issues relating to requests to modify other ontologies e.g. RO'''
+
+resolve/workaround/leave?
+
+
+''' Check leaf nodes with a single child, and check there  potential additional children'''
+
+''' Clean up quality branch (aka conferred/historical qualities) '''
+
+
+
+== Release related items ==
+
+
+''' Resolve editor attribution '''
+
+e.g. PERSON: Kevin Clancy
+
+''' Check inconsistencies'''
+
+''' Produce a saved inferred version '''
+
+
+''' Mireot terms '''
+
+anything mireoted should probably be up to date in OBI 1.0 - do we have means to check this?
+
+
+
+
+== Require individual branch browsing ==
+
+
+''' Enforce curation status '''
 
 Two issues 
 
 *3.1. curation status is not up to date and needs to be for release 
 *3.2 review terms where curation status is really not complete and prioritise if any need to be done for release, and add to tracker
 
-'''4. Resolve all obsolete term useage'''
+''' Spellcheck, check for consistent class naming style'''
 
-should be done by next release, will need checking again
+''' Resolve cases where there are no logical/text definitions '''
 
-'''5. Resolve classified tree wierdness'''
+''' Resolve inconsistent logical/text definitions'''
 
-probably needs a manual check of defined classes
-
-'''6. remove duplicates'''
-
-e.g mass spec
-
-'''7. Decide what to do with issues relating to requests to modify other ontologies e.g. RO'''
-
-resolve/workaround/leave?
-
-'''8. resolve cases where there are no logical/text definitions '''
-
-'''9. resolve inconsistent logical/text definitions'''
-
-'''10. Check leaf nodes with a single child, and check there  potential additional children'''
-
-'''11. spellcheck, check for consistent class naming style'''
-
-'''12. resolve editor attribution '''
-
-e.g. PERSON: Kevin Clancy
-
-
-'''13. check inconsistencies'''
-
-'''14. produce a saved inferred version '''
-
-
-'''15. Mireot terms '''
-
-anything mireoted should probably be up to date in OBI 1.0 - do we have means to check this?
-
-'''16. Clean up quality branch (aka conferred/historical qualities) '''
+'''Clean up editor attribution'''
+policy is one editor's name per annotation property, using PERSON: xxxxxx
