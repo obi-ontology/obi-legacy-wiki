@@ -1,5 +1,6 @@
 ==OBI Release Process ==
 
+[http://docs.google.com/View?docid=dzprnmw_20cdv87mdw - google doc ]
 
 At release the OBI files have QC run and an inferred hierarchy produced. Each release is versioned, and is available from a specific URI using the release date as a tag. The current release is available from the download link - right.
 
