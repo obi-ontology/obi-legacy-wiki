@@ -1,4 +1,34 @@
+==OBI Release Process ==
+
+
+We have therefore established a release process where multiple branch development OWL files are merged into a single file, which makes it easier to use and view the ontology in currently available tools. 
+
+A second version of the ontology is released in which classes are organized in the inferred hierarchy. Each release is versioned, and is available from a specific URI using the release date as a tag. 
+
+The most up-to-date file prior to monthly release is always available from http://purl.obolibary.org/obo/obi.owl. Releases of OBI are also uploaded to the NCBO BioPortal (Musen, Shah et al. 2008) and the OBO Foundry repository (Smith, Ashburner et al. 2007). 
+
+
+==OBI QC==
+
+Checks are made prior to release to assure compliance of the released version with OBI policies.
+
+Specifically, classes are identified that do not comply with the minimal metadata policy, have invalid OWL syntax or lead to inconsistency when reasoning using Pellet (Evren Sirin 2007) or Fact++[ http://owl.man.ac.uk/factplusplus/]. Identifier format and policies are also enforced.  “New classes are automatically assigned a permanent identifier in the format OBI_0000001” on their first release. Similarly, the release process verifies that all IDs that were present in the previous release are still in use. This conforms with the GO deprecation policy that OBI has adopted.
+
 ==OBI Deprecation Policy==
+
+Deleted classes are moved under the ObsoleteClass in the OBI hierarchy and stored in a separate file. Identifiers are not re-used so classes can be tracked.
+
+==Needs clarification==
+
+After release or for RC1.0 will the following mean that a class is deprecated:
+
+If RDFS labels are changed?
+
+If there are axiomatic changes? E.g. new necessary and sufficient conditions
+
+If there are new asserted parents - ie a class is moved
+
+If text definitions are changed?
 
 ==Consequences for users==
 
