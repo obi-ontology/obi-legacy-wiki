@@ -226,6 +226,10 @@ http://sourceforge.net/tracker/?func=add&group_id=177891&atid=886178
 
 == Using OBI ==
 
+=== Deprecation Policy ===
+
+[http://obi-ontology.org/page/OBIDeprecationPolicy - current release, QC and deprecation issues]
+
 === SVN ===
 
 * Structure of SVN - there are 4 projects set-up, each with their own trunk, branches and tags directory: web, ontology, and tools.
