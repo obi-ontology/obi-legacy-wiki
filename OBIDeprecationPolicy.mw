@@ -29,6 +29,7 @@ Prior to deprecation:
 *Editors will note to relevant discussion groups, including our user mailing lists, soliciting opinions. Once the decision to deprecate has been made:
 
 *Editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated, and, if available, a suggestion of more appropriate terms to use'  '''If editor notes are removed from the OWL file at release this won't work HP.'''
+'''MC: we also use a class "obsolescence reason specification" similar to the curation status specification. Allowed values are term imported, term split, placeholder removed, terms merged, failed exploratory term, other.'''
 
 *Deleted classes are moved under the ObsoleteClass in the OBI hierarchy and stored in a separate file. Identifiers are not re-used so classes can be tracked.
 
@@ -38,9 +39,9 @@ Outstanding AI from Google doc:
 
 *Modify reporting script to report obsolete classes or properties that are not in Obsolete.owl, or which are not a subclass of only ObsoleteClass or ObsoleteProperty. No other warnings or errors will be issued for obsolete terms. '''HP: done?'''
 
-*Contact CM and ask for ObsoleteDatatypeProperty '''HP: done?'''
+*Contact CM and ask for ObsoleteDatatypeProperty '''HP: done?''' '''MC: yes - we use similar deprecation policy'''
 
-*Implement scripts to find obsolete classes by either: deprecatedClass/deprecatedProperty, "obsolete" curation status, or being a subclass (direct or inferred) of ObsoleteClass or ObsoleteProperty. Update all such cases to remove axioms other than the single subclassOf, to update the curation status, and, optionally, to mark as owl:deprecated.'''HP: done?
+*Implement scripts to find obsolete classes by either: deprecatedClass/deprecatedProperty, "obsolete" curation status, or being a subclass (direct or inferred) of ObsoleteClass or ObsoleteProperty. Update all such cases to remove axioms other than the single subclassOf, to update the curation status, and, optionally, to mark as owl:deprecated.'''HP: done?  '''MC: no'''
 
 ==Needs clarification==
 
