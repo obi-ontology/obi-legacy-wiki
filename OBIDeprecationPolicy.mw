@@ -1,12 +1,15 @@
 ==OBI Release Process ==
 
 
-We have therefore established a release process where multiple branch development OWL files are merged into a single file, which makes it easier to use and view the ontology in currently available tools. 
+At release the OBI files have QC run and an inferred hierarchy produced. Each release is versioned, and is available from a specific URI using the release date as a tag. The current release is available from the download link - right.
 
-A second version of the ontology is released in which classes are organized in the inferred hierarchy. Each release is versioned, and is available from a specific URI using the release date as a tag. 
+The most up-to-date stable release file is available from 
 
-The most up-to-date file prior to monthly release is always available from http://purl.obolibary.org/obo/obi.owl. Releases of OBI are also uploaded to the NCBO BioPortal (Musen, Shah et al. 2008) and the OBO Foundry repository (Smith, Ashburner et al. 2007). 
+* SVN
+* Bioportal
+* OBO repository
 
+Pre-release files need to be checked out from SVN - see
 
 ==OBI QC==
 
