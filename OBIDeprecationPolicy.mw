@@ -43,4 +43,4 @@ Each OBI commit into SVN has a change log. On release these are provided as rele
 
 Each released version of OBI *should have*  release notes indicating major changes, e.g. new terms imported from an external ontology, or reasons for deprecation
 
-[http://efo.svn.sourceforge.net/viewvc/efo/trunk/docs/releasedocs/  release notes example from EFO]
+[http://efo.svn.sourceforge.net/viewvc/efo/trunk/docs/releasedocs/ExFactor%20Ontology%20release%20notes.txt?revision=48&view=markup  release notes example from EFO]
