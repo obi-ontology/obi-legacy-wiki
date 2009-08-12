@@ -32,13 +32,11 @@ Prior to deprecation:
 
 #Editors will note to relevant discussion groups, including our user mailing lists, soliciting opinions. Once the decision to deprecate has been made:
 
-#Aan editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated, and, if available, a suggestion of more appropriate terms to use' 
-
-'''If editor notes are removed from the OWL file this won't work HP.'''
+#Aan editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated, and, if available, a suggestion of more appropriate terms to use'  '''If editor notes are removed from the OWL file at release this won't work HP.'''
 
 #Deleted classes are moved under the ObsoleteClass in the OBI hierarchy and stored in a separate file. Identifiers are not re-used so classes can be tracked.
 
-#A deprecated annotation property is applied
+#A deprecated annotation property is applied '''still true?'''
 
 ==Needs clarification==
 
