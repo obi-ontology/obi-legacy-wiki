@@ -24,7 +24,21 @@ Specifically, classes are identified that do not comply with the minimal metadat
 
 ==OBI Deprecation Policy==
 
-Deleted classes are moved under the ObsoleteClass in the OBI hierarchy and stored in a separate file. Identifiers are not re-used so classes can be tracked.
+Sometime OBI terms have errors and need to be retired. The process of retiring a term is variously called making it obsolete or deprecating it. 
+
+We consider the terms to be equivalent in this context and our intention is that the term no longer be used in new annotation, and that annotations that use it be revised to use a more correct term.  
+
+Prior to deprecation:
+
+#Editors will note to relevant discussion groups, including our user mailing lists, soliciting opinions. Once the decision to deprecate has been made:
+
+#Aan editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated, and, if available, a suggestion of more appropriate terms to use' 
+
+'''If editor notes are removed from the OWL file this won't work HP.'''
+
+#Deleted classes are moved under the ObsoleteClass in the OBI hierarchy and stored in a separate file. Identifiers are not re-used so classes can be tracked.
+
+#A deprecated annotation property is applied
 
 ==Needs clarification==
 
