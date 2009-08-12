@@ -34,4 +34,10 @@ If a MIREOT term is obsoleted
 
 ==Consequences for users==
 
-==Release notes==
+==Release notes and changelogs==
+
+Each OBI commit into SVN has a change log. On release these are provided as release notes. 
+
+Each released version of OBI *should have*  release notes indicating major changes, e.g. new terms imported from an external ontology, or reasons for deprecation
+
+[http://efo.svn.sourceforge.net/viewvc/efo/trunk/docs/releasedocs/  release notes example from EFO]
