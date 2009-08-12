@@ -30,6 +30,8 @@ Prior to deprecation:
 
 *Editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated, and, if available, a suggestion of more appropriate terms to use'  '''If editor notes are removed from the OWL file at release this won't work HP.'''
 '''MC: we also use a class "obsolescence reason specification" similar to the curation status specification. Allowed values are term imported, term split, placeholder removed, terms merged, failed exploratory term, other.'''
+'''
+MC: wrt to editor notes, I think it is very important to point to replacement or have explanation of deprecation. If we vote for removal of editor notes maybe we should skip obsolete classes? Other option is create a distinct annotation property, maybe "replaced by", or use seeAlso (which I like less as less precise)'''
 
 *Deleted classes are moved under the ObsoleteClass in the OBI hierarchy and stored in a separate file. Identifiers are not re-used so classes can be tracked.
 
