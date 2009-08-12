@@ -1,5 +1,16 @@
 ==OBI Release Process ==
 
+
+Copied from old page 'As OBI evolves we find that some times terms have errors and need to be retired. The process of retiring a term is variously called making it obsolete or deprecating it. We consider the terms to be equivalent in this context and our intention is that the term no longer be used in new annotation, and that annotations that use it be revised to use a more correct term.  
+
+Before terms are deprecated, editors will note to relevant discussion groups, including our user mailing lists, soliciting opinions. Once the decision to deprecate has been made, an editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated, and, if available, a suggestion of more appropriate terms to use'
+
+** If editor notes are removed from the OWL file this won't work HP.
+
+[http://docs.google.com/View?docid=dzprnmw_20cdv87mdw OBI Depreciation Policy]
+
+[[category:OBI Policy]]
+
 [http://docs.google.com/View?docid=dzprnmw_20cdv87mdw - google doc ]
 
 At release the OBI files have QC run and an inferred hierarchy produced. Each release is versioned, and is available from a specific URI using the release date as a tag. The current release is available from the download link - right.
