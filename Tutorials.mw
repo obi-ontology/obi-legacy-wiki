@@ -60,3 +60,8 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 #Click on the classes tab to see OBI classes and you are ready to classify
 #Choose 'Reasoner', FACT++ is the default reasoner, click 'classify' - this should be fast >2 minutes.
 #A new tab will appear - 'inferred hierarchy' - enjoy.
+
+
+==Release==
+
+OBI Releases are documented [http://docs.google.com/Doc?docid=0Acx6Blq96uycZHpwcm5td18xM256aHBmd2Z4&hl=en&invite=CKGzoJoE here] You may need to request edit privs to this document
