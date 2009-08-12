@@ -4,7 +4,7 @@ Technical reports consists of user guides and development specifications or meth
 
 * [[MIREOT|Minimal information to reference an external term]] 
 * [[OBI_Release_Policy|OBI Release Policy]]
-* [[OBI_Deprecation_Policy|OBI Deprecation Policy]]
+* [[OBIDeprecationPolicy|OBI Deprecation Policy]]
 * [[OBI_ID_Policy|OBI Identifier Policy]]
 * [[OBI_Minimal_metadata|Minimal requirement for term annotations in OBI]]
 * [[Defined_classes|Defined classes in OBI]]
