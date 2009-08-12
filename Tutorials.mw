@@ -214,5 +214,3 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 #Click on the classes tab to see OBI classes and you are ready to classify
 #Choose 'Reasoner', FACT++ is the default reasoner, click 'classify'
 #A new tab will appear - 'inferred hierarchy'
-
-* To display the class labels with Protege 4, choose 'preferences' from the
