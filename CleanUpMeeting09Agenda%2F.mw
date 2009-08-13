@@ -47,9 +47,14 @@ resolve/workaround/leave?
 == Release related items ==
 
 
+
+'''Use of obsolete terms'''
+
+Extracted from the deprecation policy google doc - Implement scripts to find obsolete classes by either: deprecatedClass/deprecatedProperty, "obsolete" curation status, or being a subclass (direct or inferred) of ObsoleteClass or ObsoleteProperty. Update all such cases to remove axioms other than the single subclassOf, to update the curation status, and, optionally, to mark as owl:deprecated. [https://sourceforge.net/tracker/?func=detail&atid=886178&aid=2837221&group_id=177891 tracker item]
+
 ''' Resolve editor attribution '''
 
-e.g. PERSON: Kevin Clancy
+
 
 ''' Check inconsistencies'''
 
@@ -59,9 +64,6 @@ e.g. PERSON: Kevin Clancy
 ''' Mireot terms '''
 
 anything mireoted should probably be up to date in OBI 1.0 - do we have means to check this?
-
-
-
 
 == Minor issues to resolve now ==
 
