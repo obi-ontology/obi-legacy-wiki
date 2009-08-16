@@ -26,7 +26,7 @@ extension from the files obi.owl, obi.pprj, obi.repository
 E) open the obi.pprj file in protege
 (double clicking works on windows)
 
-F)If you are editing OBI we are now working with a merged file rather than a branched file therefore:
+F)If you are editing OBI we are now working with a merged file rather than a series of branch files therefore:
 
 * Do an SVN update of your local repository prior to editing
 
