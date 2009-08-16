@@ -26,6 +26,14 @@ extension from the files obi.owl, obi.pprj, obi.repository
 E) open the obi.pprj file in protege
 (double clicking works on windows)
 
+F)If you are editing OBI we are now working with a merged file rather than a branched file therefore:
+
+* Do an SVN update of your local repository prior to editing
+
+* Send email to the devel list before checking out, after checking in
+
+* Keep edits short
+
 ==Sourceforge==
 
 1. First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
