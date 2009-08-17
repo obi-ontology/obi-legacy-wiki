@@ -46,15 +46,10 @@ Dev Call - chair JM
  * What constitutes a deprecated term discussion?
 
 #After release or for RC1.0 will the following mean that a class is deprecated:
-
 #If RDFS labels are changed?
-
 #If there are axiomatic changes? E.g. new necessary and sufficient conditions
-
 #If there are new asserted parents - ie a class is moved
-
 #If text definitions are changed?
-
 #If a MIREOT term is obsoleted
 
 * Milestones check, OBI user docs and development docs need work
