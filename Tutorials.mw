@@ -9,7 +9,7 @@
 ==Checkout==
 
 
-A) Install latest Protege 3.4.X version from 
+A) Install latest Protege 3.4.1 version from 
 http://protege.stanford.edu/download/registered.html 
 
 B) Install an svn client. For windows, we recommend 
@@ -27,6 +27,8 @@ E) open the obi.pprj file in protege
 (double clicking works on windows)
 
 F)If you are editing OBI we are now working with a merged file rather than a series of branch files therefore:
+
+* You MUST edit in 3.4.1
 
 * Do an SVN update of your local repository prior to editing
 
