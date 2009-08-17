@@ -41,6 +41,23 @@ Dev Call - chair JM
 
 * Discussion of user deprecation docs - HP's AI from last call
  * http://obi-ontology.org/page/OBIDeprecationPolicy
+ * Old page has been repointed, google doc AI's have been extracted to page
+ * check for obsolete terms needs to be rolled into release process, tracker item added
+ * What constitutes a deprecated term discussion?
+
+#After release or for RC1.0 will the following mean that a class is deprecated:
+
+#If RDFS labels are changed?
+
+#If there are axiomatic changes? E.g. new necessary and sufficient conditions
+
+#If there are new asserted parents - ie a class is moved
+
+#If text definitions are changed?
+
+#If a MIREOT term is obsoleted
+
+
 
 '''August 12 2009'''
 Coord Call - chair BP
