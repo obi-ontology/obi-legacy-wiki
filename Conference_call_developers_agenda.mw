@@ -34,6 +34,22 @@ Dev Call - chair CS
 '''August 19 2009'''
 Dev Call - chair LS
 
+* Release progress
+
+* BP: I think we need and should not define many sub-objectives of assay, 
+but should simply rely on what the specified output is to define 
+something like a sequencing assay
+
+- Assays like Chip-seq or MeDip-seq should have a sequencing assay as a part, not classify as one. 
+
+- I agree with what Alan wrote below, specifically that it is hard to get 
+the logical definitions right. That does not mean we should give up on them, 
+but that we should try to develop uniform design patterns. 
+I think calls are best suited to establish those, and we should have several before the clean up meeting. 
+
+* continue with the tracker
+
+
 '''August 17 2009'''
 Dev Call - chair JM 
 
