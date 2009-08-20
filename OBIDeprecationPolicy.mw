@@ -48,9 +48,9 @@ Outstanding AI from Google doc relating to deprecation:
 
 == Allowed changes ==
 
-*If RDFS labels may change e.g. to correct typos, or make a label clearer
+*RDFS labels may change e.g. to correct typos, or make a label clearer or more consistent
 
-*Axiomatic changes may be made, ie restrictions added or removed resulting in a change in heirarchy on classification
+*Axiomatic changes may be made, ie restrictions added or removed resulting in a change in the tree on classification
 
 *Classes may be moved, ie asserted parents may be removed or added
 
