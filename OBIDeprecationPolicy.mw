@@ -45,19 +45,17 @@ Outstanding AI from Google doc:
 
 *Implement scripts to find obsolete classes by either: deprecatedClass/deprecatedProperty, "obsolete" curation status, or being a subclass (direct or inferred) of ObsoleteClass or ObsoleteProperty. Update all such cases to remove axioms other than the single subclassOf, to update the curation status, and, optionally, to mark as owl:deprecated.'''HP: done?  '''MC: no''
 
-==Needs clarification==
+== Allowed changes ===
 
-After release or for RC1.0 will the following mean that a class is deprecated:
+*If RDFS labels may change e.g. to correct typos, or make a label clearer
 
-If RDFS labels are changed?
+*Axiomatic changes may be made, ie restrictions added or removed resulting in a change in heirarchy on classification
 
-If there are axiomatic changes? E.g. new necessary and sufficient conditions
+*Classes may be moved, ie asserted parents may be removed or added
 
-If there are new asserted parents - ie a class is moved
+*If text definitions and annotation properties may be added or removed
 
-If text definitions are changed?
-
-If a MIREOT term is obsoleted
+*Some terms are imported from external ontologies - if these are obsolete in the source ontology you may still find these in OBI, please report these.
 
 ==Consequences for users==
 
