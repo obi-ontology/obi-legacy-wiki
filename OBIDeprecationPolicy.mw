@@ -78,8 +78,14 @@ the original OBI term may be deprecated and replaced with  an imported term
 
 ==Release notes and changelogs==
 
-Each OBI commit into SVN has a change log. On release of OBI 1.0 these will be provided as release notes. 
+Each OBI commit into SVN has a change log. On release of OBI RC1.0 these will be provided as release notes. 
 
-Each released version of OBI *should have*  release notes indicating major changes, e.g. new terms imported from an external ontology, or reasons for deprecation
+Each released version of OBI *should have*  release notes indicating 
+
+*major changes e.g. re-classification of assays based on use of specified output and placeholder terms for stuture of primary sequence added to make logical definitions. These may be referenced to tracker items
+
+*new terms imported from an external ontology e.g. import of NCBI taxonomy terms for 330 species requested by ArrayExpress
+
+*List of newly deprecated terms
 
 [http://efo.svn.sourceforge.net/viewvc/efo/trunk/docs/releasedocs/ExFactor%20Ontology%20release%20notes.txt?revision=48&view=markup  release notes example from EFO]
