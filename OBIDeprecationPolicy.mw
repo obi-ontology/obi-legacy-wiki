@@ -32,7 +32,6 @@ OBI terms occasionally have errors and need to be retired. The process of retiri
 Prior to deprecation:
 
 *Editors will note to relevant discussion groups, including our user mailing lists, soliciting opinions. Once the decision to deprecate has been made:
-
 *An Editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated
 *a suggestion of more appropriate terms to use may be added
 * Class "obsolescence reason specification" similar to the curation status specification is also used, values are term imported, term split, placeholder removed, terms merged, failed exploratory term, other.
