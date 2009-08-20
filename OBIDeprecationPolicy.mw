@@ -20,7 +20,7 @@ Specifically, classes are identified that do not comply with the minimal metadat
 
 ==OBI Deprecation Policy==
 
-Sometime OBI terms have errors and need to be retired. The process of retiring a term is variously called making it obsolete or deprecating it. 
+OBI terms occasionally have errors and need to be retired. The process of retiring a term is called obsolete or deprecating it. 
 
 We consider the terms to be equivalent in this context and our intention is that the term no longer be used in new annotation, and that annotations that use it be revised to use a more correct term.  
 
