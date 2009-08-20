@@ -19,10 +19,11 @@ Checks are made prior to release to assure compliance of the released version wi
 Specifically, classes are identified that 
 
  *do not comply with the minimal metadata policy
- * have invalid OWL syntax or lead to inconsistency when reasoning using Pellet (Evren Sirin 2007) or Fact++[ http://owl.man.ac.uk/factplusplus/]
+ * have invalid OWL syntax or lead to inconsistency when reasoning using Pellet/FACT 
  *Identifier format and policies are also enforced
- * “New classes are automatically assigned a permanent identifier in the format OBI_0000001” on their first release.
+ *New classes are assigned a permanent identifier in the format OBI_0000001” at first release.
  * verification that all IDs that were present in the previous release are still in use.
+ *Obsolete classes are removed from logical definitions
 
 ==OBI Deprecation Policy==
 
