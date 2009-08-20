@@ -45,7 +45,7 @@ Outstanding AI from Google doc:
 
 *Implement scripts to find obsolete classes by either: deprecatedClass/deprecatedProperty, "obsolete" curation status, or being a subclass (direct or inferred) of ObsoleteClass or ObsoleteProperty. Update all such cases to remove axioms other than the single subclassOf, to update the curation status, and, optionally, to mark as owl:deprecated.'''HP: done?  '''MC: no''
 
-== Allowed changes ===
+== Allowed changes ==
 
 *If RDFS labels may change e.g. to correct typos, or make a label clearer
 
