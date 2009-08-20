@@ -51,6 +51,18 @@ I think calls are best suited to establish those, and we should have several bef
 
 * continue with the tracker
 
+ * AI for Jie: OBI terms used in manuscript and their IDs -will be done this week.
+ * AI for Chris: a design template for sequencing assays. 
+   BP adds quality - 'primary structure of macromolecule' is quality that should be in SO, added as a placeholder here  
+   - sequence is info about a quality - from previous discussion with Chris Mungall. 
+   - the spec output then for the seq assay is info about a quality 
+   - this will be an IAO term for sequence needed as well. 
+   can put design template here: http://obi-ontology.org/page/Design_process
+ * AI (already done by Chris): put to the tracker sequence macromolecule, assign to BP.
+ * AI  - the same for methylation state
+
+
+
 * JZ: create new tracker category (maillist) to put issues discussed in dev mail list ?
 
 * JZ: Manuscript - Table with all terms in the manuscript + their OBI ID
