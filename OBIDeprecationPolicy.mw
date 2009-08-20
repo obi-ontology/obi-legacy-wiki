@@ -40,10 +40,9 @@ Prior to deprecation:
 
 MC: wrt to editor notes, I think it is very important to point to replacement or have explanation of deprecation. If we vote for removal of editor notes maybe we should skip obsolete classes? Other option is create a distinct annotation property, maybe "replaced by", or use seeAlso (which I like less as less precise)'''
 
-Outstanding AI from Google doc:
+Outstanding AI from Google doc relating to deprecation:
 
 *Modify reporting script to report obsolete classes or properties that are not in Obsolete.owl, or which are not a subclass of only ObsoleteClass or ObsoleteProperty. No other warnings or errors will be issued for obsolete terms. 
-
 
 *Implement scripts to find obsolete classes by either: deprecatedClass/deprecatedProperty, "obsolete" curation status, or being a subclass (direct or inferred) of ObsoleteClass or ObsoleteProperty. Update all such cases to remove axioms other than the single subclassOf, to update the curation status, and, optionally, to mark as owl:deprecated.'''HP: done?  '''MC: no''
 
