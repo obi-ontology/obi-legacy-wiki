@@ -59,6 +59,12 @@ Outstanding AI from Google doc:
 
 ==Consequences for users==
 
+*Classes, properties and instances are deprecated when their 'meaning' in OBI changes or the class is found to be redundant. Any logical definitions which use that term will be modified so that references are removed.
+
+ *If a term in OBI was found to be present in an OBO foundry ontology the original OBI term may be deprecated and replaced with  an imported term
+
+ *If a term in OBI is decided to be out of scope, badly defined, or redundant it will be deprecated, prefixed with obsolete and given a new parent 'ObsoleteClass' obsolete_digital_entity, reason for deprecation='failed exploratory term'
+
 ==Release notes and changelogs==
 
 Each OBI commit into SVN has a change log. On release these are provided as release notes. 
