@@ -14,9 +14,15 @@ Pre-release files need to be [http://obi-ontology.org/page/Tutorials#Checkout ch
 
 ==OBI QC==
 
-Checks are made prior to release to assure compliance of the released version with OBI policies.
+Checks are made prior to release to assure compliance of the released version with OBI policies. This conforms with the GO deprecation policy that OBI has adopted.
 
-Specifically, classes are identified that do not comply with the minimal metadata policy, have invalid OWL syntax or lead to inconsistency when reasoning using Pellet (Evren Sirin 2007) or Fact++[ http://owl.man.ac.uk/factplusplus/]. Identifier format and policies are also enforced.  “New classes are automatically assigned a permanent identifier in the format OBI_0000001” on their first release. Similarly, the release process verifies that all IDs that were present in the previous release are still in use. This conforms with the GO deprecation policy that OBI has adopted.
+Specifically, classes are identified that 
+
+ *do not comply with the minimal metadata policy
+ * have invalid OWL syntax or lead to inconsistency when reasoning using Pellet (Evren Sirin 2007) or Fact++[ http://owl.man.ac.uk/factplusplus/]
+ *Identifier format and policies are also enforced
+ * “New classes are automatically assigned a permanent identifier in the format OBI_0000001” on their first release.
+ * verification that all IDs that were present in the previous release are still in use.
 
 ==OBI Deprecation Policy==
 
