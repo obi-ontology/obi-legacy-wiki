@@ -72,9 +72,9 @@ the original OBI term may be deprecated and replaced with  an imported term
 
 *Deprecation consists of
 
- *prefix with obsolete
- *given a new parent 'ObsoleteClass' obsolete_digital_entity
- *reason for deprecation='failed exploratory term'
+ *prefix with obsolete e.g. obsolete_digital_entity
+ *given a new parent 'ObsoleteClass'
+ *reason for deprecation e.g. 'failed exploratory term'
 
 ==Release notes and changelogs==
 
