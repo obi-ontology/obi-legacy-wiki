@@ -27,27 +27,23 @@ Specifically, classes are identified that
 
 ==OBI Deprecation Policy==
 
-OBI terms occasionally have errors and need to be retired. The process of retiring a term is called obsolete or deprecating it. 
-
-We consider the terms to be equivalent in this context and our intention is that the term no longer be used in new annotation, and that annotations that use it be revised to use a more correct term.  
+OBI terms occasionally have errors and need to be retired. The process of retiring a term is called obsolete or deprecating it. When a term is deprecated it should longer be used in new annotation, and that annotations that use it be revised to use a more correct term.  
 
 Prior to deprecation:
 
 *Editors will note to relevant discussion groups, including our user mailing lists, soliciting opinions. Once the decision to deprecate has been made:
 
-*Editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated, and, if available, a suggestion of more appropriate terms to use'  '''If editor notes are removed from the OWL file at release this won't work HP.'''
-'
-Class "obsolescence reason specification" similar to the curation status specification is also used. Allowed values are term imported, term split, placeholder removed, terms merged, failed exploratory term, other.
-'''
-MC: wrt to editor notes, I think it is very important to point to replacement or have explanation of deprecation. If we vote for removal of editor notes maybe we should skip obsolete classes? Other option is create a distinct annotation property, maybe "replaced by", or use seeAlso (which I like less as less precise)'''
-
+*An Editor note will be added to the OWL file explaining or pointing to a discussion of the reason why the term is being deprecated
+*a suggestion of more appropriate terms to use may be added
+* Class "obsolescence reason specification" similar to the curation status specification is also used, values are term imported, term split, placeholder removed, terms merged, failed exploratory term, other.
 *Deleted classes are moved under the ObsoleteClass in the OBI hierarchy and stored in a separate file. Identifiers are not re-used so classes can be tracked.
+*A deprecated annotation property is applied 
 
-*A deprecated annotation property is applied '''still true?'''
+MC: wrt to editor notes, I think it is very important to point to replacement or have explanation of deprecation. If we vote for removal of editor notes maybe we should skip obsolete classes? Other option is create a distinct annotation property, maybe "replaced by", or use seeAlso (which I like less as less precise)'''
 
 Outstanding AI from Google doc:
 
-*Modify reporting script to report obsolete classes or properties that are not in Obsolete.owl, or which are not a subclass of only ObsoleteClass or ObsoleteProperty. No other warnings or errors will be issued for obsolete terms. '''HP: done?'''
+*Modify reporting script to report obsolete classes or properties that are not in Obsolete.owl, or which are not a subclass of only ObsoleteClass or ObsoleteProperty. No other warnings or errors will be issued for obsolete terms. 
 
 
 *Implement scripts to find obsolete classes by either: deprecatedClass/deprecatedProperty, "obsolete" curation status, or being a subclass (direct or inferred) of ObsoleteClass or ObsoleteProperty. Update all such cases to remove axioms other than the single subclassOf, to update the curation status, and, optionally, to mark as owl:deprecated.'''HP: done?  '''MC: no''
