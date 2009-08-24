@@ -31,10 +31,35 @@ Dev Call - chair JF
 
 '''August 24 2009'''
 Dev Call - chair CS
-* AIs from last call
-* JZ: How to document important topics discussed in dev mail list? Wiki page? Tracker items? - according to the discussion topics
-* Release and manuscript progress
-* continue with the tracker
+Attending: HP, JF, CS, JZ, BP, AR
+
+AIs from last call:
+*JZ has generated a table of terms mentioned in manuscript. This is checked into svn with the manuscript.
+http://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/papers/release/OBITerm-ids.xls
+*CS has drafted design template documentation for assays. Still needs work - please review and make suggestions for improvements
+http://obi-ontology.org/page/Design_process
+
+Documentation of email discussions:
+JZ was tasked with documenting email threads in the tracker but it's not clear if that's the best place to put it and how to capture these discussions that always tie nicely to a term or a single tracker item. It is clear that we need to document these somehow otherwise we are doomed to repeat the discussions and waste time and effort. 
+Proposal is to use current discussion on has_participant and has_specified_input as test case. Once we have summary, we can figure out the best place to put it as an agenda item.
+AI: HP will summarize specified_in/output, and run it past FG.
+
+Manuscript:
+BP has gone through the comments from other readers and addressed for the most part. We went through comments and either made changes or added items to tracker. 
+* calculate # of classes & relations -> tracker
+* can use plural of terms in manuscript in order to make manuscript nice to read (also see tracker use of plurals in the manuscript). 
+* need to update figure 1 -> already in tracker
+* species neutrality. Mention as a big issue across OBO Foundry ontologies
+* Update logical definition of PBS buffer -> tracker
+* better example of objective specification. AR: goal is to take something someone else has written in a protocol
+* Redraw figure 2, replace 'depend ons' with 'inheres in'. -> JF tracker (error in fig 2)
+* clean up information processing/ data transformation -> tracker (clustering paragraph paper)
+Also did same thing for the table that JZ generated - i.e., made adjustments to manuscript or added to tracker. Revised version checked into to svn at end of call
+* IAO section of paper
+* add glucometer to OBI for paper
+*  person/Homo sapiens in OBI
+
+Need OBI developers to take on unassigned items!
 
 '''August 19 2009'''
 Dev Call - chair LS
