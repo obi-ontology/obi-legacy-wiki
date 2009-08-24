@@ -27,7 +27,6 @@ label' some concentration unit label'))
 Logical definition:<br>
 (‘achieves planned objective’ some ‘assay
 objective’<br>
-and has_specified_input some ('ribonucleic acids' or 'deoxyribonucleic acids' or protein) 
-process<br>
+and has_specified_input some ('ribonucleic acids' or 'deoxyribonucleic acids' or protein) <br>
 and has_specified_output some ('sequence' and is_about some quality ('primary structure of macromolecule'))
-and  ..
+and  ..)
