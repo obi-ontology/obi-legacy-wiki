@@ -1,3 +1,13 @@
-Design Template for Assays:
+<h3>Design Template for Assays:</h3>
 
-OBI is designed around assays which includes processes, specifications, inputs, and outputs. An example of an assay is provided in the Quick Terms Template paper.
+OBI is designed around assays which includes processes, specifications, inputs, and outputs. An example of an assay is provided in the Quick Terms Template paper (Rocca-Serra et al., Overcoming the Ontology Enrichment Bottleneck with Quick Term Templates, ICBO, BUffalo, NY, July , 2009).
+
+<b>Analyte assays:</b> An analyte assay is an assay with
+the objective to determine concentration of one
+substance (bearer of analyte role) that is present in
+(part of) another (bearer of the evaluant role). The
+output of the assay is information about concentration
+– a relational quality of the analyte towards the
+evaluant.
+
+<b>Sequencing assays:</b>
