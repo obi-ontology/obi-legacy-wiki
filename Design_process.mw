@@ -8,6 +8,18 @@ substance (bearer of analyte role) that is present in
 (part of) another (bearer of the evaluant role). The
 output of the assay is information about concentration
 – a relational quality of the analyte towards the
-evaluant.
+evaluant.<br>
 
-<b>Sequencing assays:</b>
+Logical definition:<br>
+(‘achieves planned objective’ some ‘analyte measurement
+objective’<br>
+and realizes some ('evaluant role' that ‘inheres in’ some
+‘material entity’)<br>
+and realizes some ('analyte role' that ‘inheres in’ some
+'scattered molecular aggregate')<br>
+and has_specified_output_information some ('scalar
+measurement datum' and ('is quality measurement of' some
+'molecular concentration') and ('has measurement unit
+label' some concentration unit label'))
+
+<b>Sequencing assays:</b> the use of a chemical or biochemical means to infer the sequence of a biomaterial
