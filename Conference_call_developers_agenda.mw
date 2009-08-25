@@ -46,7 +46,7 @@ http://obi-ontology.org/page/Design_process
 Documentation of email discussions:
 JZ was tasked with documenting email threads in the tracker but it's not clear if that's the best place to put it and how to capture these discussions that always tie nicely to a term or a single tracker item. It is clear that we need to document these somehow otherwise we are doomed to repeat the discussions and waste time and effort. 
 Proposal is to use current discussion on has_participant and has_specified_input as test case. Once we have summary, we can figure out the best place to put it as an agenda item.
-AI: HP will summarize specified_in/output, and run it past FG.
+AI: HP will summarize specified_in/output, and run it past FG. - Done, documented and resolved
 
 Manuscript:
 BP has gone through the comments from other readers and addressed for the most part. We went through comments and either made changes or added items to tracker. 
