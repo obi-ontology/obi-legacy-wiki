@@ -28,10 +28,38 @@ Dev Call - chair YH (Oliver)
 
 '''August 26 2009'''
 Dev Call - chair JF
-
-* Philadelphia room shortage. Accommodation options Chris/Jie/Helen
-
-* ~20 priority 9 tracker items
+AIs from last call:
+(1) review CS assay design template:http://obi-ontology.org/page/Design_process
+(2) review JZ list of terms in manuscript:http://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/papers/release/OBITerm-ids.xls
+ 
+(3) documentation of discussion - email / tracker / calls
+emails - thread name is often not reflective of discussion, so important topics can be difficult to find / follow
+email format is virtually impossible to read once it is more that three deep - when should we trigger a summary?
+FG: tracker discussions are missed by folks not following tracker -> ask all interested people to follow tracker?
+complex issues cannot be easily discussed on paper / assigned to a single term in the tracker
+ 
+AI: HP will summarize specified_in/output, and run it past FG.
+JZ was tasked with documenting e-mail threads in tracker
+ 
+Ongoing:
+(4) Manuscript:  Need OBI developers to take on unassigned items!
+* need to update figure 1 -> already in tracker
+* species neutrality. Mention as a big issue across OBO Foundry ontologies
+* Update logical definition of PBS buffer -> tracker
+* better example of objective specification. AR: goal is to take something someone else has written in a protocol
+* Redraw figure 2, replace 'depend ons' with 'inheres in'. -> JF tracker (error in fig 2)
+* clean up information processing/ data transformation -> tracker (clustering paragraph paper)
+* IAO section of paper
+* add glucometer to OBI for paper
+* person/Homo sapiens in OBI
+ 
+(5) priority 9 tracker items
+ 
+New items:
+ 
+(6) hotel accomodation options for Cleanup Meeting  Accommodation options Chris/Jie/Helen
+ 
+(7) HP and PL performed useful review of Role branch -- several issues raised also occur in other branches; is there a review underway of other branches?
 
 '''August 24 2009'''
 Dev Call - chair CS
