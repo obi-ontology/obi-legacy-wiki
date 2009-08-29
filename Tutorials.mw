@@ -68,10 +68,12 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 #To get the class labels rather than the OBI ids to display select 'preferences' from the 'file' menu, Choose the renderer tab. Choose 'render entitities using annotation values' and OK.
 #You should now be able to see OBI class labels rather than ids.
 #Ensure everything is being loaded locally, rather than from the web - check menu 'File' 'Loaded Ontology Sources' Everything should be loaded from files. If not add to "ontology libraries"  3
-local directories - 
-  #branches
-  #external
-  #external/iao
+local directories
+
+branches
+external
+external/iao
+
 #Click on the classes tab to see OBI classes and you are ready to classify
 #After the ONTIE merge Aug 2009, Pellet 2 classifies in a couple of minutes.
 
