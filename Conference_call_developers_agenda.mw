@@ -44,8 +44,11 @@ AI for Alan: However, a new annot prop or another strategy may be needed. Alan w
 3. NCBI taxonomy terms. Current taxnonomy terms in OBI are probably overloaded. OntoFox ( http://ontofox.hegroup.org ) is a good program that will be used for possible cleanup. We will need do the following steps proposed by Alan and Oliver:
 
 1) Collect leaf terms we want in OBI;
+
 2) Run ontofox methods on these. Three OntoFox methods are available and all used for this run: includeNoIntermediaaries, includeSensibleIntermediaaries, and includeAllIntermediaaries.
+
 3) Inspect all results for review. We will then decide which one will be used for OBI. 
+
 This will be implemented by Oliver's group.
 
 We may need to generate disjoints among NCBITaxon terms, or this may need to be done by NCBITaxon itself.
