@@ -210,7 +210,57 @@ Dev Call - chair JM
 ====July 2009====
 
 '''July 29 2009'''
-Dev Call - chair YH (Oliver)
+Dev Call - chair YH (Oliver). Attendants: JF, YH, JZ, CS, JM, BP, HP, PR, AR
+
+Agenda (1): All the remaining high priority tracker items have been discussed: 
+http://sourceforge.net/tracker/?group_id=177891&atid=886178
+Some items were closed during the talk. Some remain. Those that remain open and have priority of "9" include:
+ 
+Item #1: 2829038  specified ... relations   2009-07-29  
+Note: The 'has specified ... ' relations might need cleanup and not refer to roles any more. A feedback from Larissa and the Relation branch is needed to close this item. 
+  
+Item #2: 2828363  Raw Data vs Processed data  2009-07-28 
+Note: We need original data for data (e.g, microarray data) analysis. Currently, IAO and OBI disagree in terms of measured data. May need to create an assay measurement data item in OBI. May still keep 'assay' in OBI, and then IAO reference OBI assay. Since Alan was not late and not in the discussion, James will bring it up in next IAO call.  
+ 
+Item #3: 2827920  ONTIE term migration   2009-07-27 
+NOTE: ONTIE has terms (like ELISA assay) to be included in OBI as classes. The ONTIE database also contains many epitope data that will be OBI instances. 
+ 
+Item #4: 2827918  Include terms to allow query for Genepattern use case, 2009-07-27 
+NOTE: This item was not specifically discussed for closure. However, we discussed a lot about mireoting existing terms from other ontologies for ArrayExpress microarray data analysis. See below.
+ 
+Item #5: 2613561  action specification, 2009-02-18
+NOTE: This item was not discussed.
+  
+Item #6: 2100531  mixtures of chemicals in Chebi, 2008-09-08 
+NOTE: This item was not discussed.
+ 
+Item #7: 1911447  release + documentation  2008-03-10 
+NOTE: Alan, Jie, and Melanie have put a lot of time in OBI release. Alan targets to debug and make the release process work by this weekend. Allen from Oliver's lab has also been asked to develop a more generic Java-based version for late OBI release. Allen is currently working on this.
+For OBI manuscript, now Melanie has it for review. Jen likes to re-join the review list.
+ 
+Agendat (2): Helen indicates that ArrayExpress can suggest terms (typically tissues, parts, diseases, compounds) to MIREOT from other ontologies based on their EFO work. 
+NOTE: we all agreed that many terms from well developed ontologies, such as CHEBI and FMA, can be mireoted. Ontologies should be ranked. It means that some terms from many ontologies may not mireoted. One solution is to put terms (such as disease related terms) that are not well defined in some seperate file or branches, and make notes for future cleanup. 
+ 
+(3) We need to start planning our next face to face OBI meeting. Chris voluteered Philly.
+NOTE: Current candidates: Phily, Stanford, Vancouver, and EBI. Many voted for Philly. Helen will check on Emerald funding from EBI. We may need to set up a doodle site for voting.
+About timing: all agreed that the paper should be submitted first before we meet next time. Nov-Jan is good timing.
+ 
+(4) James raised a question about MIREOTing classes into OBI. We may need to make some policy in terms of what ontologies we should import terms from. Some ontologies that are not orthogonal may need to be excluded. 
+NOTE: all agreed. 
+ 
+(5) A note from Helen: _cloning placeholder needs some work. Kevin Clancy and Bjoern had done quite a lot of work in this area.
+NOTE: Helen is going to do more work on this.
+ 
+(6) Broken links in OBI: http://obi-ontology.org/page/ . Now, the download link ( http://purl.obofoundry.org/obo/obi.owl ) in this page is pointed to:
+http://obi.svn.sourceforge.net/viewvc/obi/releases/2009-01-28/merged/OBI.owl 
+Note: the 2009-01-28 date is right. This is our most recent release. We need to generate a new release soon.
+ 
+(7) DNA sequencing. Philippe has done some preliminary but nice work on including DNA sequencing in OBI. Discussions appeared to focus on how to make it more specifically and logically defined. Philippe has added DNA sequencing as a defined class. He also distinguished DNA sequencing by use of DNA ligase from DNA sequencing by use of DNA polymerase. DNA polymerase is already imported under protein complex. 
+NOTE: not discussed.
+ 
+(8) Where to add svn checkout instructions? Bjoern has laid out a very helpful and simple instruction.
+NOTE: We may need to add this in wiki and read me file. We also need to freeze old wiki and only work to new wiki. However, it was often hard to know which is new wiki and which is old. 
+
 
 '''July 27 2009'''
 Dev Call - chair AR
