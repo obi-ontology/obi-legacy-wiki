@@ -65,10 +65,15 @@ AI for Helen or Bjoen (?): paste this issue into the tracker. We will discuss it
 
 '''August 26 2009'''
 Dev Call - chair JF
+
+Atending:  AR, BP, CS, JF, MC, HP, JZ
+
 AIs from last call:
+
 (1) review CS assay design template:http://obi-ontology.org/page/Design_process
+
 (2) review JZ list of terms in manuscript:http://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/papers/release/OBITerm-ids.xls
- 
+    
 (3) documentation of discussion - email / tracker / calls
 emails - thread name is often not reflective of discussion, so important topics can be difficult to find / follow
 email format is virtually impossible to read once it is more that three deep - when should we trigger a summary?
@@ -97,6 +102,34 @@ New items:
 (6) hotel accomodation options for Cleanup Meeting  Accommodation options Chris/Jie/Helen
  
 (7) HP and PL performed useful review of Role branch -- several issues raised also occur in other branches; is there a review underway of other branches?
+
+  (1) discussed CS assay design template:http://obi-ontology.org/page/Design_process
+  this is the place to document complex, generalizable decisions, e.g. analyte assay.  
+  please add to sequencing example
+ 
+  (2) documentation of discussion -> tracker
+  AI from last call: HP summarize specified_in/output, and run it past FG; we have agreement
+ 
+  (3) Clean up meeting will have a speaker phone
+  hotel space:  evening of oct 17 may need to stay at airport and 
+  CS will organize transport additional accomodation options in e-mail
+  funding information - HP has funds on first come first served basis.
+ 
+  (4) ms:
+  a. changes to fig 2 acceptable; re-label taking sample -> taking specimen since this is more generic
+  b. BP working on use cases:1 pp to introduce the problem pp #2 specifically formulates the use case /
+  how OBI is used and figure to graphically display implementation in OBI
+  c. HP: the content of the table is broken in 2 places, we need to fix the file or the use case; 
+  missing use of spec input
+  d. add note in text summarizing current state of implementation GenePattern
+  e. AR will look at ONTIE/OBI
+  f. BP to add terms from ms as defined classes; change regulatory agency to government regulator = 
+  org or person that has role regulatory role; add scientific research funder as person or org 
+  that has role funder role
+ 
+  (5) cleanup mtg could have session on roles
+ 
+  (6) Oliver is the next host
 
 '''August 24 2009'''
 Dev Call - chair CS
