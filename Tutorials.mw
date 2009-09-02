@@ -55,9 +55,9 @@ The aim is to detect problems with the OWL file that cause OBI to reason slowly.
 
 ==Protege4==
 
-* Protege 3.4 is the recommended editor for OBI. However you may find that you are not able to classify OBI with its Pellet default reasoner. In this case classification with FACT++ using Protege 4 may work. Do NOT edit with Protege 4, only view and classify the ontology. Edits must be made in 3.4. 
+* Protege 3.4 is the recommended editor for OBI. However you may find that you are not able to classify OBI with its Pellet default reasoner. Instead using Protege 4 with the Pellet 2 reasoner is working. Do NOT edit with Protege 4, only view and classify the ontology. Edits must be made in 3.4. 
 
-* Installing Protege 4: For maximum isolation from the particulars of your system, choose the installer that "includes Java VM", and when the installer asks, choose to install a VM for protege rather than using the installed default.  
+* Installing Protege 4: choose the installer that "includes Java VM", and when the installer asks, choose to install a VM for protege rather than using the installed default.  
 
 * Opening OBI with protege 4. 
 
