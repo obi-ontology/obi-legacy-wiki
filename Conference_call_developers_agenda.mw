@@ -22,6 +22,35 @@ Dev Call - chair JZ - canceled due to US holiday
 
 '''September 2 2009'''
 Dev Call - chair MC
+agenda: tracker items, obsolete classes, ontie merge
+
+1. ONTIE merge issues
+Should be logged under the OBI tracker and assigned to Bjoern
+
+2. obsolete classes: 
+Proposal to delete those before 1.0
+Concerns that those obsolete classes sometimes record design decision, and that we should ensure we don't loose that information
+Best place for design decisions is not in obsolete classes, but we will keep obsolete classes information somewhere
+
+AI for JM: email dev list with proposal DL: 2 weeks (next dev call) for objection
+
+
+3. Tracker items
+
+* isa tools use case - wait on PRS
+* person/homo sapiens
+duplicate classes have been cleaned up.
+discussion deferred until next dev call
+* paragraph about clustering
+AI for HP: redraft this paragraph - DL next call
+* discussion on DT clustering objective. See http://sourceforge.net/tracker/index.php?func=detail&aid=2843674&group_id=177891&atid=886178
+* Manuscript figure
+Jennifer asked her graphics group to work on figure.
+* Manuscript
+We would like to have an OWL file as supplemental material for each use case. Jennifer's could be done during the calls.
+Supplementary table: should be updated at the end of writing process - after clean up meeting, before RC
+* Clarification for editing process regarding manuscript: use cases section will be emailed to BP directly. Edits to whole document go through editing queue.
+AI for MC: write instructions on how to create a new OWL file, BP to try and use instructions to create file. DL next call
 
 ====August 2009====
 
