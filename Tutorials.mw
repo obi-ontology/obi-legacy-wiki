@@ -71,7 +71,7 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 #Choose open owl ontology
 #Select obi.owl from your local copy of OBI obi\obi\trunk\src\ontology\branches - this is an OBI owl file with the imports present locally so you should not need to resolve these manually.
 #When tested on 12 Aug 09 protege-dc failed to import, this can be imported locally by selecting the appropriate OWL protege-dc.owl file from your local copy of OBI -  obi\obi\trunk\src\ontology\external
-#To get the class labels rather than the OBI ids to display select 'preferences' from the 'file' menu, Choose the renderer tab. Choose 'render entitities using annotation values' and OK.
+#To get the class labels rather than the OBI ids to display select 'preferences' from the 'file' menu (protege menu on mac), Choose the renderer tab. Choose 'render entitities using annotation values' and OK.
 #You should now be able to see OBI class labels rather than ids.
 #Ensure everything is being loaded locally, rather than from the web - check menu 'File' 'Loaded Ontology Sources' Everything should be loaded from files, so add to "ontology libraries"  3 local directories branches, external, external/iao
 #Click on the classes tab to see OBI classes and you are ready to classify
