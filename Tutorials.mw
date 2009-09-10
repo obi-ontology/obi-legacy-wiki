@@ -75,8 +75,8 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 #You should now be able to see OBI class labels rather than ids.
 #Ensure everything is being loaded locally, rather than from the web - check menu 'File' 'Loaded Ontology Sources' Everything should be loaded from files, so add to "ontology libraries"  3 local directories branches, external, external/iao
 #Click on the classes tab to see OBI classes and you are ready to classify
-#Choose 'Reasoner', FACT++ is the default reasoner, however download Pellet 2, choose file, preferences, click the plugin tab, select Pellet 2, and it will be available after a Protege restart 
-#click 'classify' - this should be fast >2 minutes.
+#Choose 'Reasoner', FACT++ is the default reasoner, however download Pellet 2, choose file, preferences, click the plugin tab, select Pellet 2, and it will be available after a Protege restart. Once you select Pellet then classification will start.
+#This should be 2-4 minutes depending on the machine you are running on
 #After the ONTIE merge Aug 2009, Pellet 2 classifies in a couple of minutes.
 #A new tab will appear - 'inferred hierarchy' - enjoy.
 
