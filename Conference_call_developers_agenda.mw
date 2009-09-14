@@ -42,22 +42,24 @@ Alan Ruttenberg: OCRE: http://bioportal.bioontology.org/ontologies/40170
 
 2. Drug role - def. reviewed, agreed that it's too tight now and will be relaxed so we can use it in this use case. We will add a new defined class which is 'approved drug role' - output of some approval process which will work for the original def of drug role.
 
-AI: HP will redefine drug role more generally for this use case.
+AI: HP will redefine drug role more generally for this use case - DONE
 AI: approved drug role needs to be added as does approval process - HP will create tracker item
 
 3. excluded study participant role - this is now in a placeholder _under discussion. We decided that we don't need to assign roles here, and this role will be deprecated and not used in the use case.  JM modified slides.
 
+AI:deprecate excluded study part role - DONE
+
 4. study participant role - discussion on whether this is needed, in a workshop FG and others expressed the view that this be deprecated. It's not used and we will use study subject instead.
 
-AI: HP will remove this term and repoint the obsoleted 'potential study participant role' to 'study subject'
+AI: HP will dep. this term and repoint the obsoleted 'potential study participant role' to 'study subject' - DONE
 
 5. Person/Homo sapiens, discussion that these are instances of Homo sapiens and not people. Agreed, we'll use Homo sapiens in this use case
 
 6. Discussion on how we can label the two groups - treated and untreated. There's no role for this only 'study treatment group' which refers to both those treated with the query or active compound vs. the control one. These can be modelled as processes but we have no process terms for these yet. Not completed.
 
-7. Suggestion by JF that 'study population role' be deprecated, there are more specific roles which can be logically defined.
+7. Suggestion by JF that 'study population role' be deprecated, there are more specific roles which can be logically defined. 
 
-AI: HP will deprecate this term.
+AI: HP will deprecate this term. - DONE and child terms asserted under role
 ----------------------------------------------------------
 
 '''September 9 2009'''
