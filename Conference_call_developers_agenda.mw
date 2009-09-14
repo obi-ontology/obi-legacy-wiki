@@ -13,7 +13,7 @@ Dev Call - chair RB
 
 Present: HP (Chair), JM, AR, CC, JF, JZ, CS, MC
 
-1. SIG paper, Oliver's offered to work on this, but we need to make a decision as these are now in same time frame. Various views expressed:
+== 1. SIG paper, Oliver's offered to work on this, but we need to make a decision as these are now in same time frame. Various views expressed: ==
 
 Option A. We work on both papers, we proposed asking Oliver to coordinate the work on the SIG paper
 
@@ -23,9 +23,8 @@ Option C. We work on the SIG paper and defer main paper.
 
 AI: Add to Wednesday's discussion as neither BP or OH were on the call and if necessary vote on the wiki.
 
----------------------------------------
 
-2. Clinical Trial use case
+== 2. Clinical Trial use case ==
 
 Slides were edited (rather than OWL file) and will be checked in to sf.
 
@@ -54,8 +53,6 @@ AI: HP will remove this term and repoint the obsoleted 'potential study particip
 7. Suggestion by JF that 'study population role' be deprecated, there are more specific roles which can be logically defined.
 
 AI: HP will deprecate this term.
-
-
 ----------------------------------------------------------
 
 '''September 9 2009'''
