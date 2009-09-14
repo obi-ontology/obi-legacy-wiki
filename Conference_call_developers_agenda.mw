@@ -13,7 +13,22 @@ Dev Call - chair HP
 
 AI: Jessica Turner is BIRN and NIF rep.
 
-Resolving roles related to the investigation use case. 
+AI: Review of clinical trials use case:
+----------------------------------------
+* review revised slides, model if ok
+
+* http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/Figures/Clinical%20usecase9-10b.ppt?view=log
+
+* add single blind clinical trial?
+
+ref source:http://en.wikipedia.org/wiki/Randomized_controlled_trial#Single-blind_trial
+text def: is a study design in which the study subjects (or participants?) do not know which treatment they receive, though the researchers do know.
+Logical def:  ?
+
+* determine differentia between study subject and study participant - which to use?
+
+
+
 
 '''September 9 2009'''
 Coord Call - chair BP
