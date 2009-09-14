@@ -10,25 +10,50 @@ Dev Call - chair RB
 
 ----------------------------------------------------------
 '''September 14 2009'''
-Dev Call - chair HP
 
-1. deadline on SIG paper's changed to 2 months, LSS suggests ask for an extension. Oliver's offered to work on this - OK with all? 
+Present: HP (Chair), JM, AR, CC, JF, JZ, CS, MC
 
-2. Jessica Turner is BIRN and NIF rep.
+1. SIG paper, Oliver's offered to work on this, but we need to make a decision as these are now in same time frame. Various views expressed:
 
-3. Review of clinical trials use case:
+Option A. We work on both papers, we proposed asking Oliver to coordinate the work on the SIG paper
 
-* review revised slides, model if ok
+Option B. We work on the main OBI paper and don't do the SIG
 
-* http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/Figures/Clinical%20usecase9-10b.ppt?view=log
+Option C. We work on the SIG paper and defer main paper.
 
-* add single blind clinical trial?
+AI: Add to Wednesday's discussion as neither BP or OH were on the call and if necessary vote on the wiki.
 
-ref source:http://en.wikipedia.org/wiki/Randomized_controlled_trial#Single-blind_trial
-text def: is a study design in which the study subjects (or participants?) do not know which treatment they receive, though the researchers do know.
-Logical def:  ?
+---------------------------------------
 
-* determine differentia between study subject and study participant - which to use?
+2. Clinical Trial use case
+
+Slides were edited (rather than OWL file) and will be checked in to sf.
+
+AI: PRS suggested we should liase with the OCI/OCRE re: clinical terms and he'll follow up with OCRE (OCI is inactive at present) (after 2 weeks due to other work) to see what their status is. AR suggested check OGMS. In the meantime we will add terms as we need them for this use case
+
+http://code.google.com/p/ogms/
+Alan Ruttenberg: OCRE: http://bioportal.bioontology.org/ontologies/40170
+
+1. study design was unresolved last week. We discussed adding single blind trial design and decided that this should be defined in terms of the process rather than adding a new term. There are still then multiple study design terms that describe the use case and we need all of these still.
+
+2. Drug role - def. reviewed, agreed that it's too tight now and will be relaxed so we can use it in this use case. We will add a new defined class which is 'approved drug role' - output of some approval process which will work for the original def of drug role.
+
+AI: HP will redefine drug role more generally for this use case.
+AI: approved drug role needs to be added as does approval process - HP will create tracker item
+
+3. excluded study participant role - this is now in a placeholder _under discussion. We decided that we don't need to assign roles here, and this role will be deprecated and not used in the use case.  JM modified slides.
+
+4. study participant role - discussion on whether this is needed, in a workshop FG and others expressed the view that this be deprecated. It's not used and we will use study subject instead.
+
+AI: HP will remove this term and repoint the obsoleted 'potential study participant role' to 'study subject'
+
+5. Person/Homo sapiens, discussion that these are instances of Homo sapiens and not people. Agreed, we'll use Homo sapiens in this use case
+
+6. Discussion on how we can label the two groups - treated and untreated. There's no role for this only 'study treatment group' which refers to both those treated with the query or active compound vs. the control one. These can be modelled as processes but we have no process terms for these yet. Not completed.
+
+7. Suggestion by JF that 'study population role' be deprecated, there are more specific roles which can be logically defined.
+
+AI: HP will deprecate this term.
 
 
 ----------------------------------------------------------
