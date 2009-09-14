@@ -8,15 +8,16 @@
 '''September 16 2009'''
 Dev Call - chair RB
 
+----------------------------------------------------------
 '''September 14 2009'''
 Dev Call - chair HP
 
-1. deadline on paper's changed, we can ask for an extension. Oliver's offered to work on this - OK with all?
+1. deadline on SIG paper's changed to 2 months, LSS suggests ask for an extension. Oliver's offered to work on this - OK with all? 
 
 2. Jessica Turner is BIRN and NIF rep.
 
 3. Review of clinical trials use case:
-----------------------------------------
+
 * review revised slides, model if ok
 
 * http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/Figures/Clinical%20usecase9-10b.ppt?view=log
@@ -30,7 +31,7 @@ Logical def:  ?
 * determine differentia between study subject and study participant - which to use?
 
 
-
+----------------------------------------------------------
 
 '''September 9 2009'''
 Coord Call - chair BP
