@@ -73,14 +73,14 @@ http://obi-ontology.org/page/Sig_paper_vote
 
 - summary of progress http://docs.google.com/Doc?docid=0Aagyu8cVTs1OZGY2MjY5aHZfMTEyZzJocXFuYzM&hl=en
 
-3. Other priority 9 tracker items which need attention
+3. Priority 9 tracker items:
 
-drug role has been modified, no progress on approved drug (not urgent for use case)
-ISA-TAB use case - PRS
-IAO part of paper - AR
-Clin trials use case fig - JF - progress on this?
-Action spec - needs more info for AR
-mixtures of chemicals in Chebi - BP
+*drug role has been modified, no progress on approved drug (not urgent for use case) HP
+*ISA-TAB use case - PRS
+*IAO part of paper - AR
+*Clin trials use case fig - JF - progress on this?
+* Action spec - needs more info for AR
+* mixtures of chemicals in Chebi - BP
 
 '''September 16 2009'''
 Dev Call - chair RB
