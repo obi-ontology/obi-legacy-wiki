@@ -25,3 +25,45 @@ Initials:
 <br\>LSS- can actively work on it
 <br \>DD - Can finish use case cognitive neuroscience - decision processing, (which I at one stage already sent to Melanie for review)
 <br\>CS - happy to review and correct draft
+
+
+== Use Case: Cognitive Neuroscience ==
+
+The paper represented can be found [http://www.nature.com/nature/journal/v418/n6896/full/nature00892.html here]. 
+
+=== About the diagrams ===
+
+'''In short:''' the experiment tries studies the role of the caudate nucleus in the control of action and more specifically targets the reward factor. It is found that the caudate nucleus is active before the actual presentation of the stimulus and fires more for the reward related position. 
+
+
+I represented the '''following elements''' of the study:
+* Study Design
+* 1 subject: 'Monkey 1'
+* Measurements and Stats
+* Stimulus 'Left Cue'
+
+
+=== Diagrams ===
+
+[[Image:Use-Case-Study-DD.png|right|alt=Study design of Lauwereyns 2002.|400px|Study Design]]
+'''Study Design'''
+
+The experiment tries to unravel what the role is of the caudate nucleus in reward processing. The preparation is basically nothing else but the training of the monkey to respond to a particular reward schema. During the experiment, this reward schema was reversed. The activity of the caudate nucleus and the reaction times (speed of making a saccade) during this experiment were the measurements, which showed that the caudate nucleus was active even before the stimulus was presented. 
+
+<br style="clear:both" />
+[[Image:Use-Case-Measurement-DD.png|right|alt=measurements of Lauwereyns 2002.|600px|Measurements]]
+'''Measurements'''
+
+This represents the measurements of the experiments. I represented single unit recordings and reaction times. There is no direct access to the data, hence the figures are well represented in the diagram.
+
+<br style="clear:both" />
+[[Image:Use-Case-subject-DD.png|right|alt=subject of Lauwereyns 2002.|600px|Monkey 1]]
+'''Subject'''
+
+This represents the subject and its recording location. It as such does not hold a lot of information, yet it seems to be fairly easy to represent the available elements.
+
+<br style="clear:both" />
+[[Image:Use-Case-stimulus-DD.png|right|alt=subject of Lauwereyns 2002.|600px|Monkey 1]]
+'''Stimulus 'Left Cue''''
+
+This represents the stimulus "Left Cue'. A bit more detail than previous diagram, showing how detailed you can get using OBI.
