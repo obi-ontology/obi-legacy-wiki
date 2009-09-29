@@ -89,7 +89,7 @@ This represents the subject and its recording location. It as such does not hold
 '''Stimulus 'Left Cue''''
 
 This represents the stimulus "Left Cue'. A bit more detail than previous diagram, showing how detailed you can get using OBI.
-
+<br style="clear:both" />
 
 == Use Case: Automated Functional Genomics ==
 
