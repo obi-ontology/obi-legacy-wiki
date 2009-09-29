@@ -49,39 +49,7 @@ Initials:
 
 * final corrections and submission - '''30-10''' [LSS]
 
-== Use Case: Automated Functional Genomics ==
 
-Robot Scientist “Adam” is one of the most advanced laboratory automation systems in existence [King et al 2009]. Adam is designed to measure, in high-throughput, growth curves (phenotypes) of selected microbial strains (genotypes) in a defined media (environment). Adam is able to run “lights out” for days at a time, and is capable of designing and initiating >1,000 new strain/defined growth-medium experiments each day (from a selection of several thousand yeast strains). 
-
-The Robots require a complete, precise, and fully formalised description of all experiment actions (for example, if you forgot to include an action “remove a plate lid”, it will try to pierce pipettes through the lid). Robot Scientists provide unsurpassed test beds for the development of technologies for the curation and annotation of experiment processes: for the first time it is possible to completely capture and digitally curate all aspects of the scientific process to record and fully understand how and why a particular experiment was conceived and executed, and to remove all subjectivity in experiment actions. This enables all aspects of investigation to be fully repeatable. The Robot Scientist project led to the first fully automatic discovery of new scientific knowledge, and has the potential to revolutionise the way science is done [Science, reply]. 
-
-We can consider three typical processes: planning of an experiment, executing an assay, and analysing the results (fig 1,2,3). We can discuss here robot has role or function "investigator". 
-
-I can put much more here and figures are very drafty, but the main ideas are there.
-
-King et al. (2009) The Automation of Science. Science 324: 85-89.
-King, et al. (2009) Make Way for Robot Scientists. Science 325: 945.
-King, et al.(2009) The Robot Scientist Adam. Computer 42/8: 46-54. 
-King et al. (2004) Functional Genomics Hypothesis Generation by a Robot Scientist, Nature 427(6971): 247-252.
-
-
-
-
-[[Image:hypotheses.png|left|alt=planning experiment|400px|planning]]
-[[Image:assay.png|right|alt=executing assay 2002.|400px|assay]]
-[[Image:conclusion.png|right|alt=analysing results|400px|conclusion]]
-
-
-
-
-
-
-
-
-
-
-
-***
 
 == Use Case: Cognitive Neuroscience ==
 
