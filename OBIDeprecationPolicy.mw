@@ -27,7 +27,7 @@ Specifically, classes are identified that
 
 ==OBI Deprecation Policy==
 
-OBI terms occasionally have errors and need to be retired. The process of retiring a term is called obsolete or deprecating it. When a term is deprecated it should longer be used in new annotation, and that annotations that use it be revised to use a more correct term.  
+OBI terms occasionally have errors and need to be retired. The process of retiring a term is called obsolete or deprecating it. When a term is deprecated it should no longer be used in new annotation, and that annotations that use it be revised to use a more correct term.  
 
 Prior to deprecation:
 
