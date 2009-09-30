@@ -99,13 +99,38 @@ Chair: JM
 
 '''September 23 2009'''
 
-Chair: CS
+Chair: CS Attending: CS, MC, HP, JF, JZ, BP
 
 Clinical Trials use case continues:
 
 *summary of progress: http://docs.google.com/Doc?docid=0Aagyu8cVTs1OZGY2MjY5aHZfMTEyZzJocXFuYzM&hl=en
 
 *slides: http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/Figures/Clinical%20usecase9-10b.ppt?view=log
+
+Continued discussion focussing on the Study Design Execution.
+
+  - decision to not put the level of detail in the figure for the antithrombin-III (AT3) analyte assay as shown 
+    in the glucose assay since it will already be in the paper and need to keep use case figure simple.
+  - edited OBI file to include discussion.
+  AI: HP has checked out file and incorporating discussion from today and Monday
+  - decision to add classes to main file for fucoidan, guar gum, and AT3 so that we could create instances in OBI-use case file.
+    -- fucoidan and AT3 are not in ChEBI so should submit. 
+    -- from Wikipedia:
+  AI: Submit fucoidan and antithrombin-III terms to ChEBI
+  - likely need a blood collection tube (as opposed to flow cytometer collection tube) but for now may use 
+    generic tube entered for glucose assay.
+  - model AT3 assay as analyte assay with analyte = AT3.
+    -- output of assay is measurement. Need to sort out what are the units and make sure in OBI.
+  AI: JF will track down units needed
+  - in OBI use case, created instance of a fucoidan treated homo sapiens and guar gum treated homo sapiens.
+    -- will likely need to create more but this is a start
+  - issue with modeling treatment. Options are as a generic treatment or as subparts of a process. 
+    JF strongly prefers the latter but we need a way to link inputs and outputs to describe the same person get successive treatments.
+  AI: AR will model by Sept. 28 (as discussed on previous call) or we go with generic treatment approach.
+  - need to capture data transformation of collection of measurements from the AT3 assay.
+    -- They used a statistical test (i.e., generated a P-value) but not clear which test (don't want to say t-test if don't know for sure). 
+  AI: JF will check on test
+
 
 '''September 21 2009'''
 
