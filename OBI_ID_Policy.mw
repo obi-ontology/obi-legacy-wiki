@@ -10,7 +10,9 @@ Regarding the form of the URI itself, we should give all entities that we define
 * Identifiers in the range of OBI_1110000 to OBI_1119999 are reserved for ONTIE terms
 * All obsolete entities before OBI 1.0 release will be removed from the OBI and be kept in a separate file. However, the identifiers for these entities will be kept and not be used by any entities in the OBI.  
 * The form of URIs is http://purl.obolibrary.org/obo/OBI_0010000 
+
 ------
+
 [http://docs.google.com/Doc?id=dzprnmw_8fnr5nmd4&hl=en OBI ID Policy document]
 [[category:OBI Policy]] (old version with background information) 
 
