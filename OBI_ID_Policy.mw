@@ -1,3 +1,19 @@
+As part of the release process, we want to produce files that have homogeneous identifiers (IDs) and stable URIs. 
+
+Like the rest of the OBO ontologies we want to use purl based URIs, because of the ability to redirect to a different URL should we want to change hosts, etc. 
+
+Regarding the form of the URI itself, we should give all entities that we define - classes, relations, and instances, with IDs and use labels for the human readable version. 
+
+'''Summary of adopted policy''' 
+* purl.org is used to redirect our URIs, with purl.obolibrary.org being an alias (that we control) for purl.org 
+* IDs are used for all entities that we define including classes, relations, and instances, with ids typically assigned by script just before release. 
+* Identifiers in the range of OBI_1110000 to OBI_1119999 are reserved for ONTIE terms
+* All obsolete entities before OBI 1.0 release will be removed from the OBI and be kept in a separate file. However, the identifiers for these entities will be kept and not be used by any entities in the OBI.  
+* The form of URIs is http://purl.obolibrary.org/obo/OBI_0010000 
+------
+[http://docs.google.com/Doc?id=dzprnmw_8fnr5nmd4&hl=en OBI ID Policy document]
+[[category:OBI Policy]] (old version with background information) 
+
 '''Abstract'''
 
 As part of the release process, we want to produce files that have homogeneous identifiers (IDs) and stable URIs.
@@ -16,8 +32,3 @@ Regarding the form of the URI itself, those that have expressed an opinion have 
 * All agree on using purl.org to redirect our URIs, with purl.obofoundry.org being an alias (that we control) for purl.org
 * All agree on using IDs for everything from now on, with ids typically assigned by script just before release.
 * We are in consensus that we should use URIs of the form http://purl.obofoundry.org/obo/OBI_0010000
-
-
-[http://docs.google.com/Doc?id=dzprnmw_8fnr5nmd4&hl=en OBI ID Policy document]
-
-[[category:OBI Policy]]
