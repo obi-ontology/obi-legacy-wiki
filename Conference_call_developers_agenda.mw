@@ -96,6 +96,16 @@ Chair: JM
 * clinical trials use case (paper now available)
   * AR to present changes
 
+  Alan has been working on adding some additional classes and instance to the investigation use case file.
+  JF: we are using terms a bit carelessly.  placebo is not synonymous with all negative controls; i had not thought subject was a thing but a role
+  AR: modeled in detail now, but we may generalize e.g. "informing/communication" process and have different participants/ information entities
+  JF: distinction for this use case between pill and capsule prob not needed, though details are likely useful
+  It was clear from the work Alan has done that we do not know how to limit the scope of the use cases we are 
+  building and when we have satisfied them. As such will endeavour to draw up a list of competency questions 
+  which we will use to determine when we have satisfied our use case.
+  AI: AR will doc the classes defined in terms of instances as a design pattern
+  AI: JF to draw up list of competency questions for the clinical trial use case for Wed call
+
 
 '''September 23 2009'''
 
