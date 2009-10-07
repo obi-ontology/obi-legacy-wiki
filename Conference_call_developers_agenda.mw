@@ -41,9 +41,50 @@ Chair: BP
 
 Agenda: task assignment for cleanup meeting
 
+Review IEDB use case - BP
+
+Review DT use case - JM
+
 '''October 7, 2009'
 
 Chair: HP
+
+
+Call summary 7 Oct 09
+
+1. We have now completed enough detail for the clinical trials use case 
+to support the original aim - to show the breadth of OBI vs the glucose 
+use case which shows depth
+
+2. We discussed what we need to complete and in what granularity, 
+remaining issues are
+    2.1 Statistical test - discussion on what are the inputs and we 
+don't have enough info in the paper on what the test was. AR and JF will 
+work offline to model what they think is going on
+    2.2 Hypothesis - we understand this to be 'fucoidan may have 
+anticoagulant activity in vivo. result is a small stat sig effect of AT3 
+anticoagulant effect, author interpretation indicates no useful clinical 
+effect.
+    2.3 Modelling the dosing regime - we decided to do this using day 
+processes instances, with subparts, and these will be related using 
+preceded by. AR will work on this. 
+
+We understand that
+
+we will not model time triggers now
+we do not need instances for all patients, one representative for each 
+group is enough
+we will not work on this use case in Philly, but working on it later is 
+desirable
+   
+3. 12 October we will review the IEDB use case, and the DT one. All will 
+look at the paper in advance. BP will present the IEDB one, JM will 
+present the DT one. We are hoping to have a screenshot from NCBO for the 
+last use case. If we don't get this we will need to work around.
+
+4. Next week 12 Oct the chair will be Bjoern. As he is presenting if 
+would help I can chair again.
+
 
 '''October 5, 2009'''
 
