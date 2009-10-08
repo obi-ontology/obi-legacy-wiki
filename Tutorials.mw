@@ -27,7 +27,7 @@ https: instead of http:, and will need a sourceforge password for obi.)
 D) Go to the directory: ontology\branches and remove the '.template' 
 extension from the files obi.owl, obi.pprj, obi.repository
 
-*we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. These instructions have been updated accordingly
+*we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. These instructions have been updated
 
 E) open the obi-edit.pprj file in protege
 (double clicking works on windows)
@@ -43,6 +43,8 @@ F)If you are editing OBI we are now working with a merged file rather than a ser
 * Send email to the devel list before checking out, after checking in
 
 * Keep edits short
+
+* launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can edit the obi.owl file directly - but you won't get the widget assistance.
 
 ==Sourceforge==
 
