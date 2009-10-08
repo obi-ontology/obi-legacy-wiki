@@ -1,4 +1,4 @@
-# '''[http://obi-ontology.org/page/Tutorials#Checkout How to checkout OBI from SVN]''' 
+# '''[http://obi-ontology.org/page/Tutorials#Checkout How to checkout OBI from SVN] and edit it''' 
 # '''[http://obi-ontology.org/page/Tutorials#Sourceforge How to get sourceforge access] '''
 # '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI]'''
 # '''[http://obi-ontology.org/page/Tutorials#Protege4 Opening OBI with Protege 4 - DO NOT EDIT IN 4]'''
@@ -26,6 +26,8 @@ https: instead of http:, and will need a sourceforge password for obi.)
 
 D) Go to the directory: ontology\branches and remove the '.template' 
 extension from the files obi.owl, obi.pprj, obi.repository
+
+*** we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. ****
 
 E) open the obi.pprj file in protege
 (double clicking works on windows)
