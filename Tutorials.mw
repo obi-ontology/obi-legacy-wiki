@@ -24,8 +24,7 @@ http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology
 (If you want to commit changes back to the repository, you will need to use
 https: instead of http:, and will need a sourceforge password for obi.)
 
-D) Go to the directory: ontology\branches and remove the '.template' 
-extension from the files obi.owl, obi.pprj, obi.repository
+D) Go to the directory: ontology\branches 
 
 *we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. These instructions have been updated
 
@@ -33,6 +32,8 @@ E) open the obi-edit.pprj file in protege
 (double clicking works on windows)
 
 This will give you access to the obi.owl merged file plus annotation assistance widgets. 
+
+You must select the obi.owl as the active ontology
 
 F)If you are editing OBI we are now working with a merged file rather than a series of branch files therefore:
 
