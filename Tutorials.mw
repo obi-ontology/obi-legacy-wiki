@@ -33,7 +33,9 @@ E) open the obi-edit.pprj file in protege
 
 This will give you access to the obi.owl merged file plus annotation assistance widgets. 
 
-You must select the obi.owl as the active ontology
+You must select the obi.owl as the active ontology by clicking on the meta data tab, select obi.owl
+
+Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file. 
 
 F)If you are editing OBI we are now working with a merged file rather than a series of branch files therefore:
 
