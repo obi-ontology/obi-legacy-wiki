@@ -44,7 +44,7 @@ F)If you are editing OBI we are now working with a merged file rather than a ser
 
 * Keep edits short
 
-* launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can edit the obi.owl file directly - but you won't get the widget assistance.
+* launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can edit the obi.owl file - launch by clicking on obi.pprj - but you won't get the widget assistance.
 
 ==Sourceforge==
 
