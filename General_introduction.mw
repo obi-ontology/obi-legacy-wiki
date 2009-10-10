@@ -288,6 +288,9 @@ http://sourceforge.net/docs/E09/en/#top
 
 to summarize:
 
+EMAIL THE LIST THAT YOU ARE CHECKING OUT TO EDIT, EMAIL AGAIN ONCE COMPLETE
+
+a
 - when you want to commit your changes, ALWAYS do '''svn update''' first (svn status -u can also predict conflicts)
 
 If the svn update shows no conflict ("C" in front of the file name) then go ahead and '''svn commit'''
