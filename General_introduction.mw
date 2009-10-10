@@ -260,7 +260,7 @@ In order to access a Subversion repository, you must install a Subversion client
 On windows, please download and install the TortoiseSVN client from
 http://tortoisesvn.net/downloads
 
-After this configurate the SVN client as described here:
+After this configure the SVN client as described here:
 http://sourceforge.net/docs/F07/en/#config
 and here
 http://sourceforge.net/svn/?group_id=177891
@@ -271,6 +271,9 @@ URL:  https://obi.svn.sourceforge.net/svnroot/obi
 Then you can create a new folder where you want all the svn stuff to be put by the svn-'checkout'. right click on the new folder and select svn-checkout.
 You will be asked to do some settings and then you connect to the SF svn address and download (checkout) the present directory structure and files into your specified client-based folder.
 Later you will update this folder or files via 'svn update' before you commit your changes back to the common repository. You can use the repro browser (again for tortoise svn client all the options are available via rightclick on your checkout folder or specific files) to just have a look what's in svn without actually downloading/updating anything in your local folder.
+
+You can do an anonymous download but not an upload. 
+When you commit you'll be prompted for a commit comment e.g. added 5 new classes for x use case
 
 How to use svn is described here:
 http://sourceforge.net/docs/E09/en/#top
