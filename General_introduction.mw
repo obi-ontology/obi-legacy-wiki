@@ -233,7 +233,11 @@ http://sourceforge.net/tracker/?func=add&group_id=177891&atid=886178
 === SVN ===
 
 
-====Update 10 Oct 09, branch files are now merged into a single file you need only access one file to edit obi. http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches - obi-edit.pprj====
+====Update 10 Oct 09, branch files are now merged into a single file therefore ====
+
+** you need only access one file to edit obi. http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches - obi-edit.pprj
+** Email obi-devel to announce check out
+** Email on commit to announce check in
 
 Structure of SVN - there are 4 projects set-up, each with their own trunk, branches and tags directory: web, ontology, and tools.
 ** web - location for web related files, e.g. the OBI homepage
