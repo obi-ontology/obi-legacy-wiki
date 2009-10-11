@@ -48,10 +48,19 @@ I represented the '''following elements''' of the study:
 
 === Diagrams ===
 
-[[Image:Use-Case-Study-DD.png|right|alt=Study design of Lauwereyns 2002.|600px|Study Design]]
+[[Image:Use-Case-Study-DD.png|alt=Study design of Lauwereyns 2002.|800px|Study Design]]
 '''Study Design'''
 
-The experiment tries to unravel what the role is of the caudate nucleus in reward processing. The preparation is basically nothing else but the training of the monkey to respond to a particular reward schema. During the experiment, this reward schema was reversed. The activity of the caudate nucleus and the reaction times (speed of making a saccade) during this experiment were the measurements, which showed that the caudate nucleus was active even before the stimulus was presented. 
+This investigation studies the role of the caudate nucleus in the expectation of reward following action (Figure 1). It is found that while the caudate nucleus responds preferentially to eye movements in different directions, and when there is expectation of reward for the preferred direction, the response begins prior to eye movement and is dramatically increased. 
+
+
+We are modeling only a portion of the experimental process, particularly a single trial in which the visual target is presented and the neural response is recorded. We are not modeling the changes over trials that modulate the expectation of reward for different eye movements. 
+
+
+This single trial model contains two processes:
+* The presentation of the visual target to which the monkey makes a eye movement is modeled as a ‘presenting stimulus to subject’ process that is realized by some ‘light source’ bearing and some ‘monkey’ bearing the ‘study subject role’ . The ‘light source’ is an independent_continuant.
+* ‘measuring neural activity in monkey caudate nucleus’ is modeled as a ‘extracellular electrophysiology recording’ process that has the specific input of some ‘neuron’ which has location in the ‘caudate nucleus’ which is ‘part of’ the ‘monkey’. The process of measuring neural activity has the specified output of a neuronal spike train measurement. The measurement is measured by device ‘SU device + electrodes’.   The spike train measurement is then input into further data transformations, which are not modeled here. 
+
 
 <br style="clear:both" />
 [[Image:Use-Case-Measurement-DD.png|right|alt=measurements of Lauwereyns 2002.|600px|Measurements]]
