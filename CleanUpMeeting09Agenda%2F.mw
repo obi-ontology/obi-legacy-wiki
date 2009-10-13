@@ -24,6 +24,63 @@ but these were booked when we checked.
 
 CS
 
+== Meeting Agenda ==
+
+Sunday 18 October
+
+* Manuscript Discussion - all to have reviewed prior to meeting and a new version will be available
+
+* Examine Tracker Items, progress, prioritize - add more if needed
+
+* Process, we will operate a cut off on discussions, so if we can't make a decision we will move on. Need to agree what this will be.
+
+P9 Items
+
+*2845352  	 ISA-tools use case  	 
+*2843699 	person/Homo sapiens in OBI 	
+*2843677 	IAO section of paper
+*2843658 	use of plurals in the manuscript 	
+*2832693 	Clinical study use case
+*2100531 	mixtures of chemicals in Chebi
+
+=== P8 Items (need prioritizing) ===
+
+*2877331  	helper classes related to device 
+*2875994 	reagent roles
+*2872993 	change import order of use case
+*2855265 	instument clean up
+*2836360 	Review all necessary and sufficient conditions for accuracy
+*2828871 	_cloning placeholder
+*2613561 	action specification
+*2570459 	Device setting
+*2078795 	vector role (cloning and disease)
+*1889390 	Objective vs. Objective-neutral Planned Processes
+
+
+=== Paper Related P8 ===
+
+*2832725 	Supplementary Table of terms used in manuscript
+*2832701 	Update of figure 1 in manuscript
+*2845347 	Authorship, Affiliations, Funding
+
+=== Release Related P8 ===
+
+*2843660 	calculate the no of classes etc for release
+*2878327        curation status of OBI terms
+
+== Monday 19 October ==
+
+
+
+== Tuesday 20 October ==
+
+== Wednesday 21 October ==
+
+== Thursday 22 October ==
+
+
+
+
 == General clean up items ==
  
 
@@ -59,8 +116,6 @@ resolve/workaround/leave?
 ''' Check leaf nodes with a single child, and check there  potential additional children'''
 
 ''' Clean up quality branch (aka conferred/historical qualities) '''
-
-
 
 == Release related items ==
 
