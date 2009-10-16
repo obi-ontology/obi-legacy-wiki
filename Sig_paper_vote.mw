@@ -19,6 +19,8 @@
 
 - Christian J. Stoeckert, Jr., Center for Bioinformatics, Department of Genetics, University of Pennsylvania School of Medicine, PA, USA
 
+- Bjoern Peters, La Jolla Institute for Allergy and Immunology, La Jolla, CA, USA
+
 '''Acknowledgments'''
 
 copied from the previous SIG paper section and edited.
@@ -26,7 +28,7 @@ copied from the previous SIG paper section and edited.
 This work is partially supported by grant funding from the
 National Institute of Biomedical Imaging and
 Bioengineering, National Human Genome Institute, NIH
-(R01EB005034, R01AI081062, NIH P41 HG003619), EC EMERALD
+(R01EB005034, R01AI081062, NIH P41 HG003619, HHSN26620040006C), EC EMERALD
 project (LSHG-CT-2006-037686), EC MUGEN,
 BBSRC (BB/E025080/1, BB/C008200/1), RC UK, NERCNEBC,
 EU IP CarcinoGenomics (PL 037712), EU NoE
@@ -34,6 +36,7 @@ NuGO (NoE 503630), CARMEN project EPSRC
 (EP/E002331/1), the Michael Smith Foundation for Health
 Research and EMBL
 
+- BP: HHSN26620040006C
 
 - RC UK
 
