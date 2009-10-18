@@ -47,11 +47,11 @@ The proposed cardinalities are indicated in front of the name of the annotation 
 ==Optional metadata: SHOULD be provided==
 *'''example of usage''': A phrase describing how a term should be used. May also include other kinds of examples, such as widely known subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not.
 **Cardinality: 0..1
-**Implementation: datatype annotation property named "example_of_usage". 
-*'''alternative_term''': An alternative name for a class or property which means the same thing, i.e. semantically equivalent, as the preferred''term.
+**Implementation: datatype annotation property named "example of usage". 
+*'''alternative term''': An alternative name for a class or property which means the same thing, i.e. semantically equivalent, as the preferred''term.
 **Cardinality: 0..n
 **Implementation: datatype annotation property
-*'''editor_note''': An administrative note intended for the editor. It will not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology. Editor notes should include the date of edit.
+*'''editor note''': An administrative note intended for the editor. It will not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology. Editor notes should include the date of edit.
 **Cardinality: 0..n
 **Implementation: datatype annotation property
 
