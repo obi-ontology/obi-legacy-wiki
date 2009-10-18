@@ -1,7 +1,7 @@
 This list represents the mandatory and optional metadata for representational units as agreed by the OBI coordinator committee. 
 The proposed cardinalities are indicated in front of the name of the annotation property. Some are however still under discussion.<br>
 ==Mandatory metadata: MUST be provided for both classes and relations==
-*'''preferred_term''': The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers that reflects community usage, or disambiguates the term if necessary. (before 16.10.07 this was: The concise, meaningful, and human-friendly name for a class or property  
+*'''preferred term''': The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers that reflects community usage, or disambiguates the term if necessary. (before 16.10.07 this was: The concise, meaningful, and human-friendly name for a class or property  
 **Cardinality: 1..1
 **Implementation: datatype annotation property specified as a functional property named "preferred term".
 *'''definition''': The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with informal definitions to further explain the meaning of the term.
@@ -25,19 +25,19 @@ The proposed cardinalities are indicated in front of the name of the annotation 
 | Nothing done yet beyond assigning a unique class ID and proposing a preferred term
 |-
 | 2
-| ''metadata_incomplete''
+| ''metadata incomplete''
 | Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.
 |-
 | 3
-| ''metadata_complete''
+| ''metadata complete''
 | Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.
 |-
 | 4
-| ''pending_final_vetting''
+| ''pending final vetting''
 | All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete.  The class is awaiting a final review by someone other than the definition editor.
 |-
 | 5
-| ''ready_for_release''
+| ''ready for release''
 | Class has undergone final review, is ready for use, and will be included in the next OBI release.
 |}
 
