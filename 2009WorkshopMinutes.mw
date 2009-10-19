@@ -1,3 +1,46 @@
 ===2009 Clean-up Meeting, Philadelphia===
 
 '''Minutes'''
+
+1. Working through the paper.
+
+AI: HP to retrofit the fix the ppt to the current manuscript master - done, sf item
+closed
+
+AI: check for inconsistencies in 3 or 5 years 
+
+AI: instrument vs. device 
+
+issues with device, catch all for many things. before device had to have function
+
+BP: want defined classes for the obvious ones.
+
+AI: remove device, instrument and platform create subclasses of processed material
+e.g. ,measurement device, mat entity created with produce data function. need many
+that will take all the stuff we have. 
+
+Issues with platform - we have microarray platform. 
+
+AI: action item for the discussion
+
+IAO issues
+
+1. textual entity vs, in head - we decide that conclusion is a textual entity - 
+
+AI: we will add conclusion as a child of textual entity in IAO space
+
+AI: we ask for deprecate study interpretation from IAO.
+
+2. conclusion is hypothesis proving, or is also interpretation of the hypothesis
+
+3. label study interpretation or conclusion
+
+-------------------------------------------------
+
+investigation=planning->study design execution->documenting->study results
+ optional - data interpretation
+
+--------------------------------------------------
+
+Roles and functions
+-------------------
