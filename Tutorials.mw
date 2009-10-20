@@ -108,6 +108,8 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 
 The current OBI release process is documented [http://docs.google.com/Doc?docid=0Acx6Blq96uycZHpwcm5td18xM256aHBmd2Z4&hl=en&invite=CKGzoJoE here] You may need to request edit privs to this document
 
+We are considering to move OBI release using JAVA based program. [[Conference_call_developers_20090805_notes | Here]] are discussion about it.
+
 ==Obsoletion==
 
 Step by step:
