@@ -104,7 +104,8 @@ The above is the minimal information: we need what to get (CL_0000000), where (t
 
 Then the lisp script create-external-derived.lisp parses the external.owl file. It sees that we are trying to fetch a Cell term with ID CL_0000000, and it queries neurocommons to fetch extra information. The templates for the sparql queries are in external-templates.txt:
 # get the label and definition for your basic OBO term.
-== http://purl.org/obo/owl/.* ==
+http://purl.org/obo/owl/.*
+
 construct
 {
   _ID_GOES_HERE_ rdf:type owl:Class.
