@@ -1,0 +1,192 @@
+Discussions about moving OBI release to Java based scripts.
+(MC, JZ, AR, OH, JM)
+
+Here are some details about OBI release, more related to programming.
+
+1. We are working with merged file now.
+
+The obil.owl can be generated as configuration file to load OBI locally.
+
+We need to set two variables:
+$OBI_DIR_PATH: path of OBI ontology files
+$EXTERNAL_DIR_PATH: path of external ontologies 
+
+
+obil.owl
+
+<?xml version=\"1.0\"?>
+<rdf:RDF
+   xmlns=\"http://purl.obolibrary.org/obo/\"
+   xmlns:protege=\"http://protege.stanford.edu/plugins/owl/protege#\"
+   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"
+   xmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"
+   xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"
+   xmlns:owl=\"http://www.w3.org/2002/07/owl#\"
+   xml:base=\"file://$OBI_DIR_PATH/\">
+ <owl:Ontology rdf:about=\"http://purl.obolibrary.org/obo/\">
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/bfo11.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/ro.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/ro_bfo_bridge11.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/protege.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/protege-dc.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"obi.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"external.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"externalDerived.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"Obsolete.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"external-byhand.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/iao/IAO.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/iao/ontology-metadata.owl\"/></owl:imports>
+   <owl:imports> <owl:Ontology  rdf:about=\"$EXTERNAL_DIR_PATH/iao/obsolete.owl\"/></owl:imports>
+   <protege:defaultLanguage rdf:datatype=\"http://www.w3.org/2001/XMLSchema#string\">en</protege:defaultLanguage>
+ </owl:Ontology>
+</rdf:RDF>
+
+
+2. uri-report.lisp script, walk through the owl files, get URI for all classes, instances and properties. Write the result in a file named uri-report.txt.
+
+SPARQL used in the script:
+- Get Class sparql:
+sparql '(:select (?class) (:distinct t)(?class !rdfs:subClassOf !owl:Thing)
+
+
+- Get Properties(including owl:AnnotationProperty, owl:DatatypeProperty and owl:ObjectProperty) sparql:
+sparql `(:select (?prop) (:distinct t) (?prop !rdf:type ,proptype)
+
+- Get Instances sparql:
+sparql `(:select (?prop) (:distinct t) (?prop !rdf:type ,proptype)
+
+
+The format of output:
+Class: "Class http://purl.obolibrary.org/obo/OBI_0200054"
+Property: "AnnotationProperty http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"
+Individual: "Individual http://purl.obolibrary.org/obo/OBI_0000772"
+
+Only distinct Classes, Properties and Instances will be written in the output file. 
+
+3. Assign IDs to new Classes, and rewrite URI (perform task using perl script: src/tools/build/modify-uris.pl)
+
+The OBI id policy was posted on OBI wiki page.
+
+Rewrite one URI Logic:
+Read the uri report created by lisp (uri-report.txt), as that is the only safe way to determine which URIs are for properties,classes, etc.
+Iterate over them (check the format of IDs at the same time, if it is not follow ID policy need to add debug message), collecting rewrites, and postponing new numeric id allocation until we know which ids are already used. Finally, allocate new ids for alphanumeric names that need an id.
+
+Allocated a new id, starting from 0000001, the first unused numeric id will be assigned to a term
+
+Rewrite obi.owl file with new allocated ids to a new file with the same filename under new directory such as build/newids. 
+
+When rewrite the obi.owl, fix any text curation status as well.
+(what curation status should be fixed? only for new classes?)
+
+AR NOTEs: rewrite-instances is java code that with a little more work could assign new ids.
+
+
+4. MIREOT (MC)
+
+Two files contain our external mireoted terms. 
+	external.owl
+	externalDerived.owl
+
+For MIREOT it really is very basic: we kind of copy paste external classes into owl files. Those files are never touched or modified by our scripts. The only process involving them is merging them with obi.owl for the release.
+
+When we import terms, we never change their ID, it is actually one of the basis of MIREOT: we want to keep the same ID across multiple resources, so that somebody looking for example for cell, doesn't have to look for CL_0000000, OBI_1234567 and VO_67890123, but instead can use consistently the Cell Ontology ID CL_0000000
+
+If we take the example of Cell, CL_0000000.
+When we mireot it, we just add the minimal information into external.owl.
+
+ <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000000">  //we want the term CL_0000000
+   <OBI_0000283 rdf:resource="http://purl.org/obo/owl/CL"/>          // it is coming from the Cell ontology
+   <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>    // in OBI, we want to assert it as subclass of material entity
+ </owl:Class>
+
+
+The above is the minimal information: we need what to get (CL_0000000), where (the Cell ontology), and where to position it in OBI (subclass of material entity)
+
+Then the lisp script create-external-derived.lisp parses the external.owl file. It sees that we are trying to fetch a Cell term with ID CL_0000000, and it queries neurocommons to fetch extra information. The templates for the sparql queries are in external-templates.txt:
+# get the label and definition for your basic OBO term.
+== http://purl.org/obo/owl/.* ==
+construct
+{
+  _ID_GOES_HERE_ rdf:type owl:Class.
+  _ID_GOES_HERE_ alias:preferredTerm ?label.
+  _ID_GOES_HERE_ rdfs:label ?label.
+  _ID_GOES_HERE_ alias:definition ?definition.
+}
+where
+{
+  {   _ID_GOES_HERE_ rdfs:label ?label. }
+  UNION
+  {   _ID_GOES_HERE_ obo:hasDefinition ?blank.
+      ?blank rdfs:label ?definition}
+}
+
+This gets transformed into:
+
+
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix obi: <http://purl.obofoundry.org/obo/>
+prefix tax: <http://purl.org/obo/owl/NCBITaxon#NCBITaxon>
+prefix obo: <http://www.geneontology.org/formats/oboInOwl#>
+prefix iao: <http://purl.obofoundry.org/obo/>
+
+
+construct
+{
+  <http://purl.org/obo/owl/CL#CL_0000000> rdf:type owl:Class.
+  <http://purl.org/obo/owl/CL#CL_0000000> iao:IAO_0000111 ?label.
+  <http://purl.org/obo/owl/CL#CL_0000000> rdfs:label ?label.
+  <http://purl.org/obo/owl/CL#CL_0000000> iao:IAO_0000115 ?definition.
+}
+where
+{
+  {   <http://purl.org/obo/owl/CL#CL_0000000> rdfs:label ?label. }
+  UNION
+  {   <http://purl.org/obo/owl/CL#CL_0000000> obo:hasDefinition ?blank.
+      ?blank rdfs:label ?definition}
+}
+
+You can run this query at http://sparql.obo.neurocommons.org/sparql/, ask to get the result at rdf/xml and you will get the data required for externalDerived.owl.
+
+The advantage of keeping the 2 files separate is that we can destroy externalDerived.owl periodically, and get "fresh" information in case the external resources have been updated.
+
+
+5. We decided to use Jena (can use SPARQL) and Java OWL API (OWL2 compatible) to implement OBI release. 
+
+6. Some features/methods that were considered to be implemented (something we may need, may not to be done during process).
+
+a) Pull out all obsolete terms. Check their usage and add disjoint between obsolete and the rest of OBI, so if obsolete classes are used somewhere OBI should become inconsistent. (AR had some lisp scripts to perform this task.)
+
+b) Check whether one term has and only has one label.
+
+MC: To check if one term has 2 labels you can count the number of rdfs:label annotation properties on each term and if >1 throw error. (same for other annotation properties: I had written some jena code to do that when OBI was still in branches)
+
+c) Check whether label is unique for each term in OBI.
+
+To check if several terms have the same label you need to be careful about the way the label is declared (i.e. is it xml:lang="en" or xsd:string) as those are not the same and not equivalent by default. Also the only thing you would be able to do is a simple string comparison, so you may get matches for things like "epitope role" "epitope" "epitope disposition" (to choose a non-controversial example ;) ) I am not sure this should be high on your priority list - hopefully if we indeed have duplicate classes we modeled them in the same way and we will realize it.
+
+d) Write preferred term = label
+
+Any features people would like for OBI, you can add here. We may think to make it easily by writing a script to do it automatically.
+
+
+7. Maintance issues:
+
+MC: When I joined, Trish had written loading code. I then wrote some release code. In both cases, they worked fine for a while, but with the constant evolution of OBI and changes in the structure they quickly became unmanageable and "patchy". Alan had written some lisp code, which he maintains for the most part, but that means relying on him and he is busy.
+
+My concern is that you would spend time writing code and be faced in the future with similar issues. Maybe it won't happen, and we reached a more stable point in our development.
+
+Any suggestion about it?
+
+JZ's comments: Make code more flexiblity by using setting txt files to deal with potential frequently changed part. Reduce hard code. Try to write code more reusable. Good documentations. Since more people know JAVA than LISP, moving Release steps to JAVA based program can allow many people to deal with the release process. 
+
+
+8. Action items
+
+JZ: will try to work on it
+
+MC and He group: would like to help on SPARQL
+
+AR: anything if JZ has problem
+
+JM: would like to share Java code and help in OWL API related problem
