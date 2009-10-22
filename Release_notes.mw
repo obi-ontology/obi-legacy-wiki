@@ -3,6 +3,7 @@ Discussions about moving OBI release to Java based scripts.
 
 Here are some details about OBI release, more related to programming.
 
+<h2>The following 8 points are just for the first major module of assigning IDs.</h2>
 1. We are working with merged file now.
 
 The obil.owl can be generated as configuration file to load OBI locally.
