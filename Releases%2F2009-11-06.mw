@@ -1,1 +1,51 @@
 Placeholder for the 'release 1' release candidate release notes.
+
+
+rc1.0 =
+
+1. all terms assigned an obi id
+
+2. not all annotation properties will be turned into instances (scripting needed, takes time)
+
+3. priority 9 trackers in IAO and OBI fixed
+
+4. remove obsolete terms to a sep file which can be imported (not by default)
+
+5. _placeholder fixed, there will be no _ prefix OBI classes in rc1.0. Any top _ level
+classes were scripted out and will continue to be so
+
+6. All obi terms will have a curation status (not imports)
+
+7. rc1.0 will be inferred and disjoint
+
+8. rc1.0 will be released to obo foundry and bioportal, purls will change  bioportal doesn't include imports, we want them to see these and will produce a special version for them, and we will ask that they do not serve this version for download. This will be a one off. We expect ncbo will fix this for our next release.
+
+CS will follow up with ncbo. MC/AR will send an email with the background to CS.
+
+9. rc1.0 will include release notes and documentation - HP will coordinate
+
+10. we will not produce an obo version for rc1.0
+
+11. we will not produce an html version
+
+-------------------------------------------------------------------------------------
+
+Tasks:
+
+1. finish _placeholder classes clean up - goal all _ prefix classes removed, children resolved - tracker items describe these (priority 9, Helen and James) - 22nd October
+
+2. ensure all OBI terms (not Imports) have curation status attached (needs checking) - Melanie will run script - 22nd October
+
+3. scripted changes -  blocker -  AR/MC/JZ
+
+Release process needs adjusting, needs to reason inside lisp, may need extra code for re-assigning ids (if doesn't reason in lisp)
+* strip out obsolete classes, add disjoints etc
+* count classes etc
+
+* aim to complete by 6 November
+
+4. necessary IAO changes, submitted to IAO tracker as critical priority AR/MC 30 October
+
+5. check all the remaining priority 9 and 8 tracker items done by 30 October
+
+6. Editing freeze for release process to start 30 October
