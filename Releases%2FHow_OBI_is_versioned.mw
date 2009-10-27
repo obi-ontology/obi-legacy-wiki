@@ -1,0 +1,32 @@
+Here is a proposal for how we name and record version information for OBI.
+
+<pre>
+owl:versionIRI http://purl.obolibrary.org/obo/obi/2009-08-30/obi.owl
+(approximate date)
+owl:versionInfo "2009-08-30"
+rdfs:label "The Ontology for Biomedical Investigations"
+
+Include (following the example of
+http://ashby.csail.mit.edu/cgi-bin/obiterm?ref=OBI_0000225)
+
+ <doap:Project rdf:about="&obo;obi/project">
+   <doap:browse rdf:resource="http://purl.obolibrary.org/obo/obi/browse"/>
+   <doap:bug-database rdf:resource="http://purl.obolibrary.org/obo/obi/tracker"/>
+   <doap:homepage rdf:resource="http://purl.obolibrary.org/obo/obi"/>
+   <doap:mailing-list rdf:resource="mailto:obi-users@googlegroups.com"/>
+   <doap:release rdf:resource="&obo;obi/version-2009-08-30"/>
+   <doap:SVNrepository rdf:resource="http://purl.obolibrary.org/obo/obi/repository>
+   <doap:wiki rdf:resource="http://purl.obolibrary.org/obo/obi/wiki"/>
+ </doap:Project>
+
+ <doap:Version rdf:about="&obo;obi/version-2008-03-10">
+   <rdfs:label>Philly (aka version 1.0) Release Candidate</rdfs:label>
+   <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/obi/wiki/Releases/2009-11-06"/>
+   <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/obi/2009-08-30/obi.owl"/>
+   <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+ </doap:Version>
+</pre>
+
+Unresolved as yet
+
+Melanie: I liked having the corresponding SVN version number (even though I agree that it was not obvious that our past version was based on the SVN revision number). Doap has project version and software revision info, we could use software revision info or (and that would be my preferred option) contact them to add a new class or property "RepositoryRevisionNumber".
