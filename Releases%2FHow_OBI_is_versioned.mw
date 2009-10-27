@@ -1,5 +1,9 @@
 Here is a proposal for how we name and record version information for OBI.
 
+Roughly, get away from numeric versions - instead favoring dates. Use vocabulary from doap - [https://trac.usefulinc.com/doap Description of a Project]. Have a wiki page for each release describing changes, what users can expect in this version.
+
+Can still have nicknames, e.g. "Philly (aka version 1.0)", which are recorded as the label for the doap:Version
+
 <pre>
 owl:versionIRI http://purl.obolibrary.org/obo/obi/2009-08-30/obi.owl
 (approximate date)
