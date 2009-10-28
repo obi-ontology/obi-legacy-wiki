@@ -1,0 +1,38 @@
+Alan, working on editor note cleanup.
+
+=== Checking that the editor notes that just have msi ids all have appropriate definition sources ===
+
+<pre>
+(sparql '(:select (?term ?source ?val) () (?term !obo:IAO_0000116 ?val)  
+		   (:optional (?term !obi:IAO_0000119 ?source)
+		    (:filter (and (regex (str ?source) (str ?val)) (regex (str ?source) "http://msi-ontology.sourceforge.net/ontology/\\S+.owl#"))))
+		   (:filter (and (regex (str ?val) "msi_") (not (bound ?source)))))
+		 :use-reasoner :none :kb kb :trace t)
+
+PREFIX obi: <http://purl.obolibrary.org/obo/>
+SELECT ?term ?source ?val
+WHERE { 
+   ?term obi:IAO_0000116 ?val . 
+   ?term rdfs:label ?label . 
+    OPTIONAL
+     { 
+       ?term obi:IAO_0000119 ?source . 
+       FILTER (regex(str(?source),str(?val)) &&
+               regex(str(?source),"http://msi-ontology.sourceforge.net/ontology/\\S+.owl#"))
+     }.
+   FILTER (regepx(str(?val),"msi_") && (!(bound(?source))))} 
+
+Results:
+!obi:OBI_0000628	"carbon nanotube column"	NIL	"msi_01107"
+</pre>
+
+* <b>FIX definition source for carbon nanotube column</b>
+* Deleted all msi_xxx editor notes
+* Marked all editor notes on obsolete terms as "obsolete". Ignore these and just move them to obsolete file when we do obsoletes.
+* Marked all NMR
+* Marked all alanr notes "this should be moved to obi" as "delete"
+* Marked all "NMR" notes as "separate" = keep in separate file
+* Asked Philippe about "MSI" note on fractional factorial design OBI_0500016
+* Found missing manufacturers [https://sourceforge.net/tracker/?func=detail&aid=2887864&group_id=177891&atid=886178 Tracker 2887864]
+* Found over-generic labels [https://sourceforge.net/tracker/?func=detail&aid=2887868&group_id=177891&atid=886178 Tracker 2887868]
+* Found empty properties [https://sourceforge.net/tracker/?func=detail&aid=2887874&group_id=177891&atid=886178 Tracker 2887874]
