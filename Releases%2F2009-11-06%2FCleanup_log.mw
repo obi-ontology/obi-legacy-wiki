@@ -32,7 +32,7 @@ Results:
 * Marked all NMR
 * Marked all alanr notes "this should be moved to obi" as "delete"
 * Marked all "NMR" notes as "separate" = keep in separate file
-* Asked Philippe about "MSI" note on fractional factorial design OBI_0500016
+* Asked Philippe about "MSI" note on fractional factorial design OBI_0500016 (+ others marked "ask philippe")
 * Found missing manufacturers [https://sourceforge.net/tracker/?func=detail&aid=2887864&group_id=177891&atid=886178 Tracker 2887864]
 * Found over-generic labels [https://sourceforge.net/tracker/?func=detail&aid=2887868&group_id=177891&atid=886178 Tracker 2887868]
 * Found empty properties [https://sourceforge.net/tracker/?func=detail&aid=2887874&group_id=177891&atid=886178 Tracker 2887874]
