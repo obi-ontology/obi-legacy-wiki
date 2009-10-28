@@ -26,7 +26,7 @@ Results:
 !obi:OBI_0000628	"carbon nanotube column"	NIL	"msi_01107"
 </pre>
 
-* <b>FIX definition source for carbon nanotube column</b>
+* Fixed definition source for carbon nanotube column
 * Deleted all msi_xxx editor notes
 * Marked all editor notes on obsolete terms as "obsolete". Ignore these and just move them to obsolete file when we do obsoletes.
 * Marked all NMR
