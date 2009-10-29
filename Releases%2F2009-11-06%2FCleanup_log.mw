@@ -64,3 +64,13 @@ Results:
 * All other notes were discarded.
 
 All are currently in the single obi file. Curator notes will not be included in release.
+
+(misc notes)
+
+* Fixed definition source for carbon nanotube column
+* Deleted all msi_xxx editor notes
+* Marked all editor notes on obsolete terms as "obsolete". Ignore these and just move them to obsolete file when we do obsoletes.
+* Marked all NMR
+* Marked all alanr notes "this should be moved to obi" as "delete"
+* Marked all "NMR" notes as "separate" = keep in separate file
+* Asked Philippe about "MSI" note on fractional factorial design OBI_0500016 (+ others marked "ask philippe") - He says delete.
