@@ -49,7 +49,7 @@ Results:
 
 [[media:editor-notes-mc.txt]]
 
-=== What was done ===
+=== What was done to editor notes ===
 * All editor notes were reviewed and categorized into several categories
 ** "check" - a tracker item will be entered
 ** "ignore" - is ignored already
@@ -65,3 +65,5 @@ Results:
 * Those editor notes marked "separate" "check" "todo" "asked jennifer" were changed into "curator note" annotations
 * Those marked "user" were left as editor notes
 * All other notes were discarded.
+
+All are currently in the single obi file. Curator notes will not be included in release.
