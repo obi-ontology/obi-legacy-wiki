@@ -47,4 +47,21 @@ Results:
 * DS questions about whether terms are justified [https://sourceforge.net/tracker/?func=detail&aid=2888133&group_id=177891&atid=886178 Tracker 2888194]
 * Entity of organismal origin mentions [https://sourceforge.net/tracker/?func=detail&aid=2888194&group_id=177891&atid=886178 Tracker 2888194]
 
-[[Image:Editor-notes.xls]]
+[[media:editor-notes-mc.txt]]
+
+=== What was done ===
+* All editor notes were reviewed and categorized into several categories
+** "check" - a tracker item will be entered
+** "ignore" - is ignored already
+** "definition editor" - misplaced definition editor
+** "todo" - a tracker item will be entered
+** "obsolete" - an obsolete term
+** "asked philippe"  - editor notes "MO" or "MSI" - he said to delete
+** "asked jennifer" - CDISC definitions
+** "separate"  - put in a separate file (not for release)
+** "user" - possibly of interest to user
+** "delete" - obsolete note
+
+* Those editor notes marked "separate" "check" "todo" "asked jennifer" were changed into "curator note" annotations
+* Those marked "user" were left as editor notes
+* All other notes were discarded.
