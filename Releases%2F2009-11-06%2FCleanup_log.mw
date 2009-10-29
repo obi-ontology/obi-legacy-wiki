@@ -50,7 +50,7 @@ Results:
 [[media:editor-notes-mc.txt]]
 
 === What was done to editor notes ===
-* All editor notes were reviewed and categorized into several categories
+* All editor notes were reviewed and categorized into several categories by Alan. Melanie reviewed and made some changes, almost all of which were accepted. The results are in the columns "disposition" (alan's) and "disposition 2" (melanies). 
 ** "check" - a tracker item will be entered
 ** "ignore" - is ignored already
 ** "definition editor" - misplaced definition editor
@@ -62,7 +62,7 @@ Results:
 ** "user" - possibly of interest to user
 ** "delete" - obsolete note
 
-* Those editor notes marked "separate" "check" "todo" "asked jennifer" were changed into "curator note" annotations
+* Those editor notes marked "separate" "check" "todo" "asked jennifer" were changed into "curator note" annotations. If there was a mark in "disposition 2" it was preferred over whatever was in "disposition".
 * Those marked "user" were left as editor notes
 * All other notes were discarded.
 
