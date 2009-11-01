@@ -46,7 +46,7 @@ Visit our [http://purl.obofoundry.org/obo/obi/tracker issue tracker] to report p
 
 '''Contribute to the software effort'''
 
-* Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] contains release intermediate versions and documentation. You can anonymously download. 
+* Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] contains release intermediate versions and various documentation and applications for download.
 
 * Note that the download link (right) is to the last stable OBI release. We recommend you check out the most recent version from svn for an up to date file [http://obi-ontology.org/page/Tutorials instructions here]. 
 
