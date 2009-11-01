@@ -3,7 +3,7 @@ The Ontology for Biomedical Investigations (OBI) project is developing an integr
 *The latest complete version of ontology (.owl) file will always be available from [http://purl.obolibrary.org/obo/obi.owl http://purl.obolibrary.org/obo/obi.owl].
 
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
-! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Ontology</font>
+! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid perwhite;border-top:5px solid white;text-align:left;" | <font size="+1">Ontology</font>
 ! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Consortium</font>
 ! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Participate</font>
 |-
@@ -46,7 +46,7 @@ Visit our [http://purl.obofoundry.org/obo/obi/tracker issue tracker] to report p
 
 '''Contribute to the software effort'''
 
-* Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] is open for perusal. 
+* Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] contains release intermediate versions and documentation. You can anonymously download. 
 
 * Note that the download link (right) is to the last stable OBI release. We recommend you check out the most recent version from svn for an up to date file [http://obi-ontology.org/page/Tutorials instructions here]. 
 
