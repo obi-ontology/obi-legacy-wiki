@@ -33,16 +33,20 @@ Results:
 * Found empty properties [https://sourceforge.net/tracker/?func=detail&aid=2887874&group_id=177891&atid=886178 Tracker 2887874]
 * Found duplicate - adjuvent role, adjuvant role [https://sourceforge.net/tracker/?func=detail&aid=2887909&group_id=177891&atid=886178 Tracker 2887909]
 * Found "played" roles - [https://sourceforge.net/tracker/?func=detail&aid=2887917&group_id=177891&atid=886178 Tracker 2887917]
-* Found "source pending" definition sources - [https://sourceforge.net/tracker/index.php?func=detail&aid=2887928&group_id=177891&atid=886178 Tracker 2887928]
 * Found editor notes that say "RESOLVE:" [https://sourceforge.net/tracker/?func=detail&aid=2887932&group_id=177891&atid=886178 Tracker 2887932]
-* Asked Jennifer about roles that have CDISC definitions in editor notes
-* Found "to be added" examples of usage. [https://sourceforge.net/tracker/index.php?func=detail&aid=2887965&group_id=177891&atid=886178 Tracker 2887965]
 * Found dubious subclasses of documenting [https://sourceforge.net/tracker/?func=detail&aid=2887974&group_id=177891&atid=886178 Tracker 2887974]
-* Poor label 'image stream' [https://sourceforge.net/tracker/?func=detail&aid=2888037&group_id=177891&atid=886178 Tracker 2888037]
 * DS questions about whether terms are justified [https://sourceforge.net/tracker/?func=detail&aid=2888133&group_id=177891&atid=886178 Tracker 2888194]
 * Entity of organismal origin mentions [https://sourceforge.net/tracker/?func=detail&aid=2888194&group_id=177891&atid=886178 Tracker 2888194]
-* Found non obsolete obsolete_hyphenated NMR instrument platform  [https://sourceforge.net/tracker/?func=detail&aid=2888481&group_id=177891&atid=886178 Tracker 2888481]
+
+
+
+DONE:
+* Asked Jennifer about roles that have CDISC definitions in editor notes [https://sourceforge.net/tracker/index.php?func=detail&aid=2889625&group_id=177891&atid=886178 Tracker 2889625]
+* Poor label 'image stream' [https://sourceforge.net/tracker/?func=detail&aid=2888037&group_id=177891&atid=886178 Tracker 2888037]
+* Found "to be added" examples of usage. [https://sourceforge.net/tracker/index.php?func=detail&aid=2887965&group_id=177891&atid=886178 Tracker 2887965]
 * Found classes below obsolete_under_discussion [https://sourceforge.net/tracker/?func=detail&aid=2888484&group_id=177891&atid=886178 Tracker 2888484]
+* Found non obsolete obsolete_hyphenated NMR instrument platform  [https://sourceforge.net/tracker/?func=detail&aid=2888481&group_id=177891&atid=886178 Tracker 2888481]
+* Found "source pending" definition sources - [https://sourceforge.net/tracker/index.php?func=detail&aid=2887928&group_id=177891&atid=886178 Tracker 2887928]
 
 [[media:editor-notes-mc.txt]]
 
