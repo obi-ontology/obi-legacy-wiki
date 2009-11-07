@@ -78,3 +78,121 @@ All are currently in the single obi file. Curator notes will not be included in 
 * Marked all alanr notes "this should be moved to obi" as "delete"
 * Marked all "NMR" notes as "separate" = keep in separate file
 * Asked Philippe about "MSI" note on fractional factorial design OBI_0500016 (+ others marked "ask philippe") - He says delete.
+
+=== Preferred labels ===
+
+I reviewed all the cases where a current editor preferred label differed from an rdfs:label, and classified them into 4 cases.
+
+* "e": the preferred label is in fact an example of usage. I fixed this in the obi source file
+* "f": The rdfs:label had a typo in it. I fixed the rdfs:label in the obi source file and ignored the editor preferred label
+* "n": The editor preferred label is not an alternative term. I discarded it when generating the release. These currently are maintained in the obi source file but will be removed if there is not disagreement on my assessments.
+* "y": The current editor preferred label looks like a reasonable alternative term. I fixed these in the obi source file. If there is disagreement about any of these please put in a ticket.
+
+Here's the query I used to get the initial list:
+
+<pre>
+PREFIX obi: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?term ?label ?preflabel
+WHERE { 
+?term rdfs:label ?label . 
+?term obi:IAO_0000111 ?preflabel . 
+FILTER ((!((str(?label) = str(?preflabel)))) && (!(regex(str(?label),"obsolete"))) && regex(str(?term),"OBI_"))} 
+</pre>
+
+<pre>
+e OBI_0000006	"role of being consumer safety officer"	"Consumer safety officer; Consumer Safety Officer Positions at FDA http://69.20.19.211/jobs/cso.htm"
+e OBI_0000824	"recombinant YAC cloning"	"Isolation of a YAC clone covering a cluster of nine S100 genes on human chromosome 1q21"
+
+f OBI_0000056	"Notified_Body role"	"Notified Body"
+f OBI_0000395	"signal amplifcation function"	"signal amplification function"
+f OBI_0000398	"image aquisition device"	"image acquisition device"
+f OBI_0600026	"longitundinal mass measurement assay"	"longitudinal mass measurement assay"
+
+n OBI_0000014	"regulator role"	"Regulator"
+n OBI_0000016	"regulation-assigned role"	"Regulation-assigned role"
+n OBI_0000017	"regulatory role"	"Regulatory role"
+n OBI_0000018	"supplier role"	"Supplier"
+n OBI_0000020	"contract research organization role"	"Contract research organization"
+n OBI_0000025	"reference substance role"	"Reference substance"
+n OBI_0000026	"cytological stain role"	"Cytological stain"
+n OBI_0000032	"clinical research coordinator role"	"Clinical research coordinator"
+n OBI_0000040	"drug role"	"Drug role"
+n OBI_0000060	"trial monitor role"	"Trial monitor"
+n OBI_0000064	"positive reference substance role"	"Positive reference substance"
+n OBI_0000068	"reporting party role"	"Reporting party"
+n OBI_0000079	"culture medium role"	"Culture medium"
+n OBI_0000089	"role of regulator of chemical manufacture"	"Regulator of chemical manufacture"
+n OBI_0000092	"role of certified IRB professional"	"Certified IRB Professional"
+n OBI_0000093	"patient role"	"Patient"
+n OBI_0000100	"role of being first subject treated"	"First subject treated"
+n OBI_0000102	"responsible party role"	"Responsible party"
+n OBI_0000103	"principal investigator role"	"Principal investigator"
+n OBI_0000110	"pH indicator dye role"	"pH indicator dye"
+n OBI_0000116	"worker role"	"Worker"
+n OBI_0000117	"bernoulli trial"	"Bernoulli trial"
+n OBI_0000140	"label role"	"Label"
+n OBI_0000143	"baseline participant role"	"Baseline participant"
+n OBI_0000144	"role of independent data monitoring committee"	"Independent data monitoring committee"
+n OBI_0000145	"pathologist role"	"Pathologist"
+n OBI_0000154	"role of Institutional Review Board"	"Internal Review Board"
+n OBI_0000161	"crossover population role"	"Crossover population"
+n OBI_0000162	"complete nutrient role"	"Complete nutrient"
+n OBI_0000163	"radiolabel role"	"Radiolabel"
+n OBI_0000169	"placebo role"	"Placebo"
+n OBI_0000174	"study group role"	"Study group population"
+n OBI_0000188	"role of pathology review board"	"Pathology review board"
+n OBI_0000196	"role of impartial witness"	"Impartial witness"
+n OBI_0000198	"biological replicate role"	"Biological replicate"
+n OBI_0000204	"nutrient role"	"Nutrient"
+n OBI_0000205	"dropout role"	"Dropout"
+n OBI_0000207	"health care provider role"	"Health care provider"
+n OBI_0000211	"proxy respondent role"	"Proxy respondent"
+n OBI_0000214	"negative reference substance role"	"Negative reference substance"
+n OBI_0000215	"role of legally acceptable representative"	"Legally acceptable representative"
+n OBI_0000220	"reference subject role"	"Reference participant"
+n OBI_0000221	"vital dye role"	"Vital dye"
+n OBI_0000223	"blinded medication role"	"Blinded medication"
+n OBI_0000224	"sub-investigator role"	"Sub-investigator"
+n OBI_0000234	"trial statistician role"	"Trial statistician"
+n OBI_0000237	"antigen role"	"Antigen"
+n OBI_0000243	"sponsor role"	"Sponsor"
+n OBI_0000248	"feed role"	"Feed"
+n OBI_0000249	"technical replicate role"	"Technical replicate"
+n OBI_0000250	"dye role"	"dye"
+n OBI_0000273	"role of regulator of consumables and medical devices"	"Drug regulatoy authority"
+n OBI_0000399	"immobilize function"	"immobilize funtion"
+n OBI_0000520	"clinical chemistry assay"	"detection of analyte in blood sample"
+n OBI_0200064	"centroid mass spectrum"	"centroid mass spectrun"
+n OBI_0200083	"survival analysis objective"	"survival analysis"
+n OBI_0200091	"determining inter-rater agreement"	"inter-rater agreement"
+n OBI_0302731	"buffer role"	"buffer"
+n OBI_0400013	"band pass filter"	"band_pass_filter"
+n OBI_0400024	"CyFlow SL"	"CYFlow SL"
+n OBI_0400043	"flow cell"	"flow_cell"
+n OBI_0400045	"fluid pressure regulator"	"fluid_pressure_regulator"
+n OBI_0400047	"gas laser"	"gas_ aser"
+n OBI_0400081	"particle delivery vessel"	"particle_delivery_vessel"
+n OBI_0400085	"piezo electric crystal"	"piezo_electric_crystal"
+n OBI_0400100	"syringe pump"	"syringe_pump"
+n OBI_0400102	"waste tank"	"waste_tank"
+n OBI_0400140	"gel tank"	"gel_tank"
+n OBI_0600028	"artificially induced reverse transcription"	"artifically induced reverse transcription"
+n OBI_0000086	"reagent role"	"Reagent"
+n OBI_0400080	"optical subsystem"	"optical_subsystem"
+
+y OBI_0600040	"synthesis"	"synthesize"
+y OBI_0000470	"mass spectrometry assay"	"mass spectrometry"
+y OBI_0000801	"spike train datum"	"spike train measurement"
+y OBI_0000807	"presentation of stimulus"	"stimulation of organism"
+y OBI_0000816	"micro electrode"	"micro electrode measuring device"
+y OBI_0200034	"jackknifing method"	"jackknifing"
+y OBI_0200089	"multiple testing correction method"	"multiple testing procedure"
+y OBI_0200098	"soft independent modeling of class analogy analysis"	"SIMCA"
+y OBI_0200111	"data visualization"	"visualization"
+y OBI_0600016	"pooling material from organisms"	"material pooling"
+y OBI_0600031	"ELISPOT assay"	"ELISPOT"
+y OBI_0600048	"vector mediated amplification"	"amplification of a clone"
+y OBI_1110132	"CD8 receptor"	"CD8"
+y OBI_0000202	"investigation agent role"	"Personnel role"
+</pre>
