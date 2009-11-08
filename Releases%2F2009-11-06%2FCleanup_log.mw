@@ -196,3 +196,5 @@ y OBI_0600048	"vector mediated amplification"	"amplification of a clone"
 y OBI_1110132	"CD8 receptor"	"CD8"
 y OBI_0000202	"investigation agent role"	"Personnel role"
 </pre>
+
+There are minor changes from the above noted in [https://sourceforge.net/tracker/index.php?func=detail&aid=2893997&group_id=177891&atid=886178 Tracker 2893997]
