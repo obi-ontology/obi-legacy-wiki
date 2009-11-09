@@ -34,8 +34,27 @@
 '''November 11, 2009''' - Veterans Day - no call
 
 '''November 9, 2009''' - Chair RB
+- Action Items (full details sent to -devel list)
 
-- Review OBI terms used in use case#3 (including Figure 5)
+- [Helen/Bjoern] to put together spreadsheet of terms missing definitions and pass to AR to incorporate into release candidate
+
+-[not sure who was going to do this fix] BIRN/NIFSTD: BIRN is dead; but is BioPortal; needs change of ID 
+
+-[BP] will recieve updated Figure 5 and edit as required for clarity and consistancy
+
+-[BP] wil  circulate submission-ready manuscript when missing definitions added, Figure 5 fixed, 
+
+-[All] please continue to use existing tracker numbering until manuscript submitted
+
+-[PRS: Create tracker item Obsoluete diluted; Will discuss with PATO 
+
+-[All] No more editing for this release after above is dealt with ; go back to normal editing of obi.owl
+
+-[Jie] Fix Table so it publication ready (remove extra sheets, etc.)
+
+-[release team] Release process: editor notes and curator notes wil be dictated by release time
+
+-[HP] Will fix release notes; need comments now or hold your peace
 
 ====October 2009====
 
