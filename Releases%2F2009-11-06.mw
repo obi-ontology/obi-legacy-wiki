@@ -1,51 +1,145 @@
-Placeholder for the 'release 1' release candidate release notes.
+= Release notes for OBI 2009-11-06 Philly (aka version 1.0) Release Candidate =
 
+*Date of release: 6 November 2009*
 
-rc1.0 =
+{{WideTOC|__TOC__}}
+ 
+== About this ontology ==
+ 
+The Ontology for Biomedical Investigations (OBI) project has developed an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology supports the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology represents the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. OBI is being built under the Basic Formal Ontology (BFO) and importes terms from OBO foundry ontologies. OBI also reflects domains specific extensions which were merged into obi.owl. These include terms merged into obi.owl from the Immune Epitope Database Ontology (www.ideb.org) and community suggested terms from many communities. 
 
-1. all terms assigned an obi id
+Aims:
 
-2. not all annotation properties will be turned into instances (scripting needed, takes time)
+* Develop an Ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations
+* Make OBI compatible with other bio-ontologies
+* Develop OBI using an open source approach
+* Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations 
 
-3. priority 9 trackers in IAO and OBI fixed
+More details at:
 
-4. remove obsolete terms to a sep file which can be imported (not by default)
+   http://purl.obolibrary.org/obo/obi
 
-5. _placeholder fixed, there will be no _ prefix OBI classes in rc1.0. Any top _ level
-classes were scripted out and will continue to be so
+Further reading:
 
-6. All obi terms will have a curation status (not imports)
+You can find the OBI manuscript which this version supports at http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/manuscript.doc
+ 
+== Ontology Development ==
 
-7. rc1.0 will be inferred and disjoint
+OBI Ontology Development is collaborative, term suggestions and new community representatives are welcome. Single terms can be suggested via the OBI tracker http://purl.obolibrary.org/obo/obi/tracker/. 
 
-8. rc1.0 will be released to obo foundry and bioportal, purls will change  bioportal doesn't include imports, we want them to see these and will produce a special version for them, and we will ask that they do not serve this version for download. This will be a one off. We expect ncbo will fix this for our next release.
+If you represent a community and/or have many terms to suggest please email OBI OBI Developers <obi-devel@lists.sourceforge.net> with details. If you would like to see the latest development version please check out the development copy of OBI from sourceforge. 
 
-CS will follow up with ncbo. MC/AR will send an email with the background to CS.
+Tutorials on how to do this here: http://obi-ontology.org/page/Tutorials
 
-9. rc1.0 will include release notes and documentation - HP will coordinate
+The OBI wiki can be found at: http://obi-ontology.org/
 
-10. we will not produce an obo version for rc1.0
+== How to contact us ==
 
-11. we will not produce an html version
+Send mail with questions about OBI to obi-users@googlegroups.com. You
+can sign up for this group, or view the archives, at:
+http://groups.google.com/group/obi-users
 
--------------------------------------------------------------------------------------
+Discussion among OBI developers is at obi-devel@lists.sourceforge.net. You
+can sign up for this group, or view the archives, at:
+https://lists.sourceforge.net/lists/listinfo/obi-devel or
+http://groups.google.com/group/obi-developer
 
-Tasks:
+OBI term requests, as well as reports of bugs or other issues can be
+entered at our tracker: http://purl.obolibrary.org/obo/obi/tracker The
+tracker currently requires you to have or sign up for a sourceforge
+account. Please send mail to obi-users@googlegroups.com if this is
+problematic.
 
-1. finish _placeholder classes clean up - goal all _ prefix classes removed, children resolved - tracker items describe these (priority 9, Helen and James) - 22nd October
+== New to OBI version Release Candidate 1.0 ==
+ 
+OBI RC.10 is a pre-1.0 version which has had all _ prefix placeholder classes removed, and mandatory meta data annotation properties have been cleaned, all classes have text definitions. 
 
-2. ensure all OBI terms (not Imports) have curation status attached (needs checking) - Melanie will run script - 22nd October
+Terms used by IEDB contained in the ONTIE ontology have been merged into OBI - http://ontology.iedb.org/ and assigned OBI identifiers.
 
-3. scripted changes -  blocker -  AR/MC/JZ
+Typographical errors in rdfs labels, definitions and notes have been cleaned
 
-Release process needs adjusting, needs to reason inside lisp, may need extra code for re-assigning ids (if doesn't reason in lisp)
-* strip out obsolete classes, add disjoints etc
-* count classes etc
+Uninformative editor notes have been removed, where editor notes remain these contain information OBI developers believe to be useful for users
 
-* aim to complete by 6 November
+Collective review has resulted in parts of OBI being refactored, this process is ongoing and future OBI releases will be supplied with a summary of changes across versions.
 
-4. necessary IAO changes, submitted to IAO tracker as critical priority AR/MC 30 October
+'Conferred qualities' (i.e. 'qualities' resulting from a process, such as ligated, activated, labeled...) have been removed where these were previously generated by OBI in an attempt to support text mining applications. There are still such 'conferred qualities' imported from PATO (e.g., diluted). This will be resolved in future releases in collaboration with the source ontology.
 
-5. check all the remaining priority 9 and 8 tracker items done by 30 October
+== Obsolete Classes in OBI ==
 
-6. Editing freeze for release process to start 30 October
+The obsoletion policy is described on the OBI wiki - http://obi-ontology.org/page/OBIDeprecationPolicy
+
+OBI will enforce a strict deprecation policy: OBI Identifiers in this release are stable and will be maintained in new versions.
+
+== Known Issues ==
+
+* OBI RC1.0 supports the OBI manuscript to be submitted to Nature Biotechnology (http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/manuscript.doc). OBI is a work in progress and is expected to evolve. We have a strict deprecation policy which has been adhered to for RC1.0 and which will be used in future. See http://obi-ontology.org/page/OBIDeprecationPolicy
+
+* RC1.0 is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
+
+* Conferred qualities have been removed to a separate file where these were generated by OBI. There are still conferred qualities imported from PATO e.g. diluted. This will be resolved in future releases with the source ontology and the OBO foundry.
+
+Please sign up to the obi-users mailing list to get details of new releases and links to versioned release notes.
+
+== External Ontology and Resource Mapping/Imports List ==
+ 
+The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process (Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term. Proceedings of the International Conference on Biomedical Ontologies (ICBO) http://icbo.buffalo.edu/). You can request import of additional terms by adding a tracker item at http://sourceforge.net/tracker/?group_id=177891&atid=886178. Please provide details of the source ontology, term ids and a suggested placement in OBI if possible.
+
+* Information Artifact Ontology (IAO)
+* NCBI Taxonomy
+* Basic Formal Ontology (BFO)
+* Gene Ontology (GO)
+* Phenotypic Quality Ontology (PATO)
+* Chemical Entities of Biological Interest ChHEBI
+* Cell Type Ontology (CL)
+* Foundational Model of Anatomy (FMA)
+* Protein Ontology (PRO)
+* Unit Ontology (UO)
+* Common Anatomy Reference Ontology (CARO)
+* Environment Ontology (ENVO)
+* Vaccine Ontology (VO)
+* Neuroscience Information Framework Ontologies and Terminologies (NIFSTD) 
+* Sequence Ontology (SO)
+* Human Phenotype Ontology (HPO)
+ 
+==  Count of terms in and used by OBI ==
+<pre>
+-----------------------------
+OBI Classes		1180
+Imported Classes	1447
+OBI Individuals		  59
+Imported Individuals	  17
+OBI Properties		  31
+Imported Properties	  62
+
+Imported Classes Breakdown:
+----------------------------
+IAO		  91
+NCBITaxon	1165
+BFO		  39
+GO		  68
+PATO		  23
+CHEBI		  20
+CL		  18
+FMA		   5
+PRO		   4
+UO		   4
+CARO		   3
+ENVO		   2
+VO		   2
+Birnlex		   1
+SO		   1
+HP		   1
+
+Imported Individuals Breakdown:
+------------------------------
+IAO		  17
+
+Imported Properties Breakdown:
+------------------------------
+IAO		   31
+RO		   24
+RO proposed	    7	
+
+</pre>
+
+Release note authors: Helen Parkinson, Melanie Courtot, Alan Ruttenberg
