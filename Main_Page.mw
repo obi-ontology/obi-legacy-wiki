@@ -1,10 +1,9 @@
 The Ontology for Biomedical Investigations (OBI) project is developing an integrated ontology for the description of life-science and clinical investigations. 
 *To cite OBI please use the following: '''The OBI Consortium [http://purl.obolibrary.org/obo/obi http://purl.obolibrary.org/obo/obi]'''
-*The latest complete version of ontology (.owl) file will always be available from [http://purl.obolibrary.org/obo/obi.owl http://purl.obolibrary.org/obo/obi.owl].
-
+*The latest complete version of ontology (.owl) file will always be available from [http://purl.obolibrary.org/obo/obi.owl http://purl.obolibrary.org/obo/obi.owl] with [http://purl.obolibrary.org/obo/obi/release-notes.html release notes]
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
 ! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid perwhite;border-top:5px solid white;text-align:left;" | <font size="+1">Ontology</font>
-! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Consortium</font>
+! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid lawhite;border-top:5px solid white;text-align:left;" | <font size="+1">Consortium</font>
 ! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-top:5px solid white;text-align:left;" | <font size="+1">Participate</font>
 |-
 |valign="TOP" style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid white;border-bottom:5px solid white;" | 
