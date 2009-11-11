@@ -1,6 +1,6 @@
 = Release notes for OBI 2009-11-06 Philly (aka version 1.0) Release Candidate =
 
-*Date of release: 6 November 2009*
+<b>Date of release: 6 November 2009</b>
 
 {{WideTOC|__TOC__}}
  
@@ -15,13 +15,9 @@ Aims:
 * Develop OBI using an open source approach
 * Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations 
 
-More details at:
+More details at: http://purl.obolibrary.org/obo/obi
 
-   http://purl.obolibrary.org/obo/obi
-
-Further reading:
-
-You can find the OBI manuscript which this version supports at http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/manuscript.doc
+Further reading:  You can find the OBI manuscript which this version supports at http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/manuscript.doc
  
 == Ontology Development ==
 
