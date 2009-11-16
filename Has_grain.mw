@@ -1,3 +1,5 @@
 This page to collect examples and patterns of usage of the relation has_grain.
 
 A Rector, J Rogers, T Bittner [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.7454&rep=rep1&type=pdf Granularity, scale and collectivity: when size does and does not matter]
+
+We use the has_grain relation to relate a material entity to each of a very large number of parts, the loss of a number of which don't effect the identity of the whole, for example blood to blood cells, or ions in a solution.
