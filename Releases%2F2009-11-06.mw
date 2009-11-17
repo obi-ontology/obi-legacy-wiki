@@ -24,11 +24,11 @@ Aims:
 
 More details at: http://purl.obolibrary.org/obo/obi
 
-Further reading:  You can find the OBI manuscript which this version supports at http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/release/manuscript.doc
+Further reading:  You can find the OBI manuscript which this version supports at http://purl.obolibrary.org/obo/obi/repository/trunk/docs/papers/release/Manuscript.doc
  
 == Ontology development ==
 
-OBI Ontology Development is collaborative, term suggestions and new community representatives are welcome. Single terms can be suggested via the OBI tracker http://purl.obolibrary.org/obo/obi/tracker/. 
+OBI Ontology Development is collaborative, term suggestions and new community representatives are welcome. Single terms can be suggested via the OBI tracker http://purl.obolibrary.org/obo/obi/tracker. 
 
 If you represent a community and/or have many terms to suggest please email OBI OBI Developers <obi-devel@lists.sourceforge.net> with details. If you would like to see the latest development version please check out the development copy of OBI from sourceforge. 
 
@@ -85,7 +85,7 @@ Please sign up to the obi-users mailing list to get details of new releases and 
 
 == External ontology and resource mapping/imports list ==
  
-The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process (Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term. Proceedings of the International Conference on Biomedical Ontologies (ICBO) http://icbo.buffalo.edu/). You can request import of additional terms by adding a tracker item at http://sourceforge.net/tracker/?group_id=177891&atid=886178. Please provide details of the source ontology, term ids and a suggested placement in OBI if possible.
+The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process (Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term. Proceedings of the International Conference on Biomedical Ontologies (ICBO) http://icbo.buffalo.edu/). You can request import of additional terms by adding a tracker item at http://purl.obolibrary.org/obo/obi/tracker. Please provide details of the source ontology, term ids and a suggested placement in OBI if possible.
 
 * Information Artifact Ontology (IAO)
 * NCBI Taxonomy
