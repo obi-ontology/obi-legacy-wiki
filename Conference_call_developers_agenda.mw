@@ -29,6 +29,35 @@
 
 '''November 18, 2009''' - Chair MC
 
+Agenda:
+- don't forget to check/update your tracker items before the call (at
+least those that are priority 7 and up)
+- if there is anything you want to add/update/modify for the next
+release please create a new tracker item with priority 7.
+The tracker is available at http://purl.obolibrary.org/obo/obi/tracke
+
+
+1. Next OBI meeting
+AI: HP will email again re OBI meeting and volunteers needed to coord only
+
+2. Next OBI release - 1.0
+Create tracker items 7 for what we want to finish - don't have to be done for 1.0 - but will set priorities
+(do not use anymore priority 8 and 9)
+1.0: comes out with published manuscript. Target end of January.
+
+After 1.0, aiming at monthly releases. Will need Jie's help.
+
+3. manuscript
+AI: BP will send a reminder for the authorship google doc. He sent 4 reminders (valid email addresses) - 5 or 6 no reply -> if no response no inclusion in author list
+BP: manuscript done (unless for emergency edits today, or huge mistake detected very late by Bjoern). He will send out final version (FYI) by next Wednesday.
+
+4. deprecation policy
+reminder that this is now fully enforced. See http://obi-ontology.org/page/OBIDeprecationPolicy#OBI_Deprecation_Policy
+
+5. discussion about curated/validated/edited
+AI for Alan - start discussion on tracker or dev list (whichever he prefers) about "biocuration"
+=> see email sent by Alan on the obi-dev list.
+
 '''November 16, 2009''' - Chair HP
 
  - coord concerns? (as no call on Veterans day): users email for release, next OBI meeting
