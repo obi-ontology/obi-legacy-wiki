@@ -5,6 +5,11 @@ Discussions about moving OBI release to Java based scripts.
 
 Here are some details about OBI release, more related to programming.
 
+<h2>Following checking need to be implemented</h2>
+- Remove empty annotation properties
+- Remove duplicate labels, definitions
+- Copy labels over the editor preferred terms if they are not identical, and to save the preferred terms as alternative terms
+
 <h2>The following 8 points are just for the first major module of assigning IDs.</h2>
 1. We are working with merged file now.
 
