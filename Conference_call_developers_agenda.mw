@@ -22,6 +22,42 @@
 
 ====November 2009====
 '''November 30, 2009''' - Chair JF
+on the call:  HP, BP, JM, JZ, JT, CC, JF
+
+AI JZ: Post policy of editor / curator notes to wiki
+Postpone discussion on policy for making changes to policy until later call
+MGED Ontology: JZ has mapped terms, CS, HP and JM have reviewed; will import into OBI 1.0
+
+Tracker items:
+Manuscript: BP has received last minute edits which are good and which he will incorporate
+Title: The Ontology for Biomedical Investigations seems to win
+
+James Malone: i closed a couple of dt related ones
+Helen Parkinson: I closed a lot of fixed things. 
+
+Focus of discussion: immortal cell
+tracker items: 2894003, 2892283, 2906085
+In OBI now: immortalized cell line; output of:  cell line immortalization and establishing a cancer cell line
+immortalized cell line has grain (some or only) immortal cell
+
+cell culture: a cell culture is a material entity consisting of a population of cells that is maintained in vitro; children: clonal cell culture, primary cell culture, cell line culture
+
+in general a cell line culture is considered to be homogeneous, stardardized, named, something which can be obtained reproducibly.  it will have an original tissue source and associated history of being made immortal through natural, disease or in-vitro process
+
+a primary cell culture is not homogeneous, generally not immortal, and not a cell line culture
+
+added two processes to OBI:
+cell line immortalization 
+has specified  output some immortalized cell line culture
+
+establishing a cancer cell line has specified input some immortal cell 
+has specified output some immortalized cell line culture
+
+immortal cell:
+a cell derived from a multicellular organism that has the potential to replicate indefinitely
+
+AI JF: add tracker item summarizing discussion, diferentiating clonal cell culture, other terms.
+
 <br>Agenda:
 <br>- CS: curator note/editor note
 <br>- What is our consortium process to modify established policy (deprecation policy, metadata policy)? 
