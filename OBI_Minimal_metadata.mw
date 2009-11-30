@@ -52,13 +52,20 @@ The OBI meta data is encoded as a separate file which is imported by OBI and can
 ==Optional metadata: SHOULD be provided==
 *'''example of usage''': A phrase describing how a term should be used. May also include other kinds of examples, such as widely known subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not.
 **Cardinality: each class can have none, one, or more examples of usage
-**Implementation: datatype annotation property named "example of usage". 
+**Implementation: annotation property named "example of usage". 
 *'''alternative term''': An alternative name for a class or property which means the same thing, i.e. semantically equivalent, as the preferred term.
-**Cardinality: Each class can have many alernative terms
-**Implementation: datatype annotation property
-*'''editor note''': An administrative note intended for the editor. It will not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology. Editor notes should include the date of edit.
+**Cardinality: Each class can have many alternative terms
+**Implementation: annotation property
+*'''editor note''': A note containing points under consideration for further term development that may be included in released versions of the ontology. It should contain nothing embarrassing and something potentially useful for end users to understand the ontology. Editor notes should include the date of edit (YYYY/MM/DD) and the author.
 **Cardinality: Each class can have one, or many editor notes
-**Implementation: datatype annotation property
+**Implementation: annotation property
+*'''curator note''': An administrative note intended for the curator of the ontology. It will not be included in the released versions of the ontology, so it should contain nothing necessary for end users to understand the ontology. Curator notes should include the date of edit (YYYY/MM/DD) and the author.
+**Cardinality: Each class can have one, or many curator notes
+**Implementation: annotation property
+
+
+
+
 
 
 [[category:OBI Policy]]
