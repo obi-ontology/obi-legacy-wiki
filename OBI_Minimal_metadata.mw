@@ -6,15 +6,15 @@ The OBI meta data is encoded as a separate file which is imported by OBI and can
 ==Mandatory metadata: MUST be provided for both classes and relations==
 *'''editor preferred term''': The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers that reflects community usage, or disambiguates the term if necessary. (before 16.10.07 this was: The concise, meaningful, and human-friendly name for a class or property  
 **Cardinality: each class must have a single editor preferred term
-**Implementation: datatype annotation property specified as a functional property named "preferred term".
+**Implementation: annotation property specified as a functional property named "preferred term".
 *'''definition''': The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with informal definitions to further explain the meaning of the term.
 **Cardinality: each class must have a single definition
-**Implementation: datatype annotation property specified as a functional property named "definition".
+**Implementation: annotation property specified as a functional property named "definition".
 *'''definition editor''': The name of the editor of the definition.
 **Cardinality: each class can have many definition editors
 *'''definition source''': An unambiguous and traceable reference to the source of the definition. Examples: ISBN, URI plus date, MeSH Term, PUBMED ID, DOI.
 **Cardinality: each class can have one or more definition sources
-**Implementation: datatype annotation property named "definition source".  See guidelines for providing sources for term definitions.
+**Implementation: annotation property named "definition source".  See guidelines for providing sources for term definitions.
 *'''curation status''': 
 **Each class has a single curation status 
 **The curation status of a class or property. The allowed values must come from this enumerated list of predefined terms:
