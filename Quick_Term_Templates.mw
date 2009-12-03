@@ -1,13 +1,17 @@
+===Overview of the Quick Term Approach===
+
 A procedure to leverage defined class and patterns in candidate terms for submission for inclusion in OBI.
 
-List of current Quick Term Templates
+
+
+===List of current Quick Term Templates===
 
 *Analyte Assay Template
 
 *Defined Material Template
 
 
-List of tools for Processing Quick Term Templates:
+===List of tools for Processing Quick Term Templates===
 
 *'''Mapping Master''' for Protege 3.4: [http://protege.cim3.net/cgi-bin/wiki.pl?MappingMaster available here]
 
@@ -18,3 +22,13 @@ Other relevant tools:
 *'''Excel Import''' for Protege 4: [http://code.google.com/p/co-ode-owl-plugins/wiki/ExcelImport available here]
 
 *'''OPPL''' for Protege 4: [http://www.cs.manchester.ac.uk/~iannonel/oppl/index.html available here]
+
+
+
+
+===Publications and Presentations===
+
+The Quick Term Template Approach has been presented during [http://icbo.buffalo.edu/ International Conference on Biomedical Ontology, University at Buffalo, NY · July 24-26, 2009]
+
+An article is available from the [http://icbo.buffalo.edu/Proceedings.pdf Proceedings]
+A presentation associated with this manuscript is available from [http://precedings.nature.com/documents/3970/version/1 nature proceedings]
