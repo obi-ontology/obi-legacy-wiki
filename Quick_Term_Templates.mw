@@ -1,0 +1,20 @@
+A procedure to leverage defined class and patterns in candidate terms for submission for inclusion in OBI.
+
+List of current Quick Term Templates
+
+*Analyte Assay Template
+
+*Defined Material Template
+
+
+List of tools for Processing Quick Term Templates:
+
+*'''Mapping Master''' for Protege 3.4: [http://protege.cim3.net/cgi-bin/wiki.pl?MappingMaster available here]
+
+Other relevant tools:
+
+*'''Matrix''' for Protege 4: [http://code.google.com/p/co-ode-owl-plugins/wiki/MatrixViews available here]
+
+*'''Excel Import''' for Protege 4: [http://code.google.com/p/co-ode-owl-plugins/wiki/ExcelImport available here]
+
+*'''OPPL''' for Protege 4: [http://www.cs.manchester.ac.uk/~iannonel/oppl/index.html available here]
