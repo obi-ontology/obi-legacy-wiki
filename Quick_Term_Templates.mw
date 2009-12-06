@@ -2,7 +2,8 @@
 
 A procedure to leverage defined class and patterns in candidate terms for inclusion in OBI, typically:
 
- 1. Agreement on the logical definition of the parent class for submissions matching a certain pattern and specification of entities that can be varied with respect to the parent class (the differentia)
+ 1. Agreement on the logical definition of the parent class for submissions matching a certain pattern
+ and specification of entities that can be varied with respect to the parent class (the differentia)
 
  2. Generation of a QTT spreadsheet designed to let users specify just the differentia. This spreadsheet contains one column for each specified entity
 
