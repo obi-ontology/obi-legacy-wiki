@@ -1,6 +1,14 @@
 ===Overview of the Quick Term Approach===
 
-A procedure to leverage defined class and patterns in candidate terms for inclusion in OBI.
+A procedure to leverage defined class and patterns in candidate terms for inclusion in OBI, typically:
+
+ 1. Agreement on the logical definition of the parent class for submissions matching a certain pattern and specification of entities that can be varied with respect to the parent class (the differentia)
+
+ 2. Generation of a QTT spreadsheet designed to let users specify just the differentia. This spreadsheet contains one column for each specified entity
+
+ 3. Processing of a QTT spreadsheet through the use of a tool that translates each row of a QTT template into the OWL description of a class
+ 
+ 4. Provide submitters with a list of Identifiers corresponding to the newly created classes.
 
 ===List of current Quick Term Templates===
 
