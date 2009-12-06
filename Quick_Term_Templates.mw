@@ -10,7 +10,7 @@ A procedure to leverage defined class and patterns in candidate terms for inclus
 *Defined Material Template: 
                             *[[media: OBI-QTT-Defined-Material-Template.xls]]
 
-===List of tools for Processing Quick Term Templates===
+===List of tools evaluated for processing Quick Term Templates===
 
 *'''Mapping Master''' for Protege 3.4: [http://protege.cim3.net/cgi-bin/wiki.pl?MappingMaster available here]
 
@@ -21,9 +21,6 @@ Other relevant tools:
 *'''Excel Import''' for Protege 4: [http://code.google.com/p/co-ode-owl-plugins/wiki/ExcelImport available here]
 
 *'''OPPL''' for Protege 4: [http://www.cs.manchester.ac.uk/~iannonel/oppl/index.html available here]
-
-
-
 
 ===Publications and Presentations===
 
