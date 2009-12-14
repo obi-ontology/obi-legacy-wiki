@@ -17,9 +17,6 @@ The Quick Term Template approach is a procedure which leverages logically define
 *Analyte Assay Template: 
                             *[[media: OBI-QTT-Analyte-Assay-Template2.xls]]
 
-*Defined Material Template: 
-                            *[[media: OBI-QTT-Defined-Material-Template.xls]]
-
 ===List of tools evaluated for processing Quick Term Templates===
 
 *'''Mapping Master''' for Protege 3.4: [http://protege.cim3.net/cgi-bin/wiki.pl?MappingMaster available here]
