@@ -26,6 +26,8 @@ Two files are required, one for the target ontology, the other one for the templ
 
 * the quick term template: [[media: OBI-QTT-Analyte-Assay.xls]].
 
+
+
 ===List of tools evaluated for processing Quick Term Templates===
 
 *'''Mapping Master''' for Protege 3.4: [http://protege.cim3.net/cgi-bin/wiki.pl?MappingMaster available here]
