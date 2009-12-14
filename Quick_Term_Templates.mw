@@ -12,6 +12,8 @@ The Quick Term Template approach is a procedure which leverages logically define
 
 * Provide term submitters with a list of identifiers corresponding to the newly created classes.
 
+
+
 ===Processing the Analyte Assay Template using Mapping Master: the procedure from start to finish===
 
 In this section, we provide the necessary material to perform the creation of new analyte assay classes in OBI by relying on Mapping Master Protege 3.4.2.
