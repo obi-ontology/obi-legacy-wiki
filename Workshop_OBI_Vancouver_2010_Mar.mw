@@ -64,6 +64,11 @@ morning + afternoon: 'We have issues'
 
 ===Use Case + Issues Proposals===
 
+* Use case: Immune Epitope Database export
+ - Integrate IDO terms into OBI
+ - Qualitative positive / negative measurements
+ - tying epitope 'conclusions' to assay outcomes
+
 ===Participants===
 
 * Ryan Brinkman (Mon-Thu)
