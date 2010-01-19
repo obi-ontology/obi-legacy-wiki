@@ -33,23 +33,34 @@ We are not sure at this stage if we will be able to provide conference calling f
 
 ===Agenda===
 
-*Deliverables list:
-
-
-
-*Vancouver workshop agenda
-
-
 1. Monday 22nd - 9am to 12am and 1pm to 5pm
-
+ - New groups introductory presentations
+ - OBI overview to date
+ - OBI development tools (QTT, MIREOT etc.)
 
 2. Tuesday 23rd - 9am to 12am and 1pm to 5pm
 
+Use case driven issues session ('We have issues'), ~1/2 day each
+
+Format: 
+ 0) Premeeting: Prepare 1-4 
+ 1) present use case 
+ 2) summarize progress to date 
+ 3) introduce issue that needs work
+ 4) hands on development, and commit to file
 
 3. Wednesday 24th -  9am to 12 am and 1pm to 5pm 
 
+morning: 'We have issues'
+
+afternoon: Planning
+ - What is driving OBI post 1.0? 
+ - Taking on new groups + use cases vs. tackling difficult bits of existing ones
+ - Should we revise coordinator structure? 
 
 4. Thursday 25th - 9am to 12am and 1pm to 5pm
+
+morning + afternoon: 'We have issues'
 
 === Other possible Agenda items===
 
