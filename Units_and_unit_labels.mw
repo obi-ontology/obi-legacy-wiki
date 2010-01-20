@@ -1,0 +1,35 @@
+This page documents a proposal for how to use the units ontology within OBI and the OBO foundry. A discussion of this proposal on the unit ontology mailing list is [http://sourceforge.net/mailarchive/forum.php?thread_name=AEC5FC63-C059-444F-AB55-863F2A86727F%40berkeleybop.org&forum_name=obo-unit here]
+
+== The issue ==
+
+It is unclear what units denote. While in some cases an interpretation can be made, for instance saying instances of kilogram are mass quality units, in other cases they do not denote qualities (e.g. Einstein's per m^2/second). 
+
+Moreover the Unit Ontology's current organization is not consistent with such an interpretation. The relation "unit of" is used to relate some units to qualities, without definition, and there are a large class of "derived units". It is unclear in what sense a quality can be "derived". This organization also leads to unintuitive classifications. For example while ''degree kelvin'' is a temperature unit, ''degree celcius'' is not - it is a ''temperature derived unit''.
+
+We would like have some way of using units that is consistent with the BFO framework, sufficient for OBI's uses, and which does not suffer the aforementioned defects.
+
+== Proposed solution ==
+
+OBI's use of units occurs as part of information artifacts - either as part of measurement data, or as data that is created from measurement data via data transformations. As such we need to at least be able to construct information artifacts that have parts that have things like "centimeter", "second", etc.
+
+We call such entity ''unit labels'', and consider them instances of information content entities. They are generically dependent continuants in that they can be concretized many times. Note, however, that they are only parts of datums. We should always have a clear idea of what our data is about (for instance it is the result of measuring a quality, or a time) and so can link the datum appropriately.
+
+Whether unit labels ''on their own'' have any denotation I leave as an open question, but one which does not need to be resolved for our purposes.
+
+Taking this approach, the unit ontology would be rewritten to not only contain classes, as it does now, but to instead be a combination of classes and instances. Leaf nodes, such as "centimeter" or "moles" would be instances and their parent would remain classes. So "temperature unit" in the current UO would become "temperature unit label" and remain a class. It's instances would be "degrees farenheight", ""degrees centigrade", "degrees kelvin".
+
+We would also then be able to, as need be, capture the relationships between units of the same sort  of thing by defining data transformation that took one as input and generated the other as output, or between composite units such as einsteins/m^2/s and measurements by describing protocols for acquiring the measurement and subsequent data transformations.
+
+Thus the focus on units is instead placed on measurement data and data transformations, i.e. away from something that we don't have a good theory of "units" and towards something we do have a good handle on.
+
+== Obstacles ==
+
+There is not yet consensus on this approach, though it appears that such may be possible. It may be that OBO Coordinator mediation is required to resolve this issue, or that UO be considered deprecated and a new ontology constructed with this approach.
+
+== Implementation ==
+
+Add-to-external.pl takes an additional argument that specifies whether the entity that is being MIREOTed should be considered an instance or a class. As entities from the Unit ontology are imported, we specify class or instance appropriately.
+
+== Consequences of not making this choice ==
+
+We are back at square one on how to work with units.  Previous work, such as use cases for the paper will need to be revised.
