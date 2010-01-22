@@ -10,6 +10,9 @@ Technical reports consists of user guides and development specifications or meth
 * [[Defined_classes|Defined classes in OBI]]
 * [[OBI_naming_conventions | Naming conventions for use within OBI]]
 * [[Quick_Term_Templates | Quick term templates]]
+* Add new terms
+
+Add and notify or submit via tracker and discuss first. Consensus is that terms following an accepted (and posted) design pattern can be added (could be via QTT) without prior discussion - just send email afterward. Discuss first if term not part of design pattern.
 
 == Term submission ==
 
