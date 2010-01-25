@@ -29,11 +29,17 @@
 
 '''January 25th, 2010 (Mon)''' - Chair JZ
 
+Attendees: AR, MC, JF, PRS, JM
+
 1. term submission policy
 
 The term submission section refers to the quick ID proposal which was never finalized/implemented (http://obi-ontology.org/page/Quick_id#Submit_a_term_to_OBI), and use the old branches file system which is now obsolete. 
 
 Decide to move forward with this proposal (and assign people to work on it) or decide that it doesn't fit our needs anymore and update the wiki accordingly. 
+
+  No use case for Quick ID proposal now. Put it as low priority. QTT might supercede this in the future.
+  Term submission: go with tracker items.
+
 
 2. Material type related terms needed by MO
 https://sourceforge.net/tracker/?func=detail&aid=2915152&group_id=177891&atid=886178
@@ -47,6 +53,8 @@ https://sourceforge.net/tracker/?func=detail&aid=2896765&group_id=177891&atid=88
 http://obi-ontology.org/page/Units_and_unit_labels
 
 5. other tracker items if we have time left
+
+  Comments were added in the tracker items.
 
 '''January 20th, 2010 (Wed)''' - Chair CS
 1. survival assessment: edit process issues - https://sourceforge.net/tracker/?func=detail&aid=2932146&group_id=177891&atid=886178
