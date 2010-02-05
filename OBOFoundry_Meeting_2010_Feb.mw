@@ -1,5 +1,8 @@
 ==OBI requests for Foundry==
 
-* status of BFO2 and relations. Will there be a public call for comments on a draft version, and if yes any date estimate? Related, status of OBI relations submitted to RO.
+* What is the current status of BFO2 and relations. Will there be a public call for comments on a draft version, and if yes any date estimate? Related, status of OBI relations submitted to RO.
+* Is the OBO Foundry on hold until BFO2 is created? If not when will BFO be registered in the OBO Foundry and subject to the same review criteria as all the other candidate ontologies?
+* What are the OBO Foundry principles? These ones http://obofoundry.org/crit.shtml or these ones http://obofoundry.org/wiki/index.php/OBO_Foundry_Principles
+* A clear distinction of what is means to be a member of the OBO library a candidate and the OBO Foundry should be made more explicit on the foundry site.
 * It is sometimes problematic to integrate with other resources that don't fall under BFO - is there any plan to help to increase adoption rate?
 * any progress on inter-species anatomy, and/or any way we could help?
