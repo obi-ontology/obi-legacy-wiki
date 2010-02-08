@@ -71,12 +71,6 @@ The E-TABM-34 files have been used to demo several software including annotation
  - Integrate MO terms into OBI
  - Annotate microarray experiments using OBI and further other kinds of experiments, such as Chip-seq and RNA-seq
 
-* Use case: Vaccine Adverse Event (OBI and VO)
-Farrington CP. Control without separate controls: evaluation of vaccine safety using case-only methods. Vaccine 2004;22:2064-20.
-
-Our project involves the active surveillance for Adverse Events of Special Importance(AESI): in particular GBS, encephalitis syndromes, and idiopathic thrombocytopenic purpura. The surveillance will be in PCIRN SOS sites using standardized case definitions. 
-The purpose is to test the hypotheses of causality and to contribute to the worldwide safety data being assembled for adjuvanted pH1N1 vaccine.  We will be using the  Farrington method which compares the risk of an event happening during a known period of exposure – ie during the six weeks after immunization with the risk of it occurring during intervals of similar duration (six weeks) but not after exposure to vaccine, using individuals as their own controls.  Essential to the methodology is ascertainment of cases with a date of onset and a specific date of immunization (or confirmation that no immunization was given during the entire study period).
-
 ===Participants===
 
 * Ryan Brinkman (Mon-Thu)
