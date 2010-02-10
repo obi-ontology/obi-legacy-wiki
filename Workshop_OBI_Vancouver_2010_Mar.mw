@@ -68,7 +68,7 @@ morning + afternoon: 'We have issues'
 
 * Use case: Annotate the MAGE-TAB format files, [http://www.ebi.ac.uk/microarray-as/ae/files/E-TABM-34/E-TABM-34.idf.txt E-TABM-34.idf.txt] and [http://www.ebi.ac.uk/microarray-as/ae/files/E-TABM-34/E-TABM-34.sdrf.txt E-TABM-34.sdrf.txt] using OBI. <br> 
 The E-TABM-34 files have been used to demo several software including annotation creation tool, eg. annotare, data and annotation management software, eg. CaArray, and data analysis platform, eg. GenePattern, MeV.
- - Integrate MO terms into OBI
+ - Integrate MO terms into OBI, and integrate terms used to annotate characteristics ie from other ontologies into OBI (mostly contained in EFO)
  - Annotate microarray experiments using OBI and further other kinds of experiments, such as Chip-seq and RNA-seq
 
 ===Participants===
