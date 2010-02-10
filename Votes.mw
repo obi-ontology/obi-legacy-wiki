@@ -1,6 +1,16 @@
 This page is created for the developers of OBI whenever there is a need to vote over action items or any other topic related to OBI. This page only shows current votes, check the [[votes_results | results votes page]] for decisions on past votes.
 
+We need a decision on what use case to work on to demonstrate usefulness of OBI. Two proposals exist:
 
+1) Export data from different resources (e.g. IEDB, MAGE-TAB files, ...) into OWL instances, and then perform a cross resource query in OWL. 
+
+2) Use OBI as GO-evidence code replacement, and allow to query for gene functions derived from e.g. human vs. mouse experiments 
+
+Please put your vote below. Multiple votes possible if okay with either: 
+
+1) BP
+
+2)
 
 [[category:OBI general]]
 [[category:Wiki]]
