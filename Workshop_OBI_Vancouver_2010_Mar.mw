@@ -72,7 +72,7 @@ afternoon: Planning
 
 morning + afternoon: 'We have issues'
 
-===Use Case + Issues Proposals===
+===Use Case===
 
 * Use case: Immune Epitope Database export
  - Integrate IDO terms into OBI
