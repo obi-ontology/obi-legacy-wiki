@@ -91,6 +91,11 @@ The E-TABM-34 files have been used to demo several software including annotation
  - Method and Result: An ANOVA analysis was performed and indicated that 12 parameters significantly contribute to the protection (P value < 0.05). The other parameters do not (P value > 0.05).  
  - Issues for discussion: (1) How to model these parameters using OBI, IAO, and VO; (2) How to model the hypothesis, ANOVA test, and the statistical results using OBI; (3) How to use OBI/IAO to help statistical data analysis of instance data? (4) Possible extension of this study to other ontology-based statistical data analysis?
 
+===Issues Proposals===
+
+Add any item for discussion here
+
+
 ===Participants===
 
 * Ryan Brinkman (Mon-Thu)
