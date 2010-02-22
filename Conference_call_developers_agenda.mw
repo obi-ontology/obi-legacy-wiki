@@ -11,12 +11,48 @@
 * new list of chairs
 
 '''February 22th, 2010 (Mon)''' - Chair LS
-* Report from OBOF meeting
-* Broken reasoning on current file
+
+Attended: BP, MC, JM, LS, JT, AR, PRS
+
+* Report from OBOF meeting:
+to be in OBOF, OBI needs independent users, min 2 DBs
+
+include this into the agenda for f2f meeting?
+
+AI: BP will put slides from OBOF
+
+* Broken reasoning on current file:
+
+Alan will look into it and give recommendations
+
 * Eagle-I + Chris Mungall requests, and process for acting on requests in general. http://sourceforge.net/tracker/?func=detail&aid=2921944&group_id=177891&atid=886178 http://sourceforge.net/tracker/?func=detail&aid=2937606&group_id=177891&atid=886178 http://sourceforge.net/tracker/?func=detail&aid=2935433&group_id=177891&atid=886178
+
+4 options were proposed:
+
+1 - discuss each item on a call - no one agreed
+
+2 - review by 2-3 OBI people - not very popular either
+
+3 - assign ID and remove if there is something wrong - popular option
+
+4 -  let eagle-i do that, need training - popular option
+combine 3+4 - very popular option
+
+5 - they build on obi in sep owl file and bring it to us for review
+
+AI: add to agenda on wiki for f2f - have obi slims for tests option 5
+
+AI: Alan to try separate files
+
 * What do we need before the OBI meeting in Vancouver?
 * Do we need to change the figure captions in the OBI/JBMS paper?
+
+AI: LS make minor changes to captions, send the text, contact the Editors
+
 * Discuss: plan specification or objective specification terms requested by MGED ontology. The details on the tracker: https://sourceforge.net/tracker/func=detail&aid=2902267&group_id=177891&atid=886178
+
+AI: keep for the next call
+
 * AI from the previous call
 
 '''February 17th, 2010 (Wed)''' - no call - OBOF meeting
