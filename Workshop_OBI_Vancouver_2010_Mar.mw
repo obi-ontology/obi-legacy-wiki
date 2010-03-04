@@ -114,6 +114,10 @@ The E-TABM-34 files have been used to demo several software including annotation
  - Method and Result: An ANOVA analysis was performed and indicated that 12 parameters significantly contribute to the protection (P value < 0.05). The other parameters do not (P value > 0.05).  
  - Issues for discussion: (1) How to model these parameters using OBI, IAO, and VO; (2) How to model the hypothesis, ANOVA test, and the statistical results using OBI; (3) How to use OBI/IAO to help statistical data analysis of instance data? (4) Possible extension of this study to other ontology-based statistical data analysis?
 
+
+* Use case: Coordinate future of BIRNLex-OBI proxy classes
+We need to coordinate about the future of BIRNLex-OBI proxy classes (the tracker link that you sent contains the list) within NIFSTD. The NIF-Investigation module included those proxy classes few years back when OBI was yet to be stable. Those proxy classes were intended to be replaced by OBI equivalents later.  Now that we have OBI built off BFO 1.1, we need to align our progress. Now, OBI-Proxy classes were extended in NIF Investigation along with the addition of various MRI/DTI terms (coordination with Jessica Turner and Karl Helmer). Some portion of NIF-Investigation (extended from obi-proxy classes) would certainly be overlapping with current OBI.  As the original hierarchies of our proxy classes have been changed in OBI along with other changes (some of the classes became non-existent, and some of the class IDs seems to have changed in OBI), we need to be careful during the process of adapting the updated OBI.  Ideally I would think of importing OBI as a whole, given that the extended NIF classes are clearly separable with no overlaps (and OBI being comprised of only ‘universal’ bio-investigation terms with a generic hierarchy). Also, extracting a relevant portion of OBI using MIREOT approach can be an option. We need to reconcile this issue of BIRNlex-OBI proxy classes and need to come up with a good alignment approach between NIF-Investigation and the current version of OBI.
+
 ===Issues Proposals===
 
 Add any item for discussion here
