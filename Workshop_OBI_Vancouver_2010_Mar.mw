@@ -60,9 +60,9 @@ Will not be available. Sorry.
 
 
 1pm to 5pm<br>
-Based on feedback from external attendees before the workshop or following Bjoern's presentation, specific tools (QTT, MIREOT, OntoFox...) will be presented/discussed.
+- Based on feedback from external attendees before the workshop or following Bjoern's presentation, specific tools (QTT, MIREOT, OntoFox...) will be presented/discussed. Max 30 min each.
+- NIF use case (Jessica)
 
-2. Tuesday 23rd - 9am to 12am and 1pm to 5pm
 
 Use case driven issues session ('We have issues'), ~1/2 day each
 
@@ -73,18 +73,27 @@ Format:
  3) introduce issue that needs work
  4) hands on development, and commit to file
 
+
+
+2. Tuesday 23rd - 9am to 12am and 1pm to 5pm
+
+* 9 am to 12 am: VO use case (Allen)
+* 1 pm to 5 pm: MGED use case (Jie)
+
+
 3. Wednesday 24th -  9am to 12 am and 1pm to 5pm 
 
-morning: 'We have issues'
+9 am to 12 am: IEDB use case (Bjoern)
 
-afternoon: Planning
+
+1pm to 5 pm: Planning
  - What is driving OBI post 1.0? 
  - Taking on new groups + use cases vs. tackling difficult bits of existing ones
  - Should we revise coordinator structure? 
 
 4. Thursday 25th - 9am to 12am and 1pm to 5pm
 
-morning + afternoon: 'We have issues'
+morning + afternoon: list of issues proposal
 
 ===Use Case===
 
