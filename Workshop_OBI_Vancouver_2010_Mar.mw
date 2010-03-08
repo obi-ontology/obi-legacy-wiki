@@ -96,7 +96,7 @@ morning + afternoon: list of issues proposal
 
 ===Use Case===
 
-* Use case: Immune Epitope Database export
+* Use case: Immune Epitope Database export (Bjoern)
  - Integrate IDO terms into OBI
  - Qualitative positive / negative measurements
  - tying epitope 'conclusions' to assay outcomes
@@ -106,7 +106,7 @@ The E-TABM-34 files have been used to demo several software including annotation
  - Integrate MO terms into OBI, and integrate terms used to annotate characteristics ie from other ontologies into OBI (mostly contained in EFO)
  - Annotate microarray experiments using OBI and further other kinds of experiments, such as Chip-seq and RNA-seq
 
-* Use case: Vaccine protection investigation This is an extension of the “vaccine protection investigation” use case introduced in the OBI JBMS paper. 
+* Use case: Vaccine protection investigation This is an extension of the “vaccine protection investigation” use case introduced in the OBI JBMS paper. (Allen)
  - Ontology modeling: This use case includes 18 parameters: (1) vaccine strain, (2) vaccine viability, (3) Addition of IL-12 as vaccine adjuvant, (4) Addition of SOD antigen, (5) gene deletion, (6) animal (host) species, (7) animal (host) strain, (8) animal (host) sex, (9) vaccination route, (10) vaccination dose, (11) animal age at vaccination, (12) pathogen strain for challenge, (13) challenge route, (14) challenge dose, (15) challenge time (e.g., interval after vaccination), (16) colony forming unit (CFU), (17) reduction of colony forming unit (CFU), and (18) Significance of vaccine protection (Three values: no protection, protection, enhanced protection). 
  - Instance data: We have collected ~160 instance data from the literature, which investigated the protection levels of several Brucella vaccines at different conditions (with different values of these 18 parameters). 
  - Hypothesis: Some parameters are more important than others in determining the result of the vaccine protection efficacy. 
@@ -114,10 +114,10 @@ The E-TABM-34 files have been used to demo several software including annotation
  - Issues for discussion: (1) How to model these parameters using OBI, IAO, and VO; (2) How to model the hypothesis, ANOVA test, and the statistical results using OBI; (3) How to use OBI/IAO to help statistical data analysis of instance data? (4) Possible extension of this study to other ontology-based statistical data analysis?
 
 
-* Use case: Coordinate future of BIRNLex-OBI proxy classes
+* Use case: Coordinate future of BIRNLex-OBI proxy classes (Fahim)
 We need to coordinate about the future of BIRNLex-OBI proxy classes (the tracker link that you sent contains the list) within NIFSTD. The NIF-Investigation module included those proxy classes few years back when OBI was yet to be stable. Those proxy classes were intended to be replaced by OBI equivalents later.  Now that we have OBI built off BFO 1.1, we need to align our progress. Now, OBI-Proxy classes were extended in NIF Investigation along with the addition of various MRI/DTI terms (coordination with Jessica Turner and Karl Helmer). Some portion of NIF-Investigation (extended from obi-proxy classes) would certainly be overlapping with current OBI.  As the original hierarchies of our proxy classes have been changed in OBI along with other changes (some of the classes became non-existent, and some of the class IDs seems to have changed in OBI), we need to be careful during the process of adapting the updated OBI.  Ideally I would think of importing OBI as a whole, given that the extended NIF classes are clearly separable with no overlaps (and OBI being comprised of only ‘universal’ bio-investigation terms with a generic hierarchy). Also, extracting a relevant portion of OBI using MIREOT approach can be an option. We need to reconcile this issue of BIRNlex-OBI proxy classes and need to come up with a good alignment approach between NIF-Investigation and the current version of OBI.
 
-* Use case: Modeling relationships between experimental variables ('Knowledge Engineering from Experimental Design'): applications within BIRN projects.
+* Use case: Modeling relationships between experimental variables ('Knowledge Engineering from Experimental Design'): applications within BIRN projects. (Jessica)
 
 The [https://wiki.birncommunity.org:8443/display/NEWBIRNCC/Knowledge+Engineering+WG BIRN Knowledge Engineering Working Group] is adopting an approach that can be thought of as a simplified projection of OBI's much larger scope (and we are seeking ways to interoperate with OBI as much as possible). We adopt a variable-centric view of modeling scientific experiments that is based on understanding the relationships between the independent, dependent and derived variables of a study. This model serves as the basis for several applications within BIRN-KEWG's overall activity, including tools for data integration across databases, the development of reasoning models within defined domains (such as neural connectivity) and tools for straightforward modeling of experimental design that can then serve as the basis for generic data repositories. We present two models formulated in this framework (which we would like to bring more closely into register with OBI): tract-tracing experiments involved in the study of neural connections and fMRI studies involving the Auditory Oddball Paradigm.
 
