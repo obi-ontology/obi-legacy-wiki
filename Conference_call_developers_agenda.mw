@@ -84,18 +84,24 @@ Chair: JM (swapped with HP)
 
 Chair: HP (swapped with JM)
 
+* Bjoern presents IEDB export use case
+
 '''March 10'''
 
 Chair: OH, Coord Call
 
 '''March 8'''
-
-* Bjoern presents IEDB export use case
-
-
-Chair: LSS
-
 * Oliver and Allen present Vaccine use case
+
+
+AI: we will map Vaccine parameters into existing OBI terms and come up with new ones if needed (we think most are covered). BP/PRS offered to help
+
+AI: OH will produce a design pattern for modelling anova with the parameters as inputs and outputs.
+
+Docs in svn: http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/developer/use cases/Vaccine_usercase_Vancouver2010.ppt?revision=2773
+
+All welcome to the VO call tomorrow which will continue this discussion: VO meeting at 11:00 am EST on Skype
+
 
 '''March 3'''
 
