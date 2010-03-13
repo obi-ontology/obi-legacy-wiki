@@ -125,6 +125,12 @@ Tract tracing experiments involve injecting minute quantities of tracer chemical
 
 The Auditory Oddball Cognitive Paradigm is a behavioral paradigm involving the presentation of standard and oddball tones, in which subjects respond behaviorally to the oddball tones. The difference between the physiological response to the standard and oddball tones is usually the dependent variable of interest.
 
+* Use case: Modeling relationships between research resources: the eagle-i project (Melissa & Carlo)
+
+The eagle-i consortium has the objective of developing a searchable network of research resources at research institutions nationwide. This project was funded in parallel and with the goal of interoperability with the Vivo project that will index people, their affiliations, publications, etc. We are developing an ontology for indexing and querying biomedical research entities, and this effort is being guided by discussions within the ontology community (http://RRontology.tk) aimed at promoting interoperability. We are utilizing a large set of use cases and queries to drive our ontology design.  
+
+There is a fair amount of overlap with OBI in that many of the “resources” that we are indexing play roles in biomedical investigation. However, one difference in usage is that we are not annotating data or experiments. We will be inventorying laboratories, services, instruments, reagents, organisms, persons, protocols, human studies (metadata), tissue/biological sample repositories and training opportunities. For discussion at the OBI meeting, we’d like to focus on three aspects, namely representation of organizations providing a service and service subtypes, the relationship between protocols, techniques and planned processes, and potential classification of instruments based on function or participation in planned processes.
+
 ===Issues Proposals===
 
 Add any item for discussion here
