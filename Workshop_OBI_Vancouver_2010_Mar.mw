@@ -166,6 +166,7 @@ Add any item for discussion here
 * chemical solution https://sourceforge.net/tracker/index.php?func=detail&aid=2890158&group_id=177891&atid=886178  some issues regarding how chemicals in solutions should relate to parts, especially to exclude a cell in mixture not inferring as a child of this. Also issue about using roles without tying to process
 * Evidence Codes: Assay and other OBI spin offs (such as proposed organization ontology ORG) - there is interest from people not at workshop so discussion summary should go to mailing list or possibly discussed on a call
 * Discuss further relationship between organizations and the entities they control.
+* Sham treatment
 
 ===Participants===
 
