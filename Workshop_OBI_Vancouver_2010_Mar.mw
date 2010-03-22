@@ -58,12 +58,11 @@ Eagle-i presentations will be placed in the OBI repository
 * 10.45 am - 12.15 am: Eagle-i use case<br>
 
 
-Proposal: "providing a service": a planned process executed by a service provider with the objective to enable a service consumer to achieve an objective
-
+Proposal (see obi.owl for final form): "providing a service": a planned process executed by a service provider with the objective to enable a service consumer to achieve an objective. Realizes some (is_concretization of some 'plan_specification') and ('inheres_in' some has_role some role)) and achieves_planned_objective some 'objective specification
 
 1.15pm to 5.30pm<br>
 
-* 1.10 - 1.15: ISMB 2010 Workshops Evidence Codes: Assay Tracking, ECO and 	OBI
+* 1.10 - 1.15: ISMB 2010 Workshops Evidence Codes: Assay Tracking, ECO and OBI
 * 1.15 - 1.45: NIF presentation. Fahim will introduce the NIF project and how it relates to OBI.<br>
 * 1.45 - 3.15: NIF use case<br>
 * 3.15 - 3.30: break
