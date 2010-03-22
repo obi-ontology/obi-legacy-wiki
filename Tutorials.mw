@@ -20,6 +20,7 @@ see http://obi-ontology.org/page/General_introduction#SVN
 
 A) Install latest Protege 3.4.1 version from 
 http://protege.stanford.edu/download/registered.html 
+Use only 3.4.1, other versions are buggy or have reasoning issues
 
 B) Install an svn client. For windows, we recommend 
 http://tortoisesvn.tigris.org/ for Mac try SmartSVN http://www.syntevo.com/smartsvn/index.html
@@ -27,20 +28,20 @@ http://tortoisesvn.tigris.org/ for Mac try SmartSVN http://www.syntevo.com/smart
 C) Using the svn client, check out 
 http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology 
 (If you want to commit changes back to the repository, you will need to use
-https: instead of http:, and will need a sourceforge password for obi.)
+https: instead of http:, and will need a sourceforge password for obi. Contact the project admins to do this - Alan Ruttenberg, Melanie Courtot are admins)
 
 D) Go to the directory: ontology\branches 
 
-*we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. These instructions have been updated
+*we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. These instructions have been updated accordingly
 
 download obi.owl, obi-edit.owl and the .template extension files. Rename the obi-edit.pprj.template file to obi-edit.pprj, and obi-edit.repository.template -> obi.edit.repository
 
 E) open the obi-edit.pprj file in protege 3.4.1
 (double clicking works on windows)
 
-This will give you access to the obi.owl merged file plus annotation assistance widgets. 
+This will give you access to the obi.owl merged file plus annotation assistance widgets. If you use the pprj and Protege 3.4.1 then the rdfs labels will display obi class names automatically. 
 
-You must select the obi.owl as the active ontology by clicking on the meta data tab, select obi.owl. If you don't do this edits will not propagate to the correct file obi.owl
+You must select the obi.owl as the active ontology by clicking on the meta data tab, select obi.owl. If you don't do this edits will not propagate to the correct file obi.owl and you'll be editing obi-edit.owl.
 
 Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file, pencil icon now should be active
 
@@ -48,17 +49,17 @@ When new classes are created, they will display as URLs in the class
 view until they are assigned an rdfs:label. Add the label as usual -
 rdfs:label should is listed in the annotation properties.
 
-F)If you are editing OBI we are now working with a merged file rather than a series of branch files therefore:
+F)If you are editing OBI we are now working with a merged file rather than a series of branch files(pre mid 2009) therefore:
 
 * You MUST edit in 3.4.1
 
-* Do an SVN update of your local repository prior to editing
+* Do an SVN update of your local repository prior to editing to ensure your files are updated
 
 * Send email to the devel list before checking out, after checking in
 
-* Keep edits short
+* Keep edits short, save and reason regularly.
 
-* launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can edit the obi.owl file in 3.4.1. - launch by clicking on obi.pprj - but you won't get the widget assistance. You want this, it's handy.
+* launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can also the obi.owl (not the obi-edit.owl) file in 3.4.1. - you won't get the widgets for annotation properties if you chose to edit this file. NOT recommended.
 
 ==Sourceforge==
 
