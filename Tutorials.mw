@@ -78,13 +78,13 @@ F)If you are editing OBI we are now working with a merged file rather than a ser
 
 The aim is to detect problems with the OWL file that cause OBI to reason slowly. Some use of axioms prevents this. The application described provides some support for detecting and visualising these cases and some usage examples are included here. It's bleeding edge, contact Alan for details on usage, or see the google doc link above.
 
-==Protege4==
+==Protege4 and reasoning==
 
-* Protege 3.4 is the recommended editor for OBI. However you may find that you are not able to classify OBI with its Pellet default reasoner. Instead using Protege 4 with the Pellet 2 reasoner is working. Do NOT edit with Protege 4, only view and classify the ontology. Edits must be made in 3.4. 
+* Protege 3.4.1 is the recommended editor for OBI. However you may find that you are not able to classify OBI with its Pellet default reasoner. Instead using Protege 4 with the Pellet 2 reasoner is working. Do NOT edit with Protege 4, only view and classify the ontology. Edits must be made in 3.4. As of March 2010 classifiication is working with 3.4.1 and Pellet 1.5.2. Should classification fail to complete please report to the obi-dev list
 
 * Installing Protege 4: choose the installer that "includes Java VM", and when the installer asks, choose to install a VM for protege rather than using the installed default.  
 
-* Opening OBI with protege 4. 
+* Opening OBI (DO NOT EDIT) with protege 4. 
 
 You cannot click on the .pprj file in this case. Instead check out OBI from the SVN to a local copy (see instructions above). We recommend you have a local sandbox directory so you can edit a local copy without accidentally checking back in your local copy to the OBI SVN. 
 
