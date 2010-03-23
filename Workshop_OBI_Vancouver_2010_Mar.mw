@@ -127,8 +127,14 @@ AI: NIF will move the example processes to a shareable document and will work th
 
 * 11 to 12.30 and 1.30 to 3.30 pm: VO use case (Allen)
 
-AI: Allen will place presentation in OBI svn<br>
-AI: Administration types added to OBI (e.g., oral, subcutaenous, subdermal)<br>
+
+We added administration types added to OBI (e.g., oral, subcutaenous, subdermal)<br>
+We worked on dose specification<br>
+
+AI: Allen will place VO presentation in OBI svn<br>
+ 
+AI: Allan R will give an example of time measurement data that measures the interval between two events such as vaccination and challenge. (report back at developer call April 28)
+
 
 * 3.30 pm to 5 pm: Planning
  - What is driving OBI post 1.0? 
