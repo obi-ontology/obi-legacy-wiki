@@ -77,6 +77,8 @@ rdfs:label should is listed in the annotation properties.
 
 * Once all the imports are local, you should find reasoning speed improved.
 
+[Screenshot of the Protege repository tab:http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png]
+
 ==Sourceforge==
 
 1. First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
