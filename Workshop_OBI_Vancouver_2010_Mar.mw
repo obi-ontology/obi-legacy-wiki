@@ -149,6 +149,11 @@ AI: Allan R will give an example of time measurement data that measures the inte
 
 Study design, protocol, and assay were reviewed in detail. Concern about fuzzy boundaries between assays and studies in terms of being able to make a distinction for some tricky boundary cases, including Bjoern's "efficacy of treatment assays". See Bjoen's IEDB slides for more details on this subject.<br>
 
+To resolve in vitro/in vivo Added "in live organism assay" and "in live cell assay" and "in container assay". Communities will be able to combine these as required for their own use cases<br>
+
+AI: Bjoern will put "Efficacy of treatment assay" and T-cell assay as a study design. This will done offline during the workshop<br>
+AI: 
+
 * 1.30 pm to 5 pm: MGED use case (Jie) 
 
 
