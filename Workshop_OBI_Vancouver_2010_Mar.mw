@@ -92,14 +92,10 @@ Ongoing: Fahim to join conference call, add new terms that work well within the 
 
 2. Tuesday 23rd
 
-
-
 During workshop some effort was spent on how to model scores within OBI<br>
 
 AI: Jessica - Report back with 5 examples developer of scales (e.g., Sledae score) and how to model in OBI based on initial model developed during workshop - April 26 developer call<br>
 AI: Jessica - How to represent levels of scale into what data transformation are allowed coordinated with James/ Allan - Report back on April 26 developer call<br>
-
-
 
 * 9 am to 9.30: BRO presentation (Trish/Dave)
 
@@ -151,11 +147,11 @@ Study design, protocol, and assay were reviewed in detail. Concern about fuzzy b
 
 To resolve in vitro/in vivo Added "in live organism assay" and "in live cell assay" and "in container assay". Communities will be able to combine these as required for their own use cases<br>
 
-AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM will work on a way to model community tags in OWL1
+AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM will work on a way to model community tags in OWL1/P3
 
 AI: Bjoern will put "Efficacy of treatment assay" and T-cell assay as a study design. This will done offline during the workshop<br>
 
-AI:
+AI: Bjoern will do Colony forming units for Allen and IEDB.
 
 * 1.30 pm to 5 pm: MGED use case (Jie) 
 
