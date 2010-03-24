@@ -15,7 +15,7 @@
 
 see http://obi-ontology.org/page/General_introduction#SVN
 
-==Checkout==
+==Checkout and set up Protege ==
 
 
 * Install latest Protege 3.4.1 version from 
@@ -72,6 +72,10 @@ rdfs:label should is listed in the annotation properties.
 * choose ontology repositories
 
 * Use the project tab and for each import point the path of the import to the local file you have checked out and force read only - you don't want to be editing imported ontologies.
+
+* click the + (plus) symbol, choose local folder, browse for the folder you need, and then force read  only
+
+* Once all the imports are local, you should find reasoning speed improved.
 
 ==Sourceforge==
 
