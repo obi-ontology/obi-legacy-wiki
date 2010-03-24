@@ -65,6 +65,8 @@ rdfs:label should is listed in the annotation properties.
 
 * As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files. 
 
+==Managing OBI's Imports==
+
 * OBI imports some external ontologies e.g. IAO and these are present in OBI svn - see \obi\trunk\src\ontology\external which you should have checked out - the files you need are .owl extensions in this directory and sub-directories
 
 * In protege 3.4.1 (described here for windows) go to OWL tab
@@ -77,7 +79,7 @@ rdfs:label should is listed in the annotation properties.
 
 * Once all the imports are local, you should find reasoning speed improved.
 
-[http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png - Screenshot of the Protege repository tab]
+[http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png - PC Screenshot of Protege repository tav]
 
 ==Sourceforge==
 
