@@ -151,8 +151,11 @@ Study design, protocol, and assay were reviewed in detail. Concern about fuzzy b
 
 To resolve in vitro/in vivo Added "in live organism assay" and "in live cell assay" and "in container assay". Communities will be able to combine these as required for their own use cases<br>
 
+AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM will work on a way to model community tags in OWL1
+
 AI: Bjoern will put "Efficacy of treatment assay" and T-cell assay as a study design. This will done offline during the workshop<br>
-AI: 
+
+AI:
 
 * 1.30 pm to 5 pm: MGED use case (Jie) 
 
