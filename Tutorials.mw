@@ -59,6 +59,8 @@ F)If you are editing OBI we are now working with a merged file rather than a ser
 
 * Keep edits short, save and reason regularly.
 
+* OBI imports several ontologies, you can find these in svn at: 
+
 * launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can also the obi.owl (not the obi-edit.owl) file in 3.4.1. - you won't get the widgets for annotation properties if you chose to edit this file. NOT recommended.
 
 ==Sourceforge==
