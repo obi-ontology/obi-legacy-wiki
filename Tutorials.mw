@@ -74,8 +74,9 @@ F)If you are editing OBI we are now working with a merged file rather than a ser
 
 ==Reasoning==
 
-Use Protege 3.4.1 and Pellet 1.5.2 as standard. If reasoning fails with these try 4, or 
-try the development version java application. In general over-use of axioms and over-modelling will slow reasoning down, so decide if these are really necessary e.g there is a use case. If the pattern has been used already elsewhere then there is a good chance reasoning will be OK. It's a good idea to compare reasoning times before and after editing.
+* Use Protege 3.4.1 and Pellet 1.5.2 as standard. 
+
+If reasoning fails with these try 4, or try the development version java application. In general over-use of axioms and over-modelling will slow reasoning down, so decide if these are really necessary e.g there is a use case. If the pattern has been used already elsewhere then there is a good chance reasoning will be OK. It's a good idea to compare reasoning times before and after editing.
 
 
  [http://docs.google.com/View?id=dzprnmw_71chch6pfk google doc explaining a diagnotics application]
