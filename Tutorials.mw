@@ -63,6 +63,23 @@ F)If you are editing OBI we are now working with a merged file rather than a ser
 
 * launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can also the obi.owl (not the obi-edit.owl) file in 3.4.1. - you won't get the widgets for annotation properties if you chose to edit this file. NOT recommended.
 
+* As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files. 
+
+* OBI imports some external ontologies e.g. IAO and these are present in OBI svn - see \obi\trunk\src\ontology\external which you should have checked out - the files you need are .owl extensions in this directory and sub-directories
+
+* In protege 3.4.1 (described here for windows) go to OWL tab
+
+* choose ontology repositories
+
+* Use the project tab and for each import point the path of the import to the local file you have checked out and force read only - you don't want to be editing imported ontologies - these are edited elsewhere. 
+
+*   
+
+
+
+
+*
+
 ==Sourceforge==
 
 1. First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
