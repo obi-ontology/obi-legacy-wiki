@@ -1,0 +1,4 @@
+Forms of OBI that we want. 
+
+- An inferred hierarchy with definitions and alternative terms, but without logical definitions, so that we tools that need to let people only select OBI terms could easily do that without having to reason over OBI.
+-
