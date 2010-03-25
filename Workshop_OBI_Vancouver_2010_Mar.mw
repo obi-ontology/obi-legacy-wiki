@@ -228,7 +228,11 @@ Add any item for discussion here
 
 * Would be good to discuss OBI packaging options - different distributions of OBI for different purposes. Slims. Modules. etc.
 
-Reasoner issues seem to indicate a need for packaging. 
+Reasoner issues seem to indicate a need for packaging. A version without logical conditions would help here. A package without immunological terms for those working on cardiology. One without change tracking. One with inferred hierarchy. OBO version. What are the other types required?<br>
+This also relates to release cycle. 
+
+
+
 
 AI: Allan/Bjoern/Jie team needs to be present to discuss, add to developer call agenda
 
