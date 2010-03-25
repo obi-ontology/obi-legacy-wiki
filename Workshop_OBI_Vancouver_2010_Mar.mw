@@ -245,6 +245,10 @@ AI: Eagle-i & NIF are going to add to a branched obi.owl and present their resul
 AI: need Allan, postponed 
 * role hierarchy: for example we have role of being first subject treated, to be treated with active ingredient role, to be treated with placebo role but treated role obsolete.
 
+Helen led working  through some tracker items, see tracker for details, some notes below. <br>
+AI: Adding restriction to material_sampling (HP will try to resolve offline and report back April 28)<br>
+AI: reference substance role will be fixed by HP according to tracker notes<br> (April 28)
+AI: Reagent role is deferred will decision what a device/reagent is
 
 * release issue: regular release of OBI? monthly, bi-monthly?
 * instrument/device: We obsolete instrument and device for adding more specific classes such as measurement device. We need other kind of device/instrument to cover micro electrode, microarray wash station, syringe, etc.
