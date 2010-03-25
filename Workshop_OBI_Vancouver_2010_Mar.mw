@@ -223,6 +223,7 @@ There is a fair amount of overlap with OBI in that many of the “resources” t
 Add any item for discussion here
 
 * Would be good to discuss OBI packaging options - different distributions of OBI for different purposes. Slims. Modules. etc.
+* clean-up defined classes + follow/formulate policy
 * Adding terms: new files, main file?
 * Handling convenience classes (e.g. specimen, material to be added): should they be marked, moved out of main file?
 * role hierarchy: for example we have role of being first subject treated, to be treated with active ingredient role, to be treated with placebo role but treated role obsolete.
