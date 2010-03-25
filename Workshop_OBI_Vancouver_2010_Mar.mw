@@ -247,6 +247,8 @@ AI: Eagle-i & NIF are going to add to a branched obi.owl and present their resul
 AI: need Allan, postponed 
 * role hierarchy: for example we have role of being first subject treated, to be treated with active ingredient role, to be treated with placebo role but treated role obsolete.
 
+AI: Articulate single inheritance hierarchy below convenience classes with initially trying to make all such children have necessary and sufficient branches. This will allow us to have Aristolean definitions in these single inheritance. BP will report back on BP's birthday May 18.
+
 Helen led working  through some tracker items, see tracker for details, some notes below. <br>
 AI: Adding restriction to material_sampling (HP will try to resolve offline and report back April 28)<br>
 AI: reference substance role will be fixed by HP according to tracker notes<br> (April 28)
