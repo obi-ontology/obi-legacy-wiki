@@ -1,4 +1,15 @@
 Forms of OBI that we want. 
 
 - An inferred hierarchy with definitions and alternative terms, but without logical definitions, so that we tools that need to let people only select OBI terms could easily do that without having to reason over OBI.
--
+
+- Ability to make "slims". Proposed implementation is an annotation property with a list of tags with flags. core| means core subset and include all terms up to root also. immunology+ means immunology subset and include all terms below (including inferred). Can use +| together. core- means don't include this term in core. +i, -i to include or not include instances.
+
+- Slims could include logical defs or not. If not we're good. If we do, then what about terms mentioned in logical defs? - this is harder. (can drop any logical def that uses a term not in subset?). James to check status of modularity software.
+
+- An slim upper level ontology for biomedical investigations, for educational purposes. 
+
+- OBO version with at least inferred hierarchy and definitions. Until real OBO->OWL translator is released might not have logical defs. Minimal create for releases. Nice to have: get for current development version.
+
+- Distribution without instances (that are not used in a logical def?)
+ 
+- Priorities: 1) Version without logical defs 2) OBO 3) Educational version 4) general mechanism.
