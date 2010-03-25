@@ -229,16 +229,14 @@ Add any item for discussion here
 * Would be good to discuss OBI packaging options - different distributions of OBI for different purposes. Slims. Modules. etc.
 
 Reasoner issues seem to indicate a need for packaging. A version without logical conditions would help here. A package without immunological terms for those working on cardiology. One without change tracking. One with inferred hierarchy. OBO version. What are the other types required?<br>
-This also relates to release cycle. Allan has created a wiki page to outline proposal
-
+This also relates to release cycle. Allan has created a wiki page to outline proposal.
 
 AI: James has student who will test slim and logical/slim and report back September 30
 
-AI: Allan/Bjoern/Jie team needs to be present to discuss, add to developer call agenda
 
 * clean-up defined classes + follow/formulate policy
 
-AI: Postponed to developer call with Allan
+
 
 * How to add terms: new files, main file?
 
