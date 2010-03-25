@@ -34,7 +34,7 @@ https: instead of http:, and will need a sourceforge password for obi. Contact t
 
 * we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. These instructions have been updated accordingly
 
-* download obi.owl, obi-edit.owl and the .template extension files. Rename the obi-edit.pprj.template file to obi-edit.pprj, and obi-edit.repository.template -> obi.edit.repository
+* download obi.owl, obi-edit.owl and the .template extension files. Rename the obi-edit.pprj.template file to obi-edit.pprj, and obi-edit.repository.template -> obi-edit.repository
 
 * open the obi-edit.pprj file in protege 3.4.1
 (double clicking works on windows)
@@ -63,7 +63,7 @@ rdfs:label should is listed in the annotation properties.
 
 * launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can also the obi.owl (not the obi-edit.owl) file in 3.4.1. - you won't get the widgets for annotation properties if you chose to edit this file. NOT recommended.
 
-* As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files. 
+* As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files.
 
 ==Managing OBI's Imports==
 
