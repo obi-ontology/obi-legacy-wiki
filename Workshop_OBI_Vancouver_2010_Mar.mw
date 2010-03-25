@@ -227,10 +227,25 @@ There is a fair amount of overlap with OBI in that many of the “resources” t
 Add any item for discussion here
 
 * Would be good to discuss OBI packaging options - different distributions of OBI for different purposes. Slims. Modules. etc.
+
+Reasoner issues seem to indicate a need for packaging. 
+
+AI: Allan/Bjoern/Jie team needs to be present to discuss, add to developer call agenda
+
 * clean-up defined classes + follow/formulate policy
-* Adding terms: new files, main file?
-* Handling convenience classes (e.g. specimen, material to be added): should they be marked, moved out of main file?
+
+AI: Postponed to developer call with Allan
+
+* How to add terms: new files, main file?
+
+AI: Eagle-i & NIF are going to add to a branched obi.owl and present their results at a appropriate devel call and then the changes will be merged
+
+* Handling convenience classes (e.g., specimen, material to be added): should they be marked, moved out of main file?
+
+AI: need Allan, postponed 
 * role hierarchy: for example we have role of being first subject treated, to be treated with active ingredient role, to be treated with placebo role but treated role obsolete.
+
+
 * release issue: regular release of OBI? monthly, bi-monthly?
 * instrument/device: We obsolete instrument and device for adding more specific classes such as measurement device. We need other kind of device/instrument to cover micro electrode, microarray wash station, syringe, etc.
 * who would take care of instrument in general? e.g. https://sourceforge.net/tracker/?func=detail&aid=2887868&group_id=177891&atid=886178, or https://sourceforge.net/tracker/?func=detail&aid=2855265&group_id=177891&atid=886178
