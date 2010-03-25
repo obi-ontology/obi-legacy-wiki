@@ -147,7 +147,7 @@ Study design, protocol, and assay were reviewed in detail. Concern about fuzzy b
 
 To resolve in vitro/in vivo Added "in live organism assay" and "in live cell assay" and "in container assay". Communities will be able to combine these as required for their own use cases<br>
 
-AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM will work on a way to model community tags in OWL1/P3
+AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM  worked on a way to model community tags in OWL1/P3: This second approach doesn't work so we need OWL2/P4 (AI for AR to test as that becomes available)
 
 AI: Bjoern will put "Efficacy of treatment assay" and T-cell assay as a study design. This will done offline during the workshop<br>
 AI: Bjoern will do Colony forming units for Allen and IEDB.<br>
@@ -155,27 +155,31 @@ AI: Bjoern will do Colony forming units for Allen and IEDB.<br>
 
 *OBI paper
 
-Based on the time and effort required to get NBT paper in the shape required by reviewers the workshop proposal is to go back to NBT saying that this is crucial for us to get this published at this point and we are not going to address their killer use case due to production issues. They may agree to publish, if not Bioinformatics would be the selected alternative choice. 
+Based on the time and effort required to get NBT paper in the shape required by reviewers, the workshop proposal is to go back to NBT saying that it is crucial for us to get this published at this point and we are not going to address their killer use case due to production issues. They may agree to publish, if not Bioinformatics would be the selected alternative choice. 
 
-AI: Bjoern will make a wiki vote page for this proposal (March 28)
+AI: Bjoern will contact NBT, and based on discussions make a wiki vote page for this proposal (March 28)
 
 * What is driving OBI
 
-Implementation (what and how), adding lots of new terms, what are blockers to having people adopt so that we can fix these?<br>
+Implementations (what and how), adding lots of new terms, what are blockers to having people adopt so that we can fix these?<br>
 
-AI: Every community representative is to provide implementation details for next year to be provided by next coordinator call
+AI: Every community representative is to provide implementation details for next year to be provided by next coordinator call.
 
 * New groups
 
-NIF, ECO have stepped up and have joined calls. The door is now open for others to join calls and there is no restriction any more
+NIF, ECO have stepped up and have joined calls. The door is now open for others to join calls and there is no restriction any more as there have in the past due to time constraints on OBI's side
 
 *OBI Coord structure
 
-AI: Bjoern will submit the following proposal for a vote & discussion on on the next coord call: Remove Coordinating group/developer distinction in OBI, only have "Contributors". These will self-identify to a community, and if they are able to speak for that community as to official policy. List of members will have "active flag" for current calendar year, as to if they are currently participating in OBI (e.g., we  would track this no for 2010, then next year switch that to 2011) Votes will be by simple majority after 2 weeks. 
+AI: Bjoern will submit the following proposal for a vote & discussion on on the next coord call: Remove Coordinating group/developer distinction in OBI, only have "Contributors". These will self-identify to a community, and if they are able to speak for that community as to official policy. List of members will have "active flag" for current calendar year, as to if they are currently participating in OBI (e.g., we  would track this no for 2010, then next year switch that to 2011) Votes will decided be by simple majority after 2 weeks. 
+
+AI: Clean up the website communities as part of this process, once a way forward has been decided
 
 * 1.30 pm to 5 pm: MGED use case (Jie) 
 
-* 4pm OBI editing tutorial HP - see notes http://obi-ontology.org/page/Tutorials
+AI: Jie will add some terms through MIEROT and has a pattern for doing so (report back on a call April 28)
+
+* 4pm OBI editing tutorial HP - see updated notes http://obi-ontology.org/page/Tutorials
 
 ====4. Thursday 25th - 9am to 12.30 and 1.30 pm to 5pm====
 
