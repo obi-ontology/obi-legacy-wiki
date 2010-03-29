@@ -50,14 +50,14 @@ Will not be available. Sorry.
 
 Bjoern presented the OBI overview available in the OBI repository
 
-* 10 am: Eagle-i presentation. (slides in svn) <br>
+* 10 am: [http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/presentations/OBI%20workshop%20March%202010%20Vancouver/eagle-i_intro.pptx Eagle-i presentation]. (slides in svn) <br>
 
 Eagle-i presentations will be placed in the OBI repository
 
 * 10.30 am: break<br>
-* 10.45 am - 12.15 am: Eagle-i use case<br>
+* 10.45 am - 12.15 am: [http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/presentations/OBI%20workshop%20March%202010%20Vancouver/eagle-i_use_cases.pptx Eagle-i use case]<br>
 
-All slides are in docs/presentation/Obi workshop March 2010 Vancouver
+All slides are in [http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/presentations/OBI%20workshop%20March%202010%20Vancouver/ docs/presentation/Obi workshop March 2010 Vancouver]
 
 Proposal (in obi.owl for draft + tracker items): "providing a service": a planned process executed by a service provider with the objective to enable a service consumer to achieve an objective. Realizes some (is_concretization of some 'plan_specification') and ('inheres_in' some has_role some role)) and achieves_planned_objective some 'objective specification
 
@@ -87,8 +87,8 @@ AI: Eagle-i/NIF will work with Helen over the next several days on how to edit o
 Ongoing: Fahim to join conference call, add new terms that work well within the hierarchy into separate file to be first imported for verification and merged into OBI. After that tackle old terms to be modified. 
 
 * 3.15 - 3.30: break
-* 3.30 - 4.00: BIRN presentation by Jessica.
-* 4.00 - 5.30: BIRN use case
+* 3.30 - 4.00: [http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/presentations/OBI%20workshop%20March%202010%20Vancouver/Turner-OBITalk2010.pdf BIRN presentation] by Jessica.
+* 4.00 - 5.30: [http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/presentations/OBI%20workshop%20March%202010%20Vancouver/Turner-OBITalk2010.pdf BIRN use case]
 
 ====2. Tuesday 23rd====
 
