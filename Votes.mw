@@ -1,5 +1,23 @@
 This page is created for the developers of OBI whenever there is a need to vote over action items or any other topic related to OBI. This page only shows current votes, check the [[votes_results | results votes page]] for decisions on past votes.
 
+* OBI manuscript plan: 
+
+
+Proposal: 
+
+We will inform Nature Biotech that we can address all comments, but adding a use case that demonstrates end-user usefulness of OBI will be best feasible only when OBI implementations are in use. We will document that several such implementations are ongoing, but that it can take another year until they are fully available in production. We will state that we need a more technical documentation of use cases like we have it in the current paper published at this point, and that we could submit a more high level "usefulness of the OBI ontology" paper to Nature Biotech later. There are two possible responses by the editors: 1) "OK, get back to me once you write the second paper". In which case we will take the first paper as it currently is, address reviewers comments except those asking for major new use cases, and submit it to Bioinformatics (or a similar journal interested in technical accuracy). 2) "In that case I would consider publishing it without a new use case" - In which case I would be very surprised and happy. 
+
+For the above proposal
+
+BP
+
+Against the above proposal
+
+
+
+
+* Previous Vote, on hold until the above is completed: 
+
 We need a decision on what use case to work on to demonstrate usefulness of OBI. Two proposals exist:
 
 1) Export data from different resources (e.g. IEDB, MAGE-TAB files, ...) into OWL instances, and then perform a cross resource query in OWL. 
