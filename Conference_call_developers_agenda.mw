@@ -58,6 +58,12 @@ Chair: PRS
 '''April 7'''
 
 Chair: JF
+Discussion of Oliver's vaccine use case, in particular the link between data from assay, data in a dataset and ANOVA.
+ANOVA design: input is (measurement) data and grouping data, ANOVA test carries out statistical analysis, and produces results (possibly a data set of features; possibly a test of hypothesis (null or experimental))
+The input data is the dependent variable, the grouping data are independent variable(s).
+The ANOVA tests the null hypothesis, which is diferent from hypothesis in general; Larissa is writing a paper about hypothesis and will distribute once ready.
+Larissa also points out ontoDM. ANOVA is one of DM methods in ontoDM. 
+
 
 '''April 5'''
 
