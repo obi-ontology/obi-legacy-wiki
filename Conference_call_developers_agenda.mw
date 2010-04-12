@@ -53,7 +53,31 @@ Agenda: Modification of OBI organizing structure (see email from BP on 3/30)
 
 '''April 12'''
 
-Chair: PRS
+Chair: JF
+
+Yongqun He,Jie Zheng, Carlo Torniai, Jennifer Fostel, Jessica Turner, Allen, Alan Rutenberg attending
+
+In Oliver's use case we identified:
+
+(A) Study Design specifies the independent variables (correspond to experimental factors)
+In use case, these include strain, vaccine type, pathogen, age, etc.
+This corresponds to experimental (textual) hypothesis "I think that age, pathogen, vaccine type, etc. will impact vaccine protection."
+
+(B) The Study Design Execution includes:
+(1) planned process - curation of literature
+ in use case this means (a) identify corpus of papers, (b) read the papers and (c) collect data: quantification of qualities (e.g. age, strain) + measurements (e.g. CFU reduction)
+(2) data transformation - discretization  (convert e.g. continuous ages into "young" and "old" categories)
+(3) select a subset of experimental factors to test using statistical hypothesis test such as ANOVA, predictive model, etc.
+		specify this subset in process
+(4) receive p_values for each experimental factor tested as output from statistical test
+(5) interpret to support / refute hypothesis
+
+add data transformation "discretization process" to tracker
+specified input = continuous data
+specified output = categorical/nominal data
+objective = convert continuous data to categorical / nominal data
+
+we plan to add to agenda for next call
 
 '''April 7'''
 
