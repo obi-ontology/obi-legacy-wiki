@@ -1,5 +1,74 @@
 ==The Spring 2010 workshop will be March 22-25, 2010, in Vancouver==
 
+
+==Summary of Action items and owners ==
+
+extracted from page below
+
+
+AI: Eagle-i to continue work on this in separate file, and present on OBI call Eagle-i to join developer call
+
+AI: Richard will send OBO Foundry review to ECO as a means of introduction and invite them to a meeting. AI: Richard to contact Philippe to present internally to obi pre-meeting.
+
+AI: Fahim will identify Data Transformation related terms and coordinate with James to get those into OBI.
+
+AI: Fahim will identify a NIF representative to add/edit the obi.owl file with data transformation terms.
+
+AI: Eagle-i/NIF will work with Helen over the next several days on how to edit obi.owl DONE
+
+AI: Jessica - Report back with 5 examples developer of scales (e.g., Sledae score) and how to model in OBI based on initial model developed during workshop - April 26 developer call
+
+AI: Jessica - How to represent levels of scale into what data transformation are allowed coordinated with James/ Allan - Report back on April 26 developer call
+
+AI: Trish will ensure BRO presentation will be put in OBI svn (March 28)
+
+AI: Melissa have identified instruments to be submitted to OBI on behalf of BRO (March 23)
+
+AI: Trish and Dave will coordinate with their groups to make OBI requests for terms (especially instruments) (Report back on OBI call April 30)
+
+AI: NIF to provide link to instrumentation doc (March 24)
+
+AI: NIF will move the example processes to a shareable document and will work through the remaining list of ~95 instruments based on the results of the modelling done by Bjoern during the meeting (April 28)
+
+AI: Allen will place VO presentation in OBI svn
+
+AI: Allan R will give an example of time measurement data that measures the interval between two events such as vaccination and challenge. (report back at developer call April 28)
+
+AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM worked on a way to model community tags in OWL1/P3: This second approach doesn't work so we need OWL2/P4 (AI for AR to test as that becomes available)
+
+AI: Bjoern will put "Efficacy of treatment assay" and T-cell assay as a study design. This will done offline during the workshop
+
+AI: Bjoern will do Colony forming units for Allen and IEDB.
+
+AI: Bjoern will contact NBT, and based on discussions make a wiki vote page for this proposal (March 28)
+
+AI: Every community representative is to provide implementation details for next year to be provided by next coordinator call.
+
+AI: Bjoern will submit the following proposal for a vote & discussion on on the next coord call: Remove Coordinating group/developer distinction in OBI, only have "Contributors". These will self-identify to a community, and if they are able to speak for that community as to official policy. List of members will have "active flag" for current calendar year, as to if they are currently participating in OBI (e.g., we would track this no for 2010, then next year switch that to 2011) Votes will decided be by simple majority after 2 weeks.
+
+AI: Clean up the website communities as part of this process, once a way forward has been decided
+
+AI: Jie will add some terms through MIEROT and has a pattern for doing so (report back on a call April 28)
+
+AI: James has student who will test slim and logical/slim and report back September 30
+
+AI: Eagle-i & NIF are going to add to a branched obi.owl and present their results at a appropriate devel call and then the changes will be merged
+
+AI: need Allan, postponed
+
+AI: Articulate single inheritance hierarchy below convenience classes with initially trying to make all such children have necessary and sufficient branches. This will allow us to have Aristolean definitions in these single inheritance. BP will report back on BP's birthday May 18.
+
+AI: Adding restriction to material_sampling (HP will try to resolve offline and report back April 28)
+
+AI: reference substance role will be fixed by HP according to tracker notes
+
+(April 28) AI: Reagent role is deferred will decision what a device/reagent is
+
+AI: Review tracker items for items to 9 for release, as fixed by HP during meeting to be fixed before releases to be reviewed during calls
+
+AI: Add level 9 items are required (All) AI: There will be a Vancouver2010 release by Jie once these items are fixed
+
+
 ===Access===
 You can take a taxi from YVR airport (around 25-30$CAN) or use the new Skytrain line: http://www.translink.ca/en/Rider-Info/Canada-Line.aspx (around 8$CAN). 
 
