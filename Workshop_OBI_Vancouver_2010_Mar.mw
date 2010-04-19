@@ -8,7 +8,7 @@ extracted from page below
 
 AI: Eagle-i to continue work on this in separate file, and present on OBI call Eagle-i to join developer call
 
-AI: Richard will send OBO Foundry review to ECO as a means of introduction and invite them to a meeting. AI: Richard to contact Philippe to present internally to obi pre-meeting.
+AI: Richard will send OBO Foundry review to ECO as a means of introduction and invite them to a meeting. AI: Richard to contact Philippe to present internally to obi pre-meeting. - DONE
 
 AI: Fahim will identify Data Transformation related terms and coordinate with James to get those into OBI.
 
@@ -16,19 +16,21 @@ AI: Fahim will identify a NIF representative to add/edit the obi.owl file with d
 
 AI: Eagle-i/NIF will work with Helen over the next several days on how to edit obi.owl DONE
 
-AI: Jessica - Report back with 5 examples developer of scales (e.g., Sledae score) and how to model in OBI based on initial model developed during workshop - April 26 developer call
+AI: Jessica - Report back with 5 examples developer of scales (e.g., Sledae score) and how to model in OBI based on initial model developed during workshop - April 26 developer call IN PROGRESS
 
-AI: Jessica - How to represent levels of scale into what data transformation are allowed coordinated with James/ Allan - Report back on April 26 developer call
+AI: Jessica - How to represent levels of scale into what data transformation are allowed coordinated with James/ Allan - Report back on April 26 developer call IN PROGRESS
 
-AI: Trish will ensure BRO presentation will be put in OBI svn (March 28)
+AI: Trish will ensure BRO presentation will be put in OBI svn (March 28) - check
 
 AI: Melissa have identified instruments to be submitted to OBI on behalf of BRO (March 23)
+- s/sheet circulating for this
 
 AI: Trish and Dave will coordinate with their groups to make OBI requests for terms (especially instruments) (Report back on OBI call April 30)
+- remind Trish add to agenda
 
-AI: NIF to provide link to instrumentation doc (March 24)
+AI: NIF to provide link to instrumentation doc (March 24) - DONE
 
-AI: NIF will move the example processes to a shareable document and will work through the remaining list of ~95 instruments based on the results of the modelling done by Bjoern during the meeting (April 28)
+AI: NIF will move the example processes to a shareable document and will work through the remaining list of ~95 instruments based on the results of the modelling done by Bjoern during the meeting (April 28)   - adding functions for the instruments and wil try and develop a branch for this for inclusion in OBI. Done by 26 April. 
 
 AI: Allen will place VO presentation in OBI svn
 
