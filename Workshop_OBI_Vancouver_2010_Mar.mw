@@ -30,43 +30,53 @@ AI: Trish and Dave will coordinate with their groups to make OBI requests for te
 
 AI: NIF to provide link to instrumentation doc (March 24) - DONE
 
-AI: NIF will move the example processes to a shareable document and will work through the remaining list of ~95 instruments based on the results of the modelling done by Bjoern during the meeting (April 28)   - adding functions for the instruments and wil try and develop a branch for this for inclusion in OBI. Done by 26 April. 
+AI: NIF will move the example processes to a shareable document and will work through the remaining list of ~95 instruments based on the results of the modelling done by Bjoern during the meeting (April 28)   - adding functions for the instruments and wil try and develop a branch for this for inclusion in OBI. Done by 26 April. IN PROGRESS
 
-AI: Allen will place VO presentation in OBI svn
+AI: Allen will place VO presentation in OBI svn  - Hp will check.
 
-AI: Allan R will give an example of time measurement data that measures the interval between two events such as vaccination and challenge. (report back at developer call April 28)
 
-AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM worked on a way to model community tags in OWL1/P3: This second approach doesn't work so we need OWL2/P4 (AI for AR to test as that becomes available)
+AI: Alan R will give an example of time measurement data that measures the interval between two events such as vaccination and challenge. (report back at developer call April 28) - HP will add to agenda
 
-AI: Bjoern will put "Efficacy of treatment assay" and T-cell assay as a study design. This will done offline during the workshop
+AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM worked on a way to model community tags in OWL1/P3: This second approach doesn't work so we need OWL2/P4 (AI for AR to test as that becomes available) - James tested in OWL1/P3 - so can only be done in P4/OWL 2.
+
+AI: Bjoern will put "Efficacy of treatment assay" and T-cell assay as a study design. This will done offline during the workshop - NOT DONE. HP will add a tracker item.
+
 
 AI: Bjoern will do Colony forming units for Allen and IEDB.
 
-AI: Bjoern will contact NBT, and based on discussions make a wiki vote page for this proposal (March 28)
+NOT DONE - HP will remind Bjoern and add a tracker item. - Jie has added CFU per volume into OBI, check if these are present.
 
-AI: Every community representative is to provide implementation details for next year to be provided by next coordinator call.
+AI: Bjoern will contact NBT, and based on discussions make a wiki vote page for this proposal (March 28) follow up on April 28 when Bjoern is back
+
+AI: Every community representative is to provide implementation details for next year to be provided by next coordinator call - TO DO. Make a wiki page for this. May be a pre-existing google doc? PRS will send link  http://docs.google.com/Doc?docid=0AaEXoAK_iKrtZGhnbXQ1azZfMjE0ZnhjeDlyY2I&hl=en - 
 
 AI: Bjoern will submit the following proposal for a vote & discussion on on the next coord call: Remove Coordinating group/developer distinction in OBI, only have "Contributors". These will self-identify to a community, and if they are able to speak for that community as to official policy. List of members will have "active flag" for current calendar year, as to if they are currently participating in OBI (e.g., we would track this no for 2010, then next year switch that to 2011) Votes will decided be by simple majority after 2 weeks.
 
+IN PROGRESS
+
 AI: Clean up the website communities as part of this process, once a way forward has been decided
 
-AI: Jie will add some terms through MIEROT and has a pattern for doing so (report back on a call April 28)
+NOT DONE
+
+AI: Jie will add some terms for experimental design type through MIEROT and has a pattern for doing so (report back on a call April 28) IN PROGRESS 
 
 AI: James has student who will test slim and logical/slim and report back September 30
 
+NOT DONE
+
 AI: Eagle-i & NIF are going to add to a branched obi.owl and present their results at a appropriate devel call and then the changes will be merged
 
-AI: need Allan, postponed
+IN PROGRESS
 
-AI: Articulate single inheritance hierarchy below convenience classes with initially trying to make all such children have necessary and sufficient branches. This will allow us to have Aristolean definitions in these single inheritance. BP will report back on BP's birthday May 18.
+AI: (Devices?) Articulate single inheritance hierarchy below convenience classes with initially trying to make all such children have necessary and sufficient branches. This will allow us to have Aristolean definitions in these single inheritance. BP will report back on BP's birthday May 18.
 
-AI: Adding restriction to material_sampling (HP will try to resolve offline and report back April 28)
+AI: Adding restriction to material_sampling (HP will try to resolve offline and report back April 28)  - NO IDEA, read notes and return to this. 
 
-AI: reference substance role will be fixed by HP according to tracker notes
+AI: reference substance role will be fixed by HP according to tracker notes - NOT DONE check notes
 
-(April 28) AI: Reagent role is deferred will decision what a device/reagent is
+(April 28) AI: Reagent role is deferred will decision what a device/reagent is - NOT DONE
 
-AI: Review tracker items for items to 9 for release, as fixed by HP during meeting to be fixed before releases to be reviewed during calls
+AI: Review tracker items for items to 9 for release, as fixed by HP during meeting to be fixed before releases to be reviewed during calls 
 
 AI: Add level 9 items are required (All) AI: There will be a Vancouver2010 release by Jie once these items are fixed
 
