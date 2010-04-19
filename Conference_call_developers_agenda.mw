@@ -55,7 +55,38 @@ Chair: Jennifer Fostel
 
 '''April 26'''
 
-Chair: James Malone
+Chair: James Malone (backup Jennifer)
+
+
+1. We reviewed the AI from the Vancouver workshop - see summary here
+
+http://obi-ontology.org/page/Workshop_OBI_Vancouver_2010_Mar#Summary_of_Action_items_and_owners
+
+2. We started to work through the tracker items rated 9. Edited items 
+commented in wiki, file to be checked back in shortly
+
+3. Work in progress
+
+AI: need a function for all the devices which currently don't have 
+logical defs - HP will do a quick pass and make sure what we have to 
+date makes sense. CT will report later on Eagle-i progress with this 
+pattern. Discussion on electrically powered device not being fine 
+grained for use - everything can be maded electrical by hooking it up to 
+a motor.
+
+AI: JZ will start implementation page for groups using obi and email 
+when she is done to deal with AI from Vancouver, suggestion to cross 
+link to reviewer comments google doc
+
+AI:JT and AR have been working offline on handedness assays and scales 
+for measuring same check in IAO handedness and  comment tracker item 
+https://sourceforge.net/tracker/?func=detail&aid=2975333&group_id=177891&atid=886178
+
+AI: re services and training in OBI - ask AR to update relevant ticket 
+with the design pattern in progress when ready
+
+Weds chair is James, he may not make it due to volanic ash, Jennifer 
+will be the backup.
 
 '''April 21'''
 
