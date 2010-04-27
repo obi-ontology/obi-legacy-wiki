@@ -1,0 +1,41 @@
+Implementation details of projects using OBI
+
+* Eagle-i - http://www.eagle-i.org/home
+
+(Contact Person: Melissa Haendel, Carlo Torniai)
+  - instruments
+  - services
+	
+* Neuroscience Information Framework (NIF) - http://nif.nih.gov/
+
+(Contact Person: Fahim Imam)
+  - Built based on OBI (old version)	
+  - Data transformation
+	
+* Biomedical Informatics Research Network (BIRN) - http://www.birncommunity.org/
+
+(Contact Person: Jessica Turner)
+	- scalar data
+	
+The Immune Epitope Database (IEDB) (Bjoern Peters)
+http://www.immuneepitope.org/
+	-assay
+
+Biomedical Resource Ontology (BRO) (Trish Whetzel, Dave Rubenson)
+http://bioportal.bioontology.org/ontologies/39002
+	- instruments
+
+Vaccine Investigation and OnLine Information Network (VIOLIN) (Oliver He, Zuoshuang "Allen" Xiang)
+http://www.violinet.org/index.php
+	- independent/dependent variables, statistical analysis (ANOVA)
+
+ArrayExpress and other microarray experiments database(Helen Parkinson, James Malone, Jie Zheng, Chris Stoekert)
+
+
+
+
+Comments and responses on NBT paper<br>
+http://docs.google.com/Doc?docid=0AaEXoAK_iKrtZGhnbXQ1azZfMjE0ZnhjeDlyY2I&hl=en&pli=1
+
+[[category:OBI general]]
+[[category:Wiki]]
