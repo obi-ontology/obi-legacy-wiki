@@ -9,29 +9,33 @@ Implementation details of projects using OBI
 * Neuroscience Information Framework (NIF) - http://nif.nih.gov/
 
 (Contact Person: Fahim Imam)
-  - Built based on OBI (old version)	
+  - Developed based on OBI (old version)
   - Data transformation
 	
 * Biomedical Informatics Research Network (BIRN) - http://www.birncommunity.org/
 
 (Contact Person: Jessica Turner)
-	- scalar data
+  - scalar data
 	
-The Immune Epitope Database (IEDB) (Bjoern Peters)
-http://www.immuneepitope.org/
-	-assay
+* The Immune Epitope Database (IEDB) - http://www.immuneepitope.org/
 
-Biomedical Resource Ontology (BRO) (Trish Whetzel, Dave Rubenson)
-http://bioportal.bioontology.org/ontologies/39002
-	- instruments
+(Contact Person: Bjoern Peters)
+  -assay
 
-Vaccine Investigation and OnLine Information Network (VIOLIN) (Oliver He, Zuoshuang "Allen" Xiang)
-http://www.violinet.org/index.php
-	- independent/dependent variables, statistical analysis (ANOVA)
+* Biomedical Resource Ontology (BRO) - http://bioportal.bioontology.org/ontologies/39002
 
-ArrayExpress and other microarray experiments database(Helen Parkinson, James Malone, Jie Zheng, Chris Stoekert)
+(Contact Person: Trish Whetzel)
+  - instruments
 
+* Vaccine Investigation and OnLine Information Network (VIOLIN) - http://www.violinet.org/index.php
 
+(Contact Person: Oliver He, Zuoshuang "Allen" Xiang)
+  - independent/dependent variables, statistical analysis (ANOVA)
+
+* ArrayExpress and other microarray experiments database - http://www.ebi.ac.uk/microarray-as/ae/
+
+(Contact Person: Helen Parkinson, James Malone, Jie Zheng, Chris Stoekert)
+  - mapping Mged ontology to OBI
 
 
 Comments and responses on NBT paper<br>
