@@ -73,7 +73,8 @@ AI: (Devices?) Articulate single inheritance hierarchy below convenience classes
 
 AI: Adding restriction to material_sampling (HP will try to resolve offline and report back April 28)  - NO IDEA, read notes and return to this. 
 
-AI: reference substance role will be fixed by HP according to tracker notes - NOT DONE check notes
+AI: reference substance role will be fixed by HP according to tracker notes - DONE. 
+Was requested to map to molecular entity, agreeds is less precise and will use material entity. Related tracker item now closed.
 
 (April 28) AI: Reagent role is deferred will decision what a device/reagent is - NOT DONE
 
