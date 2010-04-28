@@ -33,7 +33,8 @@ AI: NIF will move the example processes to a shareable document and will work th
 AI: Allen will place VO presentation in OBI svn  - Hp will check.
 
 
-AI: Alan R will give an example of time measurement data that measures the interval between two events such as vaccination and challenge. (report back at developer call April 28) - HP will add to agenda
+AI: Alan R will give an example of time measurement data that measures the interval between two events such as vaccination and challenge. (report back at developer call April 28) - JM Will chase up Alan R
+
 
 AI: Discussion on how community tags will be used related to in vivo etc, AR favours OWL2/P4, JM worked on a way to model community tags in OWL1/P3: This second approach doesn't work so we need OWL2/P4 (AI for AR to test as that becomes available) - James tested in OWL1/P3 - so can only be done in P4/OWL 2.
 
