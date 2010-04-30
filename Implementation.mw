@@ -12,7 +12,9 @@ Implementation details of projects using OBI
 	
 * Biomedical Informatics Research Network (BIRN) - http://www.birncommunity.org/
 (Contact Person: Jessica Turner)
-  - scalar data
+  - data scale types
+  - independent/dependent variables 
+  - analyses
 	
 * The Immune Epitope Database (IEDB) - http://www.immuneepitope.org/
 (Contact Person: Bjoern Peters)
