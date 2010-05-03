@@ -1,9 +1,7 @@
 Implementation details of projects using OBI
 
 * ISA infrastrusture - http://isatab.sourceforge.net 
-(Contact Person: Philippe Rocca-Serra and Susanna-Assunta Sansone)
   - serving OBI to the users in the annotation of multi-assays studies
-
 * BioInvestigation, a public ISA-based repository - http://www.ebi.ac.uk/bioinvindex/browse_studies.seam
 (Contact Person: Philippe Rocca-Serra and Susanna-Assunta Sansone)
   - using OBI in the annotation of multi-assays studies
