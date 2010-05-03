@@ -1,9 +1,9 @@
 Implementation details of projects using OBI
 
 * ISA infrastructure  - http://isatab.sourceforge.net 
-#ISAcreator and ISAconfigurator
+1. [http://isatab.sourceforge.net/tools.html ISAcreator and ISAconfigurator]
   - guiding users to use OBI (and other ontologies) in the annotation of multi-assays studies
-#BioInvestigation, a public ISA-based repository instance - http://www.ebi.ac.uk/bioinvindex/browse_studies.seam
+2. [http://www.ebi.ac.uk/bioinvindex/browse_studies.seam BioInvestigation, a public ISA-based repository instance]
   - using OBI in the annotation of multi-assays studies
 (Contact Person: Philippe Rocca-Serra and Susanna-Assunta Sansone)
 
