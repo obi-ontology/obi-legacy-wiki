@@ -38,11 +38,34 @@ Chair: Bjoern Peters
 
 Chair: Jie Zheng
 
+Present: JF, CT, OH, JZ, BP, LS, AR, CS, JT, MH, DD
+
 (1) Carlo will give an update on the instrument pattern and branch being developed for Eagle-i
+
+AI for CT: send device spreed sheet files to OBI
+
+AI for CT and MH: provide at least textual definition for functions (The logical definition of functions are not required now.)
+
+Devices and related functions will be reviewed and added into separate OWL file.
+
+"Part of device" class was proposed to be added into OBI  in  previous dev call. The "has_part" relation can solve this issue. So, there is no necessary to add the term. 
 
 (2) Discuss the reviewer comments on the accepted SIG paper (Oliver)
 
-(3) Time and space issues (Dirk)
+OH: first draft of final version and will address the reviewers issues in the discussion section
+
+AR: address the provenance issue
+
+(3) Progress on using Protege 4.1 (Alan)
+
+Worked in Mac, need volunteer to test it in PC
+
+AI for JZ and AR: test it on PC 
+
+(4) Time and space issues (Dirk)
+
+Discuss some use cases of using time
+
 
 '''May 5 '''
 
