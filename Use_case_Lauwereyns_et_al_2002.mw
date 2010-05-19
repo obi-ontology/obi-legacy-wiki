@@ -19,7 +19,7 @@ __TOC__
 
 <br style="clear:both" />
 
-[[ Image:Lauwereyns2002_StimulusLeftCue.jpg | right |500px | Stimulus Left Cue ]]
+[[ Image:Lauwereyns2002_StimulusLeftCue.jpg | right |500px | Stimulus Left Cue]]
 
 The diagram shows that the DOT as ''project_by'' the LED projector (''projects_on'' the tangent screen), is a dot which is ''left_side_of' the central fixation dot (as projected on the tangent screen) with a 20&deg; angle. The diameter of the dot is 0.2&deg; wide and has the color red.
 
@@ -27,3 +27,22 @@ The diagram shows that the DOT as ''project_by'' the LED projector (''projects_o
 == Subject and Stimuli/Environment ==
 
 == Time/Sequence of Condition 1 (CST) ==
+
+'''Description in article''':
+: ''In the BST, the monkey was required to direct and maintain his gaze at a central fixation spot during a first fixation (‘pre-target’) period of 1.5 s. Visual stimuli were small red spots, 0.2&deg; in diameter, back-projected onto a tangent screen by LED projectors. After the pre-target period, the fixation spot disappeared and a peripheral target appeared at 20&deg; to the left or to the right. The monkey had to make a saccade within 500 ms to within 38 from the target position. A beep was presented as feedback for each correct trial. If the monkey made an error, the same trial was repeated. In half of the correct trials the monkey was rewarded with a drop of water depending on the reward schedule. During blocks of 20 or 40 correct trials, reward was mapped consistently onto one target position. We reversed the position reward contingency automatically (6–16 times) without any indication to the monkey.'' (p. 416-417)
+
+
+''' Diagram '''
+
+<br style="clear:both" />
+
+[[ Image:Lauwereyns2002_condition1.jpg | right |650px | Stimulus Left Cue ]]
+
+* Concerns Condition 1 of the BST paradigm (see description above and p. 414 figure 1a in paper). When a left stimulus is presented the subject is not rewarded with juice, when a right stimulus occurs (and subject makes correct saccade) the subject receives a reward. 
+* A single trial consists of 3 blocks in the experimental design (1, 2 and 3 in figure): 
+: 1. 'resting phase' where subject is awaiting a new trial
+: 2. 'fixation': subject has to fixate the central dot
+: 3. 'saccade': central fixation stimulus disappears, subject is presented a peripheral stimulus (left/right of central fixation), subject has to make a saccade within 500ms
+* Each trial is repeated for 20 or 40 correct correct trials (in figure '1 sequence of trials with identical reward scheme'). 
+* After 20-40 correct trials the reward scheme is reversed (in figure lower '1 sequence of trials with identical reward scheme') 6-16 times (randomly).
+* Condition 2 differs from condition 1 for its reward (reward on left stimulus, no reward on right stimulus).
