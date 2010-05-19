@@ -1,0 +1,29 @@
+__TOC__
+
+* Lauwereyns, J., et al., A neural correlate of response bias in monkey caudate nucleus. Nature, 2002. 418(6896): p. 413-417.
+* Reference can be found [http://www.nature.com/nature/journal/v418/n6896/full/nature00892.html here]. 
+* This use case was created to explore how space and time can be encoded. 
+* Same use case as the JBMS paper: 
+* Short description (from JBMS paper): This investigation studied the role of the primate caudate nucleus in the expectation of reward following action [Lauweyrens et al., 2002]. While the caudate nucleus responds preferentially to eye movements in different directions, the response begins prior to eye movement and is dramatically increased when there is expectation of reward for the preferred direction. Here we represent a single trial in which the visual target, a light, is presented to the animal and the neural response is recorded as data.
+* Those classes and relations not in OBI (19 May 2010) have a gray background.
+
+== Stimulus Left Cue ==
+
+'''Description in article''':
+
+: ''Visual stimuli were small red spots, 0.2&deg; in diameter, back-projected onto a tangent screen by LED projectors.'' (p. 416)
+
+: ''In the CST, there was a first fixation period of 1 s, followed by a brief presentation (100 ms) of a cue at 20&deg; to the left or to the right. '' (p. 417)
+
+''' Diagram '''
+
+<br style="clear:both" />
+
+[[ Image:Lauwereyns2002_StimulusLeftCue.jpg | right |500px | Stimulus Left Cue ]]
+
+The diagram shows that the DOT as ''project_by'' the LED projector (''projects_on'' the tangent screen), is a dot which is ''left_side_of' the central fixation dot (as projected on the tangent screen) with a 20&deg; angle. The diameter of the dot is 0.2&deg; wide and has the color red.
+
+<br style="clear:both" />
+== Subject and Stimuli/Environment ==
+
+== Time/Sequence of Condition 1 (CST) ==
