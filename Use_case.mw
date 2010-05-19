@@ -1,3 +1,21 @@
 [[category:OBI general]]
+__TOC__
+
 
 A [http://en.wikipedia.org/wiki/Use_case use case] demonstrates how OBI can be used for a particular application. It demonstrates the use of OBI. A use case is not the same as a [[Case_study |case study]]. Each use case is listed below and forms a separate page.
+
+= Cognitive Neuroscience =
+== Lauwereyns et al 2002 ==
+''(use case in progress)''
+
+
+[http://www.nature.com/nature/journal/v418/n6896/full/nature00892.html Lauwereyns, J., et al., A neural correlate of response bias in monkey caudate nucleus. Nature, 2002. 418(6896): p. 413-417. DOI: 10.1038/nature00892]
+
+
+Here we try to represent various elements of the experiment
+* Stimulus 'left cue'
+* Spatial features of subject and stimuli
+* Time and sequence of condition 1
+
+
+Check the use-case [[Use_case_Lauwereyns_et_al_2002 |here]]
