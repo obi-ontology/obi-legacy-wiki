@@ -145,7 +145,7 @@ Before running the Protege 4.1, please check that there is a file catelog-v0001.
 
 # Start protege 4.1
 # Choose open owl ontology
-# Select obi.owl from your local copy of OBI obi\obi\trunk\src\ontology\branches - this is an OBI owl file with the imports present locally so you should not need to resolve these manually.
+# Select obi.owl from your local copy of OBI obi\obi\trunk\src\ontology\branches.
 # Reasoner "HermiT" is used for classification. It has better performance. Classification took about 3 minutes. 
 
 Have questions about running Protege 4.1 in PC, please contact jiezheng at pcbi.upenn.edu.
