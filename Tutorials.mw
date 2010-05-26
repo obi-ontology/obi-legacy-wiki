@@ -208,7 +208,7 @@ Step by step:
 
 Checkout a fresh update of OBI, open in 3.4.1
 
-# remove any child classes of your term-to-be-deprecated to sensible parent, drag and drop one by one
+1. remove any child classes of your term-to-be-deprecated to sensible parent, drag and drop one by one
 
 2. add reason for deprecation property to the term-to-be-deprecated  - use the widget - scroll down in the class editor, and select a term from the list e.g. failed exploratory term
 
