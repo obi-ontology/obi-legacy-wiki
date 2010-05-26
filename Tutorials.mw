@@ -197,6 +197,136 @@ Paper and OBI wiki page :http://obi-ontology.org/page/MIREOT
 Presentation from Melanie Courtot:
 
 http://ashby.csail.mit.edu/web/2008/obi/20091215-MIREOT-NIF/
+
+<b>MIREOT step by step</b>
+
+Requisites:
+	be able to run Perl and Java programs
+
+1. Checkout the OBI files that needed for MIREOT
+
+Check out the related OBI files under:
+	http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/
+
+* external.owl and externalDerived.owl can be found under /src/ontology/branches
+* add-to-external.pl is under /src/tools
+* external-templates.txt can be found under /src/tools/build
+
+
+2. Add the minimum information into external.owl for the classes/instances you wish to add.
+
+The minimum information includes the full URI of the terms you want to import, the resource of terms, and which class in OBI they are
+subclass of or instance of.
+
+The template shown as below.
+
+For a class, the template is:
+  <owl:Class rdf:about="_CHILD_">
+    <rdfs:subClassOf rdf:resource="_PARENT_"/>
+    <IAO_0000412 rdf:resource="_ONT_"/>
+  </owl:Class>
+
+For an instance, the template is:
+  <rdf:Description rdf:about="_CHILD_">
+    <rdf:type rdf:resource="_PARENT_"/>
+    <IAO_0000412 rdf:resource="_ONT_"/>
+  </rdf:Description>
+
+where _CHILD_ is the full URI of the term to be added, _PARENT_ the one of its parent, and _ONT_ the resource from which 
+we import.
+Note: IAO_0000412 is the "imported_from" annotation property.
+
+2.1 Add the minimum information into external.owl manually 
+
+Example 1:
+
+If you want to import "cell" in Cell ontology which ID is CL_0000000 from the resource 
+http://purl.org/obo/owl/CL , to be a subclass of "MaterialEntity" in OBI, you need to add the following piece 
+of information into external.owl.
+  <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000000">
+    <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    <IAO_0000412 rdf:resource="http://purl.org/obo/owl/CL"/>
+  </owl:Class>
+where
+  _CHILD_ is http://purl.org/obo/owl/CL#CL_0000000
+  _PARENT_ is http://www.ifomis.org/bfo/1.1/snap#MaterialEntity
+  _ONT_ is http://purl.org/obo/owl/CL
+
+Example 2:
+
+If you want to import "gram" in Units of measurement ontology which ID is UO_0000021 from the resource
+http://purl.org/obo/owl/UO, to be an instance of UO_0000002 mass unit, you need to add the following piece 
+of information into external.owl.
+  <rdf:Description rdf:about="http://purl.org/obo/owl/UO#UO_0000021">
+    <rdf:type rdf:resource="http://purl.org/obo/owl/UO#UO_0000002"/>
+    <IAO_0000412 rdf:resource="http://purl.org/obo/owl/UO"/>
+  </rdf:Description>
+where
+  _CHILD_ is http://purl.org/obo/owl/UO#UO_0000021
+  _PARENT_ is http://purl.org/obo/owl/UO#UO_0000002
+  _ONT_ is http://purl.org/obo/owl/UO
+
+2.2 Add the minimum information into external.owl using add-to-external.pl
+
+This piece of information can be automatically added into external.owl using a Perl script "add-to-external.pl" which is under /src/tools. Currently, the Perl script can handle the terms which resources are PATO, PRO, FMA, CHEBI, GO, CL, NCBITaxon, ENVO, SO, UO, VO, NIF-GrossAnotomy. If you want to import the terms other than the resources listed using the Perl script, please contact Alan Ruttenberg at alanruttenberg at gmail.com.
+
+The command to run the script of adding a class:
+  perl add-to-external.pl CHILD_ID PARENT_ID
+The command to run the script of adding an instance:
+  perl add-to-external.pl instance CHILD_ID PARENT_ID
+(The command is run under the directory where contains add-to-external.pl file)	
+
+2.3 Check external.owl file
+
+After adding the minimal information of external terms into external.owl, reload the project in Protege. You should see your classes in the obi hierarchy, but with no anotations, not even label. If this work, you can go to the next step.
+
+3. Generate externalDerived.owl
+
+3.1 Download the required files
+
+Download the jar files from the website: http://code.google.com/p/lsw2/downloads/list
+
+You need both lsw.jar and owltool.jar.
+
+Get help of the jar files run command:
+  java -jar lsw.jar -m owltool.jar -help
+(The command is run under the directory that contains both lsw.jar and owltool.jar)
+
+3.2 Delete externalDerived.owl (which is under /src/ontology/branches)
+
+3.3 Run program to generate externalDerived.owl
+
+The command is:
+  java -jar lsw.jar -m owltool.jar -create-external-derived <external.owl> -template <external-template.txt> -dest <externalDerived.owl> -ontology-iri "http://purl.obolibrary.org/obo/obi/externalDerived.owl"
+
+where 
+  <external.owl> is the location of external.owl file.
+  <external-templates.txt> is the location of OBI's externals template file for creating the externalDerived.owl. The template file can be found under checked /src/tools/build directory.
+  <externalDerived.owl> is the output file which should be the one you would like to replace the old externalDerived.owl. 
+  The "-ontology-iri" argument is the URI of the externalDervived.owl. For OBI external derived file, it should be "http://purl.obolibrary.org/obo/obi/externalDerived.owl".
+
+
+Example:
+
+I checked out http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ under "C:/Documents and Settings/Jie/My Documents/Ontology/obi/trunk/src/"
+and download lsw.jar and owltool.jar under "C:/obi-lsw" in my PC.
+
+The command used to generate externalDerived.owl is:
+  java -jar lsw.jar -m owltool.jar
+  -create-external-derived "C:/Documents and Settings/Jie/My Documents/Ontology/obi/trunk/src/ontology/branches/external.owl"
+  -template "C:/Documents and Settings/Jie/My Documents/Ontology/obi/trunk/src/tools/build/external-templates.txt"
+  -dest "C:/Documents and Settings/Jie/My Documents/Ontology/obi/trunk/src/ontology/branches/externalDerived.owl"
+  -ontology-iri "http://purl.obolibrary.org/obo/obi/externalDerived.owl"
+
+After run the command, the new external derived owl file is generated and named as "externalDerived.owl".
+
+3.4 Check externalDerived.owl file
+
+Reload the project in Protege. You should see the terms you wish to import in the obi hierarchy with label and some other anotations. If everything looks fine, check both external.owl and externalDerived.owl in. You are DONE.
+<hr>
+
+
+
 <hr>
 
 ==Obsoletion==
