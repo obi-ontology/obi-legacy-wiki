@@ -97,8 +97,7 @@ rdfs:label should is listed in the annotation properties.
 
 * Once all the imports are local, you should find reasoning speed improved.
 
-[http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png - PC Screenshot of Protege repository tav]
-
+[http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png PC Screenshot of Protege repository tav]
 
 ==Reasoning==
 
