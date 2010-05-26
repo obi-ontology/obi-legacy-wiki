@@ -325,10 +325,6 @@ After run the command, the new external derived owl file is generated and named 
 Reload the project in Protege. You should see the terms you wish to import in the obi hierarchy with label and some other anotations. If everything looks fine, check both external.owl and externalDerived.owl in. You are DONE.
 <hr>
 
-
-
-<hr>
-
 ==Obsoletion==
 
 See policy http://obi-ontology.org/page/OBI_Deprecation_Policy  , IMPORTANT, deprecated terms need to be advertised to the list prior to deprecation, see policy link
