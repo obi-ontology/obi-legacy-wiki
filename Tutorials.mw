@@ -4,8 +4,8 @@
 # '''[http://obi-ontology.org/page/Tutorials#Imports Managing OBI's imports] '''
 # '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI in Protege 3.4]'''
 # '''[http://obi-ontology.org/page/Tutorials#Protege4 Working with Protege 4.1]'''
-# '''[http://obi-ontology.org/page/Tutorials#MIREOT How to import external terms into OBI]'''
 # '''[http://obi-ontology.org/page/Tutorials#Release OBI release process]'''
+# '''[http://obi-ontology.org/page/Tutorials#MIREOT How to import external terms into OBI]'''
 # '''[http://obi-ontology.org/page/Tutorials#Obsoletion Obsoleting terms in OBI]'''
 # '''[http://obi-ontology.org/page/Tutorials#Instances Editing instances]'''
 
@@ -16,6 +16,14 @@
 ==SVN==
 
 see http://obi-ontology.org/page/General_introduction#SVN
+
+==Sourceforge==
+
+# First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
+
+# Second, email one of the OBI sourceforge administrators listed OBI sourceforge site. Alternatively,  email the obi developer mailing list (obi-devel@lists.sourceforge.net). You will very likely be issued the right to access OBI sourceforge. This will allow you to make changes in OBI sourceforge.
+
+<hr>
 
 ==Editing==
 
@@ -90,13 +98,6 @@ rdfs:label should is listed in the annotation properties.
 
 [http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png - PC Screenshot of Protege repository tav]
 
-==Sourceforge==
-
-# First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
-
-# Second, email one of the OBI sourceforge administrators listed OBI sourceforge site. Alternatively,  email the obi developer mailing list (obi-devel@lists.sourceforge.net). You will very likely be issued the right to access OBI sourceforge. This will allow you to make changes in OBI sourceforge.
-
-<hr>
 
 ==Reasoning==
 
