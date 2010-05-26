@@ -1,5 +1,6 @@
-# '''[http://obi-ontology.org/page/Tutorials#SVN - Setting up SVN and file access]'''
-# '''[http://obi-ontology.org/page/Tutorials#Checkout How to checkout OBI from SVN and edit it]''' 
+# '''[http://obi-ontology.org/page/Tutorials#SVN Setting up SVN and file access]'''
+# '''[http://obi-ontology.org/page/Tutorials#Editing How to checkout OBI from SVN, install Protege and edit it using Protege]'''
+# '''[http://obi-ontology.org/page/Tutorials#Managing_Import Managing OBI's imports] '''
 # '''[http://obi-ontology.org/page/Tutorials#Sourceforge How to get sourceforge access] '''
 # '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI]'''
 # '''[http://obi-ontology.org/page/Tutorials#Protege4 Opening OBI with Protege 4 - DO NOT EDIT IN 4]'''
@@ -15,8 +16,7 @@
 
 see http://obi-ontology.org/page/General_introduction#SVN
 
-==Checkout and set up Protege ==
-
+==Editing==
 
 * Install latest Protege 3.4.1 version from 
 http://protege.stanford.edu/download/registered.html 
@@ -65,7 +65,7 @@ rdfs:label should is listed in the annotation properties.
 
 * As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files.
 
-==Managing OBI's Imports==
+==Managing_Imports==
 
 * OBI imports some external ontologies e.g. IAO and these are present in OBI svn - see \obi\trunk\src\ontology\external which you should have checked out - the files you need are .owl extensions in this directory and sub-directories. If you use the obi-edit.pprj it manages these for you. You can also set these manually see below, but this should not be necessary if you use the obi-edit.pprj 
 
@@ -77,19 +77,13 @@ rdfs:label should is listed in the annotation properties.
 
 * click the + (plus) symbol, choose local folder, browse for the folder you need, and then force read  only, you'll need to do this once for each import file in the svn\obi\trunk\src\ontology\external directory: 
 
-iao.owl
-
-bfo.owl
-
-bfo11.owl, 
-
-protege.owl
-
-protege-dc.owl
-
-ro.owl
-
-ro_bfo_bridge11.owl
+  iao.owl
+  bfo.owl
+  bfo11.owl
+  protege.owl
+  protege-dc.owl
+  ro.owl
+  ro_bfo_bridge11.owl
 
 * Once all the imports are local, you should find reasoning speed improved.
 
@@ -108,8 +102,9 @@ ro_bfo_bridge11.owl
 
 * Use Protege 3.4.1 and Pellet 1.5.2 as standard. 
 
-If reasoning fails with these try 4, or try the development version java application. In general over-use of axioms and over-modelling will slow reasoning down, so decide if these are really necessary e.g there is a use case. If the pattern has been used already elsewhere then there is a good chance reasoning will be OK. It's a good idea to compare reasoning times before and after editing.
+If reasoning fails with these try 4, or try the development version java application. In general over-use of axioms and over-modelling will slow reasoning down, so decide if these are really necessary e.g there is a use case. If the pattern has been used already elsewhere then there is a good chance reasoning will be OK. It's a good idea to compare reasoning times before and after editing. 
 
+Java 1.5 is highly recommended. Java 1.6 will slow down the reasoning speed.
 
  [http://docs.google.com/View?id=dzprnmw_71chch6pfk google doc explaining a diagnotics application]
 
@@ -117,15 +112,54 @@ If reasoning fails with these try 4, or try the development version java applica
 
 The aim is to detect problems with the OWL file that cause OBI to reason slowly. Some use of axioms prevents this. The application described provides some support for detecting and visualising these cases and some usage examples are included here. It's bleeding edge, contact Alan for details on usage, or see the google doc link above.
 
-==Protege4 and reasoning==
+==Working with Protégé 4.1==
 
-* Protege 3.4.1 is the recommended editor for OBI. However you may find that you are not able to classify OBI with its Pellet default reasoner. Instead using Protege 4 with the Pellet 2 reasoner is working. Do NOT edit with Protege 4, only view and classify the ontology. Edits must be made in 3.4. As of March 2010 classifiication is working with 3.4.1 and Pellet 1.5.2. Should classification fail to complete please report to the obi-dev list
+* Protégé 4.1 is OWL2 compatible. Editing OBI using Protégé 4.1 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
+
+* Installing Protege 4
+
+Download Protege 4.1 on the website:
+http://protege.stanford.edu/download/protege/4.1/installanywhere/
+(Note: This version Protege 4.1 may not always work for windows.)
+
+Download OBI friendly Protege 4.1 for windows:
+http://dl.dropbox.com/u/4905123/Protege_Windows.zip
+
+Java 1.5 is recommended. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
+
+* Setting Protege perferences
+
+Click "File" and choose "Preferences...":
+# In the "Renderer" tab, click on the "Annotations ..." button, add "en, en-US, !" in the languages column. (Leave the column empty, works well too).
+# In the "Reasoner" tab, unselect all but the first two choices ( = Unsatisfiability, and Superclasses are checked).
+# In "Save" tab, make sure XML Writer "Use XML Entities" is checked off.
+
+
+#To get the class labels rather than the OBI ids to display select 'preferences' from the 'file' menu (protege menu on mac), Choose the renderer tab. Choose 'render entitities using annotation values' and OK.
+#You should now be able to see OBI class labels rather than ids.
+You may need to assign Protege more memory. Details here http://protegewiki.stanford.edu/index.php/Setting_Heap_Size.
+
+* Opening OBI with protege 4.1
+
+Before running the Protege 4.1, please check that there is a file catelog-v0001.xml in the ontology/branches directory. The file is needed for Protege 4.1 to find where the imported ontologies are. If you don't see the file, do a fresh SVN checkout.
+
+# Start protege 4.1
+# Choose open owl ontology
+# Select obi.owl from your local copy of OBI obi\obi\trunk\src\ontology\branches - this is an OBI owl file with the imports present locally so you should not need to resolve these manually.
+# Reasoner "HermiT" is used for classification. It has better performance. Classification took about 3 minutes. 
+
+Have questions about running Protege 4.1 in PC, please contact jiezheng at pcbi.upenn.edu.
+
+Have questions about running Protege 4.1 in Mac, please contact Alan Ruttenberg.
+
+<!-- * Protege 3.4.1 is the recommended editor for OBI. However you may find that you are not able to classify OBI with its Pellet default reasoner. Instead using Protege 4 with the Pellet 2 reasoner is working. Do NOT edit with Protege 4, only view and classify the ontology. Edits must be made in 3.4. As of March 2010 classifiication is working with 3.4.1 and Pellet 1.5.2. Should classification fail to complete please report to the obi-dev list
 
 * Installing Protege 4: choose the installer that "includes Java VM", and when the installer asks, choose to install a VM for protege rather than using the installed default.  
 
-* Opening OBI (DO NOT EDIT) with protege 4. 
+* Opening OBI (DO NOT EDIT) with protege 4.
 
 You cannot click on the .pprj file in this case. Instead check out OBI from the SVN to a local copy (see instructions above). We recommend you have a local sandbox directory so you can edit a local copy without accidentally checking back in your local copy to the OBI SVN. 
+
 
 #Start protege 4
 
