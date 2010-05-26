@@ -1,12 +1,12 @@
 # '''[http://obi-ontology.org/page/Tutorials#SVN Setting up SVN and file access]'''
 # '''[http://obi-ontology.org/page/Tutorials#Editing How to checkout OBI from SVN, install Protege and edit it using Protege]'''
-# '''[http://obi-ontology.org/page/Tutorials#Managing_Import Managing OBI's imports] '''
+# '''[http://obi-ontology.org/page/Tutorials#Imports Managing OBI's imports] '''
 # '''[http://obi-ontology.org/page/Tutorials#Sourceforge How to get sourceforge access] '''
 # '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI]'''
-# '''[http://obi-ontology.org/page/Tutorials#Protege4 Opening OBI with Protege 4 - DO NOT EDIT IN 4]'''
+# '''[http://obi-ontology.org/page/Tutorials#Protege4 Working with Protege 4.1]'''
 # '''[http://obi-ontology.org/page/Tutorials#Release OBI release process]'''
 # '''[http://obi-ontology.org/page/Tutorials#Obsoletion Obsoleting terms in OBI]'''
-# '''[http://obi-ontology.org/page/Tutorials#Instances Editing Instances]'''
+# '''[http://obi-ontology.org/page/Tutorials#Instances Editing instances]'''
 
 '''[http://www.bioontology.org/wiki/index.php/From_BFO_to_IAO OBI Tutorial from ICBO conference]'''
 
@@ -65,7 +65,7 @@ rdfs:label should is listed in the annotation properties.
 
 * As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files.
 
-==Managing_Imports==
+==Imports==
 
 * OBI imports some external ontologies e.g. IAO and these are present in OBI svn - see \obi\trunk\src\ontology\external which you should have checked out - the files you need are .owl extensions in this directory and sub-directories. If you use the obi-edit.pprj it manages these for you. You can also set these manually see below, but this should not be necessary if you use the obi-edit.pprj 
 
@@ -91,10 +91,9 @@ rdfs:label should is listed in the annotation properties.
 
 ==Sourceforge==
 
-1. First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
+# First, you need to have a sourceforge.net account. If you do not have one, register at sourceforge: https://sourceforge.net/account/registration/ .
 
-2. Second, email one of the OBI sourceforge administrators listed OBI sourceforge site. Alternatively,  email the obi developer mailing list (obi-devel@lists.sourceforge.net). You will very likely be issued the right to access OBI sourceforge. This will allow you to make changes in OBI sourceforge.
-
+# Second, email one of the OBI sourceforge administrators listed OBI sourceforge site. Alternatively,  email the obi developer mailing list (obi-devel@lists.sourceforge.net). You will very likely be issued the right to access OBI sourceforge. This will allow you to make changes in OBI sourceforge.
 
 <hr>
 
@@ -112,9 +111,9 @@ Java 1.5 is highly recommended. Java 1.6 will slow down the reasoning speed.
 
 The aim is to detect problems with the OWL file that cause OBI to reason slowly. Some use of axioms prevents this. The application described provides some support for detecting and visualising these cases and some usage examples are included here. It's bleeding edge, contact Alan for details on usage, or see the google doc link above.
 
-==Working with Protégé 4.1==
+==Protege4==
 
-* Protégé 4.1 is OWL2 compatible. Editing OBI using Protégé 4.1 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
+* Protege 4.1 is OWL2 compatible. Editing OBI using Protege 4.1 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
 
 * Installing Protege 4
 
@@ -129,14 +128,13 @@ Java 1.5 is recommended. Details about setting Java classpath: http://www.cs.wai
 
 * Setting Protege perferences
 
-Click "File" and choose "Preferences...":
-# In the "Renderer" tab, click on the "Annotations ..." button, add "en, en-US, !" in the languages column. (Leave the column empty, works well too).
-# In the "Reasoner" tab, unselect all but the first two choices ( = Unsatisfiability, and Superclasses are checked).
-# In "Save" tab, make sure XML Writer "Use XML Entities" is checked off.
+Click 'File' menu and choose 'Preferences...':
+# In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. (Leave the column empty, works well too).
+# In the 'Reasoner' tab, unselect all but the first two choices ( = Unsatisfiability, and Superclasses are checked).
+# In the 'Save' tab, make sure XML Writer 'Use XML Entities' is checked off.
+# To display the class labels rather than the OBI ids, choose 'Render entitities using annotation values' in the 'Renderer' tab.
+# Hit 'OK' button when you finish the setting
 
-
-#To get the class labels rather than the OBI ids to display select 'preferences' from the 'file' menu (protege menu on mac), Choose the renderer tab. Choose 'render entitities using annotation values' and OK.
-#You should now be able to see OBI class labels rather than ids.
 You may need to assign Protege more memory. Details here http://protegewiki.stanford.edu/index.php/Setting_Heap_Size.
 
 * Opening OBI with protege 4.1
@@ -177,6 +175,7 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 #This should be 2-4 minutes depending on the machine you are running on
 #After the ONTIE merge Aug 2009, Pellet 2 classifies in a couple of minutes.
 #A new tab will appear - 'inferred hierarchy' - enjoy.
+-->
 
 ==Release==
 
@@ -204,7 +203,7 @@ Step by step:
 
 Checkout a fresh update of OBI, open in 3.4.1
 
-1. remove any child classes of your term-to-be-deprecated to sensible parent, drag and drop one by one
+# remove any child classes of your term-to-be-deprecated to sensible parent, drag and drop one by one
 
 2. add reason for deprecation property to the term-to-be-deprecated  - use the widget - scroll down in the class editor, and select a term from the list e.g. failed exploratory term
 
