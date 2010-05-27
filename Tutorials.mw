@@ -121,12 +121,12 @@ Protege 4.1 is OWL2 compatible. Editing OBI using Protege 4.1 has been tested in
 
 * Installing Protege 4
 
-Download Protege 4.1 on the website:
-http://protege.stanford.edu/download/protege/4.1/installanywhere/
-(Note: This version Protege 4.1 may not always work for windows.)
-
 Download OBI friendly Protege 4.1 for windows:
 http://dl.dropbox.com/u/4905123/Protege_Windows.zip
+
+or
+Download OBI friendly Protege 4.1 for Mac:
+http://dl.dropbox.com/u/4905123/Protege41MAC.zip
 
 Java 1.5 is recommended. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
 
