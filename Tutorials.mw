@@ -128,6 +128,10 @@ or
 Download OBI friendly Protege 4.1 for Mac:
 http://dl.dropbox.com/u/4905123/Protege41MAC.zip
 
+Unzip the compressed file
+
+For PC users, go to the directory which contains the unzipped files. Double click 'run.bat' file to start Protege 4.1.
+
 Java 1.5 is recommended. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
 
 * Setting Protege perferences
