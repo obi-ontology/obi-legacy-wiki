@@ -27,9 +27,18 @@ In this section I would like to describe an example of the spatial features I ne
 
 '''Description of the stimulus in the article''':
 
-: ''Visual stimuli were small red spots, 0.2&deg; in diameter, back-projected onto a tangent screen by LED projectors.'' (p. 416)
+[[ Image:Lauwereyns2002_StimulusLeftCue_original.jpg | right |300px | Stimulus Left Cue]]
 
-: ''In the CST, there was a first fixation period of 1 s, followed by a brief presentation (100 ms) of a cue at 20&deg; to the left or to the right. '' (p. 417)
+
+* ''Visual stimuli were small red spots, 0.2&deg; in diameter, back-projected onto a tangent screen by LED projectors.'' (p. 416)
+
+
+The stimulus is used in both conditions as a target/cue for the subject. I'm looking on how to represent the stimulus for this use case in relation with:
+* the subject: being ''in front'' of the subject in an angle of 20&deg;
+* the central fixation point: the fixation point at that time is not present, my guess being that this relation does not have to be represented.
+* the tangent screen: in fact the stimulus is only present to its projection on the tangent screen. Without the stimulus would not be presented, at least not at that position. 
+
+<br style="clear:both" />
 
 ''' Diagram '''
 
