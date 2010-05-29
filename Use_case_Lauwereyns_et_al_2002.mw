@@ -54,14 +54,28 @@ The diagram shows that the DOT as ''project_by'' the LED projector (''projects_o
 ''Will be added once other diagrams are resolved.''
 
 == Time/Sequence of Condition 1 (CST) ==
+'''About the diagram'''
+
+[[ Image:Lauwereyns2002_condition1_simplified.jpg | right |450px | Stimulus Left Cue ]]
+
+The condition BST (figure 'BST simplified') is in essence a rather straightforward condition. As previously mentioned, condition 1 of the BST has two options:
+* a left target/cue appears and the subject has to make a saccade to the left. There is no reward.
+* a right target/cut appears and the subject has to make a saccade to the right. There is no reward.
+
+The figure is an example of such a sequence where initially the left cue is present (trial A), followed by a right cue/target (trial B), followed by a left cue (trial C), then again a left cue (trial D), followed by...
+
+There are a total of 20 up to 40 trials repeated for the condition. 
+
+
+<br style="clear:both" />
 
 '''Description in article''':
 : ''In the BST, the monkey was required to direct and maintain his gaze at a central fixation spot during a first fixation (‘pre-target’) period of 1.5 s. Visual stimuli were small red spots, 0.2&deg; in diameter, back-projected onto a tangent screen by LED projectors. After the pre-target period, the fixation spot disappeared and a peripheral target appeared at 20&deg; to the left or to the right. The monkey had to make a saccade within 500 ms to within 38 from the target position. A beep was presented as feedback for each correct trial. If the monkey made an error, the same trial was repeated. In half of the correct trials the monkey was rewarded with a drop of water depending on the reward schedule. During blocks of 20 or 40 correct trials, reward was mapped consistently onto one target position. We reversed the position reward contingency automatically (6–16 times) without any indication to the monkey.'' (p. 416-417)
 
 
-''' Diagram '''
 
-<br style="clear:both" />
+
+''' Diagram: full description '''
 
 [[ Image:Lauwereyns2002_condition1.jpg | right |650px | Stimulus Left Cue ]]
 
