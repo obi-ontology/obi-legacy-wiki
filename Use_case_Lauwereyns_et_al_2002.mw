@@ -8,8 +8,10 @@ __TOC__
 * Those classes and relations not in OBI (19 May 2010) have a gray background.
 
 == Stimulus Left Cue ==
+In this section I would like to describe an example of the spatial features I need to describe the various stimuli in cognitive neuroscience. 
 
-'''Description in article''':
+
+'''Description of the stimulus in the article''':
 
 : ''Visual stimuli were small red spots, 0.2&deg; in diameter, back-projected onto a tangent screen by LED projectors.'' (p. 416)
 
@@ -24,6 +26,7 @@ __TOC__
 The diagram shows that the DOT as ''project_by'' the LED projector (''projects_on'' the tangent screen), is a dot which is ''left_side_of' the central fixation dot (as projected on the tangent screen) with a 20&deg; angle. The diameter of the dot is 0.2&deg; wide and has the color red.
 
 <br style="clear:both" />
+
 == Subject and Stimuli/Environment ==
 
 == Time/Sequence of Condition 1 (CST) ==
