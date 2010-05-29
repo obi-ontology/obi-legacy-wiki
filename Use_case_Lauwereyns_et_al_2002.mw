@@ -7,6 +7,20 @@ __TOC__
 * Short description (from JBMS paper): This investigation studied the role of the primate caudate nucleus in the expectation of reward following action [Lauweyrens et al., 2002]. While the caudate nucleus responds preferentially to eye movements in different directions, the response begins prior to eye movement and is dramatically increased when there is expectation of reward for the preferred direction. Here we represent a single trial in which the visual target, a light, is presented to the animal and the neural response is recorded as data.
 * Those classes and relations not in OBI (19 May 2010) have a gray background.
 
+== Description of the BST condition ==
+
+
+[[ Image:Lauwereyns2002_BST.jpg | right |400px | Stimulus Left Cue]]
+
+This use case will use the BST experiment as reported in the paper. The BST consists of two conditions (see figure), where the difference between these conditions is simply the position of the reward stimulus.  
+* condition 1, the reward is given to the subject when there is a right cue and the subject makes a right saccade. In this first condition, no reward is given to the subject when the cue is on the left and a correct left saccade is made. 
+* condition 2: reward with left cue, no reward with right cue
+
+
+The entire use case here is based on this BST experiment, describing the stimulus, subject/environment and time/sequence. 
+
+<br style="clear:both" />
+
 == Stimulus Left Cue ==
 In this section I would like to describe an example of the spatial features I need to describe the various stimuli in cognitive neuroscience. 
 
