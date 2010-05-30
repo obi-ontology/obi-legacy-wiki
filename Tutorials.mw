@@ -277,9 +277,9 @@ where
 This piece of information can be automatically added into external.owl using a Perl script "add-to-external.pl" which is under /src/tools. Currently, the Perl script can handle the terms which resources are PATO, PRO, FMA, CHEBI, GO, CL, NCBITaxon, ENVO, SO, UO, UBERON, VO, NIF-GrossAnotomy. 
 
 The command to run the script of adding a class:
-  perl add-to-external.pl CHILD_ID PARENT_ID
+  perl add-to-external.pl CHILD_ID PARENT_ID [path to external.owl]
 The command to run the script of adding an instance:
-  perl add-to-external.pl instance CHILD_ID PARENT_ID
+  perl add-to-external.pl instance CHILD_ID PARENT_ID [path to external.owl]
 (The command is run under the directory where contains add-to-external.pl file)	
 
 2.3 Check external.owl file
