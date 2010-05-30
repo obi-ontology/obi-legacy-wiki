@@ -119,16 +119,16 @@ The aim is to detect problems with the OWL file that cause OBI to reason slowly.
 
 Protege 4.1 is OWL2 compatible. Editing OBI using Protege 4.1 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
 
-* Downloading Protege 4.1
+* Downloading OBI friendly Protege 4 (OBI version)
 
-Download OBI friendly Protege 4.1 for windows:
+Download Protege 4 OBI version for windows:
 http://dl.dropbox.com/u/4905123/Protege_Windows.zip
 
 or
-Download OBI friendly Protege 4.1 for Mac:
+Download Protege 4 OBI version for Mac:
 http://dl.dropbox.com/u/4905123/Protege41MAC.zip
 
-* Starting Protege 4.1
+* Starting Protege 4 OBI version
 
 For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege 4.1. 
 
@@ -145,18 +145,20 @@ Click 'File' menu and choose 'Preferences...':
 
 You may need to assign Protege more memory. Details here http://protegewiki.stanford.edu/index.php/Setting_Heap_Size.
 
-* Opening OBI with protege 4.1
+* Opening OBI with protege 4 OBI version
 
-Before running the Protege 4.1, please check that there is a file catelog-v0001.xml in the ontology/branches directory. The file is needed for Protege 4.1 to find where the imported ontologies are. If you don't see the file, do a fresh SVN checkout.
+Before running the Protege 4, please check that there is a file catelog-v0001.xml in the ontology/branches directory. The file is needed for Protege 4 to find where the imported ontologies are. If you don't see the file, do a fresh SVN checkout.
 
-# Start protege 4.1
+# Start protege 4
 # Choose open owl ontology
 # Select obi.owl from your local copy of OBI obi\obi\trunk\src\ontology\branches.
 # Reasoner "HermiT" is used for classification. It has better performance. Classification took about 3 minutes. 
 
-Have questions about running Protege 4.1 in PC, please contact jiezheng at pcbi.upenn.edu.
+Need support from Protege group, please indicate it is Protege 4 OBI version.
 
-Have questions about running Protege 4.1 in Mac, please contact Alan Ruttenberg.
+Have questions about running Protege 4 in PC, please contact jiezheng at pcbi.upenn.edu.
+
+Have questions about running Protege 4 in Mac, please contact Alan Ruttenberg.
 
 <!-- * Protege 3.4.1 is the recommended editor for OBI. However you may find that you are not able to classify OBI with its Pellet default reasoner. Instead using Protege 4 with the Pellet 2 reasoner is working. Do NOT edit with Protege 4, only view and classify the ontology. Edits must be made in 3.4. As of March 2010 classifiication is working with 3.4.1 and Pellet 1.5.2. Should classification fail to complete please report to the obi-dev list
 
