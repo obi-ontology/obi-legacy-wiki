@@ -272,7 +272,7 @@ where
 
 2.2 Add the minimum information into external.owl using add-to-external.pl
 
-This piece of information can be automatically added into external.owl using a Perl script "add-to-external.pl" which is under /src/tools. Currently, the Perl script can handle the terms which resources are PATO, PRO, FMA, CHEBI, GO, CL, NCBITaxon, ENVO, SO, UO, VO, NIF-GrossAnotomy. 
+This piece of information can be automatically added into external.owl using a Perl script "add-to-external.pl" which is under /src/tools. Currently, the Perl script can handle the terms which resources are PATO, PRO, FMA, CHEBI, GO, CL, NCBITaxon, ENVO, SO, UO, UBERON, VO, NIF-GrossAnotomy. 
 
 The command to run the script of adding a class:
   perl add-to-external.pl CHILD_ID PARENT_ID
@@ -327,9 +327,8 @@ After run the command, the new external derived owl file is generated and named 
 3.4 Check externalDerived.owl file
 
 Reload the project in Protege. You should see the terms you wish to import in the obi hierarchy with label and some other anotations. If everything looks fine, check both external.owl and externalDerived.owl in. You are DONE.
-<hr>
 
-4. Add resources of external ontologies for MIREOT
+4. Add new resources for MIREOT
 
 Currently, the programs can handle the terms which resources are PATO, PRO, FMA, CHEBI, GO, CL, NCBITaxon, ENVO, SO, UO, UBERON, VO, NIF-GrossAnotomy. To add other resources for MIREOT, two files may need to be modified.
 
@@ -344,9 +343,10 @@ You many need to add SPARQL query like template for the new resources. Current t
 
 http://sparql.obo.neurocommons.org/sparql/ is used as endpoint. Before add the new template, please try the SPARQL query on the SPARQL form first, http://sparql.obo.neurocommons.org/
 
-After testing all the modified files work properly to import terms for new resources, please commit your changes.
+After testing the modified files work properly to import terms from new resources, please commit your changes.
 
 If you need help, please contact Alan Ruttenberg at alanruttenberg at gmail.com.
+<hr>
 
 ==Obsoletion==
 
