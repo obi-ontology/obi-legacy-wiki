@@ -326,7 +326,7 @@ After run the command, the new external derived owl file is generated and named 
 
 3.4 Check externalDerived.owl file
 
-Reload the project in Protege. You should see the terms you wish to import in the obi hierarchy with label and some other anotations. If everything looks fine, check both external.owl and externalDerived.owl in. You are DONE.
+Reload the project in Protege. You should see the terms you wish to import in the obi hierarchy with label and some other annotations. If everything looks fine, check both external.owl and externalDerived.owl in. You are DONE.
 
 4. Add new resources for MIREOT
 
@@ -334,7 +334,7 @@ Currently, the programs can handle the terms which resources are PATO, PRO, FMA,
 
 4.1 add-to-external.pl which is under /src/tools
 
-In this perl script, add the resource name and the pattern of ID it used. For example:
+In this perl script, add the resource name, URI and the pattern of ID it used. For example:
   ["UO", "http://purl.org/obo/owl/UO#UO_", "http://purl.org/obo/owl/UO","\\d{7}","UO:0000683"]
 
 4.2 external-templates.txt which is under /src/tools/build
