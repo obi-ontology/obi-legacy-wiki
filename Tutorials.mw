@@ -337,9 +337,9 @@ Currently, the programs can handle the terms which resources are PATO, PRO, FMA,
 In this perl script, add the resource name and the pattern of ID it used. For example:
   ["UO", "http://purl.org/obo/owl/UO#UO_", "http://purl.org/obo/owl/UO","\\d{7}","UO:0000683"]
 
-4.2. external-templates.txt which is under /src/tools/build
+4.2 external-templates.txt which is under /src/tools/build
 
-You many need to add SPARQL query like template for the new resources. Current templates can be applied to all (almost all) OBO foundry ontologies.
+You may need to add SPARQL query like template for the new resources. Current templates can be applied to all (almost all) OBO foundry ontologies.
 
 http://sparql.obo.neurocommons.org/sparql/ is used as endpoint. Before add the new template, please try the SPARQL query on the SPARQL form first, http://sparql.obo.neurocommons.org/
 
