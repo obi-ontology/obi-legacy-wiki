@@ -117,20 +117,20 @@ The aim is to detect problems with the OWL file that cause OBI to reason slowly.
 
 ==Protege4==
 
-Protege 4.1 is OWL2 compatible. Editing OBI using Protege 4.1 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
+Protege4 is OWL2 compatible. Editing OBI using Protege4 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
 
-* Downloading OBI friendly Protege 4 (OBI version)
+* Downloading Protege4 OBI version
 
-Download Protege 4 OBI version for windows:
+Download OBI friendly Protege4 for windows:
 http://dl.dropbox.com/u/4905123/Protege_Windows.zip
 
 or
-Download Protege 4 OBI version for Mac:
+Download OBI friendly Protege4 OBI version for Mac:
 http://dl.dropbox.com/u/4905123/Protege41MAC.zip
 
-* Starting Protege 4 OBI version
+* Starting Protege4 OBI version
 
-For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege 4.1. 
+For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege4. 
 
 Java 1.5 is recommended. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
 
