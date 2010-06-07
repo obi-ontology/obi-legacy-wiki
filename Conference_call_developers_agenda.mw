@@ -72,8 +72,27 @@ Agenda:
 '''7 June'''
 
 Chair: Jie
+Present: JZ, DD, CS, PRS, JT, JF, MH
 
-Agenda: 
+Agenda:
+ 
+1. Dirk's time and space use case http://obi-ontology.org/page/Use_case_Lauwereyns_et_al_2002
+
+- relation 'precedes'used to relate the ordered processes
+
+- time, such as 1.5 sec, 'is duration of' a process 
+
+- issue: how to represent one process repeated many times
+ 
+possible solution: there will be 10 instances of the same specification, have a counting process, count = 10, or process has frequence/rate = 10  
+  
+AI for PRS: contact Barry to check the status of rate/frequence relation that they are working on  
+
+- need some spatial terms used to describe a stimulus location relative to a subject
+
+2. Chris and Jie's knockout mouse model http://obi-ontology.org/page/Use_case_knockout_Mouse
+
+- background and overview, no enough time to go through the diagram, leave for next call
 
 '''2 June
 
