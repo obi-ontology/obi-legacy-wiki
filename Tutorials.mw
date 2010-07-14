@@ -274,13 +274,19 @@ where
 
 2.2 Add the minimum information into external.owl using add-to-external.pl
 
-This piece of information can be automatically added into external.owl using a Perl script "add-to-external.pl" which is under /src/tools. Currently, the Perl script can handle the terms which resources are PATO, PRO, FMA, CHEBI, GO, CL, NCBITaxon, ENVO, SO, UO, UBERON, VO, NIF-GrossAnotomy. 
+This piece of information can be automatically added into external.owl using a Perl script "add-to-external.pl" which is under /src/tools. Currently, the Perl script can handle the terms which resources are PATO, PRO, FMA, CHEBI, GO, CL, NCBITaxon, ENVO, RNAO, SO, UO, UBERON, VO, NIF-GrossAnotomy. 
 
 The command to run the script of adding a class:
   perl add-to-external.pl CHILD_ID PARENT_ID [path to external.owl]
 The command to run the script of adding an instance:
   perl add-to-external.pl instance CHILD_ID PARENT_ID [path to external.owl]
 (The command is run under the directory where contains add-to-external.pl file)	
+
+For example 1 shown above, import "cell" in Cell ontology which ID is CL_0000000 to be a subclass of "MaterialEntity" in OBI. You can the following command:
+  perl add-to-external.pl CL:0000000 snap:MaterialEntity
+
+For example 2 shown above, import "gram" in Units of measurement ontology which ID is UO_0000021 to be an instance of UO_0000002 mass unit. You can the command shown below:
+  perl add-to-external.pl instance UO:0000021 UO:0000002
 
 2.3 Check external.owl file
 
