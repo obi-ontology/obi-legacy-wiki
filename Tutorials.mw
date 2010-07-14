@@ -390,19 +390,21 @@ Checkout a fresh update of OBI, open in 3.4.1
 
 ==EditingOBI==
 
-To edit OBI instances e.g. for the investigation use case
+To edit OBI in Protege 3.4
 
-1. Click on the obi.pprj file - this will open the OWL file in 3.4.1 and will render all properties etc with rdfs labels
+1. Click on the obi-edit.pprj file - this will open the OWL file in Protege 3.4 and will render all properties etc with rdfs labels
 
-2. Click on the meta data tab, select the instances file e.g. Investigation-use-case.owl
+2. Click on the meta data tab, select the obi.owl
 
-3. Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file. If you need to add a class then you'll be editing the obi.owl so repeat the process for selecting the active ontology but select the obi.owl file. 
+3. Click Pencil icon. (Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file.)
 
-4. Navigate to the instances tab. Instances for a given class are shown, unless click on owl thing when all are shown. Choose the class you want instances for and add these
+4. Navigate to the classes for adding/editing/deleting classes or instances tab for adding/editing/deleting instances. Instances for a given class are shown when navigate to instance tab. Choose the class you want to add sibling or subclasses to or add instances for and add these.
 
-4. To add an instance - click on the diamond with a plus - this will add instances for the selected class. Add rdfs labels, definitions, restrictions etc. 
+4. To add a class - click on 'create subclass' or 'create sibling class' icon (two dots linked with lines). Add rdfs label, definition, 'has curation status', etc.
 
-5. Save and reason over in p4 before committing, if you've edited classes and instances commit both the obi.owl and investigation-use-case.owl
+5. To add an instance - click on the diamond with a plus - this will add instances for the selected class. Add rdfs labels, definitions, restrictions etc. 
+
+6. Save and reason over in p4 using Hermit before committing, commit the obi.owl.
 
 <hr>
 
