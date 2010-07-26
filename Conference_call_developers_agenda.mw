@@ -47,11 +47,26 @@
 
 '''26 July'''  Chair: Carlo
 
-Agenda
+Agenda and Notes
 
 1. chairs for next round dev calls
 
+we decided to stick on Monday calls at list until september.
+A proposed list of people for chairing is already on the wiki so please check and arrange changes if required.
+
+
 2. OBI release status
+
+We reviewed metadata for curation status.
+
+We went through the set of terms with no curation status and fix them.
+
+We decided we need an additional status in IAO "To be replaced by external ontology term".
+Carlo will send a request to OBI dev.
+
+
+
+We didn't make it to go through the trackers:
 
 3. Tracker items:
 * about web service
