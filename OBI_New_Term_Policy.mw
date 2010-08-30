@@ -33,8 +33,8 @@ Both formats are fine.
   WEB:http://en.wikipedia.org/wiki/Microarray
   MO_697 arrayer
 
-For external ontology, it is recommended to provide term ID.
- 
+If definition is taken or modified from an external ontology term, it is recommended provide term external ontology ID.
+
 * '''Editor Preferred Term''': should be same as the term label
 The Term Label will be copied to 'Editor Preferred Term' using the script during the OBI release. It means any value given in this annotation will be overwritten. If you would like to add synonym, please add it to 'alternative term'.
 
@@ -43,9 +43,11 @@ The Term Label will be copied to 'Editor Preferred Term' using the script during
   metadata incomplete: not all required metadata are provided or the editor still works on the provided minimal metadata. (should be more than label provided)
   metadata complete: all required metadata have been provided
 
-It is not recommended set the curation status as 'pending final vetting' and 'ready for release' if nobody other than the definition editor (person not group) review the terms.
+It is not recommended set the curation status of a term as 'pending final vetting' and 'ready for release' if nobody other than the definition editor which is one person review the term.
 	
-For OBI release, no term should be at 'uncurated' status. The terms which curation status is 'organizational term' (renamed from 'placeholder') or 'example to be eventually removed' will be removed before the release.
+In the OBI release version, no term should be at 'uncurated' status. The terms which curation status is 'organizational term' (renamed from 'placeholder') or 'example to be eventually removed' will be removed before the release.
 
-Details of OBI metadata and the allowed values used of curation status, please check:
+Details of OBI metadata and the allowed values of curation status, please check:
 http://obi-ontology.org/page/OBI_Minimal_metadata
+
+(Discussed and approved on Aug 30, 2010 dev call)
