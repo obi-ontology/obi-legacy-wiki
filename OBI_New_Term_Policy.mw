@@ -3,11 +3,11 @@
 a new term into OBI and would like to be discussed on today's dev call.
 
 To add a new term into OBI, please provide minimal required metadata of the term if possible, which are
-- Definition
-- Definition Source
-- Definition Editor
-- Editor Preferred Term
-- Curation status
+  * Definition
+  * Definition Source
+  * Definition Editor
+  * Editor Preferred Term
+  * Curation status
 
 * '''Definition''': should follow OBO foundry principle (http://www.obofoundry.org/wiki/index.php/OBO_Foundry_Principles):
   the genus-species form: An A =def. a B which Cs, where B is the parent of the defined term A and C is the defining characteristic of those Bs which are also As. 
