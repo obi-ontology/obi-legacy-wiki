@@ -29,7 +29,7 @@ Both formats are fine.
   WEB:http://en.wikipedia.org/wiki/Microarray
   MO_697 arrayer
 
-If definition is taken or modified from an external ontology term, it is recommended provide term external ontology ID.
+If definition is taken or modified from an external ontology term, it is recommended provide the external ontology term ID.
 
 * '''Editor Preferred Term''': should be same as the term label
 The Term Label will be copied to 'Editor Preferred Term' using the script during the OBI release. It means any value given in this annotation will be overwritten. It is recommended 
