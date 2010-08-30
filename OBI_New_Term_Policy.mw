@@ -37,6 +37,7 @@ If definition is taken or modified from an external ontology term, it is recomme
 
 * '''Editor Preferred Term''': should be same as the term label
 The Term Label will be copied to 'Editor Preferred Term' using the script during the OBI release. It means any value given in this annotation will be overwritten. If you would like to add synonym, please add it to 'alternative term'.
+It is recommended not touch this annotation when you add/edit terms.
 
 * '''curation status''': commonly used curation status when adding a new term:
   uncurated: nothing except label
