@@ -5,11 +5,10 @@
 # '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI in Protege 3.4]'''
 # '''[http://obi-ontology.org/page/Tutorials#Protege4 Working with OBI version Protege 4]'''
 # '''[http://obi-ontology.org/page/Tutorials#Release OBI release process]'''
-# '''[http://obi-ontology.org/page/Tutorials#MIREOT How to import external terms into OBI]'''
-# '''[http://obi-ontology.org/page/Tutorials#Obsoletion Obsoleting terms in OBI]'''
+# '''[http://obi-ontology.org/page/Tutorials#MIREOT How to import external terms into OBI - MIREOT]'''
 # '''[http://obi-ontology.org/page/Tutorials#EditingOBI Editing OBI in Protege 3.4]'''
 # '''[http://obi-ontology.org/page/Tutorials#Instances Editing instances]'''
-
+# '''[http://obi-ontology.org/page/Tutorials#Obsoletion Obsoleting terms in OBI]'''
 '''[http://www.bioontology.org/wiki/index.php/From_BFO_to_IAO OBI Tutorial from ICBO conference]'''
 
 <hr>
@@ -198,6 +197,7 @@ You cannot click on the .pprj file in this case. Instead check out OBI from the 
 The current OBI release process is documented [http://docs.google.com/Doc?docid=0Acx6Blq96uycZHpwcm5td18xM256aHBmd2Z4&hl=en&invite=CKGzoJoE here] You may need to request edit privs to this document
 
 We are considering to move OBI release using JAVA based program. [[release_notes | Here]] are discussion about it.
+<hr>
 
 ==MIREOT==
 
@@ -361,6 +361,28 @@ After testing the modified files work properly to import terms from new resource
 If you need help, please contact Alan Ruttenberg at alanruttenberg at gmail.com.
 <hr>
 
+==EditingOBI==
+
+To edit OBI in Protege 3.4
+
+1. Click on the obi-edit.pprj file - this will open the OWL file in Protege 3.4 and will render all properties etc with rdfs labels
+
+2. Click on the meta data tab, select the obi.owl
+
+3. Click Pencil icon. (Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file.)
+
+4. Navigate to the classes for adding/editing/deleting classes or instances tab for adding/editing/deleting instances. Instances for a given class are shown when navigate to the instance tab. Choose the class you want to add sibling or subclasses to or add instances for and add these.
+
+5. To add a class - click on 'create subclass' or 'create sibling class' icon (two dots linked by lines with a plus). Add rdfs label, definition, 'has curation status', restriction etc.
+
+6. To add an instance - click on the diamond with a plus - this will add instances for the selected class. Add rdfs labels, definitions, restrictions etc. 
+
+For minimal requirement of meta data for a term in OBI, please check http://obi-ontology.org/page/OBI_Minimal_metadata
+
+7. Save and reason over in p4 using Hermit before committing, commit the obi.owl.
+
+<hr>
+
 ==Obsoletion==
 
 See policy http://obi-ontology.org/page/OBI_Deprecation_Policy  , IMPORTANT, deprecated terms need to be advertised to the list prior to deprecation, see policy link
@@ -389,28 +411,6 @@ Checkout a fresh update of OBI, open in 3.4.1
 9. open and reason over in p4, check consistency - if you leave the old parent and the obolste one will generate an inconsistency
 
 10. if OK check in as a new file with an svn log
-
-<hr>
-
-==EditingOBI==
-
-To edit OBI in Protege 3.4
-
-1. Click on the obi-edit.pprj file - this will open the OWL file in Protege 3.4 and will render all properties etc with rdfs labels
-
-2. Click on the meta data tab, select the obi.owl
-
-3. Click Pencil icon. (Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file.)
-
-4. Navigate to the classes for adding/editing/deleting classes or instances tab for adding/editing/deleting instances. Instances for a given class are shown when navigate to the instance tab. Choose the class you want to add sibling or subclasses to or add instances for and add these.
-
-5. To add a class - click on 'create subclass' or 'create sibling class' icon (two dots linked by lines with a plus). Add rdfs label, definition, 'has curation status', restriction etc.
-
-6. To add an instance - click on the diamond with a plus - this will add instances for the selected class. Add rdfs labels, definitions, restrictions etc. 
-
-For minimal requirement of meta data for a term in OBI, please check http://obi-ontology.org/page/OBI_Minimal_metadata
-
-7. Save and reason over in p4 using Hermit before committing, commit the obi.owl.
 
 <hr>
 
