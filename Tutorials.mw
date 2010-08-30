@@ -380,6 +380,23 @@ To edit OBI in Protege 3.4
 For minimal requirement of meta data for a term in OBI, please check http://obi-ontology.org/page/OBI_Minimal_metadata
 
 7. Save and reason over in p4 using Hermit before committing, commit the obi.owl.
+<hr>
+
+==Instances==
+
+To edit OBI instances e.g. for the investigation use case
+
+1. Click on the obi.pprj file - this will open the OWL file in 3.4.1 and will render all properties etc with rdfs labels
+
+2. Click on the meta data tab, select the instances file e.g. Investigation-use-case.owl
+
+3. Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file. If you need to add a class then you'll be editing the obi.owl so repeat the process for selecting the active ontology but select the obi.owl file. 
+
+4. Navigate to the instances tab. Instances for a given class are shown, unless click on owl thing when all are shown. Choose the class you want instances for and add these
+
+4. To add an instance - click on the diamond with a plus - this will add instances for the selected class. Add rdfs labels, definitions, restrictions etc. 
+
+5. Save and reason over in p4 before committing, if you've edited classes and instances commit both the obi.owl and investigation-use-case.owl
 
 <hr>
 
@@ -411,21 +428,3 @@ Checkout a fresh update of OBI, open in 3.4.1
 9. open and reason over in p4, check consistency - if you leave the old parent and the obolste one will generate an inconsistency
 
 10. if OK check in as a new file with an svn log
-
-<hr>
-
-==Instances==
-
-To edit OBI instances e.g. for the investigation use case
-
-1. Click on the obi.pprj file - this will open the OWL file in 3.4.1 and will render all properties etc with rdfs labels
-
-2. Click on the meta data tab, select the instances file e.g. Investigation-use-case.owl
-
-3. Pencil icon should be active, if not go to OWL tab, ontology repositories and deselect read only for the relevant file. If you need to add a class then you'll be editing the obi.owl so repeat the process for selecting the active ontology but select the obi.owl file. 
-
-4. Navigate to the instances tab. Instances for a given class are shown, unless click on owl thing when all are shown. Choose the class you want instances for and add these
-
-4. To add an instance - click on the diamond with a plus - this will add instances for the selected class. Add rdfs labels, definitions, restrictions etc. 
-
-5. Save and reason over in p4 before committing, if you've edited classes and instances commit both the obi.owl and investigation-use-case.owl
