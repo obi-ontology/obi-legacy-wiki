@@ -130,6 +130,8 @@ or
 Download OBI friendly Protege4 OBI version for Mac:
 http://dl.dropbox.com/u/4905123/Protege41MAC.zip
 
+Decline when prompted to install udpates for the plugins, as the plugin versions contained in the download were specifically picked to work with OBI. 
+
 * Starting Protege4 OBI version
 
 For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege4. 
@@ -141,10 +143,10 @@ Java 1.5 is recommended for Pellet. Details about setting Java classpath: http:/
 * Setting Protege perferences
 
 Click 'File' menu and choose 'Preferences...':
-# In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. (Leave the column empty, works well too).
+# In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. 
 # In the 'Reasoner' tab, unselect all but the first two choices ( = Unsatisfiability, and Superclasses are checked).
 # In the 'Save' tab, make sure XML Writer 'Use XML Entities' is checked off.
-# To display the class labels rather than the OBI ids, choose 'Render entitities using annotation values' in the 'Renderer' tab.
+# To display the class labels rather than the OBI ids, choose 'Render entitities using annotation values' in the 'Renderer' tab. If the OBI classes are still displaying as IDs, go the the 'Renderer tab', click on the 'Annotations ...' button, select 'label', leave the language column blank and hit ok. 
 # Hit 'OK' button when you finish the setting
 
 You may need to assign Protege more memory. Details here http://protegewiki.stanford.edu/index.php/Setting_Heap_Size.
