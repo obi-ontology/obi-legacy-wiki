@@ -4,15 +4,16 @@ Several groups want to have a user friendly community version of OBI. Here is a 
 
 A community view should: 
 
-- be a subset of OBI classes, relations, and instances
-- allow to overwrite preferred labels with community specific versions 
-- reason without errors
-- be released as the reasoned version
-- be searchable by itself in e.g. Bioportal 
-- be stable so that any updates to OBI / RO / BFO / etc. do not affect it
-- be quick to update for a new version of OBI, resulting in a new community specific release
+ - be a subset of OBI classes, relations, and instances
+ - allow to overwrite preferred labels with community specific versions 
+ - reason without errors
+ - be released as the reasoned version
+ - be searchable by itself in e.g. Bioportal 
+ - be stable so that any updates to OBI / RO / BFO / etc. do not affect it
+ - be quick to update for a new version of OBI, resulting in a new community specific release
 
 Implementations
+
 Discussed so far were two approaches
-- maintain spreadsheet with IDs, preferred labels
-- maintain annotation properties in the OBI file
+ - maintain spreadsheet with IDs, preferred labels
+ - maintain annotation properties in the OBI file
