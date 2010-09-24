@@ -22,8 +22,10 @@ Then we define injection, extraction, puncture etc. as functions independent of 
 3. Sequence related stuff
 
 BP:
- - propose to rename the imported SO terms 'region' to 'property of sequence region'???, 'polypeptide' to 'polypeptide sequence', ...
- - 'secondary structure of sequence macromolecule' is under quality; should now be under GDC?
+
+- propose to rename the imported SO terms 'region' to 'property of sequence region'???, 'polypeptide' to 'polypeptide sequence', ...
+
+- 'secondary structure of sequence macromolecule' is under quality; should now be under GDC?
 
 4. Under 'spatial region'
 
