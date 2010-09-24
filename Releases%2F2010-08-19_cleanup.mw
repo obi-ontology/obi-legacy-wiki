@@ -40,20 +40,19 @@ BP: Vote strongly to remove unused bfo classes ('spatial region', 'object bounda
 Definition:
 	a role that borne by an organism and realized by some group randomization process  
 
-restriction:
-    is_specified_output_of some 'group randomization'
+restriction: is_specified_output_of some 'group randomization'
 
 JZ: Do we usually say a role is realized by a process rather than the output of a process?
 
 7. Duplicate terms
 
- - DNA ligase (one is OBI term, one is imported from PRO)
+- DNA ligase (one is OBI term, one is imported from PRO)
 
-   JZ: Do we want to deprecate OBI one?
+JZ: Do we want to deprecate OBI one?
 
- - supplies (one is class, planned process OBI_0000907, the other one is object property OBI_0000646)
+- supplies (one is class, planned process OBI_0000907, the other one is object property OBI_0000646)
 
-   JZ: is OBI allowed identical rdfs:label
+JZ: is OBI allowed identical rdfs:label
 
 8. 'investigation' with duplicate defintion
 
@@ -95,3 +94,9 @@ MC:
 do we want to add the doap info we had added in the previous file? Information on the project and website for example. ( search for "doap" at http://obi.svn.sourceforge.net/viewvc/obi/releases/2009-11-06/merged/merged-obi.owl for full details)
 
 Also see: http://obi-ontology.org/page/Releases/How_OBI_is_versioned
+
+14. Release Note
+
+What we would like to add?
+
+See philly release notes: http://obi-ontology.org/page/Releases/2009-11-06
