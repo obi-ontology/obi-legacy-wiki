@@ -1,0 +1,97 @@
+1. 'injection' process 
+
+AR: Our current definitions of injection are in terms of realizations of
+syringe functions.
+
+How would you either:
+a) modify it to be more accurate
+b) justify rejecting "Needle, tube and peristaltic pump" on the basis of that definition
+
+JF: the OBI injection function definition covers both the needle and pump examples.
+
+BP: 
+I thought we define syringe as something like: A tube with a single orifice upon which a needle, nozzle or tubing can be fitted and through which liquid or gas can be transfererd into or out from the volume inside of the tube by applying pressure to it. (needs work)
+
+Then we define injection, extraction, puncture etc. as functions independent of syringe
+
+2. use of 'some' and 'only'
+
+ - all 'is realized by' relation should use 'only'
+ - all 'inheres_in' relation should use 'some'
+
+3. Sequence related stuff
+
+BP:
+ - propose to rename the imported SO terms 'region' to 'property of sequence region'???, 'polypeptide' to 'polypeptide sequence', ...
+ - 'secondary structure of sequence macromolecule' is under quality; should now be under GDC?
+
+4. Under 'spatial region'
+
+BP:
+ - 'interrogation point' should be a site
+ - 'jet_in_air_flow_chamber' seems to be a material entity (the chamber)
+
+5. Unused BFO terms
+
+BP: Vote strongly to remove unused bfo classes ('spatial region', 'object boundary', 'object', 'object aggregate', 'fiat object part', and everything except 'processual entity'  from 'occurent'). They are extremely confusing in conjunction with the OBI hierarchy. 
+
+6. 'randomized group participant role'
+
+Definition:
+	a role that borne by an organism and realized by some group randomization process  
+
+restriction:
+    is_specified_output_of some 'group randomization'
+
+JZ: Do we usually say a role is realized by a process rather than the output of a process?
+
+7. Duplicate terms
+
+ - DNA ligase (one is OBI term, one is imported from PRO)
+
+   JZ: Do we want to deprecate OBI one?
+
+ - supplies (one is class, planned process OBI_0000907, the other one is object property OBI_0000646)
+
+   JZ: is OBI allowed identical rdfs:label
+
+8. 'investigation' with duplicate defintion
+
+JZ: Is it caused by IAO import this OBI term?
+
+9. There are some empty annotation properties 
+
+JZ: Do we need to clean up? (using script)
+
+10. 'study subject role'
+
+JZ: How to distinguish with 'specimen role'? Disagree with the logical definition it has now.
+
+Don't think 'biological replicate role' and 'technique replicate role' should be its subclass
+
+11. Missing IDs in purl list 
+
+MC: Most are annotation properties, have those been deprecated? Others should still be present (even if obsoleted) such as infectious agent (which now has id OBI_0000925)
+
+JZ: Some are individuals of 'manufacturer role', deprecated? or just deleted? Do we want to track the changes of annotation properties/individuals in OBI?
+
+12. Some odd things with the list of purls to be created:
+
+MC:
+
+<rec><purl>/obo/OBI_0000449</purl><url>http://sw.neurocommons.org/obiterm/OBI_0000449</url><id>ALANRUTTENBERG</id><id>OBI</id><type>User_Batch_Add</type></rec>
+
+I didn't find an OBI_0000449 in the merged file
+
+<rec><purl>/obo/OBI_0000585</purl><url>http://sw.neurocommons.org/obiterm/OBI_0000585</url><id>ALANRUTTENBERG</id><id>OBI</id><type>User_Batch_Add</type></rec>
+
+OBI_0000585 is an old msi term,  <rdfs:label xml:lang="en">obsolete_chromatography column according to separated component</rdfs:label>, it seems odd that it would appear just now.
+
+JZ: I cannot find OBI_0000585 in OBI philly release version. It could be added after last release and then was obsoleted.
+
+13. doap info
+
+MC:
+do we want to add the doap info we had added in the previous file? Information on the project and website for example. ( search for "doap" at http://obi.svn.sourceforge.net/viewvc/obi/releases/2009-11-06/merged/merged-obi.owl for full details)
+
+Also see: http://obi-ontology.org/page/Releases/How_OBI_is_versioned
