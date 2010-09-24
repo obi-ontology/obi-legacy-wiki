@@ -30,8 +30,10 @@ BP:
 4. Under 'spatial region'
 
 BP:
- - 'interrogation point' should be a site
- - 'jet_in_air_flow_chamber' seems to be a material entity (the chamber)
+
+- 'interrogation point' should be a site
+
+- 'jet_in_air_flow_chamber' seems to be a material entity (the chamber)
 
 5. Unused BFO terms
 
