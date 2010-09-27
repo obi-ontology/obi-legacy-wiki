@@ -99,7 +99,17 @@ do we want to add the doap info we had added in the previous file? Information o
 
 Also see: http://obi-ontology.org/page/Releases/How_OBI_is_versioned
 
-''' 14. Release Note '''
+''' 14. curation note '''
+
+JZ: curation note - need to be removed from the release?
+
+''' 15. Data Property - OBI_1110121 '''
+    
+JZ: <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBI_1110121"/>
+
+empty property term, do we need it?
+
+''' 16. Release Note '''
 
 What we would like to add?
 
