@@ -103,13 +103,26 @@ Also see: http://obi-ontology.org/page/Releases/How_OBI_is_versioned
 
 JZ: curation note - need to be removed from the release?
 
-''' 15. Data Property - OBI_1110121 '''
+''' 15. Empty entity - OBI_1110121, OBI_0001009 '''
     
-JZ: <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBI_1110121"/>
+JZ: 
 
-empty property term, do we need it?
+Data Property - OBI_1110121
 
-''' 16. Release Note '''
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBI_1110121"/>
+
+Individual (curation status specification) - OBI_0001009   
+
+<obo:IAO_0000078 rdf:about="http://purl.obolibrary.org/obo/OBI_0001009"/>
+
+do we need it?
+
+''' 16. imported IAO terms in obi.owl, external.owl '''
+
+Do we want to clean them up?
+
+
+''' 17. Release Note '''
 
 What we would like to add?
 
