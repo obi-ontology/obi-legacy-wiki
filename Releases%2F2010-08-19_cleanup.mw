@@ -19,6 +19,8 @@ Then we define injection, extraction, puncture etc. as functions independent of 
  - all 'is realized by' relation should use 'only'
  - all 'inheres_in' relation should use 'some'
 
+DONE - SVN revision 3060
+
 ''' 3. Sequence related stuff '''
 
 BP:
