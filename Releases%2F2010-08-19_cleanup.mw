@@ -56,9 +56,14 @@ JZ: Do we usually say a role is realized by a process rather than the output of 
 
 JZ: Do we want to deprecate OBI one?
 
+Deprecate OBI DNA ligase - DONE
+
 - supplies (one is class, planned process OBI_0000907, the other one is object property OBI_0000646)
 
 JZ: is OBI allowed identical rdfs:label
+
+Rename planned process OBI_0000907 supplies to supplying - DONE
+
 
 ''' 8. 'investigation' with duplicate defintion '''
 
