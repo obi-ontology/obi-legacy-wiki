@@ -122,7 +122,18 @@ Individual (curation status specification) - OBI_0001009
 
 <obo:IAO_0000078 rdf:about="http://purl.obolibrary.org/obo/OBI_0001009"/>
 
+
+Individual (curation status specification)
+
+<obo:IAO_0000225 rdf:about="http://purl.obolibrary.org/obo/OBI_0001025"/>
+    
+<obo:IAO_0000225 rdf:about="http://purl.obolibrary.org/obo/OBI_0001051"/>
+    
+<obo:IAO_0000225 rdf:about="http://purl.obolibrary.org/obo/OBI_0001069"/>
+
 do we need it?
+
+Deleted the undefined terms: OBI_1110121,OBI_0001009,OBI_0001025,OBI_0001051,OBI_0001069
 
 ''' 16. imported IAO terms in obi.owl, external.owl '''
 
