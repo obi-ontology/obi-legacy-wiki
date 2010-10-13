@@ -56,14 +56,15 @@ JZ: Do we usually say a role is realized by a process rather than the output of 
 
 JZ: Do we want to deprecate OBI one?
 
-Deprecate OBI DNA ligase - DONE
+Deprecate OBI DNA ligase
 
 - supplies (one is class, planned process OBI_0000907, the other one is object property OBI_0000646)
 
 JZ: is OBI allowed identical rdfs:label
 
-Rename planned process OBI_0000907 supplies to supplying - DONE
+Rename planned process OBI_0000907 supplies to supplying
 
+DONE - SVN revision 33061
 
 ''' 8. 'investigation' with duplicate defintion '''
 
@@ -134,6 +135,8 @@ Individual (curation status specification)
 do we need it?
 
 Deleted the undefined terms: OBI_1110121,OBI_0001009,OBI_0001025,OBI_0001051,OBI_0001069
+
+DONE - SVN revision 3061
 
 ''' 16. imported IAO terms in obi.owl, external.owl '''
 
