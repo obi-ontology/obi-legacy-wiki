@@ -111,6 +111,8 @@ Also see: http://obi-ontology.org/page/Releases/How_OBI_is_versioned
 
 JZ: curation note - need to be removed from the release?
 
+DONE - removed after merged obi.owl with MIREOT terms
+
 ''' 15. Empty entity - OBI_1110121, OBI_0001009 '''
     
 JZ: 
@@ -142,6 +144,7 @@ DONE - SVN revision 3061
 
 Do we want to clean them up?
 
+DONE - remove IAO term label from external.owl
 
 ''' 17. Release Note '''
 
