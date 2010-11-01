@@ -16,6 +16,31 @@
 '''1 November''' Chair: Carlo T.
  - services
 
+Agenda and notes:
+1) Update about OBI release
+2) Follow-up on eagle-i services
+
+Attendees:
+Carlo Torniai
+Bjoern Peters
+Melissa Hendel
+Jessica Turner
+Jennifer Fostel
+
+Notes:
+
+We briefly discuss about the status of OBI release and it seems that we are at the final stage with Alan reviewing the 
+latest files Jie posted.
+
+Discussion about services:
+- We discussed about aligning the current service classes (under planned process) in eagle-i to what is in OBI related to service provider/consumer role.
+We all agreed that instead of proliferation of roles we would like to identify for each of the current classes of services in eagle-i ( which are aligned with what NIF has) a process (starting from what is in OBI) and then have services as defined/inferred [process provided as service]
+
+AI: Melissa and Carlo will go through the service classes and OBI processes to assess if there is the need to add processes to
+Then e can discuss in the next OBI call the best way to define services.
+
+Jessica Turner we will presenting her Cognitive Process ontology in one of the call in November in order to asses what should go in OBI/ what to import form OBI.
+
 ====October 2010====
 '''25 October''' Chair: Jie Z.
 
