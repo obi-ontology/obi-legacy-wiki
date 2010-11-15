@@ -9,6 +9,20 @@
 '''22 November''' Chair: Bjoern P
 
 '''15 November''' Chair: Jennifer F
+Attending:  AR, CS, CT, JF, JZ
+Topic:  age measurement datum
+
+age measurement assay: An assay that measures the duration of temporal interval of a process that is part of the life of the bearer, where the initial time point of the measured process is close, in some sense, to the beginning of some transitional state of the bearer such as birth or when planted.
+
+note: life of bearer doesn't imply organism
+note: this assay measures time not developmental stage.  we recognize that development can take different time periods under different conditions such as media / temperature
+note: Note that we are currently defining subtypes of age measurement datum that specify when the age is relative to, e.g. planting, as we don't have adequate temporal predicates yet.
+note:  age as a quality is dubious;; we plan to revisit
+note:  stages in development are currently handled with controlled vocabulary, such as 2-somite stage
+
+age measurement assay realizes some evaluant role and has_specified_output some 'age measurement datum'
+age measurement datum is_specified_output of some age measurement assay and is_quality_measure_of some age
+
 
 '''8 November''' Chair: Chris S
  - MO term submissions, review of services
