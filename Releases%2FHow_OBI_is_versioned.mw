@@ -4,7 +4,7 @@ Roughly, get away from numeric versions - instead favoring dates. Use vocabulary
 
 Can still have nicknames, e.g. "Philly (aka version 1.0)", which are recorded as the label for the doap:Version
 
-The template code is in [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches/doap.owl.template doap.owl.template]. It has more assertions than the below to ensure that all properties and classes are defined.
+The template code is in [https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches/doap.template doap.template]. It has more assertions than the below to ensure that all properties and classes are defined.
 
 <pre>
 owl:versionIRI http://purl.obolibrary.org/obo/obi/2009-08-30/obi.owl
