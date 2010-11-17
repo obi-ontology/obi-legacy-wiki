@@ -35,4 +35,4 @@ http://ashby.csail.mit.edu/cgi-bin/obiterm?ref=OBI_0000225)
 
 Unresolved as yet
 
-Melanie: I liked having the corresponding SVN version number (even though I agree that it was not obvious that our past version was based on the SVN revision number). Doap has project version and software revision info, we could use software revision info or (and that would be my preferred option) contact them to add a new class or property "RepositoryRevisionNumber".
+Melanie: I liked having the corresponding SVN version number (even though I agree that it was not obvious that our past version was based on the SVN revision number). Doap has project version and software revision info, we could use software revision info or (and that would be my preferred option) contact them to add a new class or property "RepositoryRevisionNumber". Submitted doap ticket at http://trac.usefulinc.com/doap/ticket/10
