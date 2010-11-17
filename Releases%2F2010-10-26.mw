@@ -1,0 +1,139 @@
+__NOEDITSECTION__
+= Release notes for OBI 2010-10-26  Release =
+
+<b>Date of release: pending</b>
+
+<!--<b>Access:</b> <br>
+<i> This version:</i> http://purl.obolibrary.org/obo/obi/2009-11-06/obi.owl <br>
+<i> Latest Version:</i> http://purl.obolibrary.org/obo/obi.owl <br>
+<i> Browse:</i> http://purl.obolibrary.org/obo/obi/browse<br>
+<i> Tracker:</i> http://purl.obolibrary.org/obo/obi/tracker<br>
+<i> Please see the Tutorials for instructions on downloading and viewing.</i> http://obi-ontology.org/page/Tutorials <br>-->
+
+{{WideTOC|__TOC__}}
+ 
+== About this ontology ==
+ 
+The Ontology for Biomedical Investigations (OBI) project has developed an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology supports the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology represents the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. OBI is being built under the Basic Formal Ontology (BFO) and importes terms from OBO foundry ontologies. OBI also reflects domains specific extensions which were merged into obi.owl. These include terms merged into obi.owl from the Immune Epitope Database Ontology (www.ideb.org) and community suggested terms from many communities. 
+
+Aims:
+
+* Develop an Ontology for Biomedical Investigations in collaboration with groups representing different biological and technological domains involved in Biomedical Investigations
+* Make OBI compatible with other bio-ontologies
+* Develop OBI using an open source approach
+* Create a valuable resource for the biomedical communities to provide a source of terms for consistent annotation of investigations 
+
+More details at: http://purl.obolibrary.org/obo/obi
+
+Further reading:  You can find the OBI manuscript which this version supports at http://purl.obolibrary.org/obo/obi/repository/trunk/docs/papers/release/Manuscript.doc
+ 
+== Ontology development ==
+
+OBI Ontology Development is collaborative, term suggestions and new community representatives are welcome. Single terms can be suggested via the OBI tracker http://purl.obolibrary.org/obo/obi/tracker. 
+
+If you represent a community and/or have many terms to suggest please email OBI OBI Developers <obi-devel@lists.sourceforge.net> with details. If you would like to see the latest development version please check out the development copy of OBI from sourceforge. 
+
+Tutorials on how to do this here: http://obi-ontology.org/page/Tutorials
+
+The OBI wiki can be found at: http://obi-ontology.org/
+
+== How to contact us ==
+
+Send mail with questions about OBI to obi-users@googlegroups.com. You
+can sign up for this group, or view the archives, at:
+http://groups.google.com/group/obi-users
+
+Discussion among OBI developers is at obi-devel@lists.sourceforge.net. You
+can sign up for this group, or view the archives, at:
+https://lists.sourceforge.net/lists/listinfo/obi-devel or
+http://groups.google.com/group/obi-developer
+
+OBI term requests, as well as reports of bugs or other issues can be
+entered at our tracker: http://purl.obolibrary.org/obo/obi/tracker The
+tracker currently requires you to have or sign up for a sourceforge
+account. Please send mail to obi-users@googlegroups.com if this is
+problematic.
+
+== New to this OBI release ==
+ 
+
+
+== Obsolete classes in OBI ==
+
+The obsoletion policy is described on the OBI wiki - http://obi-ontology.org/page/OBIDeprecationPolicy
+
+OBI will enforce a strict deprecation policy: OBI Identifiers in this release are stable and will be maintained in new versions.
+
+== Known issues ==
+
+* This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
+
+
+Please sign up to the obi-users mailing list to get details of new releases and links to versioned release notes.
+
+== External ontology and resource mapping/imports list ==
+ 
+The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process (Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term. Proceedings of the International Conference on Biomedical Ontologies (ICBO) http://icbo.buffalo.edu/) is below. 
+
+* Information Artifact Ontology (IAO)
+* NCBI Taxonomy
+* Basic Formal Ontology (BFO)
+* Gene Ontology (GO)
+* Phenotypic Quality Ontology (PATO)
+* Chemical Entities of Biological Interest ChHEBI
+* Cell Type Ontology (CL)
+* Foundational Model of Anatomy (FMA)
+* Protein Ontology (PRO)
+* Unit Ontology (UO)
+* Common Anatomy Reference Ontology (CARO)
+* Environment Ontology (ENVO)
+* Vaccine Ontology (VO)
+* Neuroscience Information Framework Ontologies and Terminologies (NIFSTD) 
+* Sequence Ontology (SO)
+* Human Phenotype Ontology (HPO)
+
+You can request import of additional terms by adding a tracker item at http://purl.obolibrary.org/obo/obi/tracker. Please provide details of the source ontology, term ids and a suggested placement in OBI if possible.
+
+ 
+==  Count of terms in and used by OBI ==
+<pre>
+-----------------------------
+OBI Classes		
+Imported Classes	
+OBI Individuals		  
+Imported Individuals	  
+OBI Properties		  
+Imported Properties	  
+
+Imported Classes Breakdown:
+----------------------------
+IAO		  
+NCBITaxon	
+BFO		  
+GO		  
+PATO		  
+CHEBI		  
+CL		  
+FMA		   
+PRO		  
+UO		   
+CARO		   
+ENVO		   
+VO		   
+Birnlex		   
+SO		   
+HP		   
+
+Imported Individuals Breakdown:
+------------------------------
+IAO		  
+
+Imported Properties Breakdown:
+------------------------------
+IAO		   
+RO		   
+RO proposed	   	
+
+</pre>
+
+Release note authors:
