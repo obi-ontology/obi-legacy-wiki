@@ -5,127 +5,6 @@
 
 ===Conference Call Agenda Items===
 
-====November 2010====
-'''22 November''' Chair: Bjoern P
-
-'''15 November''' Chair: Jennifer F
-Attending:  AR, CS, CT, JF, JZ
-Topic:  age measurement datum
-
-age measurement assay: An assay that measures the duration of temporal interval of a process that is part of the life of the bearer, where the initial time point of the measured process is close, in some sense, to the beginning of some transitional state of the bearer such as birth or when planted.
-
-note: life of bearer doesn't imply organism
-
-note: this assay measures time not developmental stage.  we recognize that development can take different time periods under different conditions such as media / temperature
-
-note: note that we are currently defining subtypes of age measurement datum that specify when the age is relative to, e.g. planting, as we don't have adequate temporal predicates yet.
-
-note:  age as a quality is dubious;; we plan to revisit
-
-note:  stages in development are currently handled with controlled vocabulary, such as 2-somite stage
-
-age measurement assay realizes some evaluant role and has_specified_output some 'age measurement datum'
-
-age measurement datum is_specified_output of some age measurement assay and is_quality_measure_of some age
-
-
-'''8 November''' Chair: Chris S
- - MO term submissions, review of services
-
-'''1 November''' Chair: Carlo T.
- - services
-
-Agenda and notes:
-1) Update about OBI release
-2) Follow-up on eagle-i services
-
-Attendees:
-Carlo Torniai
-Bjoern Peters
-Melissa Hendel
-Jessica Turner
-Jennifer Fostel
-
-Notes:
-
-We briefly discuss about the status of OBI release and it seems that we are at the final stage with Alan reviewing the 
-latest files Jie posted.
-
-Discussion about services:
-- We discussed about aligning the current service classes (under planned process) in eagle-i to what is in OBI related to service provider/consumer role.
-We all agreed that instead of proliferation of roles we would like to identify for each of the current classes of services in eagle-i ( which are aligned with what NIF has) a process (starting from what is in OBI) and then have services as defined/inferred [process provided as service]
-
-AI: Melissa and Carlo will go through the service classes and OBI processes to assess if there is the need to add processes to
-Then e can discuss in the next OBI call the best way to define services.
-
-Jessica Turner we will presenting her Cognitive Process ontology in one of the call in November in order to asses what should go in OBI/ what to import form OBI.
-
-====October 2010====
-'''25 October''' Chair: Jie Z.
-
-1. release process / issues
-  external ontologies: import or include in the obi.owl, will send email about it
-
-2. obsolete policy
-  deprecated terms before Philly release will be removed from obi.owl permenantly
-
-3. continue discussion of MO requested terms
-https://sourceforge.net/tracker/?func=detail&aid=3087730&group_id=177891&atid=886178
-  Six MO requested terms have been agreed to be added into OBI, details see the tracker
-
-
-'''18 October''' Chair: Chris S
-
-'''11 October''' Chair: Bjoern P
-
-'''4 October''' Chair: Alan R
-
-====September 2010====
-
-'''27 September''' Chair: Jie Z
-
-Canceled due to low attendance(JZ and JF) 
-
-OBI release 2010_08_19 clean up, see:
-
-http://obi-ontology.org/page/Releases/2010-08-19_cleanup
-
-'''20 September''' COORD CALL - Chair: Bjoern P
- - workshop planning (San Diego 2011)
- - paper
- - call schedule (back to Mondays weekly?) + chairs (only those that have time)
- - community view of OBI (if we have time)
-
-'''15 September''' Chair: Philippe R
-
-'''13 September''' Chair: Alan R
-
-'''8 September''' Chair: Helen P
-
-'''6 September''' Labor day - no call
-
-'''1 September''' Chair: Chris S
-
-====August 2010====
-
-'''30 August''' Chair: Jennifer F
- * JZ proposal for tutorial for adding terms to OBI discussed and approved; see e-mail.
- * No call Sept 6 - holiday
-
-'''23 August''' Chair: Bjoern P
-
-'''16 August''' Chair Jie Z
-
- * Gathering requirements for the Protege Change Analysis plugin
- * Curation status of OBI classes
-  https://sourceforge.net/tracker/index.php?func=detail&aid=3034806&group_id=177891&atid=886178
-
-'''9 August'''  Chair: Bjoern P - Coord Call
- * Release Progress Update
- * Proposal for 'binding assays'
-
-
-'''2 August''' Chair: Oliver H
 
 ====July 2010====
 
@@ -134,43 +13,9 @@ http://obi-ontology.org/page/Releases/2010-08-19_cleanup
 
 '''26 July'''  Chair: Carlo
 
-Agenda and Notes
-
-1. chairs for next round dev calls
-
-we decided to stick on Monday calls at list until september.
-A proposed list of people for chairing is already on the wiki so please check and arrange changes if required.
-
-
-2. OBI release status
-
-We reviewed metadata for curation status.
-
-We went through the set of terms with no curation status and fix them.
-
-We decided we need an additional status in IAO "To be replaced by external ontology term".
-Carlo will send a request to OBI dev.
-
-
-
-We didn't make it to go through the trackers:
-
-3. Tracker items:
-* about web service
-https://sourceforge.net/tracker/index.php?func=detail&aid=3031357&group_id=177891&atid=886178
-* about strain/ecotype/cultivar
-https://sourceforge.net/tracker/?func=detail&aid=2919429&group_id=177891&atid=886178
-
 '''21 July'''Weds call suspended for Summer 
 
 '''19 July''' Chair: Chris S
-*Jie has what sounds like a draft release (thanks!) - see July 15 mail. What else needs to be done?
-* Follow ups from BioOntologies SIG?
-* Tracker items
- * Proposal for modeling web services for bioinformatic tools: BLAST. Agree with this approach?
-https://sourceforge.net/tracker/?func=detail&aid=3031357&group_id=177891&atid=886178
- * About Organism strain
-https://sourceforge.net/tracker/?func=detail&aid=2919429&group_id=177891&atid=886178
 
 '''14 July'''Weds Call suspended for Summer. 
 
@@ -2752,12 +2597,12 @@ dev call.
 *** Reply to Allyson on definition paper (All)
 *** Use of AutoID plugin during workshop? (Trish, All)
 *** Decision to have a Developers Call on July 19 and if so what to discuss
-*** Structure of FuGO project- [http://shortpromdresses.org cheap prom dresses] - how to best list the Communities and Coordinators on the [[FuGO]] web site (needs to be done before OMICS publication)
+*** Structure of FuGO project- how to best list the Communities and Coordinators on the [[FuGO]] web site (needs to be done before OMICS publication)
 *** Structure of FuGO project - organizational structure for adding new Community Coordinators? (All)
 *** Community Road Maps? (All)
 *** Finalize content for DILS/JBB poster? (Susanna, All)
 *** Discuss use of xml:lang attribute in [[FuGO]] file? (Daniel/Trish, All)
-*** Update on interest in [http://hobobags.org purse handbags] [[FuGO]] from the Yeast Community? (Chris T)
+*** Update on interest in [[FuGO]] from the Yeast Community? (Chris T)
 *** POSTPONED ITEM FOR WORKSHOP- Discuss Clincal Trial Ontology and how this effects the process and scope of [[FuGO]] (Barry Smith)
 ** Coordinators Reports
 
