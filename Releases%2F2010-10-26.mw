@@ -58,7 +58,7 @@ problematic.
  
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
 
-A total of 285 new concepts were added into this release, including
+A total of 285 new concepts (exclude the concepts imported from external resources) were added into this release, including
 * A list of terms related to the MGED ontology
 * A list of devices and related functions (about 90 terms) terms requested by eagle-i group
 * A list of 25 nucleotide structure mapping assays to support use cases reported by RNA working group (Alain Laederach) from RNAO ontology consortium.
@@ -139,5 +139,5 @@ UBERON  4
 
 Release note authors:
 
-* Alan Ruttenberg begin_of_the_skype_highlighting     end_of_the_skype_highlighting
+* Alan Ruttenberg begin_of_the_skype_highlighting     end_of_the_skype_highlighting begin_of_the_skype_highlighting     end_of_the_skype_highlighting
 * Jie Zheng
