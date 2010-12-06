@@ -64,6 +64,7 @@ A total of 291 new concepts were added into this release, including
 * A list of 25 nucleotide structure mapping assays to support use cases reported by RNA working group (Alain Laederach) from RNAO ontology consortium.
 * A list of 12 assay terms supporting high-throughout sequencing applications
 * A list of 5 assays identified as missing from OBI following a review of Evidence Code Ontology
+* A list of terms required by the INfluenza Ontology
 
 Some known issues of necessary conditions are fixed.
 
@@ -71,7 +72,7 @@ Some known issues of necessary conditions are fixed.
 
 The obsoletion policy is described on the OBI wiki - http://obi-ontology.org/page/OBIDeprecationPolicy
 
-OBI will enforce a strict deprecation policy: OBI Identifiers in this release are stable and will be maintained in new versions.
+OBI enforces a strict deprecation policy: OBI Identifiers in this release are stable and will be maintained in new versions.
 
 == Known issues ==
 
