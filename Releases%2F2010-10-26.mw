@@ -61,7 +61,9 @@ There are more changes since the last release than can be compactly described he
 A total of 291 new concepts were added into this release, including
 * A list of terms related to the MGED ontology
 * A list of devices and related functions (about 90 terms) terms requested by eagle-i group
-* A list of terms related RNAO ontology
+* A list of 25 nucleotide structure mapping assays to support use cases reported by RNA working group (Alain Laederach) from RNAO ontology consortium.
+* A list of 12 assay terms supporting high-throughout sequencing applications
+* A list of 5 assays identified as missing from OBI following a review of Evidence Code Ontology
 
 Some known issues of necessary conditions are fixed.
 
