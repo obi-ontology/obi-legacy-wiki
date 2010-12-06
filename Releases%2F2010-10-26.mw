@@ -29,7 +29,7 @@ Further reading:  You can find the OBI manuscript which this version supports at
  
 == Ontology development ==
 
-OBI Ontology Development is collaborative, term suggestions and new community representatives are welcome. Single terms can be suggested via the OBI tracker http://purl.obolibrary.org/obo/obi/tracker. 
+OBI Ontology Development is collaborative, term suggestions and new community representatives are welcome. Single term can be suggested via the OBI tracker http://purl.obolibrary.org/obo/obi/tracker. 
 
 If you represent a community and/or have many terms to suggest please email OBI OBI Developers <obi-devel@lists.sourceforge.net> with details. If you would like to see the latest development version please check out the development copy of OBI from sourceforge. 
 
@@ -57,6 +57,13 @@ problematic.
 == New to this OBI release ==
  
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
+
+A total of 291 new concepts were added into this release, including
+* A list of terms related to the MGED ontology
+* A list of devices and related functions (about 90 terms) terms requested by eagle-i group
+* A list of terms related RNAO ontology
+
+Some known issues of necessary conditions are fixed.
 
 == Obsolete classes in OBI ==
 
