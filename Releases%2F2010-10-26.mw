@@ -66,7 +66,11 @@ A total of 285 new concepts (exclude the concepts imported from external resourc
 * A list of 5 assays identified as missing from OBI following a review of Evidence Code Ontology
 * A list of terms required by the INfluenza Ontology
 
+The new added OBI terms are listed on - http://obi.svn.sourceforge.net/svnroot/obi/releases/2010-10-26/merged/newClasses.html
+
 Some known issues of necessary conditions are fixed.
+
+For all the details of the difference of this release from the previous one, please check the files under http://obi.svn.sourceforge.net/svnroot/obi/releases/2010-10-26/merged/
 
 == Obsolete classes in OBI ==
 
@@ -139,5 +143,5 @@ UBERON  4
 
 Release note authors:
 
-* Alan Ruttenberg
+* Alan Ruttenberg begin_of_the_skype_highlighting     end_of_the_skype_highlighting begin_of_the_skype_highlighting     end_of_the_skype_highlighting
 * Jie Zheng
