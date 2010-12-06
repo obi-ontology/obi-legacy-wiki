@@ -98,42 +98,35 @@ You can request import of additional terms by adding a tracker item at http://pu
 ==  Count of terms in and used by OBI ==
 <pre>
 -----------------------------
-OBI Classes		
-Imported Classes	
-OBI Individuals		  
-Imported Individuals	  
-OBI Properties		  
-Imported Properties	  
+OBI Classes 1471
+Imported Classes 2176	
+OBI Individuals 64		  
+Imported Individuals 73  
+OBI Properties 43  
+Imported Properties 143	  
 
 Imported Classes Breakdown:
 ----------------------------
-IAO		  
-NCBITaxon	
-BFO		  
-GO		  
-PATO		  
-CHEBI		  
-CL		  
-FMA		   
-PRO		  
-UO		   
-CARO		   
-ENVO		   
-VO		   
-Birnlex		   
-SO		   
-HP		   
-
-Imported Individuals Breakdown:
-------------------------------
-IAO		  
-
-Imported Properties Breakdown:
-------------------------------
-IAO		   
-RO		   
-RO proposed	   	
-
+IAO  112
+NCBITAXON  1170
+BFO  39
+GO  82
+PATO  49
+CHEBI  53
+CL  20
+FMA  12
+PRO  22
+UO  10
+CARO  3
+ENVO  2
+VO  4
+BIRNLEX  1
+SO  4
+HP  1
+UBERON  4
 </pre>
 
 Release note authors:
+
+* Alan Ruttenberg
+* Jie Zheng
