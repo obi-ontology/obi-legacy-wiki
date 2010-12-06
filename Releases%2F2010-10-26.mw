@@ -14,7 +14,7 @@ __NOEDITSECTION__
  
 == About this ontology ==
  
-The Ontology for Biomedical Investigations (OBI) project has developed an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology supports the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology represents the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. OBI is being built under the Basic Formal Ontology (BFO) and importes terms from OBO foundry ontologies. OBI also reflects domains specific extensions which were merged into obi.owl. These include terms merged into obi.owl from the Immune Epitope Database Ontology (www.ideb.org) and community suggested terms from many communities. 
+The Ontology for Biomedical Investigations (OBI) project has developed an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology supports the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology represents the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. OBI is being built under the Basic Formal Ontology (BFO) and imports terms from OBO foundry ontologies. OBI also reflects domains specific extensions which were merged into obi.owl. These include terms merged into obi.owl from the Immune Epitope Database Ontology (www.ideb.org) and community suggested terms from many communities. 
 
 Aims:
 
@@ -80,7 +80,7 @@ The full list of ontologies and external resources from which one or more terms 
 * Basic Formal Ontology (BFO)
 * Gene Ontology (GO)
 * Phenotypic Quality Ontology (PATO)
-* Chemical Entities of Biological Interest ChHEBI
+* Chemical Entities of Biological Interest (ChHEBI)
 * Cell Type Ontology (CL)
 * Foundational Model of Anatomy (FMA)
 * Protein Ontology (PRO)
@@ -91,6 +91,7 @@ The full list of ontologies and external resources from which one or more terms 
 * Neuroscience Information Framework Ontologies and Terminologies (NIFSTD) 
 * Sequence Ontology (SO)
 * Human Phenotype Ontology (HPO)
+* Uber anatomy ontology (UBERON)
 
 You can request import of additional terms by adding a tracker item at http://purl.obolibrary.org/obo/obi/tracker. Please provide details of the source ontology, term ids and a suggested placement in OBI if possible.
 
