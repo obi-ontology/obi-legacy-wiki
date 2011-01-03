@@ -145,9 +145,6 @@ There are several differences from the released version:
   - A bugfix for incorrect writing of plain literal values in ontology headers
   - Disabling writing of declarations of imported entities to the importing ontology (not spec, can cause confusion when editing)
 
-* Reasoner
-
-
 * Starting Protege4 OBI version
 
 For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege4. 
