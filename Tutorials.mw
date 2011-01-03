@@ -124,27 +124,44 @@ Protege4 is OWL2 compatible. Editing OBI using Protege4 has been tested in both 
 * Downloading Protege4 OBI version
 
 Download OBI friendly Protege4 for windows:
-http://dl.dropbox.com/u/4905123/Protege_Windows.zip
+http://dl.dropbox.com/u/4905123/OBI-Protege41-PC-2010-12-21.zip
 
 or
 Download OBI friendly Protege4 OBI version for Mac:
-http://dl.dropbox.com/u/4905123/Protege41MAC.zip
+http://dl.dropbox.com/u/4905123/OBI-Protege41-Mac-2010-12-21.zip
+<!--Decline when prompted to install udpates for the plugins, as the plugin versions contained in the download were specifically picked to work with OBI. -->
 
-Decline when prompted to install udpates for the plugins, as the plugin versions contained in the download were specifically picked to work with OBI. 
+* Notes from Alan Ruttenberg
+
+This OBI friendly Protege is based on the latest subversion protege 4.1
+
+There are several differences from the released version:
+
+  - Dublin core annotations not defined by default
+  - rdfs labels should be shown by default (hopefully - let me know if not)
+  - Bugfix to mac version of Fact++ that would show unsatisfiable classes for IAO and some other valid ontologies
+  - A number of additional plugins bundled and installed in views
+  - An annotation property tab
+  - A bugfix for incorrect writing of plain literal values in ontology headers
+  - Disabling writing of declarations of imported entities to the importing ontology (not spec, can cause confusion when editing)
+
+* Reasoner
+
 
 * Starting Protege4 OBI version
 
 For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege4. 
 
 Both Java 1.5 and 1.6 worked well when classify using Hermit.
-
+<!--
 Java 1.5 is recommended for Pellet. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
+-->
 
 * Setting Protege perferences
 
 Click 'File' menu and choose 'Preferences...':
 # In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. 
-# In the 'Reasoner' tab, unselect all but the first two choices ( = Unsatisfiability, and Superclasses are checked).
+# OBI users may with to change reasoner default settings to improve reasoning performance. In the reasoner tab "initialization" , choose only "class members" and under "Displayed inferences" choose only "unsatisfiable classes", "equivalent classes" and "superclasses".  No instance reasoning is done, but for most OBI development this isn't necessary. These settings can make a particularly big difference when using Hermit as the reasoner. <!-- In the 'Reasoner' tab, unselect all but the first two choices ( = Unsatisfiability, and Superclasses are checked)-->
 # In the 'Save' tab, make sure XML Writer 'Use XML Entities' is checked off.
 # To display the class labels rather than the OBI ids, choose 'Render entitities using annotation values' in the 'Renderer' tab. If the OBI classes are still displaying as IDs, go the the 'Renderer tab', click on the 'Annotations ...' button, select 'label', leave the language column blank and hit ok. 
 # Hit 'OK' button when you finish the setting
