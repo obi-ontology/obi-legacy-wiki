@@ -19,12 +19,11 @@
 '''31 January''' Chair: Philippe RS
 
 '''24 January''' Chair: Jie Z
-Continue discussion of 'genetic material' and some other SO related terms needed for annotations of functional genomics experiments.
-   - genetic material
-   - Individual Genetic Characteristics
-   - Allele
-   - Haplotype
-   - wild type
+Discussion of some SO related terms needed for annotations of functional genomics experiments.
+   - genetic characteristics information (MO:individualGeneticCharacteristics)
+   - genotype information (MO:genotype)
+   - Allele information (MO:Allele)
+   - genetic background information
 
 '''17 January''' - holiday 
 
