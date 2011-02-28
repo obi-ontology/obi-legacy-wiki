@@ -5,6 +5,20 @@
 
 ===Conference Call Agenda Items===
 
+====March 2011====
+'''14 March''' Chair: Bjoern P
+
+IEDB related issues
+
+'''7 March''' Chair: Jie Z
+
+MGED ontology experimental design
+
+The request terms have been added in ExpDesign.owl under 'study design'
+
+ExpDesign.owl has been checked in SVN:
+https://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/branches/ExpDesign.owl
+
 ====February 2011====
 '''28 February''' Chair: Bjoern P
 
