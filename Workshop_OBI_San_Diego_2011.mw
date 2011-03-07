@@ -60,13 +60,13 @@ The Institute has established agreements with the Hilton-La Jolla Torrey Pines (
 ''Development topics, to be determineed by vote''
 Please add your initials after the topics you would like to see discusssed at the workshop. 
 
- - Shortcut Relations [JZ]
+ - Shortcut Relations [JZ] [CT]
        Decision:
        Shortcut relations WILL to be a topic for San Diego workshop.
        Participants should come up with use cases / examples to be discussed.
        Technical implementations should be flashed out in the workshop as well.
 
- - Service [BP]
+ - Service [BP][CT]
        Decision:
        Have discussion on service at the San Diego workshop
                - We need to finalize the discussion we started in Vancouver last year.
@@ -79,7 +79,7 @@ Please add your initials after the topics you would like to see discusssed at th
        Following the presentation required steps to have reagents into OBI should be fleshed out.
 
 
- - Genotype [JZ]
+ - Genotype [JZ][CT]
        Decision: genotype has to be a topic to be discussed in the workshop.
        We cant' wait for others need to have at least something we can start using. We need to arrive at the workshop with a proposal.
 
@@ -89,5 +89,5 @@ Please add your initials after the topics you would like to see discusssed at th
  - Assay needs for IEDB; [BP][JZ]
     Address overlaps between assay and study design. 
 
- - Community views (FGED views; IEDB view) [BP][JZ]
+ - Community views (FGED views; IEDB view) [BP][JZ][CT]
    - OBI slim (for general use)
