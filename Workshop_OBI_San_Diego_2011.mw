@@ -43,6 +43,7 @@ The Institute has established agreements with the Hilton-La Jolla Torrey Pines (
  Randi Vita
  Jie Zheng
  Marcus Chibucos
+ Matthew Brush
 
 '''Topics for Agenda''' 
 
@@ -66,14 +67,14 @@ Please add your initials after the topics you would like to see discusssed at th
        Participants should come up with use cases / examples to be discussed.
        Technical implementations should be flashed out in the workshop as well.
 
- - Service [BP][CT] [MH]
+ - Service [BP][CT] [MH][MB]
        Decision:
        Have discussion on service at the San Diego workshop
                - We need to finalize the discussion we started in Vancouver last year.
                - Need to have a design pattern and examples in OBI to discuss (is service a subclass of the related planned process offered as service?) and
                to flash out shortcut relations required
 
- -Reagents [MH]
+ -Reagents [MH][MB]
        Decision:
        On reagents eagle-i will have a short presentation of the work done at the San Diego workshop
        Following the presentation required steps to have reagents into OBI should be fleshed out.
