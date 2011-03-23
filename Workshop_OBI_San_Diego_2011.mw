@@ -71,7 +71,35 @@ Introductory session
 
    - OBI maintenance needs + processes (release, documentation, webpage, track citations)
    - Approaches to obtain funding
-   - preparation for ICBO workshop
+
+ - preparation for ICBO workshop
+   - Advertisement for ICBO 
+     - make an attractive announcement
+       - refine existing proposal
+       - point out what specific problems this workshop will address
+     - send to mailing list 
+     - direct contacts of projects that are (or should be) interested
+       - consortium + all OBI mailing lists
+       - who contacted OBI in the past 2 years
+       - who mentioned OBI in paper
+     - advertise on OBI website (new page)
+     - add to ICBO website (check on easychair)
+   - Prepare presentation content
+     - Overview presentation of OBI (paper)
+       - guiding design principles
+       - what parts of OBI deal with what 
+     - Eagle-i+NIF+BRO: Using OBI to coordinate large scale  knowledge base creation and management across communities
+     - IEDB: Add semantic capabilities to your Database using OBI
+     - EuPathDB: Use OBI to drive data collection from experimentalists
+     - Philippe: Please add (?)
+     - ECO: Coordinate development of existing ontologies with OBI 
+
+  - Prepare hands on session
+     - give instructions what can be prepared in advance
+     - allow for follow up with indivduals developers to address specific issues
+
+
+
 
 
 '''Registration'''
