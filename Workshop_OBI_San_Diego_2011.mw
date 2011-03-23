@@ -94,12 +94,33 @@ Introductory session
      - give instructions what can be prepared in advance
      - allow for follow up with indivduals developers to address specific issues
 
+  - Release Process
+    - Technical problems (look like they are overcome):
+      - Reasoning issues with LISP
+      - OBI getting so big that stuff takes long
+    - People: 
+      - some steps can only be performed by Alan; manual intervention by Alan
+      - need to broaden number of people that can run the process --> Carlo will observe the next release done by Jie
+    - Content problems:
+      - Requirements that hold up: curation status, definition source --> integrate in QTT
+      - need to review generated content to make it perfect OR adjust policies to be more lenient and allow frequent releases 
+    - Future frequency: 
+      - Start next release following QTT for study design etc. is in 
+      - Goal was to do this monthly
+      - Track for next release: what are the resources necessary to get it out (Carlo to give feedback)
+
+
+
+
+
+
+
    - OBI maintenance needs + processes (release, documentation, webpage, track citations)
    - Approaches to obtain funding
 
 
 
-''Participants - tentative''
+''Participants''
  Hui Gong 
  Jennifer Fostel
  Jason Greenbaum
