@@ -69,7 +69,7 @@ Introductory session
    - Manuscript completion '''Result:Email circulated. Input for new use cases by April 15.'''
    - discussion of challenges of software that uses OBI, how to develop it, examples? '''Result: Need to have higher frequency of releases.''' 
 
- - preparation for ICBO workshop
+ - preparation for ICBO workshop '''Result is listed below'''
    - Advertisement for ICBO (complete by April 30 (paper acceptance date))
      - make an attractive announcement on OBI webpage (BP to create; ask for content by April 15)
        - refine existing proposal
@@ -94,7 +94,7 @@ Introductory session
      - give instructions what can be prepared in advance
      - allow for follow up with indivduals developers to address specific issues
 
-  - Release Process
+  - Release Process '''Result below'''
     - Technical problems (look like they are overcome):
       - Reasoning issues with LISP
       - OBI getting so big that stuff takes long
@@ -109,16 +109,10 @@ Introductory session
       - Goal was to do this monthly
       - Track for next release: what are the resources necessary to get it out (Carlo to give feedback)
 
-
-
-
-
-
-
-   - OBI maintenance needs + processes (release, documentation, webpage, track citations)
    - Approaches to obtain funding
-
-
+       - U41 (NHGRI), http://grants.nih.gov/grants/guide/pa-files/PAR-11-095.html, submission dates September 25, 2011; January 25, 2012; - Chris to lead preparation until ICBO, where there will be a 1st night of ICBO get together to discuss plans
+       - Teaming with NCBO for tool development
+       - Anita: work with disease societies
 
 ''Participants''
  Hui Gong 
