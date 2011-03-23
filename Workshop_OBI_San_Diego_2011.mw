@@ -24,43 +24,58 @@ Introductory session
  - Services (Carlo)
     - Finalize the discussion we started in Vancouver last year.
     - Discuss design pattern and examples in OBI to discuss (is service a subclass of the related planned process offered as service?) 
+    '''- Result: Carlo and Matt to write up modeling and circulate'''
+
 
   - Reagents (Carlo) 
     - brief presentation of the work done since the Vancouver workshop
+    '''- Result: Submit those material entities to OBI that are in scope (processed materials used as reagents)'''
+
 
  - Shortcut Relations (Carlo)
    - Start with example from services (e.g. organization X 'offers service' Y)
    - Participants should provide additional use cases / examples 
-
-''Monday night (potential reschedule to Tuesday because of weather)''
- - BBQ - Villa Peters (622 Colima Street, La Jolla)
+   '''- Result: Go ahead with implementation of 'service provided by' as a shortcut; (similar to achieves_objective), Use domain / Range approach to have minimal inference already.''' 
 
 
 ''Tuesday morning''
  - Genotype (Jie/Chris) 
   - Discuss definition of genotype, allele, wildtype as needed for OBI 
+  '''- Result: Jie and Chris to move relevant classes and definitions from ExpDesign.owl into obi.owl. Produce a writeup and circulate. Further discussion required for 'genetic material''''. 
 
 ''Tuesday afternoon''
  - Experimental Design for functional genomics (Chris/Jie)
    - complete to meet requirements by Jie
+  '''- Result: Writeup produced, and circulated to Philippe for comment. Afterwards, circulate to all. Go ahead with implementation of study designs via MappingMaster."'''
 
  - Epitope assay needs for IEDB (Bjoern) 
    - presentation of assay solution
    - discuss impact on assay vs. study design
+   '''- Result: Allow complex assays, meaning all IEDB needs are met. '''
+
+''Monday night (potential reschedule to Tuesday because of weather)''
+ - BBQ - Villa Peters (622 Colima Street, La Jolla)
+   '''- Result: fat and happy with German and butter'''
 
 ''Wednesday morning''
  - Community views 
    - FGED view (Chris / Jie)
    - IEDB view (Bjoern) 
    - OBI slim for general use
+   '''- Result: Email circulated'''
 
 ''Wednesday afternoon''
  - OBI business + coordination (Bjoern)
-   - Manuscript completion
-   - OBI maintenance needs + processes
+   - Manuscript completion '''Result:Email circulated. Input for new use cases by April 15.'''
+
+   - OBI maintenance needs + processes (release, documentation, webpage, track citations)
+
    - Approaches to obtain funding
+
    - preparation for ICBO workshop
+
    - discussion of challenges of software that uses OBI, how to develop it, examples?
+
 
 '''Registration'''
 
