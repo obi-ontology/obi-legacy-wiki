@@ -27,7 +27,15 @@
 
 ''' 4 April''' Chair: Bjoern
 
+- Definition format
+  Definition of A which is a subclass of B
+  1. a B in which ...
+  2. A is a B in which ...
+  3. is a B in which ...
 
+- Use of 'only' or 'some'
+  For example, 'protein complex' has_part 'protein'
+   'protein complex' has_part some 'protein' or 'protein complex' has_part only 'protein'?
 
 ====March 2011====
 
