@@ -9,6 +9,15 @@ https://sourceforge.net/tracker/index.php?func=detail&aid=2896765&group_id=17789
 
 OBI is designed around assays which includes processes, specifications, inputs, and outputs. An example of an assay is provided in the Quick Terms Template paper (Rocca-Serra et al., Overcoming the Ontology Enrichment Bottleneck with Quick Term Templates, ICBO, Buffalo, NY, July, 2009). Analyte assay is taken (with some minor updating) from that paper and should be used to design other types of analyte assays but also provides a general design for other types of assays. A design template for 
 
+<b>Service:</b> A summary of design decision following the OBi San Diego Workshop on March 2011<br>
+http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/design_process/service.docx
+
+<b>Shortcut relations:</b> An example discussed at OBi San Diego Workshop on March 2011<br>
+http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/design_process/shortcut_relations.docx
+
+<b>Reagent:</b> Summary  of  eagle-i design  presented at the  March 2011<br>
+http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/design_process/reagent.docx
+
 <b>Analyte assays:</b> An analyte assay is an assay with
 the objective to determine concentration of one
 substance (bearer of analyte role) that is present in
