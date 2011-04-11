@@ -26,12 +26,12 @@
 ''' 11 April''' Chair: Jie
 
 - imported terms
-  PATO - merged terms
-  PRO - changed IRI, OBO -> OWL and 7 digits -> 9 digits
+  PATO - merged terms (will add their labels and definitions in old version PATO in OBI manually, AI for Jie)
+  PRO - changed IRI, OBO -> OWL and PRO -> PR (will double check and contact Protein ontology people if it is true, AI for Bjoern)
    
-- Chromatography device / Chromatography instrument
+- Chromatography device / Chromatography instrument (decide to merge the terms, not for this release)
 
-- other release related issues
+- other release related issues (fixed during the call)
 
 ''' 4 April''' Chair: Bjoern
 
