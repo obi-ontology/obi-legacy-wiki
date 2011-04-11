@@ -32,10 +32,12 @@
   1. a B in which ...
   2. A is a B in which ...
   3. is a B in which ...
+     - should use option 1
 
 - Use of 'only' or 'some'
   For example, 'protein complex' has_part 'protein'
    'protein complex' has_part some 'protein' or 'protein complex' has_part only 'protein'?
+     - should use some (transitive issue)
 
 ====March 2011====
 
