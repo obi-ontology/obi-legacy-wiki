@@ -2,6 +2,29 @@ This page lists the votes made by the OBI developers.
 
 
 
+== Vote: OBI manuscript revision plan. Jan 30 ==
+
+The vote was for Options 2 of the following 
+
+1) Submit an updated manuscript to Bioinformatics that remains focussed on approach / methods. 
+2) Submit a revised manuscript to Nat Biotechnology  or PLoS Comp Biology that focusses on use of OBI.
+
+For the 2nd option: we updated the current use of OBI of the people on the call:
+- Moving from MGed to OBI (Chris)
+- repository of experimental data (Parkinsons Diesease (Alan), Forms in EuPathDB (Chris, Jie), IEDB (Bjoern))
+- ISA project and multiomics database (Philippe)
+- Identification of devices and services in Eagle-I (Carlo)
+- Description of Mouse Strains, Antibodies (Alan)
+
+For option 1: 
+
+
+For option 2:
+Ryan Brinkman, Jie Zheng, Carlo Torniai, Melissa Haendel, Oliver He, Susanna Sansone*, Philippe Rocca-Serra, Chris Stoeckert, Melanie Courtot, Alan Ruttenberg, Bjoern Peters, Larisa Soldatova
+
+
+
+
 
 == Vote: OBI manuscript plan ===
 
