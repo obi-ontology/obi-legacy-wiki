@@ -5,18 +5,15 @@
 **OMICS 2006;10(2):199-204. '''[http://www.liebertonline.com/doi/pdf/10.1089/omi.2006.10.199?cookieSet=1 Development of FuGO: an ontology for functional genomics investigations]'''. Whetzel PL, Brinkman RR, Causton HC, Fan L, Field D, Fostel J, Fragoso G, Gray T, Heiskanen M, Hernandez-Boussard T, Morrison N, Parkinson H, Rocca-Serra P, Sansone SA, Schober D, Smith B, Stevens R, Stoeckert CJ, Taylor C, White J, Wood A.  [http://www.ncbi.nlm.nih.gov/pubmed/16901226?dopt=Abstract PMID: 16901226]
 *Publications citing OBI
 ** '''[http://bioinfo.icapture.ubc.ca:8090/OntologyBasedPubmedAnnotator/IKE2008.pdf Structured Representation of Biomedical Experiments: A Bottom-Up Approach]'''. Cartik R. Kothari and Mark D. Wilkinson. IKE'08.
-
-** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2718634/?tool=pubmed The EXACT description of biomedical protocols]''' Larisa N. Soldatova,*† Wayne Aubrey,† Ross D. King, and Amanda Clare
-
-** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2499994/?tool=pubmed Minimal information: an urgent need to assess the functional reliability of recombinant proteins used in biological experiments
-2008 Microbial Cell Factories]''' de Marco Ario 
-
+** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2718634/?tool=pubmed The EXACT description of biomedical protocols]''' Larisa N. Soldatova, Wayne Aubrey, Ross D. King, and Amanda Clare
+** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2499994/?tool=pubmed Minimal information: an urgent need to assess the functional reliability of recombinant proteins used in biological experiments]''' de Marco Ario 
 ** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2853689/?tool=pubmed SDOP-DB: a comparative standardized-protocol database for mouse phenotypic analyses]''' Nobuhiko Tanaka,1 Kazunori Waki,1 Hideki Kaneda,2 Tomohiro Suzuki,2 Ikuko Yamada,2 Tamio Furuse,2 Kimio Kobayashi,2 Hiromi Motegi,3 Hideaki Toki,3 Maki Inoue,3 Osamu Minowa,3 Tetsuo Noda,3 Keizo Takao,4 Tsuyoshi Miyakawa,4 Aki Takahashi,5 Tsuyoshi Koide,5 Shigeharu Wakana,2 and Hiroshi Masuya
-
 ** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2679401/?tool=pubmed Issues in learning an ontology from text]''' Christopher Brewster, Simon Jupp, Joanne Luciano, David Shotton, Robert D Stevens, and Ziqi Zhang
-
 ** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2367633/?tool=pubmed RDFScape: Semantic Web meets Systems Biology]''' Andrea Splendiani
-
 ** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2238989/?tool=pubmed CEBS—Chemical Effects in Biological Systems: a public data repository integrating study design and toxicity data with microarray and proteomics data]''' Michael Waters, Stanley Stasiewicz, B. Alex Merrick, Kenneth Tomer, Pierre Bushel, Richard Paules, Nancy Stegman, Gerald Nehls, Kenneth J. Yost, C. Harris Johnson, Scott F. Gustafson, Sandhya Xirasagar, Nianqing Xiao, Cheng-Cheng Huang, Paul Boyer, Denny D. Chan, Qinyan Pan, Hui Gong, John Taylor, Danielle Choi, Asif Rashid, Ayazaddin Ahmed, Reese Howle, James Selkirk, Raymond Tennant, and Jennifer Fostel
+*Projects using OBI
+** '''[http://www.neuinfo.org NIF]'''
+** '''[https://www.eagle-i.org/home/ Eagle I]'''
+** '''[http://www.immuneepitope.org/ IEDB]'''
 
 [[Category:Documents]]
