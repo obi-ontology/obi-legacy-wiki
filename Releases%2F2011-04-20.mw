@@ -9,7 +9,7 @@ __NOEDITSECTION__
 <i> Browse:</i> http://purl.obolibrary.org/obo/obi/browse<br>
 <i> Tracker:</i> http://purl.obolibrary.org/obo/obi/tracker<br>
 <i> Please see the Tutorials for instructions on downloading and viewing.</i> http://obi-ontology.org/page/Tutorials <br>
-<i> [http://obi-ontology.org/page/Releases/2010-04-20 Previous release notes] </i>
+<i> [http://obi-ontology.org/page/Releases/2010-10-26 Previous release notes] </i>
 
 {{WideTOC|__TOC__}}
  
@@ -59,15 +59,20 @@ problematic.
  
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
 
-A total of 285 new concepts (exclude the concepts imported from external resources) were added into this release, including
-* A list of terms related to the MGED ontology
-* A list of devices and related functions (about 90 terms) terms requested by eagle-i group
-* A list of 25 nucleotide structure mapping assays to support use cases reported by RNA working group (Alain Laederach) from RNAO ontology consortium.
-* A list of 12 assay terms supporting high-throughout sequencing applications
-* A list of 5 assays identified as missing from OBI following a review of Evidence Code Ontology
-* A list of terms required by the INfluenza Ontology
+A total of 293 new classes and 18 new instances (exclude the terms imported from external resources) were added into this release, including
+* A list of terms related to the MGED ontology, most are subclasses of study design and their related assays
+* A list of assay terms required by IEDB group (around 100 terms) and INfluenza group
+* A total of 18 terms were added as instances of manufacturer, provided by INfluenza group
 
-The new added OBI terms are listed on - http://obi.svn.sourceforge.net/svnroot/obi/releases/2011-04-20/merged/newClasses.html
+The new added OBI classes are listed on - http://obi.svn.sourceforge.net/svnroot/obi/releases/2011-04-20/merged/newClasses.html
+
+All commonly used MGED ontology (MO) terms in annotation of functional genomics data are available in this release. The FGED community can switch MO to OBI.
+
+Design template of 'service' is remodeled as:
+service is_a 'planned process' and ((realizes some 'service consumer role') and (realizes some 'service provider role'))
+service has_part some 'planned process'
+
+Eagle-i group will add specific service terms follow this template in the near future.
 
 Some known issues are fixed.
 
@@ -83,8 +88,6 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 * This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
 
-
-Please sign up to the obi-users mailing list to get details of new releases and links to versioned release notes.
 
 == External ontology and resource mapping/imports list ==
  
@@ -107,6 +110,8 @@ The full list of ontologies and external resources from which one or more terms 
 * Sequence Ontology (SO)
 * Human Phenotype Ontology (HPO)
 * Uber anatomy ontology (UBERON)
+* Ontology for General Medical Science (OGMS)
+* Gazetteer (GAZ)
 
 You can request import of additional terms by adding a tracker item at http://purl.obolibrary.org/obo/obi/tracker. Please provide details of the source ontology, term ids and a suggested placement in OBI if possible.
 
@@ -114,32 +119,34 @@ You can request import of additional terms by adding a tracker item at http://pu
 ==  Count of terms in and used by OBI ==
 <pre>
 -----------------------------
-OBI Classes 1471
-Imported Classes 2176	
-OBI Individuals 64		  
-Imported Individuals 73  
-OBI Properties 43  
-Imported Properties 143	  
+OBI Classes 1764
+Imported Classes 	
+OBI Individuals 		  
+Imported Individuals   
+OBI Properties   
+Imported Properties 	  
 
 Imported Classes Breakdown:
 ----------------------------
-IAO  112
+IAO         112
 NCBITAXON  1170
-BFO  39
-GO  82
-PATO  49
-CHEBI  53
-CL  20
-FMA  12
-PRO  22
-UO  10
-CARO  3
-ENVO  2
-VO  4
-BIRNLEX  1
-SO  4
-HP  1
-UBERON  4
+BFO          39
+GO           95
+PATO         49
+CHEBI        53
+CL           19
+FMA          12
+PR           15
+UO            9
+CARO          3
+ENVO          2
+VO            4
+BIRNLEX       1
+SO            3
+HP            1
+UBERON        4
+OGMS          3
+GAZ           1
 </pre>
 
 Release note authors:
