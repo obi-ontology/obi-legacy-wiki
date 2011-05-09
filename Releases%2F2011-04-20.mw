@@ -88,6 +88,16 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 * This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
 
+* 8 classes are created as uncurated status. They are very likely to be changed before next release. We recommend not use them now. 
+  - activation
+  - binding complex 3D structure determination assay
+  - general scalar measurement datum
+  - identification
+  - questionaire
+  - reagent application function
+  - scalar score from composite inputs
+  - specimen labeling function
+
 
 == External ontology and resource mapping/imports list ==
  
