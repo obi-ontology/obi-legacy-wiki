@@ -14,6 +14,13 @@
 ''' 16 May''' Chair: Chris
 
 ''' 9 May''' Chair: Jessica
+- Release issues: 1) IAO and OBI coordinated releases: Jie to talk to Alan and get a decision on that in the next two days. It should be ok to release OBI with references to the October release of IAO but want to check. 2) There are still 8 uncurated terms, which will be noted in the Release notes. 3) There are 3 "meta-data complete" terms which are actually missing definitions; those will be fixed as they can be and noted in the Release notes otherwise.
+
+- Aiming for a release on Friday, because no one can edit the obi.owl files and add new terms until that's done and it's holding things up for everyone.
+
+- there will be another release for the paper.
+
+- Manuscript: Philippe needs to incorporate his changes into the Applications of OBI.docx in the repository. Bjoern put a Manuscript 2011 document in the repository. To edit it, the consensus is to check the manuscript out, send an email to the list locking it, use track changes, re-check it back into SVN when done and send an email letting folks know, just like when working on the .owl files.
 
 ''' 2 May''' Chair: Anita
  - Manuscript update (Use case finalized)
