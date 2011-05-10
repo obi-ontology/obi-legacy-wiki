@@ -59,10 +59,10 @@ problematic.
  
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
 
-A total of 293 new classes and 18 new instances (exclude the terms imported from external resources) were added into this release, including
+A total of 293 new classes and 18 new instances (excluding the terms imported from external resources) were added into this release, including
 * A list of terms related to the MGED ontology, most are subclasses of study design and their related assays
 * A list of assay terms required by IEDB group (around 100 terms) and INfluenza group
-* A total of 18 terms were added as instances of manufacturer, provided by INfluenza group
+* A total of 18 terms were added as instances of manufacturer, provided by influenza group
 
 The new added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-04-20/merged/newClasses.html
 
@@ -88,7 +88,7 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 * This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
 
-* 8 classes are created as uncurated status. They are very likely to be changed before next release. We recommend not use them now. 
+* 8 classes are created as uncurated status. They are very likely to be changed before next release. We recommend that they not be used yet. 
   - activation
   - binding complex 3D structure determination assay
   - general scalar measurement datum
@@ -101,7 +101,9 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 == External ontology and resource mapping/imports list ==
  
-The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process (Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term. Proceedings of the International Conference on Biomedical Ontologies (ICBO) http://icbo.buffalo.edu/) is below. 
+The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process (Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term. Proceedings of the International Conference on Biomedical Ontologies (ICBO) http://icbo.buffalo.edu/
+http://precedings.nature.com/documents/3574/version/1/files/npre20093574-1.pdf
+ Ref http://iospress.metapress.com/content/h54m2237310v13x1/?p=2c64591d6d5e49aa928bb145c74c6ef4&pi=2) is below. 
 
 * Information Artifact Ontology (IAO)
 * NCBI Taxonomy
