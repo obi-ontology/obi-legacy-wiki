@@ -1,7 +1,7 @@
 __NOEDITSECTION__
 = Release notes for OBI 2011-04-20  Release =
 
-<b>Date of release: 2011-05-05</b>
+<b>Date of release: 2011-05-10</b>
 
 <b>Access:</b> <br>
 <i> This version:</i> http://purl.obolibrary.org/obo/obi/2011-04-20/obi.owl <br>
@@ -101,9 +101,7 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 == External ontology and resource mapping/imports list ==
  
-The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process (Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term. Proceedings of the International Conference on Biomedical Ontologies (ICBO) http://icbo.buffalo.edu/
-http://precedings.nature.com/documents/3574/version/1/files/npre20093574-1.pdf
- Ref http://iospress.metapress.com/content/h54m2237310v13x1/?p=2c64591d6d5e49aa928bb145c74c6ef4&pi=2) is below. 
+The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process ([http://precedings.nature.com/documents/3574/version/1/files/npre20093574-1.pdf Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term.])[[http://iospress.metapress.com/content/h54m2237310v13x1/?p=2c64591d6d5e49aa928bb145c74c6ef4&pi=2 Ref]] is below. 
 
 * Information Artifact Ontology (IAO)
 * NCBI Taxonomy
