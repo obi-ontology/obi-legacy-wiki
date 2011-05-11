@@ -64,7 +64,7 @@ A total of 293 new classes and 18 new instances (excluding the terms imported fr
 * A list of assay terms required by IEDB group (around 100 terms) and INfluenza group
 * A total of 18 terms were added as instances of manufacturer, provided by influenza group
 
-The new added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-04-20/merged/newClasses.html
+The newly added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-04-20/merged/newClasses.html
 
 All commonly used MGED ontology (MO) terms in annotation of functional genomics data are available in this release. The FGED community can switch MO to OBI.
 
