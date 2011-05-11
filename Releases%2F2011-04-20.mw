@@ -66,7 +66,7 @@ A total of 293 new classes and 18 new instances (excluding the terms imported fr
 
 The newly added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-04-20/merged/newClasses.html
 
-All commonly used MGED ontology (MO) terms in annotation of functional genomics data are available in this release. The FGED community can switch MO to OBI.
+Most of commonly used MGED ontology (MO) terms in annotation of functional genomics experiments are available in this release. The FGED community can switch from Mged Ontology (MO) to OBI. 
 
 Design template of 'service' is remodeled as:
 service is_a 'planned process' and ((realizes some 'service consumer role') and (realizes some 'service provider role'))
