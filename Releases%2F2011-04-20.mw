@@ -61,7 +61,7 @@ There are more changes since the last release than can be compactly described he
 
 A total of 293 new classes and 18 new instances (excluding the terms imported from external resources) were added into this release, including
 * A list of terms related to the MGED ontology, most are subclasses of study design and their related assays
-* A list of assay terms required by IEDB group (around 100 terms) and INfluenza group
+* A list of assay terms required by IEDB group (around 100 terms) and influenza group
 * A total of 18 terms were added as instances of manufacturer, provided by influenza group
 
 The newly added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-04-20/merged/newClasses.html
