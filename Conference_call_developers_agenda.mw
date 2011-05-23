@@ -10,6 +10,64 @@
 ''' 30 May''' Chair: Carlo 
 
 ''' 23 May''' Chair: Philippe
+ - Minutes
+ - Present: Anita,Jessica,Melissa,Bjoern,Jie,Marcus,Matt,Philippe
+ - Excused: Alan
+
+ - 1. OBI manuscript: roadmap
+
+         Comment by Jessica: possible lack of information for newcomer -> need for a tutorial
+                o. Action Item: creation of a tutorial and use case -> documention to point as supplementary material
+         
+         Input from Anita (http://obi-ontology.org/page/Publications) and Marcus (recent presentation to the GO) updates                
+               i.Action Item Anita to update table of projects using OBI for annotation purposes.
+
+               ii. include statement about ECO consuming OBI (possibly in discussion section)
+               Marcus to take lead on this and, when done, pass on to Bjoern.
+
+               iii. Some level of redundancy between some of the example in Applications of OBI.
+               ->possible need to fuse and relevant parties will be contacted as necessary.
+ 
+               iv. Sanity check against latest OBI release 
+               i.e. check that all classes/relations mentioned in the manuscript match strictly with class 
+               definitions (textual and formal).
+               Note: process is painfull so should be done only once, when manuscript has solidified. 	
+	
+ - 2. Class metadata:
+	
+		OBI seems happy with current metadata but would not oppose changes provided work and              interoperability with other resources is not disrupted.
+	 	
+ - 3. Discussion on Datum (follow Asiyah post about dose, thread with Alan)
+	
+	Bjoern restated the issue which can be decomposed as follows:
+	
+	There are different problems: 
+	i. time problems (translating weeks / months etc.)
+	ii.age problems (time from when) 
+	iii. measurement datum vs. quality 
+	iv. measurement datum vs. specification datum
+	
+	points i and ii seem to cover a need from Anita, Melissa, Jessica but it is noted that might be out of scope (point i) 
+	
+	The current layout is an attempt to create a solution which would cover datum resulting from a measuring process and those datum corresponding to recommandations,directives ( use a solution of 20x TBE) and would be generic enought to avoid duplication of hierarchy.
+	
+	all points require more work -> calls to be dedicated to this. 
+	
+	Question:
+	Why is point 4 necessary since, in OBI, we assumed 'canonical realization' of protocol specification.
+	
+	Possible explanation: 
+	The specification will state 20xTBE, the experiment relying on that solution will *not* test that the solution has the right titer (assumption is the manufacturer did its job and there is no decay of the solution).
+	Therefore, these 2 type of data /information datum may justify distinguishing them.
+	
+	
+ - 4. no time to discuss term submissions
+
+
+
+
+
+
 
 
 
