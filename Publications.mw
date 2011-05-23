@@ -23,7 +23,8 @@
 ** '''[http://www.isa-tools.org/ ISA]''' The ISA (Investigation/Study/Assay) infrastructure is a user-friendly multi-domain data capture and management suite that allows the searching of OBI for terms to use in data entry.
 ** '''[http://mibbi.org/ MIBBI]''' The MIBBI (Minimum  Information for Biological and Biomedical Investigations) project features a range of both community-sourced and integrated reporting guidelines that indicate the use of OBI as a source of controlled terms.
 ** '''[http://wiki.cogpo.org CogPO]''' CogPO starts with IAO and is working to harmonize with OBI where possible. 
-** '''[http://www.ebi.ac.uk/efo EFO]''' Application ontology for ArrayExpress uses OBI and IAO classes, particularly assays 
+** '''[http://www.ebi.ac.uk/efo EFO]''' Application ontology for ArrayExpress uses OBI and IAO classes, particularly assays
+** '''[http://www.vioinet.org/vaccineontology Vaccine Ontology (VO)]''' VO uses OBI for vaccine investigations  
 
 Projects using OBI listed on Bioportal website: http://bioportal.bioontology.org/ontologies/1123
 
