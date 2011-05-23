@@ -24,40 +24,42 @@
 ** '''[http://www.ebi.ac.uk/efo EFO]''' Application ontology for ArrayExpress uses OBI and IAO classes, particularly assays 
 
 Projects using OBI listed on Bioportal website: http://bioportal.bioontology.org/ontologies/1123
+
 Projects using OBI 
-IEDB
+
+*IEDB
 Immune epitope database uses OBI the vocabulary and data models.
-Neuroscience Information Framework
+*Neuroscience Information Framework
 NIF has recently worked on data transformation terms in OBI, has aligned itself with Eagle I and BRO with respect to all resource description terms such as services and databases, and has provided instruments to OBI. NIF is working on swapping out nlx temporary identifiers with OBI term identifiers to label data in the resource registry as well as search for both registry items and data.
-BRO
+*BRO
 All of the Eagle I data is entered as instances of OBI classes.
-eagle-i 
+*eagle-i 
 The eagle-i project is building a searchable network of research resources at research institutions nationwide. We are developing an application ontology for indexing and querying, and this effort is being guided by discussions within the ontology community aimed at promoting interoperability. We will be inventorying laboratories, services, instruments, services, reagents, organisms, persons, protocols, human studies (metadata), tissue/biological sample repositories and training opportunities. 
-ITPPR
+*ITPPR
 The Integrative Tools for Protozoan Parasite Research project is using OBI to develop forms to capture structured meta-data about studies (e.g., genotyped isolates of parasites, phenotypes of transgenic parasites) for EuPathDB and to provide terms for annotating bioinformatics web services available through Galaxy.
-FGED - MGED Ontology
+*FGED - MGED Ontology
 The Functional Genomics Data (FGED) Society has incorporated the MGED Ontology (MO) into OBI for use in annotating functional genomics studies especially with the MAGE-TAB format.
-ISA
+*ISA
 The ISA (Investigation/Study/Assay) infrastructure is a user-friendly multi-domain data capture and management suite that allows the searching of OBI for terms to use in data entry.
-MIBBI
+*MIBBI
 The MIBBI (Minimum Information for Biological and Biomedical Investigations) project features a range of both community-sourced and integrated reporting guidelines that indicate the use of OBI as a source of controlled terms.
-CogPO
+*CogPO
 CogPO starts with IAO and is working to harmonize with OBI where possible.
-EFO
+*EFO
 Application ontology for ArrayExpress uses OBI and IAO classes, particularly assays.
-Electrophysiology Ontology
+*Electrophysiology Ontology
 The Electrophysiology (EP) Ontology is part of Project 2 of the Cardiovascular Research Grid (CVRG), an NHLBI funded effort to develop a national infrastructure for managing, sharing, and analyzing a broad range of cardiac data. The EP Ontology will contain terms for describing single-channel electrophysiological experiments and data obtained using voltage-clamp, current clamp and fluorescence imaging techniques.
-Influenza Ontology
+*Influenza Ontology
 The Influenza Ontology is an application ontology covering the numerous aspects if influenza virus basic research, and surveillance. The influenza ontology extends the Infectious Disease Ontology (IDO).
-Neural ElectroMagnetic Ontologies 
+*Neural ElectroMagnetic Ontologies 
 NEMO is developing ontologies for representation and integration of event-related brain potentials (ERPs). To support this work, we are developing an integrated tool environment for storage and management of ERP data, ontologies, and ontology-based markup and analysis of data.
-NCBO Annotator
+*NCBO Annotator
 A Web service that tags free text with ontology concepts. NCBO uses these Web services to annotate resources in the NCBO Resource Index to create an ontology index of these resources. This Web service can be accessed through BioPortal or used directly in your software. Currently, the annotation workflow is based on syntactic concept recognition (using concept names and synonyms) and on a set of semantic expansion algorithms that leverage the semantics in ontologies (e.g., is_a relations). Our service methodology leverages ontologies to create annotations of raw text and returns them using semantic web standards.
-NCBO Resource Index
+*NCBO Resource Index
 The NCBO Resource Web service is a system for ontology based annotation and indexing of biomedical data; the key functionality of this system is to enable users to locate biomedical data resources related to particular ontology concepts. The annotations are generated using the NCBO Annotator and presented through integration with BioPortal, enabling researchers to search for biomedical resources associated (annotated) with specific ontology terms. The NCBO Resources web service uses a concept recognizer (currently provided by the National Center for Integrative Biomedical Informatics, University of Michigan) to produce a set of annotations and expand these using ontology is_a relations in the ontology. The system's indexing workflow processes the text metadata of diverse resource elements such as gene expression data sets, descriptions of radiology images, clinical trial reports, and PubMed article abstracts to annotate and index them with concepts from appropriate ontologies. Researchers can then search biomedical data sources using ontology concepts.
-An Ontology for Drug Discovery Investigations
+*An Ontology for Drug Discovery Investigations
 The goal of DDI project is to develop an ontology for the description of drug discovery investigations. DDI aims to follow to the OBO (Open Biomedical Ontologies) Foundry principles, uses relations laid down in the OBO Relation Ontology, and be compliant with Ontology for biomedical investigations (OBI).
-Adverse Event Reporting Ontology 
+*Adverse Event Reporting Ontology 
 The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events.
 
 [[Category:Documents]]
