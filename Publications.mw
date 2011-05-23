@@ -61,5 +61,7 @@ The NCBO Resource Web service is a system for ontology based annotation and inde
 The goal of DDI project is to develop an ontology for the description of drug discovery investigations. DDI aims to follow to the OBO (Open Biomedical Ontologies) Foundry principles, uses relations laid down in the OBO Relation Ontology, and be compliant with Ontology for biomedical investigations (OBI).
 *Adverse Event Reporting Ontology 
 The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events.
+*Vaccine Ontology (VO)
+VO is a biomedical ontology in the domain of vaccine. VO uses OBI to represent vaccine investigations, for example, vaccine protection experiment.  
 
 [[Category:Documents]]
