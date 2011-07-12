@@ -1,0 +1,65 @@
+SCHEDULE
+
+12:30 pm Presentations
+(20 min for each presentation)
+
+1) OBI overview (Bjoern)
+2) representation of experiments mapping targets of immune responses in IEDB (Bjoern)
+3) EuPathDB annotation of genomic-scale datasets associated with eukaryotic pathogens (Jie)
+4) eagle-i representation of research resources (Carlo)
+5) ISA tools and annotation of functional genomics experiments (Phillipe) 
+6) Cross references to OBI within the Evidence Code Ontology (Marcus)
+
+2:30pm BioBreak
+
+2:45pm Hands On Session
+(25 min for each topic including 10 min brief introduction)
+
+1) OWL (Bjoern)
+
+2) QTT (Phillipe + Carlo)
+
+3) MIREOT and community view (Oliver + Jie) 
+
+
+
+Reading Material
+
+Modeling biomedical experimental processes with OBI. J Biomed Semantics. 2010 Jun 22;1 Suppl 1:S7. (Full Text)http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2903726/?tool=pubmed
+
+MIREOT
+
+QTT
+
+EuPathDB paper for application1
+
+Preparation Before Tutorial
+
+
+==OBI Check out==
+
+check out latest version of OBI
+  svn co  http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/
+
+Details for SVN see http://obi-ontology.org/page/General_introduction#SVN
+
+==Protégé 4.1 Installation==
+
+* Download Protégé 4.1 Release Candidate 5 at:
+  http://protege.stanford.edu/download/protege/4.1/installanywhere/Web_Installers/
+
+* Following the instruction to install Protégé which posted in the same page of download at:
+  http://protege.stanford.edu/download/protege/4.1/installanywhere/Web_Installers/
+
+* Setting Protege perferences
+
+Click 'File' menu and choose 'Preferences...':
+# In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. 
+# OBI users may need to change reasoner default settings to improve reasoning performance. In the reasoner tab "initialization" , choose only "class members" and under "Displayed inferences" choose only "unsatisfiable classes", "equivalent classes" and "superclasses".  No instance reasoning is done, but for most OBI development this isn't necessary. These settings can make a particularly big difference when using Hermit as the reasoner. 
+# In the 'Save' tab, make sure XML Writer 'Use XML Entities' is checked off.
+# To display the class labels rather than the OBI ids, choose 'Render entities using annotation values' in the 'Renderer' tab. If the OBI classes are still displaying as IDs, go the the 'Renderer tab', click on the 'Annotations ...' button, select 'label', leave the language column blank and hit ok. 
+# Hit 'OK' button when you finish the setting
+
+==Other Information==
+* Join OBI mail list
+* Submit new terms to OBI via tracker:
