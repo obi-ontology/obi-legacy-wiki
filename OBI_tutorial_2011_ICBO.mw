@@ -53,7 +53,7 @@ Details for SVN see http://obi-ontology.org/page/General_introduction#SVN
 
 * Setting Protege perferences
 
-Click 'File' menu and choose 'Preferences...':
+  Click 'File' menu and choose 'Preferences...':
 # In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. 
 # OBI users may need to change reasoner default settings to improve reasoning performance. In the reasoner tab "initialization" , choose only "class members" and under "Displayed inferences" choose only "unsatisfiable classes", "equivalent classes" and "superclasses".  No instance reasoning is done, but for most OBI development this isn't necessary. These settings can make a particularly big difference when using Hermit as the reasoner. 
 # In the 'Save' tab, make sure XML Writer 'Use XML Entities' is checked off.
