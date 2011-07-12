@@ -1,26 +1,26 @@
 ==Schedule==
 
-!!!12:30 pm Presentations!!!
+'''12:30 pm Presentations'''
 (20 min for each presentation)
 
-# OBI overview (Bjoern)
+1. OBI overview (Bjoern)
   Overview and high level classes of OBI
 
-# representation of experiments mapping targets of immune responses in IEDB (Bjoern)
+2. representation of experiments mapping targets of immune responses in IEDB (Bjoern)
   Benifit of using OBI for Database maintenance
 
-# EuPathDB annotation of genomic-scale datasets associated with eukaryotic pathogens (Jie)
+3. EuPathDB annotation of genomic-scale datasets associated with eukaryotic pathogens (Jie)
   How to design a data submission form based on an ontology model
   How to choose ontology for annotation
   How to reduce user effort in submission using restrictions defined in an ontology
 
-# eagle-i representation of research resources (Carlo)
+4. eagle-i representation of research resources (Carlo)
   How to use OBI to speed up ontology development for annotation of research resources
 
-# ISA tools and annotation of functional genomics experiments (Phillipe) 
+5. ISA tools and annotation of functional genomics experiments (Phillipe) 
   Configuration of OBI in annotation
 
-# Cross references to OBI within the Evidence Code Ontology (Marcus)
+6. Cross references to OBI within the Evidence Code Ontology (Marcus)
   How to use OBI in development of ECO
 
 2:30pm BioBreak
