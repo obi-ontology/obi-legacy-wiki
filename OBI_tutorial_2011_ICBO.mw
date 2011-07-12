@@ -61,5 +61,8 @@ Details for SVN see http://obi-ontology.org/page/General_introduction#SVN
 # Hit 'OK' button when you finish the setting
 
 ==Other Information==
-* Join OBI mail list
+* Join OBI mail list:
+  ; [https://lists.sourceforge.net/lists/listinfo/obi-devel obi-developer] : List for discussion regarding the development of OBI. [mailto:obi-developer@lists.sourceforge.net email obi-developer]
+  ; [http://groups.google.com/group/obi-users obi-users] : List for general discussion on using OBI. [mailto:obi-users@googlegroups.com email obi-users]
 * Submit new terms to OBI via tracker:
+  http://sourceforge.net/tracker/?group_id=177891&atid=886178
