@@ -59,9 +59,9 @@ problematic.
  
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
 
-A total of 64 new classes (excluding the terms imported from external resources) were added into this release, including
+A total of 46 new classes (excluding the terms imported from external resources) were added into this release, including
 * A few terms related to the MGED ontology that enable OBI to annotate most of functional genomics data in ArrayExpress
-* A list of assay related terms required by IEDB group (around 55 terms)
+* A list of assay related terms required by IEDB group (around 40 terms)
 
 The newly added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-07-20/merged/newClasses.html
 
