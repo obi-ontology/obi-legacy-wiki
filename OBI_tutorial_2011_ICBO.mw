@@ -24,13 +24,11 @@
 '''2:45pm Hands On Session'''
 <br>(25 min for each topic including 10 min brief introduction)
 
-1) OWL (Bjoern)
-  Show how to add class and restriction using Protege 4.1
+1) Add individual classes to OBI (OWL, restrictions, Protege) (Bjoern)
+  
+2) Add multiple classes to OBI using spreadsheets (QTT, Phillipe + Carlo)
 
-2) QTT (Phillipe + Carlo)
-
-3) MIREOT and community view (Oliver + Jie)
-  Show how to MIREOT using OntoFox, and generate community view using OntoSubset (if available at that time)
+3) Import external terms into OBI and create community views (MIREOT and OntoSubset, Oliver and Jie)
 
 ==Reading Material==
 
