@@ -52,17 +52,17 @@ Details for SVN see http://obi-ontology.org/page/General_introduction#SVN
 * Download Protégé 4.1 Release Candidate 5 at:
   http://protege.stanford.edu/download/protege/4.1/installanywhere/Web_Installers/
 
-* Following the instruction to install Protégé which posted in the same page of download at:
-  http://protege.stanford.edu/download/protege/4.1/installanywhere/Web_Installers/
+* Follow the instruction to install Protégé  posted on the same page
 
-* Setting Protege perferences
+* Load the checked out version of OBI from the file, or load from the url: http://purl.obolibrary.org/obo/obi.owl
 
-  Click 'File' menu and choose 'Preferences...':
+* If the OBI classes are displayed labeled as IDs rather than human readable text
+# Make sure that under the "View" menu, "Render by label is checked"
+# Click 'File' menu and choose 'Preferences...':
 # In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. 
-# OBI users may need to change reasoner default settings to improve reasoning performance. In the reasoner tab "initialization" , choose only "class members" and under "Displayed inferences" choose only "unsatisfiable classes", "equivalent classes" and "superclasses".  No instance reasoning is done, but for most OBI development this isn't necessary. These settings can make a particularly big difference when using Hermit as the reasoner. 
-# In the 'Save' tab, make sure XML Writer 'Use XML Entities' is checked off.
-# To display the class labels rather than the OBI ids, choose 'Render entities using annotation values' in the 'Renderer' tab. If the OBI classes are still displaying as IDs, go the the 'Renderer tab', click on the 'Annotations ...' button, select 'label', leave the language column blank and hit ok. 
-# Hit 'OK' button when you finish the setting
+
+* If you encounter speed difficulties with reasoning (> 5 minutes)
+# In the reasoner tab "initialization" , choose only "class members" and under "Displayed inferences" choose only "unsatisfiable classes", "equivalent classes" and "superclasses".  No instance reasoning is done, but for most OBI development this isn't necessary. These settings can make a particularly big difference when using Hermit as the reasoner.
 
 ==Other Information==
 * Join OBI mailing list:
