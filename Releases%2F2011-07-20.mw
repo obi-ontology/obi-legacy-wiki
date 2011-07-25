@@ -120,7 +120,7 @@ You can request import of additional terms by adding a tracker item at http://pu
 ==  Count of terms in and used by OBI (need to update) ==
 <pre>
 -----------------------------
-OBI Classes 1764
+OBI Classes 1810
 Imported Classes 	
 OBI Individuals 		  
 Imported Individuals   
@@ -129,19 +129,19 @@ Imported Properties
 
 Imported Classes Breakdown:
 ----------------------------
-IAO         112
+IAO         124
 NCBITAXON  1170
 BFO          39
-GO           95
+GO          100
 PATO         49
 CHEBI        53
 CL           19
 FMA          12
 PR           15
-UO            9
+UO           11
 CARO          3
 ENVO          2
-VO            4
+VO            2
 BIRNLEX       1
 SO            3
 HP            1
