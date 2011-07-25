@@ -61,7 +61,7 @@ Ideally complete these steps before the workshop.
 * If the OBI classes are displayed labeled as IDs rather than human readable text
 # Make sure that under the "View" menu, "Render by label is checked"
 # Click 'File' menu and choose 'Preferences...':
-# In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. 
+# In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column.<!-- en, , ! --> 
 
 * If you encounter speed difficulties with reasoning (> 5 minutes)
 # In the reasoner tab "initialization" , choose only "class members" and under "Displayed inferences" choose only "unsatisfiable classes", "equivalent classes" and "superclasses".  No instance reasoning is done, but for most OBI development this isn't necessary. These settings can make a particularly big difference when using Hermit as the reasoner.
