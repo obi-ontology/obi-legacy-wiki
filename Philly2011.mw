@@ -20,7 +20,7 @@ A (*) identifies the person that will lead the discussion and prepare slides
 
 If projects/ communities have been targeted for grant proposal, spend time working with them on plans for future interactions that can be described in the proposal
 * Wednesday morning (Oct 12, 2011)
-**  9:00 AM: Status of development and writeup for specific aims (Bjoern*)
+**  9:00 AM: Status of development and writeup for specific aims (Bjoern*, Chris*)
 ** 10:00 AM: Evidence code (Marcus*, Bjoern, Chris, Jie*, Philippe remotely)
 * Wednesday afternoon
 ** 1:30 PM Integration of reagent modeling from ReO/eagle-i into OBI (Matt*, Carlo)
@@ -37,6 +37,10 @@ If projects/ communities have been targeted for grant proposal, spend time worki
 *Friday afternoon
 ** 1:30 PM: Covering clinical investigations: Duplicating / coordinating with OCRE (Melissa*; Simona and Samson remotely)
 ** 3:00 PM OBI and radiology (James*)
+
+=== Presentation Slides ===
+Please commit to OBI SVN under direcotry:
+http://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI workshop Oct 2011 Philly
 
 === Attend remotely using WebEX ===
 Go to https://liai.webex.com/liai/j.php?ED=150322147&UID=491229897&PW=NNDIyNzYyYTcx&RT=MiM0
