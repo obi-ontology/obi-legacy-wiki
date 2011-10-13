@@ -83,6 +83,14 @@ The representives of the communities participating in the development of OBI. Pl
 |Spring 2004
 |
 |-
+<!-- Evidence -->
+|rowspan="1" |Evidence
+|Marcus Chibucos
+|[http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code Evidence Ontology]
+|Institute for Genome Sciences, University of Maryland
+|Spring 2011
+|
+|-
 <!-- Flow Cytometry -->
 |[http://flowcyt.sourceforge.net Flow Cytometry]
 |[http://www.bccrc.ca/tfl/people_rbrinkman.html Ryan Brinkman]
@@ -231,16 +239,9 @@ The representives of the communities participating in the development of OBI. Pl
 |Winter 2010
 |
 |-
-|Marcus Chibucos
-|[http://obofoundry.org/cgi-bin/detail.cgi?id=evidence_code Evidence Ontology]
-|Institute for Genome Sciences, University of Maryland
-|Spring 2011
-|
-|-
 <!-- Robot Scientists -->
 |Robot Scientists
 |[http://users.aber.ac.uk/lss/ Larisa Soldatova]
-|
 |[http://www.aber.ac.uk/compsci/public/ Computer Science Department], The University of Wales, Aberystwyth, UK
 |Fall 2008
 |
