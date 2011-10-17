@@ -136,7 +136,7 @@ Decisions:
 Then we can have subclasses under this like "ReO alternative description" "IEDB alternative description" as for the application specific label
 '''AIs: Carlo will open the tracker item by 10/24 in IAO. Requesting the alternative description.'''
     
-3) For the application specific restriction use “inSubset” with a set of standard instance value (created in IAO).
+3) For the marking terms for specific views use “inSubset” with a set of standard instance value (created in IAO).
 '''AIs: Carlo Investigate with Chris M about the insubset works for roundtrip (obo to OWL). If not open a request to IAO for a new annotation property by the end of this week'''
 
 4) It would be nice to have tracker items linked to terms. For this purpose we should use the 'require discussion' instance value under the curation status specification
