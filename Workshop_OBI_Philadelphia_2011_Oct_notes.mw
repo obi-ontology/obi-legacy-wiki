@@ -1,3 +1,171 @@
 == [[Philly2011]] ==
 
-Oct 12-14, 2011 at the University of Pennsylvania in Philadelphia, PA.
+'''Oct 12-14, 2011 at the University of Pennsylvania in Philadelphia, PA.'''
+
+A (*) identifies the person that will lead the discussion and prepare slides
+
+'''Wednesday (Oct 12, 2011)'''
+9:00 AM: Overview of workshop (Bjoern*, Chris*)
+Workshop topics fall into themes that reflect future OBI plans (and the basis of specific aims for the grant proposal).
+•Using OBI for logically relating investigations to results and conclusions
+–Wed: Evidence
+–Fri: Phenotypes
+•Using OBI to find resources
+–Wed: Reagent modeling
+–Thurs: Web services, services in general
+–Thurs: OBI core, views
+•Using OBI for establishing interoperability
+–Wed: Cells, anatomical entities
+–Fri: Meta data needs
+–Fri: Coordinating clinical investigations
+•New OBI communities
+–Fri: OBI and radiology
+
+Next steps for grant and paper: CS has generated a draft of specific aims based on contributions from all and BP will revise. This will be shared and used to contact NIH program officers for level of interest. At that point, we will shift focus to getting the paper submitted and then return to preparing the grant based on the specific aims and feedback from NIH.
+
+Also discussed was plans for next OBI release. To be determined based on action items from workshop.
+
+'''AI: BP to revise specific aims draft by 10/24'''
+
+10:00 AM: '''Evidence code''' (Marcus*, Bjoern, Chris, Jie*, Philippe remotely)
+Clarify the scope of OBI and Evidence code ontology (EO)
+Specimen -> Assay -> data item -> data interpreting -> conclusion
+Output data of OBI:assay is the Evidence that supports Conclusion. The restrictions were added to conclusion textual entity, tying it to data items, and adding new object property ‘is_supported_by_data’. This will be used for modeling evidence.
+
+In addition, one type of making a conclusion (assigning gene function based on phenotype) was added to the ‘interpreting data’ process. 
+
+'''AI 10/31: discuss on call, Chris to chair''': Attempt to connect a conclusion textual entity that would be the output of an interpreting data process to biological reality, using phenotype as example
+
+'''AI set date after call: Marcus to apply pattern to ECO ontology, using QTT approach'''
+
+1:30 PM '''Integration of reagent modeling from ReO/eagle-i into OBI''' (Matt*, Melissa, Carlo)
+
+
+'''[Need to: assign persons and dates to all these by the end of this week]'''
+
+1.   '''Reagent Classification''' : A top level distinction will be made between molecular reagents and  other regent types (cell lines, microarrays, libraries), which will all be brought together under a 'Reagent'  enumerated class equivalent to 'molecular reagent' U 'cell line' U microarray' U 'reagent library' 
+
+2.   '''Reagent Roles vs Function''' : will review proposals form meeting, including Bjoern's suggestion to create only a single generic 'reagent role' that will be used in defining reagent  materials by linking to this role and an assay or material processing technique that realizes it, and then associating additional functions or dispositions inhering in the material.  This approach should work to allow us to use functions. Dispositions, and roles when appropriate for different types of reagents, and additionally re-use OBI's function classes for describing  instruments and reagents where applicable.
+
+3.   '''Molecular Labels''' - will implement proposed top level 'molecular label/tracer' class, and four subclasses as defined by mode of association with targets (covalent vs non-covalent') and ability to produce some detectable signal.  Regarding the latter axis, some work still needs to be done to carefully define this capacity, and account for some 'reporters' that may not product a typical colorimetric, fluorescent, or radioactive signal.  May be topic for a call in near future.
+
+4.   '''Cell culture/line hierarchy''' - will implement proposed hierarchy which labels classes according to the processes used in creating them (passaging, selecting, immortalization)
+
+5.   '''Other roles''' - will consider implementation of an incorporant role, as a role realized in material processing techniques that is analagous to the evaluant role realized in assays.  Def = "a role inhering in a material entity that is gained through a planning process and realized by the bearer's participation in a material processing where the specified output derives from the bearer of the incorporant role (ie the bearer contributes significant material to the composition of the specified output material)".  Will tie this role to the OBI:material to be added role.
+
+
+
+'''Thursday (Oct 13, 2011)'''
+
+9:00 AM: '''Finalize OBI core''' (Bjoern*, Philippe remotely)
+Bjoern has set the principle of how to select the OBI core terms. The core will serve an educational purpose, showing how all the bits of OBI work together, and will allow us to write comprehensive documentation on the included term. Extra stability requirements are expected of the core terms. Terms will be selected based an a) demonstrating the scope and design principles of OBI and b) additional lower level example terms that demonstrate the design pattern (e.g. the ‘investigation agent role’ shows where in OBI people that work on investigations will be categorized at the high level, and the ‘clinical coordinator role’ is a specific example role).
+
+'''AI: Jie to redo Excel sheet from merged ontology (by 10/17)'''
+'''AI: BP to conclude first pass at selecting core classes (by 10/28)'''
+'''AI: All developers to go through and add / remove classes; ultimate core will be voted on (by 11/05)'''
+'''Followed by additional classes that have been affected by the editing from the workshop (using the whatever ‘difference’ setting)'''
+
+
+10:00 AM: '''Ontology View''' (Jie*, Chris, Oliver remotely)
+For ontology view, we have decided to use ‘alternative term’ annotation property for community preferred label. In addition, we will use ‘inSubset’ annotation property as a term signature to indicate in which view it is.
+
+Features need for web-based ontology view generation tool - ontodog:
+- Output ontology (subset of source ontology) is a merged OWL file, no imports
+- Output ontology (subset of source ontology) can be in inferred hierarchy
+- Include object properties in the template, can provide preferred labels
+- Create annotation layer with inSubset annotation property to indicate which community it belongs to
+- Provide ‘include all subclasses’ feature 
+- Need to provide version information of ontology people use to generate the view or template.
+(need consider release and development version)
+
+'''AIs: Jie, Allene and Oliver will discuss and will give a date for including these features into Ontodog by the end of this week (10/24)'''
+
+1:30 PM: '''Web Services annotation''' (Jie*, Chris)
+Web service will be added as a subclass of service.
+We will add new relation implements (inverse property is_implemented_in) to link software to algorithm and new relation executes (inverse property is_executed_in) (this is a shortcut of realizes some is_concretization_of) to link planned process to plan specification. 
+There are some debates on the terms needed for describing details of web services, OBI or software ontology (SWO). Chris and Jie preferred to add the terms in OBI if they are not available in SWO.
+Proposed to change ‘data transformation’ to define it as a defined class.
+AIs: Jie will add the proposed relations and check whether change ‘data transformation’ to defined class work. Chris and Jie will provide a list of terms used in web services annotation that are useful for web services composition by 10/24
+
+'''AI: Jie, Chris: Re-engage with the software ontology, and clarify how development can be coordinated going forward by 10/31'''
+
+
+2:30 PM: '''Services in general; web services integration''' (Carlo*, Jie)
+Review services terms. Removed those that are not good service categories. Added and modified some restrictions of services and used ‘DNA sequencing service’ as an example to demonstrate current logical definitions working.
+A new relation ‘provides_service_consumer_with’ was added to tie a planned process to a service.
+'''AIs: Carlo/Matt: finalize logical definitions for current hierarchy by 11/08'''
+
+3:00 PM: '''Cell line ontology and anatomical entity relation to OBI''' (Melissa*, Bjoern , Chris Mungall remotely)
+
+Discussion was about changes to CARO that can be imported by OBI. 
+1. Discussion about the use of ‘cell’ in OBI, CARO, GO and CL. This class in OBI is the CL:cell root and represents all cells, but the children are all children of ‘cell in vivo’ in CL. CARO only represents cell in vivo, which is a child of the class in CL. GO is yet unspecified as to whether it references any cell or only those in vivo. 
+
+AIs: OBI will MIREOT ‘cell in vivo’ from CL. Melissa/Matt will add new ‘cell in vitro’ to CL, and update the definition of ‘experimentally modified cell’ in CL, which can be either in vivo or in vitro. OBI will then MIREOT these classes and obsolete OBI:cell line cell and instead MIREOT the existing CL class. Additional cell types will be added to CL/ReO/OBI as needed to be consistent with cell line modeling (see above). '''By the end of this week Melissa will give a date for this AI.'''
+
+2. CARO has ‘organism, organism or virus or viriod, multicellular and single cell organism types (the former two are stated as equivalencies with the NCBItaxon classes). We discussed classfiication of single-cell organisms as cells, and the differences between culturing single cell organisms vs. multicellular organisms. Cultured single-cell organisms are ex-environment as opposed to ex vivo as per multicellular organisms in culture. 
+AI: CARO will add to the definition of single cell organism that it is a cell that is part of some environment and not part of some organism. OBI/ReO will add parallel culturing classes referencing the CARO single-cell organism class. '''By the end of this week Melissa and Matt will give a date for this AI.'''
+
+3. CARO has new class that is meant to replace OBI:anatomical entity, labeled ‘gross anatomical part. This class applies only to mutlicellular organisms and includes material entities that are smaller than the whole organism and larger than a cell - including those without cells as parts, such as axon tracts and bodily fluids. We also decided that it should include extraembryonic tissues and functionally defined anatomical groups (e.g. immune system). The definition of extraembryonic tissues was adjusted to reference tissues and not cells. These changes are already in CARO.
+
+4. UBERON, a cross-species anatomy ontology, is having an official release and a paper submitted shortly, information is available at uberon.org. OBI will now use UBERON classes to reference generic (eg non-species specific) anatomical types. UBERON bridge files can provide the obo foundry unique labels and subclass statements for species specific anatomy classes when those are needed in OBI. 
+
+'AIs: Melissa will provide a mapping file to migrate usage of FMA terms currently in OBI to UBERON classes instead. Jie will import UBERON classes. Bjoern will remove the FMA classes and deprecate OBI classes under ‘anatomical entity’ and replace their usage in other axioms with the UBERON classes. Finally, Jie will remove the FMA from external.owl. (Melissa also happy to do any or all of these). 
+
+'''By the end of this week Melissa will give a date for this AI.'''
+
+
+Friday (Oct 14, 2011) 9:00 AM '''OBI and radiology''' (James*)
+
+Presented a structured reporting tool for prostate cancer reporting and asked how the terms required fit into OBO and OBI. Many of the required terms are already on OBO/OBI, but there are important radiology terms that are only in RadLex. RadLex is moving toward OBO but not yet compatible. Lots of good discussion about available resources and how to get started.
+
+'''No action items for the group -- James will continue working.'''
+
+11:30 AM '''Metadata needs: additional annotation properties for IAO''' (Carlo*, Matt, Melissa)
+We reviewed current developers and end users needs. We identified some 
+suggestions about usage of existing metadata and proposal for additional metadata in IAO.
+
+AIs: Write a short white paper, starting from these slides that summarize the needs and flash out proposals
+(Start form this paper: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2684543/)
+'''AI:Carlo, Matt to have a draft for this by 11/08'''
+
+Decisions:
+1) for the 'application specific label' have a subclass of alternative term creating an application specific label such as: "eagle-i alternative term" "ReO alternative term".
+'''Already done no need to additional implementation.'''
+
+2) There is going to be the "alternative description" is going to be a new IAO property.
+Then we can have subclasses under this like "ReO alternative description" "IEDB alternative description" as for the application specific label
+'''AIs: Carlo will open the tracker item by 10/24 in IAO. Requesting the alternative description.'''
+    
+3) For the application specific restriction use “inSubset” with a set of standard instance value (created in IAO).
+'''AIs: Carlo Investigate with Chris M about the insubset works for roundtrip (obo to OWL). If not open a request to IAO for a new annotation property by the end of this week'''
+
+4) It would be nice to have tracker items linked to terms
+    For this purpose we should use the 'require discussion' instance value under the curation status specification
+'''AI: this is a policy issue. Bjoern update our minimum Metadata Policy including this requirement by the end of this week'''
+
+5) Rename curator note in "internal note" this property can be used to keep track of tracker items as well
+'''AI: Bjoern  to open tracker iterm with IAO by the end of this week'''
+
+
+1:30 PM '''Covering clinical investigations: Duplicating / coordinating with OCRE''' (Melissa*; Simona, Richard, Philippe, Samson remotely)
+
+Discussion centered on areas of overlap between OCRe, OBI and eagle-i. These include study design types, study population, control group definition, and others in the slides that we didn't quite get to. OCRe now has a tracker, has implemented numeric URIs and is using IAO for annotation properties.
+
+We discussed alternative approaches for interoperability. They were:
+1. Use BFO as an upper ontology for OCRe, OBI/eagle-i can help.
+2. OBI could MIREOT the parts that they need from OCRe.
+3. OBI could add the aspects of clinical investigations they need directly in OBI, leveraging expertise from HSDB and current OBI developers.
+
+AIs: We decided to head in the direction of #1, and will start with the study design module of OCRE. This is a valuable and widely applicable module, and consists of @100 terms. OCRE study characteristics will need to be reclassified under BFO and using RO relations or by adding relations to RO. 
+'''Philipe and Melissa will work with Samson and Simona on this. Once it is ready, OBI should be able to import this module. Melissa will provide a date for this action item by the end of this week.'''
+
+2:30 PM: '''Phenotypes''' (Chris, Jie*, Marcus, Melissa*, Carlo)
+
+Phenotype is hard to assert under one BFO class since phenotype is property of different kind of BFO entities, such as, quality/disposition of some organism/part/cellular component location, or biological process, etc. Numerous other projects (HP, MP, Worm, plant, pombe, cerevisae, OMP) all use the Q-inheres-in-some-E pattern as specified in mungall 2007,2009. A large number of phenotypes annotated in this manner have been used to compute phenotypic similarity within and across species. The ‘Phene’ pattern in Hoehndorf 2010 expands on the EQ pattern, and includes OWL representation of any kind of entity relation to a bearer entity, including structural loss of parts, has-function-realized-by, or has-disposition-realized-by, EQs, and quantitative and qualitative values. 
+
+We will check whether ‘Phene’ approach which have been used for phenotype annotation can apply to our use cases, parasite and bacteria phenotype data mainly generated by genetically modified parasite or bacteria and used to infer the function or location of gene/gene product. 
+Two new terms ‘phenotype assessment’ and ‘assigning gene function based on phenotype’ were added to help model phenotype data (including parasite/bacteria). These classes represent the assignment of a phenotype to an organism (for example an EQ) and the assignment of gene function to an organism based on a mutant/comparative phenotype (for example a GO annotation).
+
+For OBI, we need to relate conclusion textual entities that are the output of the process phenotype assessment. This is related but separate from evidence discussion.
+
+'''AIs: Marcus, Jie, Melissa, Chris and Bjoern will continue this work. In particular clarifying the relation between evidence and phenotype. They will present results by 11/15.'''
