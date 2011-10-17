@@ -139,8 +139,7 @@ Then we can have subclasses under this like "ReO alternative description" "IEDB 
 3) For the application specific restriction use “inSubset” with a set of standard instance value (created in IAO).
 '''AIs: Carlo Investigate with Chris M about the insubset works for roundtrip (obo to OWL). If not open a request to IAO for a new annotation property by the end of this week'''
 
-4) It would be nice to have tracker items linked to terms
-    For this purpose we should use the 'require discussion' instance value under the curation status specification
+4) It would be nice to have tracker items linked to terms. For this purpose we should use the 'require discussion' instance value under the curation status specification
 '''AI: this is a policy issue. Bjoern update our minimum Metadata Policy including this requirement by the end of this week'''
 
 5) Rename curator note in "internal note" this property can be used to keep track of tracker items as well
