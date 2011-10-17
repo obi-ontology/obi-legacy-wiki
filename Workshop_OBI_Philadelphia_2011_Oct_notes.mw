@@ -41,17 +41,17 @@ In addition, one type of making a conclusion (assigning gene function based on p
 1:30 PM '''Integration of reagent modeling from ReO/eagle-i into OBI''' (Matt*, Melissa, Carlo)
 
 
-'''[Need to: assign persons and dates to all these by the end of this week]'''
+'''1. Molecular Label modeling :''' will implement proposed top level 'molecular label/tracer' class, and four subclasses as defined by mode of association with targets (covalent vs non-covalent') and ability to produce some detectable signal.   Regarding this latter axis, some work still needs to be done to carefully define this capacity, and account for some 'reporters' that may not product a typical colorimetric, fluorescent, or radioactive signal. 
 
-1.   '''Reagent Classification''' : A top level distinction will be made between molecular reagents and  other regent types (cell lines, microarrays, libraries), which will all be brought together under a 'Reagent'  enumerated class equivalent to 'molecular reagent' U 'cell line' U microarray' U 'reagent library' 
+'''AI 11/7 : Matt will implement model in OBI with clarified definitions for molecular label/tracer as well as four subclasses, and bring any unresolved issues up for discussion on OBI call.'''
 
-2.   '''Reagent Roles vs Function''' : will review proposals form meeting, including Bjoern's suggestion to create only a single generic 'reagent role' that will be used in defining reagent  materials by linking to this role and an assay or material processing technique that realizes it, and then associating additional functions or dispositions inhering in the material.  This approach should work to allow us to use functions. Dispositions, and roles when appropriate for different types of reagents, and additionally re-use OBI's function classes for describing  instruments and reagents where applicable.
+'''2. Cell culture/line hierarchy:'''  hierarchy generated at workshop  whereby label of cell culture classes are based on the processes used in creating them (passaging, selecting, immortalization), therefore avoiding issues raised by label ambiguity and inconsistent terminologies used in different domains for describing types of cell cultures and lines.
 
-3.   '''Molecular Labels''' - will implement proposed top level 'molecular label/tracer' class, and four subclasses as defined by mode of association with targets (covalent vs non-covalent') and ability to produce some detectable signal.  Regarding the latter axis, some work still needs to be done to carefully define this capacity, and account for some 'reporters' that may not product a typical colorimetric, fluorescent, or radioactive signal.  May be topic for a call in near future.
+'''AI 11/7 : Matt will implement this hierarchy in OBI, and also edit/add any related cell culturing techniques needed for logical definitions. Will present any unresolved  issues or questions  in OBI call.'''
 
-4.   '''Cell culture/line hierarchy''' - will implement proposed hierarchy which labels classes according to the processes used in creating them (passaging, selecting, immortalization)
+'''3. Reagent Modeling:''' Workshop proposal to make a top level distinction between molecular reagents and other regent types (cell lines, microarrays, libraries), which will all be brought together under a 'Reagent' enumerated class equivalent to 'molecular reagent' U 'cell line' U microarray' U 'reagent library'.  Regarding the issue of  Reagent Role vs Function, Bjoern suggested creating only a single generic 'reagent role' that will be used in defining reagent materials by linking to this role and an assay or material processing technique that realizes it, and then associating additional functions or dispositions inhering in the material. This approach should work to allow us to use functions. Dispositions, and roles when appropriate for different types of reagents, and additionally re-use OBI's function classes for describing instruments and reagents where applicable. 
 
-5.   '''Other roles''' - will consider implementation of an incorporant role, as a role realized in material processing techniques that is analagous to the evaluant role realized in assays.  Def = "a role inhering in a material entity that is gained through a planning process and realized by the bearer's participation in a material processing where the specified output derives from the bearer of the incorporant role (ie the bearer contributes significant material to the composition of the specified output material)".  Will tie this role to the OBI:material to be added role.
+'''AI (longer term, date TBD) : Matt will review modeling proposals and discuss with Melissa, Carlo, Bjoern before implementing in ReO and discussing in OBI call by end of November.'''
 
 
 
