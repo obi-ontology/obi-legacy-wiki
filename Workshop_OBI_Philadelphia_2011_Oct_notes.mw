@@ -60,10 +60,10 @@ In addition, one type of making a conclusion (assigning gene function based on p
 9:00 AM: '''Finalize OBI core''' (Bjoern*, Philippe remotely)
 Bjoern has set the principle of how to select the OBI core terms. The core will serve an educational purpose, showing how all the bits of OBI work together, and will allow us to write comprehensive documentation on the included term. Extra stability requirements are expected of the core terms. Terms will be selected based an a) demonstrating the scope and design principles of OBI and b) additional lower level example terms that demonstrate the design pattern (e.g. the ‘investigation agent role’ shows where in OBI people that work on investigations will be categorized at the high level, and the ‘clinical coordinator role’ is a specific example role).
 
-'''AI: Jie to redo Excel sheet from merged ontology (by 10/17)'''
-'''AI: BP to conclude first pass at selecting core classes (by 10/28)'''
-'''AI: All developers to go through and add / remove classes; ultimate core will be voted on (by 11/05)'''
-'''Followed by additional classes that have been affected by the editing from the workshop (using the whatever ‘difference’ setting)'''
+'''AI: Jie to redo Excel sheet from merged ontology (by 10/17 - DONE)'''
+<br>'''AI: BP to conclude first pass at selecting core classes (by 10/28)'''
+<br>'''AI: All developers to go through and add / remove classes; ultimate core will be voted on (by 11/05)'''
+<br>'''Followed by additional classes that have been affected by the editing from the workshop (using the whatever ‘difference’ setting)'''
 
 
 10:00 AM: '''Ontology View''' (Jie*, Chris, Oliver remotely)
