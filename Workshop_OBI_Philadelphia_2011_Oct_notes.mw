@@ -117,9 +117,8 @@ AI: CARO will add to the definition of single cell organism that it is a cell th
 
 4. UBERON, a cross-species anatomy ontology, is having an official release and a paper submitted shortly, information is available at uberon.org. OBI will now use UBERON classes to reference generic (eg non-species specific) anatomical types. UBERON bridge files can provide the obo foundry unique labels and subclass statements for species specific anatomy classes when those are needed in OBI. 
 
-'AIs: Melissa will provide a mapping file to migrate usage of FMA terms currently in OBI to UBERON classes instead. Jie will import UBERON classes. Bjoern will remove the FMA classes and deprecate OBI classes under ‘anatomical entity’ and replace their usage in other axioms with the UBERON classes. Finally, Jie will remove the FMA from external.owl. (Melissa also happy to do any or all of these). 
-
-'''Melissa 11/15.'''
+'AIs: Melissa will provide a mapping file to migrate usage of FMA terms currently in OBI to UBERON classes instead.- DONE
+Jie will import UBERON classes. Bjoern will remove the FMA classes and deprecate OBI classes under ‘anatomical entity’ and replace their usage in other axioms with the UBERON classes. Finally, Jie will remove the FMA from external.owl. (Melissa also happy to do any or all of these). 
 
 
 Friday (Oct 14, 2011) 9:00 AM '''OBI and radiology''' (James*)
