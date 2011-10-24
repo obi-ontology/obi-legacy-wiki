@@ -6,6 +6,7 @@ A (*) identifies the person that will lead the discussion and prepare slides
 
 '''Wednesday (Oct 12, 2011)'''
 9:00 AM: Overview of workshop (Bjoern*, Chris*)
+
 Workshop topics fall into themes that reflect future OBI plans (and the basis of specific aims for the grant proposal).
 •Using OBI for logically relating investigations to results and conclusions
 –Wed: Evidence
@@ -28,6 +29,7 @@ Also discussed was plans for next OBI release. To be determined based on action 
 '''AI: BP to revise specific aims draft by 10/24'''
 
 10:00 AM: '''Evidence code''' (Marcus*, Bjoern, Chris, Jie*, Philippe remotely)
+
 Clarify the scope of OBI and Evidence code ontology (EO)
 Specimen -> Assay -> data item -> data interpreting -> conclusion
 Output data of OBI:assay is the Evidence that supports Conclusion. The restrictions were added to conclusion textual entity, tying it to data items, and adding new object property ‘is_supported_by_data’. This will be used for modeling evidence.
@@ -39,7 +41,6 @@ In addition, one type of making a conclusion (assigning gene function based on p
 '''AI set date after call: Marcus to apply pattern to ECO ontology, using QTT approach'''
 
 1:30 PM '''Integration of reagent modeling from ReO/eagle-i into OBI''' (Matt*, Melissa, Carlo)
-
 
 '''1. Molecular Label modeling :''' will implement proposed top level 'molecular label/tracer' class, and four subclasses as defined by mode of association with targets (covalent vs non-covalent') and ability to produce some detectable signal.   Regarding this latter axis, some work still needs to be done to carefully define this capacity, and account for some 'reporters' that may not product a typical colorimetric, fluorescent, or radioactive signal. 
 
@@ -58,6 +59,7 @@ In addition, one type of making a conclusion (assigning gene function based on p
 '''Thursday (Oct 13, 2011)'''
 
 9:00 AM: '''Finalize OBI core''' (Bjoern*, Philippe remotely)
+
 Bjoern has set the principle of how to select the OBI core terms. The core will serve an educational purpose, showing how all the bits of OBI work together, and will allow us to write comprehensive documentation on the included term. Extra stability requirements are expected of the core terms. Terms will be selected based an a) demonstrating the scope and design principles of OBI and b) additional lower level example terms that demonstrate the design pattern (e.g. the ‘investigation agent role’ shows where in OBI people that work on investigations will be categorized at the high level, and the ‘clinical coordinator role’ is a specific example role).
 
 '''AI: Jie to redo Excel sheet from merged ontology (by 10/17 - DONE)'''
@@ -65,8 +67,8 @@ Bjoern has set the principle of how to select the OBI core terms. The core will 
 <br>'''AI: All developers to go through and add / remove classes; ultimate core will be voted on (by 11/05)'''
 <br>'''Followed by additional classes that have been affected by the editing from the workshop (using the whatever ‘difference’ setting)'''
 
-
 10:00 AM: '''Ontology View''' (Jie*, Chris, Oliver remotely)
+
 For ontology view, we have decided to use ‘alternative term’ annotation property for community preferred label. In addition, we will use ‘inSubset’ annotation property as a term signature to indicate in which view it is.
 
 Features need for web-based ontology view generation tool - ontodog:
@@ -78,9 +80,10 @@ Features need for web-based ontology view generation tool - ontodog:
 - Need to provide version information of ontology people use to generate the view or template.
 (need consider release and development version)
 
-'''AIs: Jie, Allene and Oliver will discuss and will give a date for including these features into Ontodog by the end of this week (10/24)'''
+'''AIs: Jie, Allene and Oliver will implement all required features (by 11/15)'''
 
 1:30 PM: '''Web Services annotation''' (Jie*, Chris)
+
 Web service will be added as a subclass of service.
 We will add new relation implements (inverse property is_implemented_in) to link software to algorithm and new relation executes (inverse property is_executed_in) (this is a shortcut of realizes some is_concretization_of) to link planned process to plan specification. 
 There are some debates on the terms needed for describing details of web services, OBI or software ontology (SWO). Chris and Jie preferred to add the terms in OBI if they are not available in SWO.
@@ -91,8 +94,10 @@ AIs: Jie will add the proposed relations and check whether change ‘data transf
 
 
 2:30 PM: '''Services in general; web services integration''' (Carlo*, Jie)
+
 Review services terms. Removed those that are not good service categories. Added and modified some restrictions of services and used ‘DNA sequencing service’ as an example to demonstrate current logical definitions working.
 A new relation ‘provides_service_consumer_with’ was added to tie a planned process to a service.
+
 '''AIs: Carlo/Matt: finalize logical definitions for current hierarchy by 11/08'''
 
 3:00 PM: '''Cell line ontology and anatomical entity relation to OBI''' (Melissa*, Bjoern , Chris Mungall remotely)
