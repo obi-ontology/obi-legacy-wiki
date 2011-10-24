@@ -100,10 +100,13 @@ A new relation ‘provides_service_consumer_with’ was added to tie a planned p
 Discussion was about changes to CARO that can be imported by OBI. 
 1. Discussion about the use of ‘cell’ in OBI, CARO, GO and CL. This class in OBI is the CL:cell root and represents all cells, but the children are all children of ‘cell in vivo’ in CL. CARO only represents cell in vivo, which is a child of the class in CL. GO is yet unspecified as to whether it references any cell or only those in vivo. 
 
-AIs: OBI will MIREOT ‘cell in vivo’ from CL. Melissa/Matt will add new ‘cell in vitro’ to CL, and update the definition of ‘experimentally modified cell’ in CL, which can be either in vivo or in vitro. OBI will then MIREOT these classes and obsolete OBI:cell line cell and instead MIREOT the existing CL class. Additional cell types will be added to CL/ReO/OBI as needed to be consistent with cell line modeling (see above). '''By the end of this week Melissa will give a date for this AI.'''
+AIs: OBI will MIREOT ‘cell in vivo’ from CL. 
+Melissa/Matt will add new ‘cell in vitro’ to CL, and update the definition of ‘experimentally modified cell’ in CL, which can be either in vivo or in vitro. 
+OBI will then MIREOT these classes and obsolete OBI:cell line cell and instead MIREOT the existing CL class. Additional cell types will be added to CL/ReO/OBI as needed to be consistent with cell line modeling (see above). 
+'''Melissa by 11/08.'''
 
 2. CARO has ‘organism, organism or virus or viriod, multicellular and single cell organism types (the former two are stated as equivalencies with the NCBItaxon classes). We discussed classfiication of single-cell organisms as cells, and the differences between culturing single cell organisms vs. multicellular organisms. Cultured single-cell organisms are ex-environment as opposed to ex vivo as per multicellular organisms in culture. 
-AI: CARO will add to the definition of single cell organism that it is a cell that is part of some environment and not part of some organism. OBI/ReO will add parallel culturing classes referencing the CARO single-cell organism class. '''By the end of this week Melissa and Matt will give a date for this AI.'''
+AI: CARO will add to the definition of single cell organism that it is a cell that is part of some environment and not part of some organism. OBI/ReO will add parallel culturing classes referencing the CARO single-cell organism class. '''Melissa and Matt 11/08'''
 
 3. CARO has new class that is meant to replace OBI:anatomical entity, labeled ‘gross anatomical part. This class applies only to mutlicellular organisms and includes material entities that are smaller than the whole organism and larger than a cell - including those without cells as parts, such as axon tracts and bodily fluids. We also decided that it should include extraembryonic tissues and functionally defined anatomical groups (e.g. immune system). The definition of extraembryonic tissues was adjusted to reference tissues and not cells. These changes are already in CARO.
 
@@ -111,7 +114,7 @@ AI: CARO will add to the definition of single cell organism that it is a cell th
 
 'AIs: Melissa will provide a mapping file to migrate usage of FMA terms currently in OBI to UBERON classes instead. Jie will import UBERON classes. Bjoern will remove the FMA classes and deprecate OBI classes under ‘anatomical entity’ and replace their usage in other axioms with the UBERON classes. Finally, Jie will remove the FMA from external.owl. (Melissa also happy to do any or all of these). 
 
-'''By the end of this week Melissa will give a date for this AI.'''
+'''Melissa 11/15.'''
 
 
 Friday (Oct 14, 2011) 9:00 AM '''OBI and radiology''' (James*)
@@ -158,7 +161,7 @@ We discussed alternative approaches for interoperability. They were:
 3. OBI could add the aspects of clinical investigations they need directly in OBI, leveraging expertise from HSDB and current OBI developers.
 
 AIs: We decided to head in the direction of #1, and will start with the study design module of OCRE. This is a valuable and widely applicable module, and consists of @100 terms. OCRE study characteristics will need to be reclassified under BFO and using RO relations or by adding relations to RO. 
-'''Philipe and Melissa will work with Samson and Simona on this. Once it is ready, OBI should be able to import this module. Melissa will provide a date for this action item by the end of this week.'''
+'''Philipe and Melissa will work with Samson and Simona on this. Once it is ready, OBI should be able to import this module. Do by 11/30.'''
 
 2:30 PM: '''Phenotypes''' (Chris, Jie*, Marcus, Melissa*, Carlo)
 
