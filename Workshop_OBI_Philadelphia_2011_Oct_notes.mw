@@ -108,17 +108,17 @@ Discussion was about changes to CARO that can be imported by OBI.
 AIs: OBI will MIREOT ‘cell in vivo’ from CL. 
 Melissa/Matt will add new ‘cell in vitro’ to CL, and update the definition of ‘experimentally modified cell’ in CL, which can be either in vivo or in vitro. 
 OBI will then MIREOT these classes and obsolete OBI:cell line cell and instead MIREOT the existing CL class. Additional cell types will be added to CL/ReO/OBI as needed to be consistent with cell line modeling (see above). 
-'''Melissa by 11/08.'''
+'''Melissa by 11/08.''''''REQUEST to CL has been made.'''
 
 2. CARO has ‘organism, organism or virus or viriod, multicellular and single cell organism types (the former two are stated as equivalencies with the NCBItaxon classes). We discussed classfiication of single-cell organisms as cells, and the differences between culturing single cell organisms vs. multicellular organisms. Cultured single-cell organisms are ex-environment as opposed to ex vivo as per multicellular organisms in culture. 
-AI: CARO will add to the definition of single cell organism that it is a cell that is part of some environment and not part of some organism. OBI/ReO will add parallel culturing classes referencing the CARO single-cell organism class. '''Melissa and Matt 11/08'''
+AI: CARO will add to the definition of single cell organism that it is a cell that is part of some environment and not part of some organism. OBI/ReO will add parallel culturing classes referencing the CARO single-cell organism class. '''Melissa and Matt 11/08''' DONE
 
 3. CARO has new class that is meant to replace OBI:anatomical entity, labeled ‘gross anatomical part. This class applies only to mutlicellular organisms and includes material entities that are smaller than the whole organism and larger than a cell - including those without cells as parts, such as axon tracts and bodily fluids. We also decided that it should include extraembryonic tissues and functionally defined anatomical groups (e.g. immune system). The definition of extraembryonic tissues was adjusted to reference tissues and not cells. These changes are already in CARO.
 
 4. UBERON, a cross-species anatomy ontology, is having an official release and a paper submitted shortly, information is available at uberon.org. OBI will now use UBERON classes to reference generic (eg non-species specific) anatomical types. UBERON bridge files can provide the obo foundry unique labels and subclass statements for species specific anatomy classes when those are needed in OBI. 
 
 'AIs: Melissa will provide a mapping file to migrate usage of FMA terms currently in OBI to UBERON classes instead.- DONE
-Jie will import UBERON classes. Bjoern will remove the FMA classes and deprecate OBI classes under ‘anatomical entity’ and replace their usage in other axioms with the UBERON classes. Finally, Jie will remove the FMA from external.owl. (Melissa also happy to do any or all of these). 
+Jie will import UBERON classes. Bjoern will remove the FMA classes and deprecate OBI classes under ‘anatomical entity’ and replace their usage in other axioms with the UBERON classes. Finally, Jie will remove the FMA from external.owl. (Melissa also happy to do any or all of these).  DONE
 
 
 Friday (Oct 14, 2011) 9:00 AM '''OBI and radiology''' (James*)
