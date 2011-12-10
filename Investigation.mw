@@ -1,0 +1,167 @@
+This document is intended to be a general overview of the OBI model of an investigation. It does not match the current version of OBI on all points -- there are some and new classes and modifications of existing classes. The development notes below detail those changes.
+
+Feedback would be appreciated. Please add comments or suggestions to the [http://obi-ontology.org/w/index.php?title=Talk:Investigation discussion page].
+
+= General Model of a Biomedical Investiation =
+
+At the heart of the Ontology for Biomedical Investigations is our model of an [http://purl.obolibrary.org/obo/OBI_0000066 investigation]. An investigation is a process with three parts:
+
+# the [http://purl.obolibrary.org/obo/OBI_0000339 planning] stage, in which a [http://purl.obolibrary.org/obo/OBI_0500000 study design] is created.
+# the [http://purl.obolibrary.org/obo/OBI_0000471 study design execution] stage, in which the steps of the study design are carried out.
+# the [[#|investigation reporting]] stage, in which an [[#|investigation report]] is created.
+
+The output of an investigation is the [[#|investigation report]], which includes a statement of the [http://purl.obolibrary.org/obo/IAO_0000144 conclusions] of the investigation.
+
+Most biological investigations involve collecting specimens, preparing them, taking measurements, and working with data. Most medical investigations involve enrolling subjects, making an intervention, taking measurements, and working with data. While we call people &quot;subjects&quot; and cells &quot;specimens&quot;, the processes can be modelled in very similar ways. Here area four types of process common to many study designs:
+
+* Biological Investigation
+*# [http://purl.obolibrary.org/obo/OBI_0000659 specimen creation] (or collection)
+*# [http://purl.obolibrary.org/obo/OBI_0000094 material processing]
+*# [http://purl.obolibrary.org/obo/OBI_0000070 assay]
+*# [[#|data processing]]
+* Medical Investigation
+*# subject [http://purl.obolibrary.org/obo/OBI_0000296 enrollment]
+*# [[#|subject processing]]
+*# [http://purl.obolibrary.org/obo/OBI_0000070 assay]
+*# [[#|data processing]]
+
+Each of these steps in the study design has inputs and outputs. In the simplest case these processes form a chain where the output of one step is the input to the next step.
+
+[[Image:Investigation.jpg]]
+
+== Specimen Creation (Collection) ==
+
+* input: unspecified (outside the scope of the OBI model of investigations)
+* output: [http://purl.obolibrary.org/obo/OBI_0100051 specimen] -- such as a [http://purl.obolibrary.org/obo/PR_000000001 protein], [http://purl.org/obo/owl/CL#CL_0000000 cell], [http://purl.obolibrary.org/obo/OBI_0100026 organism], or [http://purl.obolibrary.org/obo/OBI_0000181 population]
+* examples:
+** [http://purl.obolibrary.org/obo/OBI_0600005 collecting specimen from organism] such as
+*** taking a sputum sample from a cancer patient
+*** taking the spleen from a killed mouse
+*** collecting a urine sample from a patient.
+** [http://purl.obolibrary.org/obo/OBI_0600012 environmental material collection] such as
+*** taking 1 liter of surface ocean water from the San Diego Mission Bay Jetty
+*** capturing mice living in rural Arkansas
+
+In order to perform an investigation you need something to investigate. OBI uses the standard label &quot;[http://purl.obolibrary.org/obo/OBI_0000659 specimen creation]&quot;, but in some cases &quot;specimen collection&quot; may be a more natural label (as the examples show).
+
+=== Subject Enrollment ===
+
+* input: unspecified (outside the scope of the OBI model of investigations)
+* output: [http://purl.obolibrary.org/obo/OBI_0100026 organism] -- such as a [http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606 human]
+* examples:
+** [http://purl.obolibrary.org/obo/OBI_0600004 human subject enrollment] such as
+*** enlisting family members of HIV patients into a study
+
+[http://purl.obolibrary.org/obo/OBI_0000296 Enrollment] is a special form of [http://purl.obolibrary.org/obo/OBI_0000659 specimen creation] where an [http://purl.obolibrary.org/obo/OBI_0100026 organism] such as a human being is recruited into the trial. Enrollment may involve other steps such as [http://purl.obolibrary.org/obo/OBI_0000810 informed consent process].
+
+== Material Processing ==
+
+* input: [http://www.ifomis.org/bfo/1.1/snap#MaterialEntity material entity] -- such as a [http://purl.obolibrary.org/obo/PR_000000001 protein], [http://purl.org/obo/owl/CL#CL_0000000 cell], [http://purl.obolibrary.org/obo/OBI_0100026 organism], or [http://purl.obolibrary.org/obo/OBI_0000181 population]
+* output: [http://www.ifomis.org/bfo/1.1/snap#MaterialEntity material entity]
+* examples:
+** [http://purl.obolibrary.org/obo/OBI_0600036 establishing cell culture]
+** [http://purl.obolibrary.org/obo/OBI_0600007 administering a substance in vivo] such as
+*** injecting mice with 10 ug morphine intranasally
+*** a patient taking two pills of 1 mg aspirin orally
+
+Once the specimens have been created they may require some [http://purl.obolibrary.org/obo/OBI_0000094 material processing] in order to prepare them for the [http://purl.obolibrary.org/obo/OBI_0000070 assay].
+
+=== Subject Processing ===
+
+* input: [http://purl.obolibrary.org/obo/OBI_0100026 organism] -- such as a [http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606 human]
+* output: [http://purl.obolibrary.org/obo/OBI_0100026 organism]
+* examples:
+** [http://purl.obolibrary.org/obo/OBI_0600015 group assignment]
+** [http://purl.obolibrary.org/obo/OBI_0000931 study intervention]
+
+[[#|Subject processing]] is a special case of material processing involving organisms such as humans.
+
+== Assay ==
+
+* input: [http://www.ifomis.org/bfo/1.1/snap#MaterialEntity material entity] -- such as a [http://purl.obolibrary.org/obo/PR_000000001 protein], [http://purl.org/obo/owl/CL#CL_0000000 cell], [http://purl.obolibrary.org/obo/OBI_0100026 organism], or [http://purl.obolibrary.org/obo/OBI_0000181 population]
+* output: [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum]
+* examples:
+** [http://purl.obolibrary.org/obo/OBI_0001158 age measurement assay]
+** [http://purl.obolibrary.org/obo/OBI_0000626 DNA sequencing]
+
+An [http://purl.obolibrary.org/obo/OBI_0000070 assay] takes specimens or subjects and produces data about them. This is the most important step, where we switch from dealing with materials to dealing with information.
+
+== Data Processing ==
+
+* input: [http://purl.obolibrary.org/obo/IAO_0000027 data item] -- such as a [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum] or [http://purl.obolibrary.org/obo/IAO_0000100 data set]
+* output: [http://purl.obolibrary.org/obo/IAO_0000027 data item]
+* examples:
+** [http://purl.obolibrary.org/obo/OBI_0200000 data transformation] such as
+*** [http://purl.obolibrary.org/obo/OBI_0200200 chi square test]
+*** [http://purl.obolibrary.org/obo/OBI_0200169 normalization data transformation]
+*** [http://purl.obolibrary.org/obo/OBI_0200125 data combination]
+** [http://purl.obolibrary.org/obo/OBI_0000338 data interpretation] such as
+*** [http://purl.obolibrary.org/obo/OBI_0000988 performing a diagnosis]
+*** [http://purl.obolibrary.org/obo/OBI_0200061 data imputation]
+
+[http://purl.obolibrary.org/obo/OBI_0200000 Data transformation] changes the data from one form to another without making further assumptions or interpretations. [http://purl.obolibrary.org/obo/OBI_0000338 Data interpretation] means stepping beyond the data you collected by interpolating, extrapolating, or making substantial assumptions.
+
+== Planning and Execution ==
+
+The [http://purl.obolibrary.org/obo/OBI_0500000 study design] consists of one or more [http://purl.obolibrary.org/obo/OBI_0000272 protocol]s. Each protocol consists of one ore more [http://purl.obolibrary.org/obo/IAO_0000005 objective specification]s. An objective specification is a plan to execute some process. There are objective specifications for each of the processes discussed above:
+
+# [http://purl.obolibrary.org/obo/OBI_0000684 specimen creation objective] and subject [[#|enrollment objective]]
+# [http://purl.obolibrary.org/obo/OBI_0000456 material transformation objective] and [[#|subject processing objective]]
+# [http://purl.obolibrary.org/obo/OBI_0000441 assay objective]
+# [[#|data processing objective]]
+
+In the [http://purl.obolibrary.org/obo/OBI_0000471 study design execution] stage the planned processes are executed. This is how OBI distinguishes between the plan to perform a process and the process itself.
+
+== Reporting ==
+
+An [[#|investigation report]] is a special sort of document that describes the study design, the study design execution, the data collected, and the conclusions of the investigation. It is the sort of document that is regularly published in scientific journals.
+
+= Development Notes =
+
+The model of investigations described here does not match the current version of OBI. In order to make OBI conform to this model the following changes will be required:
+
+# Add 'investigation report' as a child of [http://purl.obolibrary.org/obo/IAO_0000088 report]. It can have several parts:
+#* concretization of [http://purl.obolibrary.org/obo/OBI_0500000 study design]
+#* concretization of [http://purl.obolibrary.org/obo/IAO_0000027 data item]
+#* 'conclusion textual entity'
+#* perhaps 'hypothesis textual entity' -- modelling hypothesis may be too difficult
+# Add 'investigation reporting' as a child of [http://purl.obolibrary.org/obo/IAO_0000572 documenting].
+# Modify [http://purl.obolibrary.org/obo/OBI_0000066 investigation]:
+#* replace 'documenting' with 'investigation reporting'
+#* replace 'conclusion textual entity' with 'investigation report' as an output
+# Change [http://purl.obolibrary.org/obo/OBI_0000094 material processing] to have output [http://www.ifomis.org/bfo/1.1/snap#MaterialEntity material entity] -- [http://purl.obolibrary.org/obo/OBI_0000047 processed material] is too specific.
+# Move [http://purl.obolibrary.org/obo/OBI_0000296 enrollment] under [http://purl.obolibrary.org/obo/OBI_0000659 specimen creation].
+# Add 'subject processing' as a child of [http://purl.obolibrary.org/obo/OBI_0000094 material processing].
+# Change the output of [http://purl.obolibrary.org/obo/OBI_0000070 assay] to [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum].
+# Rename 'interpreting data' to 'data interpretation'.
+# Change the output of 'data interpretation' to [http://purl.obolibrary.org/obo/IAO_0000027 data item].
+#* This allows for a series of transformation and interpretation steps.
+#* We should understand &quot;interpretation&quot; to mean an educated inference based on knowledge of the field. As such it is intended to produce truthful statements and should tend to do so reliably.
+#* Understood in this way, the conclusion of an inductive inference fits the definition: &quot;a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.&quot;
+#* 'Conclusion textual entity' should be reserved for labelling parts of documents. &quot;Conclusion&quot; is a role rather than a type of information content entity.
+# Add 'data processing' as a child of [http://purl.obolibrary.org/obo/OBI_0000011 planned process] and
+#* move [http://purl.obolibrary.org/obo/OBI_0200000 data transformation] under 'data processing'
+#* move 'data interpretation' and under 'data processing'
+#* move some of the current children of [http://purl.obolibrary.org/obo/OBI_0200000 data transformation] to 'data interpretation' -- anything involving interpolation, extrapolation, or inductive inference. For instance:
+#** background correction data transformation
+#** class discovery data transformation
+#** class prediction data transformation
+#** curve fitting data transformation
+#** data imputation
+#** performing a diagnosis
+#** error correction data transformation
+#** more ...
+# Add under [http://purl.obolibrary.org/obo/IAO_0000005 objective specification]:
+#* 'enrollment objective'
+#* 'subject processing objective'
+#* 'data processing objective'
+# Move 'data transformation objective' under 'data processing objective'.
+# Add 'data interpretation objective' under 'data processing objective'.
+
+== Other Concerns ==
+
+* 'subject enrollment' might be a better label for [http://purl.obolibrary.org/obo/OBI_0000296 enrollment]
+* 'material processing objective' might be a better label for [http://purl.obolibrary.org/obo/OBI_0000456 material transformation objective]
+* [http://purl.obolibrary.org/obo/IAO_0000311 publication] is not a type of document but a status (role?)
+* [http://purl.obolibrary.org/obo/OBI_0000015 biological feature identification objective] and children have no corresponding planned processes
+* [http://purl.obolibrary.org/obo/OBI_0600015 group assignment] should be a planned process
