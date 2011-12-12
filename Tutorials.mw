@@ -121,6 +121,11 @@ The aim is to detect problems with the OWL file that cause OBI to reason slowly.
 
 Protege4 is OWL2 compatible. Editing OBI using Protege4 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
 
+* Downloading Protege4
+
+http://protege.stanford.edu/download/download.html
+
+<!--
 * Downloading Protege4 OBI version
 
 Download OBI friendly Protege4 for windows:
@@ -148,13 +153,14 @@ There are several differences from the released version:
 * Starting Protege4 OBI version
 
 For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege4. 
+-->
 
 Both Java 1.5 and 1.6 worked well when classify using Hermit.
 <!--
 Java 1.5 is recommended for Pellet. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
 -->
 
-* Setting Protege perferences
+* Setting Protege preferences
 
 Click 'File' menu and choose 'Preferences...':
 # In the 'Renderer' tab, click on the 'Annotations ...' button, add 'en, en-US, !' in the languages column. 
@@ -174,7 +180,9 @@ Before running the Protege 4, please check that there is a file catelog-v0001.xm
 # Select obi.owl from your local copy of OBI obi\obi\trunk\src\ontology\branches.
 # Reasoner "HermiT" is used for classification. It has better performance. Classification took about 3 minutes. 
 
+<!--
 Need support from Protege group, please indicate it is Protege 4 OBI version.
+-->
 
 Have questions about running Protege 4 in PC, please contact jiezheng at pcbi.upenn.edu.
 
