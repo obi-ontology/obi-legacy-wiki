@@ -125,36 +125,6 @@ Protege4 is OWL2 compatible. Editing OBI using Protege4 has been tested in both 
 
 http://protege.stanford.edu/download/download.html
 
-<!--
-* Downloading Protege4 OBI version
-
-Download OBI friendly Protege4 for windows:
-http://dl.dropbox.com/u/4905123/OBI-Protege41-PC-2010-12-21.zip
-
-or
-Download OBI friendly Protege4 OBI version for Mac:
-http://dl.dropbox.com/u/4905123/OBI-Protege41-Mac-2010-12-21.zip
-<!--Decline when prompted to install udpates for the plugins, as the plugin versions contained in the download were specifically picked to work with OBI. -->
-
-* Notes from Alan Ruttenberg
-
-This OBI friendly Protege is based on the latest subversion protege 4.1
-
-There are several differences from the released version:
-
-  - Dublin core annotations not defined by default
-  - rdfs labels should be shown by default (hopefully - let me know if not)
-  - Bugfix to mac version of Fact++ that would show unsatisfiable classes for IAO and some other valid ontologies
-  - A number of additional plugins bundled and installed in views
-  - An annotation property tab
-  - A bugfix for incorrect writing of plain literal values in ontology headers
-  - Disabling writing of declarations of imported entities to the importing ontology (not spec, can cause confusion when editing)
-
-* Starting Protege4 OBI version
-
-For PC users, please go to the 'Protege_Windows' directory after unzip the file. Double click 'run.bat' file which is in the 'Protege_Windows' folder to start Protege4. 
--->
-
 Both Java 1.5 and 1.6 worked well when classify using Hermit.
 <!--
 Java 1.5 is recommended for Pellet. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
