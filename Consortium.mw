@@ -270,9 +270,9 @@ EBI-EMBL, NET Project]
 |
 |-
 <!-- Transcriptomics -->
-|rowspan="10"|Transcriptomics
+|rowspan="11"|Transcriptomics
 |[http://www.ebi.ac.uk/Information/Staff/person_maint.php?person_id=424 Susanna Sansone]
-|rowspan="10"|[http://mged.sourceforge.net/ontologies MGED]
+|rowspan="11"|[http://mged.sourceforge.net/ontologies MGED]
 |rowspan="2"|[http://www.ebi.ac.uk/net-project NET Project]
 |Spring 2004
 |
@@ -319,6 +319,11 @@ EBI-EMBL, NET Project]
 |[http://wwwfom.sk.med.ic.ac.uk/medicine/people/helen.causton/ Helen Causton]
 |Imperial College
 |Spring 2004
+|
+|-
+|Jie Zheng
+|University of Pennsylvania
+|Spring 2009
 |
 |}
 
