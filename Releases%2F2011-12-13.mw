@@ -1,7 +1,7 @@
 __NOEDITSECTION__
 = Release notes for OBI 2011-12-13  Release =
 
-<b>Date of release: 2011-07-26</b>
+<b>Date of release: 2011-12-20</b>
 
 <b>Access:</b> <br>
 <i> This version:</i> http://purl.obolibrary.org/obo/obi/2011-12-13/obi.owl <br>
@@ -142,6 +142,7 @@ HP            1
 UBERON       19
 OGMS          3
 GAZ           1
+----------------------------
 </pre>
 
 Release note authors:
