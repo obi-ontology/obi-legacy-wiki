@@ -1,0 +1,118 @@
+This document is a draft that presents a more detailed model of one of OBI's first published case studies. The discussion and diagram in the published paper do a good job of modelling the experiment itself, but the goal here is to model the whole investigation. I also emphasize the distinction between particulars and universals.
+
+Feedback would be appreciated. Please add comments or suggestions to the [http://obi-ontology.org/w/index.php?title=Talk:Lauwereyns2002 discussion page].
+
+= A Case Study of a Biomedical Investigation =
+
+''A neural correlate of response bias in monkey caudate nucleus'' (''Nature'' 418 pp.413-417, 2002) reports on an investigation done by Johan Lauwereyns, Katsumi Watanabe, Brian Coe, and Okihide Hikosaka ([http://www.nature.com/nature/journal/v418/n6896/abs/nature00892.html original], [http://lsr-web.net/Assets/NEIPages/OkihideHikosaka/pdfs/LauwereynsWatanabeCoeOH02.pdf copy]). The goal was to determine the role of the caudate nucleus in the control of action in primates, and the primary method was measurement of the activity of neurons within the caudate nuclei of two monkeys under various stimulus conditions.
+
+This investigation was used as the first of three case studies in the OBI publication ''Modeling biomedical experimental processes with OBI'' (''Journal of Biomedical Semantics'' 2010, 1(Suppl 1):S7, [http://www.jbiomedsem.com/content/1/S1/S7 link]). Here we present the case in somewhat greater detail as an example of the OBI model of a [http://obi-ontology.org/page/Investigation biomedical investigation]. While OBI has the resources to support even greater detail than this, our goal here is to provide a case study that is both substantial and accessible.
+
+= The Particulars of the Case =
+
+The Lauwereyns investigation was a ''particular'' process — it started at a particular time, lasted for a number of weeks, then ended; it took place in a particular laboratory and particular offices; it involved particular people, test subjects, and materials; and it resulted in a particular set of data and the publication of a particular journal article.
+
+When using OBI we distinguish between these ''particular'' things and the ''universals'' or ''classes'' to which they belong. Each OBI term names some class of things, for example the class of all investigations, the class of all study designs, or the class of all documents. These classes are not the kinds of things that start at one time and end at another or that exist in some location. When building a model using OBI we start with the particulars and then decide what classes they fall under — each particular is an ''instance of'' some class. Then we use information from the class definitions to help us determine the relations between the particulars and complete the model.
+
+The model presented here involves a number of particulars. Some are things we would naturally consider: the investigators, the macaque study subjects, and the measuring devices. Others are particular things we might not immediately think of: the study design, the plan to implement the study design, the process of implementing the study design, the neurons that are being measured, the measurement data, etc. While the investigators have names and the measuring devices have inventory numbers, the name &quot;the process of implementing the Lauwereyns 2002 study&quot; does not roll off the tongue. There are many things that we naturally refer using definite descriptions (e.g. &quot;the cat&quot;) rather than proper names (e.g. &quot;Fluffy&quot;). But it is important to consider these difficult-to-name particulars as well as the easy-to-name ones when modelling the investigation.
+
+== The Lauwereyns 2002 Investigation ==
+
+The first particular to consider is the investigation itself. We can call it &quot;The Lauwereyns 2002 Investigation&quot; or &quot;L2002&quot; for short. L2002 is an [http://purl.org/obo/owl/OBO_REL#instance_of instance of] an OBI [http://purl.obolibrary.org/obo/OBI_0000066 investigation], which is a [http://purl.obolibrary.org/obo/OBI_0000011 planned process]. Following the [http://obi-ontology.org/page/Investigation general model of an investigation], it has three parts:
+
+* the planning of the L2002 study design
+* the L2002 study design execution
+* the L2002 reporting process
+
+L2002 also has a number of [http://www.obofoundry.org/ro/ro.owl#participates_in participant]s: the investigators who conducted the study. For each of these investigators we assign an [http://purl.obolibrary.org/obo/OBI_0000202 investigation agent role] that is [http://purl.obolibrary.org/obo/OBI_0000308 realized] by the investigator's participation in the investigation.
+
+The [http://purl.obolibrary.org/obo/OBI_0000339 planning] of L2002 results in a study design. The study design is information about the study. But the information doesn't do anything by itself. It must become a concrete [http://purl.obolibrary.org/obo/OBI_0000260 plan] in the minds of the investigators, and then and the plan must be executed.
+
+[[Image:Lauwereyns2002Investigation.jpg|thumb|800px]]
+
+This figure shows the the particulars of the investigation below, while above are the classes of which they are instances. The classes are related to each other by [http://purl.org/obo/owl/OBO_REL#is_a is a] relations: a [http://purl.obolibrary.org/obo/OBI_0500000 study design] is a kind of [http://purl.obolibrary.org/obo/IAO_0000104 plan specification], which is a [http://purl.obolibrary.org/obo/IAO_0000033 directive information entity], which is an [http://purl.obolibrary.org/obo/IAO_0000030 information content entity], which is a [http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant generically dependent continuant], which is a [http://www.ifomis.org/bfo/1.1/snap#DependentContinuant dependent continuant], which is a [http://www.ifomis.org/bfo/1.1/snap#Continuant continuant], which is an [http://www.ifomis.org/bfo/1.1#Entity entity] — the most general class. The particulars have more complex relations, discussed below.
+
+== The L2002 Study Design ==
+
+The L2002 study design is an instance of an OBI [http://purl.obolibrary.org/obo/OBI_0500000 study design]. The design is a piece of information that describes how the study should work. The L2002 study design has three parts:
+
+* the L2002 enrollment protocol
+* the L2002 stimulation protocol
+* the L2002 assay protocol
+
+More parts could be described, such as the surgery on the monkeys to implant the electrodes, the protocol for their care, and the analysis of the data. OBI has terms for these steps, but they've been omitted from this case study for the sake of brevity.
+
+Each of the [http://purl.obolibrary.org/obo/OBI_0000272 protocol]s is a piece of information that describes how part of the study should be conducted. Each protocol also has an [http://purl.obolibrary.org/obo/IAO_0000005 objective specification]:
+
+* the L2002 enrollment objective specification
+* the L2002 stimulation objective specification
+* the L2002 assay objective specification
+
+Each objective specification describes the goal of the protocol.
+
+== The L2002 Study Design Execution ==
+
+The information in the study design is put to use when it becomes a plan in the minds of the investigators. For each of the study design protocols we have a [http://purl.obolibrary.org/obo/OBI_0000260 plan]:
+
+* the L2002 enrollment plan
+* the L2002 stimulation plan
+* the L2002 assay plan
+
+A plan is executed in a [http://purl.obolibrary.org/obo/OBI_0000011 planned process]. There is at least one planned process for each of the plans. But since this investigation required a number of trials, some of the plans have multiple planned processes:
+
+* the L2002 enrollment
+* several L2002 stimulations
+* several L2002 assays
+
+Each of these planned processes is [http://www.obofoundry.org/ro/ro.owl#part_of part of] the L2002 study design execution, which is an instance of an OBI [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]. Each of the assays produces some data, and these are collected into a [http://purl.obolibrary.org/obo/IAO_0000100 data set]. The class relations are straightforward but the relations between the particulars require some explanation, provided below.
+
+[[Image:Lauwereyns2002StudyDesign.jpg|thumb|700px]]
+
+This figure shows the study design and execution particulars and the classes they are instances of. The enrollment, stimulations, and assays each follow a pattern common to OBI planned processes: protocol, objective specification, plan, and process.
+
+== Albert the Macaque ==
+
+Another key part of the investigation is the experimental subject, a monkey ([http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9542 Macaca fuscata]) we will call &quot;Albert&quot;. Like the investigators, Albert has a role — a [http://purl.obolibrary.org/obo/OBI_0000097 study subject role]. Albert also has a [http://purl.obolibrary.org/obo/UBERON_0001873 caudate nucleus], which is part of his brain. [http://www.obofoundry.org/ro/ro.owl#located_in Located in] his caudate nucleus is a particular neuron we will call &quot;X123&quot;. X123 is the neuron that has its activity measured by the assay. There is also a stimulus — a flash of light — that is presented to Albert. Albert [http://www.obofoundry.org/ro/ro.owl#participates_in participates in] this stimulus, which is an instance of an OBI [http://purl.obolibrary.org/obo/OBI_0000807 presentation of stimulus].
+
+== Single Unit Recorder #15 ==
+
+Also important for the investigation is the device used to make the measurement of the neural activation. &quot;Single unit recorder #15&quot; is a particular [http://purl.obolibrary.org/obo/OBI_0000832 measurement device]. It has its own function — to measure neural activity — which is an instance of the class of [http://purl.obolibrary.org/obo/OBI_0000453 measure function]s. Each time single unit recorder #15 is used to measure the activity of neuron X123 there is a record of its output, called a &quot;spike train&quot;. The spike train is an instance of a [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum].
+
+[[Image:Lauwereyns2002Branch.jpg|thumb|800px]]
+
+This figure shows a branch of the L2002 study design execution, with its various particulars and the classes they are instances of. L2002 collected many measurements using multiple branches similar to this one.
+
+= Relations =
+
+Hopefully much of the discussion of the particulars of this case will seem sensible. However it's likely that some of it sounds unnecessary and redundant. For example, why have a protocol, an objective, a plan, and a planned process for each of the parts of the study design? Even the names of some of the relations between these things may sound peculiar.
+
+In order to understand these peculiarities we have to look at the Basic Formal Ontology ([htp://ifomis.org/bfo BFO]) that is the foundation for OBI. BFO is the &quot;upper level&quot; ontology that all of the ontologies in the [http://obofoundry.org OBO Foundry] share. While OBI and the other OBO ontologies have been developed by looking at cases of scientific practice, BFO is based on a long tradition of philosophy that is the source of the word &quot;ontology&quot;. Ontology (as a branch of philosophy) is about understanding the basic categories of things in the world. But since these categories are so basic to our everyday thinking and language, it's difficult to avoid hidden assumptions and avoid &quot;stretching&quot; the meaning of everyday words. Like any science, ontology involves some difficult concepts and has its own jargon.
+
+This difficulty can be justified by the utility of ontology. Biomedical informatics is one good example. To program a computer properly we have to express our categories and assumptions with painful clarity. Ontology has turned out to be very useful for programming computers to reason properly in science and other domains. A short discussion of the BFO classes and relations will help to sort out the peculiarities of the model of the Lauwereyns 2002 investigation.
+
+We've already seen the distinction between particulars and classes (or universals). For our purposes here, the main relation that holds between classes is the [http://purl.org/obo/owl/OBO_REL#is_a is a] or sub-class relation. The most general class in OBI is [http://www.ifomis.org/bfo/1.1#Entity entity] — every particular is an entity. OBI borrows its most general classes, such as [http://www.ifomis.org/bfo/1.1#Entity entity], from BFO. All the other OBO ontologies also use BFO and this helps to coordinate them.
+
+BFO entities are divided into [http://www.ifomis.org/bfo/1.1/snap#Continuant continuant]s and [http://www.ifomis.org/bfo/1.1/span#Occurrent occurrent]s. Occurrents are the kinds of things that have a beginning, a middle, and an end, such as processes and periods of time: the life of Julius Caesar, the hour of his death. Continuants are things that persist through time, and that undergo processes: Julius Caesar himself, the color his skin, his role as Roman general.
+
+The most important occurrent for our purposes is the process (&quot;[http://www.ifomis.org/bfo/1.1/span#ProcessualEntity processual entity]&quot;). Processes have participants — continuants that [http://www.obofoundry.org/ro/ro.owl#participates_in participate in] the process. OBI focuses on [http://purl.obolibrary.org/obo/OBI_0000011 planned process]es, which are processes that [ http://purl.obolibrary.org/obo/OBI_0000308 realize] a [http://purl.obolibrary.org/obo/OBI_0000260 plan]. Many planned processes have a [http://purl.obolibrary.org/obo/OBI_0000293 specified input] and a [http://purl.obolibrary.org/obo/OBI_0000299 specified output] that are specified by the plan.
+
+Continuants are divided into [http://www.ifomis.org/bfo/1.1/snap#DependentContinuant dependent continuant]s, [http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant independent continuant]s, and [http://www.ifomis.org/bfo/1.1/snap#SpatialRegion spatial region]s. Independent continuants exist by themselves, and the main class of these in OBI is [http://www.ifomis.org/bfo/1.1/snap#MaterialEntity material entity]. Material entities include natural things such as [http://purl.obolibrary.org/obo/PR_000000001 protein]s, [http://purl.org/obo/owl/CL#CL_0000000 cell]s, [http://purl.obolibrary.org/obo/OBI_0100026 organism]s, and [http://purl.obolibrary.org/obo/OBI_0000181 population]s, and [http://purl.obolibrary.org/obo/OBI_0000047 processed material]s such as [http://purl.obolibrary.org/obo/OBI_0100060 cell culture]s and [http://purl.obolibrary.org/obo/OBI_0000968 device]s.
+
+Dependent continuants can't exist without some independent continuant. A dependent continuant [http://purl.org/obo/owl/OBO_REL#inheres_in inheres in] an independent continuant, and conversely the independent continuant is the [http://purl.org/obo/owl/OBO_REL#bearer_of bearer of] the dependent continuant. There are [http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant specifically dependent continuant]s that inhere in a single independent continuant, and there are [http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant generically dependent continuant]s that can be made concrete by many different independent continuants. The specific ones include [http://www.ifomis.org/bfo/1.1/snap#Quality qualities] and [http://www.ifomis.org/bfo/1.1/snap#RealizableEntity realizable entities] such as [http://www.ifomis.org/bfo/1.1/snap#Disposition disposition]s, [http://www.ifomis.org/bfo/1.1/snap#Function function]s, [http://www.ifomis.org/bfo/1.1/snap#Role role]s, and [http://purl.obolibrary.org/obo/OBI_0000260 plan]s. Albert's study subject role (a dependent continuant) inheres in Albert (an independent continuant), and conversely he is the bearer of that role.
+
+The most important type of generically independent continuant for OBI is the [http://purl.obolibrary.org/obo/IAO_0000030 information content entity] class. Information content entities are generically ''dependent'' because they always depend on ''some'' independent entity, but ''generically'' dependent because there can be many copies. For example, the spike trail that is generated by the first assay in L2002 can be made concrete by multiple computer files or paper printouts.
+
+In order for the OBI model of an investigation to work we have to get the classes of the particulars right. Once we know the classes it's often easy to see what the relations have to be. The main relation that holds between particulars and universal is [http://purl.org/obo/owl/OBO_REL#instance_of instantiation]. A specifically dependent continuant [http://purl.org/obo/owl/OBO_REL#inheres_in inheres in] an independent continuant. A generically dependent continuant [http://purl.obolibrary.org/obo/OBI_0000297 is concretized as] an independent continuant. An independent continuant can [http://www.obofoundry.org/ro/ro.owl#participates_in participate in] a process. A [http://www.ifomis.org/bfo/1.1/snap#RealizableEntity realizable entity] (a disposition, function, role, or plan) can be [http://purl.obolibrary.org/obo/OBI_0000308 realized] by a process. Both occurrents and continuants can [http://www.obofoundry.org/ro/ro.owl#has_part have parts].
+
+Plans are an interesting case. A protocol is an information entity, perhaps a list of steps. It has a part which is the objective specification — a bit of information that specifies the objective of the protocol. Since protocols are information, they are generically dependent and must be made concrete as something. In this case the protocol is made concrete as a plan in the mind of an investigator, or perhaps in the running software of a robot. The plan is a specifically dependent realizable entity that gets realized by a planned process. And the planned process has a special relation to the objective specification: [http://purl.obolibrary.org/obo/OBI_0000417 achieves planned objective].
+
+= Conclusions =
+
+OBI can successfully model the Lauwereyns 2002 investigation with a fair degree of detail. More detail is possible, and some of the steps of the investigation have been left out here, such as the surgery to implant the electrodes, the protocol for the care of the monkeys, and the process of inference from the result data to the conclusions of the report. Much repetitive detail has also been omitted: there were two monkeys and many trials with different stimuli. Computers are good at handling such large sets of similar data, but our purpose here has been to explain the OBI model to human beings who want to apply it.
+
+= Developer Notes =
+
+* The model is fairly complicated, but OBI does a good job.
+* The published OBI paper says that the stimulus realizes Albert's study subject role, but I disagree: it is his enrollment that realizes that role.
+* I have modelled Albert as participating in the stimulus, while similar processes in OBI are expressed in input/output terms.
+* Shouldn't &quot;neuron&quot; be somewhere in OBI?
