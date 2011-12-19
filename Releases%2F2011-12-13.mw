@@ -62,7 +62,7 @@ There are more changes since the last release than can be compactly described he
 Here are the highlight:
 * 100 newly added classes
 
-A total of 100 new classes (excluding the terms imported from external resources) were added into this release, mainly are binding assay related terms required by IEDB group. A few terms related to service that requested by eagle-i group.
+A total of 100 new classes (excluding the terms imported from external resources) were added into this release, mainly are binding assay related terms required by IEDB group. Current release contains all the binding assay terms needed by IEDB group. A few terms related to service that requested by eagle-i group were also added in this release.
 
 The newly added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-12-13/merged/newClasses.html
 
