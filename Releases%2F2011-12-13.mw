@@ -32,27 +32,27 @@ Further reading:  You can find the OBI manuscript which this version supports at
 
 OBI Ontology Development is collaborative, term suggestions and new community representatives are welcome. Single term can be suggested via the OBI tracker http://purl.obolibrary.org/obo/obi/tracker. 
 
-If you represent a community and/or have many terms to suggest please email OBI OBI Developers <obi-devel@lists.sourceforge.net> with details. If you would like to see the latest development version please check out the development copy of OBI from sourceforge. 
+If you represent a community and/or have many terms to suggest please email OBI Developers <obi-devel@lists.sourceforge.net> with details. If you would like to see the latest development version please check out the development copy of OBI from sourceforge. 
 
-Tutorials on how to do this here: http://obi-ontology.org/page/Tutorials
+Tutorials on how to do this can be found here: http://obi-ontology.org/page/Tutorials
 
 The OBI wiki can be found at: http://obi-ontology.org/
 
 == How to contact us ==
 
-Send mail with questions about OBI to obi-users@googlegroups.com. You
+Send emails with questions on how to use OBI to obi-users@googlegroups.com. You
 can sign up for this group, or view the archives, at:
 http://groups.google.com/group/obi-users
 
-Discussion among OBI developers is at obi-devel@lists.sourceforge.net. You
+Discussion among OBI developers can be found at obi-devel@lists.sourceforge.net. You
 can sign up for this group, or view the archives, at:
 https://lists.sourceforge.net/lists/listinfo/obi-devel or
 http://groups.google.com/group/obi-developer
 
 OBI term requests, as well as reports of bugs or other issues can be
-entered at our tracker: http://purl.obolibrary.org/obo/obi/tracker The
+entered in our tracker: http://purl.obolibrary.org/obo/obi/tracker The
 tracker currently requires you to have or sign up for a sourceforge
-account. Please send mail to obi-users@googlegroups.com if this is
+account. Please send an email to obi-users@googlegroups.com if this is
 problematic.
 
 == New to this OBI release ==
@@ -62,11 +62,11 @@ There are more changes since the last release than can be compactly described he
 Here are the highlight:
 * 100 newly added classes
 
-A total of 100 new classes (excluding the terms imported from external resources) were added into this release, mainly are binding assay related terms required by IEDB group. Current release contains all the binding assay terms needed by IEDB group. A few terms related to service that requested by eagle-i group were also added in this release.
+A total of 100 new classes (excluding the terms imported from external resources) were added to OBI in this release. Most are types of binding assays and related terms such as binding measurement data required by the IEDB group. The current release contains all terms necessary to represent peptide:MHC binding experiments by the IEDB group. Several terms related to represent services requested by the eagle-i group were also added in this release.
 
-The newly added OBI classes are listed on - http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-12-13/merged/newClasses.html
+The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-12-13/merged/newClasses.html
 
-* Replace species specific anatomical terms with cross species ones which are in either CARO or UBERON
+* Replaced species specific anatomical terms with cross species ones which are in either CARO or UBERON
 
 * Updated identifier format of Cell Type ontology (CL) and Common Anatomy Reference Ontology (CARO) to OBO foundry format ones which are 'http://purl.obolibrary.org/obo/CL_XXXXXXX' and 'http://purl.obolibrary.org/obo/CARO_XXXXXXX'.
 
@@ -148,3 +148,4 @@ GAZ           1
 Release note authors:
 
 * Jie Zheng
+* Bjoern Peters
