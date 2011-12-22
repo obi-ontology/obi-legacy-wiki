@@ -68,7 +68,7 @@ The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/
 
 * Replaced species specific anatomical terms with cross species ones which are in either CARO or UBERON
 
-* Updated identifier format of Cell Type ontology (CL) and Common Anatomy Reference Ontology (CARO) to OBO foundry format ones which are 'http://purl.obolibrary.org/obo/CL_XXXXXXX' and 'http://purl.obolibrary.org/obo/CARO_XXXXXXX'.
+* Updated URIs of all terms imported from OBO foundry ontologies in new format, such as 'http://purl.obolibrary.org/obo/CL_XXXXXXX' rather than http/purl.org/obo/owl/CL#CL_XXXXXXX for CL ontology.
 
 * provide required metadata to 5 terms with 'uncurated' status
  
@@ -95,7 +95,7 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process ([http://precedings.nature.com/documents/3574/version/1/files/npre20093574-1.pdf Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term.])[[http://iospress.metapress.com/content/h54m2237310v13x1/?p=2c64591d6d5e49aa928bb145c74c6ef4&pi=2 Ref]] is below. 
 
 * Information Artifact Ontology (IAO)
-* NCBI Taxonomy
+* NCBI Taxonomy (NCBITAXON)
 * Basic Formal Ontology (BFO)
 * Gene Ontology (GO)
 * Phenotypic Quality Ontology (PATO)
@@ -125,22 +125,23 @@ Imported Properties 101
 
 Imported Classes Breakdown:
 ----------------------------
-IAO         124
+
 NCBITAXON  1170
-BFO          39
+IAO         124
 GO          102
-PATO         49
 CHEBI        53
+PATO         49
+BFO          39
 CL           19
+UBERON       19
 PR           15
 UO           11
 CARO          5
+SO            3
+OGMS          3
 ENVO          2
 VO            2
-SO            3
 HP            1
-UBERON       19
-OGMS          3
 GAZ           1
 ----------------------------
 </pre>
