@@ -68,7 +68,7 @@ The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/
 
 * Replaced species specific anatomical terms with cross species ones which are in either CARO or UBERON
 
-* Updated URIs of all terms imported from OBO foundry ontologies in new format, such as 'http://purl.obolibrary.org/obo/CL_XXXXXXX' rather than http/purl.org/obo/owl/CL#CL_XXXXXXX for CL ontology.
+* Updated URIs of all terms imported from OBO foundry ontologies in new format, such as http://purl.obolibrary.org/obo/CL_XXXXXXX rather than http/purl.org/obo/owl/CL#CL_XXXXXXX for CL ontology.
 
 * provide required metadata to 5 terms with 'uncurated' status
  
