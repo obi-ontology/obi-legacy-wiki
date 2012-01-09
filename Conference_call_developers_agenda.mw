@@ -15,6 +15,25 @@
 
 ''' 9 Jan''' Chair: Jie
 
+  1. Transition to BFO2
+  http://purl.obolibrary.org/obo/bfo.owl
+  http://purl.obolibrary.org/obo/ro.owl
+
+  We decided to transit to BFO2 which is close to be officially released soon.
+  * import the whole bfo.owl (light version)
+  * MIREOT relations defined in ro.owl if needed
+
+The reason we cannot make the release out due to one relation "towards" used in defining "molecular concentration". It may take a while to be in BFO 2. The term "molecular concentration" is in PATO scope and Chris Mungall agreed that the term should be in PATO. The term is not used by any other OBI terms. So, we decided to deprecate the term now for making the current release out. We will import the term from PATO when it is available since we used the term in the manuscript.
+
+AI for Jie: release and keep track on it by contact Alan and Chris.
+
+  2. OBI organizational structure
+  https://docs.google.com/document/d/1NWms5Zxo0BDWezIHO86Z4yh9qqjLCYdCgjwBzd2s-Xs/edit
+
+  We went through documents and defined who are 'active developers'. Please give your comments on:
+  * do we need a benevolent dictator?
+  * list the tasks and add your name to those you'd like contribute to on the page: http://obi-ontology.org/page/Task
+
 ====December 2011====
 
 ''' 19 Dec''' Chair: Bjoern
