@@ -76,7 +76,7 @@ The current BFO changes that effect OBI are the 'BFO: function' is subclass of '
 
 URIs of all terms imported from OBO foundry ontologies have been updated in new format, such as http://purl.obolibrary.org/obo/CL_XXXXXXX rather than http/purl.org/obo/owl/CL#CL_XXXXXXX for CL ontology. 
 
-Chris Mungall has used the same version BFO in the new OBO to OWL conversion. So having OBI use these URIs are better integration with other OBO foundry ontologies, which now are able to have resolvable URIs too. (see http://www.ontobee.org/).
+The same version BFO was used in the new OBO to OWL conversion. So having OBI use these URIs are better integration with other OBO foundry ontologies, which now are able to have resolvable URIs too. (see http://www.ontobee.org/).
 
 * Replaced species specific anatomical terms with cross species ones which are in either CARO or UBERON
 
