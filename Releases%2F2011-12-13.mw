@@ -1,7 +1,7 @@
 __NOEDITSECTION__
 = Release notes for OBI 2011-12-13  Release =
 
-<b>Date of release: 2011-12-20</b>
+<b>Date of release: 2012-01-27</b>
 
 <b>Access:</b> <br>
 <i> This version:</i> http://purl.obolibrary.org/obo/obi/2011-12-13/obi.owl <br>
@@ -66,13 +66,17 @@ A total of 100 new classes (excluding the terms imported from external resources
 
 The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-12-13/merged/newClasses.html
 
-* Import BFO 2.0 (unofficial version) which URI is: http://purl.obolibrary.org/obo/bfo.owl. This version contains OBO_REL relations and URI changed in official format which is http://purl.obolibrary.org/obo/BFO_XXXXXXX. It is a light version without any spatial region terms which OBI never used. The details of new version of BFO see http://ontology.buffalo.edu/bfo/Reference/.
+* Import BFO 2.0 (unofficial version) which URI is: http://purl.obolibrary.org/obo/bfo.owl. This version contains OBO_REL relations and URI changed to official format which is http://purl.obolibrary.org/obo/BFO_XXXXXXX. The mapped old BFO ids -> new BFO ids are listed in the file: 
+https://obi.svn.sourceforge.net/svnroot/obi/releases/2012-01-18/doc/BFO-RO-terms.xls 
+<!-- The details of new version of BFO see http://ontology.buffalo.edu/bfo/Reference/ -->
 
-The changes that had to be made in OBI to switch over to the new versions does not substantially effect the meaning of OBI terms. Much of what is new in BFO 2/RO 2 is leaving stuff out that was not used by OBI anyway, adding definitions, moving things around, assigning identifiers etc. The main change that effect OBI is the 'BFO: function' is subclass of 'BFO: disposition' rather than sibling class now.
+The changes that had to be made in OBI to switch over to the new versions does not substantially effect the meaning of OBI terms. Much of what is new in BFO 2/RO 2 is leaving stuff out that was not used by OBI. we do not expect the changes in the official release of BFO 2  that impact the OBI classes in the release. 
+
+The current BFO changes that effect OBI are the 'BFO: function' is subclass of 'BFO: disposition' rather than sibling class now.
 
 URIs of all terms imported from OBO foundry ontologies have been updated in new format, such as http://purl.obolibrary.org/obo/CL_XXXXXXX rather than http/purl.org/obo/owl/CL#CL_XXXXXXX for CL ontology. 
 
-Chris Mungall has used the same version BFO and in the new OBO to OWL conversion. So having OBI use these URIs are better integration with other OBO foundry ontologies, which now are able to have resolvable URIs too. (see http://www.ontobee.org/).
+Chris Mungall has used the same version BFO in the new OBO to OWL conversion. So having OBI use these URIs are better integration with other OBO foundry ontologies, which now are able to have resolvable URIs too. (see http://www.ontobee.org/).
 
 * Replaced species specific anatomical terms with cross species ones which are in either CARO or UBERON
 
@@ -89,12 +93,11 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 == Known issues ==
 
-* This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
+* Imported unofficial BFO 2.0, the labels of object properties appending with @en need to be fixed. The domain and range of some object properties have not been defined yet.
 
-* 3 classes are created as uncurated status. They have been announced for deprecation. 
-  - activation
-  - general scalar measurement datum
-  - identification
+* Without release version of IAO transited in BFO 2.0, the development version of IAO is merged to the current OBI release. 
+
+* This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
 
 == External ontology and resource mapping/imports list ==
  
