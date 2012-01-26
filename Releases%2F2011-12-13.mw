@@ -62,7 +62,7 @@ There are more changes since the last release than can be compactly described he
 Here are the highlight:
 * 100 newly added classes
 
-A total of 100 new classes (excluding the terms imported from external resources) were added to OBI in this release. Most are types of binding assays and related terms such as binding measurement data required by the IEDB group. The current release contains all terms necessary to represent peptide:MHC binding experiments by the IEDB group. Several terms related to represent services requested by the eagle-i group were also added in this release.
+A total of 100 new classes (excluding the terms imported from external resources) were added to OBI in this release. Most are types of binding assays and related terms such as binding measurement data required by the IEDB group. The current release contains all terms necessary to represent peptide:MHC binding experiments by the IEDB group, but the inferred term hierarchy is not final. Several terms related to represent services requested by the eagle-i group were also added in this release.
 
 The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/obi/releases/2011-12-13/merged/newClasses.html
 
