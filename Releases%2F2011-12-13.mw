@@ -128,19 +128,19 @@ You can request import of additional terms by adding a tracker item at http://pu
 <pre>
 -----------------------------
 OBI Classes 1910
-Imported Classes 1618  
-OBI Properties 39   
-Imported Properties 101	  
+Imported Classes 1591  
+OBI Properties 38   
+Imported Properties 104	  
 
 Imported Classes Breakdown:
 ----------------------------
 
 NCBITAXON  1170
-IAO         124
+IAO         109
 GO          102
 CHEBI        53
 PATO         49
-BFO          39
+BFO          27
 CL           19
 UBERON       19
 PR           15
