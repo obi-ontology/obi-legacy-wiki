@@ -76,13 +76,13 @@ The current BFO changes that effect OBI are the 'BFO: function' is subclass of '
 
 URIs of all terms imported from OBO foundry ontologies have been updated in new format, such as http://purl.obolibrary.org/obo/CL_XXXXXXX rather than http/purl.org/obo/owl/CL#CL_XXXXXXX for CL ontology. 
 
-The same version BFO was used in the new OBO to OWL conversion. So having OBI use these URIs are better integration with other OBO foundry ontologies, which now are able to have resolvable URIs too. (see http://www.ontobee.org/).
+The same version BFO was used in the new OBO to OWL conversion. So having OBI use these URIs are better integration with other OBO foundry ontologies, which now have resolvable URIs too. (see http://www.ontobee.org/).
 
 * Replaced species specific anatomical terms with cross species ones which are in either CARO or UBERON
 
 * fix the issues of terms with 'uncurated' status, provide required metadata to five terms with 'uncurated' status and deprecated the other three.
  
-For all the details of the difference of this release from the previous one, please check the files, diff_CurrentRelease_PreRelease-long.txt and diff_CurrentRelease_PreRelease.txt under http://obi.svn.sourceforge.net/svnroot/obi/releases/2011-12-13/merged/
+For all the details of the difference of this release from the previous one, please check the files, diff_CurrentRelease_PreRelease-long.txt and diff_CurrentRelease_PreRelease.txt under http://obi.svn.sourceforge.net/svnroot/obi/releases/2012-01-18/merged/
 
 
 == Obsolete classes in OBI ==
