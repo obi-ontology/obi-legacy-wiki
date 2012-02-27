@@ -31,6 +31,32 @@
 
 ''' 27 Feb''' Chair: Larissa
 
+- Attended: BP, LS, Jie, James Overton, Philippe, Chris Stoeckert, Melissa,Trish Whetzel, Marcus, Carlo, Zvita, Matthew Brush, Jen Fostel,
+
+- 1. jie: A reprt from the subgroup meeting about phenotype assessment
+
+AI: Jie - prepare and post a short report on the subgroup work.
+
+Shortly report of RCN: Plant people are interested in modeling metadata using OBI framework. I am in contact for this. They are also thinking to collect experimental condition. OBI can help in providing terms in annotations. Currently, they really want us to help in "growth condition" (modeling and annotation).
+
+Suggestion:  subgroups should post short reports about their work and the results for the OBI dev. Subgroups activities should be better recognized and acknowledged.
+
+On the related issue: people are having difficulty using OBI, e.g. developing annotation forms, contributing terms, alignning their existing ontology with OBI, etc. We need to think about better tutorial, regular help line, assistance, etc.
+
+- 2. the Revision of the OBI organizational structure. 
+The documents has been accepted by the majority (only 1 vote against). The document will beposted on-line.
+
+There were worth considering comments on the document made.
+AI: LS - incorporate suggestions to improve the document and send an updated version to BP in a week.
+
+AI: ALL -assign yourself to the tasks:
+http://obi-ontology.org/page/Task
+
+add new tasks if needed
+
+- 3. Item  'purification' from the tracker has been closed; new class 'purified material' added.
+
+
 ''' 20 Feb''' No meeting; Holiday
 
 ''' 13 Feb''' Chair: Jennifer
