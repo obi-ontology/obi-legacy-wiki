@@ -4,7 +4,8 @@ __NOEDITSECTION__
 <b>Date of release: 2012-03-30</b>
 
 <b>Access:</b> <br>
-<i> This version:</i> http://purl.obolibrary.org/obo/obi/2012-03-29/obi.owl <br>
+<i> This version:</i> OWL format - http://purl.obolibrary.org/obo/obi/2012-03-29/obi.owl <br>
+<i> This version:</i> OBO format - http://purl.obolibrary.org/obo/obi/2012-03-29/obi.obo <br>
 <i> Latest Version:</i> http://purl.obolibrary.org/obo/obi.owl <br>
 <i> Browse:</i> http://purl.obolibrary.org/obo/obi/browse<br>
 <i> Tracker:</i> http://purl.obolibrary.org/obo/obi/tracker<br>
@@ -60,6 +61,8 @@ problematic.
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
 
 Here are the highlight:
+* OBO format of OBI is available for this version
+
 * 25 newly added classes
 
 A total of 25 new classes (excluding the terms imported from external resources) were added to OBI in this release containing:
