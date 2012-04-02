@@ -69,7 +69,7 @@ A total of 25 new classes (excluding the terms imported from external resources)
 - terms to represent metadate of sample required by BRC
 - types of binding assays and related terms such as binding measurement data required by the IEDB group
 
-The newly added OBI classes are listed on https://obi.svn.sourceforge.net/svnroot/obi/releases/2012-03-29/docs/newClasses.html
+The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/obi/releases/2012-03-29/docs/newClasses.html
 
 * fixed multiple asserted inheritance of NCBITaxon under organism branch caused by some errors occur during MIROET 
 
