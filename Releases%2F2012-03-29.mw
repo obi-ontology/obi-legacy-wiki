@@ -6,11 +6,17 @@ __NOEDITSECTION__
 <b>Access:</b> <br>
 <i> This version:</i> OWL format - http://purl.obolibrary.org/obo/obi/2012-03-29/obi.owl <br>
 <i> This version:</i> OBO format - http://purl.obolibrary.org/obo/obi/2012-03-29/obi.obo <br>
-<i> Latest Version:</i> http://purl.obolibrary.org/obo/obi.owl <br>
+<br>
+<i> Latest Version in OWL format:</i> http://purl.obolibrary.org/obo/obi.owl <br>
+<i> Latest Version in OBO format:</i> http://purl.obolibrary.org/obo/obi/obi.obo <br>
+<br>
+<i> IEDB View Latest Version:</i> http://purl.obolibrary.org/obo/obi/obi_IEDBview.owl <br>
+<!--
 <i> Browse:</i> http://purl.obolibrary.org/obo/obi/browse<br>
-<i> Tracker:</i> http://purl.obolibrary.org/obo/obi/tracker<br>
-<i> Please see the Tutorials for instructions on downloading and viewing.</i> http://obi-ontology.org/page/Tutorials <br>
-<i> [http://obi-ontology.org/page/Releases/2011-12-13 Previous release notes] </i>
+-->
+<br><i> Tracker:</i> http://purl.obolibrary.org/obo/obi/tracker<br>
+<br><i> Please see the Tutorials for instructions on downloading and viewing.</i> http://obi-ontology.org/page/Tutorials <br>
+<br><i> [http://obi-ontology.org/page/Releases/2011-12-13 Previous release notes] </i>
 
 {{WideTOC|__TOC__}}
  
@@ -61,7 +67,7 @@ problematic.
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
 
 Here are the highlight:
-* OBO format of OBI is available for this version (http://purl.obolibrary.org/obo/obi/obi.obo)
+* OBO format of OBI is available for this version
 
 * 25 newly added classes
 
@@ -73,7 +79,7 @@ The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/
 
 * fixed multiple asserted inheritance of NCBITaxon under organism branch caused by some errors occur during MIROET 
 
-* A static url is given to OBI IEDB view, http://purl.obolibrary.org/obo/obi/obi_IEDBview.owl
+* A static URL is given to OBI IEDB view ontology, http://purl.obolibrary.org/obo/obi/obi_IEDBview.owl
 
 == Obsolete classes in OBI ==
 
