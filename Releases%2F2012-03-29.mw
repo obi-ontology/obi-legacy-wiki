@@ -61,7 +61,7 @@ problematic.
 There are more changes since the last release than can be compactly described here. Users with questions are directed to the OBI users list.
 
 Here are the highlight:
-* OBO format of OBI is available for this version
+* OBO format of OBI is available for this version (http://purl.obolibrary.org/obo/obi.obo)
 
 * 25 newly added classes
 
@@ -83,7 +83,9 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 * Without release version of IAO transited in BFO 2.0, the development version of IAO is merged to the current OBI release. 
 
+<!--
 * This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
+-->
 
 == External ontology and resource mapping/imports list ==
  
