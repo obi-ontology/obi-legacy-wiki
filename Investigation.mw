@@ -1,8 +1,8 @@
-This document is intended to be a general overview of the OBI model of an investigation. It does not match the current version of OBI on all points -- there are some and new classes and modifications of existing classes. The development notes below detail those changes.
+This document is intended to be a general overview of the OBI model of an investigation. It does not match the current version of OBI on all points -- there are some new classes and modifications of existing classes. The development notes below detail those changes.
 
 Feedback would be appreciated. Please add comments or suggestions to the [http://obi-ontology.org/page/Talk:Investigation discussion page].
 
-= General Model of a Biomedical Investiation =
+= General Model of a Biomedical Investigation =
 
 At the heart of the Ontology for Biomedical Investigations is our model of an [http://purl.obolibrary.org/obo/OBI_0000066 investigation]. An investigation is a process with three parts:
 
@@ -12,7 +12,7 @@ At the heart of the Ontology for Biomedical Investigations is our model of an [h
 
 The output of an investigation is the [[#|investigation report]], which includes a statement of the [http://purl.obolibrary.org/obo/IAO_0000144 conclusions] of the investigation.
 
-Most biological investigations involve collecting specimens, preparing them, taking measurements, and working with data. Most medical investigations involve enrolling subjects, making an intervention, taking measurements, and working with data. While we call people &quot;subjects&quot; and cells &quot;specimens&quot;, the processes can be modelled in very similar ways. Here area four types of process common to many study designs:
+Most biological investigations involve collecting specimens, preparing them, generating data by taking measurements, and then working with data. Most medical investigations involve enrolling subjects, making an intervention, generating data by taking measurements, and then working with data. While we call people &quot;subjects&quot; and cells &quot;specimens&quot;, the processes can be modelled in very similar ways. Here area four types of process common to many study designs:
 
 * Biological Investigation
 *# [http://purl.obolibrary.org/obo/OBI_0000659 specimen creation] (or collection)
@@ -37,7 +37,7 @@ Each of these steps in the study design has inputs and outputs. In the simplest 
 ** [http://purl.obolibrary.org/obo/OBI_0600005 collecting specimen from organism] such as
 *** taking a sputum sample from a cancer patient
 *** taking the spleen from a killed mouse
-*** collecting a urine sample from a patient.
+*** collecting a urine sample from a patient
 ** [http://purl.obolibrary.org/obo/OBI_0600012 environmental material collection] such as
 *** taking 1 liter of surface ocean water from the San Diego Mission Bay Jetty
 *** capturing mice living in rural Arkansas
@@ -92,18 +92,18 @@ An [http://purl.obolibrary.org/obo/OBI_0000070 assay] takes specimens or subject
 * output: [http://purl.obolibrary.org/obo/IAO_0000027 data item]
 * examples:
 ** [http://purl.obolibrary.org/obo/OBI_0200000 data transformation] such as
-*** [http://purl.obolibrary.org/obo/OBI_0200200 chi square test]
 *** [http://purl.obolibrary.org/obo/OBI_0200169 normalization data transformation]
 *** [http://purl.obolibrary.org/obo/OBI_0200125 data combination]
 ** [http://purl.obolibrary.org/obo/OBI_0000338 data interpretation] such as
 *** [http://purl.obolibrary.org/obo/OBI_0000988 performing a diagnosis]
 *** [http://purl.obolibrary.org/obo/OBI_0200061 data imputation]
+*** [http://purl.obolibrary.org/obo/OBI_0200200 chi square test]
 
 [http://purl.obolibrary.org/obo/OBI_0200000 Data transformation] changes the data from one form to another without making further assumptions or interpretations. [http://purl.obolibrary.org/obo/OBI_0000338 Data interpretation] means stepping beyond the data you collected by interpolating, extrapolating, or making substantial assumptions.
 
 == Planning and Execution ==
 
-The [http://purl.obolibrary.org/obo/OBI_0500000 study design] consists of one or more [http://purl.obolibrary.org/obo/OBI_0000272 protocol]s. Each protocol consists of one ore more [http://purl.obolibrary.org/obo/IAO_0000005 objective specification]s. An objective specification is a plan to execute some process. There are objective specifications for each of the processes discussed above:
+The [http://purl.obolibrary.org/obo/OBI_0500000 study design] consists of one or more [http://purl.obolibrary.org/obo/OBI_0000272 protocol]s. Each protocol consists of one or more [http://purl.obolibrary.org/obo/IAO_0000005 objective specification]s. An objective specification is a plan to execute some process. There are objective specifications for each of the processes discussed above:
 
 # [http://purl.obolibrary.org/obo/OBI_0000684 specimen creation objective] and subject [[#|enrollment objective]]
 # [http://purl.obolibrary.org/obo/OBI_0000456 material transformation objective] and [[#|subject processing objective]]
@@ -121,8 +121,8 @@ An [[#|investigation report]] is a special sort of document that describes the s
 The model of investigations described here does not match the current version of OBI. In order to make OBI conform to this model the following changes will be required:
 
 # Add 'investigation report' as a child of [http://purl.obolibrary.org/obo/IAO_0000088 report]. It can have several parts:
-#* concretization of [http://purl.obolibrary.org/obo/OBI_0500000 study design]
-#* concretization of [http://purl.obolibrary.org/obo/IAO_0000027 data item]
+#* [http://purl.obolibrary.org/obo/OBI_0500000 study design]
+#* [http://purl.obolibrary.org/obo/IAO_0000027 data item]
 #* 'conclusion textual entity'
 #* perhaps 'hypothesis textual entity' -- modelling hypothesis may be too difficult
 # Add 'investigation reporting' as a child of [http://purl.obolibrary.org/obo/IAO_0000572 documenting].
@@ -160,6 +160,9 @@ The model of investigations described here does not match the current version of
 
 == Other Concerns ==
 
+* It seems too strong to insist that a report is always the output of an investigation. Christian Bölling points out that there are many other possible outputs ("the study design itself, specimens, further processed specimens, data items of various complexity") and suggests that by modelling data processing and analysis more completely we can better capture the nature of a report as the output of an investigation.
+* It would be better to define some sort of inputs for specimen creation and subject enrollment.
+* Christian Bölling suggests that 'objective specification' should be renamed 'objective' on the following grounds: "it's the information content that matters and in this respect an objective is different from its specification. Of course, this is true also for the 'plan specification'. 'Plan' however, is already being used as label for specific, concretized 'plan specifications', so this would need to be renamed as well..."
 * 'subject enrollment' might be a better label for [http://purl.obolibrary.org/obo/OBI_0000296 enrollment]
 * 'material processing objective' might be a better label for [http://purl.obolibrary.org/obo/OBI_0000456 material transformation objective]
 * [http://purl.obolibrary.org/obo/IAO_0000311 publication] is not a type of document but a status (role?)
