@@ -63,17 +63,34 @@ URL: http://www.annarborbedandbreakfast.com/
 
 
 '''Tentative Tasks for the workshop'''
- - manuscript (JZ, CT, MH, LS, BP, JF)
+Wednesday 
+
+9:00 - 12:00 - OBI core part I
+Use cases - (James O, 30-45 minutes)
+OBI core (JZ, BP)
+
+1:00 - 5:00 - ECO
+
+ - QTT phenotypes design pattern (BP - 30 minutes)
+ - OBI-ECO (JZ, MC, PRS - 2.5 hours)
+ - hierarchy of specimen (JF, JZ - 1 hour)
+
+Thursday
+9:00 - 12:00 - data
+ - Sort out data item/measurement datum (BP, PRS, get IAO folks to call in. BP to send out write-up, 2 hours)
+ - Statistics representation in OBI (OH, ... - 1 hour)
+
+1:00 - 5:00 - OBI core part II
+ - continue core discussion (2 hours)
+ - OBI release, which steps should be taken for OBI release process (JZ, CT; 2 hours)
+
+Friday
+9:00 - 12:00 
+ - manuscript (JF, BP, JZ, CT, MH, LS)
  - grant (LS, CS)
- - discussion of timing and modeling "domain knowledge" within studies (JF)
- - hierarchy of specimen (JZ, JF)
- - OBI-ECO (JZ, MC)
- - Use cases (RS)
- - Statistics representation in OBI (OH, ...)
- - OBI core (JZ, ...)
- - QTT phenotypes design pattern (BP,JZ)
- - Sort out data item/measurement datum (PRS)
- - OBI release, which steps should be taken for OBI release process (JZ, CT)
+
+Defer:
+  - discussion of timing and modeling "domain knowledge" within studies (JF)
 
 
 '''Attendees of the Ann Arbor OBI workshop'''
