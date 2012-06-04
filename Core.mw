@@ -2,13 +2,13 @@
 
 OBI Core is a collection of key terms from OBI and related ontologies. It serves two related purposes:
 
-1. For OBI users the core provides a starting point for understanding the most important high-level terms and their relations.
-2. For OBI developers the core provides the fundamental organization of the ontology, and a structure onto which more specific terms can be attached.
+# For OBI users the core provides a starting point for understanding the most important high-level terms and their relations.
+# For OBI developers the core provides the fundamental organization of the ontology, and a structure onto which more specific terms can be attached.
 
 OBI Core consists of two parts:
 
-1. The "inner core" of 36 terms that belong to OBI and IAO.
-2. The "outer core" of 11 terms that belong to other ontologies.
+# The "inner core" of 36 terms that belong to OBI and IAO.
+# The "outer core" of 11 terms that belong to other ontologies.
 
 When these 47 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
 
