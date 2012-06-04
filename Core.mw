@@ -52,15 +52,16 @@ The outer core consists of terms that do not belong to OBI or IAO, but are never
 * biological process (GO)
 * cell (CL, cell type)
 * cellular component (GO)
-* disease course (OGMS)
 * geographical location (Gazetteer)
 * gross anatomical part (CARO)
 * Homo sapiens (NCBITaxon)
 * molecular entity (ChEBI)
-* molecular function (GO)
 * organism (NCBITaxon)
 * quality (PATO)
-
+* measurement unit label (UO)
+(The following two terms are not in OBI yet)
+* disease course (OGMS)
+* molecular function (GO)
 
 = The Complete Core =
 
