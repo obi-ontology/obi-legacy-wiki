@@ -21,6 +21,7 @@ The inner core contains only terms from OBI and IAO -- the Information Artifact 
 * assay
 * centrally registered identifier (CRID) registry
 * centrally registered identifier (CRID) symbol
+* conclusion textual entity
 * data item
 * data transformation
 * dependent variable specification 
@@ -33,7 +34,7 @@ The inner core contains only terms from OBI and IAO -- the Information Artifact 
 * investigation
 * investigation agent role
 * measurement datum 
-* measurement function
+* measurement function (?)
 * plan
 * planning
 * population
@@ -43,7 +44,6 @@ The inner core contains only terms from OBI and IAO -- the Information Artifact 
 * study design
 * study design execution
 * study subject role
-
 
 = The Outer Core =
 
