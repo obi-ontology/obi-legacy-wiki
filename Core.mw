@@ -1,0 +1,67 @@
+[This document is a draft which aims to summarize the results of the OBI Core discussions at the Ann Arbor workshop.]
+
+OBI Core is a collection of key terms from OBI and related ontologies. It serves two related purposes:
+
+1. For OBI users the core provides a starting point for understanding the most important high-level terms and their relations.
+2. For OBI developers the core provides the fundamental organization of the ontology, and a structure onto which more specific terms can be attached.
+
+OBI Core consists of two parts:
+
+1. The "inner core" of 36 terms that belong to OBI and IAO.
+2. The "outer core" of 11 terms that belong to other ontologies.
+
+When these 47 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
+
+
+= The Inner Core =
+
+The inner core contains only terms from OBI and IAO -- the Information Artifact Ontology. Historically, IAO was created as a branch of OBI, and the two remain closely connected. Any detailed model of a biomedical investigation using OBI will require most of these terms.
+
+* acquisition
+* assay
+* centrally registered identifier (CRID) registry
+* centrally registered identifier (CRID) symbol
+* data item
+* data transformation
+* dependent variable specification 
+* device
+* document
+* documenting
+* human subject enrollment
+* hypothesis textual entity
+* independent variable specification 
+* investigation
+* investigation agent role
+* measurement datum 
+* measurement function
+* plan
+* planning
+* population
+* protocol
+* specimen
+* specimen collection
+* study design
+* study design execution
+* study subject role
+
+
+= The Outer Core =
+
+The outer core consists of terms that do not belong to OBI or IAO, but are nevertheless very common when modelling biomedical investigations. These terms help serve the educational purpose of the core by showing how OBI connects to other widely-used ontologies.
+
+* biological process (GO)
+* cell (CL, cell type)
+* cellular component (GO)
+* disease course (OGMS)
+* geographical location (Gazetteer)
+* gross anatomical part (CARO)
+* Homo sapiens (NCBITaxon)
+* molecular entity (ChEBI)
+* molecular function (GO)
+* organism (NCBITaxon)
+* quality (PATO)
+
+
+= The Complete Core =
+
+The complete core consists of all the terms in the inner core and the outer core, plus all of their ancestors and any other terms required to generate a logically closed ontology. The complete core contains approximately 100 terms. Understanding these 100 terms will provide an excellent overview of OBI.
