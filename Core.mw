@@ -5,8 +5,8 @@ OBI Core is a collection of key terms from OBI and related ontologies. It serves
 
 OBI Core consists of two parts:
 
-# The "inner core" of 29 terms that belong to OBI and IAO.
-# The "outer core" of 12 terms that belong to other ontologies.
+# The "inner core" of 28 terms that belong to OBI and IAO.
+# The "outer core" of 13 terms that belong to other ontologies.
 
 When these 40 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
 
@@ -35,7 +35,6 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 # [http://purl.obolibrary.org/obo/OBI_0000202 investigation agent role]
 # [http://purl.obolibrary.org/obo/OBI_0000453 measure function]
 # [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum]
-# [http://purl.obolibrary.org/obo/OBI_0100026 organism], included to connect to the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
 # [http://purl.obolibrary.org/obo/OBI_0000260 plan]
 # [http://purl.obolibrary.org/obo/OBI_0000339 planning]
 # [http://purl.obolibrary.org/obo/OBI_0000181 population]
@@ -54,13 +53,14 @@ The outer core consists of terms that do not necessarily belong to OBI or IAO, b
 # [http://purl.obolibrary.org/obo/GO_0008150 biological_process] from the [http://www.geneontology.org Gene Ontology] (GO)
 # [http://purl.obolibrary.org/obo/CL_0000000 cell] from the [http://cellontology.org Cell Ontology] (CL)
 # [http://purl.obolibrary.org/obo/GO_0005575 cellular_component] from the [http://www.geneontology.org Gene Ontology] (GO)
+# [http://purl.obolibrary.org/obo/ENVO_00010483 environmental material] from the [http://environmentontology.org/ Environment Ontology] (EnVO)
 # [http://purl.obolibrary.org/obo/GAZ_00000448 geographical location] from [http://bioportal.bioontology.org/ontologies/1397 Gazetteer]
 # [http://purl.obolibrary.org/obo/CARO_0001008 gross anatomical part] from the [http://www.bioontology.org/wiki/index.php/CARO:Main_Page Common Anatomy Reference Ontology] (CARO)
 # [http://purl.obolibrary.org/obo/NCBITaxon_9606 Homo sapiens] from the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
-# [http://purl.obolibrary.org/obo/CHEBI_23367 molecular entity] from [http://www.ebi.ac.uk/chebi/ Chemical Entities of Biological Interest] (ChEBI)
-# [http://purl.obolibrary.org/obo/BFO_0000019 quality], included to connect to the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotypic Quality Ontology] (PATO)
-# [http://purl.obolibrary.org/obo/ENVO_00010483 environmental material] from the [http://environmentontology.org/ Environment Ontology] (EnVO)
 # [http://purl.obolibrary.org/obo/IAO_0000003 measurement unit label], included to connect to the [http://code.google.com/p/unit-ontology/ Ontology of Units of Measurement] (UO)
+# [http://purl.obolibrary.org/obo/CHEBI_23367 molecular entity] from [http://www.ebi.ac.uk/chebi/ Chemical Entities of Biological Interest] (ChEBI)
+# [http://purl.obolibrary.org/obo/OBI_0100026 organism], included to connect to the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
+# [http://purl.obolibrary.org/obo/BFO_0000019 quality], included to connect to the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotypic Quality Ontology] (PATO)
 
 The following two terms are not in OBI yet:
 
@@ -93,3 +93,11 @@ Terms may be added to or removed from OBI Core from time to time on the basis of
 The complete core is generated automatically from the inner and outer cores. We could make the inner core smaller by removing certain mid-level terms that would automatically be included in the complete core anyway. For instance, we could leave a child (e.g. "document") in the inner core while removing its parent (e.g. "information content entity") from the inner core, since the parent would automatically be included in the complete core.
 
 The criterion of importance applies here. When both the parent and the child are important for modelling biomedical investigations with OBI, both have been included in the inner core. In order to model a large majority of biomedical investigations with OBI both "document" and "information content entity" will be involved, and so both are included in the inner core. This serves both the educational and organizational goals of the core.
+
+== Inner Core versus Outer Core ==
+
+Every term in the inner core falls within OBI or IAO scope. All of them belong to the OBI or IAO namespaces. The terms in the outer core fall outside of OBI/IAO scope, and therefore most of them belong to different ontologies with different namespaces.
+
+However there are some terms in the outer core that belong to the OBI or IAO namespaces. This has been done when the term was included in OBI or IAO in order to make a connection to another ontology. For instance, "measurement unit label" is an IAO term, but all of its children belong to the Ontology of Units of Measurement (UO).
+
+The term "organism" is an edge case. It is outside of OBI scope and was designed primarily to connect to NCBITaxon (see the editor notes for the term), however some of its children are OBI terms.
