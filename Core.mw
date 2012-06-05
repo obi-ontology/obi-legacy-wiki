@@ -48,7 +48,7 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 
 = The Outer Core =
 
-The outer core consists of terms that do not necessarily belong to OBI or IAO, but are nevertheless important and common when modelling biomedical investigations with OBI. These terms serve the educational purpose(?) of the core by showing how OBI connects to other widely-used ontologies.
+The outer core consists of terms that fall outside OBI and IAO scope, but are nevertheless important and common when modelling biomedical investigations with OBI. These terms serve the educational purpose of the core by showing how OBI connects to other widely-used ontologies.
 
 # [http://purl.obolibrary.org/obo/GO_0008150 biological_process] from the [http://www.geneontology.org Gene Ontology] (GO)
 # [http://purl.obolibrary.org/obo/CL_0000000 cell] from the [http://cellontology.org Cell Ontology] (CL)
