@@ -6,10 +6,11 @@ OBI Core is a collection of key terms from OBI and related ontologies. It serves
 OBI Core consists of two parts:
 
 # The "inner core" of 28 terms that belong to OBI and IAO.
-# The "outer core" of 12 terms that belong to other ontologies.
+# The "outer core" of 13 terms that belong to other ontologies.
 
 When these 40 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
 
+([http://obi-ontology.org/page/Core_terms OBI core terms in 2008])
 
 = The Inner Core =
 
@@ -47,7 +48,7 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 
 = The Outer Core =
 
-The outer core consists of terms that do not necessarily belong to OBI or IAO, but are nevertheless important and common when modelling biomedical investigations with OBI. These terms serve the educational purpose of the core by showing how OBI connects to other widely-used ontologies.
+The outer core consists of terms that do not necessarily belong to OBI or IAO, but are nevertheless important and common when modelling biomedical investigations with OBI. These terms serve the educational purpose(?) of the core by showing how OBI connects to other widely-used ontologies.
 
 # [http://purl.obolibrary.org/obo/GO_0008150 biological_process] from the [http://www.geneontology.org Gene Ontology] (GO)
 # [http://purl.obolibrary.org/obo/CL_0000000 cell] from the [http://cellontology.org Cell Ontology] (CL)
@@ -57,7 +58,8 @@ The outer core consists of terms that do not necessarily belong to OBI or IAO, b
 # [http://purl.obolibrary.org/obo/NCBITaxon_9606 Homo sapiens] from the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
 # [http://purl.obolibrary.org/obo/CHEBI_23367 molecular entity] from [http://www.ebi.ac.uk/chebi/ Chemical Entities of Biological Interest] (ChEBI)
 # [http://purl.obolibrary.org/obo/OBI_0100026 organism], included to connect to the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
-# [http://www.ifomis.org/bfo/1.1/snap#Quality quality], included to connect to the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotypic Quality Ontology] (PATO)
+# [http://purl.obolibrary.org/obo/BFO_0000019 quality], included to connect to the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotypic Quality Ontology] (PATO)
+# [http://purl.obolibrary.org/obo/ENVO_00010483 environmental material] from the [http://environmentontology.org/ Environment Ontology] (EnVO)
 # [http://purl.obolibrary.org/obo/IAO_0000003 measurement unit label], included to connect to the [http://code.google.com/p/unit-ontology/ Ontology of Units of Measurement] (UO)
 
 The following two terms are not in OBI yet:
