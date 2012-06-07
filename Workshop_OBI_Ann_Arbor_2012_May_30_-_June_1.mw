@@ -122,28 +122,43 @@ Defer:
 '''OBI Core:'''
 
 Trim taxonomy: Focus on organism / homo sapiens; core is not necessarily equivalent to OWL file
+
 Remove upper level ontology terms - Make an OBI OBO – just the 13 terms
+
 Check granularity (CRID/organism)
+
 What is missing from core (see table 1)
+
 Add links to other ontologies to CORE as special terms
 
 How do things get into an investigation:
+
 Acquisition ->Object acquisition – buy an antibody, rat
+
 Enrollment is separate process and missing
+
 Specimen creation - Draw blood from patient
+
 Specimen creation -> Storing specimen (Biobank)
+
 Specimen Creation -> Sample collection in the wild
+
 Acquisition -> Data acquisition
 
 Cellular component – add to core; excluding molecular entities
+
 	Protein complex – GO term; taking over by PROT; we will wait
+
 	ChEBI has proteins
 
 Quality = child of specifically dependent continuant (PATO) needs to be incorporated into Core
 
 Wait for:
+
 IAO publication, symbol, file
+
 ChEBI/PRO – molecular entities
+
 Disease to be classified
 
 '''AI for BP''': Change name of “XYZ file” terms -> Information content entity that follows the XYZ format; do not add term “file”.
@@ -194,6 +209,7 @@ Plan to add defined classes to OBI so that one ECO term can map to one OBI term.
 Action Philippe, Jie, Marcus: Plan is to start by adding assays to OBI which are needed to cover ECO, and focus on those assays which are (implicitly) well defined in ECO. Philippe has worked on assay definitions, and run those by Marcus before adding. 
 
 '''Phenotype questions/to incorporate'''
+
 Is it phenotypic conclusion or conclusion or organism phenotype assessment
 Phenotypes can be comparative (this gene KO leads to longer tail than wild type)
 And (static) phenotypes can be about a “wild type” – bats are flying mammals
@@ -201,6 +217,7 @@ And (static) phenotypes can be about a “wild type” – bats are flying mamma
 BP comment: Phenotype (as in the biological description) is outside of OBI scope, and the interested parties will work on it. 
 
 '''Christian: Evidence ontology = EVE'''
+
 Similar to ECO/OBI work, with differences:
 assertion (information entity) connected to statement by asserts
 uses roles for dependent continuants: conclusion role/ premise role has bearer assertion
@@ -219,6 +236,7 @@ Use unnamed classes, eg CpG evidence: assay and utilized function of device (GpC
 Marcus will summarize process developed for QTT file
 
 '''Discussion of Specimen:'''
+
 Need something small that stands for something large
 Need large entity; study subject role is tied to conclusion
 
@@ -230,11 +248,13 @@ Idea of sample coming from larger entity / population
 
 Definition: material transformation process with objective to obtain a material entity for potential use in an investigation
 Either material sample / specimen or new term representing both
+
 '''AI ''' call next week: Implement discussion results. Retire material sample / sampling process. Send complete proposal out to list. 
 
-'''Thursday:
+'''Thursday:'''
 
-Oliver: Statistics'''
+'''Oliver: Statistics'''
+
 We need input / output for each method, with assumptions, when the method is valid, etc.
 Oliver plans to add assumptions / rules for use of the method
 We need also the corresponding metadata to the data (e.g. is normal)
@@ -244,20 +264,23 @@ Currently need expert knowledge to use GenePattern
 Having the added information will make the pipeline usable by non-experts
 
 Comments:
+
 part of relation does not apply to ICE
 Add covariate role for investigation
 '''AIs:''' BP adding straightforward terms to OBI; Oliver will add other missing terms to tracker
 
 Quality of measurements – 
+
 Add responsiveness (response that you expect to change in response to treatment of known efficacy)
 Also can have quality of methods – assays related to responsiveness
 We can have measured / calculated values in OBI
 Reliability is a quality – BFO defines as inhering in independent continuants
 
 Uses:
+
 Reliability / validity / responsiveness – mostly applied to psychometric and physiological measures / qualities.  Physiological – neuroimaging; volt signal from brain in response to finger tapping test (primates and people).
 
-'''AI''' - Responsiveness – Oliver will work with Marcy for use case
+'''AI:''' - Responsiveness – Oliver will work with Marcy for use case
 
 Add accuracy and precision
 
@@ -266,7 +289,7 @@ Add accuracy and precision
 Is the distinction direct vs indirect measurements?  Questionnaire - Cannot directly measure mental state.  Direct measurements do not need these terms, use measure of variance.
 Not direct vs indirect – indirect simply use second order conclusions.
 
-'''AI:''' Oliver will submit a list of statistics terms to OBI track system. These terms can be listed together. (provide both textual and logical definitions of request terms) 
+'''AI Oliver:''' will submit a list of statistics terms to OBI track system. These terms can be listed together. (provide both textual and logical definitions of request terms) 
 Jen and Philippe have offered to help this effort.  
 
 '''email from Bjoern:  ICE for measured/predicted/planned / calibrated values'''
@@ -295,9 +318,9 @@ Example: The temperature specified in "Incubate the cells at 37 Degrees Celsius 
 Example: The temperature control knob in my analog toaster oven. (which does *not* measure the actual temperature, but adjusts the current) 
 
 * Third, if blessed by the BFO group, we will add roles to this. Every value specification that is not a measurement datum upon its creation gains a role (predicted value role / planned value role etc.) which is realized when a comparison between a prediction and a measurement is made. This would be elegant, completely consistent with the above and how we deal with roles in other places in OBI, but I would advocate not waiting for BFO to implement this, and go with the above for now which is clearly better than the mess we have in IAO right now. 
-'''
-AI BP:''' involve IAO people in discussion 
-Add to IAO (AI BP):
+
+'''AI BP:''' involve IAO people in discussion 
+
 Class with form unit and value
 About A or B or C or D
 A entity
@@ -307,8 +330,8 @@ C design of instrument / calibration (is realized by; in the future)
 D Setting - will be similar
 Implied measurement process – test machine is working properly
 
-'''
-Discussion of core'''
+'''Discussion of core'''
+
 •	Educational tool; guide to understanding
 •	Covers use cases
 •	Solid definitions
@@ -329,6 +352,7 @@ arm population = cohort population with same intervention. Also eligible populat
 BP comment: Inspect terms from OCRE rather than import. Do this during the core term discussion.
 
 Add Acquisition back into core
+
 Acquisition/object acquisition/data acquisition – BP repaired definitions: process of gaining possession of a material entity/data/continuant
 
 Add units to core?  Alan suggested use QUDT in place of Unit Ontology (UO), have not made final decision yet. 
@@ -337,36 +361,40 @@ Specimen CREATION objective/process -> Specimen COLLECTION objective/process
 Deprecate material sampling process / material sample – create term as part of conclusion; only then it will be clear if the objective of sampling a larger population has been achieved
 
 Propose to deprecate ‘material sampling process’
-'''
-OBI technique issues:'''
+
+'''OBI technique issues:'''
 
 OBI release: 
-AI for Jie: send OBI desired features to Oort developers. The goal is to use Oort tool for OBI release.
-AI for Carlo: take care of next OBI release. The deadline of next release being out is mid July. Start end of June.
+
+'''AI for Jie:''' send OBI desired features to Oort developers. The goal is to use Oort tool for OBI release.
+'''AI for Carlo:''' take care of next OBI release. The deadline of next release being out is mid July. Start end of June.
 
 MIROET:
 Ultimately Oort will incorporate MIROET. We are going to fix the current issue with minimal efforts:
 	Switch to use He group endpoint for SPARQL query
 	Use the OntoFox input file provided by Carlo for NCBITaxon terms.
-AI: Jie
+'''AI: Jie'''
 
 Deprecate terms:
 Keep OBO obsolete parent terms and send request to Protégé developers for adding folder feature.
 Add obsolete property as True to the obsolete terms.
-AI: Jie: update documentation
+'''AI: Jie:''' update documentation
 
 '''Friday:''' 
 
 '''OBI general paper:''' 
+
 Jen: presented her suggestions and proposal for the general paper updates.
 After good discussions, here is the plan:  Jen will lay out a specific plan, which will first be discussed among people in today’s meeting. After it is agreed by the group of people, the plan will be submitted to the OBI email list for further discussion.
-'''AI:''' Jennifer
+'''AI: Jennifer'''
 
 '''Funding opportunities:'''
+
 Different opportunities were discussed. We would like to take any chance to get the principle OBI research efforts funded. One possibility is to develop a commercial business model and charge for service fee for using OBI in different applications, like LIMS system, data integration, database development, etc. This would potentially allow us to develop an SBIR Phase I/II proposal, however to do so we would need to have a clear product; it is uncertain if a “consulting” only SBIR is possible. We may also look for opportunities from different agencies including NIH and NSF, such as R41 funding.
 '''AI''' Chris: continue information gathering on SBIR and other opportunities
 
 '''Phenotype discussion:'''
+
 Chris brought up the need to model phenotype in OBI. OBI has ‘phenotypic assessment’. We changed this term to ‘comparative phenotypic assessment’ and modified the definition of the OBI term. In many cases, phenotypes reflect the differences from control or reference organism. However, there are cases that we don’t need comparison, for example, “red eye”. 
 
 It was difficult to achieve an agreement in the discussion. Different phenotype ontology efforts have been available. There is a Mammalian Phenotype Ontology developed by MGI. Marcus is now working on project to develop a microbial phenotype ontology. OBI now considers phenotype as a disposition or quality. Oliver indicated that phenotype might also mean processes. Alan suggested that we need to get broader participation and discussions. 
