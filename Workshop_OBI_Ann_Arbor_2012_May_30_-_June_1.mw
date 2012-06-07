@@ -399,6 +399,31 @@ Chris brought up the need to model phenotype in OBI. OBI has ‘phenotypic asses
 
 It was difficult to achieve an agreement in the discussion. Different phenotype ontology efforts have been available. There is a Mammalian Phenotype Ontology developed by MGI. Marcus is now working on project to develop a microbial phenotype ontology. OBI now considers phenotype as a disposition or quality. Oliver indicated that phenotype might also mean processes. Alan suggested that we need to get broader participation and discussions. 
 
+'''Summary of General action items:'''
+
+AI Bjoern: check if we can find new call time that works for Alan (done)
+
+AI James O, send out email about core term list (done)
+
+AI Bjoern, fix terms with 'file' in label
+
+AI Marcus, Philippe, Jie: Add assays to OBI for ECO mapping
+
+AI Bjoern, send OWL file modeling evidence to Christian B
+
+AI Oliver, work with Marcy etc. on need for additional statistical classes
+
+AI Bjoern, work with IAO folks on blessing implementation of measured vs. predicted datum
+
+AI Jie: send OBI desired features to Oort developers. The goal is to use Oort tool for OBI release.
+
+AI Carlo: take care of next OBI release. The deadline of next release being out is mid July. Start end of June.
+
+AI Jie: Update MIREOT documentation
+
+AI Jennifer: Send updated manuscript
+
+AI Chris: Continue funding discussion 
 
 
 '''Attendees of the Ann Arbor OBI workshop'''
