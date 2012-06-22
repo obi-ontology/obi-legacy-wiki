@@ -5,6 +5,117 @@
 
 ===Conference Call Agenda Items===
 
+====June 2012====
+
+'''25 June"  Chair: Oliver
+
+---------------
+
+Next Call: Monday June 25th,
+
+Chair: Yongqun He
+
+Agenda item:
+
+-data item continued discussion -> resolution is needed
+
+-OBI next release
+
+-OBI participation ICBO2012
+
+-Housekeeping tasks:
+	-find volunteers for chairing the dev call until september
+
+
+'''18 June''' Chair: Philippe
+
+Attending: Carlo Torniai, Marcus Chibucos, Jie Zheng, Yu Lin, Oliver He, Alan Ruttenberg, Bjoern Peters, Randi Vita, Chris Stoeckert,
+
+Minutes:
+Overall goal: reorganize 'data item branch' to avoid redundant
+declaration as currently experienced.
+
+proposal create 3 defined classes:
+
+
+predicted data item: is_specified_output_of some 'prediction data
+transformation'
+
+specified/planned/set data item: is_specified_output_of  some 'planning'
+
+measured data item: is_specified_output_of  some "assay or measurement"
+
+Issues:
+
+i. class naming:
+
+'value specification' has been suggested to be rename 'value
+denotation', which was deemed more neutral. However, it is being
+argued that the term is misused.
+
+-denotation (verb) = process that takes label/name and finds what it
+points to.(AR)
+-denotation (Noun) is the target of what is pointed to.(AR)
+
+for context:
+denotation (noun):the literal or primary meaning of a word, in
+contrast to the feelings or ideas that the word suggests.
+[mass noun] the action of indicating or referring to something by
+means of a word, symbol, etc..
+Philosophy the object or concept to which a term refers, or the set of
+objects of which a predicate is true.
+http://oxforddictionaries.com/definition/denotation
+
+denote (verb): be a sign of, indicate
+http://oxforddictionaries.com/definition/denote
+
+
+No resolution as both the use of 'specification' and 'denotation'
+labels can be miscontrued.
+
+"value specification/denotation" is just value + unit
+
+
+ii. discussion on aboutness:
+
+argument that predicted data item are about something different than
+measured data item
+(predicted water temperature would not be about water but a realizable
+entity Alan Ruttenberg's view)
+Are 'predicted water temperature' and 'measured water temperature"
+'about' the same entity?
+(important note: it is assumed that the predictions result from a
+'realistic model about an entity' which delivers values, which, by
+plan, should be compatible with reality).
+->unresolved discussion:
+
+points are made for thinking in terms of type versus instances to help
+clarifying the proposal:
+
+	predicted data (wouldbe)_about universal (universal/type level)
+	measured data is_about a particular of the type (instance level)
+
+AI: ->drill on this point over next call.
+
+
+iii. discussion on comparison process associated with predicted data.
+
+argument that predicted data item always need to be presented in the
+context of a comparison to actual measurement data.
+"prediction of temperature is about a realizable entity realized in a
+process in which when the conditions of the simuation obtain and a
+measurement of temperature is made, that temperature is compared to
+the predicted value and is approximately (or data item weasel word)
+correct "
+Christian Bolling argues that the comparison is a different and
+distinct step. (see his post)
+
+
+
+'''11 June''' Chair: Philippe
+
+
+
 ====May 2012====
 
 ''' 28 May''' No Call (US holiday)
