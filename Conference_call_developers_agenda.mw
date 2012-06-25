@@ -26,27 +26,76 @@
 '''July 9th'''
 
 '''July 2nd'''
+Next Call Chair: CARLO
+
+Possible future agenda:
+- -data item continued discussion -> resolution is needed
+-- OBI core terms
+-- OBI participation ICBO2012. 
+- -OBI next release
+- -find volunteers for chairing the dev call until September
+Agenda additions:
+-  Alan: Set up meeting with Clark and Parsia re: SBIR
+-  Alan: Cross-talk on diagnosis textual entity. performing a diagnosis with OGMS
+
 
 ====June 2012====
 
 '''25 June"  Chair: Oliver
 
+Attendees: Chris, Philippe, Alan, Christian, Jie, James, Carlo, Oliver (Chair) 
+
+Representation of 'predicted data' and 'measured data'
+- We have 'measurement datum' in IAO/OBI now. http://purl.obolibrary.org/obo/IAO_0000109
+- We also have 'predicted data item': http://purl.obolibrary.org/obo/OBI_0302867
+- Jie: We have 'data item' in CORE but not measurement datum
+
+Philippe: 
+- measurement unit label is different from a measurement unit in the same way a product label is not a product
+- We don't have measurement unit. We have measurement unit label. 
+- 'mass unit' is imported from unit ontology and inserted under 'measurement unit label'. This is a problem. A unit and a unit label are not the same. 
+- what units are?
+- the issue i raise is that scalar measurement always compare to a standard scale
+- predicted data can be compared to measured data, out of some measurement assay.
+- Christian: out of some computation, does not have to compare to measured data.
+
+Alan:
+- what does the predicted value 10.1 grams mean
+1) need to say how "models" work
+2) is_about points to a type rather than an instance
+
+Christian raises the issue of a "real" measurement being associated with a model
+
+Chris Stoeckert:
+- but in OBI we can restrict  - no unicorns!
+- We are restricting our models to things that are real.
+
+Christian Boelling: 
+- the definition of iao:data item should be reviewed in any case: the truthfulness part of it, that I find problematic and a source of confusion.
+- Data items and truth: the current definition of data item states that an instance of iao:data item "…is an information content entity that is intended to be a truthful statement…" 
+- In fact, a data item is *NOT* a statement (as the current definition suggests) and as such is neither true nor false. Rather, (representations of) data items are part of statements such as "mouse#1 - has weigth - 10 gram" expressed in some suitable language (e.g.: OWL) with the last bit being an instance of data item.  It is *this statement* which may be true or false; *not* the data item.
+-- propose the data item issue also for the IAO informal session at ICBO
+- Relevant posts:
+http://groups.google.com/group/information-ontology/msg/efced0aab4397f0c
+http://sourceforge.net/mailarchive/message.php?msg_id=29421507
+http://sourceforge.net/mailarchive/message.php?msg_id=29453949
+
+Alan Ruttenberg:
+- keeping backwards compatible as we make the future changes
+- Another interpretation: the statement is: it is the case that 10 grams is a quality measurement of <that quality of the material entity> That can be true or false
+- those statements look like <data item> <subproperty of is about> <something>
+
+OBI release: 
+- May not be ready to have another release since no major improvements have been made compared to last version.
+- Alan: not ready in terms of updated measurement data representation
+- Consensus: may postpone this OBI release to after ICBO meeting
+
+Oliver:
+We need to reserve at least one or two meetings for OBI tutorial, to be held on July 22nd, 2012, Graz, Austria:
+http://kr-med.org/icbofois2012/obi/index.htm
+
+
 ---------------
-
-Next Call: Monday June 25th,
-
-Chair: Yongqun He
-
-Agenda item:
-
--data item continued discussion -> resolution is needed
-
--OBI next release
-
--OBI participation ICBO2012
-
--Housekeeping tasks:
-	-find volunteers for chairing the dev call until september
 
 
 '''18 June''' Chair: Philippe
