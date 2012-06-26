@@ -51,9 +51,9 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 The outer core consists of terms that fall outside OBI and IAO scope, but are nevertheless important and common when modelling biomedical investigations with OBI. These terms serve the educational purpose of the core by showing how OBI connects to other widely-used ontologies.
 
 # [http://purl.obolibrary.org/obo/GO_0008150 biological_process] from the [http://www.geneontology.org Gene Ontology] (GO)
-# [http://purl.obolibrary.org/obo/CL_0000000 cell] from the [http://cellontology.org Cell Ontology] (CL)
 # [http://purl.obolibrary.org/obo/GO_0005575 cellular_component] from the [http://www.geneontology.org Gene Ontology] (GO)
 # [http://purl.obolibrary.org/obo/GO_0003674 molecular_function] from the [http://www.geneontology.org Gene Ontology] (GO)
+# [http://purl.obolibrary.org/obo/CL_0000000 cell] from the [http://cellontology.org Cell Ontology] (CL)
 # [http://purl.obolibrary.org/obo/ENVO_00010483 environmental material] from the [http://environmentontology.org/ Environment Ontology] (EnVO)
 # [http://purl.obolibrary.org/obo/GAZ_00000448 geographical location] from [http://bioportal.bioontology.org/ontologies/1397 Gazetteer]
 # [http://purl.obolibrary.org/obo/CARO_0001008 gross anatomical part] from the [http://www.bioontology.org/wiki/index.php/CARO:Main_Page Common Anatomy Reference Ontology] (CARO)
@@ -62,9 +62,6 @@ The outer core consists of terms that fall outside OBI and IAO scope, but are ne
 # [http://purl.obolibrary.org/obo/CHEBI_23367 molecular entity] from [http://www.ebi.ac.uk/chebi/ Chemical Entities of Biological Interest] (ChEBI)
 # [http://purl.obolibrary.org/obo/OBI_0100026 organism], included to connect to the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
 # [http://purl.obolibrary.org/obo/BFO_0000019 quality], included to connect to the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotypic Quality Ontology] (PATO)
-
-The following two terms are not in OBI yet:
-
 # [http://purl.obolibrary.org/obo/OGMS_0000063 disease course] from the [http://code.google.com/p/ogms/ Ontology for General Medical Science] (OGMS)
 
 = The Complete Core =
