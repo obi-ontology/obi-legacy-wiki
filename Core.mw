@@ -55,7 +55,7 @@ The outer core consists of terms that fall outside OBI and IAO scope, but are ne
 # [http://purl.obolibrary.org/obo/GO_0003674 molecular_function] from the [http://www.geneontology.org Gene Ontology] (GO)
 # [http://purl.obolibrary.org/obo/CL_0000000 cell] from the [http://cellontology.org Cell Ontology] (CL)
 # [http://purl.obolibrary.org/obo/ENVO_00010483 environmental material] from the [http://environmentontology.org/ Environment Ontology] (EnVO)
-# [http://purl.obolibrary.org/obo/GAZ_00000448 geographical location] from [http://bioportal.bioontology.org/ontologies/1397 Gazetteer]
+# [http://purl.obolibrary.org/obo/GAZ_00000448 geographical location] from [http://bioportal.bioontology.org/ontologies/1397 Gazetteer] (GAZ)
 # [http://purl.obolibrary.org/obo/CARO_0001008 gross anatomical part] from the [http://www.bioontology.org/wiki/index.php/CARO:Main_Page Common Anatomy Reference Ontology] (CARO)
 # [http://purl.obolibrary.org/obo/NCBITaxon_9606 Homo sapiens] from the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
 # [http://purl.obolibrary.org/obo/IAO_0000003 measurement unit label], included to connect to the [http://code.google.com/p/unit-ontology/ Ontology of Units of Measurement] (UO)
