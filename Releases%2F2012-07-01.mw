@@ -89,6 +89,10 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 
 * Without release version of IAO transited in BFO 2.0, the development version of IAO is merged to the current OBI release. 
 
+* We have used the following version of IAO: http://information-artifact-ontology.googlecode.com/svn/releases/2012-01-05/merged/iao-all.owl 
+and the following version of BFO2: http://bfo.googlecode.com/svn/releases/owl-ruttenberg-2010-05-25/ruttenberg-bfo2.owl
+
+
 <!--
 * This release is available only in OWL format. There is no official OBO Format version at present: OBI cannot be loaded nor viewed in OBO-Edit and is not available from the Ontology Lookup Service at EBI. 
 -->
@@ -151,4 +155,5 @@ GAZ           1
 
 Release note authors:
 
+* Carlo Torniai
 * Jie Zheng
