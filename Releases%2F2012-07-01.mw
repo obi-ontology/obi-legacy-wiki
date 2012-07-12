@@ -125,31 +125,33 @@ You can request import of additional terms by adding a tracker item at http://pu
 ==  Count of terms in and used by OBI (need to update) ==
 <pre>
 -----------------------------
-OBI Classes 1935
-Imported Classes 1620  
-OBI Properties 39   
-Imported Properties 106	  
+OBI Classes 2042
+Imported Classes 1649  
+OBI Properties 40   
+Imported Properties 120	  
 
 Imported Classes Breakdown:
 ----------------------------
-
-NCBITAXON  1170
-IAO         109
-GO          102
-CHEBI        53
-PATO         49
-BFO          27
-UBERON       20
-CL           19
-PR           15
-UO           11
-CARO          5
-SO            3
-OGMS          3
-ENVO          3
-VO            2
-HP            1
-GAZ           1
+NCBITaxon 1170
+GO 129
+CHEBI 54
+CL 19
+UBERON 20
+HP 1
+PR 15
+oboInOwl 6
+doap 3
+ENVO 3
+owl 2
+PATO 49
+OGMS 4
+SO 3
+CARO 5
+IAO 125
+VO 2
+UO 11
+BFO 27
+GAZ 1
 ----------------------------
 </pre>
 
