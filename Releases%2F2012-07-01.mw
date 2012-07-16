@@ -69,8 +69,8 @@ There are more changes since the last release than can be compactly described he
 Here are the highlight:
 
 * A total of 105 new classes (excluding the terms imported from external resources) were added to OBI in this release containing:
-- types of binding assays and related terms such as binding measurement data required by the IEDB group
-- types of assays related to ECO
+  - types of binding assays and related terms such as binding measurement data required by the IEDB group
+  - types of assays related to ECO
 
 The newly added OBI classes are listed on http://obi.svn.sourceforge.net/viewvc/obi/releases/2012-07-01/docs/newClasses.html
 
@@ -83,19 +83,16 @@ OBI enforces a strict deprecation policy: OBI Identifiers in this release are st
 == Known issues ==
 
 * Without release version of IAO transited in BFO 2.0 (alan version, not official release version), the development version of IAO and BFO is merged to the current OBI release. 
+  We have used the following version of IAO: http://information-artifact-ontology.googlecode.com/svn/releases/2012-01-05/merged/iao-all.owl 
+  and the following version of BFO2: http://bfo.googlecode.com/svn/releases/owl-ruttenberg-2010-05-25/ruttenberg-bfo2.owl
 
-* We have used the following version of IAO: 
-http://information-artifact-ontology.googlecode.com/svn/releases/2012-01-05/merged/iao-all.owl 
-and the following version of BFO2: 
-http://bfo.googlecode.com/svn/releases/owl-ruttenberg-2010-05-25/ruttenberg-bfo2.owl
+* device classes which are part of their parent classes
 
-* devices and their subclasses which are part of its parent classes
-
-- 'chromatography device' 
+  - subclasses of 'chromatography device'
 All parts of the device, like 'detector lamp', 'syringe filter', etc. are defined as its subclasses. So, they inheres all the functions inheres_in "chromatography device". 
 
-- 'chromatography instrument'
-Same issues as 'chromatography device'
+  - subclasses of 'chromatography instrument'
+has same issue as 'chromatography device'
 
 == External ontology and resource mapping/imports list ==
  
