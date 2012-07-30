@@ -38,15 +38,6 @@ Presenter: Yongqun "Oliver" He
 Content: Development of the Vaccine Ontology (VO) will be used to show how to develop an application ontology that is based on OBI. It will cover two strategies, [http://purl.obolibrary.org/obo/obi/repository/trunk/docs/papers/MIREOT_ICBO2009/ICBOCameraReady.pdf MIREOT] (importing external ontology terms) and [http://precedings.nature.com/documents/3970/version/1/files/npre20093970-1.pdf QTT] (adding multiple terms in an ontology), which were developed by OBI developers to facilitate ontology development.
     
 Hands-on Exercises: Reuse OBI terms in VO based on MIREOT using [http://ontofox.hegroup.org/introduction.php OntoFox] and add a set of new terms based on QTT using [http://ontorat.hegroup.org/intro.php Ontorat].
-
-
-
-
-
-
-
-
-
 <hr>
 
 ==Tutorial_ICBO2011==
