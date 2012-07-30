@@ -64,3 +64,15 @@ Content: Introduction to OBI and representation of experiments mapping targets o
 Presenter: Jie Zheng
 
 Content: EuPathDB annotation of genomic-scale datasets associated with eukaryotic pathogens including ontology driven isolate submission form design ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/EuPathDB.ppt slides])
+
+  <b>OBI application: eagle-i</b>
+
+Presenter: Carlo Torniai
+
+Content: eagle-i representation of research resources ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/eagle-i-ICBO-tutorial.pptx slides])
+
+  <b>OBI application: ISA Tools</b>
+
+Presenter: Bjoern Peters (present for Philippe Rocca-Serra who prepared the slides)
+
+Content: ISA tools and annotation of functional genomics experiments ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/OBI%20use%20in%20ISA%20infrastructure.pptx slides])
