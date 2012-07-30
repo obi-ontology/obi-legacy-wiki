@@ -76,3 +76,23 @@ Content: eagle-i representation of research resources ([https://obi.svn.sourcefo
 Presenter: Bjoern Peters (present for Philippe Rocca-Serra who prepared the slides)
 
 Content: ISA tools and annotation of functional genomics experiments ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/OBI%20use%20in%20ISA%20infrastructure.pptx slides])
+
+  <b>OBI application: Evidence Code</b>
+
+Presenter: Marcus Chibucos 
+
+Content: Cross references to OBI within the Evidence Code Ontology ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/OBI-ICBO_ECO-talk_2.pptx slides])
+
+  <b>Hand-on Exercise</b>
+
+* Editing OBI 
+
+Presenter: Bjoern Peters ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/Editing%20OBI.pptx slides])
+
+* MIREOT And Ontology Community View
+
+Presenter: Yongqun (Oliver) He & Jie Zheng ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/MIREOT-view.ppt slides])
+
+* QTT And Design Patterns
+
+Presenter: Carlo Torniai ([https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/OBI-QTT&designpatterns.pptx slides])
