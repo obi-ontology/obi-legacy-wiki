@@ -98,6 +98,8 @@ However there are some terms in the outer core that belong to the OBI or IAO nam
 
 The term "organism" is an edge case. It is outside of OBI scope and was designed primarily to connect to NCBITaxon (see the editor notes for the term), however some of its children are OBI terms.
 
-== Representation Biomedical Investigation Using OBI Core ==
+== Representation of Biomedical Investigation Using OBI Core ==
+
+Representation of biomedical investigation using 28 inner core and some of outer core terms
 
 [[Image:OBI-core.jpg | center |1000px]]
