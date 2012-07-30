@@ -8,6 +8,52 @@
 
 ==Tutorial_ICBO2012==
 
+* Abstract
+
+The Ontology for Biomedical Investigations (OBI) aims to represent all elements of investigations such as assays, instruments or subject enrollment criteria. This tutorial will provide training on how to use OBI in specific applications and contribute to OBI development. The application use cases will cover various biological and medical investigations of interest to different communities, such as those performing functional genomics or clinical investigations. While going through these use cases, we will discuss: OBI design principles and the underlying Basic Formal Ontology, the Minimum Information to Reference an External Ontology Term (MIREOT) methodology, how to use the Quick Term Template (QTT), how to submit term requests, and how to generate an OBI view for specific applications. This tutorial will start with a general overview of OBI followed by a presentation of practical applications leading to a hands-on session where attendees can practice using tools and applying principles introduced in the use cases. Attendees are encouraged to bring their own issues that can be addressed, working directly with the OBI developers.
+
+  Introduction To OBI
+
+Presenter: Christian Stoeckert
+
+Content: Overview of OBI including details of OBI core ([http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2903726/?tool=pubmed Reference 1])
+
+Hands-on Exercises: Accessing and browsing OBI and associated resources.
+
+  Representation Of Biomedical Investigations Using OBI
+
+Presenter: Jie Zheng
+
+Content: The ontology-base modeling of investigation will aid understanding of each step of an experiment. This modeling also provides a map of biomedical data to Resource Description Framework (RDF) triples which in turn facilitates data integration and enables SPARQL queries. A biomedical investigation about host and parasite interactions will be used as an example ([http://iai.asm.org/content/80/3/1150.abstract Reference 2]).This part will also cover the relationship between OBI and the Evidence Code Ontology (ECO).
+
+Hands-on Exercises: Generate a community view of OBI for a specific application using [http://ontodog.hegroup.org/introduction.php Ontodog].
+
+  Ontology Development By Using OBI As A Source Ontology
+
+Presenter: Yongqun "Oliver" He
+
+Content: Development of the Vaccine Ontology (VO) will be used to show how to develop an application ontology that is based on OBI. It will cover two strategies, [http://purl.obolibrary.org/obo/obi/repository/trunk/docs/papers/MIREOT_ICBO2009/ICBOCameraReady.pdf MIREOT] (importing external ontology terms) and [http://precedings.nature.com/documents/3970/version/1/files/npre20093970-1.pdf QTT] (adding multiple terms in an ontology), which were developed by OBI developers to facilitate ontology development.
+    
+Hands-on Exercises: Reuse OBI terms in VO based on MIREOT using [http://ontofox.hegroup.org/introduction.php OntoFox] and add a set of new terms based on QTT using [http://ontorat.hegroup.org/intro.php Ontorat].
+
+All the slides and related documents for the tutorial can be found under the directory:
+https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202012%20ICBO/ after July 20th, 2012.
+
+Reading Materials
+
+    Modeling biomedical experimental processes with OBI. J Biomed Semantics. 2010 Jun 22;1 Suppl 1:S7. [ Full Text ]
+    Mild Plasmodium falciparum malaria following an episode of severemalaria is associated with induction of the interferon pathway in Malawian children.Infect Immun. 2012 Mar;80(3):1150-5. [ Abstract ]
+    Ontology Driven Data Collection for EuPathDB. International Conference on Biomedical Ontology (ICBO) Buffalo, New York (July 2011) [ PDF ]
+    OntoDog: http://ontodog.hegroup.org/introduction.php
+    MIREOT: the Minimum Information to Reference an External Ontology Term. International Conference on Biomedical Ontology (ICBO) Buffalo, New York (July 2009) [ PDF ]
+    OntoFox: http://ontofox.hegroup.org/introduction.php
+    QTT: Overcoming the Ontology Enrichment Bottleneck with Quick Term Templates [ PDF ]
+    Ontorat: http://ontorat.hegroup.org/intro.php
+
+
+
+
+
 <hr>
 
 ==Tutorial_ICBO2011==
