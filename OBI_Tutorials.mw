@@ -41,3 +41,20 @@ Hands-on Exercises: Reuse OBI terms in VO based on MIREOT using [http://ontofox.
 <hr>
 
 ==Tutorial_ICBO2011==
+
+<b>All the slides and related documents are available under the OBI SVN: 
+[https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/ OBI tutorial July 2011 ICBO]</b>
+
+  <b>Abstract</b>
+The Ontology for Biomedical Investigations (OBI) aims to represent all elements of investigations such as assays, instruments or subject enrollment criteria. This tutorial will provide training on how to use OBI in specific applications and contribute to OBI development. We will present the following current applications for OBI: 1) representation of experiments mapping targets of immune responses in IEDB 2) EuPathDB annotation of genomic-scale datasets associated with eukaryotic pathogens 3) eagle-i representation of research resources 4) ISA tools and annotation of functional genomics experiments 5) Cross references to OBI within the Evidence Code Ontology. While going through these use cases, we will discuss: OBI design principles and the underlying Basic Formal Ontology, the Minimum Information to Reference an External Ontology Term (MIREOT) methodology, how to use the QuickTerm Template, how to edit OBI and submit term requests. This tutorial will start with a general overview of OBI followed by a presentation of practical applications leading to a hands-on session where attendees can practice using tools and applying principles introduced in the use cases. Attendees are encouraged to bring their own issues that can be addressed, working directly with the OBI developers.
+This half-day tutorial will demonstrate real-world applications of OBI to:
+* Coordinate large scale knowledge base creation and management across biomedical communities
+* Add semantic capabilities to existing databases
+* Drive data collection from experimentalists
+* Coordinate the development of existing ontologies
+
+  <b>OBI Overview and IEDB</b>
+
+Presenter: Bjoern Peters
+Content: Introduction to OBI and representation of experiments mapping targets of immune responses in IEDB [
+https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202011%20ICBO/OBI%20overview%20and%20IEDB.pptx slides]
