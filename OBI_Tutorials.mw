@@ -11,11 +11,11 @@
 <b>All the slides and related documents are available under the OBI SVN:  
 [https://obi.svn.sourceforge.net/svnroot/obi/trunk/docs/presentations/OBI%20tutorial%20July%202012%20ICBO/ OBI tutorial July 2012 ICBO]</b>
 
-  Abstract
+  <b>Abstract</b>
 
 The Ontology for Biomedical Investigations (OBI) aims to represent all elements of investigations such as assays, instruments or subject enrollment criteria. This tutorial will provide training on how to use OBI in specific applications and contribute to OBI development. The application use cases will cover various biological and medical investigations of interest to different communities, such as those performing functional genomics or clinical investigations. While going through these use cases, we will discuss: OBI design principles and the underlying Basic Formal Ontology, the Minimum Information to Reference an External Ontology Term (MIREOT) methodology, how to use the Quick Term Template (QTT), how to submit term requests, and how to generate an OBI view for specific applications. This tutorial will start with a general overview of OBI followed by a presentation of practical applications leading to a hands-on session where attendees can practice using tools and applying principles introduced in the use cases. Attendees are encouraged to bring their own issues that can be addressed, working directly with the OBI developers.
 
-  Introduction To OBI
+  <b>Introduction To OBI</b>
 
 Presenter: Christian Stoeckert
 
@@ -23,7 +23,7 @@ Content: Overview of OBI including details of OBI core ([http://www.ncbi.nlm.nih
 
 Hands-on Exercises: Accessing and browsing OBI and associated resources.
 
-  Representation Of Biomedical Investigations Using OBI
+  <b>Representation Of Biomedical Investigations Using OBI</b>
 
 Presenter: Jie Zheng
 
@@ -31,7 +31,7 @@ Content: The ontology-base modeling of investigation will aid understanding of e
 
 Hands-on Exercises: Generate a community view of OBI for a specific application using [http://ontodog.hegroup.org/introduction.php Ontodog].
 
-  Ontology Development By Using OBI As A Source Ontology
+  <b>Ontology Development By Using OBI As A Source Ontology</b>
 
 Presenter: Yongqun "Oliver" He
 
