@@ -97,3 +97,7 @@ Every term in the inner core falls within OBI or IAO scope. All of them belong t
 However there are some terms in the outer core that belong to the OBI or IAO namespaces. This has been done when the term was included in OBI or IAO in order to make a connection to another ontology. For instance, "measurement unit label" is an IAO term, but all of its children belong to the Ontology of Units of Measurement (UO).
 
 The term "organism" is an edge case. It is outside of OBI scope and was designed primarily to connect to NCBITaxon (see the editor notes for the term), however some of its children are OBI terms.
+
+== Representation Biomedical Investigation Using OBI Core ==
+
+[[Image:OBI-core.jpg]]
