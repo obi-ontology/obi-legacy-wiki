@@ -18,7 +18,7 @@ The following terms are in the process of review, and may require some changes:
 ** major: We discuss making the axiom "has_part some documenting" more specific.
 *** suggestion: follow the model of "(planning and (has_specified_output some 'study design'))"
 *** suggestion: We can say things like: investigation that has specified output conclusion equivalentTo: investigation that has part document that has part conclusion textual entity
-**** suggestion: has_part some 'interpreting data' (or 'drawing conclusion')
+*** suggestion: has_part some 'interpreting data' (or 'drawing conclusion')
 ** minor: add an objective to produce a conclusion
 * [http://purl.obolibrary.org/obo/OBI_0000339 planning]
 ** minor: Add example of usage that has a robot scientist making the plan
@@ -27,3 +27,8 @@ The following terms are in the process of review, and may require some changes:
 ** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
 ** major: Update curation status.
 ** minor: Add documenting example: Your instrument software prints something and you copy it to a spreadsheet.
+** note: Change should be made in iao.owl
+* [http://purl.obolibrary.org/obo/OBI_0000338 interpreting data]
+
+** major: Rename to 'drawing conclusion' or add 'drawing conclusion' with subclass 'drawing conclusion based on data' and make 'interpreting data' as a subclass of 'drawing conclusion based on data'
+** note: Based on current logical definition, label 'drawing conclusion' is more suitable and it is not limited the inputs as data item. However, 'drawing conclusion' cannot cover 'or to identify what additional data is necessary to draw conclusions' which was addressed in the textual definition.
