@@ -1,0 +1,27 @@
+We are currently reviewing all of the proposed [[Core|OBI Core]] terms for quality and completeness. This page tracks our progress.
+
+The review of terms is taking place during the [[Conference call developers agenda|weekly developer call]] and on the [[Mailing lists]].
+
+== Completed Terms ==
+
+The following terms have been reviewed, and no further changes are expected:
+
+* [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
+** note: Alan asks whether there should be the axiom "has_specified_output some 'data item'" at all. Bjoern insists that there should always be a data item produced. Alan asks about studies that are inconclusive. There is always data collected. The question is whether it is the "specified output" of the study design execution.  
+
+== Terms Under Review ==
+
+The following terms are in the process of review, and may require some changes:
+
+* [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
+** major: We discuss making the axiom "has_part some documenting" more specific.
+*** suggestion: follow the model of "(planning and (has_specified_output some 'study design'))"
+*** suggestion: We can say things like: investigation that has specified output conclusion equivalentTo: investigation that has part document that has part conclusion textual entity
+** minor: add an objective to produce a conclusion
+* [http://purl.obolibrary.org/obo/OBI_0000339 planning]
+** minor: Add example of usage that has a robot scientist making the plan
+** minor: Update the metadata to make clear what "Source PPPB Branch" means. 
+* [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
+** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
+** major: Update curation status.
+** minor: Add documenting example: Your instrument software prints something and you copy it to a spreadsheet.
