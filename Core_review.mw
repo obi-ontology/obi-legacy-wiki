@@ -9,7 +9,6 @@ The following terms have been reviewed, and no further changes are expected:
 * [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
 
 ** Will remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
-
 ** note: Alan asks whether there should be the axiom "has_specified_output some 'data item'" at all. Bjoern insists that there should always be a data item produced. Alan asks about studies that are inconclusive. There is always data collected. The question is whether it is the "specified output" of the study design execution.
 
 == Terms Under Review ==
