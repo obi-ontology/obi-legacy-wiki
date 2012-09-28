@@ -1,4 +1,4 @@
-We are currently reviewing all of the proposed [[Core|OBI Core]] terms for quality and completeness. This page tracks our progress.
+We are currently reviewing all of the proposed [[Core|OBI Core]] terms for quality and completeness. This page tracks our progress and presents a summary of decisions to get people up to speed quickly. Further discussion notes are included below.
 
 The review of terms is taking place during the [[Conference call developers agenda|weekly developer call]] and on the [[Mailing lists]].
 
@@ -7,21 +7,19 @@ The review of terms is taking place during the [[Conference call developers agen
 The following terms have been reviewed, and no further changes are expected:
 
 * [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
-** Will remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
-** note: Alan asks whether there should be the axiom "has_specified_output some 'data item'" at all. Bjoern insists that there should always be a data item produced. Alan asks about studies that are inconclusive. There is always data collected. The question is whether it is the "specified output" of the study design execution.
+** major: remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
 
 == Terms Under Review ==
 
 The following terms are in the process of review, and may require some changes:
 
+* [http://purl.obolibrary.org/obo/OBI_0000338 interpreting data]
+** major: Add class obi:drawing a conclusion (subClassOf obi:planned process, subClassOf has_specified_output some iao:conclusion_textual_entity)
+** major: Add label 'drawing a conclusion based on data' as primary label to 'interpreting data'
+** major: Add axiom 'drawing a conclusion based on data' subClassOf has_specified_input some iao:data_item. As a result this class should be inferred as subclass of the new class 'drawing a conclusion'
 * [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
-** major: We discussed making the axiom "has_part some documenting" more specific.
-*** '''Suggestion 1:''' follow the model of "(planning and (has_specified_output some 'study design'))" <br/>'''Update 2012-09-25'''<br/>This suggestion was dismissed on the developer call 2012/09/17.<br/><br/>
-*** '''Suggestion 2:''' We can say things like: investigation that has specified output conclusion equivalentTo: investigation that has part document that has part conclusion textual entity.<br/>'''Update 2012-09-25'''<br/>The current logical definitions of obi:investigation (subClassOf: has_part some iao:documenting) and iao:documenting (subClassOf has_specified_output some iao:document) already entail that one or more iao:document(s) exist as specified outputs of the iao:documenting processes that are part of an obi:investigation. With regard to the [[Investigation#Development_Notes|development notes for the general model]] of an investigation these iao:document(s) might be iao:report(s) (iao:report subClassOf iao:document) but they don't have to be and this is an appropriate view at this level of generality as documenting processes are processes that as a minimal requirement bring results of observations into a tangible, lasting form while reports as outputs of reporting processes put related information content into a much more comprehensive form (to inform a recipient of certain aspects of an investigation). The former can safely be assumed to be part of any investigation while this may be not so clear for the latter. '''In conclusion, what is suggested here is already in place.'''<br/><br/>
-*** '''Suggestion 3:''' has_part some 'interpreting data' (or 'drawing conclusion')<br/>'''Update 2012-09-25'''<br/>As a result of our discussion of obi:interpreting_data (see below) we agreed that the axiom obi:investigation subClassOf has_part some obi:drawing a conclusion should be added. James pointed out that based on the current definition an obi:investigation always generates some iao:data_item as specified outputs of the obi:study design execution that is part of the obi:investigation and therefore, as data items are understood to pertain to empirical data, the new axiom could be narrowed down to obi:investigation subClassOf has_part some obi:drawing a conclusion based on data.<br/><br/>
-*** '''Action items:'''
-**** add axiom obi:investigation subClassOf has_part some obi:drawing a conclusion
-** minor: add an objective to produce a conclusion
+** major: Add axiom obi:investigation subClassOf has_part some obi:drawing a conclusion
+** major: Add an objective to produce a conclusion
 * [http://purl.obolibrary.org/obo/OBI_0000339 planning]
 ** minor: Add example of usage that has a robot scientist making the plan
 ** minor: Update the metadata to make clear what "Source PPPB Branch" means. 
@@ -30,6 +28,35 @@ The following terms are in the process of review, and may require some changes:
 ** major: Update curation status.
 ** minor: Add documenting example: Your instrument software prints something and you copy it to a spreadsheet.
 ** note: Change should be made in iao.owl
+* [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
+** major: There is overlap with "service" terms and acquisition.
+** minor: [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition] and [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition] will be added to OBI core, since they are expected to be more widely used than their parent.
+** minor: Remove alternative label "material acquisition".
+** minor: Change textual definition to refer to "planned process" rather than "process".
+** minor: Need editor notes on information aquisition and acquisition, that it the entity shouldn't be transformed as part of the process
+** minor: Add 'specified inputs' material / information content entity.
+** minor: Fix example in 'material acquisition' from investigators animal facility' to 'bred in the animal facility of the institute as a service to investigators'. 
+* [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition]
+** major: We want to be able to model "possession" or "control" of material entities, which will probably require new roles:
+*** Add 'material possessor role' = borne by person or organization, realized in choices about what to do with material (this would be for other people to refine to determine kinds of ownership)
+*** Add 'material acquisition source role' = a role borne by a person or organization that is realized in an material acquisition process in which a material possessor role is transferred from the material acquisition source to the material acquisition destination  (it gets difficult to write this nicely with multiple role and bearer relationships...)
+*** note: These might also work for information acquisition.
+* [http://purl.obolibrary.org/obo/OBI_0000968 device]
+** minor: Improve the textual definition in light of the ReO discussion.
+** minor: Clean up editor notes.
+
+
+== Discussion Notes ==
+
+* [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
+** note: Alan asks whether there should be the axiom "has_specified_output some 'data item'" at all. Bjoern insists that there should always be a data item produced. Alan asks about studies that are inconclusive. There is always data collected. The question is whether it is the "specified output" of the study design execution.
+* [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
+** major: We discussed making the axiom "has_part some documenting" more specific.
+*** '''Suggestion 1:''' follow the model of "(planning and (has_specified_output some 'study design'))" <br/>'''Update 2012-09-25'''<br/>This suggestion was dismissed on the developer call 2012/09/17.<br/><br/>
+*** '''Suggestion 2:''' We can say things like: investigation that has specified output conclusion equivalentTo: investigation that has part document that has part conclusion textual entity.<br/>'''Update 2012-09-25'''<br/>The current logical definitions of obi:investigation (subClassOf: has_part some iao:documenting) and iao:documenting (subClassOf has_specified_output some iao:document) already entail that one or more iao:document(s) exist as specified outputs of the iao:documenting processes that are part of an obi:investigation. With regard to the [[Investigation#Development_Notes|development notes for the general model]] of an investigation these iao:document(s) might be iao:report(s) (iao:report subClassOf iao:document) but they don't have to be and this is an appropriate view at this level of generality as documenting processes are processes that as a minimal requirement bring results of observations into a tangible, lasting form while reports as outputs of reporting processes put related information content into a much more comprehensive form (to inform a recipient of certain aspects of an investigation). The former can safely be assumed to be part of any investigation while this may be not so clear for the latter. '''In conclusion, what is suggested here is already in place.'''<br/><br/>
+*** '''Suggestion 3:''' has_part some 'interpreting data' (or 'drawing conclusion')<br/>'''Update 2012-09-25'''<br/>As a result of our discussion of obi:interpreting_data (see below) we agreed that the axiom obi:investigation subClassOf has_part some obi:drawing a conclusion should be added. James pointed out that based on the current definition an obi:investigation always generates some iao:data_item as specified outputs of the obi:study design execution that is part of the obi:investigation and therefore, as data items are understood to pertain to empirical data, the new axiom could be narrowed down to obi:investigation subClassOf has_part some obi:drawing a conclusion based on data.<br/><br/>
+*** '''Action items:'''
+**** add axiom obi:investigation subClassOf has_part some obi:drawing a conclusion
 * [http://purl.obolibrary.org/obo/OBI_0000338 interpreting data]
 ** major: Rename to 'drawing conclusion' or add 'drawing conclusion' with subclass 'drawing conclusion based on data' and make 'interpreting data' as a subclass of 'drawing conclusion based on data'<br/>'''Note:''' Based on current logical definition, label 'drawing conclusion' is more suitable and it is not limited the inputs as data item. However, 'drawing conclusion' cannot cover 'or to identify what additional data is necessary to draw conclusions' which was addressed in the textual definition.<br/>'''Update 2012-09-25'''<br/>The motivation for reviewing this class is that the current label implies that data items (taken as empirical) are inputs to any such process while the logical definition entails a conclusion as outcome of any such process (which is not in the label). An additional concern is that there may be reasoning processes which do not involve empirical data (e.g. mathematical proofs) As a result of our discussion we concluded that for any process of "interpreting data" the result of that interpretation (whatever it is) amounts to one or more conclusions based on the data being interpreted. Vice versa, any process of drawing a conclusion based on some set of data may be regarded as a process of interpreting that set of data, which makes these classes basically equivalent, though the logical definition would need to be changed. Deprecation or relabelling 'interpreting data' was discussed, currently (2012-09-25) opting for relabelling
 *** '''Action items:'''
