@@ -2,21 +2,10 @@ We are currently reviewing all of the proposed [[Core|OBI Core]] terms for quali
 
 The review of terms is taking place during the [[Conference call developers agenda|weekly developer call]] and on the [[Mailing lists]].
 
-== Completed Terms ==
-
-The following terms have been reviewed, and no further changes are expected:
-
-* [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
-** major: remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
-
 == Terms Under Review ==
 
 The following terms are in the process of review, and may require some changes:
 
-* [http://purl.obolibrary.org/obo/OBI_0000338 interpreting data]
-** major: Add class obi:drawing a conclusion (subClassOf obi:planned process, subClassOf has_specified_output some iao:conclusion_textual_entity)
-** major: Add label 'drawing a conclusion based on data' as primary label to 'interpreting data'
-** major: Add axiom 'drawing a conclusion based on data' subClassOf has_specified_input some iao:data_item. As a result this class should be inferred as subclass of the new class 'drawing a conclusion'
 * [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
 ** major: Add axiom obi:investigation subClassOf has_part some obi:drawing a conclusion
 ** major: Add an objective to produce a conclusion
@@ -44,6 +33,18 @@ The following terms are in the process of review, and may require some changes:
 * [http://purl.obolibrary.org/obo/OBI_0000968 device]
 ** minor: Improve the textual definition in light of the ReO discussion.
 ** minor: Clean up editor notes.
+
+
+== Completed Terms ==
+
+The following terms have been reviewed, and no further changes are expected:
+
+* [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
+** major: remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
+* [http://purl.obolibrary.org/obo/OBI_0000338 interpreting data] (renamed to "drawing a conclusion based on data")
+** major: Add class obi:drawing a conclusion (subClassOf obi:planned process, subClassOf has_specified_output some iao:conclusion_textual_entity)
+** major: Add label 'drawing a conclusion based on data' as primary label to 'interpreting data'
+** major: Add axiom 'drawing a conclusion based on data' subClassOf has_specified_input some iao:data_item. As a result this class should be inferred as subclass of the new class 'drawing a conclusion'
 
 
 == Discussion Notes ==
