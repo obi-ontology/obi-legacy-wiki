@@ -5,10 +5,10 @@ OBI Core is a collection of key terms from OBI and related ontologies. It serves
 
 OBI Core consists of two parts:
 
-# The "inner core" of 30 terms that belong to OBI and IAO.
+# The "inner core" of 31 terms that belong to OBI and IAO.
 # The "outer core" of 13 terms that belong to other ontologies.
 
-When these 40 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
+When these 44 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
 
 (See also: [[Core review|status of the term review process]] and [[Core terms|a list of OBI core terms in 2008]].)
 
@@ -35,6 +35,7 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 # [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
 # [http://purl.obolibrary.org/obo/OBI_0000202 investigation agent role]
 # [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition]
+# [http://purl.obolibrary.org/obo/IAO_0000178 material information bearer]
 # [http://purl.obolibrary.org/obo/OBI_0000453 measure function]
 # [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum]
 # [http://purl.obolibrary.org/obo/OBI_0000260 plan]
