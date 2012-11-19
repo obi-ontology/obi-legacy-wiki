@@ -1,0 +1,18 @@
+1. Discussed modeling of the 'planned process' OBI class, and proposal to eliminate the requirement for being concretized in some plan specification.   Such a change would require significant refactoring in OBI, however, and this  issue also speaks to broader issues relating to IAO and 'information content entity'.  It was agreed that a separate call would be required to address these issues with IAO.  Mathias will prepare a document with content for this call, and Philippe will be in charge of scheduling the meeting. 
+
+2. Citing OBI.  Resolved - Bjoern has changed the wording on OBI wiki main page to clarify how to reference OBI in different circumstances:
+http://obi-ontology.org/page/Main_Page.  
+
+3. Cell and Culture class review in preparation for alignment with CL and CLO.  We discussed issues on tracker item here - http://sourceforge.net/tracker/?func=detail&aid=3576751&group_id=177891&atid=886178.  Matt will make edits to obi.owl to resolve these as per our discussion, and will notify developers about time of next alignment call with CL and CLO.  Anyone who was not on the first alignment call, but is interested in future calls,  should notify Matt (brushm@ohsu.edu) to be included in the scheduling poll for the next alignment call.
+
+4. Set chairs for upcoming calls: 
+
+Oct 22 - Bjoern
+
+Oct 29 - Jie
+
+Nov 5 - Philippe
+
+Nov 12 - James
+
+Nov 19 – Matt
