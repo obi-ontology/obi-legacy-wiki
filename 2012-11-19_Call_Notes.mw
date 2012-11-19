@@ -1,0 +1,32 @@
+'''1. Decided upcoming call chairs:'''
+
+Nov 26 - Philippe
+
+Dec 3 - Bjoern
+
+Dec 10 - Jie
+
+
+'''2. Study Subject Role'''
+
+'''Issue:''' How to treat 'study subject role'.   Consensus was that the intention is to represent that which an investigation is about - specifically the participant about which data is  generated.  Historically, this label  has caused confusion and been interpreted incorrectly to mean a role played by a human subject in some human study or trial.  This confusion has resulted in incorrectly placed children of 'study subject role', such as 'to be treated with placebo role' and 'to be treated with active ingredient role'.
+
+'''Outcome:''' The current definition ("study subject role inheres in an entity and realized through the execution of a study design in which the entity participates by being that which the results are about") fits with our intended meaning for this class, so it was agreed that a label change would suffice. The label 'participant under investigation role' was agreed upon as an acceptable new label. Note that the label 'study topic role' was also proposed, but rejected as it suggests study data being about universals/classes, when we intend for the data to be about particulars (ie participants in the investigation).  
+
+'''Action Items:'''
+
+1. James will email obidev list with the following proposed changes and implement in OBI soon after, barring objections: (1) change label of ‘study subject role’ to 'participant under investigation role'; (2)  clarify in a  comment or editor note that  it can be the case the specimen is also a participant under investigation.  This is not considered a problem. (ie the 'participant under investigation role' is distinct from the 'specimen role' but not logically disjoint from specimen role)
+
+2. Consider approach for  moving current children of ‘study subject role’ that do not fit the clarified label/definition (may require  further review on a call)
+
+
+
+'''3. IAO edits'''
+
+'''Issue:''' How to proceed with IAO edits needed for  finishing OBI core.  Concern was that it was not clear in which version of IAO our changes should be made (different versions of IAO use different versions of BFO).  
+
+'''Outcome:''' Jie will attend the BFO2 call next Monday and raise this issue.  In the meantime, we will edit the IAO file in the OBI SVN.  Because Jie has set up the  OBI SVN externals to import the current IAO version from the IAO SVN, edits we make and commit in OBI SVN will be reflected in the IAO  (the version that uses pre-Graz BFO2).  
+
+'''Action Items:'''
+
+1. Bjoern will begin to implement changes agreed upon on recent calls (see his email about this) in the IAO file in OBI SVN.  Commits should propagate to current IAO version in the IAO SVN (ie the version that uses the pre-Graz 'ruttenberg BFO2').
