@@ -6,12 +6,10 @@ The review of terms is taking place during the [[Conference call developers agen
 
 The following terms are in the process of review, and may require some changes:
 
-* [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
-** major: Add axiom obi:investigation subClassOf has_part some obi:drawing a conclusion '''-DONE-'''
-** major: Add an objective to produce a conclusion
-* [http://purl.obolibrary.org/obo/OBI_0000339 planning]
-** minor: Add example of usage that has a robot scientist making the plan
-** minor: Update the metadata to make clear what "Source PPPB Branch" means. 
+* [http://purl.obolibrary.org/obo/OBI_0000097 study subject role]
+** major: rename to "particular under investigation role"
+** minor: Add an editor note to day that this role is distinct from "specimen role", but it is possible for a particular to realize both "specimen role" and "participant under investigation role" at the same time.
+** minor: Add example: A lake could realize this role in an investigation that assays pollution levels.
 * [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
 ** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
 ** major: Update curation status.
@@ -37,7 +35,7 @@ The following terms are in the process of review, and may require some changes:
 
 == Completed Terms ==
 
-The following terms have been reviewed, and no further changes are expected:
+The following terms have been reviewed, changes have been committed, and no further changes are expected during this review:
 
 * [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
 ** major: remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
@@ -45,6 +43,11 @@ The following terms have been reviewed, and no further changes are expected:
 ** major: Add class obi:drawing a conclusion (subClassOf obi:planned process, subClassOf has_specified_output some iao:conclusion_textual_entity)
 ** major: Add label 'drawing a conclusion based on data' as primary label to 'interpreting data'
 ** major: Add axiom 'drawing a conclusion based on data' subClassOf has_specified_input some iao:data_item. As a result this class should be inferred as subclass of the new class 'drawing a conclusion'
+* [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
+** major: Add axiom obi:investigation subClassOf has_part some obi:drawing a conclusion
+* [http://purl.obolibrary.org/obo/OBI_0000339 planning]
+** minor: Add example of usage that has a robot scientist making the plan
+** minor: Update the metadata to make clear what "Source PPPB Branch" means. 
 
 
 == Discussion Notes ==
@@ -52,6 +55,7 @@ The following terms have been reviewed, and no further changes are expected:
 * [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
 ** note: Alan asks whether there should be the axiom "has_specified_output some 'data item'" at all. Bjoern insists that there should always be a data item produced. Alan asks about studies that are inconclusive. There is always data collected. The question is whether it is the "specified output" of the study design execution.
 * [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
+** major: Add an objective to produce a conclusion. This has not been implemented, because it is not yet clear how to model this assertion in OBI/IAO.
 ** major: We discussed making the axiom "has_part some documenting" more specific.
 *** '''Suggestion 1:''' follow the model of "(planning and (has_specified_output some 'study design'))" <br/>'''Update 2012-09-25'''<br/>This suggestion was dismissed on the developer call 2012/09/17.<br/><br/>
 *** '''Suggestion 2:''' We can say things like: investigation that has specified output conclusion equivalentTo: investigation that has part document that has part conclusion textual entity.<br/>'''Update 2012-09-25'''<br/>The current logical definitions of obi:investigation (subClassOf: has_part some iao:documenting) and iao:documenting (subClassOf has_specified_output some iao:document) already entail that one or more iao:document(s) exist as specified outputs of the iao:documenting processes that are part of an obi:investigation. With regard to the [[Investigation#Development_Notes|development notes for the general model]] of an investigation these iao:document(s) might be iao:report(s) (iao:report subClassOf iao:document) but they don't have to be and this is an appropriate view at this level of generality as documenting processes are processes that as a minimal requirement bring results of observations into a tangible, lasting form while reports as outputs of reporting processes put related information content into a much more comprehensive form (to inform a recipient of certain aspects of an investigation). The former can safely be assumed to be part of any investigation while this may be not so clear for the latter. '''In conclusion, what is suggested here is already in place.'''<br/><br/>
