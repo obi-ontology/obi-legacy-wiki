@@ -6,39 +6,40 @@ The review of terms is taking place during the [[Conference call developers agen
 
 The following terms are in the process of review, and may require some changes:
 
-* [http://purl.obolibrary.org/obo/OBI_0000097 study subject role]
-** major: rename to "particular under investigation role"
-** minor: Add an editor note to day that this role is distinct from "specimen role", but it is possible for a particular to realize both "specimen role" and "participant under investigation role" at the same time.
-** minor: Add example: A lake could realize this role in an investigation that assays pollution levels.
-* [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
-** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
-** major: Update curation status.
-** minor: Add documenting example: Your instrument software prints something and you copy it to a spreadsheet.
-** note: Change should be made in iao.owl
-* [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
-** major: There is overlap with "service" terms and acquisition.
-** minor: [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition] and [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition] will be added to OBI core, since they are expected to be more widely used than their parent.
-** minor: Remove alternative label "material acquisition".
-** minor: Change textual definition to refer to "planned process" rather than "process".
-** minor: Need editor notes on information aquisition and acquisition, that it the entity shouldn't be transformed as part of the process
-** minor: Add 'specified inputs' material / information content entity.
-** minor: Fix example in 'material acquisition' from investigators animal facility' to 'bred in the animal facility of the institute as a service to investigators'. 
-* [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition]
-** major: We want to be able to model "possession" or "control" of material entities, which will probably require new roles:
-*** Add 'material possessor role' = borne by person or organization, realized in choices about what to do with material (this would be for other people to refine to determine kinds of ownership)
-*** Add 'material acquisition source role' = a role borne by a person or organization that is realized in an material acquisition process in which a material possessor role is transferred from the material acquisition source to the material acquisition destination  (it gets difficult to write this nicely with multiple role and bearer relationships...)
-*** note: These might also work for information acquisition.
-* [http://purl.obolibrary.org/obo/OBI_0000968 device]
-** minor: Improve the textual definition in light of the ReO discussion.
-** minor: Clean up editor notes.
+* Pending request for comments from IAO:
+** [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
+*** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
+*** major: Update curation status.
+*** minor: Add documenting example: Your instrument software prints something and you copy it to a spreadsheet.
+*** note: Change should be made in iao.owl
+* Pending final review with eagle-i and ReO developers:
+** [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
+*** major: There is overlap with "service" terms and acquisition.
+*** minor: [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition] and [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition] will be added to OBI core, since they are expected to be more widely used than their parent.
+*** minor: Remove alternative label "material acquisition".
+*** minor: Change textual definition to refer to "planned process" rather than "process".
+*** minor: Need editor notes on information aquisition and acquisition, that it the entity shouldn't be transformed as part of the process
+*** minor: Add 'specified inputs' material / information content entity.
+*** minor: Fix example in 'material acquisition' from investigators animal facility' to 'bred in the animal facility of the institute as a service to investigators'. 
+** [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition]
+*** major: We want to be able to model "possession" or "control" of material entities, which will probably require new roles:
+**** Add 'material possessor role' = borne by person or organization, realized in choices about what to do with material (this would be for other people to refine to determine kinds of ownership)
+**** Add 'material acquisition source role' = a role borne by a person or organization that is realized in an material acquisition process in which a material possessor role is transferred from the material acquisition source to the material acquisition destination  (it gets difficult to write this nicely with multiple role and bearer relationships...)
+**** note: These might also work for information acquisition.
+** [http://purl.obolibrary.org/obo/OBI_0000968 device]
+*** minor: Improve the textual definition in light of the ReO discussion.
+*** minor: Clean up editor notes.
 
 
 == Completed Terms ==
 
 The following terms have been reviewed, changes have been committed, and no further changes are expected during this review:
 
-* [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
-** major: remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
+* [http://purl.obolibrary.org/obo/OBI_0000070 assay]
+** major: update textual definition to further distinguish an assay from a prediction: "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies."
+* [http://purl.obolibrary.org/obo/OBI_0200000 data transformation]
+** major: make the logical definition more specific than a generic planned process by adding an axiom referring to "algorithm" (a child of "plan specification"): "SubClass of realizes some (concretizes some ('algorithm' and ('has part' some 'objective specification')))" 
+** minor: update curation status to "ready for release"
 * [http://purl.obolibrary.org/obo/OBI_0000338 interpreting data] (renamed to "drawing a conclusion based on data")
 ** major: Add class obi:drawing a conclusion (subClassOf obi:planned process, subClassOf has_specified_output some iao:conclusion_textual_entity)
 ** major: Add label 'drawing a conclusion based on data' as primary label to 'interpreting data'
@@ -48,7 +49,13 @@ The following terms have been reviewed, changes have been committed, and no furt
 * [http://purl.obolibrary.org/obo/OBI_0000339 planning]
 ** minor: Add example of usage that has a robot scientist making the plan
 ** minor: Update the metadata to make clear what "Source PPPB Branch" means. 
-
+* [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
+** major: remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
+* [http://purl.obolibrary.org/obo/OBI_0000097 study subject role]
+** major: rename to "participant under investigation role"
+** minor: Add an editor note to say that this role is distinct from "specimen role", but it is possible for a participant to realize both "specimen role" and "participant under investigation role" at the same time.
+** minor: Revise examples for style and add another: A lake could realize this role in an investigation that assays pollution levels.
+** note: it was decided on the 2012-11-26 call that we should not move the children of this term at this time, but a tracker item has been added flagging the children for later review.
 
 == Discussion Notes ==
 
