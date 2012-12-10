@@ -21,6 +21,7 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 # [http://purl.obolibrary.org/obo/IAO_0000579 centrally registered identifier (CRID) registry]
 # [http://purl.obolibrary.org/obo/IAO_0000577 centrally registered identifier (CRID) symbol]
 # [http://purl.obolibrary.org/obo/IAO_0000144 conclusion textual entity]
+# [http://purl.obolibrary.org/obo/OBI_0000785 controlled variable specification]
 # [http://purl.obolibrary.org/obo/IAO_0000027 data item]
 # [http://purl.obolibrary.org/obo/OBI_0200000 data transformation]
 # [http://purl.obolibrary.org/obo/OBI_0000751 dependent variable specification]
@@ -47,7 +48,6 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 # [http://purl.obolibrary.org/obo/OBI_0500000 study design]
 # [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
 # [http://purl.obolibrary.org/obo/OBI_0000097 study subject role]
-
 
 = The Outer Core =
 
