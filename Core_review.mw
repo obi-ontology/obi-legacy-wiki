@@ -6,7 +6,7 @@ The review of terms is taking place during the [[Conference call developers agen
 
 The following terms are in the process of review, and may require some changes:
 
-* Pending request for comments from IAO:
+* Pending request for comments from IAO ([https://groups.google.com/d/topic/information-ontology/JcD4zf8C1aI/discussion email thread]):
 ** [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
 *** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
 *** major: Update curation status.
@@ -36,8 +36,21 @@ The following terms have been reviewed, changes have been committed, and no furt
 
 * [http://purl.obolibrary.org/obo/OBI_0000070 assay]
 ** major: update textual definition to further distinguish an assay from a prediction: "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies."
+* [http://purl.obolibrary.org/obo/OBI_0000785 controlled variable specification]
+** added to inner core
+** major: change "SubClass Of: 'is part of' some 'plan specification'" to "SubClass Of: 'is part of' some 'study design'"
+** major: added example of usage, shared bewteen controlled variable specification, dependent variable specification, and independent variable specification.
+** minor: update curation status to "ready for release"
 * [http://purl.obolibrary.org/obo/OBI_0200000 data transformation]
 ** major: make the logical definition more specific than a generic planned process by adding an axiom referring to "algorithm" (a child of "plan specification"): "SubClass of realizes some (concretizes some ('algorithm' and ('has part' some 'objective specification')))" 
+** minor: update curation status to "ready for release"
+* [http://purl.obolibrary.org/obo/OBI_0000751 dependent variable specification]
+** major: change "SubClass Of: 'is part of' some 'plan specification'" to "SubClass Of: 'is part of' some 'study design'"
+** major: added example of usage, shared bewteen controlled variable specification, dependent variable specification, and independent variable specification.
+** minor: update curation status to "ready for release"
+* [http://purl.obolibrary.org/obo/OBI_0000750 independent variable specification]
+** major: change "SubClass Of: 'is part of' some 'plan specification'" to "SubClass Of: 'is part of' some 'study design'"
+** major: added example of usage, shared bewteen controlled variable specification, dependent variable specification, and independent variable specification.
 ** minor: update curation status to "ready for release"
 * [http://purl.obolibrary.org/obo/OBI_0000338 interpreting data] (renamed to "drawing a conclusion based on data")
 ** major: Add class obi:drawing a conclusion (subClassOf obi:planned process, subClassOf has_specified_output some iao:conclusion_textual_entity)
