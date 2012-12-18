@@ -6,34 +6,35 @@ The review of terms is taking place during the [[Conference call developers agen
 
 The following terms are in the process of review, and may require some changes:
 
-* Pending request for comments from IAO ([https://groups.google.com/d/topic/information-ontology/JcD4zf8C1aI/discussion email thread]):
-** [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
-*** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
-*** major: Update curation status.
-*** minor: Add documenting example: Your instrument software prints something and you copy it to a spreadsheet.
-*** note: Change should be made in iao.owl
-* Pending final review with eagle-i and ReO developers:
+* Pending a discussion of modelling "posession" or "contol" over resources:
 ** [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
-*** major: There is overlap with "service" terms and acquisition.
-*** minor: [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition] and [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition] will be added to OBI core, since they are expected to be more widely used than their parent.
-*** minor: Remove alternative label "material acquisition".
-*** minor: Change textual definition to refer to "planned process" rather than "process".
-*** minor: Need editor notes on information aquisition and acquisition, that it the entity shouldn't be transformed as part of the process
-*** minor: Add 'specified inputs' material / information content entity.
-*** minor: Fix example in 'material acquisition' from investigators animal facility' to 'bred in the animal facility of the institute as a service to investigators'. 
-** [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition]
-*** major: We want to be able to model "possession" or "control" of material entities, which will probably require new roles:
-**** Add 'material possessor role' = borne by person or organization, realized in choices about what to do with material (this would be for other people to refine to determine kinds of ownership)
-**** Add 'material acquisition source role' = a role borne by a person or organization that is realized in an material acquisition process in which a material possessor role is transferred from the material acquisition source to the material acquisition destination  (it gets difficult to write this nicely with multiple role and bearer relationships...)
-**** note: These might also work for information acquisition.
-** [http://purl.obolibrary.org/obo/OBI_0000968 device]
-*** minor: Improve the textual definition in light of the ReO discussion.
-*** minor: Clean up editor notes.
+*** note: We want to be able to model "possession" or "control" of material entities (and probably information content entities), which will probably require new roles. These roles were proposed in the context of "material acquisition" but we should consider generalizing them to "resources" that could be material or information:
+*** major: add 'material possessor role' = borne by person or organization, realized in choices about what to do with material (this would be for other people to refine to determine kinds of ownership)
+*** major: add 'material acquisition source role' = a role borne by a person or organization that is realized in an material acquisition process in which a material possessor role is transferred from the material acquisition source to the material acquisition destination  (it gets difficult to write this nicely with multiple role and bearer relationships...)
+* Remaining OBI terms in the Inner Core, with some preliminary notes by James:
+** [http://purl.obolibrary.org/obo/OBI_0600004 human subject enrollment]
+*** minor: clarify or remove editor note: "As with group assignment, should the specified output here be an organism which bears a role"
+*** major: clarify the use of "population". Is a population of one sufficient? 
+*** note: this may require review of [http://purl.obolibrary.org/obo/OBI_0000810 informed consent process]
+** [http://purl.obolibrary.org/obo/OBI_0000202 investigation agent role]
+*** major: consider revising definitions to allow for a "robot scientist" as mentioned for "investigation".
+** [http://purl.obolibrary.org/obo/OBI_0000453 measure function]
+** [http://purl.obolibrary.org/obo/OBI_0000260 plan]
+** [http://purl.obolibrary.org/obo/OBI_0000272 protocol]
+** [http://purl.obolibrary.org/obo/OBI_0100051 specimen]
+** [http://purl.obolibrary.org/obo/OBI_0000659 specimen collection]
+** [http://purl.obolibrary.org/obo/OBI_0500000 study design]
 
 == Completed Terms ==
 
 The following terms have been reviewed, changes have been committed, and no further changes are expected during this review:
 
+* [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
+** note: [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition] and [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition] will be added to OBI Inner Core, since they are expected to be more widely used than their parent.
+** note: We have discussed the potential overlap with "service" terms in OBI. There does not seem to be a problem as terms currently stand, but we can revisit the question in the future as modelling of services matures.
+** major: add "SubClass Of: has_specified_output some ('information content entity' or 'material entity')"
+** minor: remove alternative label "material acquisition"
+** minor: change textual definition to refer to "planned process" rather than "process"
 * [http://purl.obolibrary.org/obo/OBI_0000070 assay]
 ** major: update textual definition to further distinguish an assay from a prediction: "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies."
 * [http://purl.obolibrary.org/obo/OBI_0000785 controlled variable specification]
@@ -48,6 +49,20 @@ The following terms have been reviewed, changes have been committed, and no furt
 ** major: change "SubClass Of: 'is part of' some 'plan specification'" to "SubClass Of: 'is part of' some 'study design'"
 ** major: added example of usage, shared bewteen controlled variable specification, dependent variable specification, and independent variable specification.
 ** minor: update curation status to "ready for release"
+* [http://purl.obolibrary.org/obo/OBI_0000968 device]
+** note: Over the past year we have tried to apply several differentia to distinguish devices from reagents, without much success: a macroscopic/microscopic distinction; requiring that reagents undergo chemical reactions; requiring that devices are not consumed. On the 2012-12-17 developer's call we decided to take a different approach and define "device" as disjoint from "reagent".
+** major: modify textual definition "A material entity that is designed to perform a function in a scientific investigation, but is not a reagent."
+** major: add "Disjoint With: 'material entity' and ('has role' some 'reagent role')" (this is the logical definition of "reagent" in REO)
+** minor: add example of usage for an autoclave
+** minor: add editor note explaining the current approach
+** minor: remove some of the old editor notes
+* [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
+** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
+** minor: Update curation status.
+** minor: add example: Your instrument software prints something and you copy it to a spreadsheet.
+** note: no objections to definition change from IAO ([https://groups.google.com/d/topic/information-ontology/JcD4zf8C1aI/discussion email thread])
+* [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition]
+** major: add "Disjoint With: 'data transformation'"
 * [http://purl.obolibrary.org/obo/OBI_0000750 independent variable specification]
 ** major: change "SubClass Of: 'is part of' some 'plan specification'" to "SubClass Of: 'is part of' some 'study design'"
 ** major: added example of usage, shared bewteen controlled variable specification, dependent variable specification, and independent variable specification.
@@ -58,6 +73,9 @@ The following terms have been reviewed, changes have been committed, and no furt
 ** major: Add axiom 'drawing a conclusion based on data' subClassOf has_specified_input some iao:data_item. As a result this class should be inferred as subclass of the new class 'drawing a conclusion'
 * [http://purl.obolibrary.org/obo/OBI_0000066 investigation]
 ** major: Add axiom obi:investigation subClassOf has_part some obi:drawing a conclusion
+* [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition]
+** major: add "Disjoint With: 'material processing'"
+** minor: change example from "investigators animal facility" to "bred in the animal facility of the institute as a service to investigators". 
 * [http://purl.obolibrary.org/obo/OBI_0000339 planning]
 ** minor: Add example of usage that has a robot scientist making the plan
 ** minor: Update the metadata to make clear what "Source PPPB Branch" means. 
