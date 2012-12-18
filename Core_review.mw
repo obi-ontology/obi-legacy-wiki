@@ -59,7 +59,7 @@ The following terms have been reviewed, changes have been committed, and no furt
 * [http://purl.obolibrary.org/obo/IAO_0000572 documenting]
 ** major: Revised definition to improve the grammar: "a planned process in which input information is used to create or add to a document"
 ** minor: Update curation status.
-** minor: add example: Your instrument software prints something and you copy it to a spreadsheet.
+** minor: add example: "Copying the readout from an instrument into a spreadsheet."
 ** note: no objections to definition change from IAO ([https://groups.google.com/d/topic/information-ontology/JcD4zf8C1aI/discussion email thread])
 * [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition]
 ** major: add "Disjoint With: 'data transformation'"
