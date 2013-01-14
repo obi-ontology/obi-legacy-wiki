@@ -5,10 +5,10 @@ OBI Core is a collection of key terms from OBI and related ontologies. It serves
 
 OBI Core consists of two parts:
 
-# The "inner core" of 31 terms that belong to OBI and IAO.
-# The "outer core" of 13 terms that belong to other ontologies.
+# The "inner core" of 29 terms that belong to OBI and IAO.
+# The "outer core" of 14 terms that belong to other ontologies.
 
-When these 44 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
+When these 43 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
 
 (See also: [[Core review|status of the term review process]] and [[Core terms|a list of OBI core terms in 2008]].)
 
@@ -16,7 +16,6 @@ When these 44 terms are taken together and reasoned over using OWL, the result i
 
 The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/information-artifact-ontology/ Information Artifact Ontology]. Historically, IAO was created as a branch of OBI, and the two remain closely connected. Any detailed model of a biomedical investigation using OBI will involve the majority of the terms on this list. (See below for more on the criteria for inclusion.)
 
-# [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
 # [http://purl.obolibrary.org/obo/OBI_0000070 assay]
 # [http://purl.obolibrary.org/obo/IAO_0000579 centrally registered identifier (CRID) registry]
 # [http://purl.obolibrary.org/obo/IAO_0000577 centrally registered identifier (CRID) symbol]
@@ -41,7 +40,6 @@ The inner core contains terms from OBI and IAO -- the [http://code.google.com/p/
 # [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum]
 # [http://purl.obolibrary.org/obo/OBI_0000260 plan]
 # [http://purl.obolibrary.org/obo/OBI_0000339 planning]
-# [http://purl.obolibrary.org/obo/OBI_0000181 population]
 # [http://purl.obolibrary.org/obo/OBI_0000272 protocol]
 # [http://purl.obolibrary.org/obo/OBI_0100051 specimen]
 # [http://purl.obolibrary.org/obo/OBI_0000659 specimen collection]
@@ -64,6 +62,7 @@ The outer core consists of terms that fall outside OBI and IAO scope, but are ne
 # [http://purl.obolibrary.org/obo/IAO_0000003 measurement unit label], included to connect to the [http://code.google.com/p/unit-ontology/ Ontology of Units of Measurement] (UO)
 # [http://purl.obolibrary.org/obo/CHEBI_23367 molecular entity] from [http://www.ebi.ac.uk/chebi/ Chemical Entities of Biological Interest] (ChEBI)
 # [http://purl.obolibrary.org/obo/OBI_0100026 organism], included to connect to the [http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html National Center for Biotechnology Information Taxonomy] (NCBITaxon)
+# [http://purl.obolibrary.org/obo/OBI_0000181 population]
 # [http://purl.obolibrary.org/obo/BFO_0000019 quality] from the [http://www.ifomis.org/bfo/ Basic Formal Ontology] (BFO), included to connect to the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotypic Quality Ontology] (PATO)
 # [http://purl.obolibrary.org/obo/OGMS_0000063 disease course] from the [http://code.google.com/p/ogms/ Ontology for General Medical Science] (OGMS)
 
