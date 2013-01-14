@@ -6,15 +6,13 @@ The review of terms is taking place during the [[Conference call developers agen
 
 The following terms are in the process of review, and may require some changes:
 
-* Pending a discussion of modelling "posession" or "contol" over resources:
-** [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
-*** note: We want to be able to model "possession" or "control" of material entities (and probably information content entities), which will probably require new roles. These roles were proposed in the context of "material acquisition" but we should consider generalizing them to "resources" that could be material or information:
-*** major: add 'material possessor role' = borne by person or organization, realized in choices about what to do with material (this would be for other people to refine to determine kinds of ownership)
-*** major: add 'material acquisition source role' = a role borne by a person or organization that is realized in an material acquisition process in which a material possessor role is transferred from the material acquisition source to the material acquisition destination  (it gets difficult to write this nicely with multiple role and bearer relationships...)
 * Remaining OBI terms in the Inner Core, with some preliminary notes by James:
 ** [http://purl.obolibrary.org/obo/OBI_0600004 human subject enrollment]
 *** minor: clarify or remove editor note: "As with group assignment, should the specified output here be an organism which bears a role"
 *** major: clarify the use of "population". Is a population of one sufficient? 
+*** major: revise output axiom:
+**** option: use "Homo Sapiens" for both input and output, rather than "population"
+**** option: use "Homo sapiens" rather than population as input, but still maintaining "population" in the specified_output
 *** note: this may require review of [http://purl.obolibrary.org/obo/OBI_0000810 informed consent process]
 ** [http://purl.obolibrary.org/obo/OBI_0000202 investigation agent role]
 *** major: consider revising definitions to allow for a "robot scientist" as mentioned for "investigation".
@@ -105,3 +103,9 @@ The following terms have been reviewed, changes have been committed, and no furt
 **** add class obi:drawing a conclusion (subClassOf obi:planned process, subClassOf has_specified_output some iao:conclusion_textual_entity)
 **** add label 'drawing a conclusion based on data' as primary label to 'interpreting data'
 **** add axiom 'drawing a conclusion based on data' subClassOf has_specified_input some iao:data_item<br/>'''Note:''' As a result this class should be inferred as subclass of the new class 'drawing a conclusion'
+* Modelling "possession" or "contol" over resources:
+** note: It would be useful to be able to model "possession" and "control", which are important parts of the textual definition of "acquisition". But in the 2013-01-07 call we decided that this is not an urgent need, and have left it for later.
+** [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
+*** note: We want to be able to model "possession" or "control" of material entities (and probably information content entities), which will probably require new roles. These roles were proposed in the context of "material acquisition" but we should consider generalizing them to "resources" that could be material or information:
+*** major: add 'material possessor role' = borne by person or organization, realized in choices about what to do with material (this would be for other people to refine to determine kinds of ownership)
+*** major: add 'material acquisition source role' = a role borne by a person or organization that is realized in an material acquisition process in which a material possessor role is transferred from the material acquisition source to the material acquisition destination  (it gets difficult to write this nicely with multiple role and bearer relationships...)
