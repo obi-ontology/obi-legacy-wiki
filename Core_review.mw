@@ -11,9 +11,13 @@ The following terms are in the process of review, and may require some changes:
 *** minor: clarify or remove editor note: "As with group assignment, should the specified output here be an organism which bears a role"
 *** major: clarify the use of "population". Is a population of one sufficient? 
 *** major: revise output axiom:
-**** option: use "Homo Sapiens" for both input and output, rather than "population"
+**** option: use "Homo sapiens" for both input and output, rather than "population"
 **** option: use "Homo sapiens" rather than population as input, but still maintaining "population" in the specified_output
+**** option: define "enrolled human population" and use it as the output; likewise define "eligible human population" and use as the input; this would facilitate the reuse of the population terms in other places
+*** note: Jie has suggested that we model the process in two steps: one for selection and one for enrollment
+*** note: this may require us to refine "participant under investigation role"
 *** note: this may require review of [http://purl.obolibrary.org/obo/OBI_0000810 informed consent process]
+*** note: this may require review of [http://purl.obolibrary.org/obo/OBI_0500026 eligibility rule]; see also [http://sourceforge.net/tracker/index.php?func=detail&aid=3602704&group_id=177891&atid=886178 OBI tracker item 3602704]
 ** [http://purl.obolibrary.org/obo/OBI_0000202 investigation agent role]
 *** major: consider revising definitions to allow for a "robot scientist" as mentioned for "investigation".
 ** [http://purl.obolibrary.org/obo/OBI_0000453 measure function]
@@ -97,6 +101,7 @@ The following terms have been reviewed, changes have been committed, and no furt
 ** major: remove "has_specified_output some 'data item'" from equivalent classes. (Keep minimal restrictions that need for defined classes)
 * [http://purl.obolibrary.org/obo/OBI_0000097 study subject role]
 ** major: rename to "participant under investigation role"
+** major: update textual definition: "A role that is realized through the execution of a study design in which the bearer of the role participates and the results of the study design execution are about that bearer"
 ** minor: Add an editor note to say that this role is distinct from "specimen role", but it is possible for a participant to realize both "specimen role" and "participant under investigation role" at the same time.
 ** minor: Revise examples for style and add another: A lake could realize this role in an investigation that assays pollution levels.
 ** note: it was decided on the 2012-11-26 call that we should not move the children of this term at this time, but a tracker item has been added flagging the children for later review.
