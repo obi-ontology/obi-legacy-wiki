@@ -10,7 +10,6 @@ While the Web Ontology Language (OWL), the format used to create OBI, provides a
 
 We propose a method that allows selective use of classes from external ontologies that are of direct interest to OBI. In examining OBO Foundry ontologies, it was found that specific terms are fairly stable in what they are intended (and observed) to denote, even as the containing ontology is reorganized. In this report we propose a mechanism and minimal information standard for importing required terms into an ontology. We also suggest an implementation for this mechanism, scripts for automation of the import process and finally some ideas for future work and extensions.
 
-[http://docs.google.com/View?id=dzprnmw_24cp3693dd MIREOT Specification document]
 
 [http://purl.obolibrary.org/obo/obi/repository/trunk/docs/papers/MIREOT_ICBO2009/ICBOCameraReady.pdf ICBO 2009 short paper]
 
