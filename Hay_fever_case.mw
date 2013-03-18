@@ -1,0 +1,110 @@
+This is a fictionalized case to test OBI modelling, especially of populations. The scenario is an investigation of the immunological basis for [http://en.wikipedia.org/wiki/Allergic_rhinitis hay fever].
+
+Notes:
+
+* consider this a work in progress
+* this uses the development version of OBI, at the time of writing, which means BFO terms are from [http://purl.obolibrary.org/obo/bfo/2010-05-25/ruttenberg-bfo2.owl ruttenberg-bfo2.owl]
+* code uses [http://en.wikipedia.org/wiki/Turtle_(syntax) Turtle syntax].
+* the modelling is not complete at this time, but the goal is to provide a proper RDF graph
+
+These are the URI prefixes used in the remainder of the document. The default prefix ":" is used to refer to particulars in this case study.
+
+<pre>
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix dbp:  <http://dbpedia.org/page/> .
+@prefix obo:  <http://purl.obolibrary.org/obo/> .
+@prefix bfo:  <http://purl.obolibrary.org/obo/BFO_> .
+@prefix obi:  <http://purl.obolibrary.org/obo/OBI_> .
+@prefix iao:  <http://purl.obolibrary.org/obo/IAO_> .
+@prefix :     <http://obi-ontology.org/page/Hay_fever_case#> .
+</pre>
+
+Here we define some particulars for the case: Bar Lab and three people.
+
+<pre>
+:bar-lab
+  rdfs:label "Bar Lab" .
+
+:john-doe
+  rdf:type NCBI:9606 ;
+  rdf:label "John Doe" .
+  # age 53
+
+:jane-doe
+  rdf:type NCBI:9606 ;
+  rdf:label "Jane Doe" .
+  # age 33
+
+:jimmy-doe
+  rdf:type NCBI:9606 ;
+  rdf:label "Jimmy Doe" .
+  # age 13
+</pre>
+
+<pre>
+:bar-investigation
+  rdf:type obi:0000066 ;                  # is an: OBI investigation
+  rdfs:label "Bar Investigation" ;
+  bfo:0000051 :bar-enrolment ;            # has part: the enrolment process
+  bfo:0000051 :bar-assay ;                # has part: the assay
+  bfo:0000051 :bar-drawing-a-conclusion . # has part: drawing a conclusion
+</pre>
+
+We only include subjects meeting the following criteria: "adults age 18 - 60 with a clinical diagnosis of allergic rhinitis but no asthma, and a hematocrit value above 38%". We model this using an "eligibility rule".
+
+<pre>
+:bar-eligibility-rule
+  rdf:type obi:0500026 .
+</pre>
+
+Now we model two populations. The first is all the human beings in the world that conform to the eligibility rule. It includes John and Jane, but not Jimmy. The second is a subset containing just those human beings who are enrolled in the study. It includes John, but not Jane or Jimmy. (Is has_part the correct relation for a member of a population? We haven't modelled time.) We also model the enrolment process for the study.
+
+<pre>
+:bar-eligible-population
+  rdf:type obi:0000181 ;  # is an: OBI population
+  bfo:0000051 :john-doe ; # has part: John Doe
+  bfo:0000051 :jane-doe . # has part: Jane Doe
+
+:bar-enrolment
+  rdf:type obi:0600004 ;                 # is an: OBI human subject enrolment process
+  # realizes some concretizes some :bar-eligibility-rule
+  obi:0000293 :bar-eligible-population ; # has specified input: eligible population
+  obi:0000299 :bar-enrolled-population ; # has specified outut: enrolled population
+
+:bar-enrolled-population
+  rdf:type obi:0000181 ; # is an: OBI population
+  bfo:0000051 :john-doe ; # has part: John Doe
+  # has size 100
+  # Jane Doe is not part of the enrolled population
+</pre>
+
+(We should pick a more specific assay type.)
+
+<pre>
+:bar-assay
+  rdf:type obi:0000070 ;                 # is an: OBI assay
+  obi:0000293 :bar-enrolled-population ; # has specified input: enrolled population
+  obi:0000299 :bar-datum-1 ;             # has specified output: OBI measurement datum (data set?)
+  # took place in January 2013
+</pre>
+
+<pre>
+:bar-datum-1
+  rdf:type iao:0000027 ;                 # is an: IAO data item
+  iao:0000136 :bar-enrolled-population . # is about: enrolled population
+</pre>
+
+<pre>
+:bar-drawing-a-conclusion
+  rdf:type obi:0001834 ;                       # is an: OBI drawing a conclusion process
+  obi:0000299 :bar-conclusion-textual-entity . # has specified output: conclusion
+</pre>
+
+The conclusion is something along these lines: "We have identified a pool of 20 peptides that accounts for about 40% of the IL-5 producing T cell targets in timothy grass allergic donors." It is about the eligible population.
+
+<pre>
+:bar-conclusion-textual-entity
+  iao:0000136 :bar-eligible-population ; # is about: eligible population
+</pre>
