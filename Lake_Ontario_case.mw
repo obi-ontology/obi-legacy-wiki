@@ -1,0 +1,114 @@
+This page describes a fictional investigation that could be modelled in OBI. The scenario involves the fictional Lake Ontario Water Quality Monitoring Agency (LOWQMA), that periodically collects samples of water from Lake Ontario. Some of these samples are acquired and tested by Foo Lab, in order to assess pollution levels in Lake Ontario.
+
+Notes:
+
+* consider this a work in progress
+* this uses the development version of OBI, at the time of writing, which means BFO terms are from [http://purl.obolibrary.org/obo/bfo/2010-05-25/ruttenberg-bfo2.owl ruttenberg-bfo2.owl]
+* code uses [http://en.wikipedia.org/wiki/Turtle_(syntax) Turtle syntax].
+* the modelling is not complete at this time, but the goal is to provide a proper RDF graph
+
+These are the URI prefixes used in the remainder of the document. The default prefix ":" is used to refer to particulars in this case study.
+
+<pre>
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix dbp:  <http://dbpedia.org/page/> .
+@prefix obo:  <http://purl.obolibrary.org/obo/> .
+@prefix bfo:  <http://purl.obolibrary.org/obo/BFO_> .
+@prefix obi:  <http://purl.obolibrary.org/obo/OBI_> .
+@prefix iao:  <http://purl.obolibrary.org/obo/IAO_> .
+@prefix :     <http://obi-ontology.org/page/Lake_Ontario_case#> .
+</pre>
+
+Here we define the two fictional agencies involved: LOWQMA and Foo Lab. We also define two periods of time -- there must be a better way to do this.
+
+<pre>
+:lowqma
+  rdfs:label "Lake Ontario Water Quality Monitoring Agency" .
+
+:foo-lab
+  rdfs:label "Foo Lab" .
+
+:august-2012
+  rdf:type bfo:0000038 ;     # is a: temporal interval
+  rdfs:label "August 2012" .
+
+:january-2013
+  rdf:type bfo:0000038 ;     # is a: temporal interval
+  rdfs:label "January 2013" .
+</pre>
+
+In August 2012 LOWQMA collected 100 samples of Lake Ontario water. The samples were collected in a randomized fashion, in order to be representative of all the water in Lake Ontario at that time. We'll pay attention to sample #100.
+
+<pre>
+:lake-ontario-material-sampling-process
+  rdf:type obi:0000744 ;                 # is an: OBI material sampling process
+  obi:0000293 dbp:Lake_Ontario ;         # has specified input: Lake Ontario
+  obi:0000299 :foo-material-sample-100 ; # has specified output: sample #100
+  bfo:0000057 :lowqma ;                  # has participant: LOWQMA
+  # took place in August 2012
+</pre>
+
+The Foo Investigation took place later, in January 2013. Its parts include the sampling, the assay, and the drawing of conclusions.
+
+<pre>
+:foo-investigation
+  rdf:type obi:0000066 ;                                # is an: OBI investigation
+  rdfs:label "Foo Investigation" ;
+  bfo:0000051 :lake-ontario-material-sampling-process ; # has part: the sampling process
+  bfo:0000051 :foo-salt-assay ;                         # has part: the assay
+  bfo:0000051 :foo-drawing-a-conclusion                 # has part: drawing a conclusion
+  # took place in January 2013
+</pre>
+
+Foo Lab acquires the samples from LOWQMA, including sample #100.
+
+<pre>
+:foo-material-aquisition-process
+  rdf:type obi:0600010 ;                 # is an: OBI material acquisition process
+  obi:0000299 :foo-material-sample-100 ; # has specified output: sample #100
+  # took place in January 2013
+</pre>
+
+Now we describe the sample as having some roles. The timing of these roles is not being modelled.
+
+<pre>
+:foo-material-sample-100
+  rdf:type bfo:0000040 ;    # is a: material entity
+  bfo:0000087 [
+    rdf:type obi:0100051 ;  # has role: a particular OBI specimen role 
+  ] ;
+  bfo:0000087 [
+    rdf:type obi:0000067 ;  # has role: a particular OBI evaluant role (in the :foo-salt-assay) 
+  ] .
+</pre>
+
+Sample #100 is an input for an assay, which outputs some data.
+
+<pre>
+:foo-salt-assay
+  rdf:type obi:0000070 ;                 # is an: OBI assay
+  obi:0000293 :foo-material-sample-100 ; # has specified input: sample #100
+  obi:0000299 :foo-datum-100 ;           # has specified outut: OBI measurement datum (data set?)
+  # took place in January 2013
+</pre>
+
+<pre>
+:foo-datum-100
+  rdf:type iao:0000027 ;                 # is an: IAO data item
+  iao:0000136 :foo-material-sample-100 . # is about: sample #100
+</pre>
+
+<pre>
+:foo-drawing-a-conclusion
+  rdf:type obi:0001834 ;                       # is an: OBI drawing a conclusion process
+  obi:0000299 :foo-conclusion-textual-entity . # has specified output: conclusion
+</pre>
+
+<pre>
+:foo-conclusion-textual-entity
+  iao:0000136 dbp:Lake_Ontario ; # is about: Lake Ontario
+  # compared to results of previous study
+  # "The salt level in Lake Ontario has drastically dropped since 2000"
+</pre>
