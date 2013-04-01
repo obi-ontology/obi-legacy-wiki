@@ -13,6 +13,20 @@
 * Alan Ruttenberg
 
 === Agenda ===
+
+Goal: Complete OBI core
+- finish reviewing definitions in OWL, include all metadata
+- include 2-3 use cases that cover each of the terms
+- incorporate completed terms into the manuscript
+Realize that this will not be perfect. 
+--> Writeup the expectations others can have on the core, and communicate that this will be more but not completely stable. Document process of further changes. 
+
+Pre-workshop: Jie and James and James and Jie 
+- will go through all the terms and document status and what needs to be resolved. 
+- Assign people to specific terms
+- Update / create use cases
+
+
 May 1
 AM: Core review - where do we stand? What do we need to resolve?
 http://obi-ontology.org/page/Core_review
