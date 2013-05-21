@@ -2,16 +2,16 @@ For each term considered in the [[Core review]], please check each of the follow
 
 # Labels: check that all the term's labels are clear and accurate
 ## rdfs:label: required
-## editor preferred term: required, should match the rdfs:label
+## editor preferred term: required, should match the rdfs:label (check will be done during release process too)
 ## alternative terms: recommended
 # Textual Definition: check that the textual definition is clear and accurate
 ## should follow Aristotelean pattern, giving the parent term and the differentia: e.g. the definition of "documenting" is "a planned process in which input information is used to create or add to a document"
-## may include a definition source
-# Logical Definition: there must be a logical definition
+## must include a definition source
+# Logical Definition: there must be a logical definition (?)
 # Example of Use: there should be at least one example of use
 # Other Annotations: make sure that other annotations are accurate and up-to-data
-## term editor
-## has curation status
+## must have term editor
+## has curation status will be updated to 'ready for release' when review is done
 ## editor note: optional
 ## imported from: only for terms imported from another ontology
 # Uses in the Core (optional): review the uses of this term in other OBI Core classes
