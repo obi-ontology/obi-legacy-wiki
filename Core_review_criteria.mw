@@ -7,6 +7,7 @@ For each term considered in the [[Core review]], please check each of the follow
 # Textual Definition: check that the textual definition is clear and accurate
 ## should follow Aristotelean pattern, giving the parent term and the differentia: e.g. the definition of "documenting" is "a planned process in which input information is used to create or add to a document"
 ## must include a definition source
+## Comment: It would be desirable to always have the same structure of the textual definition i.e. when C-Thing SubClassOf P-Thing then either "A C-Thing is a P-Thing that..." or "A P-thing that..."
 # Logical Definition: there must be a logical definition (?)
 # Example of Use: there should be at least one example of use
 # Other Annotations: make sure that other annotations are accurate and up-to-data
