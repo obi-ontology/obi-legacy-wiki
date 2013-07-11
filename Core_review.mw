@@ -15,7 +15,7 @@ A number of documents were used in to coordinate review during the [[Philly2013]
 * [https://docs.google.com/document/d/1J3VjL6pbMY3q6GYZqsqqs4CbgEgIxnivMXcj_qcyznc/edit OBI Core: Plans]
 * [[Core_review_criteria|Suggested review criteria]]
 
-We have also developed a detailed prototype for modelling data for measurements, predictions, and settings. See the latest versions of the files in our Subversion repository:
+We have also developed a detailed <b>prototype for modelling data for measurements, predictions, and settings</b>. See the latest versions of the files in our Subversion repository:
 [http://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/examples/development/data-prototype.pdf?format=raw PDF file],
 [http://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/examples/development/data-prototype.owl?format=raw OWL file],
 [http://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/examples/development/data-prototype.txt?format=raw source text file].
