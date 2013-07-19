@@ -18,7 +18,7 @@
 see http://obi-ontology.org/page/General_introduction#SVN
 
 check out latest version of OBI
-  svn co  http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology/
+  svn co  https://svn.code.sf.net/p/obi/code/trunk/src/ontology
 
 ==Sourceforge==
 
