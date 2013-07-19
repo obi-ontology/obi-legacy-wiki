@@ -31,15 +31,15 @@ Second, email one of the OBI sourceforge administrators listed OBI sourceforge s
 ==Editing==
 
 * Install latest version Protege (v 4.3) from 
- - http://protege.stanford.edu/download/registered.html 
+ http://protege.stanford.edu/download/registered.html 
 
 * Install an svn client. We recommend 
- - for window users: http://tortoisesvn.tigris.org/ 
- - for Mac users: may try SmartSVN http://www.syntevo.com/smartsvn/index.html
+ for window users: http://tortoisesvn.tigris.org/ 
+ for Mac users: may try SmartSVN http://www.syntevo.com/smartsvn/index.html
 
 * Using the svn client, check out 
- - http://svn.code.sf.net/p/obi/code/trunk/src/ontology 
- - If you want to commit changes back to the repository, you will need to use <b>https: </b> instead of http:, and will need a sourceforge password for obi. Contact the project admins to do this - Jie Zheng, Alan Ruttenberg, Melanie Courtot are admins)
+ http://svn.code.sf.net/p/obi/code/trunk/src/ontology 
+If you want to commit changes back to the repository, you will need to use <b>https: </b> instead of http:, and will need a sourceforge password for obi. Contact the project admins to do this - Jie Zheng, Alan Ruttenberg, Melanie Courtot are admins)
 
 * Go to the directory: ontology\branches and open obi.owl file
 <!--
@@ -73,7 +73,7 @@ rdfs:label should is listed in the annotation properties.
 * Keep edits short, save and reason regularly. Hermit is recommended reasoner to use.
 
 * OBI imports several ontologies, you can find these in svn at: 
- - https://svn.code.sf.net/p/obi/code/trunk/src/ontology/external
+ https://svn.code.sf.net/p/obi/code/trunk/src/ontology/external
 
 <!--
 * launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can also the obi.owl (not the obi-edit.owl) file in 3.4.1. - you won't get the widgets for annotation properties if you chose to edit this file. NOT recommended.
