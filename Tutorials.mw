@@ -402,7 +402,6 @@ To edit OBI instances e.g. for the investigation use case
 
 5. Save and reason over in p4 before committing, if you've edited classes and instances commit both the obi.owl and investigation-use-case.owl
 -->
-<hr>
 
 ==Obsoletion==
 
