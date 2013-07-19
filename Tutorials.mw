@@ -83,8 +83,11 @@ rdfs:label should is listed in the annotation properties.
 
 ==Imports==
 
-* OBI imports some external ontologies e.g. IAO and these are present in OBI svn - see \obi\trunk\src\ontology\external which you should have checked out - the files you need are .owl extensions in this directory and sub-directories. If you use the obi-edit.pprj it manages these for you. You can also set these manually see below, but this should not be necessary if you use the obi-edit.pprj 
+* OBI imports some external ontologies e.g. IAO and these are present in OBI SVN - see \src\ontology\external which you should have checked out - the files you need are .owl extensions in this directory and sub-directories. <!-- If you use the obi-edit.pprj it manages these for you. You can also set these manually see below, but this should not be necessary if you use the obi-edit.pprj -->
 
+* In checkout \src\ontology\branches directory, there is a configuration file, catalog-v001.xml, which set Protege load imported ontologies from local files.
+
+<!--
 * In protege 3.4.1 (described here for windows) go to OWL tab
 
 * choose ontology repositories
@@ -104,6 +107,7 @@ rdfs:label should is listed in the annotation properties.
 * Once all the imports are local, you should find reasoning speed improved.
 
 [http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png PC Screenshot of Protege repository tav]
+-->
 
 ==Reasoning==
 
