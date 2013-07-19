@@ -133,8 +133,8 @@ Protege4 is OWL2 compatible. Editing OBI using Protege4 has been tested in both 
 
 http://protege.stanford.edu/download/download.html
 
-Both Java 1.5 and 1.6 worked well when classify using Hermit.
 <!--
+Both Java 1.5 and 1.6 worked well when classify using Hermit.
 Java 1.5 is recommended for Pellet. Details about setting Java classpath: http://www.cs.waikato.ac.nz/~jcleary/230/jdkdocs/tooldocs/win32/classpath.html and http://faculty.ed.umuc.edu/~arnoldyl/NetBeansTutorials/Setting-Classpath.html.
 -->
 
