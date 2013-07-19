@@ -30,20 +30,21 @@ Second, email one of the OBI sourceforge administrators listed OBI sourceforge s
 
 ==Editing==
 
-* Install latest Protege 3.4.1 version from 
+* Install latest version Protege (v 4.3) from 
 http://protege.stanford.edu/download/registered.html 
-Use only 3.4.1, other versions are buggy or have reasoning issues
 
 * Install an svn client. For windows, we recommend 
-http://tortoisesvn.tigris.org/ for Mac try SmartSVN http://www.syntevo.com/smartsvn/index.html
+ - For PC users: http://tortoisesvn.tigris.org/ 
+ - For Mac users: try SmartSVN http://www.syntevo.com/smartsvn/index.html
 
 * Using the svn client, check out 
-http://obi.svn.sourceforge.net/svnroot/obi/trunk/src/ontology 
+http://svn.code.sf.net/p/obi/code/trunk/src/ontology 
 (If you want to commit changes back to the repository, you will need to use
-https: instead of http:, and will need a sourceforge password for obi. Contact the project admins to do this - Alan Ruttenberg, Melanie Courtot are admins)
+https: instead of http:, and will need a sourceforge password for obi. Contact the project admins to do this - Jie Zheng, Alan Ruttenberg, Melanie Courtot are admins)
 
-* Go to the directory: ontology\branches 
+* Go to the directory: ontology\branches and open obi.owl file
 
+<!--
 * we made some changes 8 Oct 09. There is a new OBI file which gives a widget to help adding annotation properties and curation status etc. These instructions have been updated accordingly
 
 * download obi.owl, obi-edit.owl and the .template extension files. Rename the obi-edit.pprj.template file to obi-edit.pprj, and obi-edit.repository.template -> obi-edit.repository
@@ -61,21 +62,26 @@ https: instead of http:, and will need a sourceforge password for obi. Contact t
 view until they are assigned an rdfs:label. Add the label as usual -
 rdfs:label should is listed in the annotation properties.
 
+
 * If you are editing OBI we are now working with a merged file rather than a series of branch files(pre mid 2009) therefore:
 
 * You MUST edit in 3.4.1
+-->
 
 * Do an SVN update of your local repository prior to editing to ensure your files are updated
 
-* Send email to the devel list before checking out, after checking in
+* Send email to the devel list before checking out for editing to announce obi owl file is locked, and after checking in to indicate the file is unlocked
 
-* Keep edits short, save and reason regularly.
+* Keep edits short, save and reason regularly. Hermit is recommended reasoner to use.
 
 * OBI imports several ontologies, you can find these in svn at: 
+https://svn.code.sf.net/p/obi/code/trunk/src/ontology/external
 
+<!--
 * launch the file using the obi-edit.pprj by clicking on it - you will find on editing that the obi.owl file has been updated and the obi-edit.owl, which imports this file has also been updated. You can also the obi.owl (not the obi-edit.owl) file in 3.4.1. - you won't get the widgets for annotation properties if you chose to edit this file. NOT recommended.
 
 * As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files.
+-->
 
 ==Imports==
 
