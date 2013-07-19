@@ -110,7 +110,6 @@ rdfs:label should is listed in the annotation properties.
 [http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png PC Screenshot of Protege repository tav]
 -->
 <hr>
-
 <!-- ==Reasoning==
 
 * Use Protege 3.4.1 and Pellet 1.5.2 as standard. 
