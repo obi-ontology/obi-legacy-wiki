@@ -109,6 +109,7 @@ rdfs:label should is listed in the annotation properties.
 
 [http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png PC Screenshot of Protege repository tav]
 -->
+<hr>
 
 <!-- ==Reasoning==
 
@@ -126,6 +127,7 @@ The aim is to detect problems with the OWL file that cause OBI to reason slowly.
 
 <hr>
 -->
+
 ==Protege4==
 
 Protege4 is OWL2 compatible. Editing OBI using Protege4 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
