@@ -80,6 +80,7 @@ rdfs:label should is listed in the annotation properties.
 
 * As of Mar 2010 reasoning is working in 3.4.1 using Pellet 1.5.2. If reasoning is running slowly you may be importing some parts of OBI from the web. You need to point these at local files.
 -->
+<hr>
 
 ==Imports==
 
