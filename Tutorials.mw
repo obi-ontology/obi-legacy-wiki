@@ -405,29 +405,28 @@ To edit OBI instances e.g. for the investigation use case
 
 ==Obsoletion==
 
-See policy http://obi-ontology.org/page/OBI_Deprecation_Policy  , IMPORTANT, deprecated terms need to be advertised to the list prior to deprecation, see policy link
-
+See policy http://obi-ontology.org/page/OBIDeprecationPolicy, IMPORTANT, deprecated terms need to be advertised to the obi-dev mailing list (obi-devel@lists.sourceforge.net) prior to deprecation. The terms can be deprecated if no objection in a week.
 
 Step by step:
 
-Checkout a fresh update of OBI, open in 3.4.1
+Checkout a fresh update of OBI, open in Protege
 
-1. remove any child classes of your term-to-be-deprecated to sensible parent, drag and drop one by one
+1. remove any child of term-to-be-deprecated to sensible parent, drag and drop one by one
 
-2. add reason for deprecation property to the term-to-be-deprecated  - use the widget - scroll down in the class editor, and select a term from the list e.g. failed exploratory term
+2. remove all logical axioms of term-to-be-deprecated, you can copy axioms to the editor notes as record
 
-3. add replacement term property if there is one
+3. make sure no any other terms use term-to-be-deprecated, check usage tab
 
-4. add prefix to rdfs label obsolete_
+4. add reason for deprecation property to the term-to-be-deprecated by adding annotation 'has obsolescence reason', choose predefined terms (e.g. 'failed exploratory term' , 'placeholder removed' , 'terms merged' , 'term imported' , 'term split') from 'Entity IRI' tab's 'Individuals' tab and add replacement term property if there is one
 
-5. remove from existing parent class
+5. add prefix to rdfs label obsolete_
 
-6. add Obsolete parent class
+6. remove from existing parent class
 
-7. remove any logical definitions and check used by in Protege. Click the blue arrow icon left on class editor panel. This will tell you if your term-to-be-deprecated is used in any other classes. You need to remove these as well.
+7. add annotation 'deprecated' with value "true" and type "boolean"
 
 8. save 
 
-9. open and reason over in p4, check consistency - if you leave the old parent and the obolste one will generate an inconsistency
+9. reason over in p4, check consistency - if you leave the old parent and the obolste one will generate an inconsistency
 
 10. if OK check in as a new file with an svn log
