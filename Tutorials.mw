@@ -2,12 +2,12 @@
 # '''[http://obi-ontology.org/page/Tutorials#Sourceforge How to get sourceforge access] '''
 # '''[http://obi-ontology.org/page/Tutorials#Editing Things to do for editing OBI]'''
 # '''[http://obi-ontology.org/page/Tutorials#Imports Imports external ontologies locally] '''
-# '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI in Protege 3.4]'''
+<!-- # '''[http://obi-ontology.org/page/Tutorials#Reasoning How to reason with OBI in Protege 3.4]''' -->
 # '''[http://obi-ontology.org/page/Tutorials#Protege4 Working with OBI version Protege 4]'''
 # '''[http://obi-ontology.org/page/Tutorials#Release OBI release process]'''
 # '''[http://obi-ontology.org/page/Tutorials#MIREOT How to import external terms into OBI - MIREOT]'''
-# '''[http://obi-ontology.org/page/Tutorials#EditingOBI Editing OBI in Protege 3.4]'''
-# '''[http://obi-ontology.org/page/Tutorials#Instances Editing instances]'''
+<!-- # '''[http://obi-ontology.org/page/Tutorials#EditingOBI Editing OBI in Protege 3.4]''' -->
+<!-- # '''[http://obi-ontology.org/page/Tutorials#Instances Editing instances]''' -->
 # '''[http://obi-ontology.org/page/Tutorials#Obsoletion Obsoleting terms in OBI]'''
 '''[http://obi-ontology.org/w/index.php?title=OBI_Tutorials OBI Tutorials at ICBO conferences]'''
 
@@ -109,7 +109,7 @@ rdfs:label should is listed in the annotation properties.
 [http://www.ebi.ac.uk/~parkinso/file_exchange/ontol_repo.png PC Screenshot of Protege repository tav]
 -->
 
-==Reasoning==
+<!-- ==Reasoning==
 
 * Use Protege 3.4.1 and Pellet 1.5.2 as standard. 
 
@@ -124,7 +124,7 @@ Java 1.5 is highly recommended. Java 1.6 will slow down the reasoning speed.
 The aim is to detect problems with the OWL file that cause OBI to reason slowly. Some use of axioms prevents this. The application described provides some support for detecting and visualising these cases and some usage examples are included here. It's bleeding edge, contact Alan for details on usage, or see the google doc link above.
 
 <hr>
-
+-->
 ==Protege4==
 
 Protege4 is OWL2 compatible. Editing OBI using Protege4 has been tested in both Windows and Mac machines in May 2010. It can be used to edit OBI from now on.
@@ -363,7 +363,7 @@ After testing the modified files work properly to import terms from new resource
 If you need help, please contact Alan Ruttenberg at alanruttenberg at gmail.com.
 <hr>
 
-==EditingOBI==
+<!-- ==EditingOBI==
 
 To edit OBI in Protege 3.4
 
@@ -399,7 +399,7 @@ To edit OBI instances e.g. for the investigation use case
 4. To add an instance - click on the diamond with a plus - this will add instances for the selected class. Add rdfs labels, definitions, restrictions etc. 
 
 5. Save and reason over in p4 before committing, if you've edited classes and instances commit both the obi.owl and investigation-use-case.owl
-
+-->
 <hr>
 
 ==Obsoletion==
