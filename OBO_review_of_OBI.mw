@@ -1,0 +1,39 @@
+The OBO Foundry has reviewed OBI for conformance to the OBO Foundry principles and accepted OBI as a Foundry member. The review document will be published online shortly [TODO: add link when available]. The main conclusions of the review are:
+
+<blockquote>
+"OBI scored good to excellent on its adherence to all of the OBO Foundry principles, indicating that overall the ontology is very well aligned with the principles. The domain is clearly defined, and, with some exceptions discussed above, the content is orthogonal to other OBO Foundry ontologies. In terms of usability, the term names for OBI classes are mostly good (Table 3) and all terms have textual definitions. While the definitions are generally clear, they could be improved by using standardized construction. Furthermore, some definitions are hard to understand because of the complex logical structure of OBI (users must follow through a sometimes complex series of definitions to fully understand the meaning of a term). This could be improved by the addition of comments that spelled out some of the reasoning. Given the complexity of OBI, additional, easy to find documentation of the design principles would also help users. This goes along with our suggestion for a current publication. It would be particularly useful if the publication described a use case for OBI, showing how it can be used for reasoning over data."
+</blockquote>
+
+OBI will address the shortcomings identified in the review. This Google Doc contains our collaborative notes:
+
+https://docs.google.com/document/d/1g0T1Hk-rZkiI4bS-7phnTK8eAVQl_ABePnaT14BC3YQ/edit?usp=sharing
+
+== License ==
+
+OBI's license should be stated clearly on the website and in the released OWL files. There was some confusion among the reviewers about what the license is. We will discuss this on the weekly conference call.
+
+== Documentation ==
+
+The review says that "OBI is good on intrinsic documentation but poor on extrinsic documentation." Intrinsic documentation includes the "web page, mailing list archive, and tracker" and publications. Extrinsic documentation includes examples of how to use OBI. The reviewers note that what examples there are can only be found scattered on the [[Special:Allpages|wiki]].
+
+Improved documentation is part of the process of creating the OBI [[Core]]. The Core OWL file will soon be released, at which point we will turn our attention to an OBI publication and other documentation. We will also reorganize and update the wiki to provide a better list of examples.
+
+== Clearly delineated content ==
+
+The reviewers suggest that OBI should import some terms that we currently define or "donate" some terms to other projects. In general, the terms they point out are ones that we have been planning to replace with external terms. There are some reasons why we have not yet done so:
+
+* 'organism' from CARO: CARO has not yet been officially released, and we prefer to wait for release. We would like a term that covers all branches of life.
+* 'population' form PCO: PCO has not yet been released. We prefer to wait for release.
+* 'chemical solution' should be donated to ChEBI: We are not certain that this is in ChEBI scope. One can argue that it is something made for an investigation.
+* disease terms from IDO and DOID: We have editor notes that these are intended to be replaced. OGMS terms might be appropriate, but OGMS is human-specific and OBI would prefer to use general disease terms.
+* 'denatured polymer' and 'methylated polymer' probably not in OBI scope, but not clearly in ChEBI or PR. Might be in scope for the new MSO: molecular sequence ontology.
+
+== Textual definitions and Naming conventions ==
+
+The reviewers took a sample of terms and offered some general and specific criticisms.
+
+In general "The textual definitions could be improved by establishing a consistent style (i.e. genus–differentia). Even simple things like consistently using capitalization and punctuation would be helpful." We have been using genus-differentia form in the Core review process, and being more consistent with punctuation. We intend to use the form for new terms and apply it to existing terms as we revised them.
+
+We are in the process of reviewing the terms that were specifically mentioned in the OBO review document. See the Google Doc for details:
+
+https://docs.google.com/document/d/1g0T1Hk-rZkiI4bS-7phnTK8eAVQl_ABePnaT14BC3YQ/edit?usp=sharing
