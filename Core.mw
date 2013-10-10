@@ -66,7 +66,7 @@ The outer core consists of terms that fall outside OBI and IAO scope, but are ne
 # [http://purl.obolibrary.org/obo/BFO_0000019 quality] from the [http://www.ifomis.org/bfo/ Basic Formal Ontology] (BFO), included to connect to the [http://obofoundry.org/wiki/index.php/PATO:Main_Page Phenotypic Quality Ontology] (PATO)
 # [http://purl.obolibrary.org/obo/OGMS_0000063 disease course] from the [http://code.google.com/p/ogms/ Ontology for General Medical Science] (OGMS)
 # [http://purl.obolibrary.org/obo/OBI_0001879 reagent] from the [https://code.google.com/p/reagent-ontology/ Reagent Ontology] (ReO)
-http://purl.obolibrary.org/obo/CLO_0000001 cell line cell] from the [http://www.clo-ontology.org Cell Line Ontology] (CLO)
+# [http://purl.obolibrary.org/obo/CLO_0000001 cell line cell] from the [http://www.clo-ontology.org Cell Line Ontology] (CLO)
 
 = The Complete Core =
 
