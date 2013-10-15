@@ -24,9 +24,9 @@ The reviewers suggest that OBI should import some terms that we currently define
 
 * 'organism' from CARO: CARO has not yet been officially released, and we prefer to wait for release. We would like a term that covers all branches of life.
 * 'population' form PCO: PCO has not yet been released. We prefer to wait for release.
-* 'chemical solution' should be donated to ChEBI: We are not certain that this is in ChEBI scope. One can argue that it is something made for an investigation.
+* 'chemical solution' should be donated to ChEBI: We are not certain that this is in ChEBI scope. One can argue that it is something made for an investigation. We are working with ChEBI to see if they can add a term in their scope for OBI to use.
 * disease terms from IDO and DOID: We have editor notes that these are intended to be replaced. OGMS terms might be appropriate, but OGMS is human-specific and OBI would prefer to use general disease terms.
-* 'denatured polymer' and 'methylated polymer' probably not in OBI scope, but not clearly in ChEBI or PR. Might be in scope for the new MSO: molecular sequence ontology.
+* 'denatured polymer' and 'methylated polymer' probably not in OBI scope, but not clearly in ChEBI or PR. We are working with ChEBI to add a related term that OBI can import.
 
 == Textual definitions and Naming conventions ==
 
