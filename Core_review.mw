@@ -1,8 +1,4 @@
-We are currently reviewing all of the proposed [[Core|OBI Core]] terms for quality and completeness. This page tracks our progress and presents a summary of decisions to get people up to speed quickly. Further discussion notes are included below.
-
-The review of terms is taking place during the [[Conference call developers agenda|weekly developer call]] and on the [[Mailing lists]]. At the [[Philly2013]] workshop we reviewed many terms, and the workshop notes list details of our discussions and decisions.
-
-NOTE: This page has not yet been updated with changes made at Philly2013. James Overton will update these lists after the developer call on Monday, June 3, 2013.
+We have recently completed a review of all the proposed [[Core|OBI Core]] terms. For the first part of the review process we used this wiki page to coordinate. For the final stages of the review process we used several Google Docs.
 
 == Documents ==
 
@@ -16,53 +12,14 @@ A number of documents were used in to coordinate review during the [[Philly2013]
 * [[Core_review_criteria|Suggested review criteria]]
 
 We have also developed a detailed <b>prototype for modelling data for measurements, predictions, and settings</b>. See the latest versions of the files in our Subversion repository:
-[http://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/examples/development/data-prototype.pdf?format=raw PDF file],
-[http://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/examples/development/data-prototype.owl?format=raw OWL file],
-[http://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/examples/development/data-prototype.txt?format=raw source text file].
+[http://svn.code.sf.net/p/obi/code/trunk/src/examples/development/data-prototype.pdf PDF file],
+[http://svn.code.sf.net/p/obi/code/trunk/src/examples/development/data-prototype.owl OWL file],
+[http://svn.code.sf.net/p/obi/code/trunk/src/examples/development/data-prototype.txt source text file].
 
-== Terms Under Review ==
-
-The following terms are in the process of review, and may require some changes:
-
-* Remaining OBI terms in the Inner Core, with some preliminary notes by James Overton:
-** [http://purl.obolibrary.org/obo/OBI_0600004 human subject enrollment]
-*** minor: clarify or remove editor note: "As with group assignment, should the specified output here be an organism which bears a role"
-*** major: clarify the use of "population". Is a population of one sufficient? 
-*** major: revise output axiom:
-**** option: use "Homo sapiens" for both input and output, rather than "population"
-**** option: use "Homo sapiens" rather than population as input, but still maintaining "population" in the specified_output
-**** option: define "enrolled human population" and use it as the output; likewise define "eligible human population" and use as the input; this would facilitate the reuse of the population terms in other places
-*** note: Jie has suggested that we model the process in two steps: one for selection and one for enrollment
-*** note: this may require us to refine "participant under investigation role"
-*** note: this may require review of [http://purl.obolibrary.org/obo/OBI_0000810 informed consent process]
-*** note: this may require review of [http://purl.obolibrary.org/obo/OBI_0500026 eligibility rule]; see also [http://sourceforge.net/tracker/index.php?func=detail&aid=3602704&group_id=177891&atid=886178 OBI tracker item 3602704]
-** [http://purl.obolibrary.org/obo/OBI_0000202 investigation agent role]
-*** major: consider revising definitions to allow for a "robot scientist" as mentioned for "investigation".
-** [http://purl.obolibrary.org/obo/OBI_0000453 measure function]
-*** note: logical definition is complicated but seems correct
-*** major: consider revising definitions to allow for a "robot scientist" as mentioned for "investigation".
-** [http://purl.obolibrary.org/obo/OBI_0100051 specimen]
-** [http://purl.obolibrary.org/obo/OBI_0000659 specimen collection]
-*** note: may require review of [http://purl.obolibrary.org/obo/OBI_0000684 specimen creation objective]
-** [http://purl.obolibrary.org/obo/OBI_0000260 plan]
-*** minor: redundant axiom: "subClassOf: 'has part' some 'objective specification'"
-** [http://purl.obolibrary.org/obo/OBI_0000272 protocol]
-** [http://purl.obolibrary.org/obo/OBI_0500000 study design]
-*** minor: duplicate labels, textual definitons, editor preferred terms
-* Remaining IAO terms in the Inner Core:
-** [http://purl.obolibrary.org/obo/IAO_0000579 centrally registered identifier (CRID) registry]
-** [http://purl.obolibrary.org/obo/IAO_0000577 centrally registered identifier (CRID) symbol]
-** [http://purl.obolibrary.org/obo/IAO_0000144 conclusion textual entity]
-** [http://purl.obolibrary.org/obo/IAO_0000027 data item]
-** [http://purl.obolibrary.org/obo/IAO_0000310 document]
-** [http://purl.obolibrary.org/obo/IAO_0000415 hypothesis textual entity]
-** [http://purl.obolibrary.org/obo/IAO_0000030 information content entity]
-** [http://purl.obolibrary.org/obo/IAO_0000178 material information bearer]
-** [http://purl.obolibrary.org/obo/IAO_0000109 measurement datum]
 
 == Completed Terms ==
 
-The following terms have been reviewed, changes have been committed, and no further changes are expected during this review:
+Review of all terms has been completed. For terms reviewed using this wiki, the change notes are here. For all other terms the change notes can be found in the appropriate Google Doc. The "Core review spreadsheet" contains the master list of reviewed terms.
 
 * [http://purl.obolibrary.org/obo/OBI_0600008 acquisition]
 ** note: [http://purl.obolibrary.org/obo/OBI_0600010 material acquisition] and [http://purl.obolibrary.org/obo/OBI_0600013 information acquisition] will be added to OBI Inner Core, since they are expected to be more widely used than their parent.
@@ -124,6 +81,8 @@ The following terms have been reviewed, changes have been committed, and no furt
 ** note: it was decided on the 2012-11-26 call that we should not move the children of this term at this time, but a tracker item has been added flagging the children for later review.
 
 == Discussion Notes ==
+
+For terms reviewed using this wiki, the discussion notes are here. For all other terms the discussion notes can be found in the appropriate Google Doc. The "Core review spreadsheet" contains the master list of reviewed terms.
 
 * [http://purl.obolibrary.org/obo/OBI_0000471 study design execution]
 ** note: Alan asks whether there should be the axiom "has_specified_output some 'data item'" at all. Bjoern insists that there should always be a data item produced. Alan asks about studies that are inconclusive. There is always data collected. The question is whether it is the "specified output" of the study design execution.
