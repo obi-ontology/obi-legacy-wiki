@@ -44,7 +44,14 @@ A significant part of the Core Review involved changes to the modelling of measu
 
 https://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/examples/development/data-prototype.pdf?format=raw
 
-In October we switched to a new import system using OntoFox. See the branches/OntoFox_inputs and branches/OntoFox_outputs directories for details. The most significant difference is a large reduction in the number of terms that we import from NCBI Taxonomy.
+Align 'cultured cell' implementation with CL/CLO/REO ontologies. Details of this work, please see [[http://www2.unb.ca/csas/data/ws/icbo2013/papers/posters/icbo2013_submission_68.pdf Ref]]
+
+In October we switched to a new import system using OntoFox. See the https://svn.code.sf.net/p/obi/code/trunk/src/ontology/branches/OntoFox_inputs and https://svn.code.sf.net/p/obi/code/trunk/src/ontology/branches/OntoFox_outputs directories for details. The most significant difference is a large reduction in the number of terms that we import from NCBI Taxonomy.
+
+A total of 178 classes have been added since last release containing 
+  - type of assay terms requested by IEDB and ENCODE project 
+  - terms for annotation of metadata standards by all ongoing and future NIAID GSC BRC sequencing projects
+  - terms required by modelling 'cell line cell' and 'cell culture'
 
 See docs/newIDs.tab for a list of new terms.
 
