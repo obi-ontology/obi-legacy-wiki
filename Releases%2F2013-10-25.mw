@@ -63,6 +63,63 @@ OBI used BFO pre-Graz version as top level ontology and imported BFO pre-Graz co
 
 If you have any questions, please ask on the developer mailing list at http://groups.google.com/group/obi-developer
 
+== External ontology and resource mapping/imports list ==
+ 
+The full list of ontologies and external resources from which one or more terms are imported into OBI via the MIREOT process ([http://precedings.nature.com/documents/3574/version/1/files/npre20093574-1.pdf Courtot et al. 2009 MIREOT: the Minimum Information to Reference an External Ontology Term.])[[http://iospress.metapress.com/content/h54m2237310v13x1/?p=2c64591d6d5e49aa928bb145c74c6ef4&pi=2 Ref]] is below. 
+* Basic Formal Ontology (BFO)
+* Common Anatomy Reference Ontology (CARO)
+* Chemical Entities of Biological Interest (ChEBI)
+* Cell Type Ontology (CL)
+* Cell Line Ontology (CLO)
+* Gazetteer (GAZ)
+* Gene Ontology (GO)
+* Human Phenotype Ontology (HP)
+* Information Artifact Ontology (IAO)
+* NCBI Taxonomy (NCBITAXON)
+* Ontology for General Medical Science (OGMS)
+* Phenotypic Quality Ontology (PATO)
+* Protein Ontology (PR)
+* Reagent Ontology (REO)
+* Sequence Ontology (SO)
+* Uber anatomy ontology (UBERON)
+* Unit Ontology (UO)
+* Vaccine Ontology (VO)
+
+
+You can request import of additional terms by adding a tracker item at http://purl.obolibrary.org/obo/obi/tracker. Please provide details of the source ontology, term ids and a suggested placement in OBI if possible.
+
+ 
+==  Count of terms in and used by OBI ==
+<pre>
+-----------------------------
+OBI Classes 2221
+Imported Classes 529  
+OBI Properties 45   
+Imported Properties 120	 
+
+Imported Classes Breakdown:
+----------------------------
+BFO       27
+CARO      5
+CHEBI     55
+CL        23
+CLO       6
+GAZ       1
+GO        136
+HP        1
+IAO       125
+NCBITaxon 32
+OGMS      4
+PATO      49
+PR        15
+REO       2
+SO        4
+UBERON    20
+UO        11
+VO        2       
+----------------------------
+</pre>
+
 == About the Ontology for Biomedical Investigations ==
  
 The Ontology for Biomedical Investigations (OBI) project has developed an integrated ontology for the description of biological and clinical investigations. This includes a set of 'universal' terms, that are applicable across various biological and technological domains, and domain-specific terms relevant only to a given domain. This ontology supports the consistent annotation of biomedical investigations, regardless of the particular field of study. The ontology represents the design of an investigation, the protocols and instrumentation used, the material used, the data generated and the type analysis performed on it. OBI is being built under the Basic Formal Ontology (BFO) and imports terms from OBO foundry ontologies. OBI also reflects domains specific extensions which were merged into obi.owl. These include terms merged into obi.owl from the Immune Epitope Database Ontology (www.ideb.org) and community suggested terms from many communities. 
