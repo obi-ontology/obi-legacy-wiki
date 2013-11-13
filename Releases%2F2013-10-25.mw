@@ -59,6 +59,8 @@ See docs/newIDs.tab for a list of new terms.
 
 In the course of preparing OBI Core we have made significant changes to many of OBI's upper-level terms. However we have not yet had time to revise all the children of the changed node. In particular, many of the descendants of "measurement data item" have not yet been revised to use the new "value specification" approach.
 
+OBI used BFO pre-Graz version as top level ontology and imported BFO pre-Graz compatible version of IAO.
+
 If you have any questions, please ask on the developer mailing list at http://groups.google.com/group/obi-developer
 
 == About the Ontology for Biomedical Investigations ==
