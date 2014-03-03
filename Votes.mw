@@ -4,10 +4,9 @@ This page is created for the developers of OBI whenever there is a need to vote 
 It is currently not clearly indicated what license is used to distribute OBI. There is an ongoing discussion in the foundry which licenses should be supported. But everyone seems fine with CC-by 3.0 being one of them. We need to clarify this as part of our response to the foundry review. Vote is open until 3/10.  
 
 In favor: 
-BP, JO, RB, AR, CS, JZ, PRS, MC, YOH
+BP, JO, RB, AR, CS, JZ, PRS, MC, YOH, RHS
 
 Against:
-
 
 == BFO for OBI ontology  3/3/2014 ==
 Currently deprecated version of BFO was used by OBI. Based on survey of BFO version used in OBO Foundry community, we proposed to adopt approach that most other OBO Foundry reference ontologies have taken by using BFO 2.0 classes + atemporal relations. Vote is open until 3/17/2014
