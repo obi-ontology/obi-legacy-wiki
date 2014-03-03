@@ -7,3 +7,27 @@ In favor:
 BP, JO, RB, AR, CS, JZ, PRS, MC, YOH
 
 Against:
+
+
+== BFO for OBI ontology  3/3/2014 ==
+Currently deprecated version of BFO was used by OBI. Based on usage of BFO versions in OBO Foundry community, we proposed to adopt approach that most other OBO Foundry reference ontologies have been taken by using BFO 2.0 classes + atemporal relations. Vote is open until 3/17/2014
+
+In favor:
+JZ, CS, JO, RV, PRS, AG 
+
+Against:
+
+
+Related documents:
+
+Survey results of BFO version used in the OBO Foundry ontologies
+
+https://docs.google.com/spreadsheet/ccc?key=0ApyYCnScx8C0dHVwUTE4TFVQa1lmUEYyblNNS0thOVE&usp=drive_web#gid=0
+
+Using of BFO in OBI proposal
+
+https://docs.google.com/document/d/1yMoLG2mdLG8aA4pu-dYkRUH_6E3O2D_7aAN540zZS70/edit
+
+BFO slim (classes + 4 atemporal relations)
+
+https://svn.code.sf.net/p/obi/code/trunk/docs/developer/BFO 2 slim/BFO_classes_aTemporalRelations.owl
