@@ -25,5 +25,5 @@ Survey results of BFO version used in the OBO Foundry ontologies
 Using of BFO in OBI proposal
   https://docs.google.com/document/d/1yMoLG2mdLG8aA4pu-dYkRUH_6E3O2D_7aAN540zZS70/edit
 
-BFO slim (classes + 4 atemporal relations)
-  https://svn.code.sf.net/p/obi/code/trunk/docs/developer/BFO%202%20slim/BFO_classes_aTemporalRelations.owl
+BFO slim (classes)
+  https://svn.code.sf.net/p/obi/code/trunk/docs/developer/BFO%202%20slim/BFO_classes.owl
