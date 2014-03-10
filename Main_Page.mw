@@ -2,6 +2,7 @@ The Ontology for Biomedical Investigations (OBI) project is developing an integr
 *To cite a journal article for OBI please use the following: [http://www.ncbi.nlm.nih.gov/pubmed/20626927 Brinkman et al, J Biomed Semantics, 2010]
 *To refer to the most current  information on the OBI project, please use the following: The OBI Consortium [http://purl.obolibrary.org/obo/obi http://purl.obolibrary.org/obo/obi]
 *The latest complete version of ontology (.owl) file will always be available from [http://purl.obolibrary.org/obo/obi.owl http://purl.obolibrary.org/obo/obi.owl] with [http://purl.obolibrary.org/obo/obi/release-notes.html release notes]
+*To use OBI, remember the licensing terms: OBI is released under [https://creativecommons.org/licenses/by/3.0/ CC-by 3.0 Unported Licence ]
 {|class="wikitable" cellspacing="0" cellpadding="5" width=100%
 ! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid perwhite;border-top:5px solid white;text-align:left;" | <font size="+1">Ontology</font>
 ! width=33% style="background:#FFFFFF;border-left:5px solid white;border-right:5px solid lawhite;border-top:5px solid white;text-align:left;" | <font size="+1">Consortium</font>
