@@ -1,5 +1,21 @@
-This document is aimed at formalizing the OBI release process to be gradually implemented from March 1st 2008. In this document, the release term will mean only draft release, and is not to be understood as production ready release. However, it is expected that if this process proves successful, it might be used for future official public releases of OBI.
+This document describes a new OBI release process that we agreed to try out on the 2014-03-17 development call, as discussed in [https://sourceforge.net/p/obi/mailman/message/32101086/ this email thread]. We expect this new process to change as we learn from experience and work out the bugs.
 
-[http://docs.google.com/View?docid=dzprnmw_7fdhfg62j OBI Release Policy document]
+Releases will be built using the new [https://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/tools/build/README.md OBI build tool].
 
-[[Category:OBI Policy]]
+The "release manager" is the OBI developer responsible for building and publishing official releases of OBI. As of 2014-03-17 James Overton will take on this role.
+
+Every other Monday, after the OBI developer call, the release manager will begin the release process:
+
+1. Do a preliminary review of changes to OBI since the last release. If there have been no changes then the process is postponed one week. If the release manager finds that the current development version of OBI is not suitable for release then the process will be postponed until OBI is fixed.
+
+2. Assign IDs to all new terms and update SVN.
+
+3. Build a new "release candidate" on the [http://build.berkeleybop.org/job/build-obi/ continuous integration server].
+
+4. Send a message to the OBI developers mailing list with a link to the release candidate, asking people to review it before next Monday's call (one week). Release candidates that include major changes to OBI may require a longer review period.
+
+5. On the call we'll decide to either accept the release candidate, or make a new release candidate and return to step 4.
+
+Developers can continue to make commits to SVN while release candidates are being reviewed, but those changes will have to wait for the next review cycle before they are considered for release.
+
+Once a release candidate is accepted, the release manager will complete the "Release Checklist" in the [https://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/tools/build/README.md build tool README] to finalize and publish the release.
