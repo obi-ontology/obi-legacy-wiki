@@ -622,3 +622,15 @@ The vote was about open until 2/27/2013.
 - Agree: BP, JZ, JF, RHS, OH, MCC, CS, JAO, MHB, CT, MH, RB, JM, LS
 - Disagree: PRS
 There are comments in the document, but no changes were made. the version from 2/27/2013 is considered the official one. Confirmed with Philippe that in 01/2014 that we should move this to accepted.
+
+
+== LICENSE for OBI ontology  2/24/2014 ==
+
+It is currently not clearly indicated what license is used to distribute OBI. There is an ongoing discussion in the foundry which licenses should be supported. But everyone seems fine with CC-by 3.0 being one of them. We need to clarify this as part of our response to the foundry review. Vote is open until 3/10.  
+
+In favor: 
+BP, JO, RB, AR, CS, JZ, PRS, AGB, MC, YOH, RHS
+
+Against: None
+
+This proposal was accepted on 2014-03-10 and implemented with this commit to SVN: http://sourceforge.net/p/obi/code/3924/
