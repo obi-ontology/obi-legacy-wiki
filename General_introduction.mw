@@ -212,7 +212,7 @@ We have  mailing lists for both users and developers. Join the users list to be 
 http://sourceforge.net/tracker/?func=add&group_id=177891&atid=886178
 
 
-* In order to submit terms, you will need to have an account with Sourceforge and you will need to be logged in. You can create a Sourceforge account here: http://sourceforge.net/account/newuser_emailverify.php
+* In order to submit terms, you will need to have an account with Sourceforge and you will need to be logged in. You can create a Sourceforge account here: https://sourceforge.net/user/registration
 
 * When you submit a term, it must conform, at a minimum, to the [[OBI Minimal metadata|OBI Minimal Metadata]] requirements. Practically this means a 'term' a 'definition' and preferably an 'example'. Optionally, you may also suggest which branch of OBI your term belongs in. Please see the [[Branch development|current list of OBI Branches]] to help you in making your choice.
 
