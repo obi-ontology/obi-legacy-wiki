@@ -11,6 +11,92 @@ April 14: Chris Stoeckert
 
 April 7: Philippe Rocca-Serra
 
+Present:
+Bjoern, Jie, Alan, Randi, Heiner, Johannas, Alejandra, Myself,
+
+1. Main Topic: IAO issue tracker item 157 (data item)
+
+https://code.google.com/p/information-artifact-ontology/issues/detail?id=157&sort=-id
+
+AR captured the elements of discussion in comments on the ticket.
+
+Clarify the notion of 'data set' as child of 'data item'
+therefore, suggestion rename 'data set' to 'data item set' to indicate the aggregate nature of the entity in the class label but also work on an axiom:
+has_part min 2 'data item' but this raises issues with transitive property chain so suggestion to rely on 'has_member' relation instead which is safer.
+
+Also, it was discussed that 'data item set' subtypes will have to be created if one requires more specificity with regarding to the nature of 'data item' making up the 'data item set'
+
+so the following restriction:
+(has_part only ('mass measurement datum' or not ('measurement data item'))).
+could be used to define a 'mass measurement data (item) set'.
+
+2. IAO tracker item 156  to be close via a commit implement the requested changes as document in the issue tracker
+
+AI on James O.
+
+
+3. OBI support page requires maintenance and upgrade
+
+Reported by Barry Smith who submitted a tracker item
+AI on PRS to update. and link to obi-dev mailing list
+
+4. OBI presence at ICBO:
+
+Will be covered by a tutorial by James O. + BP
+
+5. OBI release manuscript update
+
+in BP 's hands, a week to 10 days are needed to do further edits
+
+
+Next Call: April 14th same time
+Chair: Chris Stoeckert
+
+
+
+
+
+--------
+Webex Chat:
+--------
+
+from Philippe to Everyone:
+thx
+from Philippe to Everyone:
+https://code.google.com/p/information-artifact-ontology/issues/list?can=2&q=&sort=-id&colspec=ID%20Type%20Status%20Priority%20Milestone%20Owner%20Summary
+from Philippe to Everyone:
+http://sourceforge.net/p/obi/obi-terms/
+from IEDB Conferencing to Everyone:
+alan is joining
+from Philippe to Everyone:
+https://code.google.com/p/information-artifact-ontology/issues/detail?id=157&sort=-id
+from jie to Everyone:
+replace 'datum' by 'data item'
+from jie to Everyone:
+I think last time we discussed and would like to keep JAR's notes
+from jie to Everyone:
+'data set' is subClassOf 'data item'
+from jie to Everyone:
+but label should be datum label
+from jie to Everyone:
+to apply to a single datum
+from jie to Everyone:
+data item label might mislieading. it cannot apply to dataset
+from Philippe to Everyone:
+we had this discussion already a few years back
+from Philippe to Everyone:
+s/data set/data item set/ ? do we agree?
+from IEDB Conferencing to Everyone:
+I personally find nothing wrong with the current state of things, and don't believe making strong distinctions on datum / data item is particularly helpful. so I am quite because I just want to have this be over.
+from Philippe to Everyone:
+should we add an axiom on data item set, has_part min 2 (data item and is about some entity)) ?
+from jie to Everyone:
+has min 2 data item
+from jie to Everyone:
+has_member
+from jie to Everyone:
+I wll
+
 ====March 2014====
 
 March 31: Jie Zheng
