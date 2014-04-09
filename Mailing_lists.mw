@@ -1,5 +1,12 @@
 == Mailing lists for users of OBI ==
+
+If you have questions about how to use OBI, how to contribute to OBI or other matters, please use this list to contact us.
+
 ; [http://groups.google.com/group/obi-users obi-users] : List for general discussion on using OBI. [mailto:obi-users@googlegroups.com email obi-users]
+
+However, if you would like new terms to be added or have suggestions for modifications to existing classes, please submit a Term Request via the [https://sourceforge.net/p/obi/obi-terms/  OBI term tracker]
+
+If you spot a bug, please report it via the [https://sourceforge.net/p/obi/bugs/ OBI bug tracker]
 
 == OBI developers mailing lists ==
 ; [https://lists.sourceforge.net/lists/listinfo/obi-devel obi-developer] : List for discussion regarding the development of OBI. [mailto:obi-developer@lists.sourceforge.net email obi-developer]
