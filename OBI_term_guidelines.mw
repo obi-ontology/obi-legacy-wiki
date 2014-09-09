@@ -1,5 +1,6 @@
 OBI is a community effort, and we greatly appreciate submissions of new terms! Here are some tips to help you get started.
 
+
 == Existing Terms ==
 
 Before you submit a new term, please search [http://www.ontobee.org/browser/index.php?o=OBI OntoBee] or [http://bioportal.bioontology.org/ontologies/OBI?p=classes BioPortal] for the term you want and its synonyms. OBI might already include the term you want under a different name.
@@ -13,6 +14,9 @@ If you find a term that's close enough, but would like additions or changes made
 When you're ready, follow this link to create a new ticket:
 
 https://sourceforge.net/p/obi/obi-terms/new/
+
+(A SourceForge account is required.)
+
 
 == New Terms ==
 
@@ -29,6 +33,9 @@ If you don't find the term you're looking for, but it's within OBI's scope of bi
 When you've collected as much of this information as possible, please follow this link to submit a term request to our tracker:
 
 https://sourceforge.net/p/obi/obi-terms/new/
+
+(A SourceForge account is required.)
+
 
 == More Details ==
 
