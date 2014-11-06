@@ -1,4 +1,7 @@
 *Publications of the OBI consortium and its members.
+
+** Applied Ontology, 2011 6(1), 23-33 '''[http://dx.doi.org/10.3233/AO-2011-0087  MIREOT: The minimum information to reference an external ontology term]''', Courtot, M., Gibson, F., Lister, A. L., Malone, J., Schober, D., Brinkman, R. R., & Ruttenberg, A. (2011). <br><br>
+** Applied Ontology, 2011 6(1), 13-22. '''[http://dx.doi.org/10.3233/ao-2011-0086 Overcoming the ontology enrichment bottleneck with Quick Term Templates]''',  Rocca-Serra, P., Ruttenberg, A., O'Connor, M. J., Whetzel, P. L., Schober, D., Greenbaum, J., Mélanie Courtot, Ryan R. Brinkman, Susanna Assunta Sansone, Richard Scheuermann, The OBI Consortium, Peters, B.<br><br>
 **J Biomed Semantics. 2010. '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2903726/ Modeling biomedical experimental processes with OBI]''', Ryan R Brinkman, Mélanie Courtot, Dirk Derom, Jennifer M Fostel, Yongqun He, Phillip Lord, James Malone, Helen Parkinson, Bjoern Peters, Philippe Rocca-Serra, Alan Ruttenberg,  Susanna-Assunta Sansone, Larisa N Soldatova, Christian J Stoeckert, Jr., Jessica A Turner, Jie Zheng, and the OBI consortium<br><br>
 **OWLED 2008. '''[http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/owled2008/owled2008eu_submission_38.pdf  The OWL of Biomedical Investigations]''', Mélanie Courtot, William Bug, Frank Gibson, Allyson L. Lister, James Malone, Daniel Schober, Ryan Brinkman and Alan Ruttenberg.<br><br>
 **Nat Biotechnol. 2007 Nov;25(11):1251-1255.  '''[http://www.nature.com/nbt/journal/v25/n11/full/nbt1346.html  The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration]''', Smith B, Ashburner M, Rosse C, Bard J, Bug W, Ceusters W, Goldberg LJ, Eilbeck K, Ireland A, Mungall CJ, The OBI Consortium, Leontis N, Rocca-Serra P, Ruttenberg A, Sansone SA, Scheuermann RH, Shah N, Whetzel PL, Lewis S.<br><br>
@@ -25,6 +28,7 @@
 ** '''[http://wiki.cogpo.org CogPO]''' CogPO starts with IAO and is working to harmonize with OBI where possible. 
 ** '''[http://www.ebi.ac.uk/efo EFO]''' Application ontology for ArrayExpress uses OBI and IAO classes, particularly assays
 ** '''[http://www.violinet.org/vaccineontology VO]''' The Vaccine Ontology (VO) uses OBI for vaccine investigations  
+** '''[http://ohd-ontology.org The Oral Health and Disease Ontology(OHD) uses OBI as part of the representation of dental procedures and materials] 
 
 Projects using OBI listed on Bioportal website: http://bioportal.bioontology.org/ontologies/1123
 
