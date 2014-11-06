@@ -27,7 +27,7 @@
 * '''[http://wiki.cogpo.org CogPO]''' CogPO starts with IAO and is working to harmonize with OBI where possible. 
 * '''[http://www.ebi.ac.uk/efo EFO]''' Application ontology for ArrayExpress uses OBI and IAO classes, particularly assays
 * '''[http://www.violinet.org/vaccineontology VO]''' The Vaccine Ontology (VO) uses OBI for vaccine investigations  
-* '''[http://ohd-ontology.org The Oral Health and Disease Ontology(OHD) uses OBI as part of the representation of dental procedures and materials] 
+* '''[http://ohd-ontology.org The Oral Health and Disease Ontology] (OHD) uses OBI as part of the representation of dental procedures and materials
 
 Projects using OBI listed on Bioportal website: http://bioportal.bioontology.org/ontologies/1123
 
