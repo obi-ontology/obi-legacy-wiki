@@ -1,12 +1,12 @@
-*Publications of the OBI consortium and its members.
+==  Publications of the OBI consortium and its members ==
 
-** Applied Ontology, 2011 6(1), 23-33 '''[http://dx.doi.org/10.3233/AO-2011-0087  MIREOT: The minimum information to reference an external ontology term]''', Courtot, M., Gibson, F., Lister, A. L., Malone, J., Schober, D., Brinkman, R. R., & Ruttenberg, A. (2011). <br><br>
+** Applied Ontology, 2011 6(1), 23-33 '''[http://dx.doi.org/10.3233/AO-2011-0087  MIREOT: The minimum information to reference an external ontology term]''', Courtot, M., Gibson, F., Lister, A. L., Malone, J., Schober, D., Brinkman, R. R., & Ruttenberg, A. <br><br>
 ** Applied Ontology, 2011 6(1), 13-22. '''[http://dx.doi.org/10.3233/ao-2011-0086 Overcoming the ontology enrichment bottleneck with Quick Term Templates]''',  Rocca-Serra, P., Ruttenberg, A., O'Connor, M. J., Whetzel, P. L., Schober, D., Greenbaum, J., Mélanie Courtot, Ryan R. Brinkman, Susanna Assunta Sansone, Richard Scheuermann, The OBI Consortium, Peters, B.<br><br>
 **J Biomed Semantics. 2010. '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2903726/ Modeling biomedical experimental processes with OBI]''', Ryan R Brinkman, Mélanie Courtot, Dirk Derom, Jennifer M Fostel, Yongqun He, Phillip Lord, James Malone, Helen Parkinson, Bjoern Peters, Philippe Rocca-Serra, Alan Ruttenberg,  Susanna-Assunta Sansone, Larisa N Soldatova, Christian J Stoeckert, Jr., Jessica A Turner, Jie Zheng, and the OBI consortium<br><br>
 **OWLED 2008. '''[http://obi.svn.sourceforge.net/viewvc/obi/trunk/docs/papers/owled2008/owled2008eu_submission_38.pdf  The OWL of Biomedical Investigations]''', Mélanie Courtot, William Bug, Frank Gibson, Allyson L. Lister, James Malone, Daniel Schober, Ryan Brinkman and Alan Ruttenberg.<br><br>
 **Nat Biotechnol. 2007 Nov;25(11):1251-1255.  '''[http://www.nature.com/nbt/journal/v25/n11/full/nbt1346.html  The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration]''', Smith B, Ashburner M, Rosse C, Bard J, Bug W, Ceusters W, Goldberg LJ, Eilbeck K, Ireland A, Mungall CJ, The OBI Consortium, Leontis N, Rocca-Serra P, Ruttenberg A, Sansone SA, Scheuermann RH, Shah N, Whetzel PL, Lewis S.<br><br>
 **OMICS 2006;10(2):199-204. '''[http://www.liebertonline.com/doi/pdf/10.1089/omi.2006.10.199?cookieSet=1 Development of FuGO: an ontology for functional genomics investigations]'''. Whetzel PL, Brinkman RR, Causton HC, Fan L, Field D, Fostel J, Fragoso G, Gray T, Heiskanen M, Hernandez-Boussard T, Morrison N, Parkinson H, Rocca-Serra P, Sansone SA, Schober D, Smith B, Stevens R, Stoeckert CJ, Taylor C, White J, Wood A.  [http://www.ncbi.nlm.nih.gov/pubmed/16901226?dopt=Abstract PMID: 16901226]
-*Publications citing OBI
+== Publications citing OBI ==
 ** '''[http://bioinfo.icapture.ubc.ca:8090/OntologyBasedPubmedAnnotator/IKE2008.pdf Structured Representation of Biomedical Experiments: A Bottom-Up Approach]'''. Cartik R. Kothari and Mark D. Wilkinson. IKE'08.
 ** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2718634/?tool=pubmed The EXACT description of biomedical protocols]''' Larisa N. Soldatova, Wayne Aubrey, Ross D. King, and Amanda Clare
 ** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2499994/?tool=pubmed Minimal information: an urgent need to assess the functional reliability of recombinant proteins used in biological experiments]''' de Marco Ario 
@@ -16,7 +16,7 @@
 ** '''[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2238989/?tool=pubmed CEBS—Chemical Effects in Biological Systems: a public data repository integrating study design and toxicity data with microarray and proteomics data]''' Michael Waters, Stanley Stasiewicz, B. Alex Merrick, Kenneth Tomer, Pierre Bushel, Richard Paules, Nancy Stegman, Gerald Nehls, Kenneth J. Yost, C. Harris Johnson, Scott F. Gustafson, Sandhya Xirasagar, Nianqing Xiao, Cheng-Cheng Huang, Paul Boyer, Denny D. Chan, Qinyan Pan, Hui Gong, John Taylor, Danielle Choi, Asif Rashid, Ayazaddin Ahmed, Reese Howle, James Selkirk, Raymond Tennant, and Jennifer Fostel
 ** '''[http://www.ncbi.nlm.nih.gov/pubmed?term=20569493 OntoFox: web-based support for ontology reuse]''' Zuoshuang Xiang, Mélanie Courtot, Ryan R Brinkman, Alan Ruttenberg, and Yongqun He
 
-*Projects using OBI
+== Projects using OBI ==
 ** '''[http://www.neuinfo.org NIF]''' NIF has recently worked on data transformation terms in OBI, has aligned itself with Eagle I and BRO with respect to all resource description terms such as services and databases, and has provided instruments to OBI.  NIF is working on swapping out nlx temporary identifiers with OBI term identifiers to label data in the resource registry as well as search for both registry items and data.
 ** '''[https://www.eagle-i.org/home/ Eagle I]'''
 ** '''[http://www.ncbcs.org/biositemaps/ BRO]'''
@@ -32,7 +32,7 @@
 
 Projects using OBI listed on Bioportal website: http://bioportal.bioontology.org/ontologies/1123
 
-Projects using OBI (merged list) 
+== Projects using OBI (merged list) ==
 
 *IEDB
 Immune epitope database uses OBI the vocabulary and data models.
