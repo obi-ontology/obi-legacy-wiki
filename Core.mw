@@ -10,6 +10,8 @@ OBI Core consists of two parts:
 
 When these 46 terms are taken together and reasoned over using OWL, the result is a set of approximately 100 terms. We call this the "complete core".
 
+You can download the latest OBI Core OWL file from [http://purl.obolibrary.org/obo/obi/obi_core.owl http://purl.obolibrary.org/obo/obi/obi_core.owl].
+
 (See also: [[Core review|status of the term review process]] and [[Core terms|a list of OBI core terms in 2008]].)
 
 = The Inner Core =
