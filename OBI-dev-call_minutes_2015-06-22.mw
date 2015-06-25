@@ -1,0 +1,53 @@
+=ATTENDEES=
+*Marcus C.
+*Bjoern P.
+*Chris S.
+*Jie Z.
+*Randi V.
+*James O.
+*Gully B.
+[My apologies to anyone I may have missed -- MC]
+
+=SUMMARY=
+The call focused on integration/interoperability of Evidence Ontology (EO) and OBI. Prior to leading the discussion, MC gave a 10 minute overview of the objectives proposed in the EO grant, which included a significant amount of coordination and collaboration with OBI, and reviewed the OBI-ECO section from the OBI manuscript in preparation and discussed off-line conversations with OBI colleagues concerning axis and interoperability issues.
+
+=CONVERSATION=
+MC asked attendees for guidance on the best way to coordinate OBI & EO. MC mentioned QTT mapping approach and BP said JO has a new tool that others like, which does OBI assay harmonization and enables creation of many classes in spreadsheets. JZ mentioned OntoRat. Main thing is assay harmonization: what is critical component to define assay?
+
+CS asked about year from now "EO" vs. "ECO" & suggested create new ontology called "Evidence Ontology" and make a clean break, generate new IRIs, maintain ECO as deprecated for legacy use.
+
+GB asked a question about usage of EO and reasoning in context of AI heavy environment. Spoke of evidence in OWL 2 description framework way, discussed application development not same as ontology development. GB discussed abductive reasoning and creating models for describing data, saying that assessing which is best and describing them are what scientists do. GB will follow up with colleagues like Hans Chalupsky (building reasoning systems over complex knowledge) and discuss with MC off line.
+
+Regarding some approaches to link OBI/EO: BP talked of assay harmonization, different people classifying on different axes, reasoner not as powerful as hoped, common template for assay. JZ/CS mention defining classs & inferring. MC welcome to edit OBI. BP/JZ says should be easy, assay template will be useful for common way to make assays. CS mentions OBI does want new terms, coverage good in spots, but not everywhere, curation terms good, too. Formally describe OBI-EO relationships as axioms. Can go both ways. Refer to OBI terms in EO & vice versa.
+
+JO showed MHC restriction ontology devel link. BP mentioned assays & analysis of these assays. Related to GB's work somewhat. Not about the assay, per se. It is about downstream. Can use as a guideline. Not OBI-blessed yet & totally up for discussion.
+
+JZ mentions relatons supported by data and reminds that OBI has data transformation terms & some objective terms to use occasionally.
+
+=OTHER TOPICS=
+JO: IEDB is hosting the OBI wiki site now.
+
+=ACTION ITEMS=
+For MC: Case studies, map a few terms to OBI. Use cases related to immune epitopes (JO & BP) and transcriptomics (CS, JZ). Post cases to OBI dev list.
+
+=CHAT WINDOW=
+ from IEDB Conferencing (Bjoern) to Everyone:
+ my pleasure :)
+ from James Overton to Everyone:
+ I have a new QTT tool that I've been using for a few things, include OBI assay harmonization: https://github.com/ontodev/robot/blob/master/docs/template.md
+ from James Overton to Everyone:
+ There's also OntoDog: http://ontodog.hegroup.org
+ from James Overton to Everyone:
+ Jie is right, I mixed up Dog and Rat. I meant OntoRat: http://ontorat.hegroup.org
+ from jie to Everyone:
+ https://drive.google.com/drive/u/0/folders/0B5yYCnScx8C0U2k5VjdDU1NXclU
+ from jie to Everyone:
+ OBI assay harminzation documents
+ from chris stoeckert to Everyone:
+ look at http://purl.obolibrary.org/obo/OBI_0001956
+ from James Overton to Everyone: 
+ Here is a recent template for some OBI assays:
+ from James Overton to Everyone:
+ https://docs.google.com/spreadsheets/d/1Lf47IywDfcCzaSgC3URzunq-5pX8XNO83AjnCKjlEOg/edit#gid=2012040964
+ from James Overton to Everyone:
+ https://github.com/jamesaoverton/MRO/blob/master/mro-evidence-codes.csv
