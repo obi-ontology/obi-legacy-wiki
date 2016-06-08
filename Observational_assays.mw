@@ -1,26 +1,18 @@
-The Biological Collections Ontology [https://github.com/BiodiversityOntologies/bco | (BCO)] has a need to describe an observing process. This is a type of assay in which no specimen is collected and no material processing takes place. BCO curators wanted to know if there should be a class in OBI for "observational assay". See 
+The Biological Collections Ontology [https://github.com/BiodiversityOntologies/bco | (BCO)] has a need to describe an observing process. This is a type of assay in which no specimen is collected and no material processing takes place. BCO curators wanted to know if there should be a class in OBI for "observational assay". See https://sourceforge.net/p/obi/obi-terms/745/.
 
+This topic was discussed at the OBI developer call on June 6, 2016, and '''it was decided that there was no need for a class for observational assay in OBI'''. Per existing OBI use cases, it is already possible to define observational assay fully without a specific class for it. BCO can maintain its class for observing process, and define it according to the needs of BCO. The main use case for BCO is describing biodiversity observations that assert that an organism was present at a particular time and place, but no specimen was collected.
 
-
-2. Assays for biodiversity and earth science studies
-The goal for today is to:
-Resolve: coordinate assays and observing processes with BCO
-Determine if we need a subclass of assay “observational assay” where the assay does not involve any direct physical interaction with the evaluant.
-Discuss: Other ontologies have processes as the evaluant.
-Resolve: Human observation versus machine observation: https://github.com/BiodiversityOntologies/bco/issues/54
-Notes:
-Some examples of observational assays in OBI:
+Some examples of observational assays that are already covered by OBI:assay:
 -Time measurement assays - records the length of an event
 -Counting geese flying over a house
 -Age measurement assay
-Re. having non-material evaluants: Material thing undergoes a process and you measure it as it undergoes that process. If you don’t want to model the material entity, it can just be a blank node. Generally, it is easier to individuate material entities than processes, though. 
-We agreed that the current use cases for BCO and OBI don’t include any cases where there is no material entity that is the evaluant, so BCO should stick with the OBI pattern for assay.
 
-Do we need  a class for observing process in OBI? How to define it?
-Could define observing process as disjoint from specimen collection process (which already assay is). Input is not participant in a specimen collection process. 
-Decision: Keep observing process in BCO, make it a subclass of of OBI:assay. Define as per use cases in BCO (where the assay does not sample or physically change the evaluant).
+'''Processes as input in an assay:'''
 
-Human versus machine observation: 
+At the same meeting, we discussed the fact that some other ontologies (e.g., OBOE and OML) allow for processes to be the entity that is being analyzed (specified input) in what they call an observation, but which is very similar to OBI:assay. We agreed that the current use cases for BCO and OBI don’t include any cases where there is no material entity that is the evaluant, so BCO should stick with the OBI pattern for assay.
+
+'''Human versus machine observation:'''
+ 
 Distinguish the investigator. OBI is compatible with a robot being the investigator. 
 Device is not required for an assay (a human eye could make the observation). 
 If the process is clearly defined in the data, then whether the observer is human or machine can be determined in queries, so no need for separate classes in OBI. BCO has classes from Darwin core. Maybe we can just keep the DwC classes as subclasses of BCO:observing process.
