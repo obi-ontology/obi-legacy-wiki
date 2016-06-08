@@ -1,6 +1,8 @@
 <h3>Design Decisions</h3>
 Current policy is to archive design decisions in the issue tracker. [http://sourceforge.net/tracker/?group_id=177891&atid=886178] This is in keeping with submitting design related issues to the tracker and storing discussions there. As an example, the discussion and decision for use of input and output roles can be found in tracker item: specified ... relations - ID: 2829038. [http://sourceforge.net/tracker/?func=detail&aid=2829038&group_id=177891&atid=886178]
 
+Here is wiki page to summarize design decisions that span multiple tracker items.
+
 <h3>Use of the Unit Ontology and Unit representation within OBI</h3>
 https://sourceforge.net/tracker/index.php?func=detail&aid=2896765&group_id=177891&atid=886178
 
