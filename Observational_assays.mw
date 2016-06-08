@@ -3,8 +3,11 @@ The Biological Collections Ontology [https://github.com/BiodiversityOntologies/b
 This topic was discussed at the OBI developer call on June 6, 2016, and '''it was decided that there was no need for a class for observational assay in OBI'''. Per existing OBI use cases, it is already possible to define observational assay fully without a specific class for it. BCO can maintain its class for observing process, and define it according to the needs of BCO. The main use case for BCO is describing biodiversity observations that assert that an organism was present at a particular time and place, but no specimen was collected.
 
 Some examples of observational assays that are already covered by OBI:assay:
+
 -Time measurement assays - records the length of an event
+
 -Counting geese flying over a house
+
 -Age measurement assay
 
 '''Processes as input in an assay:'''
