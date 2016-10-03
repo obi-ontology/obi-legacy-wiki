@@ -65,11 +65,11 @@ Visit our [https://sourceforge.net/p/obi/obi-terms/ issue tracker] to report pro
 
 '''Contribute to the software effort'''
 
-* Our [http://purl.obofoundry.org/obo/obi/repository subversion repository] contains release intermediate versions and various documentation and applications for download.
+* Our [http://purl.obolibrary.org/obo/obi/repository subversion repository] contains release intermediate versions and various documentation and applications for download.
 
 * Note that the download link (right) is to the last stable OBI release. We recommend you check out the most recent version from svn for an up to date file [http://obi-ontology.org/page/Tutorials instructions here]. 
 
-* The OBI [http://purl.obofoundry.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings. 
+* The OBI [http://purl.obolibrary.org/obo/obi/calendar calendar] lists the regular branch calls and face-to-face developers meetings. 
 
 
 |}
