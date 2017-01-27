@@ -10,7 +10,7 @@ The OBI meta data is encoded as a separate file which is imported by OBI and can
 *'''definition''': The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with informal definitions to further explain the meaning of the term.
 **Cardinality: each class must have a single definition
 **Implementation: annotation property specified as a functional property named "definition".
-*'''term editor''': The name of the editor of the definition.
+*'''term editor''': Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people.
 **Cardinality: each class can have many definition editors
 *'''definition source''': An unambiguous and traceable reference to the source of the definition. Examples: ISBN, URI plus date, MeSH Term, PUBMED ID, DOI.
 **Cardinality: each class can have one or more definition sources
