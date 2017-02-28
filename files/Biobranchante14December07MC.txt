@@ -1,0 +1,116 @@
+1/ cell
+
+blood cell
+----white blood cell
+-------------lymphocyte
+-----------------B_cell
+--------------------------Epstein_Barr_virus_transformed_B_cell
+-----------------T_cell
+--------------------------Cytotoxic_T_cell
+
+2/- biological macromolecule -> maybe to be renamed to biochemical macromolecule?
+------polypeptide (def: biopolymer of amino acids)
+------------- protein (def: polypeptide with a biological function)
+-----------------enzyme (protein with role catalyze -> we could add the role in role branch, and then role could be added at the class level: then all instances of enzymes would have that role)
+-------------------- polymerase
+--------------------------DNA_polymerase
+--------------------------RNA_polymerase
+-------------------------------- reverse_transcriptase
+------------- nucleotide
+------------------DNA
+------------------RNA
+
+3/- biochemical molecule
+------------ amino_acid
+----------------- natural amino acids (alt term: alpha amino acids)
+----------------- non-natural amino acids (eg chelating agents like EDTA)
+------------ nucleic_acid 
+
+
+4/-organism
+------------eukaryote
+-----------------animal
+-----------------plant
+-----------------fungus
+-----------------protist
+------------prokaryote
+-----------------bacterium
+-----------------archaebacterium
+
+A virus should probably not be an organsim:
+- Organism is an individual living system (such as animal, plant, fungus or micro-organism). from http://en.wikipedia.org/wiki/Organism
+- A virus is not living.http://library.thinkquest.org/C003763/index.php?page=origin06 (important distinction in astrobiology)
+
+Maybe we could create a separate categories for viruses, viroids and prions?
+
+
+General Note: 
+I think it would make sense to try and import terms from the following ontologies (cf https://wiki.cbil.upenn.edu/obiwiki/index.php/OntologyImports)
+- taxonomy (then we don't need to duplicate the hierarchy in 4/, with eukaryotes etc)
+- chebi objects: not in biomaterial if doesn't encompass chemicals. If it's really needed should then probably be imported too.
+- allele etc. are defined in the sequence ontology, which is also an OBO ontology, so we should probably avoid having it as well
+- CARO covers cell, organism, organ and cell_component
+- Ryan pointed out the Cell ontology, which is also an OBO ontology and contains cell types information (eg B_cell), so we could probably remove the cell sub-tree above from the biomaterial branch.
+
+
+5/ in vivo, in vitro, and counterparts should be somewhere else. Maybe under qualities?
+
+6/ immortal_cell: is a cell with a "quality" of being immortal. We might want to add for example cell_line, with a subclass HeLA_cell which would have the quality immortal?
+There seems to be duplication:
+	immortal_cell
+	and
+	cell_line
+	   |_ immortalized_cell_line
+       and
+       cell_line_culture. 
+
+Should culture be a process and go to the material_transformation branch?
+
+on a side note, cell_line sound similar to strain and cultivar, which all have that notion of common ancestor, maybe could be grouped in some way?
+
+7/ differentiation should probably be submitted to material_transformation branch (under protocol_application), with genetic_modification
+
+8/ natural and artifical are qualities.
+For example artifically_engineered_biomaterial, a virus can be natural or artificial.
+
+9/ supernatant, emulsion, solution, suspension, lysate should probably be removed from the biomaterial branch: did we reach a decision about them on the dev list? roles, qualities?
+->item added on the agenda of the dev call on the 5/12/2007
+
+10/ organism_status should be removed, is actually used a synonym for pre or post_mortem (cf definition).
+ pre or post_mortem should be submitted to qualities.
+
+11/ entity_of_organismal_origin: the definition is circular (is an entity from an organism) I think. I am not clear with what it represents.
+
+12/ screening_library doesn't belong to biomaterial I think, cf the definition: it's a collection.
+I think it should go with the "sets" in denrie. Maybe as a term library, with role screening?
+the same apply for cDNA_library and phage_display_library.
+
+13/ synthetic polypeptide can probably be represented as a polypeptide with quality "artificial"
+
+14/ bronchial_alveolar_lavage: it's a collection of biomaterial, should probably be removed.
+NOTE: maybe we need to find a way to express the collection of biomaterial when they are very specific. In the above example it seems to be a commonly used solution. In the same way, buffers (eg PBS buffer under liquid_chemical_solution) or commonly used mixtures like BSA may need to be stored somewhere.
+
+15/ cell_culture_supernatant: supernatant will be a role. Should culture be submitted as a material_transformation? (cf 6/ above)
+
+16/peptide_construct: possibly a peptide which is synthetic (artificial) with an additional quality/role (non-linear, has_branch)?
+
+17/ transgenic_organism: transgenic is a quality (cf immortal, natural....). 
+Note: after checking, transgenic can be natural or artificial, so shouldn't be put as a child of artificial in the quality branch.
+
+18/ whole_mount_preparation is a process (cf def: histological preparation) should probably be moved to material_transformation
+
+19/ bead: doens't seem to belong to the biomaterial branch. Maybe a labware? 
+Could have qualities like fluorescent, magnetic....
+
+20/ dye: I agree with Daniel who put a note there, it sounds more like a role. Acrinidine Orange is a nucleic acid used to dye.
+
+21/ cell_pellet: should probably be just pellet and be a role (counterpart of supernatant)
+
+22/ homogenous_substance: homogenous should maybe be added as a quality
+
+23/ individual_organism: the definition says "identifier or name of the source organism". I would propose to apply a property hasName or hasID applied to organism
+
+24/ vector: I would propose to change the name to cloning_vector. The term recombinant_vector_cloning is in material_transformation and they use the term cloning vector in the definition, and also because it would disambiguate with for example a vector as trasnmission agent.
+
+
+

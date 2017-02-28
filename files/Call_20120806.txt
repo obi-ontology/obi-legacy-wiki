@@ -1,0 +1,99 @@
+from jie to Everyone:
+Hi All
+from jie to Everyone:
+Shall we wait for a couple of minutes?
+from jie to Everyone:
+If only three of us, do we want to cancel the call?
+from Michael Scarpelli to Everyone:
+Give me one minute - I would like to work at least a bit on the core stuff, just to get it restartet
+from jie to Everyone:
+sure
+from Michael Scarpelli to Everyone:
+done!
+from James Overton to Everyone:
+Very nice!
+from Alan Ruttenberg to Everyone:
+Hi there
+from James Overton to Everyone:
+Hi
+from Alan Ruttenberg to Everyone:
+Why CRID denotes investigation?
+from Alan Ruttenberg to Everyone:
+Alan wants to review the x variable specification terms
+from James Overton to Everyone:
+I probably have some notes from the meeting. We didn't get far down the list when we were trying to review terms.
+from Alan Ruttenberg to Everyone:
+I have concern about "plan" if it means a realizable entity
+from James Overton to Everyone:
+My notes say that we got bogged down with "enrollment" and "acquistion" stuff.
+from Alan Ruttenberg to Everyone:
+it is an exemplar
+from James Overton to Everyone:
+I see "IAO:hypothesis textual entity" on the left side, in the middle..
+from jie to Everyone:
+yes
+from James Overton to Everyone:
+I found the official meeting notes. We talked about "human subject enrollment", "acquisition", "specimen collection
+from James Overton to Everyone:
+". Then we discussed dropping "material sampling process". It was late, and we were tired.
+from Alan Ruttenberg to Everyone:
+planning: Add example of usage that has a robot scientist making the plan
+from James Overton to Everyone:
+I'll take notes.
+from jie to Everyone:
+Thanks
+from Alan Ruttenberg to Everyone:
+Maybe fix "PPPB branch" so that it will make sense in the future (for another time - I started a small instance base of obo foundry ontology editor instances)
+from jie to Everyone:
++1 Alan
+from Alan Ruttenberg to Everyone:
+study design execution : Remove clause has_specified_output some 'data item'
+from Alan Ruttenberg to Everyone:
+The subclass of planned process is redundant.
+from jie to Everyone:
+I have same question
+from Alan Ruttenberg to Everyone:
+There is a question about whether there should be the axiom has_specified_output some 'data item' at all.
+from Alan Ruttenberg to Everyone:
+Bjoern says there should always be data item produced
+from Alan Ruttenberg to Everyone:
+Alan asks about studies that are inconclusive. There is always data collected. The question is whether it is the "specified output" of the investigation.
+from Alan Ruttenberg to Everyone:
+Should the specified output be relevant for the hypothesis?
+from Alan Ruttenberg to Everyone:
+s/investigation/study design execution/
+from Alan Ruttenberg to Everyone:
+Alan is not blocking on this issue, just inquiring
+from Alan Ruttenberg to Everyone:
+documenting example: Your instrument software prints something and you copy it to a spreadsheet.
+from jie to Everyone:
+me too.
+from Alan Ruttenberg to Everyone:
+example (not)? You have regulatory requirements to record whether there was any injuries during the experiment. You have to think back over it.
+from Michael Scarpelli to Everyone:
+Proposed updated definition (for language, not meaning: "a planned process in which input information is used to create or add to a document")
+from Alan Ruttenberg to Everyone:
+Perhaps had editor note saying that this may be too general and that we may wish to narrow to say that the document is related to the goals of the investigation
+from Alan Ruttenberg to Everyone:
+or requirements of the investigation
+from jie to Everyone:
++1
+from Alan Ruttenberg to Everyone:
+You can say things like: investigation that has specified output conclusion equivalentTo: investigation that has part document that has part conclusion textual entity
+from jie to Everyone:
++1 James
+from Alan Ruttenberg to Everyone:
+drawing a conclusion
+from Alan Ruttenberg to Everyone:
+drawing a conclusion based on data
+from Alan Ruttenberg to Everyone:
+drawing a conclusion based on data
+subclassof: interpreting data
+from jie to Everyone:
+interpreting data is OBI term
+from jie to Everyone:
++1
+from Alan Ruttenberg to Everyone:
+intepreting data is a disjunction: "Either drawing a conclusion OR deciding more data is needed"
+from Alan Ruttenberg to Everyone:
+Desirable: Untangle

@@ -1,0 +1,941 @@
+triple#	label	id	note	disposition	disposition 2	
+0	needle assembly	OBI_0000551	"chromatography device, check on definition !"	check	separate	TODO
+555	_defined processes	OBI_0600065	junk class to gather the defined classes	ignore		
+21201	_defined_output	OBI_0000449	"This placeholder gets automatically removed during the release process, and doesn't appear in the released version of OBI."	ignore		
+16480	2x2 factorial design	OBI_0500015	MSI	asked philippe		?
+12072	achieves_planned_objective	OBI_0000417	modified according to email thread from 1/23/09 in accordince with DT and PPPB branch	separate		
+15002	acquisition	OBI_0600008	This needs to be fleshed out and logical definitions added that will allow to place the children terms automatically under acquisition	todo		TODO
+5081	acquisition computer	OBI_0000636	NMR instrument	separate		
+8377	ACS	OBI_0000321	analytical_cytology_data_file	delete		TODO: check if alt term in
+19232	activated partial thromboplastin time (aPTT) assay	OBI_0000820	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+19236	activated partial thromboplastin time (aPTT) assay	OBI_0000820	2009/10/18 Alan Ruttenberg. This assay was added during the fucoidan use case exercise but still needs to be fleshed out. Only the AT-III assay has more carefully specified inputs and outputs	user		
+19238	activated partial thromboplastin time (aPTT) assay	OBI_0000820	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+13119	adding a material entity into a target	OBI_0000274	"Class was renamed from 'administering substance', as this is commonly used only for additions into organisms."	user		
+3358	adding substance to cell culture	OBI_0600000	"renamed from 'adminstering substance to cell culture', to reflect that administration is commonly used only for organisms"	user		TODO:typo
+7891	adipose tissue	OBI_0302745	PRS: this class has been added during major biomaterial.owl cleanup for evaluation and testing of imports from CARO	separate		
+16439	adjuvent role	OBI_0000720	11Feb09:Vaccine Ontology Definition: Adjuvant boosts immune response of a vaccine or antigen in the host.  \nthe role 'adjuvant role' inheres in some 'material entity' and is realized by some 'immune response assay'.	user		TODO: check adjuvant/adjuvent duplicate. If we keep VO def we should mireot from VO
+10427	administering substance in vivo	OBI_0600007	Different routes and means of administration should go as children underneath this	user		
+10429	administering substance in vivo	OBI_0600007	"needs roles such as perturber and perturbee (children of input role). Perturb is too strong. Host might be the name for one role. Others considered: Doner, Donated, Acceptor."	user		TODO: check with BP
+8918	analog-to-digital converter	OBI_0400007	"original definition says ""part of the electronic subsystem"""	user		TODO: check if that is still the intent
+9847	analyte assay	OBI_0000443	"2/19/2009: RESOLVE the 'measurement unit label' in the logical definition will be replaced by 'concentration unit label', once we have that imported from the unit ontology"	delete		not relevant anymore
+9854	analyte assay	OBI_0000443	"logical def modified to remove expression below, as some analyte assays report below the level of detection, and therefore not a scalar measurement datum, replaced by measurement datum\n\nand \n('has measurement unit label' some 'measurement unit label') and \n('is quality measurement of' some 'molecular concentration'))"	user		
+9855	analyte assay	OBI_0000443	"We assume that presence or absence can be represented as concentrations of >0 or = 0. If that will not be possible, the definition will have to be updated. We need to wait on the 'towards' relational quality from PATO for any of this, which requires OWL 2.0"	delete		don't understand :(
+9857	analyte assay	OBI_0000443	"Note: is_realization of some analyte role isn't always true, for example when there is none of the analyte in the evaluant. For the moment we are writing it this way, but when the information ontology is further worked out this will be replaced with a condition discussing the measurement."	user		
+11395	analyte role	OBI_0000275	pH (techically the inverse log of [H+]) may be considered a quality; this remains to be tested.	separate	user	user?
+11396	analyte role	OBI_0000275	"qualities such as weight, color are not assayed but measured, so they do not fall into this category."	user		
+11399	analyte role	OBI_0000275	"interestingly, an analyte is still an analyte even if it is not detected.  for this reason it does not bear a specified input role"	user		TODO: expand
+11404	analyte role	OBI_0000275	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."	separate		delete?
+17451	analytical cytology data file	OBI_0000210	binary_digital_entity	delete		
+12579	anatomical entity	OBI_0100015	10/20/09: This class and all subclasses are currently problematic. They should all be imported from other OBO foundry ontologies. (FMA / CARO / UBERON). Currently two problems exist: There is no cross species anatomy that covers all the entities we need. Secondly: there is not good boundary between anatomical entities and smaller parts in FMA. Currently we will use anatomical entities as if they are valid across species.	user		
+12583	anatomical entity	OBI_0100015	"not super happy about liquids (blood, sperm), as they seem to be 'granular' somewhat, and not form a structure."	user		
+12584	anatomical entity	OBI_0100015	Biom call - January 2009 - Issues: \nparasites are not macroscopic part or organism. \nfetus is_a macroscopic part (but this is up for dicusssion)	user		
+12589	anatomical entity	OBI_0100015	13-02-2009:\nBiomaterial branch: change of label and definition following discussions at the OBI winter meeting 2009. It was felt that 'macroscopic part of multicellular organism' introduce an impractical delineation.\n\nIMPORTANT NOTE:  OBI 'anatomical entity' would essentially correspond to FMA 'material anatomical entity' rather than FMA 'physical anatomical entity'. OBI does not include 'immaterial anatomical entity' as it would clash with the parent class 'material entity'\n\nDOCUMENTATION NOTE: OBI anatomical entity granularity level excludes cell and biological  molecules.	user		
+19562	animal feeding	OBI_0000694	"In an investigation, this will typically be part of an animal care process"	user		
+6320	anticoagulant tube storage of blood specimen	OBI_0000819	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+19949	anticoagulant-containing test tube	OBI_0000784	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+19950	anticoagulant-containing test tube	OBI_0000784	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+4272	antigen presentation function	OBI_1110085	should add a reference to the antigen processing and presentation process.	separate		TODO: create tracker item
+6429	antigen role	OBI_0000237	"An antigen is a substance that prompts the generation of antibodies and can cause an immune response.  Wikipedia  http://en.wikipedia.org/wiki/Antigen. In the strict sense, immunogens are those substances that elicit a response from the immune system, whereas antigens are defined as substances that bind to specific antibodies. Not all antigens produce an immunogenic response, but all immunogens are antigens"	user		TODO: add as definiiton for antigen material entity (IEDB term)
+6430	antigen role	OBI_0000237	9Mar09 waiting for discussion with immunology terms	separate		TODO: trakcer duplicate assay antigen role and antigen role
+4839	antithrombin-III (AT-III) berichrome assay	OBI_0000805	todo Reagents from Berichrom(r) Antithrombin III (A) and standard human plasma	user		TODO: expand? I don't understand that note
+4840	antithrombin-III (AT-III) berichrome assay	OBI_0000805	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+4845	antithrombin-III (AT-III) berichrome assay	OBI_0000805	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+13104	APOLLO console	OBI_0000483	NMR instrument/NMR console	separate		
+7369	arrayer	OBI_0400105	FG: definition normalised from raw import	separate	delete	 delete - synonym for uncurated
+9344	artifically induced cell membrane lysis	OBI_0600027	"---\nThere is a more general 'membrane lysis', which could apply to artificial membranes etc. For this general membrane encapsulated objects would need to be defined."	user		
+19771	artifically induced DNA repair	OBI_0600032	---\nis this really a protocol?\n--> This as several other protocol applications is also a natural process. The fact that it is induced experimetnally by following a protocol makes it a protocol application. Need to make sure that labels don't conflict wi	separate		
+7843	artificially induced reverse transcription	OBI_0600028	multiple reagents including dNTPs are utilized in therprocess. Need to be added	user	delete	delete. TODO: add to tracker
+7847	artificially induced reverse transcription	OBI_0600028	We need to indicate the relationship between the cDNA generated and the RNA that was used as a template. This may be outside of the OBI scope	user		
+10285	autosampler	OBI_0000555	NMR instrument	separate		
+14506	AVANCE II spectrometer	OBI_0000580	NMR instrument	separate		
+2216	balanced incomplete block design	OBI_0500008	MSI	delete		
+5341	bead	OBI_1000207	DS: Probably better modeled as a role.	user		TODO: check if that makes sense - don't think it does
+14018	Berichrom(r) Antithrombin III (A) Kit	OBI_0000815	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+14019	Berichrom(r) Antithrombin III (A) Kit	OBI_0000815	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+17535	biological vector role	OBI_0000109	"Feb 20, 2009. The material transmitted can be genetic information (as in cloning vector) or a pathogen (as in a disease vector)"	user		
+17538	biological vector role	OBI_0000109	"6/12/2009 Alan made this a material to be added role, because it was, and because this speeded up reasoning"	separate		
+12324	bisulfite sequencing	OBI_0000748	"8/19/09: Chris says that there may used to be a way of doing bisulfite sequencing comparing lenghts of restriction fragments, which implies that it is possible to do without DNA sequencing."	user		TODO: typo
+5913	blinded medication role	OBI_0000223	"CDISC definition (in part):  blinded (masked) medications. Products that appear identical in size,"	user	delete	delet as per JF
+8457	blood plasma	OBI_0100016	This is in FMA	user		TODO: if it is import. If we mean sthg else delete
+8461	blood plasma	OBI_0100016	PRS:19032008-moved under entity of organismal origin ->modification to definition to reflect change + addition of pubmed based example	delete		
+9802	blood serum specimen	OBI_0100017	PRS:19032008-moved under entity of organismal origin ->modification to definition to reflect change + addition of pubmed based example	delete		
+3854	BrdU incorporation assay	OBI_0000664	2/26/09: RESOLVE: molecular entities should be replaced by Brdu	todo		TODO
+15476	bronchial alveolar lavage	OBI_0100067	PRS:22-02-2008: output role in protocol application lavage and need to submit protocol application	delete		
+16625	Bruker 1mm MicroProbe	OBI_0000590	nmr probe	separate		
+3838	Bruker AC series NMR instrument	OBI_0000541	NMR instrument	separate		
+17503	Bruker AMX series NMR instrument	OBI_0000514	NMR instrument	separate		
+11257	Bruker AutoClean system	OBI_0000475	"washing system/NMR tube washing system, XPS: device has function washing"	user		TODO: XPS add restriction or delete
+16958	Bruker B-ACS system	OBI_0000492	NMR instrument	separate		
+18114	Bruker BEST NMR system	OBI_0000591	NMR instrument	separate		
+7452	Bruker Capillary LC-NMR platform	OBI_0000553	NMR instrument	separate		
+9399	Bruker CryoProbe	OBI_0000531	nmr probe	separate		
+18831	Bruker high resolution probe	OBI_0000480	nmr probe	separate		
+4168	Bruker LC-NMR platform	OBI_0000503	NMR instrument	separate		
+10527	Bruker LC-NMR/MS platform	OBI_0000582	NMR instrument	separate		
+6834	Bruker MATCH tube holder system	OBI_0000612	NMR instrument	separate		
+10855	Bruker Metabolic Profiler	OBI_0000632	NMR instrument	separate		
+12860	Bruker micro imaging probe	OBI_0000620	nmr probe	separate		
+18980	Bruker NMR Case sample changer	OBI_0000473	NMR instrument	separate		
+14398	Bruker NMR instrument	OBI_0000596	NMR instrument	separate		
+15825	Bruker NMR magnet	OBI_0000597	NMR instrument	separate		
+16888	Bruker NMR probe	OBI_0000561	"NMR device, TODO: May need no definition."	separate		
+6975	Bruker SampleJet system	OBI_0000624	NMR instrument	separate		
+4960	Bruker SampleRail system	OBI_0000544	NMR instrument	separate		
+835	Bruker solid magic angle spinning probe	OBI_0000629	nmr probe	separate		
+2466	Bruker SPE-NMR platform	OBI_0000613	NMR instrument	separate		
+3109	Bruker UltraShield NMR magnet	OBI_0000567	NMR instrument	separate		
+5259	Bruker UltraShield Plus NMR magnet	OBI_0000530	NMR instrument	separate		
+3585	Bruker Ultrastabilized NMR magnet	OBI_0000575	NMR instrument	separate		
+3534	Bruker US 2 NMR magnet	OBI_0000467	NMR instrument	separate		
+2430	capsule shell	OBI_0000798	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+2431	capsule shell	OBI_0000798	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+11016	CD8 receptor	OBI_1110132	"This term does not belong in ONTIE.  It should be imported from PRO, but there seems to be no appropriate term as of 08/17/2009."	user		TODO: tracker for BP
+12092	cDNA library	OBI_0000164	"PRS: 22022008. class moved under population,\nmodification of definition and replacement of biomaterials in previous definition with 'material'\naddition of has_role restriction"	separate		
+13102	cell culture supernatant	OBI_1000023	PRS:22022008: moved from _unclassified to _a defined class is needed following BM call	delete		
+13103	cell culture supernatant	OBI_1000023	PRS:22022008. result from protocol_application where input=cell culture and output=supernatant	delete		
+11779	cell fixation	OBI_0600021	we could generalize this for other input materials	separate		
+11783	cell fixation	OBI_0600021	should include capturing what qualities are being preserved	user		
+5804	cell lysate	OBI_1000036	PRS:22-02-2008: is a material which has output_role during lysis protocol-application. \nold defintion: A mixture (collection) of cell components created by rupturing of the cell wall resulting from a lysis process	user		TODO: add restrictions
+9534	cell lysis	OBI_0302894	"BP, JG, RV: There is also a need for the unplanned cell lysis, which is probably not in the scope of OBI, but should be linked to from this process."	user		TODO: tracker for BP: if still needed submit. Otherwise separate
+11033	cell of organismal origin	OBI_0100052	rem1:link to Cell Type Ontology (CO)	separate		link how?
+12780	cell permeabilization	OBI_0600033	"definition blessed by Jay, Alan, Randi"	separate		TODO definition editors
+12790	cell permeabilization	OBI_0600033	need to add output cell has_quality permeable	user		TODO
+5010	cell sorter collection tube	OBI_0400020	DS: a collection tube is no instrument. This is yet another example of distorted is_a and part_of hierarchy...\npart_of fluidic_subsystem	delete		
+1681	centrifuge pellet role	OBI_0000029	20 Feb 2009; changed definition to this: pellet role is a role which inheres in a material entity and is realized by a material separation process using gravitational force in which the material bearing the pellet role is the heavier or heaviest component of the output material.	delete		
+1683	centrifuge pellet role	OBI_0000029	9Mar09 after discussion with process branch changed definition to include use of centrifuge;	separate		
+1242	cervical dislocation	OBI_0302896	PRS:21102008: Input must be restricted to Vertebrates (requires import from NCBI tax)	user		TODO
+2699	chart recorder	OBI_0000605	chromatography device	separate		
+11092	chimera	OBI_0100014	DS: Is a chimaera a natural_biomaterial? Not sure here.	user	delete	delete - we don't have natural biomaterial anymore
+15348	chromatography	OBI_0600046	"Jay/Bjoern think this is problematic.  There are so many different types of chromatography.  This term may be overloaded.  May be best to define each type separately underneath material_separation.  Also, example seems to be an assay."	user		
+2181	chromatography consumable	OBI_0000601	chromatography device	separate		
+14750	chromatography instrument	OBI_0000485	"chromatography device, defined class?"	separate		
+20546	chromatography splitter	OBI_0000619	chromatography device	separate		
+6461	clinical chemistry assay	OBI_0000520	"3/26/09: There needs to be a restriction set that specifies which type of evaluants are used in the assay, somewhere along the lines of 'sample derived of bodily fluid'"	user		TODO: explain?
+16583	clinical diagnosis	OBI_0600003	(maybe CIO)	separate		
+5685	clinical study design	OBI_0500001	MSI	delete		
+5689	clinical study design	OBI_0500001	The definition needs to be extended to other things than simply patients	user		
+17589	cloning insert role	OBI_0000416	"Feb 20, 2009.  from Wikipedia:  cloning of any DNA fragment essentially involves four steps: DNA fragmentation with restriction endonucleases, ligation of DNA fragments to a vector, transfection, and screening/selection.  There are multiple processes involved, it is not just ""cloning process"""	user		
+3467	cloning plasmid	OBI_0000729	Note: 'cloning vector role' is really a function. Should be dealt with globally	user		TOD: tracker item
+1102	cluster	OBI_0000251	generically_dependent_continuants	delete		
+6363	clustered data set	OBI_0000648	AR thinks could be a data item instead	separate		TOD: resolve - workshop?
+9142	collection (of entities of organismal origin)	OBI_0302714	added during 22-02-2008 biomaterial call to distinguish library and population	user		
+9146	collection (of entities of organismal origin)	OBI_0302714	"PRS: How can we distinguish with 'collection' as the process of collecting entities, (eg. data collection, urine collection)"	separate		
+11151	column adapter	OBI_0000594	chromatography device	separate		
+8028	column cartridge	OBI_0000532	"chromatography device, check on definition !"	separate		TODO
+13214	column cartridger	OBI_0000549	check on definition !	todo	separate	TODO
+18647	column chromatography detector	OBI_0000463	"chromatography detector, defined class/xps"	todo	separate	TODO
+9110	column compartment	OBI_0000545	"device compartment, snap:ObjectBoundary:object_boundary, snap:Site:site"	delete		
+5172	column connector	OBI_0000478	chromatography device	separate		
+813	column frit	OBI_0000602	chromatography device	separate		
+3424	column jacket	OBI_0000508	chromatography device	separate		
+15393	Compensation-ML	OBI_0000329	XML_file	delete		
+10199	compliance rule	OBI_0500023	MSI	delete		
+5609	continuous wave NMR instrument	OBI_0000486	NMR instrument	separate		
+2300	controlled variable specification	OBI_0000785	2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify thisdefinition please notify OBI.	separate		
+2301	controlled variable specification	OBI_0000785	"2/2/2009 Original definition: Controlled variables are also important to identify in experiments. They are the variables that are kept constant to prevent their influence on the effect of the independent variable on the dependent. Every experiment has a controlling variable, and it is necessary to not change it, or the results of the experiment won't be valid"	user		separate - confusing for user. Or explain why change
+2304	controlled variable specification	OBI_0000785	2/2/2009 part of a study specification. Should study specification be part of IAO? Or should this term be part of OBI?	separate	delete	has been going both ways - delete
+3507	cross over design	OBI_0500003	MSI	delete		
+3517	cross over design	OBI_0500003	Replace patient or subject (keep track of this in the definition): DONE	delete		
+3973	data encoding	OBI_0000227	We (protocol application branch) placed this term because it kept getting bounced from data transformation and DENRIE	separate		
+12597	data representational model	OBI_0000658	2009-02-28: work on this term has been finalized during the OBI workshop winter 2009	separate		
+9634	data visualization	OBI_0200111	Possible future hierarchy might include this:\ninformation_encoding\n>data_encoding\n>>image_encoding	separate		TODO: tracker to work on this
+3172	dependent variable specification	OBI_0000751	"2/2/2009 In the design of experiments, independent variables are those whose values are controlled or selected by the person experimenting (experimenter) to determine its relationship to an observed phenomenon (the dependent variable). In such an experiment, an attempt is made to find evidence that the values of the independent variable determine the values of the dependent variable (that which is being measured). The independent variable can be changed as required, and its values do not represent a problem requiring explanation in an analysis, but are taken simply as given. The dependent variable on the other hand, usually cannot be directly controlled."	user		
+3173	dependent variable specification	OBI_0000751	2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify thisdefinition please notify OBI.	separate		
+3174	dependent variable specification	OBI_0000751	2/2/2009 part of a study specification. Should study specification be part of IAO? Or should this term be part of OBI?	separate	delete	see above - delete
+20314	detector reagent role	OBI_0000091	19feb2009.  not clear we need this term.  originally if came from microarrays -- the probes on the array are termed detectors in some instances	user		TOOO: tracker
+7057	device setting	OBI_0000654	"This class is located in the instrument branch owl file. It is a result of discussions at the OBI winter workshop 2009. Further details can be found in the ppt presentation for the instrument branch in OBI svn. We definately know it is a dependent continuant, it could be a quality and therefore its position in the hierarchy will probably evolve."	user	delete	"delete - it has been moved under quality, and branch file irrelevant now"
+13139	diagnosis textual entity	OBI_0000075	The act or process of identifying or determining the nature and cause of a disease or injury through evaluation	delete		TODO: copy as definition
+20773	direct detection NMR probe	OBI_0000491	NMR device	separate		
+16222	DISCOVERY console	OBI_0000513	NMR instrument/NMR console	separate		
+1415	DNA ligase	OBI_0000698	5/22 Need to explore if there are GO / other classes exist that capture this. We need it now for cloning experiments	user		TODO: tracker for BP
+17768	DNA microarray	OBI_0400148	DS: DNA-Microarray can't be an exact alternative term. Its more a specification/subclass of it.	user	delete	delete. There is no such al term on this class
+1112	DNA sequence feature detection	OBI_0000433	should be a defined class where interpretation of data generated by assay qualifies a DNA sequence	user		TODO:tracker for BP
+9355	DNA sequencer	OBI_0400103	FG: Definition normalised from raw import. AL: Typo fixed in definition.	delete		
+20206	DNA sequencing by ligation	OBI_0000723	Philippe Rocca-Serra	definition editor	separate	TODO definition editor
+10567	DNA sequencing by synthesis	OBI_0000734	Philippe Rocca-Serra	definition editor	separate	TODO - tracker for JM
+10454	documenting	OBI_0000340	"6/11/9: Edited at workshop. Should go into IAO. We need to be able identify a child form of information artifact which corresponds to something enduring (not brain like). This used to be restricted to physical document or digital entity as the output, but that excludes e.g. an audio cassette tape"	user		TODO: IAO tracker
+10459	documenting	OBI_0000340	2/26i/09: RESOLVE: We need to clarify what 'digital entity' is before this is ready for release. Should be any kind of file / database record etc. that can hold an information entity.	delete		
+17250	double blind study execution	OBI_0000793	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+17251	double blind study execution	OBI_0000793	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+12140	droplet sorter	OBI_0400153	"The instrument branch needs to identify parts of instruments. The above def is needed to disambiguate between flow cytometer and flow cytometer sorter.\nThe part between () is optional. A flow cytometer sorter has all the parts a flow cytometer has and is also has a ""droplet sorter"""	user	delete	delete FC and FCS have corresponding restrictions
+6996	dropout role	OBI_0000205	Rat which escapes part way through a study; a human study participant who moved to another city before the study was completed (and stopped participating in the study)	user		example of usage?
+19144	dye swap design	OBI_0500017	MO	delete		
+9041	edge weighting	OBI_0200070	was classified under algorithm class which is not acceptable super-class\nTO BE DEALT WITH STILL BY RICHARD.  JAMES	todo	separate	TODO - tracker for JM
+1267	electrophoresis	OBI_0600053	"Need to define more terms like gel_separation, matrix,centrifugation, and the connection between the force used to separate materials and the medium or barriers."	separate		
+15142	eligibility rule	OBI_0500026	MSI	delete		
+948	ELISA	OBI_0000661	"It is possible to add further restrictions, such as utilizing a plate as part of the assay."	user		TODO tracker
+21136	ELISPOT assay	OBI_0600031	"2/26/09: RESOLVE: we need to specify the produced substance that is desired to be detected. Analyte does not work, as this is not a concentration, and this is not present at the start of the assay."	user		TODO: tracker
+17338	eluate	OBI_0000318	need to add restriction to indicate: has_part some (material entity has_role mobile phase)\nneed to add mobile phase as role	user		TODO: tracker
+13498	environmental material collection	OBI_0600012	the researcher is very interested in the location	separate		
+11587	enzyme	OBI_0000427	MC: known issue: enzyme doesn't classify under material entity for now as it isn't stated that anything\nthat has_part some material entity is a material entity. If we add as equivalent classes to material entity has_part some material entity and part_of some material entity  (each one in his own necessary and sufficient block) Pellet in P3 doesn't cassify any more.	user		TODO typo
+7544	ethical standard compliance rule	OBI_0500025	MSI	delete		
+4029	evaluant role	OBI_0000067	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."	separate		
+4031	evaluant role	OBI_0000067	"Role call - 17nov-08: JF and MC think an evaluant role is always specified input of a process. Even in the case where we have an assay taking blood as evaluant and outputing blood, the blood is not the specified output at the end of the assay (the concentration of glucose in the blood is)"	user		if true add restriction and delete
+4035	evaluant role	OBI_0000067	"examples of features that could be described in an evaluant: quality.... e.g. ""contains 10 pg/ml IL2"", or ""no glucose detected"")"	user		
+10556	excision	OBI_0600022	"BP: duplicate rdfs:label entry, en"	delete		
+17806	exclusion rule	OBI_0500028	MSI	delete		
+16755	experimental disease induction	OBI_0600030	could be defined class	separate		
+13197	exposure of material to environment	OBI_0600009	"Alan says there will be problmes, e.g. with selection by survival"	separate		
+11164	FACS Calibur	OBI_0400036	editor_note pending	todo	delete	delete - editor note not compulsory annotation
+15225	factorial design	OBI_0500014	MSI	delete		
+11575	FCS	OBI_0000327	analytical_cytology_data_file	delete		
+20519	filled capsule	OBI_0000821	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+20520	filled capsule	OBI_0000821	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+1429	flow cytometer	OBI_0400044	"DS: Is this class justified? (has currently only one subclass), ask Ryan and Function Branch for differrentiae..."	delete		
+10323	flow cytometer analyzer	OBI_0400008	The definitions for leaf node instruments do not currently follow OBO Foundry. They are preliminary solutions and definitions will not get placed on the Modell level.	separate	delete	delete
+17775	flow high resolution probe	OBI_0000527	nmr probe	separate		
+20061	flow probe	OBI_0000519	NMR device	separate		
+12952	fluorescence compensation matrix	OBI_0000213	generically_dependent_continuants	delete		
+13547	fluorescent reporter intensity	OBI_0000010	"From the DT branch: This term and definition were originally submitted by the community to our branch, but we thought they best fit DENRIE. However we see several issues with this. First of all the name 'probe' might not be used in OBI. Instead we have a 'reporter' role. Also, albeit the term 'probe intensity' is often used in communities such as the microarray one, the name 'probe' is ambiguous (some use it to refer to what's on the array, some use it to refer to what's hybed to the array). Furthermore, this concept could possibly be encompassed by combining different OBI terms, such as the roles of analyte, detector and reporter (you need something hybed to a probe on the array to get an intensity) and maybe a more general term for 'measuring intensities'. We need to find the right balance between what is consistent with OBI and combinations of its terms and what is user-friendly. Finally, note that 'intensity' is already in the OBI .owl file and is also in PATO. Why didn't OBI import it from PATO? This might be a problem."	separate		TODO: tracker
+7755	fluorometer	OBI_0400143	"AL: Original definition_editor was Kevin Clancy, and then I (Allyson Lister) added to it. I changed the editor to OBI, but am not sure if I should have put both our names in."	delete		
+7089	fourier transformation NMR instrument	OBI_0000487	NMR instrument	separate		
+17946	fractional factorial design	OBI_0500016	MSI	delete		
+8618	fragment derived from protein	OBI_0100039	original term: protein fragment split into synthetic polypeptide and fragment derived from protein\nTHE DEFINITION OF THIS SUGGESTS WE COVER THIS ALREADY IN PEPTIDE/POLYPETIDE. DO WE NEED THIS AND CAN WE DEAL WITH IT IN SOME OTHER WAY?  JAMES	user		TODO: add tracker and clean up
+8627	fragment derived from protein	OBI_0100039	PRS:22022008. result from protocol_application where input=protein and output=polypeptide or peptide (to capture: derives_from protein)	user		
+5522	gas chromatography detector	OBI_0000637	"chromatography detector, defined class/xps"	separate		
+2563	gas chromatography equipment	OBI_0000542	will become defined class/xps	separate		
+6051	gas chromatography oven	OBI_0000554	gas chromatography equipment	separate		
+2089	gas generator	OBI_0000507	gas chromatography equipment	separate		
+4763	gas purifier	OBI_0000638	gas chromatography equipment	separate		
+234	Gating-ML	OBI_0000330	XML_file	delete		
+20930	gene list	OBI_0000118	"kind of report. (alan) need to be careful to distinguish from output of a data transformation or calculation. A gene list is a report when it is published as such? Relates to question of whether report is a whole, or whether it can be a part of some other narrative object."	delete	separate	separate - may want to investigate report thing
+9335	genotyping	OBI_0000435	BP: updated definition as suggested by Chris Mungall. Also removed duplicate restrictions (achieves planned objective supercedes the realizes  /concretization of / plan specification  bit.	delete		
+12720	graeco latin square design	OBI_0500012	only 2 articles in pubmed ->probably irrelevant	separate		
+12722	graeco latin square design	OBI_0500012	MSI	delete		
+3614	guard column	OBI_0000614	chromatography device	separate		
+12962	has grain	OBI_0000643	"Discussion in Karslruhe with, among others, Alan Rector, Stefan Schulz, Marijke Keet, Melanie Courtot, and Alan Ruttenberg. Definition take from the definition of granular parthood in the cited paper. Needs work to put into standard form"	user		
+2094	has_specified_input	OBI_0000293	8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how 'has participant' works.	user		
+9521	heart	OBI_0000442	MC: should be imported	user		
+20819	high resolution magic angle spin probe	OBI_0000607	nmr probe	separate		
+1022	high resolution probe with automatic tuning and matching	OBI_0000616	nmr probe	separate		
+11769	histological sample preparation	OBI_0000341	BP added following request from biomaterial branch.	delete		
+18618	histology	OBI_0600020	"need to incorporate parts\n---\nThis is a very vague term, it should be in the same place as transcriptomics, proteomics metaboloimcs. It is the 'study' of tissues, not the process of studying tissues\n"	separate		
+18626	histology	OBI_0600020	PRS:20090901: addition of alternative term = histopathology	separate		
+17675	hospital	OBI_0000844	Helen and Alan modified the wording from the wordnet definition	separate		TODO: check if def editor
+17676	hospital	OBI_0000844	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+17680	hospital	OBI_0000844	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+18100	host of immune response role	OBI_1110083	vertebrata may need to be relaxed to allow for other multicellular organisms	user	delete	delete - no more mention of vertebrata at this class
+11323	host role	OBI_0000725	"30Mar09 virus reproducing inside a cell; bacteria causing a disease, host can be harmed or not.  we want to avoid a cat sitting on my lap and an animal care technician; these are not examples or hosts; dental cares = on tooth, but part of outer layer of tooth, so covered by ""within"" in the definition"	user		
+4778	human antithrombin-III (AT-III) in blood assay	OBI_0000787	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+20425	human subject enrollment	OBI_0600004	"As with group assignment, should the specified output here be an organism which bears a role"	user		
+20428	human subject enrollment	OBI_0600004	criteria come from plan / clinical trial branch	separate		
+13921	hybridization chamber	OBI_0400110	MC: should be chamber with role hybridization?	delete		
+12509	hybridization station	OBI_0400111	MC: should be a station with role hybridization?	delete		
+13695	hyper graeco latin square design	OBI_0500013	MSI	delete		
+13696	hyper graeco latin square design	OBI_0500013	no example found in pubmed->not in use in the community	separate		
+661	image stream	OBI_0400054	"It has both components, an Image cytometer and a flow cytometer."	user		TODO: add restrictions
+13392	imaging NMR probe	OBI_0000539	NMR device	separate		
+13414	immortal cell	OBI_0100035	PRS: 22-02-2008: need to submit immortal to PATO	separate	delete	"delete - done PATO:0001991. TODO tracker to build XP
+"
+13421	immortal cell	OBI_0100035	added as hierarchy term	delete		
+4048	immune epitope assay	OBI_1110128	"10/26/09, BP: Strictly speaking, the definition would exclude MHC ligand elution and binding assays. Need to either expand this definition in scope, or move out those subclasses."	user		
+13795	immune response	GO#GO_0006955	import from GO	delete		
+13676	inclusion rule	OBI_0500027	MSI	delete		
+4425	independent variable specification	OBI_0000750	2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify thisdefinition please notify OBI.	separate		
+4432	independent variable specification	OBI_0000750	2/2/2009 part of a study specification. Should study specification be part of IAO? Or should this term be part of OBI?	delete		
+4433	independent variable specification	OBI_0000750	"2/2/2009 Original definition - In the design of experiments, independent variables are those whose values are controlled or selected by the person experimenting (experimenter) to determine its relationship to an observed phenomenon (the dependent variable). In such an experiment, an attempt is made to find evidence that the values of the independent variable determine the values of the dependent variable (that which is being measured). The independent variable can be changed as required, and its values do not represent a problem requiring explanation in an analysis, but are taken simply as given. The dependent variable on the other hand, usually cannot be directly controlled."	user		explain why def change or separate. Confusingfor user
+16998	indirect detection probe	OBI_0000640	NMR device	separate		
+13024	informed consent process	OBI_0000810	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+13029	informed consent process	OBI_0000810	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+13032	informed consent process	OBI_0000810	09/28/2009 Alan Ruttenberg: This is made a subclass of the higher level processual entity in BFO because I don't want to take a stand on whether it is a process aggregate. Analogous to the situation with Material entity.	user		TODO: add pointer to discussion
+6507	informing investigator of subject study arm	OBI_0000804	"09/28/2009 Alan Ruttenberg. This and the class informing-subject-of-study-arm are defined in order to solve the question of how to represent single and double blind experiments. To represent the aspect of double blinding pertaining to investigators, we say that the study execution doesn't include any processes of this sort"	user		
+6508	informing investigator of subject study arm	OBI_0000804	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+6509	informing investigator of subject study arm	OBI_0000804	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+4065	informing subject of study arm	OBI_0000842	09/28/2009 Alan Ruttenberg. This and the class informing-investigator-of-study-arm are defined in order to solve the question of how to represent single and double blind experiments. To represent the aspect of blinding pertaining to subjects (happens in single and double blinding) we say that that the study execution doesn't include any processes of this sort	user		
+4066	informing subject of study arm	OBI_0000842	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+4067	informing subject of study arm	OBI_0000842	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+12319	interpreting data	OBI_0000338	2/26/09: RESOLVE Waiting for IAO / Denrie to put in Result / Conclusion	delete		
+11531	interquartile-range calculation	OBI_0200122	From Monnie's file comments - need to add spread calculation role but they doesn't exist yet - (editor note added by James Jan 2008)	separate		
+18172	interrogation_point	OBI_0400059	DS: Spatial entity?\nAI: Ryan goes back to John Quinn and saks for usage example of this term.	user		TODO: typo. Tracker
+5072	intracellular cytokine staining assay	OBI_0000665	2/26i/09: Needs general parent classes	separate		
+4311	investigation	OBI_0000066	Could add specific objective specification	separate		is planned process already. Needs specific objective?
+12386	investigation agent role	OBI_0000202	Implementing a study means carrying out or performing the study and providing reagents or other materials used in the study and other tasks without which the study would not happen.	user		
+12393	investigation agent role	OBI_0000202	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."	separate		
+4918	investigation results report	OBI_0000218	There's probably a role that it plays. Would this be considered an outcome? (alan)	delete		TODO: tracker: report would become objective cf IAO
+19732	is member of	OBI_0000846	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+19733	is member of	OBI_0000846	2009/10/01 Alan Ruttenberg. Barry prefers generic is-member-of. Question of what the range should be. For now organization. Is organization a population? Would the same relation be used to record members of a population	user		
+19741	is member of	OBI_0000846	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+15016	is_manufactured_by	OBI_0000304	http://www.affymetrix.com/products/arrays/specific/hgu133.affx is_manufactered_by http://www.affymetrix.com/ (if we decide to use these URIs for the actual entities)	user	delete	delete
+1345	isolation of cell culture supernatant	OBI_0600029	This does not apply to the case where the cells are lysed	user		
+6559	JEOL CapNMR probe	OBI_0000635	nmr probe	separate		
+15715	JEOL ECA NMR spectrometer	OBI_0000641	NMR instrument	separate		
+2965	JEOL ECX NMR spectrometer	OBI_0000625	NMR instrument	separate		
+8750	JEOL NMR instrument	OBI_0000600	NMR instrument	separate		
+19311	JEOL NMR probe	OBI_0000529	NMR device	separate		
+6454	jet_in_air_flow_chamber	OBI_0400061	"DS: a chamber is not an instrument, its a spatial entity...\nAI: Ryan goes back to John Quinn and saks for usage example of this term."	user		TODO: typo. Tracker
+11872	killing	OBI_0600006	"difficult to place this properly - JG. Death process (e.g. unscheduled death) is out of scope but should be added somewhere. All killings have death process as a part, but not all death processes are part of a killing."	user		not sure why it's difficult. It is a planned process
+14194	kurtosis calculation	OBI_0200124	From Monnie's file comments - need to add moment calculation role but they doesn't exist yet - (editor note added by James Jan 2008)	delete	separate	separate
+10345	label role	OBI_0000140	"need to add a restriction that the material entity has the disposition / quality that permits it to be detected, and one way to say this (BP) is that the entity is such that an assay exists that detects the presence of the material entity"	user		
+10350	label role	OBI_0000140	"Nucleotides synthesized with the incorporation of biotin were used to synthesize cDNA, which was then detected by adding fluorochrome-conjugated anti-biotin antibody.  the fluorochrome bears label role, the antibody bears detector role, the biotin bears reporter role. may need to change the terms following discussion"	user		TODO: clean up. Which discussion?
+10355	label role	OBI_0000140	"we need to sort out probe, detector and reporter"	user		TODO: tracker (point to existing one)
+10026	labeling	OBI_0600038	"definition blessed by Allyson, Bjoern, Jay & Randi"	separate		
+11334	latin square design	OBI_0500011	MSI	delete		
+17259	lavage	OBI_0600044	"This is not washing, in which case the material of interest is not the resulting fluid"	user		
+1170	light source	OBI_0400065	"DS: this is a role I guess, not an instrument."	separate	delete	delete - it is an instrument
+21088	Liquid chromatography valve	OBI_0000528	chromatography device	separate		
+11479	liquid handler	OBI_0400112	"DS: Is this class justified? Its a unnamed class. If so, put a fluidic_system and the fluidic_subsystem as subclasses.\nTW: This is required by MO.\nFG: Or as function."	separate		
+11483	liquid handler	OBI_0400112	"DS: Is this class justified? Its a unnamed class. If so, put a fluidic_system and the fluidic_subsystem as subclasses.\nTW: This is required by MO.\nFG & DS: Capture as function.\nAll: Needs to be reviewed, according to query use case. If we keep it its kept as unnamed owl class.\nThe liquid handling class remains but as an undefined class with are unlikely to have children. It is expected that the reasoner would classifiy appropriate classes under this class that meet the have the liquid_handling function relation."	separate		
+15821	liquid NMR probe	OBI_0000559	NMR device	separate		
+13258	list-mode data file	OBI_0000021	"One example of usage is in the context of flow cytometry, however is not restricted to this community and is more widely used, e.g. by imaging people."	user		
+892	liver	OBI_0302743	PRS: Test. added for evaluation and validation of possible imports from CARO (or other anatomical resources)	separate		
+19796	logit-log curve fitting	OBI_0200003	"The above definition refers to the 'fully specified' logit-log model. The reduced form of this, when it is assumed that y_0=0, is named 'partially specified' logit-log model."	user		
+1304	loop design	OBI_0500009	MO	delete		
+6326	lymph node cell	OBI_1110041	could be reformulated with a cross product cell x lymph node	separate		
+10921	magic angle spinning rotor	OBI_0000523	NMR instrument	separate		
+15934	manufacturing	OBI_0000457	"device creation could be an alternative term. If not, it would be good to clarify in the definition what else distinguishes it from artifact material creation."	delete		
+15938	manufacturing	OBI_0000457	This includes a single scientist making a processed material for personal use.	user		
+15942	manufacturing	OBI_0000457	Manufacturing implies reproducibility and responsibility AR	user		
+19842	matched pairs design	OBI_0500005	MSI	asked philippe		
+3991	material combination	OBI_0000652	"created at workshop as parent class for 'adding material into target', which is assymmetric, while combination encompasses all addition processes."	user		TODO:explain
+590	material combination objective	OBI_0000686	created at workshop	delete		
+9406	material sample role	OBI_0000740	7/13/09: Note that this is a relational role: between the sample taken and the 'sampled' material of which the sample is thought to be representative off.	user		
+9407	material sample role	OBI_0000740	6/12/9: Modified in workshop	delete		
+1448	material to be added	OBI_1110108	10/26/09: This defined class is used as a 'macro expression' to reduce the  size of the IEDB export	user		
+15995	material to be added role	OBI_0000319	9 March 09 from discussion with PA branch	separate		
+16311	material_entity	snap#MaterialEntity	"13-02-2009:\nMaterial entity class will be submitted to BFO/CUO for inclusion. When accepted, the class will be imported from BFO/CUO. This follows a decision made of OBI winter meeting 2009."	delete		TODO: add note explaining why we have this class
+9280	mathematical feature	OBI_0200140	This class is temporary and will be placed outside of data transformation ultaimtely (if it still remains at all after review)	user		TODO: tracker for JM
+19924	mean calculation	OBI_0200079	From Monnie's file comments - need to add moment_calculation and center_calculation roles but they don't exist yet - (editor note added by James Jan 2008)	separate		
+16688	median calculation	OBI_0200119	From Monnie's file comments - need to add center_calculation role but it doesn't exist yet - (editor note added by James Jan 2008)	separate		
+7735	MHC multimer assay	OBI_0000667	2/26/09 RESOLVE: Need to add a restriction for the 'MHC multimer' as a reagent used	separate		
+2170	microarray wash station	OBI_0400119	AL: definition normalised from raw import	delete		
+13957	mode calculation	OBI_0200117	From Monnie's file comments - need to add center_calculation role but it doesn't exist yet - (editor note added by James Jan 2008)	separate		
+1272	molecular concentration	OBI_0000577	"This term represent a quality of molecular concentration. If there is need for some other sort of concentration - e.g. ratio of counts of cells, another term is needed. \n\nOBI uses a standard unit for representing concentration qualities but this still needs to be decided on. A relation needs to be defined that relates the quality instance to the representation of its quantitative value in the chosen units. See http://en.wikipedia.org/wiki/Concentration\n\nMeasurements of concentration may be in any appropriate unit. Note that precise concentrations are virtually never known.\n\nFinally, note that there is no such thing as a concentration of 0. A concentration is a *relational* quality and so can't exist unless both entities it inheres in exist. However one may may make concentration measurements that turn out not to be about concentrations qualities, if it happens that the scattered molecular aggregate doesn't actually exist."	user		
+4883	molecular crosslinker	OBI_0400121	"AL: if we intend that other ontologies can be used in conjunction with OBI, we shouldn't have such a general term used specifically for chemically joining two or more molecules. I'm sure there are other ""crosslinkers"" that are on a much different scale in engineering etc. I have moved the original label to be an alternative term, and have renamed the main label accordingly."	user		
+16077	molecular entity	CHEBI#CHEBI_23367	"We are assuming that every molecular entity has to be completely connected by chemical bonds. This excludes protein complexes, which are comprised of minimally two separate molecular entities. We will follow up with Chebi to ensure this is their understanding as well"	delete	user	user
+7140	multi-well plate	OBI_0400076	FG this is synonymous with microtitre plate	user		TRACKER: cleanup
+18407	n-to-1 design	OBI_0500004	MSI	delete		
+10003	NMR console	OBI_0000499	"NMR instrument, TODO: same as or part of acquisition computer?"	separate		
+4192	NMR instrument	OBI_0000566	NMR instrument	separate		
+17363	NMR magnet	OBI_0000517	NMR instrument	separate		
+16612	NMR probe	OBI_0000516	NMR instrument	separate		
+13272	NMR sample holder	OBI_0000484	NMR device	separate		
+10179	NMR sample tube	OBI_0000578	NMR device	separate		
+8869	NMR tube washing system	OBI_0000498	NMR instrument	separate		
+4250	non-specific labeling	OBI_0600019	"definition blessed by Allyson, Bjoern, Jay & Randi"	separate		
+17713	Notified_Body role	OBI_0000056	"Notified Body (NB). A private institution charged by the Competent Authority with verifying compliance of medical devices (not drugs) with the applicable Essential Requirements stated in the Medical Device Directive. This process, called Conformity Assessment, has EU-wide validity once completed by the NB."	user		
+781	nucleic acid	CHEBI#CHEBI_33696	"should be imported from chebi. DNA, RNA should be subclasses. We need this to reference during cloning processes"	delete		
+14418	nucleic acid extraction	OBI_0666667	requested by Helen Parkinson for MO. Could be defined class	separate		
+2271	nucleic acid template role	OBI_0000409	19 feb 2009.  this should move under reference role; need to clarify the meaning that is it used to copy DNA or RNA	user	delete	delete - has been moved
+19430	number of lost events computer	OBI_0000269	quantity	delete		
+12658	number of lost events electronic	OBI_0000125	quantity	delete		
+19587	number of particles in subset	OBI_0000119	quantity	delete		
+14057	nutrient role	OBI_0000204	19 Feb 2009; old def: A nutrient role is a role played by a substance used in an organism's metabolism which is taken in from the environment and provides nourishment.	separate		
+12698	object acquisition	OBI_0600010	"Bjoern is concerned that information such as model number and serial number are to be associated with the process. Others contend that these are associated, perhaps as labels, to the instances that are the participants."	user		
+21034	objective_achieved_by	OBI_0000833	definition needs clean up to indicate directrionality	user		TODO: typo. Tracker
+6593	obsolete disease course	OBI_0000354	duplicate	obsolete		
+7938	obsolete__biomaterial(deprecated)	OBI_0000098	"call Jan11 2008: Proposal to keep Biomaterial as name of the branch, but with the following definition: object and has_role (sample role or reagent role).. While Device would be an object and ((has_role some instrument_role) or (has_part some (has_role some instrument_role)))"	obsolete		
+7942	obsolete__biomaterial(deprecated)	OBI_0000098	"Domain of an object property ""has_role_which_can_only_be_played_by_biomaterial_entity""  in obi before split, Range: ?role_which_can_only_be_played_by_biomaterial_entity (LF 040907)."	obsolete		
+21107	obsolete__chemical entity (import_from ChEBI)	OBI_0000336	Import of ChEBI ontology	obsolete		
+4985	obsolete__GO molecular function placeholder	OBI_0000282	This placeholder is a stub for molecular functions from GO that OBI will need for assay reagent (BB:2008-01-30).	obsolete		
+11139	obsolete_?all kind ofl lavage	OBI_0302718	PRS:22-02-2008: see bronchial alveolar lavage under experimental biomaterial entity	obsolete		
+19186	obsolete_?organism status	OBI_0100050	THIS IS PROBABLY A QUALITY.  JAMES	obsolete		
+6911	obsolete_algorithm	OBI_0000270	replaced by IAO_0000064	obsolete		
+3227	obsolete_allele	OBI_0100003	bin under common 'Genotype' Placeholder. Do we also want recessive_allele etc? as Children or are these qualities. HP will check with PATO	obsolete		
+13748	obsolete_amino acid	OBI_0100070	TEMP FOR NOW FOR STRUCTURE - MAY NEED TO REMOVE THIS.  JAMES	obsolete		
+3897	obsolete_animal	OBI_0100076	"MC: definition not satisfying, it tells more about the difference between plant and animal than what is an animal."	obsolete		
+5878	obsolete_artificially engineered biomaterial	OBI_0100037	THIS IS NOT A GOOD PARENT CONCEPT - THIS SHOULD BE A QUALITY.  JAMES	obsolete		
+7777	obsolete_author role	OBI_0000357	moved to IAO	obsolete		
+7778	obsolete_author role	OBI_0000357	move to IAO	obsolete
+3767	obsolete_background correction	OBI_0200009	Obsolete as now replaced with objective background correction	obsolete
+11692	obsolete_binary digital entity	OBI_0000244	digital_entity	obsolete
+11699	obsolete_binary digital entity	OBI_0000244	replaced by IAO_0000019	obsolete
+7323	obsolete_binary executable	OBI_0000222	replaced by IAO_0000222	obsolete
+3059	obsolete_Biologic	OBI_0000267	"CDISC: variable. 1. Any quantity that varies; any attribute, phenomenon or event that can have different qualitative or quantitative values. 2. In SDTM variables are used to describe observations. Such describing variables have roles that determine the type of information conveyed by the variable about each observation and how it can be used; FCR: Variables concepts that can be assigned values and thus must be defined operationally by the methods for measuring or evaluating them; CDISC: study variable. A term used in trial design to denote a variable to be captured on the CRF. See also variable, supporting variable"	obsolete
+16427	obsolete_biomolecule	OBI_0100022	MC: do we want a sibling to include chemicals for example?	obsolete
+18234	obsolete_biosource provider	OBI_0100040	THIS IS A ROLE.  James	obsolete
+14692	obsolete_cell derived from multicellular organism	OBI_0100034	"added as hierarchy term\nHMMM.. THE CONCEPT HERE IS CELL, ITS ORIGIN IS A DIFFERENT CONCEPT LINKED BY A RELTION SUCH AS ORIGNATED_FROM OR SIMILAR.  SUGGEST REMOVE THIS AND ADD APPROPRIATE RELATION. JAMES"	obsolete
+13488	obsolete_cellular compartment	OBI_0100054	possible import from GO or From  CARO	obsolete
+7384	obsolete_cohort	OBI_0100019	10/02/2008: PRS - Should be a child of population (we now do away with agregate object for the moment)	obsolete
+19005	obsolete_Conclusion	OBI_0000005	replaced by IAO_0000035	obsolete
+8858	obsolete_contour plot	OBI_0000246	replaced by IAO_0000057	obsolete
+8860	obsolete_contour plot	OBI_0000246	generically_dependent_continuants	obsolete
+4225	obsolete_curation status	OBI_0000266	replaced by IAO_0000078	obsolete
+18423	obsolete_data	OBI_0000670	obsoleted per tracker item http://sourceforge.net/tracker/index.php?func=detail&aid=2581822&group_id=177891&atid=886178	obsolete
+18294	obsolete_data format specification	OBI_0000187	replaced by IAO_0000098	obsolete
+19134	obsolete_data set	OBI_0000042	replaced by IAO_0000100	obsolete
+13480	obsolete_datum	OBI_0000305	was measurement. (alan) Is this the old quantitative value? If so need to change cardinal part of stuff. I think the value and units should be on special relations and that the value should not be a BFO entity.	obsolete
+13482	obsolete_datum	OBI_0000305	replaced by IAO_0000109	obsolete
+21176	obsolete_density plot	OBI_0000179	generically_dependent_continuants	obsolete
+21178	obsolete_density plot	OBI_0000179	replaced by IAO_0000079	obsolete
+15842	obsolete_dependent_bearers	OBI_0000362	"The question of each of these, is what is the bearer. It seems that these might not be independent continuants and therefore not reasonable bearers of dependents."	obsolete
+6022	obsolete_derived data item	OBI_0000677	obsoleted per tracker item http://sourceforge.net/tracker/index.php?func=detail&aid=2581822&group_id=177891&atid=886178	obsolete
+1199	obsolete_device function	OBI_0400167	"Daniel Schober: Bill, please check ID and definition"	obsolete
+20298	obsolete_differentiation state	OBI_0100042	PRS: Should be 'cellular differentiation state' and should be moved to quality or dependent continuant branch	obsolete
+12377	obsolete_digital document	OBI_0000195	replaced by IAO_0000105	obsolete
+10411	obsolete_digital entity	OBI_0000261	replaced by IAO_0000012	obsolete
+4538	obsolete_diplotype	OBI_0100004	MC: is diplotype a diploid genotype? (cf haplotype)	obsolete
+4545	obsolete_diplotype	OBI_0100004	"PRS: see reference, it stands for disomic genotype and it is also referred to as "" The combination of two haplotypes is called the diplotype"" from PMID:15274749 even though no details are given on the type of combinaition"	obsolete
+21013	obsolete_disease	OBI_0000155	duplicate with IEDB term.	obsolete
+21014	obsolete_disease	OBI_0000155	rem1: BP - placed into quality. needs to be discussed	obsolete
+21015	obsolete_disease	OBI_0000155	"rem0: BS did not view disease as a process, and indeed it is now a child of dependent continuant."	obsolete
+21016	obsolete_disease	OBI_0000155	moved from TheRest.OWL to Quality branch by James M 2/6/08	obsolete
+10547	obsolete_dot plot	OBI_0000123	replaced by IAO_0000123	obsolete
+10549	obsolete_dot plot	OBI_0000123	generically_dependent_continuants	obsolete
+2882	obsolete_dye	OBI_1000209	REALLY NOT SURE IF THIS IS A ROLE OR BIOMATERIAL.  JAMES	obsolete
+13328	obsolete_ecotype	OBI_0100012	"PRS: Following discussion on biomaterial branch related to taxonomic order,strain and species, this class might get deprecated or submitted to role branch"	obsolete
+13758	obsolete_emulsion	OBI_0100047	MC: should be a state	obsolete
+20490	obsolete_enrolled population role	OBI_0000178	The group of eligible participants that agreed to participate in the trial and signed the informed consent.	obsolete
+8249	obsolete_environmental matter	OBI_0000256	(formerly known as environmental sample)	obsolete
+8251	obsolete_environmental matter	OBI_0000256	PRS:19032008: change label from site_sample to environmental sample to match definition. site_sample demoted to alternative term	obsolete
+8260	obsolete_environmental matter	OBI_0000256	PRS: 110508: Possible Import from ENVO:00010483	obsolete
+8261	obsolete_environmental matter	OBI_0000256	Biom call - January 2009: \nInteraction with ENVO: \n- ENVO will place their terms under 'material entity' instead of 'environmental matter'\n- They will use a quality / role that indicates that a given material entity is a 'living environment'. \n- We can import now ENVO terms under material entity (rocks / oil / soil /...)	obsolete
+18196	obsolete_enzyme	OBI_0100023	MC: should be child of a class protein	obsolete
+7641	obsolete_ex-vivo_state	OBI_0000259	"rem0: (AL) One of in-vitro state/ex-vivo state should be deleted, and made a synonym of the remaining term."	obsolete
+9049	obsolete_experimental biomateral entity	OBI_0100059	"DS: what is this? Does the  'experimental' here refer to the biomaterials role in an experiment?  Or does this refer to the metadata level, e.g. indicating this class'  experimental status?"	obsolete
+4345	obsolete_Experimental factor	OBI_0000008	"A variable is a Study role assigned to a particular measurable or observable outcome; also marker, biomarker, biological marker"	obsolete
+15283	obsolete_Finding	OBI_0000120	CDISC definition: a meaningful interpretation of data or observations resulting from planned evaluations.	obsolete
+19348	obsolete_genetic modification	OBI_0100043	"GENETIC MODIFICATION" TO ME SOUNDS LIKE AN ACTION - NOT SURE HOW WE DEAL WITH THIS ONE.	obsolete
+19349	obsolete_genetic modification	OBI_0100043	PRS: move to plan and planned processes and possibly send to dependentcontinuant branch or PATO a quality such as 'genetically modified'	obsolete
+2315	obsolete_genotype	OBI_0100006	"THIS ALSO SOUNDS LIKE NON-REALIZABLE INFORMATION ENTITY TO ME, HENCE DENRIE.  JAMES\nIT IS CURRENTLY A PLACEHOLDER. Philippe"	obsolete
+16245	obsolete_Global assessment variable	OBI_0000036	"CDISC definition: global assessment variable. A single variable, usually a scale of ordered categorical ratings, which integrates objective variables and the investigator's overall impression about the state or change in state of a subject."	obsolete
+1074	obsolete_haplotype	OBI_0100005	MC: definition says it is a haploid genotype. Should be a subclass of genotype then	obsolete
+12544	obsolete_histologic preparation	OBI_0302719	PRS 22-02-2008	obsolete
+7582	obsolete_homo sapiens	OBI_0000263	PRS: a person is material entity instantiating an organism human	obsolete
+7593	obsolete_homo sapiens	OBI_0000263	10/13/09: Was obsoleted as discussed in http://sourceforge.net/tracker/?func=detail&aid=2843699&group_id=177891&atid=886178\nUse the 'homo sapiens' class imported from the NCBI taxonomy instead.	obsolete
+7596	obsolete_homo sapiens	OBI_0000263	"Was changed from person to homo sapiens and alternative term: ''natural person', definition  ""This is a common offshore legal term meaning a living breathing person as opposed to an unnatural person such as a corporation"" Source: Alan Ruttenberg: http://www.google.com/search?client=safari&rls=en&q=define%3Anatural+person&ie=UTF-8&oe=UTF-8"	obsolete
+17301	obsolete_homogenous substance	OBI_1000005	"DS: Create alternative terms material or matter then, and move up in hierarchy..."	obsolete
+17305	obsolete_homogenous substance	OBI_1000005	PRS: homogeneous and heterogeneous will be submitted to PATO following BM140308 call	obsolete
+11898	obsolete_hyphenated NMR instrument platform	OBI_0000460	NMR instrument	separate
+12046	obsolete_hypothesis	OBI_0000074	2009-02-28: falsifiable versus testable	obsolete
+12056	obsolete_hypothesis	OBI_0000074	2009-02-28: work on this term has been finalized during the OBI workshop winter 2009	obsolete
+12057	obsolete_hypothesis	OBI_0000074	discussion on the tracker\nhttp://sourceforge.net/tracker/index.php?func=detail&aid=1887478&group_id=177891&atid=886178	obsolete
+15656	obsolete_image	OBI_0000030	replaced by IAO_0000101	obsolete
+10516	obsolete_in vivo biomaterial	OBI_0100033	"This is a place holder, indicating that we have trouble dealing with the state / site of biomaterials, i.e. in vivo, ex vivo, in vitro\nTHIS IS NOT A CONCEPT FOR BIOMATERIAL - LIKELY A QUALITY.  JAMES"	obsolete
+19381	obsolete_information artifact	OBI_0000080	replaced by IAO_0000030	obsolete
+14606	obsolete_information content entity	OBI_0000142	replaced by IAO_0000030	obsolete
+14607	obsolete_information content entity	OBI_0000142	information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).	obsolete
+522	obsolete_instruction trigger	OBI_0000349	replaced by IAO_0000001	obsolete
+17514	obsolete_instrument	OBI_0400003	"rem1: At the meeting in Philly I wrote that BS said that it should be a count term, such as a set of instruments. By allowing connected devices we avoid the problem of things like LCMS being considered separate items, since we have a number of discrete functions like separation, making things fly, monitoring the charge and mass of what flies etc that are all part of a single machine.\nFG: Get rid of it and make it a defined class under device"	obsolete
+11413	obsolete_Intervention variable	OBI_0000152	"CDISC definition: intervention. The drug, device, therapy or process under investigation in a clinical trial which has an effect on outcome of interest in a study: e.g., health-related quality of life, efficacy, safety, pharmacoeconomics. Synonyms: therapeutic intervention, medical product. See also: test articles; devices;.  medicinal product. Synonym for therapeutic intervention, but usually a drug."	obsolete
+6697	obsolete_investigation site role	OBI_0000225	solution2: site is related to trial used located_in relation - site can bear the role	obsolete
+6701	obsolete_investigation site role	OBI_0000225	"solution1: is a physical location, should maybe go under processual context, and then be used in conjunction with the located relation"	obsolete
+6704	obsolete_investigation site role	OBI_0000225	site is a material (building) having the role site	obsolete
+998	obsolete_journal article content	OBI_0000159	replaced by IAO_0000013	obsolete
+16117	obsolete_labware function	OBI_0900005	"How does this relate to an object such as the enzyme-coated plate used in an ELISA protocol application?  The plate itself is a type of labware, but the enzyme is a reagent.(BB:2007-07-10)."	obsolete
+11075	obsolete_liquid chemical solution	OBI_0100045	added as hierarchy term	obsolete
+11082	obsolete_liquid chemical solution	OBI_0100045	"moved here following BM140308-call from molecular mixture (a class which has been deprecated, i.e. moved to obsolete.owl"	obsolete
+10714	obsolete_mass spectrometry assay	OBI_0000183	8/26/09: obsoleted because this it was duplicated in OBI_0000470	obsolete
+11803	obsolete_material entity	OBI_0000141	"Because OBI spans many levels of granularity, we can't effectively use the BFO three level granularity model. Thus we erase the difference using this strategy of saying it is any of the material like entities in BFO"	obsolete
+11810	obsolete_material entity	OBI_0000141	replaced by IAO_0000018	obsolete
+13935	obsolete_measured data item	OBI_0000126	obsoleted per tracker item http://sourceforge.net/tracker/index.php?func=detail&aid=2581822&group_id=177891&atid=886178	obsolete
+12649	obsolete_measurement unit	OBI_0000176	agree	obsolete
+12653	obsolete_measurement unit	OBI_0000176	replaced by IAO_0000003	obsolete
+16683	obsolete_medical institution role	OBI_0000128	"External definitions.  CDISC:  Any public or private entity or agency or medical or dental facility where clinical trials are conducted. [ICH].  An independent body constituted of medical, scientific, and non-scientific members; study-site (RCT schema)"	obsolete
+5290	obsolete_Metabolite	OBI_0000087	output of a process	obsolete
+13316	obsolete_microarray function	OBI_0400172	DS: This and its subclasses are experimantal classes added purely for experimentation and implementation of a simple use case.	obsolete
+12849	obsolete_molecular mixture	OBI_0100044	"PRS:22022008\nfrom the current definition, it sounds like an bfo:agregate object with a possibility to become a child of collection-> hence change curation status by adding temporary graph position"	obsolete
+5693	obsolete_monomer	OBI_0100068	obsoleted as not required - if it is required in future this should be mireoted	obsolete
+958	obsolete_multi-tissue structure	OBI_0302722	PRS:22022008:possible import from CARO dbxref=CARO:0000055	obsolete
+6501	obsolete_multicellular entity of organismal origin (Should be deprecated!)	OBI_0100057	"multicellular entity of organismal origin ""has role"" some ex-vivo state in obi before split (LF 040907)."	obsolete
+14360	obsolete_narrative object	OBI_0000013	"agree - DENRIE. Issue(alan) do we only mean text? What about a story told by mime. Does music count? (no) what about an oral report. Regarding definition, saying it is a set of propositions means we loose the idea that wording matters. Maybe adjust saying a narrative object has some relationshop to a set of propositions"	obsolete
+14363	obsolete_narrative object	OBI_0000013	replaced by IAO_0000006	obsolete
+19665	obsolete_natural biomaterial	OBI_0100007	DS: Assign metadata and ID\n  THIS IS NOT A GOOD PARENT CONCEPT - THIS SHOULD BE A QUALITY.  JAMES	obsolete
+5646	obsolete_non-realizable information entity	OBI_0000046	replaced by IAO_0000100	obsolete
+5648	obsolete_non-realizable information entity	OBI_0000046	top level	obsolete
+3243	obsolete_normalized	OBI_0302881	"20091024, Melanie Courtot: this class was asserted under conferred qualities. After updating it is now redundant with the defined class normalized data set OBI_0000451 which should be used instead."	obsolete
+3244	obsolete_normalized	OBI_0302881	would have to inhere in data - nono. Is this related to the objective	obsolete
+15132	obsolete_number	OBI_0000095	Was 'value'	obsolete
+15401	obsolete_obi_function	OBI_0900000	Daniel Schober: I think obi_function should be trashed.	obsolete
+15403	obsolete_obi_function	OBI_0900000	"Still debating whether Assay_function, Assessment_function (sub-class of Assay_function), and Algorithm_function have any meaning in a BFO context, where function appears to be intended to inhere only in independent material continuants (BB:2007-07-10)."	obsolete
+6796	obsolete_objective specification	OBI_0000217	"Answers the question, why did you do this experiment?"	obsolete
+6798	obsolete_objective specification	OBI_0000217	replaced by IAO_0000005	obsolete
+572	obsolete_patent content	OBI_0000028	"need to distinguish the patent submission (which I think the term refers to) and the patent itself, which is what confers the rights. (Alan) Renamed from patent to patent submission. [Isn't the submission like a recipe, in that it tells you how to do something? no] Cristian: what is the difference b/w some document that has been patented, and the same document that has not been patented? The (informational) content is the same. It is just that the former has been encapsulated within some social mechanism, hence it has acquired some role. Hence 'patent' is a role."	obsolete
+11746	obsolete_peptide	OBI_0100083	TEMP FOR NOW FOR STRUCTURE - MAY NEED TO REMOVE THIS.  JAMES\nHAS PART_OF RELATION WITH POLYPEPTIDE CONCEPT\nHAS MADE_UP_OF RELATION WITH AMINO ACID CONCEPT.  JAMES	obsolete
+6194	obsolete_plan specification	OBI_0000344	Alternative previous definition: a plan is a set of instructions that specify how an objective should be achieved	obsolete
+6203	obsolete_plan specification	OBI_0000344	replaced by IAO_0000104	obsolete
+6204	obsolete_plan specification	OBI_0000344	Part of range for an object property is_potentially_realizable_as in obi before split (LF 040907)	obsolete
+4301	obsolete_planned process	OBI_0600062	"We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process,the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some \nobjectives is a planned process."	obsolete
+4307	obsolete_planned process	OBI_0600062	There is disagreement (BP/AR) if only humans or also robots / machines can execute planned processes.	obsolete
+4308	obsolete_planned process	OBI_0600062	"several roles are implied in this: There must be one or more actors that realizes the plan, potentially a planner that devised the plan, potentially a supervisor monitoring the plan."	obsolete
+21059	obsolete_polypeptide	OBI_0100084	"MC-BP: removed term for polypeptide, distinction more than 10 residues not needed in OBI. We will use peptides"	obsolete
+21064	obsolete_polypeptide	OBI_0100084	TEMP FOR NOW FOR STRUCTURE - MAY NEED TO REMOVE THIS.  JAMES\nHAS MADE_UP_OF RELATION WITH PEPTIDE CONCEPT.  JAMES	obsolete
+4751	obsolete_portion of tissue	OBI_0302723	PRS22022008: possible import from CARO dbxref=0000043	obsolete
+4735	obsolete_programming language	OBI_0000058	replaced by IAO_0000025	obsolete
+1337	obsolete_property-based vector selection	OBI_0200159	no longer required as gating has been dealt with using objectives data vector reduction and partioning	obsolete
+19667	obsolete_protein (obsolete)	OBI_0100085	TEMP FOR NOW FOR STRUCTURE - MAY NEED TO REMOVE THIS.  JAMES\nHAS MADE_UP_OF RELATION WITH POLYPEPTIDE CONCEPT.  JAMES	obsolete
+10212	obsolete_protocol application	OBI_0000069	"For developers: Instead of using 'protocol application', either use the generic 'planned process', or more specific experimental planned processes 'processing material', 'assay', 'data transformation'"	obsolete
+10213	obsolete_protocol application	OBI_0000069	"rem1: This is an actual part of the experiment. It includes the protocol that the experimenter intends to carry out, deviations from this and unintended variables, such as the earthquake that occurred while the experiment was taking place."	obsolete
+10215	obsolete_protocol application	OBI_0000069	"as of 1/22/09, this will be merged with planned process, as the distinction between experimental and non-experimental processes can be hard to maintain."	obsolete
+10220	obsolete_protocol application	OBI_0000069	protocol_application part_of_process some sample_preparation_for_assay in obi before split (LF 040907)	obsolete
+18337	obsolete_protocol participant role	OBI_0000587	19 Feb 2009:  moved to defined class after OBI Workshop; accepted as core term	obsolete
+2650	obsolete_random vector selection	OBI_0200158	no longer required as gating has been dealt with using objectives data vector reduction and partioning	obsolete
+11055	obsolete_realizable information entity	OBI_0000337	replaced by IAO_0000033	obsolete
+7789	obsolete_reference role	OBI_0000133	19 Feb 2009:  core term	obsolete
+14287	obsolete_report display element	OBI_0000001	replaced by IAO_0000091	obsolete
+14289	obsolete_report display element	OBI_0000001	"There will be some issue here about whether these are defined classes. As intended these are meant to denote the parts of the report that are not textual but are typically boxed and set within the text, labelled with some identifier, and referred to in the text"	obsolete
+4201	obsolete_report figure	OBI_0000027	replaced by IAO_0000059	obsolete
+4206	obsolete_report figure	OBI_0000027	"I prepended the 'report ' to make it clear that we mean parts of reports here. We may want a more generic version of 'figure', in which case this would become a defined class - figure and part_of some report"	obsolete
+16798	obsolete_report graph	OBI_0000240	replaced by IAO_0000038	obsolete
+8433	obsolete_report of results	OBI_0000099	replaced by IAO_0000065	obsolete
+8436	obsolete_report of results	OBI_0000099	disagreement about where reports go. alan: only some gene lists are reports. Is a report all the content of some document? The example of usage suggests that a report may be part of  some article. Term needs clarification	obsolete
+6144	obsolete_report table	OBI_0000265	replaced by IAO_0000097	obsolete
+10849	obsolete_results_from	OBI_0000352	"A review of Philippes results_from classes, put into bins by similarity by Alan and Melanie, for subsequent review."	obsolete
+14954	obsolete_reverse transcriptase	OBI_0100025	MC: should be a child of DNA polymerase	obsolete
+5570	obsolete_role of being excluded study participant	OBI_0000173	CDISC definition:  screen failure. Potential subject who did not meet one or more criteria required for participation in a trial. See also screening of subjects. screen/screening (of substances). Screening is the process by which substances are evaluated in a	obsolete
+506	obsolete_role of nutritional supplement	OBI_0000149	old def: Nutritional supplement is a nutrient role played by additives to feed or culture medium which enhance its nutritive properties	obsolete
+1565	obsolete_role of potential study participant	OBI_0000229	"Decided that screening of participants is part of the study, therefore this term obsoleted and study subject or child terms should be used instead"	obsolete
+7822	obsolete_rule	OBI_0500021	replaced by IAO_0000055	obsolete
+7823	obsolete_rule	OBI_0500021	MSI	obsolete
+6392	obsolete_software interpreter	OBI_0000199	"Do we care? Jennifer: Yes, there was a particular version of R that had a bug and it was fixed later. That would imply that we mean specific version of an interpreter. So an instance of this would be a particular version of the interpreter"	obsolete
+6394	obsolete_software interpreter	OBI_0000199	replaced by IAO_0000065	obsolete
+6632	obsolete_solution	OBI_0100048	MC: should be a state	obsolete
+3704	obsolete_source code module	OBI_0000039	replaced by IAO_0000096	obsolete
+17404	obsolete_specified input role	OBI_0000022	data can be an entity that plays an input role	obsolete
+17409	obsolete_specified input role	OBI_0000022	"role of data or material entity played at the start of a process; must be specified.  \nreagents for measuring glucose and a specimen of blood are inputs in a glucose-measuring assay.\nthe input must be specified, for example, the reagents will be in tubes which aslo contain air; the air is not an input unless it is specified in the assay protocol"	obsolete
+17412	obsolete_specified input role	OBI_0000022	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."	obsolete
+17413	obsolete_specified input role	OBI_0000022	OBSOLETED: because we are now using the relations rather than the roles.	obsolete
+4978	obsolete_specimen_role	OBI_0000254	"rem: not necessarily played by biomaterial entities, also include material entity"	obsolete
+4979	obsolete_specimen_role	OBI_0000254	"organism ""has_role_which_can_only_be_played_by_biomaterial_entity"" some specimen_role in obi before split (LF 040907)."	obsolete
+1394	obsolete_statistical sample role	OBI_0000452	JM: Made obsolete following the decision in the summer 2009 workshop about modellling sample and specimen.	obsolete
+20400	obsolete_study committee role	OBI_0000193	"coordinating committee (also executive committee, steering committee MUSC; study-committee, RCT schema)"	obsolete
+8387	obsolete_study participant role	OBI_0000111	"Study participant is a role of actual or potential entities of, used in or produced by a study; NB:  this does not include the study personnel who perform the study"	obsolete
+8393	obsolete_study participant role	OBI_0000111	Unclear differentia between study subject role and study participant role. Discussed on call 14/09/09 and also agreed to deprecate in workshop.	obsolete
+8394	obsolete_study participant role	OBI_0000111	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."	obsolete
+17669	obsolete_study population role	OBI_0000002	"Decision to obsolete on call 14/9/09. Had two child terms 'enrolled population role' and study group role, insufficient differentia. Use either of the more specific terms instead."	obsolete
+6809	obsolete_subject provider role	OBI_0000255	Subject provider does not provide clinical subjects	obsolete
+7284	obsolete_supernatant	OBI_0100036	added as hierarchy term	obsolete
+7286	obsolete_supernatant	OBI_0100036	MC: should be a role	obsolete
+479	obsolete_Surrogate marker	OBI_0000007	CDISC definition:  surrogate marker. A measurement of a drug's biological activity that substitutes for a clinical endpoint such as death or pain relief.	obsolete
+20527	obsolete_Surrogate variable	OBI_0000168	CDISC definition:  surrogate variable. A variable that provides an indirect measurement of effect in situations where direct measurement of clinical effect is not feasible or practical.	obsolete
+5203	obsolete_suspension	OBI_0100049	MC: should be a state	obsolete
+2801	obsolete_technology provider role	OBI_0000009	"CDISC definition:  technology provider. A person, company or other entity who develops, produces and sells software applications and/or hardware for use in conducting clinical trials and/or in analyzing clinical trial data and or submitting clinical trial information for regulatory approval"	obsolete
+12524	obsolete_test synthetic peptide	OBI_0302717	maybe will be moved to placeholder _defined class	obsolete
+9114	obsolete_text based digital entity	OBI_0000132	replaced by IAO_0000047	obsolete
+9117	obsolete_text based digital entity	OBI_0000132	digital_entity	obsolete
+1177	obsolete_time trigger	OBI_0000331	replaced by IAO_0000034	obsolete
+6411	obsolete_Treatment variable	OBI_0000160	CDISC definition:  investigational treatment. An intervention under investigation in a clinical trial.	obsolete
+16533	obsolete_trial site role	OBI_0000156	CDISC definition:  trial site. The location(s) where trial related activities are actually conducted.	obsolete
+16539	obsolete_trial site role	OBI_0000156	"AR: to move under processual context? + relation located, as it is the physical location"	obsolete
+20870	obsolete_unicellular organism	OBI_0100008	MC: should be a child of organism?\nI THINK THIS IS LIKELY A QUALITY.  JAMES	obsolete
+20874	obsolete_unicellular organism	OBI_0100008	added as hierarchy term	obsolete
+13541	obsolete_vaccination	OBI_0000745	"Needs vaccine role, which is realized by the same entity that has the 'material to be added role'"	obsolete
+12159	obsolete_vaccine	OBI_0000746	"we later want to add the 'vaccine function', after which this can be a defined class"	obsolete
+10060	obsolete_vector	OBI_0100038	PRS: Vector should treated as a role ->submission to tracker	obsolete
+12035	obsolete_virus	OBI_0100027	merged Maura Gasparetto _ Helen Parkinson\nMC: A virus is not an orgnism	obsolete		
+17424	obsolete_vitamin role	OBI_0000037	JM: I have obsoleted this 1st Sep 2009 since it is no longer needed	obsolete		
+14331	obsoleted_has_specified_input_information	OBI_0000315	See note for outputs_data. 6/9/09: TO be removed	obsolete		
+11209	obsoleted_specified output role	OBI_0000657	"The role must be specified by the process protocol.  Example, in an assay measuring glucose in blood, the blood specimen is input to the assay, and is discarded after the assay.  In this case, unless the blood is sepcified as an output of the assay it does not play the role output role."	obsolete		
+11214	obsoleted_specified output role	OBI_0000657	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."	obsolete		
+10251	optical subsystem	OBI_0400080	"DS: Is 'subsytem' necessary or is 'optical_system' enough. Not sure its graph position since an optical subsystem is not necessarily an instrument, but more likely part of one."	user		
+10632	oral ingestion of pill	OBI_0000837	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+10633	oral ingestion of pill	OBI_0000837	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+14041	organ section	OBI_0100066	section needs to be added as process\nPRS 22-02-2008: organ has input_role in protocol_application histological preparation.\nAlso how different it is from a fragment	delete		
+10394	organism	OBI_0100026	"10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and 'other organisms')"	user		
+10399	organism	OBI_0100026	"13-02-2009:\nOBI doesn't take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.\nThis issue is outside the scope of OBI."	user		
+11857	organization	OBI_0000245	"BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:\n\n1) there are organization_member_roles (president, treasurer, branch\neditor), with individual persons as bearers\n\n2) there are organization_roles (employer, owner, vendor, patent holder)\n\n3) an organization has a charter / rules / bylaws, which specify what roles\nthere are, how they should be realized, and how to modify the\ncharter/rules/bylaws themselves.\n\nIt is debatable what the organization itself is (some kind of dependent\ncontinuant or an aggregate of people). This also determines who/what the\nbearer of organization_roles' are. My personal favorite is still to define\norganization as a kind of 'legal entity', but thinking it through leads to\nall kinds of questions that are clearly outside the scope of OBI.\n\nInterestingly enough, it does not seem to matter much where we place\norganization itself, as long as we can subclass it (University, Corporation,\nGovernment Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,\nW3C, University of Oklahoma), and have it play roles.\n\nThis leads to my proposal: We define organization through the statements 1 -\n3 above, but without an 'is a' statement for now. We can leave it in its\ncurrent place in the is_a hierarchy (material entity) or move it up to\n'continuant'. We leave further clarifications to BFO, and close this issue\nfor now."	user		
+4624	OWL	OBI_0000332	XML_file	delete		
+14640	p-value	OBI_0000175	"May be outside the scope of OBI long term, is needed so is retained"	user		TODO: goes with mathematical feature? Add to tracker for JM
+21052	parallel group design	OBI_0500006	MSI	delete		
+7072	parameter threshold	OBI_0000172	quantity	delete		
+300	pareto scaling	OBI_0200037	Community submitted term (MSI)	separate	delete	delete
+8643	particle delivery vessel	OBI_0400081	FG: this should be delted - particle delivery is a role that an object can play	separate		
+2752	pathogen role	OBI_0000718	6 April 2009:  from the Vaccine Community	separate		TODO: tracker: should be imported
+17599	patient role	OBI_0000093	"CDISC definition:  patient. Person under a physician's care for a particular disease or condition. NOTE: A subject in a clinical trial is not necessarily a patient, but a patient in a clinical trial is a subject. See also subject, trial subject, healthy volunteer. Often used interchangeably"	asked jennifer		separate
+17610	patient role	OBI_0000093	20 Feb 2009 added restriction of being human	delete		
+3446	PCR product	OBI_0000406	"We are using PCR and not the written out words, as this is the most common used."	user		
+2145	PCR-SSCP assay	OBI_0302737	"has_input should be ""DNA molecules"" or something similar - as of 9/4/08 ""ChEBI ontology"" was the best choice"	delete		
+15043	peritoneum	OBI_0000323	"BP: should be imported in the future, but I need it now to demonstrate how to define intraperitoneal injection"	user		
+4675	phage display library	OBI_1000029	"PRS: 22022008. class moved under population,\nmodification of definition and replacement of biomaterials in previous definition with 'material'\naddition of has_role restriction"	separate		
+4680	phage display library	OBI_1000029	7/13/09: Need to clarify if this meets reagent role definition	user	delete	delete - no more reagent role there
+16518	physical document	OBI_0000044	"information_content_entity ""is_encoded_in"" some physical_document in obi before split (040907)."	delete		
+16527	physical document	OBI_0000044	BP: moved and renamed for BFO	delete		
+8949	pill	OBI_0000827	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+8950	pill	OBI_0000827	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+19103	placebo role	OBI_0000169	"CDISC definition placebo. A pharmaceutical preparation that does not contain the investigational agent. In blinded studies, it is generally prepared to be physically indistinguishable from the preparation containing the investigational product."	asked jennifer		separate
+12061	plan	OBI_0000260	"This class is included to make clear how the plan specification, the plan, and the planned process relate. OBI will however only subclass and work under the 'plan specification', and 'planned process' class, as we want to avoid to get deep into discussions of 'intend' etc."	user		
+11549	planned process	OBI_0000011	"'Plan' includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn't have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)"	user		
+11550	planned process	OBI_0000011	"This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)"	separate		
+11553	planned process	OBI_0000011	6/11/9: Edited at workshop. Used to include: is initiated by an agent	separate		
+11555	planned process	OBI_0000011	"We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process,the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some \nobjectives is a planned process."	user		
+17207	platform	OBI_0000050	"rem1: We decided at the Philly workshop that consumables do not include reagents.\nFG: we could actully add a relation to platform which would be ""has_part some instrument""\nDS: Sounds fine to me, with the restriction that I would assume a min. cardinality of 2 to be applicable for this crossproduct, so at least 2 instruments make it a platform... at least one is not  enough\nAR:has_part is transitive, and transitive properties can't have  cardinality constraints in OWL-DL. We can always put this particular  constraint in the owl-full file.\n\nWe need to make this a defined class when the class software is in the ontology"	separate		
+2980	polymer	OBI_0100069	Should be replaced by Chebi polymer and usage polymerization also fixed. HP	user		TODO tracker
+3603	polymerization	OBI_0302890	PRS:22102008: need to import catalyst from CHEBI 35223	user		TODO tracker
+1677	pool of specimens	OBI_0302716	"check with advisors as to how to represent multiple instances of any class? a set of specimens which have been gathered from one or more sample_populations, obtained by the physical process of mixing individual specimens, e.g.  mixing the DNA collected from the individual fish"	user		
+8415	pooling material from organisms	OBI_0600016	like' is one of the things that you should be controling for in a well-designed experiment. The instances of material need to have the same class.	separate		
+8425	pooling material from organisms	OBI_0600016	"2/27/09,  BP: This class was called 'material pooling', but the logical definition restricted it to materials from organisms. I therefore changed the label to 'pooling material from organisms'."	user		
+15672	population	OBI_0000181	rem1: collection somehow always involve a selection process	separate		
+8731	power supply	OBI_0400142	"was power_pack, maps to SEP electrical_power_supply"	separate		
+10609	primary structure of DNA macromolecule	OBI_0000811	placeholder for SO	user		TODO tracker
+16264	primary structure of sequence macromolecule	OBI_0000830	"these are not in great shape yet; need to clarify how what a 'sequence macromolecule is' and how it differes from molecules in general (directivity of certain bonds, linear connectivity along that type of bond etc.)"	separate		
+16265	primary structure of sequence macromolecule	OBI_0000830	These are all placeholders and should be replaced by SO terms	user		TODO tracker
+5448	principal investigator role	OBI_0000103	"CDISC definition: A person responsible for the conduct of the clinical trial at a trial site. If a trial is conducted by a team of individuals at a trial site, the investigator is the responsible leader of the team and may be called the principal investigator. 2. The individual principal investigator. 2. The individual under whose immediate direction the test article is administered or dispensed to, or used involving, a subject, or, in the event of an investigation conducted by a team of individuals, is See also sponsor-investigator.; Leiter der klinischen Prufung.Under the German Drug Law, the physician who is head of the clinical investigation (CDISC): coordinating investigator (CDISC) (also study coordinator, MUSC); sponsor-investigator. An individual who both initiates and conducts, alone or with others, a clinical trial, and under whose immediate direction the investigational product is administered to, dispensed to, or used by a subject.NOTE: The term does not include any person other than an individual, hence not a corporation, agency (CDISC)"	asked jennifer		separate
+16293	protease cleavage	OBI_0600056	enzymatic digestion	user		TODO: add as alt tem if needed
+1770	protein column	OBI_0000468	refactor as defined class	separate		
+9176	prothrombin time assay	OBI_0000802	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+9185	prothrombin time assay	OBI_0000802	2009/10/18 Alan Ruttenberg. This assay was added during the fucoidan use case exercise but still needs to be fleshed out. Only the AT-III assay has more carefully specified inputs and outputs	user		
+9186	prothrombin time assay	OBI_0000802	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+10230	protocol	OBI_0000272	JF/MC/BP: We limited protocols to assays and material transformations to distinguish them from algorithms.	delete		
+12236	pump valve switch	OBI_0000041	FG:I would assume this should be a pump valve control switch and it would not be specific to a liquid chromatography instrument	user		
+85	purification objective	OBI_0000796	"10/14/09,  BP: This should be linked to the 'purified' 'currently conferred quality"	separate		
+1012	randomized complete block design	OBI_0500007	MSI	delete		
+11445	ratio of collected to emitted light	OBI_0000054	quantity	delete		
+15622	RDF	OBI_0000324	XML_file	delete		
+5764	reagent role	OBI_0000086	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."	separate		
+9946	reference design	OBI_0500010	MO	delete		
+19710	regulatory role	OBI_0000017	govt agents responsible for creating regulations; proxies for enforcing regulations.  CDISC definition:  regulatory authorities. Bodies having the power to regulate. NOTE: In the ICH GCP guideline the term includes the authorities that review submitted clinical data and those that conduct inspections. These bodies are sometimes referred to as competent	asked jennifer		separate
+7046	repeated measure design	OBI_0500002	MSI	delete		
+19363	replicate design	OBI_0500018	MO	delete		
+14372	restriction enzyme	OBI_0000732	5/22 Need to explore if there are GO / other classes exist that capture this. We need it now for cloning experiments	separate		TODO tracker
+13361	RNA extraction	OBI_0666666	requested by Helen Parkinson for MO	separate		
+15563	rodent care	OBI_0000728	"3/26: we are starting with rodent care, but the more generic 'animal care' should be added later."	user	delete	delete - has been added OBI_0000715
+1647	role of being consumer safety officer	OBI_0000006	FDA official who coordinates the review	user		example of usage?
+20466	role of being first subject screened	OBI_0000004	"first subject screened. First subject who signs the informed consent form and is screened for potential enrollment and randomization into a study, but has not yet been determined to meet the inclusion/exclusion criteria for the trial. who signs the informed consent form and is screened for potential enrollment and randomization into a study, but has not yet been determined to meet the inclusion/exclusion criteria for the trial."	user		
+7667	role of being first subject treated	OBI_0000100	first subject treated. First subject who receives the test article or placebo in a clinical trial.	user		
+11047	role of being healthy volunteer	OBI_0000124	"volunteer. A person volunteering to participate as a subject in a clinical trial, often a healthy person agreeing to participate in a Phase 1 trial. See"	user		
+17963	role of being member of recruited population	OBI_0000147	CDISC definition: The group of eligible participants that agreed to participate in the trial and signed the informed consent.	asked jennifer		separate
+15857	role of being member of special population	OBI_0000077	"CDISC Definition:  special populations. Subsets of study populations of particular interest included in clinical trials to ensure that their specific characteristics are considered in interpretation of data [e.g., geriatric]."	asked jennifer		separate
+1924	role of being vulnerable subject	OBI_0000106	"vulnerable subjects. Individuals whose willingness to volunteer in a clinical trial may be unduly influenced by the expectation, whether justified"	user		
+12871	role of impartial witness	OBI_0000196	"impartial witness. A person, who is independent of the trial, who cannot be unfairly influenced by people involved with the trial, who attends the informed consent process if the subject or the subject's legally acceptable representative cannot read, and who"	user		
+19898	role of Institutional Review Board	OBI_0000154	"CDISC definition:  institutional review board; independent ethics committee (IEC). An independent body (a review board or a committee, institutional, regional, national, or supranational) constituted of medical/scientific professionals and non-scientific members, whose responsibility it is to ensure the protection of the rights, safety and well-being of human subjects involved in a trial."	asked jennifer		separate
+14741	role of legally acceptable representative	OBI_0000215	"legally acceptable representative. An individual or juridical or other body authorized under applicable law to consent, on behalf of a prospective subject, to the subject's participation in the clinical trial. [ICH, E6 Glossary]"	user		
+17111	sample from organism	OBI_0000671	"we need to work on this: Is taking a urine sample a material separation process? If not, we will need to specify what 'taking a sample from organism' entails. We can argue that the objective to obtain a urine sample from a patient is enough to call it a material separation process, but it could dilute what material separation was supposed to be about."	user		
+17112	sample from organism	OBI_0000671	5/29: This is a helper class for now	user		
+3011	sample injection system	OBI_0000504	chromatography device	separate		
+12895	sample inlet	OBI_0000497	chromatography device	separate		
+6262	sample population	OBI_0000264	"PRS 22-02-2008: this is still a population. may be we need qualifiers for this entity e.g. 'screened population, recruited population or we need to use the following label: sample of population, subpopulation"	user	delete	delete - is asserted under population already
+20786	sample preparation for assay	OBI_0000073	rem1: the 'relates to a set of biological materials' covers environmental samples and data	user	delete	delete - not relevant anymore
+20792	sample preparation for assay	OBI_0000073	move to defined class	delete		
+11507	screening library	OBI_0100064	added as hierarchy term	delete		
+11514	screening library	OBI_0100064	7/13/09: Need to clarify if this meets reagent role definition	separate		
+11517	screening library	OBI_0100064	"PRS: 22-02-2008: while working on definition of cDNA library and looking at current example of usage, a screening library should be a defined class -> any material library which has input_role in a screening protocol application\nchange biomaterial to material in definition"	user		
+20643	self vs self design	OBI_0500019	MO	asked philippe		delete
+15705	separation into different composition objective	OBI_0000681	We should be using has the grain relations or concentrations to distinguish the portioning and other sub-objectives	user		
+11171	sequencing assay	OBI_0600047	has_output should be sequence of input; we don't have sequence well defined yet	user		TODO; tracker define sequence
+19519	sequential design	OBI_0300310	Provenance: OCI	separate		
+16601	single blind study execution	OBI_0000822	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+16602	single blind study execution	OBI_0000822	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+15526	skewness calculation	OBI_0200123	From Monnie's file comments - need to add moment calculation role but they doesn't exist yet - (editor note added by James Jan 2008)	separate		
+6847	solid NMR probe	OBI_0000479	NMR device	separate		
+601	solvent mixer	OBI_0000469	check on definition !	separate		TODO - def check
+20724	SomaScope	OBI_0400098	editor_note pending	separate	delete	delete
+18261	specific labeling	OBI_0600067	"definition blessed by Allyson, Bjoern, Jay & Randi"	separate		
+13066	specimen creation	OBI_0000659	6/9/09: used at workshop	separate		
+6770	specimen role	OBI_0000112	"22Jun09.  The definition includes whole organisms, and can include a human.  The link between specimen role and study subject role has been removed.  A specimen taken as part of a case study is not considered to be a population representative, while a specimen taken as representing a population, e.g. person taken from a cohort, blood specimen taken from an animal) would be considered a population representative and would also bear material sample role."	user		
+6776	specimen role	OBI_0000112	"parasite example\n- when parasite in people we study people, people are subjects and parasites are specimen\n- when parasite extracted, they become subject in the following study\nspecimen can later be subject."	user		
+6778	specimen role	OBI_0000112	"blood taken from animal: animal continues in study, whereas blood has role specimen.\nsomething taken from study subject, leaves the study and becomes the specimen."	user		
+4593	spectrolyse heparin antifactor-Xa assay	OBI_0000808	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+4597	spectrolyse heparin antifactor-Xa assay	OBI_0000808	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+4600	spectrolyse heparin antifactor-Xa assay	OBI_0000808	2009/10/18 Alan Ruttenberg. This assay was added during the fucoidan use case exercise but still needs to be fleshed out. Only the AT-III assay has more carefully specified inputs and outputs	user		
+969	splenocyte	OBI_1110116	Could be redefined as a cell type derived from spleen	user	delete	delete - done in logical def
+15150	sponsor role	OBI_0000243	"CDISC definition: sponsor. 1. An individual, company, institution, or organization that takes responsibility for the initiation, management, and/or financing of a clinical trial. 2. A corporation or agency whose employees conduct the investigation is considered a sponsor; employees are considered investigators"	asked jennifer		separate
+8791	standard compliance rule	OBI_0500024	MSI	asked philippe		delete
+12733	standard deviation calculation	OBI_0200121	From Monnie's file comments - need to add spread calculation role but they doesn't exist yet - (editor note added by James Jan 2008)	separate		
+9624	standard error	OBI_0000235	see P-Value	separate		TODO: goes with mathematical feature? Add to tracker for JM
+9226	stopping rule	OBI_0500022	MSI	asked philippe		
+10139	study design	OBI_0500000	rediscussed at length (MC/JF/BP). 12/9/08). The definition was clarified to differentiate it from protocol.	separate		
+10144	study design	OBI_0500000	Editor note: there is at least an implict restriction on the kind of data transformations that can be done based on the measured data available.	user		
+16375	study design execution	OBI_0000471	removed axiom has_part some (assay or 'data transformation') per discussion on protocol application mailing list to improve reasoner performance. The axiom is still desired.	user		
+16378	study design execution	OBI_0000471	"6/11/9: edited at workshop. Used to be: study design execution is a process with the objective to generate data according to a concretized study design. The execution of a study design is part of an investigation, and minimally consists of an assay or data transformation."	separate		
+15798	study group role	OBI_0000174	The group of randomized participants that are assigned to a treatment arm of the trial	user		example of usage?
+16846	study result	OBI_0000682	2009-02-28: work on this term has been finalized during the OBI workshop winter 2009	separate		
+10102	sub-investigator role	OBI_0000224	"CDISC definition:  Sub-investigator. Any member of the clinical trial team designated and supervised by the investigator at a trial site to perform critical trial-related procedures and/or to make important trial-related decisions (e.g., associates, residents, research fellows) [ICH] See associates, residents, research fellows"	asked jennifer		separate
+359	subject agrees they understand informed consent document	OBI_0000841	"09/28/2009 Alan Ruttenberg. There's a need for a general process like this in IAO - document and person in, signed document (and associated obligations, rights, out"	user		TODO - IAO tracker
+360	subject agrees they understand informed consent document	OBI_0000841	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+361	subject agrees they understand informed consent document	OBI_0000841	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+6986	submatrix extraction	OBI_0200074	Note that this can be considered as a special case of projection if one represents the input matrix as a vector obtained by concatenating its rows. Then extracting a submatrix is equivalent to projecting this vector into the entries belonging to the rows and columns of interest from the input matrix.	user		
+16567	supernatant collection system harvesting frame	OBI_0000146	editor_note pending	separate	delete	delete
+18919	supernatant role	OBI_0000034	20 Feb 2009.   changed definition: supernatant role is a role which inheres in a material entity and is realized by a material separation process using gravitational force in which the material bearing the supernatant role is the liquid component of the output material.	delete		
+1380	supplier role	OBI_0000018	"CDISC definition: Supplier. An organization that enters into a contract with the acquirer for the supply of a system, software product, or software service under the terms of a contract."	asked jennifer		separate
+29	survival assessment	OBI_0000699	Need to point out more specifically that survival / death is measured.	user		TODO: tracker
+1612	synthesis	OBI_0600040	This probably needs breaking down into more specific applications. The example given is already covered in reverse_transcription	user		TODO: tracker
+12560	synthetic peptide	OBI_0100065	"changed from synthetic polypeptide to peptide, to get rid of the restriction of having more than 10 amino acids (required by Chebi)."	user		
+12569	synthetic peptide	OBI_0100065	PRS:22-02-2008: a chebi entity which has output role in a synthesis protocol application	separate		
+12570	synthetic peptide	OBI_0100065	original term: protein fragment split into synthetic polypeptide and fragment derived from protein\nDS: Is this synthetic an oxymoron to the biomaterial?	separate		
+2938	Sysmex CA-6000 Coagulation Analyzer	OBI_0000843	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+2942	Sysmex CA-6000 Coagulation Analyzer	OBI_0000843	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+6422	"Sysmex Corporation, Kobe, Japan"	OBI_0000829	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+6423	"Sysmex Corporation, Kobe, Japan"	OBI_0000829	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+21206	tar	OBI_0000326	binary_digital_entity	delete		
+2346	target of material addition	OBI_1110109	10/26/09: This defined class is used as a 'macro' to reduce the size of the IEDB export.	user		
+6605	target of material addition role	OBI_0000444	"From Branch discussion with BP, AR, MC -- there is a need for the recipient to interact with the administered material.  for example, a tooth receiving a filling was not considered to be a target role."	user		
+1939	tecmag EAGLE probe	OBI_0000564	nmr probe	separate		
+7501	tecmag NMR console	OBI_0000599	NMR instrument	separate		
+11370	tecmag NMR instrument	OBI_0000534	NMR instrument	separate		
+9062	temperature control bath	OBI_0400120	DS: This was heated_bath. It was renamed to reflect the possability that the same bath can be used for cooling. We can now define the temperature variables and based on that infer if it is a cooling device or a heating device (also quite relative to surrounding temperature).	user	separate	separate
+17866	thrombin time assay	OBI_0000823	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+17870	thrombin time assay	OBI_0000823	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+17871	thrombin time assay	OBI_0000823	2009/10/18 Alan Ruttenberg. This assay was added during the fucoidan use case exercise but still needs to be fleshed out. Only the AT-III assay has more carefully specified inputs and outputs	user		
+4995	time series design	OBI_0500020	MO	asked philippe		delete
+12285	to be treated with active ingredient role	OBI_0000813	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+11969	to be treated with placebo role	OBI_0000825	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+11970	to be treated with placebo role	OBI_0000825	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+18899	total intensity transformation paired	OBI_0200027	"Note that if the word ""sum"" is replaced by the word ""mean"" in the definition, the resulting definition is equivalent."	separate		
+19620	total intensity transformation single	OBI_0200026	"Note that if the word ""sum"" is replaced by the word ""mean"" in the definition, the resulting definition is equivalent."	separate		
+18278	transfer line	OBI_0000572	chromatography device	separate		
+20135	Transformation-ML	OBI_0000317	XML_file	delete		
+19636	transgenic organism	OBI_1000048	PRS:22-02-2008: is a organism which has output_role during genetic modification of type (KO) protocol-application	user		TODO; tracker fro PRS to create relevant terms
+7679	treatment portion of study execution	OBI_0000826	09/28/2009 Alan Ruttenberg. Needed because we have to have a process to scope blinding over	user		
+7680	treatment portion of study execution	OBI_0000826	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+7681	treatment portion of study execution	OBI_0000826	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+13581	trial monitor role	OBI_0000060	"CDISC definition:  Person employed by the sponsor or CRO who is responsible for determining that a trial is being conducted in accordance with the protocol and GCP guidance. NOTE: A monitor's duties may include, but are not limited to, helping to plan and initiate a trial, assessing the conduct of trials, and assisting in data analysis, interpretation and extrapolation. Clinical Research Associate:  Primary representative of the sponsor; monitors progress of investigator sites participating in a clinical study."	asked jennifer		separate
+8095	trial statistician role	OBI_0000234	CDISC definition:  trial statistician. A statistician who has a combination of education/training and experience sufficient to implement the principles in the ICH E9 guidance and who is responsible for the statistical aspects of the trial. [ICH E9]	asked jennifer		separate
+10366	tritiated thymidine incorporation assay	OBI_0000669	2/26/09: RESOLVE: need to replace 'molecular entities' in the logical definition with 'tritiated thymidine'	user		TODO: tracker item
+1231	trypsinized material	OBI_0000420	Test Class: to evaluate OBI design pattern	separate		
+1518	unblinding process	OBI_0000840	2009/09/28 Alan Ruttenberg. Fucoidan-use-case	separate		
+1519	unblinding process	OBI_0000840	2009/09/28 Alan Ruttenberg. This class is a class that should be added to OBI. It was motivated by the Fucoidan trial use case	delete		
+786	unit-variance scaling	OBI_0200149	Community submitted term (MSI)	separate	delete	delete
+2833	urine specimen	OBI_0000651	are we happy calling collection of urine a material separation?	user		
+2839	urine specimen	OBI_0000651	"This could be instead a kind of collection of secreted stuff. Among secreted stuff there is passive, and active. urine is secreted, passiv.  lavage is secreted, active"	user		
+14316	Varian GEMINI spectrometer	OBI_0000477	NMR instrument	separate		
+12358	Varian MERCURY spectrometer	OBI_0000631	NMR instrument	separate		
+5426	Varian NMR instrument	OBI_0000611	NMR instrument	separate		
+11728	Varian UNITY INOVA spectrometer	OBI_0000558	NMR instrument	separate		
+6188	Varian UNITY spectrometer	OBI_0000579	NMR instrument	separate		
+12242	Varian VXR spectrometer	OBI_0000524	NMR instrument	separate		
+8774	variance calculation	OBI_0200120	From Monnie's file comments - need to add spread_calculation and moment_calculation roles but they don't exist yet - (editor note added by James Jan 2008)	separate		
+3135	vector mediated expression	OBI_0600063	needs defined relationship to cell culture	user		TODO: tracker
+15963	waiting	OBI_0000045	BP: I have doubts about the utility of this.	separate		
+15968	waiting	OBI_0000045	We need a better handling/modeling of time (January 2008)	separate		
+17998	whole mount tissue	OBI_1000049	PRS:22-02-2008: indicates the need to create a protocol application and distinguish it from this entity	separate		
+18001	whole mount tissue	OBI_1000049	PRS:22-02-2008: is a material which has output_role during whole mount preparation protocol-application	separate		
+13563	whole organism preparation	OBI_0000680	"does this include injecting a dye to a patient to be able to visualize parts of his brain? If not, we should state that the components of the organism are substantially re-arranged."	user		
+2139	worker role	OBI_0000116	"executes the study plan" includes the suppliers and manufacturers of reagents and other materials used in the study	user		
+7621	xenograft	OBI_0100058	MC: xenotransplantation should be submited to material_transformation	separate	delete	delete - done
+7239	XML	OBI_0000322	text_based_digital_entity	delete		
+10153	yeast artifical chromosome vector	OBI_0000709	this should be a child of 'chromosome' if we import that from another source	user		TRACKER: check where to get chromosome
+12170	zip	OBI_0000325	binary_digital_entity	delete		
+2	needle assembly	OBI_0000551	msi_01065	delete		
+132	carbon nanotube column	OBI_0000628	msi_01107	delete		
+315	multiple wavelength detector	OBI_0000505	msi_01078	delete		
+615	solvent mixer	OBI_0000469	msi_01072	delete		
+760	electrical conductivity detector	OBI_0000565	msi_01239	delete		
+776	photoionization detector	OBI_0000506	msi_01090	delete		
+841	column frit	OBI_0000602	msi_01070	delete		
+864	Bruker solid magic angle spinning probe	OBI_0000629	msi_400193	delete		
+1067	high resolution probe with automatic tuning and matching	OBI_0000616	msi_400224	delete		
+1313	nitrogen generator	OBI_0000550	msi_01034	delete	
+1788	protein column	OBI_0000468	msi_01238	delete	
+1876	fluorine-induced chemiluminescence detector	OBI_0000617	msi_01087	delete	
+1964	tecmag EAGLE probe	OBI_0000564	msi_400248	delete	
+2102	gas generator	OBI_0000507	msi_01033	delete	
+2200	chromatography consumable	OBI_0000601	msi_01115	delete	
+2409	high temperature column	OBI_0000574	msi_01233	delete	
+2465	Bruker SPE-NMR platform	OBI_0000613	msi_400278	delete	
+2574	gas chromatography equipment	OBI_0000542	msi_01030	delete	
+2718	chart recorder	OBI_0000605	msi_01069	delete	
+2938	JEOL ECX NMR spectrometer	OBI_0000625	msi_400227	delete	
+2965	sample injection system	OBI_0000504	msi_01057	delete	
+3057	Bruker UltraShield NMR magnet	OBI_0000567	msi_400187	delete	
+3223	flame photometric detector	OBI_0000588	msi_01091	delete	
+3408	column jacket	OBI_0000508	msi_01276	delete	
+3526	Bruker US 2 NMR magnet	OBI_0000467	msi_400189	delete	
+3574	Bruker Ultrastabilized NMR magnet	OBI_0000575	msi_400188	delete	
+3610	guard column	OBI_0000614	msi_01111	delete	
+3721	quaternary pump system	OBI_0000627	msi_01047	delete	
+3806	Bruker AC series NMR instrument	OBI_0000541	msi_400241	delete	
+3915	detector lamp	OBI_0000604	msi_01119	delete	
+4138	chromatography pump system	OBI_0000589	msi_01046	delete	
+4144	Bruker LC-NMR platform	OBI_0000503	msi_400276	delete	
+4159	NMR instrument	OBI_0000566	msi_400059	delete	
+4353	electron capture detector	OBI_0000509	msi_01085	delete	
+4456	liquid chromatography column	OBI_0000603	msi_01227	delete	
+4470	thermal conductivity detector	OBI_0000466	msi_01084	delete	
+4751	gas purifier	OBI_0000638	msi_01036	delete	
+4938	Bruker SampleRail system	OBI_0000544	msi_400207	delete	
+5066	acquisition computer	OBI_0000636	msi_400013	delete	
+5153	column connector	OBI_0000478	msi_01236	delete	
+5276	Bruker UltraShield Plus NMR magnet	OBI_0000530	msi_400190	delete	
+5424	Varian NMR instrument	OBI_0000611	msi_400234	delete	
+5481	obsolete_chromatography column according to packing material	OBI_0000502	msi_01258	delete	
+5538	gas chromatography detector	OBI_0000637	msi_01083	delete	
+5630	continuous wave NMR instrument	OBI_0000486	msi_400283	delete	
+6009	ozone-induced chemiluminescence detector	OBI_0000598	msi_01088	delete	
+6053	gas chromatography oven	OBI_0000554	msi_01039	delete	
+6183	Varian UNITY spectrometer	OBI_0000579	msi_400237	delete	
+6318	syringe filter	OBI_0000543	msi_01122	delete	
+6589	JEOL CapNMR probe	OBI_0000635	msi_400233	delete	
+6891	Bruker MATCH tube holder system	OBI_0000612	msi_400211	delete	
+6908	solid NMR probe	OBI_0000479	msi_400243	delete	
+7026	variable wavelength detector	OBI_0000501	msi_01079	delete	
+7045	Bruker SampleJet system	OBI_0000624	msi_400208	delete	
+7147	fourier transformation NMR instrument	OBI_0000487	msi_400284	delete	
+7279	piston-seal	OBI_0000568	msi_01116	delete	
+7508	Bruker Capillary LC-NMR platform	OBI_0000553	msi_400279	delete	
+7542	tecmag NMR console	OBI_0000599	msi_400246	delete	
+7673	capillary pump system	OBI_0000546	msi_01051	delete	
+8108	column cartridge	OBI_0000532	msi_01055	delete	
+8133	dual loop autosampler	OBI_0000500	msi_01063	delete	
+8319	obsolete_chromatography column according to column property	OBI_0000488	msi_01259	delete	
+8573	custom made column	OBI_0000621	msi_01234	delete	
+8597	flame ionization detector	OBI_0000521	msi_01197	delete	
+8682	isocratic pump system	OBI_0000556	msi_01049	delete	
+8832	JEOL NMR instrument	OBI_0000600	msi_400226	delete	
+8974	NMR tube washing system	OBI_0000498	msi_400204	delete	
+9235	column compartment	OBI_0000545	msi_01068	delete	
+9332	auto injector	OBI_0000610	msi_01058	delete	
+9511	Bruker CryoProbe	OBI_0000531	msi_400191	delete	
+9562	mass selective detector	OBI_0000569	msi_01198	delete	
+9883	gel permeation column	OBI_0000622	msi_01103	delete	
+9905	nitrogen phosphorous detector	OBI_0000489	msi_01089	delete	
+10031	column heater	OBI_0000633	msi_01040	delete	
+10058	vial	OBI_0000522	msi_01117	delete	
+10135	NMR console	OBI_0000499	msi_400015	delete	
+10317	NMR sample tube	OBI_0000578	msi_400132	delete	
+10420	autosampler	OBI_0000555	msi_400002	delete	
+10625	normal phase column	OBI_0000482	msi_01097	delete	
+10674	Bruker LC-NMR/MS platform	OBI_0000582	msi_400277	delete	
+11014	Bruker Metabolic Profiler	OBI_0000632	msi_400199	delete	
+11048	capillary column	OBI_0000496	msi_01066	delete	
+11068	magic angle spinning rotor	OBI_0000523	msi_400130	delete	
+11302	column adapter	OBI_0000594	msi_01113	delete	
+11424	Bruker AutoClean system	OBI_0000475	msi_400205	delete	
+11529	tecmag NMR instrument	OBI_0000534	msi_400250	delete	
+11886	Varian UNITY INOVA spectrometer	OBI_0000558	msi_400236	delete	
+11961	evaporative light scattering detector	OBI_0000547	msi_01082	delete	
+12059	obsolete_hyphenated NMR instrument platform	OBI_0000460	msi_400200	delete	
+12073	refractive index detector	OBI_0000583	msi_01081	delete	
+12400	affinity column	OBI_0000533	msi_01094	delete	
+12430	Varian VXR spectrometer	OBI_0000524	msi_400238	delete	
+12517	nano pump system	OBI_0000474	msi_01052	delete	
+12531	Varian MERCURY spectrometer	OBI_0000631	msi_400235	delete	
+12586	packed column	OBI_0000448	msi_01218	delete	
+12624	reversed phase column	OBI_0000510	msi_01106	delete	
+12704	pulsed amperometric detector	OBI_0000595	msi_01240	delete	
+13041	Bruker micro imaging probe	OBI_0000620	msi_400225	delete	
+13083	sample inlet	OBI_0000497	msi_01044	delete	
+13291	APOLLO console	OBI_0000483	msi_400249	delete	
+13357	flash pump system	OBI_0000557	msi_01048	delete	
+13390	column cartridger	OBI_0000549	msi_01054	delete	
+13444	NMR sample holder	OBI_0000484	msi_400212	delete	
+13554	imaging NMR probe	OBI_0000539	msi_400244	delete	
+13728	splitless GC injector	OBI_0000525	msi_01060	delete	
+14056	injector lubricant	OBI_0000511	msi_01118	delete	
+14311	fraction collector	OBI_0000536	msi_01073	delete	
+14328	liquid chromatography autosampler	OBI_0000494	msi_01061	delete	
+14506	Varian GEMINI spectrometer	OBI_0000477	msi_400239	delete	
+14607	Bruker NMR instrument	OBI_0000596	msi_400198	delete	
+14671	atomic emmission detector	OBI_0000642	msi_01086	delete	
+14692	AVANCE II spectrometer	OBI_0000580	msi_400197	delete	
+14924	chromatography instrument	OBI_0000485	msi_01262	delete	
+15028	y-column connector	OBI_0000581	msi_01237	delete	
+15212	preparative autosampler	OBI_0000526	msi_01062	delete	
+15226	vacuum degasser	OBI_0000495	msi_01053	delete	
+15596	in-line filter	OBI_0000538	msi_01123	delete	
+15690	gel filtration column	OBI_0000535	msi_01104	delete	
+15722	manual injection system	OBI_0000476	msi_01064	delete	
+15875	JEOL ECA NMR spectrometer	OBI_0000641	msi_400228	delete	
+15988	liquid NMR probe	OBI_0000559	msi_400242	delete	
+16005	Bruker NMR magnet	OBI_0000597	msi_400186	delete	
+16386	DISCOVERY console	OBI_0000513	msi_400247	delete	
+16753	NMR probe	OBI_0000516	msi_400014	delete	
+16766	Bruker 1mm MicroProbe	OBI_0000590	msi_400194	delete	
+17001	Bruker NMR probe	OBI_0000561	msi_400231	delete	
+17070	Bruker B-ACS system	OBI_0000492	msi_400210	delete	
+17077	organic acid column	OBI_0000465	msi_01099	delete	
+17107	indirect detection probe	OBI_0000640	msi_400281	delete	
+17124	gradient pump system	OBI_0000573	msi_01050	delete	
+17144	plunger column	OBI_0000586	msi_01108	delete	
+17269	hydrogen generator	OBI_0000608	msi_01035	delete	
+17428	glass column	OBI_0000609	msi_01101	delete	
+17480	NMR magnet	OBI_0000517	msi_400185	delete	
+17589	Bruker AMX series NMR instrument	OBI_0000514	msi_400240	delete	
+17740	rapid resolution column	OBI_0000493	msi_01102	delete	
+17879	flow high resolution probe	OBI_0000527	msi_400195	delete	
+18188	Bruker BEST NMR system	OBI_0000591	msi_400206	delete	
+18340	transfer line	OBI_0000572	msi_01235	delete	
+18430	Bruker autosampler	OBI_0000464	msi_400209	delete	
+18550	ion exchange column	OBI_0000560	msi_01105	delete	
+18730	column chromatography detector	OBI_0000463	msi_01077	delete	
+18873	chromatofocusing column	OBI_0000515	msi_01209	delete	
+18886	Bruker high resolution probe	OBI_0000480	msi_400223	delete	
+18920	size exclusion column	OBI_0000618	msi_01100	delete	
+19011	Bruker NMR Case sample changer	OBI_0000473	msi_400203	delete	
+19108	chromatography detector filter	OBI_0000592	msi_01121	delete	
+19122	trap column	OBI_0000518	msi_01261	delete	
+19357	JEOL NMR probe	OBI_0000529	msi_400232	delete	
+19473	cation exchange column	OBI_0000490	msi_01096	delete	
+19621	fluorescene detector	OBI_0000563	msi_01080	delete	
+19756	open tubular column	OBI_0000606	msi_01219	delete	
+19961	anion exchange column	OBI_0000584	msi_01095	delete	
+20130	flow probe	OBI_0000519	msi_400131	delete	
+20226	chromatography detector	OBI_0000481	msi_01012	delete	
+20298	obsolete_chromatography column according to separation criterium	OBI_0000472	msi_01256	delete	
+20586	chromatography splitter	OBI_0000619	msi_01041	delete	
+20731	cation trap column	OBI_0000593	msi_01278	delete	
+20820	direct detection NMR probe	OBI_0000491	msi_400280	delete	
+20845	obsolete_chromatography column according to separated component	OBI_0000585	msi_01257	delete	
+20867	high resolution magic angle spin probe	OBI_0000607	msi_400192	delete	
+20949	anion trap column	OBI_0000562	msi_01277	delete	
+20972	spin column	OBI_0000570	msi_01232	delete	
+21104	Liquid chromatography valve	OBI_0000528	msi_01110	delete	
+137	carbon nanotube column	OBI_0000628		delete	
+317	multiple wavelength detector	OBI_0000505		delete	
+751	electrical conductivity detector	OBI_0000565		delete	
+781	photoionization detector	OBI_0000506		delete	
+1315	nitrogen generator	OBI_0000550		delete	
+1870	fluorine-induced chemiluminescence detector	OBI_0000617		delete	
+2404	high temperature column	OBI_0000574		delete	
+3227	flame photometric detector	OBI_0000588		delete	
+3361	material separation objective	OBI_0000639		delete	
+3718	quaternary pump system	OBI_0000627		delete	
+3916	detector lamp	OBI_0000604		delete	
+4140	chromatography pump system	OBI_0000589		delete	
+4360	electron capture detector	OBI_0000509		delete	
+4450	liquid chromatography column	OBI_0000603		delete	
+4473	thermal conductivity detector	OBI_0000466		delete	
+5097	longitundinal mass measurement assay	OBI_0600026		delete	
+5483	obsolete_chromatography column according to packing material	OBI_0000502		delete	
+6002	ozone-induced chemiluminescence detector	OBI_0000598		delete	
+6015	obsolete_derived data item	OBI_0000677		delete	
+6314	syringe filter	OBI_0000543		delete	
+7034	variable wavelength detector	OBI_0000501		delete	
+7277	piston-seal	OBI_0000568		delete	
+7670	capillary pump system	OBI_0000546		delete	
+8141	dual loop autosampler	OBI_0000500		delete	
+8158	cytometer sample tube	OBI_0400091		delete	
+8324	obsolete_chromatography column according to column property	OBI_0000488		delete	
+8576	custom made column	OBI_0000621		delete	
+8596	flame ionization detector	OBI_0000521		delete	
+8688	isocratic pump system	OBI_0000556		delete	
+9337	auto injector	OBI_0000610		delete	
+9561	mass selective detector	OBI_0000569		delete	
+9889	gel permeation column	OBI_0000622		delete	
+9908	nitrogen phosphorous detector	OBI_0000489		delete	
+10029	column heater	OBI_0000633		delete	
+10063	vial	OBI_0000522		delete	
+10624	normal phase column	OBI_0000482		delete	
+11052	capillary column	OBI_0000496		delete	
+11148	material sample	OBI_0000747		delete	
+11966	evaporative light scattering detector	OBI_0000547		delete	
+12074	refractive index detector	OBI_0000583		delete	
+12405	affinity column	OBI_0000533		delete	
+12511	nano pump system	OBI_0000474		delete	
+12587	packed column	OBI_0000448		delete	
+12623	reversed phase column	OBI_0000510		delete	
+12701	pulsed amperometric detector	OBI_0000595		delete	
+13358	flash pump system	OBI_0000557		delete	
+13731	splitless GC injector	OBI_0000525		delete	
+14050	injector lubricant	OBI_0000511		delete	
+14115	obsolete_measured data item	OBI_0000126		delete	
+14317	fraction collector	OBI_0000536		delete	
+14330	liquid chromatography autosampler	OBI_0000494		delete	
+14665	atomic emmission detector	OBI_0000642		delete	
+15020	y-column connector	OBI_0000581		delete	
+15211	preparative autosampler	OBI_0000526		delete	
+15234	vacuum degasser	OBI_0000495		delete	
+15601	in-line filter	OBI_0000538		delete	
+15694	gel filtration column	OBI_0000535		delete	
+15728	manual injection system	OBI_0000476		delete	
+17080	organic acid column	OBI_0000465		delete	
+17119	gradient pump system	OBI_0000573		delete	
+17141	plunger column	OBI_0000586		delete	
+17267	hydrogen generator	OBI_0000608		delete	
+17436	glass column	OBI_0000609		delete	
+17741	rapid resolution column	OBI_0000493		delete	
+18429	Bruker autosampler	OBI_0000464		delete	
+18504	obsolete_data	OBI_0000670		delete	
+18555	ion exchange column	OBI_0000560		delete	
+18877	chromatofocusing column	OBI_0000515		delete	
+18916	size exclusion column	OBI_0000618		delete	
+19112	chromatography detector filter	OBI_0000592		delete	
+19123	trap column	OBI_0000518		delete	
+19470	cation exchange column	OBI_0000490		delete	
+19632	fluorescene detector	OBI_0000563		delete	
+19757	open tubular column	OBI_0000606		delete	
+19955	anion exchange column	OBI_0000584		delete	
+20225	chromatography detector	OBI_0000481		delete	
+20301	obsolete_chromatography column according to separation criterium	OBI_0000472		delete	
+20737	cation trap column	OBI_0000593		delete	
+20848	obsolete_chromatography column according to separated component	OBI_0000585		delete	
+20952	anion trap column	OBI_0000562		delete	
+20979	spin column	OBI_0000570		delete	
